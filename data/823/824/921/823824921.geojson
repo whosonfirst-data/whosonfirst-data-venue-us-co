@@ -2,9 +2,14 @@
   "id": 823824921,
   "type": "Feature",
   "properties": {
+    "addr:full":"725 S 10th St Gunnison CO 81230",
+    "addr:housenumber":"725",
+    "addr:postcode":"81230",
+    "addr:street":"S 10Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.937512,38.537589,-106.937512,38.537589",
     "geom:latitude":38.537589,
     "geom:longitude":-106.937512,
@@ -29,19 +34,36 @@
         "plate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554361
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5eKdHamhu2K2UqRuU634A4_38.537589_-106.937512@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447442,
-    "wof:geomhash":"2d0fd083124a703171b434557af62811",
-    "wof:hierarchy":[],
+    "wof:geomhash":"756cd9587597627e1c8fc4270d9646d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554361,
+            "region_id":85688603,
+            "venue_id":823824921
+        }
+    ],
     "wof:id":823824921,
-    "wof:lastmodified":1466419628,
+    "wof:lastmodified":1492122998,
     "wof:name":"Everclear Glass",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

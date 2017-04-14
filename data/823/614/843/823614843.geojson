@@ -2,9 +2,14 @@
   "id": 823614843,
   "type": "Feature",
   "properties": {
+    "addr:full":"1053 Co Rd 220 Durango CO 81303",
+    "addr:housenumber":"1053;220",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.833034,37.21467,-107.833034,37.21467",
     "geom:latitude":37.21467,
     "geom:longitude":-107.833034,
@@ -27,19 +32,28 @@
         "fence"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2tsnV3KVUAz7hq2fr7xfmK_37.214670_-107.833034@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442271,
-    "wof:geomhash":"65739e3ba89cdf9d7dfb2830bbf9b8dd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2bd898d6e123b8c02bf5aafad5708a9d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823614843
+        }
+    ],
     "wof:id":823614843,
-    "wof:lastmodified":1466417432,
+    "wof:lastmodified":1492118017,
     "wof:name":"Durango Fence Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

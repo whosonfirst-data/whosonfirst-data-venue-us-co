@@ -2,9 +2,14 @@
   "id": 823956411,
   "type": "Feature",
   "properties": {
+    "addr:full":"2440 Hancock Expy Colorado Springs CO 80910",
+    "addr:housenumber":"2440",
+    "addr:postcode":"80910",
+    "addr:street":"Hancock Expy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.774232,38.79658,-104.774232,38.79658",
     "geom:latitude":38.79658,
     "geom:longitude":-104.774232,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0AEk2bbJZegIPhEUGK61mk_38.796580_-104.774232@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450912,
-    "wof:geomhash":"c99355b0e18cdb50c18471d489474b55",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8051921ea5f4cab9c8340e4dc0b06032",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823956411
+        }
+    ],
     "wof:id":823956411,
-    "wof:lastmodified":1466420741,
+    "wof:lastmodified":1492120002,
     "wof:name":"ADI-Aspen Diversfield Inds",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823784439,
   "type": "Feature",
   "properties": {
+    "addr:full":"9005 Grant St Denver CO 80229",
+    "addr:housenumber":"9005",
+    "addr:postcode":"80229",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.982899,39.858936,-104.982899,39.858936",
     "geom:latitude":39.858936,
     "geom:longitude":-104.982899,
@@ -33,19 +38,36 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_05oA675ZFQtlqul83pzzZZ_39.858936_-104.982899@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446226,
-    "wof:geomhash":"a6ebdc84b301352cfa2910d40401233d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f504ecf7d05465c0ec7d0716f40e3bbf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823784439
+        }
+    ],
     "wof:id":823784439,
-    "wof:lastmodified":1466419364,
+    "wof:lastmodified":1492124677,
     "wof:name":"Musculoskeletal Surgery Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

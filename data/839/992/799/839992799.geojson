@@ -2,9 +2,14 @@
   "id": 839992799,
   "type": "Feature",
   "properties": {
+    "addr:full":"460 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"460",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.981825,39.913719,-104.981825,39.913719",
     "geom:latitude":39.913719,
     "geom:longitude":-104.981825,
@@ -28,19 +33,36 @@
         "italian"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_637kYVDP7CmXTlV1EyD7om_39.913942_-104.981827@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460916,
-    "wof:geomhash":"119f2363ed1a6c4e1c298cef3e4bc384",
-    "wof:hierarchy":[],
+    "wof:geomhash":"85e42410ef54f39bae39c484321087ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":839992799
+        }
+    ],
     "wof:id":839992799,
-    "wof:lastmodified":1466417665,
+    "wof:lastmodified":1492114426,
     "wof:name":"Fazoli's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

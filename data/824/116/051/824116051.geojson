@@ -2,9 +2,14 @@
   "id": 824116051,
   "type": "Feature",
   "properties": {
+    "addr:full":"13454 Cherry Way Thornton CO 80241",
+    "addr:housenumber":"13454",
+    "addr:postcode":"80241",
+    "addr:street":"Cherry Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.93321,39.937848,-104.93321,39.937848",
     "geom:latitude":39.937848,
     "geom:longitude":-104.93321,
@@ -27,19 +32,36 @@
         "cruise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553833
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_482GMpTEA1tp7uvc6m5zu5_39.937848_-104.933210@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454678,
-    "wof:geomhash":"9dd0c7150e3f5666359c0e782daa52ab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"66a7d60247b9b395acf5f623ebd95a82",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553833,
+            "region_id":85688603,
+            "venue_id":824116051
+        }
+    ],
     "wof:id":824116051,
-    "wof:lastmodified":1466415367,
+    "wof:lastmodified":1492131445,
     "wof:name":"Roger Cusworth Cruise One",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

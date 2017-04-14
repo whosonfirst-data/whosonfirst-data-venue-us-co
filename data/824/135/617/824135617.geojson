@@ -2,9 +2,14 @@
   "id": 824135617,
   "type": "Feature",
   "properties": {
+    "addr:full":"10521 W 104th Ave Broomfield CO 80021",
+    "addr:housenumber":"10521",
+    "addr:postcode":"80021",
+    "addr:street":"W 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.115685,39.882902,-105.115685,39.882902",
     "geom:latitude":39.882902,
     "geom:longitude":-105.115685,
@@ -28,19 +33,36 @@
         "disinfecting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4uh8VxSbkvt3Of1V34CdZ1_39.882902_-105.115685@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455354,
-    "wof:geomhash":"ef50aeca22b52e4c6d570d3acac24fb1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9b2604da03c4ae0ac04f24ada9609aaa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":824135617
+        }
+    ],
     "wof:id":824135617,
-    "wof:lastmodified":1466416315,
+    "wof:lastmodified":1492129423,
     "wof:name":"Certified Sanitation Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

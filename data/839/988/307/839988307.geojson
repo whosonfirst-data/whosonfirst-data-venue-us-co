@@ -2,9 +2,14 @@
   "id": 839988307,
   "type": "Feature",
   "properties": {
+    "addr:full":"Sheridan Blvd & W 10th Ave Denver CO 80214",
+    "addr:housenumber":"",
+    "addr:postcode":"80214",
+    "addr:street":"Sheridan;& W 10Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05325,39.73311,-105.05325,39.73311",
     "geom:latitude":39.73311,
     "geom:longitude":-105.05325,
@@ -28,7 +33,15 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750097,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3AOYxLRTVd3syEs6VdlT9F_39.733110_-105.053250@1299784598"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463460752,
     "wof:geomhash":"ea1d0985a5a51c68e0e48f7f0dacd40e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750097,
+            "region_id":85688603,
+            "venue_id":839988307
+        }
+    ],
     "wof:id":839988307,
-    "wof:lastmodified":1466417542,
+    "wof:lastmodified":1486593777,
     "wof:name":"Los Tres Portillos",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750097,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823953017,
   "type": "Feature",
   "properties": {
+    "addr:full":"149 Co Rd 27 Brighton CO 80603",
+    "addr:housenumber":"149;27",
+    "addr:postcode":"80603",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.815964,40.003075,-104.815964,40.003075",
     "geom:latitude":40.003075,
     "geom:longitude":-104.815964,
@@ -32,19 +37,28 @@
         "utility"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1BhFXPrKp5X4XJITqFrmBU_40.003075_-104.815964@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450845,
-    "wof:geomhash":"48b377b7c7208a709c81cc07104f8189",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c46587950eba821ce1530a26dd8da145",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":823953017
+        }
+    ],
     "wof:id":823953017,
-    "wof:lastmodified":1466420643,
+    "wof:lastmodified":1492119555,
     "wof:name":"Tree Specialists Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555409,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

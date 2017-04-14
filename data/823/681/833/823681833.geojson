@@ -2,9 +2,14 @@
   "id": 823681833,
   "type": "Feature",
   "properties": {
+    "addr:full":"2903 Delta Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2903",
+    "addr:postcode":"80910",
+    "addr:street":"Delta Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.775934,38.794333,-104.775934,38.794333",
     "geom:latitude":38.794333,
     "geom:longitude":-104.775934,
@@ -33,19 +38,36 @@
         "display"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4gWTrJdOKgLkm4lKfHb7vU_38.794333_-104.775934@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443825,
-    "wof:geomhash":"08bb8911e4803a6c8d178c2719a5f319",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09627a9efe5b6b52c5f44769ac0b5f3c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823681833
+        }
+    ],
     "wof:id":823681833,
-    "wof:lastmodified":1466418386,
+    "wof:lastmodified":1492126063,
     "wof:name":"Skyline Signs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823908297,
   "type": "Feature",
   "properties": {
+    "addr:full":"1435 Grand Ave Norwood CO 81423",
+    "addr:housenumber":"1435",
+    "addr:postcode":"81423",
+    "addr:street":"Grand Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.291869,38.130816,-108.291869,38.130816",
     "geom:latitude":38.130816,
     "geom:longitude":-108.291869,
@@ -27,19 +32,28 @@
         "grocer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555399
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6omZEGD5rW05WmAsL0WYq8_38.130816_-108.291869@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449682,
-    "wof:geomhash":"28782914c77e1c0411d4a40de0907547",
-    "wof:hierarchy":[],
+    "wof:geomhash":"32877e85b2516c6a8b9b07835e59ee94",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555399,
+            "venue_id":823908297
+        }
+    ],
     "wof:id":823908297,
-    "wof:lastmodified":1466420247,
+    "wof:lastmodified":1492117278,
     "wof:name":"Clark's Norwood Market",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555399,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

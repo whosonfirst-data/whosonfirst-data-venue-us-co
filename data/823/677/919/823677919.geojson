@@ -2,9 +2,14 @@
   "id": 823677919,
   "type": "Feature",
   "properties": {
+    "addr:full":"51300 E 56th Ave Bennett CO 80102",
+    "addr:housenumber":"51300",
+    "addr:postcode":"80102",
+    "addr:street":"E 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.376916,39.796156,-104.376916,39.796156",
     "geom:latitude":39.796156,
     "geom:longitude":-104.376916,
@@ -28,19 +33,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553331
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_70uVj0IwItFLxb7sdMOmBL_39.796156_-104.376916@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443744,
-    "wof:geomhash":"29813bbe29d31230a8f5b98566aa1c37",
-    "wof:hierarchy":[],
+    "wof:geomhash":"43b35d3e4ce2696ae00a8ac31b5da3b4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553331,
+            "venue_id":823677919
+        }
+    ],
     "wof:id":823677919,
-    "wof:lastmodified":1466418396,
+    "wof:lastmodified":1492126469,
     "wof:name":"Toft Farm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553331,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

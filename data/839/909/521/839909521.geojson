@@ -2,9 +2,14 @@
   "id": 839909521,
   "type": "Feature",
   "properties": {
+    "addr:full":"7420 Chase Dr Arvada CO 80003",
+    "addr:housenumber":"7420",
+    "addr:postcode":"80003",
+    "addr:street":"Chase Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05782,39.831557,-105.05782,39.831557",
     "geom:latitude":39.831557,
     "geom:longitude":-105.05782,
@@ -27,19 +32,36 @@
         "equipment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ZEy7OvNNQWlOCENEASsF0_39.831557_-105.057820@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457096,
-    "wof:geomhash":"fc3a940fca79bbc365293b126af80e11",
-    "wof:hierarchy":[],
+    "wof:geomhash":"37fdf2b20c932546b29f73a835eda689",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554605,
+            "region_id":85688603,
+            "venue_id":839909521
+        }
+    ],
     "wof:id":839909521,
-    "wof:lastmodified":1466413488,
+    "wof:lastmodified":1492112728,
     "wof:name":"Sight & Sound Imaging",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

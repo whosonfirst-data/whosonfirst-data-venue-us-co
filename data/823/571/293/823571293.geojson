@@ -2,9 +2,14 @@
   "id": 823571293,
   "type": "Feature",
   "properties": {
+    "addr:full":"969 E 133rd Ave Thornton CO 80241",
+    "addr:housenumber":"969",
+    "addr:postcode":"80241",
+    "addr:street":"E 133Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974778,39.938448,-104.974778,39.938448",
     "geom:latitude":39.938448,
     "geom:longitude":-104.974778,
@@ -27,19 +32,36 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5I1rblkWaMqcb33Dv4BE45_39.938448_-104.974778@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441215,
-    "wof:geomhash":"7f5095ab450b3d997f4a5011943ee6c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"868233746ef19de307f22c76b6f9d96a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":823571293
+        }
+    ],
     "wof:id":823571293,
-    "wof:lastmodified":1466416426,
+    "wof:lastmodified":1492125264,
     "wof:name":"Almost Home Realty",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823670691,
   "type": "Feature",
   "properties": {
+    "addr:full":"11133 Clermont Dr Denver CO 80233",
+    "addr:housenumber":"11133",
+    "addr:postcode":"80233",
+    "addr:street":"Clermont Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.93474,39.89823,-104.93474,39.89823",
     "geom:latitude":39.89823,
     "geom:longitude":-104.93474,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553691
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4nX2aU62TiXNUxevWc7JTH_39.898230_-104.934740@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443585,
-    "wof:geomhash":"7be69205763b3a9fb83d45f6d9185643",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3ccb765716c0ca4d41c64a3185bfcae0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553691,
+            "region_id":85688603,
+            "venue_id":823670691
+        }
+    ],
     "wof:id":823670691,
-    "wof:lastmodified":1466418224,
+    "wof:lastmodified":1492126974,
     "wof:name":"TRM Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553691,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

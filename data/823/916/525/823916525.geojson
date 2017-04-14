@@ -2,9 +2,14 @@
   "id": 823916525,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 Sheol St Durango CO 81301",
+    "addr:housenumber":"500",
+    "addr:postcode":"co 81301",
+    "addr:street":"Sheol St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.814413,37.627227,-107.814413,37.627227",
     "geom:latitude":37.627227,
     "geom:longitude":-107.814413,
@@ -27,19 +32,38 @@
         "investor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554647,
+        85688603,
+        85888401,
+        102084019
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2eklmQuvLgd4gmvKaKRddU_37.627227_-107.814413@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449916,
-    "wof:geomhash":"c460102c1b742ba3bfbde94f16df80d4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4be0b9ab4bf011a96ed54134e88457f9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554647,
+            "venue_id":823916525
+        },
+        {
+            "country_id":85633793,
+            "county_id":102084019,
+            "neighbourhood_id":85888401,
+            "region_id":85688603,
+            "venue_id":823916525
+        }
+    ],
     "wof:id":823916525,
-    "wof:lastmodified":1466420363,
+    "wof:lastmodified":1492120863,
     "wof:name":"Elk Point Investments LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

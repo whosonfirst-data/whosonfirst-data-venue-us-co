@@ -2,9 +2,14 @@
   "id": 823749889,
   "type": "Feature",
   "properties": {
+    "addr:full":"17501 Co Rd 13 Platteville CO 80651",
+    "addr:housenumber":"17501;13",
+    "addr:postcode":"80651",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.941793,40.257521,-104.941793,40.257521",
     "geom:latitude":40.257521,
     "geom:longitude":-104.941793,
@@ -27,19 +32,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7gIo9fbAv7HHOWldDYSvRH_40.257521_-104.941793@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445383,
-    "wof:geomhash":"7ed2a3ca301817557cb0ad88e4c75bd4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"acb5bb395dfd79f045d7e76ff99c5ec2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823749889
+        }
+    ],
     "wof:id":823749889,
-    "wof:lastmodified":1466418924,
+    "wof:lastmodified":1492116020,
     "wof:name":"P & C LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

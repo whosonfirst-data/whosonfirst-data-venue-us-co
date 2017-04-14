@@ -2,9 +2,14 @@
   "id": 824081891,
   "type": "Feature",
   "properties": {
+    "addr:full":"5707 Corona Ct Fort Collins CO 80528",
+    "addr:housenumber":"5707",
+    "addr:postcode":"80528",
+    "addr:street":"Corona Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041324,40.507345,-105.041324,40.507345",
     "geom:latitude":40.507345,
     "geom:longitude":-105.041324,
@@ -28,19 +33,36 @@
         "filing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554731
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_02baaGi20bzFMIWGJE8HTO_40.507345_-105.041324@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453893,
-    "wof:geomhash":"d680cbda861b1e6b9469af60f6004115",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c370cbd0ee51469c63e86046f598fddb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554731,
+            "region_id":85688603,
+            "venue_id":824081891
+        }
+    ],
     "wof:id":824081891,
-    "wof:lastmodified":1466414746,
+    "wof:lastmodified":1492129191,
     "wof:name":"Naylor Associates",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554731,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

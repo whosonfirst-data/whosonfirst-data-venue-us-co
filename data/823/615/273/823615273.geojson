@@ -2,9 +2,14 @@
   "id": 823615273,
   "type": "Feature",
   "properties": {
+    "addr:full":"4155 W 76th Ave Westminster CO 80030",
+    "addr:housenumber":"4155",
+    "addr:postcode":"80030",
+    "addr:street":"W 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.043058,39.834608,-105.043058,39.834608",
     "geom:latitude":39.834608,
     "geom:longitude":-105.043058,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553591
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6nKSNH2nlXzZsgt5Bx2cgX_39.834608_-105.043058@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442281,
-    "wof:geomhash":"914fd05ed08bce8305ea434e53189270",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9af2978833a6f8e69508fbf67374c769",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553591,
+            "region_id":85688603,
+            "venue_id":823615273
+        }
+    ],
     "wof:id":823615273,
-    "wof:lastmodified":1466417375,
+    "wof:lastmodified":1492120778,
     "wof:name":"Sigys Machine Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553591,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

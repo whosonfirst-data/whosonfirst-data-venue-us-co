@@ -2,9 +2,14 @@
   "id": 824086339,
   "type": "Feature",
   "properties": {
+    "addr:full":"476 Bing St Grand Junction CO 81504",
+    "addr:housenumber":"476",
+    "addr:postcode":"81504",
+    "addr:street":"Bing St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.463159,39.077284,-108.463159,39.077284",
     "geom:latitude":39.077284,
     "geom:longitude":-108.463159,
@@ -27,19 +32,36 @@
         "handyman"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4NEvhDe5d649KsIVagN4Eg_39.077284_-108.463159@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454004,
-    "wof:geomhash":"24d744e0b9ffd575c49ef8ea8e835204",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a8512a0c01bb7c876575afb671ca596",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":824086339
+        }
+    ],
     "wof:id":824086339,
-    "wof:lastmodified":1466414904,
+    "wof:lastmodified":1492131589,
     "wof:name":"Roberts Maintenance Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823661537,
   "type": "Feature",
   "properties": {
+    "addr:full":"925 16th St Greeley CO 80631",
+    "addr:housenumber":"925",
+    "addr:postcode":"80631",
+    "addr:street":"16Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.694433,40.41383,-104.694433,40.41383",
     "geom:latitude":40.41383,
     "geom:longitude":-104.694433,
@@ -29,12 +34,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,8 +47,16 @@
     },
     "wof:country":"US",
     "wof:created":1463443370,
-    "wof:geomhash":"f9b9bfe25f0a3cc5324ebbe8a52b3cf8",
+    "wof:geomhash":"6209c34cba9172674c2686c47af30e57",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823661537
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -52,20 +65,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823661537
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823661537
         }
     ],
     "wof:id":823661537,
-    "wof:lastmodified":1466418203,
+    "wof:lastmodified":1492117061,
     "wof:name":"Yesterday & Today's Treasures",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

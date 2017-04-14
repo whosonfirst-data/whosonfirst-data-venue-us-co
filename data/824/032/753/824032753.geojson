@@ -2,9 +2,14 @@
   "id": 824032753,
   "type": "Feature",
   "properties": {
+    "addr:full":"3123 28th St Boulder CO 80301",
+    "addr:housenumber":"3123",
+    "addr:postcode":"80301",
+    "addr:street":"28Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258495,40.030529,-105.258495,40.030529",
     "geom:latitude":40.030529,
     "geom:longitude":-105.258495,
@@ -27,19 +32,36 @@
         "manicuring"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_71yo8JBUz5G0agaZEeCtWJ_40.030529_-105.258495@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452733,
-    "wof:geomhash":"ea07d1e4b63c223bb73416161ffd0683",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a9167733ed12300822553ca5ac59d3dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":824032753
+        }
+    ],
     "wof:id":824032753,
-    "wof:lastmodified":1466413914,
+    "wof:lastmodified":1492128975,
     "wof:name":"Paris Nails",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

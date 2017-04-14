@@ -2,9 +2,14 @@
   "id": 823614343,
   "type": "Feature",
   "properties": {
+    "addr:full":"10685 E 51st Ave Denver CO 80239",
+    "addr:housenumber":"10685",
+    "addr:postcode":"80239",
+    "addr:street":"E 51St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.865585,39.790389,-104.865585,39.790389",
     "geom:latitude":39.790389,
     "geom:longitude":-104.865585,
@@ -28,7 +33,15 @@
         "air"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0JREalBgvWsuIuP8cH1ksQ_39.790389_-104.865585@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463442255,
     "wof:geomhash":"402dac0e6fa3c70c01dd809e43189022",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823614343
+        }
+    ],
     "wof:id":823614343,
-    "wof:lastmodified":1466417390,
+    "wof:lastmodified":1491887466,
     "wof:name":"Q W Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823850633,
   "type": "Feature",
   "properties": {
+    "addr:full":"1777 W 68th Ave Denver CO 80221",
+    "addr:housenumber":"1777",
+    "addr:postcode":"80221",
+    "addr:street":"W 68Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006261,39.82006,-105.006261,39.82006",
     "geom:latitude":39.82006,
     "geom:longitude":-105.006261,
@@ -27,19 +32,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553793
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7MoYGZFUhaBc3AmfEAMihK_39.820060_-105.006261@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448239,
-    "wof:geomhash":"9ce4d1ba42c654137fb2daae4faa80f2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6ebf835fd94aad8d8acf6197d8c39288",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553793,
+            "region_id":85688603,
+            "venue_id":823850633
+        }
+    ],
     "wof:id":823850633,
-    "wof:lastmodified":1466419890,
+    "wof:lastmodified":1492117803,
     "wof:name":"All American Mini Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553793,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

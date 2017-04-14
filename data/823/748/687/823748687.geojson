@@ -2,9 +2,14 @@
   "id": 823748687,
   "type": "Feature",
   "properties": {
+    "addr:full":"214 Cypress Cir Broomfield CO 80020",
+    "addr:housenumber":"214",
+    "addr:postcode":"80020",
+    "addr:street":"Cypress Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066968,39.909438,-105.066968,39.909438",
     "geom:latitude":39.909438,
     "geom:longitude":-105.066968,
@@ -27,19 +32,36 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554175
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1tFY63GSPTcH4txuyCCVOP_39.909438_-105.066968@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445344,
-    "wof:geomhash":"98b7381f82d1df04642bc876298d09a3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f2dd074649c47c2f7a8da98c216ef22",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554175,
+            "region_id":85688603,
+            "venue_id":823748687
+        }
+    ],
     "wof:id":823748687,
-    "wof:lastmodified":1466418883,
+    "wof:lastmodified":1492125082,
     "wof:name":"Outdoor Touch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554175,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

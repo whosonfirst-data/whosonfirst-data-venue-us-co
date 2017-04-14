@@ -2,9 +2,14 @@
   "id": 823475713,
   "type": "Feature",
   "properties": {
+    "addr:full":"10682 Loren Ln Denver CO 80233",
+    "addr:housenumber":"10682",
+    "addr:postcode":"80233",
+    "addr:street":"Loren Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.969814,39.890692,-104.969814,39.890692",
     "geom:latitude":39.890692,
     "geom:longitude":-104.969814,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1cbnaVHNF5XbnvVeE7PxrK_39.890692_-104.969814@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438969,
-    "wof:geomhash":"db9c6c6b70db7e304507f5a5b1eb2d4d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c4692c663ef581d20b48f27a065da0d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553741,
+            "region_id":85688603,
+            "venue_id":823475713
+        }
+    ],
     "wof:id":823475713,
-    "wof:lastmodified":1466412866,
+    "wof:lastmodified":1492122777,
     "wof:name":"Jorge Tarango Carpentry LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

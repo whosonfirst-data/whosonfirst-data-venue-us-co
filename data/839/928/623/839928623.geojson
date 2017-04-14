@@ -2,9 +2,14 @@
   "id": 839928623,
   "type": "Feature",
   "properties": {
+    "addr:full":"1000 E Grand Ave Mancos CO 81328",
+    "addr:housenumber":"1000",
+    "addr:postcode":"81328",
+    "addr:street":"E Grand Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.302196,37.345022,-108.302196,37.345022",
     "geom:latitude":37.345022,
     "geom:longitude":-108.302196,
@@ -27,19 +32,36 @@
         "welding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928921,
+        102084099,
+        420555115
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2oeRU9IuRmxufJViWR9XPD_37.345022_-108.302196@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457889,
-    "wof:geomhash":"b8ceb3833e706debe76877d9c5ef6f72",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7317b3d6f46cd5a50c61e016e8f69267",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928921,
+            "neighbourhood_id":420555115,
+            "region_id":85688603,
+            "venue_id":839928623
+        }
+    ],
     "wof:id":839928623,
-    "wof:lastmodified":1466413773,
+    "wof:lastmodified":1492111902,
     "wof:name":"Boyd's Welding",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

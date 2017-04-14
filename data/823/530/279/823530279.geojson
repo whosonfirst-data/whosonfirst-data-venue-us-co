@@ -2,9 +2,14 @@
   "id": 823530279,
   "type": "Feature",
   "properties": {
+    "addr:full":"7030 Tower Rd Denver CO 80249",
+    "addr:housenumber":"7030",
+    "addr:postcode":"80249",
+    "addr:street":"Tower Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.771823,39.824584,-104.771823,39.824584",
     "geom:latitude":39.824584,
     "geom:longitude":-104.771823,
@@ -26,12 +31,14 @@
     "sg:website":"www.daysinn.com",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        102531189,
+        1108750063,
         102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85888349
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +49,21 @@
     "wof:geomhash":"d869e3aace132f22d40de6ae8419bc99",
     "wof:hierarchy":[
         {
+            "campus_id":102531189,
             "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85888349,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750063,
             "region_id":85688603,
             "venue_id":823530279
         }
     ],
     "wof:id":823530279,
-    "wof:lastmodified":1466415210,
+    "wof:lastmodified":1491919529,
     "wof:name":"Days Inn",
-    "wof:parent_id":85888349,
+    "wof:parent_id":102531189,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

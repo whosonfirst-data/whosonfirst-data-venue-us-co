@@ -2,9 +2,14 @@
   "id": 823562831,
   "type": "Feature",
   "properties": {
+    "addr:full":"6066 W 55th Ave Arvada CO 80002",
+    "addr:housenumber":"6066",
+    "addr:postcode":"80002",
+    "addr:street":"W 55Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066251,39.796405,-105.066251,39.796405",
     "geom:latitude":39.796405,
     "geom:longitude":-105.066251,
@@ -29,19 +34,34 @@
         "equipment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6MxecNz3n9S8EveC8yNtpU_39.796405_-105.066251@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441013,
-    "wof:geomhash":"e7b16e67028e9d6bcba097ddac9eeb20",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3eff8115d3d16247ce63109c8f1d2e93",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823562831
+        }
+    ],
     "wof:id":823562831,
-    "wof:lastmodified":1466416081,
+    "wof:lastmodified":1492122687,
     "wof:name":"Star Grahic Supply",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

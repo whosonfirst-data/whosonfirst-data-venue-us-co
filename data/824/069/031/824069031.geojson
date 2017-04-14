@@ -2,9 +2,14 @@
   "id": 824069031,
   "type": "Feature",
   "properties": {
+    "addr:full":"2906 Co Rd 307 Durango CO 81303",
+    "addr:housenumber":"2906;307",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.78678,37.149989,-107.78678,37.149989",
     "geom:latitude":37.149989,
     "geom:longitude":-107.78678,
@@ -29,19 +34,28 @@
         "gas"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3N6qTndLgCa9PONmR1c9l0_37.149989_-107.786780@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453588,
-    "wof:geomhash":"f49abf53a4524125a6bf451d18523e27",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58a48a8f66e8c5d67254f7fa0a3bb3e6",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":824069031
+        }
+    ],
     "wof:id":824069031,
-    "wof:lastmodified":1466414547,
+    "wof:lastmodified":1492130797,
     "wof:name":"BP",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

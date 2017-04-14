@@ -2,9 +2,14 @@
   "id": 823851195,
   "type": "Feature",
   "properties": {
+    "addr:full":"748 Sheridan Blvd Denver CO 80214",
+    "addr:housenumber":"748",
+    "addr:postcode":"80214",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053254,39.727349,-105.053254,39.727349",
     "geom:latitude":39.727349,
     "geom:longitude":-105.053254,
@@ -27,19 +32,36 @@
         "battery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        85878615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6aZpYZ4LQzllmGDNMjmW5N_39.727349_-105.053254@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448254,
-    "wof:geomhash":"3fb794eab26daad2d3fe1001b04ee875",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb4b28497d0ccd675c68abd4e7fc83ba",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":85878615,
+            "region_id":85688603,
+            "venue_id":823851195
+        }
+    ],
     "wof:id":823851195,
-    "wof:lastmodified":1466419794,
+    "wof:lastmodified":1492127322,
     "wof:name":"Reco Battery Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85878615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

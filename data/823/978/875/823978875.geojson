@@ -2,9 +2,14 @@
   "id": 823978875,
   "type": "Feature",
   "properties": {
+    "addr:full":"12023 Krameria St Brighton CO 80602",
+    "addr:housenumber":"12023",
+    "addr:postcode":"80602",
+    "addr:street":"Krameria St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.916231,39.915057,-104.916231,39.915057",
     "geom:latitude":39.915057,
     "geom:longitude":-104.916231,
@@ -28,19 +33,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553835
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0bycq5LdA6jCmgiDeknpaj_39.915057_-104.916231@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451447,
-    "wof:geomhash":"0ac4398fab07edb7f2e3e37b8f0d54f6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d4676d75ae44fd1c23e3fc6e4137a4a6",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553835,
+            "venue_id":823978875
+        }
+    ],
     "wof:id":823978875,
-    "wof:lastmodified":1466420919,
+    "wof:lastmodified":1492120728,
     "wof:name":"Silver Platter Fundraising",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553835,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824116721,
   "type": "Feature",
   "properties": {
+    "addr:full":"1001 W 70th Ave Denver CO 80221",
+    "addr:housenumber":"1001",
+    "addr:postcode":"80221",
+    "addr:street":"W 70Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001979,39.823614,-105.001979,39.823614",
     "geom:latitude":39.823614,
     "geom:longitude":-105.001979,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7figqU7LWdNzUnxuE9Aokl_39.823614_-105.001979@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454696,
-    "wof:geomhash":"f20867f2e6b42eb6d599db30b15e555a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"26cad314a94b748bccec61a75bcef6f3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":824116721
+        }
+    ],
     "wof:id":824116721,
-    "wof:lastmodified":1466415455,
+    "wof:lastmodified":1492131430,
     "wof:name":"Weiderspon Plumbing & Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

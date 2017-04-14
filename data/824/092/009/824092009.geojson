@@ -2,9 +2,14 @@
   "id": 824092009,
   "type": "Feature",
   "properties": {
+    "addr:full":"7108 Otis Ct Arvada CO 80003",
+    "addr:housenumber":"7108",
+    "addr:postcode":"80003",
+    "addr:street":"Otis Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.070992,39.825787,-105.070992,39.825787",
     "geom:latitude":39.825787,
     "geom:longitude":-105.070992,
@@ -27,19 +32,36 @@
         "communications"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554587
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_16pUhvP438pyrRe7thVMeg_39.825787_-105.070992@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454130,
-    "wof:geomhash":"b5c9fc329a24ef1718efccb732d99611",
-    "wof:hierarchy":[],
+    "wof:geomhash":"15cd2787a14948a82117ef91e08f4c1c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554587,
+            "region_id":85688603,
+            "venue_id":824092009
+        }
+    ],
     "wof:id":824092009,
-    "wof:lastmodified":1466415038,
+    "wof:lastmodified":1492128995,
     "wof:name":"Northern Colorado Cabling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554587,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

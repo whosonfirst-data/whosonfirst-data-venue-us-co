@@ -2,9 +2,14 @@
   "id": 839974001,
   "type": "Feature",
   "properties": {
+    "addr:full":"725 W Orchard Ave Grand Junction CO 81505",
+    "addr:housenumber":"725",
+    "addr:postcode":"81505",
+    "addr:street":"W Orchard Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.578934,39.084531,-108.578934,39.084531",
     "geom:latitude":39.084531,
     "geom:longitude":-108.578934,
@@ -28,19 +33,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554951
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1z6c5duZQCsQQxBiDer8We_39.084531_-108.578934@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460177,
-    "wof:geomhash":"3ebb81e147f1522eb134a17761f85eb4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f70f2a796795bf4f75bb176d518be1a8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554951,
+            "region_id":85688603,
+            "venue_id":839974001
+        }
+    ],
     "wof:id":839974001,
-    "wof:lastmodified":1466416711,
+    "wof:lastmodified":1492110889,
     "wof:name":"Past To Present Imaging",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554951,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

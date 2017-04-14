@@ -2,9 +2,14 @@
   "id": 823500937,
   "type": "Feature",
   "properties": {
+    "addr:full":"4700 W 41st Ave Denver CO 80212",
+    "addr:housenumber":"4700",
+    "addr:postcode":"80212",
+    "addr:street":"W 41St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.048603,39.772954,-105.048603,39.772954",
     "geom:latitude":39.772954,
     "geom:longitude":-105.048603,
@@ -27,19 +32,38 @@
         "refrigerating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871261,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_14Izo39WD2tVAmZzib8pao_39.772954_-105.048603@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439592,
-    "wof:geomhash":"5ee7c8e4059af9b5628e5638359dfa38",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c16dfeca7502be982e1c9e805857778a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871261,
+            "region_id":85688603,
+            "venue_id":823500937
+        }
+    ],
     "wof:id":823500937,
-    "wof:lastmodified":1466414278,
+    "wof:lastmodified":1492125553,
     "wof:name":"Cal-Tech Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871261,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

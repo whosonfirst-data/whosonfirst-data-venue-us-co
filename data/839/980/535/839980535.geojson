@@ -2,9 +2,14 @@
   "id": 839980535,
   "type": "Feature",
   "properties": {
+    "addr:full":"4801 Morrison Rd Denver CO 80219",
+    "addr:housenumber":"4801",
+    "addr:postcode":"80219",
+    "addr:street":"Morrison Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.048735,39.700102,-105.048735,39.700102",
     "geom:latitude":39.700102,
     "geom:longitude":-105.048735,
@@ -28,7 +33,15 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1dniiFWlr604MEqLSOaqmh_39.700102_-105.048562@1293134755"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463460441,
     "wof:geomhash":"729fcf3695dcfdd19a59e7c046ccae91",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":839980535
+        }
+    ],
     "wof:id":839980535,
-    "wof:lastmodified":1466416805,
+    "wof:lastmodified":1491876152,
     "wof:name":"MGM's Restaurant & Lounge",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

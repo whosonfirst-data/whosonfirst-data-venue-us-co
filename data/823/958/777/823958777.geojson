@@ -2,9 +2,14 @@
   "id": 823958777,
   "type": "Feature",
   "properties": {
+    "addr:full":"1490 Martin Ave Burlington CO 80807",
+    "addr:housenumber":"1490",
+    "addr:postcode":"80807",
+    "addr:street":"Martin Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.268405,39.305867,-102.268405,39.305867",
     "geom:latitude":39.305867,
     "geom:longitude":-102.268405,
@@ -30,17 +35,32 @@
         "dev"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928925,
+        102085235
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_07pxfCLDDl39XkXu93S8C4_39.305867_-102.268405@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450994,
-    "wof:geomhash":"e65bc1d4a4933ca7619decf5c708a943",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ee7f866f451c47e0260d73f79bafa80a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085235,
+            "locality_id":85928925,
+            "region_id":85688603,
+            "venue_id":823958777
+        }
+    ],
     "wof:id":823958777,
-    "wof:lastmodified":1466420750,
+    "wof:lastmodified":1492124235,
     "wof:name":"Eastern Colorado Svc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

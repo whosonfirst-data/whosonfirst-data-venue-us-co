@@ -2,9 +2,14 @@
   "id": 823621253,
   "type": "Feature",
   "properties": {
+    "addr:full":"9001 E 96th Ave Henderson CO 80640",
+    "addr:housenumber":"9001",
+    "addr:postcode":"80640",
+    "addr:street":"E 96Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.881668,39.87074,-104.881668,39.87074",
     "geom:latitude":39.87074,
     "geom:longitude":-104.881668,
@@ -28,19 +33,28 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553497
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Lp8YeTXhdtnBv1K6UiN6r_39.870740_-104.881668@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442429,
-    "wof:geomhash":"8804ea3192ce22851d35c79a9a195192",
-    "wof:hierarchy":[],
+    "wof:geomhash":"db0f62af4936d682172ff33df435693a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553497,
+            "venue_id":823621253
+        }
+    ],
     "wof:id":823621253,
-    "wof:lastmodified":1466417468,
+    "wof:lastmodified":1492124862,
     "wof:name":"H V H Transportation Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553497,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

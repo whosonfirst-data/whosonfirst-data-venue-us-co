@@ -2,9 +2,14 @@
   "id": 823847781,
   "type": "Feature",
   "properties": {
+    "addr:full":"3030 Center Green Dr Boulder CO 80301",
+    "addr:housenumber":"3030",
+    "addr:postcode":"80301",
+    "addr:street":"Center Green Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.246342,40.030725,-105.246342,40.030725",
     "geom:latitude":40.030725,
     "geom:longitude":-105.246342,
@@ -27,19 +32,36 @@
         "operation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554149
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6O1db6r6wDiw46W0UEyAEw_40.030725_-105.246342@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448165,
-    "wof:geomhash":"6202d08fa9b5cca8e4947d9a442a6340",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8bb0d1db03519197772049580ef0309b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554149,
+            "region_id":85688603,
+            "venue_id":823847781
+        }
+    ],
     "wof:id":823847781,
-    "wof:lastmodified":1466419768,
+    "wof:lastmodified":1492124322,
     "wof:name":"Marriott",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554149,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

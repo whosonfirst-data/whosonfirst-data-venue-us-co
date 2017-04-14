@@ -2,9 +2,14 @@
   "id": 839931481,
   "type": "Feature",
   "properties": {
+    "addr:full":"13725 Co Rd 12 Fort Lupton CO 80621",
+    "addr:housenumber":"13725;12",
+    "addr:postcode":"80621",
+    "addr:street":"Co Rd;Fort Lupton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.797851,40.073017,-104.797851,40.073017",
     "geom:latitude":40.073017,
     "geom:longitude":-104.797851,
@@ -29,19 +34,28 @@
         "salvage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0o6YwQ2pEzTlF0FWLRhRHf_40.073017_-104.797851@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458055,
-    "wof:geomhash":"bf0f042e9134dbade9c525f916be405e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0efe22bfe492f0c160de4e5e8ab45976",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":839931481
+        }
+    ],
     "wof:id":839931481,
-    "wof:lastmodified":1466414204,
+    "wof:lastmodified":1492111516,
     "wof:name":"Thomas Construction Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

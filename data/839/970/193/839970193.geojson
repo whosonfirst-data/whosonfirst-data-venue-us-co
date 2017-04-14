@@ -2,9 +2,14 @@
   "id": 839970193,
   "type": "Feature",
   "properties": {
+    "addr:full":"337 Apache Pl Brighton CO 80603",
+    "addr:housenumber":"337",
+    "addr:postcode":"80603",
+    "addr:street":"Apache Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.726893,40.007065,-104.726893,40.007065",
     "geom:latitude":40.007065,
     "geom:longitude":-104.726893,
@@ -27,19 +32,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6vig8fQMbQY3syFcYibVUc_40.007065_-104.726893@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460022,
-    "wof:geomhash":"3c576cc14349a53dc6c4e76116ace52d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f4f7b6147162c0edcebe8d9ced1e605c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555425,
+            "venue_id":839970193
+        }
+    ],
     "wof:id":839970193,
-    "wof:lastmodified":1466416218,
+    "wof:lastmodified":1492110685,
     "wof:name":"Wolf Pack Heating Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823548139,
   "type": "Feature",
   "properties": {
+    "addr:full":"2004 W 120th Ave Denver CO 80234",
+    "addr:housenumber":"2004",
+    "addr:postcode":"80234",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.014422,39.913846,-105.014422,39.913846",
     "geom:latitude":39.913846,
     "geom:longitude":-105.014422,
@@ -28,19 +33,36 @@
         "manicuring"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6WPjKleMYoh9UEo28AUHwB_39.913846_-105.014422@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440656,
-    "wof:geomhash":"b7efeceaeb2d8efe119063799f2866ca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"47aacd60baf885aee7d26834967ac749",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823548139
+        }
+    ],
     "wof:id":823548139,
-    "wof:lastmodified":1466415670,
+    "wof:lastmodified":1492126402,
     "wof:name":"Nail Studio At The Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

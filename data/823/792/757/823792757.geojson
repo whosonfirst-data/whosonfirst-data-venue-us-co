@@ -2,9 +2,14 @@
   "id": 823792757,
   "type": "Feature",
   "properties": {
+    "addr:full":"7981 Stuart Pl Westminster CO 80030",
+    "addr:housenumber":"7981",
+    "addr:postcode":"80030",
+    "addr:street":"Stuart Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.046029,39.838275,-105.046029,39.838275",
     "geom:latitude":39.838275,
     "geom:longitude":-105.046029,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553567
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ibEo2TKp7Gl2YJHnX0dzT_39.838275_-105.046029@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446507,
-    "wof:geomhash":"dcac87e2d75adccea4b38c070c0416df",
-    "wof:hierarchy":[],
+    "wof:geomhash":"573e8f5910a9a01153bb38719f8aa07c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553567,
+            "region_id":85688603,
+            "venue_id":823792757
+        }
+    ],
     "wof:id":823792757,
-    "wof:lastmodified":1466419315,
+    "wof:lastmodified":1492120804,
     "wof:name":"Clarks Construction LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553567,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

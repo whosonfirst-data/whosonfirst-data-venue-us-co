@@ -2,9 +2,14 @@
   "id": 823887247,
   "type": "Feature",
   "properties": {
+    "addr:full":"11813 Hwy 666 Cortez CO 81321",
+    "addr:housenumber":"11813",
+    "addr:postcode":"81321",
+    "addr:street":"Hwy 666",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.610756,37.384932,-108.610756,37.384932",
     "geom:latitude":37.384932,
     "geom:longitude":-108.610756,
@@ -28,19 +33,28 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_09L5q4XHxlPNvvNyfcuxZ5_37.384932_-108.610756@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449130,
-    "wof:geomhash":"b3bab777fddee13fcd7c8be356f5ed8f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"25667672ec76728fb3d9f41bc3e5c2bc",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555117,
+            "venue_id":823887247
+        }
+    ],
     "wof:id":823887247,
-    "wof:lastmodified":1466420019,
+    "wof:lastmodified":1492122495,
     "wof:name":"Southwest Motorsports",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555117,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

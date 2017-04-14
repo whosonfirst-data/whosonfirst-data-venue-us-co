@@ -2,9 +2,14 @@
   "id": 824143331,
   "type": "Feature",
   "properties": {
+    "addr:full":"3596 E 90th Pl Denver CO 80229",
+    "addr:housenumber":"3596",
+    "addr:postcode":"80229",
+    "addr:street":"E 90Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.94674,39.859532,-104.94674,39.859532",
     "geom:latitude":39.859532,
     "geom:longitude":-104.94674,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553637
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5fTMrV6wzU7Tzo6hLYv826_39.859532_-104.946740@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455631,
-    "wof:geomhash":"263304927f2a8b040fa50d4feffc70cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b76603769378ab33df4d10ec12e0254d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553637,
+            "region_id":85688603,
+            "venue_id":824143331
+        }
+    ],
     "wof:id":824143331,
-    "wof:lastmodified":1466416557,
+    "wof:lastmodified":1492130677,
     "wof:name":"Lindsey Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553637,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

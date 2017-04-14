@@ -2,9 +2,14 @@
   "id": 824005939,
   "type": "Feature",
   "properties": {
+    "addr:full":"378 S 29th Ave Brighton CO 80601",
+    "addr:housenumber":"378",
+    "addr:postcode":"80601",
+    "addr:street":"S 29Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.787925,39.981543,-104.787925,39.981543",
     "geom:latitude":39.981543,
     "geom:longitude":-104.787925,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553355
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1OjSx4jcQo4CcK8PGeAX9b_39.981543_-104.787925@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452118,
-    "wof:geomhash":"b26b190fd3de833aa0cc7a9094ce7d8e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e2ac1222699a11fd0177010ea17a1478",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553355,
+            "region_id":85688603,
+            "venue_id":824005939
+        }
+    ],
     "wof:id":824005939,
-    "wof:lastmodified":1466412531,
+    "wof:lastmodified":1492129716,
     "wof:name":"Perea Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553355,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

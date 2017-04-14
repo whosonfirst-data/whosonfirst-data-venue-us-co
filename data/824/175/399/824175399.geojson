@@ -2,9 +2,14 @@
   "id": 824175399,
   "type": "Feature",
   "properties": {
+    "addr:full":"1295 Co Rd 221 Durango CO 81303",
+    "addr:housenumber":"1295;221",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.778687,37.214954,-107.778687,37.214954",
     "geom:latitude":37.214954,
     "geom:longitude":-107.778687,
@@ -33,19 +38,34 @@
         "weed"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554645,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3m10A0gfvm6eZ0ENCxGM4Y_37.214954_-107.778687@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456893,
-    "wof:geomhash":"fc7ca3994b24ce3905dba74460496696",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2563a45cd9642bc005d905f64f47e57d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554645,
+            "venue_id":824175399
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824175399
+        }
+    ],
     "wof:id":824175399,
-    "wof:lastmodified":1466417976,
+    "wof:lastmodified":1492130941,
     "wof:name":"Customized Weed Spraying Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

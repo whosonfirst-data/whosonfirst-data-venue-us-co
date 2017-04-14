@@ -2,9 +2,14 @@
   "id": 823745975,
   "type": "Feature",
   "properties": {
+    "addr:full":"7800 W Quincy Ave Denver CO 80123",
+    "addr:housenumber":"7800",
+    "addr:postcode":"80123",
+    "addr:street":"W Quincy Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.082625,39.638669,-105.082625,39.638669",
     "geom:latitude":39.638669,
     "geom:longitude":-105.082625,
@@ -28,19 +33,38 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871357,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7fED3Nj9QcY40okDcmvkO8_39.638669_-105.082625@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445286,
-    "wof:geomhash":"c4718714e6ba492baa90b12d69b95b9f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"07bf4adcb709c2d30df0972114180bd5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871357,
+            "region_id":85688603,
+            "venue_id":823745975
+        }
+    ],
     "wof:id":823745975,
-    "wof:lastmodified":1466418968,
+    "wof:lastmodified":1492125439,
     "wof:name":"Automotive Avenues",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

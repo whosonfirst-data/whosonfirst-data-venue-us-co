@@ -2,9 +2,14 @@
   "id": 823591731,
   "type": "Feature",
   "properties": {
+    "addr:full":"120 S 16th Ave Brighton CO 80601",
+    "addr:housenumber":"120",
+    "addr:postcode":"80601",
+    "addr:street":"S 16Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.802524,39.984033,-104.802524,39.984033",
     "geom:latitude":39.984033,
     "geom:longitude":-104.802524,
@@ -28,19 +33,36 @@
         "chiropractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6AC5yuuY4E5CyYzIUFf3KC_39.984033_-104.802524@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441687,
-    "wof:geomhash":"91957f00123263dff042a5797b4d59ab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a60440d240be1c75a4943d926e4b3cd9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":823591731
+        }
+    ],
     "wof:id":823591731,
-    "wof:lastmodified":1466416877,
+    "wof:lastmodified":1492124582,
     "wof:name":"Professional Products Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

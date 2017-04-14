@@ -2,9 +2,14 @@
   "id": 839957389,
   "type": "Feature",
   "properties": {
+    "addr:full":"1335 8th Ave Greeley CO 80631",
+    "addr:housenumber":"1335",
+    "addr:postcode":"80631",
+    "addr:street":"8Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.690973,40.417511,-104.690973,40.417511",
     "geom:latitude":40.417511,
     "geom:longitude":-104.690973,
@@ -31,12 +36,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -44,8 +49,16 @@
     },
     "wof:country":"US",
     "wof:created":1463459514,
-    "wof:geomhash":"abf675624f043b464c20a3f3c351b4b8",
+    "wof:geomhash":"eaef6097437c2ca7d4885e02c77222b2",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":839957389
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,20 +67,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":839957389
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":839957389
         }
     ],
     "wof:id":839957389,
-    "wof:lastmodified":1466415457,
+    "wof:lastmodified":1492112479,
     "wof:name":"Art Department",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

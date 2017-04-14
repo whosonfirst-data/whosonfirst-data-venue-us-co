@@ -2,9 +2,14 @@
   "id": 823589031,
   "type": "Feature",
   "properties": {
+    "addr:full":"1300 S Queens Ave Pueblo CO 81001",
+    "addr:housenumber":"1300",
+    "addr:postcode":"81001",
+    "addr:street":"S Queens Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.579464,38.257174,-104.579464,38.257174",
     "geom:latitude":38.257174,
     "geom:longitude":-104.579464,
@@ -28,17 +33,32 @@
         "city"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2GYtitEREXEA7nfynTQwcX_38.257174_-104.579464@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441626,
-    "wof:geomhash":"540b21b61de61ad45b828b004e4c718d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ecdb5b1d4e8e5d6902e0cfc424ecaa78",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823589031
+        }
+    ],
     "wof:id":823589031,
-    "wof:lastmodified":1466416816,
+    "wof:lastmodified":1492124258,
     "wof:name":"Pueblo Wastewater Treatment",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

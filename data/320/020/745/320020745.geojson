@@ -2,9 +2,14 @@
   "id": 320020745,
   "type": "Feature",
   "properties": {
+    "addr:full":"1810 Blake Street Denver CO 80202",
+    "addr:housenumber":"1810",
+    "addr:postcode":"80202",
+    "addr:street":"Blake Street",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996198,39.75247,-104.996198,39.75247",
     "geom:latitude":39.75247,
     "geom:longitude":-104.996198,
@@ -37,11 +42,14 @@
     "sg:website":"www.shutterbooth.com",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108749017,
+        85871287,
+        102191575,
+        1108750057,
         85633793,
         85928879,
         102086135,
-        85866861
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -51,19 +59,21 @@
     "wof:geomhash":"dcb050f624daaaedeac236839ff91e56",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85866861,
+            "macrohood_id":1108750057,
+            "microhood_id":1108749017,
+            "neighbourhood_id":85871287,
             "region_id":85688603,
             "venue_id":320020745
         }
     ],
     "wof:id":320020745,
-    "wof:lastmodified":1466412353,
+    "wof:lastmodified":1486593935,
     "wof:name":"ShutterBooth",
-    "wof:parent_id":85866861,
+    "wof:parent_id":1108749017,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

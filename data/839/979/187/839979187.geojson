@@ -2,9 +2,14 @@
   "id": 839979187,
   "type": "Feature",
   "properties": {
+    "addr:full":"420 Co Rd 306 Durango CO 81303",
+    "addr:housenumber":"420;306",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.799024,37.169278,-107.799024,37.169278",
     "geom:latitude":37.169278,
     "geom:longitude":-107.799024,
@@ -28,19 +33,28 @@
         "drilling"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Y8PFvFfOYgCN3iu1zFBoN_37.169278_-107.799024@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460386,
-    "wof:geomhash":"c67648ecc0ffc73c5d9713f67eb3a4ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"818fe4b4ed6c893c9524842d86f771b2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554633,
+            "venue_id":839979187
+        }
+    ],
     "wof:id":839979187,
-    "wof:lastmodified":1466416849,
+    "wof:lastmodified":1492113612,
     "wof:name":"Beeman Brothers Drilling Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

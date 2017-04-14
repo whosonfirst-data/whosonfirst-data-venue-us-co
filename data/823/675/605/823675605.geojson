@@ -2,9 +2,14 @@
   "id": 823675605,
   "type": "Feature",
   "properties": {
+    "addr:full":"420 N Elizabeth St Pueblo CO 81003",
+    "addr:housenumber":"420",
+    "addr:postcode":"81003",
+    "addr:street":"N Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.614536,38.271001,-104.614536,38.271001",
     "geom:latitude":38.271001,
     "geom:longitude":-104.614536,
@@ -27,17 +32,32 @@
         "bearing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2JW5QepV5l08WcJeSZfBdG_38.271001_-104.614536@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443694,
-    "wof:geomhash":"bb497d5b9c525bf4e0b0d329d70176d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f817a9ff3d54ec376dc543371efeae70",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823675605
+        }
+    ],
     "wof:id":823675605,
-    "wof:lastmodified":1466418362,
+    "wof:lastmodified":1492118753,
     "wof:name":"Pueblo Bearing Svc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

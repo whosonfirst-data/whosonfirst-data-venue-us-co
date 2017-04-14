@@ -2,9 +2,14 @@
   "id": 824168847,
   "type": "Feature",
   "properties": {
+    "addr:full":"479 S 4th Ave Brighton CO 80601",
+    "addr:housenumber":"479",
+    "addr:postcode":"80601",
+    "addr:street":"S 4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81818,39.979313,-104.81818,39.979313",
     "geom:latitude":39.979313,
     "geom:longitude":-104.81818,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4bavrw7WYpqICHpRLFTojB_39.979313_-104.818180@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456633,
-    "wof:geomhash":"631bd66176c1b957fb2e62479a1dfc35",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5c692c568e8e61c9b2ddf4ad99453d66",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824168847
+        }
+    ],
     "wof:id":824168847,
-    "wof:lastmodified":1466417826,
+    "wof:lastmodified":1492132226,
     "wof:name":"Asia Inn Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

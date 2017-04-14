@@ -2,9 +2,14 @@
   "id": 823873879,
   "type": "Feature",
   "properties": {
+    "addr:full":"3132 W 24th Ave Denver CO 80211",
+    "addr:housenumber":"3132",
+    "addr:postcode":"80211",
+    "addr:street":"W 24Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.027922,39.752342,-105.027922,39.752342",
     "geom:latitude":39.752342,
     "geom:longitude":-105.027922,
@@ -28,19 +33,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4W77x7vSFoA051Pj5Ccoox_39.752342_-105.027922@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448823,
-    "wof:geomhash":"a03f0510d3fb34d6aec9b014e4ddfd3f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ad94e62c04c7f1078c78e4ca8e65137b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":823873879
+        }
+    ],
     "wof:id":823873879,
-    "wof:lastmodified":1466420004,
+    "wof:lastmodified":1492120459,
     "wof:name":"Spindle Communications",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

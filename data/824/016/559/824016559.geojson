@@ -2,9 +2,14 @@
   "id": 824016559,
   "type": "Feature",
   "properties": {
+    "addr:full":"4151 Creek Dr Broomfield CO 80023",
+    "addr:housenumber":"4151",
+    "addr:postcode":"80023",
+    "addr:street":"Creek Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.038311,39.943223,-105.038311,39.943223",
     "geom:latitude":39.943223,
     "geom:longitude":-105.038311,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554235
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ww6Afg7WDdssvoCwfY676_39.943223_-105.038311@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452349,
-    "wof:geomhash":"64a4d545fe1ba50a943843d3de673bc0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5d29c4c024c75cd488fb94c0c642d287",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554235,
+            "region_id":85688603,
+            "venue_id":824016559
+        }
+    ],
     "wof:id":824016559,
-    "wof:lastmodified":1466413565,
+    "wof:lastmodified":1492129186,
     "wof:name":"Lewis Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554235,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839953891,
   "type": "Feature",
   "properties": {
+    "addr:full":"9215 E 160th Ave Brighton CO 80602",
+    "addr:housenumber":"9215",
+    "addr:postcode":"80602",
+    "addr:street":"E 160Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.878599,39.986751,-104.878599,39.986751",
     "geom:latitude":39.986751,
     "geom:longitude":-104.878599,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6GXlkhujNV4RGWcruauHXY_39.986751_-104.878599@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459347,
-    "wof:geomhash":"d2ca996980a3df445e556105a9d4d79c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"983e584a6796159c069ba2ee8649316f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553387,
+            "region_id":85688603,
+            "venue_id":839953891
+        }
+    ],
     "wof:id":839953891,
-    "wof:lastmodified":1466415586,
+    "wof:lastmodified":1492111602,
     "wof:name":"Pipeline Plus Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

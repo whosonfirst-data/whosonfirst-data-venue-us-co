@@ -2,9 +2,14 @@
   "id": 823669205,
   "type": "Feature",
   "properties": {
+    "addr:full":"1534 55th St Boulder CO 80303",
+    "addr:housenumber":"1534",
+    "addr:postcode":"80303",
+    "addr:street":"55Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.225421,40.013365,-105.225421,40.013365",
     "geom:latitude":40.013365,
     "geom:longitude":-105.225421,
@@ -28,19 +33,46 @@
         "assistance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85895945,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4iCbQQz7XKE37hnCHrrEDm_40.013365_-105.225421@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443556,
-    "wof:geomhash":"3d8f79d3818396e9740b7e8e33416436",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fdfa3dd5fc1766fc81d7e4ef437b7959",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85895945,
+            "region_id":85688603,
+            "venue_id":823669205
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":823669205
+        }
+    ],
     "wof:id":823669205,
-    "wof:lastmodified":1466418110,
+    "wof:lastmodified":1492121753,
     "wof:name":"Safe Exchange Program",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

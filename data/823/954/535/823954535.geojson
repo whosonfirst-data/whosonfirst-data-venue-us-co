@@ -2,9 +2,14 @@
   "id": 823954535,
   "type": "Feature",
   "properties": {
+    "addr:full":"2704 Verde Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2704",
+    "addr:postcode":"80910",
+    "addr:street":"Verde Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.781067,38.815619,-104.781067,38.815619",
     "geom:latitude":38.815619,
     "geom:longitude":-104.781067,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554341
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2w5P1gYK5QYMrCM7EBlM0k_38.815619_-104.781067@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450873,
-    "wof:geomhash":"88067d725bbde42ce663c5048e63c115",
-    "wof:hierarchy":[],
+    "wof:geomhash":"83c937afeabc1d5d2d8089319fc4dc12",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":823954535
+        }
+    ],
     "wof:id":823954535,
-    "wof:lastmodified":1466420650,
+    "wof:lastmodified":1492125608,
     "wof:name":"Korean Lutheran Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554341,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

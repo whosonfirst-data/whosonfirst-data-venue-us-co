@@ -2,9 +2,14 @@
   "id": 824170045,
   "type": "Feature",
   "properties": {
+    "addr:full":"4115 W 38th Ave Denver CO 80212",
+    "addr:housenumber":"4115",
+    "addr:postcode":"80212",
+    "addr:street":"W 38Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041545,39.769521,-105.041545,39.769521",
     "geom:latitude":39.769521,
     "geom:longitude":-105.041545,
@@ -29,19 +34,38 @@
         "skilled"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871261,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7LNsXFwgwPuqcU5XtWw9n7_39.769521_-105.041545@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456676,
-    "wof:geomhash":"f7ff98c306644ac1af987c18df238dc2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5a4c8d6aad67c44aa541991afddf710e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871261,
+            "region_id":85688603,
+            "venue_id":824170045
+        }
+    ],
     "wof:id":824170045,
-    "wof:lastmodified":1466417904,
+    "wof:lastmodified":1492128803,
     "wof:name":"The Argyle",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871261,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

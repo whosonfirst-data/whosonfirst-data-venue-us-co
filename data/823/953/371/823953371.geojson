@@ -2,9 +2,14 @@
   "id": 823953371,
   "type": "Feature",
   "properties": {
+    "addr:full":"300 Russell Blvd Denver CO 80229",
+    "addr:housenumber":"300",
+    "addr:postcode":"80229",
+    "addr:street":"Russell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.982362,39.860849,-104.982362,39.860849",
     "geom:latitude":39.860849,
     "geom:longitude":-104.982362,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Ja2xJ5blBfyOmXl2Y8tPD_39.860849_-104.982362@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450852,
-    "wof:geomhash":"13703703ccbcfc9bd6097ead6b857d6b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ee60cae5803636e1a5c622e5526d47f9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823953371
+        }
+    ],
     "wof:id":823953371,
-    "wof:lastmodified":1466420659,
+    "wof:lastmodified":1492119554,
     "wof:name":"Pine View Village LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

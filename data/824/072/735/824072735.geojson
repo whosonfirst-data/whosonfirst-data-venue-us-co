@@ -2,9 +2,14 @@
   "id": 824072735,
   "type": "Feature",
   "properties": {
+    "addr:full":"2616 E 111th Dr Denver CO 80233",
+    "addr:housenumber":"2616",
+    "addr:postcode":"80233",
+    "addr:street":"E 111Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.955788,39.898739,-104.955788,39.898739",
     "geom:latitude":39.898739,
     "geom:longitude":-104.955788,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553673
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_14z3B4A6uUdhoirZLxsVX4_39.898739_-104.955788@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453689,
-    "wof:geomhash":"772a76d8b827c01a5fbf491bf4a98897",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b4e973a7ca2675f99ad856421480830b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553673,
+            "region_id":85688603,
+            "venue_id":824072735
+        }
+    ],
     "wof:id":824072735,
-    "wof:lastmodified":1466414639,
+    "wof:lastmodified":1492129850,
     "wof:name":"Vk Plumbing Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553673,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823466747,
   "type": "Feature",
   "properties": {
+    "addr:full":"3244 F Rd Clifton CO 81520",
+    "addr:housenumber":"3244",
+    "addr:postcode":"81520",
+    "addr:street":"F Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.452076,39.091854,-108.452076,39.091854",
     "geom:latitude":39.091854,
     "geom:longitude":-108.452076,
@@ -27,19 +32,36 @@
         "club"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554851
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4co9pjz2mXalVlRSLbv4k9_39.091854_-108.452076@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438763,
-    "wof:geomhash":"7eac292e8227f49130bf3e43cb932e22",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5385f10148ba108c86e8bca980ffbedd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554851,
+            "region_id":85688603,
+            "venue_id":823466747
+        }
+    ],
     "wof:id":823466747,
-    "wof:lastmodified":1466412002,
+    "wof:lastmodified":1492122644,
     "wof:name":"Veterans Of Foreign Wars",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554851,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

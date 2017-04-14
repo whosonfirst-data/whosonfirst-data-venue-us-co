@@ -2,9 +2,14 @@
   "id": 823886999,
   "type": "Feature",
   "properties": {
+    "addr:full":"320 S Lincoln Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"320",
+    "addr:postcode":"80487",
+    "addr:street":"S Lincoln Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.826398,40.478202,-106.826398,40.478202",
     "geom:latitude":40.478202,
     "geom:longitude":-106.826398,
@@ -27,19 +32,36 @@
         "security"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555275
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ZRA9yVfsOXprtciCm6uK6_40.478202_-106.826398@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449125,
-    "wof:geomhash":"08ef854509144365d104804a6e360984",
-    "wof:hierarchy":[],
+    "wof:geomhash":"157904ac9df169ea68d9178ced60a992",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555275,
+            "region_id":85688603,
+            "venue_id":823886999
+        }
+    ],
     "wof:id":823886999,
-    "wof:lastmodified":1466419994,
+    "wof:lastmodified":1492125668,
     "wof:name":"Wells Fargo Investments LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

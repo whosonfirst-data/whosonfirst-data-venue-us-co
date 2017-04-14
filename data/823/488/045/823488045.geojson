@@ -2,9 +2,14 @@
   "id": 823488045,
   "type": "Feature",
   "properties": {
+    "addr:full":"1225 Baystone Dr Fort Collins CO 80521",
+    "addr:housenumber":"1225",
+    "addr:postcode":"80521",
+    "addr:street":"Baystone Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.097437,40.57747,-105.097437,40.57747",
     "geom:latitude":40.57747,
     "geom:longitude":-105.097437,
@@ -27,19 +32,36 @@
         "sorority"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2tkFQmCnv4xB7ohypuASzk_40.577470_-105.097437@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439260,
-    "wof:geomhash":"98f5623b79d7603ed6804d7cb6dd533c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a09b0596d06eb201b23f4d1db97a20e1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":823488045
+        }
+    ],
     "wof:id":823488045,
-    "wof:lastmodified":1466413768,
+    "wof:lastmodified":1492122759,
     "wof:name":"Zeta Tau Alpha",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

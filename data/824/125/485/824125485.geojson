@@ -2,9 +2,14 @@
   "id": 824125485,
   "type": "Feature",
   "properties": {
+    "addr:full":"705 Horizon Dr Grand Junction CO 81506",
+    "addr:housenumber":"705",
+    "addr:postcode":"81506",
+    "addr:street":"Horizon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.541274,39.11067,-108.541274,39.11067",
     "geom:latitude":39.11067,
     "geom:longitude":-108.541274,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554859
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1vaD2j9KV7XK84FswUAsRn_39.110670_-108.541274@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454953,
-    "wof:geomhash":"62f6fbe97bb1d4579aa2094da65f6063",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a81c9211c6e15389dd84f7f95a58c543",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554859,
+            "region_id":85688603,
+            "venue_id":824125485
+        }
+    ],
     "wof:id":824125485,
-    "wof:lastmodified":1466415904,
+    "wof:lastmodified":1492132683,
     "wof:name":"Pizza Hut",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554859,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823615735,
   "type": "Feature",
   "properties": {
+    "addr:full":"1910 Rolling Rd Cortez CO 81321",
+    "addr:housenumber":"1910",
+    "addr:postcode":"81321",
+    "addr:street":"Rolling Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.558529,37.369207,-108.558529,37.369207",
     "geom:latitude":37.369207,
     "geom:longitude":-108.558529,
@@ -27,19 +32,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5UMZaRH5ovMGlrKAqsHFBn_37.369207_-108.558529@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442294,
-    "wof:geomhash":"e6ad93cca3f78d08f40d23447dd5c8b3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"15a24bbce26578ecb4da8066ff9324ca",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823615735
+        }
+    ],
     "wof:id":823615735,
-    "wof:lastmodified":1466417384,
+    "wof:lastmodified":1492120776,
     "wof:name":"D & L Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

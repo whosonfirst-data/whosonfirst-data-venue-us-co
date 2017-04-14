@@ -2,9 +2,14 @@
   "id": 823871359,
   "type": "Feature",
   "properties": {
+    "addr:full":"347 S 6th Ave Brighton CO 80601",
+    "addr:housenumber":"347",
+    "addr:postcode":"80601",
+    "addr:street":"S 6Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.815409,39.981256,-104.815409,39.981256",
     "geom:latitude":39.981256,
     "geom:longitude":-104.815409,
@@ -27,19 +32,36 @@
         "product"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_59pudZDIfC41M8MTJzhUle_39.981256_-104.815409@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448767,
-    "wof:geomhash":"25703dfdf4e0dfd9862b16dce3412004",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a0df7f03fb1539636ae5160ed20db47",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823871359
+        }
+    ],
     "wof:id":823871359,
-    "wof:lastmodified":1466419970,
+    "wof:lastmodified":1492120614,
     "wof:name":"R J R",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

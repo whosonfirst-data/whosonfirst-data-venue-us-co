@@ -2,9 +2,14 @@
   "id": 824048093,
   "type": "Feature",
   "properties": {
+    "addr:full":"1592 Co Rd 225 Durango CO 81301",
+    "addr:housenumber":"1592;225",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.771799,37.253863,-107.771799,37.253863",
     "geom:latitude":37.253863,
     "geom:longitude":-107.771799,
@@ -29,19 +34,28 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2QCXqQf9uCdN2OVdC9DLCP_37.253863_-107.771799@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453121,
-    "wof:geomhash":"5d0add267012be7c6a65607703dc3dbd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"43e3518ae502dd7c19a6a589a4923876",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824048093
+        }
+    ],
     "wof:id":824048093,
-    "wof:lastmodified":1466414186,
+    "wof:lastmodified":1492132192,
     "wof:name":"Rainman Water Delivery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

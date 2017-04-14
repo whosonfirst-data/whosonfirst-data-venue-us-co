@@ -2,9 +2,14 @@
   "id": 823591189,
   "type": "Feature",
   "properties": {
+    "addr:full":"7851 Raleigh St Westminster CO 80030",
+    "addr:housenumber":"7851",
+    "addr:postcode":"80030",
+    "addr:street":"Raleigh St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.043177,39.840856,-105.043177,39.840856",
     "geom:latitude":39.840856,
     "geom:longitude":-105.043177,
@@ -27,19 +32,36 @@
         "scooter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553567
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0GHxiIC0XKOAf5cdLPrGWV_39.840856_-105.043177@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441676,
-    "wof:geomhash":"f827d66e2728b922787cbcc120a5816a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a147cb481e8fb49eeaaa825202ffa2b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553567,
+            "region_id":85688603,
+            "venue_id":823591189
+        }
+    ],
     "wof:id":823591189,
-    "wof:lastmodified":1466416936,
+    "wof:lastmodified":1492124589,
     "wof:name":"Mountain States Motorcycle",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553567,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

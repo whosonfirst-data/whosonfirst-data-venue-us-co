@@ -2,9 +2,14 @@
   "id": 839986957,
   "type": "Feature",
   "properties": {
+    "addr:full":"7243 Federal Blvd Westminster CO 80030",
+    "addr:housenumber":"7243",
+    "addr:postcode":"80030",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.026553,39.828417,-105.026553,39.828417",
     "geom:latitude":39.828417,
     "geom:longitude":-105.026553,
@@ -30,19 +35,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7REbtfmRNIbdVJyoOwwqsg_39.828417_-105.026553@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460694,
-    "wof:geomhash":"12fd5f7c61ee23ecb02ffbc7f46854d6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"98d3a7c20c680ef97056a4ef69deb081",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":839986957
+        }
+    ],
     "wof:id":839986957,
-    "wof:lastmodified":1466417285,
+    "wof:lastmodified":1492111368,
     "wof:name":"Quiznos Sub",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

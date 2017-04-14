@@ -2,9 +2,14 @@
   "id": 823864323,
   "type": "Feature",
   "properties": {
+    "addr:full":"2740 Acre Ln Steamboat Spgs CO 80487",
+    "addr:housenumber":"2740",
+    "addr:postcode":"80487",
+    "addr:street":"Acre Ln;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.862426,40.50935,-106.862426,40.50935",
     "geom:latitude":40.50935,
     "geom:longitude":-106.862426,
@@ -28,19 +33,36 @@
         "diagnostic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2SsIx55aW247PDJNBDk1iq_40.509350_-106.862426@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448610,
-    "wof:geomhash":"0bbfcff8cf52bccd406020a721f9941c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9d84211780770d2dbb77bba472257906",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555387,
+            "region_id":85688603,
+            "venue_id":823864323
+        }
+    ],
     "wof:id":823864323,
-    "wof:lastmodified":1466419971,
+    "wof:lastmodified":1492126039,
     "wof:name":"American Automotive Elect",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

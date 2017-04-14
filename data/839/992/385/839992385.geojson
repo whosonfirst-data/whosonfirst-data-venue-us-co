@@ -2,9 +2,14 @@
   "id": 839992385,
   "type": "Feature",
   "properties": {
+    "addr:full":"800 Englewood Pkwy Englewood CO 80110",
+    "addr:housenumber":"800",
+    "addr:postcode":"80110",
+    "addr:street":"Englewood Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.99703,39.654432,-104.99703,39.654432",
     "geom:latitude":39.654432,
     "geom:longitude":-104.99703,
@@ -30,19 +35,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        420553955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2sktmgGzIjZ1hX20jcH6LY_39.654807_-104.996610@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460902,
-    "wof:geomhash":"85680577c9e996b341eb70a5295cc51f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4368fac4105c6806619abd37289059f4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
+            "region_id":85688603,
+            "venue_id":839992385
+        }
+    ],
     "wof:id":839992385,
-    "wof:lastmodified":1466417619,
+    "wof:lastmodified":1492114441,
     "wof:name":"Quiznos Sub",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

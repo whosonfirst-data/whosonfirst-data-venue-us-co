@@ -2,9 +2,14 @@
   "id": 839964739,
   "type": "Feature",
   "properties": {
+    "addr:full":"2375 S Meade St Denver CO 80219",
+    "addr:housenumber":"2375",
+    "addr:postcode":"80219",
+    "addr:street":"S Meade St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03595,39.673293,-105.03595,39.673293",
     "geom:latitude":39.673293,
     "geom:longitude":-105.03595,
@@ -30,7 +35,15 @@
         "deck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5n8WByGwsRKisxZ2KSU8Wd_39.673293_-105.035950@1294083659"
@@ -38,11 +51,22 @@
     "wof:country":"US",
     "wof:created":1463459804,
     "wof:geomhash":"dd1fb7de0e44c1debba8f475ac514734",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":839964739
+        }
+    ],
     "wof:id":839964739,
-    "wof:lastmodified":1466416005,
+    "wof:lastmodified":1486593721,
     "wof:name":"Absolute Appeal",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

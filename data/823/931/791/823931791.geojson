@@ -2,9 +2,14 @@
   "id": 823931791,
   "type": "Feature",
   "properties": {
+    "addr:full":"1490 W 102nd Pl Northglenn CO 80260",
+    "addr:housenumber":"1490",
+    "addr:postcode":"80260",
+    "addr:street":"W 102Nd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001697,39.881976,-105.001697,39.881976",
     "geom:latitude":39.881976,
     "geom:longitude":-105.001697,
@@ -29,19 +34,36 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4vs0CaMXEI2S7G9UvTo2vK_39.881976_-105.001697@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450300,
-    "wof:geomhash":"e1d41af1d1252469d370e9e6f6bb3822",
-    "wof:hierarchy":[],
+    "wof:geomhash":"335c1772251d46e59f0de2695c9a8f26",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":823931791
+        }
+    ],
     "wof:id":823931791,
-    "wof:lastmodified":1466420312,
+    "wof:lastmodified":1492119443,
     "wof:name":"Kardia Counseling Ministries",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

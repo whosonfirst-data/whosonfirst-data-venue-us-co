@@ -2,9 +2,14 @@
   "id": 320355563,
   "type": "Feature",
   "properties": {
+    "addr:full":"2710 S Monaco Pkwy Denver CO 80222",
+    "addr:housenumber":"2710",
+    "addr:postcode":"80222",
+    "addr:street":"S Monaco Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.912602,39.6675,-104.912602,39.6675",
     "geom:latitude":39.6675,
     "geom:longitude":-104.912602,
@@ -25,13 +30,13 @@
     "sg:province":"CO",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
-        85633793,
-        102086877,
         85871343,
+        102191575,
+        1108750035,
+        85633793,
         85928879,
         102086135,
-        85871341
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,28 +46,20 @@
     "wof:geomhash":"83e3ec1e4a69b1fe30cf21b4e8e06938",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
-            "country_id":85633793,
-            "county_id":102086877,
-            "locality_id":-1,
-            "neighbourhood_id":85871343,
-            "region_id":85688603,
-            "venue_id":320355563
-        },
-        {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85871341,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871343,
             "region_id":85688603,
             "venue_id":320355563
         }
     ],
     "wof:id":320355563,
-    "wof:lastmodified":1466413142,
+    "wof:lastmodified":1491865558,
     "wof:name":"Church of Jesus Christ of Latter-Day Saints",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871343,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823523921,
   "type": "Feature",
   "properties": {
+    "addr:full":"433 South Ave Grand Junction CO 81501",
+    "addr:housenumber":"433",
+    "addr:postcode":"81501",
+    "addr:street":"South Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.564981,39.063355,-108.564981,39.063355",
     "geom:latitude":39.063355,
     "geom:longitude":-108.564981,
@@ -27,19 +32,36 @@
         "advisory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6lnkIs38qoRx30tS4LaMll_39.063355_-108.564981@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440114,
-    "wof:geomhash":"22b4d462e81d59c7ed05a435f8beab26",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f56da65fa10b73542ee7d319e0a7ad71",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554839,
+            "region_id":85688603,
+            "venue_id":823523921
+        }
+    ],
     "wof:id":823523921,
-    "wof:lastmodified":1466415019,
+    "wof:lastmodified":1492124497,
     "wof:name":"Camelot Investors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

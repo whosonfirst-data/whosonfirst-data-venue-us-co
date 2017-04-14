@@ -2,9 +2,14 @@
   "id": 823836417,
   "type": "Feature",
   "properties": {
+    "addr:full":"1320 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"1320",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.550788,39.077465,-108.550788,39.077465",
     "geom:latitude":39.077465,
     "geom:longitude":-108.550788,
@@ -29,19 +34,36 @@
         "tub"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6FSgU9l3dGy5WeSLk16Fum_39.077465_-108.550788@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447810,
-    "wof:geomhash":"6befe801959e870727c7d2a0b6552fa2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d564d80aa23c047a966874834406870f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":823836417
+        }
+    ],
     "wof:id":823836417,
-    "wof:lastmodified":1466419671,
+    "wof:lastmodified":1492126250,
     "wof:name":"Aqua Time Pools & Spas Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

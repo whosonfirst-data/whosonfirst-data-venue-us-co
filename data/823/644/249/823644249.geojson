@@ -2,9 +2,14 @@
   "id": 823644249,
   "type": "Feature",
   "properties": {
+    "addr:full":"7990 Lowell Blvd Westminster CO 80030",
+    "addr:housenumber":"7990",
+    "addr:postcode":"80030",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034211,39.840767,-105.034211,39.840767",
     "geom:latitude":39.840767,
     "geom:longitude":-105.034211,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553541
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0sb6P7GDlYoQQXBWHbo57o_39.840767_-105.034211@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442951,
-    "wof:geomhash":"d34cef2ae8390cfa6c67c6a145bfbc96",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d11a3efde814d027d02692fd564a969",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553541,
+            "region_id":85688603,
+            "venue_id":823644249
+        }
+    ],
     "wof:id":823644249,
-    "wof:lastmodified":1466418056,
+    "wof:lastmodified":1492118277,
     "wof:name":"First Southern Baptist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553541,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

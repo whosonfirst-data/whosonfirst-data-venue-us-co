@@ -2,9 +2,14 @@
   "id": 823927505,
   "type": "Feature",
   "properties": {
+    "addr:full":"601 S Miller Ave Lafayette CO 80026",
+    "addr:housenumber":"601",
+    "addr:postcode":"80026",
+    "addr:street":"S Miller Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.094243,39.992297,-105.094243,39.992297",
     "geom:latitude":39.992297,
     "geom:longitude":-105.094243,
@@ -27,17 +32,32 @@
         "publishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3pnqf61VjEaC0KNzX58A6o_39.992297_-105.094243@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450191,
-    "wof:geomhash":"740624417df40ec2b5e39dae7471ed37",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1b5a070b3eab9a0b8593433181dbcb89",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "region_id":85688603,
+            "venue_id":823927505
+        }
+    ],
     "wof:id":823927505,
-    "wof:lastmodified":1466420441,
+    "wof:lastmodified":1492115958,
     "wof:name":"Flatirons Publishing Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

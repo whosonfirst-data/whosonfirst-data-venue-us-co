@@ -2,9 +2,14 @@
   "id": 839981923,
   "type": "Feature",
   "properties": {
+    "addr:full":"3801 Co Rd 46 Berthoud CO 80513",
+    "addr:housenumber":"3801;46",
+    "addr:postcode":"80513",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.984074,40.320913,-104.984074,40.320913",
     "geom:latitude":40.320913,
     "geom:longitude":-104.984074,
@@ -24,19 +29,36 @@
         "cash"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2vkajiV3Kspi297QMlCT1P_40.320913_-104.984074@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460500,
-    "wof:geomhash":"4aa2f32674828ff02462a88874fc9325",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dfcceda135c256fdb46497be8bc7321e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":839981923
+        }
+    ],
     "wof:id":839981923,
-    "wof:lastmodified":1466417057,
+    "wof:lastmodified":1492114359,
     "wof:name":"Steven Spaur",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

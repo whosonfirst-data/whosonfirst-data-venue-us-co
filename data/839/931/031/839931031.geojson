@@ -2,9 +2,14 @@
   "id": 839931031,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 W 5th St Leadville CO 80461",
+    "addr:housenumber":"123",
+    "addr:postcode":"80461",
+    "addr:street":"W 5Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.29192,39.247678,-106.29192,39.247678",
     "geom:latitude":39.247678,
     "geom:longitude":-106.29192,
@@ -27,17 +32,32 @@
         "fraternal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929517,
+        102084067
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Qjq7eqx1TIh5ss5rnR4VR_39.247678_-106.291920@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458028,
-    "wof:geomhash":"fdab9210b4b19673ba31386535b7949c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"71749ae7305c6b1a40dcfe88bb222f7e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084067,
+            "locality_id":85929517,
+            "region_id":85688603,
+            "venue_id":839931031
+        }
+    ],
     "wof:id":839931031,
-    "wof:lastmodified":1466414260,
+    "wof:lastmodified":1492111525,
     "wof:name":"Elks Lodge",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

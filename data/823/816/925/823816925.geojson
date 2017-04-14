@@ -2,9 +2,14 @@
   "id": 823816925,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 W US Hwy 50 Gunnison CO 81230",
+    "addr:housenumber":"500",
+    "addr:postcode":"81230",
+    "addr:street":"W Us Hwy 50",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.939809,38.53984,-106.939809,38.53984",
     "geom:latitude":38.53984,
     "geom:longitude":-106.939809,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554361
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1FG2hn48QL8AXt7Lp7vouU_38.539840_-106.939809@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447205,
-    "wof:geomhash":"fa535743d3fef44005e4ce515636ebb0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"391c113a1333f501bf271b9dfbaba2fa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554361,
+            "region_id":85688603,
+            "venue_id":823816925
+        }
+    ],
     "wof:id":823816925,
-    "wof:lastmodified":1466419545,
+    "wof:lastmodified":1492127641,
     "wof:name":"Homestead Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

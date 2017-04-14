@@ -2,9 +2,14 @@
   "id": 823984591,
   "type": "Feature",
   "properties": {
+    "addr:full":"20321 E 35th Dr Aurora CO 80011",
+    "addr:housenumber":"20321",
+    "addr:postcode":"80011",
+    "addr:street":"E 35Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.751289,39.762315,-104.751289,39.762315",
     "geom:latitude":39.762315,
     "geom:longitude":-104.751289,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553311
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3krDgP3hBD4VAdAw51eAzK_39.762315_-104.751289@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451598,
-    "wof:geomhash":"2ec303096394e7bcd28259cb9e987a86",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb4e6d61127b49c852dcd16a0a3ff538",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553311,
+            "region_id":85688603,
+            "venue_id":823984591
+        }
+    ],
     "wof:id":823984591,
-    "wof:lastmodified":1466420946,
+    "wof:lastmodified":1492118184,
     "wof:name":"DDD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

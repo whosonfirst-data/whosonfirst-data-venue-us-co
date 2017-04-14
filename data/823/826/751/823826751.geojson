@@ -2,9 +2,14 @@
   "id": 823826751,
   "type": "Feature",
   "properties": {
+    "addr:full":"3375 Sentinel Dr Boulder CO 80301",
+    "addr:housenumber":"3375",
+    "addr:postcode":"80301",
+    "addr:street":"Sentinel Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.240331,40.034872,-105.240331,40.034872",
     "geom:latitude":40.034872,
     "geom:longitude":-105.240331,
@@ -26,9 +31,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85853473,
-        102085251
+        85930751,
+        102085251,
+        85929877
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,17 +46,26 @@
     "wof:geomhash":"38df2bc6f20de0e60797f48b21b1ee8e",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102085251,
-            "neighbourhood_id":85853473,
+            "locality_id":85930751,
+            "region_id":85688603,
+            "venue_id":823826751
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
             "region_id":85688603,
             "venue_id":823826751
         }
     ],
     "wof:id":823826751,
-    "wof:lastmodified":1466419615,
+    "wof:lastmodified":1491620033,
     "wof:name":"Boulder Cheesecake Dessert Co",
-    "wof:parent_id":85853473,
+    "wof:parent_id":-1,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

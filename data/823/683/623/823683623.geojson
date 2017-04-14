@@ -2,9 +2,14 @@
   "id": 823683623,
   "type": "Feature",
   "properties": {
+    "addr:full":"7001 W 117th Ave Broomfield CO 80020",
+    "addr:housenumber":"7001",
+    "addr:postcode":"80020",
+    "addr:street":"W 117Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.075492,39.909951,-105.075492,39.909951",
     "geom:latitude":39.909951,
     "geom:longitude":-105.075492,
@@ -27,19 +32,36 @@
         "welding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554175
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_145X9dtFtKmyyzjpbgM5Vy_39.909951_-105.075492@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443865,
-    "wof:geomhash":"09f8a842933527985f05e4d74064d01b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0589d7ce8f2da9984192c3b064a8232",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554175,
+            "region_id":85688603,
+            "venue_id":823683623
+        }
+    ],
     "wof:id":823683623,
-    "wof:lastmodified":1466418294,
+    "wof:lastmodified":1492117415,
     "wof:name":"DCR Welding Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554175,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

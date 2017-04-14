@@ -2,9 +2,14 @@
   "id": 823707151,
   "type": "Feature",
   "properties": {
+    "addr:full":"12484 E Amherst Cir Aurora CO 80014",
+    "addr:housenumber":"12484",
+    "addr:postcode":"80014",
+    "addr:street":"E Amherst Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.841952,39.666982,-104.841952,39.666982",
     "geom:latitude":39.666982,
     "geom:longitude":-104.841952,
@@ -27,17 +32,32 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5fjATAEXxT3s7AH4S8y07k_39.666982_-104.841952@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444380,
-    "wof:geomhash":"7571e994936b7fdc813ce9e45758cbad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"15944d9afb92380eb6dfcd705884bba3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823707151
+        }
+    ],
     "wof:id":823707151,
-    "wof:lastmodified":1466418588,
+    "wof:lastmodified":1492121482,
     "wof:name":"Flow Medical",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 824042879,
   "type": "Feature",
   "properties": {
+    "addr:full":"445 Sandia Dr Grand Junction CO 81503",
+    "addr:housenumber":"445",
+    "addr:postcode":"81503",
+    "addr:street":"Sandia Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.607246,39.069843,-108.607246,39.069843",
     "geom:latitude":39.069843,
     "geom:longitude":-108.607246,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554779
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28imGtoG8WQIvEBkyx2Nk8_39.069843_-108.607246@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452997,
-    "wof:geomhash":"531a82bec6df3e88bfc69abbfc04e17f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"124c3ad87495b112d998a133d6b086f9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554779,
+            "region_id":85688603,
+            "venue_id":824042879
+        }
+    ],
     "wof:id":824042879,
-    "wof:lastmodified":1466414066,
+    "wof:lastmodified":1492129077,
     "wof:name":"Comfort Care Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554779,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

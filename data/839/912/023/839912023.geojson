@@ -2,9 +2,14 @@
   "id": 839912023,
   "type": "Feature",
   "properties": {
+    "addr:full":"7271 Otis Ct Arvada CO 80003",
+    "addr:housenumber":"7271",
+    "addr:postcode":"80003",
+    "addr:street":"Otis Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.07138,39.82815,-105.07138,39.82815",
     "geom:latitude":39.82815,
     "geom:longitude":-105.07138,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554587
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4AsQDmJTW7wXfa5NnAozOI_39.828150_-105.071380@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457183,
-    "wof:geomhash":"455a21058001553ecbb905e85e3b1e4a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0d3ead806f8f596e6778086ba66ceebb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554587,
+            "region_id":85688603,
+            "venue_id":839912023
+        }
+    ],
     "wof:id":839912023,
-    "wof:lastmodified":1466412352,
+    "wof:lastmodified":1492110840,
     "wof:name":"Beaver Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554587,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

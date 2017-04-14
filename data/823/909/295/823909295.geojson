@@ -2,9 +2,14 @@
   "id": 823909295,
   "type": "Feature",
   "properties": {
+    "addr:full":"3111 F Rd Grand Junction CO 81504",
+    "addr:housenumber":"3111",
+    "addr:postcode":"81504",
+    "addr:street":"F Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.477584,39.091704,-108.477584,39.091704",
     "geom:latitude":39.091704,
     "geom:longitude":-108.477584,
@@ -27,19 +32,36 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930467,
+        102085221,
+        420554947
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ZVauFcK38zLLApu6UGCrh_39.091704_-108.477584@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449725,
-    "wof:geomhash":"0a2a09b9218cf3990a38b9c2d43eab5c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0b5c819756bb01c457eb7070eaae6150",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930467,
+            "neighbourhood_id":420554947,
+            "region_id":85688603,
+            "venue_id":823909295
+        }
+    ],
     "wof:id":823909295,
-    "wof:lastmodified":1466420250,
+    "wof:lastmodified":1492122975,
     "wof:name":"Grand Valley Appliance Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554947,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

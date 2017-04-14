@@ -2,9 +2,14 @@
   "id": 823708587,
   "type": "Feature",
   "properties": {
+    "addr:full":"9201 W 44th Ave Wheat Ridge CO 80033",
+    "addr:housenumber":"9201",
+    "addr:postcode":"80033",
+    "addr:street":"W 44Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.100789,39.778089,-105.100789,39.778089",
     "geom:latitude":39.778089,
     "geom:longitude":-105.100789,
@@ -28,19 +33,34 @@
     ],
     "sg:website":"www.wscrinc.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85930615,
+        102084113,
+        85865183
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1sZzDTDoplkPDbUVUiPCdX_39.778089_-105.100789@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444416,
-    "wof:geomhash":"a34e5504fcec34f878e1f188b5c47b62",
-    "wof:hierarchy":[],
+    "wof:geomhash":"78f87a28845b8edfec29b85e101dd31b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85930615,
+            "neighbourhood_id":85865183,
+            "region_id":85688603,
+            "venue_id":823708587
+        }
+    ],
     "wof:id":823708587,
-    "wof:lastmodified":1466418631,
+    "wof:lastmodified":1492117324,
     "wof:name":"Western States Clinical Rsrch",
-    "wof:parent_id":-1,
+    "wof:parent_id":85865183,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

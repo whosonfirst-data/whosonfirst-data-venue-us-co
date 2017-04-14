@@ -2,9 +2,14 @@
   "id": 823899035,
   "type": "Feature",
   "properties": {
+    "addr:full":"5021 E 123rd Ave Denver CO 80241",
+    "addr:housenumber":"5021",
+    "addr:postcode":"80241",
+    "addr:street":"E 123Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927255,39.918892,-104.927255,39.918892",
     "geom:latitude":39.918892,
     "geom:longitude":-104.927255,
@@ -24,19 +29,36 @@
     "sg:postcode":"80241",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553661
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3zrUmJcqtml4SYBvLtSG32_39.918892_-104.927255@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449432,
-    "wof:geomhash":"a686b33fad65f2c05848c75b27f4c81a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"32c8eec1538bf3a297a5bb3d64420974",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553661,
+            "region_id":85688603,
+            "venue_id":823899035
+        }
+    ],
     "wof:id":823899035,
-    "wof:lastmodified":1466420162,
+    "wof:lastmodified":1492116058,
     "wof:name":"Skyview Elementary School",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553661,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

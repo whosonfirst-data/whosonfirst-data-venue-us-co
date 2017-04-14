@@ -2,9 +2,14 @@
   "id": 823643063,
   "type": "Feature",
   "properties": {
+    "addr:full":"56321 E Colfax Ave Strasburg CO 80136",
+    "addr:housenumber":"56321",
+    "addr:postcode":"80136",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.328537,39.73826,-104.328537,39.73826",
     "geom:latitude":39.73826,
     "geom:longitude":-104.328537,
@@ -27,19 +32,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Bnx122LGqtftnObfTLm9L_39.738260_-104.328537@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442921,
-    "wof:geomhash":"8017a0ee9fd31486329af3c253d5007b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6765dd402728287ed5fa9ba1a3f82a8d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823643063
+        }
+    ],
     "wof:id":823643063,
-    "wof:lastmodified":1466417933,
+    "wof:lastmodified":1492121250,
     "wof:name":"B & K Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 320327849,
   "type": "Feature",
   "properties": {
+    "addr:full":"7150 Montview Boulevard Denver CO 80220",
+    "addr:housenumber":"7150",
+    "addr:postcode":"80220",
+    "addr:street":"Montview Boulevard",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.905397,39.747333,-104.905397,39.747333",
     "geom:latitude":39.747333,
     "geom:longitude":-104.905397,
@@ -28,11 +33,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750053,
+        85840547,
+        102191575,
+        1108750055,
         85633793,
         85928879,
         102086135,
-        85871351
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +50,21 @@
     "wof:geomhash":"9e6f8a74e5c95d4335cca3dcb635c5c4",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85871351,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750053,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":320327849
         }
     ],
     "wof:id":320327849,
-    "wof:lastmodified":1466413086,
+    "wof:lastmodified":1486604458,
     "wof:name":"Johnson & Wales University",
-    "wof:parent_id":85871351,
+    "wof:parent_id":1108750053,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

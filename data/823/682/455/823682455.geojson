@@ -2,9 +2,14 @@
   "id": 823682455,
   "type": "Feature",
   "properties": {
+    "addr:full":"4949 Broadway St Boulder CO 80304",
+    "addr:housenumber":"4949",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.282003,40.064728,-105.282003,40.064728",
     "geom:latitude":40.064728,
     "geom:longitude":-105.282003,
@@ -24,19 +29,34 @@
     "sg:postcode":"80304",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3YIoXpBu46DPfwRf3hv1cD_40.064728_-105.282003@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443839,
-    "wof:geomhash":"008ba22fef10d3fb64b642e6593a73dd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"895fc350d7d7eed7ebb756c6c643a7f9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823682455
+        }
+    ],
     "wof:id":823682455,
-    "wof:lastmodified":1466418371,
+    "wof:lastmodified":1492116752,
     "wof:name":"Superfly Cycles",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823580517,
   "type": "Feature",
   "properties": {
+    "addr:full":"111 Co Rd 3 Avon CO 81623",
+    "addr:housenumber":"111;3",
+    "addr:postcode":"81623",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.269868,39.114772,-107.269868,39.114772",
     "geom:latitude":39.114772,
     "geom:longitude":-107.269868,
@@ -24,19 +29,28 @@
     "sg:postcode":"81623",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554351
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Og18Kkgc73GktER611stk_39.114772_-107.269868@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441432,
-    "wof:geomhash":"938c52628cfd9dd84c8ec02a21294633",
-    "wof:hierarchy":[],
+    "wof:geomhash":"938c78194be107d124143f4e80244e9b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554351,
+            "venue_id":823580517
+        }
+    ],
     "wof:id":823580517,
-    "wof:lastmodified":1466416668,
+    "wof:lastmodified":1492118074,
     "wof:name":"Talbot/Intermountain Insurance",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554351,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

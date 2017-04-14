@@ -2,9 +2,14 @@
   "id": 169604877,
   "type": "Feature",
   "properties": {
+    "addr:full":"10001 Washington St Denver CO 80229",
+    "addr:housenumber":"10001",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977809,39.879562,-104.977809,39.879562",
     "geom:latitude":39.879562,
     "geom:longitude":-104.977809,
@@ -29,31 +34,43 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929143,
-        102084053
+        102084053,
+        420553715,
+        420553643
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7jMTZ6XiVUHx4HumK95UNP_39.879562_-104.977809@1294083659"
     },
     "wof:country":"US",
-    "wof:geomhash":"f34586b9b4b5972bd85b7da4cd33d725",
+    "wof:geomhash":"4faa11e9a8db25b364c25eee677fb9ca",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102084053,
             "locality_id":85929143,
-            "neighbourhood_id":-1,
+            "neighbourhood_id":420553715,
+            "region_id":85688603,
+            "venue_id":169604877
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
             "region_id":85688603,
             "venue_id":169604877
         }
     ],
     "wof:id":169604877,
-    "wof:lastmodified":1466411947,
+    "wof:lastmodified":1492109243,
     "wof:name":"North Washington Dental Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

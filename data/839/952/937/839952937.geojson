@@ -2,9 +2,14 @@
   "id": 839952937,
   "type": "Feature",
   "properties": {
+    "addr:full":"6538 Eaton St Arvada CO 80003",
+    "addr:housenumber":"6538",
+    "addr:postcode":"80003",
+    "addr:street":"Eaton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059384,39.814251,-105.059384,39.814251",
     "geom:latitude":39.814251,
     "geom:longitude":-105.059384,
@@ -27,19 +32,36 @@
         "publishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554591
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1HZJnWqdUe0GmYwNdDN4WJ_39.814251_-105.059384@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459267,
-    "wof:geomhash":"febd43873017636d38883fdd442eb2d4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e5dd068271282d8071d7f199f9eaf5a6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554591,
+            "region_id":85688603,
+            "venue_id":839952937
+        }
+    ],
     "wof:id":839952937,
-    "wof:lastmodified":1466415510,
+    "wof:lastmodified":1492111962,
     "wof:name":"Barrio Publications",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554591,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

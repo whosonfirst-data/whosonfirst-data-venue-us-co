@@ -2,9 +2,14 @@
   "id": 823578947,
   "type": "Feature",
   "properties": {
+    "addr:full":"4224 E 126th Ave Denver CO 80241",
+    "addr:housenumber":"4224",
+    "addr:postcode":"80241",
+    "addr:street":"E 126Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.937034,39.925064,-104.937034,39.925064",
     "geom:latitude":39.925064,
     "geom:longitude":-104.937034,
@@ -27,19 +32,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1GP2IHRKLfaNCOzdfXBsMZ_39.925064_-104.937034@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441400,
-    "wof:geomhash":"9ce837cbf72f045a4c426c0bdd79b7fe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"379b2673b2c2e3f52adb6416ce534f98",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823578947
+        }
+    ],
     "wof:id":823578947,
-    "wof:lastmodified":1466416510,
+    "wof:lastmodified":1492122723,
     "wof:name":"Micro Media",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

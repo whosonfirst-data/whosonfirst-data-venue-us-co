@@ -2,9 +2,14 @@
   "id": 839980317,
   "type": "Feature",
   "properties": {
+    "addr:full":"725 Malley Dr Northglenn CO 80233",
+    "addr:housenumber":"725",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.976982,39.903055,-104.976982,39.903055",
     "geom:latitude":39.903055,
     "geom:longitude":-104.976982,
@@ -22,19 +27,36 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_11JcvtgN0YRroxdLgf7rLn_39.903055_-104.976982@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460434,
-    "wof:geomhash":"f4b9b25be5feb1d75c96f82801355ddf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b78f8c564a31db8cd09affa9ac559e8c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553879,
+            "region_id":85688603,
+            "venue_id":839980317
+        }
+    ],
     "wof:id":839980317,
-    "wof:lastmodified":1466416870,
+    "wof:lastmodified":1492113400,
     "wof:name":"Farmers' High Line Canal",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

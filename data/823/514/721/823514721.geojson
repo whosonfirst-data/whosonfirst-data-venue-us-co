@@ -2,9 +2,14 @@
   "id": 823514721,
   "type": "Feature",
   "properties": {
+    "addr:full":"4677 Co Rd 501A Bayfield CO 81122",
+    "addr:housenumber":"4677;501a",
+    "addr:postcode":"81122",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.533441,37.406579,-107.533441,37.406579",
     "geom:latitude":37.406579,
     "geom:longitude":-107.533441,
@@ -29,19 +34,28 @@
         "vehicle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554703
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2JX5DLZ9LsqNBgq7wWoAiB_37.406579_-107.533441@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439900,
-    "wof:geomhash":"6907ac669b6b3958671b92172571975a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d9ede38631c2135d1faa2b8d2d420244",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554703,
+            "venue_id":823514721
+        }
+    ],
     "wof:id":823514721,
-    "wof:lastmodified":1466414685,
+    "wof:lastmodified":1492124905,
     "wof:name":"Five Branches Camper Park",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554703,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

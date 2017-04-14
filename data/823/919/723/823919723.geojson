@@ -2,9 +2,14 @@
   "id": 823919723,
   "type": "Feature",
   "properties": {
+    "addr:full":"1015 S Elizabeth St Denver CO 80209",
+    "addr:housenumber":"1015",
+    "addr:postcode":"80209",
+    "addr:street":"S Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.955897,39.696835,-104.955897,39.696835",
     "geom:latitude":39.696835,
     "geom:longitude":-104.955897,
@@ -28,7 +33,16 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108749009,
+        85871327,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6WWOm7hzA6LjiOkRzcQJwm_39.696835_-104.955897@1294083659"
@@ -36,11 +50,23 @@
     "wof:country":"US",
     "wof:created":1463449991,
     "wof:geomhash":"97919fcd802b6864bf103e14b593d349",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "microhood_id":1108749009,
+            "neighbourhood_id":85871327,
+            "region_id":85688603,
+            "venue_id":823919723
+        }
+    ],
     "wof:id":823919723,
-    "wof:lastmodified":1466420354,
+    "wof:lastmodified":1486604345,
     "wof:name":"Liebherr Faux Finishes",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108749009,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

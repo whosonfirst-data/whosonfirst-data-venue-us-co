@@ -2,9 +2,14 @@
   "id": 823698663,
   "type": "Feature",
   "properties": {
+    "addr:full":"3425 W 38th Ave Denver CO 80211",
+    "addr:housenumber":"3425",
+    "addr:postcode":"80211",
+    "addr:street":"W 38Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.031822,39.769529,-105.031822,39.769529",
     "geom:latitude":39.769529,
     "geom:longitude":-105.031822,
@@ -28,19 +33,38 @@
         "immigration"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871261,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7eYmrSjrhpamPjbVeOGFGz_39.769529_-105.031822@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444211,
-    "wof:geomhash":"5bf66bfac22625150fb49d0e32a62c32",
-    "wof:hierarchy":[],
+    "wof:geomhash":"59437efa70ed6a533a2665b65f9e5d87",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871261,
+            "region_id":85688603,
+            "venue_id":823698663
+        }
+    ],
     "wof:id":823698663,
-    "wof:lastmodified":1466418526,
+    "wof:lastmodified":1492116169,
     "wof:name":"Reliable Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871261,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

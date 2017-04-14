@@ -2,9 +2,14 @@
   "id": 824082481,
   "type": "Feature",
   "properties": {
+    "addr:full":"30680 Co Rd 12 Somerset CO 81434",
+    "addr:housenumber":"30680;12",
+    "addr:postcode":"81434",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.342551,38.928059,-107.342551,38.928059",
     "geom:latitude":38.928059,
     "geom:longitude":-107.342551,
@@ -27,19 +32,28 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554487
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0M9L7QOyiwKERhvfP7c6Je_38.928059_-107.342551@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453905,
-    "wof:geomhash":"9c831378aaadaf4eea20cfca4deefcbb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f208774f8d9dfd77372ddc6a2d76d707",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554487,
+            "venue_id":824082481
+        }
+    ],
     "wof:id":824082481,
-    "wof:lastmodified":1466414649,
+    "wof:lastmodified":1492128314,
     "wof:name":"Tennison & Assocs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554487,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

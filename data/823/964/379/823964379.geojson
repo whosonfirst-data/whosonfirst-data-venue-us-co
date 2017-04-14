@@ -2,9 +2,14 @@
   "id": 823964379,
   "type": "Feature",
   "properties": {
+    "addr:full":"18 S Beech St Cortez CO 81321",
+    "addr:housenumber":"18",
+    "addr:postcode":"81321",
+    "addr:street":"S Beech St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.583757,37.34847,-108.583757,37.34847",
     "geom:latitude":37.34847,
     "geom:longitude":-108.583757,
@@ -27,19 +32,28 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3p05tGAyvfK6uaDBWGXjhi_37.348470_-108.583757@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451121,
-    "wof:geomhash":"c362e81bd3ce3bb1cda34a1c1f7b0dde",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a70836e0de686ac393a2b0190b0d378",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823964379
+        }
+    ],
     "wof:id":823964379,
-    "wof:lastmodified":1466420770,
+    "wof:lastmodified":1492118452,
     "wof:name":"Cortez Dental Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

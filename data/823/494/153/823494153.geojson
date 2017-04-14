@@ -2,9 +2,14 @@
   "id": 823494153,
   "type": "Feature",
   "properties": {
+    "addr:full":"6981 Saulsbury St Arvada CO 80003",
+    "addr:housenumber":"6981",
+    "addr:postcode":"80003",
+    "addr:street":"Saulsbury St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076396,39.824437,-105.076396,39.824437",
     "geom:latitude":39.824437,
     "geom:longitude":-105.076396,
@@ -30,19 +35,36 @@
         "sewer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554587
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7B7l4p9gJiV6x4SRfVUqkn_39.824437_-105.076396@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439402,
-    "wof:geomhash":"437bc6fc7ba8eefca6a1f8f5d0d9e1f7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"36d016390ab6324115bcec91c5e2020d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554587,
+            "region_id":85688603,
+            "venue_id":823494153
+        }
+    ],
     "wof:id":823494153,
-    "wof:lastmodified":1466414119,
+    "wof:lastmodified":1492119954,
     "wof:name":"Cannon's Locating & Sewer Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554587,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

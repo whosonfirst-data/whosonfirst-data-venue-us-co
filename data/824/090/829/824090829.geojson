@@ -2,9 +2,14 @@
   "id": 824090829,
   "type": "Feature",
   "properties": {
+    "addr:full":"237 South Ave Grand Junction CO 81501",
+    "addr:housenumber":"237",
+    "addr:postcode":"81501",
+    "addr:street":"South Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.568527,39.063353,-108.568527,39.063353",
     "geom:latitude":39.063353,
     "geom:longitude":-108.568527,
@@ -28,19 +33,36 @@
         "monument"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3wmyDKJlQaZRyHm9iPqzLz_39.063353_-108.568527@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454105,
-    "wof:geomhash":"606985d46faa2f6738306b17ffbfcbbb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"89ee0d840f7f2b478662a476362de497",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554839,
+            "region_id":85688603,
+            "venue_id":824090829
+        }
+    ],
     "wof:id":824090829,
-    "wof:lastmodified":1466414947,
+    "wof:lastmodified":1492130202,
     "wof:name":"Carlson Memorials",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

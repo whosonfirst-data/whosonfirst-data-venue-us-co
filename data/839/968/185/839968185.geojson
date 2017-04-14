@@ -2,9 +2,14 @@
   "id": 839968185,
   "type": "Feature",
   "properties": {
+    "addr:full":"9 Emmons Rd Crested Butte CO 81225",
+    "addr:housenumber":"9",
+    "addr:postcode":"81225",
+    "addr:street":"Emmons Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.967716,38.902792,-106.967716,38.902792",
     "geom:latitude":38.902792,
     "geom:longitude":-106.967716,
@@ -28,19 +33,36 @@
         "line"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929469,
+        102083377,
+        420554521
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5uub4kAn2JgZ3fiXPOoqgW_38.902792_-106.967716@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459935,
-    "wof:geomhash":"5fc12d7f977a8c155036aedeacacb83d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2e53eac3cd2fa5c53be028ca1feb2983",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929469,
+            "neighbourhood_id":420554521,
+            "region_id":85688603,
+            "venue_id":839968185
+        }
+    ],
     "wof:id":839968185,
-    "wof:lastmodified":1466416060,
+    "wof:lastmodified":1492114479,
     "wof:name":"Mountain Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554521,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

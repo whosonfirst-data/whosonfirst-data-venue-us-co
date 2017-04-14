@@ -2,9 +2,14 @@
   "id": 823879547,
   "type": "Feature",
   "properties": {
+    "addr:full":"401 E Pikes Peak Ave Colorado Springs CO 80903",
+    "addr:housenumber":"401",
+    "addr:postcode":"80903",
+    "addr:street":"E Pikes Peak Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.817914,38.833697,-104.817914,38.833697",
     "geom:latitude":38.833697,
     "geom:longitude":-104.817914,
@@ -33,6 +38,7 @@
         85633793,
         85929457,
         102086875,
+        85872761,
         85872783
     ],
     "wof:breaches":[],
@@ -41,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463448959,
-    "wof:geomhash":"bbe6402cf7a88aa60edf738dc5da6d34",
+    "wof:geomhash":"8f802c2fa1b36fd128fc5a38ff1eece6",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":85872761,
+            "region_id":85688603,
+            "venue_id":823879547
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,9 +69,9 @@
         }
     ],
     "wof:id":823879547,
-    "wof:lastmodified":1466420038,
+    "wof:lastmodified":1492117924,
     "wof:name":"Pikes Peak Liquors",
-    "wof:parent_id":85872783,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

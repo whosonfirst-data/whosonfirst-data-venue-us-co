@@ -2,9 +2,14 @@
   "id": 823731621,
   "type": "Feature",
   "properties": {
+    "addr:full":"701 N Main St Brighton CO 80601",
+    "addr:housenumber":"701",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.817925,39.997918,-104.817925,39.997918",
     "geom:latitude":39.997918,
     "geom:longitude":-104.817925,
@@ -28,19 +33,36 @@
         "sugar"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0EGTPmH1EzpLnSIOHSW3GC_39.997918_-104.817925@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444949,
-    "wof:geomhash":"9e8999e7d715e77314e48fdf523098b0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1de7167e0722dbaeb99ae889bf206033",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823731621
+        }
+    ],
     "wof:id":823731621,
-    "wof:lastmodified":1466418636,
+    "wof:lastmodified":1492117546,
     "wof:name":"Almalgamated Sugar",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

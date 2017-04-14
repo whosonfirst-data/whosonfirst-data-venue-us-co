@@ -2,9 +2,14 @@
   "id": 823472551,
   "type": "Feature",
   "properties": {
+    "addr:full":"305 Co Rd 19 Brighton CO 80603",
+    "addr:housenumber":"305;19",
+    "addr:postcode":"80603",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.88604,40.004741,-104.88604,40.004741",
     "geom:latitude":40.004741,
     "geom:longitude":-104.88604,
@@ -27,19 +32,28 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555427
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1TplgGgOGAdpDJvD5krNVv_40.004741_-104.886040@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438887,
-    "wof:geomhash":"29e0b17cf90b97edfd377fe22b879b1a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b7396d210dcbb78b9fa38cb82e87a753",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555427,
+            "venue_id":823472551
+        }
+    ],
     "wof:id":823472551,
-    "wof:lastmodified":1466412596,
+    "wof:lastmodified":1492120306,
     "wof:name":"Knudson Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555427,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839940247,
   "type": "Feature",
   "properties": {
+    "addr:full":"12162 Bannock Cir Denver CO 80234",
+    "addr:housenumber":"12162",
+    "addr:postcode":"80234",
+    "addr:street":"Bannock Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.99036,39.917427,-104.99036,39.917427",
     "geom:latitude":39.917427,
     "geom:longitude":-104.99036,
@@ -28,19 +33,36 @@
         "mortgage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553841
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Ej6BTDLjKqCiSESX5RtPp_39.917427_-104.990360@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458509,
-    "wof:geomhash":"a782b61afc053e21556a88ca4b8fc9ab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"45d396f55089b92f2d722d47796e43d2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553841,
+            "region_id":85688603,
+            "venue_id":839940247
+        }
+    ],
     "wof:id":839940247,
-    "wof:lastmodified":1466414872,
+    "wof:lastmodified":1492114250,
     "wof:name":"Tri-State Mortgage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553841,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

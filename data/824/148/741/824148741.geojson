@@ -2,9 +2,14 @@
   "id": 824148741,
   "type": "Feature",
   "properties": {
+    "addr:full":"2209 Perry St Denver CO 80212",
+    "addr:housenumber":"2209",
+    "addr:postcode":"80212",
+    "addr:street":"Perry St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039388,39.751095,-105.039388,39.751095",
     "geom:latitude":39.751095,
     "geom:longitude":-105.039388,
@@ -28,19 +33,38 @@
         "check"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6zOEdOFquE91SPl5PAQPEP_39.751095_-105.039388@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455857,
-    "wof:geomhash":"80cc97bbc0312a2043fcad43a3170aff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d2753ace7b8f201b9a5e094dbc5e195",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":824148741
+        }
+    ],
     "wof:id":824148741,
-    "wof:lastmodified":1466416723,
+    "wof:lastmodified":1492130186,
     "wof:name":"Check Collect",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

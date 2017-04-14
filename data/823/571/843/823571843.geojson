@@ -2,9 +2,14 @@
   "id": 823571843,
   "type": "Feature",
   "properties": {
+    "addr:full":"690 E 120th Ave Northglenn CO 80233",
+    "addr:housenumber":"690",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.981007,39.913938,-104.981007,39.913938",
     "geom:latitude":39.913938,
     "geom:longitude":-104.981007,
@@ -27,19 +32,36 @@
         "brake"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0krhGdf8ldkUsIlLo8mLfa_39.913938_-104.981007@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441229,
-    "wof:geomhash":"4a5076681f2f354ceffaabbae2312561",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6c5c9775e41083716c3b086b04ff2a02",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":823571843
+        }
+    ],
     "wof:id":823571843,
-    "wof:lastmodified":1466416384,
+    "wof:lastmodified":1492125254,
     "wof:name":"Big O Tires",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

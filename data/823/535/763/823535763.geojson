@@ -2,9 +2,14 @@
   "id": 823535763,
   "type": "Feature",
   "properties": {
+    "addr:full":"2523 S Winona Ct Denver CO 80219",
+    "addr:housenumber":"2523",
+    "addr:postcode":"80219",
+    "addr:street":"S Winona Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.047701,39.671716,-105.047701,39.671716",
     "geom:latitude":39.671716,
     "geom:longitude":-105.047701,
@@ -29,7 +34,15 @@
         "maintenance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3JMsUbnmLv1r0AY4lfTaGL_39.671716_-105.047701@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463440373,
     "wof:geomhash":"92ebe04d6b98c2224a5cc621b0ee7f8e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":823535763
+        }
+    ],
     "wof:id":823535763,
-    "wof:lastmodified":1466415199,
+    "wof:lastmodified":1486593726,
     "wof:name":"Inner Flora",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

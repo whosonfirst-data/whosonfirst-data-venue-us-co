@@ -2,9 +2,14 @@
   "id": 839990507,
   "type": "Feature",
   "properties": {
+    "addr:full":"2020 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"2020",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.797381,39.986507,-104.797381,39.986507",
     "geom:latitude":39.986507,
     "geom:longitude":-104.797381,
@@ -29,19 +34,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Fr9nNQG0ht6Bine56FG0n_39.986507_-104.797381@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460828,
-    "wof:geomhash":"7be3b32f731110acf908c3306145f217",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4324428089a17e09a0e630589d346b3e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":839990507
+        }
+    ],
     "wof:id":839990507,
-    "wof:lastmodified":1466417649,
+    "wof:lastmodified":1492110562,
     "wof:name":"Dairy Queen",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

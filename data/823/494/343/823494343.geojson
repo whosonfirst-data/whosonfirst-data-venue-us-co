@@ -2,9 +2,14 @@
   "id": 823494343,
   "type": "Feature",
   "properties": {
+    "addr:full":"775 Amethyst Dr Steamboat Spgs CO 80487",
+    "addr:housenumber":"775",
+    "addr:postcode":"80487",
+    "addr:street":"Amethyst Dr;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.818115,40.486295,-106.818115,40.486295",
     "geom:latitude":40.486295,
     "geom:longitude":-106.818115,
@@ -28,19 +33,36 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555221
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3eguuyghzTqJ7N38wOWYs2_40.486295_-106.818115@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439410,
-    "wof:geomhash":"050de8b270ff3f101995e96db137ce67",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d4d36487bc5c225c75a579c58af21368",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555221,
+            "region_id":85688603,
+            "venue_id":823494343
+        }
+    ],
     "wof:id":823494343,
-    "wof:lastmodified":1466414128,
+    "wof:lastmodified":1492119958,
     "wof:name":"Southwest Financial Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555221,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

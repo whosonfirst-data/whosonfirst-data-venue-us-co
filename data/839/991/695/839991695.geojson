@@ -2,9 +2,14 @@
   "id": 839991695,
   "type": "Feature",
   "properties": {
+    "addr:full":"3333 Clark St Alamosa CO 81101",
+    "addr:housenumber":"3333",
+    "addr:postcode":"81101",
+    "addr:street":"Clark St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.903777,37.480203,-105.903777,37.480203",
     "geom:latitude":37.480203,
     "geom:longitude":-105.903777,
@@ -29,17 +34,32 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929545,
+        102084133
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2P4TlRPbflPOfQ84yuat5p_37.480203_-105.903777@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460874,
-    "wof:geomhash":"043add9884ef8d82f427bf1bd5d5ce38",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f4d3522777269b2de531eb36358df499",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084133,
+            "locality_id":85929545,
+            "region_id":85688603,
+            "venue_id":839991695
+        }
+    ],
     "wof:id":839991695,
-    "wof:lastmodified":1466417434,
+    "wof:lastmodified":1492110998,
     "wof:name":"Subway",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

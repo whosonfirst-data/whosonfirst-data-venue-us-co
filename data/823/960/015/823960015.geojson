@@ -2,9 +2,14 @@
   "id": 823960015,
   "type": "Feature",
   "properties": {
+    "addr:full":"5301 W 1st Ave Denver CO 80226",
+    "addr:housenumber":"5301",
+    "addr:postcode":"80226",
+    "addr:street":"W 1St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.055624,39.718579,-105.055624,39.718579",
     "geom:latitude":39.718579,
     "geom:longitude":-105.055624,
@@ -36,19 +41,36 @@
         "specialty"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7bEqcSSv7fXGcgVF0SDScI_39.718579_-105.055624@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451032,
-    "wof:geomhash":"c7a452983d2226aebf54ed46e665f74f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c2164a4874010e146ad7727ece17077d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823960015
+        }
+    ],
     "wof:id":823960015,
-    "wof:lastmodified":1466420756,
+    "wof:lastmodified":1492119678,
     "wof:name":"Bethany Health Plex",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

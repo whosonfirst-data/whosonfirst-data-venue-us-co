@@ -2,9 +2,14 @@
   "id": 839938859,
   "type": "Feature",
   "properties": {
+    "addr:full":"647 S Broadway St Boulder CO 80305",
+    "addr:housenumber":"647",
+    "addr:postcode":"80305",
+    "addr:street":"S Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.243172,39.977885,-105.243172,39.977885",
     "geom:latitude":39.977885,
     "geom:longitude":-105.243172,
@@ -27,19 +32,36 @@
         "tire"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6fgldj1YSM3oStjfCAJCmn_39.977885_-105.243172@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458429,
-    "wof:geomhash":"fd601407a68e28d3b47bd543d6ec3567",
-    "wof:hierarchy":[],
+    "wof:geomhash":"62c28892f1c905026f211a1007c79c60",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":839938859
+        }
+    ],
     "wof:id":839938859,
-    "wof:lastmodified":1466414756,
+    "wof:lastmodified":1492110531,
     "wof:name":"Pickards Auto & Tire",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

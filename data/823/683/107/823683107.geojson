@@ -2,9 +2,14 @@
   "id": 823683107,
   "type": "Feature",
   "properties": {
+    "addr:full":"9660 Washington St Denver CO 80229",
+    "addr:housenumber":"9660",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977601,39.875553,-104.977601,39.875553",
     "geom:latitude":39.875553,
     "geom:longitude":-104.977601,
@@ -24,19 +29,36 @@
     "sg:postcode":"80229",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0x8PrdMwesIuzrzEojyoSM_39.875553_-104.977601@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443853,
-    "wof:geomhash":"4594a282f77fd56c24e540da922878e6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1953985b2251f23ab361a3a1bfeebc50",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823683107
+        }
+    ],
     "wof:id":823683107,
-    "wof:lastmodified":1466418347,
+    "wof:lastmodified":1492117420,
     "wof:name":"TCF National Bank",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

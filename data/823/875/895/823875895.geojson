@@ -2,9 +2,14 @@
   "id": 823875895,
   "type": "Feature",
   "properties": {
+    "addr:full":"13570 Elliot Pl Broomfield CO 80020",
+    "addr:housenumber":"13570",
+    "addr:postcode":"80020",
+    "addr:street":"Elliot Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024965,39.942214,-105.024965,39.942214",
     "geom:latitude":39.942214,
     "geom:longitude":-105.024965,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554219
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6OKGUx5z1N2gEGYU0urLlA_39.942214_-105.024965@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448869,
-    "wof:geomhash":"c45ce882206c02ab6daa4541b7809ce9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"398122e4301145e979f878a933166691",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554219,
+            "region_id":85688603,
+            "venue_id":823875895
+        }
+    ],
     "wof:id":823875895,
-    "wof:lastmodified":1466419988,
+    "wof:lastmodified":1492120006,
     "wof:name":"Mels Delivery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554219,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

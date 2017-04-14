@@ -2,9 +2,14 @@
   "id": 824146045,
   "type": "Feature",
   "properties": {
+    "addr:full":"10025 Alcott St Denver CO 80260",
+    "addr:housenumber":"10025",
+    "addr:postcode":"80260",
+    "addr:street":"Alcott St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.016152,39.880258,-105.016152,39.880258",
     "geom:latitude":39.880258,
     "geom:longitude":-105.016152,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553931
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5SEJrjuksUYQe4Zzq2LOOp_39.880258_-105.016152@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455742,
-    "wof:geomhash":"86d9ca0fb2cfe559064a90b3c77b4057",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b653bf4fce17cdc3f9236d665c3c1c06",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553931,
+            "region_id":85688603,
+            "venue_id":824146045
+        }
+    ],
     "wof:id":824146045,
-    "wof:lastmodified":1466416393,
+    "wof:lastmodified":1492128000,
     "wof:name":"Maximum Mechanical Svc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553931,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

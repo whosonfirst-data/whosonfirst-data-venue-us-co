@@ -2,9 +2,14 @@
   "id": 824166523,
   "type": "Feature",
   "properties": {
+    "addr:full":"3095 Sterling Cir Boulder CO 80301",
+    "addr:housenumber":"3095",
+    "addr:postcode":"80301",
+    "addr:street":"Sterling Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227231,40.032259,-105.227231,40.032259",
     "geom:latitude":40.032259,
     "geom:longitude":-105.227231,
@@ -31,19 +36,36 @@
         "air"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06eYbCoAE2VtRGoyzabk6a_40.032259_-105.227231@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456551,
-    "wof:geomhash":"57644b083786d892753a202c09d6f731",
-    "wof:hierarchy":[],
+    "wof:geomhash":"68bbf9bc3e2500c7489a992d2a4bd679",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876385,
+            "region_id":85688603,
+            "venue_id":824166523
+        }
+    ],
     "wof:id":824166523,
-    "wof:lastmodified":1466417865,
+    "wof:lastmodified":1492128138,
     "wof:name":"Trinity Mechanical",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

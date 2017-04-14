@@ -2,9 +2,14 @@
   "id": 839919955,
   "type": "Feature",
   "properties": {
+    "addr:full":"622 Pawnee St Strasburg CO 80136",
+    "addr:housenumber":"622",
+    "addr:postcode":"80136",
+    "addr:street":"Pawnee St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.333922,39.724457,-104.333922,39.724457",
     "geom:latitude":39.724457,
     "geom:longitude":-104.333922,
@@ -27,19 +32,36 @@
         "fence"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3btBo7i8SnRm42sB9iUfBo_39.724457_-104.333922@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457486,
-    "wof:geomhash":"de4a91e60c2f52276c86a850b652bac3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5007999af548aba4cbf7e9a777746f2f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":839919955
+        }
+    ],
     "wof:id":839919955,
-    "wof:lastmodified":1466413706,
+    "wof:lastmodified":1492111214,
     "wof:name":"Anchor Fence",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823467055,
   "type": "Feature",
   "properties": {
+    "addr:full":"4525 E 121st Ct Northglenn CO 80241",
+    "addr:housenumber":"4525",
+    "addr:postcode":"80241",
+    "addr:street":"E 121St Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.932712,39.915822,-104.932712,39.915822",
     "geom:latitude":39.915822,
     "geom:longitude":-104.932712,
@@ -27,19 +32,36 @@
         "packaging"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2mo8PzcOX8A5hVBBhHB3JO_39.915822_-104.932712@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438768,
-    "wof:geomhash":"8457c1ae75597728f951c9ca103785e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a71fea527be3ec93e8a211484c4b3554",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":823467055
+        }
+    ],
     "wof:id":823467055,
-    "wof:lastmodified":1466412034,
+    "wof:lastmodified":1492117036,
     "wof:name":"Ppm Sales",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

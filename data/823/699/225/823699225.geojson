@@ -2,9 +2,14 @@
   "id": 823699225,
   "type": "Feature",
   "properties": {
+    "addr:full":"18244 E Dorado Ave Centennial CO 80015",
+    "addr:housenumber":"18244",
+    "addr:postcode":"80015",
+    "addr:street":"E Dorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.775317,39.613494,-104.775317,39.613494",
     "geom:latitude":39.613494,
     "geom:longitude":-104.775317,
@@ -27,17 +32,32 @@
         "accident"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929851,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ftPKsdrSwVM61P7Ycc9XW_39.613494_-104.775317@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444222,
-    "wof:geomhash":"a93433dd89ce6ab735ddc77ccdd57576",
-    "wof:hierarchy":[],
+    "wof:geomhash":"736a61bb690c2901bf7e082cb484c4f5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929851,
+            "region_id":85688603,
+            "venue_id":823699225
+        }
+    ],
     "wof:id":823699225,
-    "wof:lastmodified":1466418485,
+    "wof:lastmodified":1492122440,
     "wof:name":"Health Insurance Advocates",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

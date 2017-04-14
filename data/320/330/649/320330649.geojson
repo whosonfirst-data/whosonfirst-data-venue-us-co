@@ -2,9 +2,14 @@
   "id": 320330649,
   "type": "Feature",
   "properties": {
+    "addr:full":"1501 Albion St Denver CO 80220",
+    "addr:housenumber":"1501",
+    "addr:postcode":"80220",
+    "addr:street":"Albion St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.939003,39.740601,-104.939003,39.740601",
     "geom:latitude":39.740601,
     "geom:longitude":-104.939003,
@@ -30,12 +35,14 @@
     "sg:website":"www.denverchildrenshome.org",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750053,
+        85840547,
+        102191575,
+        1108750055,
         85633793,
         85928879,
         102086135,
-        85866859,
-        85871335
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -45,28 +52,21 @@
     "wof:geomhash":"25e78341a9c9fa0140775b3b867b806b",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85866859,
-            "region_id":85688603,
-            "venue_id":320330649
-        },
-        {
-            "continent_id":-1,
-            "country_id":85633793,
-            "county_id":102086135,
-            "locality_id":85928879,
-            "neighbourhood_id":85871335,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750053,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":320330649
         }
     ],
     "wof:id":320330649,
-    "wof:lastmodified":1466413083,
+    "wof:lastmodified":1486604459,
     "wof:name":"Denver Children's Home",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750053,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

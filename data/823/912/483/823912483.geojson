@@ -2,9 +2,14 @@
   "id": 823912483,
   "type": "Feature",
   "properties": {
+    "addr:full":"2931 Bozeman Ct Fort Collins CO 80526",
+    "addr:housenumber":"2931",
+    "addr:postcode":"80526",
+    "addr:street":"Bozeman Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.088335,40.547237,-105.088335,40.547237",
     "geom:latitude":40.547237,
     "geom:longitude":-105.088335,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5m4QqWBFX7j9U5BTsgc4en_40.547237_-105.088335@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449818,
-    "wof:geomhash":"6646a95de6cf545138d54302393cb32b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6a7e16466358e7630b4259f5082fae2e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823912483
+        }
+    ],
     "wof:id":823912483,
-    "wof:lastmodified":1466420323,
+    "wof:lastmodified":1492117134,
     "wof:name":"Cjs Electric Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

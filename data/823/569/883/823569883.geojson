@@ -2,9 +2,14 @@
   "id": 823569883,
   "type": "Feature",
   "properties": {
+    "addr:full":"2000 Colorado Ave Burlington CO 80807",
+    "addr:housenumber":"2000",
+    "addr:postcode":"80807",
+    "addr:street":"Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.279591,39.306656,-102.279591,39.306656",
     "geom:latitude":39.306656,
     "geom:longitude":-102.279591,
@@ -31,17 +36,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928925,
+        102085235
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1awxqp9WcXJzjHpu7oDcbK_39.306656_-102.279591@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441186,
-    "wof:geomhash":"ea38e5cc25a9feb092ef581e8071b6ab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"60e842cb72ce2e86fd9578058aa656e0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085235,
+            "locality_id":85928925,
+            "region_id":85688603,
+            "venue_id":823569883
+        }
+    ],
     "wof:id":823569883,
-    "wof:lastmodified":1466416193,
+    "wof:lastmodified":1492117399,
     "wof:name":"Lafarge North America Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

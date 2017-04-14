@@ -2,9 +2,14 @@
   "id": 823951283,
   "type": "Feature",
   "properties": {
+    "addr:full":"704 Main St San Luis CO 81152",
+    "addr:housenumber":"704",
+    "addr:postcode":"81152",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.425186,37.204152,-105.425186,37.204152",
     "geom:latitude":37.204152,
     "geom:longitude":-105.425186,
@@ -27,17 +32,32 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928791,
+        102084079
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4yr6QnN1i0GI3oCxSsbsqd_37.204152_-105.425186@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450805,
-    "wof:geomhash":"ee292e2a6cf499c8eb43cafd13f4d91a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"be34a63ec73252bb374ee0919260e0b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084079,
+            "locality_id":85928791,
+            "region_id":85688603,
+            "venue_id":823951283
+        }
+    ],
     "wof:id":823951283,
-    "wof:lastmodified":1466420632,
+    "wof:lastmodified":1492123822,
     "wof:name":"Piccadilly Circus Pizza",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

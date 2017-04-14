@@ -2,9 +2,14 @@
   "id": 823959843,
   "type": "Feature",
   "properties": {
+    "addr:full":"2771 B Rd Grand Junction CO 81503",
+    "addr:housenumber":"2771 b",
+    "addr:postcode":"81503",
+    "addr:street":"Rd Grand Junction",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.540672,39.03391,-108.540672,39.03391",
     "geom:latitude":39.03391,
     "geom:longitude":-108.540672,
@@ -27,19 +32,42 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554917,
+        85688603,
+        102191575,
+        85930463,
+        102085221,
+        420555025
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ptfzxgaUYduSu7VPk81yc_39.033910_-108.540672@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451029,
-    "wof:geomhash":"2ae4cc947226f77aa7a9a559b06a4260",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f56e05a94ebb063e7ea3af86637a3bcd",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554917,
+            "venue_id":823959843
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930463,
+            "neighbourhood_id":420555025,
+            "region_id":85688603,
+            "venue_id":823959843
+        }
+    ],
     "wof:id":823959843,
-    "wof:lastmodified":1466420706,
+    "wof:lastmodified":1492124045,
     "wof:name":"Fairground Wine & Liquor",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

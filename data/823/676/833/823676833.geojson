@@ -2,9 +2,14 @@
   "id": 823676833,
   "type": "Feature",
   "properties": {
+    "addr:full":"8600 Welby Rd Denver CO 80229",
+    "addr:housenumber":"",
+    "addr:postcode":"8600;80229",
+    "addr:street":"Welby Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.954445,39.85192,-104.954445,39.85192",
     "geom:latitude":39.85192,
     "geom:longitude":-104.954445,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553799
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7W259BlNYzlAIrgjsy5MQI_39.851920_-104.954445@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443718,
-    "wof:geomhash":"15ae7e67e1399038299fc003a9f51e74",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dd986e5f36a196af4c9a85b84a98e79e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553799,
+            "region_id":85688603,
+            "venue_id":823676833
+        }
+    ],
     "wof:id":823676833,
-    "wof:lastmodified":1466418374,
+    "wof:lastmodified":1492125905,
     "wof:name":"Encon Bridge Co LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553799,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

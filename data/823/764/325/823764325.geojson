@@ -2,9 +2,14 @@
   "id": 823764325,
   "type": "Feature",
   "properties": {
+    "addr:full":"501 Main St Canon City CO 81212",
+    "addr:housenumber":"501",
+    "addr:postcode":"81212",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.23942,38.44115,-105.23942,38.44115",
     "geom:latitude":38.44115,
     "geom:longitude":-105.23942,
@@ -27,19 +32,36 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929803,
+        102083363,
+        85816081
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0A4GqksKRIidAhmCJxJzwT_38.441150_-105.239420@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445705,
-    "wof:geomhash":"c6faddb6533b17700e9902b0f2299c53",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ddd797735c6ee723815259642c930c0f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "locality_id":85929803,
+            "neighbourhood_id":85816081,
+            "region_id":85688603,
+            "venue_id":823764325
+        }
+    ],
     "wof:id":823764325,
-    "wof:lastmodified":1466419072,
+    "wof:lastmodified":1492116846,
     "wof:name":"Randy Keller Photography",
-    "wof:parent_id":-1,
+    "wof:parent_id":85816081,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

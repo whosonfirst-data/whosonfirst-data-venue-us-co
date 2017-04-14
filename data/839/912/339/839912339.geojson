@@ -2,9 +2,14 @@
   "id": 839912339,
   "type": "Feature",
   "properties": {
+    "addr:full":"7270 W 118th Pl Broomfield CO 80020",
+    "addr:housenumber":"7270",
+    "addr:postcode":"80020",
+    "addr:street":"W 118Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.077653,39.91034,-105.077653,39.91034",
     "geom:latitude":39.91034,
     "geom:longitude":-105.077653,
@@ -28,19 +33,36 @@
         "dental"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554221
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5nGoMUQrYl4OCLTeqkmj9F_39.910340_-105.077653@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457199,
-    "wof:geomhash":"be916c8e6172a6920b17fc090653d04e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a41bf232a04cac1567c4e36ff4ac6df8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554221,
+            "region_id":85688603,
+            "venue_id":839912339
+        }
+    ],
     "wof:id":839912339,
-    "wof:lastmodified":1466412417,
+    "wof:lastmodified":1492110845,
     "wof:name":"New Horizons Dental Laboratory",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554221,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

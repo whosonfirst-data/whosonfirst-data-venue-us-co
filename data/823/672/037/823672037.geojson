@@ -2,9 +2,14 @@
   "id": 823672037,
   "type": "Feature",
   "properties": {
+    "addr:full":"5580 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"5580",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025173,39.797002,-105.025173,39.797002",
     "geom:latitude":39.797002,
     "geom:longitude":-105.025173,
@@ -30,19 +35,36 @@
         "retail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1HKtChMoDjD4R4pQtKLuPD_39.797002_-105.025173@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443618,
-    "wof:geomhash":"d9eacf55430829a3ac13683ea2ff02e3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e540946c985d6b68eea867da4a474339",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553615,
+            "region_id":85688603,
+            "venue_id":823672037
+        }
+    ],
     "wof:id":823672037,
-    "wof:lastmodified":1466418367,
+    "wof:lastmodified":1492124721,
     "wof:name":"Adult Book Store",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823673555,
   "type": "Feature",
   "properties": {
+    "addr:full":"16 W Main St Cortez CO 81321",
+    "addr:housenumber":"16",
+    "addr:postcode":"81321",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.58637,37.34868,-108.58637,37.34868",
     "geom:latitude":37.34868,
     "geom:longitude":-108.58637,
@@ -28,19 +33,28 @@
         "shoes"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_30qbmDhl1H1UC3qqCBn3uf_37.348680_-108.586370@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443657,
-    "wof:geomhash":"d6f36c7e560733bff38917719a6acc86",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d9d27fe5da9ae3c83955230c226226a4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823673555
+        }
+    ],
     "wof:id":823673555,
-    "wof:lastmodified":1466418317,
+    "wof:lastmodified":1492122064,
     "wof:name":"Howard's Sporting Goods",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

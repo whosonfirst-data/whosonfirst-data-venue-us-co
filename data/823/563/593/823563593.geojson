@@ -2,9 +2,14 @@
   "id": 823563593,
   "type": "Feature",
   "properties": {
+    "addr:full":"201 Jay St Denver CO 80226",
+    "addr:housenumber":"201",
+    "addr:postcode":"80226",
+    "addr:street":"Jay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.065133,39.720784,-105.065133,39.720784",
     "geom:latitude":39.720784,
     "geom:longitude":-105.065133,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3eMNA6Hlwxi8POjLQEZz0z_39.720784_-105.065133@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441029,
-    "wof:geomhash":"e7652b6accfb323d898a22ae23a418f0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"74d12028fed1d1cdbecb85d6a07d3be8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823563593
+        }
+    ],
     "wof:id":823563593,
-    "wof:lastmodified":1466416169,
+    "wof:lastmodified":1492125037,
     "wof:name":"Robert Gowins Contractor",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

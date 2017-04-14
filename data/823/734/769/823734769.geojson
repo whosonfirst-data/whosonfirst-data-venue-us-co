@@ -2,9 +2,14 @@
   "id": 823734769,
   "type": "Feature",
   "properties": {
+    "addr:full":"2716 S College Ave Fort Collins CO 80525",
+    "addr:housenumber":"2716",
+    "addr:postcode":"80525",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076966,40.549217,-105.076966,40.549217",
     "geom:latitude":40.549217,
     "geom:longitude":-105.076966,
@@ -27,19 +32,36 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554753
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5DW1ODXDJ0yqnwN9c9LYTp_40.549217_-105.076966@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445041,
-    "wof:geomhash":"b825fa2874fd4f0921be164c21f3670e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"890dc1661598af23b1d9ab96c9a7b8d2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554753,
+            "region_id":85688603,
+            "venue_id":823734769
+        }
+    ],
     "wof:id":823734769,
-    "wof:lastmodified":1466418850,
+    "wof:lastmodified":1492124816,
     "wof:name":"Nathan & Julia's Furniture",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554753,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824027393,
   "type": "Feature",
   "properties": {
+    "addr:full":"12411 Newton St Broomfield CO 80020",
+    "addr:housenumber":"12411",
+    "addr:postcode":"80020",
+    "addr:street":"Newton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.037257,39.923602,-105.037257,39.923602",
     "geom:latitude":39.923602,
     "geom:longitude":-105.037257,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554245
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1CpNokITCxJif7p7uWvNy7_39.923602_-105.037257@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452603,
-    "wof:geomhash":"e478a7678463932be988078b28c7dde5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a63bb6cc63fb2e19e37a409b06c3e8fe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554245,
+            "region_id":85688603,
+            "venue_id":824027393
+        }
+    ],
     "wof:id":824027393,
-    "wof:lastmodified":1466413729,
+    "wof:lastmodified":1492132404,
     "wof:name":"Tundra Hauling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554245,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

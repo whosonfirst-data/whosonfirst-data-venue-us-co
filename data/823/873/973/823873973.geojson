@@ -2,9 +2,14 @@
   "id": 823873973,
   "type": "Feature",
   "properties": {
+    "addr:full":"5630 Pennsylvania Ave Boulder CO 80303",
+    "addr:housenumber":"5630",
+    "addr:postcode":"80303",
+    "addr:street":"Pennsylvania Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.222857,40.005891,-105.222857,40.005891",
     "geom:latitude":40.005891,
     "geom:longitude":-105.222857,
@@ -27,19 +32,36 @@
         "security"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554141
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0SPz646M5sq9ffus3jjtjv_40.005891_-105.222857@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448825,
-    "wof:geomhash":"079f6841be26160f602859a1f59bee13",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f6f01b0f687140735aa36b4351f9e73",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554141,
+            "region_id":85688603,
+            "venue_id":823873973
+        }
+    ],
     "wof:id":823873973,
-    "wof:lastmodified":1466420013,
+    "wof:lastmodified":1492120471,
     "wof:name":"Edward Jones 28853",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554141,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823798679,
   "type": "Feature",
   "properties": {
+    "addr:full":"25 Winterset Dr Crested Butte CO 81224",
+    "addr:housenumber":"25",
+    "addr:postcode":"81224",
+    "addr:street":"Winterset Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.962601,38.91162,-106.962601,38.91162",
     "geom:latitude":38.91162,
     "geom:longitude":-106.962601,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929469,
+        102083377,
+        420554497
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6r1NV52rxP8dXrusclCRy3_38.911620_-106.962601@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446677,
-    "wof:geomhash":"3bc320dc476fc1219be9a9e1ae2d3974",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6dd96c8875fcec3d0db82d07db6f7594",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929469,
+            "neighbourhood_id":420554497,
+            "region_id":85688603,
+            "venue_id":823798679
+        }
+    ],
     "wof:id":823798679,
-    "wof:lastmodified":1466419282,
+    "wof:lastmodified":1492118632,
     "wof:name":"Leonard Excavating Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554497,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

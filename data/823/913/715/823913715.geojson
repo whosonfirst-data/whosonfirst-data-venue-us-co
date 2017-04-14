@@ -2,9 +2,14 @@
   "id": 823913715,
   "type": "Feature",
   "properties": {
+    "addr:full":"6110 Chelsea Manor Ct Boulder CO 80301",
+    "addr:housenumber":"6110",
+    "addr:postcode":"80301",
+    "addr:street":"Chelsea Manor Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.212492,40.054965,-105.212492,40.054965",
     "geom:latitude":40.054965,
     "geom:longitude":-105.212492,
@@ -30,19 +35,36 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554005
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4z52f2SEhJ9j08nHUfDNFP_40.054965_-105.212492@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449848,
-    "wof:geomhash":"409a37387f4a5578cb82deddf7eb2972",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ad5d5e8bedec435f493f65d85a44922c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554005,
+            "region_id":85688603,
+            "venue_id":823913715
+        }
+    ],
     "wof:id":823913715,
-    "wof:lastmodified":1466420377,
+    "wof:lastmodified":1492125050,
     "wof:name":"Terri Hendrick Interiors LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554005,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

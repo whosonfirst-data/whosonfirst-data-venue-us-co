@@ -2,9 +2,14 @@
   "id": 824150459,
   "type": "Feature",
   "properties": {
+    "addr:full":"8450 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"8450",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052984,39.851966,-105.052984,39.851966",
     "geom:latitude":39.851966,
     "geom:longitude":-105.052984,
@@ -27,19 +32,36 @@
         "motion"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00NjsWezI5RFamjm6Rhyjh_39.851966_-105.052984@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455919,
-    "wof:geomhash":"3aaae332bf7975c44477541656bd6bb3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8ea72babcdb583931d46e461559a13db",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":824150459
+        }
+    ],
     "wof:id":824150459,
-    "wof:lastmodified":1466416849,
+    "wof:lastmodified":1492132026,
     "wof:name":"Suspect Productions LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

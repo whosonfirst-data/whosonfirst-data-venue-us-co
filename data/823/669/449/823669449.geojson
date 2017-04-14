@@ -2,9 +2,14 @@
   "id": 823669449,
   "type": "Feature",
   "properties": {
+    "addr:full":"1989 E 117th Ct Denver CO 80233",
+    "addr:housenumber":"1989",
+    "addr:postcode":"80233",
+    "addr:street":"E 117Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.965414,39.908649,-104.965414,39.908649",
     "geom:latitude":39.908649,
     "geom:longitude":-104.965414,
@@ -35,19 +40,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553653
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4bz4PUtxrOotFKwAEqous0_39.908649_-104.965414@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443560,
-    "wof:geomhash":"be07f4a94033db0b402f00f97858b9ea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"af7a0225662a4ddf17187ee245f562f4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553653,
+            "region_id":85688603,
+            "venue_id":823669449
+        }
+    ],
     "wof:id":823669449,
-    "wof:lastmodified":1466418128,
+    "wof:lastmodified":1492121759,
     "wof:name":"Devoss Interior Systems Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553653,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

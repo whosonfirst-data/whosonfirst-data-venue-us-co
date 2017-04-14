@@ -2,9 +2,14 @@
   "id": 823567753,
   "type": "Feature",
   "properties": {
+    "addr:full":"5383 Atchison Way Denver CO 80239",
+    "addr:housenumber":"5383",
+    "addr:postcode":"80239",
+    "addr:street":"Atchison Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.826703,39.792903,-104.826703,39.792903",
     "geom:latitude":39.792903,
     "geom:longitude":-104.826703,
@@ -27,7 +32,15 @@
         "painter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6EeZuj0KC7Bw2zoeZdXb4x_39.792903_-104.826703@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463441130,
     "wof:geomhash":"a8a9c2ed422fe0fb3149c69106db2497",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823567753
+        }
+    ],
     "wof:id":823567753,
-    "wof:lastmodified":1466416214,
+    "wof:lastmodified":1491887480,
     "wof:name":"G & J Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

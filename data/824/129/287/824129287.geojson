@@ -2,9 +2,14 @@
   "id": 824129287,
   "type": "Feature",
   "properties": {
+    "addr:full":"3106 Galileo Ln Boulder CO 80301",
+    "addr:housenumber":"3106",
+    "addr:postcode":"80301",
+    "addr:street":"Galileo Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.239846,40.031451,-105.239846,40.031451",
     "geom:latitude":40.031451,
     "geom:longitude":-105.239846,
@@ -29,9 +34,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85853473,
-        102085251
+        85930751,
+        102085251,
+        85929877
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,17 +49,26 @@
     "wof:geomhash":"1a66936c01a1be57c2ccbe37aa8fa375",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102085251,
-            "neighbourhood_id":85853473,
+            "locality_id":85930751,
+            "region_id":85688603,
+            "venue_id":824129287
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
             "region_id":85688603,
             "venue_id":824129287
         }
     ],
     "wof:id":824129287,
-    "wof:lastmodified":1466416010,
+    "wof:lastmodified":1491620055,
     "wof:name":"Ann Candler Fine Art",
-    "wof:parent_id":85853473,
+    "wof:parent_id":-1,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

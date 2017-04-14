@@ -2,9 +2,14 @@
   "id": 823696091,
   "type": "Feature",
   "properties": {
+    "addr:full":"4093 E 126th Ave Denver CO 80241",
+    "addr:housenumber":"4093",
+    "addr:postcode":"80241",
+    "addr:street":"E 126Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.938703,39.925209,-104.938703,39.925209",
     "geom:latitude":39.925209,
     "geom:longitude":-104.938703,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5MLM6Wp7ZR71VTwsMfWk0d_39.925209_-104.938703@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444155,
-    "wof:geomhash":"347288c68a9ca73cc5e5075cc72ecc05",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75058be5826745571e2ce950823464bb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823696091
+        }
+    ],
     "wof:id":823696091,
-    "wof:lastmodified":1466418471,
+    "wof:lastmodified":1492126269,
     "wof:name":"Wiring Solutions LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824077249,
   "type": "Feature",
   "properties": {
+    "addr:full":"201 Moffat Ave Yampa CO 80483",
+    "addr:housenumber":"201",
+    "addr:postcode":"80483",
+    "addr:street":"Moffat Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.907512,40.150372,-106.907512,40.150372",
     "geom:latitude":40.150372,
     "geom:longitude":-106.907512,
@@ -24,19 +29,34 @@
     "sg:postcode":"80483",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555319,
+        420555323
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6XxzvHjfc1Z2YXcXw8tFYQ_40.150372_-106.907512@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453792,
-    "wof:geomhash":"a1d3455d1d942f58779b4487ecb3ab5e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"68a4935797b3fce9ed7a46996d9d4229",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555319,
+            "venue_id":824077249
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555323,
+            "venue_id":824077249
+        }
+    ],
     "wof:id":824077249,
-    "wof:lastmodified":1466414769,
+    "wof:lastmodified":1492131447,
     "wof:name":"Flat Top Liquor",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

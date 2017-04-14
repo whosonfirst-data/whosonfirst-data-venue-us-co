@@ -2,9 +2,14 @@
   "id": 823628589,
   "type": "Feature",
   "properties": {
+    "addr:full":"175 N 96th St Louisville CO 80027",
+    "addr:housenumber":"175",
+    "addr:postcode":"80027",
+    "addr:street":"N 96Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.127875,39.977242,-105.127875,39.977242",
     "geom:latitude":39.977242,
     "geom:longitude":-105.127875,
@@ -32,6 +37,9 @@
         85688603,
         102191575,
         85633793,
+        85929855,
+        102086123,
+        85876591,
         85929859,
         102085251,
         85896023
@@ -42,8 +50,17 @@
     },
     "wof:country":"US",
     "wof:created":1463442600,
-    "wof:geomhash":"cfa3be75be163402a9e3c1d63889b6fb",
+    "wof:geomhash":"60a7da464c373a078988d53f29bd847e",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":85876591,
+            "region_id":85688603,
+            "venue_id":823628589
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -55,9 +72,9 @@
         }
     ],
     "wof:id":823628589,
-    "wof:lastmodified":1466417634,
+    "wof:lastmodified":1492116991,
     "wof:name":"Treehouse Learning LLC",
-    "wof:parent_id":85896023,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

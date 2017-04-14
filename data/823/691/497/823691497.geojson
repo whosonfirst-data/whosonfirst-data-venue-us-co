@@ -2,9 +2,14 @@
   "id": 823691497,
   "type": "Feature",
   "properties": {
+    "addr:full":"250 North Rd Durango CO 81303",
+    "addr:housenumber":"250",
+    "addr:postcode":"co 81303",
+    "addr:street":"North Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.958676,37.258991,-107.958676,37.258991",
     "geom:latitude":37.258991,
     "geom:longitude":-107.958676,
@@ -28,19 +33,28 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554653
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2yAxm0xvQ1KfocCaxYD5Av_37.258991_-107.958676@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444052,
-    "wof:geomhash":"190c2cd508f6b3d227ef1af57dfda60f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"80ea54210b0cac14aeb1935adb36cfc0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554653,
+            "venue_id":823691497
+        }
+    ],
     "wof:id":823691497,
-    "wof:lastmodified":1466418533,
+    "wof:lastmodified":1492123254,
     "wof:name":"Shamrock Specialties",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554653,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

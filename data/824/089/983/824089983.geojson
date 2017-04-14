@@ -2,9 +2,14 @@
   "id": 824089983,
   "type": "Feature",
   "properties": {
+    "addr:full":"3218 Jay Rd Boulder CO 80301",
+    "addr:housenumber":"3218",
+    "addr:postcode":"80301",
+    "addr:street":"Jay Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.255556,40.05096,-105.255556,40.05096",
     "geom:latitude":40.05096,
     "geom:longitude":-105.255556,
@@ -29,19 +34,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553975
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0UMkzEUPmxVXUlezvPuw11_40.050960_-105.255556@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454088,
-    "wof:geomhash":"3aeb7bae7cc2c5942759af319e75a870",
-    "wof:hierarchy":[],
+    "wof:geomhash":"400649bacbc0f85f78b8ac7f3ba6939f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553975,
+            "venue_id":824089983
+        }
+    ],
     "wof:id":824089983,
-    "wof:lastmodified":1466414951,
+    "wof:lastmodified":1492130131,
     "wof:name":"Boulder Valley Hardwood Flrg",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553975,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

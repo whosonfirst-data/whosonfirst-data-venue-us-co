@@ -2,9 +2,14 @@
   "id": 823643895,
   "type": "Feature",
   "properties": {
+    "addr:full":"26000 Valley Vw Steamboat Springs CO 80487",
+    "addr:housenumber":"26000",
+    "addr:postcode":"80487",
+    "addr:street":"Valley Vw",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.806076,40.481036,-106.806076,40.481036",
     "geom:latitude":40.481036,
     "geom:longitude":-106.806076,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7VUEJS0OC2VkFMqe4aq3YH_40.481036_-106.806076@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442944,
-    "wof:geomhash":"464a708849a8f8730e5d888f12922caa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fc538ed8bcfb242b959859db3f260cb5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555301,
+            "region_id":85688603,
+            "venue_id":823643895
+        }
+    ],
     "wof:id":823643895,
-    "wof:lastmodified":1466418022,
+    "wof:lastmodified":1492121222,
     "wof:name":"Lake Shore Development LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

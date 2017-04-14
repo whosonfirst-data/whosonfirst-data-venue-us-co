@@ -2,9 +2,14 @@
   "id": 823984327,
   "type": "Feature",
   "properties": {
+    "addr:full":"28050 Co Rd P Dolores CO 81323",
+    "addr:housenumber":"28050",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.542174,37.413619,-108.542174,37.413619",
     "geom:latitude":37.413619,
     "geom:longitude":-108.542174,
@@ -28,19 +33,28 @@
         "care"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555049
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Yst6WsfRb2q3o2ZZiJWab_37.413619_-108.542174@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451593,
-    "wof:geomhash":"6216c08db68cf29ff20cd1e25fe2fc87",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c18b907e35107f110e4a42ccef92c68e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555049,
+            "venue_id":823984327
+        }
+    ],
     "wof:id":823984327,
-    "wof:lastmodified":1466420925,
+    "wof:lastmodified":1492118182,
     "wof:name":"Life Care",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555049,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

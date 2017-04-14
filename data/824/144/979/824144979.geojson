@@ -2,9 +2,14 @@
   "id": 824144979,
   "type": "Feature",
   "properties": {
+    "addr:full":"9211 High St Denver CO 80229",
+    "addr:housenumber":"9211",
+    "addr:postcode":"80229",
+    "addr:street":"High St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.963595,39.864933,-104.963595,39.864933",
     "geom:latitude":39.864933,
     "geom:longitude":-104.963595,
@@ -27,19 +32,36 @@
         "estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0b0EhXLr5i9FERoHcQgA8C_39.864933_-104.963595@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455694,
-    "wof:geomhash":"1ed85b83b5fe87473f7e5fc71f2ec6b1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"79c6d4f1359decb6815c77b5f9780bea",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":824144979
+        }
+    ],
     "wof:id":824144979,
-    "wof:lastmodified":1466416728,
+    "wof:lastmodified":1492132295,
     "wof:name":"Ascent Home Buyers Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

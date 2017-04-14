@@ -2,9 +2,14 @@
   "id": 823556679,
   "type": "Feature",
   "properties": {
+    "addr:full":"3262 Co Rd M Kirk CO 80824",
+    "addr:housenumber":"3262",
+    "addr:postcode":"80824",
+    "addr:street":"Co Rd M Kirk",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.592063,39.616322,-102.592063,39.616322",
     "geom:latitude":39.616322,
     "geom:longitude":-102.592063,
@@ -27,17 +32,32 @@
         "ambulance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930477,
+        102084063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4PSFvLIXHwVEtfG0qfsTPG_39.616322_-102.592063@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440860,
-    "wof:geomhash":"1dafc6fb8d80f00a006392c899651d89",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6b60a282aae045f3a11e14aa246bbd86",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084063,
+            "locality_id":85930477,
+            "region_id":85688603,
+            "venue_id":823556679
+        }
+    ],
     "wof:id":823556679,
-    "wof:lastmodified":1466415918,
+    "wof:lastmodified":1492127564,
     "wof:name":"KIRK Ambulance Svc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

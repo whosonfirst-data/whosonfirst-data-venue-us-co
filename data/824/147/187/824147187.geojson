@@ -2,9 +2,14 @@
   "id": 824147187,
   "type": "Feature",
   "properties": {
+    "addr:full":"331 Lake Rd Grand Junction CO 81503",
+    "addr:housenumber":"331",
+    "addr:postcode":"81503",
+    "addr:street":"Lake Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.591536,39.06986,-108.591536,39.06986",
     "geom:latitude":39.06986,
     "geom:longitude":-108.591536,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554767
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6pxcnKeIkuWE0K4xXTHBAM_39.069860_-108.591536@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455792,
-    "wof:geomhash":"99aa18a2dd8cf4d716cc38471a7afeeb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2fdd84eaa50fadf3940c7895944cf0cf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554767,
+            "region_id":85688603,
+            "venue_id":824147187
+        }
+    ],
     "wof:id":824147187,
-    "wof:lastmodified":1466416543,
+    "wof:lastmodified":1492131650,
     "wof:name":"T & S Custom Curbing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554767,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

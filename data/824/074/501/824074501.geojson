@@ -2,9 +2,14 @@
   "id": 824074501,
   "type": "Feature",
   "properties": {
+    "addr:full":"106 Maple St Fort Morgan CO 80701",
+    "addr:housenumber":"106",
+    "addr:postcode":"morgan;80701",
+    "addr:street":"Maple St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.807882,40.2484,-103.807882,40.2484",
     "geom:latitude":40.2484,
     "geom:longitude":-103.807882,
@@ -28,17 +33,32 @@
         "station"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5CI9dAxeJb1EcWtEMiu5MN_40.248400_-103.807882@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453727,
-    "wof:geomhash":"df1ed289fcf357d57d356c21161e21eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b404ac65390f0d49ba27242fdaa37cca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":824074501
+        }
+    ],
     "wof:id":824074501,
-    "wof:lastmodified":1466414623,
+    "wof:lastmodified":1492132324,
     "wof:name":"Hill Petroleum",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823832629,
   "type": "Feature",
   "properties": {
+    "addr:full":"1140 Boston Ave Longmont CO 80501",
+    "addr:housenumber":"1140",
+    "addr:postcode":"80501",
+    "addr:street":"Boston Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.111628,40.158827,-105.111628,40.158827",
     "geom:latitude":40.158827,
     "geom:longitude":-105.111628,
@@ -36,17 +41,32 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7TWhS4zTfxZG7TixCBEkzZ_40.158827_-105.111628@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447676,
-    "wof:geomhash":"b725d9cb61dd9aca4bd008a001e7ec4e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ce035cd120e9035b3a1012e3fd374c50",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823832629
+        }
+    ],
     "wof:id":823832629,
-    "wof:lastmodified":1466419675,
+    "wof:lastmodified":1492125725,
     "wof:name":"Instrutech' Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

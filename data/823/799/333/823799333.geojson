@@ -2,9 +2,14 @@
   "id": 823799333,
   "type": "Feature",
   "properties": {
+    "addr:full":"705 S Sheridan Ave Holyoke CO 80734",
+    "addr:housenumber":"705",
+    "addr:postcode":"80734",
+    "addr:street":"S Sheridan Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.308915,40.578602,-102.308915,40.578602",
     "geom:latitude":40.578602,
     "geom:longitude":-102.308915,
@@ -27,17 +32,32 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929161,
+        102085217
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2csKktNkI7St0yaKvBKxks_40.578602_-102.308915@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446697,
-    "wof:geomhash":"fa98cf4507e11bf0debbdea4adb59af1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"76a80a9264608b4e939033602d2bbd08",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085217,
+            "locality_id":85929161,
+            "region_id":85688603,
+            "venue_id":823799333
+        }
+    ],
     "wof:id":823799333,
-    "wof:lastmodified":1466419375,
+    "wof:lastmodified":1492117296,
     "wof:name":"Basic Trucking",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

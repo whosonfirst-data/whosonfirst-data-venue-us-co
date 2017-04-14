@@ -2,9 +2,14 @@
   "id": 823635029,
   "type": "Feature",
   "properties": {
+    "addr:full":"6941 S University Blvd Centennial CO 80122",
+    "addr:housenumber":"6941",
+    "addr:postcode":"80122",
+    "addr:street":"S University Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.96025,39.590519,-104.96025,39.590519",
     "geom:latitude":39.590519,
     "geom:longitude":-104.96025,
@@ -29,17 +34,32 @@
         "institution"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929851,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ujDZl460Kpg3sa2jJG9xE_39.590519_-104.960250@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442732,
-    "wof:geomhash":"d20cfc081f9d9bec936001d40c6e2af1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1d2d755ece2780e0aa2753f395e0a561",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929851,
+            "region_id":85688603,
+            "venue_id":823635029
+        }
+    ],
     "wof:id":823635029,
-    "wof:lastmodified":1466417743,
+    "wof:lastmodified":1492120531,
     "wof:name":"Commercial Federal Bank",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

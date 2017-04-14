@@ -2,9 +2,14 @@
   "id": 823772815,
   "type": "Feature",
   "properties": {
+    "addr:full":"2404 Hancock Expy Colorado Springs CO 80910",
+    "addr:housenumber":"2404",
+    "addr:postcode":"80910",
+    "addr:street":"Hancock Expy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.774649,38.796549,-104.774649,38.796549",
     "geom:latitude":38.796549,
     "geom:longitude":-104.774649,
@@ -27,19 +32,36 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4cnhwXV80LVtZ3f8ZkHtR8_38.796549_-104.774649@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445890,
-    "wof:geomhash":"163c6e3213253978f8294bd82d450d46",
-    "wof:hierarchy":[],
+    "wof:geomhash":"302e5857123cd7e423abbe4b9c9b14a5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823772815
+        }
+    ],
     "wof:id":823772815,
-    "wof:lastmodified":1466419155,
+    "wof:lastmodified":1492124607,
     "wof:name":"Peakview Motors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823518901,
   "type": "Feature",
   "properties": {
+    "addr:full":"345 Rogers Ln Durango CO 81303",
+    "addr:housenumber":"345",
+    "addr:postcode":"co 81303",
+    "addr:street":"Rogers Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.815437,37.174875,-107.815437,37.174875",
     "geom:latitude":37.174875,
     "geom:longitude":-107.815437,
@@ -29,19 +34,28 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3h4juqFKjvUnnguutfRuda_37.174875_-107.815437@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439998,
-    "wof:geomhash":"dd34b95e613364094e950db4fc40ae9a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6aea96ccbd8868729db9e3f0ca3acc43",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823518901
+        }
+    ],
     "wof:id":823518901,
-    "wof:lastmodified":1466414814,
+    "wof:lastmodified":1492123288,
     "wof:name":"G & R Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

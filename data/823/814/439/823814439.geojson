@@ -2,9 +2,14 @@
   "id": 823814439,
   "type": "Feature",
   "properties": {
+    "addr:full":"1710 Redwood Ave Boulder CO 80304",
+    "addr:housenumber":"1710",
+    "addr:postcode":"80304",
+    "addr:street":"Redwood Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.272865,40.048717,-105.272865,40.048717",
     "geom:latitude":40.048717,
     "geom:longitude":-105.272865,
@@ -29,19 +34,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876369,
+        420554143
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4UiaFoB5FQZOJd4Idj3Wmc_40.048717_-105.272865@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447130,
-    "wof:geomhash":"305d4e5d5ed7695c7d0d258e2107844d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"43da87ea67b79be47e5fab0b9ad8c8dd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876369,
+            "region_id":85688603,
+            "venue_id":823814439
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554143,
+            "region_id":85688603,
+            "venue_id":823814439
+        }
+    ],
     "wof:id":823814439,
-    "wof:lastmodified":1466419505,
+    "wof:lastmodified":1492126708,
     "wof:name":"Meads Custom Landscaping Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

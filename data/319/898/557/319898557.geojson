@@ -2,9 +2,14 @@
   "id": 319898557,
   "type": "Feature",
   "properties": {
+    "addr:full":"1541 Chambers Rd Aurora CO 80011",
+    "addr:housenumber":"1541",
+    "addr:postcode":"80011",
+    "addr:street":"Chambers Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810149,39.740869,-104.810149,39.740869",
     "geom:latitude":39.740869,
     "geom:longitude":-104.810149,
@@ -37,32 +42,43 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929235,
         102086877,
-        85802959
+        85802959,
+        420559493
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1oNmaoT3Q5uRWdsWbJhSbW_39.740869_-104.810149@1303263079"
     },
     "wof:country":"US",
-    "wof:geomhash":"44296ca21b807f243ddc1f384a9bda5f",
+    "wof:geomhash":"f3e1a1c9bb12365d2862b9b57ca00fe5",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086877,
             "locality_id":85929235,
             "neighbourhood_id":85802959,
             "region_id":85688603,
             "venue_id":319898557
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420559493,
+            "region_id":85688603,
+            "venue_id":319898557
         }
     ],
     "wof:id":319898557,
-    "wof:lastmodified":1466412129,
+    "wof:lastmodified":1492110084,
     "wof:name":"Colorado Tire & Service",
-    "wof:parent_id":85802959,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

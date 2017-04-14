@@ -2,9 +2,14 @@
   "id": 824166201,
   "type": "Feature",
   "properties": {
+    "addr:full":"104 Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"104",
+    "addr:postcode":"80621",
+    "addr:street":"Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810428,40.081395,-104.810428,40.081395",
     "geom:latitude":40.081395,
     "geom:longitude":-104.810428,
@@ -32,19 +37,28 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5iFFWWLGCDDVn4FKcKsblP_40.081395_-104.810428@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456539,
-    "wof:geomhash":"c286e27cb9428fd675a43249f1d184c9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"da565b7b8c0e38b783826cdda8b10efa",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":824166201
+        }
+    ],
     "wof:id":824166201,
-    "wof:lastmodified":1466417842,
+    "wof:lastmodified":1492128134,
     "wof:name":"Fort Lupton Amoco",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

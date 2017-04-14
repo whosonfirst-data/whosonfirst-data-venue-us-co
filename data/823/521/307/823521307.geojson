@@ -2,9 +2,14 @@
   "id": 823521307,
   "type": "Feature",
   "properties": {
+    "addr:full":"2560 49th St Boulder CO 80301",
+    "addr:housenumber":"2560",
+    "addr:postcode":"80301",
+    "addr:street":"49Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.238302,40.025229,-105.238302,40.025229",
     "geom:latitude":40.025229,
     "geom:longitude":-105.238302,
@@ -29,19 +34,36 @@
         "leasing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72qL6WW4hFbPt43OX6IZz6_40.025229_-105.238302@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440056,
-    "wof:geomhash":"b0f4344a283a32f0a421c87a27ea4f34",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4daef11f2d959b91807939fbe8dfd48a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823521307
+        }
+    ],
     "wof:id":823521307,
-    "wof:lastmodified":1466414810,
+    "wof:lastmodified":1492119599,
     "wof:name":"Penske Truck Rental",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823686763,
   "type": "Feature",
   "properties": {
+    "addr:full":"3830 Barr Ct Boulder CO 80305",
+    "addr:housenumber":"3830",
+    "addr:postcode":"80305",
+    "addr:street":"Barr Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.249831,39.980921,-105.249831,39.980921",
     "geom:latitude":39.980921,
     "geom:longitude":-105.249831,
@@ -28,19 +33,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6u7PX0ZAeln3WiWMExNMmL_39.980921_-105.249831@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443940,
-    "wof:geomhash":"79e4da67c36c059b66ee94d43fffcacb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d1a4add8610b8f38a9919154f785eeef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":823686763
+        }
+    ],
     "wof:id":823686763,
-    "wof:lastmodified":1466418416,
+    "wof:lastmodified":1492116621,
     "wof:name":"Allan Keesling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

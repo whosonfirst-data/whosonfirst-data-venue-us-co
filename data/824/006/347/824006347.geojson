@@ -2,9 +2,14 @@
   "id": 824006347,
   "type": "Feature",
   "properties": {
+    "addr:full":"2050 W 10th Ave Broomfield CO 80020",
+    "addr:housenumber":"2050",
+    "addr:postcode":"80020",
+    "addr:street":"W 10Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.093617,39.928902,-105.093617,39.928902",
     "geom:latitude":39.928902,
     "geom:longitude":-105.093617,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554249
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_568k97vvvc9eFUnfPI4XoE_39.928902_-105.093617@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452125,
-    "wof:geomhash":"1c3f0b3e9e6ed1e48b7a877d60e2a762",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2b3ca5f3301c3ce10973550244987d12",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554249,
+            "region_id":85688603,
+            "venue_id":824006347
+        }
+    ],
     "wof:id":824006347,
-    "wof:lastmodified":1466412572,
+    "wof:lastmodified":1492129821,
     "wof:name":"Cedar Crest Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

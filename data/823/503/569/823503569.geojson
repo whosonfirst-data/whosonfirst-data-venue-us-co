@@ -2,9 +2,14 @@
   "id": 823503569,
   "type": "Feature",
   "properties": {
+    "addr:full":"9101 E 89th Ave Henderson CO 80640",
+    "addr:housenumber":"9101",
+    "addr:postcode":"80640",
+    "addr:street":"E 89Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.883017,39.858222,-104.883017,39.858222",
     "geom:latitude":39.858222,
     "geom:longitude":-104.883017,
@@ -27,19 +32,28 @@
         "warehousing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553497
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0fxgeamQJb4rJathKVuEgn_39.858222_-104.883017@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439655,
-    "wof:geomhash":"498b41df6c52d36647a5c69f6b81fc24",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bb202814f1dcdfb7894bb6dfe88a5cca",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553497,
+            "venue_id":823503569
+        }
+    ],
     "wof:id":823503569,
-    "wof:lastmodified":1466414406,
+    "wof:lastmodified":1492118916,
     "wof:name":"General Mills",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553497,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823512125,
   "type": "Feature",
   "properties": {
+    "addr:full":"1519 8th Ave Greeley CO 80631",
+    "addr:housenumber":"1519",
+    "addr:postcode":"80631",
+    "addr:street":"8Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.691011,40.414099,-104.691011,40.414099",
     "geom:latitude":40.414099,
     "geom:longitude":-104.691011,
@@ -30,12 +35,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,8 +48,16 @@
     },
     "wof:country":"US",
     "wof:created":1463439832,
-    "wof:geomhash":"a1b790f89c0ca12eb0f9a4e45adba3f6",
+    "wof:geomhash":"15911d2ac881945cd8f698a34fa574e6",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823512125
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -53,20 +66,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823512125
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823512125
         }
     ],
     "wof:id":823512125,
-    "wof:lastmodified":1466414484,
+    "wof:lastmodified":1492117836,
     "wof:name":"All Brands Sew & Vac",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

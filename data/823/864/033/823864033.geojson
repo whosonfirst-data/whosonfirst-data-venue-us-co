@@ -2,9 +2,14 @@
   "id": 823864033,
   "type": "Feature",
   "properties": {
+    "addr:full":"29619 Co Rd L Mancos CO 81323",
+    "addr:housenumber":"29619",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.503308,37.378271,-108.503308,37.378271",
     "geom:latitude":37.378271,
     "geom:longitude":-108.503308,
@@ -28,19 +33,28 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72SVW3HDlCgM1PcERQXUbD_37.378271_-108.503308@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448602,
-    "wof:geomhash":"68807e00c02770a729cf941b0e441cb9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0bf2bcb329b6f32df2844f65248260ea",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823864033
+        }
+    ],
     "wof:id":823864033,
-    "wof:lastmodified":1466419962,
+    "wof:lastmodified":1492126043,
     "wof:name":"Haynie Mechanic & Auto Body",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

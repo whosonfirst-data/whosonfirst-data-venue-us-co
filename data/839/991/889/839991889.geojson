@@ -2,9 +2,14 @@
   "id": 839991889,
   "type": "Feature",
   "properties": {
+    "addr:full":"2550 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2550",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.535642,39.077415,-108.535642,39.077415",
     "geom:latitude":39.077415,
     "geom:longitude":-108.535642,
@@ -33,19 +38,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554959
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7OqMevO4a80Ge1BJ7Dyk6z_39.077415_-108.535642@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460880,
-    "wof:geomhash":"f4de004d4a058e44725b8af68680ad51",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5c3c8c72995fd3b41754df3412848fdd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554959,
+            "region_id":85688603,
+            "venue_id":839991889
+        }
+    ],
     "wof:id":839991889,
-    "wof:lastmodified":1466417474,
+    "wof:lastmodified":1492111002,
     "wof:name":"Wienerschnitzel",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554959,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

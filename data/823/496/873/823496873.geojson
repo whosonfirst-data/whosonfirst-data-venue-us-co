@@ -2,9 +2,14 @@
   "id": 823496873,
   "type": "Feature",
   "properties": {
+    "addr:full":"2720 S College Ave Fort Collins CO 80525",
+    "addr:housenumber":"2720",
+    "addr:postcode":"80525",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076965,40.5493,-105.076965,40.5493",
     "geom:latitude":40.5493,
     "geom:longitude":-105.076965,
@@ -27,19 +32,36 @@
         "wall"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554753
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_49RONn6C0SP1cLaXd5qc3b_40.549300_-105.076965@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439483,
-    "wof:geomhash":"5964c9bb3087227596cbd5ee65b3ecc0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"619afc5a7c39386459a2ac2095e6da52",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554753,
+            "region_id":85688603,
+            "venue_id":823496873
+        }
+    ],
     "wof:id":823496873,
-    "wof:lastmodified":1466414125,
+    "wof:lastmodified":1492119415,
     "wof:name":"Insid-Out Flr Wall Win Cvrings",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554753,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

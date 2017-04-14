@@ -2,9 +2,14 @@
   "id": 823667081,
   "type": "Feature",
   "properties": {
+    "addr:full":"4645 Co Rd 240 Durango CO 81301",
+    "addr:housenumber":"4645;240",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.807852,37.311821,-107.807852,37.311821",
     "geom:latitude":37.311821,
     "geom:longitude":-107.807852,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ZL7r9FpBHL3XeAwYDfrSG_37.311821_-107.807852@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443502,
-    "wof:geomhash":"81ce1f10bceb8f695451d95ca5883b5f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"29370afc1d263e15c2d830a85cf05992",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554717,
+            "venue_id":823667081
+        }
+    ],
     "wof:id":823667081,
-    "wof:lastmodified":1466418242,
+    "wof:lastmodified":1492127129,
     "wof:name":"Adonai Drywall & Stucco Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

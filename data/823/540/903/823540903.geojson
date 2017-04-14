@@ -2,9 +2,14 @@
   "id": 823540903,
   "type": "Feature",
   "properties": {
+    "addr:full":"226 Michigan St Pueblo CO 81004",
+    "addr:housenumber":"226",
+    "addr:postcode":"81004",
+    "addr:street":"Michigan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.620966,38.255992,-104.620966,38.255992",
     "geom:latitude":38.255992,
     "geom:longitude":-104.620966,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0PJS1wm1S0jxMtw2WbCBjJ_38.255992_-104.620966@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440487,
-    "wof:geomhash":"7a88f62f0fae7bd99cea9f7442daa3dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4637821286a508322b1d9e7e45ecdbb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823540903
+        }
+    ],
     "wof:id":823540903,
-    "wof:lastmodified":1466415708,
+    "wof:lastmodified":1492119154,
     "wof:name":"St Patrick Catholic Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

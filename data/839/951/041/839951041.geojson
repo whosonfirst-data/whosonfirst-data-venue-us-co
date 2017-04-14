@@ -2,9 +2,14 @@
   "id": 839951041,
   "type": "Feature",
   "properties": {
+    "addr:full":"6499 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"6499;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.847119,37.395843,-107.847119,37.395843",
     "geom:latitude":37.395843,
     "geom:longitude":-107.847119,
@@ -27,19 +32,28 @@
         "heavy"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_60fHPG4u5f0fa1DRPgJiH3_37.395843_-107.847119@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459158,
-    "wof:geomhash":"b26a344344b99ab46c0b005c2a86cc8f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c6018add277674e8414f44e2fa313269",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554613,
+            "venue_id":839951041
+        }
+    ],
     "wof:id":839951041,
-    "wof:lastmodified":1466415126,
+    "wof:lastmodified":1492113088,
     "wof:name":"Golf Mechanic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

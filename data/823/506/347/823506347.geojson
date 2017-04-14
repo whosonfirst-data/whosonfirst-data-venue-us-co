@@ -2,9 +2,14 @@
   "id": 823506347,
   "type": "Feature",
   "properties": {
+    "addr:full":"322 Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"322",
+    "addr:postcode":"80621",
+    "addr:street":"Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810431,40.083042,-104.810431,40.083042",
     "geom:latitude":40.083042,
     "geom:longitude":-104.810431,
@@ -27,19 +32,28 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2mzJxWcO6es8aMnF1Dodhf_40.083042_-104.810431@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439721,
-    "wof:geomhash":"e325de249ab033d5cdee1ef8fe7e8cc8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"82f42dd3a3d017803441ce71066ceae8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823506347
+        }
+    ],
     "wof:id":823506347,
-    "wof:lastmodified":1466414400,
+    "wof:lastmodified":1492119296,
     "wof:name":"Grannies Diner",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823690429,
   "type": "Feature",
   "properties": {
+    "addr:full":"2923 Forrest Way Grand Junction CO 81504",
+    "addr:housenumber":"2923",
+    "addr:postcode":"81504",
+    "addr:street":"Forrest Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.46804,39.085756,-108.46804,39.085756",
     "geom:latitude":39.085756,
     "geom:longitude":-108.46804,
@@ -28,19 +33,36 @@
         "parts"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930467,
+        102085221,
+        420555013
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_77itp68LftaK0tfeLEJtN8_39.085756_-108.468040@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444025,
-    "wof:geomhash":"2df681e835ed826d90edcdc3a43b5adb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ffc519d065e375ffced1941a367b05ad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930467,
+            "neighbourhood_id":420555013,
+            "region_id":85688603,
+            "venue_id":823690429
+        }
+    ],
     "wof:id":823690429,
-    "wof:lastmodified":1466418491,
+    "wof:lastmodified":1492124811,
     "wof:name":"Max's Auto Parts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555013,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

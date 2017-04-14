@@ -2,9 +2,14 @@
   "id": 824170533,
   "type": "Feature",
   "properties": {
+    "addr:full":"2526 49th St Boulder CO 80301",
+    "addr:housenumber":"2526",
+    "addr:postcode":"80301",
+    "addr:street":"49Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.238296,40.024555,-105.238296,40.024555",
     "geom:latitude":40.024555,
     "geom:longitude":-105.238296,
@@ -28,19 +33,36 @@
         "flooring"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2hs7Ct5GYe5WE0l5Zuk51q_40.024555_-105.238296@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456699,
-    "wof:geomhash":"75db447d78b9e4992973dd0859c43722",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ac5a7eccda220d8fe9932ecb2945ecaf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":824170533
+        }
+    ],
     "wof:id":824170533,
-    "wof:lastmodified":1466417876,
+    "wof:lastmodified":1492128808,
     "wof:name":"Berlin Floor Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

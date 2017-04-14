@@ -2,9 +2,14 @@
   "id": 823881443,
   "type": "Feature",
   "properties": {
+    "addr:full":"1113 Spruce St Boulder CO 80302",
+    "addr:housenumber":"1113",
+    "addr:postcode":"80302",
+    "addr:street":"Spruce St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.280474,40.018935,-105.280474,40.018935",
     "geom:latitude":40.018935,
     "geom:longitude":-105.280474,
@@ -27,7 +32,14 @@
         "psychologist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2VYyD1GnTfuFRzAIYXWm3A_40.018935_-105.280474@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463449004,
     "wof:geomhash":"02d5d8f3cf96c32601ffae0af3b0f9c9",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823881443
+        }
+    ],
     "wof:id":823881443,
-    "wof:lastmodified":1466420101,
+    "wof:lastmodified":1491888500,
     "wof:name":"Peter A Maves",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

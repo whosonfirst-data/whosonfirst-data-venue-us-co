@@ -2,9 +2,14 @@
   "id": 823843275,
   "type": "Feature",
   "properties": {
+    "addr:full":"24250 Co Rd 14 Oak Creek CO 80467",
+    "addr:housenumber":"24250;14",
+    "addr:postcode":"80467",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.887873,40.266441,-106.887873,40.266441",
     "geom:latitude":40.266441,
     "geom:longitude":-106.887873,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555327
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_11CiPLQtp3XcmSOaJDAbqj_40.266441_-106.887873@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448034,
-    "wof:geomhash":"71f743609b7e5cc6448e0726a852d54e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75da1a0ff676cf4fd3a9973ac29c632b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555327,
+            "venue_id":823843275
+        }
+    ],
     "wof:id":823843275,
-    "wof:lastmodified":1466419525,
+    "wof:lastmodified":1492116927,
     "wof:name":"Jacob C Schwan",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555327,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

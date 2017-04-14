@@ -2,9 +2,14 @@
   "id": 824000381,
   "type": "Feature",
   "properties": {
+    "addr:full":"12426 Forest View St Broomfield CO 80020",
+    "addr:housenumber":"12426",
+    "addr:postcode":"80020",
+    "addr:street":"Forest View St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042492,39.922419,-105.042492,39.922419",
     "geom:latitude":39.922419,
     "geom:longitude":-105.042492,
@@ -28,19 +33,36 @@
         "replacement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554217
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6crTvepxTAsQSlL7kXfnNk_39.922419_-105.042492@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451994,
-    "wof:geomhash":"8032c19b5659c9a5afb17cc2c7bdfac7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bec71221f556c48a640b19666213f649",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554217,
+            "region_id":85688603,
+            "venue_id":824000381
+        }
+    ],
     "wof:id":824000381,
-    "wof:lastmodified":1466411971,
+    "wof:lastmodified":1492131414,
     "wof:name":"Alternatives Hair Technology",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554217,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

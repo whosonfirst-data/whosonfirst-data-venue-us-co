@@ -2,9 +2,14 @@
   "id": 824131013,
   "type": "Feature",
   "properties": {
+    "addr:full":"448 W Main St Cortez CO 81321",
+    "addr:housenumber":"448",
+    "addr:postcode":"81321",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.591101,37.348675,-108.591101,37.348675",
     "geom:latitude":37.348675,
     "geom:longitude":-108.591101,
@@ -28,19 +33,36 @@
         "replacement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555131
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3S6SbsbHIMN9ZJ9dw7kpB4_37.348675_-108.591101@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455184,
-    "wof:geomhash":"33bc260a86ce04980b46f5334a453a9f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4365e3901a6b95a4b494192b055eea31",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555131,
+            "region_id":85688603,
+            "venue_id":824131013
+        }
+    ],
     "wof:id":824131013,
-    "wof:lastmodified":1466416003,
+    "wof:lastmodified":1492130417,
     "wof:name":"Lonnies Glass Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555131,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

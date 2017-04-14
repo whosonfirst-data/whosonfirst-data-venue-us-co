@@ -2,9 +2,14 @@
   "id": 824022449,
   "type": "Feature",
   "properties": {
+    "addr:full":"317 N Spruce St Gunnison CO 81230",
+    "addr:housenumber":"317",
+    "addr:postcode":"81230",
+    "addr:street":"N Spruce St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.930869,38.54756,-106.930869,38.54756",
     "geom:latitude":38.54756,
     "geom:longitude":-106.930869,
@@ -28,19 +33,36 @@
         "citizen"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YCUB4PWZHhwfda9C7IMQr_38.547560_-106.930869@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452483,
-    "wof:geomhash":"2168187754e42d521bef758966c5ad57",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eab6524f1bdbf9470811c2191e1d1b20",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":824022449
+        }
+    ],
     "wof:id":824022449,
-    "wof:lastmodified":1466413670,
+    "wof:lastmodified":1492131775,
     "wof:name":"Mountain View Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

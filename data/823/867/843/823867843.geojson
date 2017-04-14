@@ -2,9 +2,14 @@
   "id": 823867843,
   "type": "Feature",
   "properties": {
+    "addr:full":"1450 Academy Park Loop Colorado Springs CO 80910",
+    "addr:housenumber":"1450",
+    "addr:postcode":"80910",
+    "addr:street":"Academy Park Loop",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.755195,38.811508,-104.755195,38.811508",
     "geom:latitude":38.811508,
     "geom:longitude":-104.755195,
@@ -29,19 +34,46 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        85872749,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4St21iGQyf2QZGFklUyDQI_38.811508_-104.755195@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448688,
-    "wof:geomhash":"dbd175a6e504443edf741481a8ba51bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d18aece742d0c29520405cdc827185ac",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":85872749,
+            "region_id":85688603,
+            "venue_id":823867843
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823867843
+        }
+    ],
     "wof:id":823867843,
-    "wof:lastmodified":1466419946,
+    "wof:lastmodified":1492123600,
     "wof:name":"A I S",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

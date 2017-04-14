@@ -2,9 +2,14 @@
   "id": 823628509,
   "type": "Feature",
   "properties": {
+    "addr:full":"4000 S Lowell Blvd Denver CO 80236",
+    "addr:housenumber":"4000",
+    "addr:postcode":"80236",
+    "addr:street":"S Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034663,39.643184,-105.034663,39.643184",
     "geom:latitude":39.643184,
     "geom:longitude":-105.034663,
@@ -24,19 +29,38 @@
     "sg:postcode":"80236",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85868407,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0xAuQRpgs2rKwdr1yyXiQu_39.643184_-105.034663@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442599,
-    "wof:geomhash":"3d4a4f6c96f58c49d008d2d4b28a7cb5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7c9a8d2d326dbf7bcac4ad309a43ebcc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85868407,
+            "region_id":85688603,
+            "venue_id":823628509
+        }
+    ],
     "wof:id":823628509,
-    "wof:lastmodified":1466417698,
+    "wof:lastmodified":1492116995,
     "wof:name":"Sheridan School District",
-    "wof:parent_id":-1,
+    "wof:parent_id":85868407,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

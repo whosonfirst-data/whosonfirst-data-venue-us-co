@@ -2,9 +2,14 @@
   "id": 823650223,
   "type": "Feature",
   "properties": {
+    "addr:full":"459 Royal Ann Way Grand Junction CO 81504",
+    "addr:housenumber":"459",
+    "addr:postcode":"81504",
+    "addr:street":"Royal Ann Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.463864,39.076193,-108.463864,39.076193",
     "geom:latitude":39.076193,
     "geom:longitude":-108.463864,
@@ -28,19 +33,36 @@
         "improvement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ELh17toISsvVs9HSbM3iG_39.076193_-108.463864@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443084,
-    "wof:geomhash":"e307e72477b591ebf88293cd3e2bf69e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c2c6b9eb92a7d15343d6afe8877a940a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":823650223
+        }
+    ],
     "wof:id":823650223,
-    "wof:lastmodified":1466417942,
+    "wof:lastmodified":1492126461,
     "wof:name":"Western Slope Seamless Gutter",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

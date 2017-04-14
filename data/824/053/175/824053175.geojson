@@ -2,9 +2,14 @@
   "id": 824053175,
   "type": "Feature",
   "properties": {
+    "addr:full":"13084 Logan St Denver CO 80241",
+    "addr:housenumber":"13084",
+    "addr:postcode":"80241",
+    "addr:street":"Logan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98048,39.933803,-104.98048,39.933803",
     "geom:latitude":39.933803,
     "geom:longitude":-104.98048,
@@ -27,19 +32,36 @@
         "courier"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7YEdFVitnWttVdXK5HTAnu_39.933803_-104.980480@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453232,
-    "wof:geomhash":"d9aad00c989888dd29797000fab70600",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f28ef6b04bec8f03cca6dec4b15271b9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":824053175
+        }
+    ],
     "wof:id":824053175,
-    "wof:lastmodified":1466414193,
+    "wof:lastmodified":1492132846,
     "wof:name":"Executive Courier Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

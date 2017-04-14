@@ -2,9 +2,14 @@
   "id": 823756003,
   "type": "Feature",
   "properties": {
+    "addr:full":"6809 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"6809;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.847058,37.396274,-107.847058,37.396274",
     "geom:latitude":37.396274,
     "geom:longitude":-107.847058,
@@ -27,19 +32,28 @@
         "camp"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0k11HUw2xljalAIsFcU210_37.396274_-107.847058@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445535,
-    "wof:geomhash":"50a3ec656d5b95852a28bbfb3438527e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c343fe3e84d19173104d546063612cb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554631,
+            "venue_id":823756003
+        }
+    ],
     "wof:id":823756003,
-    "wof:lastmodified":1466419154,
+    "wof:lastmodified":1492124316,
     "wof:name":"Whispering Pines Bible Camp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

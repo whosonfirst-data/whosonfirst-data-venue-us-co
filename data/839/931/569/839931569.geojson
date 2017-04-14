@@ -2,9 +2,14 @@
   "id": 839931569,
   "type": "Feature",
   "properties": {
+    "addr:full":"1680 6th St Boulder CO 80302",
+    "addr:housenumber":"1680",
+    "addr:postcode":"80302",
+    "addr:street":"6Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.287157,40.011918,-105.287157,40.011918",
     "geom:latitude":40.011918,
     "geom:longitude":-105.287157,
@@ -34,19 +39,36 @@
         "not"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0jy9G9S3B9thlvetnJuru4_40.011918_-105.287157@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458059,
-    "wof:geomhash":"026b6dceac09868cf59bc947443fec98",
-    "wof:hierarchy":[],
+    "wof:geomhash":"46a77bde35b475e63a29e7d5af5e6e2e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":839931569
+        }
+    ],
     "wof:id":839931569,
-    "wof:lastmodified":1466414294,
+    "wof:lastmodified":1492111503,
     "wof:name":"Nexus Publishing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

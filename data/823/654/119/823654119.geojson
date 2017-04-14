@@ -2,9 +2,14 @@
   "id": 823654119,
   "type": "Feature",
   "properties": {
+    "addr:full":"3458 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"3458;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.857385,37.347507,-107.857385,37.347507",
     "geom:latitude":37.347507,
     "geom:longitude":-107.857385,
@@ -27,19 +32,28 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2qKE05xJaTod9Kuo1looAH_37.347507_-107.857385@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443175,
-    "wof:geomhash":"a08c4e4f215a93153a91e3edfa52ff02",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d7099df17bea1d5080133bcbcb01e9c9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823654119
+        }
+    ],
     "wof:id":823654119,
-    "wof:lastmodified":1466418107,
+    "wof:lastmodified":1492125644,
     "wof:name":"B&H Stair Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

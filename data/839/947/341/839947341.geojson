@@ -2,9 +2,14 @@
   "id": 839947341,
   "type": "Feature",
   "properties": {
+    "addr:full":"5930 W 56th Ave Arvada CO 80002",
+    "addr:housenumber":"5930",
+    "addr:postcode":"80002",
+    "addr:street":"W 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062316,39.798256,-105.062316,39.798256",
     "geom:latitude":39.798256,
     "geom:longitude":-105.062316,
@@ -29,19 +34,34 @@
         "hoist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4vWTW3GwhZWaV3iPxePpuo_39.798256_-105.062316@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459007,
-    "wof:geomhash":"9e5817b1bbc0d908852f6d7373e048ce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0322d9b85c90166bfa1f7860a4cf2a10",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":839947341
+        }
+    ],
     "wof:id":839947341,
-    "wof:lastmodified":1466415163,
+    "wof:lastmodified":1492113016,
     "wof:name":"King Overhead Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

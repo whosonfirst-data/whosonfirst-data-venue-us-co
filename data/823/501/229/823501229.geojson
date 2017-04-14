@@ -2,9 +2,14 @@
   "id": 823501229,
   "type": "Feature",
   "properties": {
+    "addr:full":"5420 Harlan St Arvada CO 80002",
+    "addr:housenumber":"5420",
+    "addr:postcode":"80002",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062517,39.795515,-105.062517,39.795515",
     "geom:latitude":39.795515,
     "geom:longitude":-105.062517,
@@ -28,19 +33,34 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5PA33pbAx80UlQifRXli19_39.795515_-105.062517@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439603,
-    "wof:geomhash":"471cacec7934643acefeddaafbd2fd8d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e5bb07fc82ea29ea9e200f033d74a4af",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823501229
+        }
+    ],
     "wof:id":823501229,
-    "wof:lastmodified":1466414144,
+    "wof:lastmodified":1492125747,
     "wof:name":"Clear Creek Valley Sanitation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

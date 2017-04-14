@@ -2,9 +2,14 @@
   "id": 839993119,
   "type": "Feature",
   "properties": {
+    "addr:full":"2210 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"2210",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.794827,39.986777,-104.794827,39.986777",
     "geom:latitude":39.986777,
     "geom:longitude":-104.794827,
@@ -29,19 +34,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553437
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Y5tvo64H9qvEJMMkMMWdQ_39.986699_-104.794791@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460932,
-    "wof:geomhash":"a05083a0e7dcc3eef84305027242b3fd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f663324572b1e61b02b87261bf1746bd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553437,
+            "region_id":85688603,
+            "venue_id":839993119
+        }
+    ],
     "wof:id":839993119,
-    "wof:lastmodified":1466417616,
+    "wof:lastmodified":1492110939,
     "wof:name":"Pizza Hut",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553437,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

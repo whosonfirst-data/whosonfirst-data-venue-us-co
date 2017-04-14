@@ -2,9 +2,14 @@
   "id": 823640123,
   "type": "Feature",
   "properties": {
+    "addr:full":"1413 N Mildred Rd Cortez CO 81321",
+    "addr:housenumber":"1413",
+    "addr:postcode":"81321",
+    "addr:street":"N Mildred Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572797,37.363341,-108.572797,37.363341",
     "geom:latitude":37.363341,
     "geom:longitude":-108.572797,
@@ -28,19 +33,36 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555059
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1KpGuhRNxN3NgfxESUjPwB_37.363341_-108.572797@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442859,
-    "wof:geomhash":"abb6930f13e8dc02ba332b2f70f5cc7f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4556041ac5f7ca046c9fe9d660cd9d1a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555059,
+            "region_id":85688603,
+            "venue_id":823640123
+        }
+    ],
     "wof:id":823640123,
-    "wof:lastmodified":1466417990,
+    "wof:lastmodified":1492119366,
     "wof:name":"Cortez Family Practice Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555059,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

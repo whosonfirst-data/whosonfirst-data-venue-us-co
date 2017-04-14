@@ -2,9 +2,14 @@
   "id": 823741091,
   "type": "Feature",
   "properties": {
+    "addr:full":"3740 S Jason St Englewood CO 80110",
+    "addr:housenumber":"3740",
+    "addr:postcode":"80110",
+    "addr:street":"S Jason St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.999318,39.64834,-104.999318,39.64834",
     "geom:latitude":39.64834,
     "geom:longitude":-104.999318,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        420553955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ef9CA8zPV1EwjgMYKntVH_39.648340_-104.999318@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445177,
-    "wof:geomhash":"2b574eca6925f0d785c817fa4b8a83c6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"890c87275701ee210bf707b5228a8403",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
+            "region_id":85688603,
+            "venue_id":823741091
+        }
+    ],
     "wof:id":823741091,
-    "wof:lastmodified":1466418930,
+    "wof:lastmodified":1492125810,
     "wof:name":"H & K Landscape Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

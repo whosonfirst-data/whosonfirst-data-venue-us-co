@@ -2,9 +2,14 @@
   "id": 823800445,
   "type": "Feature",
   "properties": {
+    "addr:full":"14618 N Saint Vrain Dr Lyons CO 80540",
+    "addr:housenumber":"14618",
+    "addr:postcode":"80540",
+    "addr:street":"N Saint Vrain Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.33616,40.251951,-105.33616,40.251951",
     "geom:latitude":40.251951,
     "geom:longitude":-105.33616,
@@ -28,19 +33,32 @@
         "convent"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85896075,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0EYAUryNc9vs3srsFVpBkX_40.251951_-105.336160@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446722,
-    "wof:geomhash":"82e36d4f28098720497b0c267f67b240",
-    "wof:hierarchy":[],
+    "wof:geomhash":"19acbb41530773ec4cf1e2075a37695f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85896075,
+            "region_id":85688603,
+            "venue_id":823800445
+        }
+    ],
     "wof:id":823800445,
-    "wof:lastmodified":1466419401,
+    "wof:lastmodified":1492119308,
     "wof:name":"Sisters Of Loretto",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896075,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

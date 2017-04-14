@@ -2,9 +2,14 @@
   "id": 823486009,
   "type": "Feature",
   "properties": {
+    "addr:full":"210 Co Rd 10 Gunnison CO 81230",
+    "addr:housenumber":"210;10",
+    "addr:postcode":"81230",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.92248,38.565665,-106.92248,38.565665",
     "geom:latitude":38.565665,
     "geom:longitude":-106.92248,
@@ -28,19 +33,28 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554365
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4e4qko90miCSYit33zxGg0_38.565665_-106.922480@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439205,
-    "wof:geomhash":"042d9fada2755c7449ef574ff8c62769",
-    "wof:hierarchy":[],
+    "wof:geomhash":"65de8bc884f14b8d8621e1d10d31aae4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554365,
+            "venue_id":823486009
+        }
+    ],
     "wof:id":823486009,
-    "wof:lastmodified":1466413766,
+    "wof:lastmodified":1492120488,
     "wof:name":"M/C Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823831925,
   "type": "Feature",
   "properties": {
+    "addr:full":"1160 Patterson Rd Grand Junction CO 81506",
+    "addr:housenumber":"1160",
+    "addr:postcode":"81506",
+    "addr:street":"Patterson Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.552353,39.091854,-108.552353,39.091854",
     "geom:latitude":39.091854,
     "geom:longitude":-108.552353,
@@ -27,19 +32,46 @@
         "medical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        85877837,
+        420554911
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3OJlWPPTCbDMSA2FtAEF3C_39.091854_-108.552353@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447660,
-    "wof:geomhash":"d728b38d29722b3111c4140480db3b84",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b24bcd47cfbbbf220a27b18bd8bbe3cc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":85877837,
+            "region_id":85688603,
+            "venue_id":823831925
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554911,
+            "region_id":85688603,
+            "venue_id":823831925
+        }
+    ],
     "wof:id":823831925,
-    "wof:lastmodified":1466419710,
+    "wof:lastmodified":1492117017,
     "wof:name":"Mercedes Cameron MD",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

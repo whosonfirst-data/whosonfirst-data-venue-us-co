@@ -2,9 +2,14 @@
   "id": 823568375,
   "type": "Feature",
   "properties": {
+    "addr:full":"993 W 124th Dr Denver CO 80234",
+    "addr:housenumber":"993",
+    "addr:postcode":"80234",
+    "addr:street":"W 124Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.003319,39.924697,-105.003319,39.924697",
     "geom:latitude":39.924697,
     "geom:longitude":-105.003319,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4GW1qa6tOJgqMKMYP36WuM_39.924697_-105.003319@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441144,
-    "wof:geomhash":"9ca23e340c475526632aaab6eb1985e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"15cb2475055684e260160290ea513da6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823568375
+        }
+    ],
     "wof:id":823568375,
-    "wof:lastmodified":1466416258,
+    "wof:lastmodified":1492124962,
     "wof:name":"Mc Kesson",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

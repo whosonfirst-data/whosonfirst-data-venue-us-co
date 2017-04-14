@@ -2,9 +2,14 @@
   "id": 823792695,
   "type": "Feature",
   "properties": {
+    "addr:full":"2501 E 116th Pl Denver CO 80233",
+    "addr:housenumber":"2501",
+    "addr:postcode":"80233",
+    "addr:street":"E 116Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.956603,39.907649,-104.956603,39.907649",
     "geom:latitude":39.907649,
     "geom:longitude":-104.956603,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553673
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2PU3TfkfQqdRWRPOYxymvv_39.907649_-104.956603@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446505,
-    "wof:geomhash":"958a99b15101e69f5b327f0dc6b01f01",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eff61b0596eb7e195aa8b65f3da686f0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553673,
+            "region_id":85688603,
+            "venue_id":823792695
+        }
+    ],
     "wof:id":823792695,
-    "wof:lastmodified":1466419309,
+    "wof:lastmodified":1492120806,
     "wof:name":"Specialty Fireplace Svc Co LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553673,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

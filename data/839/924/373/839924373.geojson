@@ -2,9 +2,14 @@
   "id": 839924373,
   "type": "Feature",
   "properties": {
+    "addr:full":"1300 Milky Way Denver CO 80260",
+    "addr:housenumber":"1300",
+    "addr:postcode":"80260",
+    "addr:street":"Milky Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996662,39.853055,-104.996662,39.853055",
     "geom:latitude":39.853055,
     "geom:longitude":-104.996662,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2OAbhsZyNC6h92PKQ66K1L_39.853055_-104.996662@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457693,
-    "wof:geomhash":"77715b6909f0877257e16296b1b891bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3c7f629ecd5b0f0f370adbf02f0c6451",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553771,
+            "region_id":85688603,
+            "venue_id":839924373
+        }
+    ],
     "wof:id":839924373,
-    "wof:lastmodified":1466413858,
+    "wof:lastmodified":1492111050,
     "wof:name":"Parkview Terrace Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824013807,
   "type": "Feature",
   "properties": {
+    "addr:full":"2129 Delta Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2129",
+    "addr:postcode":"80910",
+    "addr:street":"Delta Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.759541,38.803479,-104.759541,38.803479",
     "geom:latitude":38.803479,
     "geom:longitude":-104.759541,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1evaor8aNrZB48IsdpZL7Y_38.803479_-104.759541@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452283,
-    "wof:geomhash":"07da29596825f74f6a40a9f058edfde9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f981d03a77ff2c44e86fd4522daaa4b1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":824013807
+        }
+    ],
     "wof:id":824013807,
-    "wof:lastmodified":1466413260,
+    "wof:lastmodified":1492130363,
     "wof:name":"Whitney Young Manor Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

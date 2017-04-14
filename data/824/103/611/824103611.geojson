@@ -2,9 +2,14 @@
   "id": 824103611,
   "type": "Feature",
   "properties": {
+    "addr:full":"3881 Paris St Denver CO 80239",
+    "addr:housenumber":"3881",
+    "addr:postcode":"80239",
+    "addr:street":"Paris St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.848672,39.76996,-104.848672,39.76996",
     "geom:latitude":39.76996,
     "geom:longitude":-104.848672,
@@ -30,19 +35,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871347,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_45eCdeKoFFET37hL9ezTgF_39.769960_-104.848672@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454415,
-    "wof:geomhash":"47d762744b6d3965a962541b638c1b27",
-    "wof:hierarchy":[],
+    "wof:geomhash":"562e9e6f8cd7d690a6fc3015ee40ce03",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85871347,
+            "region_id":85688603,
+            "venue_id":824103611
+        }
+    ],
     "wof:id":824103611,
-    "wof:lastmodified":1466415110,
+    "wof:lastmodified":1492131005,
     "wof:name":"Intermountain Sweeper Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871347,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

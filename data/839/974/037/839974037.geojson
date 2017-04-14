@@ -2,9 +2,14 @@
   "id": 839974037,
   "type": "Feature",
   "properties": {
+    "addr:full":"324 Apache Dr Grand Junction CO 81503",
+    "addr:housenumber":"324",
+    "addr:postcode":"81503",
+    "addr:street":"Apache Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.536924,39.051643,-108.536924,39.051643",
     "geom:latitude":39.051643,
     "geom:longitude":-108.536924,
@@ -27,19 +32,28 @@
         "operator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554917
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2e1OoQCxFVCABYRPCL5uL8_39.051643_-108.536924@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460178,
-    "wof:geomhash":"eeef2e65373a9e99f931da465cc06ec6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0043acd3c94910cfdaeb5337b087863",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554917,
+            "venue_id":839974037
+        }
+    ],
     "wof:id":839974037,
-    "wof:lastmodified":1466416628,
+    "wof:lastmodified":1492110914,
     "wof:name":"Larson Vending",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554917,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

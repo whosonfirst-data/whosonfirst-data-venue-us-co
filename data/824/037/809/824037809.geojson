@@ -2,9 +2,14 @@
   "id": 824037809,
   "type": "Feature",
   "properties": {
+    "addr:full":"7944 Logan St Denver CO 80229",
+    "addr:housenumber":"7944",
+    "addr:postcode":"80229",
+    "addr:street":"Logan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980657,39.839907,-104.980657,39.839907",
     "geom:latitude":39.839907,
     "geom:longitude":-104.980657,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1USgsZxYunmg7TuPC4MASJ_39.839907_-104.980657@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452865,
-    "wof:geomhash":"968e558868dfcc7945001db885f65d4c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4752b65d99364860c8db2a4f0c026182",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":824037809
+        }
+    ],
     "wof:id":824037809,
-    "wof:lastmodified":1466414106,
+    "wof:lastmodified":1492132866,
     "wof:name":"T J F Plumbing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

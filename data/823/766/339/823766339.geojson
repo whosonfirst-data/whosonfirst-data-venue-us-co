@@ -2,9 +2,14 @@
   "id": 823766339,
   "type": "Feature",
   "properties": {
+    "addr:full":"1212 S Prairie Ave Pueblo CO 81005",
+    "addr:housenumber":"1212",
+    "addr:postcode":"81005",
+    "addr:street":"S Prairie Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.64371,38.244258,-104.64371,38.244258",
     "geom:latitude":38.244258,
     "geom:longitude":-104.64371,
@@ -28,17 +33,32 @@
         "greeting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2AjJl0YBatadNPy0c8rtrc_38.244258_-104.643710@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445747,
-    "wof:geomhash":"74dc4ff74ccfc43b762b3ed862a45acf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8e93ec4701368080bf52fcd45d4322dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823766339
+        }
+    ],
     "wof:id":823766339,
-    "wof:lastmodified":1466419065,
+    "wof:lastmodified":1492123680,
     "wof:name":"Greeting Card Outlet",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

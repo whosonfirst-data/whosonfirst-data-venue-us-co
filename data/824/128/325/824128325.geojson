@@ -2,9 +2,14 @@
   "id": 824128325,
   "type": "Feature",
   "properties": {
+    "addr:full":"5690 Valmont Rd Boulder CO 80301",
+    "addr:housenumber":"5690",
+    "addr:postcode":"80301",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.221572,40.029153,-105.221572,40.029153",
     "geom:latitude":40.029153,
     "geom:longitude":-105.221572,
@@ -27,19 +32,36 @@
         "surveyor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0sry4FxJOPjVqyJjP1VWZl_40.029153_-105.221572@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455080,
-    "wof:geomhash":"dfdaea4562352363fbf3fc128dce7d64",
-    "wof:hierarchy":[],
+    "wof:geomhash":"52e1a9342b45db7ab1c51e9a7fc56a45",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":824128325
+        }
+    ],
     "wof:id":824128325,
-    "wof:lastmodified":1466415822,
+    "wof:lastmodified":1492131263,
     "wof:name":"Boulder Land Consultants",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

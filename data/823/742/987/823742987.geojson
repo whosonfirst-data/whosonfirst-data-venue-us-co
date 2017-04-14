@@ -2,9 +2,14 @@
   "id": 823742987,
   "type": "Feature",
   "properties": {
+    "addr:full":"987 Lost Angel Rd Boulder CO 80302",
+    "addr:housenumber":"987",
+    "addr:postcode":"80302",
+    "addr:street":"Lost Angel Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.401856,40.013135,-105.401856,40.013135",
     "geom:latitude":40.013135,
     "geom:longitude":-105.401856,
@@ -28,19 +33,36 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930735,
+        102085251,
+        420553997
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6HybrmnhhWgDkYcxz47w9c_40.013135_-105.401856@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445221,
-    "wof:geomhash":"244e332b2be9ef92db1c7cb4d4c300de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e3cd50b998e5b44789dbe1e834e98ceb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930735,
+            "neighbourhood_id":420553997,
+            "region_id":85688603,
+            "venue_id":823742987
+        }
+    ],
     "wof:id":823742987,
-    "wof:lastmodified":1466418960,
+    "wof:lastmodified":1492125111,
     "wof:name":"Family Office Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553997,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

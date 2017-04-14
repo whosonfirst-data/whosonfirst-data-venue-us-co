@@ -2,9 +2,14 @@
   "id": 823488803,
   "type": "Feature",
   "properties": {
+    "addr:full":"418 E Mallard Way Grand Junction CO 81504",
+    "addr:housenumber":"418",
+    "addr:postcode":"81504",
+    "addr:street":"E Mallard Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.472003,39.064972,-108.472003,39.064972",
     "geom:latitude":39.064972,
     "geom:longitude":-108.472003,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6TXWtUR0KpjLZKArw7KuUw_39.064972_-108.472003@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439287,
-    "wof:geomhash":"1ab127bf2082531edaea88f450202592",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d627c0c7a7477a0775d969d9a8dfcf47",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823488803
+        }
+    ],
     "wof:id":823488803,
-    "wof:lastmodified":1466413991,
+    "wof:lastmodified":1492122774,
     "wof:name":"Detray Trucking 2",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

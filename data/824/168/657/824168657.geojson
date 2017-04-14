@@ -2,9 +2,14 @@
   "id": 824168657,
   "type": "Feature",
   "properties": {
+    "addr:full":"680 E 84th Ave Denver CO 80229",
+    "addr:housenumber":"680",
+    "addr:postcode":"80229",
+    "addr:street":"E 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978817,39.848892,-104.978817,39.848892",
     "geom:latitude":39.848892,
     "geom:longitude":-104.978817,
@@ -28,19 +33,36 @@
         "gasoline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4n16E82Zbtx68tVMV2x5Nd_39.848892_-104.978817@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456626,
-    "wof:geomhash":"62fc61b47806a955f093b5dcf87f6315",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf26c0e7418bd16d8c4ab959c1b00586",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":824168657
+        }
+    ],
     "wof:id":824168657,
-    "wof:lastmodified":1466417815,
+    "wof:lastmodified":1492132213,
     "wof:name":"Conoco",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823985321,
   "type": "Feature",
   "properties": {
+    "addr:full":"9725 W 106th Ave Broomfield CO 80021",
+    "addr:housenumber":"9725",
+    "addr:postcode":"80021",
+    "addr:street":"W 106Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.104989,39.890446,-105.104989,39.890446",
     "geom:latitude":39.890446,
     "geom:longitude":-105.104989,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7JHR7mCOmBlMP2Hzw65nU9_39.890446_-105.104989@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451614,
-    "wof:geomhash":"4d1c42e73376e65f1a114ef8d1bb48be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cc67b95f291f6c77f1430cf60ba52d77",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823985321
+        }
+    ],
     "wof:id":823985321,
-    "wof:lastmodified":1466420912,
+    "wof:lastmodified":1492120972,
     "wof:name":"Neighborhood Investments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

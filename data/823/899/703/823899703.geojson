@@ -2,9 +2,14 @@
   "id": 823899703,
   "type": "Feature",
   "properties": {
+    "addr:full":"12198 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"12198;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.794745,37.450509,-107.794745,37.450509",
     "geom:latitude":37.450509,
     "geom:longitude":-107.794745,
@@ -28,19 +33,28 @@
         "microfilming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554715
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4q4bNr1DcvC8724UwrNDIw_37.450509_-107.794745@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449450,
-    "wof:geomhash":"b5b977326b2238b21851bdb8391c2602",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dc52dc9239317063bb02162fe35cf5e0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554715,
+            "venue_id":823899703
+        }
+    ],
     "wof:id":823899703,
-    "wof:lastmodified":1466420474,
+    "wof:lastmodified":1492116053,
     "wof:name":"Q C Microfilm Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554715,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

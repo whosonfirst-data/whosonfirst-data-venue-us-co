@@ -2,9 +2,14 @@
   "id": 823713141,
   "type": "Feature",
   "properties": {
+    "addr:full":"1401 17th St Denver CO 80202",
+    "addr:housenumber":"1401",
+    "addr:postcode":"80202",
+    "addr:street":"17Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.997971,39.751467,-104.997971,39.751467",
     "geom:latitude":39.751467,
     "geom:longitude":-104.997971,
@@ -31,12 +36,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108749017,
+        85871287,
         102191575,
+        1108750057,
         85633793,
         85928879,
         102086135,
-        85888361
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -51,15 +58,17 @@
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85888361,
+            "macrohood_id":1108750057,
+            "microhood_id":1108749017,
+            "neighbourhood_id":85871287,
             "region_id":85688603,
             "venue_id":823713141
         }
     ],
     "wof:id":823713141,
-    "wof:lastmodified":1466418635,
+    "wof:lastmodified":1486593944,
     "wof:name":"J K Edwards Assoc Inc",
-    "wof:parent_id":85888361,
+    "wof:parent_id":1108749017,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

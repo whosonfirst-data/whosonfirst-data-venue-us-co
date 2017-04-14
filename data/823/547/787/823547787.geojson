@@ -2,9 +2,14 @@
   "id": 823547787,
   "type": "Feature",
   "properties": {
+    "addr:full":"111 Trauma Ln Snowmass Village CO 81615",
+    "addr:housenumber":"111",
+    "addr:postcode":"81615",
+    "addr:street":"Trauma Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.946437,39.20922,-106.946437,39.20922",
     "geom:latitude":39.20922,
     "geom:longitude":-106.946437,
@@ -27,17 +32,32 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929697,
+        102084035
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5sipZkSwrdDNOfzNpq5kix_39.209220_-106.946437@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440650,
-    "wof:geomhash":"ff6652756a87652c83e1c883af08f4a5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0d7f545e7f0320f71f8aa46360fb8bce",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084035,
+            "locality_id":85929697,
+            "region_id":85688603,
+            "venue_id":823547787
+        }
+    ],
     "wof:id":823547787,
-    "wof:lastmodified":1466415772,
+    "wof:lastmodified":1492116115,
     "wof:name":"Snowmass Clinic",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

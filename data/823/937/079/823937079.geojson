@@ -2,9 +2,14 @@
   "id": 823937079,
   "type": "Feature",
   "properties": {
+    "addr:full":"8020 Knox Ct Westminster CO 80031",
+    "addr:housenumber":"8020",
+    "addr:postcode":"80031",
+    "addr:street":"Knox Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.031848,39.843254,-105.031848,39.843254",
     "geom:latitude":39.843254,
     "geom:longitude":-105.031848,
@@ -27,19 +32,36 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553541
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3KcJw2wLg2V8S2BLfWROfI_39.843254_-105.031848@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450457,
-    "wof:geomhash":"d9058187d113c33513fee76a271f5e69",
-    "wof:hierarchy":[],
+    "wof:geomhash":"48eba0a6bfa5283a90fe5dc7118708c9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553541,
+            "region_id":85688603,
+            "venue_id":823937079
+        }
+    ],
     "wof:id":823937079,
-    "wof:lastmodified":1466420659,
+    "wof:lastmodified":1492120096,
     "wof:name":"Benjamin Landscaping",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553541,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

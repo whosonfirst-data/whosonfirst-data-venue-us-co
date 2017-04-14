@@ -2,9 +2,14 @@
   "id": 823956513,
   "type": "Feature",
   "properties": {
+    "addr:full":"1405 Broadway St Boulder CO 80302",
+    "addr:housenumber":"1405",
+    "addr:postcode":"80302",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277547,40.011472,-105.277547,40.011472",
     "geom:latitude":40.011472,
     "geom:longitude":-105.277547,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5oVWvLYr9ENktCFp8jUy4e_40.011472_-105.277547@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450913,
-    "wof:geomhash":"7861df02e545a5f76197e670e1125f1c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0dd9504cdca279c4b3bda1475b30fe3c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":823956513
+        }
+    ],
     "wof:id":823956513,
-    "wof:lastmodified":1466420743,
+    "wof:lastmodified":1492119999,
     "wof:name":"Crown Court Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

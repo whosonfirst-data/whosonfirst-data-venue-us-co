@@ -2,9 +2,14 @@
   "id": 824019213,
   "type": "Feature",
   "properties": {
+    "addr:full":"14309 E 35th Pl Aurora CO 80011",
+    "addr:housenumber":"14309",
+    "addr:postcode":"80011",
+    "addr:street":"E 35Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.822175,39.769369,-104.822175,39.769369",
     "geom:latitude":39.769369,
     "geom:longitude":-104.822175,
@@ -29,19 +34,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1HmbuJbJ1ZMgufAB4tXWcK_39.769369_-104.822175@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452404,
-    "wof:geomhash":"6fa26c328321f94dcc147853dc92feef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"38f6439c476e4107eb2f79ac2a4b5267",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553641,
+            "region_id":85688603,
+            "venue_id":824019213
+        }
+    ],
     "wof:id":824019213,
-    "wof:lastmodified":1466413604,
+    "wof:lastmodified":1492128950,
     "wof:name":"Jayco Ventures Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

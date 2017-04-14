@@ -2,9 +2,14 @@
   "id": 839937171,
   "type": "Feature",
   "properties": {
+    "addr:full":"4127 Genoa St Denver CO 80249",
+    "addr:housenumber":"4127",
+    "addr:postcode":"80249",
+    "addr:street":"Genoa St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.756362,39.773075,-104.756362,39.773075",
     "geom:latitude":39.773075,
     "geom:longitude":-104.756362,
@@ -27,7 +32,16 @@
         "road"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0do0x0adDt5SBJVhmXYKRi_39.773075_-104.756362@1294083659"
@@ -35,11 +49,23 @@
     "wof:country":"US",
     "wof:created":1463458346,
     "wof:geomhash":"c48bdf7c51d828e1dffef88cd5757781",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":839937171
+        }
+    ],
     "wof:id":839937171,
-    "wof:lastmodified":1466414455,
+    "wof:lastmodified":1486593992,
     "wof:name":"Tlc Flatmaster",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

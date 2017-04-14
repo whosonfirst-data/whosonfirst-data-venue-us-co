@@ -2,9 +2,14 @@
   "id": 823658971,
   "type": "Feature",
   "properties": {
+    "addr:full":"143 Main St Yampa CO 80483",
+    "addr:housenumber":"143",
+    "addr:postcode":"80483",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.908654,40.15216,-106.908654,40.15216",
     "geom:latitude":40.15216,
     "geom:longitude":-106.908654,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555323
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2tOAehejfVvLpElXQeYGwb_40.152160_-106.908654@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443300,
-    "wof:geomhash":"585254d20f26e8300aa8263a635fc1ea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cbc55001ad7da70ef7c90954070c6997",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555323,
+            "venue_id":823658971
+        }
+    ],
     "wof:id":823658971,
-    "wof:lastmodified":1466418067,
+    "wof:lastmodified":1492120237,
     "wof:name":"First Baptist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555323,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

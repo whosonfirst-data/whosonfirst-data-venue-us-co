@@ -2,9 +2,14 @@
   "id": 823896523,
   "type": "Feature",
   "properties": {
+    "addr:full":"2549 River Rd Grand Junction CO 81501",
+    "addr:housenumber":"2549",
+    "addr:postcode":"81501",
+    "addr:street":"River Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.584966,39.076252,-108.584966,39.076252",
     "geom:latitude":39.076252,
     "geom:longitude":-108.584966,
@@ -29,19 +34,36 @@
         "parking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554785
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3CM4S9ulATAiTI2RRyt2ZL_39.076252_-108.584966@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449363,
-    "wof:geomhash":"3679a871ba9585b09a09cddb9907088c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e17cb58e1a8ccb182f4322e81a6dda29",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554785,
+            "region_id":85688603,
+            "venue_id":823896523
+        }
+    ],
     "wof:id":823896523,
-    "wof:lastmodified":1466420140,
+    "wof:lastmodified":1492119590,
     "wof:name":"Fleet Maintenance Public Works",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554785,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

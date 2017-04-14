@@ -2,9 +2,14 @@
   "id": 824150189,
   "type": "Feature",
   "properties": {
+    "addr:full":"2990 Diagonal Hwy Boulder CO 80301",
+    "addr:housenumber":"2990",
+    "addr:postcode":"80301",
+    "addr:street":"Diagonal Hwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.25442,40.037662,-105.25442,40.037662",
     "geom:latitude":40.037662,
     "geom:longitude":-105.25442,
@@ -27,19 +32,36 @@
         "station"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5M3NK25cIOKrjy87UEymqn_40.037662_-105.254420@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455909,
-    "wof:geomhash":"aa5e765d9e4edcd7586e0cf0a7eb151b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"31a3745418aae5a4bc16163cce3924dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":824150189
+        }
+    ],
     "wof:id":824150189,
-    "wof:lastmodified":1466416816,
+    "wof:lastmodified":1492132012,
     "wof:name":"Diagonal Amoco",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

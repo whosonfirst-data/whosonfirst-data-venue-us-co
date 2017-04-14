@@ -2,9 +2,14 @@
   "id": 824026913,
   "type": "Feature",
   "properties": {
+    "addr:full":"1532 Galena St Aurora CO 80010",
+    "addr:housenumber":"1532",
+    "addr:postcode":"80010",
+    "addr:street":"Galena St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.869287,39.741398,-104.869287,39.741398",
     "geom:latitude":39.741398,
     "geom:longitude":-104.869287,
@@ -28,19 +33,36 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553937
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7mfqCL6F1N9eqnqd3fKy4Q_39.741398_-104.869287@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452585,
-    "wof:geomhash":"35c198b102ae99c6b1dd33c2964d3941",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5b68648d09e7747cf059482857026b33",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553937,
+            "region_id":85688603,
+            "venue_id":824026913
+        }
+    ],
     "wof:id":824026913,
-    "wof:lastmodified":1466413707,
+    "wof:lastmodified":1492128170,
     "wof:name":"Pyramid Financial & Insur Svcs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553937,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

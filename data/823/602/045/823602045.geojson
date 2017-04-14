@@ -2,9 +2,14 @@
   "id": 823602045,
   "type": "Feature",
   "properties": {
+    "addr:full":"2577 E 79th Ave Denver CO 80229",
+    "addr:housenumber":"2577",
+    "addr:postcode":"80229",
+    "addr:street":"E 79Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.955473,39.839953,-104.955473,39.839953",
     "geom:latitude":39.839953,
     "geom:longitude":-104.955473,
@@ -30,19 +35,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553889
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1P261gB2caTL9rWD35nFmU_39.839953_-104.955473@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441958,
-    "wof:geomhash":"a1ab1ccdde6b9d07c62fbcec47cb5670",
-    "wof:hierarchy":[],
+    "wof:geomhash":"98df487050bbc0d06699a98a0959f125",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553889,
+            "region_id":85688603,
+            "venue_id":823602045
+        }
+    ],
     "wof:id":823602045,
-    "wof:lastmodified":1466417175,
+    "wof:lastmodified":1492127780,
     "wof:name":"Big T High Performance",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553889,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

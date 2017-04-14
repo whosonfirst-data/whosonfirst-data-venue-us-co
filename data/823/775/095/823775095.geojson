@@ -2,9 +2,14 @@
   "id": 823775095,
   "type": "Feature",
   "properties": {
+    "addr:full":"4305 W 110th Pl Westminster CO 80031",
+    "addr:housenumber":"4305",
+    "addr:postcode":"80031",
+    "addr:street":"W 110Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040737,39.894466,-105.040737,39.894466",
     "geom:latitude":39.894466,
     "geom:longitude":-105.040737,
@@ -29,19 +34,36 @@
         "installation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553523
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6qe8XB5ODP6e0ENUz5wVf4_39.894466_-105.040737@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445960,
-    "wof:geomhash":"5cd937b27dfb8f0ed8b6be6b8855d5f9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"417519b93edfca2877f18799370f14c0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553523,
+            "region_id":85688603,
+            "venue_id":823775095
+        }
+    ],
     "wof:id":823775095,
-    "wof:lastmodified":1466419099,
+    "wof:lastmodified":1492120152,
     "wof:name":"Dishes Unlimited",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553523,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

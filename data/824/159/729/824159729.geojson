@@ -2,9 +2,14 @@
   "id": 824159729,
   "type": "Feature",
   "properties": {
+    "addr:full":"10040 E 157th Ave Brighton CO 80602",
+    "addr:housenumber":"10040",
+    "addr:postcode":"80602",
+    "addr:street":"E 157Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.872029,39.981475,-104.872029,39.981475",
     "geom:latitude":39.981475,
     "geom:longitude":-104.872029,
@@ -27,19 +32,36 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4gRJoV8LpTciI0ega3wMiu_39.981475_-104.872029@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456287,
-    "wof:geomhash":"c9152d79ef4406fecea21726878421c0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a237b7ac4f07e68ab56a3a7e134d3cc2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553387,
+            "region_id":85688603,
+            "venue_id":824159729
+        }
+    ],
     "wof:id":824159729,
-    "wof:lastmodified":1466417407,
+    "wof:lastmodified":1492128628,
     "wof:name":"Tese Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

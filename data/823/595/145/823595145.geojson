@@ -2,9 +2,14 @@
   "id": 823595145,
   "type": "Feature",
   "properties": {
+    "addr:full":"297 Co Rd 234A Durango CO 81301",
+    "addr:housenumber":"297;234a",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.798407,37.234781,-107.798407,37.234781",
     "geom:latitude":37.234781,
     "geom:longitude":-107.798407,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554707
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_097y33GkMjfQYIYLYaBm1S_37.234781_-107.798407@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441767,
-    "wof:geomhash":"2d4bece4362d7700f2fcf7dfddb46742",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ebbf6ce18c7edde5a26f71a011b29b08",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554707,
+            "venue_id":823595145
+        }
+    ],
     "wof:id":823595145,
-    "wof:lastmodified":1466417034,
+    "wof:lastmodified":1492123975,
     "wof:name":"David Michael Austin Gen Cntr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554707,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824052747,
   "type": "Feature",
   "properties": {
+    "addr:full":"6015 E 58th Ave Commerce City CO 80022",
+    "addr:housenumber":"6015",
+    "addr:postcode":"80022",
+    "addr:street":"E 58Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.916319,39.80198,-104.916319,39.80198",
     "geom:latitude":39.80198,
     "geom:longitude":-104.916319,
@@ -28,19 +33,36 @@
         "portable"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553519
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2TQuhveTbsA4sLyCaCHKNp_39.801980_-104.916319@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453225,
-    "wof:geomhash":"e9a1507bb80f091fe2662851b8c3d57b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0836ebfa285ff05a3d378c76b95e30af",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553519,
+            "region_id":85688603,
+            "venue_id":824052747
+        }
+    ],
     "wof:id":824052747,
-    "wof:lastmodified":1466414270,
+    "wof:lastmodified":1492130501,
     "wof:name":"United Site Services Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553519,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

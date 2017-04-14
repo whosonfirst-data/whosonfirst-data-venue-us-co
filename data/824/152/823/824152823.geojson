@@ -2,9 +2,14 @@
   "id": 824152823,
   "type": "Feature",
   "properties": {
+    "addr:full":"1891 Orchard Ave Boulder CO 80304",
+    "addr:housenumber":"1891",
+    "addr:postcode":"80304",
+    "addr:street":"Orchard Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.274851,40.046137,-105.274851,40.046137",
     "geom:latitude":40.046137,
     "geom:longitude":-105.274851,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554145
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3uMzm5wArNmrZSfN47SpX5_40.046137_-105.274851@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456013,
-    "wof:geomhash":"8c273dbc74d36982c2328d20d5431996",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ce006f12ed8179b6a67fd5059b0f3a5a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554145,
+            "region_id":85688603,
+            "venue_id":824152823
+        }
+    ],
     "wof:id":824152823,
-    "wof:lastmodified":1466416974,
+    "wof:lastmodified":1492132943,
     "wof:name":"Red Cliff Homes Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554145,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

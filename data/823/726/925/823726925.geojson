@@ -2,9 +2,14 @@
   "id": 823726925,
   "type": "Feature",
   "properties": {
+    "addr:full":"4789 Briar Ridge Trl Boulder CO 80301",
+    "addr:housenumber":"4789",
+    "addr:postcode":"80301",
+    "addr:street":"Briar Ridge Trl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.179313,40.061668,-105.179313,40.061668",
     "geom:latitude":40.061668,
     "geom:longitude":-105.179313,
@@ -28,19 +33,46 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        85895953,
+        420554161
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ufqY2VQJuzo1JcGST4EIT_40.061668_-105.179313@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444825,
-    "wof:geomhash":"999e9a500f53b8574ab3a08401788418",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a52cb546711f40206e9107ed85326495",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":85895953,
+            "region_id":85688603,
+            "venue_id":823726925
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554161,
+            "region_id":85688603,
+            "venue_id":823726925
+        }
+    ],
     "wof:id":823726925,
-    "wof:lastmodified":1466418773,
+    "wof:lastmodified":1492121032,
     "wof:name":"MJB Holdings LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

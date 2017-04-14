@@ -2,9 +2,14 @@
   "id": 823630459,
   "type": "Feature",
   "properties": {
+    "addr:full":"9460 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"9460",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024923,39.867852,-105.024923,39.867852",
     "geom:latitude":39.867852,
     "geom:longitude":-105.024923,
@@ -28,19 +33,36 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Q2w0ThUVnx1IERx4Ib9YS_39.867852_-105.024923@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442641,
-    "wof:geomhash":"d2486ab43cf53e5c8db79c032770d1b9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5f74f49c025132de940e09fcff1c19ef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823630459
+        }
+    ],
     "wof:id":823630459,
-    "wof:lastmodified":1466417643,
+    "wof:lastmodified":1492123714,
     "wof:name":"Metwest Commercial Lender",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824109171,
   "type": "Feature",
   "properties": {
+    "addr:full":"12301 Claude Ct Northglenn CO 80241",
+    "addr:housenumber":"12301",
+    "addr:postcode":"80241",
+    "addr:street":"Claude Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959744,39.917266,-104.959744,39.917266",
     "geom:latitude":39.917266,
     "geom:longitude":-104.959744,
@@ -28,19 +33,36 @@
     ],
     "sg:website":"www.northglenn.org",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2XnDUkJPROtXcdx1AmfUK8_39.917266_-104.959744@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454537,
-    "wof:geomhash":"17d883563b7183490545348cfce2f166",
-    "wof:hierarchy":[],
+    "wof:geomhash":"051435c62ccee936326ac6ac47f10b7f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553877,
+            "region_id":85688603,
+            "venue_id":824109171
+        }
+    ],
     "wof:id":824109171,
-    "wof:lastmodified":1466415369,
+    "wof:lastmodified":1492132158,
     "wof:name":"Northglenn Street Maintenance",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553877,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

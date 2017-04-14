@@ -2,9 +2,14 @@
   "id": 824154769,
   "type": "Feature",
   "properties": {
+    "addr:full":"930 W 133rd Cir Denver CO 80234",
+    "addr:housenumber":"930",
+    "addr:postcode":"80234",
+    "addr:street":"W 133Rd Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.998628,39.939088,-104.998628,39.939088",
     "geom:latitude":39.939088,
     "geom:longitude":-104.998628,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553815
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0r3Uu56DpwfYDwpTCqDM2Y_39.939088_-104.998628@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456108,
-    "wof:geomhash":"90c68fc90bc36a4ac2e1e472f29b8602",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3271adf4cdfad0aa91a2d1c4560a6fdb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553815,
+            "region_id":85688603,
+            "venue_id":824154769
+        }
+    ],
     "wof:id":824154769,
-    "wof:lastmodified":1466417192,
+    "wof:lastmodified":1492129626,
     "wof:name":"Alan Bauer Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553815,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

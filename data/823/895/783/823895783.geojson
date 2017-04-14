@@ -2,9 +2,14 @@
   "id": 823895783,
   "type": "Feature",
   "properties": {
+    "addr:full":"9834 Cook St Denver CO 80229",
+    "addr:housenumber":"9834",
+    "addr:postcode":"80229",
+    "addr:street":"Cook St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.947324,39.874534,-104.947324,39.874534",
     "geom:latitude":39.874534,
     "geom:longitude":-104.947324,
@@ -30,19 +35,46 @@
         "jewelry"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553689,
+        420553783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_57LrKyDgEUn2ly5MSI9oFW_39.874534_-104.947324@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449345,
-    "wof:geomhash":"fef1bf3dded91ef1605821040241153a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8a4fdf1d9960f3ea672b0d3ece98dbcc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553689,
+            "region_id":85688603,
+            "venue_id":823895783
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":823895783
+        }
+    ],
     "wof:id":823895783,
-    "wof:lastmodified":1466420177,
+    "wof:lastmodified":1492116391,
     "wof:name":"Eye Deal Optica",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

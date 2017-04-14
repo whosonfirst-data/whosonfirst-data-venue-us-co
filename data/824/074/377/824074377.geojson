@@ -2,9 +2,14 @@
   "id": 824074377,
   "type": "Feature",
   "properties": {
+    "addr:full":"825 Inca Pkwy Boulder CO 80303",
+    "addr:housenumber":"825",
+    "addr:postcode":"80303",
+    "addr:street":"Inca Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.239155,40.002789,-105.239155,40.002789",
     "geom:latitude":40.002789,
     "geom:longitude":-105.239155,
@@ -27,19 +32,36 @@
         "craft"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3JYTNT9Q7BSdb70TIUd86L_40.002789_-105.239155@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453725,
-    "wof:geomhash":"113179c6dbb748490a374a94fab7dddd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d6754c4bd79737d744c4ca4b551c1c8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":824074377
+        }
+    ],
     "wof:id":824074377,
-    "wof:lastmodified":1466414616,
+    "wof:lastmodified":1492132308,
     "wof:name":"Enchanted Gardens",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

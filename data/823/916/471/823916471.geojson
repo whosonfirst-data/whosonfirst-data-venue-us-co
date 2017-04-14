@@ -2,9 +2,14 @@
   "id": 823916471,
   "type": "Feature",
   "properties": {
+    "addr:full":"3050 Corona Trl Boulder CO 80301",
+    "addr:housenumber":"3050",
+    "addr:postcode":"80301",
+    "addr:street":"Corona Trl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.252761,40.034917,-105.252761,40.034917",
     "geom:latitude":40.034917,
     "geom:longitude":-105.252761,
@@ -28,19 +33,36 @@
         "thread"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3dxYMAdSEjdi2cE6J1zKB9_40.034917_-105.252761@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449914,
-    "wof:geomhash":"170357d985734907a36a8634ff97317b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f622297ba529e813076452d8886a8dd7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":823916471
+        }
+    ],
     "wof:id":823916471,
-    "wof:lastmodified":1466420358,
+    "wof:lastmodified":1492120860,
     "wof:name":"Wild Rose Handknits",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

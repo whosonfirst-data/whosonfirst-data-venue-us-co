@@ -2,9 +2,14 @@
   "id": 839988843,
   "type": "Feature",
   "properties": {
+    "addr:full":"360 E 104th Ave Denver CO 80233",
+    "addr:housenumber":"360",
+    "addr:postcode":"80233",
+    "addr:street":"E 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.983983,39.885155,-104.983983,39.885155",
     "geom:latitude":39.885155,
     "geom:longitude":-104.983983,
@@ -29,19 +34,36 @@
         "diner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553851
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_38uvIJgeaCLgWCUTIcsDEL_39.885155_-104.983983@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460769,
-    "wof:geomhash":"27c9bca09edb2e532a108d443d111e7a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6efd8cda16ec02896559069c81368e12",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553851,
+            "region_id":85688603,
+            "venue_id":839988843
+        }
+    ],
     "wof:id":839988843,
-    "wof:lastmodified":1466417455,
+    "wof:lastmodified":1492112796,
     "wof:name":"Denny's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553851,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

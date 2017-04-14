@@ -2,9 +2,14 @@
   "id": 839967771,
   "type": "Feature",
   "properties": {
+    "addr:full":"7203 Navajo St Denver CO 80221",
+    "addr:housenumber":"7203",
+    "addr:postcode":"80221",
+    "addr:street":"Navajo St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.003346,39.829233,-105.003346,39.829233",
     "geom:latitude":39.829233,
     "geom:longitude":-105.003346,
@@ -27,19 +32,36 @@
         "maintenance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ivtfOlvGp2uDPse9jDQKO_39.829233_-105.003346@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459917,
-    "wof:geomhash":"e24c44a84359597140fae7cd46157347",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58d09e917de45a31f07d896cb441b576",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":839967771
+        }
+    ],
     "wof:id":839967771,
-    "wof:lastmodified":1466416027,
+    "wof:lastmodified":1492112414,
     "wof:name":"Albertas Maids",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

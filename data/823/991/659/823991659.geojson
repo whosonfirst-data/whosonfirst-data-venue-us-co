@@ -2,9 +2,14 @@
   "id": 823991659,
   "type": "Feature",
   "properties": {
+    "addr:full":"353 Pitkin Ave Grand Junction CO 81501",
+    "addr:housenumber":"353",
+    "addr:postcode":"81501",
+    "addr:street":"Pitkin Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.56694,39.064313,-108.56694,39.064313",
     "geom:latitude":39.064313,
     "geom:longitude":-108.56694,
@@ -27,19 +32,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_03lN3wEbvXIRXI0gtwiYmT_39.064313_-108.566940@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451757,
-    "wof:geomhash":"745674adfb6feea28e7676973eeab8bf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bde274173f18a576ddec1225ff6baa3d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554839,
+            "region_id":85688603,
+            "venue_id":823991659
+        }
+    ],
     "wof:id":823991659,
-    "wof:lastmodified":1466421002,
+    "wof:lastmodified":1492117376,
     "wof:name":"A Pawn Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

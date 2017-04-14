@@ -2,9 +2,14 @@
   "id": 823500291,
   "type": "Feature",
   "properties": {
+    "addr:full":"4130 E 119th Pl Denver CO 80233",
+    "addr:housenumber":"4130",
+    "addr:postcode":"80233",
+    "addr:street":"E 119Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.939554,39.911581,-104.939554,39.911581",
     "geom:latitude":39.911581,
     "geom:longitude":-104.939554,
@@ -27,19 +32,36 @@
         "publishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_44iI1Pizzmhb4UukVINMud_39.911581_-104.939554@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439582,
-    "wof:geomhash":"a640c2fea1310c9a4bde6458064a259a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"243d2757d8d0a53ac1bad48ee4c2b4e1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823500291
+        }
+    ],
     "wof:id":823500291,
-    "wof:lastmodified":1466414259,
+    "wof:lastmodified":1492125557,
     "wof:name":"J&M Publishing LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

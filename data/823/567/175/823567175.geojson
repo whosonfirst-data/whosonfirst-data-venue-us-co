@@ -2,9 +2,14 @@
   "id": 823567175,
   "type": "Feature",
   "properties": {
+    "addr:full":"12057 Pecos St Denver CO 80234",
+    "addr:housenumber":"12057",
+    "addr:postcode":"80234",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006185,39.915059,-105.006185,39.915059",
     "geom:latitude":39.915059,
     "geom:longitude":-105.006185,
@@ -24,19 +29,36 @@
     "sg:postcode":"80234",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_71tuPg8DEnFMZtI6JrMYbI_39.915059_-105.006185@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441117,
-    "wof:geomhash":"86f83dae02a000305c52a5ea9612609c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"715849dcbace7ae3732180019de12140",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823567175
+        }
+    ],
     "wof:id":823567175,
-    "wof:lastmodified":1466416115,
+    "wof:lastmodified":1492126506,
     "wof:name":"7-Eleven",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

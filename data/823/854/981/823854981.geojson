@@ -2,9 +2,14 @@
   "id": 823854981,
   "type": "Feature",
   "properties": {
+    "addr:full":"1890 W Beekman Pl Denver CO 80221",
+    "addr:housenumber":"1890",
+    "addr:postcode":"80221",
+    "addr:street":"W Beekman Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00664,39.787775,-105.00664,39.787775",
     "geom:latitude":39.787775,
     "geom:longitude":-105.00664,
@@ -28,7 +33,15 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420781639,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1NOMjymSHvNl7YEoCxLuTN_39.787775_-105.006640@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463448358,
     "wof:geomhash":"8e99369a6774f7bd0eb2b2d1454e22ea",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420781639,
+            "region_id":85688603,
+            "venue_id":823854981
+        }
+    ],
     "wof:id":823854981,
-    "wof:lastmodified":1466419896,
+    "wof:lastmodified":1486593527,
     "wof:name":"Domingos Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420781639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

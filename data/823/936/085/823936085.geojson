@@ -2,9 +2,14 @@
   "id": 823936085,
   "type": "Feature",
   "properties": {
+    "addr:full":"23800 Co Rd 16 Oak Creek CO 80467",
+    "addr:housenumber":"23800;16",
+    "addr:postcode":"80467",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.843767,40.264645,-106.843767,40.264645",
     "geom:latitude":40.264645,
     "geom:longitude":-106.843767,
@@ -27,19 +32,28 @@
         "crane"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555337
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2MeoI9hVtB6Cp2fy74hn62_40.264645_-106.843767@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450433,
-    "wof:geomhash":"2f01af3853dfcef7ad473efcfad2dee7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5a1a2fcb497b3da5e3967afa267148a3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555337,
+            "venue_id":823936085
+        }
+    ],
     "wof:id":823936085,
-    "wof:lastmodified":1466420656,
+    "wof:lastmodified":1492117067,
     "wof:name":"Ryan Tattershall Crane Svc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555337,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

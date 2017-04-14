@@ -2,9 +2,14 @@
   "id": 823629151,
   "type": "Feature",
   "properties": {
+    "addr:full":"5569 E Lehigh Ave Denver CO 80237",
+    "addr:housenumber":"5569",
+    "addr:postcode":"80237",
+    "addr:street":"E Lehigh Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.926085,39.64718,-104.926085,39.64718",
     "geom:latitude":39.64718,
     "geom:longitude":-104.926085,
@@ -28,7 +33,15 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750071,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5pCo6p5f1cmYwBMZPfIbnd_39.647180_-104.926085@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463442613,
     "wof:geomhash":"a134382e67df97dcba5fe2d78c5677cc",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750071,
+            "region_id":85688603,
+            "venue_id":823629151
+        }
+    ],
     "wof:id":823629151,
-    "wof:lastmodified":1466417691,
+    "wof:lastmodified":1486593583,
     "wof:name":"1120 S Logon LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750071,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

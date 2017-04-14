@@ -2,9 +2,14 @@
   "id": 839978543,
   "type": "Feature",
   "properties": {
+    "addr:full":"15155 E 50th Ave Denver CO 80239",
+    "addr:housenumber":"15155",
+    "addr:postcode":"80239",
+    "addr:street":"E 50Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810919,39.782038,-104.810919,39.782038",
     "geom:latitude":39.782038,
     "geom:longitude":-104.810919,
@@ -27,7 +32,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1SnnKwwoOKTNaA2EFjl2Mr_39.782038_-104.810919@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463460364,
     "wof:geomhash":"10e60b2714437b6642e8a56ef2f46422",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":839978543
+        }
+    ],
     "wof:id":839978543,
-    "wof:lastmodified":1466416961,
+    "wof:lastmodified":1491887443,
     "wof:name":"Riveras Tile",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

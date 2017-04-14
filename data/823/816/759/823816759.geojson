@@ -2,9 +2,14 @@
   "id": 823816759,
   "type": "Feature",
   "properties": {
+    "addr:full":"5341 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"5341",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025358,39.792033,-105.025358,39.792033",
     "geom:latitude":39.792033,
     "geom:longitude":-105.025358,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553687
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3dQHDGWBlSZHg9OmXF3soZ_39.792033_-105.025358@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447202,
-    "wof:geomhash":"ed328005a0aab93dcd75907ee7505eb9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"31fb2ff4cc35710d308c3bf349c3b8d9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553687,
+            "region_id":85688603,
+            "venue_id":823816759
+        }
+    ],
     "wof:id":823816759,
-    "wof:lastmodified":1466419529,
+    "wof:lastmodified":1492127629,
     "wof:name":"Premium Living Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553687,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

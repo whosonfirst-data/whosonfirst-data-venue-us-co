@@ -2,9 +2,14 @@
   "id": 823588331,
   "type": "Feature",
   "properties": {
+    "addr:full":"8642 Mineral Rd Longmont CO 80503",
+    "addr:housenumber":"8642",
+    "addr:postcode":"80503",
+    "addr:street":"Mineral Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.163211,40.087166,-105.163211,40.087166",
     "geom:latitude":40.087166,
     "geom:longitude":-105.163211,
@@ -32,12 +37,14 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        85633793,
-        85895963,
-        102085251,
         102191575,
+        85633793,
         85929877,
-        85865179
+        102085251,
+        85865179,
+        85930703,
+        420554073,
+        85895963
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -45,15 +52,8 @@
     },
     "wof:country":"US",
     "wof:created":1463441606,
-    "wof:geomhash":"a6c7e07f7977b88c30475e931bccb26c",
+    "wof:geomhash":"adb5bc591c0f187d6a6bf60336311131",
     "wof:hierarchy":[
-        {
-            "country_id":85633793,
-            "county_id":102085251,
-            "neighbourhood_id":85895963,
-            "region_id":85688603,
-            "venue_id":823588331
-        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -62,12 +62,28 @@
             "neighbourhood_id":85865179,
             "region_id":85688603,
             "venue_id":823588331
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554073,
+            "region_id":85688603,
+            "venue_id":823588331
+        },
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85895963,
+            "region_id":85688603,
+            "venue_id":823588331
         }
     ],
     "wof:id":823588331,
-    "wof:lastmodified":1466416786,
+    "wof:lastmodified":1492125714,
     "wof:name":"D&T Fabrications",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

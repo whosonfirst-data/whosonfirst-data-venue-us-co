@@ -2,9 +2,14 @@
   "id": 824037659,
   "type": "Feature",
   "properties": {
+    "addr:full":"700 E 2nd St Cortez CO 81321",
+    "addr:housenumber":"700",
+    "addr:postcode":"81321",
+    "addr:street":"E 2Nd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.575916,37.346709,-108.575916,37.346709",
     "geom:latitude":37.346709,
     "geom:longitude":-108.575916,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420559447
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ZdXtaqyGalFAsF4RwhCvL_37.346709_-108.575916@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452863,
-    "wof:geomhash":"42e8129e582d1c3ca487929aa982a619",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5c1deb8214835fecfa575df5317c8a09",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420559447,
+            "region_id":85688603,
+            "venue_id":824037659
+        }
+    ],
     "wof:id":824037659,
-    "wof:lastmodified":1466414036,
+    "wof:lastmodified":1492132860,
     "wof:name":"Valley Sun Village",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559447,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839985299,
   "type": "Feature",
   "properties": {
+    "addr:full":"10573 N 65th St Longmont CO 80503",
+    "addr:housenumber":"10573",
+    "addr:postcode":"80503",
+    "addr:street":"N 65Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.20209,40.165298,-105.20209,40.165298",
     "geom:latitude":40.165298,
     "geom:longitude":-105.20209,
@@ -23,19 +28,28 @@
         "crop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6TKJTID8QcqGiCOPFAG46w_40.165298_-105.202090@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460632,
-    "wof:geomhash":"9675694249057df8cad0f7ddb429b3d2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"662cd3ddc8653f8eee72bffbf13d2700",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554057,
+            "venue_id":839985299
+        }
+    ],
     "wof:id":839985299,
-    "wof:lastmodified":1466417271,
+    "wof:lastmodified":1492112272,
     "wof:name":"Coffman Farms",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

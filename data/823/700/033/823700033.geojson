@@ -2,9 +2,14 @@
   "id": 823700033,
   "type": "Feature",
   "properties": {
+    "addr:full":"3746 Co Rd 307 Durango CO 81303",
+    "addr:housenumber":"3746;307",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.786667,37.143215,-107.786667,37.143215",
     "geom:latitude":37.143215,
     "geom:longitude":-107.786667,
@@ -27,19 +32,28 @@
         "crude"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3R0phr81yoxFu4VmeoazbY_37.143215_-107.786667@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444237,
-    "wof:geomhash":"df37aaf9d19611f16bc59b142b70c10d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fae7ff928811236a0fb9bc04f418300a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823700033
+        }
+    ],
     "wof:id":823700033,
-    "wof:lastmodified":1466418543,
+    "wof:lastmodified":1492119141,
     "wof:name":"Williams Field Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

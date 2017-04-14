@@ -2,9 +2,14 @@
   "id": 824047075,
   "type": "Feature",
   "properties": {
+    "addr:full":"6018 Grape Dr Commerce City CO 80022",
+    "addr:housenumber":"6018",
+    "addr:postcode":"80022",
+    "addr:street":"Grape Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.926003,39.807783,-104.926003,39.807783",
     "geom:latitude":39.807783,
     "geom:longitude":-104.926003,
@@ -28,19 +33,36 @@
         "bureau"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NFuGYMSFjGDJEhepHkLm2_39.807783_-104.926003@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453081,
-    "wof:geomhash":"8f7d8d0ecb18d567118ccbb802812288",
-    "wof:hierarchy":[],
+    "wof:geomhash":"389bc0d2d98f08798eeee2644666207c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":824047075
+        }
+    ],
     "wof:id":824047075,
-    "wof:lastmodified":1466414185,
+    "wof:lastmodified":1492130558,
     "wof:name":"Five Star Travel",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

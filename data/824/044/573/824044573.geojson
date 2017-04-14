@@ -2,9 +2,14 @@
   "id": 824044573,
   "type": "Feature",
   "properties": {
+    "addr:full":"1825 Palmer St Grand Junction CO 81503",
+    "addr:housenumber":"1825",
+    "addr:postcode":"81503",
+    "addr:street":"Palmer St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.560024,39.047722,-108.560024,39.047722",
     "geom:latitude":39.047722,
     "geom:longitude":-108.560024,
@@ -30,19 +35,36 @@
         "mower"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420555011
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4buqF9yYWm4TJAOSXpeFbc_39.047722_-108.560024@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453031,
-    "wof:geomhash":"3bbcab0863c62c04ca21ad4f0502a936",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d4608088d9745613946c7aba898fbe76",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555011,
+            "region_id":85688603,
+            "venue_id":824044573
+        }
+    ],
     "wof:id":824044573,
-    "wof:lastmodified":1466414270,
+    "wof:lastmodified":1492131236,
     "wof:name":"Jim's Lawnmower Sales & Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555011,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

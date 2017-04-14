@@ -2,9 +2,14 @@
   "id": 824135815,
   "type": "Feature",
   "properties": {
+    "addr:full":"4865 W 73rd Ave Westminster CO 80030",
+    "addr:housenumber":"4865",
+    "addr:postcode":"80030",
+    "addr:street":"W 73Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.047724,39.829575,-105.047724,39.829575",
     "geom:latitude":39.829575,
     "geom:longitude":-105.047724,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2UCGweGdhyf8b5uLnEaSo9_39.829575_-105.047724@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455361,
-    "wof:geomhash":"231a3f4629d1f0158c801445d8bfaff7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fb600c316a3e4b609ccc616e8c284ba9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554605,
+            "region_id":85688603,
+            "venue_id":824135815
+        }
+    ],
     "wof:id":824135815,
-    "wof:lastmodified":1466416338,
+    "wof:lastmodified":1492129422,
     "wof:name":"Rocky Mountion Quality Built I",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

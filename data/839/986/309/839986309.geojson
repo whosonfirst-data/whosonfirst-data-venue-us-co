@@ -2,9 +2,14 @@
   "id": 839986309,
   "type": "Feature",
   "properties": {
+    "addr:full":"14601 E Colfax Ave Aurora CO 80011",
+    "addr:housenumber":"14601",
+    "addr:postcode":"80011",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.818214,39.740878,-104.818214,39.740878",
     "geom:latitude":39.740878,
     "geom:longitude":-104.818214,
@@ -29,19 +34,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1GUS2HaCUDpanEn1wKDDTS_39.740878_-104.818214@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460670,
-    "wof:geomhash":"3d88cb594699729456731d8067d212b8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c85245191e81e3c842a667b8af38442e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":839986309
+        }
+    ],
     "wof:id":839986309,
-    "wof:lastmodified":1466417165,
+    "wof:lastmodified":1492111364,
     "wof:name":"Pizza Hut",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823751241,
   "type": "Feature",
   "properties": {
+    "addr:full":"6510 E 64th Ave Commerce City CO 80022",
+    "addr:housenumber":"6510",
+    "addr:postcode":"80022",
+    "addr:street":"E 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.911262,39.812833,-104.911262,39.812833",
     "geom:latitude":39.812833,
     "geom:longitude":-104.911262,
@@ -30,19 +35,36 @@
         "deck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553507
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ftlFdfgU6HdEsYRcsf3TD_39.812833_-104.911262@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445414,
-    "wof:geomhash":"ce55d4e8d4374d491b8f7bc67275033f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1957d748b0a0c431db4d26f1eb565442",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553507,
+            "region_id":85688603,
+            "venue_id":823751241
+        }
+    ],
     "wof:id":823751241,
-    "wof:lastmodified":1466418939,
+    "wof:lastmodified":1492116472,
     "wof:name":"Riehl Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553507,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

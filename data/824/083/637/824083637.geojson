@@ -2,9 +2,14 @@
   "id": 824083637,
   "type": "Feature",
   "properties": {
+    "addr:full":"1899 Cedar St Broomfield CO 80020",
+    "addr:housenumber":"1899",
+    "addr:postcode":"80020",
+    "addr:street":"Cedar St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.057918,39.941711,-105.057918,39.941711",
     "geom:latitude":39.941711,
     "geom:longitude":-105.057918,
@@ -29,19 +34,36 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554177
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Jvsmv9yJKQQ7SX68U1N6h_39.941711_-105.057918@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453937,
-    "wof:geomhash":"e88ae128f4596b62dadb4cd12b22ca91",
-    "wof:hierarchy":[],
+    "wof:geomhash":"68d597fd91cacec0246b2381daddcf8d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554177,
+            "region_id":85688603,
+            "venue_id":824083637
+        }
+    ],
     "wof:id":824083637,
-    "wof:lastmodified":1466414885,
+    "wof:lastmodified":1492129674,
     "wof:name":"Sunny Carpet & Upholstery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554177,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

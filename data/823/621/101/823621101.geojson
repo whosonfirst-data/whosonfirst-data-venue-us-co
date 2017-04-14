@@ -2,9 +2,14 @@
   "id": 823621101,
   "type": "Feature",
   "properties": {
+    "addr:full":"11890 Vance St Broomfield CO 80020",
+    "addr:housenumber":"11890",
+    "addr:postcode":"80020",
+    "addr:street":"Vance St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.080399,39.913025,-105.080399,39.913025",
     "geom:latitude":39.913025,
     "geom:longitude":-105.080399,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554243
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_26ZE0JElFoA0lTS1npGkCX_39.913025_-105.080399@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442424,
-    "wof:geomhash":"96f9df6a3215c47229803a1a2358b7b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1e36b62b6fd4b6a4febb331f932ddb22",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554243,
+            "region_id":85688603,
+            "venue_id":823621101
+        }
+    ],
     "wof:id":823621101,
-    "wof:lastmodified":1466417440,
+    "wof:lastmodified":1492124856,
     "wof:name":"Colorado Food Svcs MBL Catrg I",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554243,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

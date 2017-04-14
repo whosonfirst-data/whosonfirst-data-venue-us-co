@@ -2,9 +2,14 @@
   "id": 839978769,
   "type": "Feature",
   "properties": {
+    "addr:full":"1600 Champa St Denver CO 80202",
+    "addr:housenumber":"1600",
+    "addr:postcode":"80202",
+    "addr:street":"Champa St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.992719,39.747444,-104.992719,39.747444",
     "geom:latitude":39.747444,
     "geom:longitude":-104.992719,
@@ -27,7 +32,15 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871293,
+        102191575,
+        1108750057,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6gFmZUjiDIXeehBRcZ1JsX_39.747444_-104.992719@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463460372,
     "wof:geomhash":"88c41da3733564d63633190c656d93bc",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750057,
+            "neighbourhood_id":85871293,
+            "region_id":85688603,
+            "venue_id":839978769
+        }
+    ],
     "wof:id":839978769,
-    "wof:lastmodified":1466416980,
+    "wof:lastmodified":1486591156,
     "wof:name":"Mongolian Barbeque",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871293,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

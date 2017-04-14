@@ -2,9 +2,14 @@
   "id": 823618309,
   "type": "Feature",
   "properties": {
+    "addr:full":"5201 E 127th Dr Denver CO 80241",
+    "addr:housenumber":"5201",
+    "addr:postcode":"80241",
+    "addr:street":"E 127Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927585,39.92779,-104.927585,39.92779",
     "geom:latitude":39.92779,
     "geom:longitude":-104.927585,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553903
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6k0HAK5r02f5sSF1iDspyi_39.927790_-104.927585@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442351,
-    "wof:geomhash":"b08bcc57574ac788eafd0fc5c0d1e624",
-    "wof:hierarchy":[],
+    "wof:geomhash":"00fd63bf7ff5f82c4aa4c351a9491caa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553903,
+            "region_id":85688603,
+            "venue_id":823618309
+        }
+    ],
     "wof:id":823618309,
-    "wof:lastmodified":1466417450,
+    "wof:lastmodified":1492127337,
     "wof:name":"Burchs Auto Transport Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553903,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823599137,
   "type": "Feature",
   "properties": {
+    "addr:full":"10490 Hobbit Ln Westminster CO 80031",
+    "addr:housenumber":"10490",
+    "addr:postcode":"80031",
+    "addr:street":"Hobbit Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03075,39.887015,-105.03075,39.887015",
     "geom:latitude":39.887015,
     "geom:longitude":-105.03075,
@@ -29,19 +34,36 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553837
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7PjboNIRlpTE151E5NHeN1_39.887015_-105.030750@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441860,
-    "wof:geomhash":"b7b4cb60a1ed42aca0ff919a0b171ee1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1316230cc31a0657b51d3985463d270a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553837,
+            "region_id":85688603,
+            "venue_id":823599137
+        }
+    ],
     "wof:id":823599137,
-    "wof:lastmodified":1466417084,
+    "wof:lastmodified":1492117762,
     "wof:name":"Weese Carpet Cleaning Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553837,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

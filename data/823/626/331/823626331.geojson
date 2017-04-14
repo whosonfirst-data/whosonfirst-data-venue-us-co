@@ -2,9 +2,14 @@
   "id": 823626331,
   "type": "Feature",
   "properties": {
+    "addr:full":"8805 Co Rd 27 Cortez CO 81321",
+    "addr:housenumber":"8805;27",
+    "addr:postcode":"81321",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.554616,37.337132,-108.554616,37.337132",
     "geom:latitude":37.337132,
     "geom:longitude":-108.554616,
@@ -28,19 +33,36 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555047
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7JpeSgosPChsJSIKaBQwwA_37.337132_-108.554616@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442539,
-    "wof:geomhash":"819de0a16d0ae3465169b3c817bd799c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6dd46aed90fd2b1e11d95b983471b6cf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555047,
+            "region_id":85688603,
+            "venue_id":823626331
+        }
+    ],
     "wof:id":823626331,
-    "wof:lastmodified":1466417410,
+    "wof:lastmodified":1492125625,
     "wof:name":"Moore Shoes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555047,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

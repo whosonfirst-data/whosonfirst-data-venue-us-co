@@ -2,9 +2,14 @@
   "id": 823838701,
   "type": "Feature",
   "properties": {
+    "addr:full":"1227 Spruce St Boulder CO 80302",
+    "addr:housenumber":"1227",
+    "addr:postcode":"80302",
+    "addr:street":"Spruce St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.279295,40.019176,-105.279295,40.019176",
     "geom:latitude":40.019176,
     "geom:longitude":-105.279295,
@@ -24,7 +29,14 @@
     "sg:postcode":"80302",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3iGbslz2e2FBPSdcWkaTWE_40.019176_-105.279295@1294083659"
@@ -32,11 +44,21 @@
     "wof:country":"US",
     "wof:created":1463447898,
     "wof:geomhash":"6f41fd1eeae33e71badc8db5781f9555",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823838701
+        }
+    ],
     "wof:id":823838701,
-    "wof:lastmodified":1466419681,
+    "wof:lastmodified":1491888506,
     "wof:name":"Boulder Speedster",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

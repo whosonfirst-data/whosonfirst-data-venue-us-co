@@ -2,9 +2,14 @@
   "id": 823922751,
   "type": "Feature",
   "properties": {
+    "addr:full":"3215 S Academy Blvd Colorado Springs CO 80916",
+    "addr:housenumber":"3215",
+    "addr:postcode":"80916",
+    "addr:street":"S Academy Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.75752,38.785788,-104.75752,38.785788",
     "geom:latitude":38.785788,
     "geom:longitude":-104.75752,
@@ -31,8 +36,10 @@
         85688603,
         102191575,
         85633793,
-        85930303,
+        85930307,
         102086875,
+        85872743,
+        85930303,
         85872741
     ],
     "wof:breaches":[],
@@ -41,8 +48,17 @@
     },
     "wof:country":"US",
     "wof:created":1463450071,
-    "wof:geomhash":"f47e9cf6346bc753c816d7e0aa2b3e55",
+    "wof:geomhash":"127c4c32c03eeac1906ddba21699298d",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85930307,
+            "neighbourhood_id":85872743,
+            "region_id":85688603,
+            "venue_id":823922751
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,9 +70,9 @@
         }
     ],
     "wof:id":823922751,
-    "wof:lastmodified":1466420435,
+    "wof:lastmodified":1492124725,
     "wof:name":"Trivelli's Hoagies",
-    "wof:parent_id":85872741,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

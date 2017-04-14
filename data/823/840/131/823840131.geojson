@@ -2,9 +2,14 @@
   "id": 823840131,
   "type": "Feature",
   "properties": {
+    "addr:full":"2100 E 104th Ave Denver CO 80233",
+    "addr:housenumber":"2100",
+    "addr:postcode":"80233",
+    "addr:street":"E 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.960217,39.884886,-104.960217,39.884886",
     "geom:latitude":39.884886,
     "geom:longitude":-104.960217,
@@ -27,19 +32,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553909
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ZsmWXgqwH90ZsYDhhV9J9_39.884886_-104.960217@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447939,
-    "wof:geomhash":"3def5c9223fcdee71b6a9de9a12cd5d5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d738b4190f01bb06f257c4a780a485e5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553909,
+            "region_id":85688603,
+            "venue_id":823840131
+        }
+    ],
     "wof:id":823840131,
-    "wof:lastmodified":1466419657,
+    "wof:lastmodified":1492123849,
     "wof:name":"Los Pinos Mexican Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553909,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

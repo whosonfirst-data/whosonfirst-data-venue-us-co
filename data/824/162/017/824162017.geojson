@@ -2,9 +2,14 @@
   "id": 824162017,
   "type": "Feature",
   "properties": {
+    "addr:full":"3160 Prince Cir Broomfield CO 80020",
+    "addr:housenumber":"3160",
+    "addr:postcode":"80020",
+    "addr:street":"Prince Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.026953,39.931277,-105.026953,39.931277",
     "geom:latitude":39.931277,
     "geom:longitude":-105.026953,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554245
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5lKhD3UtE9tn77ueb3SBvp_39.931277_-105.026953@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456375,
-    "wof:geomhash":"b3e15192dacaa7921155d4f7219731cb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"78a1a5c9614fe58ec3537e8744598cfe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554245,
+            "region_id":85688603,
+            "venue_id":824162017
+        }
+    ],
     "wof:id":824162017,
-    "wof:lastmodified":1466417485,
+    "wof:lastmodified":1492132883,
     "wof:name":"Brothers Flooring",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554245,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

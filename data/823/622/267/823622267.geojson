@@ -2,9 +2,14 @@
   "id": 823622267,
   "type": "Feature",
   "properties": {
+    "addr:full":"1401 S Cascade Ave Montrose CO 81401",
+    "addr:housenumber":"1401",
+    "addr:postcode":"81401",
+    "addr:street":"S Cascade Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.863803,38.467797,-107.863803,38.467797",
     "geom:latitude":38.467797,
     "geom:longitude":-107.863803,
@@ -29,17 +34,32 @@
         "convalescent"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7EYrXIW7a5gYoAVwZZC1gy_38.467797_-107.863803@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442457,
-    "wof:geomhash":"54a8bb33ebe4ecac4fe612168b71b8b4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bd1d33eb80e0965777ba81015cda0855",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":823622267
+        }
+    ],
     "wof:id":823622267,
-    "wof:lastmodified":1466417451,
+    "wof:lastmodified":1492122519,
     "wof:name":"Valley Manor Care Center",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

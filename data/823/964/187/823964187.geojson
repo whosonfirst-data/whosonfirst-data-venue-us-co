@@ -2,9 +2,14 @@
   "id": 823964187,
   "type": "Feature",
   "properties": {
+    "addr:full":"1119 Co Rd 220 Durango CO 81303",
+    "addr:housenumber":"1119;220",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.831936,37.214693,-107.831936,37.214693",
     "geom:latitude":37.214693,
     "geom:longitude":-107.831936,
@@ -27,19 +32,28 @@
         "motion"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5fHGbJ9VnlmKSpxTHbCC40_37.214693_-107.831936@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451118,
-    "wof:geomhash":"66a7cd151d2c9bdfc938c1a4998907a4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fea5382a1b03576a969cf4abaa6d19f7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823964187
+        }
+    ],
     "wof:id":823964187,
-    "wof:lastmodified":1466420762,
+    "wof:lastmodified":1492118448,
     "wof:name":"Sterling Brothers Product",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

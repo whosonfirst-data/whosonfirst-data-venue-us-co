@@ -2,9 +2,14 @@
   "id": 823963903,
   "type": "Feature",
   "properties": {
+    "addr:full":"1130 Pearl St Boulder CO 80302",
+    "addr:housenumber":"1130",
+    "addr:postcode":"80302",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.284587,40.016824,-105.284587,40.016824",
     "geom:latitude":40.016824,
     "geom:longitude":-105.284587,
@@ -28,7 +33,14 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5GO78gkAqmdsqwqJaXieXo_40.016824_-105.284587@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463451112,
     "wof:geomhash":"4169f3db0f0e706276163451a5368a7e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823963903
+        }
+    ],
     "wof:id":823963903,
-    "wof:lastmodified":1466420822,
+    "wof:lastmodified":1491897944,
     "wof:name":"Gap 2521",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

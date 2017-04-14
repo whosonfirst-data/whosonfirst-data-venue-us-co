@@ -2,9 +2,14 @@
   "id": 823558063,
   "type": "Feature",
   "properties": {
+    "addr:full":"2414 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"2414",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.792381,39.986706,-104.792381,39.986706",
     "geom:latitude":39.986706,
     "geom:longitude":-104.792381,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553347
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0tj7VLBLx3DXZcTZS8XA76_39.986706_-104.792381@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440890,
-    "wof:geomhash":"6646ec4ffa40bd1deb4542f5ef6681ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c5bb95f4f7c4666fb1fc79283fad3b3f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553347,
+            "region_id":85688603,
+            "venue_id":823558063
+        }
+    ],
     "wof:id":823558063,
-    "wof:lastmodified":1466416043,
+    "wof:lastmodified":1492117754,
     "wof:name":"Serafini Pizzeria",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553347,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823689137,
   "type": "Feature",
   "properties": {
+    "addr:full":"1495 Riverside Ave Boulder CO 80304",
+    "addr:housenumber":"1495",
+    "addr:postcode":"80304",
+    "addr:street":"Riverside Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281739,40.049738,-105.281739,40.049738",
     "geom:latitude":40.049738,
     "geom:longitude":-105.281739,
@@ -30,19 +35,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554143
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3o2fNzSJDWa7VzGoU4itC1_40.049738_-105.281739@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443994,
-    "wof:geomhash":"2bfd94e75ea6bafd8e7098884c5427e8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cef8338fe181375a927078f567a9266b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554143,
+            "region_id":85688603,
+            "venue_id":823689137
+        }
+    ],
     "wof:id":823689137,
-    "wof:lastmodified":1466418471,
+    "wof:lastmodified":1492118393,
     "wof:name":"Berg's Small Moves",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554143,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

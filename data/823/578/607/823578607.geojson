@@ -2,9 +2,14 @@
   "id": 823578607,
   "type": "Feature",
   "properties": {
+    "addr:full":"3277 F Rd Clifton CO 81520",
+    "addr:housenumber":"3277",
+    "addr:postcode":"81520",
+    "addr:street":"F Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.442512,39.0917,-108.442512,39.0917",
     "geom:latitude":39.0917,
     "geom:longitude":-108.442512,
@@ -27,19 +32,36 @@
         "operator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554851
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3e00eGjElUf46YHe3EJSpw_39.091700_-108.442512@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441389,
-    "wof:geomhash":"d54efa3519821d26a35293b59a223b4b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8f40dd9f4c4af3d16536b90d4be3cd44",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554851,
+            "region_id":85688603,
+            "venue_id":823578607
+        }
+    ],
     "wof:id":823578607,
-    "wof:lastmodified":1466416476,
+    "wof:lastmodified":1492122729,
     "wof:name":"A & J Vending",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554851,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

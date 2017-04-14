@@ -2,9 +2,14 @@
   "id": 823577901,
   "type": "Feature",
   "properties": {
+    "addr:full":"1472 Cassin Ct Boulder CO 80303",
+    "addr:housenumber":"1472",
+    "addr:postcode":"80303",
+    "addr:street":"Cassin Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227854,40.012329,-105.227854,40.012329",
     "geom:latitude":40.012329,
     "geom:longitude":-105.227854,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Ib1iYAM4Tzw5AdopG4IDC_40.012329_-105.227854@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441367,
-    "wof:geomhash":"28513bb6a9b128b50d13dabe1a4c107c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"176fc31563911540934a1fcc6faefd93",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":823577901
+        }
+    ],
     "wof:id":823577901,
-    "wof:lastmodified":1466416504,
+    "wof:lastmodified":1492119534,
     "wof:name":"Nostix LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

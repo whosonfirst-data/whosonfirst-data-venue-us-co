@@ -2,9 +2,14 @@
   "id": 823547625,
   "type": "Feature",
   "properties": {
+    "addr:full":"299 Belford Dr Denver CO 80260",
+    "addr:housenumber":"299",
+    "addr:postcode":"80260",
+    "addr:street":"Belford Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.990673,39.877764,-104.990673,39.877764",
     "geom:latitude":39.877764,
     "geom:longitude":-104.990673,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5pCgIXSLlPh4G3FX3VNzDr_39.877764_-104.990673@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440645,
-    "wof:geomhash":"cfe2e964ccb268674a04674d75f6fa91",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1e057597e38c5f09d912c2abbbea9afe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553659,
+            "region_id":85688603,
+            "venue_id":823547625
+        }
+    ],
     "wof:id":823547625,
-    "wof:lastmodified":1466415757,
+    "wof:lastmodified":1492116122,
     "wof:name":"Dons Decorating Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

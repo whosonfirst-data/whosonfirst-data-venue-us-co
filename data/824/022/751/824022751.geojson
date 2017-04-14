@@ -2,9 +2,14 @@
   "id": 824022751,
   "type": "Feature",
   "properties": {
+    "addr:full":"6131 W 115th Pl Westminster CO 80020",
+    "addr:housenumber":"6131",
+    "addr:postcode":"80020",
+    "addr:street":"W 115Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.064513,39.905377,-105.064513,39.905377",
     "geom:latitude":39.905377,
     "geom:longitude":-105.064513,
@@ -28,19 +33,36 @@
         "locksmith"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Y8VChMwP6T3op2eAVAXL7_39.905377_-105.064513@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452491,
-    "wof:geomhash":"be9764497289949ed5b74369c7067984",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c9e4cb44f6b94499f7310b096ed41aab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":824022751
+        }
+    ],
     "wof:id":824022751,
-    "wof:lastmodified":1466413769,
+    "wof:lastmodified":1492131758,
     "wof:name":"Interstate Lock & Key",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

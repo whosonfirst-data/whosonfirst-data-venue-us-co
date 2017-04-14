@@ -2,9 +2,14 @@
   "id": 824130079,
   "type": "Feature",
   "properties": {
+    "addr:full":"337 Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"337",
+    "addr:postcode":"80621",
+    "addr:street":"Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810581,40.082913,-104.810581,40.082913",
     "geom:latitude":40.082913,
     "geom:longitude":-104.810581,
@@ -30,19 +35,28 @@
         "covering"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ZOd6QN5Se03KeM3iybiDS_40.082913_-104.810581@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455140,
-    "wof:geomhash":"47f4467dce95fe02c91497556dd50e12",
-    "wof:hierarchy":[],
+    "wof:geomhash":"610f9d1cf8000c7b715842c0c0d396dc",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":824130079
+        }
+    ],
     "wof:id":824130079,
-    "wof:lastmodified":1466415892,
+    "wof:lastmodified":1492128753,
     "wof:name":"Interiors One",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

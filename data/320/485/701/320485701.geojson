@@ -2,9 +2,14 @@
   "id": 320485701,
   "type": "Feature",
   "properties": {
+    "addr:full":"8080 E Mississippi Ave Unit 1 Denver CO 80247",
+    "addr:housenumber":"8080;1",
+    "addr:postcode":"80247",
+    "addr:street":"E Mississippi Ave Unit",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.89472,39.696383,-104.89472,39.696383",
     "geom:latitude":39.696383,
     "geom:longitude":-104.89472,
@@ -28,7 +33,12 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
+        85871353,
+        102191575,
+        1108750035,
         85633793,
+        85928879,
+        102086135,
         85688603
     ],
     "wof:breaches":[],
@@ -39,18 +49,20 @@
     "wof:geomhash":"e24016afe4eb2026455badc604b32ab0",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
-            "locality_id":-1,
-            "neighbourhood_id":-1,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871353,
             "region_id":85688603,
             "venue_id":320485701
         }
     ],
     "wof:id":320485701,
-    "wof:lastmodified":1466413398,
+    "wof:lastmodified":1491865654,
     "wof:name":"AAA 24 Hr. Emergency Locksmith",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871353,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

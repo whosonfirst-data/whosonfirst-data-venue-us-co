@@ -2,9 +2,14 @@
   "id": 823791839,
   "type": "Feature",
   "properties": {
+    "addr:full":"1750 Hanover St Aurora CO 80010",
+    "addr:housenumber":"1750",
+    "addr:postcode":"80010",
+    "addr:street":"Hanover St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.866935,39.745144,-104.866935,39.745144",
     "geom:latitude":39.745144,
     "geom:longitude":-104.866935,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553937
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2cQwOG7YNUc0ovSwP1ID7m_39.745144_-104.866935@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446477,
-    "wof:geomhash":"1f9936961384e897906dd7d266024cb3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f9a6b74ea8ac35cc539ddd5959ff1986",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553937,
+            "region_id":85688603,
+            "venue_id":823791839
+        }
+    ],
     "wof:id":823791839,
-    "wof:lastmodified":1466419372,
+    "wof:lastmodified":1492122556,
     "wof:name":"Pat Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553937,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

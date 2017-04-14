@@ -2,9 +2,14 @@
   "id": 823646847,
   "type": "Feature",
   "properties": {
+    "addr:full":"2227 Kingston Rd Grand Junction CO 81503",
+    "addr:housenumber":"2227",
+    "addr:postcode":"81503",
+    "addr:street":"Kingston Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.640755,39.082319,-108.640755,39.082319",
     "geom:latitude":39.082319,
     "geom:longitude":-108.640755,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554967
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7U4Xta96KVZAai0R2wbKR9_39.082319_-108.640755@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443010,
-    "wof:geomhash":"f0b686a63409ce294be798bea716a63f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5a2822f8042456c342f34f24adb8aa9d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554967,
+            "region_id":85688603,
+            "venue_id":823646847
+        }
+    ],
     "wof:id":823646847,
-    "wof:lastmodified":1466417966,
+    "wof:lastmodified":1492124391,
     "wof:name":"Imalong Trucking Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554967,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

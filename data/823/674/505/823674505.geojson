@@ -2,9 +2,14 @@
   "id": 823674505,
   "type": "Feature",
   "properties": {
+    "addr:full":"567 S 17th Ave Brighton CO 80601",
+    "addr:housenumber":"567",
+    "addr:postcode":"80601",
+    "addr:street":"S 17Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.800762,39.976782,-104.800762,39.976782",
     "geom:latitude":39.976782,
     "geom:longitude":-104.800762,
@@ -27,19 +32,28 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7b8E6krgYbPX93KlyPTFXY_39.976782_-104.800762@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443674,
-    "wof:geomhash":"0b396a8483fa3784e16307c12a9f28b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e8fe70c8669e6d54720763ea6dfec897",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553423,
+            "venue_id":823674505
+        }
+    ],
     "wof:id":823674505,
-    "wof:lastmodified":1466418316,
+    "wof:lastmodified":1492118412,
     "wof:name":"Preferred Home Inspection",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

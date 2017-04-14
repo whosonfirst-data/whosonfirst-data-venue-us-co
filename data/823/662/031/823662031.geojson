@@ -2,9 +2,14 @@
   "id": 823662031,
   "type": "Feature",
   "properties": {
+    "addr:full":"1943 Unity Ct Fort Collins CO 80528",
+    "addr:housenumber":"1943",
+    "addr:postcode":"80528",
+    "addr:street":"Unity Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042391,40.517946,-105.042391,40.517946",
     "geom:latitude":40.517946,
     "geom:longitude":-105.042391,
@@ -29,19 +34,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554731
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Zaevgi5DRI0szOyE6JIjf_40.517946_-105.042391@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443383,
-    "wof:geomhash":"68ff98228f843154b394d4031c946155",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2dec8b5ec12968cd93827a60961bbe02",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554731,
+            "region_id":85688603,
+            "venue_id":823662031
+        }
+    ],
     "wof:id":823662031,
-    "wof:lastmodified":1466418270,
+    "wof:lastmodified":1492123242,
     "wof:name":"Horse Collector",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554731,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

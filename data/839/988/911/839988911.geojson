@@ -2,9 +2,14 @@
   "id": 839988911,
   "type": "Feature",
   "properties": {
+    "addr:full":"2440 W 128th Ave Denver CO 80234",
+    "addr:housenumber":"2440",
+    "addr:postcode":"80234",
+    "addr:street":"W 128Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.01396,39.928504,-105.01396,39.928504",
     "geom:latitude":39.928504,
     "geom:longitude":-105.01396,
@@ -29,19 +34,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2WcYso9HQz4RziAEoMvgUq_39.928504_-105.013960@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460771,
-    "wof:geomhash":"74632ef0176df7e944669ac92bf008bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"806a04e06b2aebfbb80e3867fe42b3a8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553901,
+            "region_id":85688603,
+            "venue_id":839988911
+        }
+    ],
     "wof:id":839988911,
-    "wof:lastmodified":1466417469,
+    "wof:lastmodified":1492112814,
     "wof:name":"Sonic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

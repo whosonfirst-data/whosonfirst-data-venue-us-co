@@ -2,9 +2,14 @@
   "id": 823966251,
   "type": "Feature",
   "properties": {
+    "addr:full":"10780 Washington St Denver CO 80233",
+    "addr:housenumber":"10780",
+    "addr:postcode":"80233",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977531,39.891053,-104.977531,39.891053",
     "geom:latitude":39.891053,
     "geom:longitude":-104.977531,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2qrcQQmxr1401Bw8Zh5cDM_39.891053_-104.977531@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451176,
-    "wof:geomhash":"8d14a9a122f1e5df6ebd04fb875c29fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"834b33c2a321290f2927f9b621fcf90e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823966251
+        }
+    ],
     "wof:id":823966251,
-    "wof:lastmodified":1466420770,
+    "wof:lastmodified":1492118817,
     "wof:name":"Comfort Dental",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

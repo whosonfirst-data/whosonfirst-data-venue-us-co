@@ -2,9 +2,14 @@
   "id": 823990993,
   "type": "Feature",
   "properties": {
+    "addr:full":"576 Preserve Ln Grand Junction CO 81503",
+    "addr:housenumber":"576",
+    "addr:postcode":"81503",
+    "addr:street":"Preserve Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.667798,39.088965,-108.667798,39.088965",
     "geom:latitude":39.088965,
     "geom:longitude":-108.667798,
@@ -29,19 +34,36 @@
         "sales"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554949
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3drzfIR7O5JiWaDEjYZrP6_39.088965_-108.667798@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451743,
-    "wof:geomhash":"6f2faa19f138a31a1da11fe664c8712c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"967e3a26f67f2fbd138663ed03e357aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554949,
+            "region_id":85688603,
+            "venue_id":823990993
+        }
+    ],
     "wof:id":823990993,
-    "wof:lastmodified":1466421071,
+    "wof:lastmodified":1492116560,
     "wof:name":"RCS Enterprises Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554949,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

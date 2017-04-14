@@ -2,9 +2,14 @@
   "id": 824126357,
   "type": "Feature",
   "properties": {
+    "addr:full":"1000 N 15 St Burlington CO 80807",
+    "addr:housenumber":"1000",
+    "addr:postcode":"80807",
+    "addr:street":"N 15 St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.269371,39.314487,-102.269371,39.314487",
     "geom:latitude":39.314487,
     "geom:longitude":-102.269371,
@@ -27,17 +32,32 @@
         "cemetery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928925,
+        102085235
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1zCmC4pqxryTr8WoFCAehx_39.314487_-102.269371@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454987,
-    "wof:geomhash":"d24657fc8a6ac77f6ddff8e116683010",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d2b888a68bb97f6aa51fd37445b7b4a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085235,
+            "locality_id":85928925,
+            "region_id":85688603,
+            "venue_id":824126357
+        }
+    ],
     "wof:id":824126357,
-    "wof:lastmodified":1466415737,
+    "wof:lastmodified":1492131867,
     "wof:name":"Fairview Cemetery",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

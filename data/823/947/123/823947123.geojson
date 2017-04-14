@@ -2,9 +2,14 @@
   "id": 823947123,
   "type": "Feature",
   "properties": {
+    "addr:full":"4600 W Vassar Ave Denver CO 80219",
+    "addr:housenumber":"4600",
+    "addr:postcode":"80219",
+    "addr:street":"W Vassar Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.046556,39.670497,-105.046556,39.670497",
     "geom:latitude":39.670497,
     "geom:longitude":-105.046556,
@@ -28,7 +33,15 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3nAkA0tcCgkgPRT1fApVXf_39.670497_-105.046556@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463450713,
     "wof:geomhash":"5f49669fe995fc8bab1a2dfc9991d34f",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":823947123
+        }
+    ],
     "wof:id":823947123,
-    "wof:lastmodified":1466420599,
+    "wof:lastmodified":1486593726,
     "wof:name":"Guaranteed Excellence Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

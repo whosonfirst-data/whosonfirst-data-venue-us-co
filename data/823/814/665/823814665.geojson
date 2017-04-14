@@ -2,9 +2,14 @@
   "id": 823814665,
   "type": "Feature",
   "properties": {
+    "addr:full":"909 N Main St Gunnison CO 81230",
+    "addr:housenumber":"909",
+    "addr:postcode":"81230",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.92698,38.553354,-106.92698,38.553354",
     "geom:latitude":38.553354,
     "geom:longitude":-106.92698,
@@ -25,19 +30,36 @@
     "sg:province":"CO",
     "sg:website":"www.wellsfargo.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554411
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_386Hrq9sqrN0YxcdidqGKa_38.553354_-106.926980@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447135,
-    "wof:geomhash":"102db66952a94091de33573ee81ba6a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3be0b64de6ee966164d721f95d7f4aad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554411,
+            "region_id":85688603,
+            "venue_id":823814665
+        }
+    ],
     "wof:id":823814665,
-    "wof:lastmodified":1466419529,
+    "wof:lastmodified":1492126701,
     "wof:name":"Wells Fargo Bank",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554411,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

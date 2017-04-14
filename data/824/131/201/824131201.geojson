@@ -2,9 +2,14 @@
   "id": 824131201,
   "type": "Feature",
   "properties": {
+    "addr:full":"247 N Ute Ave Montrose CO 81401",
+    "addr:housenumber":"247",
+    "addr:postcode":"81401",
+    "addr:street":"N Ute Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.882165,38.479326,-107.882165,38.479326",
     "geom:latitude":38.479326,
     "geom:longitude":-107.882165,
@@ -27,17 +32,32 @@
         "return"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_164yKnA1e2q954LLGbfNPf_38.479326_-107.882165@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455190,
-    "wof:geomhash":"599e89a3a8119e5012f5ddca6c6aed92",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a786976d135e58b10713c095a8c39841",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":824131201
+        }
+    ],
     "wof:id":824131201,
-    "wof:lastmodified":1466416097,
+    "wof:lastmodified":1492130430,
     "wof:name":"Montrose Data Service",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

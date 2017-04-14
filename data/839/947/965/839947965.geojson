@@ -2,9 +2,14 @@
   "id": 839947965,
   "type": "Feature",
   "properties": {
+    "addr:full":"13150 Ivy Pl Brighton CO 80602",
+    "addr:housenumber":"13150",
+    "addr:postcode":"80602",
+    "addr:street":"Ivy Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.92027,39.934677,-104.92027,39.934677",
     "geom:latitude":39.934677,
     "geom:longitude":-104.92027,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553903
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_152TCJJcOohg31LoWxi2jY_39.934677_-104.920270@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459038,
-    "wof:geomhash":"adf5f8b96b184a2d9abca8e741b44554",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6fcfe7bcf35f736c244ef3eeef14b79a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553903,
+            "region_id":85688603,
+            "venue_id":839947965
+        }
+    ],
     "wof:id":839947965,
-    "wof:lastmodified":1466415279,
+    "wof:lastmodified":1492113041,
     "wof:name":"Manuel Antonio Perdomo Siding",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553903,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

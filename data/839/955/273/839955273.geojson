@@ -2,9 +2,14 @@
   "id": 839955273,
   "type": "Feature",
   "properties": {
+    "addr:full":"4514 Winona Pl Broomfield CO 80020",
+    "addr:housenumber":"4514",
+    "addr:postcode":"80020",
+    "addr:street":"Winona Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.045046,39.919118,-105.045046,39.919118",
     "geom:latitude":39.919118,
     "geom:longitude":-105.045046,
@@ -27,19 +32,36 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554247
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Ulc0dKBAorxarmRWy5tr5_39.919118_-105.045046@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459413,
-    "wof:geomhash":"c76c1211ef0f10c1fd2786db2a121e95",
-    "wof:hierarchy":[],
+    "wof:geomhash":"27202ee9fed175c7ca5f32f0097977d7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554247,
+            "region_id":85688603,
+            "venue_id":839955273
+        }
+    ],
     "wof:id":839955273,
-    "wof:lastmodified":1466415405,
+    "wof:lastmodified":1492112064,
     "wof:name":"Balogh Gardens",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554247,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

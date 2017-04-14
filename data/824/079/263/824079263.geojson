@@ -2,9 +2,14 @@
   "id": 824079263,
   "type": "Feature",
   "properties": {
+    "addr:full":"10253 E 150th Ave Brighton CO 80602",
+    "addr:housenumber":"10253",
+    "addr:postcode":"80602",
+    "addr:street":"E 150Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.871251,39.969016,-104.871251,39.969016",
     "geom:latitude":39.969016,
     "geom:longitude":-104.871251,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_77cjI4I7UkXOeJXYp4tL09_39.969016_-104.871251@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453836,
-    "wof:geomhash":"2b6f22bfc2794ffe63a3f491b951445b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1bf1127e9e3cca8775fb5fa88058220d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553381,
+            "region_id":85688603,
+            "venue_id":824079263
+        }
+    ],
     "wof:id":824079263,
-    "wof:lastmodified":1466414668,
+    "wof:lastmodified":1492128914,
     "wof:name":"Hesebeck Home Improvement",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

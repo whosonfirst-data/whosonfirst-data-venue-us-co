@@ -2,9 +2,14 @@
   "id": 823902475,
   "type": "Feature",
   "properties": {
+    "addr:full":"37490 Co Rd 57 Eaton CO 80615",
+    "addr:housenumber":"37490;57",
+    "addr:postcode":"80615",
+    "addr:street":"Co Rd;Eaton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.526412,40.544119,-104.526412,40.544119",
     "geom:latitude":40.544119,
     "geom:longitude":-104.526412,
@@ -32,17 +37,30 @@
         "feedlot"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102086117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5DMifEGxDZVqgQKGsZj8G7_40.544119_-104.526412@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449528,
-    "wof:geomhash":"1768d56cf9d9bdce53d1b270e0e60736",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d0e21fd514b9b20b1467924c24579352",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "region_id":85688603,
+            "venue_id":823902475
+        }
+    ],
     "wof:id":823902475,
-    "wof:lastmodified":1466420257,
+    "wof:lastmodified":1492126782,
     "wof:name":"Richard Pettinger",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

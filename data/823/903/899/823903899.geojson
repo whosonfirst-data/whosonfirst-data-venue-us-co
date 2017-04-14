@@ -2,9 +2,14 @@
   "id": 823903899,
   "type": "Feature",
   "properties": {
+    "addr:full":"103 Sheppard Dr Durango CO 81303",
+    "addr:housenumber":"103",
+    "addr:postcode":"co 81303",
+    "addr:street":"Sheppard Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.873445,37.236287,-107.873445,37.236287",
     "geom:latitude":37.236287,
     "geom:longitude":-107.873445,
@@ -27,19 +32,28 @@
         "federal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ri4GeXsU9r1xvNhFsy21C_37.236287_-107.873445@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449569,
-    "wof:geomhash":"2e1a0bd4272b84e04cba29cc11a54bdb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d73daf979b1b5d88ab79ea770f7c84b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":823903899
+        }
+    ],
     "wof:id":823903899,
-    "wof:lastmodified":1466420301,
+    "wof:lastmodified":1492123736,
     "wof:name":"US District Court",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

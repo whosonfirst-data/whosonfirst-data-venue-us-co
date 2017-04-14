@@ -2,9 +2,14 @@
   "id": 823536757,
   "type": "Feature",
   "properties": {
+    "addr:full":"4140 Riverside Ave Boulder CO 80304",
+    "addr:housenumber":"4140",
+    "addr:postcode":"80304",
+    "addr:street":"Riverside Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281446,40.048898,-105.281446,40.048898",
     "geom:latitude":40.048898,
     "geom:longitude":-105.281446,
@@ -29,19 +34,36 @@
         "vocational"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554143
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2OfsVYkjUF5OVkTqEl9XeL_40.048898_-105.281446@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440398,
-    "wof:geomhash":"cd4cbab35af350176ac29db1f154b7dd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f58fb9aaa56f243fbe99dfc80774d1cf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554143,
+            "region_id":85688603,
+            "venue_id":823536757
+        }
+    ],
     "wof:id":823536757,
-    "wof:lastmodified":1466415352,
+    "wof:lastmodified":1492127094,
     "wof:name":"Nina Friedman Career Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554143,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

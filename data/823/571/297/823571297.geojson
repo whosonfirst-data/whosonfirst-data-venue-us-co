@@ -2,9 +2,14 @@
   "id": 823571297,
   "type": "Feature",
   "properties": {
+    "addr:full":"1123 Country Acres Dr Fort Collins CO 80534",
+    "addr:housenumber":"1123",
+    "addr:postcode":"80534",
+    "addr:street":"Country Acres Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.918191,40.332003,-104.918191,40.332003",
     "geom:latitude":40.332003,
     "geom:longitude":-104.918191,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6n8YFTMSc7G1OkjNDkUxO1_40.332003_-104.918191@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441215,
-    "wof:geomhash":"b67b37158ddef2902720447eb77b5283",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c5c764d816dd70e76dde8d6c3ef063aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823571297
+        }
+    ],
     "wof:id":823571297,
-    "wof:lastmodified":1466416426,
+    "wof:lastmodified":1492125272,
     "wof:name":"Front Range Mountain Air",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824051479,
   "type": "Feature",
   "properties": {
+    "addr:full":"2400 Anthony Cir Steamboat Spgs CO 80487",
+    "addr:housenumber":"2400",
+    "addr:postcode":"80487",
+    "addr:street":"Anthony Cir;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.795706,40.444953,-106.795706,40.444953",
     "geom:latitude":40.444953,
     "geom:longitude":-106.795706,
@@ -30,19 +35,36 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555205
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0LT01LyxOWRaMFmkllRP47_40.444953_-106.795706@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453199,
-    "wof:geomhash":"daa5a8e4cc9ccd1698d965e9eb43ac69",
-    "wof:hierarchy":[],
+    "wof:geomhash":"08abc814b4adad2fdf7bd61b867d67b0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555205,
+            "region_id":85688603,
+            "venue_id":824051479
+        }
+    ],
     "wof:id":824051479,
-    "wof:lastmodified":1466414110,
+    "wof:lastmodified":1492132993,
     "wof:name":"Shady Lady Interiors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555205,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

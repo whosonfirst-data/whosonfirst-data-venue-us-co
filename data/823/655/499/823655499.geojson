@@ -2,9 +2,14 @@
   "id": 823655499,
   "type": "Feature",
   "properties": {
+    "addr:full":"1001 Patterson Rd Grand Junction CO 81506",
+    "addr:housenumber":"1001",
+    "addr:postcode":"81506",
+    "addr:street":"Patterson Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.555667,39.091851,-108.555667,39.091851",
     "geom:latitude":39.091851,
     "geom:longitude":-108.555667,
@@ -27,19 +32,46 @@
         "salon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        85877837,
+        420554911
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28QQHim35Ryr0yFwCC6FpK_39.091851_-108.555667@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443208,
-    "wof:geomhash":"1118ac417237ca5b1861db7671c4abe6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"68d4fef91cb208e00be534af022a3bff",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":85877837,
+            "region_id":85688603,
+            "venue_id":823655499
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554911,
+            "region_id":85688603,
+            "venue_id":823655499
+        }
+    ],
     "wof:id":823655499,
-    "wof:lastmodified":1466418147,
+    "wof:lastmodified":1492127910,
     "wof:name":"Tan Fastic",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

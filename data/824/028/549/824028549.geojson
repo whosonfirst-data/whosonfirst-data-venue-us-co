@@ -2,9 +2,14 @@
   "id": 824028549,
   "type": "Feature",
   "properties": {
+    "addr:full":"549 State Hwy 56 Berthoud CO 80513",
+    "addr:housenumber":"549",
+    "addr:postcode":"80513",
+    "addr:street":"State Hwy 56",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.045099,40.30553,-105.045099,40.30553",
     "geom:latitude":40.30553,
     "geom:longitude":-105.045099,
@@ -27,19 +32,36 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_341cGq4oRDOyV428LYtouv_40.305530_-105.045099@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452628,
-    "wof:geomhash":"de6e978e395d353c8ad524e9747a90b6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"72e30f809e6e4b31329fe78207d643f5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":824028549
+        }
+    ],
     "wof:id":824028549,
-    "wof:lastmodified":1466413600,
+    "wof:lastmodified":1492129574,
     "wof:name":"United Medical Ctr-Berthoud",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

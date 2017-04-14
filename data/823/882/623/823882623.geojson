@@ -2,9 +2,14 @@
   "id": 823882623,
   "type": "Feature",
   "properties": {
+    "addr:full":"775 Canosa Ct Denver CO 80204",
+    "addr:housenumber":"775",
+    "addr:postcode":"80204",
+    "addr:street":"Canosa Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.019931,39.727952,-105.019931,39.727952",
     "geom:latitude":39.727952,
     "geom:longitude":-105.019931,
@@ -29,7 +34,15 @@
     ],
     "sg:website":"www.rennersports.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3YoI1I3Xrrmh02jKx3yyZm_39.727952_-105.019931@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463449025,
     "wof:geomhash":"58698becceccf8b830e18ec1d1070b98",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":823882623
+        }
+    ],
     "wof:id":823882623,
-    "wof:lastmodified":1466420041,
+    "wof:lastmodified":1486593337,
     "wof:name":"Renner Sports Surfaces",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

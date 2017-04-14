@@ -2,9 +2,14 @@
   "id": 823574091,
   "type": "Feature",
   "properties": {
+    "addr:full":"4380 W 38th Ave Denver CO 80212",
+    "addr:housenumber":"4380",
+    "addr:postcode":"80212",
+    "addr:street":"W 38Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.043071,39.769302,-105.043071,39.769302",
     "geom:latitude":39.769302,
     "geom:longitude":-105.043071,
@@ -27,19 +32,38 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5CTr61jDNMl5hJ8CRMc8B8_39.769302_-105.043071@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441279,
-    "wof:geomhash":"5c25526cf9575bd055e85249fb787b21",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3b08f525a864e99a473b72e3ab8e6c06",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823574091
+        }
+    ],
     "wof:id":823574091,
-    "wof:lastmodified":1466416395,
+    "wof:lastmodified":1492126642,
     "wof:name":"Phillips 66",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

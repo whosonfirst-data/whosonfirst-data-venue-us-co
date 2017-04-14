@@ -2,9 +2,14 @@
   "id": 823545799,
   "type": "Feature",
   "properties": {
+    "addr:full":"22300 Co Rd 21 Lewis CO 81327",
+    "addr:housenumber":"22300;21",
+    "addr:postcode":"81327",
+    "addr:street":"Co Rd;Lewis",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.66517,37.538737,-108.66517,37.538737",
     "geom:latitude":37.538737,
     "geom:longitude":-108.66517,
@@ -29,19 +34,28 @@
         "solar"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555049
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_71JuIUBwQmRno5lgF0Q3fr_37.538737_-108.665170@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440602,
-    "wof:geomhash":"e5fed20ba339a36409c3fa4cba9e713c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"16feff69a69b3feba185efa054bb234d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555049,
+            "venue_id":823545799
+        }
+    ],
     "wof:id":823545799,
-    "wof:lastmodified":1466415699,
+    "wof:lastmodified":1492122945,
     "wof:name":"Yellow Jacket Solar",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555049,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

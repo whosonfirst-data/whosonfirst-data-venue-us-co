@@ -2,9 +2,14 @@
   "id": 839926527,
   "type": "Feature",
   "properties": {
+    "addr:full":"12185 Co Rd 69 Hayden CO 81639",
+    "addr:housenumber":"12185;69",
+    "addr:postcode":"81639",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.191062,40.498804,-107.191062,40.498804",
     "geom:latitude":40.498804,
     "geom:longitude":-107.191062,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555313
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_45Od7NENfoz8fEXbZb9mmD_40.498804_-107.191062@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457791,
-    "wof:geomhash":"b53325955e39b4c87d6c56f3655be999",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e32b936e28f05d08a3c15235613eb2b8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555313,
+            "venue_id":839926527
+        }
+    ],
     "wof:id":839926527,
-    "wof:lastmodified":1466413890,
+    "wof:lastmodified":1492113429,
     "wof:name":"T Bar G Backhoe Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555313,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

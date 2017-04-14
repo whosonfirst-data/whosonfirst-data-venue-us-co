@@ -2,9 +2,14 @@
   "id": 823788613,
   "type": "Feature",
   "properties": {
+    "addr:full":"8750 Lookout Rd Longmont CO 80026",
+    "addr:housenumber":"8750",
+    "addr:postcode":"80026",
+    "addr:street":"Lookout Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.169138,40.0727,-105.169138,40.0727",
     "geom:latitude":40.0727,
     "geom:longitude":-105.169138,
@@ -29,9 +34,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85895963,
-        102085251
+        85930699,
+        102085251,
+        85895943,
+        85895963
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463446383,
-    "wof:geomhash":"b3ecd1f24dbc4e941e068e9f2e950b92",
+    "wof:geomhash":"08febab5c0e9ea650a0ba6d45dcab1c2",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":85895943,
+            "region_id":85688603,
+            "venue_id":823788613
+        },
         {
             "country_id":85633793,
             "county_id":102085251,
@@ -50,9 +67,9 @@
         }
     ],
     "wof:id":823788613,
-    "wof:lastmodified":1466419284,
+    "wof:lastmodified":1492117579,
     "wof:name":"Pheasant Ridge Ranch & Equine",
-    "wof:parent_id":85895963,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

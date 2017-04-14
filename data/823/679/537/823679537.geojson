@@ -2,9 +2,14 @@
   "id": 823679537,
   "type": "Feature",
   "properties": {
+    "addr:full":"11680 Quay St Broomfield CO 80020",
+    "addr:housenumber":"11680",
+    "addr:postcode":"80020",
+    "addr:street":"Quay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.072624,39.907998,-105.072624,39.907998",
     "geom:latitude":39.907998,
     "geom:longitude":-105.072624,
@@ -30,19 +35,36 @@
         "plastic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554175
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_58LROZWO31yr4FDS3KGxig_39.907998_-105.072624@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443778,
-    "wof:geomhash":"152319041cd2de20892e7e31a0dfdde4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1bac2091615276302a7290b13249306e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554175,
+            "region_id":85688603,
+            "venue_id":823679537
+        }
+    ],
     "wof:id":823679537,
-    "wof:lastmodified":1466418337,
+    "wof:lastmodified":1492119885,
     "wof:name":"Inca Paint and Print",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554175,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823998795,
   "type": "Feature",
   "properties": {
+    "addr:full":"114 N Main St Mancos CO 81328",
+    "addr:housenumber":"114",
+    "addr:postcode":"81328",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.289161,37.345507,-108.289161,37.345507",
     "geom:latitude":37.345507,
     "geom:longitude":-108.289161,
@@ -27,19 +32,28 @@
         "hat"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3cS4DPX8iErfqe42QCCOj1_37.345507_-108.289161@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451959,
-    "wof:geomhash":"03914b21e2bd7123895f4ffeee89ffeb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1829101b654a322b2dbb806fdebb0d8f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823998795
+        }
+    ],
     "wof:id":823998795,
-    "wof:lastmodified":1466420922,
+    "wof:lastmodified":1492127406,
     "wof:name":"Nathaniel's Of Colorado",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823729469,
   "type": "Feature",
   "properties": {
+    "addr:full":"330 Glenwood Ave Grand Junction CO 81501",
+    "addr:housenumber":"330",
+    "addr:postcode":"81501",
+    "addr:street":"Glenwood Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.566629,39.079065,-108.566629,39.079065",
     "geom:latitude":39.079065,
     "geom:longitude":-108.566629,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3dJ9em9ZAiXf92ifw8gLGM_39.079065_-108.566629@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444888,
-    "wof:geomhash":"4a25fc791a6791d120d1f53741c44e6b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"750ed32a9efd353c3911ca0ab4aa80dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823729469
+        }
+    ],
     "wof:id":823729469,
-    "wof:lastmodified":1466418493,
+    "wof:lastmodified":1492118320,
     "wof:name":"Las Casas Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

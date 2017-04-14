@@ -2,9 +2,14 @@
   "id": 823769149,
   "type": "Feature",
   "properties": {
+    "addr:full":"1030 E 10th Ave Broomfield CO 80020",
+    "addr:housenumber":"1030",
+    "addr:postcode":"80020",
+    "addr:street":"E 10Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060791,39.929027,-105.060791,39.929027",
     "geom:latitude":39.929027,
     "geom:longitude":-105.060791,
@@ -28,17 +33,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ofLV1DXQuW427320W5XFY_39.929027_-105.060791@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445805,
-    "wof:geomhash":"6679f2a16e317198615fed707dce6911",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b81e3dac7ea4641117e421d4d3870cd7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "region_id":85688603,
+            "venue_id":823769149
+        }
+    ],
     "wof:id":823769149,
-    "wof:lastmodified":1466419091,
+    "wof:lastmodified":1492118790,
     "wof:name":"Birch Apartments",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

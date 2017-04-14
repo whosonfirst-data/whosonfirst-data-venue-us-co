@@ -2,9 +2,14 @@
   "id": 823891121,
   "type": "Feature",
   "properties": {
+    "addr:full":"313 S Market St Cortez CO 81321",
+    "addr:housenumber":"313",
+    "addr:postcode":"81321",
+    "addr:street":"S Market St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.585189,37.345343,-108.585189,37.345343",
     "geom:latitude":37.345343,
     "geom:longitude":-108.585189,
@@ -29,19 +34,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2HcDnmzsQclGPgQgnTF8xR_37.345343_-108.585189@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449235,
-    "wof:geomhash":"7f5fe52e67a5ea21c350fed84882d95c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e6680e51422f59ecfe3716e5b3e5d8c3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823891121
+        }
+    ],
     "wof:id":823891121,
-    "wof:lastmodified":1466420127,
+    "wof:lastmodified":1492117609,
     "wof:name":"Outwest Archery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

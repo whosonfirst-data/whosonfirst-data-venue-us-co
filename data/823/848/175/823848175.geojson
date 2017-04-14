@@ -2,9 +2,14 @@
   "id": 823848175,
   "type": "Feature",
   "properties": {
+    "addr:full":"28082 Co Rd 10 Las Animas CO 81054",
+    "addr:housenumber":"28082;10;animas",
+    "addr:postcode":"81054",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.234219,38.048257,-103.234219,38.048257",
     "geom:latitude":38.048257,
     "geom:longitude":-103.234219,
@@ -27,17 +32,30 @@
         "cemetery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102084049
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0y0sB8fs6RHP5rgwHo1aJL_38.048257_-103.234219@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448174,
-    "wof:geomhash":"231ad45acf08489c29f726ce1d1b557c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"541a3748d1dfe12abaf2e5e7b0888aae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084049,
+            "region_id":85688603,
+            "venue_id":823848175
+        }
+    ],
     "wof:id":823848175,
-    "wof:lastmodified":1466419862,
+    "wof:lastmodified":1492127114,
     "wof:name":"Las Animas Cemetery",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

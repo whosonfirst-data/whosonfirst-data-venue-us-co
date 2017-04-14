@@ -2,9 +2,14 @@
   "id": 823578197,
   "type": "Feature",
   "properties": {
+    "addr:full":"3935 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"3935;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.843524,37.349136,-107.843524,37.349136",
     "geom:latitude":37.349136,
     "geom:longitude":-107.843524,
@@ -29,19 +34,28 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_50OzsNwaQOdW8YFTr5ZrCm_37.349136_-107.843524@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441372,
-    "wof:geomhash":"526bfa4aee2548e83ecab05e5a97a38a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"99b519fabf2959a37b17de8ff87915e9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823578197
+        }
+    ],
     "wof:id":823578197,
-    "wof:lastmodified":1466416443,
+    "wof:lastmodified":1492122716,
     "wof:name":"Red Cliff Studio",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

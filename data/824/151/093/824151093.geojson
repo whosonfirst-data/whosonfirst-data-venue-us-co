@@ -2,9 +2,14 @@
   "id": 824151093,
   "type": "Feature",
   "properties": {
+    "addr:full":"426 Co Rd 207 Durango CO 81301",
+    "addr:housenumber":"426;207",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.93497,37.281725,-107.93497,37.281725",
     "geom:latitude":37.281725,
     "geom:longitude":-107.93497,
@@ -28,19 +33,28 @@
         "air"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554653
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6XCL4FCDmZQnExkNwOCBM9_37.281725_-107.934970@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455952,
-    "wof:geomhash":"981df1af974c8d65252e994c2a2414f3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0e7e300719dc24d411b9ee99ca05fbd7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554653,
+            "venue_id":824151093
+        }
+    ],
     "wof:id":824151093,
-    "wof:lastmodified":1466416805,
+    "wof:lastmodified":1492129161,
     "wof:name":"Dbl Aircraft Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554653,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

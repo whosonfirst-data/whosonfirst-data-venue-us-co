@@ -2,9 +2,14 @@
   "id": 824049377,
   "type": "Feature",
   "properties": {
+    "addr:full":"1200 Lock St Louisville CO 80027",
+    "addr:housenumber":"1200",
+    "addr:postcode":"80027",
+    "addr:street":"Lock St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.129144,39.972422,-105.129144,39.972422",
     "geom:latitude":39.972422,
     "geom:longitude":-105.129144,
@@ -30,10 +35,14 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
+        85929855,
+        102086123,
+        85876591,
         85929859,
         102085251,
-        85876591
+        85896023
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,21 +50,31 @@
     },
     "wof:country":"US",
     "wof:created":1463453152,
-    "wof:geomhash":"c1ad2b8a80a54b11542329133a5b2caa",
+    "wof:geomhash":"d5840b3946bbd6bb970f3d6f6e84dfc0",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":85876591,
+            "region_id":85688603,
+            "venue_id":824049377
+        },
+        {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102085251,
             "locality_id":85929859,
-            "neighbourhood_id":85876591,
+            "neighbourhood_id":85896023,
             "region_id":85688603,
             "venue_id":824049377
         }
     ],
     "wof:id":824049377,
-    "wof:lastmodified":1466414203,
+    "wof:lastmodified":1492130710,
     "wof:name":"Louisville Self Storage",
-    "wof:parent_id":85876591,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

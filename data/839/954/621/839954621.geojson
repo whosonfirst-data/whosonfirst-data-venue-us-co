@@ -2,9 +2,14 @@
   "id": 839954621,
   "type": "Feature",
   "properties": {
+    "addr:full":"835 N 26th St Grand Junction CO 81501",
+    "addr:housenumber":"835",
+    "addr:postcode":"81501",
+    "addr:street":"N 26Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.535262,39.075352,-108.535262,39.075352",
     "geom:latitude":39.075352,
     "geom:longitude":-108.535262,
@@ -29,19 +34,36 @@
         "school"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0o9p3QCPdIJfk85NAKnsjP_39.075352_-108.535262@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459378,
-    "wof:geomhash":"c9dea674675cf2c1763d0ce352ddcc90",
-    "wof:hierarchy":[],
+    "wof:geomhash":"af7ba0b689d9d4d0f8da9097e98becd7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":839954621
+        }
+    ],
     "wof:id":839954621,
-    "wof:lastmodified":1466415472,
+    "wof:lastmodified":1492113927,
     "wof:name":"Head Start",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

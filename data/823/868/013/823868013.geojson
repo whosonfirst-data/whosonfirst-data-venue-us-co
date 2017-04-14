@@ -2,9 +2,14 @@
   "id": 823868013,
   "type": "Feature",
   "properties": {
+    "addr:full":"5770 W 4th Ave Lakewood CO 80226",
+    "addr:housenumber":"5770",
+    "addr:postcode":"80226",
+    "addr:street":"W 4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.061053,39.723027,-105.061053,39.723027",
     "geom:latitude":39.723027,
     "geom:longitude":-105.061053,
@@ -27,19 +32,36 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1GRno6L6wfhKiGCj8vTlk4_39.723027_-105.061053@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448693,
-    "wof:geomhash":"23444cc02bf12d40bf92b4d21d83e72d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c2a4b52b8d91facca925022f73c832bd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823868013
+        }
+    ],
     "wof:id":823868013,
-    "wof:lastmodified":1466419929,
+    "wof:lastmodified":1492127283,
     "wof:name":"Yellow Knife Mining Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

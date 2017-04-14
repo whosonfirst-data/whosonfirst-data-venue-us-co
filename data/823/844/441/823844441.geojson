@@ -2,9 +2,14 @@
   "id": 823844441,
   "type": "Feature",
   "properties": {
+    "addr:full":"4267 E 113th Pl Denver CO 80233",
+    "addr:housenumber":"4267",
+    "addr:postcode":"80233",
+    "addr:street":"E 113Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.937606,39.902018,-104.937606,39.902018",
     "geom:latitude":39.902018,
     "geom:longitude":-104.937606,
@@ -27,19 +32,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553907
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1pJtKLuMz8xZiO0qrHOMVg_39.902018_-104.937606@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448064,
-    "wof:geomhash":"091e847e0648aa0cd0603dec64b16d5f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c427b2fd210f8fc2ae372adc7fb210f8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":823844441
+        }
+    ],
     "wof:id":823844441,
-    "wof:lastmodified":1466419823,
+    "wof:lastmodified":1492118145,
     "wof:name":"Add A Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553907,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

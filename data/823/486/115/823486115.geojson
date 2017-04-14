@@ -2,9 +2,14 @@
   "id": 823486115,
   "type": "Feature",
   "properties": {
+    "addr:full":"556 Malley Dr Denver CO 80233",
+    "addr:housenumber":"556",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98026,39.90294,-104.98026,39.90294",
     "geom:latitude":39.90294,
     "geom:longitude":-104.98026,
@@ -29,19 +34,36 @@
         "loan"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1f9FqdQYR8SOugv8TyqWpm_39.902940_-104.980260@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439207,
-    "wof:geomhash":"ab9b30e19b3592f6b1fd03530d407a97",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1e79f28a65755f5632117fbe49366ba2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":823486115
+        }
+    ],
     "wof:id":823486115,
-    "wof:lastmodified":1466413775,
+    "wof:lastmodified":1492120486,
     "wof:name":"Cash Fast Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824179787,
   "type": "Feature",
   "properties": {
+    "addr:full":"11998 Co Rd 240 Durango CO 81301",
+    "addr:housenumber":"11998;240",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.699468,37.346157,-107.699468,37.346157",
     "geom:latitude":37.346157,
     "geom:longitude":-107.699468,
@@ -28,8 +33,9 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
         85633793,
+        420554607,
+        85688603,
         85888397,
         102084019
     ],
@@ -39,8 +45,13 @@
     },
     "wof:country":"US",
     "wof:created":1463457058,
-    "wof:geomhash":"f72f836292508cf053c573639e864435",
+    "wof:geomhash":"28ad2197ad92296b34842a9de7a229a1",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554607,
+            "venue_id":824179787
+        },
         {
             "country_id":85633793,
             "county_id":102084019,
@@ -50,9 +61,9 @@
         }
     ],
     "wof:id":824179787,
-    "wof:lastmodified":1466418289,
+    "wof:lastmodified":1492132106,
     "wof:name":"O-Bar-O Cabins",
-    "wof:parent_id":85888397,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839960781,
   "type": "Feature",
   "properties": {
+    "addr:full":"603 S Public Rd Lafayette CO 80026",
+    "addr:housenumber":"603",
+    "addr:postcode":"80026",
+    "addr:street":"S Public Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.090535,39.993844,-105.090535,39.993844",
     "geom:latitude":39.993844,
     "geom:longitude":-105.090535,
@@ -28,17 +33,32 @@
         "us"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_11SHVjNgwHRrdPoQe9ZXBf_39.993844_-105.090535@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459640,
-    "wof:geomhash":"87e2278434a10e7785857bf3cf0da6ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f6097e61f6a1a26b015d3ec299aa1a3c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "region_id":85688603,
+            "venue_id":839960781
+        }
+    ],
     "wof:id":839960781,
-    "wof:lastmodified":1466415613,
+    "wof:lastmodified":1492111655,
     "wof:name":"US Post Office",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

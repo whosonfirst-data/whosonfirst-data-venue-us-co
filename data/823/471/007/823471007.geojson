@@ -2,9 +2,14 @@
   "id": 823471007,
   "type": "Feature",
   "properties": {
+    "addr:full":"12780 Colorado Blvd Denver CO 80241",
+    "addr:housenumber":"12780",
+    "addr:postcode":"80241",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940135,39.926899,-104.940135,39.926899",
     "geom:latitude":39.926899,
     "geom:longitude":-104.940135,
@@ -25,19 +30,36 @@
     "sg:province":"CO",
     "sg:website":"www.conocophillips.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553843
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2axVX3dWw3rOx0DMcu21Rh_39.926899_-104.940135@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438855,
-    "wof:geomhash":"86f8628bcb8c41822c2dd7d867018c16",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c0d2bb9ba415e9a4d776108e3a7be8aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553843,
+            "region_id":85688603,
+            "venue_id":823471007
+        }
+    ],
     "wof:id":823471007,
-    "wof:lastmodified":1466412443,
+    "wof:lastmodified":1492117639,
     "wof:name":"Conoco Break Place",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553843,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

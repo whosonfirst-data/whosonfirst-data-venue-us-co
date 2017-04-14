@@ -2,9 +2,14 @@
   "id": 824100081,
   "type": "Feature",
   "properties": {
+    "addr:full":"4256 Redwood Ct Boulder CO 80301",
+    "addr:housenumber":"4256",
+    "addr:postcode":"80301",
+    "addr:street":"Redwood Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.255546,40.049551,-105.255546,40.049551",
     "geom:latitude":40.049551,
     "geom:longitude":-105.255546,
@@ -30,19 +35,28 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553975
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5l0D7zgUSKt9I1vJxl2S8A_40.049551_-105.255546@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454346,
-    "wof:geomhash":"e9d15ca0445a356e8ea1950e50ec2bc4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dc7c351dc1ffaca3ee272a176e44eb7e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553975,
+            "venue_id":824100081
+        }
+    ],
     "wof:id":824100081,
-    "wof:lastmodified":1466415315,
+    "wof:lastmodified":1492129739,
     "wof:name":"Feng Shui Liz Martin Designima",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553975,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

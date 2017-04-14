@@ -2,9 +2,14 @@
   "id": 823661263,
   "type": "Feature",
   "properties": {
+    "addr:full":"13333 E 37th Ave Denver CO 80239",
+    "addr:housenumber":"13333",
+    "addr:postcode":"80239",
+    "addr:street":"E 37Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.835896,39.767155,-104.835896,39.767155",
     "geom:latitude":39.767155,
     "geom:longitude":-104.835896,
@@ -29,19 +34,38 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871347,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6UDWSWdJXsFHwkyHBRTIcR_39.767155_-104.835896@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443365,
-    "wof:geomhash":"c9745fd3e39b0fe578986fdd583bad18",
-    "wof:hierarchy":[],
+    "wof:geomhash":"df22d3acdad33085122a5b848c7f2556",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85871347,
+            "region_id":85688603,
+            "venue_id":823661263
+        }
+    ],
     "wof:id":823661263,
-    "wof:lastmodified":1466418272,
+    "wof:lastmodified":1492117052,
     "wof:name":"Pacific Frames",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871347,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824106885,
   "type": "Feature",
   "properties": {
+    "addr:full":"5661 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"5661;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.85427,37.371508,-107.85427,37.371508",
     "geom:latitude":37.371508,
     "geom:longitude":-107.85427,
@@ -33,19 +38,28 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1S2ott958kqwJVdMgDoIM8_37.371508_-107.854270@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454483,
-    "wof:geomhash":"09f280e9c4676ba74dc2894feb6636ca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4eb7dc33dce867d66523f980689226d2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554625,
+            "venue_id":824106885
+        }
+    ],
     "wof:id":824106885,
-    "wof:lastmodified":1466415172,
+    "wof:lastmodified":1492132377,
     "wof:name":"Pharmastaff USA LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

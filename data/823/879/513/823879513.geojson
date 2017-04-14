@@ -2,9 +2,14 @@
   "id": 823879513,
   "type": "Feature",
   "properties": {
+    "addr:full":"1230 Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"1230",
+    "addr:postcode":"80621",
+    "addr:street":"Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810464,40.091794,-104.810464,40.091794",
     "geom:latitude":40.091794,
     "geom:longitude":-104.810464,
@@ -27,19 +32,28 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4SR7ASsivMaob6MJ3dX1Te_40.091794_-104.810464@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448959,
-    "wof:geomhash":"13096471db17065359c4fe6beaca8a7f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8aaadd208cca4483810a98b0d9f0c49c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823879513
+        }
+    ],
     "wof:id":823879513,
-    "wof:lastmodified":1466420104,
+    "wof:lastmodified":1492117941,
     "wof:name":"Delight Burrito",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

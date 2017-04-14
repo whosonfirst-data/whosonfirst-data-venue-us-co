@@ -2,9 +2,14 @@
   "id": 823848467,
   "type": "Feature",
   "properties": {
+    "addr:full":"250 Cimmaron Way Boulder CO 80303",
+    "addr:housenumber":"250",
+    "addr:postcode":"80303",
+    "addr:street":"Cimmaron Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227849,39.990182,-105.227849,39.990182",
     "geom:latitude":39.990182,
     "geom:longitude":-105.227849,
@@ -29,19 +34,36 @@
         "lab"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5VAaN8ka9SKezoOKx8SyaY_39.990182_-105.227849@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448181,
-    "wof:geomhash":"74b7beae394c89c84f420044b61bbb98",
-    "wof:hierarchy":[],
+    "wof:geomhash":"223e4404535f3e954344dd458ae9c4b7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":823848467
+        }
+    ],
     "wof:id":823848467,
-    "wof:lastmodified":1466419789,
+    "wof:lastmodified":1492127104,
     "wof:name":"Ramon Jesch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

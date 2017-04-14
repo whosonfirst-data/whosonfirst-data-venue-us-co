@@ -2,9 +2,14 @@
   "id": 824115355,
   "type": "Feature",
   "properties": {
+    "addr:full":"8296 Niwot Rd Longmont CO 80503",
+    "addr:housenumber":"8296",
+    "addr:postcode":"80503",
+    "addr:street":"Niwot Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.16218,40.101541,-105.16218,40.101541",
     "geom:latitude":40.101541,
     "geom:longitude":-105.16218,
@@ -29,19 +34,36 @@
         "plate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2CLXCdHmgHYoPbnFiT98o3_40.101541_-105.162180@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454664,
-    "wof:geomhash":"3d5ee62b1e7498e05a59133ef13b0e69",
-    "wof:hierarchy":[],
+    "wof:geomhash":"081e2139827bc86a3aa44059bb169246",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554077,
+            "region_id":85688603,
+            "venue_id":824115355
+        }
+    ],
     "wof:id":824115355,
-    "wof:lastmodified":1466415540,
+    "wof:lastmodified":1492129104,
     "wof:name":"Glass Doctor",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823558303,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 Main St Yampa CO 80483",
+    "addr:housenumber":"100",
+    "addr:postcode":"80483",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.908724,40.152696,-106.908724,40.152696",
     "geom:latitude":40.152696,
     "geom:longitude":-106.908724,
@@ -24,19 +29,28 @@
     "sg:postcode":"80483",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555323
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4QM2VGIG1Oq5tcENRjId9C_40.152696_-106.908724@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440895,
-    "wof:geomhash":"7df4595e0b69aab62c1b2a53c89a8e50",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fd04410717eddabdcbf2be73c07dc35e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555323,
+            "venue_id":823558303
+        }
+    ],
     "wof:id":823558303,
-    "wof:lastmodified":1466416056,
+    "wof:lastmodified":1492117731,
     "wof:name":"Yampa-Egeria Historical Museu",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555323,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

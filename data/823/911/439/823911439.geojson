@@ -2,9 +2,14 @@
   "id": 823911439,
   "type": "Feature",
   "properties": {
+    "addr:full":"4815 W 35th Ave Denver CO 80212",
+    "addr:housenumber":"4815",
+    "addr:postcode":"80212",
+    "addr:street":"W 35Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.050588,39.765792,-105.050588,39.765792",
     "geom:latitude":39.765792,
     "geom:longitude":-105.050588,
@@ -28,19 +33,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3amHUaeS4T7qcNzSJVCfYP_39.765792_-105.050588@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449782,
-    "wof:geomhash":"2dafd280cdbb6054172d7caeb62e7ea1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"831b52f80a2b6f4e7d7fb542ce10aaaf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823911439
+        }
+    ],
     "wof:id":823911439,
-    "wof:lastmodified":1466420312,
+    "wof:lastmodified":1492124043,
     "wof:name":"Lozanos Painting & Cnstr",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

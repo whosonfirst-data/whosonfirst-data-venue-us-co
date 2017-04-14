@@ -2,9 +2,14 @@
   "id": 823985695,
   "type": "Feature",
   "properties": {
+    "addr:full":"13550 Lowell Blvd Broomfield CO 80020",
+    "addr:housenumber":"13550",
+    "addr:postcode":"80020",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034281,39.941559,-105.034281,39.941559",
     "geom:latitude":39.941559,
     "geom:longitude":-105.034281,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420558855
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3LZf69L1LDrzGE1WEdBCes_39.941559_-105.034281@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451621,
-    "wof:geomhash":"bcb21dde7c76a2294fc783cf67db174b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4f5c330b16fabd8e8b8ad7446e7a23da",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420558855,
+            "region_id":85688603,
+            "venue_id":823985695
+        }
+    ],
     "wof:id":823985695,
-    "wof:lastmodified":1466420935,
+    "wof:lastmodified":1492120988,
     "wof:name":"Shepherd of Love Fellowship",
-    "wof:parent_id":-1,
+    "wof:parent_id":420558855,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

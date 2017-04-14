@@ -2,9 +2,14 @@
   "id": 839990303,
   "type": "Feature",
   "properties": {
+    "addr:full":"4633 S Timberline Rd Fort Collins CO 80528",
+    "addr:housenumber":"4633",
+    "addr:postcode":"80528",
+    "addr:street":"S Timberline Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039292,40.522761,-105.039292,40.522761",
     "geom:latitude":40.522761,
     "geom:longitude":-105.039292,
@@ -29,19 +34,36 @@
         "steakhouse"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554731
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5w8nFPCcONdcw8xy7Rk4eV_40.522761_-105.039292@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460821,
-    "wof:geomhash":"e352352c8809a6f525bd9c40c73cd6f4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9de54fe0a95059cc20e24e0ccc63d588",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554731,
+            "region_id":85688603,
+            "venue_id":839990303
+        }
+    ],
     "wof:id":839990303,
-    "wof:lastmodified":1466417627,
+    "wof:lastmodified":1492110535,
     "wof:name":"Texas Roadhouse",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554731,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824125525,
   "type": "Feature",
   "properties": {
+    "addr:full":"3924 Wonderland Hill Ave Boulder CO 80304",
+    "addr:housenumber":"3924",
+    "addr:postcode":"80304",
+    "addr:street":"Wonderland Hill Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.28607,40.045112,-105.28607,40.045112",
     "geom:latitude":40.045112,
     "geom:longitude":-105.28607,
@@ -27,7 +32,14 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876397
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5HmmokyIkZaTLnwEsd1MYa_40.045112_-105.286070@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463454955,
     "wof:geomhash":"1db1a24baed6744920f63baf85210a12",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876397,
+            "region_id":85688603,
+            "venue_id":824125525
+        }
+    ],
     "wof:id":824125525,
-    "wof:lastmodified":1466415905,
+    "wof:lastmodified":1491917817,
     "wof:name":"Kelly Tile",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876397,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

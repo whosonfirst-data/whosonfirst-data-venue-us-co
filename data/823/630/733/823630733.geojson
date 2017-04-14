@@ -2,9 +2,14 @@
   "id": 823630733,
   "type": "Feature",
   "properties": {
+    "addr:full":"5102 E 117th Ct Denver CO 80233",
+    "addr:housenumber":"5102",
+    "addr:postcode":"80233",
+    "addr:street":"E 117Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927063,39.909169,-104.927063,39.909169",
     "geom:latitude":39.909169,
     "geom:longitude":-104.927063,
@@ -29,19 +34,36 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_50cF8fChHcv6XGXv7MVfFo_39.909169_-104.927063@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442645,
-    "wof:geomhash":"d1e11b3d20a08a5c3dfdedb31ce6a9df",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8bbe7a6de7d86b83ebb6ca82df21f173",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":823630733
+        }
+    ],
     "wof:id":823630733,
-    "wof:lastmodified":1466417656,
+    "wof:lastmodified":1492123700,
     "wof:name":"Sterne Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823996889,
   "type": "Feature",
   "properties": {
+    "addr:full":"6680 Irving St Denver CO 80221",
+    "addr:housenumber":"6680",
+    "addr:postcode":"80221",
+    "addr:street":"Irving St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.029809,39.816784,-105.029809,39.816784",
     "geom:latitude":39.816784,
     "geom:longitude":-105.029809,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7J32XMjtWbj63LgRdDojUm_39.816784_-105.029809@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451912,
-    "wof:geomhash":"4eb40ac81c1bea7f9a65430446d8a6d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"76fdf704b44a24273ecd65be63a17347",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553739,
+            "region_id":85688603,
+            "venue_id":823996889
+        }
+    ],
     "wof:id":823996889,
-    "wof:lastmodified":1466421041,
+    "wof:lastmodified":1492117478,
     "wof:name":"Ovalle Construction & Siding",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

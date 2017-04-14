@@ -2,9 +2,14 @@
   "id": 839940765,
   "type": "Feature",
   "properties": {
+    "addr:full":"12080 Melody Dr Denver CO 80234",
+    "addr:housenumber":"12080",
+    "addr:postcode":"80234",
+    "addr:street":"Melody Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994619,39.914393,-104.994619,39.914393",
     "geom:latitude":39.914393,
     "geom:longitude":-104.994619,
@@ -27,19 +32,36 @@
         "operation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6aPgY39faZXq8WqnsYaYIE_39.914393_-104.994619@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458543,
-    "wof:geomhash":"2e516bb6a581e896a9bf6fb3b5b4da7d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6df0d8eabe4727d4f59e37ee04faf3d1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":839940765
+        }
+    ],
     "wof:id":839940765,
-    "wof:lastmodified":1466414911,
+    "wof:lastmodified":1492114244,
     "wof:name":"Fairfield Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

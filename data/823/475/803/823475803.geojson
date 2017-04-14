@@ -2,9 +2,14 @@
   "id": 823475803,
   "type": "Feature",
   "properties": {
+    "addr:full":"303 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"303",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.566175,39.077339,-108.566175,39.077339",
     "geom:latitude":39.077339,
     "geom:longitude":-108.566175,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6HsjMkzdIeVHj7dEhG7YLW_39.077339_-108.566175@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438972,
-    "wof:geomhash":"741e0561649e6170499d39852d6ba7db",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ca8cf2bca39cdd6dfe9d4391dab141bb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823475803
+        }
+    ],
     "wof:id":823475803,
-    "wof:lastmodified":1466412882,
+    "wof:lastmodified":1492122801,
     "wof:name":"Earth Engineers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

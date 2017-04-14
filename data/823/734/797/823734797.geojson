@@ -2,9 +2,14 @@
   "id": 823734797,
   "type": "Feature",
   "properties": {
+    "addr:full":"11331 Glencoe Cir Denver CO 80233",
+    "addr:housenumber":"11331",
+    "addr:postcode":"80233",
+    "addr:street":"Glencoe Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.925883,39.903016,-104.925883,39.903016",
     "geom:latitude":39.903016,
     "geom:longitude":-104.925883,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553709
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5KEef2ayYHgLSjRBeXCFd6_39.903016_-104.925883@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445041,
-    "wof:geomhash":"599ed8deb944d7ade84d093de145acb0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3519c3977ad40060b160906ce7469efb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553709,
+            "region_id":85688603,
+            "venue_id":823734797
+        }
+    ],
     "wof:id":823734797,
-    "wof:lastmodified":1466418850,
+    "wof:lastmodified":1492124823,
     "wof:name":"Armor Paving LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553709,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

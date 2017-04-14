@@ -2,9 +2,14 @@
   "id": 823952203,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 E 120th Ave Northglenn CO 80233",
+    "addr:housenumber":"100",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.988716,39.913878,-104.988716,39.913878",
     "geom:latitude":39.913878,
     "geom:longitude":-104.988716,
@@ -27,19 +32,36 @@
         "embroidery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553905
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1tJtKF0xiVYjU4XU4aNY2l_39.913878_-104.988716@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450826,
-    "wof:geomhash":"3e1481eb3776e22e3cbb9e1210108ed2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"708aaf0f5fa0903c2931fd6745e5d115",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553905,
+            "region_id":85688603,
+            "venue_id":823952203
+        }
+    ],
     "wof:id":823952203,
-    "wof:lastmodified":1466420654,
+    "wof:lastmodified":1492120705,
     "wof:name":"Amali Embroidery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553905,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

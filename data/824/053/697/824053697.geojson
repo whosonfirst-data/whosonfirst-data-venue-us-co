@@ -2,9 +2,14 @@
   "id": 824053697,
   "type": "Feature",
   "properties": {
+    "addr:full":"2025 Balsam Dr Boulder CO 80304",
+    "addr:housenumber":"2025",
+    "addr:postcode":"80304",
+    "addr:street":"Balsam Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.268718,40.02678,-105.268718,40.02678",
     "geom:latitude":40.02678,
     "geom:longitude":-105.268718,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5jomuXY1whNEsPqrB7t58B_40.026780_-105.268718@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453242,
-    "wof:geomhash":"b2dd7cf794a4dfcfe43c488f63edfec1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ac987975e08164d95b91fc190862f4fc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":824053697
+        }
+    ],
     "wof:id":824053697,
-    "wof:lastmodified":1466414226,
+    "wof:lastmodified":1492132852,
     "wof:name":"Anderson Bookkeeping Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

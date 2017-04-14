@@ -2,9 +2,14 @@
   "id": 823662403,
   "type": "Feature",
   "properties": {
+    "addr:full":"3705 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"3705;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.843714,37.347542,-107.843714,37.347542",
     "geom:latitude":37.347542,
     "geom:longitude":-107.843714,
@@ -27,19 +32,28 @@
         "stable"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4LuNKyYFkwyFZ5fK7Rm3Vm_37.347542_-107.843714@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443397,
-    "wof:geomhash":"30c0a2e88fe02be398faaee6b134e7bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0ef724922adbebfd63fb2255f13effad",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823662403
+        }
+    ],
     "wof:id":823662403,
-    "wof:lastmodified":1466418279,
+    "wof:lastmodified":1492123238,
     "wof:name":"Wonuka Farm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

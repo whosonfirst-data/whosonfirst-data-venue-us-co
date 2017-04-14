@@ -2,9 +2,14 @@
   "id": 823820271,
   "type": "Feature",
   "properties": {
+    "addr:full":"39 Whetstone Rd Crested Butte CO 81224",
+    "addr:housenumber":"39",
+    "addr:postcode":"81224",
+    "addr:street":"Whetstone Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.966211,38.903683,-106.966211,38.903683",
     "geom:latitude":38.903683,
     "geom:longitude":-106.966211,
@@ -28,19 +33,36 @@
         "lodging"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929469,
+        102083377,
+        420554521
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72IqvmHRESDbGvs08lgRCj_38.903683_-106.966211@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447303,
-    "wof:geomhash":"e1fb85e405e1ae9b10dee25c034f287e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5b2f6caacd1751507769c89601098e87",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929469,
+            "neighbourhood_id":420554521,
+            "region_id":85688603,
+            "venue_id":823820271
+        }
+    ],
     "wof:id":823820271,
-    "wof:lastmodified":1466419521,
+    "wof:lastmodified":1492126433,
     "wof:name":"Crested Butte Retreat",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554521,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

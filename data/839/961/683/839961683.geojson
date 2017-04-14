@@ -2,9 +2,14 @@
   "id": 839961683,
   "type": "Feature",
   "properties": {
+    "addr:full":"239 Moffat Ave Yampa CO 80483",
+    "addr:housenumber":"239",
+    "addr:postcode":"80483",
+    "addr:street":"Moffat Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.906357,40.150275,-106.906357,40.150275",
     "geom:latitude":40.150275,
     "geom:longitude":-106.906357,
@@ -24,19 +29,34 @@
     "sg:postcode":"80483",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555319,
+        420555323
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7WnS0GnKYUs5Z1cDjDPM1R_40.150275_-106.906357@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459673,
-    "wof:geomhash":"f6ad770af7c2ab43243cd6ecbdb366e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"00f3da94088473ef261c1b6642ad9a7d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555319,
+            "venue_id":839961683
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555323,
+            "venue_id":839961683
+        }
+    ],
     "wof:id":839961683,
-    "wof:lastmodified":1466415732,
+    "wof:lastmodified":1492111552,
     "wof:name":"Little Beaver's Liquor Store",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

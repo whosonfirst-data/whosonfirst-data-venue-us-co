@@ -2,9 +2,14 @@
   "id": 823981629,
   "type": "Feature",
   "properties": {
+    "addr:full":"232 S Sheridan Blvd Denver CO 80226",
+    "addr:housenumber":"232",
+    "addr:postcode":"80226",
+    "addr:street":"S Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053179,39.711943,-105.053179,39.711943",
     "geom:latitude":39.711943,
     "geom:longitude":-105.053179,
@@ -24,7 +29,15 @@
     "sg:postcode":"80226",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ABJwnb6Pu3POmeNJ9j0Nj_39.711943_-105.053179@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463451521,
     "wof:geomhash":"375ba1da23cb1cc82f2970f04ea60947",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":823981629
+        }
+    ],
     "wof:id":823981629,
-    "wof:lastmodified":1466420922,
+    "wof:lastmodified":1486593767,
     "wof:name":"Metropolitan Insurance",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823705107,
   "type": "Feature",
   "properties": {
+    "addr:full":"2480 49th St Boulder CO 80301",
+    "addr:housenumber":"2480",
+    "addr:postcode":"80301",
+    "addr:street":"49Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.238311,40.023651,-105.238311,40.023651",
     "geom:latitude":40.023651,
     "geom:longitude":-105.238311,
@@ -31,19 +36,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_11f6ECDwYJFQRc0X9wfFpd_40.023651_-105.238311@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444339,
-    "wof:geomhash":"8850532f0b7582ee7bea05595c0b4fbd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4722f1126ac11a05f343b2fa82d4dc78",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823705107
+        }
+    ],
     "wof:id":823705107,
-    "wof:lastmodified":1466418561,
+    "wof:lastmodified":1492116912,
     "wof:name":"Green Earth Auto Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

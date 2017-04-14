@@ -2,9 +2,14 @@
   "id": 823593421,
   "type": "Feature",
   "properties": {
+    "addr:full":"134 Old Post Office Rd Boulder CO 80302",
+    "addr:housenumber":"134",
+    "addr:postcode":"80302",
+    "addr:street":"Old Post Office Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.406614,40.022076,-105.406614,40.022076",
     "geom:latitude":40.022076,
     "geom:longitude":-105.406614,
@@ -27,19 +32,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930735,
+        102085251,
+        420553997
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_59xaiPa67KoEt5QuvJ1ABv_40.022076_-105.406614@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441732,
-    "wof:geomhash":"ffdc52c56e372c41e95a8670fb844587",
-    "wof:hierarchy":[],
+    "wof:geomhash":"30861aaaaf6ca9f98455a3a1af1a4959",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930735,
+            "neighbourhood_id":420553997,
+            "region_id":85688603,
+            "venue_id":823593421
+        }
+    ],
     "wof:id":823593421,
-    "wof:lastmodified":1466416953,
+    "wof:lastmodified":1492121937,
     "wof:name":"Davis Tailer Partnership",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553997,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

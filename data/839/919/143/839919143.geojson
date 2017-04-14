@@ -2,9 +2,14 @@
   "id": 839919143,
   "type": "Feature",
   "properties": {
+    "addr:full":"1601 Dayton St Aurora CO 80010",
+    "addr:housenumber":"1601",
+    "addr:postcode":"80010",
+    "addr:street":"Dayton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.875223,39.743784,-104.875223,39.743784",
     "geom:latitude":39.743784,
     "geom:longitude":-104.875223,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3dZ13Jz9cwgnCztIGr4L5F_39.743784_-104.875223@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457458,
-    "wof:geomhash":"a1c8eece61ba13f1e3becb3dec57b2c6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4298c92300042da207c7b487bc2acbf8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":839919143
+        }
+    ],
     "wof:id":839919143,
-    "wof:lastmodified":1466413573,
+    "wof:lastmodified":1492111219,
     "wof:name":"Aurora First Christian Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

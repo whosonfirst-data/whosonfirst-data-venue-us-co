@@ -2,9 +2,14 @@
   "id": 823631687,
   "type": "Feature",
   "properties": {
+    "addr:full":"2975 W 80th Ave Denver CO 80221",
+    "addr:housenumber":"2975",
+    "addr:postcode":"80221",
+    "addr:street":"W 80Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024112,39.841862,-105.024112,39.841862",
     "geom:latitude":39.841862,
     "geom:longitude":-105.024112,
@@ -29,19 +34,36 @@
         "custom"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553599
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6fORFuHogTEtElXh9Le0vT_39.841862_-105.024112@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442664,
-    "wof:geomhash":"d4648fb11e44c8a1c9c6ccab32de68f9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"159355646e976fc45dd30a6459a93336",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553599,
+            "region_id":85688603,
+            "venue_id":823631687
+        }
+    ],
     "wof:id":823631687,
-    "wof:lastmodified":1466417637,
+    "wof:lastmodified":1492117174,
     "wof:name":"Lougheeds Jewelers Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553599,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

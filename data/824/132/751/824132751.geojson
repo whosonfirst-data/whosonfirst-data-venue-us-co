@@ -2,9 +2,14 @@
   "id": 824132751,
   "type": "Feature",
   "properties": {
+    "addr:full":"4246 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"4246;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.853426,37.365568,-107.853426,37.365568",
     "geom:latitude":37.365568,
     "geom:longitude":-107.853426,
@@ -29,19 +34,28 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7KUpBxg2alXeZWCLLYlcX0_37.365568_-107.853426@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455245,
-    "wof:geomhash":"dbc611f1866852363a1518d45a18576c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f9a4b0f218f051be27eff03a473bd62c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554625,
+            "venue_id":824132751
+        }
+    ],
     "wof:id":824132751,
-    "wof:lastmodified":1466416230,
+    "wof:lastmodified":1492132562,
     "wof:name":"Kiln Door",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

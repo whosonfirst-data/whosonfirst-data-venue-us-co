@@ -2,9 +2,14 @@
   "id": 823861951,
   "type": "Feature",
   "properties": {
+    "addr:full":"880 S Chestnut St Cortez CO 81321",
+    "addr:housenumber":"880",
+    "addr:postcode":"81321",
+    "addr:street":"S Chestnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586288,37.339871,-108.586288,37.339871",
     "geom:latitude":37.339871,
     "geom:longitude":-108.586288,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5bOshpZYHXU5I0wX2JYITs_37.339871_-108.586288@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448543,
-    "wof:geomhash":"f6d2bbff0022bf1e064d289dfe9cf7ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9c1b0bb1acc09521b3d673f4e5b6caa8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823861951
+        }
+    ],
     "wof:id":823861951,
-    "wof:lastmodified":1466419929,
+    "wof:lastmodified":1492122863,
     "wof:name":"Mesa Park Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

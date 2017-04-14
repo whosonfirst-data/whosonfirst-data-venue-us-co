@@ -2,9 +2,14 @@
   "id": 839991553,
   "type": "Feature",
   "properties": {
+    "addr:full":"2015 S Pueblo Blvd Pueblo CO 81005",
+    "addr:housenumber":"2015",
+    "addr:postcode":"81005",
+    "addr:street":"S Pueblo Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.662374,38.231848,-104.662374,38.231848",
     "geom:latitude":38.231848,
     "geom:longitude":-104.662374,
@@ -34,17 +39,32 @@
         "wrap"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Jo2BDG3233YZORQOa8itB_38.231848_-104.662374@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460870,
-    "wof:geomhash":"7de984b76cd2a24d5a35667c2f4f7e68",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a05ec79e60da90164333451aa9682cfc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":839991553
+        }
+    ],
     "wof:id":839991553,
-    "wof:lastmodified":1466417411,
+    "wof:lastmodified":1492110998,
     "wof:name":"IHOP",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823905755,
   "type": "Feature",
   "properties": {
+    "addr:full":"5100 W 81st Pl Westminster CO 80031",
+    "addr:housenumber":"5100",
+    "addr:postcode":"80031",
+    "addr:street":"W 81St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.051095,39.843976,-105.051095,39.843976",
     "geom:latitude":39.843976,
     "geom:longitude":-105.051095,
@@ -27,19 +32,36 @@
         "special"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5f6RfPhOe4QoOYu6p07jri_39.843976_-105.051095@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449616,
-    "wof:geomhash":"ca5f570562763c6006425b1f59c3ab2f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8c6b47774e89fb788a6e20d4adc86223",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":823905755
+        }
+    ],
     "wof:id":823905755,
-    "wof:lastmodified":1466420287,
+    "wof:lastmodified":1492121889,
     "wof:name":"81st & Sheridan Self Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823901829,
   "type": "Feature",
   "properties": {
+    "addr:full":"1702 Grand Ave Grand Junction CO 81501",
+    "addr:housenumber":"1702",
+    "addr:postcode":"81501",
+    "addr:street":"Grand Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.54427,39.070214,-108.54427,39.070214",
     "geom:latitude":39.070214,
     "geom:longitude":-108.54427,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2K85k1OQs73oXot9OZxEzy_39.070214_-108.544270@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449511,
-    "wof:geomhash":"30d2a1f90fafa3ad83d4371dde471539",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0af26899818d48fe7c6ef861caff56d6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":823901829
+        }
+    ],
     "wof:id":823901829,
-    "wof:lastmodified":1466420291,
+    "wof:lastmodified":1492120662,
     "wof:name":"Deines Contracting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

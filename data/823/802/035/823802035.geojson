@@ -2,9 +2,14 @@
   "id": 823802035,
   "type": "Feature",
   "properties": {
+    "addr:full":"2353 Monument Dr Grand Junction CO 81503",
+    "addr:housenumber":"2353",
+    "addr:postcode":"81503",
+    "addr:street":"Monument Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.616913,39.077825,-108.616913,39.077825",
     "geom:latitude":39.077825,
     "geom:longitude":-108.616913,
@@ -28,19 +33,36 @@
         "leaded"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4oonKcizfTW0sGdrutEQSW_39.077825_-108.616913@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446758,
-    "wof:geomhash":"233662026263563442628735ff5ad5e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"40fd0b8d4a68ff0923c4ac770792549d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554787,
+            "region_id":85688603,
+            "venue_id":823802035
+        }
+    ],
     "wof:id":823802035,
-    "wof:lastmodified":1466419705,
+    "wof:lastmodified":1492126198,
     "wof:name":"G M Designs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

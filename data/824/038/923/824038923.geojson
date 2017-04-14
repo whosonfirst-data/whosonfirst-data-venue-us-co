@@ -2,9 +2,14 @@
   "id": 824038923,
   "type": "Feature",
   "properties": {
+    "addr:full":"2805 W Mexico Ave Denver CO 80219",
+    "addr:housenumber":"2805",
+    "addr:postcode":"80219",
+    "addr:street":"W Mexico Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024804,39.68596,-105.024804,39.68596",
     "geom:latitude":39.68596,
     "geom:longitude":-105.024804,
@@ -28,7 +33,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871275,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0ilUP8U4t4KDM778JJc7gI_39.685960_-105.024804@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463452905,
     "wof:geomhash":"62bceae03ef1e13f5c1e4dbc0830e58e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871275,
+            "region_id":85688603,
+            "venue_id":824038923
+        }
+    ],
     "wof:id":824038923,
-    "wof:lastmodified":1466413823,
+    "wof:lastmodified":1491876351,
     "wof:name":"Arellano Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

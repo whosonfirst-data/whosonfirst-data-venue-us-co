@@ -2,9 +2,14 @@
   "id": 823624689,
   "type": "Feature",
   "properties": {
+    "addr:full":"2345 Hall Ave Grand Junction CO 81501",
+    "addr:housenumber":"2345",
+    "addr:postcode":"81501",
+    "addr:street":"Hall Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.535746,39.083563,-108.535746,39.083563",
     "geom:latitude":39.083563,
     "geom:longitude":-108.535746,
@@ -27,19 +32,36 @@
         "product"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1cHnXT5BCfaQOC94jrOo3G_39.083563_-108.535746@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442505,
-    "wof:geomhash":"c6c54a483fad630505e5cc37cd9a736c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"af3728ff4e369a677adc686d5c7feaa2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":823624689
+        }
+    ],
     "wof:id":823624689,
-    "wof:lastmodified":1466417538,
+    "wof:lastmodified":1492119261,
     "wof:name":"Paul Peters Quality Products",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

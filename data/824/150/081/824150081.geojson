@@ -2,9 +2,14 @@
   "id": 824150081,
   "type": "Feature",
   "properties": {
+    "addr:full":"812 11th St Greeley CO 80631",
+    "addr:housenumber":"812",
+    "addr:postcode":"80631",
+    "addr:street":"11Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.692487,40.421094,-104.692487,40.421094",
     "geom:latitude":40.421094,
     "geom:longitude":-104.692487,
@@ -30,12 +35,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,8 +48,16 @@
     },
     "wof:country":"US",
     "wof:created":1463455905,
-    "wof:geomhash":"f346e030f49adda14e24674fd13e9554",
+    "wof:geomhash":"ee88c39c9494fd09445a9dd071370bd7",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":824150081
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -53,20 +66,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":824150081
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":824150081
         }
     ],
     "wof:id":824150081,
-    "wof:lastmodified":1466416803,
+    "wof:lastmodified":1492131994,
     "wof:name":"Auto Doctor LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

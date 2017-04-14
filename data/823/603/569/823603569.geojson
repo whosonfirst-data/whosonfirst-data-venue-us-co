@@ -2,9 +2,14 @@
   "id": 823603569,
   "type": "Feature",
   "properties": {
+    "addr:full":"613 W Mesa Ave Pueblo CO 81004",
+    "addr:housenumber":"613",
+    "addr:postcode":"81004",
+    "addr:street":"W Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.617778,38.246108,-104.617778,38.246108",
     "geom:latitude":38.246108,
     "geom:longitude":-104.617778,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3lFLyj3Dcm6QvEcRZ3NBTe_38.246108_-104.617778@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441991,
-    "wof:geomhash":"1577bdca5fa07cf118576f4f88cd879e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"800704ec05be27857619a5cb9c34d698",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823603569
+        }
+    ],
     "wof:id":823603569,
-    "wof:lastmodified":1466417225,
+    "wof:lastmodified":1492126126,
     "wof:name":"First AME Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

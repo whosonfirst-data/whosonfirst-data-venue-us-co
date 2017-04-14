@@ -2,9 +2,14 @@
   "id": 823524127,
   "type": "Feature",
   "properties": {
+    "addr:full":"3156 Perkins Dr Grand Junction CO 81504",
+    "addr:housenumber":"3156",
+    "addr:postcode":"81504",
+    "addr:street":"Perkins Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.463305,39.082954,-108.463305,39.082954",
     "geom:latitude":39.082954,
     "geom:longitude":-108.463305,
@@ -28,19 +33,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4eMP8uen2tayYbhY9nytr9_39.082954_-108.463305@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440120,
-    "wof:geomhash":"830c6156f1c4cdee44b2ef0b38d3a755",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5172b8b7543a9099e364cfa6553e6d47",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823524127
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":823524127
+        }
+    ],
     "wof:id":823524127,
-    "wof:lastmodified":1466414972,
+    "wof:lastmodified":1492121598,
     "wof:name":"Pioneer Materials West Slope",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

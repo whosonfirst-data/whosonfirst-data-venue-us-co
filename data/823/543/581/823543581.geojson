@@ -2,9 +2,14 @@
   "id": 823543581,
   "type": "Feature",
   "properties": {
+    "addr:full":"6996 Alan Dr Denver CO 80221",
+    "addr:housenumber":"6996",
+    "addr:postcode":"80221",
+    "addr:street":"Alan Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.010585,39.827253,-105.010585,39.827253",
     "geom:latitude":39.827253,
     "geom:longitude":-105.010585,
@@ -27,19 +32,36 @@
         "passenger"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7FURgQ5Vpced9VSa3pnPt9_39.827253_-105.010585@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440552,
-    "wof:geomhash":"f7caf47c5238077b5f10b08766a37382",
-    "wof:hierarchy":[],
+    "wof:geomhash":"df91373c0156ea3fe5223971012b78a5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":823543581
+        }
+    ],
     "wof:id":823543581,
-    "wof:lastmodified":1466415611,
+    "wof:lastmodified":1492118897,
     "wof:name":"Limousines Plus Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

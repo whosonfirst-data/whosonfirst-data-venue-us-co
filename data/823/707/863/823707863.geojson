@@ -2,9 +2,14 @@
   "id": 823707863,
   "type": "Feature",
   "properties": {
+    "addr:full":"1090 S Circle Dr Colorado Springs CO 80910",
+    "addr:housenumber":"1090",
+    "addr:postcode":"80910",
+    "addr:street":"S Circle Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.780673,38.817032,-104.780673,38.817032",
     "geom:latitude":38.817032,
     "geom:longitude":-104.780673,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554341
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7LareLHzNQv8SP7moqlfaD_38.817032_-104.780673@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444400,
-    "wof:geomhash":"5357633d458f0bce9567f88b0d99da9b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bafb1619cfe0fea208e8759485831d52",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":823707863
+        }
+    ],
     "wof:id":823707863,
-    "wof:lastmodified":1466418649,
+    "wof:lastmodified":1492121493,
     "wof:name":"McDonalds",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554341,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

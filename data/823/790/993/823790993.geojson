@@ -2,9 +2,14 @@
   "id": 823790993,
   "type": "Feature",
   "properties": {
+    "addr:full":"3191 Mesa Ave Grand Junction CO 81504",
+    "addr:housenumber":"3191",
+    "addr:postcode":"81504",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.462797,39.082472,-108.462797,39.082472",
     "geom:latitude":39.082472,
     "geom:longitude":-108.462797,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_03ubIh7TYu1AClFshCPQf4_39.082472_-108.462797@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446451,
-    "wof:geomhash":"eba64125077d26418f5fd5a7a2e83170",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d440d8ff37f80bc6ad3b69d2e7bdca72",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823790993
+        }
+    ],
     "wof:id":823790993,
-    "wof:lastmodified":1466419335,
+    "wof:lastmodified":1492127729,
     "wof:name":"M M Skyline Contracting Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

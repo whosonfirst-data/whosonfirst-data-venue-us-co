@@ -2,9 +2,14 @@
   "id": 824094643,
   "type": "Feature",
   "properties": {
+    "addr:full":"1667 Chester St Aurora CO 80010",
+    "addr:housenumber":"1667",
+    "addr:postcode":"80010",
+    "addr:street":"Chester St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.878817,39.742562,-104.878817,39.742562",
     "geom:latitude":39.742562,
     "geom:longitude":-104.878817,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553609
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ETYyU8BqW8gCFUl5Xi0zI_39.742562_-104.878817@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454211,
-    "wof:geomhash":"c9bc59ee553c0ba7114ed28f3c92517c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f85d4cc7982db00bae0cefc37ed220d2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553609,
+            "region_id":85688603,
+            "venue_id":824094643
+        }
+    ],
     "wof:id":824094643,
-    "wof:lastmodified":1466414983,
+    "wof:lastmodified":1492128465,
     "wof:name":"Tacos 2 Ricos",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553609,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

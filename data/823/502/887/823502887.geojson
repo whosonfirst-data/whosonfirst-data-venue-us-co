@@ -2,9 +2,14 @@
   "id": 823502887,
   "type": "Feature",
   "properties": {
+    "addr:full":"3434 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"3434;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.857461,37.347792,-107.857461,37.347792",
     "geom:latitude":37.347792,
     "geom:longitude":-107.857461,
@@ -28,19 +33,28 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0JGfhNkTAbAyRzjueaaIUC_37.347792_-107.857461@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439643,
-    "wof:geomhash":"a6a4b3951c2e026b504311291b16a372",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c8d90be9d9efcc329ff334737b94e07",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823502887
+        }
+    ],
     "wof:id":823502887,
-    "wof:lastmodified":1466414312,
+    "wof:lastmodified":1492116214,
     "wof:name":"Rocks Maintenance & Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

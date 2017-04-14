@@ -2,9 +2,14 @@
   "id": 823852381,
   "type": "Feature",
   "properties": {
+    "addr:full":"10380 W 107th Cir Broomfield CO 80021",
+    "addr:housenumber":"10380",
+    "addr:postcode":"80021",
+    "addr:street":"W 107Th Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.110389,39.892268,-105.110389,39.892268",
     "geom:latitude":39.892268,
     "geom:longitude":-105.110389,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4VDI9BCM8BJMVu4ThQQRWq_39.892268_-105.110389@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448288,
-    "wof:geomhash":"d1d210e72f1b2daee77498868e844001",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bc2939fda309b854217148d500251e0a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823852381
+        }
+    ],
     "wof:id":823852381,
-    "wof:lastmodified":1466419810,
+    "wof:lastmodified":1492126682,
     "wof:name":"Grant Blicker Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

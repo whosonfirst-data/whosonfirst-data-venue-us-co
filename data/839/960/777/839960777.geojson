@@ -2,9 +2,14 @@
   "id": 839960777,
   "type": "Feature",
   "properties": {
+    "addr:full":"860 W 132nd Ave Denver CO 80234",
+    "addr:housenumber":"860",
+    "addr:postcode":"80234",
+    "addr:street":"W 132Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.997844,39.937477,-104.997844,39.937477",
     "geom:latitude":39.937477,
     "geom:longitude":-104.997844,
@@ -28,19 +33,36 @@
         "home"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553815
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3jNpfzFPjJAc05rE3uiF8L_39.937477_-104.997844@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459640,
-    "wof:geomhash":"39081bb3f3272d61b2205077650a30b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cff02b9a4281d78709d65abdab19e975",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553815,
+            "region_id":85688603,
+            "venue_id":839960777
+        }
+    ],
     "wof:id":839960777,
-    "wof:lastmodified":1466415742,
+    "wof:lastmodified":1492111673,
     "wof:name":"Casa Estates Manufactured Home",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553815,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

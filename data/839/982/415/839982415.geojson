@@ -2,9 +2,14 @@
   "id": 839982415,
   "type": "Feature",
   "properties": {
+    "addr:full":"1195 Rock Creek Ct Lafayette CO 80026",
+    "addr:housenumber":"1195",
+    "addr:postcode":"80026",
+    "addr:street":"Rock Creek Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.072874,39.978695,-105.072874,39.978695",
     "geom:latitude":39.978695,
     "geom:longitude":-105.072874,
@@ -37,19 +42,36 @@
         "staining"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251,
+        420554039
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3IWP0BwyhgsLugKQlDIaxt_39.978798_-105.072948@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460518,
-    "wof:geomhash":"f07f1a36ed7a87ab94a3838a76aec058",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c8321724bddaefc68950d00252a39c5c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "neighbourhood_id":420554039,
+            "region_id":85688603,
+            "venue_id":839982415
+        }
+    ],
     "wof:id":839982415,
-    "wof:lastmodified":1466416906,
+    "wof:lastmodified":1492114402,
     "wof:name":"Owen's Brothers Concrete Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554039,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823478439,
   "type": "Feature",
   "properties": {
+    "addr:full":"14001 Burlington Blvd Brighton CO 80601",
+    "addr:housenumber":"14001",
+    "addr:postcode":"80601",
+    "addr:street":"Burlington Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.780299,39.948982,-104.780299,39.948982",
     "geom:latitude":39.948982,
     "geom:longitude":-104.780299,
@@ -30,19 +35,36 @@
         "deck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553337
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Uk8ejMWzBZNlIUyYDSMFK_39.948982_-104.780299@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439047,
-    "wof:geomhash":"4dc6f519ed4d6a6cf0fde5cf9611849f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e4bb5c9534570d4b73dafba791ed113",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553337,
+            "region_id":85688603,
+            "venue_id":823478439
+        }
+    ],
     "wof:id":823478439,
-    "wof:lastmodified":1466413185,
+    "wof:lastmodified":1492123998,
     "wof:name":"C & R Mitchell Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553337,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

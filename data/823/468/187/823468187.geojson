@@ -2,9 +2,14 @@
   "id": 823468187,
   "type": "Feature",
   "properties": {
+    "addr:full":"5642 Wadsworth Blvd Arvada CO 80002",
+    "addr:housenumber":"5642",
+    "addr:postcode":"80002",
+    "addr:street":"Wadsworth Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076454,39.799007,-105.076454,39.799007",
     "geom:latitude":39.799007,
     "geom:longitude":-105.076454,
@@ -35,19 +40,34 @@
         "artificial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_45bdxJ3HpiFWOWaflVe3rB_39.799007_-105.076454@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438791,
-    "wof:geomhash":"13ee1e5301036243853868af74741f3e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"47cbef296a3a57d748db5e180742dcf0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823468187
+        }
+    ],
     "wof:id":823468187,
-    "wof:lastmodified":1466412135,
+    "wof:lastmodified":1492124553,
     "wof:name":"Ramah Flower Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

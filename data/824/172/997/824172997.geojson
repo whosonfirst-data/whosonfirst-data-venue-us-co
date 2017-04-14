@@ -2,9 +2,14 @@
   "id": 824172997,
   "type": "Feature",
   "properties": {
+    "addr:full":"3125 Sterling Cir Boulder CO 80301",
+    "addr:housenumber":"3125",
+    "addr:postcode":"80301",
+    "addr:street":"Sterling Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227269,40.032218,-105.227269,40.032218",
     "geom:latitude":40.032218,
     "geom:longitude":-105.227269,
@@ -28,19 +33,36 @@
         "banking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5D9dJ477wOe9OUIi4ehWXn_40.032218_-105.227269@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456795,
-    "wof:geomhash":"0f5f1ff7d8787ab9a0bf10d7f618a302",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8bf38c0f4d060bb9f35f490fed6bdabf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876385,
+            "region_id":85688603,
+            "venue_id":824172997
+        }
+    ],
     "wof:id":824172997,
-    "wof:lastmodified":1466418100,
+    "wof:lastmodified":1492128270,
     "wof:name":"Emergent Financial Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

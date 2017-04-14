@@ -2,9 +2,14 @@
   "id": 823485541,
   "type": "Feature",
   "properties": {
+    "addr:full":"11578 Clayton St Denver CO 80233",
+    "addr:housenumber":"11578",
+    "addr:postcode":"80233",
+    "addr:street":"Clayton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.95324,39.903832,-104.95324,39.903832",
     "geom:latitude":39.903832,
     "geom:longitude":-104.95324,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553673
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_117vCefjiotzfKouEbUIcs_39.903832_-104.953240@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439195,
-    "wof:geomhash":"f3472c435ce2d2a46b6a3bed1225d7c0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"79a6b6b98d3187737486428f9d8cab37",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553673,
+            "region_id":85688603,
+            "venue_id":823485541
+        }
+    ],
     "wof:id":823485541,
-    "wof:lastmodified":1466413646,
+    "wof:lastmodified":1492117230,
     "wof:name":"Felicia Fancies LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553673,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823946781,
   "type": "Feature",
   "properties": {
+    "addr:full":"1925 Orchard Ave Boulder CO 80304",
+    "addr:housenumber":"1925",
+    "addr:postcode":"80304",
+    "addr:street":"Orchard Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.270828,40.046145,-105.270828,40.046145",
     "geom:latitude":40.046145,
     "geom:longitude":-105.270828,
@@ -28,19 +33,36 @@
         "studio"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554145
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00QwkWUdduJHlheKKdaBAl_40.046145_-105.270828@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450707,
-    "wof:geomhash":"649e0e27efb3f4bd74948ac950a1cb57",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1e8053fd5024156ec848b349011169b5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554145,
+            "region_id":85688603,
+            "venue_id":823946781
+        }
+    ],
     "wof:id":823946781,
-    "wof:lastmodified":1466420610,
+    "wof:lastmodified":1492122423,
     "wof:name":"Audio's Amigos",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554145,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

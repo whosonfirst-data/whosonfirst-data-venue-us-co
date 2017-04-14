@@ -2,9 +2,14 @@
   "id": 824141411,
   "type": "Feature",
   "properties": {
+    "addr:full":"1120 Monroe Dr Boulder CO 80303",
+    "addr:housenumber":"1120",
+    "addr:postcode":"80303",
+    "addr:street":"Monroe Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.240881,40.005771,-105.240881,40.005771",
     "geom:latitude":40.005771,
     "geom:longitude":-105.240881,
@@ -24,19 +29,36 @@
     "sg:postcode":"80303",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0bFvpE4FcTvn2hFnPYoH1i_40.005771_-105.240881@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455560,
-    "wof:geomhash":"0ab07604f344126af0057e806272495d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9174986ace83973798b3333f31b50d4d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":824141411
+        }
+    ],
     "wof:id":824141411,
-    "wof:lastmodified":1466416545,
+    "wof:lastmodified":1492131704,
     "wof:name":"Lunar Eclipse LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

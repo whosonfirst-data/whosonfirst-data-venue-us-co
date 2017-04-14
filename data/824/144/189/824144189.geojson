@@ -2,9 +2,14 @@
   "id": 824144189,
   "type": "Feature",
   "properties": {
+    "addr:full":"2057 S Broadway Grand Junction CO 81503",
+    "addr:housenumber":"2057",
+    "addr:postcode":"81503",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.666938,39.077927,-108.666938,39.077927",
     "geom:latitude":39.077927,
     "geom:longitude":-108.666938,
@@ -27,19 +32,36 @@
         "course"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554805
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_40cpqn4a9FYF2jmi7pre5H_39.077927_-108.666938@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455661,
-    "wof:geomhash":"a3481fcc364d73842da42d88cb59db01",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a4a76606d78abe0b807846fa83500b5c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554805,
+            "region_id":85688603,
+            "venue_id":824144189
+        }
+    ],
     "wof:id":824144189,
-    "wof:lastmodified":1466416545,
+    "wof:lastmodified":1492132287,
     "wof:name":"Tiara Rado Golf Course",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554805,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

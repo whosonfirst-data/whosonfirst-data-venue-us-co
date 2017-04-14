@@ -2,9 +2,14 @@
   "id": 839977135,
   "type": "Feature",
   "properties": {
+    "addr:full":"3855 Norwood Ct Boulder CO 80304",
+    "addr:housenumber":"3855",
+    "addr:postcode":"80304",
+    "addr:street":"Norwood Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.264925,40.044971,-105.264925,40.044971",
     "geom:latitude":40.044971,
     "geom:longitude":-105.264925,
@@ -28,19 +33,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554119
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_19fKEk85yJ0yJfwHsqtsSC_40.044971_-105.264925@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460308,
-    "wof:geomhash":"de3679c3aa7502875e31c833d2068eaf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fb64b716b9f9b590a10d8fdf015642a9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554119,
+            "region_id":85688603,
+            "venue_id":839977135
+        }
+    ],
     "wof:id":839977135,
-    "wof:lastmodified":1466416707,
+    "wof:lastmodified":1492113776,
     "wof:name":"Miick & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554119,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

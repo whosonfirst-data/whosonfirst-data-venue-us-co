@@ -2,9 +2,14 @@
   "id": 839914111,
   "type": "Feature",
   "properties": {
+    "addr:full":"1490 W 70th Ave Denver CO 80221",
+    "addr:housenumber":"1490",
+    "addr:postcode":"80221",
+    "addr:street":"W 70Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.003661,39.823549,-105.003661,39.823549",
     "geom:latitude":39.823549,
     "geom:longitude":-105.003661,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1WwkmpfBfNotL7SAFM9MF8_39.823549_-105.003661@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457261,
-    "wof:geomhash":"e120ec811f400f50811fcf3715fd28bf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4c540a6b5756d426a912715a9286e5c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":839914111
+        }
+    ],
     "wof:id":839914111,
-    "wof:lastmodified":1466412773,
+    "wof:lastmodified":1492112909,
     "wof:name":"U S Auto Finders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

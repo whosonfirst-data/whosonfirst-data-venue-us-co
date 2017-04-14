@@ -2,9 +2,14 @@
   "id": 823850623,
   "type": "Feature",
   "properties": {
+    "addr:full":"8224 Acoma St Denver CO 80221",
+    "addr:housenumber":"8224",
+    "addr:postcode":"80221",
+    "addr:street":"Acoma St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98858,39.845328,-104.98858,39.845328",
     "geom:latitude":39.845328,
     "geom:longitude":-104.98858,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7bhWCzMz0HrsTworTzpBAx_39.845328_-104.988580@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448238,
-    "wof:geomhash":"db6ce7791775bfd09b5094e1c8198ba1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6e43ee6a0693a2a7320ef5c3ad632356",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":823850623
+        }
+    ],
     "wof:id":823850623,
-    "wof:lastmodified":1466419825,
+    "wof:lastmodified":1492117795,
     "wof:name":"Spectrum Snacks",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823630055,
   "type": "Feature",
   "properties": {
+    "addr:full":"4860 Ironton St Denver CO 80239",
+    "addr:housenumber":"4860",
+    "addr:postcode":"80239",
+    "addr:street":"Ironton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.86321,39.783229,-104.86321,39.783229",
     "geom:latitude":39.783229,
     "geom:longitude":-104.86321,
@@ -30,7 +35,15 @@
         "transportation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_186vPiJBnki9vBLgQOiYPH_39.783229_-104.863210@1294083659"
@@ -38,11 +51,22 @@
     "wof:country":"US",
     "wof:created":1463442631,
     "wof:geomhash":"be088e590b89f6ec132513f0cf79ba02",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823630055
+        }
+    ],
     "wof:id":823630055,
-    "wof:lastmodified":1466417686,
+    "wof:lastmodified":1491887447,
     "wof:name":"Two Step Limousine Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

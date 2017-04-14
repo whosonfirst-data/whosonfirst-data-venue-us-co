@@ -2,9 +2,14 @@
   "id": 823624477,
   "type": "Feature",
   "properties": {
+    "addr:full":"9390 Green Ct Westminster CO 80031",
+    "addr:housenumber":"9390",
+    "addr:postcode":"80031",
+    "addr:street":"Green Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025761,39.866441,-105.025761,39.866441",
     "geom:latitude":39.866441,
     "geom:longitude":-105.025761,
@@ -28,19 +33,36 @@
         "educational"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0pImcHAxTD4MUBqBilWeHQ_39.866441_-105.025761@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442501,
-    "wof:geomhash":"48745424ae3ce01143f373ffca4d3493",
-    "wof:hierarchy":[],
+    "wof:geomhash":"710d61cdbd5603355c52b44ccabe5da9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823624477
+        }
+    ],
     "wof:id":823624477,
-    "wof:lastmodified":1466417523,
+    "wof:lastmodified":1492119273,
     "wof:name":"Flex Ed",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

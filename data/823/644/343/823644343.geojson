@@ -2,9 +2,14 @@
   "id": 823644343,
   "type": "Feature",
   "properties": {
+    "addr:full":"596 N Commercial Dr Grand Junction CO 81505",
+    "addr:housenumber":"596",
+    "addr:postcode":"81505",
+    "addr:street":"N Commercial Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.585378,39.088921,-108.585378,39.088921",
     "geom:latitude":39.088921,
     "geom:longitude":-108.585378,
@@ -28,19 +33,36 @@
         "gymnastic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554951
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ZYYGfrUSBBU7JlNorrH1C_39.088921_-108.585378@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442953,
-    "wof:geomhash":"7e86c41229fb9b6cef52b10b026d5ec1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"201fef359fa68ae57583aec1aec85a7b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554951,
+            "region_id":85688603,
+            "venue_id":823644343
+        }
+    ],
     "wof:id":823644343,
-    "wof:lastmodified":1466418058,
+    "wof:lastmodified":1492118281,
     "wof:name":"Colorado West Gymnastics",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554951,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

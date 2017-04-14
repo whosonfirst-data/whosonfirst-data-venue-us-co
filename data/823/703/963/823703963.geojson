@@ -2,9 +2,14 @@
   "id": 823703963,
   "type": "Feature",
   "properties": {
+    "addr:full":"1110 N Main St Lamar CO 81052",
+    "addr:housenumber":"1110",
+    "addr:postcode":"81052",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.618273,38.100581,-102.618273,38.100581",
     "geom:latitude":38.100581,
     "geom:longitude":-102.618273,
@@ -27,17 +32,32 @@
         "truss"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928855,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3cqt1tQQ4SsctJo9PQ8EFQ_38.100581_-102.618273@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444318,
-    "wof:geomhash":"4f3aedaab00582c557e3ab6ca0ee50ec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"937bd44404b23fb0bc12b9120e687dc9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928855,
+            "region_id":85688603,
+            "venue_id":823703963
+        }
+    ],
     "wof:id":823703963,
-    "wof:lastmodified":1466418617,
+    "wof:lastmodified":1492119668,
     "wof:name":"BMS Truss",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

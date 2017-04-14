@@ -2,9 +2,14 @@
   "id": 824063543,
   "type": "Feature",
   "properties": {
+    "addr:full":"1150 Monroe Dr Boulder CO 80303",
+    "addr:housenumber":"1150",
+    "addr:postcode":"80303",
+    "addr:street":"Monroe Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.240906,40.005757,-105.240906,40.005757",
     "geom:latitude":40.005757,
     "geom:longitude":-105.240906,
@@ -33,19 +38,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0bLTUCSR5sgHEbLqtVLi11_40.005757_-105.240906@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453462,
-    "wof:geomhash":"aa4555c4faffbdeea6aa9a0a0dcb0654",
-    "wof:hierarchy":[],
+    "wof:geomhash":"333f92f158d662e0a19fe46c3758fec3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":824063543
+        }
+    ],
     "wof:id":824063543,
-    "wof:lastmodified":1466414418,
+    "wof:lastmodified":1492133152,
     "wof:name":"Tech Supporters",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823833957,
   "type": "Feature",
   "properties": {
+    "addr:full":"2200 Broadway St Boulder CO 80304",
+    "addr:housenumber":"2200",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281005,40.020925,-105.281005,40.020925",
     "geom:latitude":40.020925,
     "geom:longitude":-105.281005,
@@ -25,7 +30,14 @@
     "sg:province":"CO",
     "sg:website":"www.trinityboulder.org",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3qCTzNZmDaTU1pyT7BWnM3_40.020925_-105.281005@1294083659"
@@ -33,11 +45,21 @@
     "wof:country":"US",
     "wof:created":1463447712,
     "wof:geomhash":"adf4ccb23dc21a13871db1a89949fca6",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823833957
+        }
+    ],
     "wof:id":823833957,
-    "wof:lastmodified":1466419711,
+    "wof:lastmodified":1491888491,
     "wof:name":"Trinity Lutheran Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

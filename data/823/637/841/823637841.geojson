@@ -2,9 +2,14 @@
   "id": 823637841,
   "type": "Feature",
   "properties": {
+    "addr:full":"3180 61st St Boulder CO 80301",
+    "addr:housenumber":"3180",
+    "addr:postcode":"80301",
+    "addr:street":"61St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.211337,40.032735,-105.211337,40.032735",
     "geom:latitude":40.032735,
     "geom:longitude":-105.211337,
@@ -28,7 +33,14 @@
         "concrete"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1rUkgH2kJLN9tn3vp1NZuH_40.032735_-105.211337@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463442805,
     "wof:geomhash":"9362e505bd995cbf3cec30b7e6f790bc",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823637841
+        }
+    ],
     "wof:id":823637841,
-    "wof:lastmodified":1466417816,
+    "wof:lastmodified":1491620047,
     "wof:name":"Boulder Ready Mix Concrete Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

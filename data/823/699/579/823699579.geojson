@@ -2,9 +2,14 @@
   "id": 823699579,
   "type": "Feature",
   "properties": {
+    "addr:full":"1980 N Converse Rd Bennett CO 80102",
+    "addr:housenumber":"1980",
+    "addr:postcode":"80102",
+    "addr:street":"N Converse Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.433171,39.752746,-104.433171,39.752746",
     "geom:latitude":39.752746,
     "geom:longitude":-104.433171,
@@ -29,19 +34,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929337,
+        102086877,
+        420553325
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2MESFJ0CSS44F8kVkRwyUw_39.752746_-104.433171@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444229,
-    "wof:geomhash":"18f76e9bfbbd365547e14f4b15c48cbf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"253224b37af531b857c74686e5abe21b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929337,
+            "neighbourhood_id":420553325,
+            "region_id":85688603,
+            "venue_id":823699579
+        }
+    ],
     "wof:id":823699579,
-    "wof:lastmodified":1466418518,
+    "wof:lastmodified":1492122451,
     "wof:name":"M L Sales Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553325,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

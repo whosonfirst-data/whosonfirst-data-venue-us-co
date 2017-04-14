@@ -2,9 +2,14 @@
   "id": 839963147,
   "type": "Feature",
   "properties": {
+    "addr:full":"15600 Holly St Brighton CO 80602",
+    "addr:housenumber":"15600",
+    "addr:postcode":"80602",
+    "addr:street":"Holly St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.922029,39.977627,-104.922029,39.977627",
     "geom:latitude":39.977627,
     "geom:longitude":-104.922029,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553441
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0TTHuIL5UGPl4urkdEi8Fw_39.977627_-104.922029@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459732,
-    "wof:geomhash":"01de86163fb81be17e611536f15445a3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"27103726409443cdc659972b7900d814",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553441,
+            "region_id":85688603,
+            "venue_id":839963147
+        }
+    ],
     "wof:id":839963147,
-    "wof:lastmodified":1466415928,
+    "wof:lastmodified":1492111780,
     "wof:name":"Stonehocker Farms LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553441,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

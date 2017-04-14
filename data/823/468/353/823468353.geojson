@@ -2,9 +2,14 @@
   "id": 823468353,
   "type": "Feature",
   "properties": {
+    "addr:full":"315 N Main St Brighton CO 80601",
+    "addr:housenumber":"315",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.819909,39.992079,-104.819909,39.992079",
     "geom:latitude":39.992079,
     "geom:longitude":-104.819909,
@@ -24,19 +29,36 @@
     "sg:postcode":"80601",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1udZXyXMFqbU4ttzauwmZL_39.992079_-104.819909@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438800,
-    "wof:geomhash":"97a96095efa4d3ccae58c34a6e0f990c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e19385b7d013a4d677d1c37f7d1f189",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823468353
+        }
+    ],
     "wof:id":823468353,
-    "wof:lastmodified":1466413489,
+    "wof:lastmodified":1492124544,
     "wof:name":"Las Palomas Miscellaneous",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

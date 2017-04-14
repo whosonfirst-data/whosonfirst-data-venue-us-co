@@ -2,9 +2,14 @@
   "id": 823907735,
   "type": "Feature",
   "properties": {
+    "addr:full":"12376 Rd 29.4 Dolores CO 81323",
+    "addr:housenumber":"12376;29.4",
+    "addr:postcode":"81323",
+    "addr:street":"Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.51071,37.387533,-108.51071,37.387533",
     "geom:latitude":37.387533,
     "geom:longitude":-108.51071,
@@ -27,19 +32,28 @@
         "cabinet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2IcP5gDrngUe4D62JX1Q0R_37.387533_-108.510710@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449665,
-    "wof:geomhash":"075ec1f3560634d3b7338e2479dd13a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"081b2119cf9f536deea45f818fdda5c9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823907735
+        }
+    ],
     "wof:id":823907735,
-    "wof:lastmodified":1466420300,
+    "wof:lastmodified":1492126730,
     "wof:name":"Woodsmith Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

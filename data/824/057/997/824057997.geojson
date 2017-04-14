@@ -2,9 +2,14 @@
   "id": 824057997,
   "type": "Feature",
   "properties": {
+    "addr:full":"2933 S Zenobia St Denver CO 80236",
+    "addr:housenumber":"2933",
+    "addr:postcode":"80236",
+    "addr:street":"S Zenobia St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.051222,39.660687,-105.051222,39.660687",
     "geom:latitude":39.660687,
     "geom:longitude":-105.051222,
@@ -29,7 +34,15 @@
         "washing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0LiCgCOvBXt843fHcUF2O8_39.660687_-105.051222@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463453351,
     "wof:geomhash":"09562c31485944d4b6930bf14c88a9d5",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":824057997
+        }
+    ],
     "wof:id":824057997,
-    "wof:lastmodified":1466414428,
+    "wof:lastmodified":1491876172,
     "wof:name":"A Cute Doggie Do-Salon",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

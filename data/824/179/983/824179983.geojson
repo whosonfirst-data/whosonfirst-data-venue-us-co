@@ -2,9 +2,14 @@
   "id": 824179983,
   "type": "Feature",
   "properties": {
+    "addr:full":"517 2nd St Crested Butte CO 81224",
+    "addr:housenumber":"517",
+    "addr:postcode":"81224",
+    "addr:street":"2Nd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.987486,38.868392,-106.987486,38.868392",
     "geom:latitude":38.868392,
     "geom:longitude":-106.987486,
@@ -28,19 +33,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929655,
+        102083377,
+        420554491,
+        85888321
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_16zJS59iGpa9jPce5zAjIG_38.868392_-106.987486@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457066,
-    "wof:geomhash":"9913db5f9c93cee69a308f5a9c3ac17f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"414fef5dcf243904fbc5503e8083ad60",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554491,
+            "region_id":85688603,
+            "venue_id":824179983
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":85888321,
+            "region_id":85688603,
+            "venue_id":824179983
+        }
+    ],
     "wof:id":824179983,
-    "wof:lastmodified":1466418299,
+    "wof:lastmodified":1492132102,
     "wof:name":"Inside Trim",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

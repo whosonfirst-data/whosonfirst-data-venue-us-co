@@ -2,9 +2,14 @@
   "id": 823691053,
   "type": "Feature",
   "properties": {
+    "addr:full":"2941 20th St Boulder CO 80304",
+    "addr:housenumber":"2941",
+    "addr:postcode":"80304",
+    "addr:street":"20Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.271693,40.028246,-105.271693,40.028246",
     "geom:latitude":40.028246,
     "geom:longitude":-105.271693,
@@ -27,19 +32,36 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_71rX6vzr25gjOWpeMNplnh_40.028246_-105.271693@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444039,
-    "wof:geomhash":"70a8f7250fbd15bc26daa3c231de0646",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5cb6e913746b3ff646a07720ccb27ed3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":823691053
+        }
+    ],
     "wof:id":823691053,
-    "wof:lastmodified":1466418466,
+    "wof:lastmodified":1492123276,
     "wof:name":"Land Stewardship Consulting",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

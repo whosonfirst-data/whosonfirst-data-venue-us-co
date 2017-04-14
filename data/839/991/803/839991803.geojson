@@ -2,9 +2,14 @@
   "id": 839991803,
   "type": "Feature",
   "properties": {
+    "addr:full":"2222 E Main St Cortez CO 81321",
+    "addr:housenumber":"2222",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.554381,37.352281,-108.554381,37.352281",
     "geom:latitude":37.352281,
     "geom:longitude":-108.554381,
@@ -29,19 +34,28 @@
         "chicken"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3vzYto5ZQ9ckLgUcnOpTAN_37.352281_-108.554381@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460877,
-    "wof:geomhash":"b20dab97270a5e5f923cdbce096e95b2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"672415dbe347ce056bbdc8251d19d777",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":839991803
+        }
+    ],
     "wof:id":839991803,
-    "wof:lastmodified":1466417456,
+    "wof:lastmodified":1492111000,
     "wof:name":"KFC - Kentucky Fried Chicken",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

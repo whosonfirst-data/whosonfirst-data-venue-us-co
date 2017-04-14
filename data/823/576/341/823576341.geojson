@@ -2,9 +2,14 @@
   "id": 823576341,
   "type": "Feature",
   "properties": {
+    "addr:full":"14898 E 12th Ave Aurora CO 80011",
+    "addr:housenumber":"14898",
+    "addr:postcode":"80011",
+    "addr:street":"E 12Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81611,39.733281,-104.81611,39.733281",
     "geom:latitude":39.733281,
     "geom:longitude":-104.81611,
@@ -29,19 +34,36 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420559493
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_77tilc97KiYHsGx03kSXBp_39.733281_-104.816110@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441329,
-    "wof:geomhash":"91de350a2f52026edd1c19b94725a0f5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"126744ad10004a6c795e030a22e679ab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420559493,
+            "region_id":85688603,
+            "venue_id":823576341
+        }
+    ],
     "wof:id":823576341,
-    "wof:lastmodified":1466416681,
+    "wof:lastmodified":1492124619,
     "wof:name":"FDS Financial Servicing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559493,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

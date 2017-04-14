@@ -2,9 +2,14 @@
   "id": 823867167,
   "type": "Feature",
   "properties": {
+    "addr:full":"5016 Grosbeak St Brighton CO 80601",
+    "addr:housenumber":"5016",
+    "addr:postcode":"80601",
+    "addr:street":"Grosbeak St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.751985,39.984325,-104.751985,39.984325",
     "geom:latitude":39.984325,
     "geom:longitude":-104.751985,
@@ -28,19 +33,36 @@
         "component"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553455
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2hksO5Cxt7q5ATJ1TvdUUa_39.984325_-104.751985@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448674,
-    "wof:geomhash":"faa857d3305ec18d8a682dbe3225c060",
-    "wof:hierarchy":[],
+    "wof:geomhash":"322b96d2b28ade83881d228c81274c8b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553455,
+            "region_id":85688603,
+            "venue_id":823867167
+        }
+    ],
     "wof:id":823867167,
-    "wof:lastmodified":1466420032,
+    "wof:lastmodified":1492123600,
     "wof:name":"Material Resource LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553455,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

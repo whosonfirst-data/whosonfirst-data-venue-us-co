@@ -2,9 +2,14 @@
   "id": 823620305,
   "type": "Feature",
   "properties": {
+    "addr:full":"278 Co Rd 500 Bayfield CO 81122",
+    "addr:housenumber":"278;500",
+    "addr:postcode":"bayfield;81122",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.560651,37.453048,-107.560651,37.453048",
     "geom:latitude":37.453048,
     "geom:longitude":-107.560651,
@@ -28,19 +33,28 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554683
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5gsGilGa9lctwD4C1LPwGp_37.453048_-107.560651@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442407,
-    "wof:geomhash":"9c693caa8b1656aa910d7e58a07f4660",
-    "wof:hierarchy":[],
+    "wof:geomhash":"03716fa6238073673e76e130bbb6e338",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554683,
+            "venue_id":823620305
+        }
+    ],
     "wof:id":823620305,
-    "wof:lastmodified":1466417450,
+    "wof:lastmodified":1492124017,
     "wof:name":"Prindel Brothers LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554683,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

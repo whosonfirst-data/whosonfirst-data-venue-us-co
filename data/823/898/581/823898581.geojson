@@ -2,9 +2,14 @@
   "id": 823898581,
   "type": "Feature",
   "properties": {
+    "addr:full":"560 Malley Dr Denver CO 80233",
+    "addr:housenumber":"560",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980305,39.902941,-104.980305,39.902941",
     "geom:latitude":39.902941,
     "geom:longitude":-104.980305,
@@ -27,19 +32,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00FM87tS0TrNkOIxbLLm5X_39.902941_-104.980305@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449414,
-    "wof:geomhash":"e10edbde2edb8f2c14636e6f61b6c889",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53645c4a2e47c9ed5c7b0f0bb27ed15f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":823898581
+        }
+    ],
     "wof:id":823898581,
-    "wof:lastmodified":1466420472,
+    "wof:lastmodified":1492123534,
     "wof:name":"Dollar Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

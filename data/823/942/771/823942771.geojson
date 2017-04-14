@@ -2,9 +2,14 @@
   "id": 823942771,
   "type": "Feature",
   "properties": {
+    "addr:full":"112 Centennial Dr Milliken CO 80543",
+    "addr:housenumber":"112",
+    "addr:postcode":"80543",
+    "addr:street":"Centennial Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.833541,40.327737,-104.833541,40.327737",
     "geom:latitude":40.327737,
     "geom:longitude":-104.833541,
@@ -28,19 +33,28 @@
         "swimming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555415
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_27GClZ68yu7whDdkb2MUa6_40.327737_-104.833541@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450586,
-    "wof:geomhash":"e5a88be74e83673b39504cd3c3bf28e3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7be1d33affece96cd3af71ab665d082a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555415,
+            "venue_id":823942771
+        }
+    ],
     "wof:id":823942771,
-    "wof:lastmodified":1466420604,
+    "wof:lastmodified":1492116636,
     "wof:name":"Millikan Water Works Pool",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555415,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

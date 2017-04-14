@@ -2,9 +2,14 @@
   "id": 823889945,
   "type": "Feature",
   "properties": {
+    "addr:full":"200 E State St Carbondale CO 81623",
+    "addr:housenumber":"200",
+    "addr:postcode":"81623",
+    "addr:street":"E State St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.185313,39.071034,-107.185313,39.071034",
     "geom:latitude":39.071034,
     "geom:longitude":-107.185313,
@@ -28,19 +33,36 @@
         "tour"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929663,
+        102083377,
+        420554353
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4GanUuOyryM26qt3zwkqqV_39.071034_-107.185313@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449207,
-    "wof:geomhash":"00b0b67b872bbea4e278e901d6235ae0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1228d049e34a842bd2a19e838e972621",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929663,
+            "neighbourhood_id":420554353,
+            "region_id":85688603,
+            "venue_id":823889945
+        }
+    ],
     "wof:id":823889945,
-    "wof:lastmodified":1466420190,
+    "wof:lastmodified":1492127551,
     "wof:name":"Crystal River Jeep Tours",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554353,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

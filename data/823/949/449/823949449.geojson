@@ -2,9 +2,14 @@
   "id": 823949449,
   "type": "Feature",
   "properties": {
+    "addr:full":"2673 Westchester Dr Denver CO 80221",
+    "addr:housenumber":"2673",
+    "addr:postcode":"80221",
+    "addr:street":"Westchester Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.017405,39.835561,-105.017405,39.835561",
     "geom:latitude":39.835561,
     "geom:longitude":-105.017405,
@@ -27,19 +32,36 @@
         "processing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553663
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Kzh8XbdjQXmEO2qL50VQq_39.835561_-105.017405@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450766,
-    "wof:geomhash":"e4f8d776b196d6f53f1322e424897f44",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ce8bd7ae562ec788d4292f9fa21ccb13",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553663,
+            "region_id":85688603,
+            "venue_id":823949449
+        }
+    ],
     "wof:id":823949449,
-    "wof:lastmodified":1466420638,
+    "wof:lastmodified":1492119743,
     "wof:name":"JFA Electronic Claim Prcssng",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553663,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823987817,
   "type": "Feature",
   "properties": {
+    "addr:full":"305 E Main St Cortez CO 81321",
+    "addr:housenumber":"305",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.58117,37.348602,-108.58117,37.348602",
     "geom:latitude":37.348602,
     "geom:longitude":-108.58117,
@@ -28,19 +33,36 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7G9oZe34UZ8qE2ehHzk7NK_37.348602_-108.581170@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451666,
-    "wof:geomhash":"0f019e972f38a27a591ccf54d18f0e81",
-    "wof:hierarchy":[],
+    "wof:geomhash":"08abd7f1bde8ef474921bb41cc7e0713",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823987817
+        }
+    ],
     "wof:id":823987817,
-    "wof:lastmodified":1466421020,
+    "wof:lastmodified":1492125399,
     "wof:name":"Casita Mortgage Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

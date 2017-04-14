@@ -2,9 +2,14 @@
   "id": 823965581,
   "type": "Feature",
   "properties": {
+    "addr:full":"14105 Co Rd 2 Brighton CO 80601",
+    "addr:housenumber":"14105",
+    "addr:postcode":"80601",
+    "addr:street":"Co Rd 2",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.821698,40.000334,-104.821698,40.000334",
     "geom:latitude":40.000334,
     "geom:longitude":-104.821698,
@@ -27,19 +32,28 @@
         "septic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2TJkE5W3ufZFLNrAYh9SQc_40.000334_-104.821698@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451150,
-    "wof:geomhash":"4f060fefcefcc936f2958b721c3c5b15",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d2bef2a3a232858f0b6f4896296e1553",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":823965581
+        }
+    ],
     "wof:id":823965581,
-    "wof:lastmodified":1466421036,
+    "wof:lastmodified":1492126083,
     "wof:name":"Carlson Sanitation Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555409,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

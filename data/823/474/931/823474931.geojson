@@ -2,9 +2,14 @@
   "id": 823474931,
   "type": "Feature",
   "properties": {
+    "addr:full":"300 W New York Ave Gunnison CO 81230",
+    "addr:housenumber":"300",
+    "addr:postcode":"81230",
+    "addr:street":"W New York Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.930871,38.542965,-106.930871,38.542965",
     "geom:latitude":38.542965,
     "geom:longitude":-106.930871,
@@ -27,19 +32,36 @@
         "state"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554465
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2mUtxNQdHJ4JzOfOEteBfm_38.542965_-106.930871@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438950,
-    "wof:geomhash":"c4250e12cd9cde2dcb96a0bdc93c7820",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a2d1fc44625ad2a3d45d4b526b035e9e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554465,
+            "region_id":85688603,
+            "venue_id":823474931
+        }
+    ],
     "wof:id":823474931,
-    "wof:lastmodified":1466412793,
+    "wof:lastmodified":1492125930,
     "wof:name":"Wildlife Division",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554465,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

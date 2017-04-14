@@ -2,9 +2,14 @@
   "id": 823658915,
   "type": "Feature",
   "properties": {
+    "addr:full":"5269 E 114th Pl Denver CO 80233",
+    "addr:housenumber":"5269",
+    "addr:postcode":"80233",
+    "addr:street":"E 114Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.92644,39.90383,-104.92644,39.90383",
     "geom:latitude":39.90383,
     "geom:longitude":-104.92644,
@@ -29,19 +34,36 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553709
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3rGC8B2JDfanSF8sRrBO5x_39.903830_-104.926440@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443298,
-    "wof:geomhash":"bf018b00ea61560c0b9a37226f593ba5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"57b902ed95199bd2661f887395110398",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553709,
+            "region_id":85688603,
+            "venue_id":823658915
+        }
+    ],
     "wof:id":823658915,
-    "wof:lastmodified":1466418147,
+    "wof:lastmodified":1492120251,
     "wof:name":"Attebery Investments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553709,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

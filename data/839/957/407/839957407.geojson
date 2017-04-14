@@ -2,9 +2,14 @@
   "id": 839957407,
   "type": "Feature",
   "properties": {
+    "addr:full":"170 S Main St Brighton CO 80601",
+    "addr:housenumber":"170",
+    "addr:postcode":"80601",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.822039,39.98495,-104.822039,39.98495",
     "geom:latitude":39.98495,
     "geom:longitude":-104.822039,
@@ -28,19 +33,36 @@
         "tire"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4P2yPFGPX2kclknCHHT47m_39.984950_-104.822039@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459514,
-    "wof:geomhash":"ab0007c972737a707e9850bd624e04e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c50b235835845009b0f30c92d50db358",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":839957407
+        }
+    ],
     "wof:id":839957407,
-    "wof:lastmodified":1466415460,
+    "wof:lastmodified":1492112472,
     "wof:name":"Coys Racing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

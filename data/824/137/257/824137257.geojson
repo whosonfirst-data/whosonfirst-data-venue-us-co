@@ -2,9 +2,14 @@
   "id": 824137257,
   "type": "Feature",
   "properties": {
+    "addr:full":"1001 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"1001",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.809808,39.986775,-104.809808,39.986775",
     "geom:latitude":39.986775,
     "geom:longitude":-104.809808,
@@ -24,19 +29,36 @@
     "sg:postcode":"80601",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5hIBaQzxBaM2vldhs76A3b_39.986775_-104.809808@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455411,
-    "wof:geomhash":"2605becbb325c07b192c1772c6241976",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c7f70a07c1484e65745d45cbd726e59d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":824137257
+        }
+    ],
     "wof:id":824137257,
-    "wof:lastmodified":1466416185,
+    "wof:lastmodified":1492129786,
     "wof:name":"Brighton Eye Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

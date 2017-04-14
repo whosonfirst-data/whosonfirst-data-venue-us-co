@@ -2,9 +2,14 @@
   "id": 824083301,
   "type": "Feature",
   "properties": {
+    "addr:full":"5781 W 114th Pl Broomfield CO 80020",
+    "addr:housenumber":"5781",
+    "addr:postcode":"80020",
+    "addr:street":"W 114Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059872,39.904047,-105.059872,39.904047",
     "geom:latitude":39.904047,
     "geom:longitude":-105.059872,
@@ -27,19 +32,36 @@
         "operator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_22wgNe7Yi5SBUkDAQ5TqQG_39.904047_-105.059872@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453928,
-    "wof:geomhash":"b27caf61ab45eaedf8d2cbcd392aba00",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ac4d52e3bb8c16447d72c4a7f6df02db",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":824083301
+        }
+    ],
     "wof:id":824083301,
-    "wof:lastmodified":1466414787,
+    "wof:lastmodified":1492129678,
     "wof:name":"Boulder Vending Services LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

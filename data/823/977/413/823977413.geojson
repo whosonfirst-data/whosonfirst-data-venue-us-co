@@ -2,9 +2,14 @@
   "id": 823977413,
   "type": "Feature",
   "properties": {
+    "addr:full":"11440 Inspiration Rd Golden CO 80403",
+    "addr:housenumber":"11440",
+    "addr:postcode":"80403",
+    "addr:street":"Inspiration Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.370289,39.9054,-105.370289,39.9054",
     "geom:latitude":39.9054,
     "geom:longitude":-105.370289,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929919,
+        102084113,
+        420554589
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6y3Kr9LU4A7Mw1r5lvw7aq_39.905400_-105.370289@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451408,
-    "wof:geomhash":"03c326655806db0f2edf86ca6982b52f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"102f203fc06d1f10fadc29ecf16f1b44",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929919,
+            "neighbourhood_id":420554589,
+            "region_id":85688603,
+            "venue_id":823977413
+        }
+    ],
     "wof:id":823977413,
-    "wof:lastmodified":1466420873,
+    "wof:lastmodified":1492125499,
     "wof:name":"Select Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554589,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

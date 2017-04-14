@@ -2,9 +2,14 @@
   "id": 824005549,
   "type": "Feature",
   "properties": {
+    "addr:full":"312 Terry St Longmont CO 80501",
+    "addr:housenumber":"312",
+    "addr:postcode":"80501",
+    "addr:street":"Terry St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.105094,40.165513,-105.105094,40.165513",
     "geom:latitude":40.165513,
     "geom:longitude":-105.105094,
@@ -27,17 +32,32 @@
         "historical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0N8yZIp0ztvw13MnFU9mBr_40.165513_-105.105094@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452109,
-    "wof:geomhash":"b65b5a64325b0c58a45fc3a31a38b324",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cc6be9ee30a95067321e57e7ec88a6a0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":824005549
+        }
+    ],
     "wof:id":824005549,
-    "wof:lastmodified":1466412509,
+    "wof:lastmodified":1492129720,
     "wof:name":"St Vrain Historical Society",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

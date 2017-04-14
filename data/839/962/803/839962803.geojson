@@ -2,9 +2,14 @@
   "id": 839962803,
   "type": "Feature",
   "properties": {
+    "addr:full":"2023 17th St Boulder CO 80302",
+    "addr:housenumber":"2023",
+    "addr:postcode":"80302",
+    "addr:street":"17Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.273789,40.020004,-105.273789,40.020004",
     "geom:latitude":40.020004,
     "geom:longitude":-105.273789,
@@ -24,7 +29,14 @@
     "sg:postcode":"80302",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Kagfi1lQj8IrUGDNhm9Lb_40.020004_-105.273789@1294083659"
@@ -32,11 +44,21 @@
     "wof:country":"US",
     "wof:created":1463459720,
     "wof:geomhash":"211c84e6f19645059a9cb780aac3a600",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":839962803
+        }
+    ],
     "wof:id":839962803,
-    "wof:lastmodified":1466415885,
+    "wof:lastmodified":1491888496,
     "wof:name":"Global Family Chiropractic",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823788465,
   "type": "Feature",
   "properties": {
+    "addr:full":"9368 Mineral Rd Longmont CO 80503",
+    "addr:housenumber":"9368",
+    "addr:postcode":"80503",
+    "addr:street":"Mineral Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.140978,40.087305,-105.140978,40.087305",
     "geom:latitude":40.087305,
     "geom:longitude":-105.140978,
@@ -26,9 +31,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85895963,
-        102085251
+        85930703,
+        102085251,
+        420554073,
+        85895963
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -36,8 +44,17 @@
     },
     "wof:country":"US",
     "wof:created":1463446377,
-    "wof:geomhash":"eeb73287d9bd72ad44f9bb597e1b204e",
+    "wof:geomhash":"2b0bcbe2e3f561bd694b5ca634695ef1",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554073,
+            "region_id":85688603,
+            "venue_id":823788465
+        },
         {
             "country_id":85633793,
             "county_id":102085251,
@@ -47,9 +64,9 @@
         }
     ],
     "wof:id":823788465,
-    "wof:lastmodified":1466419269,
+    "wof:lastmodified":1492117578,
     "wof:name":"Deborah M Turungian",
-    "wof:parent_id":85895963,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

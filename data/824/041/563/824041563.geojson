@@ -2,9 +2,14 @@
   "id": 824041563,
   "type": "Feature",
   "properties": {
+    "addr:full":"742 Lincoln Pl Boulder CO 80302",
+    "addr:housenumber":"742",
+    "addr:postcode":"80302",
+    "addr:street":"Lincoln Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281023,40.00108,-105.281023,40.00108",
     "geom:latitude":40.00108,
     "geom:longitude":-105.281023,
@@ -27,19 +32,32 @@
         "investor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876365,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6UspBWm4krqxOK4PO6Z9RD_40.001080_-105.281023@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452963,
-    "wof:geomhash":"7d782ad7fdc50233f225e1fac7c663be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0247fb8e1e1c406d20a863c4c1043449",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876365,
+            "region_id":85688603,
+            "venue_id":824041563
+        }
+    ],
     "wof:id":824041563,
-    "wof:lastmodified":1466414071,
+    "wof:lastmodified":1492133116,
     "wof:name":"Home Investment Team LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

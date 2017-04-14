@@ -2,9 +2,14 @@
   "id": 824052091,
   "type": "Feature",
   "properties": {
+    "addr:full":"1333 W 120th Ave Denver CO 80234",
+    "addr:housenumber":"1333",
+    "addr:postcode":"80234",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.002983,39.914141,-105.002983,39.914141",
     "geom:latitude":39.914141,
     "geom:longitude":-105.002983,
@@ -35,19 +40,36 @@
     ],
     "sg:website":"www.tekinc.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Xj4uraKA0CNPjWUzczljg_39.914141_-105.002983@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453213,
-    "wof:geomhash":"0a7c742e1394a3af74b4427dba091e89",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb6fe6c9c978b04e2beb301cbeb72fe3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":824052091
+        }
+    ],
     "wof:id":824052091,
-    "wof:lastmodified":1466414127,
+    "wof:lastmodified":1492130498,
     "wof:name":"Tek Consulting Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823476243,
   "type": "Feature",
   "properties": {
+    "addr:full":"1101 Belford Ave Grand Junction CO 81501",
+    "addr:housenumber":"1101",
+    "addr:postcode":"81501",
+    "addr:street":"Belford Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.552386,39.076371,-108.552386,39.076371",
     "geom:latitude":39.076371,
     "geom:longitude":-108.552386,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1vJDbBhAHfq8ZftTIi2edB_39.076371_-108.552386@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438982,
-    "wof:geomhash":"9aec5653515070d02280e0875a56a04a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f72273b7985d57c5dd52f86fed564b7c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":823476243
+        }
+    ],
     "wof:id":823476243,
-    "wof:lastmodified":1466412942,
+    "wof:lastmodified":1492127499,
     "wof:name":"Style Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

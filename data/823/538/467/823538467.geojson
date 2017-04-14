@@ -2,9 +2,14 @@
   "id": 823538467,
   "type": "Feature",
   "properties": {
+    "addr:full":"724 Planet Pl Denver CO 80260",
+    "addr:housenumber":"724",
+    "addr:postcode":"80260",
+    "addr:street":"Planet Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996068,39.853776,-104.996068,39.853776",
     "geom:latitude":39.853776,
     "geom:longitude":-104.996068,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553865
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Z0DlaGeYOv3TSz3TyKA4q_39.853776_-104.996068@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440434,
-    "wof:geomhash":"50835c7c49893cab9ab3c78328591598",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7a1e74c885dc1b0b422a657431594e57",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553865,
+            "region_id":85688603,
+            "venue_id":823538467
+        }
+    ],
     "wof:id":823538467,
-    "wof:lastmodified":1466415712,
+    "wof:lastmodified":1492116444,
     "wof:name":"George Keathley Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553865,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

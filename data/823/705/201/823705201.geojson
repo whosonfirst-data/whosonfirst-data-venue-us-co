@@ -2,9 +2,14 @@
   "id": 823705201,
   "type": "Feature",
   "properties": {
+    "addr:full":"238 N Main St Brighton CO 80601",
+    "addr:housenumber":"238",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.820417,39.990029,-104.820417,39.990029",
     "geom:latitude":39.990029,
     "geom:longitude":-104.820417,
@@ -30,19 +35,36 @@
         "cassette"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5gPH0MLZAjrUkX71qY0mz6_39.990029_-104.820417@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444341,
-    "wof:geomhash":"e375252b2f16f448162c52a2c0f106e4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1b2975173e4ec2e10b145c16f68faaa7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823705201
+        }
+    ],
     "wof:id":823705201,
-    "wof:lastmodified":1466418563,
+    "wof:lastmodified":1492116916,
     "wof:name":"El Azteca Video",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

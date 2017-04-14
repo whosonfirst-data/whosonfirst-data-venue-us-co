@@ -2,9 +2,14 @@
   "id": 823565179,
   "type": "Feature",
   "properties": {
+    "addr:full":"902 Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"902",
+    "addr:postcode":"80621",
+    "addr:street":"Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810462,40.088017,-104.810462,40.088017",
     "geom:latitude":40.088017,
     "geom:longitude":-104.810462,
@@ -27,19 +32,28 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0zICOGyL5N98AjToelIRMa_40.088017_-104.810462@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441066,
-    "wof:geomhash":"6cacd519f9166ae6e60860c340c94db0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"01bf743459275faa2fb6f91d92f0fbde",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823565179
+        }
+    ],
     "wof:id":823565179,
-    "wof:lastmodified":1466416153,
+    "wof:lastmodified":1492119234,
     "wof:name":"Brothers Appliance Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

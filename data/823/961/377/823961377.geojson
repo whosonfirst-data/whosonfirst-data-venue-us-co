@@ -2,9 +2,14 @@
   "id": 823961377,
   "type": "Feature",
   "properties": {
+    "addr:full":"2808 Harvard St Fort Collins CO 80525",
+    "addr:housenumber":"2808",
+    "addr:postcode":"80525",
+    "addr:street":"Harvard St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.075777,40.548776,-105.075777,40.548776",
     "geom:latitude":40.548776,
     "geom:longitude":-105.075777,
@@ -27,19 +32,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554753
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1gtKGMoviQz8Krioy9h8Lw_40.548776_-105.075777@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451059,
-    "wof:geomhash":"11dfae5fb6b8fd803b7223ac3a5f81de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4840cbc49f2d7ac3acee01ac57151b45",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554753,
+            "region_id":85688603,
+            "venue_id":823961377
+        }
+    ],
     "wof:id":823961377,
-    "wof:lastmodified":1466420721,
+    "wof:lastmodified":1492119500,
     "wof:name":"Amsoil Synthetic Lubricants",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554753,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

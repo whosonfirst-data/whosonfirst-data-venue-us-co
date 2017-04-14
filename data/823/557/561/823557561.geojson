@@ -2,9 +2,14 @@
   "id": 823557561,
   "type": "Feature",
   "properties": {
+    "addr:full":"11355 Downing Dr Denver CO 80233",
+    "addr:housenumber":"11355",
+    "addr:postcode":"80233",
+    "addr:street":"Downing Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.975604,39.902192,-104.975604,39.902192",
     "geom:latitude":39.902192,
     "geom:longitude":-104.975604,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Up3hgOVxOQG3ujjDWltfi_39.902192_-104.975604@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440878,
-    "wof:geomhash":"7b7ae5cdc587a4de504e55fbf1e02e3d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a29b05dee044b6b4c5b6dc245e994e10",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823557561
+        }
+    ],
     "wof:id":823557561,
-    "wof:lastmodified":1466416068,
+    "wof:lastmodified":1492124788,
     "wof:name":"Custom Komfort LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

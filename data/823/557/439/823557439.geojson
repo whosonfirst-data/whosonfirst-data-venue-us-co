@@ -2,9 +2,14 @@
   "id": 823557439,
   "type": "Feature",
   "properties": {
+    "addr:full":"1600 Iris Ave Boulder CO 80304",
+    "addr:housenumber":"1600",
+    "addr:postcode":"80304",
+    "addr:street":"Iris Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276158,40.036392,-105.276158,40.036392",
     "geom:latitude":40.036392,
     "geom:longitude":-105.276158,
@@ -35,6 +40,7 @@
         85633793,
         85929877,
         102085251,
+        85876403,
         85876459
     ],
     "wof:breaches":[],
@@ -43,8 +49,17 @@
     },
     "wof:country":"US",
     "wof:created":1463440876,
-    "wof:geomhash":"1047b4190895281ca287b8f7b5ea55c1",
+    "wof:geomhash":"edda6403be76da615417d00a33fc2a89",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876403,
+            "region_id":85688603,
+            "venue_id":823557439
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -56,9 +71,9 @@
         }
     ],
     "wof:id":823557439,
-    "wof:lastmodified":1466416125,
+    "wof:lastmodified":1492124790,
     "wof:name":"North Boulder Little League",
-    "wof:parent_id":85876459,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

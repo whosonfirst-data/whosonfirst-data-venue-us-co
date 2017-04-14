@@ -2,9 +2,14 @@
   "id": 823873811,
   "type": "Feature",
   "properties": {
+    "addr:full":"902 N Erie Ave Pueblo CO 81001",
+    "addr:housenumber":"902",
+    "addr:postcode":"81001",
+    "addr:street":"N Erie Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.599852,38.27547,-104.599852,38.27547",
     "geom:latitude":38.27547,
     "geom:longitude":-104.599852,
@@ -27,17 +32,32 @@
         "state"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0D2CK1AZDqUMqjtcrozaTc_38.275470_-104.599852@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448821,
-    "wof:geomhash":"db08dbd69510db82241a875f9be1b49d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"372860040b9941f5ed1a3a8a3d8fcba7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823873811
+        }
+    ],
     "wof:id":823873811,
-    "wof:lastmodified":1466419991,
+    "wof:lastmodified":1492120466,
     "wof:name":"Colorado State Patrol",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

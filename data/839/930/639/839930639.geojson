@@ -2,9 +2,14 @@
   "id": 839930639,
   "type": "Feature",
   "properties": {
+    "addr:full":"20 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"20",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.989569,39.913844,-104.989569,39.913844",
     "geom:latitude":39.913844,
     "geom:longitude":-104.989569,
@@ -28,19 +33,36 @@
         "gasoline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553905
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0bhJGF0tSKnBSuqmwvvLii_39.913844_-104.989569@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458010,
-    "wof:geomhash":"2af1bedf64c3b633f8b705b419c99579",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bad997a550638089e99f4c3899d84079",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553905,
+            "region_id":85688603,
+            "venue_id":839930639
+        }
+    ],
     "wof:id":839930639,
-    "wof:lastmodified":1466414112,
+    "wof:lastmodified":1492112248,
     "wof:name":"Sinclair Oil Corporation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553905,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

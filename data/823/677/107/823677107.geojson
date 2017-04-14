@@ -2,9 +2,14 @@
   "id": 823677107,
   "type": "Feature",
   "properties": {
+    "addr:full":"2888 W 64th Ave Denver CO 80221",
+    "addr:housenumber":"2888",
+    "addr:postcode":"80221",
+    "addr:street":"W 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.021714,39.812748,-105.021714,39.812748",
     "geom:latitude":39.812748,
     "geom:longitude":-105.021714,
@@ -24,19 +29,36 @@
     "sg:postcode":"80221",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5rTlAgZXLOBZ26QeeS0PwX_39.812748_-105.021714@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443726,
-    "wof:geomhash":"89264bd28657270792c892836937fa7c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f290657070f7d101e03288be70cc1da",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553657,
+            "region_id":85688603,
+            "venue_id":823677107
+        }
+    ],
     "wof:id":823677107,
-    "wof:lastmodified":1466418333,
+    "wof:lastmodified":1492126475,
     "wof:name":"Web Service Co Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553657,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

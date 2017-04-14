@@ -2,9 +2,14 @@
   "id": 824129759,
   "type": "Feature",
   "properties": {
+    "addr:full":"1226 E 111th Pl Denver CO 80233",
+    "addr:housenumber":"1226",
+    "addr:postcode":"80233",
+    "addr:street":"E 111Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.968248,39.898708,-104.968248,39.898708",
     "geom:latitude":39.898708,
     "geom:longitude":-104.968248,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1wC3zJ5eZE7mH82rP26ycI_39.898708_-104.968248@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455129,
-    "wof:geomhash":"9e992661660ec6899153c1a0f6fe353c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c987ce0fa8ab8c571a313af4af30f83",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":824129759
+        }
+    ],
     "wof:id":824129759,
-    "wof:lastmodified":1466416060,
+    "wof:lastmodified":1492131724,
     "wof:name":"Walter S Mechanical",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

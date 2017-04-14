@@ -2,9 +2,14 @@
   "id": 823672005,
   "type": "Feature",
   "properties": {
+    "addr:full":"13250 US Hwy 40 Hayden CO 81639",
+    "addr:housenumber":"13250",
+    "addr:postcode":"81639",
+    "addr:street":"Us Hwy 40",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.183699,40.495098,-107.183699,40.495098",
     "geom:latitude":40.495098,
     "geom:longitude":-107.183699,
@@ -27,19 +32,28 @@
         "ranch"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555313
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7UuiydFiDDJF2lfSZCtztm_40.495098_-107.183699@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443618,
-    "wof:geomhash":"fb3db7b9795162f329f5d28e65856991",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf79a10069ab7d21b9797e4207b9b269",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555313,
+            "venue_id":823672005
+        }
+    ],
     "wof:id":823672005,
-    "wof:lastmodified":1466418295,
+    "wof:lastmodified":1492124706,
     "wof:name":"Carpenter Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555313,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

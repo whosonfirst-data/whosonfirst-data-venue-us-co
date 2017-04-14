@@ -2,9 +2,14 @@
   "id": 823938331,
   "type": "Feature",
   "properties": {
+    "addr:full":"70 W Bridge St Brighton CO 80601",
+    "addr:housenumber":"70",
+    "addr:postcode":"80601",
+    "addr:street":"W Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.822053,39.986746,-104.822053,39.986746",
     "geom:latitude":39.986746,
     "geom:longitude":-104.822053,
@@ -29,19 +34,36 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6NmbPpW8kDmaBzuqY8ED52_39.986746_-104.822053@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450483,
-    "wof:geomhash":"0312e8a8fb5c4caf61b9ff04ff3b0ce4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4ce35a408fbba6e67838f0ba8511b353",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823938331
+        }
+    ],
     "wof:id":823938331,
-    "wof:lastmodified":1466420665,
+    "wof:lastmodified":1492116504,
     "wof:name":"Brighton Sinclair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

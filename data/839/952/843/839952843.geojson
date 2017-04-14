@@ -2,9 +2,14 @@
   "id": 839952843,
   "type": "Feature",
   "properties": {
+    "addr:full":"9979 W Appletree Pl Denver CO 80260",
+    "addr:housenumber":"9979",
+    "addr:postcode":"80260",
+    "addr:street":"W Appletree Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.004503,39.878615,-105.004503,39.878615",
     "geom:latitude":39.878615,
     "geom:longitude":-105.004503,
@@ -28,19 +33,47 @@
         "drum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787,
+        85929127,
+        420553869
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4PPwTDh1u2mF1nTkUd5FMa_39.878615_-105.004503@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459261,
-    "wof:geomhash":"5d587d6c0ed7e6eb4d8ade12b042f013",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d47231d9153f36baf105bbe4b54ea945",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":839952843
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553869,
+            "region_id":85688603,
+            "venue_id":839952843
+        }
+    ],
     "wof:id":839952843,
-    "wof:lastmodified":1466415498,
+    "wof:lastmodified":1492111950,
     "wof:name":"Hyland Industries-Frontier",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823940835,
   "type": "Feature",
   "properties": {
+    "addr:full":"1771 W 72nd Ave Denver CO 80221",
+    "addr:housenumber":"1771",
+    "addr:postcode":"80221",
+    "addr:street":"W 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.008563,39.827367,-105.008563,39.827367",
     "geom:latitude":39.827367,
     "geom:longitude":-105.008563,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3NKz2gBVnz7caNoXDg4jXU_39.827367_-105.008563@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450542,
-    "wof:geomhash":"e0e9e713d98b040bea9269df69817f41",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9e2cac777eca0a30ff3c8a6743b5685c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":823940835
+        }
+    ],
     "wof:id":823940835,
-    "wof:lastmodified":1466420582,
+    "wof:lastmodified":1492126231,
     "wof:name":"Ricardo Amparan R Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823763507,
   "type": "Feature",
   "properties": {
+    "addr:full":"3920 Horseshoe Dr Strasburg CO 80136",
+    "addr:housenumber":"3920",
+    "addr:postcode":"80136",
+    "addr:street":"Horseshoe Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.371913,39.768906,-104.371913,39.768906",
     "geom:latitude":39.768906,
     "geom:longitude":-104.371913,
@@ -33,19 +38,36 @@
         "whole"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4khsUsUE7fZUTsjeT0QnsL_39.768906_-104.371913@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445690,
-    "wof:geomhash":"00a58b35dd558516363e03e49fceef86",
-    "wof:hierarchy":[],
+    "wof:geomhash":"427ddce2b27b2752a5639cd06e6f3004",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823763507
+        }
+    ],
     "wof:id":823763507,
-    "wof:lastmodified":1466419052,
+    "wof:lastmodified":1492123175,
     "wof:name":"Krey Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 320383613,
   "type": "Feature",
   "properties": {
+    "addr:full":"2345 S Platte River Drive Denver CO 80223",
+    "addr:housenumber":"2345",
+    "addr:postcode":"80223",
+    "addr:street":"S Platte River Drive",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.998086,39.674031,-104.998086,39.674031",
     "geom:latitude":39.674031,
     "geom:longitude":-104.998086,
@@ -25,32 +30,48 @@
     "sg:province":"CO",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        85811833,
+        102191575,
+        1108750033,
         85633793,
         85928879,
-        102086135
+        102086135,
+        85688603,
+        85929829,
+        102086877,
+        420553955
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3RAn1mzFrAeUZOsbLBghPb_39.674031_-104.998086@1303263091"
     },
     "wof:country":"US",
-    "wof:geomhash":"e32dcc790337a79fb50034a87797bb39",
+    "wof:geomhash":"062967942e8b015b11c32513933dae77",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":-1,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":320383613
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
             "region_id":85688603,
             "venue_id":320383613
         }
     ],
     "wof:id":320383613,
-    "wof:lastmodified":1466413210,
+    "wof:lastmodified":1492115172,
     "wof:name":"Pete's Landscaping",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

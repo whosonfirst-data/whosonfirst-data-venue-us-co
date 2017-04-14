@@ -2,9 +2,14 @@
   "id": 823481403,
   "type": "Feature",
   "properties": {
+    "addr:full":"3935 Caddo Pkwy Boulder CO 80303",
+    "addr:housenumber":"3935",
+    "addr:postcode":"80303",
+    "addr:street":"Caddo Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.242592,39.99643,-105.242592,39.99643",
     "geom:latitude":39.99643,
     "geom:longitude":-105.242592,
@@ -27,19 +32,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554147
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3AfvrcyvRLbZlxr0Bh542J_39.996430_-105.242592@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439106,
-    "wof:geomhash":"96f25bfa0a3bafcf182b4e6b3a59a273",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5eee251f99907846e3c70a21e5f3bd8f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554147,
+            "region_id":85688603,
+            "venue_id":823481403
+        }
+    ],
     "wof:id":823481403,
-    "wof:lastmodified":1466413540,
+    "wof:lastmodified":1492120361,
     "wof:name":"Project Integration",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554147,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

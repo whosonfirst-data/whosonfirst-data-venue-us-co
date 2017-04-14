@@ -2,9 +2,14 @@
   "id": 823740043,
   "type": "Feature",
   "properties": {
+    "addr:full":"12126 Grape St Denver CO 80241",
+    "addr:housenumber":"12126",
+    "addr:postcode":"80241",
+    "addr:street":"Grape St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.924228,39.916206,-104.924228,39.916206",
     "geom:latitude":39.916206,
     "geom:longitude":-104.924228,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553661
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4FnOY3dmh95EcPstf9bsUG_39.916206_-104.924228@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445159,
-    "wof:geomhash":"25eaa9c8da301de496267ae675a132c0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f8701610b03455a1ec371de254271815",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553661,
+            "region_id":85688603,
+            "venue_id":823740043
+        }
+    ],
     "wof:id":823740043,
-    "wof:lastmodified":1466418826,
+    "wof:lastmodified":1492122331,
     "wof:name":"Ramiro Gonzalez Siding",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553661,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

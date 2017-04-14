@@ -2,9 +2,14 @@
   "id": 823738111,
   "type": "Feature",
   "properties": {
+    "addr:full":"642 Main St Ouray CO 81427",
+    "addr:housenumber":"642",
+    "addr:postcode":"81427",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.671581,38.023408,-107.671581,38.023408",
     "geom:latitude":38.023408,
     "geom:longitude":-107.671581,
@@ -28,17 +33,32 @@
         "post"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929649,
+        102085219
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0a1TJhtMRCcyqDHo97oFkI_38.023408_-107.671581@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445114,
-    "wof:geomhash":"d1f229ec2dabcee12e9c3920093cf403",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cf8649d70e2a1e8703914b9ce4c4892a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085219,
+            "locality_id":85929649,
+            "region_id":85688603,
+            "venue_id":823738111
+        }
+    ],
     "wof:id":823738111,
-    "wof:lastmodified":1466418902,
+    "wof:lastmodified":1492125007,
     "wof:name":"Rocky Mountain Scenics",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

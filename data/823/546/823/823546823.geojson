@@ -2,9 +2,14 @@
   "id": 823546823,
   "type": "Feature",
   "properties": {
+    "addr:full":"710 Eppinger Blvd Denver CO 80229",
+    "addr:housenumber":"710",
+    "addr:postcode":"80229",
+    "addr:street":"Eppinger Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977214,39.86392,-104.977214,39.86392",
     "geom:latitude":39.86392,
     "geom:longitude":-104.977214,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3qJLE2pf8W2No0NXqSMn0s_39.863920_-104.977214@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440627,
-    "wof:geomhash":"92bd9ae3d63b1a77be65c3c037310556",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a7c26a2589ab8f767f7b8b17e78b7f79",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823546823
+        }
+    ],
     "wof:id":823546823,
-    "wof:lastmodified":1466415827,
+    "wof:lastmodified":1492118157,
     "wof:name":"AAA Family Dental Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

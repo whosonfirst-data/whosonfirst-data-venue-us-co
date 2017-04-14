@@ -2,9 +2,14 @@
   "id": 839974865,
   "type": "Feature",
   "properties": {
+    "addr:full":"2025 14th St Boulder CO 80302",
+    "addr:housenumber":"2025",
+    "addr:postcode":"80302",
+    "addr:street":"14Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277704,40.019441,-105.277704,40.019441",
     "geom:latitude":40.019441,
     "geom:longitude":-105.277704,
@@ -24,7 +29,15 @@
     "sg:postcode":"80302",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379,
+        85876437
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7iB3tXNrKZlIpRUdmgVoFw_40.019441_-105.277704@1294083659"
@@ -32,11 +45,30 @@
     "wof:country":"US",
     "wof:created":1463460212,
     "wof:geomhash":"b8bcbc4ff60cab704532aabf49d583af",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":839974865
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876437,
+            "region_id":85688603,
+            "venue_id":839974865
+        }
+    ],
     "wof:id":839974865,
-    "wof:lastmodified":1466416708,
+    "wof:lastmodified":1491888505,
     "wof:name":"Boulder County Human Resources",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

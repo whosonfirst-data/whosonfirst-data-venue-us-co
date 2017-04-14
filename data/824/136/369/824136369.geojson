@@ -2,9 +2,14 @@
   "id": 824136369,
   "type": "Feature",
   "properties": {
+    "addr:full":"2875 Dover Dr Boulder CO 80305",
+    "addr:housenumber":"2875",
+    "addr:postcode":"80305",
+    "addr:street":"Dover Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.257545,39.988284,-105.257545,39.988284",
     "geom:latitude":39.988284,
     "geom:longitude":-105.257545,
@@ -29,19 +34,36 @@
         "site"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0E2AJwMnLK8donnSHJYpvb_39.988284_-105.257545@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455379,
-    "wof:geomhash":"fdc42279f720c30418b09ee192fd4579",
-    "wof:hierarchy":[],
+    "wof:geomhash":"46f155503011e2d74ab97dd0674b798d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":824136369
+        }
+    ],
     "wof:id":824136369,
-    "wof:lastmodified":1466416289,
+    "wof:lastmodified":1492130284,
     "wof:name":"Shady Acres Mobil Home PA",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

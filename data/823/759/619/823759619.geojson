@@ -2,9 +2,14 @@
   "id": 823759619,
   "type": "Feature",
   "properties": {
+    "addr:full":"6255 Notting Hill Gate Rd Boulder CO 80301",
+    "addr:housenumber":"6255",
+    "addr:postcode":"80301",
+    "addr:street":"Notting Hill Gate Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.208374,40.056569,-105.208374,40.056569",
     "geom:latitude":40.056569,
     "geom:longitude":-105.208374,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554005
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6lapFvdlyUszhxUGASsRyO_40.056569_-105.208374@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445608,
-    "wof:geomhash":"cefbd477497c0d98484633ae797431f7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9e3c1e66bf82b254fb2cd951d68f571b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554005,
+            "region_id":85688603,
+            "venue_id":823759619
+        }
+    ],
     "wof:id":823759619,
-    "wof:lastmodified":1466419173,
+    "wof:lastmodified":1492119704,
     "wof:name":"A To Z Concessions Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554005,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

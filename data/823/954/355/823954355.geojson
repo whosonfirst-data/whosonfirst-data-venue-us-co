@@ -2,9 +2,14 @@
   "id": 823954355,
   "type": "Feature",
   "properties": {
+    "addr:full":"331 S 104th St Louisville CO 80026",
+    "addr:housenumber":"331",
+    "addr:postcode":"80026",
+    "addr:street":"S 104Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.109187,39.972526,-105.109187,39.972526",
     "geom:latitude":39.972526,
     "geom:longitude":-105.109187,
@@ -28,19 +33,36 @@
         "cleaning"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251,
+        420554039
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_48i8rhXXxJADoT8BTgWGlO_39.972526_-105.109187@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450870,
-    "wof:geomhash":"e7a310227307a4be540e3b7e92f10557",
-    "wof:hierarchy":[],
+    "wof:geomhash":"93693122091ddc58a7b74513b31cbb10",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "neighbourhood_id":420554039,
+            "region_id":85688603,
+            "venue_id":823954355
+        }
+    ],
     "wof:id":823954355,
-    "wof:lastmodified":1466420648,
+    "wof:lastmodified":1492125593,
     "wof:name":"Mile High Drain Cleaning Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554039,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

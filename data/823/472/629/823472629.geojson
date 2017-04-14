@@ -2,9 +2,14 @@
   "id": 823472629,
   "type": "Feature",
   "properties": {
+    "addr:full":"298 Hillside Ln Telluride CO 81435",
+    "addr:housenumber":"298",
+    "addr:postcode":"81435",
+    "addr:street":"Hillside Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.848521,37.94983,-107.848521,37.94983",
     "geom:latitude":37.94983,
     "geom:longitude":-107.848521,
@@ -30,7 +35,9 @@
         85633793,
         85929429,
         102084125,
-        85896085
+        85896085,
+        85929329,
+        85896093
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -38,7 +45,7 @@
     },
     "wof:country":"US",
     "wof:created":1463438889,
-    "wof:geomhash":"465f5a93d5102eca9c45939d246181cd",
+    "wof:geomhash":"5e2de475392723592d0dd17be6b0276f",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -48,12 +55,21 @@
             "neighbourhood_id":85896085,
             "region_id":85688603,
             "venue_id":823472629
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084125,
+            "locality_id":85929329,
+            "neighbourhood_id":85896093,
+            "region_id":85688603,
+            "venue_id":823472629
         }
     ],
     "wof:id":823472629,
-    "wof:lastmodified":1466412604,
+    "wof:lastmodified":1492120292,
     "wof:name":"Mountain Splendor",
-    "wof:parent_id":85896085,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

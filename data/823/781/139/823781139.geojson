@@ -2,9 +2,14 @@
   "id": 823781139,
   "type": "Feature",
   "properties": {
+    "addr:full":"1990 W 10th Ave Broomfield CO 80020",
+    "addr:housenumber":"1990",
+    "addr:postcode":"80020",
+    "addr:street":"W 10Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.093239,39.928754,-105.093239,39.928754",
     "geom:latitude":39.928754,
     "geom:longitude":-105.093239,
@@ -28,19 +33,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_53ikOc0G4pxPpc4q464ElK_39.928754_-105.093239@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446119,
-    "wof:geomhash":"bef46895832ef9a22c68cce25d2c6e7d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ff7a17060794afc9683992ec149ec6e0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554251,
+            "region_id":85688603,
+            "venue_id":823781139
+        }
+    ],
     "wof:id":823781139,
-    "wof:lastmodified":1466419330,
+    "wof:lastmodified":1492118081,
     "wof:name":"Vectra Bank Colorado NA",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

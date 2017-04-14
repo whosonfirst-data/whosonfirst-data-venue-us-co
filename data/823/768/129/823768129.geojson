@@ -2,9 +2,14 @@
   "id": 823768129,
   "type": "Feature",
   "properties": {
+    "addr:full":"317 S 2nd St Grand Junction CO 81501",
+    "addr:housenumber":"317",
+    "addr:postcode":"81501",
+    "addr:street":"S 2Nd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.569611,39.064551,-108.569611,39.064551",
     "geom:latitude":39.064551,
     "geom:longitude":-108.569611,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5zy1aOOwpEe46cOoTN1CcG_39.064551_-108.569611@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445784,
-    "wof:geomhash":"4924f8f63a54e5ca22dd87d0d2bc3dbd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"636514b1cc0a174ff88adc512ff540fd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554839,
+            "region_id":85688603,
+            "venue_id":823768129
+        }
+    ],
     "wof:id":823768129,
-    "wof:lastmodified":1466419195,
+    "wof:lastmodified":1492124694,
     "wof:name":"D P & R LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

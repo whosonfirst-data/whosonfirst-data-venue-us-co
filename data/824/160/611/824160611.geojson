@@ -2,9 +2,14 @@
   "id": 824160611,
   "type": "Feature",
   "properties": {
+    "addr:full":"1001 E Evans Ave Pueblo CO 81004",
+    "addr:housenumber":"1001",
+    "addr:postcode":"81004",
+    "addr:street":"E Evans Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.615006,38.247864,-104.615006,38.247864",
     "geom:latitude":38.247864,
     "geom:longitude":-104.615006,
@@ -27,17 +32,32 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7b2acQ5weXbdOnr2xhp02q_38.247864_-104.615006@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456323,
-    "wof:geomhash":"019e89ebb06e4b6626fdcd6476189c4a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5f273e6cf1422f7722da51828da5c5a1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":824160611
+        }
+    ],
     "wof:id":824160611,
-    "wof:lastmodified":1466417573,
+    "wof:lastmodified":1492133052,
     "wof:name":"Knott Laboratory Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

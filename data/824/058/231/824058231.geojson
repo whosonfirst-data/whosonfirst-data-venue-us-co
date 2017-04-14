@@ -2,9 +2,14 @@
   "id": 824058231,
   "type": "Feature",
   "properties": {
+    "addr:full":"2755 15th St Boulder CO 80304",
+    "addr:housenumber":"2755",
+    "addr:postcode":"80304",
+    "addr:street":"15Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276713,40.026064,-105.276713,40.026064",
     "geom:latitude":40.026064,
     "geom:longitude":-105.276713,
@@ -27,7 +32,14 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7JtAaPHVB4nB7HqiBIuRWU_40.026064_-105.276713@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463453358,
     "wof:geomhash":"caa25cae1ab23edfacc38c1fd36051dd",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":824058231
+        }
+    ],
     "wof:id":824058231,
-    "wof:lastmodified":1466414381,
+    "wof:lastmodified":1491888503,
     "wof:name":"Lynn G Guissinger",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

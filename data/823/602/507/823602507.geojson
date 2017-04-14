@@ -2,9 +2,14 @@
   "id": 823602507,
   "type": "Feature",
   "properties": {
+    "addr:full":"476 Malley Dr Northglenn CO 80233",
+    "addr:housenumber":"476",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979373,39.902934,-104.979373,39.902934",
     "geom:latitude":39.902934,
     "geom:longitude":-104.979373,
@@ -29,19 +34,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4nzJ2dXDoPn2GYPogS1TaA_39.902934_-104.979373@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441966,
-    "wof:geomhash":"a56eb3926218dbbb4b999f0393f94b73",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1d9eba878c3f470eb127fc47f9e0d6fb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":823602507
+        }
+    ],
     "wof:id":823602507,
-    "wof:lastmodified":1466417220,
+    "wof:lastmodified":1492127793,
     "wof:name":"Brock's Used Books",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

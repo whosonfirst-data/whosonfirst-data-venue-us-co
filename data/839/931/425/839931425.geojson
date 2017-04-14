@@ -2,9 +2,14 @@
   "id": 839931425,
   "type": "Feature",
   "properties": {
+    "addr:full":"2850 Dartmouth Ave Boulder CO 80305",
+    "addr:housenumber":"2850",
+    "addr:postcode":"80305",
+    "addr:street":"Dartmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.256986,39.989004,-105.256986,39.989004",
     "geom:latitude":39.989004,
     "geom:longitude":-105.256986,
@@ -27,19 +32,36 @@
         "commodity"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2qMd6bnuYp1UleFQskMKBO_39.989004_-105.256986@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458053,
-    "wof:geomhash":"6647a37c74629e6f6af58c872e4e3e54",
-    "wof:hierarchy":[],
+    "wof:geomhash":"054a3fb4edf312517afc5d949d7c260a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":839931425
+        }
+    ],
     "wof:id":839931425,
-    "wof:lastmodified":1466414197,
+    "wof:lastmodified":1492111525,
     "wof:name":"Tony K Enterprises Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

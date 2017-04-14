@@ -2,9 +2,14 @@
   "id": 823507323,
   "type": "Feature",
   "properties": {
+    "addr:full":"6510 Raleigh St Arvada CO 80003",
+    "addr:housenumber":"6510",
+    "addr:postcode":"80003",
+    "addr:street":"Raleigh St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041997,39.814823,-105.041997,39.814823",
     "geom:latitude":39.814823,
     "geom:longitude":-105.041997,
@@ -29,19 +34,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553265
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6HOcex5kk4JQBsyvKZngi4_39.814823_-105.041997@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439740,
-    "wof:geomhash":"332e0f43bdb2f3a5ea895fb2404eefc0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5563c997cb91eaa1cead481752903dab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553265,
+            "region_id":85688603,
+            "venue_id":823507323
+        }
+    ],
     "wof:id":823507323,
-    "wof:lastmodified":1466414448,
+    "wof:lastmodified":1492126538,
     "wof:name":"Canjar MH",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553265,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

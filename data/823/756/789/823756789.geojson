@@ -2,9 +2,14 @@
   "id": 823756789,
   "type": "Feature",
   "properties": {
+    "addr:full":"401 E 3rd St Salida CO 81201",
+    "addr:housenumber":"401",
+    "addr:postcode":"81201",
+    "addr:street":"E 3Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.990248,38.532655,-105.990248,38.532655",
     "geom:latitude":38.532655,
     "geom:longitude":-105.990248,
@@ -28,17 +33,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928803,
+        102085255
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3HOCegPs1HO1J9FUSLGiY9_38.532655_-105.990248@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445554,
-    "wof:geomhash":"80cb535b9abe9d25d63089963212151f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dfbb72e07711b5ef37394ecfd556900d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085255,
+            "locality_id":85928803,
+            "region_id":85688603,
+            "venue_id":823756789
+        }
+    ],
     "wof:id":823756789,
-    "wof:lastmodified":1466419180,
+    "wof:lastmodified":1492124297,
     "wof:name":"Safe Haven Manors",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823887143,
   "type": "Feature",
   "properties": {
+    "addr:full":"3172 E 78th Ave Denver CO 80229",
+    "addr:housenumber":"3172",
+    "addr:postcode":"80229",
+    "addr:street":"E 78Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.952636,39.838029,-104.952636,39.838029",
     "geom:latitude":39.838029,
     "geom:longitude":-104.952636,
@@ -28,19 +33,36 @@
         "sewage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553889
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6p7l8I25SoQuIsFAA7WTRY_39.838029_-104.952636@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449128,
-    "wof:geomhash":"993fbe39c3fdf88d1e3809c312b7dd07",
-    "wof:hierarchy":[],
+    "wof:geomhash":"727921e158df476f3e320d61b0ccbec6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553889,
+            "region_id":85688603,
+            "venue_id":823887143
+        }
+    ],
     "wof:id":823887143,
-    "wof:lastmodified":1466420009,
+    "wof:lastmodified":1492122497,
     "wof:name":"North Washington Street Dist",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553889,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

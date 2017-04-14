@@ -2,9 +2,14 @@
   "id": 823968727,
   "type": "Feature",
   "properties": {
+    "addr:full":"801 W 62nd Ave Denver CO 80221",
+    "addr:housenumber":"801",
+    "addr:postcode":"80221",
+    "addr:street":"W 62Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.002012,39.809127,-105.002012,39.809127",
     "geom:latitude":39.809127,
     "geom:longitude":-105.002012,
@@ -27,19 +32,46 @@
         "concrete"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553627,
+        420553645
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6T1j5c2EI58agEEMV7iG3m_39.809127_-105.002012@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451228,
-    "wof:geomhash":"35b35614a2f8aec7320d060a928539f8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"26dc024ba47c66f127d674c8d7414b64",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553627,
+            "region_id":85688603,
+            "venue_id":823968727
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553645,
+            "region_id":85688603,
+            "venue_id":823968727
+        }
+    ],
     "wof:id":823968727,
-    "wof:lastmodified":1466420844,
+    "wof:lastmodified":1492127766,
     "wof:name":"Venture Retaining Wall Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

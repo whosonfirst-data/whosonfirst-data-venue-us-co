@@ -2,9 +2,14 @@
   "id": 823760203,
   "type": "Feature",
   "properties": {
+    "addr:full":"12100 Newport Dr Brighton CO 80602",
+    "addr:housenumber":"12100",
+    "addr:postcode":"80602",
+    "addr:street":"Newport Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.909516,39.915405,-104.909516,39.915405",
     "geom:latitude":39.915405,
     "geom:longitude":-104.909516,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6aBfmOsf3zBUrThwaNRvZO_39.915405_-104.909516@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445621,
-    "wof:geomhash":"396f59792603c27ef942a5b3f2ba2968",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5893311e8b9d8fb295a561ace33c1834",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":823760203
+        }
+    ],
     "wof:id":823760203,
-    "wof:lastmodified":1466418993,
+    "wof:lastmodified":1492119791,
     "wof:name":"Brass Plumbing Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

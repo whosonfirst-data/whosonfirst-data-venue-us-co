@@ -2,9 +2,14 @@
   "id": 824150071,
   "type": "Feature",
   "properties": {
+    "addr:full":"8300 Alcott St Westminster CO 80031",
+    "addr:housenumber":"8300",
+    "addr:postcode":"80031",
+    "addr:street":"Alcott St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.01536,39.847501,-105.01536,39.847501",
     "geom:latitude":39.847501,
     "geom:longitude":-105.01536,
@@ -27,19 +32,46 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553535,
+        420553589
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_18dysYTrHKAAuCwH9VXKM9_39.847501_-105.015360@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455905,
-    "wof:geomhash":"862a1fc48dab57c4297b636a25c10a5f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"614ba9aa4b10110295d123e572c7d071",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553535,
+            "region_id":85688603,
+            "venue_id":824150071
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553589,
+            "region_id":85688603,
+            "venue_id":824150071
+        }
+    ],
     "wof:id":824150071,
-    "wof:lastmodified":1466416803,
+    "wof:lastmodified":1492132016,
     "wof:name":"Quest Diagnostics",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

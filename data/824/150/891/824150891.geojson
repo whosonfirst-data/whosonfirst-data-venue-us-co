@@ -2,9 +2,14 @@
   "id": 824150891,
   "type": "Feature",
   "properties": {
+    "addr:full":"1117 Edison St Brush CO 80723",
+    "addr:housenumber":"1117",
+    "addr:postcode":"80723",
+    "addr:street":"Edison St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.633602,40.255019,-103.633602,40.255019",
     "geom:latitude":40.255019,
     "geom:longitude":-103.633602,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929511,
+        102084089,
+        85836469
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0SwkBf0bZnrHH9B3VZ53yN_40.255019_-103.633602@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455944,
-    "wof:geomhash":"f661e83a0cbc3e4abc6f28bcf4e14f16",
-    "wof:hierarchy":[],
+    "wof:geomhash":"687670597a005b0ef20904bf73ac3a56",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929511,
+            "neighbourhood_id":85836469,
+            "region_id":85688603,
+            "venue_id":824150891
+        }
+    ],
     "wof:id":824150891,
-    "wof:lastmodified":1466416895,
+    "wof:lastmodified":1492131991,
     "wof:name":"G & H Coins",
-    "wof:parent_id":-1,
+    "wof:parent_id":85836469,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839986979,
   "type": "Feature",
   "properties": {
+    "addr:full":"9372 Sheridan Blvd Westminster CO 80031",
+    "addr:housenumber":"9372",
+    "addr:postcode":"80031",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053054,39.867247,-105.053054,39.867247",
     "geom:latitude":39.867247,
     "geom:longitude":-105.053054,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554569
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4kcfG9pmpX5SCRjiiFwL9E_39.867247_-105.053054@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460695,
-    "wof:geomhash":"580c0578368e5fa43ad07c15ccf85ace",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9a9869a14b1082a506fc7a7fdaa88e69",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554569,
+            "region_id":85688603,
+            "venue_id":839986979
+        }
+    ],
     "wof:id":839986979,
-    "wof:lastmodified":1466417288,
+    "wof:lastmodified":1492111389,
     "wof:name":"Starbucks Coffee",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554569,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

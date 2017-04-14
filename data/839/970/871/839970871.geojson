@@ -2,9 +2,14 @@
   "id": 839970871,
   "type": "Feature",
   "properties": {
+    "addr:full":"4100 Tennyson St Denver CO 80212",
+    "addr:housenumber":"4100",
+    "addr:postcode":"80212",
+    "addr:street":"Tennyson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.044005,39.772957,-105.044005,39.772957",
     "geom:latitude":39.772957,
     "geom:longitude":-105.044005,
@@ -27,19 +32,38 @@
         "baker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871261,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1YirulMxdyhZc78DcpXWGN_39.772957_-105.044005@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460046,
-    "wof:geomhash":"e6ce1291df6b7753ee725381bdca5380",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cf178b02bfa02fd8d7b54a360bc0c193",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871261,
+            "region_id":85688603,
+            "venue_id":839970871
+        }
+    ],
     "wof:id":839970871,
-    "wof:lastmodified":1466416210,
+    "wof:lastmodified":1492110690,
     "wof:name":"Denver Bread Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871261,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

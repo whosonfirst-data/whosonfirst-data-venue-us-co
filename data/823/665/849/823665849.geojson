@@ -2,9 +2,14 @@
   "id": 823665849,
   "type": "Feature",
   "properties": {
+    "addr:full":"268 Grant Rd Grand Junction CO 81503",
+    "addr:housenumber":"268",
+    "addr:postcode":"81503",
+    "addr:street":"Grant Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590862,39.070495,-108.590862,39.070495",
     "geom:latitude":39.070495,
     "geom:longitude":-108.590862,
@@ -27,19 +32,36 @@
         "tree"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554767
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5v0jgosGfPRslYmaUmSwe8_39.070495_-108.590862@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443471,
-    "wof:geomhash":"4f9ffd21f573723f62a04397e91d44e5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4472e016c6a9cb699d42ab150b349f64",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554767,
+            "region_id":85688603,
+            "venue_id":823665849
+        }
+    ],
     "wof:id":823665849,
-    "wof:lastmodified":1466418315,
+    "wof:lastmodified":1492123500,
     "wof:name":"Correct Cut Tree Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554767,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

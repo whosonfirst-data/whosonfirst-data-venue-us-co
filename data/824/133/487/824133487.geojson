@@ -2,9 +2,14 @@
   "id": 824133487,
   "type": "Feature",
   "properties": {
+    "addr:full":"2523 W 108th Ave Denver CO 80234",
+    "addr:housenumber":"2523",
+    "addr:postcode":"80234",
+    "addr:street":"W 108Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.015997,39.89388,-105.015997,39.89388",
     "geom:latitude":39.89388,
     "geom:longitude":-105.015997,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553639
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2j6VIXUFbNDA5sP6XWEYKz_39.893880_-105.015997@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455269,
-    "wof:geomhash":"fd150eb952ca582bb17f22af202915f3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e4fe5373373320f691d29d4baff5f5dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553639,
+            "region_id":85688603,
+            "venue_id":824133487
+        }
+    ],
     "wof:id":824133487,
-    "wof:lastmodified":1466416197,
+    "wof:lastmodified":1492129284,
     "wof:name":"Westminster Plaza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

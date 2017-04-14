@@ -2,9 +2,14 @@
   "id": 839911123,
   "type": "Feature",
   "properties": {
+    "addr:full":"880 S Main St Brighton CO 80601",
+    "addr:housenumber":"880",
+    "addr:postcode":"80601",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.824517,39.977101,-104.824517,39.977101",
     "geom:latitude":39.977101,
     "geom:longitude":-104.824517,
@@ -29,19 +34,36 @@
         "truck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553351
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YkuZmEJIiZTx7fiGP68Wa_39.977101_-104.824517@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457153,
-    "wof:geomhash":"9f62a824d5851c3a01839b43fe1b35ce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0f76c2ff26b92246a041f77371dfa418",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553351,
+            "region_id":85688603,
+            "venue_id":839911123
+        }
+    ],
     "wof:id":839911123,
-    "wof:lastmodified":1466412168,
+    "wof:lastmodified":1492113096,
     "wof:name":"Ralph Schomp Chvrlt-Oldsmobile",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553351,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

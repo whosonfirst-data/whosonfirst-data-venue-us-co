@@ -2,9 +2,14 @@
   "id": 823896349,
   "type": "Feature",
   "properties": {
+    "addr:full":"12024 Melody Dr Denver CO 80234",
+    "addr:housenumber":"12024",
+    "addr:postcode":"80234",
+    "addr:street":"Melody Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994622,39.915492,-104.994622,39.915492",
     "geom:latitude":39.915492,
     "geom:longitude":-104.994622,
@@ -27,19 +32,36 @@
         "loan"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3oemhZUwneyQp6oCtcopao_39.915492_-104.994622@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449360,
-    "wof:geomhash":"1438b778255b93055d071dcf654fc71d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c790782d3137ac07aa176efaaa1d09db",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":823896349
+        }
+    ],
     "wof:id":823896349,
-    "wof:lastmodified":1466420129,
+    "wof:lastmodified":1492119589,
     "wof:name":"Paycheck Advance Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823752547,
   "type": "Feature",
   "properties": {
+    "addr:full":"7510 US Hwy 287 Broomfield CO 80020",
+    "addr:housenumber":"7510",
+    "addr:postcode":"80020",
+    "addr:street":"Us Hwy 287",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.080824,39.914573,-105.080824,39.914573",
     "geom:latitude":39.914573,
     "geom:longitude":-105.080824,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554243
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_03sFPf7yTTCD82sG02EMaZ_39.914573_-105.080824@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445442,
-    "wof:geomhash":"f915a20ab3fcd78ce1d83a33bf054927",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d291c100caf40a862765abf5243142db",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554243,
+            "region_id":85688603,
+            "venue_id":823752547
+        }
+    ],
     "wof:id":823752547,
-    "wof:lastmodified":1466418930,
+    "wof:lastmodified":1492125227,
     "wof:name":"Country Cottage Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554243,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

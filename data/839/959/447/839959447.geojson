@@ -2,9 +2,14 @@
   "id": 839959447,
   "type": "Feature",
   "properties": {
+    "addr:full":"4850 Vasquez Blvd Denver CO 80216",
+    "addr:housenumber":"4850",
+    "addr:postcode":"80216",
+    "addr:street":"Vasquez Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.947752,39.783906,-104.947752,39.783906",
     "geom:latitude":39.783906,
     "geom:longitude":-104.947752,
@@ -29,19 +34,38 @@
         "leasing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2XLnEqkDDBIVcn6TlXMDcp_39.783906_-104.947752@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459594,
-    "wof:geomhash":"25906af550708072ce904963013223ae",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2a45440f76579aa66ac043b50a154494",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":839959447
+        }
+    ],
     "wof:id":839959447,
-    "wof:lastmodified":1466415673,
+    "wof:lastmodified":1492113168,
     "wof:name":"Bulldog Truck Rental & Leasing",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

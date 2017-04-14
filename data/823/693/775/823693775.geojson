@@ -2,9 +2,14 @@
   "id": 823693775,
   "type": "Feature",
   "properties": {
+    "addr:full":"1111 S Sheridan Blvd Lakewood CO 80232",
+    "addr:housenumber":"1111",
+    "addr:postcode":"80232",
+    "addr:street":"S Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053143,39.695187,-105.053143,39.695187",
     "geom:latitude":39.695187,
     "geom:longitude":-105.053143,
@@ -29,19 +34,38 @@
         "instruction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4R9824YaVFJpVHkLuqgkcd_39.695187_-105.053143@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444098,
-    "wof:geomhash":"c303a1506eac45d580f7111d8253d526",
-    "wof:hierarchy":[],
+    "wof:geomhash":"34d0bb82dbe03943b0f8391ad975f765",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":823693775
+        }
+    ],
     "wof:id":823693775,
-    "wof:lastmodified":1466418540,
+    "wof:lastmodified":1492117869,
     "wof:name":"Sidekicks",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

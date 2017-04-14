@@ -2,9 +2,14 @@
   "id": 823977031,
   "type": "Feature",
   "properties": {
+    "addr:full":"6946 W 71st Ave Arvada CO 80003",
+    "addr:housenumber":"6946",
+    "addr:postcode":"80003",
+    "addr:street":"W 71St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.074309,39.825377,-105.074309,39.825377",
     "geom:latitude":39.825377,
     "geom:longitude":-105.074309,
@@ -30,19 +35,36 @@
         "glass"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554587
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6DVCQcCOEQtRRQRkNmQ79O_39.825377_-105.074309@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451400,
-    "wof:geomhash":"98973d0cc42dad2b046d521d3913e5a9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b6a8c041206049dd6c86097ebf48fdfc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554587,
+            "region_id":85688603,
+            "venue_id":823977031
+        }
+    ],
     "wof:id":823977031,
-    "wof:lastmodified":1466420835,
+    "wof:lastmodified":1492125494,
     "wof:name":"Creative Auto",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554587,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

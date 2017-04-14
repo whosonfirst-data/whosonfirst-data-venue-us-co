@@ -2,9 +2,14 @@
   "id": 839975207,
   "type": "Feature",
   "properties": {
+    "addr:full":"200 W 121st Ave Denver CO 80234",
+    "addr:housenumber":"200",
+    "addr:postcode":"80234",
+    "addr:street":"W 121St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.991183,39.916323,-104.991183,39.916323",
     "geom:latitude":39.916323,
     "geom:longitude":-104.991183,
@@ -24,19 +29,36 @@
     "sg:postcode":"80234",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553841
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4HvxqLUDMkMUUqBM77x3TH_39.916323_-104.991183@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460227,
-    "wof:geomhash":"1ebd46b8772a6ac929966b917ddb49fb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"202ad58e5b76ce0bdb4499a70fd39741",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553841,
+            "region_id":85688603,
+            "venue_id":839975207
+        }
+    ],
     "wof:id":839975207,
-    "wof:lastmodified":1466416427,
+    "wof:lastmodified":1492113743,
     "wof:name":"Skate City",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553841,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

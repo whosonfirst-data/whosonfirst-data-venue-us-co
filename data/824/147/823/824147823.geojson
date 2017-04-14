@@ -2,9 +2,14 @@
   "id": 824147823,
   "type": "Feature",
   "properties": {
+    "addr:full":"5560 Gray St Arvada CO 80002",
+    "addr:housenumber":"5560",
+    "addr:postcode":"80002",
+    "addr:street":"Gray St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.061293,39.797739,-105.061293,39.797739",
     "geom:latitude":39.797739,
     "geom:longitude":-105.061293,
@@ -28,19 +33,34 @@
         "con"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Z6s5s5bh63R1i1pwDXQPK_39.797739_-105.061293@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455820,
-    "wof:geomhash":"f6a5a1c437fdb7acf05dc46977be9f52",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d642c65e13e0cb10593af46c4bdf8447",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824147823
+        }
+    ],
     "wof:id":824147823,
-    "wof:lastmodified":1466416652,
+    "wof:lastmodified":1492131644,
     "wof:name":"Triangle Sheet Metal",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

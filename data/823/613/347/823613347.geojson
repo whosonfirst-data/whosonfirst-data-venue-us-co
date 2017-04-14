@@ -2,9 +2,14 @@
   "id": 823613347,
   "type": "Feature",
   "properties": {
+    "addr:full":"157 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"157;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.848521,37.299541,-107.848521,37.299541",
     "geom:latitude":37.299541,
     "geom:longitude":-107.848521,
@@ -27,19 +32,28 @@
         "sporting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4WJdsJQfjDLuCQlGiY5bzu_37.299541_-107.848521@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442235,
-    "wof:geomhash":"22afe010fc232e0bac5eb6100ea4feb4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1663391e0bf6d4a96b41dfc35ed0229d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":823613347
+        }
+    ],
     "wof:id":823613347,
-    "wof:lastmodified":1466417547,
+    "wof:lastmodified":1492118978,
     "wof:name":"Rocky Mountain Pawn & Gun",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

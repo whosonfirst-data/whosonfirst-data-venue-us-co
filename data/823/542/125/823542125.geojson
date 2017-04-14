@@ -2,9 +2,14 @@
   "id": 823542125,
   "type": "Feature",
   "properties": {
+    "addr:full":"3017 W 74th Ave Westminster CO 80030",
+    "addr:housenumber":"3017",
+    "addr:postcode":"80030",
+    "addr:street":"W 74Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.029409,39.830975,-105.029409,39.830975",
     "geom:latitude":39.830975,
     "geom:longitude":-105.029409,
@@ -27,19 +32,36 @@
         "watch"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_64QYaZiVrDyregKZ3K7f6O_39.830975_-105.029409@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440512,
-    "wof:geomhash":"659afdf018a029d9e13cdba6be213445",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cee7679107fa55c96e5ade42030e7636",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":823542125
+        }
+    ],
     "wof:id":823542125,
-    "wof:lastmodified":1466415557,
+    "wof:lastmodified":1492124578,
     "wof:name":"Time Concepts Intl",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823871037,
   "type": "Feature",
   "properties": {
+    "addr:full":"12601 Sheridan Blvd Broomfield CO 80020",
+    "addr:housenumber":"12601",
+    "addr:postcode":"80020",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053089,39.928719,-105.053089,39.928719",
     "geom:latitude":39.928719,
     "geom:longitude":-105.053089,
@@ -34,6 +39,7 @@
         85633793,
         85929855,
         102086123,
+        85876545,
         85876553
     ],
     "wof:breaches":[],
@@ -42,8 +48,17 @@
     },
     "wof:country":"US",
     "wof:created":1463448761,
-    "wof:geomhash":"d54c9f125cb7bbf04e3a4a92e2b20246",
+    "wof:geomhash":"040add97d7342c8ecf0e28cad2890ca1",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":85876545,
+            "region_id":85688603,
+            "venue_id":823871037
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -55,9 +70,9 @@
         }
     ],
     "wof:id":823871037,
-    "wof:lastmodified":1466420075,
+    "wof:lastmodified":1492120629,
     "wof:name":"Christian Church",
-    "wof:parent_id":85876553,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

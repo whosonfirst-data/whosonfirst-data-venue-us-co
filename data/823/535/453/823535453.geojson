@@ -2,9 +2,14 @@
   "id": 823535453,
   "type": "Feature",
   "properties": {
+    "addr:full":"452 Mesa Linda Dr Durango CO 81303",
+    "addr:housenumber":"452",
+    "addr:postcode":"co 81303",
+    "addr:street":"Mesa Linda Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.832732,37.18461,-107.832732,37.18461",
     "geom:latitude":37.18461,
     "geom:longitude":-107.832732,
@@ -27,19 +32,28 @@
         "maintenance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3XHwRq4XPh3NMo7XigIObX_37.184610_-107.832732@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440363,
-    "wof:geomhash":"0b1e3fe0a84f58735086cf5977e04ead",
-    "wof:hierarchy":[],
+    "wof:geomhash":"790f8e3bee8c56530f8318a21259affd",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823535453
+        }
+    ],
     "wof:id":823535453,
-    "wof:lastmodified":1466415174,
+    "wof:lastmodified":1492127689,
     "wof:name":"Ameri-Clean Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

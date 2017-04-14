@@ -2,9 +2,14 @@
   "id": 823797983,
   "type": "Feature",
   "properties": {
+    "addr:full":"3925 Applewood St Grand Junction CO 81506",
+    "addr:housenumber":"3925",
+    "addr:postcode":"81506",
+    "addr:street":"Applewood St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.538039,39.103241,-108.538039,39.103241",
     "geom:latitude":39.103241,
     "geom:longitude":-108.538039,
@@ -27,19 +32,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554859
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0cEJy0s4lEaVBeXYk6s1iU_39.103241_-108.538039@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446661,
-    "wof:geomhash":"a78386e0801c6da38701272539afcb14",
-    "wof:hierarchy":[],
+    "wof:geomhash":"22e0bfa5a2a7c83201d82deadf38593b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554859,
+            "region_id":85688603,
+            "venue_id":823797983
+        }
+    ],
     "wof:id":823797983,
-    "wof:lastmodified":1466419356,
+    "wof:lastmodified":1492122598,
     "wof:name":"Linville Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554859,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

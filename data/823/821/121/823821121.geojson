@@ -2,9 +2,14 @@
   "id": 823821121,
   "type": "Feature",
   "properties": {
+    "addr:full":"2001 Danfield Ct Fort Collins CO 80525",
+    "addr:housenumber":"2001",
+    "addr:postcode":"80525",
+    "addr:street":"Danfield Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040123,40.541062,-105.040123,40.541062",
     "geom:latitude":40.541062,
     "geom:longitude":-105.040123,
@@ -30,19 +35,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0nuwQI7ebg2gGZqg67Gy2n_40.541062_-105.040123@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447325,
-    "wof:geomhash":"e4a12c676386352bb1b0426c336e05d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7008b7fa4c99e9f516ed89a75ab1033c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":823821121
+        }
+    ],
     "wof:id":823821121,
-    "wof:lastmodified":1466419515,
+    "wof:lastmodified":1492124535,
     "wof:name":"LSI Logic Corporation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

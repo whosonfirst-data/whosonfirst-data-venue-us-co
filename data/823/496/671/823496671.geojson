@@ -2,9 +2,14 @@
   "id": 823496671,
   "type": "Feature",
   "properties": {
+    "addr:full":"2690 S Federal Blvd Denver CO 80219",
+    "addr:housenumber":"2690",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025111,39.666943,-105.025111,39.666943",
     "geom:latitude":39.666943,
     "geom:longitude":-105.025111,
@@ -28,7 +33,15 @@
     ],
     "sg:website":"www.fifthavenue.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6rgjxWy4aydL588jAS7FM7_39.666943_-105.025111@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463439478,
     "wof:geomhash":"4b72f02719f4afd70c8ba10416f8e4a9",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":823496671
+        }
+    ],
     "wof:id":823496671,
-    "wof:lastmodified":1466414117,
+    "wof:lastmodified":1491876232,
     "wof:name":"5th Avenue Limousines",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

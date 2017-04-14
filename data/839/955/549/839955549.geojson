@@ -2,9 +2,14 @@
   "id": 839955549,
   "type": "Feature",
   "properties": {
+    "addr:full":"292 E Meadow Dr Vail CO 81657",
+    "addr:housenumber":"292",
+    "addr:postcode":"81657",
+    "addr:street":"E Meadow Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.373422,39.641945,-106.373422,39.641945",
     "geom:latitude":39.641945,
     "geom:longitude":-106.373422,
@@ -27,8 +32,10 @@
     "wof:belongsto":[
         85688603,
         85633793,
-        85815779,
-        102083397
+        85929223,
+        102083397,
+        85833957,
+        85815779
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -36,8 +43,16 @@
     },
     "wof:country":"US",
     "wof:created":1463459434,
-    "wof:geomhash":"dbdc7fd9b40f205bbff83fcfc42f57d0",
+    "wof:geomhash":"7fbc49a87a7291726b8044e8ab3a1e9a",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102083397,
+            "locality_id":85929223,
+            "neighbourhood_id":85833957,
+            "region_id":85688603,
+            "venue_id":839955549
+        },
         {
             "country_id":85633793,
             "county_id":102083397,
@@ -47,9 +62,9 @@
         }
     ],
     "wof:id":839955549,
-    "wof:lastmodified":1466415460,
+    "wof:lastmodified":1492112056,
     "wof:name":"Mountain Haus Condotel",
-    "wof:parent_id":85815779,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

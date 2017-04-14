@@ -2,9 +2,14 @@
   "id": 823693681,
   "type": "Feature",
   "properties": {
+    "addr:full":"8202 S University Blvd Centennial CO 80122",
+    "addr:housenumber":"8202",
+    "addr:postcode":"80122",
+    "addr:street":"S University Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.960394,39.566375,-104.960394,39.566375",
     "geom:latitude":39.566375,
     "geom:longitude":-104.960394,
@@ -32,17 +37,32 @@
         "battery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929851,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1YRXeWVacZnZwNOUe2nJla_39.566375_-104.960394@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444096,
-    "wof:geomhash":"e4aaa595f551a0309d038b6fe5d8985c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"12133b81adc6c81c1c6b2c4b613333dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929851,
+            "region_id":85688603,
+            "venue_id":823693681
+        }
+    ],
     "wof:id":823693681,
-    "wof:lastmodified":1466418530,
+    "wof:lastmodified":1492117879,
     "wof:name":"Batteries Plus",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

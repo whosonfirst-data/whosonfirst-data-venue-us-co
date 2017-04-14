@@ -2,9 +2,14 @@
   "id": 823688205,
   "type": "Feature",
   "properties": {
+    "addr:full":"9945 Mesa Rd Cascade CO 80809",
+    "addr:housenumber":"9945",
+    "addr:postcode":"80809",
+    "addr:street":"Mesa Rd Cascade",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005035,38.925934,-105.005035,38.925934",
     "geom:latitude":38.925934,
     "geom:longitude":-105.005035,
@@ -27,17 +32,32 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930325,
+        102086875
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5jK8JcYH7Z2eo05sikhr8N_38.925934_-105.005035@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443975,
-    "wof:geomhash":"57bf911121e5fa7617668a8b0b0c9a44",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b735b4a1f1c1db8abff3588590367198",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85930325,
+            "region_id":85688603,
+            "venue_id":823688205
+        }
+    ],
     "wof:id":823688205,
-    "wof:lastmodified":1466418397,
+    "wof:lastmodified":1492126179,
     "wof:name":"Alpinetelecom",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

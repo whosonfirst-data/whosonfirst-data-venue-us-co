@@ -2,9 +2,14 @@
   "id": 824165377,
   "type": "Feature",
   "properties": {
+    "addr:full":"11002 E Harvard Dr Aurora CO 80014",
+    "addr:housenumber":"11002",
+    "addr:postcode":"80014",
+    "addr:street":"E Harvard Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.860978,39.671496,-104.860978,39.671496",
     "geom:latitude":39.671496,
     "geom:longitude":-104.860978,
@@ -27,17 +32,32 @@
         "handyman"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0AjJm8nJzJdtp3PFDkSDSc_39.671496_-104.860978@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456505,
-    "wof:geomhash":"7e66dfd69aa96602e6126513372f8ba6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"72b068bc0b4deb7c010b53733ecf4833",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":824165377
+        }
+    ],
     "wof:id":824165377,
-    "wof:lastmodified":1466417632,
+    "wof:lastmodified":1492129874,
     "wof:name":"A Man Around The House",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

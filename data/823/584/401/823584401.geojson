@@ -2,9 +2,14 @@
   "id": 823584401,
   "type": "Feature",
   "properties": {
+    "addr:full":"911 Gothic Rd Crested Butte CO 81224",
+    "addr:housenumber":"911",
+    "addr:postcode":"81224",
+    "addr:street":"Gothic Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.968873,38.9089,-106.968873,38.9089",
     "geom:latitude":38.9089,
     "geom:longitude":-106.968873,
@@ -27,19 +32,36 @@
         "village"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929469,
+        102083377,
+        420554497
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7TN0CqFPyszeKObZZSJk5O_38.908900_-106.968873@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441524,
-    "wof:geomhash":"7745cabe1a2e892a69107c777e9d23bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7444db1318b20970df4fd8df699d05f7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929469,
+            "neighbourhood_id":420554497,
+            "region_id":85688603,
+            "venue_id":823584401
+        }
+    ],
     "wof:id":823584401,
-    "wof:lastmodified":1466416773,
+    "wof:lastmodified":1492122376,
     "wof:name":"Mt Crested Butte City Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554497,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839913931,
   "type": "Feature",
   "properties": {
+    "addr:full":"10741 N 65th St Longmont CO 80503",
+    "addr:housenumber":"10741",
+    "addr:postcode":"80503",
+    "addr:street":"N 65Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.202004,40.16691,-105.202004,40.16691",
     "geom:latitude":40.16691,
     "geom:longitude":-105.202004,
@@ -29,19 +34,34 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554085,
+        420554057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YDoEHeyHPeouLfeWlVhbY_40.166910_-105.202004@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457256,
-    "wof:geomhash":"f36743f25113285f6e6ac149895753e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"41712b4f408f0169448e82b8e220ef2b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554085,
+            "venue_id":839913931
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554057,
+            "venue_id":839913931
+        }
+    ],
     "wof:id":839913931,
-    "wof:lastmodified":1466412736,
+    "wof:lastmodified":1492113472,
     "wof:name":"Quilted Horse",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

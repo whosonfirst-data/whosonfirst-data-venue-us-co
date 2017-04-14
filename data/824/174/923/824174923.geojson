@@ -2,9 +2,14 @@
   "id": 824174923,
   "type": "Feature",
   "properties": {
+    "addr:full":"777 29th St Boulder CO 80303",
+    "addr:housenumber":"777",
+    "addr:postcode":"80303",
+    "addr:street":"29Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.256008,40.000285,-105.256008,40.000285",
     "geom:latitude":40.000285,
     "geom:longitude":-105.256008,
@@ -28,7 +33,14 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5brZP16IiZMshBJN4e79cq_40.000285_-105.256008@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463456877,
     "wof:geomhash":"1d69b9ae17e433a199cd6e3733f13a9c",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":824174923
+        }
+    ],
     "wof:id":824174923,
-    "wof:lastmodified":1466418041,
+    "wof:lastmodified":1491890405,
     "wof:name":"District Agencies Representati",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

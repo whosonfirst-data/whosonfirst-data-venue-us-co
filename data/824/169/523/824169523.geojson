@@ -2,9 +2,14 @@
   "id": 824169523,
   "type": "Feature",
   "properties": {
+    "addr:full":"120 N Boulevard St Gunnison CO 81230",
+    "addr:housenumber":"120",
+    "addr:postcode":"81230",
+    "addr:street":"N Boulevard St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.933291,38.545304,-106.933291,38.545304",
     "geom:latitude":38.545304,
     "geom:longitude":-106.933291,
@@ -27,19 +32,36 @@
         "accountant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_57Ne4kFdNr4HdPxQ7nYh7b_38.545304_-106.933291@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456659,
-    "wof:geomhash":"ec7ebd44de3cc249ac51b532fa81be93",
-    "wof:hierarchy":[],
+    "wof:geomhash":"108572cc591273409f5710cc25efc414",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":824169523
+        }
+    ],
     "wof:id":824169523,
-    "wof:lastmodified":1466417874,
+    "wof:lastmodified":1492128727,
     "wof:name":"Freemon Shapard & Story",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

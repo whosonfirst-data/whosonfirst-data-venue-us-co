@@ -2,9 +2,14 @@
   "id": 823807793,
   "type": "Feature",
   "properties": {
+    "addr:full":"8418 Princeton St Westminster CO 80031",
+    "addr:housenumber":"8418",
+    "addr:postcode":"80031",
+    "addr:street":"Princeton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.043815,39.851354,-105.043815,39.851354",
     "geom:latitude":39.851354,
     "geom:longitude":-105.043815,
@@ -29,19 +34,36 @@
         "sales"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1jeVwzlHfyBFmRMIe9Ni1V_39.851354_-105.043815@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446935,
-    "wof:geomhash":"594620369f7c7bd55e0e5a3d58fec4e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e37e6c53fd55ddb77b9f816277241a37",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823807793
+        }
+    ],
     "wof:id":823807793,
-    "wof:lastmodified":1466419479,
+    "wof:lastmodified":1492121817,
     "wof:name":"Parties By Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

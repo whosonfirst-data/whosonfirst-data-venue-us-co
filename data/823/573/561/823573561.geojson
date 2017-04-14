@@ -2,9 +2,14 @@
   "id": 823573561,
   "type": "Feature",
   "properties": {
+    "addr:full":"42 N Market St Cortez CO 81321",
+    "addr:housenumber":"42",
+    "addr:postcode":"81321",
+    "addr:street":"N Market St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.585125,37.349252,-108.585125,37.349252",
     "geom:latitude":37.349252,
     "geom:longitude":-108.585125,
@@ -27,19 +32,28 @@
         "director"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1i28NlI3PgAgGmqWMuwV5z_37.349252_-108.585125@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441265,
-    "wof:geomhash":"426aa2d279e03ab0a0da5af074b6fb84",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf4d8b6ca5c49286f296c0aa76fbaf7e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823573561
+        }
+    ],
     "wof:id":823573561,
-    "wof:lastmodified":1466416410,
+    "wof:lastmodified":1492125291,
     "wof:name":"Ertel Funeral Home & Crematory",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

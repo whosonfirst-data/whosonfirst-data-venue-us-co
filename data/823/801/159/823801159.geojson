@@ -2,9 +2,14 @@
   "id": 823801159,
   "type": "Feature",
   "properties": {
+    "addr:full":"8367 Conifer Rd Denver CO 80221",
+    "addr:housenumber":"8367",
+    "addr:postcode":"80221",
+    "addr:street":"Conifer Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.989756,39.84791,-104.989756,39.84791",
     "geom:latitude":39.84791,
     "geom:longitude":-104.989756,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2C0To2DntdTNUsUd133BoZ_39.847910_-104.989756@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446738,
-    "wof:geomhash":"421afdbe155843a1513473f241d7deef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"66c587a926affda211c33e9f640f9e0c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":823801159
+        }
+    ],
     "wof:id":823801159,
-    "wof:lastmodified":1466419713,
+    "wof:lastmodified":1492123204,
     "wof:name":"Air Conditioning Svc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

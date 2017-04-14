@@ -2,9 +2,14 @@
   "id": 823511505,
   "type": "Feature",
   "properties": {
+    "addr:full":"9669 Huron St Denver CO 80260",
+    "addr:housenumber":"9669",
+    "addr:postcode":"80260",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996713,39.872184,-104.996713,39.872184",
     "geom:latitude":39.872184,
     "geom:longitude":-104.996713,
@@ -27,19 +32,47 @@
         "medical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553659,
+        85929143,
+        420553703
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1mGMYaqKpJoMXXrNi7Noyf_39.872184_-104.996713@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439821,
-    "wof:geomhash":"7b38aab8932fec7f7e7f51e7187a0621",
-    "wof:hierarchy":[],
+    "wof:geomhash":"846f6c6be7240ae877b5a16d7a42be57",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553659,
+            "region_id":85688603,
+            "venue_id":823511505
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553703,
+            "region_id":85688603,
+            "venue_id":823511505
+        }
+    ],
     "wof:id":823511505,
-    "wof:lastmodified":1466414540,
+    "wof:lastmodified":1492121182,
     "wof:name":"L E Adams Dr",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

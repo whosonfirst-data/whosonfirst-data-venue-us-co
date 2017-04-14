@@ -2,9 +2,14 @@
   "id": 823603459,
   "type": "Feature",
   "properties": {
+    "addr:full":"11891 Teller St Broomfield CO 80020",
+    "addr:housenumber":"11891",
+    "addr:postcode":"80020",
+    "addr:street":"Teller St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076608,39.912447,-105.076608,39.912447",
     "geom:latitude":39.912447,
     "geom:longitude":-105.076608,
@@ -27,19 +32,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554221
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_74wpKuUhnsmAQ3VbGNF49U_39.912447_-105.076608@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441989,
-    "wof:geomhash":"45f334a0a0bfc4fefbc710a7f6b19311",
-    "wof:hierarchy":[],
+    "wof:geomhash":"96cfe5d372940601720725a4c14877f1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554221,
+            "region_id":85688603,
+            "venue_id":823603459
+        }
+    ],
     "wof:id":823603459,
-    "wof:lastmodified":1466417213,
+    "wof:lastmodified":1492126144,
     "wof:name":"Broomfield Mini Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554221,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

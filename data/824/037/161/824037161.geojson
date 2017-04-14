@@ -2,9 +2,14 @@
   "id": 824037161,
   "type": "Feature",
   "properties": {
+    "addr:full":"1440 Florida Rd Durango CO 81301",
+    "addr:housenumber":"1440",
+    "addr:postcode":"co 81301",
+    "addr:street":"Florida Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.851249,37.296677,-107.851249,37.296677",
     "geom:latitude":37.296677,
     "geom:longitude":-107.851249,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_35qE0aEAWdlIyjaYFDOTHj_37.296677_-107.851249@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452847,
-    "wof:geomhash":"8abed5e2c9cec1dbbd12d7ac1cce4b84",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f9e603f6e6f6eafcf80adc103853563",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":824037161
+        }
+    ],
     "wof:id":824037161,
-    "wof:lastmodified":1466414083,
+    "wof:lastmodified":1492132865,
     "wof:name":"Durango Baptist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

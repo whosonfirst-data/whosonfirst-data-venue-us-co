@@ -2,9 +2,14 @@
   "id": 839955845,
   "type": "Feature",
   "properties": {
+    "addr:full":"2326 K Rd Grand Junction CO 81505",
+    "addr:housenumber":"2326",
+    "addr:postcode":"81505",
+    "addr:street":"K Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.626663,39.164275,-108.626663,39.164275",
     "geom:latitude":39.164275,
     "geom:longitude":-108.626663,
@@ -30,8 +35,9 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
         85633793,
+        420554881,
+        85688603,
         85929587,
         102085221,
         85803287
@@ -42,8 +48,13 @@
     },
     "wof:country":"US",
     "wof:created":1463459450,
-    "wof:geomhash":"76733ce01e9eb8852a6b6451cf481a76",
+    "wof:geomhash":"34e04d6e355f021f208df34f392261ab",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554881,
+            "venue_id":839955845
+        },
         {
             "country_id":85633793,
             "county_id":102085221,
@@ -54,9 +65,9 @@
         }
     ],
     "wof:id":839955845,
-    "wof:lastmodified":1466415509,
+    "wof:lastmodified":1492112046,
     "wof:name":"Industrial Power Corp",
-    "wof:parent_id":85803287,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

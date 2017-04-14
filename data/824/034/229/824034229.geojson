@@ -2,9 +2,14 @@
   "id": 824034229,
   "type": "Feature",
   "properties": {
+    "addr:full":"600 E Grand Ave Mancos CO 81328",
+    "addr:housenumber":"600",
+    "addr:postcode":"81328",
+    "addr:street":"E Grand Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.296198,37.345023,-108.296198,37.345023",
     "geom:latitude":37.345023,
     "geom:longitude":-108.296198,
@@ -29,19 +34,36 @@
         "school"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928921,
+        102084099,
+        420555115
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6qVEjLGCtjSdGus42iuu8c_37.345023_-108.296198@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452764,
-    "wof:geomhash":"e823a47ca69795c731d4c52c948b8346",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7f96b49cb4a20aab3c49e4a732c684eb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928921,
+            "neighbourhood_id":420555115,
+            "region_id":85688603,
+            "venue_id":824034229
+        }
+    ],
     "wof:id":824034229,
-    "wof:lastmodified":1466413904,
+    "wof:lastmodified":1492130740,
     "wof:name":"Mancos Headstart",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

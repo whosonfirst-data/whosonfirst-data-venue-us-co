@@ -2,9 +2,14 @@
   "id": 824159521,
   "type": "Feature",
   "properties": {
+    "addr:full":"3000 Folsom St Boulder CO 80304",
+    "addr:housenumber":"3000",
+    "addr:postcode":"80304",
+    "addr:street":"Folsom St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.263182,40.03114,-105.263182,40.03114",
     "geom:latitude":40.03114,
     "geom:longitude":-105.263182,
@@ -27,19 +32,46 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876435,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_61Rt4FraVSVm6M5O53JzEV_40.031140_-105.263182@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456280,
-    "wof:geomhash":"7da9f5712df38251fbf7d5ab81a3fa93",
-    "wof:hierarchy":[],
+    "wof:geomhash":"299176cdbd38366d3721fa43c708a412",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876435,
+            "region_id":85688603,
+            "venue_id":824159521
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":824159521
+        }
+    ],
     "wof:id":824159521,
-    "wof:lastmodified":1466417379,
+    "wof:lastmodified":1492128634,
     "wof:name":"Ligas Flies",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

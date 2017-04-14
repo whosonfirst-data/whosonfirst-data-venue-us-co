@@ -2,9 +2,14 @@
   "id": 823729825,
   "type": "Feature",
   "properties": {
+    "addr:full":"800 E 112th Pl Denver CO 80233",
+    "addr:housenumber":"800",
+    "addr:postcode":"80233",
+    "addr:street":"E 112Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.975067,39.900118,-104.975067,39.900118",
     "geom:latitude":39.900118,
     "geom:longitude":-104.975067,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6cQOHh7mYpXszPBwvey3u5_39.900118_-104.975067@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444898,
-    "wof:geomhash":"02114ed531b44686e40940bbabd42a01",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7e0af12886d9f9aac251f9dfaa884739",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823729825
+        }
+    ],
     "wof:id":823729825,
-    "wof:lastmodified":1466418520,
+    "wof:lastmodified":1492118313,
     "wof:name":"A-1 Electric Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

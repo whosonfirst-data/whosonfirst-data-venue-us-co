@@ -2,9 +2,14 @@
   "id": 320164439,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 University Blvd Ste 210 Denver CO 80206",
+    "addr:housenumber":"101",
+    "addr:postcode":"80206",
+    "addr:street":"University Blvd Ste 210",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959312,39.718349,-104.959312,39.718349",
     "geom:latitude":39.718349,
     "geom:longitude":-104.959312,
@@ -33,11 +38,13 @@
     "sg:website":"http://www.mvp-docs.com",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        85871317,
+        102191575,
+        1108750035,
         85633793,
         85928879,
         102086135,
-        85871319
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -47,19 +54,20 @@
     "wof:geomhash":"f465bea35686ada167e3ff149d101e97",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85871319,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871317,
             "region_id":85688603,
             "venue_id":320164439
         }
     ],
     "wof:id":320164439,
-    "wof:lastmodified":1466412725,
+    "wof:lastmodified":1491865709,
     "wof:name":"Cherry Creek Family Practice",
-    "wof:parent_id":85871319,
+    "wof:parent_id":85871317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

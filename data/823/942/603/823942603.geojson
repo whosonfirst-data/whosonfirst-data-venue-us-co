@@ -2,9 +2,14 @@
   "id": 823942603,
   "type": "Feature",
   "properties": {
+    "addr:full":"1793 Elmwood St Broomfield CO 80020",
+    "addr:housenumber":"1793",
+    "addr:postcode":"80020",
+    "addr:street":"Elmwood St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.054099,39.938617,-105.054099,39.938617",
     "geom:latitude":39.938617,
     "geom:longitude":-105.054099,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554177
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ZJOuMiYSdHGenpaPKZNTN_39.938617_-105.054099@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450583,
-    "wof:geomhash":"fc8df25448daea891fa20804d04ff4a3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7953cf50230de579aa385a0fe975f4a7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554177,
+            "region_id":85688603,
+            "venue_id":823942603
+        }
+    ],
     "wof:id":823942603,
-    "wof:lastmodified":1466420589,
+    "wof:lastmodified":1492116649,
     "wof:name":"Busch's Building Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554177,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

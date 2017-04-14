@@ -2,9 +2,14 @@
   "id": 823669167,
   "type": "Feature",
   "properties": {
+    "addr:full":"55332 E Apache Pl Strasburg CO 80136",
+    "addr:housenumber":"55332",
+    "addr:postcode":"80136",
+    "addr:street":"E Apache Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.337366,39.732214,-104.337366,39.732214",
     "geom:latitude":39.732214,
     "geom:longitude":-104.337366,
@@ -28,19 +33,36 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1vmPadBX7cPx9rNihj7UPa_39.732214_-104.337366@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443555,
-    "wof:geomhash":"6a32f7e11d7a39bfb106aec10f832be9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"850f896edcd31b634c7c066316f23227",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823669167
+        }
+    ],
     "wof:id":823669167,
-    "wof:lastmodified":1466418107,
+    "wof:lastmodified":1492121746,
     "wof:name":"Bella Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

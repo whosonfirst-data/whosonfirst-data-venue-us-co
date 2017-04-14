@@ -2,9 +2,14 @@
   "id": 823556319,
   "type": "Feature",
   "properties": {
+    "addr:full":"1919 Palmer St Grand Junction CO 81503",
+    "addr:housenumber":"1919",
+    "addr:postcode":"81503",
+    "addr:street":"Palmer St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.560011,39.046011,-108.560011,39.046011",
     "geom:latitude":39.046011,
     "geom:longitude":-108.560011,
@@ -27,19 +32,36 @@
         "truck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420555011
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72imfoI4HujaPWuoGbX8K4_39.046011_-108.560011@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440847,
-    "wof:geomhash":"24cbb7cddb5e23905c1f2877ae4fd38e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"60d566f861f7c70e58b24f08582a43d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555011,
+            "region_id":85688603,
+            "venue_id":823556319
+        }
+    ],
     "wof:id":823556319,
-    "wof:lastmodified":1466415985,
+    "wof:lastmodified":1492127559,
     "wof:name":"Paul's Truck Wash & Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555011,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

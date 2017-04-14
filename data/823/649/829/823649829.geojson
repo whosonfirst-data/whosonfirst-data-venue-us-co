@@ -2,9 +2,14 @@
   "id": 823649829,
   "type": "Feature",
   "properties": {
+    "addr:full":"11 Studio Pl Colorado Springs CO 80904",
+    "addr:housenumber":"11",
+    "addr:postcode":"80904",
+    "addr:street":"Studio Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.884695,38.863887,-104.884695,38.863887",
     "geom:latitude":38.863887,
     "geom:longitude":-104.884695,
@@ -29,9 +34,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929457,
         102086875,
+        85821693,
         85872791
     ],
     "wof:breaches":[],
@@ -40,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463443077,
-    "wof:geomhash":"88f56306fb8b7e4e4fb1a3ecddeff412",
+    "wof:geomhash":"3b856d13001019ecb337e57b94ee4027",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":85821693,
+            "region_id":85688603,
+            "venue_id":823649829
+        },
         {
             "country_id":85633793,
             "county_id":102086875,
@@ -52,9 +68,9 @@
         }
     ],
     "wof:id":823649829,
-    "wof:lastmodified":1466418038,
+    "wof:lastmodified":1492117624,
     "wof:name":"Intermountain Tree Care",
-    "wof:parent_id":85872791,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

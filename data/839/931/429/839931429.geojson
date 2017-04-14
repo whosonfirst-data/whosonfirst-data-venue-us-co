@@ -2,9 +2,14 @@
   "id": 839931429,
   "type": "Feature",
   "properties": {
+    "addr:full":"5300 Marshall Dr Boulder CO 80305",
+    "addr:housenumber":"5300",
+    "addr:postcode":"80305",
+    "addr:street":"Marshall Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.229095,39.956128,-105.229095,39.956128",
     "geom:latitude":39.956128,
     "geom:longitude":-105.229095,
@@ -29,9 +34,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85896005,
-        102085251
+        85930689,
+        102085251,
+        85895933,
+        85896005
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463458053,
-    "wof:geomhash":"20295557377fd19c5279d78c940d5494",
+    "wof:geomhash":"43e08f18d4a609d95d3ebccc7ab718e5",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930689,
+            "neighbourhood_id":85895933,
+            "region_id":85688603,
+            "venue_id":839931429
+        },
         {
             "country_id":85633793,
             "county_id":102085251,
@@ -50,9 +67,9 @@
         }
     ],
     "wof:id":839931429,
-    "wof:lastmodified":1466414286,
+    "wof:lastmodified":1492111541,
     "wof:name":"Ameri Spec Home Inspection Svc",
-    "wof:parent_id":85896005,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 169614307,
   "type": "Feature",
   "properties": {
+    "addr:full":"940 S University Blvd Denver CO 80209",
+    "addr:housenumber":"940",
+    "addr:postcode":"80209",
+    "addr:street":"S University Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959253,39.699141,-104.959253,39.699141",
     "geom:latitude":39.699141,
     "geom:longitude":-104.959253,
@@ -29,10 +34,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108749009,
+        85871327,
+        102191575,
+        1108750035,
         85633793,
         85928879,
-        102086135
+        102086135,
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +51,21 @@
     "wof:geomhash":"cf8879dea21f7f16fefe773c231d43ab",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":-1,
+            "macrohood_id":1108750035,
+            "microhood_id":1108749009,
+            "neighbourhood_id":85871327,
             "region_id":85688603,
             "venue_id":169614307
         }
     ],
     "wof:id":169614307,
-    "wof:lastmodified":1466411967,
+    "wof:lastmodified":1486604347,
     "wof:name":"Martinez Construction Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108749009,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

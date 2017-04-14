@@ -2,9 +2,14 @@
   "id": 823466287,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 S Maple St Cortez CO 81321",
+    "addr:housenumber":"101",
+    "addr:postcode":"81321",
+    "addr:street":"S Maple St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.59042,37.347491,-108.59042,37.347491",
     "geom:latitude":37.347491,
     "geom:longitude":-108.59042,
@@ -27,19 +32,28 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5a6g35OduDSPKvA5OCHtmr_37.347491_-108.590420@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438752,
-    "wof:geomhash":"917974e55d46ba0fd34ba68f92e8b72d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b1ef916d089f2eb0e3764a3a50eb61bf",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823466287
+        }
+    ],
     "wof:id":823466287,
-    "wof:lastmodified":1466411942,
+    "wof:lastmodified":1492122660,
     "wof:name":"Four Corners Periodontics",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

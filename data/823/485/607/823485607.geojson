@@ -2,9 +2,14 @@
   "id": 823485607,
   "type": "Feature",
   "properties": {
+    "addr:full":"317 Main St Longmont CO 80501",
+    "addr:housenumber":"317",
+    "addr:postcode":"80501",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.102589,40.165438,-105.102589,40.165438",
     "geom:latitude":40.165438,
     "geom:longitude":-105.102589,
@@ -28,17 +33,32 @@
         "boot"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_34nnlhfwWY9AVzFW8fqMN7_40.165438_-105.102589@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439196,
-    "wof:geomhash":"3297810acbba1f3d7b8aff5e4fd6520a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5889241b2ff7668bba55e3d516898656",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823485607
+        }
+    ],
     "wof:id":823485607,
-    "wof:lastmodified":1466413652,
+    "wof:lastmodified":1492117231,
     "wof:name":"Little Boot",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

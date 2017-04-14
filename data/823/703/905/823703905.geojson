@@ -2,9 +2,14 @@
   "id": 823703905,
   "type": "Feature",
   "properties": {
+    "addr:full":"6303 Dry Creek Pkwy Longmont CO 80503",
+    "addr:housenumber":"6303",
+    "addr:postcode":"80503",
+    "addr:street":"Dry Creek Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.182268,40.087628,-105.182268,40.087628",
     "geom:latitude":40.087628,
     "geom:longitude":-105.182268,
@@ -28,19 +33,36 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554053
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1MfNvJOuxpHQrVDN5fFjTh_40.087628_-105.182268@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444318,
-    "wof:geomhash":"0ccca2b246024ca249d88cf7a141537e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"65987ff9ac2dbe1763bf624237cd101f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554053,
+            "region_id":85688603,
+            "venue_id":823703905
+        }
+    ],
     "wof:id":823703905,
-    "wof:lastmodified":1466418611,
+    "wof:lastmodified":1492119671,
     "wof:name":"CL Holding Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554053,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

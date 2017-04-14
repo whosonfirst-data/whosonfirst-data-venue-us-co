@@ -2,9 +2,14 @@
   "id": 823620505,
   "type": "Feature",
   "properties": {
+    "addr:full":"2790 Valmont Rd Boulder CO 80304",
+    "addr:housenumber":"2790",
+    "addr:postcode":"80304",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.261818,40.029178,-105.261818,40.029178",
     "geom:latitude":40.029178,
     "geom:longitude":-105.261818,
@@ -37,19 +42,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_23VtGweiSKbV1W9rpb9GpU_40.029178_-105.261818@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442411,
-    "wof:geomhash":"2f6c145e218c1a0623b7658463aea9ee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1e8de090df542294c124c36f69aba3cd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":823620505
+        }
+    ],
     "wof:id":823620505,
-    "wof:lastmodified":1466417470,
+    "wof:lastmodified":1492124003,
     "wof:name":"Platte River Associates Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

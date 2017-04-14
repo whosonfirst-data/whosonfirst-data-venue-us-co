@@ -2,9 +2,14 @@
   "id": 839951455,
   "type": "Feature",
   "properties": {
+    "addr:full":"650 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"650",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.995778,39.848864,-104.995778,39.848864",
     "geom:latitude":39.848864,
     "geom:longitude":-104.995778,
@@ -28,19 +33,36 @@
         "billiard"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553867
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4eWqxsRgsSxE3FrA9Fn8xW_39.848864_-104.995778@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459173,
-    "wof:geomhash":"7b66c51af48a7f36f9441582e691fd5f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"90259082b731a2f3ba360c40ad75b809",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553867,
+            "region_id":85688603,
+            "venue_id":839951455
+        }
+    ],
     "wof:id":839951455,
-    "wof:lastmodified":1466415198,
+    "wof:lastmodified":1492113059,
     "wof:name":"Bank Shot Poolroom",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553867,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

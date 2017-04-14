@@ -2,9 +2,14 @@
   "id": 823754623,
   "type": "Feature",
   "properties": {
+    "addr:full":"235 N Main St Mancos CO 81328",
+    "addr:housenumber":"235",
+    "addr:postcode":"81328",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.289081,37.346797,-108.289081,37.346797",
     "geom:latitude":37.346797,
     "geom:longitude":-108.289081,
@@ -28,19 +33,28 @@
         "carving"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1FgziHXayUfYoAWZrgFrxE_37.346797_-108.289081@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445499,
-    "wof:geomhash":"e9854e6b419f9c16a9d1db5569bc4d5c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a164d2184278e57fca30bd26da483a0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823754623
+        }
+    ],
     "wof:id":823754623,
-    "wof:lastmodified":1466419032,
+    "wof:lastmodified":1492117482,
     "wof:name":"Wolff Carvers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

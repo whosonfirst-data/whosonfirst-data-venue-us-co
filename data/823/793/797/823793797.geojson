@@ -2,9 +2,14 @@
   "id": 823793797,
   "type": "Feature",
   "properties": {
+    "addr:full":"7288 Co Rd 54 Johnstown CO 80534",
+    "addr:housenumber":"7288;54",
+    "addr:postcode":"80534",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.919917,40.377835,-104.919917,40.377835",
     "geom:latitude":40.377835,
     "geom:longitude":-104.919917,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ISpUgxr1fgG9pb7ZaWOlK_40.377835_-104.919917@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446539,
-    "wof:geomhash":"aa18388c1dac53d72ee994975edd4248",
-    "wof:hierarchy":[],
+    "wof:geomhash":"adda1a7724a8c2599fa1e59183d0710f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823793797
+        }
+    ],
     "wof:id":823793797,
-    "wof:lastmodified":1466419369,
+    "wof:lastmodified":1492122256,
     "wof:name":"Lakota Lakes Ranch Homeowners",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839930961,
   "type": "Feature",
   "properties": {
+    "addr:full":"2054 E 98th Ave Denver CO 80229",
+    "addr:housenumber":"2054",
+    "addr:postcode":"80229",
+    "addr:street":"E 98Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.962754,39.874471,-104.962754,39.874471",
     "geom:latitude":39.874471,
     "geom:longitude":-104.962754,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0O9BiIynXQI2OKQiRpDGDI_39.874471_-104.962754@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458026,
-    "wof:geomhash":"e1785af2fcc2dbcda6a5a4ee0ece77be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e5093dd6ab01c10b42168802693cb9db",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":839930961
+        }
+    ],
     "wof:id":839930961,
-    "wof:lastmodified":1466414078,
+    "wof:lastmodified":1492112226,
     "wof:name":"PAA Trucking Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

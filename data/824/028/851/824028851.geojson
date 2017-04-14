@@ -2,9 +2,14 @@
   "id": 824028851,
   "type": "Feature",
   "properties": {
+    "addr:full":"8000 Bradburn Dr Westminster CO 80031",
+    "addr:housenumber":"8000",
+    "addr:postcode":"80031",
+    "addr:street":"Bradburn Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039239,39.845478,-105.039239,39.845478",
     "geom:latitude":39.845478,
     "geom:longitude":-105.039239,
@@ -24,19 +29,57 @@
     "sg:postcode":"80031",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        85888481,
+        102084113,
+        420553541,
+        420553561
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_74T1mc8Lr0rvya2C9In9qj_39.845478_-105.039239@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452639,
-    "wof:geomhash":"777d1472fa11886da7c5c24c55937b88",
-    "wof:hierarchy":[],
+    "wof:geomhash":"59b21cf7381b1953983d997bf9c79dc1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":85888481,
+            "region_id":85688603,
+            "venue_id":824028851
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553541,
+            "region_id":85688603,
+            "venue_id":824028851
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553561,
+            "region_id":85688603,
+            "venue_id":824028851
+        }
+    ],
     "wof:id":824028851,
-    "wof:lastmodified":1466413622,
+    "wof:lastmodified":1492129589,
     "wof:name":"Duff Associates Architecture",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

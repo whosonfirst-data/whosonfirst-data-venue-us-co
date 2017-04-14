@@ -2,9 +2,14 @@
   "id": 824000871,
   "type": "Feature",
   "properties": {
+    "addr:full":"4350 S Pierce St Littleton CO 80235",
+    "addr:housenumber":"4350",
+    "addr:postcode":"80235",
+    "addr:street":"S Pierce St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.072475,39.638257,-105.072475,39.638257",
     "geom:latitude":39.638257,
     "geom:longitude":-105.072475,
@@ -27,19 +32,38 @@
         "protection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871357,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_73H8BFofs2gCKOsBOV0AId_39.638257_-105.072475@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452008,
-    "wof:geomhash":"9f64071801c95be088ff786b9ad7d8e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e2622eb118e8c35d2811f8ff796d6987",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871357,
+            "region_id":85688603,
+            "venue_id":824000871
+        }
+    ],
     "wof:id":824000871,
-    "wof:lastmodified":1466412021,
+    "wof:lastmodified":1492131403,
     "wof:name":"Police Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823710387,
   "type": "Feature",
   "properties": {
+    "addr:full":"2748 B Rd Grand Junction CO 81503",
+    "addr:housenumber":"2748 b",
+    "addr:postcode":"81503",
+    "addr:street":"Rd Grand Junction",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.54579,39.033896,-108.54579,39.033896",
     "geom:latitude":39.033896,
     "geom:longitude":-108.54579,
@@ -27,19 +32,42 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554917,
+        85688603,
+        102191575,
+        85930463,
+        102085221,
+        420555025
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3YZmmEYWGGxoBOvkIFeZrQ_39.033896_-108.545790@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444455,
-    "wof:geomhash":"b65b791516068cb6d9961c62f6e7ffb3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6fadf1874057425a63c364fdb2499a1c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554917,
+            "venue_id":823710387
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930463,
+            "neighbourhood_id":420555025,
+            "region_id":85688603,
+            "venue_id":823710387
+        }
+    ],
     "wof:id":823710387,
-    "wof:lastmodified":1466418600,
+    "wof:lastmodified":1492126794,
     "wof:name":"Trinity Baptist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

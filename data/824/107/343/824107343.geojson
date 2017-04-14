@@ -2,9 +2,14 @@
   "id": 824107343,
   "type": "Feature",
   "properties": {
+    "addr:full":"1445 E 68th Ave Denver CO 80229",
+    "addr:housenumber":"1445",
+    "addr:postcode":"80229",
+    "addr:street":"E 68Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971883,39.820049,-104.971883,39.820049",
     "geom:latitude":39.820049,
     "geom:longitude":-104.971883,
@@ -29,19 +34,36 @@
     ],
     "sg:website":"www.jonesheartz.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2VDYIClwUrrX0dgFfPYMTI_39.820049_-104.971883@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454492,
-    "wof:geomhash":"71440e32b3cd24d4664db90597da9b4d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bc2a1d64e2f0356f0732000ae237ce08",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":824107343
+        }
+    ],
     "wof:id":824107343,
-    "wof:lastmodified":1466415212,
+    "wof:lastmodified":1492130036,
     "wof:name":"Jones Heartz Drywall Supply",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

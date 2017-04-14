@@ -2,9 +2,14 @@
   "id": 823871791,
   "type": "Feature",
   "properties": {
+    "addr:full":"2018 N Dolores Rd Cortez CO 81321",
+    "addr:housenumber":"2018",
+    "addr:postcode":"81321",
+    "addr:street":"N Dolores Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.554425,37.371064,-108.554425,37.371064",
     "geom:latitude":37.371064,
     "geom:longitude":-108.554425,
@@ -27,19 +32,28 @@
         "course"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_78RGTkYwaRJpyCMJpenwbN_37.371064_-108.554425@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448775,
-    "wof:geomhash":"4d994498c53ff68030b4905af2b0f84e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1f00d03369e974c4e2deb37a4adf0c1a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823871791
+        }
+    ],
     "wof:id":823871791,
-    "wof:lastmodified":1466420098,
+    "wof:lastmodified":1492120620,
     "wof:name":"Cortez Golf Course Maintenance",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

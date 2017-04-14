@@ -2,9 +2,14 @@
   "id": 823677833,
   "type": "Feature",
   "properties": {
+    "addr:full":"360 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"360",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.992138,39.848862,-104.992138,39.848862",
     "geom:latitude":39.848862,
     "geom:longitude":-104.992138,
@@ -28,19 +33,36 @@
         "costume"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4PZcayD3yO7FfWeNkguGGp_39.848862_-104.992138@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443741,
-    "wof:geomhash":"69231caff66f12738cf2f851ca739cac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"31a81a32f7d21a4b6f31e2ae01589de9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":823677833
+        }
+    ],
     "wof:id":823677833,
-    "wof:lastmodified":1466418388,
+    "wof:lastmodified":1492126469,
     "wof:name":"Carol's Costume Works LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

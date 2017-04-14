@@ -2,9 +2,14 @@
   "id": 824110663,
   "type": "Feature",
   "properties": {
+    "addr:full":"190 N Mildred Rd Cortez CO 81321",
+    "addr:housenumber":"190",
+    "addr:postcode":"81321",
+    "addr:street":"N Mildred Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572624,37.348969,-108.572624,37.348969",
     "geom:latitude":37.348969,
     "geom:longitude":-108.572624,
@@ -27,19 +32,36 @@
         "surveyor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555047
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_57ML0ppwwb0opQ7hXnBVGu_37.348969_-108.572624@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454565,
-    "wof:geomhash":"e64d7ec37ad70e7504f0102ec8d02093",
-    "wof:hierarchy":[],
+    "wof:geomhash":"904e36bb0189e90266e244be490ca57d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555047,
+            "region_id":85688603,
+            "venue_id":824110663
+        }
+    ],
     "wof:id":824110663,
-    "wof:lastmodified":1466415421,
+    "wof:lastmodified":1492131121,
     "wof:name":"Maness & Assoc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555047,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

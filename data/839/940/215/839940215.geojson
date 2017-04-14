@@ -2,9 +2,14 @@
   "id": 839940215,
   "type": "Feature",
   "properties": {
+    "addr:full":"401 S Vine St Denver CO 80209",
+    "addr:housenumber":"401",
+    "addr:postcode":"80209",
+    "addr:street":"S Vine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.962862,39.707487,-104.962862,39.707487",
     "geom:latitude":39.707487,
     "geom:longitude":-104.962862,
@@ -24,7 +29,15 @@
     "sg:postcode":"80209",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554305,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3tjMUj1dCnqpiKpQnVJMdQ_39.707487_-104.962862@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463458506,
     "wof:geomhash":"35a7240e691fbcd76c853419ba2ff10c",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":420554305,
+            "region_id":85688603,
+            "venue_id":839940215
+        }
+    ],
     "wof:id":839940215,
-    "wof:lastmodified":1466414783,
+    "wof:lastmodified":1491865533,
     "wof:name":"G Squared LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

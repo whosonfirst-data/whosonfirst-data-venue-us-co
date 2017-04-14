@@ -2,9 +2,14 @@
   "id": 823835267,
   "type": "Feature",
   "properties": {
+    "addr:full":"890 S Josephine St Denver CO 80209",
+    "addr:housenumber":"890",
+    "addr:postcode":"80209",
+    "addr:street":"S Josephine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.956844,39.701875,-104.956844,39.701875",
     "geom:latitude":39.701875,
     "geom:longitude":-104.956844,
@@ -28,7 +33,16 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108749009,
+        85871327,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6LQo5HGIf1e6MCMKF0GydW_39.701875_-104.956844@1294083659"
@@ -36,11 +50,23 @@
     "wof:country":"US",
     "wof:created":1463447766,
     "wof:geomhash":"24a704d164ae52e680a93f7f576098bd",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "microhood_id":1108749009,
+            "neighbourhood_id":85871327,
+            "region_id":85688603,
+            "venue_id":823835267
+        }
+    ],
     "wof:id":823835267,
-    "wof:lastmodified":1466419640,
+    "wof:lastmodified":1486604348,
     "wof:name":"Paint & Style Studio",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108749009,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823518575,
   "type": "Feature",
   "properties": {
+    "addr:full":"60 Gateway Cir Berthoud CO 80513",
+    "addr:housenumber":"60",
+    "addr:postcode":"80513",
+    "addr:street":"Gateway Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.984991,40.337195,-104.984991,40.337195",
     "geom:latitude":40.337195,
     "geom:longitude":-104.984991,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5w84HpM3LfRgVcpYegoMyw_40.337195_-104.984991@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439992,
-    "wof:geomhash":"a075a08a459828d5266420d5818d2007",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91037a6696c6578eb8d18eb74d345afd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823518575
+        }
+    ],
     "wof:id":823518575,
-    "wof:lastmodified":1466414736,
+    "wof:lastmodified":1492123280,
     "wof:name":"Coffman & Laub Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

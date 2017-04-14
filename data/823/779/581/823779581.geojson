@@ -2,9 +2,14 @@
   "id": 823779581,
   "type": "Feature",
   "properties": {
+    "addr:full":"1401 E 3rd Ave Durango CO 81301",
+    "addr:housenumber":"1401",
+    "addr:postcode":"co 81301",
+    "addr:street":"E 3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.875826,37.279347,-107.875826,37.279347",
     "geom:latitude":37.279347,
     "geom:longitude":-107.875826,
@@ -30,9 +35,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85928939,
         102084019,
+        85888409,
         85888407
     ],
     "wof:breaches":[],
@@ -41,8 +48,17 @@
     },
     "wof:country":"US",
     "wof:created":1463446076,
-    "wof:geomhash":"8c3ab4fa6f536add5a3f400b7b3be11e",
+    "wof:geomhash":"3665b154b0511baade576d35c19f7310",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084019,
+            "locality_id":85928939,
+            "neighbourhood_id":85888409,
+            "region_id":85688603,
+            "venue_id":823779581
+        },
         {
             "country_id":85633793,
             "county_id":102084019,
@@ -53,9 +69,9 @@
         }
     ],
     "wof:id":823779581,
-    "wof:lastmodified":1466419208,
+    "wof:lastmodified":1492123870,
     "wof:name":"Tamarin Sq Sr Lving Apartments",
-    "wof:parent_id":85888407,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

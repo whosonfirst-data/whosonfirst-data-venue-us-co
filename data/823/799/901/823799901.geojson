@@ -2,9 +2,14 @@
   "id": 823799901,
   "type": "Feature",
   "properties": {
+    "addr:full":"6860 Brighton Blvd Commerce City CO 80022",
+    "addr:housenumber":"6860",
+    "addr:postcode":"80022",
+    "addr:street":"Brighton Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931981,39.820477,-104.931981,39.820477",
     "geom:latitude":39.820477,
     "geom:longitude":-104.931981,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553475
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0aneAoo4utuROODox4tXVT_39.820477_-104.931981@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446710,
-    "wof:geomhash":"612b09229c51731c4af0e1b2661be6d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1c4e59de802ae54ade3853890f3de1a1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553475,
+            "region_id":85688603,
+            "venue_id":823799901
+        }
+    ],
     "wof:id":823799901,
-    "wof:lastmodified":1466419380,
+    "wof:lastmodified":1492117289,
     "wof:name":"Auto Exchange Of The Rockies",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553475,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823622109,
   "type": "Feature",
   "properties": {
+    "addr:full":"9917 W 107th Pl Broomfield CO 80021",
+    "addr:housenumber":"9917",
+    "addr:postcode":"80021",
+    "addr:street":"W 107Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.108799,39.892313,-105.108799,39.892313",
     "geom:latitude":39.892313,
     "geom:longitude":-105.108799,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2XsA5vWDCRU81iwVitsCWR_39.892313_-105.108799@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442453,
-    "wof:geomhash":"7495e49cd2c3fccd85f885aba48e5083",
-    "wof:hierarchy":[],
+    "wof:geomhash":"807faa9715c0151217d2a2775083a28a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823622109
+        }
+    ],
     "wof:id":823622109,
-    "wof:lastmodified":1466417434,
+    "wof:lastmodified":1492122527,
     "wof:name":"Imc Of Colorado",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

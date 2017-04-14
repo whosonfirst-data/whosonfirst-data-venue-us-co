@@ -2,9 +2,14 @@
   "id": 824075807,
   "type": "Feature",
   "properties": {
+    "addr:full":"5783 Sheridan Blvd Arvada CO 80002",
+    "addr:housenumber":"5783",
+    "addr:postcode":"80002",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05285,39.801223,-105.05285,39.801223",
     "geom:latitude":39.801223,
     "geom:longitude":-105.05285,
@@ -27,19 +32,34 @@
         "military"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Tmzjv3TZPE7u5iuwrJNpP_39.801223_-105.052850@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453758,
-    "wof:geomhash":"24ee8c52eb43af93fe8bc7877b7fdcac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c234286d01e8528aa4ffd4f7a7c44501",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824075807
+        }
+    ],
     "wof:id":824075807,
-    "wof:lastmodified":1466414703,
+    "wof:lastmodified":1492131141,
     "wof:name":"Veterans Of Foreign Wars",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

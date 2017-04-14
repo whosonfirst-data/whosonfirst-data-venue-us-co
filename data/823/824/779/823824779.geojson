@@ -2,9 +2,14 @@
   "id": 823824779,
   "type": "Feature",
   "properties": {
+    "addr:full":"2593 W 74th Ave Westminster CO 80030",
+    "addr:housenumber":"2593",
+    "addr:postcode":"80030",
+    "addr:street":"W 74Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.017051,39.830825,-105.017051,39.830825",
     "geom:latitude":39.830825,
     "geom:longitude":-105.017051,
@@ -27,19 +32,36 @@
         "rehabilitation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553585
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_41mIJdvG47a7I3ZI21iMPk_39.830825_-105.017051@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447438,
-    "wof:geomhash":"a938a06463a506a60556fbb686778bbc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1fe56afbbe18f279fabacb804427baec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553585,
+            "region_id":85688603,
+            "venue_id":823824779
+        }
+    ],
     "wof:id":823824779,
-    "wof:lastmodified":1466419615,
+    "wof:lastmodified":1492122999,
     "wof:name":"Smith & Nephew Rehab",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553585,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

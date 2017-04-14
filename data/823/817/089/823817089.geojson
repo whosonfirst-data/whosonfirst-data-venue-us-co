@@ -2,9 +2,14 @@
   "id": 823817089,
   "type": "Feature",
   "properties": {
+    "addr:full":"2909 del Mar Cir Colorado Springs CO 80910",
+    "addr:housenumber":"2909",
+    "addr:postcode":"80910",
+    "addr:street":"Del Mar Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.770731,38.808201,-104.770731,38.808201",
     "geom:latitude":38.808201,
     "geom:longitude":-104.770731,
@@ -31,19 +36,36 @@
         "hauling"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7mNHkJ9TS49HrgQzUo4OK7_38.808201_-104.770731@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447209,
-    "wof:geomhash":"bc253057ccc551987164420cd9825477",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7146c48e92ef9cb986b3f1dbd52e04b3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823817089
+        }
+    ],
     "wof:id":823817089,
-    "wof:lastmodified":1466419728,
+    "wof:lastmodified":1492126007,
     "wof:name":"DUMP Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

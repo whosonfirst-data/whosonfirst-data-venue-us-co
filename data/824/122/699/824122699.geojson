@@ -2,9 +2,14 @@
   "id": 824122699,
   "type": "Feature",
   "properties": {
+    "addr:full":"18475 Co Rd 13 Johnstown CO 80534",
+    "addr:housenumber":"18475;13",
+    "addr:postcode":"80534",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.941787,40.266176,-104.941787,40.266176",
     "geom:latitude":40.266176,
     "geom:longitude":-104.941787,
@@ -27,19 +32,36 @@
         "bean"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4BOpHutwRMc0JP2RaSjIXF_40.266176_-104.941787@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454826,
-    "wof:geomhash":"6be81fce1be8f255c7c7991d020ec178",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f932b814da1b21fdac04732adc7e9831",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":824122699
+        }
+    ],
     "wof:id":824122699,
-    "wof:lastmodified":1466415746,
+    "wof:lastmodified":1492130874,
     "wof:name":"Northern Feed & Bean Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

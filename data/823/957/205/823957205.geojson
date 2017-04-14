@@ -2,9 +2,14 @@
   "id": 823957205,
   "type": "Feature",
   "properties": {
+    "addr:full":"1301 Canyon Blvd Boulder CO 80302",
+    "addr:housenumber":"1301",
+    "addr:postcode":"80302",
+    "addr:street":"Canyon Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276699,40.016456,-105.276699,40.016456",
     "geom:latitude":40.016456,
     "geom:longitude":-105.276699,
@@ -29,7 +34,15 @@
     ],
     "sg:website":"www.smithbreeden.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379,
+        85876437
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4RxEl5mEqEzFLC9F8QQBvi_40.016456_-105.276699@1294083659"
@@ -37,11 +50,30 @@
     "wof:country":"US",
     "wof:created":1463450940,
     "wof:geomhash":"c42fe28529da86b0c969175c3184d497",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823957205
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876437,
+            "region_id":85688603,
+            "venue_id":823957205
+        }
+    ],
     "wof:id":823957205,
-    "wof:lastmodified":1466420680,
+    "wof:lastmodified":1491888509,
     "wof:name":"Smith Breeden",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

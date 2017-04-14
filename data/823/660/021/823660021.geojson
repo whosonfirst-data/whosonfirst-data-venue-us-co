@@ -2,9 +2,14 @@
   "id": 823660021,
   "type": "Feature",
   "properties": {
+    "addr:full":"504 Vance St Lakewood CO 80226",
+    "addr:housenumber":"504",
+    "addr:postcode":"80226",
+    "addr:street":"Vance St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.07918,39.723127,-105.07918,39.723127",
     "geom:latitude":39.723127,
     "geom:longitude":-105.07918,
@@ -27,19 +32,36 @@
         "repair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_457A3J5SthOx9PHuriWe8P_39.723127_-105.079180@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443337,
-    "wof:geomhash":"d22e45e26a524d331b17e44b25884810",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3db2833fde936d765c322bd7589f40e0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823660021
+        }
+    ],
     "wof:id":823660021,
-    "wof:lastmodified":1466418153,
+    "wof:lastmodified":1492127616,
     "wof:name":"Macintosh Computer Itech",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

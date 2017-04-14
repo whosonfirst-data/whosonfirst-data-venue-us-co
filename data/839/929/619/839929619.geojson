@@ -2,9 +2,14 @@
   "id": 839929619,
   "type": "Feature",
   "properties": {
+    "addr:full":"3803 Co Rd 240 Durango CO 81301",
+    "addr:housenumber":"3803;240",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.822028,37.306812,-107.822028,37.306812",
     "geom:latitude":37.306812,
     "geom:longitude":-107.822028,
@@ -27,19 +32,28 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0EwwopHorANjMplylbXtsH_37.306812_-107.822028@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457949,
-    "wof:geomhash":"514f1997531cb3b6c230014b26dade34",
-    "wof:hierarchy":[],
+    "wof:geomhash":"abb33507a491fd7ee92c16bec90a6c79",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":839929619
+        }
+    ],
     "wof:id":839929619,
-    "wof:lastmodified":1466413952,
+    "wof:lastmodified":1492112924,
     "wof:name":"Quality Inspection Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

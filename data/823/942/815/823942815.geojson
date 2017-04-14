@@ -2,9 +2,14 @@
   "id": 823942815,
   "type": "Feature",
   "properties": {
+    "addr:full":"1565 Hwy 50 Delta CO 81416",
+    "addr:housenumber":"1565",
+    "addr:postcode":"81416",
+    "addr:street":"Hwy 50",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.070739,38.761061,-108.070739,38.761061",
     "geom:latitude":38.761061,
     "geom:longitude":-108.070739,
@@ -28,19 +33,36 @@
         "repair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928763,
+        102084073,
+        85837553
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5LsdefzfCRh703YSnqi0Qa_38.761061_-108.070739@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450587,
-    "wof:geomhash":"dfb005001ce0ee0c83121d4603a35385",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1d4a9ff474822237334a8a48214af71a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084073,
+            "locality_id":85928763,
+            "neighbourhood_id":85837553,
+            "region_id":85688603,
+            "venue_id":823942815
+        }
+    ],
     "wof:id":823942815,
-    "wof:lastmodified":1466420669,
+    "wof:lastmodified":1492116643,
     "wof:name":"J C Electric LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85837553,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

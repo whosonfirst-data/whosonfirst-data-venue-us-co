@@ -2,9 +2,14 @@
   "id": 839944635,
   "type": "Feature",
   "properties": {
+    "addr:full":"10884 Larry Dr Northglenn CO 80233",
+    "addr:housenumber":"10884",
+    "addr:postcode":"80233",
+    "addr:street":"Larry Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.969568,39.894337,-104.969568,39.894337",
     "geom:latitude":39.894337,
     "geom:longitude":-104.969568,
@@ -27,19 +32,36 @@
         "maintenance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ogIWVOajkvTmCK32Fks5C_39.894337_-104.969568@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458837,
-    "wof:geomhash":"85129cf44cfe76bb6fa017e6a86fa4db",
-    "wof:hierarchy":[],
+    "wof:geomhash":"690e16103ca3ab6335722de2e3b0a795",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":839944635
+        }
+    ],
     "wof:id":839944635,
-    "wof:lastmodified":1466415074,
+    "wof:lastmodified":1492113963,
     "wof:name":"D J Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

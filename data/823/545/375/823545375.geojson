@@ -2,9 +2,14 @@
   "id": 823545375,
   "type": "Feature",
   "properties": {
+    "addr:full":"805 Walnut St Boulder CO 80302",
+    "addr:housenumber":"805",
+    "addr:postcode":"80302",
+    "addr:street":"Walnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.283628,40.016134,-105.283628,40.016134",
     "geom:latitude":40.016134,
     "geom:longitude":-105.283628,
@@ -41,7 +46,14 @@
     ],
     "sg:website":"www.kroegerherb.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3TuuBBRPwBCGd7c5Fo4864_40.016134_-105.283628@1294083659"
@@ -49,11 +61,21 @@
     "wof:country":"US",
     "wof:created":1463440590,
     "wof:geomhash":"5f3f4119683477d385cb484328de6ca2",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823545375
+        }
+    ],
     "wof:id":823545375,
-    "wof:lastmodified":1466415650,
+    "wof:lastmodified":1491897933,
     "wof:name":"Kroeger Herb Wholesale Pdts Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

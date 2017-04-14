@@ -2,9 +2,14 @@
   "id": 823921815,
   "type": "Feature",
   "properties": {
+    "addr:full":"106 S Main St Brighton CO 80601",
+    "addr:housenumber":"106",
+    "addr:postcode":"80601",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.82221,39.984283,-104.82221,39.984283",
     "geom:latitude":39.984283,
     "geom:longitude":-104.82221,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0LyHebB3DJH3SfpCF6mw5B_39.984283_-104.822210@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450052,
-    "wof:geomhash":"e91e01e581c860bcca5b3cca26ad4523",
-    "wof:hierarchy":[],
+    "wof:geomhash":"36b31b013f02184c1825fa8260a91df8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823921815
+        }
+    ],
     "wof:id":823921815,
-    "wof:lastmodified":1466420443,
+    "wof:lastmodified":1492123636,
     "wof:name":"Normans Memorials Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

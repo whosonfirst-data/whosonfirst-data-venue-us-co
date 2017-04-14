@@ -2,9 +2,14 @@
   "id": 823548589,
   "type": "Feature",
   "properties": {
+    "addr:full":"10105 Vine Ct Thornton CO 80229",
+    "addr:housenumber":"10105",
+    "addr:postcode":"80229",
+    "addr:street":"Vine Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.96122,39.882091,-104.96122,39.882091",
     "geom:latitude":39.882091,
     "geom:longitude":-104.96122,
@@ -28,19 +33,36 @@
         "bureau"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NEKx458EOftBCTsUgPWXv_39.882091_-104.961220@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440665,
-    "wof:geomhash":"81c2968a78f86bb2c12779f8f7b20893",
-    "wof:hierarchy":[],
+    "wof:geomhash":"18b7bd12a7804851683ea781bf249639",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823548589
+        }
+    ],
     "wof:id":823548589,
-    "wof:lastmodified":1466415708,
+    "wof:lastmodified":1492126419,
     "wof:name":"Discover Downunder",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

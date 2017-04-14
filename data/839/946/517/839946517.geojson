@@ -2,9 +2,14 @@
   "id": 839946517,
   "type": "Feature",
   "properties": {
+    "addr:full":"564 Garfield Dr Grand Junction CO 81504",
+    "addr:housenumber":"564",
+    "addr:postcode":"81504",
+    "addr:street":"Garfield Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.508783,39.084773,-108.508783,39.084773",
     "geom:latitude":39.084773,
     "geom:longitude":-108.508783,
@@ -27,19 +32,36 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554993
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2w3gkkAresg5ikCe3mSiAN_39.084773_-108.508783@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458938,
-    "wof:geomhash":"47eeb4999da862cf0625491215db8602",
-    "wof:hierarchy":[],
+    "wof:geomhash":"56c28a8ed07224c54d55c826789f6469",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554993,
+            "region_id":85688603,
+            "venue_id":839946517
+        }
+    ],
     "wof:id":839946517,
-    "wof:lastmodified":1466415187,
+    "wof:lastmodified":1492112708,
     "wof:name":"Halo Property Management",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554993,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

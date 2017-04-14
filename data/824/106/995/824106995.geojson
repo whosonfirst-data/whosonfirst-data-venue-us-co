@@ -2,9 +2,14 @@
   "id": 824106995,
   "type": "Feature",
   "properties": {
+    "addr:full":"2010 Carmel Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2010",
+    "addr:postcode":"80910",
+    "addr:street":"Carmel Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.775543,38.80246,-104.775543,38.80246",
     "geom:latitude":38.80246,
     "geom:longitude":-104.775543,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5NjlA5I1u0I4X4WZHDF8lg_38.802460_-104.775543@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454486,
-    "wof:geomhash":"79c5330e1204007be0d3d5dc7f249b4e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b68ceee69e20336086b98a125a58d195",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":824106995
+        }
+    ],
     "wof:id":824106995,
-    "wof:lastmodified":1466415339,
+    "wof:lastmodified":1492132375,
     "wof:name":"Cedar Crest Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

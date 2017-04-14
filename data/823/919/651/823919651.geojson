@@ -2,9 +2,14 @@
   "id": 823919651,
   "type": "Feature",
   "properties": {
+    "addr:full":"1012 Centre Ave Fort Collins CO 80526",
+    "addr:housenumber":"1012",
+    "addr:postcode":"80526",
+    "addr:street":"Centre Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.094622,40.55542,-105.094622,40.55542",
     "geom:latitude":40.55542,
     "geom:longitude":-105.094622,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0TpbWLq8uczZEnEQHqgsI6_40.555420_-105.094622@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449990,
-    "wof:geomhash":"a845ebaaa735e7bf7c8bf7f9821578fb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"85e3d735b992963c5cdee0a0aa044ca7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823919651
+        }
+    ],
     "wof:id":823919651,
-    "wof:lastmodified":1466420351,
+    "wof:lastmodified":1492118258,
     "wof:name":"Dentist's Station",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823752865,
   "type": "Feature",
   "properties": {
+    "addr:full":"2226 E Main St Cortez CO 81321",
+    "addr:housenumber":"2226",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.556013,37.350483,-108.556013,37.350483",
     "geom:latitude":37.350483,
     "geom:longitude":-108.556013,
@@ -28,19 +33,28 @@
         "filing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0t7PDwSoxUvCZsHHeR6rix_37.350483_-108.556013@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445448,
-    "wof:geomhash":"6cab8ea83e68045724196a690fcbae41",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e17a2174d42af0f5a97317ab0dea883b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823752865
+        }
+    ],
     "wof:id":823752865,
-    "wof:lastmodified":1466418975,
+    "wof:lastmodified":1492125238,
     "wof:name":"H & R Block Tax Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

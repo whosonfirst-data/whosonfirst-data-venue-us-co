@@ -2,9 +2,14 @@
   "id": 824163767,
   "type": "Feature",
   "properties": {
+    "addr:full":"6086 State Hwy 60 Johnstown CO 80534",
+    "addr:housenumber":"6086",
+    "addr:postcode":"80534",
+    "addr:street":"State Hwy 60",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.937478,40.335476,-104.937478,40.335476",
     "geom:latitude":40.335476,
     "geom:longitude":-104.937478,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ZNNOy7pfLwvtblgvXRipR_40.335476_-104.937478@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456446,
-    "wof:geomhash":"2a3793883ed5e23636bf533bbab30a6a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"37a92147765445de6324d08c38b926df",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":824163767
+        }
+    ],
     "wof:id":824163767,
-    "wof:lastmodified":1466417721,
+    "wof:lastmodified":1492129928,
     "wof:name":"Carlson Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

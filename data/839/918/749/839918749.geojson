@@ -2,9 +2,14 @@
   "id": 839918749,
   "type": "Feature",
   "properties": {
+    "addr:full":"4867 10th St Boulder CO 80304",
+    "addr:housenumber":"4867",
+    "addr:postcode":"80304",
+    "addr:street":"10Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.284867,40.064118,-105.284867,40.064118",
     "geom:latitude":40.064118,
     "geom:longitude":-105.284867,
@@ -28,19 +33,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2jBTvl4QZREzmV36VObEFU_40.064118_-105.284867@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457445,
-    "wof:geomhash":"0efac33c162670c674cc34b0a04beb47",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f01ce74b752bae6f3e674682ead386a8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":839918749
+        }
+    ],
     "wof:id":839918749,
-    "wof:lastmodified":1466413658,
+    "wof:lastmodified":1492112359,
     "wof:name":"Professional Pntg Restoration",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

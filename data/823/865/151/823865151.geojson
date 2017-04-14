@@ -2,9 +2,14 @@
   "id": 823865151,
   "type": "Feature",
   "properties": {
+    "addr:full":"11729 Gray Way Broomfield CO 80020",
+    "addr:housenumber":"11729",
+    "addr:postcode":"80020",
+    "addr:street":"Gray Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062001,39.908406,-105.062001,39.908406",
     "geom:latitude":39.908406,
     "geom:longitude":-105.062001,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_05Q2xlclkREZDLxES2Yyi0_39.908406_-105.062001@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448627,
-    "wof:geomhash":"e03d277f39ab1f56cfb9799c1700bf38",
-    "wof:hierarchy":[],
+    "wof:geomhash":"48c67799b3ca7012a4ba1ee370729b49",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":823865151
+        }
+    ],
     "wof:id":823865151,
-    "wof:lastmodified":1466419862,
+    "wof:lastmodified":1492121205,
     "wof:name":"Live Oak Construction LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

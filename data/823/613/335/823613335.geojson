@@ -2,9 +2,14 @@
   "id": 823613335,
   "type": "Feature",
   "properties": {
+    "addr:full":"529 Coffman St Longmont CO 80501",
+    "addr:housenumber":"529",
+    "addr:postcode":"80501",
+    "addr:street":"Coffman St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.103894,40.168554,-105.103894,40.168554",
     "geom:latitude":40.168554,
     "geom:longitude":-105.103894,
@@ -28,17 +33,32 @@
         "outpatient"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_38ZwDZZIym2MouADw5mtmF_40.168554_-105.103894@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442234,
-    "wof:geomhash":"96801cec14cc8806b4f11f623faed6b3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"49304c468cb82a9f2fb62d896d392751",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823613335
+        }
+    ],
     "wof:id":823613335,
-    "wof:lastmodified":1466417382,
+    "wof:lastmodified":1492118969,
     "wof:name":"Mental Hlth Ctr Boulder Cnty I",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

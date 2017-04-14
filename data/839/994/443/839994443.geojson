@@ -2,9 +2,14 @@
   "id": 839994443,
   "type": "Feature",
   "properties": {
+    "addr:full":"1011 Walnut St Second Floor Boulder CO 80302",
+    "addr:housenumber":"1011",
+    "addr:postcode":"80302",
+    "addr:street":"Walnut St Second Floor",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.280976,40.016669,-105.280976,40.016669",
     "geom:latitude":40.016669,
     "geom:longitude":-105.280976,
@@ -35,7 +40,14 @@
     ],
     "sg:website":"http://www.immersivelabs.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3gDlpqtmBKZSfsZwmPjjKq_40.016669_-105.280976@1308186500"
@@ -43,11 +55,21 @@
     "wof:country":"US",
     "wof:created":1463461010,
     "wof:geomhash":"05ab62b5ec93c3056225a2f436c966cb",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":839994443
+        }
+    ],
     "wof:id":839994443,
-    "wof:lastmodified":1466417854,
+    "wof:lastmodified":1491897916,
     "wof:name":"Immersive Labs",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

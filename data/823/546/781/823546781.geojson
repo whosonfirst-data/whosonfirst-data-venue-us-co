@@ -2,9 +2,14 @@
   "id": 823546781,
   "type": "Feature",
   "properties": {
+    "addr:full":"5165 Federal Blvd Denver CO 80211",
+    "addr:housenumber":"5165",
+    "addr:postcode":"80211",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025261,39.789828,-105.025261,39.789828",
     "geom:latitude":39.789828,
     "geom:longitude":-105.025261,
@@ -27,19 +32,38 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871251,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7cYQBj1zShANuWor47okCy_39.789828_-105.025261@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440626,
-    "wof:geomhash":"2803452604b97a4f8d9a6bb150e71b61",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cdad4954ee2fa9aaea33e6aa2bcc7fa0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871251,
+            "region_id":85688603,
+            "venue_id":823546781
+        }
+    ],
     "wof:id":823546781,
-    "wof:lastmodified":1466415758,
+    "wof:lastmodified":1492118149,
     "wof:name":"Taco Bell",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823905907,
   "type": "Feature",
   "properties": {
+    "addr:full":"3800 S Atchison Way Aurora CO 80014",
+    "addr:housenumber":"3800",
+    "addr:postcode":"80014",
+    "addr:street":"S Atchison Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.828171,39.643705,-104.828171,39.643705",
     "geom:latitude":39.643705,
     "geom:longitude":-104.828171,
@@ -27,19 +32,36 @@
         "operator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        85872975
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7lG3lzPnB46c4Spt9OTlBf_39.643705_-104.828171@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449619,
-    "wof:geomhash":"3d1b9ab8245c980c18d6a5fbbb850f15",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b81ec3e5d9101e3a8d809e054e9b997a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":85872975,
+            "region_id":85688603,
+            "venue_id":823905907
+        }
+    ],
     "wof:id":823905907,
-    "wof:lastmodified":1466420302,
+    "wof:lastmodified":1492121897,
     "wof:name":"P K Vending",
-    "wof:parent_id":-1,
+    "wof:parent_id":85872975,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

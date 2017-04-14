@@ -2,9 +2,14 @@
   "id": 824166713,
   "type": "Feature",
   "properties": {
+    "addr:full":"543 Co Rd 46 Howard CO 81233",
+    "addr:housenumber":"543;46",
+    "addr:postcode":"81233",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.83775,38.40061,-105.83775,38.40061",
     "geom:latitude":38.40061,
     "geom:longitude":-105.83775,
@@ -28,17 +33,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930619,
+        102083363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7mLYukHGCoZz1pblKZOFbr_38.400610_-105.837750@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456557,
-    "wof:geomhash":"019fc21fc8e4187604cfb4c0a610a7fe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5ac82a08ca45462fbd1ea42f956c6a3c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "locality_id":85930619,
+            "region_id":85688603,
+            "venue_id":824166713
+        }
+    ],
     "wof:id":824166713,
-    "wof:lastmodified":1466417883,
+    "wof:lastmodified":1492128110,
     "wof:name":"Eccentric Orbit",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

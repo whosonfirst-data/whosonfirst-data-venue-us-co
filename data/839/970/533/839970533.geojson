@@ -2,9 +2,14 @@
   "id": 839970533,
   "type": "Feature",
   "properties": {
+    "addr:full":"16080 Smith Rd Aurora CO 80011",
+    "addr:housenumber":"16080",
+    "addr:postcode":"80011",
+    "addr:street":"Smith Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.801991,39.757332,-104.801991,39.757332",
     "geom:latitude":39.757332,
     "geom:longitude":-104.801991,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553317
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28Khm8fDy54j4mCt7CbmY3_39.757332_-104.801991@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460033,
-    "wof:geomhash":"8ca548c4eff9ae9c2b67037a2ba0afe7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0074f7e7f3137774d2557a6295fc5262",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553317,
+            "region_id":85688603,
+            "venue_id":839970533
+        }
+    ],
     "wof:id":839970533,
-    "wof:lastmodified":1466416274,
+    "wof:lastmodified":1492110691,
     "wof:name":"All Phase Landscape Constr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

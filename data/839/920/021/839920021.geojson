@@ -2,9 +2,14 @@
   "id": 839920021,
   "type": "Feature",
   "properties": {
+    "addr:full":"1198 N 23rd St Grand Junction CO 81501",
+    "addr:housenumber":"1198",
+    "addr:postcode":"81501",
+    "addr:street":"N 23Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.538337,39.078073,-108.538337,39.078073",
     "geom:latitude":39.078073,
     "geom:longitude":-108.538337,
@@ -28,19 +33,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4wLC4KFaI962jPqV8y6n3G_39.078073_-108.538337@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457489,
-    "wof:geomhash":"3ad5c8440c92f4c75b11ba9702cdc950",
-    "wof:hierarchy":[],
+    "wof:geomhash":"04de1a3c97ec1e076c85136ff3416b17",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":839920021
+        }
+    ],
     "wof:id":839920021,
-    "wof:lastmodified":1466413503,
+    "wof:lastmodified":1492112340,
     "wof:name":"TDM Machine Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

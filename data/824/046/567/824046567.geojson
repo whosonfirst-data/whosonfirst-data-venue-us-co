@@ -2,9 +2,14 @@
   "id": 824046567,
   "type": "Feature",
   "properties": {
+    "addr:full":"4210 E 100th Ave Denver CO 80229",
+    "addr:housenumber":"4210",
+    "addr:postcode":"80229",
+    "addr:street":"E 100Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.936107,39.877658,-104.936107,39.877658",
     "geom:latitude":39.877658,
     "geom:longitude":-104.936107,
@@ -28,19 +33,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4qHBm7WkUsXFOLkIltWEjV_39.877658_-104.936107@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453071,
-    "wof:geomhash":"56cf1af52e9fdbb95aa4b5899f77c7b2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"245a1943b4dfb2b2de6b4eb428e784ef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553689,
+            "region_id":85688603,
+            "venue_id":824046567
+        }
+    ],
     "wof:id":824046567,
-    "wof:lastmodified":1466414155,
+    "wof:lastmodified":1492128898,
     "wof:name":"Kuehn Printing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

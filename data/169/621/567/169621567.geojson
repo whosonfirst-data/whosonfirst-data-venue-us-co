@@ -2,9 +2,14 @@
   "id": 169621567,
   "type": "Feature",
   "properties": {
+    "addr:full":"1400 Dallas St Aurora CO 80010",
+    "addr:housenumber":"1400",
+    "addr:postcode":"80010",
+    "addr:street":"Dallas St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.876408,39.739712,-104.876408,39.739712",
     "geom:latitude":39.739712,
     "geom:longitude":-104.876408,
@@ -30,29 +35,44 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
+        85688603,
+        102191575,
         85633793,
-        85688603
+        85929235,
+        102086877,
+        420553933,
+        85872957
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3VQZ36q2HCLDumb04GJTdi_39.739712_-104.876408@1294083659"
     },
     "wof:country":"US",
-    "wof:geomhash":"d088574092ab1fa7f307cfc7e6e3ccd2",
+    "wof:geomhash":"b80fd64f695b248f121632eaa886c2bd",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
-            "locality_id":-1,
-            "neighbourhood_id":-1,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":169621567
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":85872957,
             "region_id":85688603,
             "venue_id":169621567
         }
     ],
     "wof:id":169621567,
-    "wof:lastmodified":1466411981,
+    "wof:lastmodified":1492109446,
     "wof:name":"Aurora Community Development",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

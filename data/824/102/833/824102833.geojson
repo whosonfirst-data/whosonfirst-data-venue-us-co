@@ -2,9 +2,14 @@
   "id": 824102833,
   "type": "Feature",
   "properties": {
+    "addr:full":"1406 Pearl St Boulder CO 80302",
+    "addr:housenumber":"1406",
+    "addr:postcode":"80302",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276104,40.018617,-105.276104,40.018617",
     "geom:latitude":40.018617,
     "geom:longitude":-105.276104,
@@ -27,7 +32,14 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Z5WeEg2g2qVUWINBHyIY6_40.018617_-105.276104@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463454397,
     "wof:geomhash":"ff77941016ad69c97b0c9f7b92dcde6e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":824102833
+        }
+    ],
     "wof:id":824102833,
-    "wof:lastmodified":1466415140,
+    "wof:lastmodified":1491888508,
     "wof:name":"Carol Glassman",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

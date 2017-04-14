@@ -2,9 +2,14 @@
   "id": 824130069,
   "type": "Feature",
   "properties": {
+    "addr:full":"8476 Pearl St Denver CO 80229",
+    "addr:housenumber":"8476",
+    "addr:postcode":"80229",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979234,39.849525,-104.979234,39.849525",
     "geom:latitude":39.849525,
     "geom:longitude":-104.979234,
@@ -36,19 +41,36 @@
         "accessory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5jAdHLBU8yVesZAgkXLG0a_39.849525_-104.979234@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455140,
-    "wof:geomhash":"64850da6743a5d94864f51b8a213df77",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4f0a532c03e5521962e25d6db3de9464",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":824130069
+        }
+    ],
     "wof:id":824130069,
-    "wof:lastmodified":1466415890,
+    "wof:lastmodified":1492128767,
     "wof:name":"Classic Auto Trim Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

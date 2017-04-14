@@ -2,9 +2,14 @@
   "id": 824178547,
   "type": "Feature",
   "properties": {
+    "addr:full":"522 Vance St Denver CO 80226",
+    "addr:housenumber":"522",
+    "addr:postcode":"80226",
+    "addr:street":"Vance St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.078786,39.72401,-105.078786,39.72401",
     "geom:latitude":39.72401,
     "geom:longitude":-105.078786,
@@ -29,19 +34,36 @@
         "structural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6h6hT3u8ldmpMDrIx0nTMO_39.724010_-105.078786@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457008,
-    "wof:geomhash":"2c095bc584876b1315b853a06d85738b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"137159407b2a9453647fbfdfad904bb6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":824178547
+        }
+    ],
     "wof:id":824178547,
-    "wof:lastmodified":1466418208,
+    "wof:lastmodified":1492129309,
     "wof:name":"OK Panel Housing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

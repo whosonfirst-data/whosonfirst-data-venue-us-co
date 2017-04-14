@@ -2,9 +2,14 @@
   "id": 320292201,
   "type": "Feature",
   "properties": {
+    "addr:full":"1536 Ogden Street Denver CO 80218",
+    "addr:housenumber":"1536",
+    "addr:postcode":"80218",
+    "addr:street":"Ogden Street",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974631,39.741086,-104.974631,39.741086",
     "geom:latitude":39.741086,
     "geom:longitude":-104.974631,
@@ -30,12 +35,13 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        85871303,
+        102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85871303,
-        85888387
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -45,28 +51,20 @@
     "wof:geomhash":"7e05d775bf7eaa79ac0de652624b7e4f",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
+            "macrohood_id":1108750025,
             "neighbourhood_id":85871303,
-            "region_id":85688603,
-            "venue_id":320292201
-        },
-        {
-            "continent_id":-1,
-            "country_id":85633793,
-            "county_id":102086135,
-            "locality_id":85928879,
-            "neighbourhood_id":85888387,
             "region_id":85688603,
             "venue_id":320292201
         }
     ],
     "wof:id":320292201,
-    "wof:lastmodified":1466413000,
+    "wof:lastmodified":1486589156,
     "wof:name":"Ruderman Eric Atty",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871303,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

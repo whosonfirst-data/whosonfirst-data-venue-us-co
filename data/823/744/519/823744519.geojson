@@ -2,9 +2,14 @@
   "id": 823744519,
   "type": "Feature",
   "properties": {
+    "addr:full":"440 Homesteader Ln Estes Park CO 80517",
+    "addr:housenumber":"440",
+    "addr:postcode":"80517",
+    "addr:street":"Homesteader Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.516866,40.387088,-105.516866,40.387088",
     "geom:latitude":40.387088,
     "geom:longitude":-105.516866,
@@ -30,19 +35,36 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929681,
+        102083353,
+        420554725
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0aaUVAlA2cTNaPG0AqnX2G_40.387088_-105.516866@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445252,
-    "wof:geomhash":"b2d56bb38e34a268f322bd5aecb6ca6f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"30ee406d94b8551a74aeaec46405ad87",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929681,
+            "neighbourhood_id":420554725,
+            "region_id":85688603,
+            "venue_id":823744519
+        }
+    ],
     "wof:id":823744519,
-    "wof:lastmodified":1466418906,
+    "wof:lastmodified":1492122154,
     "wof:name":"Windrush Interiors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554725,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823983321,
   "type": "Feature",
   "properties": {
+    "addr:full":"2280 Bluebell Ave Boulder CO 80302",
+    "addr:housenumber":"2280",
+    "addr:postcode":"80302",
+    "addr:street":"Bluebell Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.263613,39.997166,-105.263613,39.997166",
     "geom:latitude":39.997166,
     "geom:longitude":-105.263613,
@@ -27,7 +32,14 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6gxNzXqthQ9aakiKCDKfSH_39.997166_-105.263613@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463451571,
     "wof:geomhash":"430e46a0811408314f8d08f7cd295b4e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":823983321
+        }
+    ],
     "wof:id":823983321,
-    "wof:lastmodified":1466420919,
+    "wof:lastmodified":1491890403,
     "wof:name":"Technology Economics",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

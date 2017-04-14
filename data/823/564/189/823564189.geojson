@@ -2,9 +2,14 @@
   "id": 823564189,
   "type": "Feature",
   "properties": {
+    "addr:full":"801 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"801",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.972426,39.913832,-104.972426,39.913832",
     "geom:latitude":39.913832,
     "geom:longitude":-104.972426,
@@ -25,19 +30,36 @@
     "sg:province":"CO",
     "sg:website":"www.officemax.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2IJgzLPQac58zmXywv7VUC_39.913832_-104.972426@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441045,
-    "wof:geomhash":"cfb6e45a1b3e44ec238d96a7cac4fb96",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fca23dd6184f3ee2a5c31a454b94daf8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553877,
+            "region_id":85688603,
+            "venue_id":823564189
+        }
+    ],
     "wof:id":823564189,
-    "wof:lastmodified":1466416154,
+    "wof:lastmodified":1492123059,
     "wof:name":"Office Max",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553877,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

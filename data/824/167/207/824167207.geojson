@@ -2,9 +2,14 @@
   "id": 824167207,
   "type": "Feature",
   "properties": {
+    "addr:full":"331 N Circle Dr Colorado Springs CO 80909",
+    "addr:housenumber":"331",
+    "addr:postcode":"80909",
+    "addr:street":"N Circle Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.775888,38.835732,-104.775888,38.835732",
     "geom:latitude":38.835732,
     "geom:longitude":-104.775888,
@@ -33,7 +38,9 @@
         85633793,
         85929457,
         102086875,
-        85872749
+        85872749,
+        85828669,
+        85872785
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,7 +48,7 @@
     },
     "wof:country":"US",
     "wof:created":1463456574,
-    "wof:geomhash":"4354bb5dc79f7a31385a2b568c13d125",
+    "wof:geomhash":"d861bd041d9e9c921280c171930564d6",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -51,12 +58,30 @@
             "neighbourhood_id":85872749,
             "region_id":85688603,
             "venue_id":824167207
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":85828669,
+            "region_id":85688603,
+            "venue_id":824167207
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":85872785,
+            "region_id":85688603,
+            "venue_id":824167207
         }
     ],
     "wof:id":824167207,
-    "wof:lastmodified":1466417778,
+    "wof:lastmodified":1492128222,
     "wof:name":"Steven R Waldmann",
-    "wof:parent_id":85872749,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

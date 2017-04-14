@@ -2,9 +2,14 @@
   "id": 824135361,
   "type": "Feature",
   "properties": {
+    "addr:full":"21495 US Hwy 40 Steamboat Spgs CO 80487",
+    "addr:housenumber":"21495",
+    "addr:postcode":"80487",
+    "addr:street":"Us Hwy 40 Steamboat Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.998672,40.486646,-106.998672,40.486646",
     "geom:latitude":40.486646,
     "geom:longitude":-106.998672,
@@ -27,19 +32,28 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555175
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5CDsmx35MhKgzISEKccjwh_40.486646_-106.998672@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455345,
-    "wof:geomhash":"6e103262496d5b2e3fbddca908aed70c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"77e2de65fda8bf90f03dafc6a88a79ef",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555175,
+            "venue_id":824135361
+        }
+    ],
     "wof:id":824135361,
-    "wof:lastmodified":1466416284,
+    "wof:lastmodified":1492129424,
     "wof:name":"Olde Milner Roadhouse",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555175,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824069981,
   "type": "Feature",
   "properties": {
+    "addr:full":"8264 State Hwy 135 Gunnison CO 81230",
+    "addr:housenumber":"8264",
+    "addr:postcode":"81230",
+    "addr:street":"State Hwy 135",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.855814,38.655431,-106.855814,38.655431",
     "geom:latitude":38.655431,
     "geom:longitude":-106.855814,
@@ -27,19 +32,34 @@
         "resort"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554459,
+        420554409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6HqOKpec4a9kplUOlfgM1d_38.655431_-106.855814@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453609,
-    "wof:geomhash":"3fbc5af642d71d20e5d1b11781b540e6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"736078ad2840fa965947c46b06753e86",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554459,
+            "venue_id":824069981
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554409,
+            "venue_id":824069981
+        }
+    ],
     "wof:id":824069981,
-    "wof:lastmodified":1466414594,
+    "wof:lastmodified":1492130804,
     "wof:name":"Lost Canyon Resort",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

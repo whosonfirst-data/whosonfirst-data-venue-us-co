@@ -2,9 +2,14 @@
   "id": 824153209,
   "type": "Feature",
   "properties": {
+    "addr:full":"60 Westwood Pl Durango CO 81301",
+    "addr:housenumber":"60",
+    "addr:postcode":"co 81301",
+    "addr:street":"Westwood Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.900589,37.270837,-107.900589,37.270837",
     "geom:latitude":37.270837,
     "geom:longitude":-107.900589,
@@ -27,19 +32,28 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554609
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6lY9EjeVuwQxqw7JVfoPvI_37.270837_-107.900589@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456037,
-    "wof:geomhash":"10f1deb515f87c3e194b7e0ae2e65a3c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab2169dbb5ecc84e064d95e4711fd3a8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554609,
+            "venue_id":824153209
+        }
+    ],
     "wof:id":824153209,
-    "wof:lastmodified":1466417005,
+    "wof:lastmodified":1492128516,
     "wof:name":"Westwood Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554609,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

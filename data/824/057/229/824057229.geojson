@@ -2,9 +2,14 @@
   "id": 824057229,
   "type": "Feature",
   "properties": {
+    "addr:full":"620 E Empire St Cortez CO 81321",
+    "addr:housenumber":"620",
+    "addr:postcode":"81321",
+    "addr:street":"E Empire St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.579545,37.356201,-108.579545,37.356201",
     "geom:latitude":37.356201,
     "geom:longitude":-108.579545,
@@ -27,19 +32,28 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4q7sdGolnncNApOkf6KOqN_37.356201_-108.579545@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453333,
-    "wof:geomhash":"8323dfba3901214604e6a5db490e76fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5d6165cb70fff48f8cb220df239fea26",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":824057229
+        }
+    ],
     "wof:id":824057229,
-    "wof:lastmodified":1466414457,
+    "wof:lastmodified":1492132973,
     "wof:name":"Cortez Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

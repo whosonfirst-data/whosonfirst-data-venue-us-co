@@ -2,9 +2,14 @@
   "id": 824055171,
   "type": "Feature",
   "properties": {
+    "addr:full":"128 1st St Fort Collins CO 80524",
+    "addr:housenumber":"128",
+    "addr:postcode":"80524",
+    "addr:street":"1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067188,40.588918,-105.067188,40.588918",
     "geom:latitude":40.588918,
     "geom:longitude":-105.067188,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554747
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3MF3oKZ1gDG9U8GywiOhTF_40.588918_-105.067188@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453292,
-    "wof:geomhash":"538c799509392d5619b615ab7fdc7ffb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"92e622cf6b40d255e68051c5268d3ade",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554747,
+            "region_id":85688603,
+            "venue_id":824055171
+        }
+    ],
     "wof:id":824055171,
-    "wof:lastmodified":1466414311,
+    "wof:lastmodified":1492131875,
     "wof:name":"Art Porter",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554747,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823851327,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 S Lincoln Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"500",
+    "addr:postcode":"80487",
+    "addr:street":"S Lincoln Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.82621,40.476337,-106.82621,40.476337",
     "geom:latitude":40.476337,
     "geom:longitude":-106.82621,
@@ -27,19 +32,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555275
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5FY0Ct5ZGYI8p3igkTXy0s_40.476337_-106.826210@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448256,
-    "wof:geomhash":"dbcbf049f8194b3d9cbf08498c6e0354",
-    "wof:hierarchy":[],
+    "wof:geomhash":"93ffd287b90e1d03704ffef56285ee3c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555275,
+            "region_id":85688603,
+            "venue_id":823851327
+        }
+    ],
     "wof:id":823851327,
-    "wof:lastmodified":1466419804,
+    "wof:lastmodified":1492127321,
     "wof:name":"Sinclair US 40",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

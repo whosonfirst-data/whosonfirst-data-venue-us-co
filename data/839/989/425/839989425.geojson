@@ -2,9 +2,14 @@
   "id": 839989425,
   "type": "Feature",
   "properties": {
+    "addr:full":"1235 Pennsylvania Ave Boulder CO 80302",
+    "addr:housenumber":"1235",
+    "addr:postcode":"80302",
+    "addr:street":"Pennsylvania Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277008,40.008684,-105.277008,40.008684",
     "geom:latitude":40.008684,
     "geom:longitude":-105.277008,
@@ -29,19 +34,36 @@
         "pastry"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7fbD2EjccBCjw72wCAFwjL_40.008684_-105.277008@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460787,
-    "wof:geomhash":"61598ac48950c0f78a652e8c30ae0c04",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a5531eec826b0b564421ff3427ed92a9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839989425
+        }
+    ],
     "wof:id":839989425,
-    "wof:lastmodified":1466417388,
+    "wof:lastmodified":1492111073,
     "wof:name":"Burnt Toast Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

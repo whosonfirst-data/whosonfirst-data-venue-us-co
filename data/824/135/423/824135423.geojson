@@ -2,9 +2,14 @@
   "id": 824135423,
   "type": "Feature",
   "properties": {
+    "addr:full":"909 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"909",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810148,39.986852,-104.810148,39.986852",
     "geom:latitude":39.986852,
     "geom:longitude":-104.810148,
@@ -28,19 +33,36 @@
     ],
     "sg:website":"www.autozone.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1u0q3FsoXfEP0XLDvaetPk_39.986852_-104.810148@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455347,
-    "wof:geomhash":"70e7ff93901cef1c2d38307ea879cb67",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bfc28217816f2a0bffb603fec17731f3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":824135423
+        }
+    ],
     "wof:id":824135423,
-    "wof:lastmodified":1466416290,
+    "wof:lastmodified":1492129407,
     "wof:name":"Autozone",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

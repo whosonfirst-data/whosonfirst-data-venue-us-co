@@ -2,9 +2,14 @@
   "id": 823998931,
   "type": "Feature",
   "properties": {
+    "addr:full":"60 Co Rd 90 Allenspark CO 80510",
+    "addr:housenumber":"60;90",
+    "addr:postcode":"80510",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.538288,40.198101,-105.538288,40.198101",
     "geom:latitude":40.198101,
     "geom:longitude":-105.538288,
@@ -27,19 +32,28 @@
         "resort"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554013
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_36Qrht2pTN87VbquAZuacg_40.198101_-105.538288@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451961,
-    "wof:geomhash":"4c696dbb85d9423c6ae3406af522121e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"619d72d79f83f3714f1c419caf993817",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554013,
+            "venue_id":823998931
+        }
+    ],
     "wof:id":823998931,
-    "wof:lastmodified":1466420934,
+    "wof:lastmodified":1492127404,
     "wof:name":"Pine Grove Cabins",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554013,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

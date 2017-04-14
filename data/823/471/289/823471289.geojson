@@ -2,9 +2,14 @@
   "id": 823471289,
   "type": "Feature",
   "properties": {
+    "addr:full":"608 Canyon Creek Rd Grand Junction CO 81503",
+    "addr:housenumber":"608",
+    "addr:postcode":"81503",
+    "addr:street":"Canyon Creek Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.642842,39.093001,-108.642842,39.093001",
     "geom:latitude":39.093001,
     "geom:longitude":-108.642842,
@@ -27,19 +32,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554935
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6INwbzL6euRggzXiwswb43_39.093001_-108.642842@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438860,
-    "wof:geomhash":"10d90decb32f63e7f37b7029d5bdb0ee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b85f0bf19dfd7f81dacf0215add33558",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554935,
+            "region_id":85688603,
+            "venue_id":823471289
+        }
+    ],
     "wof:id":823471289,
-    "wof:lastmodified":1466412472,
+    "wof:lastmodified":1492117660,
     "wof:name":"Larsen Communications Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554935,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

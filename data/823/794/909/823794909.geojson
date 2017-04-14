@@ -2,9 +2,14 @@
   "id": 823794909,
   "type": "Feature",
   "properties": {
+    "addr:full":"5558 Newport St Commerce City CO 80022",
+    "addr:housenumber":"5558",
+    "addr:postcode":"80022",
+    "addr:street":"Newport St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.909651,39.796372,-104.909651,39.796372",
     "geom:latitude":39.796372,
     "geom:longitude":-104.909651,
@@ -27,19 +32,36 @@
         "wrecker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0evWSZ7Obd9xEEwY2XuSz8_39.796372_-104.909651@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446571,
-    "wof:geomhash":"b9eaf35d91f37f682900236d7ed193fa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a6665c33525fd8893c9b9308630971b0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553923,
+            "region_id":85688603,
+            "venue_id":823794909
+        }
+    ],
     "wof:id":823794909,
-    "wof:lastmodified":1466419319,
+    "wof:lastmodified":1492126858,
     "wof:name":"Chambers & Sons Towing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

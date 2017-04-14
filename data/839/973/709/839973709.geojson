@@ -2,9 +2,14 @@
   "id": 839973709,
   "type": "Feature",
   "properties": {
+    "addr:full":"601 E 64th Ave Denver CO 80229",
+    "addr:housenumber":"601",
+    "addr:postcode":"80229",
+    "addr:street":"E 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980114,39.812831,-104.980114,39.812831",
     "geom:latitude":39.812831,
     "geom:longitude":-104.980114,
@@ -27,19 +32,36 @@
         "organization"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6wvHICTuPogSIJQFLDF2cG_39.812831_-104.980114@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460167,
-    "wof:geomhash":"16677d95dd08f14a71ea80112c6f4e4b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"51fe923cadb5efe90a8208fe37b74273",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":839973709
+        }
+    ],
     "wof:id":839973709,
-    "wof:lastmodified":1466416542,
+    "wof:lastmodified":1492112868,
     "wof:name":"Co Foothills Volleyball Club",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

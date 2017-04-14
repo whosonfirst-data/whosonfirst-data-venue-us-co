@@ -2,9 +2,14 @@
   "id": 839947783,
   "type": "Feature",
   "properties": {
+    "addr:full":"5437 N Foothills Hwy Boulder CO 80302",
+    "addr:housenumber":"5437",
+    "addr:postcode":"80302",
+    "addr:street":"N Foothills Hwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.283392,40.077177,-105.283392,40.077177",
     "geom:latitude":40.077177,
     "geom:longitude":-105.283392,
@@ -27,19 +32,34 @@
         "investor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0RCuGWt970J7LFyk7SZaSr_40.077177_-105.283392@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459031,
-    "wof:geomhash":"6859972a9c786783f17fc91b7b08559a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"efa0fa3524877d74f2534d0b11270293",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":839947783
+        }
+    ],
     "wof:id":839947783,
-    "wof:lastmodified":1466415242,
+    "wof:lastmodified":1492113038,
     "wof:name":"Lazzy H Investments LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

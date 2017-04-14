@@ -2,9 +2,14 @@
   "id": 839974533,
   "type": "Feature",
   "properties": {
+    "addr:full":"1727 W Mississippi Ave Denver CO 80219",
+    "addr:housenumber":"1727",
+    "addr:postcode":"80219",
+    "addr:street":"W Mississippi Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.007731,39.696799,-105.007731,39.696799",
     "geom:latitude":39.696799,
     "geom:longitude":-105.007731,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554317,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2HVTT1KXf9LR98IrUeEB9U_39.696799_-105.007731@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463460195,
     "wof:geomhash":"8fcd1c079a553e3b6268cb26dba9b49f",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554317,
+            "region_id":85688603,
+            "venue_id":839974533
+        }
+    ],
     "wof:id":839974533,
-    "wof:lastmodified":1466416684,
+    "wof:lastmodified":1486593365,
     "wof:name":"Molinas Laundry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

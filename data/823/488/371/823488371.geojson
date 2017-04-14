@@ -2,9 +2,14 @@
   "id": 823488371,
   "type": "Feature",
   "properties": {
+    "addr:full":"7581 Broadway St Denver CO 80221",
+    "addr:housenumber":"7581",
+    "addr:postcode":"80221",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.987378,39.833184,-104.987378,39.833184",
     "geom:latitude":39.833184,
     "geom:longitude":-104.987378,
@@ -31,19 +36,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2J3rIlFzyABpxrcBLgTpQU_39.833184_-104.987378@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439274,
-    "wof:geomhash":"485a020c4ee30d6d1ec4e3dd9d142233",
-    "wof:hierarchy":[],
+    "wof:geomhash":"074891225c842781a4d8fda183980280",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553625,
+            "region_id":85688603,
+            "venue_id":823488371
+        }
+    ],
     "wof:id":823488371,
-    "wof:lastmodified":1466413963,
+    "wof:lastmodified":1492122756,
     "wof:name":"CCSI",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

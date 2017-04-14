@@ -2,9 +2,14 @@
   "id": 823924543,
   "type": "Feature",
   "properties": {
+    "addr:full":"508 Skyway Dr Grand Junction CO 81503",
+    "addr:housenumber":"508",
+    "addr:postcode":"81503",
+    "addr:street":"Skyway Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.616682,39.078897,-108.616682,39.078897",
     "geom:latitude":39.078897,
     "geom:longitude":-108.616682,
@@ -28,19 +33,36 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4xTkG1X0mfEGZb5lbtsu0t_39.078897_-108.616682@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450118,
-    "wof:geomhash":"fd6a99fb82ced04b81391ec6760a48ee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1f82c9a777944f23db35021936b71818",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554787,
+            "region_id":85688603,
+            "venue_id":823924543
+        }
+    ],
     "wof:id":823924543,
-    "wof:lastmodified":1466420422,
+    "wof:lastmodified":1492117509,
     "wof:name":"Npf Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

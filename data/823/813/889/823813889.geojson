@@ -2,9 +2,14 @@
   "id": 823813889,
   "type": "Feature",
   "properties": {
+    "addr:full":"4041 Hanover Ave Boulder CO 80305",
+    "addr:housenumber":"4041",
+    "addr:postcode":"80305",
+    "addr:street":"Hanover Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.246471,39.982343,-105.246471,39.982343",
     "geom:latitude":39.982343,
     "geom:longitude":-105.246471,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_23KUw3jgh9M3RYjOvAS621_39.982343_-105.246471@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447116,
-    "wof:geomhash":"b73814fb50d6da7616d19c0d1d3b3e15",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a6513597adbf723812f674aaddbbb0c0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":823813889
+        }
+    ],
     "wof:id":823813889,
-    "wof:lastmodified":1466419553,
+    "wof:lastmodified":1492123927,
     "wof:name":"Boles Financial Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823808283,
   "type": "Feature",
   "properties": {
+    "addr:full":"10419 Hwy 666 Cortez CO 81321",
+    "addr:housenumber":"10419",
+    "addr:postcode":"81321",
+    "addr:street":"Hwy 666",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.596779,37.363569,-108.596779,37.363569",
     "geom:latitude":37.363569,
     "geom:longitude":-108.596779,
@@ -28,19 +33,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555119,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6a1SINim6mPelinNpL6kyp_37.363569_-108.596779@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446953,
-    "wof:geomhash":"3220a1497cd331ecabe0923d14750c0b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4ac7eca24ab5c63b0ab22dbc98ab1160",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555119,
+            "venue_id":823808283
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823808283
+        }
+    ],
     "wof:id":823808283,
-    "wof:lastmodified":1466419425,
+    "wof:lastmodified":1492116866,
     "wof:name":"Cortez Electric Svc & Lighting",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

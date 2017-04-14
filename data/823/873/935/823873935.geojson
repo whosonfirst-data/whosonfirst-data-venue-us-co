@@ -2,9 +2,14 @@
   "id": 823873935,
   "type": "Feature",
   "properties": {
+    "addr:full":"2280 E 66th Ave Denver CO 80229",
+    "addr:housenumber":"2280",
+    "addr:postcode":"80229",
+    "addr:street":"E 66Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961366,39.816264,-104.961366,39.816264",
     "geom:latitude":39.816264,
     "geom:longitude":-104.961366,
@@ -27,19 +32,36 @@
         "stone"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4VXvdmOXlQYw1metpFjW2L_39.816264_-104.961366@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448824,
-    "wof:geomhash":"ef859792b45745464c5f596c961d0d7b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6eee469f9bda8b01893904a4c4324863",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553699,
+            "region_id":85688603,
+            "venue_id":823873935
+        }
+    ],
     "wof:id":823873935,
-    "wof:lastmodified":1466420009,
+    "wof:lastmodified":1492120473,
     "wof:name":"Vladimirs Touch Stone",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

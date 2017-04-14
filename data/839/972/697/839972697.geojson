@@ -2,9 +2,14 @@
   "id": 839972697,
   "type": "Feature",
   "properties": {
+    "addr:full":"6871 Jordan Dr Denver CO 80221",
+    "addr:housenumber":"6871",
+    "addr:postcode":"80221",
+    "addr:street":"Jordan Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.015123,39.820183,-105.015123,39.820183",
     "geom:latitude":39.820183,
     "geom:longitude":-105.015123,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553585
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2H9gvsaGYDObGngSpPwLGt_39.820183_-105.015123@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460132,
-    "wof:geomhash":"be3815b1d67e229f6769b53bec336a2e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d37a7aec73e000ec5cc27ef035f3298",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553585,
+            "region_id":85688603,
+            "venue_id":839972697
+        }
+    ],
     "wof:id":839972697,
-    "wof:lastmodified":1466416509,
+    "wof:lastmodified":1492112575,
     "wof:name":"Helm Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553585,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

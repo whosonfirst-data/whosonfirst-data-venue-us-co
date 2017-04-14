@@ -2,9 +2,14 @@
   "id": 823544339,
   "type": "Feature",
   "properties": {
+    "addr:full":"1229 N 23rd St Grand Junction CO 81501",
+    "addr:housenumber":"1229",
+    "addr:postcode":"81501",
+    "addr:street":"N 23Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.538486,39.077865,-108.538486,39.077865",
     "geom:latitude":39.077865,
     "geom:longitude":-108.538486,
@@ -27,19 +32,36 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2BxH6leVXJ4wTL8snBG4rp_39.077865_-108.538486@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440568,
-    "wof:geomhash":"4b498ce547509ef5122c1c813aac9573",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ac8e25c6263a253e931394eb0304f4d0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":823544339
+        }
+    ],
     "wof:id":823544339,
-    "wof:lastmodified":1466415651,
+    "wof:lastmodified":1492121284,
     "wof:name":"Legacy Design & Consulting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

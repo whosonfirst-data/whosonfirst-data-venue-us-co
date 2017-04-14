@@ -2,9 +2,14 @@
   "id": 823915105,
   "type": "Feature",
   "properties": {
+    "addr:full":"3050 Colorado Ave Grand Junction CO 81504",
+    "addr:housenumber":"3050",
+    "addr:postcode":"81504",
+    "addr:street":"Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.486916,39.066086,-108.486916,39.066086",
     "geom:latitude":39.066086,
     "geom:longitude":-108.486916,
@@ -27,19 +32,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3LcJMLWbKYeOXTuzKJdlxn_39.066086_-108.486916@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449878,
-    "wof:geomhash":"619ef6549969c81868edc8d4480de097",
-    "wof:hierarchy":[],
+    "wof:geomhash":"46be2df42791a20b27f12af7b77916c9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823915105
+        }
+    ],
     "wof:id":823915105,
-    "wof:lastmodified":1466420319,
+    "wof:lastmodified":1492125567,
     "wof:name":"Pats Window Duds",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

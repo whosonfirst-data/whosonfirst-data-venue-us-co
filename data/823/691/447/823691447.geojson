@@ -2,9 +2,14 @@
   "id": 823691447,
   "type": "Feature",
   "properties": {
+    "addr:full":"2366 E Main St Trinidad CO 81082",
+    "addr:housenumber":"2366",
+    "addr:postcode":"81082",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.484519,37.181345,-104.484519,37.181345",
     "geom:latitude":37.181345,
     "geom:longitude":-104.484519,
@@ -27,17 +32,32 @@
         "cemetery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929549,
+        102083357
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1S8KAFN8BI0dNCgKJpCnLr_37.181345_-104.484519@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444050,
-    "wof:geomhash":"cf2484691357213fa24b9a8907e198b8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2d3d695b6bf87464dc371a5d305078a3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083357,
+            "locality_id":85929549,
+            "region_id":85688603,
+            "venue_id":823691447
+        }
+    ],
     "wof:id":823691447,
-    "wof:lastmodified":1466418523,
+    "wof:lastmodified":1492123270,
     "wof:name":"Trinidad Catholic Cemetery",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

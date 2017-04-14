@@ -2,9 +2,14 @@
   "id": 823768413,
   "type": "Feature",
   "properties": {
+    "addr:full":"15100 US Hwy 40 Steamboat Spgs CO 80487",
+    "addr:housenumber":"15100",
+    "addr:postcode":"80487",
+    "addr:street":"Us Hwy 40 Steamboat Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.12393,40.482071,-107.12393,40.482071",
     "geom:latitude":40.482071,
     "geom:longitude":-107.12393,
@@ -27,19 +32,28 @@
         "producer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555313
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7cRDWw747SFBjeYmOyFC6O_40.482071_-107.123930@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445789,
-    "wof:geomhash":"b3e3cdd8541b3b9df5df9d5d8da05e6a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fcf2027932c58bc5f69e67cd135ad090",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555313,
+            "venue_id":823768413
+        }
+    ],
     "wof:id":823768413,
-    "wof:lastmodified":1466419101,
+    "wof:lastmodified":1492124695,
     "wof:name":"Fusion Lining Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555313,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

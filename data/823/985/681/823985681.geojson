@@ -2,9 +2,14 @@
   "id": 823985681,
   "type": "Feature",
   "properties": {
+    "addr:full":"722 E Main St Cortez CO 81321",
+    "addr:housenumber":"722",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.57468,37.348861,-108.57468,37.348861",
     "geom:latitude":37.348861,
     "geom:longitude":-108.57468,
@@ -27,19 +32,36 @@
         "state"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555047
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0W668oOWEElrGgjNWrnoNm_37.348861_-108.574680@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451621,
-    "wof:geomhash":"6d2c1b0118d5db63c184e93ec08490fb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"81e188be291cf6a99d5d4b40d51e9fd8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555047,
+            "region_id":85688603,
+            "venue_id":823985681
+        }
+    ],
     "wof:id":823985681,
-    "wof:lastmodified":1466420746,
+    "wof:lastmodified":1492120987,
     "wof:name":"Natural Resources Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555047,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

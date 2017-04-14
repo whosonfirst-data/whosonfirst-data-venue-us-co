@@ -2,9 +2,14 @@
   "id": 823715445,
   "type": "Feature",
   "properties": {
+    "addr:full":"540 4th St Fort Lupton CO 80621",
+    "addr:housenumber":"540",
+    "addr:postcode":"80621",
+    "addr:street":"4Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.812547,40.083162,-104.812547,40.083162",
     "geom:latitude":40.083162,
     "geom:longitude":-104.812547,
@@ -28,19 +33,28 @@
         "physical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6au5TuyNIONcrGrJyqdyGf_40.083162_-104.812547@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444554,
-    "wof:geomhash":"812c03f8a3af8a34e82b831b61e475b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fbe5f347a7fbe17503dc37b61e9375d3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823715445
+        }
+    ],
     "wof:id":823715445,
-    "wof:lastmodified":1466418675,
+    "wof:lastmodified":1492117911,
     "wof:name":"Fort Lupton Physical Therapy",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

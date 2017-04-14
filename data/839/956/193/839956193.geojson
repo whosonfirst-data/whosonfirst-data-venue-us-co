@@ -2,9 +2,14 @@
   "id": 839956193,
   "type": "Feature",
   "properties": {
+    "addr:full":"3450 Penrose Pl Boulder CO 80301",
+    "addr:housenumber":"3450",
+    "addr:postcode":"80301",
+    "addr:street":"Penrose Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.247928,40.037081,-105.247928,40.037081",
     "geom:latitude":40.037081,
     "geom:longitude":-105.247928,
@@ -38,9 +43,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85853473,
-        102085251
+        85930751,
+        102085251,
+        85929877
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -51,17 +58,26 @@
     "wof:geomhash":"31c4c3865524d06215e643bb1300abab",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102085251,
-            "neighbourhood_id":85853473,
+            "locality_id":85930751,
+            "region_id":85688603,
+            "venue_id":839956193
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
             "region_id":85688603,
             "venue_id":839956193
         }
     ],
     "wof:id":839956193,
-    "wof:lastmodified":1466415307,
+    "wof:lastmodified":1491620052,
     "wof:name":"Econalytic Systems Inc",
-    "wof:parent_id":85853473,
+    "wof:parent_id":-1,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

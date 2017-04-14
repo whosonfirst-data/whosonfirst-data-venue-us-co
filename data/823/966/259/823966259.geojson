@@ -2,9 +2,14 @@
   "id": 823966259,
   "type": "Feature",
   "properties": {
+    "addr:full":"160 Hancock Ct Bennett CO 80102",
+    "addr:housenumber":"160",
+    "addr:postcode":"80102",
+    "addr:street":"Hancock Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.437331,39.755135,-104.437331,39.755135",
     "geom:latitude":39.755135,
     "geom:longitude":-104.437331,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929337,
+        102086877,
+        420553327
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1sTl7Q07yDuH5INfi1WzPS_39.755135_-104.437331@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451176,
-    "wof:geomhash":"89ccaeeaded1080b14079c060fe5ca61",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fdd0808e086d386688dd561177ceb01b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929337,
+            "neighbourhood_id":420553327,
+            "region_id":85688603,
+            "venue_id":823966259
+        }
+    ],
     "wof:id":823966259,
-    "wof:lastmodified":1466420771,
+    "wof:lastmodified":1492118824,
     "wof:name":"Can Do Concrete",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553327,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

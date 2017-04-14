@@ -2,9 +2,14 @@
   "id": 824138123,
   "type": "Feature",
   "properties": {
+    "addr:full":"9201 Washington St Denver CO 80229",
+    "addr:housenumber":"9201",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978009,39.860853,-104.978009,39.860853",
     "geom:latitude":39.860853,
     "geom:longitude":-104.978009,
@@ -37,19 +42,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Tvfmvnedmxs263JSu0oeF_39.860853_-104.978009@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455442,
-    "wof:geomhash":"9873e90f1443131ac636436e3d8098bc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e664a2c8df85a0923dc696ea568a6342",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":824138123
+        }
+    ],
     "wof:id":824138123,
-    "wof:lastmodified":1466416291,
+    "wof:lastmodified":1492129515,
     "wof:name":"Mile High Comics Com",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

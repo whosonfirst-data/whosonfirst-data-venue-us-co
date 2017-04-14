@@ -2,9 +2,14 @@
   "id": 824104815,
   "type": "Feature",
   "properties": {
+    "addr:full":"1244 Co Rd 63 South Fork CO 81154",
+    "addr:housenumber":"1244;63",
+    "addr:postcode":"81154",
+    "addr:street":"Co Rd;South Fork",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.555723,37.710965,-106.555723,37.710965",
     "geom:latitude":37.710965,
     "geom:longitude":-106.555723,
@@ -27,17 +32,30 @@
         "septic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102085231
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_76ttah9oU2LeDwj3WnvV3e_37.710965_-106.555723@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454441,
-    "wof:geomhash":"792bb95698ceba0334f3921bd0e808aa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a86cd3b96353fd515e087c6b711cc05e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085231,
+            "region_id":85688603,
+            "venue_id":824104815
+        }
+    ],
     "wof:id":824104815,
-    "wof:lastmodified":1466415248,
+    "wof:lastmodified":1492128553,
     "wof:name":"Ponderosa Septic Svc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

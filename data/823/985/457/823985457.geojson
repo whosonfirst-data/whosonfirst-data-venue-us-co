@@ -2,9 +2,14 @@
   "id": 823985457,
   "type": "Feature",
   "properties": {
+    "addr:full":"1104 Oak Dr Durango CO 81301",
+    "addr:housenumber":"1104",
+    "addr:postcode":"co 81301",
+    "addr:street":"Oak Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.982106,37.266916,-107.982106,37.266916",
     "geom:latitude":37.266916,
     "geom:longitude":-107.982106,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554719
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6hTLvLCJSu17rhy6ge75rM_37.266916_-107.982106@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451617,
-    "wof:geomhash":"29923e9ab8bae9c7ec374c6f64a646c6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"83c1451ae628b4b7932b33d4c4df0333",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554719,
+            "venue_id":823985457
+        }
+    ],
     "wof:id":823985457,
-    "wof:lastmodified":1466420925,
+    "wof:lastmodified":1492120973,
     "wof:name":"Presbyterian Of Western Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554719,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

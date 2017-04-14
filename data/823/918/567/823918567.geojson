@@ -2,9 +2,14 @@
   "id": 823918567,
   "type": "Feature",
   "properties": {
+    "addr:full":"12121 Grant St Denver CO 80241",
+    "addr:housenumber":"12121",
+    "addr:postcode":"80241",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.985225,39.915096,-104.985225,39.915096",
     "geom:latitude":39.915096,
     "geom:longitude":-104.985225,
@@ -24,19 +29,36 @@
     "sg:postcode":"80241",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553693
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ISJBIQh8hf7YESgu431ma_39.915096_-104.985225@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449967,
-    "wof:geomhash":"d72be066ffd18c670e03065a36e1d32d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a1e0dac74fecbdd7ef605e786ba84f42",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553693,
+            "region_id":85688603,
+            "venue_id":823918567
+        }
+    ],
     "wof:id":823918567,
-    "wof:lastmodified":1466420356,
+    "wof:lastmodified":1492121268,
     "wof:name":"Bechtel",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553693,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

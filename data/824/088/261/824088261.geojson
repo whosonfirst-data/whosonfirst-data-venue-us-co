@@ -2,9 +2,14 @@
   "id": 824088261,
   "type": "Feature",
   "properties": {
+    "addr:full":"17689 E 30th Ave Aurora CO 80011",
+    "addr:housenumber":"17689",
+    "addr:postcode":"80011",
+    "addr:street":"E 30Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.781916,39.758284,-104.781916,39.758284",
     "geom:latitude":39.758284,
     "geom:longitude":-104.781916,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553315
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0FTLQ4N7CfQ7oEpewXt5RL_39.758284_-104.781916@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454048,
-    "wof:geomhash":"2e497801314f128a7e4384ccf175ba66",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a392f61770fb73ed10d7489c24bcdb48",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553315,
+            "region_id":85688603,
+            "venue_id":824088261
+        }
+    ],
     "wof:id":824088261,
-    "wof:lastmodified":1466414801,
+    "wof:lastmodified":1492130632,
     "wof:name":"Nabisco",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

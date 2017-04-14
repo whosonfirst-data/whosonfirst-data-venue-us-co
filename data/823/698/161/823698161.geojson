@@ -2,9 +2,14 @@
   "id": 823698161,
   "type": "Feature",
   "properties": {
+    "addr:full":"10525 Birch St Denver CO 80233",
+    "addr:housenumber":"10525",
+    "addr:postcode":"80233",
+    "addr:street":"Birch St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.935677,39.886373,-104.935677,39.886373",
     "geom:latitude":39.886373,
     "geom:longitude":-104.935677,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2fCIKursn6EREsABd8Rssb_39.886373_-104.935677@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444202,
-    "wof:geomhash":"cfc2756874db61da648bc63a90d68f7d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2155e73831e68bacd34d9d8bae01e1df",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553729,
+            "region_id":85688603,
+            "venue_id":823698161
+        }
+    ],
     "wof:id":823698161,
-    "wof:lastmodified":1466418477,
+    "wof:lastmodified":1492116168,
     "wof:name":"Imagescapes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

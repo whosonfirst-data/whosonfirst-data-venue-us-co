@@ -2,9 +2,14 @@
   "id": 823561217,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 Main St Sterling CO 80751",
+    "addr:housenumber":"101",
+    "addr:postcode":"80751",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.20737,40.623394,-103.20737,40.623394",
     "geom:latitude":40.623394,
     "geom:longitude":-103.20737,
@@ -28,17 +33,32 @@
         "elevator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929371,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_68vjxvaRezyhYTUeNQmEU5_40.623394_-103.207370@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440971,
-    "wof:geomhash":"7b720ba386c54a6148a1ccb54d6e26e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"437430db3c7781294451c55fc2ba7311",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929371,
+            "region_id":85688603,
+            "venue_id":823561217
+        }
+    ],
     "wof:id":823561217,
-    "wof:lastmodified":1466416178,
+    "wof:lastmodified":1492126164,
     "wof:name":"Lousberg Grain & Feed Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

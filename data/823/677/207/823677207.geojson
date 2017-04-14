@@ -2,9 +2,14 @@
   "id": 823677207,
   "type": "Feature",
   "properties": {
+    "addr:full":"5235 Sheridan Blvd Arvada CO 80002",
+    "addr:housenumber":"5235",
+    "addr:postcode":"80002",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.0531,39.7936,-105.0531,39.7936",
     "geom:latitude":39.7936,
     "geom:longitude":-105.0531,
@@ -29,19 +34,34 @@
         "truck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_57nlSYLwnSiRLLivrv61qY_39.793600_-105.053100@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443730,
-    "wof:geomhash":"1b9fb5bc7b3c5bdbe71cc7fce99d8ca5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"54adb45a9b5fa30d6f2f7fbcead6934c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823677207
+        }
+    ],
     "wof:id":823677207,
-    "wof:lastmodified":1466418345,
+    "wof:lastmodified":1492126480,
     "wof:name":"Detroit Transm Specialists",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

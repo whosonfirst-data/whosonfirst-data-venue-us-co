@@ -2,9 +2,14 @@
   "id": 823955569,
   "type": "Feature",
   "properties": {
+    "addr:full":"501 Main St Pitkin CO 81241",
+    "addr:housenumber":"501",
+    "addr:postcode":"81241",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.517128,38.609577,-106.517128,38.609577",
     "geom:latitude":38.609577,
     "geom:longitude":-106.517128,
@@ -27,19 +32,28 @@
         "department"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554463
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5tRg9YB3f54nYVq22gLL23_38.609577_-106.517128@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450894,
-    "wof:geomhash":"807eb46ef7574ec28665b63b9991d009",
-    "wof:hierarchy":[],
+    "wof:geomhash":"25f47413094864c785b204b550c436b3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554463,
+            "venue_id":823955569
+        }
+    ],
     "wof:id":823955569,
-    "wof:lastmodified":1466420588,
+    "wof:lastmodified":1492120748,
     "wof:name":"Pitkin Fire Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554463,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

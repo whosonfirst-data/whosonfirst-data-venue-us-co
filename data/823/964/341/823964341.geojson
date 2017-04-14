@@ -2,9 +2,14 @@
   "id": 823964341,
   "type": "Feature",
   "properties": {
+    "addr:full":"4780 W Princeton Ave Denver CO 80236",
+    "addr:housenumber":"4780",
+    "addr:postcode":"80236",
+    "addr:street":"W Princeton Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.049794,39.641258,-105.049794,39.641258",
     "geom:latitude":39.641258,
     "geom:longitude":-105.049794,
@@ -32,19 +37,38 @@
         "appraiser"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85868407,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_39fVqNUHPV9i2A8KaZstzh_39.641258_-105.049794@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451120,
-    "wof:geomhash":"1ad592e3218532616c410bb6a61a0337",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aeb4c05426415a30c0f1ac1fa259bf91",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85868407,
+            "region_id":85688603,
+            "venue_id":823964341
+        }
+    ],
     "wof:id":823964341,
-    "wof:lastmodified":1466421034,
+    "wof:lastmodified":1492118438,
     "wof:name":"Preferred Appraisal Group Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":85868407,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

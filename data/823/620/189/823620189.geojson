@@ -2,9 +2,14 @@
   "id": 823620189,
   "type": "Feature",
   "properties": {
+    "addr:full":"2625 Mesa Ave Grand Junction CO 81501",
+    "addr:housenumber":"2625",
+    "addr:postcode":"81501",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.534547,39.082717,-108.534547,39.082717",
     "geom:latitude":39.082717,
     "geom:longitude":-108.534547,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42Htm84Eumee59qyacnz9q_39.082717_-108.534547@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442405,
-    "wof:geomhash":"cd31baee90629b586633ccd5541baa1d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7fff0f336a51d38c84f0e46dd2eba8bb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":823620189
+        }
+    ],
     "wof:id":823620189,
-    "wof:lastmodified":1466417439,
+    "wof:lastmodified":1492124011,
     "wof:name":"Kareus Contracting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

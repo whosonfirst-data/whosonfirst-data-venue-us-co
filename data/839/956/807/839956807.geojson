@@ -2,9 +2,14 @@
   "id": 839956807,
   "type": "Feature",
   "properties": {
+    "addr:full":"2045 Balsam Dr Boulder CO 80304",
+    "addr:housenumber":"2045",
+    "addr:postcode":"80304",
+    "addr:street":"Balsam Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.268929,40.026781,-105.268929,40.026781",
     "geom:latitude":40.026781,
     "geom:longitude":-105.268929,
@@ -28,19 +33,36 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_44en0I9m394OYAp5NWGM9B_40.026781_-105.268929@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459492,
-    "wof:geomhash":"3bd706d1f5719c62e69299711f75346d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f4909cf317993b9423df235043d56176",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":839956807
+        }
+    ],
     "wof:id":839956807,
-    "wof:lastmodified":1466415551,
+    "wof:lastmodified":1492111820,
     "wof:name":"North Oak LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

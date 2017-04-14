@@ -2,9 +2,14 @@
   "id": 823515167,
   "type": "Feature",
   "properties": {
+    "addr:full":"26 W Andrew Ln Cortez CO 81321",
+    "addr:housenumber":"26",
+    "addr:postcode":"81321",
+    "addr:street":"W Andrew Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586237,37.336033,-108.586237,37.336033",
     "geom:latitude":37.336033,
     "geom:longitude":-108.586237,
@@ -28,19 +33,36 @@
         "locksmith"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5sWZo05hUjeN0howu6jAJx_37.336033_-108.586237@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439912,
-    "wof:geomhash":"8629dd9c2340f2dbe4531490f726babe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb4760ec1c51499586628b183ee9b210",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823515167
+        }
+    ],
     "wof:id":823515167,
-    "wof:lastmodified":1466414719,
+    "wof:lastmodified":1492122663,
     "wof:name":"Cortez Locksmith",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

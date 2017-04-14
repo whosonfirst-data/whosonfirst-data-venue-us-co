@@ -2,9 +2,14 @@
   "id": 823977777,
   "type": "Feature",
   "properties": {
+    "addr:full":"8500 Turnpike Dr Westminster CO 80031",
+    "addr:housenumber":"8500",
+    "addr:postcode":"80031",
+    "addr:street":"Turnpike Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.049538,39.850589,-105.049538,39.850589",
     "geom:latitude":39.850589,
     "geom:longitude":-105.049538,
@@ -27,19 +32,36 @@
         "operation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ArsWK84NOMeG4oCzsSwCW_39.850589_-105.049538@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451422,
-    "wof:geomhash":"bc42586a9b2249696188c8120a5b7e57",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5aae6e609342b895777375ac9cf27ea3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823977777
+        }
+    ],
     "wof:id":823977777,
-    "wof:lastmodified":1466420912,
+    "wof:lastmodified":1492125494,
     "wof:name":"Holiday Inn Exprss-Westminster",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823527519,
   "type": "Feature",
   "properties": {
+    "addr:full":"1212 Co Rd 248 Durango CO 81301",
+    "addr:housenumber":"1212;248",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.770017,37.312885,-107.770017,37.312885",
     "geom:latitude":37.312885,
     "geom:longitude":-107.770017,
@@ -29,19 +34,28 @@
         "cattle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554607
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3JYKmMqRgbgDFa0mT9JoH2_37.312885_-107.770017@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440203,
-    "wof:geomhash":"d7f8d71cfe329a5effc189004ca659c4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28b098e59992966e934a0d73be7f4b28",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554607,
+            "venue_id":823527519
+        }
+    ],
     "wof:id":823527519,
-    "wof:lastmodified":1466415094,
+    "wof:lastmodified":1492120423,
     "wof:name":"Eagle Ridge Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554607,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

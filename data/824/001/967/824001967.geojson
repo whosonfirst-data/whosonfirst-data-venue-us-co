@@ -2,9 +2,14 @@
   "id": 824001967,
   "type": "Feature",
   "properties": {
+    "addr:full":"2306 Sonoma Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2306",
+    "addr:postcode":"80910",
+    "addr:street":"Sonoma Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.766971,38.797657,-104.766971,38.797657",
     "geom:latitude":38.797657,
     "geom:longitude":-104.766971,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0a2MU8k49wxYujyBNwjiBF_38.797657_-104.766971@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452030,
-    "wof:geomhash":"436eafed660d1d19e949ad6a68fc2dea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a073691fe0f67453d07704dd67801741",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":824001967
+        }
+    ],
     "wof:id":824001967,
-    "wof:lastmodified":1466412142,
+    "wof:lastmodified":1492130097,
     "wof:name":"Waynes Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

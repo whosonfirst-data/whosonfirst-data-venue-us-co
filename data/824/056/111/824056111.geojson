@@ -2,9 +2,14 @@
   "id": 824056111,
   "type": "Feature",
   "properties": {
+    "addr:full":"1400 W Dartmouth Ave Englewood CO 80110",
+    "addr:housenumber":"1400",
+    "addr:postcode":"80110",
+    "addr:street":"W Dartmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.004379,39.660409,-105.004379,39.660409",
     "geom:latitude":39.660409,
     "geom:longitude":-105.004379,
@@ -28,19 +33,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        420553955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1aHWd0K30NnJ2fmpIitu9t_39.660409_-105.004379@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453311,
-    "wof:geomhash":"0cad39d38e754c0255dbe7ed8e246448",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f3e90497b83c4e1a95a6fc11f602c703",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
+            "region_id":85688603,
+            "venue_id":824056111
+        }
+    ],
     "wof:id":824056111,
-    "wof:lastmodified":1466414346,
+    "wof:lastmodified":1492132433,
     "wof:name":"Keogh & Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

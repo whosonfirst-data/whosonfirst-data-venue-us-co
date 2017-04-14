@@ -2,9 +2,14 @@
   "id": 823655345,
   "type": "Feature",
   "properties": {
+    "addr:full":"34 Boston Ct Longmont CO 80501",
+    "addr:housenumber":"34",
+    "addr:postcode":"80501",
+    "addr:street":"Boston Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.108753,40.158576,-105.108753,40.158576",
     "geom:latitude":40.158576,
     "geom:longitude":-105.108753,
@@ -36,17 +41,32 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1i8v7XJvTugj5PkmLfwTRh_40.158576_-105.108753@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443204,
-    "wof:geomhash":"192957cbe51b86c31df6ec4e445d8ce1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9059b68463a26a988a9739cb19e2e3d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823655345
+        }
+    ],
     "wof:id":823655345,
-    "wof:lastmodified":1466418134,
+    "wof:lastmodified":1492127914,
     "wof:name":"Ambrosia Glass Art",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

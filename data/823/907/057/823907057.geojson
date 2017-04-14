@@ -2,9 +2,14 @@
   "id": 823907057,
   "type": "Feature",
   "properties": {
+    "addr:full":"8672 Emerson Ct Denver CO 80229",
+    "addr:housenumber":"8672",
+    "addr:postcode":"80229",
+    "addr:street":"Emerson Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.975866,39.852736,-104.975866,39.852736",
     "geom:latitude":39.852736,
     "geom:longitude":-104.975866,
@@ -29,19 +34,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3894nJSWmEBv59YeJvlniY_39.852736_-104.975866@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449647,
-    "wof:geomhash":"afc200d939793c786ebffd4e0ffc9f70",
-    "wof:hierarchy":[],
+    "wof:geomhash":"540a63ec751862ad48c0adefd0779bd4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":823907057
+        }
+    ],
     "wof:id":823907057,
-    "wof:lastmodified":1466420224,
+    "wof:lastmodified":1492126748,
     "wof:name":"American Automotive Machine",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

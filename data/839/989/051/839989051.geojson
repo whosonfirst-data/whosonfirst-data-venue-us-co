@@ -2,9 +2,14 @@
   "id": 839989051,
   "type": "Feature",
   "properties": {
+    "addr:full":"12020 Pennsylvania St Denver CO 80241",
+    "addr:housenumber":"12020",
+    "addr:postcode":"80241",
+    "addr:street":"Pennsylvania St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980582,39.915221,-104.980582,39.915221",
     "geom:latitude":39.915221,
     "geom:longitude":-104.980582,
@@ -29,19 +34,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7WEpg9bgvIQmFTTWHEiBDQ_39.915221_-104.980582@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460776,
-    "wof:geomhash":"d33a3f862fd8aa0d83074ac0bbc5ca57",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4b34a79518e90ba57c76bf51867697e3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553879,
+            "region_id":85688603,
+            "venue_id":839989051
+        }
+    ],
     "wof:id":839989051,
-    "wof:lastmodified":1466417296,
+    "wof:lastmodified":1492111090,
     "wof:name":"Fuddruckers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

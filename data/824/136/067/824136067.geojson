@@ -2,9 +2,14 @@
   "id": 824136067,
   "type": "Feature",
   "properties": {
+    "addr:full":"54175 Co Rd 129 Clark CO 80428",
+    "addr:housenumber":"54175;129",
+    "addr:postcode":"80428",
+    "addr:street":"Co Rd;Clark",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.912827,40.753053,-106.912827,40.753053",
     "geom:latitude":40.753053,
     "geom:longitude":-106.912827,
@@ -27,19 +32,28 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555269
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0tEkmo90mFdupQDsMADnh0_40.753053_-106.912827@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455369,
-    "wof:geomhash":"fa33ea55cec6526b198063ed0c855cf8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5d9f6be47310d1b6bcdd70c8edc2fbba",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555269,
+            "venue_id":824136067
+        }
+    ],
     "wof:id":824136067,
-    "wof:lastmodified":1466416245,
+    "wof:lastmodified":1492130265,
     "wof:name":"Biscuit Creek Market",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555269,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

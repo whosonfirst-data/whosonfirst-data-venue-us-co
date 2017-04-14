@@ -2,9 +2,14 @@
   "id": 824080485,
   "type": "Feature",
   "properties": {
+    "addr:full":"6296 W 68th Pl Arvada CO 80003",
+    "addr:housenumber":"6296",
+    "addr:postcode":"80003",
+    "addr:street":"W 68Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066425,39.821052,-105.066425,39.821052",
     "geom:latitude":39.821052,
     "geom:longitude":-105.066425,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554587
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2G84SWK7yrcrvr6uS040LK_39.821052_-105.066425@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453862,
-    "wof:geomhash":"b54edbb2e70339c84993fd8b59056795",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ce2343a159ca6f97b19139ebd90b4222",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554587,
+            "region_id":85688603,
+            "venue_id":824080485
+        }
+    ],
     "wof:id":824080485,
-    "wof:lastmodified":1466414687,
+    "wof:lastmodified":1492130961,
     "wof:name":"Poltechnica",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554587,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

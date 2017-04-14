@@ -2,9 +2,14 @@
   "id": 824074579,
   "type": "Feature",
   "properties": {
+    "addr:full":"11700 E 160th Ave Brighton CO 80602",
+    "addr:housenumber":"11700",
+    "addr:postcode":"80602",
+    "addr:street":"E 160Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.854121,39.986756,-104.854121,39.986756",
     "geom:latitude":39.986756,
     "geom:longitude":-104.854121,
@@ -32,19 +37,36 @@
         "ranch"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3OcY3W8vIYF6mKDjgNktcJ_39.986756_-104.854121@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453729,
-    "wof:geomhash":"171104474aa92acb67793810d359e2e5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ba9954d1cfd817f730fdcf2eb3805f54",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553387,
+            "region_id":85688603,
+            "venue_id":824074579
+        }
+    ],
     "wof:id":824074579,
-    "wof:lastmodified":1466414545,
+    "wof:lastmodified":1492132317,
     "wof:name":"Sanchez Ranchez LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

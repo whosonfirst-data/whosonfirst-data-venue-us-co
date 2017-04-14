@@ -2,9 +2,14 @@
   "id": 839944607,
   "type": "Feature",
   "properties": {
+    "addr:full":"4141 Arapahoe Ave Boulder CO 80303",
+    "addr:housenumber":"4141",
+    "addr:postcode":"80303",
+    "addr:street":"Arapahoe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.244006,40.014717,-105.244006,40.014717",
     "geom:latitude":40.014717,
     "geom:longitude":-105.244006,
@@ -29,19 +34,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0h3WhUT997iOjdWIbSqwIZ_40.014717_-105.244006@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458836,
-    "wof:geomhash":"bd01788ab3d4902a6525043b1ce96d55",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e466efab79edf12a37fe18fc49015728",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":839944607
+        }
+    ],
     "wof:id":839944607,
-    "wof:lastmodified":1466415074,
+    "wof:lastmodified":1492113997,
     "wof:name":"Arapahoe Park Partners",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

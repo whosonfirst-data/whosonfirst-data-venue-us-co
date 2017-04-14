@@ -2,9 +2,14 @@
   "id": 823677803,
   "type": "Feature",
   "properties": {
+    "addr:full":"2601 Killdeer Dr Fort Collins CO 80526",
+    "addr:housenumber":"2601",
+    "addr:postcode":"80526",
+    "addr:street":"Killdeer Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.084099,40.549696,-105.084099,40.549696",
     "geom:latitude":40.549696,
     "geom:longitude":-105.084099,
@@ -29,19 +34,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6qccabQobJVyD92gZl7cSd_40.549696_-105.084099@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443740,
-    "wof:geomhash":"3a7e50eeef85ed19abc3489e9532eb51",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1557662566b32f0f3b9211a4effbc41b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823677803
+        }
+    ],
     "wof:id":823677803,
-    "wof:lastmodified":1466418440,
+    "wof:lastmodified":1492126489,
     "wof:name":"Advanced Protective Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

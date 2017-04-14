@@ -2,9 +2,14 @@
   "id": 839985077,
   "type": "Feature",
   "properties": {
+    "addr:full":"2464 Co Rd 46 Berthoud CO 80513",
+    "addr:housenumber":"2464;46",
+    "addr:postcode":"80513",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.009277,40.320549,-105.009277,40.320549",
     "geom:latitude":40.320549,
     "geom:longitude":-105.009277,
@@ -22,19 +27,36 @@
         "corn"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6LzLptIzPperDQH8Kf7Iv1_40.320549_-105.009277@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460620,
-    "wof:geomhash":"3135123a660c4cadf09953af63fd4c59",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d3620db024eb3a90379b49cb6f2a21d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":839985077
+        }
+    ],
     "wof:id":839985077,
-    "wof:lastmodified":1466417146,
+    "wof:lastmodified":1492112294,
     "wof:name":"Kenneth Markham",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

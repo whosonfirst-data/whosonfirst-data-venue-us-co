@@ -2,9 +2,14 @@
   "id": 823949857,
   "type": "Feature",
   "properties": {
+    "addr:full":"248 N Main St Brighton CO 80601",
+    "addr:housenumber":"248",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.820471,39.989799,-104.820471,39.989799",
     "geom:latitude":39.989799,
     "geom:longitude":-104.820471,
@@ -27,19 +32,36 @@
         "truck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7GjJi0g3Z9ihpV0LoYaX1P_39.989799_-104.820471@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450774,
-    "wof:geomhash":"a062393cd96cc88c069f4ce971a03d5c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4cc4a606015cb03b894c6d9f6a94b51d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823949857
+        }
+    ],
     "wof:id":823949857,
-    "wof:lastmodified":1466420709,
+    "wof:lastmodified":1492119735,
     "wof:name":"Country Lane Truck Rental Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

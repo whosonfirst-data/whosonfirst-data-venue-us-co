@@ -2,9 +2,14 @@
   "id": 823839807,
   "type": "Feature",
   "properties": {
+    "addr:full":"625 Poppy Way Broomfield CO 80020",
+    "addr:housenumber":"625",
+    "addr:postcode":"80020",
+    "addr:street":"Poppy Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.088982,39.926154,-105.088982,39.926154",
     "geom:latitude":39.926154,
     "geom:longitude":-105.088982,
@@ -29,19 +34,36 @@
         "clock"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3fgkkZGbuLOFx9o61ezpg2_39.926154_-105.088982@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447931,
-    "wof:geomhash":"3597b6166591bed5ccac9e40b5ba4314",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a9c258ccf49a652ad393180dde1ea102",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554251,
+            "region_id":85688603,
+            "venue_id":823839807
+        }
+    ],
     "wof:id":823839807,
-    "wof:lastmodified":1466419759,
+    "wof:lastmodified":1492118546,
     "wof:name":"Mile Hi Clock Supplies",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823535179,
   "type": "Feature",
   "properties": {
+    "addr:full":"20505 Co Rd 16 Oak Creek CO 80467",
+    "addr:housenumber":"20505;16",
+    "addr:postcode":"80467",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.833162,40.250222,-106.833162,40.250222",
     "geom:latitude":40.250222,
     "geom:longitude":-106.833162,
@@ -27,19 +32,28 @@
         "stable"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555337
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6KDZ9YdhHZ2VD2M6SKtbAy_40.250222_-106.833162@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440358,
-    "wof:geomhash":"726e1eb98334c4022c27726aad2b74fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cddf5fa955dd44a92b54b8f474308823",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555337,
+            "venue_id":823535179
+        }
+    ],
     "wof:id":823535179,
-    "wof:lastmodified":1466415156,
+    "wof:lastmodified":1492127705,
     "wof:name":"High Meadows Ranch LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555337,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

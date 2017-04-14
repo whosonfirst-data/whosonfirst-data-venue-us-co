@@ -2,9 +2,14 @@
   "id": 823597621,
   "type": "Feature",
   "properties": {
+    "addr:full":"1100 Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"1100",
+    "addr:postcode":"80621",
+    "addr:street":"Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810536,40.091173,-104.810536,40.091173",
     "geom:latitude":40.091173,
     "geom:longitude":-104.810536,
@@ -28,19 +33,28 @@
         "structural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5XPPbdtzPwSXXJgBJd4Nc9_40.091173_-104.810536@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441827,
-    "wof:geomhash":"7e6526719d01089656e3a993c3daf778",
-    "wof:hierarchy":[],
+    "wof:geomhash":"55a8482f41ec4ff217dae4f9c453f981",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823597621
+        }
+    ],
     "wof:id":823597621,
-    "wof:lastmodified":1466417121,
+    "wof:lastmodified":1492116601,
     "wof:name":"Crown Metal Products",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

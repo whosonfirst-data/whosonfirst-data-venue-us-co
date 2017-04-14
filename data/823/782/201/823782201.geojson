@@ -2,9 +2,14 @@
   "id": 823782201,
   "type": "Feature",
   "properties": {
+    "addr:full":"2902 Purcel St Brighton CO 80601",
+    "addr:housenumber":"2902",
+    "addr:postcode":"80601",
+    "addr:street":"Purcel St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.78665,39.976448,-104.78665,39.976448",
     "geom:latitude":39.976448,
     "geom:longitude":-104.78665,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553429
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1xUbEZQHRXQ28Mt4PuAhuL_39.976448_-104.786650@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446147,
-    "wof:geomhash":"1e1dc5734e8f4aa98a99e1f7f604c093",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f17a5f74c83876b34d9704b8431f682f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553429,
+            "region_id":85688603,
+            "venue_id":823782201
+        }
+    ],
     "wof:id":823782201,
-    "wof:lastmodified":1466419192,
+    "wof:lastmodified":1492120063,
     "wof:name":"Parkside Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553429,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

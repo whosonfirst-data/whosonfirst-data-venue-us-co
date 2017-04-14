@@ -2,9 +2,14 @@
   "id": 823727015,
   "type": "Feature",
   "properties": {
+    "addr:full":"10643 Co Rd 501 Bayfield CO 81122",
+    "addr:housenumber":"10643",
+    "addr:postcode":"81122",
+    "addr:street":"Co Rd 501",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.605826,37.360782,-107.605826,37.360782",
     "geom:latitude":37.360782,
     "geom:longitude":-107.605826,
@@ -27,19 +32,28 @@
         "resort"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554669
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3BnJuqsTBLfWCCxE341KKE_37.360782_-107.605826@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444826,
-    "wof:geomhash":"14e266f6319045a4426acf7634263397",
-    "wof:hierarchy":[],
+    "wof:geomhash":"860d383e1009af389a5518e4dc0be865",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554669,
+            "venue_id":823727015
+        }
+    ],
     "wof:id":823727015,
-    "wof:lastmodified":1466418713,
+    "wof:lastmodified":1492124748,
     "wof:name":"Cool Water Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554669,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

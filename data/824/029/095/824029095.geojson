@@ -2,9 +2,14 @@
   "id": 824029095,
   "type": "Feature",
   "properties": {
+    "addr:full":"605 S Kuner Rd Brighton CO 80601",
+    "addr:housenumber":"605",
+    "addr:postcode":"80601",
+    "addr:street":"S Kuner Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.826745,39.977215,-104.826745,39.977215",
     "geom:latitude":39.977215,
     "geom:longitude":-104.826745,
@@ -28,19 +33,36 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7IkFL7dHp5nbDoPtxjVfFH_39.977215_-104.826745@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452643,
-    "wof:geomhash":"420b991a0ad55fa6a2d69125fc68e99f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"da7ec78adb05df5b160e38b44a0c692d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824029095
+        }
+    ],
     "wof:id":824029095,
-    "wof:lastmodified":1466413637,
+    "wof:lastmodified":1492132041,
     "wof:name":"Bueno HEP-Ged",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

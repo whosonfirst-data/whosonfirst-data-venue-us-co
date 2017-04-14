@@ -2,9 +2,14 @@
   "id": 839948615,
   "type": "Feature",
   "properties": {
+    "addr:full":"5305 Adams St Denver CO 80216",
+    "addr:housenumber":"5305",
+    "addr:postcode":"80216",
+    "addr:street":"Adams St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.948783,39.79428,-104.948783,39.79428",
     "geom:latitude":39.79428,
     "geom:longitude":-104.948783,
@@ -27,19 +32,38 @@
         "wrecker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1yVy9cwcFJcOX9AumpbQib_39.794280_-104.948783@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459062,
-    "wof:geomhash":"e07d98a71307d852723da0a3535449b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"975191709dfbe0dde4458c8a2d98317f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":839948615
+        }
+    ],
     "wof:id":839948615,
-    "wof:lastmodified":1466415213,
+    "wof:lastmodified":1492114084,
     "wof:name":"Ultimate Towing",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

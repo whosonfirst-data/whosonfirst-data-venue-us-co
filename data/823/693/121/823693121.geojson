@@ -2,9 +2,14 @@
   "id": 823693121,
   "type": "Feature",
   "properties": {
+    "addr:full":"75 S Sheridan Blvd Lakewood CO 80226",
+    "addr:housenumber":"75",
+    "addr:postcode":"80226",
+    "addr:street":"S Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053345,39.716231,-105.053345,39.716231",
     "geom:latitude":39.716231,
     "geom:longitude":-105.053345,
@@ -28,19 +33,36 @@
         "sewing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3EQg7biJOkwiZAz2lOJd0y_39.716231_-105.053345@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444086,
-    "wof:geomhash":"0d830c1e29e442c843115b190084ba4c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9183136d8ba5308ea651b258ed3798f6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823693121
+        }
+    ],
     "wof:id":823693121,
-    "wof:lastmodified":1466418473,
+    "wof:lastmodified":1492117874,
     "wof:name":"AAA Creative Sewing Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

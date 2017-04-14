@@ -2,9 +2,14 @@
   "id": 824040555,
   "type": "Feature",
   "properties": {
+    "addr:full":"3805 Birchwood Dr Boulder CO 80304",
+    "addr:housenumber":"3805",
+    "addr:postcode":"80304",
+    "addr:street":"Birchwood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.261423,40.04373,-105.261423,40.04373",
     "geom:latitude":40.04373,
     "geom:longitude":-105.261423,
@@ -27,19 +32,28 @@
         "advisory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553975
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DwtP1EwwYCJJxOTM4OOhs_40.043730_-105.261423@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452941,
-    "wof:geomhash":"42221fb34e481181b372731c688493d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d75af7b32d54795a1440961aa245fd66",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553975,
+            "venue_id":824040555
+        }
+    ],
     "wof:id":824040555,
-    "wof:lastmodified":1466413942,
+    "wof:lastmodified":1492128689,
     "wof:name":"Interstate Advisors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553975,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

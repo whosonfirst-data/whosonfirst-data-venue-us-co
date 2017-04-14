@@ -2,9 +2,14 @@
   "id": 823972339,
   "type": "Feature",
   "properties": {
+    "addr:full":"1550 E 73rd Ave Denver CO 80229",
+    "addr:housenumber":"1550",
+    "addr:postcode":"80229",
+    "addr:street":"E 73Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.965251,39.828987,-104.965251,39.828987",
     "geom:latitude":39.828987,
     "geom:longitude":-104.965251,
@@ -24,19 +29,36 @@
     "sg:postcode":"80229",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0EEhVvmNpvCB3gKdhHiwwE_39.828987_-104.965251@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451302,
-    "wof:geomhash":"c480b91ddbe9cd77c33fef1b5b7c31c9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"40eca07530607178ab21dd25d87dc01c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823972339
+        }
+    ],
     "wof:id":823972339,
-    "wof:lastmodified":1466420815,
+    "wof:lastmodified":1492121911,
     "wof:name":"Center Land Properties",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

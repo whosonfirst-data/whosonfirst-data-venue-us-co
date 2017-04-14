@@ -2,9 +2,14 @@
   "id": 823876375,
   "type": "Feature",
   "properties": {
+    "addr:full":"7390 Federal Blvd Westminster CO 80030",
+    "addr:housenumber":"7390",
+    "addr:postcode":"80030",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024724,39.827417,-105.024724,39.827417",
     "geom:latitude":39.827417,
     "geom:longitude":-105.024724,
@@ -27,19 +32,36 @@
         "special"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4WzePxmsC31Be8RDaZGDxG_39.827417_-105.024724@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448884,
-    "wof:geomhash":"1153afd64c5a00f3414d4746c9e26f86",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ad77787c6e532cce8dddd3a2b7952d26",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":823876375
+        }
+    ],
     "wof:id":823876375,
-    "wof:lastmodified":1466420033,
+    "wof:lastmodified":1492121455,
     "wof:name":"La Contes Mini Storage Whses",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

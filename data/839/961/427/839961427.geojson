@@ -2,9 +2,14 @@
   "id": 839961427,
   "type": "Feature",
   "properties": {
+    "addr:full":"7830 Knox Ct Westminster CO 80030",
+    "addr:housenumber":"7830",
+    "addr:postcode":"80030",
+    "addr:street":"Knox Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.031361,39.840506,-105.031361,39.840506",
     "geom:latitude":39.840506,
     "geom:longitude":-105.031361,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553515
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6DT0H8PEFGzXErCKdRHZKs_39.840506_-105.031361@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459664,
-    "wof:geomhash":"4436404ba90fe90828def78832ec900d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"73145e1f248bfb67ec59fae442d580d9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553515,
+            "region_id":85688603,
+            "venue_id":839961427
+        }
+    ],
     "wof:id":839961427,
-    "wof:lastmodified":1466415697,
+    "wof:lastmodified":1492111562,
     "wof:name":"Leonard Wagner Heavy Hauling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553515,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

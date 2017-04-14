@@ -2,9 +2,14 @@
   "id": 823756083,
   "type": "Feature",
   "properties": {
+    "addr:full":"3247 S Kendall St Denver CO 80227",
+    "addr:housenumber":"3247",
+    "addr:postcode":"80227",
+    "addr:street":"S Kendall St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066848,39.657244,-105.066848,39.657244",
     "geom:latitude":39.657244,
     "geom:longitude":-105.066848,
@@ -27,19 +32,38 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871249,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2JGeGc4vuckLqh537m4YyE_39.657244_-105.066848@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445538,
-    "wof:geomhash":"8072b756203109f7f11749ea46e8ef0b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0b4063b1db5d7608e4529844ca0d853e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871249,
+            "region_id":85688603,
+            "venue_id":823756083
+        }
+    ],
     "wof:id":823756083,
-    "wof:lastmodified":1466418986,
+    "wof:lastmodified":1492124300,
     "wof:name":"Team Construction Management",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

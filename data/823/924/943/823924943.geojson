@@ -2,9 +2,14 @@
   "id": 823924943,
   "type": "Feature",
   "properties": {
+    "addr:full":"2498 F Rd Grand Junction CO 81505",
+    "addr:housenumber":"2498",
+    "addr:postcode":"81505",
+    "addr:street":"F Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.595738,39.091877,-108.595738,39.091877",
     "geom:latitude":39.091877,
     "geom:longitude":-108.595738,
@@ -36,9 +41,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929587,
         102085221,
+        420554791,
         85803287
     ],
     "wof:breaches":[],
@@ -47,8 +54,17 @@
     },
     "wof:country":"US",
     "wof:created":1463450125,
-    "wof:geomhash":"8665a39a4c999148873ca448aa284546",
+    "wof:geomhash":"172265b6114d07b78cd47df210402481",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":823924943
+        },
         {
             "country_id":85633793,
             "county_id":102085221,
@@ -59,9 +75,9 @@
         }
     ],
     "wof:id":823924943,
-    "wof:lastmodified":1466420455,
+    "wof:lastmodified":1492117518,
     "wof:name":"Supermart Convenience Stores",
-    "wof:parent_id":85803287,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

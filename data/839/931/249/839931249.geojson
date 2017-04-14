@@ -2,9 +2,14 @@
   "id": 839931249,
   "type": "Feature",
   "properties": {
+    "addr:full":"250 Valley Ln Boulder CO 80302",
+    "addr:housenumber":"250",
+    "addr:postcode":"80302",
+    "addr:street":"Valley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.303186,40.099413,-105.303186,40.099413",
     "geom:latitude":40.099413,
     "geom:longitude":-105.303186,
@@ -28,19 +33,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553973
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6aXwRNbH9wYm6jvBl9hsF0_40.099413_-105.303186@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458046,
-    "wof:geomhash":"3e23d2ff14df2b0da4ff20fa31d84386",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8e6c72e1917f6b21efa22a7a2b7b1638",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553973,
+            "venue_id":839931249
+        }
+    ],
     "wof:id":839931249,
-    "wof:lastmodified":1466414274,
+    "wof:lastmodified":1492111498,
     "wof:name":"E Sellers Market",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553973,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

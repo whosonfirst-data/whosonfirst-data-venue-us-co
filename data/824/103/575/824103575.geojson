@@ -2,9 +2,14 @@
   "id": 824103575,
   "type": "Feature",
   "properties": {
+    "addr:full":"350 High Desert Rd Grand Junction CO 81503",
+    "addr:housenumber":"350",
+    "addr:postcode":"81503",
+    "addr:street":"High Desert Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.621809,39.058911,-108.621809,39.058911",
     "geom:latitude":39.058911,
     "geom:longitude":-108.621809,
@@ -27,19 +32,36 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554779
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5xlCgAS6sv4yPrOF25WNoh_39.058911_-108.621809@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454414,
-    "wof:geomhash":"9e6b26a30cbd58752d7e2c2bdd77e316",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cd5dbe9864ef62cce0e86ad03df99421",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554779,
+            "region_id":85688603,
+            "venue_id":824103575
+        }
+    ],
     "wof:id":824103575,
-    "wof:lastmodified":1466415101,
+    "wof:lastmodified":1492131006,
     "wof:name":"Dutch Master Gardeners Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554779,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

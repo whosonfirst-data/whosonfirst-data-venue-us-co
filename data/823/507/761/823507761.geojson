@@ -2,9 +2,14 @@
   "id": 823507761,
   "type": "Feature",
   "properties": {
+    "addr:full":"305 Co Rd 234 Durango CO 81301",
+    "addr:housenumber":"305;234",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.795652,37.235336,-107.795652,37.235336",
     "geom:latitude":37.235336,
     "geom:longitude":-107.795652,
@@ -29,19 +34,28 @@
         "plate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554707
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2RUbty554FScU9zPQZAMB6_37.235336_-107.795652@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439757,
-    "wof:geomhash":"45aad3ef5a50d9dba20553868233ee27",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dd5dfcbaf6b99d38a42606b3501ee250",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554707,
+            "venue_id":823507761
+        }
+    ],
     "wof:id":823507761,
-    "wof:lastmodified":1466414462,
+    "wof:lastmodified":1492126539,
     "wof:name":"Star Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554707,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

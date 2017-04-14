@@ -2,9 +2,14 @@
   "id": 823892129,
   "type": "Feature",
   "properties": {
+    "addr:full":"2525 E Exposition Ave Denver CO 80209",
+    "addr:housenumber":"2525",
+    "addr:postcode":"80209",
+    "addr:street":"E Exposition Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.957156,39.704478,-104.957156,39.704478",
     "geom:latitude":39.704478,
     "geom:longitude":-104.957156,
@@ -27,7 +32,16 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750021,
+        85871327,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7AZ7T8YbuwpxLS7WeJ4E8f_39.704478_-104.957156@1294083659"
@@ -35,11 +49,23 @@
     "wof:country":"US",
     "wof:created":1463449253,
     "wof:geomhash":"59636851593804526b283e1f12b3bf8a",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "microhood_id":1108750021,
+            "neighbourhood_id":85871327,
+            "region_id":85688603,
+            "venue_id":823892129
+        }
+    ],
     "wof:id":823892129,
-    "wof:lastmodified":1466420442,
+    "wof:lastmodified":1486593998,
     "wof:name":"Douglas & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750021,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

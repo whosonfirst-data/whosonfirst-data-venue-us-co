@@ -2,9 +2,14 @@
   "id": 823995429,
   "type": "Feature",
   "properties": {
+    "addr:full":"37250 US Hwy 50 Gunnison CO 81230",
+    "addr:housenumber":"",
+    "addr:postcode":"37250;81230",
+    "addr:street":"Us Hwy 50",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.964188,38.527497,-106.964188,38.527497",
     "geom:latitude":38.527497,
     "geom:longitude":-106.964188,
@@ -27,19 +32,28 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554369
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5mXZ1DiT6hKBErEP6s9Y8Y_38.527497_-106.964188@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451873,
-    "wof:geomhash":"18b68ce0f5b148f66b6a6715f715a532",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d62cca139147312d00e04a65d2b23887",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554369,
+            "venue_id":823995429
+        }
+    ],
     "wof:id":823995429,
-    "wof:lastmodified":1466421007,
+    "wof:lastmodified":1492117206,
     "wof:name":"Gunnison County Electric Assn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554369,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

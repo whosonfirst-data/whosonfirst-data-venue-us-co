@@ -2,9 +2,14 @@
   "id": 823892141,
   "type": "Feature",
   "properties": {
+    "addr:full":"5043 S Iris St Denver CO 80123",
+    "addr:housenumber":"5043",
+    "addr:postcode":"80123",
+    "addr:street":"S Iris St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.107172,39.625339,-105.107172,39.625339",
     "geom:latitude":39.625339,
     "geom:longitude":-105.107172,
@@ -27,19 +32,38 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871357,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6hVJQnoNCl5pWmC0VAu1D9_39.625339_-105.107172@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449253,
-    "wof:geomhash":"bce2f46652e199dd900025b06e93051b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2419f94e427a750f4e9c16ed2def5bb9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871357,
+            "region_id":85688603,
+            "venue_id":823892141
+        }
+    ],
     "wof:id":823892141,
-    "wof:lastmodified":1466420127,
+    "wof:lastmodified":1492119944,
     "wof:name":"Gathering Room",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

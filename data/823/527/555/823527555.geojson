@@ -2,9 +2,14 @@
   "id": 823527555,
   "type": "Feature",
   "properties": {
+    "addr:full":"5600 Flatiron Pkwy Boulder CO 80301",
+    "addr:housenumber":"5600",
+    "addr:postcode":"80301",
+    "addr:street":"Flatiron Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.222732,40.023552,-105.222732,40.023552",
     "geom:latitude":40.023552,
     "geom:longitude":-105.222732,
@@ -27,19 +32,36 @@
         "produce"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_38A2a5biCMKy0Gh6E6YJSP_40.023552_-105.222732@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440204,
-    "wof:geomhash":"aee4e5009650737d83d2debeb3d6a2e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0faeeebaeae55feacbde0ff928979c28",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823527555
+        }
+    ],
     "wof:id":823527555,
-    "wof:lastmodified":1466415095,
+    "wof:lastmodified":1492120424,
     "wof:name":"F Resh Produce",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

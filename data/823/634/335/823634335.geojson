@@ -2,9 +2,14 @@
   "id": 823634335,
   "type": "Feature",
   "properties": {
+    "addr:full":"555 Yampa Ave Craig CO 81625",
+    "addr:housenumber":"555",
+    "addr:postcode":"81625",
+    "addr:street":"Yampa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.547215,40.515071,-107.547215,40.515071",
     "geom:latitude":40.515071,
     "geom:longitude":-107.547215,
@@ -28,17 +33,32 @@
         "thrift"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928901,
+        102085247
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6UcNtimxR3ViFns572P7rx_40.515071_-107.547215@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442718,
-    "wof:geomhash":"ac73a21cf44eecd61f4e5dd95f489fc1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7cd45bd62b04964f148ae6a8bc1d475e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085247,
+            "locality_id":85928901,
+            "region_id":85688603,
+            "venue_id":823634335
+        }
+    ],
     "wof:id":823634335,
-    "wof:lastmodified":1466417710,
+    "wof:lastmodified":1492125514,
     "wof:name":"Community Budget Center",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

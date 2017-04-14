@@ -2,9 +2,14 @@
   "id": 823890985,
   "type": "Feature",
   "properties": {
+    "addr:full":"12644 Co Rd 40.5 Mancos CO 81328",
+    "addr:housenumber":"12644",
+    "addr:postcode":"81328",
+    "addr:street":"Co Rd 40.5",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.304405,37.390605,-108.304405,37.390605",
     "geom:latitude":37.390605,
     "geom:longitude":-108.304405,
@@ -28,19 +33,28 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555093
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0MVIQjO1rwS5fVfHCoKglL_37.390605_-108.304405@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449233,
-    "wof:geomhash":"675969bfce9da1919eb722f7cdd09917",
-    "wof:hierarchy":[],
+    "wof:geomhash":"037c2e4a8a4d1de131e3fed6141912dc",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555093,
+            "venue_id":823890985
+        }
+    ],
     "wof:id":823890985,
-    "wof:lastmodified":1466420189,
+    "wof:lastmodified":1492120844,
     "wof:name":"Give ME Shelter Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555093,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

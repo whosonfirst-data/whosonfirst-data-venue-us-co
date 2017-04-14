@@ -2,9 +2,14 @@
   "id": 823586521,
   "type": "Feature",
   "properties": {
+    "addr:full":"12876 Grape St Denver CO 80241",
+    "addr:housenumber":"12876",
+    "addr:postcode":"80241",
+    "addr:street":"Grape St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.926255,39.930393,-104.926255,39.930393",
     "geom:latitude":39.930393,
     "geom:longitude":-104.926255,
@@ -27,19 +32,36 @@
         "carpenter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553903
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3WXMmFABcWiG5TH0fVbWEY_39.930393_-104.926255@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441571,
-    "wof:geomhash":"f2feac7a972ba5af379f8196d60c46d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"577ba1f04ea5d35d21e974fd5c388438",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553903,
+            "region_id":85688603,
+            "venue_id":823586521
+        }
+    ],
     "wof:id":823586521,
-    "wof:lastmodified":1466416801,
+    "wof:lastmodified":1492118489,
     "wof:name":"Woodbridge Carpentry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553903,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

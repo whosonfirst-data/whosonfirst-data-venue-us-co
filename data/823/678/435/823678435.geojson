@@ -2,9 +2,14 @@
   "id": 823678435,
   "type": "Feature",
   "properties": {
+    "addr:full":"550 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"550",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978174,39.913934,-104.978174,39.913934",
     "geom:latitude":39.913934,
     "geom:longitude":-104.978174,
@@ -27,19 +32,36 @@
         "investor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4NN6uOqSzoDzbvwzLAfPiz_39.913934_-104.978174@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443754,
-    "wof:geomhash":"c08e3d2214d910f583ec74f220c8c2d7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b395ba3707644d4cc913bcdc43f9842d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":823678435
+        }
+    ],
     "wof:id":823678435,
-    "wof:lastmodified":1466418350,
+    "wof:lastmodified":1492121413,
     "wof:name":"Haeun Investments Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

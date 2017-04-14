@@ -2,9 +2,14 @@
   "id": 823884143,
   "type": "Feature",
   "properties": {
+    "addr:full":"702 S 9th St Gunnison CO 81230",
+    "addr:housenumber":"702",
+    "addr:postcode":"81230",
+    "addr:street":"S 9Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.938797,38.537883,-106.938797,38.537883",
     "geom:latitude":38.537883,
     "geom:longitude":-106.938797,
@@ -27,19 +32,36 @@
         "body"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554361
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1qIZU1cs82nO39bJlQnXV6_38.537883_-106.938797@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449062,
-    "wof:geomhash":"1f1b6e5d44c1ad2f60d4d7a412b385cc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b8a05e32cdb9df269a45bf5c28d845f6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554361,
+            "region_id":85688603,
+            "venue_id":823884143
+        }
+    ],
     "wof:id":823884143,
-    "wof:lastmodified":1466420020,
+    "wof:lastmodified":1492122474,
     "wof:name":"Gunnison Country Collision",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

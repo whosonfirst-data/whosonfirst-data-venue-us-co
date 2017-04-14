@@ -2,9 +2,14 @@
   "id": 823883129,
   "type": "Feature",
   "properties": {
+    "addr:full":"4344 E 127th Pl Denver CO 80241",
+    "addr:housenumber":"4344",
+    "addr:postcode":"80241",
+    "addr:street":"E 127Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.936515,39.927049,-104.936515,39.927049",
     "geom:latitude":39.927049,
     "geom:longitude":-104.936515,
@@ -27,19 +32,36 @@
         "industrial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5bN6zsoNpGG3TX2pfXeoLO_39.927049_-104.936515@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449040,
-    "wof:geomhash":"d5753143b00d83f530047347aa7b162a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d69d1d9ba4805aaaf74fa86ec4b21f4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823883129
+        }
+    ],
     "wof:id":823883129,
-    "wof:lastmodified":1466420002,
+    "wof:lastmodified":1492119901,
     "wof:name":"Invirofab Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

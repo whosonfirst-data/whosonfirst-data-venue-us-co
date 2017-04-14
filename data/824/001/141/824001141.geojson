@@ -2,9 +2,14 @@
   "id": 824001141,
   "type": "Feature",
   "properties": {
+    "addr:full":"1929 Co Rd 228 Durango CO 81301",
+    "addr:housenumber":"1929;228",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.777826,37.25008,-107.777826,37.25008",
     "geom:latitude":37.25008,
     "geom:longitude":-107.777826,
@@ -28,19 +33,28 @@
         "court"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5iD4wKt5i3bOMqXK3VMTQu_37.250080_-107.777826@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452014,
-    "wof:geomhash":"88d455bb9a002bd37653d81feaaaada8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9527d611fd565c40e0f0dcb76e5431ef",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824001141
+        }
+    ],
     "wof:id":824001141,
-    "wof:lastmodified":1466412052,
+    "wof:lastmodified":1492130103,
     "wof:name":"Home Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

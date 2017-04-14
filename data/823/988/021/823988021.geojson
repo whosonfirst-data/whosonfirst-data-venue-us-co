@@ -2,9 +2,14 @@
   "id": 823988021,
   "type": "Feature",
   "properties": {
+    "addr:full":"8439 Ames St Arvada CO 80003",
+    "addr:housenumber":"8439",
+    "addr:postcode":"80003",
+    "addr:street":"Ames St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.055052,39.851702,-105.055052,39.851702",
     "geom:latitude":39.851702,
     "geom:longitude":-105.055052,
@@ -27,19 +32,36 @@
         "painter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2wH4icRgvXqboItnBLgD8X_39.851702_-105.055052@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451675,
-    "wof:geomhash":"f4d3c392ddb0d630ebb89cbd7ea18338",
-    "wof:hierarchy":[],
+    "wof:geomhash":"853d369f627366032ade49d1cc57d132",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823988021
+        }
+    ],
     "wof:id":823988021,
-    "wof:lastmodified":1466420943,
+    "wof:lastmodified":1492123106,
     "wof:name":"Advanced Designer Faux Finish",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

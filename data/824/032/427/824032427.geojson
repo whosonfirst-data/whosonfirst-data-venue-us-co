@@ -2,9 +2,14 @@
   "id": 824032427,
   "type": "Feature",
   "properties": {
+    "addr:full":"5399 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"5399",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025303,39.793963,-105.025303,39.793963",
     "geom:latitude":39.793963,
     "geom:longitude":-105.025303,
@@ -27,19 +32,36 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553687
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ED1PDymNtDNysLcjsqohT_39.793963_-105.025303@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452726,
-    "wof:geomhash":"f9050803a310e9a19371362c4210ef3c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2d8358d243374251e4c368bcf92f4616",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553687,
+            "region_id":85688603,
+            "venue_id":824032427
+        }
+    ],
     "wof:id":824032427,
-    "wof:lastmodified":1466413881,
+    "wof:lastmodified":1492128975,
     "wof:name":"Franklin Landscape Specialists",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553687,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

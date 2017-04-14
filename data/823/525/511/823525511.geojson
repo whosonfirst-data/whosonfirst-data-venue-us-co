@@ -2,9 +2,14 @@
   "id": 823525511,
   "type": "Feature",
   "properties": {
+    "addr:full":"2320 Monument Rd Grand Junction CO 81503",
+    "addr:housenumber":"2320",
+    "addr:postcode":"81503",
+    "addr:street":"Monument Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.629115,39.037727,-108.629115,39.037727",
     "geom:latitude":39.037727,
     "geom:longitude":-108.629115,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554991
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7LULtnQHwE0t2tWnQGNelF_39.037727_-108.629115@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440150,
-    "wof:geomhash":"af0b71a59e423e53abda85b09269378c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"72fc9611feb0ca8ec6afe90362246f01",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554991,
+            "region_id":85688603,
+            "venue_id":823525511
+        }
+    ],
     "wof:id":823525511,
-    "wof:lastmodified":1466415009,
+    "wof:lastmodified":1492119170,
     "wof:name":"Haworth Johm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554991,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

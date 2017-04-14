@@ -2,9 +2,14 @@
   "id": 823775029,
   "type": "Feature",
   "properties": {
+    "addr:full":"2403 E 148th Dr Thornton CO 80602",
+    "addr:housenumber":"2403",
+    "addr:postcode":"80602",
+    "addr:street":"E 148Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.958239,39.964751,-104.958239,39.964751",
     "geom:latitude":39.964751,
     "geom:longitude":-104.958239,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553415
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6JDWF3ay0rnvfJh2571sse_39.964751_-104.958239@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445958,
-    "wof:geomhash":"07b893d247815c823dfba9d1e1d2d6c9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"340a0133c3772abf370591a24c1ba73d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553415,
+            "region_id":85688603,
+            "venue_id":823775029
+        }
+    ],
     "wof:id":823775029,
-    "wof:lastmodified":1466419093,
+    "wof:lastmodified":1492120163,
     "wof:name":"Engle Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553415,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824000705,
   "type": "Feature",
   "properties": {
+    "addr:full":"1509 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"1509",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.004416,39.849125,-105.004416,39.849125",
     "geom:latitude":39.849125,
     "geom:longitude":-105.004416,
@@ -27,19 +32,36 @@
         "manicuring"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_35TGzJ9EzTBNFQDGkLRm6s_39.849125_-105.004416@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452005,
-    "wof:geomhash":"cc7c1708a4ed6f9028fa8c8ed9a5e6b0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2f7b7a778010d769118780424a27feba",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553771,
+            "region_id":85688603,
+            "venue_id":824000705
+        }
+    ],
     "wof:id":824000705,
-    "wof:lastmodified":1466412004,
+    "wof:lastmodified":1492131396,
     "wof:name":"La'Vie Nail & Spa",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

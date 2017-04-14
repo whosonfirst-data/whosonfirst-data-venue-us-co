@@ -2,9 +2,14 @@
   "id": 823567733,
   "type": "Feature",
   "properties": {
+    "addr:full":"3600 S Gilpin St Englewood CO 80113",
+    "addr:housenumber":"3600",
+    "addr:postcode":"80113",
+    "addr:street":"S Gilpin St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.96767,39.653212,-104.96767,39.653212",
     "geom:latitude":39.653212,
     "geom:longitude":-104.96767,
@@ -30,17 +35,41 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929843,
+        102086877,
+        85929829
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5PkdQv3pRglXEXesMayT6w_39.653212_-104.967670@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441129,
-    "wof:geomhash":"bd3a79bbd750f3648e03ba18858d8aba",
-    "wof:hierarchy":[],
+    "wof:geomhash":"818de3cb0bc7aba021a6e31515206fbe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929843,
+            "region_id":85688603,
+            "venue_id":823567733
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "region_id":85688603,
+            "venue_id":823567733
+        }
+    ],
     "wof:id":823567733,
-    "wof:lastmodified":1466416214,
+    "wof:lastmodified":1492126504,
     "wof:name":"John H Stamper",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

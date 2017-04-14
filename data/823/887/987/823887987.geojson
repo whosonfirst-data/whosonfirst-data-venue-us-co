@@ -2,9 +2,14 @@
   "id": 823887987,
   "type": "Feature",
   "properties": {
+    "addr:full":"518 28 Rd Grand Junction CO 81501",
+    "addr:housenumber":"28",
+    "addr:postcode":"81501",
+    "addr:street":"518;Rd Grand Junction",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.533701,39.061855,-108.533701,39.061855",
     "geom:latitude":39.061855,
     "geom:longitude":-108.533701,
@@ -27,19 +32,36 @@
         "painter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554841
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0jizSNel3raChygXcuFbQM_39.061855_-108.533701@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449146,
-    "wof:geomhash":"7a3cd461ad7fced364351a62deda8bf6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ff58910c6b5e7cf53019e6208ef08ae8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554841,
+            "region_id":85688603,
+            "venue_id":823887987
+        }
+    ],
     "wof:id":823887987,
-    "wof:lastmodified":1466420117,
+    "wof:lastmodified":1492122504,
     "wof:name":"De Haven Painting & Drywll Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554841,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

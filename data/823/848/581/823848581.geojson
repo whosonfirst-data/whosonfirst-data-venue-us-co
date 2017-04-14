@@ -2,9 +2,14 @@
   "id": 823848581,
   "type": "Feature",
   "properties": {
+    "addr:full":"32405 Co Rd 14 Steamboat Springs CO 80487",
+    "addr:housenumber":"32405;14",
+    "addr:postcode":"80487",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.826378,40.43941,-106.826378,40.43941",
     "geom:latitude":40.43941,
     "geom:longitude":-106.826378,
@@ -24,19 +29,28 @@
     "sg:postcode":"80487",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555283
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_59LQzcuEJXq20xsRaO2o8a_40.439410_-106.826378@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448184,
-    "wof:geomhash":"5a8cc9112bd84640b38b0d70ff14203b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"322db8d580b6eb76e7128e9de7d6f0b7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555283,
+            "venue_id":823848581
+        }
+    ],
     "wof:id":823848581,
-    "wof:lastmodified":1466419795,
+    "wof:lastmodified":1492127109,
     "wof:name":"Sidney Peak Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555283,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

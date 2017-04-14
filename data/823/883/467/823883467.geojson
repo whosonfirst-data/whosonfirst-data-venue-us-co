@@ -2,9 +2,14 @@
   "id": 823883467,
   "type": "Feature",
   "properties": {
+    "addr:full":"10576 W 107th Ave Broomfield CO 80021",
+    "addr:housenumber":"10576",
+    "addr:postcode":"80021",
+    "addr:street":"W 107Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.113478,39.889204,-105.113478,39.889204",
     "geom:latitude":39.889204,
     "geom:longitude":-105.113478,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2msxZClLypMWDuorNuTUK1_39.889204_-105.113478@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449047,
-    "wof:geomhash":"a7622491af2ab6419c6be3993a7c71a0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ca67ebeadf4e8b5c6397f95989b8656a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823883467
+        }
+    ],
     "wof:id":823883467,
-    "wof:lastmodified":1466420033,
+    "wof:lastmodified":1492119890,
     "wof:name":"Red Rooster Delivery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

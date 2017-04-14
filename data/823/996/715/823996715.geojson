@@ -2,9 +2,14 @@
   "id": 823996715,
   "type": "Feature",
   "properties": {
+    "addr:full":"4500 19th St Boulder CO 80304",
+    "addr:housenumber":"4500",
+    "addr:postcode":"80304",
+    "addr:street":"19Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.272721,40.058205,-105.272721,40.058205",
     "geom:latitude":40.058205,
     "geom:longitude":-105.272721,
@@ -24,7 +29,12 @@
     "sg:postcode":"80304",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876361,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5VANmfOuDN5tCquN876KIU_40.058205_-105.272721@1294083659"
@@ -32,11 +42,19 @@
     "wof:country":"US",
     "wof:created":1463451909,
     "wof:geomhash":"30b9590649c4a193771374912ff0a6ef",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876361,
+            "region_id":85688603,
+            "venue_id":823996715
+        }
+    ],
     "wof:id":823996715,
-    "wof:lastmodified":1466421079,
+    "wof:lastmodified":1491924271,
     "wof:name":"Idlogic Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

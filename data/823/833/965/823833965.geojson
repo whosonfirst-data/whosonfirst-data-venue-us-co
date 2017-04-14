@@ -2,9 +2,14 @@
   "id": 823833965,
   "type": "Feature",
   "properties": {
+    "addr:full":"11350 Huron St Denver CO 80234",
+    "addr:housenumber":"11350",
+    "addr:postcode":"80234",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996551,39.90537,-104.996551,39.90537",
     "geom:latitude":39.90537,
     "geom:longitude":-104.996551,
@@ -27,19 +32,36 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553697
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Nk8btUVTj8iylpDWK7JzD_39.905370_-104.996551@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447712,
-    "wof:geomhash":"c48f4d8712301c4901a0c226ee2df9f2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"69c2285f59bd19387ef3886ebc924cff",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553697,
+            "region_id":85688603,
+            "venue_id":823833965
+        }
+    ],
     "wof:id":823833965,
-    "wof:lastmodified":1466419759,
+    "wof:lastmodified":1492118013,
     "wof:name":"Range View Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553697,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

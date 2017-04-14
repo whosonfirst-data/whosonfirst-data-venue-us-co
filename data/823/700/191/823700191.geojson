@@ -2,9 +2,14 @@
   "id": 823700191,
   "type": "Feature",
   "properties": {
+    "addr:full":"11880 Washington St Northglenn CO 80233",
+    "addr:housenumber":"11880",
+    "addr:postcode":"80233",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97772,39.913747,-104.97772,39.913747",
     "geom:latitude":39.913747,
     "geom:longitude":-104.97772,
@@ -28,19 +33,36 @@
         "thrift"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7kxL1xgr68Rncxsx85cSlN_39.913747_-104.977720@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444240,
-    "wof:geomhash":"e329c3e2ee64fddfab9d6c374d9cb64e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91e528e10a1133286a1184844e95dda6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553879,
+            "region_id":85688603,
+            "venue_id":823700191
+        }
+    ],
     "wof:id":823700191,
-    "wof:lastmodified":1466418550,
+    "wof:lastmodified":1492119138,
     "wof:name":"Salvation Army",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

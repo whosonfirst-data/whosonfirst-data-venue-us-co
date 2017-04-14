@@ -2,9 +2,14 @@
   "id": 824082331,
   "type": "Feature",
   "properties": {
+    "addr:full":"1445 Balsam Ave Boulder CO 80304",
+    "addr:housenumber":"1445",
+    "addr:postcode":"80304",
+    "addr:street":"Balsam Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277271,40.026823,-105.277271,40.026823",
     "geom:latitude":40.026823,
     "geom:longitude":-105.277271,
@@ -27,19 +32,36 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_60y0TlLArSq7QspnvUEXpv_40.026823_-105.277271@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453902,
-    "wof:geomhash":"68eb2fbc57cb56785d8417b5de53cd11",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8a49527858092186904b7603f881b8ef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":824082331
+        }
+    ],
     "wof:id":824082331,
-    "wof:lastmodified":1466414762,
+    "wof:lastmodified":1492128324,
     "wof:name":"Boulder Institute",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

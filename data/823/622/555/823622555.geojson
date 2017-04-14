@@ -2,9 +2,14 @@
   "id": 823622555,
   "type": "Feature",
   "properties": {
+    "addr:full":"6137 Raleigh St Arvada CO 80003",
+    "addr:housenumber":"6137",
+    "addr:postcode":"80003",
+    "addr:street":"Raleigh St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041708,39.808867,-105.041708,39.808867",
     "geom:latitude":39.808867,
     "geom:longitude":-105.041708,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553265
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7CIZFe1lbKFDvCU191YnG9_39.808867_-105.041708@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442462,
-    "wof:geomhash":"06d5dc274aa71039ac27c71779a15608",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d706b8d1e539db05e192d0f5047650b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553265,
+            "region_id":85688603,
+            "venue_id":823622555
+        }
+    ],
     "wof:id":823622555,
-    "wof:lastmodified":1466417480,
+    "wof:lastmodified":1492122527,
     "wof:name":"Rodriquez Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553265,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

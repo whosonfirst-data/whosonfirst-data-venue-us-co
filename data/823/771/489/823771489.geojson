@@ -2,9 +2,14 @@
   "id": 823771489,
   "type": "Feature",
   "properties": {
+    "addr:full":"12301 Grant St Denver CO 80241",
+    "addr:housenumber":"12301",
+    "addr:postcode":"80241",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.985349,39.922162,-104.985349,39.922162",
     "geom:latitude":39.922162,
     "geom:longitude":-104.985349,
@@ -27,19 +32,36 @@
         "multimedia"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553693
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5tlfxZV54F7w24CGmDpyEY_39.922162_-104.985349@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445859,
-    "wof:geomhash":"921b43195ac026622c554054eff5afad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"693bba4b756a8359ba09495edabd5d02",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553693,
+            "region_id":85688603,
+            "venue_id":823771489
+        }
+    ],
     "wof:id":823771489,
-    "wof:lastmodified":1466419081,
+    "wof:lastmodified":1492119041,
     "wof:name":"Big Screen Digital LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553693,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

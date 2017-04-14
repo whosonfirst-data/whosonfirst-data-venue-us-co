@@ -2,9 +2,14 @@
   "id": 823593827,
   "type": "Feature",
   "properties": {
+    "addr:full":"70 Garden Center Broomfield CO 80020",
+    "addr:housenumber":"70",
+    "addr:postcode":"80020",
+    "addr:street":"Garden Center",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.089594,39.923745,-105.089594,39.923745",
     "geom:latitude":39.923745,
     "geom:longitude":-105.089594,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554183
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5erP0tnBzy4dLF4t0T5rcu_39.923745_-105.089594@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441738,
-    "wof:geomhash":"8369562af8a3807280189d881b80ef0b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c03950cf040c38911cf57a5105dd5e51",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554183,
+            "region_id":85688603,
+            "venue_id":823593827
+        }
+    ],
     "wof:id":823593827,
-    "wof:lastmodified":1466416969,
+    "wof:lastmodified":1492121941,
     "wof:name":"Garden Center Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554183,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

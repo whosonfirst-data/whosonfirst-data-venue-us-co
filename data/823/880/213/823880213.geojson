@@ -2,9 +2,14 @@
   "id": 823880213,
   "type": "Feature",
   "properties": {
+    "addr:full":"1200 College Pl Grand Junction CO 81501",
+    "addr:housenumber":"1200",
+    "addr:postcode":"81501",
+    "addr:street":"College Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.55462,39.078296,-108.55462,39.078296",
     "geom:latitude":39.078296,
     "geom:longitude":-108.55462,
@@ -24,19 +29,36 @@
     "sg:postcode":"81501",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ijeyYDjQgAkxJRDAEJcuJ_39.078296_-108.554620@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448974,
-    "wof:geomhash":"1c491f8f9a884e2b08f42a1a93fa6369",
-    "wof:hierarchy":[],
+    "wof:geomhash":"caf2b3067827dbef9860ec0cc01ae272",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554945,
+            "region_id":85688603,
+            "venue_id":823880213
+        }
+    ],
     "wof:id":823880213,
-    "wof:lastmodified":1466420011,
+    "wof:lastmodified":1492116334,
     "wof:name":"Mesa State College Library",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

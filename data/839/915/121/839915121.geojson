@@ -2,9 +2,14 @@
   "id": 839915121,
   "type": "Feature",
   "properties": {
+    "addr:full":"554 Brian Ave Silverthorne CO 80498",
+    "addr:housenumber":"554",
+    "addr:postcode":"80498",
+    "addr:street":"Brian Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.078164,39.633851,-106.078164,39.633851",
     "geom:latitude":39.633851,
     "geom:longitude":-106.078164,
@@ -27,17 +32,32 @@
         "door"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929311,
+        102084025
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5atgjw40n0QAkDQizQ5X3X_39.633851_-106.078164@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457298,
-    "wof:geomhash":"cef163d30499e6e4d0583e30f0690d4b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ce56b5edf709f5c1a57098ebe9afa2e6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084025,
+            "locality_id":85929311,
+            "region_id":85688603,
+            "venue_id":839915121
+        }
+    ],
     "wof:id":839915121,
-    "wof:lastmodified":1466412975,
+    "wof:lastmodified":1492113855,
     "wof:name":"Colorado Door Svc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

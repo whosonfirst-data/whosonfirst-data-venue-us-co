@@ -2,9 +2,14 @@
   "id": 839972671,
   "type": "Feature",
   "properties": {
+    "addr:full":"105 Canary Ln Grand Junction CO 81503",
+    "addr:housenumber":"105",
+    "addr:postcode":"81503",
+    "addr:street":"Canary Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.605184,39.067797,-108.605184,39.067797",
     "geom:latitude":39.067797,
     "geom:longitude":-108.605184,
@@ -31,19 +36,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554801
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_31ckrSTH0uLJvj2G0QPV09_39.067797_-108.605184@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460131,
-    "wof:geomhash":"8a2980c0837e4ee9b2b5ae85145112a3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0d16249b642ae9677887fcdf47a31f83",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554801,
+            "region_id":85688603,
+            "venue_id":839972671
+        }
+    ],
     "wof:id":839972671,
-    "wof:lastmodified":1466416504,
+    "wof:lastmodified":1492112541,
     "wof:name":"Agape Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554801,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

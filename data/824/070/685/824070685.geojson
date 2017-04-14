@@ -2,9 +2,14 @@
   "id": 824070685,
   "type": "Feature",
   "properties": {
+    "addr:full":"3050 Delta Dr Colorado Springs CO 80910",
+    "addr:housenumber":"3050",
+    "addr:postcode":"80910",
+    "addr:street":"Delta Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.776712,38.79526,-104.776712,38.79526",
     "geom:latitude":38.79526,
     "geom:longitude":-104.776712,
@@ -27,19 +32,36 @@
         "yard"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1xVpo8BbDrDcVbEQODxyzJ_38.795260_-104.776712@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453631,
-    "wof:geomhash":"728c5c8e5478d06d7d76be8d371c2a33",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b40c88047a3e472e95e05e5799cf7e08",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":824070685
+        }
+    ],
     "wof:id":824070685,
-    "wof:lastmodified":1466414575,
+    "wof:lastmodified":1492132463,
     "wof:name":"H & E Equipment Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

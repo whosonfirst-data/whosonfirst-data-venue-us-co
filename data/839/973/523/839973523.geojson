@@ -2,9 +2,14 @@
   "id": 839973523,
   "type": "Feature",
   "properties": {
+    "addr:full":"550 E 102nd Ave Denver CO 80229",
+    "addr:housenumber":"550",
+    "addr:postcode":"80229",
+    "addr:street":"E 102Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979518,39.881552,-104.979518,39.881552",
     "geom:latitude":39.881552,
     "geom:longitude":-104.979518,
@@ -31,19 +36,36 @@
         "developing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553695
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4p5v0tGutsYDy0hoD5SKmg_39.881552_-104.979518@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460161,
-    "wof:geomhash":"df32e1a91c2d6c910ca320a6322ed40c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"caa68030a349d02fa1797a30b5aabeac",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553695,
+            "region_id":85688603,
+            "venue_id":839973523
+        }
+    ],
     "wof:id":839973523,
-    "wof:lastmodified":1466416457,
+    "wof:lastmodified":1492112857,
     "wof:name":"Wal-Mart",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553695,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

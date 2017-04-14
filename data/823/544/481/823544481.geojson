@@ -2,9 +2,14 @@
   "id": 823544481,
   "type": "Feature",
   "properties": {
+    "addr:full":"7523 Estate Cir Longmont CO 80503",
+    "addr:housenumber":"7523",
+    "addr:postcode":"80503",
+    "addr:street":"Estate Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.173791,40.095424,-105.173791,40.095424",
     "geom:latitude":40.095424,
     "geom:longitude":-105.173791,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6MCm69ttncVV39aWStfSm9_40.095424_-105.173791@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440572,
-    "wof:geomhash":"d3e160dfc27790b42a728aee8c1ab735",
-    "wof:hierarchy":[],
+    "wof:geomhash":"61d0e05c69783fe1a47852da1f821491",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554063,
+            "region_id":85688603,
+            "venue_id":823544481
+        }
+    ],
     "wof:id":823544481,
-    "wof:lastmodified":1466415670,
+    "wof:lastmodified":1492121279,
     "wof:name":"Pet Are US Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

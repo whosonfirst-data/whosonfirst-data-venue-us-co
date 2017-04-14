@@ -2,9 +2,14 @@
   "id": 823471267,
   "type": "Feature",
   "properties": {
+    "addr:full":"3618 Ridge Dr Grand Junction CO 81506",
+    "addr:housenumber":"3618",
+    "addr:postcode":"81506",
+    "addr:street":"Ridge Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.538726,39.099939,-108.538726,39.099939",
     "geom:latitude":39.099939,
     "geom:longitude":-108.538726,
@@ -27,19 +32,36 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554859
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1KUL57RMTge8BwJaBMo6dl_39.099939_-108.538726@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438860,
-    "wof:geomhash":"c76bffc3912cd294b8ca6d179416f5b3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae7fe2428214973f2d4d02f3bb584243",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554859,
+            "region_id":85688603,
+            "venue_id":823471267
+        }
+    ],
     "wof:id":823471267,
-    "wof:lastmodified":1466412470,
+    "wof:lastmodified":1492117647,
     "wof:name":"Cook & Fisk Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554859,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

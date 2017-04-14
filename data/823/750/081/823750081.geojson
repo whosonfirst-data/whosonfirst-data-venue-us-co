@@ -2,9 +2,14 @@
   "id": 823750081,
   "type": "Feature",
   "properties": {
+    "addr:full":"5375 E 129th Ave Denver CO 80241",
+    "addr:housenumber":"5375",
+    "addr:postcode":"80241",
+    "addr:street":"E 129Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927418,39.930614,-104.927418,39.930614",
     "geom:latitude":39.930614,
     "geom:longitude":-104.927418,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553903
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_39U9xlBZyjuSsGla46sWLx_39.930614_-104.927418@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445387,
-    "wof:geomhash":"8046179f16624a01778c88173107ecf9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c8d1747ae3f36d61641a483f3c65134b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553903,
+            "region_id":85688603,
+            "venue_id":823750081
+        }
+    ],
     "wof:id":823750081,
-    "wof:lastmodified":1466418893,
+    "wof:lastmodified":1492117710,
     "wof:name":"Berrys Pet Etiquette Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553903,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

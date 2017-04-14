@@ -2,9 +2,14 @@
   "id": 823721873,
   "type": "Feature",
   "properties": {
+    "addr:full":"6945 Broadway St Denver CO 80221",
+    "addr:housenumber":"6945",
+    "addr:postcode":"80221",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.987524,39.822765,-104.987524,39.822765",
     "geom:latitude":39.822765,
     "geom:longitude":-104.987524,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553727
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3nehPaQYWCa9jKF8Vg3pS8_39.822765_-104.987524@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444685,
-    "wof:geomhash":"4d618623bc52048b141cb499ceea2a51",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cec9842f8bb3b434e0eb33f04d0b349a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553727,
+            "region_id":85688603,
+            "venue_id":823721873
+        }
+    ],
     "wof:id":823721873,
-    "wof:lastmodified":1466418807,
+    "wof:lastmodified":1492121568,
     "wof:name":"Electric Contractors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553727,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

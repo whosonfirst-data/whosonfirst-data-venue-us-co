@@ -2,9 +2,14 @@
   "id": 823632833,
   "type": "Feature",
   "properties": {
+    "addr:full":"10312 Woburn Keep Denver CO 80229",
+    "addr:housenumber":"",
+    "addr:postcode":"10312;80229",
+    "addr:street":"",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.962196,39.883494,-104.962196,39.883494",
     "geom:latitude":39.883494,
     "geom:longitude":-104.962196,
@@ -29,19 +34,36 @@
         "floor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5mK9FV7hgDLBwBxX5gmKvy_39.883494_-104.962196@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442690,
-    "wof:geomhash":"f558b31a5bb3d00e9081830cfe9efbb8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9bc243e3184331657829b3a37fa19808",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823632833
+        }
+    ],
     "wof:id":823632833,
-    "wof:lastmodified":1466417620,
+    "wof:lastmodified":1492122922,
     "wof:name":"Lees Hardwood Floors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823624717,
   "type": "Feature",
   "properties": {
+    "addr:full":"3293 Oakland St Aurora CO 80010",
+    "addr:housenumber":"3293",
+    "addr:postcode":"80010",
+    "addr:street":"Oakland St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.851302,39.759886,-104.851302,39.759886",
     "geom:latitude":39.759886,
     "geom:longitude":-104.851302,
@@ -27,19 +32,36 @@
         "elevator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5tA5m3ED3VoJ39aeKzUwQI_39.759886_-104.851302@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442505,
-    "wof:geomhash":"e926f93f5a1febf8a0d9aca4560c0a7d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"50b15b835552a04fb311ecf85936424c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553301,
+            "region_id":85688603,
+            "venue_id":823624717
+        }
+    ],
     "wof:id":823624717,
-    "wof:lastmodified":1466417368,
+    "wof:lastmodified":1492119261,
     "wof:name":"E J Wood Works Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

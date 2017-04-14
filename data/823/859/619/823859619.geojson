@@ -2,9 +2,14 @@
   "id": 823859619,
   "type": "Feature",
   "properties": {
+    "addr:full":"13457 Quivas St Denver CO 80234",
+    "addr:housenumber":"13457",
+    "addr:postcode":"80234",
+    "addr:street":"Quivas St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.008207,39.938409,-105.008207,39.938409",
     "geom:latitude":39.938409,
     "geom:longitude":-105.008207,
@@ -30,19 +35,36 @@
         "air"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_40Yo4s63KMNjh7i6IVI92h_39.938409_-105.008207@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448486,
-    "wof:geomhash":"095a39dc5eab008585000f2e380bd320",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c676ac4862348de3b0846801a490fd5d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":823859619
+        }
+    ],
     "wof:id":823859619,
-    "wof:lastmodified":1466419872,
+    "wof:lastmodified":1492127357,
     "wof:name":"Fedex",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

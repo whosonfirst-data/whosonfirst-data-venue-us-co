@@ -2,9 +2,14 @@
   "id": 823852151,
   "type": "Feature",
   "properties": {
+    "addr:full":"2323 S Havana St Aurora CO 80014",
+    "addr:housenumber":"2323",
+    "addr:postcode":"80014",
+    "addr:street":"S Havana St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.866122,39.671136,-104.866122,39.671136",
     "geom:latitude":39.671136,
     "geom:longitude":-104.866122,
@@ -27,17 +32,32 @@
         "diner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4fKe2KawPAZQ2c9J8SYtGb_39.671136_-104.866122@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448278,
-    "wof:geomhash":"51202d4fa2b07e3db7c08d3f275c28d0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a42ed2316cc38d1cd1a273aad49910d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823852151
+        }
+    ],
     "wof:id":823852151,
-    "wof:lastmodified":1466419876,
+    "wof:lastmodified":1492126668,
     "wof:name":"Johnny's Diner",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

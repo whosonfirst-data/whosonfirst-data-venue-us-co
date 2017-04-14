@@ -2,9 +2,14 @@
   "id": 823717555,
   "type": "Feature",
   "properties": {
+    "addr:full":"1005 S Jamaica St Aurora CO 80012",
+    "addr:housenumber":"1005",
+    "addr:postcode":"80012",
+    "addr:street":"S Jamaica St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.862512,39.696642,-104.862512,39.696642",
     "geom:latitude":39.696642,
     "geom:longitude":-104.862512,
@@ -28,17 +33,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3e5kCk11wMSDe8tXf93HtW_39.696642_-104.862512@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444598,
-    "wof:geomhash":"67d8aa3b415abdfcb3f00190f0700e45",
-    "wof:hierarchy":[],
+    "wof:geomhash":"551a639485871b6d1c2618e0e4ac0556",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823717555
+        }
+    ],
     "wof:id":823717555,
-    "wof:lastmodified":1466418670,
+    "wof:lastmodified":1492117965,
     "wof:name":"Stanford Court Apartments",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823568869,
   "type": "Feature",
   "properties": {
+    "addr:full":"11428 Fowler Dr Northglenn CO 80233",
+    "addr:housenumber":"11428",
+    "addr:postcode":"80233",
+    "addr:street":"Fowler Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.968232,39.903649,-104.968232,39.903649",
     "geom:latitude":39.903649,
     "geom:longitude":-104.968232,
@@ -27,19 +32,36 @@
         "bureau"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4rOtLDVCcz6rCO96BShVij_39.903649_-104.968232@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441162,
-    "wof:geomhash":"57c8bb6df9915f69ed553eb05836dee3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"18a7b8c8ba7e6b61678ef42a923702c9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823568869
+        }
+    ],
     "wof:id":823568869,
-    "wof:lastmodified":1466416375,
+    "wof:lastmodified":1492124961,
     "wof:name":"Starfire Entertainment",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

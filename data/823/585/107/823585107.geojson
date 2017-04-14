@@ -2,9 +2,14 @@
   "id": 823585107,
   "type": "Feature",
   "properties": {
+    "addr:full":"2960 Shadow Creek Dr Boulder CO 80303",
+    "addr:housenumber":"2960",
+    "addr:postcode":"80303",
+    "addr:street":"Shadow Creek Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.254126,40.010256,-105.254126,40.010256",
     "geom:latitude":40.010256,
     "geom:longitude":-105.254126,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DjUFkLoBqXYvLVucUckc4_40.010256_-105.254126@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441538,
-    "wof:geomhash":"54c65d65d4aa0eb709824f18b6dd124d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"65cffc5f49271f2b5967e8c6af328cc1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":823585107
+        }
+    ],
     "wof:id":823585107,
-    "wof:lastmodified":1466416758,
+    "wof:lastmodified":1492127383,
     "wof:name":"Grca-Le",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

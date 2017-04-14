@@ -2,9 +2,14 @@
   "id": 839966187,
   "type": "Feature",
   "properties": {
+    "addr:full":"1550 W 88th Ave Denver CO 80260",
+    "addr:housenumber":"1550",
+    "addr:postcode":"80260",
+    "addr:street":"W 88Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005868,39.856099,-105.005868,39.856099",
     "geom:latitude":39.856099,
     "geom:longitude":-105.005868,
@@ -24,19 +29,36 @@
     "sg:postcode":"80260",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553825
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6n66CuMyuh7uOvT98ZCGZX_39.856099_-105.005868@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459863,
-    "wof:geomhash":"0c2cc18a7041711f0c494d6b3063ff5b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"768cd7dc4c3689339d46fe940042f968",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553825,
+            "region_id":85688603,
+            "venue_id":839966187
+        }
+    ],
     "wof:id":839966187,
-    "wof:lastmodified":1466415851,
+    "wof:lastmodified":1492111323,
     "wof:name":"Del Prado Bakery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553825,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

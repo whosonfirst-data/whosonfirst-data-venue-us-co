@@ -2,9 +2,14 @@
   "id": 823520163,
   "type": "Feature",
   "properties": {
+    "addr:full":"844 Ken Pratt Blvd Longmont CO 80501",
+    "addr:housenumber":"844",
+    "addr:postcode":"80501",
+    "addr:street":"Ken Pratt Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.111963,40.152318,-105.111963,40.152318",
     "geom:latitude":40.152318,
     "geom:longitude":-105.111963,
@@ -27,19 +32,36 @@
         "station"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251,
+        85896065
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2OCjr2LctYB9Xj9xI2DrGV_40.152318_-105.111963@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440031,
-    "wof:geomhash":"395a382c7eadac0fab6cc596761e3380",
-    "wof:hierarchy":[],
+    "wof:geomhash":"613b5d0b04f5e155d2b14fbefa0cbb17",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "neighbourhood_id":85896065,
+            "region_id":85688603,
+            "venue_id":823520163
+        }
+    ],
     "wof:id":823520163,
-    "wof:lastmodified":1466414882,
+    "wof:lastmodified":1492127474,
     "wof:name":"Ken Pratt Amoco",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896065,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

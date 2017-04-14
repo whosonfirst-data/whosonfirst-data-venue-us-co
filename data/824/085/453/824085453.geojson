@@ -2,9 +2,14 @@
   "id": 824085453,
   "type": "Feature",
   "properties": {
+    "addr:full":"10340 E Jewell Ave Denver CO 80247",
+    "addr:housenumber":"10340",
+    "addr:postcode":"80247",
+    "addr:street":"E Jewell Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.868545,39.681952,-104.868545,39.681952",
     "geom:latitude":39.681952,
     "geom:longitude":-104.868545,
@@ -28,17 +33,32 @@
         "airport"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5BPDI1cDxYY01LeiRRWv86_39.681952_-104.868545@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453984,
-    "wof:geomhash":"bbcccffd24245f941f06fadf22e03452",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d4a3cf3e2372ca8bae737f7fe56c26b6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":824085453
+        }
+    ],
     "wof:id":824085453,
-    "wof:lastmodified":1466414905,
+    "wof:lastmodified":1492128928,
     "wof:name":"ABC Airport Shuttle",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

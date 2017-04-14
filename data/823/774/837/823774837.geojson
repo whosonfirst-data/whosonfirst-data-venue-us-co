@@ -2,9 +2,14 @@
   "id": 823774837,
   "type": "Feature",
   "properties": {
+    "addr:full":"4575 Frankfort Way Denver CO 80239",
+    "addr:housenumber":"4575",
+    "addr:postcode":"80239",
+    "addr:street":"Frankfort Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.812745,39.775596,-104.812745,39.775596",
     "geom:latitude":39.775596,
     "geom:longitude":-104.812745,
@@ -27,7 +32,15 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4LdhoP26NESoQwBXGeIbIa_39.775596_-104.812745@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463445953,
     "wof:geomhash":"dd6f780c135d5d8e210caeddf38daf69",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823774837
+        }
+    ],
     "wof:id":823774837,
-    "wof:lastmodified":1466419160,
+    "wof:lastmodified":1491887450,
     "wof:name":"Reconciliation Ambassadors",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824165165,
   "type": "Feature",
   "properties": {
+    "addr:full":"903 Spruce Dr Durango CO 81301",
+    "addr:housenumber":"903",
+    "addr:postcode":"co 81301",
+    "addr:street":"Spruce Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.859626,37.293809,-107.859626,37.293809",
     "geom:latitude":37.293809,
     "geom:longitude":-107.859626,
@@ -29,19 +34,28 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6s1TRIF4PyOQMEBTRp0bsW_37.293809_-107.859626@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456497,
-    "wof:geomhash":"708437249b0f1b17d7f4d77f12483cb6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"64c1fb2e92095a0552889c7638c543ab",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":824165165
+        }
+    ],
     "wof:id":824165165,
-    "wof:lastmodified":1466417609,
+    "wof:lastmodified":1492129884,
     "wof:name":"Superior Alarm Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

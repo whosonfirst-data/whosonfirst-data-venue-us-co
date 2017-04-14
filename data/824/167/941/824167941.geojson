@@ -2,9 +2,14 @@
   "id": 824167941,
   "type": "Feature",
   "properties": {
+    "addr:full":"2801 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"2801",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.958275,39.914017,-104.958275,39.914017",
     "geom:latitude":39.914017,
     "geom:longitude":-104.958275,
@@ -28,19 +33,36 @@
         "tour"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6jGYjmADuMFpZGuPq2PXK3_39.914017_-104.958275@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456602,
-    "wof:geomhash":"21d07aa136543af746ec3b717a979191",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5ee668b2cdf072e8b9c5339ee2cdfc43",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":824167941
+        }
+    ],
     "wof:id":824167941,
-    "wof:lastmodified":1466417842,
+    "wof:lastmodified":1492128228,
     "wof:name":"Cornerstone Rt Tours",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

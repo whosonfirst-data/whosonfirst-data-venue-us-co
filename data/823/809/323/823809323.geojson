@@ -2,9 +2,14 @@
   "id": 823809323,
   "type": "Feature",
   "properties": {
+    "addr:full":"118 W Main St Rangely CO 81648",
+    "addr:housenumber":"118",
+    "addr:postcode":"81648",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.804396,40.087595,-108.804396,40.087595",
     "geom:latitude":40.087595,
     "geom:longitude":-108.804396,
@@ -27,17 +32,32 @@
         "accountant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929231,
+        102084117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0HFAydoEjGJuOhvd7VluJq_40.087595_-108.804396@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446979,
-    "wof:geomhash":"90bfc769ee6ed9997d5811d597e19653",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f8fb791bd39a5e8cf695869ba345f5a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084117,
+            "locality_id":85929231,
+            "region_id":85688603,
+            "venue_id":823809323
+        }
+    ],
     "wof:id":823809323,
-    "wof:lastmodified":1466419438,
+    "wof:lastmodified":1492122914,
     "wof:name":"Colorado CPA Svc PC",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

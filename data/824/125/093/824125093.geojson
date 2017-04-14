@@ -2,9 +2,14 @@
   "id": 824125093,
   "type": "Feature",
   "properties": {
+    "addr:full":"2505 S Ivanhoe Pl Denver CO 80222",
+    "addr:housenumber":"2505",
+    "addr:postcode":"80222",
+    "addr:street":"S Ivanhoe Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.924579,39.670962,-104.924579,39.670962",
     "geom:latitude":39.670962,
     "geom:longitude":-104.924579,
@@ -27,19 +32,36 @@
         "messenger"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930653,
+        102086877,
+        420559699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3pk2GLe6L6pp4nxBZc4Bec_39.670962_-104.924579@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454938,
-    "wof:geomhash":"026852ccedbae47147760d8759a1855e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"32395e42ad7e3b48e8a39b2e0b6a2cea",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930653,
+            "neighbourhood_id":420559699,
+            "region_id":85688603,
+            "venue_id":824125093
+        }
+    ],
     "wof:id":824125093,
-    "wof:lastmodified":1466415857,
+    "wof:lastmodified":1492132718,
     "wof:name":"Mail Matters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

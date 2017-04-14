@@ -2,9 +2,14 @@
   "id": 823493299,
   "type": "Feature",
   "properties": {
+    "addr:full":"1701 Chambers Rd Aurora CO 80011",
+    "addr:housenumber":"1701",
+    "addr:postcode":"80011",
+    "addr:street":"Chambers Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810127,39.745052,-104.810127,39.745052",
     "geom:latitude":39.745052,
     "geom:longitude":-104.810127,
@@ -33,7 +38,9 @@
         85633793,
         85929235,
         102086877,
-        85802959
+        85802959,
+        420559493,
+        85888271
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,7 +48,7 @@
     },
     "wof:country":"US",
     "wof:created":1463439382,
-    "wof:geomhash":"ea1ec1ecf0ddcec0d50dd28e8d07d48b",
+    "wof:geomhash":"30c1538182ba9ee057f8a47664adf1b3",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -51,12 +58,30 @@
             "neighbourhood_id":85802959,
             "region_id":85688603,
             "venue_id":823493299
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420559493,
+            "region_id":85688603,
+            "venue_id":823493299
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":85888271,
+            "region_id":85688603,
+            "venue_id":823493299
         }
     ],
     "wof:id":823493299,
-    "wof:lastmodified":1466413914,
+    "wof:lastmodified":1492116538,
     "wof:name":"KWAL Paints",
-    "wof:parent_id":85802959,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

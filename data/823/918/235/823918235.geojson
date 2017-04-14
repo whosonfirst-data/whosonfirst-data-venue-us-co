@@ -2,9 +2,14 @@
   "id": 823918235,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 S Main St Fowler CO 81039",
+    "addr:housenumber":"123",
+    "addr:postcode":"81039",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.023421,38.131533,-104.023421,38.131533",
     "geom:latitude":38.131533,
     "geom:longitude":-104.023421,
@@ -28,17 +33,32 @@
         "us"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929685,
+        102084015
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1sk9xOWl0kWfW8u0AHUZW1_38.131533_-104.023421@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449961,
-    "wof:geomhash":"9869f8167cfbed0b77859416cbb5f14f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d872e8a38dc1e37eba31ba693942ef6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084015,
+            "locality_id":85929685,
+            "region_id":85688603,
+            "venue_id":823918235
+        }
+    ],
     "wof:id":823918235,
-    "wof:lastmodified":1466420326,
+    "wof:lastmodified":1492121270,
     "wof:name":"Fowler Post Office",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823697891,
   "type": "Feature",
   "properties": {
+    "addr:full":"3708 Wonderland Hill Ave Boulder CO 80304",
+    "addr:housenumber":"3708",
+    "addr:postcode":"80304",
+    "addr:street":"Wonderland Hill Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.290788,40.041294,-105.290788,40.041294",
     "geom:latitude":40.041294,
     "geom:longitude":-105.290788,
@@ -24,7 +29,15 @@
     "sg:postcode":"80304",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876397,
+        85876411
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5dlUFrDp9oahpLl74ACUky_40.041294_-105.290788@1294083659"
@@ -32,11 +45,30 @@
     "wof:country":"US",
     "wof:created":1463444197,
     "wof:geomhash":"b7c2ab5e06d1738243e730ebd876af33",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876397,
+            "region_id":85688603,
+            "venue_id":823697891
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876411,
+            "region_id":85688603,
+            "venue_id":823697891
+        }
+    ],
     "wof:id":823697891,
-    "wof:lastmodified":1466418767,
+    "wof:lastmodified":1491917815,
     "wof:name":"Gotek",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

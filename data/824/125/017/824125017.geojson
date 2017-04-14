@@ -2,9 +2,14 @@
   "id": 824125017,
   "type": "Feature",
   "properties": {
+    "addr:full":"4180 Center Park Dr Colorado Springs CO 80916",
+    "addr:housenumber":"4180",
+    "addr:postcode":"80916",
+    "addr:street":"Center Park Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.751623,38.811678,-104.751623,38.811678",
     "geom:latitude":38.811678,
     "geom:longitude":-104.751623,
@@ -29,19 +34,46 @@
         "technology"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        85872749,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_22O5oaQlZaCq0EiLiFtefT_38.811678_-104.751623@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454935,
-    "wof:geomhash":"929a70aafb19b317478c978f56dd143b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"efe38ee41593f98bad0bfb3301345d72",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":85872749,
+            "region_id":85688603,
+            "venue_id":824125017
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":824125017
+        }
+    ],
     "wof:id":824125017,
-    "wof:lastmodified":1466415788,
+    "wof:lastmodified":1492132689,
     "wof:name":"Nanopierce Connection Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

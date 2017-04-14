@@ -2,9 +2,14 @@
   "id": 839927707,
   "type": "Feature",
   "properties": {
+    "addr:full":"12926 E Park Lane Dr Aurora CO 80011",
+    "addr:housenumber":"12926",
+    "addr:postcode":"80011",
+    "addr:street":"E Park Lane Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.840967,39.757984,-104.840967,39.757984",
     "geom:latitude":39.757984,
     "geom:longitude":-104.840967,
@@ -28,19 +33,36 @@
         "bridal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6jTZsfqIQ3poLho1joe2ig_39.757984_-104.840967@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457853,
-    "wof:geomhash":"96cb1a5ad67b995b852dd9c11e636120",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f7588831edf84e0cc4fa050ba136466c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553301,
+            "region_id":85688603,
+            "venue_id":839927707
+        }
+    ],
     "wof:id":839927707,
-    "wof:lastmodified":1466413927,
+    "wof:lastmodified":1492110371,
     "wof:name":"House Of EM",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

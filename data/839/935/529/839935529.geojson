@@ -2,9 +2,14 @@
   "id": 839935529,
   "type": "Feature",
   "properties": {
+    "addr:full":"137 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"137;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.848408,37.299746,-107.848408,37.299746",
     "geom:latitude":37.299746,
     "geom:longitude":-107.848408,
@@ -29,19 +34,28 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_03Edf5Bi65wYhoR3X2q7R0_37.299746_-107.848408@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458257,
-    "wof:geomhash":"80e5790b5c02a1b87dccd61393583dad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"64359b6f078bdb48c548a62ec72e1022",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":839935529
+        }
+    ],
     "wof:id":839935529,
-    "wof:lastmodified":1466414374,
+    "wof:lastmodified":1492113184,
     "wof:name":"Durango Counseling Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824126945,
   "type": "Feature",
   "properties": {
+    "addr:full":"2180 W 10th Ave Broomfield CO 80020",
+    "addr:housenumber":"2180",
+    "addr:postcode":"80020",
+    "addr:street":"W 10Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.094048,39.929271,-105.094048,39.929271",
     "geom:latitude":39.929271,
     "geom:longitude":-105.094048,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554249
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1FD4z8SGjYcptEPLieChYK_39.929271_-105.094048@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455008,
-    "wof:geomhash":"66934900ea656c8ae639d52b5aed7136",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c6282bd965931c24301767e77a9cc300",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554249,
+            "region_id":85688603,
+            "venue_id":824126945
+        }
+    ],
     "wof:id":824126945,
-    "wof:lastmodified":1466415856,
+    "wof:lastmodified":1492131861,
     "wof:name":"Jsr Mechanical Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

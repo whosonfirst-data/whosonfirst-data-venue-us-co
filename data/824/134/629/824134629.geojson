@@ -2,9 +2,14 @@
   "id": 824134629,
   "type": "Feature",
   "properties": {
+    "addr:full":"1327 Caribou Rd Nederland CO 80466",
+    "addr:housenumber":"1327",
+    "addr:postcode":"80466",
+    "addr:street":"Caribou Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.527745,39.964472,-105.527745,39.964472",
     "geom:latitude":39.964472,
     "geom:longitude":-105.527745,
@@ -28,19 +33,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85930685,
+        102085251,
+        85817739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5TYVrX8nofMUDqOlQzOOeI_39.964472_-105.527745@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455319,
-    "wof:geomhash":"2342fb8c027b9feac348422c998aed33",
-    "wof:hierarchy":[],
+    "wof:geomhash":"72f212b42dac9968c1304329f562a398",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930685,
+            "neighbourhood_id":85817739,
+            "region_id":85688603,
+            "venue_id":824134629
+        }
+    ],
     "wof:id":824134629,
-    "wof:lastmodified":1466416393,
+    "wof:lastmodified":1492129023,
     "wof:name":"Caribou Plumbing & Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":85817739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

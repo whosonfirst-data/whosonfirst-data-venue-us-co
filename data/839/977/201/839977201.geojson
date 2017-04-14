@@ -2,9 +2,14 @@
   "id": 839977201,
   "type": "Feature",
   "properties": {
+    "addr:full":"10211 W 102nd Ave Broomfield CO 80021",
+    "addr:housenumber":"10211",
+    "addr:postcode":"80021",
+    "addr:street":"W 102Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.11705,39.881022,-105.11705,39.881022",
     "geom:latitude":39.881022,
     "geom:longitude":-105.11705,
@@ -27,19 +32,36 @@
         "taping"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0pbf2o6gYqTWafNZ7jP3Jj_39.881022_-105.117050@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460312,
-    "wof:geomhash":"fa6d946bf292c66f42a67f1a0563b24c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f8b5ffb55ddd99f24ca0e127116b29c1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":839977201
+        }
+    ],
     "wof:id":839977201,
-    "wof:lastmodified":1466416713,
+    "wof:lastmodified":1492113797,
     "wof:name":"Rough Cut Production Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

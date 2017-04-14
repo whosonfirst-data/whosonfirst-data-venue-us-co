@@ -2,9 +2,14 @@
   "id": 823557579,
   "type": "Feature",
   "properties": {
+    "addr:full":"13539 Co Rd 10 Fort Lupton CO 80621",
+    "addr:housenumber":"13539;10",
+    "addr:postcode":"80621",
+    "addr:street":"Co Rd;Fort Lupton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.797634,40.058524,-104.797634,40.058524",
     "geom:latitude":40.058524,
     "geom:longitude":-104.797634,
@@ -29,19 +34,28 @@
         "cattle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3osXDFRy7SqaC1l0DZlSv2_40.058524_-104.797634@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440880,
-    "wof:geomhash":"7204395217adaaec017403f728286734",
-    "wof:hierarchy":[],
+    "wof:geomhash":"715d5d353d6ce880698308d78e3eb4ca",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823557579
+        }
+    ],
     "wof:id":823557579,
-    "wof:lastmodified":1466416131,
+    "wof:lastmodified":1492124780,
     "wof:name":"Forrest Schmidt",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

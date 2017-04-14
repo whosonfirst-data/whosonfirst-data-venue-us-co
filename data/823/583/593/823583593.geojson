@@ -2,9 +2,14 @@
   "id": 823583593,
   "type": "Feature",
   "properties": {
+    "addr:full":"3897 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"3897;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.855932,37.354437,-107.855932,37.354437",
     "geom:latitude":37.354437,
     "geom:longitude":-107.855932,
@@ -27,19 +32,28 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4bkWDDBZYSlLeqZnD89YIn_37.354437_-107.855932@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441501,
-    "wof:geomhash":"edac664edc34b2cca275b324360d0663",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aa084982fb5ea84c69d2da149ba464b2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823583593
+        }
+    ],
     "wof:id":823583593,
-    "wof:lastmodified":1466416684,
+    "wof:lastmodified":1492116962,
     "wof:name":"Danah Barlow Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823563501,
   "type": "Feature",
   "properties": {
+    "addr:full":"2859 28th St Boulder CO 80301",
+    "addr:housenumber":"2859",
+    "addr:postcode":"80301",
+    "addr:street":"28Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258459,40.025851,-105.258459,40.025851",
     "geom:latitude":40.025851,
     "geom:longitude":-105.258459,
@@ -27,19 +32,36 @@
         "cleaners"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Bxm698z6pRwOgHWyixoWf_40.025851_-105.258459@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441027,
-    "wof:geomhash":"dc60f5ee5834c64762cf4ca6620ae341",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a49b4a050fce013ac02cd9c0648c30c9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":823563501
+        }
+    ],
     "wof:id":823563501,
-    "wof:lastmodified":1466416252,
+    "wof:lastmodified":1492125043,
     "wof:name":"Enviro Cleaners",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823557467,
   "type": "Feature",
   "properties": {
+    "addr:full":"501 S Boulevard St Gunnison CO 81230",
+    "addr:housenumber":"501",
+    "addr:postcode":"81230",
+    "addr:street":"S Boulevard St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.933475,38.540003,-106.933475,38.540003",
     "geom:latitude":38.540003,
     "geom:longitude":-106.933475,
@@ -27,19 +32,36 @@
         "ice"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554465
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0I9WLX1jFeCydwIFkMYv9b_38.540003_-106.933475@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440877,
-    "wof:geomhash":"d6d9834927b65c2ea64a9a00b536f019",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2925d3333a960ff7324817300eb685be",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554465,
+            "region_id":85688603,
+            "venue_id":823557467
+        }
+    ],
     "wof:id":823557467,
-    "wof:lastmodified":1466416062,
+    "wof:lastmodified":1492124769,
     "wof:name":"Gunnison Ice",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554465,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

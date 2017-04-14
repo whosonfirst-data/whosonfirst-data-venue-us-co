@@ -2,9 +2,14 @@
   "id": 823995151,
   "type": "Feature",
   "properties": {
+    "addr:full":"10661 E 152nd Ave Brighton CO 80602",
+    "addr:housenumber":"10661",
+    "addr:postcode":"80602",
+    "addr:street":"E 152Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.863877,39.972278,-104.863877,39.972278",
     "geom:latitude":39.972278,
     "geom:longitude":-104.863877,
@@ -27,19 +32,36 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0pq3RfO1lC5ZnNsE1Tk83H_39.972278_-104.863877@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451866,
-    "wof:geomhash":"731c4a1bd44b109399a20be92f40147a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a71cbbdfceec3f83d2f303123f807260",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553381,
+            "region_id":85688603,
+            "venue_id":823995151
+        }
+    ],
     "wof:id":823995151,
-    "wof:lastmodified":1466420997,
+    "wof:lastmodified":1492117191,
     "wof:name":"Aspen Dental Arts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

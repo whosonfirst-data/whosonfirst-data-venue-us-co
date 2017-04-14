@@ -2,9 +2,14 @@
   "id": 823664611,
   "type": "Feature",
   "properties": {
+    "addr:full":"1030 Centre Ave Fort Collins CO 80526",
+    "addr:housenumber":"1030",
+    "addr:postcode":"80526",
+    "addr:street":"Centre Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.094847,40.555414,-105.094847,40.555414",
     "geom:latitude":40.555414,
     "geom:longitude":-105.094847,
@@ -27,19 +32,36 @@
         "security"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1QJRSWFW8ssUYJ8oDO5x4m_40.555414_-105.094847@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443448,
-    "wof:geomhash":"350b094ce06781f23824f564f47e04e5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f1d5ab7ead17ed2a970b32125ffac1cb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823664611
+        }
+    ],
     "wof:id":823664611,
-    "wof:lastmodified":1466418256,
+    "wof:lastmodified":1492127644,
     "wof:name":"Legacy Financial Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

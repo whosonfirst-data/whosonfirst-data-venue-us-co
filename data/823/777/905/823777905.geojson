@@ -2,9 +2,14 @@
   "id": 823777905,
   "type": "Feature",
   "properties": {
+    "addr:full":"754 Horizon Dr Grand Junction CO 81506",
+    "addr:housenumber":"754",
+    "addr:postcode":"81506",
+    "addr:street":"Horizon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.534923,39.114475,-108.534923,39.114475",
     "geom:latitude":39.114475,
     "geom:longitude":-108.534923,
@@ -29,19 +34,36 @@
         "operates"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554859
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5UXBhjcW8W1lomMPOCAM6z_39.114475_-108.534923@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446034,
-    "wof:geomhash":"20c0080867be51dc3a1e22e6d5520615",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a3897894df68fa7437e2d03f8a1a4a9a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554859,
+            "region_id":85688603,
+            "venue_id":823777905
+        }
+    ],
     "wof:id":823777905,
-    "wof:lastmodified":1466419163,
+    "wof:lastmodified":1492122210,
     "wof:name":"Best Western Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554859,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

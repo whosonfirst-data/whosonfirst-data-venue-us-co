@@ -2,9 +2,14 @@
   "id": 824022289,
   "type": "Feature",
   "properties": {
+    "addr:full":"5890 Washington St Denver CO 80216",
+    "addr:housenumber":"5890",
+    "addr:postcode":"80216",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978019,39.804796,-104.978019,39.804796",
     "geom:latitude":39.804796,
     "geom:longitude":-104.978019,
@@ -24,19 +29,36 @@
     "sg:postcode":"80216",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4srIzzBIrU5akXMUMEfnrx_39.804796_-104.978019@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452479,
-    "wof:geomhash":"a46520f31dc4d47706c0fa8e823bbc44",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a0ead8be5658a8a7cc564727c196c00c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":824022289
+        }
+    ],
     "wof:id":824022289,
-    "wof:lastmodified":1466413655,
+    "wof:lastmodified":1492131777,
     "wof:name":"Lone Wolf Imaging",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823759977,
   "type": "Feature",
   "properties": {
+    "addr:full":"2501 Billings St Aurora CO 80011",
+    "addr:housenumber":"2501",
+    "addr:postcode":"80011",
+    "addr:street":"Billings St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.822743,39.754647,-104.822743,39.754647",
     "geom:latitude":39.754647,
     "geom:longitude":-104.822743,
@@ -28,19 +33,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        85888277,
+        420553277
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0yMPs1urCJEnNrt18ah8Nj_39.754647_-104.822743@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445617,
-    "wof:geomhash":"48c3bdc358dddcf94a7396f237cf5d88",
-    "wof:hierarchy":[],
+    "wof:geomhash":"650b519819065273e00399e9c2b095b4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":85888277,
+            "region_id":85688603,
+            "venue_id":823759977
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553277,
+            "region_id":85688603,
+            "venue_id":823759977
+        }
+    ],
     "wof:id":823759977,
-    "wof:lastmodified":1466419179,
+    "wof:lastmodified":1492119717,
     "wof:name":"Straight Up Wallcoverings",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839973827,
   "type": "Feature",
   "properties": {
+    "addr:full":"519 Rio Grande Ave Gunnison CO 81230",
+    "addr:housenumber":"519",
+    "addr:postcode":"81230",
+    "addr:street":"Rio Grande Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.933285,38.537987,-106.933285,38.537987",
     "geom:latitude":38.537987,
     "geom:longitude":-106.933285,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554465
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_106f5p1rwvFn7tgoOhql7F_38.537987_-106.933285@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460171,
-    "wof:geomhash":"ef5334f8de61fd48b1a3ac7fd05b98d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8dc96253bec6f4217ba15437061740ce",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554465,
+            "region_id":85688603,
+            "venue_id":839973827
+        }
+    ],
     "wof:id":839973827,
-    "wof:lastmodified":1466416397,
+    "wof:lastmodified":1492112864,
     "wof:name":"Board Of Commissioners",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554465,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

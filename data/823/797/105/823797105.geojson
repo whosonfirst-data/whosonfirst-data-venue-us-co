@@ -2,9 +2,14 @@
   "id": 823797105,
   "type": "Feature",
   "properties": {
+    "addr:full":"1302 Redwood Ave Boulder CO 80304",
+    "addr:housenumber":"1302",
+    "addr:postcode":"80304",
+    "addr:street":"Redwood Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281842,40.048789,-105.281842,40.048789",
     "geom:latitude":40.048789,
     "geom:longitude":-105.281842,
@@ -27,19 +32,36 @@
         "publisher"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554143
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4MXc3gzAtvc84dXIpWLKAY_40.048789_-105.281842@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446634,
-    "wof:geomhash":"5381f47ad616d4ba527c853b47133ac9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"030dae37f3cec3d51fd6b178a3c32db4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554143,
+            "region_id":85688603,
+            "venue_id":823797105
+        }
+    ],
     "wof:id":823797105,
-    "wof:lastmodified":1466419345,
+    "wof:lastmodified":1492122597,
     "wof:name":"Sharp End Publishing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554143,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

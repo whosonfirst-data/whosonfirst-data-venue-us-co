@@ -2,9 +2,14 @@
   "id": 823881379,
   "type": "Feature",
   "properties": {
+    "addr:full":"6890 Lowell Blvd Denver CO 80221",
+    "addr:housenumber":"6890",
+    "addr:postcode":"80221",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034421,39.820326,-105.034421,39.820326",
     "geom:latitude":39.820326,
     "geom:longitude":-105.034421,
@@ -27,19 +32,36 @@
         "special"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_279mCcZHMej3NKanWFFDZo_39.820326_-105.034421@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449002,
-    "wof:geomhash":"ef84712ea422e1bc2495a21618781ac7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"519a38bf8957796a7bd90aed3b0b83e6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553739,
+            "region_id":85688603,
+            "venue_id":823881379
+        }
+    ],
     "wof:id":823881379,
-    "wof:lastmodified":1466420101,
+    "wof:lastmodified":1492122195,
     "wof:name":"Lowell Mini Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

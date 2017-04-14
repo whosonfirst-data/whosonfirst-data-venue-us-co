@@ -2,9 +2,14 @@
   "id": 839930063,
   "type": "Feature",
   "properties": {
+    "addr:full":"32640 Co Rd 20 Steamboat Springs CO 80487",
+    "addr:housenumber":"32640;20",
+    "addr:postcode":"80487",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.816249,40.386976,-106.816249,40.386976",
     "geom:latitude":40.386976,
     "geom:longitude":-106.816249,
@@ -27,19 +32,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555291
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_22wQEqEMTkwQSPZcWZ24By_40.386976_-106.816249@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457975,
-    "wof:geomhash":"af48e64610110359ccb8527d171ae3f2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"49e5e7f4c7f12f37956f0280b284a73e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555291,
+            "venue_id":839930063
+        }
+    ],
     "wof:id":839930063,
-    "wof:lastmodified":1466414006,
+    "wof:lastmodified":1492112256,
     "wof:name":"B B Plumbing & Heating Contrac",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555291,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

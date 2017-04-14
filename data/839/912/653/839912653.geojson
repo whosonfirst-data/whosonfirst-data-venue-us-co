@@ -2,9 +2,14 @@
   "id": 839912653,
   "type": "Feature",
   "properties": {
+    "addr:full":"973 E 130th Dr Denver CO 80241",
+    "addr:housenumber":"973",
+    "addr:postcode":"80241",
+    "addr:street":"E 130Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974684,39.933758,-104.974684,39.933758",
     "geom:latitude":39.933758,
     "geom:longitude":-104.974684,
@@ -35,19 +40,36 @@
         "custom"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5yJdoRUDH7D01ittxexsAD_39.933758_-104.974684@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457210,
-    "wof:geomhash":"58d75031edcc58dabd41618b12c84e08",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0f87e89e0ac8976b0a962ed91b71500f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":839912653
+        }
+    ],
     "wof:id":839912653,
-    "wof:lastmodified":1466412479,
+    "wof:lastmodified":1492110846,
     "wof:name":"KTS Technologies",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

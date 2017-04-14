@@ -2,9 +2,14 @@
   "id": 823903215,
   "type": "Feature",
   "properties": {
+    "addr:full":"4530 Flanders Way Denver CO 80249",
+    "addr:housenumber":"4530",
+    "addr:postcode":"80249",
+    "addr:street":"Flanders Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.758934,39.777911,-104.758934,39.777911",
     "geom:latitude":39.777911,
     "geom:longitude":-104.758934,
@@ -27,7 +32,16 @@
         "security"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4LwYGeDb8ACEIsk5MuS2zE_39.777911_-104.758934@1294083659"
@@ -35,11 +49,23 @@
     "wof:country":"US",
     "wof:created":1463449551,
     "wof:geomhash":"d400f6fcc95892a1c0e9ffd6e4224bae",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":823903215
+        }
+    ],
     "wof:id":823903215,
-    "wof:lastmodified":1466420240,
+    "wof:lastmodified":1486593996,
     "wof:name":"Solias Mortgage",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839988689,
   "type": "Feature",
   "properties": {
+    "addr:full":"8401 Pearl St Denver CO 80229",
+    "addr:housenumber":"8401",
+    "addr:postcode":"80229",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979646,39.84942,-104.979646,39.84942",
     "geom:latitude":39.84942,
     "geom:longitude":-104.979646,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06Ixc3eWa4j5M1a2qkhvBg_39.849420_-104.979646@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460765,
-    "wof:geomhash":"2078b1ea12611a028dced6b1d2e858ab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"177cde77a5d37f3940d54bd8a1d4ade8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":839988689
+        }
+    ],
     "wof:id":839988689,
-    "wof:lastmodified":1466417424,
+    "wof:lastmodified":1492112799,
     "wof:name":"Waffle House",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

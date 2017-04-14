@@ -2,9 +2,14 @@
   "id": 824033893,
   "type": "Feature",
   "properties": {
+    "addr:full":"475 Kiowa Ave Bennett CO 80102",
+    "addr:housenumber":"475",
+    "addr:postcode":"80102",
+    "addr:street":"Kiowa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.428541,39.754943,-104.428541,39.754943",
     "geom:latitude":39.754943,
     "geom:longitude":-104.428541,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929337,
+        102086877,
+        420553325
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0NbDU3cwroHajg33oSmgLk_39.754943_-104.428541@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452756,
-    "wof:geomhash":"39e0dafd88b45792917e2167c694a63a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8dd787c929e23ee90700459363f9e130",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929337,
+            "neighbourhood_id":420553325,
+            "region_id":85688603,
+            "venue_id":824033893
+        }
+    ],
     "wof:id":824033893,
-    "wof:lastmodified":1466413935,
+    "wof:lastmodified":1492133127,
     "wof:name":"Js Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553325,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823962423,
   "type": "Feature",
   "properties": {
+    "addr:full":"14501 Picadilly Rd Brighton CO 80603",
+    "addr:housenumber":"14501",
+    "addr:postcode":"80603",
+    "addr:street":"Picadilly Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.733457,39.959106,-104.733457,39.959106",
     "geom:latitude":39.959106,
     "geom:longitude":-104.733457,
@@ -27,19 +32,36 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553455
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ZAZ3mQpGGGFhZ4WptLCi4_39.959106_-104.733457@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451079,
-    "wof:geomhash":"58184f20f7b85658b69223a37b774078",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f172548b4eb99d5a37b0216d91de1777",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553455,
+            "region_id":85688603,
+            "venue_id":823962423
+        }
+    ],
     "wof:id":823962423,
-    "wof:lastmodified":1466420744,
+    "wof:lastmodified":1492120906,
     "wof:name":"George G Christiansen",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553455,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

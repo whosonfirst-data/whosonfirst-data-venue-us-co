@@ -2,9 +2,14 @@
   "id": 823822017,
   "type": "Feature",
   "properties": {
+    "addr:full":"320 S Colorado Blvd Denver CO 80246",
+    "addr:housenumber":"320",
+    "addr:postcode":"80246",
+    "addr:street":"S Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940611,39.711211,-104.940611,39.711211",
     "geom:latitude":39.711211,
     "geom:longitude":-104.940611,
@@ -27,19 +32,38 @@
         "furnishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85866859,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0wXFi3hszVQYjo9DT5SwEY_39.711211_-104.940611@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447350,
-    "wof:geomhash":"7b53d1bd86eaf7786965101e05045c5b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"abd3579f456a98dc9403a41975bcc1a4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85866859,
+            "region_id":85688603,
+            "venue_id":823822017
+        }
+    ],
     "wof:id":823822017,
-    "wof:lastmodified":1466419504,
+    "wof:lastmodified":1492116357,
     "wof:name":"Casual Male Big & Tall",
-    "wof:parent_id":-1,
+    "wof:parent_id":85866859,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

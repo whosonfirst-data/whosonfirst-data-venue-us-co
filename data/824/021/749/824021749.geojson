@@ -2,9 +2,14 @@
   "id": 824021749,
   "type": "Feature",
   "properties": {
+    "addr:full":"15740 E 32nd Ave Aurora CO 80011",
+    "addr:housenumber":"15740",
+    "addr:postcode":"80011",
+    "addr:street":"E 32Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.804005,39.761849,-104.804005,39.761849",
     "geom:latitude":39.761849,
     "geom:longitude":-104.804005,
@@ -29,19 +34,36 @@
         "utility"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553307
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5iLfGIFCIYdLEXBpy6C4JI_39.761849_-104.804005@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452465,
-    "wof:geomhash":"944c9e9f30b50d54b2265c35d05803f2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"32b07b8254961e8352c3133f7c94a269",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553307,
+            "region_id":85688603,
+            "venue_id":824021749
+        }
+    ],
     "wof:id":824021749,
-    "wof:lastmodified":1466413622,
+    "wof:lastmodified":1492131287,
     "wof:name":"Public Works Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553307,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

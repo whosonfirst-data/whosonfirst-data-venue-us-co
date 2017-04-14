@@ -2,9 +2,14 @@
   "id": 823749155,
   "type": "Feature",
   "properties": {
+    "addr:full":"631 E Montezuma Ave Cortez CO 81321",
+    "addr:housenumber":"631",
+    "addr:postcode":"81321",
+    "addr:street":"E Montezuma Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.576465,37.350924,-108.576465,37.350924",
     "geom:latitude":37.350924,
     "geom:longitude":-108.576465,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420559447
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_465sZfehISoBvoGu6bArKo_37.350924_-108.576465@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445360,
-    "wof:geomhash":"61771341a67ed4d6807b5a759db91434",
-    "wof:hierarchy":[],
+    "wof:geomhash":"16d2b1a1d4f33e8444c66ad91290be3a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420559447,
+            "region_id":85688603,
+            "venue_id":823749155
+        }
+    ],
     "wof:id":823749155,
-    "wof:lastmodified":1466418955,
+    "wof:lastmodified":1492116016,
     "wof:name":"Church Of Christ",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559447,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

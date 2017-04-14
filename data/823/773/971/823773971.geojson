@@ -2,9 +2,14 @@
   "id": 823773971,
   "type": "Feature",
   "properties": {
+    "addr:full":"3525 Winslow Dr Fort Collins CO 80525",
+    "addr:housenumber":"3525",
+    "addr:postcode":"80525",
+    "addr:street":"Winslow Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060013,40.539843,-105.060013,40.539843",
     "geom:latitude":40.539843,
     "geom:longitude":-105.060013,
@@ -28,19 +33,36 @@
         "practitioner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554757
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5k7EaxPcELIqk4xRRHaztP_40.539843_-105.060013@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445928,
-    "wof:geomhash":"28dfe81fc95ccbaf51e822029c88e40f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"072b20fd583b1f890ac4e36e1939a611",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554757,
+            "region_id":85688603,
+            "venue_id":823773971
+        }
+    ],
     "wof:id":823773971,
-    "wof:lastmodified":1466419222,
+    "wof:lastmodified":1492115978,
     "wof:name":"Wholistic Health Options",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554757,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

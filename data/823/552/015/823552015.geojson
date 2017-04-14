@@ -2,9 +2,14 @@
   "id": 823552015,
   "type": "Feature",
   "properties": {
+    "addr:full":"230 Spruce Mesa Dr Durango CO 81301",
+    "addr:housenumber":"230",
+    "addr:postcode":"co 81301",
+    "addr:street":"Spruce Mesa Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.818118,37.563126,-107.818118,37.563126",
     "geom:latitude":37.563126,
     "geom:longitude":-107.818118,
@@ -30,19 +35,28 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554677
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0nIIAfu7ZwpaWE4ju75Ttc_37.563126_-107.818118@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440755,
-    "wof:geomhash":"559e1a542f209ed05f4983e0d3b3f4c7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2c982c885373ebf8ea9fb003f1d8acd4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554677,
+            "venue_id":823552015
+        }
+    ],
     "wof:id":823552015,
-    "wof:lastmodified":1466415954,
+    "wof:lastmodified":1492123027,
     "wof:name":"Mountain Market & Deli",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554677,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

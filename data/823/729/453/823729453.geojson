@@ -2,9 +2,14 @@
   "id": 823729453,
   "type": "Feature",
   "properties": {
+    "addr:full":"502 Grant St Fort Morgan CO 80701",
+    "addr:housenumber":"502",
+    "addr:postcode":"morgan;80701",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.793653,40.253948,-103.793653,40.253948",
     "geom:latitude":40.253948,
     "geom:longitude":-103.793653,
@@ -29,17 +34,32 @@
         "private"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6m1BtEVbd9Uj7Tcto9qA6z_40.253948_-103.793653@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444887,
-    "wof:geomhash":"84938e55fc12d7c2ffa48e2cb3ff697d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c9acee9350a38db6584a02ae255cf842",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":823729453
+        }
+    ],
     "wof:id":823729453,
-    "wof:lastmodified":1466418490,
+    "wof:lastmodified":1492118302,
     "wof:name":"Cameo One",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

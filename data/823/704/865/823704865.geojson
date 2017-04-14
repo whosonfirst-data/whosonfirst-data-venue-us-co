@@ -2,9 +2,14 @@
   "id": 823704865,
   "type": "Feature",
   "properties": {
+    "addr:full":"12031 Pecos St Northglenn CO 80234",
+    "addr:housenumber":"12031",
+    "addr:postcode":"80234",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006185,39.914599,-105.006185,39.914599",
     "geom:latitude":39.914599,
     "geom:longitude":-105.006185,
@@ -30,19 +35,36 @@
         "gymnasium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_19JAFKiDVY8bLwtkestOPd_39.914599_-105.006185@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444333,
-    "wof:geomhash":"7ca0b124195969d51230f60dcdfd04a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"76eab6dd2de1ad4d7804fc33b4e30da8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823704865
+        }
+    ],
     "wof:id":823704865,
-    "wof:lastmodified":1466418635,
+    "wof:lastmodified":1492124165,
     "wof:name":"Fitness Together",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

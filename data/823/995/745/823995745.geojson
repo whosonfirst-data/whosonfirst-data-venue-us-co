@@ -2,9 +2,14 @@
   "id": 823995745,
   "type": "Feature",
   "properties": {
+    "addr:full":"2651 W 134th Cir Broomfield CO 80020",
+    "addr:housenumber":"2651",
+    "addr:postcode":"80020",
+    "addr:street":"W 134Th Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018623,39.939244,-105.018623,39.939244",
     "geom:latitude":39.939244,
     "geom:longitude":-105.018623,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ZoJfCc6cBkne03LHngabu_39.939244_-105.018623@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451883,
-    "wof:geomhash":"796d4d4dcb3df2ddd5642114370dd999",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6acc71cc919ac63665763bc2b9ce656a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":823995745
+        }
+    ],
     "wof:id":823995745,
-    "wof:lastmodified":1466421015,
+    "wof:lastmodified":1492117203,
     "wof:name":"Von Ostrand Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

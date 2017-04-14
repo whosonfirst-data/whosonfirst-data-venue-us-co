@@ -2,9 +2,14 @@
   "id": 823771187,
   "type": "Feature",
   "properties": {
+    "addr:full":"3215 Grand Canyon St Fort Collins CO 80525",
+    "addr:housenumber":"3215",
+    "addr:postcode":"80525",
+    "addr:street":"Grand Canyon St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018393,40.531636,-105.018393,40.531636",
     "geom:latitude":40.531636,
     "geom:longitude":-105.018393,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2fpwozVWm4IrYNJTI7Qhes_40.531636_-105.018393@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445850,
-    "wof:geomhash":"3f0c3cc65524363a640e58d609aeb2e8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3f36039f14d86ac0eb25941075e5971d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":823771187
+        }
+    ],
     "wof:id":823771187,
-    "wof:lastmodified":1466419078,
+    "wof:lastmodified":1492119044,
     "wof:name":"Floral By Victoria",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

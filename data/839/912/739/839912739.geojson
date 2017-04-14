@@ -2,9 +2,14 @@
   "id": 839912739,
   "type": "Feature",
   "properties": {
+    "addr:full":"4876 Darwin Ct Boulder CO 80301",
+    "addr:housenumber":"4876",
+    "addr:postcode":"80301",
+    "addr:street":"Darwin Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.23971,40.03086,-105.23971,40.03086",
     "geom:latitude":40.03086,
     "geom:longitude":-105.23971,
@@ -29,9 +34,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85853473,
-        102085251
+        85930751,
+        102085251,
+        85929877
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,17 +49,26 @@
     "wof:geomhash":"9783e01adc49072d44111c640b5c8e0c",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102085251,
-            "neighbourhood_id":85853473,
+            "locality_id":85930751,
+            "region_id":85688603,
+            "venue_id":839912739
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
             "region_id":85688603,
             "venue_id":839912739
         }
     ],
     "wof:id":839912739,
-    "wof:lastmodified":1466412496,
+    "wof:lastmodified":1491620042,
     "wof:name":"Cdc Custom Homes LLC",
-    "wof:parent_id":85853473,
+    "wof:parent_id":-1,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

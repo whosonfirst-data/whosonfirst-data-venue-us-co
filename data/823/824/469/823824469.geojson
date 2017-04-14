@@ -2,9 +2,14 @@
   "id": 823824469,
   "type": "Feature",
   "properties": {
+    "addr:full":"6001 Washington St Denver CO 80216",
+    "addr:housenumber":"6001",
+    "addr:postcode":"80216",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978092,39.805499,-104.978092,39.805499",
     "geom:latitude":39.805499,
     "geom:longitude":-104.978092,
@@ -32,19 +37,56 @@
         "brass"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681,
+        420553745,
+        85888375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3rnU1GEGl5QyiUyFCsHQ12_39.805499_-104.978092@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447430,
-    "wof:geomhash":"429881d7a37e409e6f1507fe15c4abeb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"97e3ae86df3ace104d8743e52f4289b4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":823824469
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":823824469
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":85888375,
+            "region_id":85688603,
+            "venue_id":823824469
+        }
+    ],
     "wof:id":823824469,
-    "wof:lastmodified":1466419594,
+    "wof:lastmodified":1492123006,
     "wof:name":"Mile Hi Metal Foundry Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

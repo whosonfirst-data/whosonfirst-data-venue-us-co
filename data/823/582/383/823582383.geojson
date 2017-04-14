@@ -2,9 +2,14 @@
   "id": 823582383,
   "type": "Feature",
   "properties": {
+    "addr:full":"4563 S Meadow Dr Boulder CO 80301",
+    "addr:housenumber":"4563",
+    "addr:postcode":"80301",
+    "addr:street":"S Meadow Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.182675,40.056794,-105.182675,40.056794",
     "geom:latitude":40.056794,
     "geom:longitude":-105.182675,
@@ -28,19 +33,36 @@
         "lessor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554161
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4hGjDd5VZR00SUS2135PzF_40.056794_-105.182675@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441476,
-    "wof:geomhash":"498ca92a71b9488a4e0bfd2114b5bfcb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1c5d19d4982fcf531a6d59caff7d418a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554161,
+            "region_id":85688603,
+            "venue_id":823582383
+        }
+    ],
     "wof:id":823582383,
-    "wof:lastmodified":1466416584,
+    "wof:lastmodified":1492124143,
     "wof:name":"Crestone Commercial Properties",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554161,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

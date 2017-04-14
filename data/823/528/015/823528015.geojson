@@ -2,9 +2,14 @@
   "id": 823528015,
   "type": "Feature",
   "properties": {
+    "addr:full":"8222 S University Blvd Centennial CO 80122",
+    "addr:housenumber":"8222",
+    "addr:postcode":"80122",
+    "addr:street":"S University Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.960392,39.566727,-104.960392,39.566727",
     "geom:latitude":39.566727,
     "geom:longitude":-104.960392,
@@ -27,17 +32,32 @@
         "veterinarian"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929851,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1bAMsnWizWTZHMmyKbcIIA_39.566727_-104.960392@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440216,
-    "wof:geomhash":"cc243ddd686aba0c6dd351351b71fc8e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2c1d86140807a99b59ba102a31e52570",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929851,
+            "region_id":85688603,
+            "venue_id":823528015
+        }
+    ],
     "wof:id":823528015,
-    "wof:lastmodified":1466415182,
+    "wof:lastmodified":1492119007,
     "wof:name":"Banfield The Pet Hospital",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

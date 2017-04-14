@@ -2,9 +2,14 @@
   "id": 823959069,
   "type": "Feature",
   "properties": {
+    "addr:full":"3701 S Broadway Englewood CO 80113",
+    "addr:housenumber":"3701",
+    "addr:postcode":"80113",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.987708,39.647631,-104.987708,39.647631",
     "geom:latitude":39.647631,
     "geom:longitude":-104.987708,
@@ -27,17 +32,32 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1c6l6XCPldXtXmzKtJa6Ij_39.647631_-104.987708@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451000,
-    "wof:geomhash":"a07bf30af665dd539388acedec7cdefb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8b609ebb32b34c6e78f65e4ea9ba1555",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "region_id":85688603,
+            "venue_id":823959069
+        }
+    ],
     "wof:id":823959069,
-    "wof:lastmodified":1466420681,
+    "wof:lastmodified":1492124055,
     "wof:name":"MCPN Admin Office",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

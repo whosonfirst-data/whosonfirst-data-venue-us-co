@@ -2,9 +2,14 @@
   "id": 823677211,
   "type": "Feature",
   "properties": {
+    "addr:full":"2796 Iris Ln Steamboat Spgs CO 80487",
+    "addr:housenumber":"2796",
+    "addr:postcode":"80487",
+    "addr:street":"Iris Ln;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.866309,40.501898,-106.866309,40.501898",
     "geom:latitude":40.501898,
     "geom:longitude":-106.866309,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555187
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5kX0GMNZ4mLUS7KIlHTT1c_40.501898_-106.866309@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443730,
-    "wof:geomhash":"3e7f8b1251e4afd0fd42102090b41e21",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2f99e7a6e2b67bd144ba73112c405704",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555187,
+            "region_id":85688603,
+            "venue_id":823677211
+        }
+    ],
     "wof:id":823677211,
-    "wof:lastmodified":1466418345,
+    "wof:lastmodified":1492126465,
     "wof:name":"Joe Bender Masonry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555187,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

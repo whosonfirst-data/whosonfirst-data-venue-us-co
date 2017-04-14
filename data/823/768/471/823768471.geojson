@@ -2,9 +2,14 @@
   "id": 823768471,
   "type": "Feature",
   "properties": {
+    "addr:full":"13352 Clarkson St Denver CO 80241",
+    "addr:housenumber":"13352",
+    "addr:postcode":"80241",
+    "addr:street":"Clarkson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977208,39.939076,-104.977208,39.939076",
     "geom:latitude":39.939076,
     "geom:longitude":-104.977208,
@@ -27,19 +32,36 @@
         "datum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Q7E2etNeZwH04JXrSdjNY_39.939076_-104.977208@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445790,
-    "wof:geomhash":"00e9a451511ab1aa4c3645ed903faa3f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2461b02c00dff67b830fcd57ad419eb6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":823768471
+        }
+    ],
     "wof:id":823768471,
-    "wof:lastmodified":1466419107,
+    "wof:lastmodified":1492124681,
     "wof:name":"International Multi Media Grou",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

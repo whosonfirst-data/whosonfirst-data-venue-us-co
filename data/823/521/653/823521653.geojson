@@ -2,9 +2,14 @@
   "id": 823521653,
   "type": "Feature",
   "properties": {
+    "addr:full":"7948 Clarkson Ct Denver CO 80229",
+    "addr:housenumber":"7948",
+    "addr:postcode":"80229",
+    "addr:street":"Clarkson Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.976457,39.840626,-104.976457,39.840626",
     "geom:latitude":39.840626,
     "geom:longitude":-104.976457,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553621
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0J8xNUoAvajVOxeDNGOUmZ_39.840626_-104.976457@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440062,
-    "wof:geomhash":"b578ec3aa59f08d456ee099cf79ef786",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4877a6c4d0b5d761bc46258dd7b699d2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553621,
+            "region_id":85688603,
+            "venue_id":823521653
+        }
+    ],
     "wof:id":823521653,
-    "wof:lastmodified":1466414834,
+    "wof:lastmodified":1492119611,
     "wof:name":"Andy Yockey Const",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553621,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

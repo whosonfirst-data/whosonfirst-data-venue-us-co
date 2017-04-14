@@ -2,9 +2,14 @@
   "id": 839973203,
   "type": "Feature",
   "properties": {
+    "addr:full":"757 E 20th Ave Denver CO 80205",
+    "addr:housenumber":"757",
+    "addr:postcode":"80205",
+    "addr:street":"E 20Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977019,39.74756,-104.977019,39.74756",
     "geom:latitude":39.74756,
     "geom:longitude":-104.977019,
@@ -29,12 +34,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750115,
+        85871289,
         102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85871303
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -49,15 +56,17 @@
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85871303,
+            "macrohood_id":1108750025,
+            "microhood_id":1108750115,
+            "neighbourhood_id":85871289,
             "region_id":85688603,
             "venue_id":839973203
         }
     ],
     "wof:id":839973203,
-    "wof:lastmodified":1466416430,
+    "wof:lastmodified":1486604520,
     "wof:name":"Jackson Hewitt Tax Svc",
-    "wof:parent_id":85871303,
+    "wof:parent_id":1108750115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

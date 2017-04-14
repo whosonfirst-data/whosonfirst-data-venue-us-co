@@ -2,9 +2,14 @@
   "id": 823960529,
   "type": "Feature",
   "properties": {
+    "addr:full":"6160 E 72nd Ave Commerce City CO 80022",
+    "addr:housenumber":"6160",
+    "addr:postcode":"80022",
+    "addr:street":"E 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.917382,39.827236,-104.917382,39.827236",
     "geom:latitude":39.827236,
     "geom:longitude":-104.917382,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553569
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ZV7yYwX10U1h0vc2OnsOq_39.827236_-104.917382@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451043,
-    "wof:geomhash":"4d4276192124d8c7658653c62e93f88a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f75e01d52ba581ea5f2f11d96e201e88",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553569,
+            "region_id":85688603,
+            "venue_id":823960529
+        }
+    ],
     "wof:id":823960529,
-    "wof:lastmodified":1466420765,
+    "wof:lastmodified":1492119681,
     "wof:name":"Taqueria LA Pasadita",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553569,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

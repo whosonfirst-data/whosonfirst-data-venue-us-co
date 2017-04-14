@@ -2,9 +2,14 @@
   "id": 839963265,
   "type": "Feature",
   "properties": {
+    "addr:full":"1171 S Federal Blvd Denver CO 80219",
+    "addr:housenumber":"1171",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025137,39.696224,-105.025137,39.696224",
     "geom:latitude":39.696224,
     "geom:longitude":-105.025137,
@@ -28,19 +33,38 @@
         "order"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0JMIIqcL2I9ZhBd96f73aK_39.696224_-105.025137@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459736,
-    "wof:geomhash":"9a30a7c661be462069fafc34286a0284",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ee92ab7856676ccafb7833dfc712fad1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":839963265
+        }
+    ],
     "wof:id":839963265,
-    "wof:lastmodified":1466416036,
+    "wof:lastmodified":1492111779,
     "wof:name":"Dolex Dollar Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

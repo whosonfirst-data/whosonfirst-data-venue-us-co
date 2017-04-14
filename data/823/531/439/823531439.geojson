@@ -2,9 +2,14 @@
   "id": 823531439,
   "type": "Feature",
   "properties": {
+    "addr:full":"2926 E Fountain Blvd Colorado Springs CO 80910",
+    "addr:housenumber":"2926",
+    "addr:postcode":"80910",
+    "addr:street":"E Fountain Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.778014,38.818015,-104.778014,38.818015",
     "geom:latitude":38.818015,
     "geom:longitude":-104.778014,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554341
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2kQBMlBqaHomjmsXiGQVIl_38.818015_-104.778014@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440280,
-    "wof:geomhash":"2b6000017f8771a1dbb7d7eb36cb3bfd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"deb65753306ce8ef9477aa7151a746b7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":823531439
+        }
+    ],
     "wof:id":823531439,
-    "wof:lastmodified":1466415225,
+    "wof:lastmodified":1492120604,
     "wof:name":"Good News Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554341,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

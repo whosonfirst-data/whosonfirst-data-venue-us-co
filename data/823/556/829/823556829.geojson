@@ -2,9 +2,14 @@
   "id": 823556829,
   "type": "Feature",
   "properties": {
+    "addr:full":"3910 Table Mesa Dr Boulder CO 80305",
+    "addr:housenumber":"3910",
+    "addr:postcode":"80305",
+    "addr:street":"Table Mesa Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.247398,39.985741,-105.247398,39.985741",
     "geom:latitude":39.985741,
     "geom:longitude":-105.247398,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4gDIyujVaPbppLo7xuAqjI_39.985741_-105.247398@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440865,
-    "wof:geomhash":"8609401b0096a69182eb8b7aa859fb0e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d739d311215455ef85da84b773d2edb5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":823556829
+        }
+    ],
     "wof:id":823556829,
-    "wof:lastmodified":1466416032,
+    "wof:lastmodified":1492127565,
     "wof:name":"Boulder Mennonite Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823958893,
   "type": "Feature",
   "properties": {
+    "addr:full":"529 Oriole Dr Grand Junction CO 81503",
+    "addr:housenumber":"529",
+    "addr:postcode":"81503",
+    "addr:street":"Oriole Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.643402,39.082968,-108.643402,39.082968",
     "geom:latitude":39.082968,
     "geom:longitude":-108.643402,
@@ -29,19 +34,36 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554967
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4hMIPHLP2d7FwHGotSgscn_39.082968_-108.643402@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450997,
-    "wof:geomhash":"cf4f9234feb0c69c41b18a6828598350",
-    "wof:hierarchy":[],
+    "wof:geomhash":"de5e064e972f2911ecd962a42868d224",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554967,
+            "region_id":85688603,
+            "venue_id":823958893
+        }
+    ],
     "wof:id":823958893,
-    "wof:lastmodified":1466420709,
+    "wof:lastmodified":1492124227,
     "wof:name":"Auto Masters Wholesale",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554967,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

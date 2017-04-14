@@ -2,9 +2,14 @@
   "id": 823466927,
   "type": "Feature",
   "properties": {
+    "addr:full":"2312 Sunleaf Ct Fort Collins CO 80525",
+    "addr:housenumber":"2312",
+    "addr:postcode":"80525",
+    "addr:street":"Sunleaf Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.035673,40.527943,-105.035673,40.527943",
     "geom:latitude":40.527943,
     "geom:longitude":-105.035673,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554731
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4fVqKZDatehw6ctL5F1wmq_40.527943_-105.035673@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438766,
-    "wof:geomhash":"1bafcb391b8b9a525924687ffab31722",
-    "wof:hierarchy":[],
+    "wof:geomhash":"40e3abfc55f805c4320aff8692a313bc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554731,
+            "region_id":85688603,
+            "venue_id":823466927
+        }
+    ],
     "wof:id":823466927,
-    "wof:lastmodified":1466412021,
+    "wof:lastmodified":1492122641,
     "wof:name":"Personal Touch Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554731,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

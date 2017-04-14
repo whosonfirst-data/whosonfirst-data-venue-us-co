@@ -2,9 +2,14 @@
   "id": 823657089,
   "type": "Feature",
   "properties": {
+    "addr:full":"2453 Industrial Blvd Grand Junction CO 81505",
+    "addr:housenumber":"2453",
+    "addr:postcode":"81505",
+    "addr:street":"Industrial Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.593738,39.089062,-108.593738,39.089062",
     "geom:latitude":39.089062,
     "geom:longitude":-108.593738,
@@ -29,19 +34,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554791
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2zfVlDEJQ3gEmVt4av1Chd_39.089062_-108.593738@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443240,
-    "wof:geomhash":"8057801cc39e82873178a5a9bad201cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1cb0b188ed2365cf565849f475635299",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":823657089
+        }
+    ],
     "wof:id":823657089,
-    "wof:lastmodified":1466418255,
+    "wof:lastmodified":1492121164,
     "wof:name":"GPI Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554791,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

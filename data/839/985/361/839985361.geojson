@@ -2,9 +2,14 @@
   "id": 839985361,
   "type": "Feature",
   "properties": {
+    "addr:full":"2155 W Evans Ave Denver CO 80223",
+    "addr:housenumber":"2155",
+    "addr:postcode":"80223",
+    "addr:street":"W Evans Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.012665,39.678706,-105.012665,39.678706",
     "geom:latitude":39.678706,
     "geom:longitude":-105.012665,
@@ -31,7 +36,15 @@
     ],
     "sg:website":"www.allamericanwindowtinting.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6uVLhViI3VWdGrqPBmgy1c_39.678726_-105.011960@1293134755"
@@ -39,11 +52,22 @@
     "wof:country":"US",
     "wof:created":1463460634,
     "wof:geomhash":"8b7ae97af43d96c142aa3c35fb0553df",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":839985361
+        }
+    ],
     "wof:id":839985361,
-    "wof:lastmodified":1466417033,
+    "wof:lastmodified":1491876215,
     "wof:name":"All American Window Tinting",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

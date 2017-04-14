@@ -2,9 +2,14 @@
   "id": 823670587,
   "type": "Feature",
   "properties": {
+    "addr:full":"301 E Grand Ave Mancos CO 81328",
+    "addr:housenumber":"301",
+    "addr:postcode":"81328",
+    "addr:street":"E Grand Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.293086,37.345074,-108.293086,37.345074",
     "geom:latitude":37.345074,
     "geom:longitude":-108.293086,
@@ -27,19 +32,28 @@
         "elementary"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2MC4gBJ8jZw15CJGCrmmHw_37.345074_-108.293086@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443583,
-    "wof:geomhash":"bedc72320dc6808cd058f585e272fb61",
-    "wof:hierarchy":[],
+    "wof:geomhash":"46379dde8e6b073881fc38e421dfef88",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823670587
+        }
+    ],
     "wof:id":823670587,
-    "wof:lastmodified":1466418283,
+    "wof:lastmodified":1492126978,
     "wof:name":"Mancos Elementary School",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

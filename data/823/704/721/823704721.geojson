@@ -2,9 +2,14 @@
   "id": 823704721,
   "type": "Feature",
   "properties": {
+    "addr:full":"10931 Co Rd 742 Almont CO 81210",
+    "addr:housenumber":"10931;742",
+    "addr:postcode":"81210",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.773792,38.724042,-106.773792,38.724042",
     "geom:latitude":38.724042,
     "geom:longitude":-106.773792,
@@ -27,19 +32,28 @@
         "resort"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554437
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3PADep1cdpQTrpDfLRKr58_38.724042_-106.773792@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444331,
-    "wof:geomhash":"7687bc2abb1445933a05697642de3515",
-    "wof:hierarchy":[],
+    "wof:geomhash":"765acac1aac3206c3a2ca66d2ba1c87e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554437,
+            "venue_id":823704721
+        }
+    ],
     "wof:id":823704721,
-    "wof:lastmodified":1466418620,
+    "wof:lastmodified":1492124165,
     "wof:name":"White Water Resort",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554437,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

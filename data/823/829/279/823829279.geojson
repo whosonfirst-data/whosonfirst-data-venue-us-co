@@ -2,9 +2,14 @@
   "id": 823829279,
   "type": "Feature",
   "properties": {
+    "addr:full":"268 W Greenway Cir Broomfield CO 80020",
+    "addr:housenumber":"268",
+    "addr:postcode":"80020",
+    "addr:street":"W Greenway Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066048,39.909502,-105.066048,39.909502",
     "geom:latitude":39.909502,
     "geom:longitude":-105.066048,
@@ -28,19 +33,36 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554175
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Gc6jnFIhfQRAxy5bcgaic_39.909502_-105.066048@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447586,
-    "wof:geomhash":"59865f5d06912e6911e918e5fb364203",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c495076fa78cd886549e0fda7d57706c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554175,
+            "region_id":85688603,
+            "venue_id":823829279
+        }
+    ],
     "wof:id":823829279,
-    "wof:lastmodified":1466419593,
+    "wof:lastmodified":1492120082,
     "wof:name":"Little Bear Holdings LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554175,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

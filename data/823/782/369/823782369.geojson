@@ -2,9 +2,14 @@
   "id": 823782369,
   "type": "Feature",
   "properties": {
+    "addr:full":"1155 Marine St Boulder CO 80302",
+    "addr:housenumber":"1155",
+    "addr:postcode":"80302",
+    "addr:street":"Marine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.278938,40.012807,-105.278938,40.012807",
     "geom:latitude":40.012807,
     "geom:longitude":-105.278938,
@@ -28,7 +33,14 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5YVXeEe0oZnCn0LpLf1UHQ_40.012807_-105.278938@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463446153,
     "wof:geomhash":"2c1f75d5ceb79de8cb5020f264652e82",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823782369
+        }
+    ],
     "wof:id":823782369,
-    "wof:lastmodified":1466419090,
+    "wof:lastmodified":1491897942,
     "wof:name":"Hast and Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

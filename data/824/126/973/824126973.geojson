@@ -2,9 +2,14 @@
   "id": 824126973,
   "type": "Feature",
   "properties": {
+    "addr:full":"348 Arapahoe Ave Boulder CO 80302",
+    "addr:housenumber":"348",
+    "addr:postcode":"80302",
+    "addr:street":"Arapahoe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.291955,40.013007,-105.291955,40.013007",
     "geom:latitude":40.013007,
     "geom:longitude":-105.291955,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2hOOmvKqds7g5GeB2jZ8uI_40.013007_-105.291955@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455009,
-    "wof:geomhash":"727986700e64a00520ce43aa8a77199c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2a0414840c7b7ab55437d8057df26d7e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":824126973
+        }
+    ],
     "wof:id":824126973,
-    "wof:lastmodified":1466415858,
+    "wof:lastmodified":1492131852,
     "wof:name":"Arapahoe Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

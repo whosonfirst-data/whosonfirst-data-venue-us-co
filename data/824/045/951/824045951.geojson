@@ -2,9 +2,14 @@
   "id": 824045951,
   "type": "Feature",
   "properties": {
+    "addr:full":"610 Helena St Clifton CO 81520",
+    "addr:housenumber":"610",
+    "addr:postcode":"81520",
+    "addr:street":"Helena St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.455346,39.09493,-108.455346,39.09493",
     "geom:latitude":39.09493,
     "geom:longitude":-108.455346,
@@ -29,19 +34,36 @@
         "grounds"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554851
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1jXBmTWiOAIO87Caiv6Cuv_39.094930_-108.455346@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453060,
-    "wof:geomhash":"719263aeab706bd127271fa7d434a9c2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6ea1ee367c5774e0154f1f890ab972c5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554851,
+            "region_id":85688603,
+            "venue_id":824045951
+        }
+    ],
     "wof:id":824045951,
-    "wof:lastmodified":1466414178,
+    "wof:lastmodified":1492129563,
     "wof:name":"Gary The Grand Valley Gardener",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554851,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

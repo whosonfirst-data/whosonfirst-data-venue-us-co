@@ -2,9 +2,14 @@
   "id": 823911739,
   "type": "Feature",
   "properties": {
+    "addr:full":"843 W 100th Pl Denver CO 80260",
+    "addr:housenumber":"843",
+    "addr:postcode":"80260",
+    "addr:street":"W 100Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996725,39.878419,-104.996725,39.878419",
     "geom:latitude":39.878419,
     "geom:longitude":-104.996725,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553869
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2IoBYVAc4AGgkDeYsinqtH_39.878419_-104.996725@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449793,
-    "wof:geomhash":"eda26ba398f87f84e2827c4d16b82cf3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75bd837b462d7a776c54d0961aea8536",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553869,
+            "region_id":85688603,
+            "venue_id":823911739
+        }
+    ],
     "wof:id":823911739,
-    "wof:lastmodified":1466420339,
+    "wof:lastmodified":1492124029,
     "wof:name":"Schropp John",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553869,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

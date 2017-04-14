@@ -2,9 +2,14 @@
   "id": 823512521,
   "type": "Feature",
   "properties": {
+    "addr:full":"333 S Sheridan Blvd Lakewood CO 80226",
+    "addr:housenumber":"333",
+    "addr:postcode":"80226",
+    "addr:street":"S Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05318,39.711016,-105.05318,39.711016",
     "geom:latitude":39.711016,
     "geom:longitude":-105.05318,
@@ -28,7 +33,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_76hOgwHnWjanWllp98FF65_39.711016_-105.053180@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463439846,
     "wof:geomhash":"7536abf3e2b0638942d69d8a3aaa1cf6",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":823512521
+        }
+    ],
     "wof:id":823512521,
-    "wof:lastmodified":1466414500,
+    "wof:lastmodified":1491876277,
     "wof:name":"Nationwide Heating & Air Cond",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

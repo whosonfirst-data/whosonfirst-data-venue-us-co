@@ -2,9 +2,14 @@
   "id": 823656769,
   "type": "Feature",
   "properties": {
+    "addr:full":"1 Elk Ave Crested Butte CO 81224",
+    "addr:housenumber":"1",
+    "addr:postcode":"81224",
+    "addr:street":"Elk Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.989078,38.869752,-106.989078,38.869752",
     "geom:latitude":38.869752,
     "geom:longitude":-106.989078,
@@ -27,19 +32,46 @@
         "printer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929655,
+        102083377,
+        85888321,
+        420554559
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_62CtPFAhIZd69Qzqih79it_38.869752_-106.989078@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443234,
-    "wof:geomhash":"b394003f0fe3bcc791959b8d0e518502",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6e2bb64ddd1a1e8c96723a261b3c1fad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":85888321,
+            "region_id":85688603,
+            "venue_id":823656769
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554559,
+            "region_id":85688603,
+            "venue_id":823656769
+        }
+    ],
     "wof:id":823656769,
-    "wof:lastmodified":1466418268,
+    "wof:lastmodified":1492119242,
     "wof:name":"Eidolon Press",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

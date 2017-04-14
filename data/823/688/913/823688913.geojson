@@ -2,9 +2,14 @@
   "id": 823688913,
   "type": "Feature",
   "properties": {
+    "addr:full":"9660 Columbine Ct Denver CO 80229",
+    "addr:housenumber":"9660",
+    "addr:postcode":"80229",
+    "addr:street":"Columbine Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.956207,39.871937,-104.956207,39.871937",
     "geom:latitude":39.871937,
     "geom:longitude":-104.956207,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Fsyx19xKXaToqHtxCYO3H_39.871937_-104.956207@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443989,
-    "wof:geomhash":"de1abeeb2192549830b44ba4e2b62706",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab0a90802bea0d2c946abdcf1a1eb078",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":823688913
+        }
+    ],
     "wof:id":823688913,
-    "wof:lastmodified":1466418461,
+    "wof:lastmodified":1492126185,
     "wof:name":"Bob's Concrete",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839944131,
   "type": "Feature",
   "properties": {
+    "addr:full":"13324 Cherry Cir Denver CO 80241",
+    "addr:housenumber":"13324",
+    "addr:postcode":"80241",
+    "addr:street":"Cherry Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.934386,39.938151,-104.934386,39.938151",
     "geom:latitude":39.938151,
     "geom:longitude":-104.934386,
@@ -27,19 +32,36 @@
         "advisory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553833
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DEa4TnzWvFcb6E62yd9AA_39.938151_-104.934386@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458812,
-    "wof:geomhash":"1116eb4e5749538828a5b8f0ff2a7ceb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6a653c7148683ce2dd9dc1b3d68b66f9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553833,
+            "region_id":85688603,
+            "venue_id":839944131
+        }
+    ],
     "wof:id":839944131,
-    "wof:lastmodified":1466414956,
+    "wof:lastmodified":1492113967,
     "wof:name":"Strategic Financial Planning",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

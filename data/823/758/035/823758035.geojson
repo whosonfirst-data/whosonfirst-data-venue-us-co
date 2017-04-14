@@ -2,9 +2,14 @@
   "id": 823758035,
   "type": "Feature",
   "properties": {
+    "addr:full":"815 S Cove Way Denver CO 80209",
+    "addr:housenumber":"815",
+    "addr:postcode":"80209",
+    "addr:street":"S Cove Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.952603,39.70042,-104.952603,39.70042",
     "geom:latitude":39.70042,
     "geom:longitude":-104.952603,
@@ -27,7 +32,16 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108749009,
+        85871327,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5WxkOkFu04fWx1nFCBoOt8_39.700420_-104.952603@1294083659"
@@ -35,11 +49,23 @@
     "wof:country":"US",
     "wof:created":1463445578,
     "wof:geomhash":"83f3e66024db65caf98dc9651af53b44",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "microhood_id":1108749009,
+            "neighbourhood_id":85871327,
+            "region_id":85688603,
+            "venue_id":823758035
+        }
+    ],
     "wof:id":823758035,
-    "wof:lastmodified":1466418980,
+    "wof:lastmodified":1486604347,
     "wof:name":"John Galt Trading LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108749009,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

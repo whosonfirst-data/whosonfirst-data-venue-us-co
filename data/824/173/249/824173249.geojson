@@ -2,9 +2,14 @@
   "id": 824173249,
   "type": "Feature",
   "properties": {
+    "addr:full":"121 N Main St Brighton CO 80601",
+    "addr:housenumber":"121",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.821103,39.988287,-104.821103,39.988287",
     "geom:latitude":39.988287,
     "geom:longitude":-104.821103,
@@ -25,19 +30,36 @@
     "sg:province":"CO",
     "sg:website":"www.westernbar.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2fZNc8CKB7p6o2nGzuBOWQ_39.988287_-104.821103@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456808,
-    "wof:geomhash":"1fe6668b6cd22b2109b2379c6f7fa11d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8e29e41caedbd3d967ae716e6cd10ac1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824173249
+        }
+    ],
     "wof:id":824173249,
-    "wof:lastmodified":1466417955,
+    "wof:lastmodified":1492131492,
     "wof:name":"Western Bar & Cafe",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

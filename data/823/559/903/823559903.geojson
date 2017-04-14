@@ -2,9 +2,14 @@
   "id": 823559903,
   "type": "Feature",
   "properties": {
+    "addr:full":"118 W Riverview Ave Sterling CO 80701",
+    "addr:housenumber":"118",
+    "addr:postcode":"80701",
+    "addr:street":"W Riverview Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.80201,40.261104,-103.80201,40.261104",
     "geom:latitude":40.261104,
     "geom:longitude":-103.80201,
@@ -28,17 +33,32 @@
         "patrol"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0qmLzHgOvFa5hJO9nX35PO_40.261104_-103.802010@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440939,
-    "wof:geomhash":"94e110ee7a1512cc8746a74d4e48d684",
-    "wof:hierarchy":[],
+    "wof:geomhash":"62a31d90e55f884f5c3addb0bcc04909",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":823559903
+        }
+    ],
     "wof:id":823559903,
-    "wof:lastmodified":1466415991,
+    "wof:lastmodified":1492127459,
     "wof:name":"Colorado State Patrol",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 824142811,
   "type": "Feature",
   "properties": {
+    "addr:full":"214 4th St Steamboat Springs CO 80487",
+    "addr:housenumber":"214",
+    "addr:postcode":"80487",
+    "addr:street":"4Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.829085,40.484677,-106.829085,40.484677",
     "geom:latitude":40.484677,
     "geom:longitude":-106.829085,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555185
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7T63ll5DCTv8Ul5DOaPxo4_40.484677_-106.829085@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455610,
-    "wof:geomhash":"b936f79e85726d91b41d19b05891de0c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53797c2527e3e6e511e43ef58901e3ed",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555185,
+            "region_id":85688603,
+            "venue_id":824142811
+        }
+    ],
     "wof:id":824142811,
-    "wof:lastmodified":1466416614,
+    "wof:lastmodified":1492129371,
     "wof:name":"Koehler Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555185,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

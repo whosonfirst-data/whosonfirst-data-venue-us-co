@@ -2,9 +2,14 @@
   "id": 823932899,
   "type": "Feature",
   "properties": {
+    "addr:full":"8080 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"8080;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.816061,37.403551,-107.816061,37.403551",
     "geom:latitude":37.403551,
     "geom:longitude":-107.816061,
@@ -28,19 +33,28 @@
     ],
     "sg:website":"www.bardchuckwagon.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554665
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DKJNJuN3Z5swgcY2kudTV_37.403551_-107.816061@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450330,
-    "wof:geomhash":"6b9b6c7ed67e7320221d680fc0f5c2db",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f90b2bc8a31b57b94a72ce40e5fee54",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554665,
+            "venue_id":823932899
+        }
+    ],
     "wof:id":823932899,
-    "wof:lastmodified":1466420634,
+    "wof:lastmodified":1492122287,
     "wof:name":"Bar D Chuckwagon Suppers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554665,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

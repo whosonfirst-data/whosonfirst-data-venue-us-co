@@ -2,9 +2,14 @@
   "id": 823561863,
   "type": "Feature",
   "properties": {
+    "addr:full":"6875 Lowell Blvd Denver CO 80221",
+    "addr:housenumber":"6875",
+    "addr:postcode":"80221",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034567,39.820647,-105.034567,39.820647",
     "geom:latitude":39.820647,
     "geom:longitude":-105.034567,
@@ -34,19 +39,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553401
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Wk9I6LOaQBDbdcsDvfM51_39.820647_-105.034567@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440985,
-    "wof:geomhash":"f66aa2bd7da37fa6842bc4f0ee339259",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb10446be6792bb549ee9fb4bd8f7c6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553401,
+            "region_id":85688603,
+            "venue_id":823561863
+        }
+    ],
     "wof:id":823561863,
-    "wof:lastmodified":1466416141,
+    "wof:lastmodified":1492126163,
     "wof:name":"Games Just 4 U",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553401,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

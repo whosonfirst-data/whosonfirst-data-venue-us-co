@@ -2,9 +2,14 @@
   "id": 839992723,
   "type": "Feature",
   "properties": {
+    "addr:full":"4964 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"4964",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024782,39.786524,-105.024782,39.786524",
     "geom:latitude":39.786524,
     "geom:longitude":-105.024782,
@@ -30,7 +35,15 @@
         "soup"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420781639,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_10dLTEb0xF8R7pqFCKF0eS_39.786249_-105.025127@1294083659"
@@ -38,11 +51,22 @@
     "wof:country":"US",
     "wof:created":1463460913,
     "wof:geomhash":"2a1fcef021650b1eb9724356edade3f1",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420781639,
+            "region_id":85688603,
+            "venue_id":839992723
+        }
+    ],
     "wof:id":839992723,
-    "wof:lastmodified":1466417579,
+    "wof:lastmodified":1486593530,
     "wof:name":"Wendy's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420781639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

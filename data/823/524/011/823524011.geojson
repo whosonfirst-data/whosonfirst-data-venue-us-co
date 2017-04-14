@@ -2,9 +2,14 @@
   "id": 823524011,
   "type": "Feature",
   "properties": {
+    "addr:full":"1937 King St Denver CO 80204",
+    "addr:housenumber":"1937",
+    "addr:postcode":"80204",
+    "addr:street":"King St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033123,39.747118,-105.033123,39.747118",
     "geom:latitude":39.747118,
     "geom:longitude":-105.033123,
@@ -27,19 +32,38 @@
         "liquidator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1qleoBZzDzSdG8KiJnyIOI_39.747118_-105.033123@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440116,
-    "wof:geomhash":"da38ac1b466b43d943dfde228cb9f5ea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"19ed99258f0277a23c172955cc8e4712",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":823524011
+        }
+    ],
     "wof:id":823524011,
-    "wof:lastmodified":1466414965,
+    "wof:lastmodified":1492121592,
     "wof:name":"Progressive Mercantile LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

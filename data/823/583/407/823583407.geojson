@@ -2,9 +2,14 @@
   "id": 823583407,
   "type": "Feature",
   "properties": {
+    "addr:full":"5850 E 58th Ave Commerce City CO 80022",
+    "addr:housenumber":"5850",
+    "addr:postcode":"80022",
+    "addr:street":"E 58Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.915011,39.801835,-104.915011,39.801835",
     "geom:latitude":39.801835,
     "geom:longitude":-104.915011,
@@ -27,19 +32,36 @@
         "cabinet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Tbzcd9OE6v6SLWQdYqUTs_39.801835_-104.915011@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441497,
-    "wof:geomhash":"11f9494b7730a9bd089d74270225c1ab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f595da58e9d13e43876e27e1c63ba0fe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553923,
+            "region_id":85688603,
+            "venue_id":823583407
+        }
+    ],
     "wof:id":823583407,
-    "wof:lastmodified":1466416731,
+    "wof:lastmodified":1492116962,
     "wof:name":"Excel Cabinets",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

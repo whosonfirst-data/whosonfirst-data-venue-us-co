@@ -2,9 +2,14 @@
   "id": 823594575,
   "type": "Feature",
   "properties": {
+    "addr:full":"11200 E 45th Ave Denver CO 80239",
+    "addr:housenumber":"11200",
+    "addr:postcode":"80239",
+    "addr:street":"E 45Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.856553,39.778636,-104.856553,39.778636",
     "geom:latitude":39.778636,
     "geom:longitude":-104.856553,
@@ -28,7 +33,15 @@
         "luggage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ZDvxXqGZUx7irn2kTAt3H_39.778636_-104.856553@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463441751,
     "wof:geomhash":"9493effd2c02d2422e35f2c1ed8fb0cb",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823594575
+        }
+    ],
     "wof:id":823594575,
-    "wof:lastmodified":1466417048,
+    "wof:lastmodified":1491887481,
     "wof:name":"Samsonite",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

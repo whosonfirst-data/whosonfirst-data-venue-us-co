@@ -2,9 +2,14 @@
   "id": 839989117,
   "type": "Feature",
   "properties": {
+    "addr:full":"9185 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"9185",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025492,39.863239,-105.025492,39.863239",
     "geom:latitude":39.863239,
     "geom:longitude":-105.025492,
@@ -29,19 +34,36 @@
         "chicken"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553875
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4P5ToUdUaV8n9yQRtcoqXm_39.863239_-105.025492@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460777,
-    "wof:geomhash":"a4031ade95d966f00a8c423329e22be9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8291d0c6914a456cfdff9c1a6e2fb489",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553875,
+            "region_id":85688603,
+            "venue_id":839989117
+        }
+    ],
     "wof:id":839989117,
-    "wof:lastmodified":1466417354,
+    "wof:lastmodified":1492111076,
     "wof:name":"KFC - Kentucky Fried Chicken",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553875,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823627073,
   "type": "Feature",
   "properties": {
+    "addr:full":"4456 Stuart St Denver CO 80212",
+    "addr:housenumber":"4456",
+    "addr:postcode":"80212",
+    "addr:street":"Stuart St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042657,39.77742,-105.042657,39.77742",
     "geom:latitude":39.77742,
     "geom:longitude":-105.042657,
@@ -27,19 +32,38 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871261,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ZAsEpAF3nXLxmfGmUlrBA_39.777420_-105.042657@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442554,
-    "wof:geomhash":"747b45e561fba31edc01e70a9d6deac6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e86fa3f6f5c3eddfe660f9a1284a70e2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871261,
+            "region_id":85688603,
+            "venue_id":823627073
+        }
+    ],
     "wof:id":823627073,
-    "wof:lastmodified":1466417478,
+    "wof:lastmodified":1492118738,
     "wof:name":"Rosenfeld Photography",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871261,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

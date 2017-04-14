@@ -2,9 +2,14 @@
   "id": 839936805,
   "type": "Feature",
   "properties": {
+    "addr:full":"615 Main St Westcliffe CO 81252",
+    "addr:housenumber":"615",
+    "addr:postcode":"81252",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.463597,38.135995,-105.463597,38.135995",
     "geom:latitude":38.135995,
     "geom:longitude":-105.463597,
@@ -27,17 +32,32 @@
         "cleaners"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929539,
+        102084029
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6khBALvUG0IQi5F4nKVx5A_38.135995_-105.463597@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458324,
-    "wof:geomhash":"d7deffc93d225d78221952d14a1c1088",
-    "wof:hierarchy":[],
+    "wof:geomhash":"901e202a3c0b73a32d24c86c20c64ae5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084029,
+            "locality_id":85929539,
+            "region_id":85688603,
+            "venue_id":839936805
+        }
+    ],
     "wof:id":839936805,
-    "wof:lastmodified":1466414490,
+    "wof:lastmodified":1492110780,
     "wof:name":"Main St Cleaners & Laundry",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

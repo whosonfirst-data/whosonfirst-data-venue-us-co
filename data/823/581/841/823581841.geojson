@@ -2,9 +2,14 @@
   "id": 823581841,
   "type": "Feature",
   "properties": {
+    "addr:full":"3401 E Bromley Ln Brighton CO 80602",
+    "addr:housenumber":"3401",
+    "addr:postcode":"80602",
+    "addr:street":"E Bromley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.780371,39.972342,-104.780371,39.972342",
     "geom:latitude":39.972342,
     "geom:longitude":-104.780371,
@@ -27,19 +32,46 @@
         "department"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553455,
+        420553355
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6XctRiick9nVvojojAYIIW_39.972342_-104.780371@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441464,
-    "wof:geomhash":"6cd3e90c60b11e4bc96bb60ebe137054",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4496aa9532c92f53f717a393185f6ff2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553455,
+            "region_id":85688603,
+            "venue_id":823581841
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553355,
+            "region_id":85688603,
+            "venue_id":823581841
+        }
+    ],
     "wof:id":823581841,
-    "wof:lastmodified":1466416529,
+    "wof:lastmodified":1492119650,
     "wof:name":"Brighton Police Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

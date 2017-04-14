@@ -2,9 +2,14 @@
   "id": 824177321,
   "type": "Feature",
   "properties": {
+    "addr:full":"2091 E 74th Ave Denver CO 80229",
+    "addr:housenumber":"2091",
+    "addr:postcode":"80229",
+    "addr:street":"E 74Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.960229,39.830951,-104.960229,39.830951",
     "geom:latitude":39.830951,
     "geom:longitude":-104.960229,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_22DHwoFqjkqtTpwCoenB8U_39.830951_-104.960229@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456965,
-    "wof:geomhash":"171fe88466e63cea9dd5262e7cf0375a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"13c0b09b6418099c9d8fa474fec46cfc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":824177321
+        }
+    ],
     "wof:id":824177321,
-    "wof:lastmodified":1466418165,
+    "wof:lastmodified":1492129987,
     "wof:name":"Roof & Gutter Guys",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

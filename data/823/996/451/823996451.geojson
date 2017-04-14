@@ -2,9 +2,14 @@
   "id": 823996451,
   "type": "Feature",
   "properties": {
+    "addr:full":"12194 Melody Dr Denver CO 80234",
+    "addr:housenumber":"12194",
+    "addr:postcode":"80234",
+    "addr:street":"Melody Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994969,39.91735,-104.994969,39.91735",
     "geom:latitude":39.91735,
     "geom:longitude":-104.994969,
@@ -27,19 +32,36 @@
         "condominium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553841
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1RkMecPnu3a9fOei4fcLEl_39.917350_-104.994969@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451903,
-    "wof:geomhash":"c3447f0299ab905a1bb3d7787d72e0ee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a08d3f72bfdb944622dcde0ce79479e2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553841,
+            "region_id":85688603,
+            "venue_id":823996451
+        }
+    ],
     "wof:id":823996451,
-    "wof:lastmodified":1466421077,
+    "wof:lastmodified":1492117456,
     "wof:name":"Cottonwood Villas Condominium",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553841,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

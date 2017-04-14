@@ -2,9 +2,14 @@
   "id": 823888273,
   "type": "Feature",
   "properties": {
+    "addr:full":"5570 E 56th Ave Commerce City CO 80022",
+    "addr:housenumber":"5570",
+    "addr:postcode":"80022",
+    "addr:street":"E 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.923213,39.798254,-104.923213,39.798254",
     "geom:latitude":39.798254,
     "geom:longitude":-104.923213,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3TVP2L1yWNXzVL50rDdw7c_39.798254_-104.923213@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449151,
-    "wof:geomhash":"1ef0e5045d2236c50ead64275c54f381",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b40270a9b57ffd3a6350d55781ea69ec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553923,
+            "region_id":85688603,
+            "venue_id":823888273
+        }
+    ],
     "wof:id":823888273,
-    "wof:lastmodified":1466420134,
+    "wof:lastmodified":1492117097,
     "wof:name":"Rock Hard Concrete Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

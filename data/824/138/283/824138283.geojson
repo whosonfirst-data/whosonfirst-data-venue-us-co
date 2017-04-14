@@ -2,9 +2,14 @@
   "id": 824138283,
   "type": "Feature",
   "properties": {
+    "addr:full":"1104 W 112th Ave Northglenn CO 80234",
+    "addr:housenumber":"1104",
+    "addr:postcode":"80234",
+    "addr:street":"W 112Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001979,39.899713,-105.001979,39.899713",
     "geom:latitude":39.899713,
     "geom:longitude":-105.001979,
@@ -27,19 +32,36 @@
         "sprinkler"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553705
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0SbaAizjnl5OaB4s491Igu_39.899713_-105.001979@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455447,
-    "wof:geomhash":"09cf6e77bce56d167bc70f6ba62f7b34",
-    "wof:hierarchy":[],
+    "wof:geomhash":"34de6db929301474e2af0582ef108878",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553705,
+            "region_id":85688603,
+            "venue_id":824138283
+        }
+    ],
     "wof:id":824138283,
-    "wof:lastmodified":1466416310,
+    "wof:lastmodified":1492129524,
     "wof:name":"CPS Distributors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553705,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

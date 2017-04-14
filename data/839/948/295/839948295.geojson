@@ -2,9 +2,14 @@
   "id": 839948295,
   "type": "Feature",
   "properties": {
+    "addr:full":"2555 Carmel Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2555",
+    "addr:postcode":"80910",
+    "addr:street":"Carmel Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.775487,38.796707,-104.775487,38.796707",
     "geom:latitude":38.796707,
     "geom:longitude":-104.775487,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0zKlPW9l9tAAnrUjuaK11C_38.796707_-104.775487@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459051,
-    "wof:geomhash":"88c399b32b2bf76de9597ed597e06c00",
-    "wof:hierarchy":[],
+    "wof:geomhash":"69325a049a09e79a771b0fbe6973fcca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":839948295
+        }
+    ],
     "wof:id":839948295,
-    "wof:lastmodified":1466415154,
+    "wof:lastmodified":1492114100,
     "wof:name":"Mountain View Moving",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

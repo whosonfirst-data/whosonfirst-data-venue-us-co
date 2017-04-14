@@ -2,9 +2,14 @@
   "id": 823776151,
   "type": "Feature",
   "properties": {
+    "addr:full":"5138 E 118th Pl Denver CO 80233",
+    "addr:housenumber":"5138",
+    "addr:postcode":"80233",
+    "addr:street":"E 118Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927401,39.911079,-104.927401,39.911079",
     "geom:latitude":39.911079,
     "geom:longitude":-104.927401,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2MlshVyFwQZ9Te56hfTPYH_39.911079_-104.927401@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445987,
-    "wof:geomhash":"c7332d5595ab7e1f5469eb9136ebdc6c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d30884ae7456a2b966df30f444ba4bc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":823776151
+        }
+    ],
     "wof:id":823776151,
-    "wof:lastmodified":1466419104,
+    "wof:lastmodified":1492123580,
     "wof:name":"Hale's Landscape",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

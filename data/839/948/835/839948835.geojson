@@ -2,9 +2,14 @@
   "id": 839948835,
   "type": "Feature",
   "properties": {
+    "addr:full":"324 Colorado Ave La Junta CO 81050",
+    "addr:housenumber":"324",
+    "addr:postcode":"81050",
+    "addr:street":"Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.543174,37.985706,-103.543174,37.985706",
     "geom:latitude":37.985706,
     "geom:longitude":-103.543174,
@@ -28,17 +33,32 @@
         "us"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929689,
+        102084015
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1UfiUVAbkAw0RfXFaiUzkz_37.985706_-103.543174@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459079,
-    "wof:geomhash":"0a4dd4cf2d5fe1dcc924e9b41bde826e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"05b97d4f33dc036d09b0041c86db07eb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084015,
+            "locality_id":85929689,
+            "region_id":85688603,
+            "venue_id":839948835
+        }
+    ],
     "wof:id":839948835,
-    "wof:lastmodified":1466415258,
+    "wof:lastmodified":1492114070,
     "wof:name":"US Post Office",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

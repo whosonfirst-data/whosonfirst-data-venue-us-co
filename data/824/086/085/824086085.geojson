@@ -2,9 +2,14 @@
   "id": 824086085,
   "type": "Feature",
   "properties": {
+    "addr:full":"11063 Co Rd 25 Cortez CO 81321",
+    "addr:housenumber":"11063;25",
+    "addr:postcode":"81321",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.5911,37.370742,-108.5911,37.370742",
     "geom:latitude":37.370742,
     "geom:longitude":-108.5911,
@@ -28,19 +33,28 @@
         "packing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555119
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Fu9iPHdKDXTkps3UpT7dM_37.370742_-108.591100@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453998,
-    "wof:geomhash":"6831549c3e54c1a4c8f281a2f8df5dc0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3e42b175a40ddf829430008d65bc5353",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555119,
+            "venue_id":824086085
+        }
+    ],
     "wof:id":824086085,
-    "wof:lastmodified":1466414821,
+    "wof:lastmodified":1492131580,
     "wof:name":"Banes Custom Packing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555119,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824130251,
   "type": "Feature",
   "properties": {
+    "addr:full":"547 Co Rd 10 Gunnison CO 81230",
+    "addr:housenumber":"547;10",
+    "addr:postcode":"81230",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.914428,38.568528,-106.914428,38.568528",
     "geom:latitude":38.568528,
     "geom:longitude":-106.914428,
@@ -27,19 +32,28 @@
         "stable"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554443
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5aJ9z7BsD3ITu2y1i5wdex_38.568528_-106.914428@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455147,
-    "wof:geomhash":"2da130517f4952657ef8d2cf45d3cd8b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7bfdb84e2d3d0b833c2fed9f201ffc31",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554443,
+            "venue_id":824130251
+        }
+    ],
     "wof:id":824130251,
-    "wof:lastmodified":1466415912,
+    "wof:lastmodified":1492128745,
     "wof:name":"Lazy F-Bar Outfitters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554443,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

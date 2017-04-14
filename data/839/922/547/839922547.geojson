@@ -2,9 +2,14 @@
   "id": 839922547,
   "type": "Feature",
   "properties": {
+    "addr:full":"5569 Clay St Denver CO 80221",
+    "addr:housenumber":"5569",
+    "addr:postcode":"80221",
+    "addr:street":"Clay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02064,39.797088,-105.02064,39.797088",
     "geom:latitude":39.797088,
     "geom:longitude":-105.02064,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6jmvhj0RBGyn1Rlh3Bwc2a_39.797088_-105.020640@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457592,
-    "wof:geomhash":"2e653081168274ce88b6886953ac0e0d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7a52bfd0c578f4372890066d24b7e659",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553615,
+            "region_id":85688603,
+            "venue_id":839922547
+        }
+    ],
     "wof:id":839922547,
-    "wof:lastmodified":1466413648,
+    "wof:lastmodified":1492113314,
     "wof:name":"MDS Concrete",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

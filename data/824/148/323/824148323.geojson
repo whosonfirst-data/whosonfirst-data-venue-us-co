@@ -2,9 +2,14 @@
   "id": 824148323,
   "type": "Feature",
   "properties": {
+    "addr:full":"780 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"780",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994801,39.848857,-104.994801,39.848857",
     "geom:latitude":39.848857,
     "geom:longitude":-104.994801,
@@ -27,19 +32,36 @@
         "transmission"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553867
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0rfgWCFo8MbbmyJXaGzjVA_39.848857_-104.994801@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455843,
-    "wof:geomhash":"0fddf665ee4553b073d3805a97b531c9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"48669a9a07989fbedf550ef35ab6b26c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553867,
+            "region_id":85688603,
+            "venue_id":824148323
+        }
+    ],
     "wof:id":824148323,
-    "wof:lastmodified":1466416751,
+    "wof:lastmodified":1492130186,
     "wof:name":"A Affordable Transmission Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553867,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

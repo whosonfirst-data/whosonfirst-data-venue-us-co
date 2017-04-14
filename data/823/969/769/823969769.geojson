@@ -2,9 +2,14 @@
   "id": 823969769,
   "type": "Feature",
   "properties": {
+    "addr:full":"5850 W Yale Ave Denver CO 80227",
+    "addr:housenumber":"5850",
+    "addr:postcode":"80227",
+    "addr:street":"W Yale Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060463,39.667705,-105.060463,39.667705",
     "geom:latitude":39.667705,
     "geom:longitude":-105.060463,
@@ -29,19 +34,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871249,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3wDbZSmaA7ivLitktENhiA_39.667705_-105.060463@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451254,
-    "wof:geomhash":"c7b24e7ba0ae45a40b006a8d1673e546",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aa1c12005cb35104dc7a8ee40d915bcb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871249,
+            "region_id":85688603,
+            "venue_id":823969769
+        }
+    ],
     "wof:id":823969769,
-    "wof:lastmodified":1466420866,
+    "wof:lastmodified":1492119083,
     "wof:name":"Mighty Duct",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

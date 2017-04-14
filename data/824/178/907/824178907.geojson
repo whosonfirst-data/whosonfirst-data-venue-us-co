@@ -2,9 +2,14 @@
   "id": 824178907,
   "type": "Feature",
   "properties": {
+    "addr:full":"140 Drake St Denver CO 80221",
+    "addr:housenumber":"140",
+    "addr:postcode":"80221",
+    "addr:street":"Drake St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.989694,39.837763,-104.989694,39.837763",
     "geom:latitude":39.837763,
     "geom:longitude":-104.989694,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Kcp2DTnirHbpxkTJgq3wi_39.837763_-104.989694@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457021,
-    "wof:geomhash":"b24644551759f12b67e22e8df35d9aa9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e71f26a315c8d26d34264056b69b005f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553625,
+            "region_id":85688603,
+            "venue_id":824178907
+        }
+    ],
     "wof:id":824178907,
-    "wof:lastmodified":1466418242,
+    "wof:lastmodified":1492129346,
     "wof:name":"M & S Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823848097,
   "type": "Feature",
   "properties": {
+    "addr:full":"2007 Capulin Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2007",
+    "addr:postcode":"80910",
+    "addr:street":"Capulin Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.770415,38.803468,-104.770415,38.803468",
     "geom:latitude":38.803468,
     "geom:longitude":-104.770415,
@@ -27,19 +32,36 @@
         "janitor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6yCLwrlRBlPjD5UhLlX5V5_38.803468_-104.770415@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448172,
-    "wof:geomhash":"d8ca312e1b5a2032011838922b410199",
-    "wof:hierarchy":[],
+    "wof:geomhash":"771386849981328f2565c307b410191f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823848097
+        }
+    ],
     "wof:id":823848097,
-    "wof:lastmodified":1466419857,
+    "wof:lastmodified":1492127123,
     "wof:name":"Absolute Quality Janitorial",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

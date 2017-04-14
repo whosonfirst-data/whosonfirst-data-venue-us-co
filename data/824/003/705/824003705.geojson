@@ -2,9 +2,14 @@
   "id": 824003705,
   "type": "Feature",
   "properties": {
+    "addr:full":"172 Co Rd 221 Durango CO 81303",
+    "addr:housenumber":"172;221",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.791847,37.21491,-107.791847,37.21491",
     "geom:latitude":37.21491,
     "geom:longitude":-107.791847,
@@ -27,19 +32,28 @@
         "day"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1aacGQIcVgvQgGBoaYcE9k_37.214910_-107.791847@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452072,
-    "wof:geomhash":"dc02d3febd5675b34ccd6a0c756b8ab3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dc0644b5d0c17296afd6e9b227aa2421",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824003705
+        }
+    ],
     "wof:id":824003705,
-    "wof:lastmodified":1466412326,
+    "wof:lastmodified":1492132608,
     "wof:name":"Florida Mesa Preschool",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

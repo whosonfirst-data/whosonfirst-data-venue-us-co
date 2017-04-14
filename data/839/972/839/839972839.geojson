@@ -2,9 +2,14 @@
   "id": 839972839,
   "type": "Feature",
   "properties": {
+    "addr:full":"1007 N 7th St Grand Junction CO 81501",
+    "addr:housenumber":"1007",
+    "addr:postcode":"81501",
+    "addr:street":"N 7Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.561123,39.077339,-108.561123,39.077339",
     "geom:latitude":39.077339,
     "geom:longitude":-108.561123,
@@ -27,19 +32,36 @@
         "investor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_420pDFWvUm6rZPbwkHndPP_39.077339_-108.561123@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460136,
-    "wof:geomhash":"562646798a400cf8645910ba5efac84c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"19f58500fddf4ef3fbbd8efbdfc782d8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":839972839
+        }
+    ],
     "wof:id":839972839,
-    "wof:lastmodified":1466416538,
+    "wof:lastmodified":1492112549,
     "wof:name":"K & K Investors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

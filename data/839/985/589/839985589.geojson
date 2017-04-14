@@ -2,9 +2,14 @@
   "id": 839985589,
   "type": "Feature",
   "properties": {
+    "addr:full":"860 Gilpin Dr Boulder CO 80303",
+    "addr:housenumber":"860",
+    "addr:postcode":"80303",
+    "addr:street":"Gilpin Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.243646,40.002831,-105.243646,40.002831",
     "geom:latitude":40.002831,
     "geom:longitude":-105.243646,
@@ -22,19 +27,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_76NpcGmDCuDXTe1bLnoxXX_40.002831_-105.243646@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460642,
-    "wof:geomhash":"27f45d61f08f4cbc91a3b8f28ab66c26",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bd028dc63ef90dc095415e11bde3875b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":839985589
+        }
+    ],
     "wof:id":839985589,
-    "wof:lastmodified":1466417296,
+    "wof:lastmodified":1492112297,
     "wof:name":"Bakerytech LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

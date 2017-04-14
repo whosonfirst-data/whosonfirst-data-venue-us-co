@@ -2,9 +2,14 @@
   "id": 823608561,
   "type": "Feature",
   "properties": {
+    "addr:full":"302 Pearl St Boulder CO 80302",
+    "addr:housenumber":"302",
+    "addr:postcode":"80302",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.290446,40.015685,-105.290446,40.015685",
     "geom:latitude":40.015685,
     "geom:longitude":-105.290446,
@@ -27,19 +32,36 @@
         "human"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7NsLR1JeHz8snYLQhZeFZM_40.015685_-105.290446@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442099,
-    "wof:geomhash":"646ebda7b612b9297a39244c4c3a0e34",
-    "wof:hierarchy":[],
+    "wof:geomhash":"060cf8fe92ce02914f949e88052c439f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":823608561
+        }
+    ],
     "wof:id":823608561,
-    "wof:lastmodified":1466417283,
+    "wof:lastmodified":1492124288,
     "wof:name":"Solstice Institute",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

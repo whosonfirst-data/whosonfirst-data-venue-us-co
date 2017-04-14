@@ -2,9 +2,14 @@
   "id": 823803591,
   "type": "Feature",
   "properties": {
+    "addr:full":"5002 E 111th Pl Denver CO 80233",
+    "addr:housenumber":"5002",
+    "addr:postcode":"80233",
+    "addr:street":"E 111Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.92733,39.899031,-104.92733,39.899031",
     "geom:latitude":39.899031,
     "geom:longitude":-104.92733,
@@ -30,19 +35,36 @@
         "sewer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553691
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0W4UuHy1feIBjvL7oilG9o_39.899031_-104.927330@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446809,
-    "wof:geomhash":"7441d200d5e8a881d2137a0f1552c769",
-    "wof:hierarchy":[],
+    "wof:geomhash":"451b067c6b0a57e65bc867911c2d7e9d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553691,
+            "region_id":85688603,
+            "venue_id":823803591
+        }
+    ],
     "wof:id":823803591,
-    "wof:lastmodified":1466419433,
+    "wof:lastmodified":1492127065,
     "wof:name":"Day To Day Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553691,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823479515,
   "type": "Feature",
   "properties": {
+    "addr:full":"200 S Boulevard St Gunnison CO 81230",
+    "addr:housenumber":"200",
+    "addr:postcode":"81230",
+    "addr:street":"S Boulevard St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.933379,38.543275,-106.933379,38.543275",
     "geom:latitude":38.543275,
     "geom:longitude":-106.933379,
@@ -24,19 +29,46 @@
     "sg:postcode":"81230",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453,
+        420554465
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6L6Zcg827ZWhAIFWDPAPSs_38.543275_-106.933379@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439070,
-    "wof:geomhash":"71658a08d88361af88e06ef0acb2b464",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a4cc0c0b37e3e649b77093b8d42f6656",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":823479515
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554465,
+            "region_id":85688603,
+            "venue_id":823479515
+        }
+    ],
     "wof:id":823479515,
-    "wof:lastmodified":1466413305,
+    "wof:lastmodified":1492117154,
     "wof:name":"AB Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

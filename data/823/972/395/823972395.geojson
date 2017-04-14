@@ -2,9 +2,14 @@
   "id": 823972395,
   "type": "Feature",
   "properties": {
+    "addr:full":"5111 W Alameda Ave Denver CO 80219",
+    "addr:housenumber":"5111",
+    "addr:postcode":"80219",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053156,39.711416,-105.053156,39.711416",
     "geom:latitude":39.711416,
     "geom:longitude":-105.053156,
@@ -28,7 +33,15 @@
         "transfer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4VXaqn1NzLinopgPFP9bsl_39.711416_-105.053156@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463451303,
     "wof:geomhash":"6ce3136dda2f235a87c5a31babc68761",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":823972395
+        }
+    ],
     "wof:id":823972395,
-    "wof:lastmodified":1466421049,
+    "wof:lastmodified":1486593767,
     "wof:name":"Dolex Dollar Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

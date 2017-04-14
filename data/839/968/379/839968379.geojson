@@ -2,9 +2,14 @@
   "id": 839968379,
   "type": "Feature",
   "properties": {
+    "addr:full":"9867 Detroit St Denver CO 80229",
+    "addr:housenumber":"9867",
+    "addr:postcode":"80229",
+    "addr:street":"Detroit St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.953732,39.874676,-104.953732,39.874676",
     "geom:latitude":39.874676,
     "geom:longitude":-104.953732,
@@ -29,19 +34,36 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1cVzs0C8yUdynLUDzyFRME_39.874676_-104.953732@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459942,
-    "wof:geomhash":"52dbb9fdb0a167d49a6e3323b23bb13d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"31e8b3afba45a1bdd01419bc0651bd93",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":839968379
+        }
+    ],
     "wof:id":839968379,
-    "wof:lastmodified":1466416139,
+    "wof:lastmodified":1492114497,
     "wof:name":"Request Carpet Cleaning Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

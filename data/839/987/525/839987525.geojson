@@ -2,9 +2,14 @@
   "id": 839987525,
   "type": "Feature",
   "properties": {
+    "addr:full":"8555 W Belleview Ave Littleton CO 80123",
+    "addr:housenumber":"8555",
+    "addr:postcode":"80123",
+    "addr:street":"W Belleview Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.092372,39.62574,-105.092372,39.62574",
     "geom:latitude":39.62574,
     "geom:longitude":-105.092372,
@@ -29,19 +34,38 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871357,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_04n9C6fd72WXtCUBVpWRlY_39.625740_-105.092372@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460725,
-    "wof:geomhash":"d085b36d70608987df718df269f54e12",
-    "wof:hierarchy":[],
+    "wof:geomhash":"af29511e1e0b7b9d45ecead30967b1cb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871357,
+            "region_id":85688603,
+            "venue_id":839987525
+        }
+    ],
     "wof:id":839987525,
-    "wof:lastmodified":1466417402,
+    "wof:lastmodified":1492113655,
     "wof:name":"Papa John's Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

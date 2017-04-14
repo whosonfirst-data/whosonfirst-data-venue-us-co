@@ -2,9 +2,14 @@
   "id": 839914631,
   "type": "Feature",
   "properties": {
+    "addr:full":"3261 W 95th Ave Westminster CO 80031",
+    "addr:housenumber":"3261",
+    "addr:postcode":"80031",
+    "addr:street":"W 95Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030672,39.870038,-105.030672,39.870038",
     "geom:latitude":39.870038,
     "geom:longitude":-105.030672,
@@ -28,19 +33,36 @@
         "mill"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6cMOXh1lneprdMIzN64jZ2_39.870038_-105.030672@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457281,
-    "wof:geomhash":"d14a576e59fa1c395472b685a48bcdc8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"557ccb12f2f9089f9ed4ac737374ad8b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":839914631
+        }
+    ],
     "wof:id":839914631,
-    "wof:lastmodified":1466412875,
+    "wof:lastmodified":1492112873,
     "wof:name":"Mile High Hardwoods",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

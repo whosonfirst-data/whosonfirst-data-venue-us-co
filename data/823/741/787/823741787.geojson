@@ -2,9 +2,14 @@
   "id": 823741787,
   "type": "Feature",
   "properties": {
+    "addr:full":"4740 E 125th Ave Denver CO 80241",
+    "addr:housenumber":"4740",
+    "addr:postcode":"80241",
+    "addr:street":"E 125Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.930906,39.922262,-104.930906,39.922262",
     "geom:latitude":39.922262,
     "geom:longitude":-104.930906,
@@ -31,19 +36,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553661
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0BGkr77X79rqWbHSFEfuSK_39.922262_-104.930906@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445192,
-    "wof:geomhash":"61644b246b742c14f2cd07eeff67c0e8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0d5ac72eb23a4036ca3715c77467605b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553661,
+            "region_id":85688603,
+            "venue_id":823741787
+        }
+    ],
     "wof:id":823741787,
-    "wof:lastmodified":1466418885,
+    "wof:lastmodified":1492125813,
     "wof:name":"Razortek Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553661,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

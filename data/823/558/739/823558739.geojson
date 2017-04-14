@@ -2,9 +2,14 @@
   "id": 823558739,
   "type": "Feature",
   "properties": {
+    "addr:full":"4342 Freeport Way Denver CO 80239",
+    "addr:housenumber":"4342",
+    "addr:postcode":"80239",
+    "addr:street":"Freeport Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.817368,39.774731,-104.817368,39.774731",
     "geom:latitude":39.774731,
     "geom:longitude":-104.817368,
@@ -27,7 +32,15 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7d4T2oghoUdlrBHFBHeB3U_39.774731_-104.817368@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463440904,
     "wof:geomhash":"4c8a3bc7b52e0280ea5f60ca2bc92b3a",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823558739
+        }
+    ],
     "wof:id":823558739,
-    "wof:lastmodified":1466416144,
+    "wof:lastmodified":1491887456,
     "wof:name":"Frierson Intl Ministries",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

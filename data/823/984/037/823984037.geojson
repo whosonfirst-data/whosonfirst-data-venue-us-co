@@ -2,9 +2,14 @@
   "id": 823984037,
   "type": "Feature",
   "properties": {
+    "addr:full":"2180 E 74th Ave Denver CO 80229",
+    "addr:housenumber":"2180",
+    "addr:postcode":"80229",
+    "addr:street":"E 74Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961333,39.830813,-104.961333,39.830813",
     "geom:latitude":39.830813,
     "geom:longitude":-104.961333,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6qUck8vszhEDzpkF4OVoWY_39.830813_-104.961333@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451587,
-    "wof:geomhash":"f184b979f72f708cdf86d53dfaf9076e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1467647227307d56d715d913a55641aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823984037
+        }
+    ],
     "wof:id":823984037,
-    "wof:lastmodified":1466420896,
+    "wof:lastmodified":1492118188,
     "wof:name":"Abco Contracting Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

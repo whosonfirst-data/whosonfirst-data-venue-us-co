@@ -2,9 +2,14 @@
   "id": 823525269,
   "type": "Feature",
   "properties": {
+    "addr:full":"2213 E 129th Ave Denver CO 80241",
+    "addr:housenumber":"2213",
+    "addr:postcode":"80241",
+    "addr:street":"E 129Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.960522,39.930737,-104.960522,39.930737",
     "geom:latitude":39.930737,
     "geom:longitude":-104.960522,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2DOMkxM397UWBZxbeu1mVl_39.930737_-104.960522@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440144,
-    "wof:geomhash":"b732d12f5dfc54925e6624f40cf1bfb1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"204bb55eecd17e4a0b86fa327bc27a4b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823525269
+        }
+    ],
     "wof:id":823525269,
-    "wof:lastmodified":1466414989,
+    "wof:lastmodified":1492119170,
     "wof:name":"RDM Electrical Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

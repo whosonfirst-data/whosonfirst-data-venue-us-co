@@ -2,9 +2,14 @@
   "id": 823850311,
   "type": "Feature",
   "properties": {
+    "addr:full":"2112 Stoney Pine Ct Fort Collins CO 80525",
+    "addr:housenumber":"2112",
+    "addr:postcode":"80525",
+    "addr:street":"Stoney Pine Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.038485,40.527155,-105.038485,40.527155",
     "geom:latitude":40.527155,
     "geom:longitude":-105.038485,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554731
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0WRdKcWKlhvUKVIQeHAMiS_40.527155_-105.038485@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448228,
-    "wof:geomhash":"07eb525ca22c49a2991381ac8ea98274",
-    "wof:hierarchy":[],
+    "wof:geomhash":"31f984fc8c6c3f1b6882265dad928351",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554731,
+            "region_id":85688603,
+            "venue_id":823850311
+        }
+    ],
     "wof:id":823850311,
-    "wof:lastmodified":1466419879,
+    "wof:lastmodified":1492117792,
     "wof:name":"Manns Landscaping & Construct",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554731,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

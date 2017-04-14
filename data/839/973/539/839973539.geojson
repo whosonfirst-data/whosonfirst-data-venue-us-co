@@ -2,9 +2,14 @@
   "id": 839973539,
   "type": "Feature",
   "properties": {
+    "addr:full":"501 E Olive St Lamar CO 81052",
+    "addr:housenumber":"501",
+    "addr:postcode":"81052",
+    "addr:street":"E Olive St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.612218,38.088457,-102.612218,38.088457",
     "geom:latitude":38.088457,
     "geom:longitude":-102.612218,
@@ -28,17 +33,32 @@
         "line"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928855,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3AKRQoA1s3uIIsLBVlBILh_38.088457_-102.612218@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460161,
-    "wof:geomhash":"0d883f0447cbe236f137391cbcd49d94",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1756d5940b13bdfdaf9acd37ac215b18",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928855,
+            "region_id":85688603,
+            "venue_id":839973539
+        }
+    ],
     "wof:id":839973539,
-    "wof:lastmodified":1466416385,
+    "wof:lastmodified":1492112852,
     "wof:name":"TNM & O Bus Station",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

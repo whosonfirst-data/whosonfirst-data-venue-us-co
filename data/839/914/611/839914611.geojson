@@ -2,9 +2,14 @@
   "id": 839914611,
   "type": "Feature",
   "properties": {
+    "addr:full":"15611 Colorado Blvd Brighton CO 80602",
+    "addr:housenumber":"15611",
+    "addr:postcode":"80602",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940341,39.979513,-104.940341,39.979513",
     "geom:latitude":39.979513,
     "geom:longitude":-104.940341,
@@ -29,19 +34,28 @@
         "sensor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3WdTjiUyUxFAfKMD5D0WSd_39.979513_-104.940341@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457281,
-    "wof:geomhash":"4b2281decc923873da101334335a4e18",
-    "wof:hierarchy":[],
+    "wof:geomhash":"23ee4f62fec2fa57c555b985be5c8a63",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553345,
+            "venue_id":839914611
+        }
+    ],
     "wof:id":839914611,
-    "wof:lastmodified":1466412872,
+    "wof:lastmodified":1492112870,
     "wof:name":"Millennium Sensor  LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

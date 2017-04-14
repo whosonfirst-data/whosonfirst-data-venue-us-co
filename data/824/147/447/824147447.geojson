@@ -2,9 +2,14 @@
   "id": 824147447,
   "type": "Feature",
   "properties": {
+    "addr:full":"2043 W 52nd Pl Denver CO 80221",
+    "addr:housenumber":"2043",
+    "addr:postcode":"80221",
+    "addr:street":"W 52Nd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.011495,39.791953,-105.011495,39.791953",
     "geom:latitude":39.791953,
     "geom:longitude":-105.011495,
@@ -27,17 +32,32 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5rMKg4Chm5cXNShfrcVhfl_39.791953_-105.011495@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455802,
-    "wof:geomhash":"25bdb8d7581ce8ecd9415a6000919abf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"90b3f01178d825efea11794cb0927dbd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "region_id":85688603,
+            "venue_id":824147447
+        }
+    ],
     "wof:id":824147447,
-    "wof:lastmodified":1466416703,
+    "wof:lastmodified":1492131654,
     "wof:name":"Mc Custom Building",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

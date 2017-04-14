@@ -2,9 +2,14 @@
   "id": 824070003,
   "type": "Feature",
   "properties": {
+    "addr:full":"473 Cougar Run Ct Clifton CO 81520",
+    "addr:housenumber":"473",
+    "addr:postcode":"81520",
+    "addr:street":"Cougar Run Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.441857,39.071878,-108.441857,39.071878",
     "geom:latitude":39.071878,
     "geom:longitude":-108.441857,
@@ -29,19 +34,36 @@
         "instruction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4xOlgfI3rPKRd3PgtYLRCD_39.071878_-108.441857@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453609,
-    "wof:geomhash":"6a8a092d07bdc66445079ae41fefc706",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ee7f846dca7259df02068383b95257d4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":824070003
+        }
+    ],
     "wof:id":824070003,
-    "wof:lastmodified":1466414470,
+    "wof:lastmodified":1492132479,
     "wof:name":"Ebmas Wing Tzun Kung Fu",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

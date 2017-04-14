@@ -2,9 +2,14 @@
   "id": 823720679,
   "type": "Feature",
   "properties": {
+    "addr:full":"3449 Stone Ln Steamboat Spgs CO 80487",
+    "addr:housenumber":"3449",
+    "addr:postcode":"80487",
+    "addr:street":"Stone Ln;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.809866,40.444872,-106.809866,40.444872",
     "geom:latitude":40.444872,
     "geom:longitude":-106.809866,
@@ -27,19 +32,46 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555287,
+        420555239
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5kiA5PNTc0tk9gzocIStrO_40.444872_-106.809866@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444665,
-    "wof:geomhash":"3c3daeb24a44b356761adf3cd4f82934",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cfa81a1467b7bd8307cd66551f763c53",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555287,
+            "region_id":85688603,
+            "venue_id":823720679
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555239,
+            "region_id":85688603,
+            "venue_id":823720679
+        }
+    ],
     "wof:id":823720679,
-    "wof:lastmodified":1466418727,
+    "wof:lastmodified":1492121949,
     "wof:name":"Spatial Data Technologies",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

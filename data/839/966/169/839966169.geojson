@@ -2,9 +2,14 @@
   "id": 839966169,
   "type": "Feature",
   "properties": {
+    "addr:full":"21 E Main St Cortez CO 81321",
+    "addr:housenumber":"21",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.584113,37.348564,-108.584113,37.348564",
     "geom:latitude":37.348564,
     "geom:longitude":-108.584113,
@@ -27,19 +32,28 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_146jAnSY7Dgg6EaIrXhJgr_37.348564_-108.584113@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459862,
-    "wof:geomhash":"a389d304ea1afd6b97f389970ef115c8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"654797ec2461ee14b9b2a4a1d8ad3e68",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":839966169
+        }
+    ],
     "wof:id":839966169,
-    "wof:lastmodified":1466415935,
+    "wof:lastmodified":1492111300,
     "wof:name":"Main Street Brewery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

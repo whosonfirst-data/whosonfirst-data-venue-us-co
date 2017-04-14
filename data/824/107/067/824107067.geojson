@@ -2,9 +2,14 @@
   "id": 824107067,
   "type": "Feature",
   "properties": {
+    "addr:full":"2400 Lincoln Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"2400",
+    "addr:postcode":"80487",
+    "addr:street":"Lincoln Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.861527,40.502901,-106.861527,40.502901",
     "geom:latitude":40.502901,
     "geom:longitude":-106.861527,
@@ -28,19 +33,46 @@
         "parts"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555365,
+        420555187
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_17xiwCvVyv0zA4SqW4oU0T_40.502901_-106.861527@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454487,
-    "wof:geomhash":"1cb6922c9ffea9a1ab12bfc0a60756d2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"131b7a60ca5bd27ce5dc28cee6b9b50c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555365,
+            "region_id":85688603,
+            "venue_id":824107067
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555187,
+            "region_id":85688603,
+            "venue_id":824107067
+        }
+    ],
     "wof:id":824107067,
-    "wof:lastmodified":1466415184,
+    "wof:lastmodified":1492130043,
     "wof:name":"Carquest Auto Parts",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

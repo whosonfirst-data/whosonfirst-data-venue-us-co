@@ -2,9 +2,14 @@
   "id": 823771643,
   "type": "Feature",
   "properties": {
+    "addr:full":"2638 King St Denver CO 80211",
+    "addr:housenumber":"2638",
+    "addr:postcode":"80211",
+    "addr:street":"King St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033354,39.755958,-105.033354,39.755958",
     "geom:latitude":39.755958,
     "geom:longitude":-105.033354,
@@ -28,19 +33,38 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7JE1TbcV1h7xxG4akcwUIw_39.755958_-105.033354@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445861,
-    "wof:geomhash":"f160ae456560bde37f78aedd8cb1f23c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab1eeda96c7d3c37ace8ba90617df1d8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":823771643
+        }
+    ],
     "wof:id":823771643,
-    "wof:lastmodified":1466418966,
+    "wof:lastmodified":1492119039,
     "wof:name":"Ire Holdings Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

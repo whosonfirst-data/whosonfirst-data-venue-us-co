@@ -2,9 +2,14 @@
   "id": 823483109,
   "type": "Feature",
   "properties": {
+    "addr:full":"104 Sheppard Dr Durango CO 81303",
+    "addr:housenumber":"104",
+    "addr:postcode":"co 81303",
+    "addr:street":"Sheppard Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.873526,37.23616,-107.873526,37.23616",
     "geom:latitude":37.23616,
     "geom:longitude":-107.873526,
@@ -27,19 +32,28 @@
         "claim"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4iC2wSCLUAfGXe4Py4LoY5_37.236160_-107.873526@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439148,
-    "wof:geomhash":"f817661b41a15d9ac0c4f3b06b9910be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5e4502c630e14c303d0e67b15f39189b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":823483109
+        }
+    ],
     "wof:id":823483109,
-    "wof:lastmodified":1466413671,
+    "wof:lastmodified":1492125696,
     "wof:name":"State Farm Insurance",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

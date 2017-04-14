@@ -2,9 +2,14 @@
   "id": 839949693,
   "type": "Feature",
   "properties": {
+    "addr:full":"819 E 132nd Dr Denver CO 80241",
+    "addr:housenumber":"819",
+    "addr:postcode":"80241",
+    "addr:street":"E 132Nd Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.976753,39.935586,-104.976753,39.935586",
     "geom:latitude":39.935586,
     "geom:longitude":-104.976753,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1uKPHG5sj9UTdCYxTsYQ1a_39.935586_-104.976753@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459113,
-    "wof:geomhash":"e31a3a7d75d2755c9a2cbacdcca1012e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bfb33010ad94ff782df78a1ffbb8302e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":839949693
+        }
+    ],
     "wof:id":839949693,
-    "wof:lastmodified":1466415309,
+    "wof:lastmodified":1492111704,
     "wof:name":"Great Barrier Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

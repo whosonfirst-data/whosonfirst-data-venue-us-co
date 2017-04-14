@@ -2,9 +2,14 @@
   "id": 823745989,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 Charlotte St Johnstown CO 80534",
+    "addr:housenumber":"101",
+    "addr:postcode":"80534",
+    "addr:street":"Charlotte St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.907108,40.336098,-104.907108,40.336098",
     "geom:latitude":40.336098,
     "geom:longitude":-104.907108,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6pYcUPGaCsIgKFiX6TLRCb_40.336098_-104.907108@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445286,
-    "wof:geomhash":"6128c39ba3e3ca40a9ec00659f20bd47",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6b6f46be31d808f49733f953d0936814",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823745989
+        }
+    ],
     "wof:id":823745989,
-    "wof:lastmodified":1466418969,
+    "wof:lastmodified":1492125427,
     "wof:name":"Johnstown Senior Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

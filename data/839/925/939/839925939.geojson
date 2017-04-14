@@ -2,9 +2,14 @@
   "id": 839925939,
   "type": "Feature",
   "properties": {
+    "addr:full":"11455 Washington St Denver CO 80233",
+    "addr:housenumber":"11455",
+    "addr:postcode":"80233",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977859,39.903962,-104.977859,39.903962",
     "geom:latitude":39.903962,
     "geom:longitude":-104.977859,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2D9XnYiBr9Nxg2hUjxXlR0_39.903962_-104.977859@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457765,
-    "wof:geomhash":"18f36ac6af95e118d8acef543bfdbfbb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0f6eb7d1f21ec7269d32cb556c3c7e30",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":839925939
+        }
+    ],
     "wof:id":839925939,
-    "wof:lastmodified":1466413970,
+    "wof:lastmodified":1492114275,
     "wof:name":"Tokyo Teriyaki",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

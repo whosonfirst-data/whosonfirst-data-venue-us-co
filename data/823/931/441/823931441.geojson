@@ -2,9 +2,14 @@
   "id": 823931441,
   "type": "Feature",
   "properties": {
+    "addr:full":"2600 Jacob Cir Steamboat Spgs CO 80487",
+    "addr:housenumber":"2600",
+    "addr:postcode":"80487",
+    "addr:street":"Jacob Cir;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.860191,40.50828,-106.860191,40.50828",
     "geom:latitude":40.50828,
     "geom:longitude":-106.860191,
@@ -28,19 +33,46 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555387,
+        420555365
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_14tA65UW8WECIkMIBpsSTy_40.508280_-106.860191@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450283,
-    "wof:geomhash":"bda1531ac3306c4da2353d7468f739bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"568c89c163a4631a2cf160ff7b16ba8f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555387,
+            "region_id":85688603,
+            "venue_id":823931441
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555365,
+            "region_id":85688603,
+            "venue_id":823931441
+        }
+    ],
     "wof:id":823931441,
-    "wof:lastmodified":1466420276,
+    "wof:lastmodified":1492119453,
     "wof:name":"E-Z Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

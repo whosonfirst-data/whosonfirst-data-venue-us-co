@@ -2,9 +2,14 @@
   "id": 823909919,
   "type": "Feature",
   "properties": {
+    "addr:full":"15 Marcellina Ln Crested Butte CO 81225",
+    "addr:housenumber":"15",
+    "addr:postcode":"81225",
+    "addr:street":"Marcellina Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.971041,38.901886,-106.971041,38.901886",
     "geom:latitude":38.901886,
     "geom:longitude":-106.971041,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929469,
+        102083377,
+        420554495
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6NHexjbn4UyX0ymWuMizWf_38.901886_-106.971041@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449744,
-    "wof:geomhash":"2e08c99af97c795e557bb72b1dc26ba0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5567f51f8504058fc5208acfc95ebbc2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929469,
+            "neighbourhood_id":420554495,
+            "region_id":85688603,
+            "venue_id":823909919
+        }
+    ],
     "wof:id":823909919,
-    "wof:lastmodified":1466420266,
+    "wof:lastmodified":1492122967,
     "wof:name":"Benchmark Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554495,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

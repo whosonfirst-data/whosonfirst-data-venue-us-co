@@ -2,9 +2,14 @@
   "id": 823961629,
   "type": "Feature",
   "properties": {
+    "addr:full":"212 Maple Ave La Junta CO 81050",
+    "addr:housenumber":"212",
+    "addr:postcode":"81050",
+    "addr:street":"Maple Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.550812,37.986782,-103.550812,37.986782",
     "geom:latitude":37.986782,
     "geom:longitude":-103.550812,
@@ -27,17 +32,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929689,
+        102084015
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1LXcOjrv8UmCri7mKawLIN_37.986782_-103.550812@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451063,
-    "wof:geomhash":"408309910ab7c9a1432ae4b74b15ee6c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fe87f4d3fda8387e466bb6b277d5eeb9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084015,
+            "locality_id":85929689,
+            "region_id":85688603,
+            "venue_id":823961629
+        }
+    ],
     "wof:id":823961629,
-    "wof:lastmodified":1466420672,
+    "wof:lastmodified":1492119503,
     "wof:name":"Golden Maple Villa",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

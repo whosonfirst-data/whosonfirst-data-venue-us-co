@@ -2,9 +2,14 @@
   "id": 823569233,
   "type": "Feature",
   "properties": {
+    "addr:full":"2725 S College Ave Fort Collins CO 80525",
+    "addr:housenumber":"2725",
+    "addr:postcode":"80525",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.077115,40.549384,-105.077115,40.549384",
     "geom:latitude":40.549384,
     "geom:longitude":-105.077115,
@@ -28,19 +33,36 @@
         "fixture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554753
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3pqCY9Hmy9PLUaWLl28FWJ_40.549384_-105.077115@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441171,
-    "wof:geomhash":"6865ad3aaa8e9f84d0911b8051dcb0b0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d3c9737646d43221e5732cd1a20918f8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554753,
+            "region_id":85688603,
+            "venue_id":823569233
+        }
+    ],
     "wof:id":823569233,
-    "wof:lastmodified":1466416238,
+    "wof:lastmodified":1492117395,
     "wof:name":"Light Center The Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554753,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824077561,
   "type": "Feature",
   "properties": {
+    "addr:full":"7072 Pecos St Denver CO 80221",
+    "addr:housenumber":"7072",
+    "addr:postcode":"80221",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00604,39.824428,-105.00604,39.824428",
     "geom:latitude":39.824428,
     "geom:longitude":-105.00604,
@@ -27,19 +32,36 @@
         "cleaners"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4dJ8AhM4krnTnhtcKEWvke_39.824428_-105.006040@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453798,
-    "wof:geomhash":"92bc2bdb94b1b10ed220e57fd770813b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3036f1d52431fe24bd187fb245423511",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":824077561
+        }
+    ],
     "wof:id":824077561,
-    "wof:lastmodified":1466414779,
+    "wof:lastmodified":1492131465,
     "wof:name":"Krest 60 Minute Cleaners",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

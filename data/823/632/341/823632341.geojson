@@ -2,9 +2,14 @@
   "id": 823632341,
   "type": "Feature",
   "properties": {
+    "addr:full":"10927 Alvin Dr Denver CO 80233",
+    "addr:housenumber":"10927",
+    "addr:postcode":"80233",
+    "addr:street":"Alvin Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974266,39.895597,-104.974266,39.895597",
     "geom:latitude":39.895597,
     "geom:longitude":-104.974266,
@@ -34,19 +39,36 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1JlUJSLkcEz39BdT9xDCSm_39.895597_-104.974266@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442679,
-    "wof:geomhash":"810379611d9a58f3ca536819f324e7ed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5e7783c52a78781d7c0c31a07275305a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823632341
+        }
+    ],
     "wof:id":823632341,
-    "wof:lastmodified":1466417591,
+    "wof:lastmodified":1492122924,
     "wof:name":"Guardrail Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

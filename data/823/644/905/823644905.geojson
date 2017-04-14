@@ -2,9 +2,14 @@
   "id": 823644905,
   "type": "Feature",
   "properties": {
+    "addr:full":"5025 Dahlia St Denver CO 80216",
+    "addr:housenumber":"5025",
+    "addr:postcode":"80216",
+    "addr:street":"Dahlia St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931684,39.788662,-104.931684,39.788662",
     "geom:latitude":39.788662,
     "geom:longitude":-104.931684,
@@ -28,7 +33,16 @@
         "hydraulic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750051,
+        85840547,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2sl3bWfkIgNHigyeFhjoCg_39.788662_-104.931684@1294083659"
@@ -36,11 +50,23 @@
     "wof:country":"US",
     "wof:created":1463442965,
     "wof:geomhash":"43808ff1a58028cf366042b5781073d8",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750051,
+            "neighbourhood_id":85840547,
+            "region_id":85688603,
+            "venue_id":823644905
+        }
+    ],
     "wof:id":823644905,
-    "wof:lastmodified":1466417992,
+    "wof:lastmodified":1486604433,
     "wof:name":"Sunsource/Warren Fluid Power",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823680969,
   "type": "Feature",
   "properties": {
+    "addr:full":"428 Pleasant St Boulder CO 80302",
+    "addr:housenumber":"428",
+    "addr:postcode":"80302",
+    "addr:street":"Pleasant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.289417,40.009338,-105.289417,40.009338",
     "geom:latitude":40.009338,
     "geom:longitude":-105.289417,
@@ -29,19 +34,36 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_003mBjsi5nPKixJDBIEpDu_40.009338_-105.289417@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443807,
-    "wof:geomhash":"e2aa67b68878106c3e63ecae9b841adb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"67b8278bd78ec3c7ccd2622ee0dc23a8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":823680969
+        }
+    ],
     "wof:id":823680969,
-    "wof:lastmodified":1466418408,
+    "wof:lastmodified":1492123934,
     "wof:name":"DJay Investments LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

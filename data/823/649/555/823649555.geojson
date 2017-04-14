@@ -2,9 +2,14 @@
   "id": 823649555,
   "type": "Feature",
   "properties": {
+    "addr:full":"909 Arapahoe Ave Boulder CO 80302",
+    "addr:housenumber":"909",
+    "addr:postcode":"80302",
+    "addr:street":"Arapahoe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.282002,40.013508,-105.282002,40.013508",
     "geom:latitude":40.013508,
     "geom:longitude":-105.282002,
@@ -27,7 +32,14 @@
         "executive"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_53PBuDNayHbK5T8UemIzOy_40.013508_-105.282002@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463443072,
     "wof:geomhash":"f617d4570203a694a0d3b8b6b188a160",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823649555
+        }
+    ],
     "wof:id":823649555,
-    "wof:lastmodified":1466417903,
+    "wof:lastmodified":1491897944,
     "wof:name":"Boulder Senior Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

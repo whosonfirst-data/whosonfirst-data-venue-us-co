@@ -2,9 +2,14 @@
   "id": 823675461,
   "type": "Feature",
   "properties": {
+    "addr:full":"380 Airport Rd Durango CO 81303",
+    "addr:housenumber":"380",
+    "addr:postcode":"co 81303",
+    "addr:street":"Airport Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.750378,37.171782,-107.750378,37.171782",
     "geom:latitude":37.171782,
     "geom:longitude":-107.750378,
@@ -35,19 +40,28 @@
     ],
     "sg:website":"www.bp.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5MNkn9OaX0DW9hZgZY0a88_37.171782_-107.750378@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443691,
-    "wof:geomhash":"ad3f6e50e059b345ef000ad1ee3a0652",
-    "wof:hierarchy":[],
+    "wof:geomhash":"62ae5850c8976d3ef52133077e98cb42",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823675461
+        }
+    ],
     "wof:id":823675461,
-    "wof:lastmodified":1466418352,
+    "wof:lastmodified":1492118757,
     "wof:name":"B P America Production Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

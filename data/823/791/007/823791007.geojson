@@ -2,9 +2,14 @@
   "id": 823791007,
   "type": "Feature",
   "properties": {
+    "addr:full":"2253 Edgewood Dr Boulder CO 80304",
+    "addr:housenumber":"2253",
+    "addr:postcode":"80304",
+    "addr:street":"Edgewood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.267162,40.028457,-105.267162,40.028457",
     "geom:latitude":40.028457,
     "geom:longitude":-105.267162,
@@ -31,19 +36,36 @@
         "operates"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_65G8BTUVrqXkIpSsYMUbVX_40.028457_-105.267162@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446452,
-    "wof:geomhash":"91a244ba0326865666c0051dbfeb3c01",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c0f4558fe2dc6b98719010c66b769ac5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":823791007
+        }
+    ],
     "wof:id":823791007,
-    "wof:lastmodified":1466419243,
+    "wof:lastmodified":1492122553,
     "wof:name":"Giuliana Imports LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

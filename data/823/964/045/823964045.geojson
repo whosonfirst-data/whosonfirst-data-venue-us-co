@@ -2,9 +2,14 @@
   "id": 823964045,
   "type": "Feature",
   "properties": {
+    "addr:full":"133 Birch Ave Akron CO 80720",
+    "addr:housenumber":"133",
+    "addr:postcode":"80720",
+    "addr:street":"Birch Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.210131,40.159851,-103.210131,40.159851",
     "geom:latitude":40.159851,
     "geom:longitude":-103.210131,
@@ -32,17 +37,32 @@
         "passenger"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929155,
+        102086125
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5SIh3fKwzuu6kZjT3LaCPi_40.159851_-103.210131@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451115,
-    "wof:geomhash":"e8d5b07bf1b80dacc9353306495d7a3d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"86e5717de31f0d652ee56d21da333213",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086125,
+            "locality_id":85929155,
+            "region_id":85688603,
+            "venue_id":823964045
+        }
+    ],
     "wof:id":823964045,
-    "wof:lastmodified":1466421024,
+    "wof:lastmodified":1492118440,
     "wof:name":"Washington Cnty Ambulance Svc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

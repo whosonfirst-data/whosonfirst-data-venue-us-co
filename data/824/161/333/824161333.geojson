@@ -2,9 +2,14 @@
   "id": 824161333,
   "type": "Feature",
   "properties": {
+    "addr:full":"10465 Carmela Ln Denver CO 80234",
+    "addr:housenumber":"",
+    "addr:postcode":"10465;80234",
+    "addr:street":"Carmela Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00535,39.888133,-105.00535,39.888133",
     "geom:latitude":39.888133,
     "geom:longitude":-105.00535,
@@ -28,19 +33,36 @@
         "integration"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5rjASXEV2Rqs5MqpnyY8sj_39.888133_-105.005350@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456347,
-    "wof:geomhash":"0984cc0fa3d638e4be440ce53e6e23d7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b4b6c89c15d9f9dd7657352436cc0ea8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":824161333
+        }
+    ],
     "wof:id":824161333,
-    "wof:lastmodified":1466417373,
+    "wof:lastmodified":1492130484,
     "wof:name":"Netcorp Services Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

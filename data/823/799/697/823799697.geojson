@@ -2,9 +2,14 @@
   "id": 823799697,
   "type": "Feature",
   "properties": {
+    "addr:full":"56375 E 28th Ct Strasburg CO 80136",
+    "addr:housenumber":"56375",
+    "addr:postcode":"80136",
+    "addr:street":"E 28Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.327793,39.755378,-104.327793,39.755378",
     "geom:latitude":39.755378,
     "geom:longitude":-104.327793,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6g48v1ToelV8876rq15mhW_39.755378_-104.327793@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446705,
-    "wof:geomhash":"6dbe277bb9cb89204003c08a2bd1a3bc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5642c7900473cd38e0983b1300b097c1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823799697
+        }
+    ],
     "wof:id":823799697,
-    "wof:lastmodified":1466419379,
+    "wof:lastmodified":1492117298,
     "wof:name":"Viking Supply Net",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

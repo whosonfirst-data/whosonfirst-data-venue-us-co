@@ -2,9 +2,14 @@
   "id": 823836037,
   "type": "Feature",
   "properties": {
+    "addr:full":"1751 Co Rd 29 Fort Lupton CO 80621",
+    "addr:housenumber":"1751;29",
+    "addr:postcode":"80621",
+    "addr:street":"Co Rd;Fort Lupton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.791484,40.028512,-104.791484,40.028512",
     "geom:latitude":40.028512,
     "geom:longitude":-104.791484,
@@ -28,19 +33,28 @@
         "hydraulic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_65f1PrZRPIxowrsu028a1f_40.028512_-104.791484@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447799,
-    "wof:geomhash":"0e4b1e0471d397247b49e1d013398b72",
-    "wof:hierarchy":[],
+    "wof:geomhash":"50c28776a5a498ae6274e8a272db25e4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823836037
+        }
+    ],
     "wof:id":823836037,
-    "wof:lastmodified":1466419637,
+    "wof:lastmodified":1492126266,
     "wof:name":"Performance Equipment Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

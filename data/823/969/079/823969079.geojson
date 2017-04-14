@@ -2,9 +2,14 @@
   "id": 823969079,
   "type": "Feature",
   "properties": {
+    "addr:full":"2551 W 84th Ave Westminster CO 80031",
+    "addr:housenumber":"2551",
+    "addr:postcode":"80031",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018992,39.849133,-105.018992,39.849133",
     "geom:latitude":39.849133,
     "geom:longitude":-105.018992,
@@ -28,19 +33,36 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553535
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0zeQZ8n0njb4AJ55Ilrw8p_39.849133_-105.018992@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451237,
-    "wof:geomhash":"7dfa600aa99d3a3a804ccd314d502e60",
-    "wof:hierarchy":[],
+    "wof:geomhash":"63b8bd8930808c85803dc27fde0ae79b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553535,
+            "region_id":85688603,
+            "venue_id":823969079
+        }
+    ],
     "wof:id":823969079,
-    "wof:lastmodified":1466420795,
+    "wof:lastmodified":1492119082,
     "wof:name":"Western Anesthesia",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553535,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

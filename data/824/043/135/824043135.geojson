@@ -2,9 +2,14 @@
   "id": 824043135,
   "type": "Feature",
   "properties": {
+    "addr:full":"3500 S Lowell Blvd Denver CO 80236",
+    "addr:housenumber":"3500",
+    "addr:postcode":"80236",
+    "addr:street":"S Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034576,39.651539,-105.034576,39.651539",
     "geom:latitude":39.651539,
     "geom:longitude":-105.034576,
@@ -28,17 +33,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929811,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_30UdUidChUyyNcUO3dy0oj_39.651539_-105.034576@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453006,
-    "wof:geomhash":"9992ee19f76403ea8b79cc715bcd86b9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf2513de27bcafefa1152453e8f93549",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929811,
+            "region_id":85688603,
+            "venue_id":824043135
+        }
+    ],
     "wof:id":824043135,
-    "wof:lastmodified":1466414241,
+    "wof:lastmodified":1492133278,
     "wof:name":"Kings Point Apartments",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

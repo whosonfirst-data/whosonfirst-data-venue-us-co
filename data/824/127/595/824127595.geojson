@@ -2,9 +2,14 @@
   "id": 824127595,
   "type": "Feature",
   "properties": {
+    "addr:full":"11525 Harlan St Broomfield CO 80020",
+    "addr:housenumber":"11525",
+    "addr:postcode":"80020",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062845,39.906162,-105.062845,39.906162",
     "geom:latitude":39.906162,
     "geom:longitude":-105.062845,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0QJXrirFCd1alp9bSSfDIA_39.906162_-105.062845@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455041,
-    "wof:geomhash":"6ce30cd6d88622ac082eb90bfbcf40a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"649bfb5b5ebab478c3fb13a8733425bf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":824127595
+        }
+    ],
     "wof:id":824127595,
-    "wof:lastmodified":1466416025,
+    "wof:lastmodified":1492131946,
     "wof:name":"Busch Auto Transport Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824137189,
   "type": "Feature",
   "properties": {
+    "addr:full":"131 Pleasant Ave Johnstown CO 80534",
+    "addr:housenumber":"131",
+    "addr:postcode":"80534",
+    "addr:street":"Pleasant Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.922972,40.331556,-104.922972,40.331556",
     "geom:latitude":40.331556,
     "geom:longitude":-104.922972,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_10YT12P9TBxFlYYz3Bjv51_40.331556_-104.922972@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455408,
-    "wof:geomhash":"b02d32ec18c9d3f523703687c339c217",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b9f7418ebada8dba50541f843d1a9315",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":824137189
+        }
+    ],
     "wof:id":824137189,
-    "wof:lastmodified":1466416177,
+    "wof:lastmodified":1492129782,
     "wof:name":"Plumbing & Heating Specialists",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

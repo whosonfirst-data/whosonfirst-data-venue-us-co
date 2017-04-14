@@ -2,9 +2,14 @@
   "id": 839983719,
   "type": "Feature",
   "properties": {
+    "addr:full":"9970 Clark Dr Northglenn CO 80260",
+    "addr:housenumber":"9970",
+    "addr:postcode":"80260",
+    "addr:street":"Clark Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.99199,39.877555,-104.99199,39.877555",
     "geom:latitude":39.877555,
     "geom:longitude":-104.99199,
@@ -31,19 +36,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YxoaEqA6tK4GKO0tHOx2h_39.878152_-104.991422@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460568,
-    "wof:geomhash":"ba1a5733833ff563fcd01c8d1bca830b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"12806aa8cfcea6c6ccfeec041f847e83",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553659,
+            "region_id":85688603,
+            "venue_id":839983719
+        }
+    ],
     "wof:id":839983719,
-    "wof:lastmodified":1466417062,
+    "wof:lastmodified":1492110661,
     "wof:name":"Bogacz International Enterprise",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

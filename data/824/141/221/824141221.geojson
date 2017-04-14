@@ -2,9 +2,14 @@
   "id": 824141221,
   "type": "Feature",
   "properties": {
+    "addr:full":"5330 Sterling Dr Boulder CO 80301",
+    "addr:housenumber":"5330",
+    "addr:postcode":"80301",
+    "addr:street":"Sterling Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.228133,40.028347,-105.228133,40.028347",
     "geom:latitude":40.028347,
     "geom:longitude":-105.228133,
@@ -28,19 +33,36 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2fxy4mnNArEugk9b6m8YFI_40.028347_-105.228133@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455553,
-    "wof:geomhash":"96b6f41f92be8a997801bcc4aab8ab9f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"522c8f5e4d0f8b21d8bc25c23abd8032",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":824141221
+        }
+    ],
     "wof:id":824141221,
-    "wof:lastmodified":1466416509,
+    "wof:lastmodified":1492131692,
     "wof:name":"Hps Products Mks Instrmnts",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824170823,
   "type": "Feature",
   "properties": {
+    "addr:full":"3291 Peoria St Aurora CO 80010",
+    "addr:housenumber":"3291",
+    "addr:postcode":"80010",
+    "addr:street":"Peoria St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.847078,39.762633,-104.847078,39.762633",
     "geom:latitude":39.762633,
     "geom:longitude":-104.847078,
@@ -28,19 +33,36 @@
         "check"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3zOZfUkA6SZXu83nylZI8s_39.762633_-104.847078@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456712,
-    "wof:geomhash":"4d705b91004c55b8da2bbbaade312d4c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0e82267857ef96d18f3d2f32df52c56b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553301,
+            "region_id":85688603,
+            "venue_id":824170823
+        }
+    ],
     "wof:id":824170823,
-    "wof:lastmodified":1466418010,
+    "wof:lastmodified":1492128813,
     "wof:name":"Cash Payday Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824025207,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 Bauer Ave Mancos CO 81328",
+    "addr:housenumber":"100",
+    "addr:postcode":"81328",
+    "addr:street":"Bauer Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.290388,37.346177,-108.290388,37.346177",
     "geom:latitude":37.346177,
     "geom:longitude":-108.290388,
@@ -30,19 +35,28 @@
     ],
     "sg:website":"www.bauer-house.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2lJyqfk8zobxaTPwnpjEP0_37.346177_-108.290388@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452543,
-    "wof:geomhash":"bc6b54a4a47804b87a6bcfb9f2ed0767",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b6d4ac46a696cccb993b82a968f66c3e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":824025207
+        }
+    ],
     "wof:id":824025207,
-    "wof:lastmodified":1466413655,
+    "wof:lastmodified":1492131078,
     "wof:name":"Bauer House",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

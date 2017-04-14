@@ -2,9 +2,14 @@
   "id": 824041891,
   "type": "Feature",
   "properties": {
+    "addr:full":"14099 W Jewell Ave Denver CO 80228",
+    "addr:housenumber":"14099",
+    "addr:postcode":"80228",
+    "addr:street":"W Jewell Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.160761,39.681357,-105.160761,39.681357",
     "geom:latitude":39.681357,
     "geom:longitude":-105.160761,
@@ -29,11 +34,14 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
-        85929751,
+        85930615,
         102084113,
-        85817381
+        85865183,
+        102191575,
+        85929751,
+        85817381,
+        85878619
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,8 +49,16 @@
     },
     "wof:country":"US",
     "wof:created":1463452975,
-    "wof:geomhash":"37f20acd1613fce1c90aa98fb3a4e517",
+    "wof:geomhash":"b03d05076783e2cb51b73cb423d521ff",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85930615,
+            "neighbourhood_id":85865183,
+            "region_id":85688603,
+            "venue_id":824041891
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -51,12 +67,20 @@
             "neighbourhood_id":85817381,
             "region_id":85688603,
             "venue_id":824041891
+        },
+        {
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":85878619,
+            "region_id":85688603,
+            "venue_id":824041891
         }
     ],
     "wof:id":824041891,
-    "wof:lastmodified":1466414079,
+    "wof:lastmodified":1492133099,
     "wof:name":"Lutheran Church Of The Master",
-    "wof:parent_id":85817381,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

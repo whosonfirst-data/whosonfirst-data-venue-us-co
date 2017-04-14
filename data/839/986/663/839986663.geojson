@@ -2,9 +2,14 @@
   "id": 839986663,
   "type": "Feature",
   "properties": {
+    "addr:full":"6606 S Parker Rd Aurora CO 80016",
+    "addr:housenumber":"6606",
+    "addr:postcode":"80016",
+    "addr:street":"S Parker Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.802639,39.595917,-104.802639,39.595917",
     "geom:latitude":39.595917,
     "geom:longitude":-104.802639,
@@ -35,17 +40,32 @@
         "pastry"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0LaYpAKMpkG8hT8zonNuZB_39.595917_-104.802639@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460681,
-    "wof:geomhash":"36269e83049e2f5ab723d365763918a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dc954bef475d16d957ef8da7069c4477",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":839986663
+        }
+    ],
     "wof:id":839986663,
-    "wof:lastmodified":1466417234,
+    "wof:lastmodified":1492111370,
     "wof:name":"Seattle's Best Coffee",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

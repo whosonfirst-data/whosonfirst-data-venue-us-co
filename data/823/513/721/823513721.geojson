@@ -2,9 +2,14 @@
   "id": 823513721,
   "type": "Feature",
   "properties": {
+    "addr:full":"12005 E 45th Ave Denver CO 80239",
+    "addr:housenumber":"12005",
+    "addr:postcode":"80239",
+    "addr:street":"E 45Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.847146,39.778105,-104.847146,39.778105",
     "geom:latitude":39.778105,
     "geom:longitude":-104.847146,
@@ -31,7 +36,15 @@
     ],
     "sg:website":"www.tolin.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1GM4BUrQEragj8kGW2H6rs_39.778105_-104.847146@1294083659"
@@ -39,11 +52,22 @@
     "wof:country":"US",
     "wof:created":1463439880,
     "wof:geomhash":"06056dcf75e4b5add7a89250b84c6047",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823513721
+        }
+    ],
     "wof:id":823513721,
-    "wof:lastmodified":1466414634,
+    "wof:lastmodified":1491887408,
     "wof:name":"Tolin Mechanical Systems Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

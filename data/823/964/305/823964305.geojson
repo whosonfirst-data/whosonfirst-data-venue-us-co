@@ -2,9 +2,14 @@
   "id": 823964305,
   "type": "Feature",
   "properties": {
+    "addr:full":"3850 W 112th Ave Westminster CO 80031",
+    "addr:housenumber":"3850",
+    "addr:postcode":"80031",
+    "addr:street":"W 112Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041028,39.899596,-105.041028,39.899596",
     "geom:latitude":39.899596,
     "geom:longitude":-105.041028,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553523
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2PKtlfLZTh3yzTAgJ573FC_39.899596_-105.041028@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451120,
-    "wof:geomhash":"b7d93a2fd07fee4709209977a918189a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cc14cb22323e8a42387e9f8c804590f4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553523,
+            "region_id":85688603,
+            "venue_id":823964305
+        }
+    ],
     "wof:id":823964305,
-    "wof:lastmodified":1466420766,
+    "wof:lastmodified":1492118452,
     "wof:name":"Village At Legacy Ridge",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553523,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

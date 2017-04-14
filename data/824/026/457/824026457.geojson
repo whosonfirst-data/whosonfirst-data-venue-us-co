@@ -2,9 +2,14 @@
   "id": 824026457,
   "type": "Feature",
   "properties": {
+    "addr:full":"3100 Marine St Boulder CO 80303",
+    "addr:housenumber":"3100",
+    "addr:postcode":"80303",
+    "addr:street":"Marine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.248012,40.013625,-105.248012,40.013625",
     "geom:latitude":40.013625,
     "geom:longitude":-105.248012,
@@ -24,19 +29,36 @@
     "sg:postcode":"80303",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_55qJZ8jCqoqKXHuO6K0m0L_40.013625_-105.248012@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452576,
-    "wof:geomhash":"e1b91b05eef5d51990ee62f2633c1261",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2db88c159b58bbf09092d638c4f9a519",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":824026457
+        }
+    ],
     "wof:id":824026457,
-    "wof:lastmodified":1466413545,
+    "wof:lastmodified":1492128155,
     "wof:name":"US Thermodynamic Profiling",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

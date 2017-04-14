@@ -2,9 +2,14 @@
   "id": 823817611,
   "type": "Feature",
   "properties": {
+    "addr:full":"1236 E 130th Ave Thornton CO 80241",
+    "addr:housenumber":"1236",
+    "addr:postcode":"80241",
+    "addr:street":"E 130Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.970544,39.932958,-104.970544,39.932958",
     "geom:latitude":39.932958,
     "geom:longitude":-104.970544,
@@ -27,19 +32,36 @@
         "resort"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1gcraxscH21i8RljTUBEGZ_39.932958_-104.970544@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447220,
-    "wof:geomhash":"4ae898e5f8ba42c93ca1d8355acfabd1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2d19188c3274e0313ac7dc4afc2a87ea",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":823817611
+        }
+    ],
     "wof:id":823817611,
-    "wof:lastmodified":1466419523,
+    "wof:lastmodified":1492125999,
     "wof:name":"Bovee's Trout Ranches",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

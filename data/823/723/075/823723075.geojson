@@ -2,9 +2,14 @@
   "id": 823723075,
   "type": "Feature",
   "properties": {
+    "addr:full":"2661 Osceola St Denver CO 80212",
+    "addr:housenumber":"2661",
+    "addr:postcode":"80212",
+    "addr:street":"Osceola St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03822,39.755334,-105.03822,39.755334",
     "geom:latitude":39.755334,
     "geom:longitude":-105.03822,
@@ -27,19 +32,38 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3cUBYNevybFtLesVBKB9kH_39.755334_-105.038220@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444727,
-    "wof:geomhash":"efbf6b045f71db245879958779ab7e42",
-    "wof:hierarchy":[],
+    "wof:geomhash":"21540dfa7d2957c13afac1274f1db96a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":823723075
+        }
+    ],
     "wof:id":823723075,
-    "wof:lastmodified":1466418680,
+    "wof:lastmodified":1492123335,
     "wof:name":"Brickey Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

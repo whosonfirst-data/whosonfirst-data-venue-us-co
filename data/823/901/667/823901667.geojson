@@ -2,9 +2,14 @@
   "id": 823901667,
   "type": "Feature",
   "properties": {
+    "addr:full":"521 Quitman St Denver CO 80204",
+    "addr:housenumber":"521",
+    "addr:postcode":"80204",
+    "addr:street":"Quitman St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040611,39.725311,-105.040611,39.725311",
     "geom:latitude":39.725311,
     "geom:longitude":-105.040611,
@@ -24,7 +29,15 @@
     "sg:postcode":"80204",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1JYxdz26S0USQ6HlVWIUDV_39.725311_-105.040611@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463449506,
     "wof:geomhash":"867acdefd6679dc44c5bc1517395d812",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":823901667
+        }
+    ],
     "wof:id":823901667,
-    "wof:lastmodified":1466420275,
+    "wof:lastmodified":1486593767,
     "wof:name":"Tims Custom & Resto of V",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

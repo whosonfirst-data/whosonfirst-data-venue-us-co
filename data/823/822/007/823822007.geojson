@@ -2,9 +2,14 @@
   "id": 823822007,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 Nebraska Ave Stratton CO 80836",
+    "addr:housenumber":"500",
+    "addr:postcode":"80836",
+    "addr:street":"Nebraska Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.607701,39.301173,-102.607701,39.301173",
     "geom:latitude":39.301173,
     "geom:longitude":-102.607701,
@@ -27,17 +32,32 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928987,
+        102085235
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4swMedX4946VvBmxpzONkh_39.301173_-102.607701@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447350,
-    "wof:geomhash":"78679f14f8a68a424c79dfd355475485",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0076db6efe7b90fd361cfd8b86e79527",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085235,
+            "locality_id":85928987,
+            "region_id":85688603,
+            "venue_id":823822007
+        }
+    ],
     "wof:id":823822007,
-    "wof:lastmodified":1466419503,
+    "wof:lastmodified":1492116354,
     "wof:name":"Stratton Medical Clinic",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

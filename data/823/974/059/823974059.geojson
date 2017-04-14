@@ -2,9 +2,14 @@
   "id": 823974059,
   "type": "Feature",
   "properties": {
+    "addr:full":"623 N 12th St Gunnison CO 81230",
+    "addr:housenumber":"623",
+    "addr:postcode":"81230",
+    "addr:street":"N 12Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.934885,38.550776,-106.934885,38.550776",
     "geom:latitude":38.550776,
     "geom:longitude":-106.934885,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4CATHjY21ayJsCH0yLTJ3i_38.550776_-106.934885@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451335,
-    "wof:geomhash":"a84665d714a341eec05270b4a8987af7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dda31129e80154d6e02f8e5c5638669d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":823974059
+        }
+    ],
     "wof:id":823974059,
-    "wof:lastmodified":1466420794,
+    "wof:lastmodified":1492117234,
     "wof:name":"Rick Shank Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

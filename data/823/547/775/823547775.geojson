@@ -2,9 +2,14 @@
   "id": 823547775,
   "type": "Feature",
   "properties": {
+    "addr:full":"6622 Apache Pl Larkspur CO 80118",
+    "addr:housenumber":"6622",
+    "addr:postcode":"80118",
+    "addr:street":"Apache Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005618,39.266175,-105.005618,39.266175",
     "geom:latitude":39.266175,
     "geom:longitude":-105.005618,
@@ -27,17 +32,32 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930149,
+        102085225
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_19IpDuX4e9CgqUpSFDfx4z_39.266175_-105.005618@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440649,
-    "wof:geomhash":"128ae29648aabc68f5807adebe9034f5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6bec24f66a4941306a9137f04975ab23",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085225,
+            "locality_id":85930149,
+            "region_id":85688603,
+            "venue_id":823547775
+        }
+    ],
     "wof:id":823547775,
-    "wof:lastmodified":1466415772,
+    "wof:lastmodified":1492116120,
     "wof:name":"Built Better Structures",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823826181,
   "type": "Feature",
   "properties": {
+    "addr:full":"880 Sunshine Canyon Dr Boulder CO 80302",
+    "addr:housenumber":"880",
+    "addr:postcode":"80302",
+    "addr:street":"Sunshine Canyon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.305335,40.024949,-105.305335,40.024949",
     "geom:latitude":40.024949,
     "geom:longitude":-105.305335,
@@ -29,9 +34,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85895947,
-        102085251
+        85930777,
+        102085251,
+        85847813,
+        85895947
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463447483,
-    "wof:geomhash":"b27f61e41c24c6d4ffe7f84bcb460cad",
+    "wof:geomhash":"162a3797225bc8027d4fca3d1511c358",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930777,
+            "neighbourhood_id":85847813,
+            "region_id":85688603,
+            "venue_id":823826181
+        },
         {
             "country_id":85633793,
             "county_id":102085251,
@@ -50,9 +67,9 @@
         }
     ],
     "wof:id":823826181,
-    "wof:lastmodified":1466419579,
+    "wof:lastmodified":1492124413,
     "wof:name":"Conscious Habitation LLC",
-    "wof:parent_id":85895947,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

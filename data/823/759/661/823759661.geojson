@@ -2,9 +2,14 @@
   "id": 823759661,
   "type": "Feature",
   "properties": {
+    "addr:full":"655 S 13th Ave Brighton CO 80601",
+    "addr:housenumber":"655",
+    "addr:postcode":"80601",
+    "addr:street":"S 13Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.807601,39.976656,-104.807601,39.976656",
     "geom:latitude":39.976656,
     "geom:longitude":-104.807601,
@@ -29,19 +34,36 @@
         "operative"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553439
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0VrWA5N6zn30tp2ZCcjuRD_39.976656_-104.807601@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445608,
-    "wof:geomhash":"dba3d9f8dcb008fc0cbf83632c5da527",
-    "wof:hierarchy":[],
+    "wof:geomhash":"20c6a0d2582138e2283fb57cdf027e46",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553439,
+            "region_id":85688603,
+            "venue_id":823759661
+        }
+    ],
     "wof:id":823759661,
-    "wof:lastmodified":1466419031,
+    "wof:lastmodified":1492119702,
     "wof:name":"Don Stephen Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553439,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

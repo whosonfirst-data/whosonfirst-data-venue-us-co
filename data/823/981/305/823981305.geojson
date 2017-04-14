@@ -2,9 +2,14 @@
   "id": 823981305,
   "type": "Feature",
   "properties": {
+    "addr:full":"8951 Comanche Rd Longmont CO 80503",
+    "addr:housenumber":"8951",
+    "addr:postcode":"80503",
+    "addr:street":"Comanche Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.145265,40.096984,-105.145265,40.096984",
     "geom:latitude":40.096984,
     "geom:longitude":-105.145265,
@@ -35,7 +40,9 @@
         85633793,
         85930703,
         102085251,
-        85896059
+        85896059,
+        420554077,
+        420554073
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,7 +50,7 @@
     },
     "wof:country":"US",
     "wof:created":1463451516,
-    "wof:geomhash":"7362a18dc6b74c5da3a147497d76cf06",
+    "wof:geomhash":"e0a27e4eaeba138c80c762217daa2923",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -53,12 +60,30 @@
             "neighbourhood_id":85896059,
             "region_id":85688603,
             "venue_id":823981305
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554077,
+            "region_id":85688603,
+            "venue_id":823981305
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554073,
+            "region_id":85688603,
+            "venue_id":823981305
         }
     ],
     "wof:id":823981305,
-    "wof:lastmodified":1466420892,
+    "wof:lastmodified":1492126596,
     "wof:name":"Custom Installation",
-    "wof:parent_id":85896059,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

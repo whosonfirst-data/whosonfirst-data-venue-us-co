@@ -2,9 +2,14 @@
   "id": 823982529,
   "type": "Feature",
   "properties": {
+    "addr:full":"419 N 12th St Gunnison CO 81230",
+    "addr:housenumber":"419",
+    "addr:postcode":"81230",
+    "addr:street":"N 12Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.934903,38.548623,-106.934903,38.548623",
     "geom:latitude":38.548623,
     "geom:longitude":-106.934903,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5cXeetnlCeGEOtE4tAvl3j_38.548623_-106.934903@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451551,
-    "wof:geomhash":"4f5a18259e51e853a4a6560fbf5e844d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d72e247ef92589e87b26982230129471",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":823982529
+        }
+    ],
     "wof:id":823982529,
-    "wof:lastmodified":1466420935,
+    "wof:lastmodified":1492126870,
     "wof:name":"Mike Sanders Construction LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

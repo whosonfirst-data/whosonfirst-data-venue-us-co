@@ -2,9 +2,14 @@
   "id": 823844705,
   "type": "Feature",
   "properties": {
+    "addr:full":"1100 E 73rd Ave Denver CO 80229",
+    "addr:housenumber":"1100",
+    "addr:postcode":"80229",
+    "addr:street":"E 73Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974381,39.828979,-104.974381,39.828979",
     "geom:latitude":39.828979,
     "geom:longitude":-104.974381,
@@ -27,19 +32,36 @@
         "upholsterer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7abwAGYTYW7KsS33LTgzQn_39.828979_-104.974381@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448070,
-    "wof:geomhash":"4a15fe28d7fe2d81868b55d02b6d872c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b2a3c16390c7849bfffb2c82a3a1591f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823844705
+        }
+    ],
     "wof:id":823844705,
-    "wof:lastmodified":1466419756,
+    "wof:lastmodified":1492118122,
     "wof:name":"Personal Touch Upholstery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

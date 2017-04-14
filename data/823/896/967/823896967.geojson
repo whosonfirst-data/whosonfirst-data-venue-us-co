@@ -2,9 +2,14 @@
   "id": 823896967,
   "type": "Feature",
   "properties": {
+    "addr:full":"950 Yellow Pine Ave Boulder CO 80304",
+    "addr:housenumber":"950",
+    "addr:postcode":"80304",
+    "addr:street":"Yellow Pine Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.285008,40.059928,-105.285008,40.059928",
     "geom:latitude":40.059928,
     "geom:longitude":-105.285008,
@@ -28,19 +33,34 @@
         "furniture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1dDHx14zhVkZLuhehx8ccR_40.059928_-105.285008@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449371,
-    "wof:geomhash":"174c0c177edfad0e108dc9eff4bacb66",
-    "wof:hierarchy":[],
+    "wof:geomhash":"37561b6463186dc575f648b02aacfc87",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823896967
+        }
+    ],
     "wof:id":823896967,
-    "wof:lastmodified":1466420158,
+    "wof:lastmodified":1492119583,
     "wof:name":"Marx Interiors LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

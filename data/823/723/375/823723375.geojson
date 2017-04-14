@@ -2,9 +2,14 @@
   "id": 823723375,
   "type": "Feature",
   "properties": {
+    "addr:full":"1326 College Ave Boulder CO 80302",
+    "addr:housenumber":"1326",
+    "addr:postcode":"80302",
+    "addr:street":"College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275262,40.007219,-105.275262,40.007219",
     "geom:latitude":40.007219,
     "geom:longitude":-105.275262,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2uS5y0TLKe5yEMavhvBZb5_40.007219_-105.275262@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444735,
-    "wof:geomhash":"8b83ad46b19032044f03b18e24afde26",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c2f4493362376895756d40bb9046a523",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":823723375
+        }
+    ],
     "wof:id":823723375,
-    "wof:lastmodified":1466418687,
+    "wof:lastmodified":1492123323,
     "wof:name":"Colorado Xtreme Optx",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

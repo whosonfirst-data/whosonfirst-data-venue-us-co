@@ -2,9 +2,14 @@
   "id": 823985385,
   "type": "Feature",
   "properties": {
+    "addr:full":"2322 Vineyard Pl Boulder CO 80304",
+    "addr:housenumber":"2322",
+    "addr:postcode":"80304",
+    "addr:street":"Vineyard Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.266726,40.054065,-105.266726,40.054065",
     "geom:latitude":40.054065,
     "geom:longitude":-105.266726,
@@ -27,19 +32,42 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554121,
+        85688603,
+        102191575,
+        85929877,
+        102085251,
+        85876369
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5toxix8DiRrNoNcHKBnSMY_40.054065_-105.266726@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451615,
-    "wof:geomhash":"8b19531174338048103633a14b9bf3c7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fe72ec52966d9230785ac016551b4bb0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554121,
+            "venue_id":823985385
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876369,
+            "region_id":85688603,
+            "venue_id":823985385
+        }
+    ],
     "wof:id":823985385,
-    "wof:lastmodified":1466420918,
+    "wof:lastmodified":1492120979,
     "wof:name":"Paul Drew Stuber",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

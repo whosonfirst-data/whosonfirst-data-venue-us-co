@@ -2,9 +2,14 @@
   "id": 823775245,
   "type": "Feature",
   "properties": {
+    "addr:full":"481 S 8th Ave Brighton CO 80601",
+    "addr:housenumber":"481",
+    "addr:postcode":"80601",
+    "addr:street":"S 8Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81262,39.977778,-104.81262,39.977778",
     "geom:latitude":39.977778,
     "geom:longitude":-104.81262,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553451
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_38OzNvEeiFXphu1EB0zO7T_39.977778_-104.812620@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445964,
-    "wof:geomhash":"fa6bb6099583c3e632c2468cd0502d8f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9a115e1e86935d969b0915e9317e2a39",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553451,
+            "region_id":85688603,
+            "venue_id":823775245
+        }
+    ],
     "wof:id":823775245,
-    "wof:lastmodified":1466419115,
+    "wof:lastmodified":1492120151,
     "wof:name":"Brighton Dental Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553451,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

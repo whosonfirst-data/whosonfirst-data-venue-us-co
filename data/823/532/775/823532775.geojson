@@ -2,9 +2,14 @@
   "id": 823532775,
   "type": "Feature",
   "properties": {
+    "addr:full":"303 N Broadway Cortez CO 81321",
+    "addr:housenumber":"303",
+    "addr:postcode":"81321",
+    "addr:street":"N Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.589691,37.353975,-108.589691,37.353975",
     "geom:latitude":37.353975,
     "geom:longitude":-108.589691,
@@ -28,19 +33,28 @@
         "boot"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_02XxuBN1nSMxzwJ4s4fFDu_37.353975_-108.589691@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440307,
-    "wof:geomhash":"0cdd59721ff6d1fa780b09c2400eaba8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b08fa6aff825b0fb18fe1f908f60bcd1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":823532775
+        }
+    ],
     "wof:id":823532775,
-    "wof:lastmodified":1466415496,
+    "wof:lastmodified":1492122832,
     "wof:name":"Monte's Boot & Shoe Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

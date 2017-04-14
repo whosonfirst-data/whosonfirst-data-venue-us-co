@@ -2,9 +2,14 @@
   "id": 823695647,
   "type": "Feature",
   "properties": {
+    "addr:full":"348 Dakota Cir Grand Junction CO 81503",
+    "addr:housenumber":"348",
+    "addr:postcode":"81503",
+    "addr:street":"Dakota Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.639346,39.05496,-108.639346,39.05496",
     "geom:latitude":39.05496,
     "geom:longitude":-108.639346,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554779
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1OPRWNJa4SfPrMVHOX2O8h_39.054960_-108.639346@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444147,
-    "wof:geomhash":"2bc7c66c40535d1f724cd399b4de2100",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d06972c1637fcc5303e8e5ab559b50b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554779,
+            "region_id":85688603,
+            "venue_id":823695647
+        }
+    ],
     "wof:id":823695647,
-    "wof:lastmodified":1466418511,
+    "wof:lastmodified":1492126569,
     "wof:name":"John Aguilar Construction LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554779,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823918425,
   "type": "Feature",
   "properties": {
+    "addr:full":"1910 S Depew St Denver CO 80227",
+    "addr:housenumber":"1910",
+    "addr:postcode":"80227",
+    "addr:street":"S Depew St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.057169,39.679345,-105.057169,39.679345",
     "geom:latitude":39.679345,
     "geom:longitude":-105.057169,
@@ -27,7 +32,15 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5eAPD7SLhykJvdcrWn64Mf_39.679345_-105.057169@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463449964,
     "wof:geomhash":"6555103c0dc48ba2d13a2bd9be9d7f7a",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":823918425
+        }
+    ],
     "wof:id":823918425,
-    "wof:lastmodified":1466420342,
+    "wof:lastmodified":1486593733,
     "wof:name":"Sheris Lounge",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

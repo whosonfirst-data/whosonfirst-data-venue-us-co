@@ -2,9 +2,14 @@
   "id": 824145805,
   "type": "Feature",
   "properties": {
+    "addr:full":"168 Madison Dr Bennett CO 80102",
+    "addr:housenumber":"168",
+    "addr:postcode":"bennett;80102",
+    "addr:street":"Madison Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.441203,39.753892,-104.441203,39.753892",
     "geom:latitude":39.753892,
     "geom:longitude":-104.441203,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929337,
+        102086877,
+        420553327
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3VXXxQyu8HWONtHORXJppp_39.753892_-104.441203@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455734,
-    "wof:geomhash":"c656eec66ac7572edafd8fba9015c81f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d087ed87dfa471d292f2337387d9a37b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929337,
+            "neighbourhood_id":420553327,
+            "region_id":85688603,
+            "venue_id":824145805
+        }
+    ],
     "wof:id":824145805,
-    "wof:lastmodified":1466416656,
+    "wof:lastmodified":1492133018,
     "wof:name":"Superior Pressure Washing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553327,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

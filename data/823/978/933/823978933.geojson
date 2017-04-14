@@ -2,9 +2,14 @@
   "id": 823978933,
   "type": "Feature",
   "properties": {
+    "addr:full":"12073 Eudora Ct Northglenn CO 80241",
+    "addr:housenumber":"",
+    "addr:postcode":"12073;80241",
+    "addr:street":"Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.929722,39.915633,-104.929722,39.915633",
     "geom:latitude":39.915633,
     "geom:longitude":-104.929722,
@@ -28,19 +33,36 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Z8S7JY4g153ZWNOhlEc7h_39.915633_-104.929722@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451449,
-    "wof:geomhash":"36617374eb526b862a4f4c43c137db47",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fc855aa607aae61ce3c323dd3fa62b90",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":823978933
+        }
+    ],
     "wof:id":823978933,
-    "wof:lastmodified":1466420924,
+    "wof:lastmodified":1492120726,
     "wof:name":"Nationwide Mortgage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

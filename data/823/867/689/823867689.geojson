@@ -2,9 +2,14 @@
   "id": 823867689,
   "type": "Feature",
   "properties": {
+    "addr:full":"18000 Smith Rd Aurora CO 80011",
+    "addr:housenumber":"18000",
+    "addr:postcode":"80011",
+    "addr:street":"Smith Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.785695,39.755085,-104.785695,39.755085",
     "geom:latitude":39.755085,
     "geom:longitude":-104.785695,
@@ -28,19 +33,36 @@
     ],
     "sg:website":"www.wagnerequipment.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553317
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3arPF8acfXtgXzeZAQHEZr_39.755085_-104.785695@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448684,
-    "wof:geomhash":"cfd424db2b22445585a66fd991cd3d57",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c84f606c6d1292879fb802ff2b345e92",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553317,
+            "region_id":85688603,
+            "venue_id":823867689
+        }
+    ],
     "wof:id":823867689,
-    "wof:lastmodified":1466419941,
+    "wof:lastmodified":1492123603,
     "wof:name":"Wagner Equipment Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

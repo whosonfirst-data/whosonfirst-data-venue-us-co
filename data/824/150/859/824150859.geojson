@@ -2,9 +2,14 @@
   "id": 824150859,
   "type": "Feature",
   "properties": {
+    "addr:full":"7260 Pecos St Denver CO 80221",
+    "addr:housenumber":"7260",
+    "addr:postcode":"80221",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00602,39.827385,-105.00602,39.827385",
     "geom:latitude":39.827385,
     "geom:longitude":-105.00602,
@@ -27,19 +32,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7HRH0pr05VbmT7hGk2b4ZQ_39.827385_-105.006020@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455943,
-    "wof:geomhash":"48e711eec7bd1fa12ce623f4f0ed974e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8e977b9407d83fd78b0a320af1bba280",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":824150859
+        }
+    ],
     "wof:id":824150859,
-    "wof:lastmodified":1466416893,
+    "wof:lastmodified":1492132027,
     "wof:name":"Tia Maria Mexican Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

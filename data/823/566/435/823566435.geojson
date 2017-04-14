@@ -2,9 +2,14 @@
   "id": 823566435,
   "type": "Feature",
   "properties": {
+    "addr:full":"1931 Clark St Aurora CO 80011",
+    "addr:housenumber":"1931",
+    "addr:postcode":"80011",
+    "addr:street":"Clark St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.820682,39.745723,-104.820682,39.745723",
     "geom:latitude":39.745723,
     "geom:longitude":-104.820682,
@@ -27,19 +32,36 @@
         "frame"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7FWApaHVQnHbRhc8PEMJGK_39.745723_-104.820682@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441090,
-    "wof:geomhash":"5ab0e6bffb8e5a31f2e3d37e6a920e2f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5ca3409752330d6bb3758630184f8e56",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":823566435
+        }
+    ],
     "wof:id":823566435,
-    "wof:lastmodified":1466416199,
+    "wof:lastmodified":1492124063,
     "wof:name":"L M Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

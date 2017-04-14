@@ -2,9 +2,14 @@
   "id": 839980911,
   "type": "Feature",
   "properties": {
+    "addr:full":"25 S 4th Ave Brighton CO 80601",
+    "addr:housenumber":"25",
+    "addr:postcode":"80601",
+    "addr:street":"S 4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.818214,39.986284,-104.818214,39.986284",
     "geom:latitude":39.986284,
     "geom:longitude":-104.818214,
@@ -22,19 +27,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1pWY6uFIeyVnW9K6NiBces_39.986284_-104.818214@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460458,
-    "wof:geomhash":"2add795eacfbfd321d2bf40c692b80f5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0548cc7cef5639e4ca4a2fd2c9b8d457",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":839980911
+        }
+    ],
     "wof:id":839980911,
-    "wof:lastmodified":1466416851,
+    "wof:lastmodified":1492113399,
     "wof:name":"Fulton Irrigation Ditch Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

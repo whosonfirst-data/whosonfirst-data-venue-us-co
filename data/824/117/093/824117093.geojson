@@ -2,9 +2,14 @@
   "id": 824117093,
   "type": "Feature",
   "properties": {
+    "addr:full":"502 Court Rd Grand Junction CO 81501",
+    "addr:housenumber":"502",
+    "addr:postcode":"81501",
+    "addr:street":"Court Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.531971,39.079099,-108.531971,39.079099",
     "geom:latitude":39.079099,
     "geom:longitude":-108.531971,
@@ -27,19 +32,36 @@
         "special"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3yXCFtq5BppnXUmuPCFrKV_39.079099_-108.531971@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454705,
-    "wof:geomhash":"fe68b5345842a278be90876b57680c7e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"772d31b05c3f19e7a83f2f506605e238",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554879,
+            "region_id":85688603,
+            "venue_id":824117093
+        }
+    ],
     "wof:id":824117093,
-    "wof:lastmodified":1466415577,
+    "wof:lastmodified":1492131346,
     "wof:name":"North Avenue Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

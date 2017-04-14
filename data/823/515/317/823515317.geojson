@@ -2,9 +2,14 @@
   "id": 823515317,
   "type": "Feature",
   "properties": {
+    "addr:full":"9150 Sheridan Blvd Westminster CO 80031",
+    "addr:housenumber":"9150",
+    "addr:postcode":"80031",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.0532,39.862204,-105.0532,39.862204",
     "geom:latitude":39.862204,
     "geom:longitude":-105.0532,
@@ -29,19 +34,36 @@
         "institution"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        85888487
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7fTcyFUHJAfK22SE6qEAAQ_39.862204_-105.053200@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439914,
-    "wof:geomhash":"beb372570314df381cb4e22fbf1cf6db",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09bb919a390e510baa61f86f5292df90",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":85888487,
+            "region_id":85688603,
+            "venue_id":823515317
+        }
+    ],
     "wof:id":823515317,
-    "wof:lastmodified":1466414731,
+    "wof:lastmodified":1492122679,
     "wof:name":"Commercial Federal Bank",
-    "wof:parent_id":-1,
+    "wof:parent_id":85888487,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

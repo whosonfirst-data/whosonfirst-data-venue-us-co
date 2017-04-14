@@ -2,9 +2,14 @@
   "id": 823578221,
   "type": "Feature",
   "properties": {
+    "addr:full":"7933 Greenwood Blvd Denver CO 80221",
+    "addr:housenumber":"7933",
+    "addr:postcode":"80221",
+    "addr:street":"Greenwood Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001835,39.840597,-105.001835,39.840597",
     "geom:latitude":39.840597,
     "geom:longitude":-105.001835,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553669
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3LBzpZhWhmZXf83FpVp1ap_39.840597_-105.001835@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441377,
-    "wof:geomhash":"4ba510014f69789e940f6ca320c5bcda",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a54384514d102d6016842177e2d2bc36",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553669,
+            "region_id":85688603,
+            "venue_id":823578221
+        }
+    ],
     "wof:id":823578221,
-    "wof:lastmodified":1466416445,
+    "wof:lastmodified":1492122721,
     "wof:name":"Reyes & Reyes Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553669,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

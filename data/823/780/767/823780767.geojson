@@ -2,9 +2,14 @@
   "id": 823780767,
   "type": "Feature",
   "properties": {
+    "addr:full":"516 S Madison St Cortez CO 81321",
+    "addr:housenumber":"516",
+    "addr:postcode":"81321",
+    "addr:street":"S Madison St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.579718,37.342718,-108.579718,37.342718",
     "geom:latitude":37.342718,
     "geom:longitude":-108.579718,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5EXtCJ4QVdU6ymguReD8y5_37.342718_-108.579718@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446109,
-    "wof:geomhash":"7a939f2adfdd1fed16c8b832ca8300be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a29dbd1e24f53d8c8da552b7fd0ce7ff",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823780767
+        }
+    ],
     "wof:id":823780767,
-    "wof:lastmodified":1466419348,
+    "wof:lastmodified":1492118701,
     "wof:name":"Sleeping Ute Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

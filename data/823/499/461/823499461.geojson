@@ -2,9 +2,14 @@
   "id": 823499461,
   "type": "Feature",
   "properties": {
+    "addr:full":"1912 Julian Way Denver CO 80211",
+    "addr:housenumber":"1912",
+    "addr:postcode":"80211",
+    "addr:street":"Julian Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.032239,39.746644,-105.032239,39.746644",
     "geom:latitude":39.746644,
     "geom:longitude":-105.032239,
@@ -27,19 +32,38 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ik74S3w4UHJXiJkFC0oKy_39.746644_-105.032239@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439562,
-    "wof:geomhash":"7f79993fb1349d21bbea3262735a852f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c554ae0cc64bd97ec649a659ea3aa519",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":823499461
+        }
+    ],
     "wof:id":823499461,
-    "wof:lastmodified":1466414214,
+    "wof:lastmodified":1492123663,
     "wof:name":"Mamma D Group Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

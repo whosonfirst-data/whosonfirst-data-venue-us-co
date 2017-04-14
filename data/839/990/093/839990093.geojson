@@ -2,9 +2,14 @@
   "id": 839990093,
   "type": "Feature",
   "properties": {
+    "addr:full":"1205 W Elizabeth St Fort Collins CO 80521",
+    "addr:housenumber":"1205",
+    "addr:postcode":"80521",
+    "addr:street":"W Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.097579,40.574551,-105.097579,40.574551",
     "geom:latitude":40.574551,
     "geom:longitude":-105.097579,
@@ -28,19 +33,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ZdA7ywOchSeeG259yLIaj_40.574551_-105.097579@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460815,
-    "wof:geomhash":"9d509828f45d806fccc6513008692abc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"68900740e0b05970ae136f8588bc8de9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":839990093
+        }
+    ],
     "wof:id":839990093,
-    "wof:lastmodified":1466417601,
+    "wof:lastmodified":1492110562,
     "wof:name":"Taco Del Mar",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

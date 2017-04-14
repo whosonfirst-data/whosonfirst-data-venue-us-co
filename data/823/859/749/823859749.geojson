@@ -2,9 +2,14 @@
   "id": 823859749,
   "type": "Feature",
   "properties": {
+    "addr:full":"245 Co Rd 226 Durango CO 81301",
+    "addr:housenumber":"245;226",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.759696,37.243192,-107.759696,37.243192",
     "geom:latitude":37.243192,
     "geom:longitude":-107.759696,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0wze3guH8PizdtoEyXSGHT_37.243192_-107.759696@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448488,
-    "wof:geomhash":"ee465e71aa15c34f5e1ffdb5342a9050",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3c70c3095a413ff95eb99ea0f93bee7f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823859749
+        }
+    ],
     "wof:id":823859749,
-    "wof:lastmodified":1466419878,
+    "wof:lastmodified":1492127352,
     "wof:name":"Whitcomb Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

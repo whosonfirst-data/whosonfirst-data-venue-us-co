@@ -2,9 +2,14 @@
   "id": 823522807,
   "type": "Feature",
   "properties": {
+    "addr:full":"900 Worthington Cir Fort Collins CO 80526",
+    "addr:housenumber":"900",
+    "addr:postcode":"80526",
+    "addr:street":"Worthington Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.090832,40.555961,-105.090832,40.555961",
     "geom:latitude":40.555961,
     "geom:longitude":-105.090832,
@@ -28,19 +33,46 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741,
+        85877475
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_636aocPieYevz6EwDLN9wN_40.555961_-105.090832@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440086,
-    "wof:geomhash":"f500c37dae69f66bbfdeb791a0275683",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bac5bfe26726af4768b1ce710245020b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823522807
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877475,
+            "region_id":85688603,
+            "venue_id":823522807
+        }
+    ],
     "wof:id":823522807,
-    "wof:lastmodified":1466414956,
+    "wof:lastmodified":1492122586,
     "wof:name":"Lecuyer Family Enterprises LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

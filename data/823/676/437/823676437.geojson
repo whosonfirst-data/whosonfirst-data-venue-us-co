@@ -2,9 +2,14 @@
   "id": 823676437,
   "type": "Feature",
   "properties": {
+    "addr:full":"656 Marshall St Grand Junction CO 81505",
+    "addr:housenumber":"656",
+    "addr:postcode":"81505",
+    "addr:street":"Marshall St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.58744,39.100503,-108.58744,39.100503",
     "geom:latitude":39.100503,
     "geom:longitude":-108.58744,
@@ -29,19 +34,36 @@
         "copying"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554863
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5RacLwJg4CJWTmzNFAFUfl_39.100503_-108.587440@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443710,
-    "wof:geomhash":"359d32384be13d7d4e92498e0cc93c06",
-    "wof:hierarchy":[],
+    "wof:geomhash":"23a10a2a0a4fc55d927ee0b6a532efc0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554863,
+            "region_id":85688603,
+            "venue_id":823676437
+        }
+    ],
     "wof:id":823676437,
-    "wof:lastmodified":1466418348,
+    "wof:lastmodified":1492125919,
     "wof:name":"Papers Ink",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554863,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

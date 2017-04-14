@@ -2,9 +2,14 @@
   "id": 823772899,
   "type": "Feature",
   "properties": {
+    "addr:full":"1441 W 132nd Pl Denver CO 80234",
+    "addr:housenumber":"1441",
+    "addr:postcode":"80234",
+    "addr:street":"W 132Nd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006065,39.937116,-105.006065,39.937116",
     "geom:latitude":39.937116,
     "geom:longitude":-105.006065,
@@ -27,19 +32,36 @@
         "carpenter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3xaGz8TXseqs0eZQvLeXSy_39.937116_-105.006065@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445892,
-    "wof:geomhash":"faeb7a0b28e6bfbdbb0d0d0409cdbbc5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b25aa256d4e3e3d67379d76ba8ced7f3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":823772899
+        }
+    ],
     "wof:id":823772899,
-    "wof:lastmodified":1466419217,
+    "wof:lastmodified":1492124595,
     "wof:name":"Jernick Entrprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

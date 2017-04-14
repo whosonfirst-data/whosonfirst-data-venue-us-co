@@ -2,9 +2,14 @@
   "id": 824064103,
   "type": "Feature",
   "properties": {
+    "addr:full":"3660 19th St Boulder CO 80304",
+    "addr:housenumber":"3660",
+    "addr:postcode":"80304",
+    "addr:street":"19Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.272674,40.040703,-105.272674,40.040703",
     "geom:latitude":40.040703,
     "geom:longitude":-105.272674,
@@ -29,19 +34,36 @@
         "developer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554119
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4XflYBUPk09TWdenNk9GMI_40.040703_-105.272674@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453477,
-    "wof:geomhash":"2df74df8b87a569953322c7edffe057d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0c31715ea979726b8739a6cf976ec03",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554119,
+            "region_id":85688603,
+            "venue_id":824064103
+        }
+    ],
     "wof:id":824064103,
-    "wof:lastmodified":1466414583,
+    "wof:lastmodified":1492128185,
     "wof:name":"Hazeltine Development LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554119,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

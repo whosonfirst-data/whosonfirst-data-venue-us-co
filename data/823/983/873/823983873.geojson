@@ -2,9 +2,14 @@
   "id": 823983873,
   "type": "Feature",
   "properties": {
+    "addr:full":"1111 W Northern Ave Pueblo CO 81004",
+    "addr:housenumber":"1111",
+    "addr:postcode":"81004",
+    "addr:street":"W Northern Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.623559,38.24426,-104.623559,38.24426",
     "geom:latitude":38.24426,
     "geom:longitude":-104.623559,
@@ -32,17 +37,32 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0lFEv6j5PYaIPsLuJ8pIrY_38.244260_-104.623559@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451584,
-    "wof:geomhash":"14dd8962990f88220b3aa98678f5e5c4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"565c9e0024a2391dad9dc1a5b0ed49f4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823983873
+        }
+    ],
     "wof:id":823983873,
-    "wof:lastmodified":1466420983,
+    "wof:lastmodified":1492116664,
     "wof:name":"Family Dollar Stores",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

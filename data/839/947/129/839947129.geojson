@@ -2,9 +2,14 @@
   "id": 839947129,
   "type": "Feature",
   "properties": {
+    "addr:full":"4277 26th St Boulder CO 80304",
+    "addr:housenumber":"4277",
+    "addr:postcode":"80304",
+    "addr:street":"26Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.263208,40.05206,-105.263208,40.05206",
     "geom:latitude":40.05206,
     "geom:longitude":-105.263208,
@@ -28,19 +33,42 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554121,
+        85688603,
+        102191575,
+        85929877,
+        102085251,
+        85876369
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6X4xG040fzXcmnWcoF47DU_40.052060_-105.263208@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458984,
-    "wof:geomhash":"4eead9423110254bf16d2555f0f352b3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae22eb5cb63cf26c47bc0c659e9a777d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554121,
+            "venue_id":839947129
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876369,
+            "region_id":85688603,
+            "venue_id":839947129
+        }
+    ],
     "wof:id":839947129,
-    "wof:lastmodified":1466415123,
+    "wof:lastmodified":1492113035,
     "wof:name":"Manjari Graphics",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839973655,
   "type": "Feature",
   "properties": {
+    "addr:full":"9277 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"9277",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025249,39.86555,-105.025249,39.86555",
     "geom:latitude":39.86555,
     "geom:longitude":-105.025249,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7UokIWKfW7DsUpP1lTMaA5_39.865550_-105.025249@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460165,
-    "wof:geomhash":"6fa635f8b752d4cfa88353b099aeeb6a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d427a067b97344ad5ccdc795ab27bb3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":839973655
+        }
+    ],
     "wof:id":839973655,
-    "wof:lastmodified":1466416531,
+    "wof:lastmodified":1492112869,
     "wof:name":"El Primo Mexican Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

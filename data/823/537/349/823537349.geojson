@@ -2,9 +2,14 @@
   "id": 823537349,
   "type": "Feature",
   "properties": {
+    "addr:full":"2071 E 74th Ave Denver CO 80229",
+    "addr:housenumber":"2071",
+    "addr:postcode":"80229",
+    "addr:street":"E 74Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959984,39.830948,-104.959984,39.830948",
     "geom:latitude":39.830948,
     "geom:longitude":-104.959984,
@@ -27,19 +32,36 @@
         "steel"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7HVZLgcSXclRHVbSkRkSqB_39.830948_-104.959984@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440410,
-    "wof:geomhash":"66a61f87474da1f9629c66c758c53cd0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5bedd0e9a6d232f04602cb10560d2956",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823537349
+        }
+    ],
     "wof:id":823537349,
-    "wof:lastmodified":1466415526,
+    "wof:lastmodified":1492127225,
     "wof:name":"Garcia's Metal Craft",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

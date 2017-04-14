@@ -2,9 +2,14 @@
   "id": 823906779,
   "type": "Feature",
   "properties": {
+    "addr:full":"1006 9th Ave Greeley CO 80631",
+    "addr:housenumber":"1006",
+    "addr:postcode":"80631",
+    "addr:street":"9Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.692577,40.421254,-104.692577,40.421254",
     "geom:latitude":40.421254,
     "geom:longitude":-104.692577,
@@ -26,12 +31,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +44,16 @@
     },
     "wof:country":"US",
     "wof:created":1463449641,
-    "wof:geomhash":"1a0961bfd6dd7548f8653637baf0c14d",
+    "wof:geomhash":"c4aa292fb409cda476aea2ed862ee183",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823906779
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -49,20 +62,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823906779
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823906779
         }
     ],
     "wof:id":823906779,
-    "wof:lastmodified":1466420275,
+    "wof:lastmodified":1492118203,
     "wof:name":"United Food & Commercial Wrkrs",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

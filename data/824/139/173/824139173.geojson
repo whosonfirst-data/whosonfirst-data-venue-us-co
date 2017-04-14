@@ -2,9 +2,14 @@
   "id": 824139173,
   "type": "Feature",
   "properties": {
+    "addr:full":"300 Bevington Rd Gunnison CO 81230",
+    "addr:housenumber":"300",
+    "addr:postcode":"81230",
+    "addr:street":"Bevington Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.949747,38.536881,-106.949747,38.536881",
     "geom:latitude":38.536881,
     "geom:longitude":-106.949747,
@@ -28,19 +33,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4SJHhxhCIWM1PouQu9DrlO_38.536881_-106.949747@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455478,
-    "wof:geomhash":"2336d2f2c6633f478aa2cc8f8aed0e2d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a7d0c5c49a3fef1952c96ec98037f4a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554393,
+            "region_id":85688603,
+            "venue_id":824139173
+        }
+    ],
     "wof:id":824139173,
-    "wof:lastmodified":1466416498,
+    "wof:lastmodified":1492128378,
     "wof:name":"Nutri-Comp Software",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

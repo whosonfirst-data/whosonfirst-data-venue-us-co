@@ -2,9 +2,14 @@
   "id": 823488285,
   "type": "Feature",
   "properties": {
+    "addr:full":"4201 W 94th Ave Westminster CO 80031",
+    "addr:housenumber":"4201",
+    "addr:postcode":"80031",
+    "addr:street":"W 94Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042147,39.867937,-105.042147,39.867937",
     "geom:latitude":39.867937,
     "geom:longitude":-105.042147,
@@ -28,19 +33,36 @@
         "rink"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554569
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5gZ2wSsjXahFtjI2fC8a3r_39.867937_-105.042147@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439272,
-    "wof:geomhash":"99469f39667ebb50d8df62a6281b273e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d1c312be1e54c0dff2b3e5a9dcae611",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554569,
+            "region_id":85688603,
+            "venue_id":823488285
+        }
+    ],
     "wof:id":823488285,
-    "wof:lastmodified":1466413716,
+    "wof:lastmodified":1492122751,
     "wof:name":"Slapshot Hockey",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554569,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823813513,
   "type": "Feature",
   "properties": {
+    "addr:full":"3045 W 74th Ave Westminster CO 80030",
+    "addr:housenumber":"3045",
+    "addr:postcode":"80030",
+    "addr:street":"W 74Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.029078,39.830975,-105.029078,39.830975",
     "geom:latitude":39.830975,
     "geom:longitude":-105.029078,
@@ -28,19 +33,36 @@
         "crating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3kMsjOAW76h9ymdL4A9Ei0_39.830975_-105.029078@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447108,
-    "wof:geomhash":"b9aa550104c1d81b6dc337f70e6e76cc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"21740ba42a367171236dd90a4804c0eb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":823813513
+        }
+    ],
     "wof:id":823813513,
-    "wof:lastmodified":1466419514,
+    "wof:lastmodified":1492123922,
     "wof:name":"Longmont Packing Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824161831,
   "type": "Feature",
   "properties": {
+    "addr:full":"11302 Oswego St Henderson CO 80640",
+    "addr:housenumber":"11302",
+    "addr:postcode":"80640",
+    "addr:street":"Oswego St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.849087,39.902899,-104.849087,39.902899",
     "geom:latitude":39.902899,
     "geom:longitude":-104.849087,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553285
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Eg5jB3ve71MygMsuY9tyS_39.902899_-104.849087@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456364,
-    "wof:geomhash":"93e55edda2db899f6fbe1ad954e8afe8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4cafac9091e717d118936b648897dff",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553285,
+            "region_id":85688603,
+            "venue_id":824161831
+        }
+    ],
     "wof:id":824161831,
-    "wof:lastmodified":1466417447,
+    "wof:lastmodified":1492130454,
     "wof:name":"Travelmaster Colorado Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553285,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

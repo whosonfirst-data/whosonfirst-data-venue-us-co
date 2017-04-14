@@ -2,9 +2,14 @@
   "id": 823708733,
   "type": "Feature",
   "properties": {
+    "addr:full":"2801 Fremont Dr Canon City CO 81212",
+    "addr:housenumber":"2801",
+    "addr:postcode":"81212",
+    "addr:street":"Fremont Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.20685,38.44826,-105.20685,38.44826",
     "geom:latitude":38.44826,
     "geom:longitude":-105.20685,
@@ -27,19 +32,36 @@
         "carwash"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929803,
+        102083363,
+        85816081
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_56e3p4G6ctccTcKD0cRsCK_38.448260_-105.206850@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444419,
-    "wof:geomhash":"c1879cf8ff1ff26dff2cb7949ec84547",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a6ba9ff3cf2cf6891bc72c097a0f560c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "locality_id":85929803,
+            "neighbourhood_id":85816081,
+            "region_id":85688603,
+            "venue_id":823708733
+        }
+    ],
     "wof:id":823708733,
-    "wof:lastmodified":1466418646,
+    "wof:lastmodified":1492117315,
     "wof:name":"Carriage Wash & Vac",
-    "wof:parent_id":-1,
+    "wof:parent_id":85816081,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

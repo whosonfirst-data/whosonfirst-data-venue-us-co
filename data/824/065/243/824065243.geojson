@@ -2,9 +2,14 @@
   "id": 824065243,
   "type": "Feature",
   "properties": {
+    "addr:full":"6560 Vine Ct Denver CO 80229",
+    "addr:housenumber":"6560",
+    "addr:postcode":"80229",
+    "addr:street":"Vine Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961296,39.881534,-104.961296,39.881534",
     "geom:latitude":39.881534,
     "geom:longitude":-104.961296,
@@ -28,19 +33,36 @@
         "pumping"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0QHtve8JufL7ZP8agWZfY8_39.881534_-104.961296@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453504,
-    "wof:geomhash":"9004ef7f54ae6a3fa6f85c00a87d54a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"197e7f037fb5211ef32690fefc3c5bae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":824065243
+        }
+    ],
     "wof:id":824065243,
-    "wof:lastmodified":1466414590,
+    "wof:lastmodified":1492129449,
     "wof:name":"Pumpco Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

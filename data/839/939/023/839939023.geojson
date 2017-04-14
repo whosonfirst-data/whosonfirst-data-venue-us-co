@@ -2,9 +2,14 @@
   "id": 839939023,
   "type": "Feature",
   "properties": {
+    "addr:full":"11692 Monroe St Denver CO 80233",
+    "addr:housenumber":"11692",
+    "addr:postcode":"80233",
+    "addr:street":"Monroe St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.944377,39.908834,-104.944377,39.908834",
     "geom:latitude":39.908834,
     "geom:longitude":-104.944377,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553907
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_66aKnYQD9ZO4BBiLA6pECc_39.908834_-104.944377@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458440,
-    "wof:geomhash":"66cb2d824f11f8049da6ff28b1c14840",
-    "wof:hierarchy":[],
+    "wof:geomhash":"73d4128088d6ded3cf14a60bf5e52077",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":839939023
+        }
+    ],
     "wof:id":839939023,
-    "wof:lastmodified":1466414765,
+    "wof:lastmodified":1492110415,
     "wof:name":"Nathan Ross Tile Co LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553907,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

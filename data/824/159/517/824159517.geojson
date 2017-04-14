@@ -2,9 +2,14 @@
   "id": 824159517,
   "type": "Feature",
   "properties": {
+    "addr:full":"254 Mohawk Dr Boulder CO 80303",
+    "addr:housenumber":"254",
+    "addr:postcode":"80303",
+    "addr:street":"Mohawk Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.238567,39.991659,-105.238567,39.991659",
     "geom:latitude":39.991659,
     "geom:longitude":-105.238567,
@@ -27,19 +32,36 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554127
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0YlUQdHayoGq5xd6tzuia8_39.991659_-105.238567@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456280,
-    "wof:geomhash":"a7cf1c43ed8855464e621fa82d41692e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e5ad8f7737be0b39193dfabd0c702df4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554127,
+            "region_id":85688603,
+            "venue_id":824159517
+        }
+    ],
     "wof:id":824159517,
-    "wof:lastmodified":1466417378,
+    "wof:lastmodified":1492128661,
     "wof:name":"AAA Real Estate",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554127,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

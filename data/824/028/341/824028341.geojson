@@ -2,9 +2,14 @@
   "id": 824028341,
   "type": "Feature",
   "properties": {
+    "addr:full":"4939 Broadway St Boulder CO 80304",
+    "addr:housenumber":"4939",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281977,40.064781,-105.281977,40.064781",
     "geom:latitude":40.064781,
     "geom:longitude":-105.281977,
@@ -27,19 +32,34 @@
         "screen"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5WR3RQJ1cDN3JYSEFxXm3s_40.064781_-105.281977@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452624,
-    "wof:geomhash":"c75369955f7922e38762c25765a8e76c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"29a6e5a048caa7e4aef11685cac26924",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":824028341
+        }
+    ],
     "wof:id":824028341,
-    "wof:lastmodified":1466413581,
+    "wof:lastmodified":1492129574,
     "wof:name":"B & A Designs",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823873495,
   "type": "Feature",
   "properties": {
+    "addr:full":"11932 Washington St Denver CO 80233",
+    "addr:housenumber":"11932",
+    "addr:postcode":"80233",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977712,39.912756,-104.977712,39.912756",
     "geom:latitude":39.912756,
     "geom:longitude":-104.977712,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_18mOn1ifpw6eJKlwa4zaAA_39.912756_-104.977712@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448815,
-    "wof:geomhash":"d1e0f8922a5d60cddfca0d533f5df230",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aca735bf43704751b86a460317b0aac5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553879,
+            "region_id":85688603,
+            "venue_id":823873495
+        }
+    ],
     "wof:id":823873495,
-    "wof:lastmodified":1466420088,
+    "wof:lastmodified":1492120465,
     "wof:name":"Puerto Vallarta 2",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

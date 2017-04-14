@@ -2,9 +2,14 @@
   "id": 823826481,
   "type": "Feature",
   "properties": {
+    "addr:full":"6803 E 47th Avenue Dr Denver CO 80216",
+    "addr:housenumber":"6803",
+    "addr:postcode":"80216",
+    "addr:street":"E 47Th Avenue Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.910529,39.782641,-104.910529,39.782641",
     "geom:latitude":39.782641,
     "geom:longitude":-104.910529,
@@ -28,7 +33,16 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750051,
+        85840547,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6lapnG2tm4m7bqM8gmrJSH_39.782641_-104.910529@1294083659"
@@ -36,11 +50,23 @@
     "wof:country":"US",
     "wof:created":1463447493,
     "wof:geomhash":"26569f40bae21f20b3f656e4e25bbc58",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750051,
+            "neighbourhood_id":85840547,
+            "region_id":85688603,
+            "venue_id":823826481
+        }
+    ],
     "wof:id":823826481,
-    "wof:lastmodified":1466419605,
+    "wof:lastmodified":1486604419,
     "wof:name":"D Brothers Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

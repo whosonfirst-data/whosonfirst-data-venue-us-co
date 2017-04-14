@@ -2,9 +2,14 @@
   "id": 823478855,
   "type": "Feature",
   "properties": {
+    "addr:full":"2464 US Hwy 6 Grand Junction CO 81501",
+    "addr:housenumber":"2464",
+    "addr:postcode":"81501",
+    "addr:street":"Us Hwy 6",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.537991,39.077457,-108.537991,39.077457",
     "geom:latitude":39.077457,
     "geom:longitude":-108.537991,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4uzUHhwCDUDEzFvFXtS7We_39.077457_-108.537991@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439054,
-    "wof:geomhash":"fb447091c8fbe3bc1014fc1133c64c2b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ba224ade8615ea46be097d729180857c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":823478855
+        }
+    ],
     "wof:id":823478855,
-    "wof:lastmodified":1466413227,
+    "wof:lastmodified":1492123990,
     "wof:name":"Bed Bath & Beyond",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

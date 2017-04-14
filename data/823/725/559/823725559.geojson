@@ -2,9 +2,14 @@
   "id": 823725559,
   "type": "Feature",
   "properties": {
+    "addr:full":"8200 Baylor Ln Westminster CO 80031",
+    "addr:housenumber":"8200",
+    "addr:postcode":"80031",
+    "addr:street":"Baylor Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040705,39.847195,-105.040705,39.847195",
     "geom:latitude":39.847195,
     "geom:longitude":-105.040705,
@@ -29,19 +34,36 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_32SCOTXPWCzEnr4SoVAbc3_39.847195_-105.040705@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444798,
-    "wof:geomhash":"0de3b62285530b862351ca4f415bd800",
-    "wof:hierarchy":[],
+    "wof:geomhash":"94ff79dd9d15d62aef5469060625d117",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553605,
+            "region_id":85688603,
+            "venue_id":823725559
+        }
+    ],
     "wof:id":823725559,
-    "wof:lastmodified":1466418812,
+    "wof:lastmodified":1492121850,
     "wof:name":"Fidelity Planning Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

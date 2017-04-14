@@ -2,9 +2,14 @@
   "id": 824109801,
   "type": "Feature",
   "properties": {
+    "addr:full":"2930 Antelope Rd Fort Collins CO 80525",
+    "addr:housenumber":"2930",
+    "addr:postcode":"80525",
+    "addr:street":"Antelope Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.022164,40.537062,-105.022164,40.537062",
     "geom:latitude":40.537062,
     "geom:longitude":-105.022164,
@@ -29,19 +34,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ocbWEF5WyeLRsf443kGRi_40.537062_-105.022164@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454551,
-    "wof:geomhash":"c4be693d1155faf34dd49bbd59d43c70",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8dd87f1f0da8a4261009fc52298c7fae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":824109801
+        }
+    ],
     "wof:id":824109801,
-    "wof:lastmodified":1466415433,
+    "wof:lastmodified":1492132162,
     "wof:name":"Fort Collins Custom Golf Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

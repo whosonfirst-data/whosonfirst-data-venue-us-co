@@ -2,9 +2,14 @@
   "id": 839938213,
   "type": "Feature",
   "properties": {
+    "addr:full":"12315 Deerfield Way Broomfield CO 80020",
+    "addr:housenumber":"12315",
+    "addr:postcode":"80020",
+    "addr:street":"Deerfield Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03717,39.920903,-105.03717,39.920903",
     "geom:latitude":39.920903,
     "geom:longitude":-105.03717,
@@ -28,19 +33,36 @@
         "locksmith"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420553613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7KOM6UT28xBCSG55uakF8W_39.920903_-105.037170@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458399,
-    "wof:geomhash":"7bf88057dc36549a3dbae81127ca9ce7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2ac680ffb238190cf38e437f1a5c9fca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420553613,
+            "region_id":85688603,
+            "venue_id":839938213
+        }
+    ],
     "wof:id":839938213,
-    "wof:lastmodified":1466414641,
+    "wof:lastmodified":1492110501,
     "wof:name":"Don's Lock & Key",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

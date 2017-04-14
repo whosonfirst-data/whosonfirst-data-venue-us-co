@@ -2,9 +2,14 @@
   "id": 823624935,
   "type": "Feature",
   "properties": {
+    "addr:full":"140 Commerce Rd Berthoud CO 80513",
+    "addr:housenumber":"140",
+    "addr:postcode":"80513",
+    "addr:street":"Commerce Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.987138,40.338203,-104.987138,40.338203",
     "geom:latitude":40.338203,
     "geom:longitude":-104.987138,
@@ -27,19 +32,36 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Dn1XGtjY8L6Tqquv3HbOP_40.338203_-104.987138@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442513,
-    "wof:geomhash":"fb1533d2b18e32dae8cffee0569cd7ce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3fedf330dd9a1cd824c6291bedb83daa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823624935
+        }
+    ],
     "wof:id":823624935,
-    "wof:lastmodified":1466417546,
+    "wof:lastmodified":1492119273,
     "wof:name":"Sun Mountain Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

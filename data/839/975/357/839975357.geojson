@@ -2,9 +2,14 @@
   "id": 839975357,
   "type": "Feature",
   "properties": {
+    "addr:full":"1006 Highland Park Dr Broomfield CO 80020",
+    "addr:housenumber":"1006",
+    "addr:postcode":"80020",
+    "addr:street":"Highland Park Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.061616,39.919484,-105.061616,39.919484",
     "geom:latitude":39.919484,
     "geom:longitude":-105.061616,
@@ -27,19 +32,36 @@
         "barricade"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554271
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2fv4RYAeWWjE05PdAKgvx0_39.919484_-105.061616@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460232,
-    "wof:geomhash":"aa15e8abfc0135ad96b293003dd4f66b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8fe1597bcef17b79c6026e820215b42a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554271,
+            "region_id":85688603,
+            "venue_id":839975357
+        }
+    ],
     "wof:id":839975357,
-    "wof:lastmodified":1466416446,
+    "wof:lastmodified":1492113763,
     "wof:name":"Road Warriors Traffic Control",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554271,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

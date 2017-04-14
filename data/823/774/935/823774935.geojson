@@ -2,9 +2,14 @@
   "id": 823774935,
   "type": "Feature",
   "properties": {
+    "addr:full":"2503 Foresight Cir Grand Junction CO 81505",
+    "addr:housenumber":"2503",
+    "addr:postcode":"81505",
+    "addr:street":"Foresight Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586664,39.092761,-108.586664,39.092761",
     "geom:latitude":39.092761,
     "geom:longitude":-108.586664,
@@ -28,19 +33,36 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554863
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2rltbxt0Em6TheFGDqR0LK_39.092761_-108.586664@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445956,
-    "wof:geomhash":"11fb541a73999eb697f472e7bc3cf74c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"212d8083500f0bceb3d01e2577db574e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554863,
+            "region_id":85688603,
+            "venue_id":823774935
+        }
+    ],
     "wof:id":823774935,
-    "wof:lastmodified":1466419168,
+    "wof:lastmodified":1492124125,
     "wof:name":"Foresight Family Physicians",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554863,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

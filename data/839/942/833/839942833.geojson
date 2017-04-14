@@ -2,9 +2,14 @@
   "id": 839942833,
   "type": "Feature",
   "properties": {
+    "addr:full":"612 E 134th Ave Denver CO 80241",
+    "addr:housenumber":"612",
+    "addr:postcode":"80241",
+    "addr:street":"E 134Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979751,39.939776,-104.979751,39.939776",
     "geom:latitude":39.939776,
     "geom:longitude":-104.979751,
@@ -27,19 +32,36 @@
         "food"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553815
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0AtioHY8igAVw3Mw5SsVM9_39.939776_-104.979751@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458740,
-    "wof:geomhash":"7da784755b4feda150becb256238e28a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"642a7817c5f29774dde57c0976873ec8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553815,
+            "region_id":85688603,
+            "venue_id":839942833
+        }
+    ],
     "wof:id":839942833,
-    "wof:lastmodified":1466414849,
+    "wof:lastmodified":1492110575,
     "wof:name":"Mbm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553815,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

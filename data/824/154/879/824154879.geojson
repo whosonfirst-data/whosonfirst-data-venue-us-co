@@ -2,9 +2,14 @@
   "id": 824154879,
   "type": "Feature",
   "properties": {
+    "addr:full":"11713 Lincoln St Denver CO 80233",
+    "addr:housenumber":"11713",
+    "addr:postcode":"80233",
+    "addr:street":"Lincoln St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.982983,39.908849,-104.982983,39.908849",
     "geom:latitude":39.908849,
     "geom:longitude":-104.982983,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28XJes3xwbB8VHjAEvPd7h_39.908849_-104.982983@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456114,
-    "wof:geomhash":"3a6936f49ad3e735d0b214310db5723d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8f7dbc6931df96aa7b3741c9bd578e43",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":824154879
+        }
+    ],
     "wof:id":824154879,
-    "wof:lastmodified":1466417214,
+    "wof:lastmodified":1492129622,
     "wof:name":"Rocky Mountain Partitions Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

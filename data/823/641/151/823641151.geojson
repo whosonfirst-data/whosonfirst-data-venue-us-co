@@ -2,9 +2,14 @@
   "id": 823641151,
   "type": "Feature",
   "properties": {
+    "addr:full":"310 W Arbecam Ave Cortez CO 81321",
+    "addr:housenumber":"310",
+    "addr:postcode":"81321",
+    "addr:street":"W Arbecam Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.59002,37.351903,-108.59002,37.351903",
     "geom:latitude":37.351903,
     "geom:longitude":-108.59002,
@@ -28,19 +33,28 @@
         "radiator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ZF72sqtrLD9o2ylU7nTMt_37.351903_-108.590020@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442880,
-    "wof:geomhash":"efb255cd37edb902e72aec19782a47c3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b28ca783b7b31bbf72ccdb1c1e72776e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":823641151
+        }
+    ],
     "wof:id":823641151,
-    "wof:lastmodified":1466417889,
+    "wof:lastmodified":1492122163,
     "wof:name":"Dr Radiator",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823723049,
   "type": "Feature",
   "properties": {
+    "addr:full":"5744 Central Ave Boulder CO 80301",
+    "addr:housenumber":"5744",
+    "addr:postcode":"80301",
+    "addr:street":"Central Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.219677,40.019875,-105.219677,40.019875",
     "geom:latitude":40.019875,
     "geom:longitude":-105.219677,
@@ -28,19 +33,36 @@
         "equipment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0lhkYc1sudL2T0R7iancyz_40.019875_-105.219677@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444726,
-    "wof:geomhash":"6c63de6d6e2bb7737625ab0605abca43",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7ea5cc985809f6832e0a4d9744e5fdad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823723049
+        }
+    ],
     "wof:id":823723049,
-    "wof:lastmodified":1466418679,
+    "wof:lastmodified":1492123333,
     "wof:name":"Spectra Link Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

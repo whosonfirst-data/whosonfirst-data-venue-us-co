@@ -2,9 +2,14 @@
   "id": 823902369,
   "type": "Feature",
   "properties": {
+    "addr:full":"9615 Croke Dr Denver CO 80260",
+    "addr:housenumber":"9615",
+    "addr:postcode":"80260",
+    "addr:street":"Croke Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.000585,39.868196,-105.000585,39.868196",
     "geom:latitude":39.868196,
     "geom:longitude":-105.000585,
@@ -29,19 +34,36 @@
         "instrument"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553721
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4qptlMX5uzCZNt9ZNvNEeG_39.868196_-105.000585@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449525,
-    "wof:geomhash":"ffe9a984a4301388f28e68f185535f46",
-    "wof:hierarchy":[],
+    "wof:geomhash":"47248f0174642c578541e6322de0e69d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553721,
+            "region_id":85688603,
+            "venue_id":823902369
+        }
+    ],
     "wof:id":823902369,
-    "wof:lastmodified":1466420248,
+    "wof:lastmodified":1492126788,
     "wof:name":"Premier Percussion USA Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553721,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

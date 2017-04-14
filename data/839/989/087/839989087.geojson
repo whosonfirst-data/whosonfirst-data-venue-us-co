@@ -2,9 +2,14 @@
   "id": 839989087,
   "type": "Feature",
   "properties": {
+    "addr:full":"9500 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"9500",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024464,39.869271,-105.024464,39.869271",
     "geom:latitude":39.869271,
     "geom:longitude":-105.024464,
@@ -29,19 +34,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Iw8uoEyHYDzMFygs9UTti_39.869271_-105.024464@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460777,
-    "wof:geomhash":"8c4536c125c3b8df82f1b20f6e531039",
-    "wof:hierarchy":[],
+    "wof:geomhash":"955d45491d659554ce772588524999ca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":839989087
+        }
+    ],
     "wof:id":839989087,
-    "wof:lastmodified":1466417352,
+    "wof:lastmodified":1492111053,
     "wof:name":"Sonic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

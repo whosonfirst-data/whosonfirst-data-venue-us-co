@@ -2,9 +2,14 @@
   "id": 839972833,
   "type": "Feature",
   "properties": {
+    "addr:full":"349 E 8th Ave Durango CO 81301",
+    "addr:housenumber":"349",
+    "addr:postcode":"co 81301",
+    "addr:street":"E 8Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.873039,37.265877,-107.873039,37.265877",
     "geom:latitude":37.265877,
     "geom:longitude":-107.873039,
@@ -34,19 +39,28 @@
         "carwash"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1uQDdjLUjKUE5TeFPXgxmB_37.265877_-107.873039@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460136,
-    "wof:geomhash":"e3bf59014ec4df6c54e5fd2ff17f2948",
-    "wof:hierarchy":[],
+    "wof:geomhash":"554e834d59b02f88bc4b3aa8f9e6fac8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":839972833
+        }
+    ],
     "wof:id":839972833,
-    "wof:lastmodified":1466416537,
+    "wof:lastmodified":1492112548,
     "wof:name":"Mountain Mechanical & Auto Wsh",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

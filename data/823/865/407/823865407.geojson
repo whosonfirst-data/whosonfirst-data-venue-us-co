@@ -2,9 +2,14 @@
   "id": 823865407,
   "type": "Feature",
   "properties": {
+    "addr:full":"6100 S Broadway Littleton CO 80121",
+    "addr:housenumber":"6100",
+    "addr:postcode":"80121",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98817,39.603639,-104.98817,39.603639",
     "geom:latitude":39.603639,
     "geom:longitude":-104.98817,
@@ -28,17 +33,41 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929851,
+        102086877,
+        85929241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00OFjkpQ4cvNvycgX8AswM_39.603639_-104.988170@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448634,
-    "wof:geomhash":"93b2158bf9265cfa61021d01cd40671b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7ff3a4c1f06148e55263dd74754759e5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929851,
+            "region_id":85688603,
+            "venue_id":823865407
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929241,
+            "region_id":85688603,
+            "venue_id":823865407
+        }
+    ],
     "wof:id":823865407,
-    "wof:lastmodified":1466419915,
+    "wof:lastmodified":1492121211,
     "wof:name":"T and M Enterprises Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 320131093,
   "type": "Feature",
   "properties": {
+    "addr:full":"2424 Larimer Street Denver CO 80205",
+    "addr:housenumber":"2424",
+    "addr:postcode":"80205",
+    "addr:street":"Larimer Street",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.987119,39.757034,-104.987119,39.757034",
     "geom:latitude":39.757034,
     "geom:longitude":-104.987119,
@@ -28,11 +33,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750115,
+        85871289,
+        102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85871289
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +50,21 @@
     "wof:geomhash":"daaf9b1c4b0be59cbd04d49a256a4ee6",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "microhood_id":1108750115,
             "neighbourhood_id":85871289,
             "region_id":85688603,
             "venue_id":320131093
         }
     ],
     "wof:id":320131093,
-    "wof:lastmodified":1466412629,
+    "wof:lastmodified":1486604512,
     "wof:name":"Ron's",
-    "wof:parent_id":85871289,
+    "wof:parent_id":1108750115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

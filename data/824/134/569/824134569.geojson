@@ -2,9 +2,14 @@
   "id": 824134569,
   "type": "Feature",
   "properties": {
+    "addr:full":"5037 W 38th Ave Denver CO 80212",
+    "addr:housenumber":"5037",
+    "addr:postcode":"80212",
+    "addr:street":"W 38Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.051699,39.769414,-105.051699,39.769414",
     "geom:latitude":39.769414,
     "geom:longitude":-105.051699,
@@ -28,19 +33,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871261,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4QLCbMbFO2cIDji1hhkTDf_39.769414_-105.051699@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455316,
-    "wof:geomhash":"95539d88f8b85611a5f08f3eb63b5702",
-    "wof:hierarchy":[],
+    "wof:geomhash":"13c915086f48de826de59b00171ea368",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871261,
+            "region_id":85688603,
+            "venue_id":824134569
+        }
+    ],
     "wof:id":824134569,
-    "wof:lastmodified":1466416389,
+    "wof:lastmodified":1492129016,
     "wof:name":"5280 Painting Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871261,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

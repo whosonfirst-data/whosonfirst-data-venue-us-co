@@ -2,9 +2,14 @@
   "id": 823600263,
   "type": "Feature",
   "properties": {
+    "addr:full":"5380 W 82nd Ave Arvada CO 80003",
+    "addr:housenumber":"5380",
+    "addr:postcode":"80003",
+    "addr:street":"W 82Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.054482,39.845694,-105.054482,39.845694",
     "geom:latitude":39.845694,
     "geom:longitude":-105.054482,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5DizYlctx3aeGtNumMSkg3_39.845694_-105.054482@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441904,
-    "wof:geomhash":"58167581efc85db5a51ac9341bf79985",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8c039b6609c155132e81ce79e0577f59",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":823600263
+        }
+    ],
     "wof:id":823600263,
-    "wof:lastmodified":1466417105,
+    "wof:lastmodified":1492121662,
     "wof:name":"Martinez Mechanical",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

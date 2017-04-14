@@ -2,9 +2,14 @@
   "id": 823969209,
   "type": "Feature",
   "properties": {
+    "addr:full":"3015 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"3015;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.857214,37.346683,-107.857214,37.346683",
     "geom:latitude":37.346683,
     "geom:longitude":-107.857214,
@@ -27,19 +32,28 @@
         "musician"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6HqimFcJs90L2kpZuuVOlg_37.346683_-107.857214@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451239,
-    "wof:geomhash":"660116a16ad8eb692a55acba2a72e547",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aaa8e561f16973662c0ed55439a9d0d4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823969209
+        }
+    ],
     "wof:id":823969209,
-    "wof:lastmodified":1466420809,
+    "wof:lastmodified":1492119090,
     "wof:name":"Pete Guiliani-Guitar & Voice",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

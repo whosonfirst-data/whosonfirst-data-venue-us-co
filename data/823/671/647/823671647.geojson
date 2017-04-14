@@ -2,9 +2,14 @@
   "id": 823671647,
   "type": "Feature",
   "properties": {
+    "addr:full":"2180 E 104th Ave Northglenn CO 80233",
+    "addr:housenumber":"2180",
+    "addr:postcode":"80233",
+    "addr:street":"E 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.960907,39.88489,-104.960907,39.88489",
     "geom:latitude":39.88489,
     "geom:longitude":-104.960907,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553909
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5HxVNktWD2jpWoKTurz1y3_39.884890_-104.960907@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443611,
-    "wof:geomhash":"da85538749565b711fe783edf1a29436",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bbdc31594ae19c03f846127f713ff9fa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553909,
+            "region_id":85688603,
+            "venue_id":823671647
+        }
+    ],
     "wof:id":823671647,
-    "wof:lastmodified":1466418385,
+    "wof:lastmodified":1492116077,
     "wof:name":"Village Of Yorkshire Apts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553909,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

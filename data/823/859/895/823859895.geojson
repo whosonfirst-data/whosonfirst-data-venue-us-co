@@ -2,9 +2,14 @@
   "id": 823859895,
   "type": "Feature",
   "properties": {
+    "addr:full":"1111 Quivira Dr Colorado Springs CO 80910",
+    "addr:housenumber":"1111",
+    "addr:postcode":"80910",
+    "addr:street":"Quivira Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.777298,38.815621,-104.777298,38.815621",
     "geom:latitude":38.815621,
     "geom:longitude":-104.777298,
@@ -29,19 +34,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554341
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YwJGlFnPSYLezVpZjyz6b_38.815621_-104.777298@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448491,
-    "wof:geomhash":"99ea6fab121b0f96cc3add28ae17664d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c93cdab29a2c3e272ccead7d28814933",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":823859895
+        }
+    ],
     "wof:id":823859895,
-    "wof:lastmodified":1466419927,
+    "wof:lastmodified":1492127354,
     "wof:name":"Barnhill Entps Mnrity Drctres",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554341,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

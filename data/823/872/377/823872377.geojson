@@ -2,9 +2,14 @@
   "id": 823872377,
   "type": "Feature",
   "properties": {
+    "addr:full":"295 27 Rd Grand Junction CO 81503",
+    "addr:housenumber":"27",
+    "addr:postcode":"81503",
+    "addr:street":"295;Rd Grand Junction",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.551558,39.032374,-108.551558,39.032374",
     "geom:latitude":39.032374,
     "geom:longitude":-108.551558,
@@ -28,19 +33,36 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554829
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0lfbHs2MUSMmhfX896JwUA_39.032374_-108.551558@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448793,
-    "wof:geomhash":"6d19127bbdd0749603923809b56c2d03",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d1ff0b59412ac81080842658462988c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554829,
+            "region_id":85688603,
+            "venue_id":823872377
+        }
+    ],
     "wof:id":823872377,
-    "wof:lastmodified":1466419974,
+    "wof:lastmodified":1492120172,
     "wof:name":"Orchard Mesa Lanes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554829,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

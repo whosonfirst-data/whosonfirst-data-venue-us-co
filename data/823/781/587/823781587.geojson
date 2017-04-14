@@ -2,9 +2,14 @@
   "id": 823781587,
   "type": "Feature",
   "properties": {
+    "addr:full":"4381 Co Rd 222 Durango CO 81303",
+    "addr:housenumber":"4381;222",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.789457,37.209317,-107.789457,37.209317",
     "geom:latitude":37.209317,
     "geom:longitude":-107.789457,
@@ -27,19 +32,28 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5NhXHaJD17P6ZJjveTxrI7_37.209317_-107.789457@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446130,
-    "wof:geomhash":"124facc16e63175a7cf6367e9f9673d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6570c06b7a4765f8f8e98ac3e54addc3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823781587
+        }
+    ],
     "wof:id":823781587,
-    "wof:lastmodified":1466419339,
+    "wof:lastmodified":1492118099,
     "wof:name":"Fiesta Mexicana Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

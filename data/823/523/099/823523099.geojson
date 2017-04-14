@@ -2,9 +2,14 @@
   "id": 823523099,
   "type": "Feature",
   "properties": {
+    "addr:full":"1448 E 68th Ave Denver CO 80229",
+    "addr:housenumber":"1448",
+    "addr:postcode":"80229",
+    "addr:street":"E 68Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971923,39.819899,-104.971923,39.819899",
     "geom:latitude":39.819899,
     "geom:longitude":-104.971923,
@@ -27,19 +32,36 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72QYTsSXWFwKI053FDoW6f_39.819899_-104.971923@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440094,
-    "wof:geomhash":"2a447976f9bb17f2fcc1613f56bd9574",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5830c0ffbf30840b8388ae2593950cca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823523099
+        }
+    ],
     "wof:id":823523099,
-    "wof:lastmodified":1466415049,
+    "wof:lastmodified":1492124504,
     "wof:name":"PCI Builders Resource",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823998941,
   "type": "Feature",
   "properties": {
+    "addr:full":"2710 W 86th Ave Westminster CO 80031",
+    "addr:housenumber":"2710",
+    "addr:postcode":"80031",
+    "addr:street":"W 86Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.020916,39.851666,-105.020916,39.851666",
     "geom:latitude":39.851666,
     "geom:longitude":-105.020916,
@@ -27,19 +32,36 @@
         "advisory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553535
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5DhUvklyh1F7boAxias4NW_39.851666_-105.020916@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451961,
-    "wof:geomhash":"5bdcc710e4f955933ffc9e74c92a1d00",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d9b1af99e1b0e947241915562c1e0904",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553535,
+            "region_id":85688603,
+            "venue_id":823998941
+        }
+    ],
     "wof:id":823998941,
-    "wof:lastmodified":1466421057,
+    "wof:lastmodified":1492127416,
     "wof:name":"RTC Financial Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553535,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

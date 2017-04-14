@@ -2,9 +2,14 @@
   "id": 823900337,
   "type": "Feature",
   "properties": {
+    "addr:full":"2017 Orchard Ave Grand Junction CO 81501",
+    "addr:housenumber":"2017",
+    "addr:postcode":"81501",
+    "addr:street":"Orchard Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.541438,39.084525,-108.541438,39.084525",
     "geom:latitude":39.084525,
     "geom:longitude":-108.541438,
@@ -30,19 +35,36 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0HvVkC7gqy0MJ7u5bDfHzF_39.084525_-108.541438@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449462,
-    "wof:geomhash":"33ae132aada1300854f56f96c7f26eeb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91ffda17b3459850e82c522f4dab7787",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":823900337
+        }
+    ],
     "wof:id":823900337,
-    "wof:lastmodified":1466420212,
+    "wof:lastmodified":1492121775,
     "wof:name":"Creative Designs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823983681,
   "type": "Feature",
   "properties": {
+    "addr:full":"415 Linden Center Dr Fort Collins CO 80524",
+    "addr:housenumber":"415",
+    "addr:postcode":"80524",
+    "addr:street":"Linden Center Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.069878,40.59292,-105.069878,40.59292",
     "geom:latitude":40.59292,
     "geom:longitude":-105.069878,
@@ -30,19 +35,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554735
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6VBUo61xi4e4CDNPc3bxz3_40.592920_-105.069878@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451579,
-    "wof:geomhash":"dccc2b85e77ea5a5723e565d40d0cd1c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b8b7c86d4e15f74469c6f3364130fda8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554735,
+            "region_id":85688603,
+            "venue_id":823983681
+        }
+    ],
     "wof:id":823983681,
-    "wof:lastmodified":1466420957,
+    "wof:lastmodified":1492116675,
     "wof:name":"Linden Tech Self Storage Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554735,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

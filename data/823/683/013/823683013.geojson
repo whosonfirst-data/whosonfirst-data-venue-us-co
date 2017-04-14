@@ -2,9 +2,14 @@
   "id": 823683013,
   "type": "Feature",
   "properties": {
+    "addr:full":"10020 Alcott St Denver CO 80260",
+    "addr:housenumber":"10020",
+    "addr:postcode":"80260",
+    "addr:street":"Alcott St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.016005,39.879617,-105.016005,39.879617",
     "geom:latitude":39.879617,
     "geom:longitude":-105.016005,
@@ -27,19 +32,36 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553931
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2rHfJAFbBOyIBEciIMuTUv_39.879617_-105.016005@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443851,
-    "wof:geomhash":"c6551d6377dff64e685cb84995ce1718",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9bf5f7f2ba3a1393baf52e779b9c631d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553931,
+            "region_id":85688603,
+            "venue_id":823683013
+        }
+    ],
     "wof:id":823683013,
-    "wof:lastmodified":1466418345,
+    "wof:lastmodified":1492117422,
     "wof:name":"Cutting Image LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553931,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

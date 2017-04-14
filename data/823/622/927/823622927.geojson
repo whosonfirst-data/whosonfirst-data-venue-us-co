@@ -2,9 +2,14 @@
   "id": 823622927,
   "type": "Feature",
   "properties": {
+    "addr:full":"15555 Co Rd 67 Sheridan Lake CO 81071",
+    "addr:housenumber":"15555;67",
+    "addr:postcode":"81071",
+    "addr:street":"Co Rd;Sheridan Lake",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.290046,38.491988,-102.290046,38.491988",
     "geom:latitude":38.491988,
     "geom:longitude":-102.290046,
@@ -29,17 +34,30 @@
         "drilling"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102085253
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Jc1XfmJcTXztz0cuWNP7F_38.491988_-102.290046@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442468,
-    "wof:geomhash":"11ecaa4abf1c7a929653cc21a9073734",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d71deca4c6342d2942ec2cb490edc228",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085253,
+            "region_id":85688603,
+            "venue_id":823622927
+        }
+    ],
     "wof:id":823622927,
-    "wof:lastmodified":1466417510,
+    "wof:lastmodified":1492122509,
     "wof:name":"Shalberg Oil/Gas Well Pumping",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

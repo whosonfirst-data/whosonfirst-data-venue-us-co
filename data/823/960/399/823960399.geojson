@@ -2,9 +2,14 @@
   "id": 823960399,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 W 120th Ave Denver CO 80234",
+    "addr:housenumber":"500",
+    "addr:postcode":"80234",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996722,39.913812,-104.996722,39.913812",
     "geom:latitude":39.913812,
     "geom:longitude":-104.996722,
@@ -28,19 +33,46 @@
         "gasoline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553723,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_37lNwHx8EIf6q1UBWJuh2m_39.913812_-104.996722@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451041,
-    "wof:geomhash":"080395aad30af9c1ecb27eea139539ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ee9185da45a865ddad5b000e89f04887",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553723,
+            "region_id":85688603,
+            "venue_id":823960399
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":823960399
+        }
+    ],
     "wof:id":823960399,
-    "wof:lastmodified":1466420763,
+    "wof:lastmodified":1492119690,
     "wof:name":"Conoco Retail Outlets",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

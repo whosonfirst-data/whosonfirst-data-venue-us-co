@@ -2,9 +2,14 @@
   "id": 839950005,
   "type": "Feature",
   "properties": {
+    "addr:full":"5955 W 3rd Ave Denver CO 80226",
+    "addr:housenumber":"5955",
+    "addr:postcode":"80226",
+    "addr:street":"W 3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059977,39.721148,-105.059977,39.721148",
     "geom:latitude":39.721148,
     "geom:longitude":-105.059977,
@@ -28,19 +33,36 @@
         "insurance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1fNDZ0xAQtvfQTdsGbWbiH_39.721148_-105.059977@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459124,
-    "wof:geomhash":"9a33c4e2a4231f47435555af687b81f8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb726850ce71d39e1d16247e31bd748b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":839950005
+        }
+    ],
     "wof:id":839950005,
-    "wof:lastmodified":1466415325,
+    "wof:lastmodified":1492113526,
     "wof:name":"Stellar Rcovery Investigations",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

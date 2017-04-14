@@ -2,9 +2,14 @@
   "id": 823655261,
   "type": "Feature",
   "properties": {
+    "addr:full":"12041 Pecos St Denver CO 80234",
+    "addr:housenumber":"12041",
+    "addr:postcode":"80234",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006185,39.914776,-105.006185,39.914776",
     "geom:latitude":39.914776,
     "geom:longitude":-105.006185,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1jx5S8hd1pqJ3SI5UpyFxh_39.914776_-105.006185@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443201,
-    "wof:geomhash":"b890aeb9c145522de89f920808be5779",
-    "wof:hierarchy":[],
+    "wof:geomhash":"785ff16c6f5557a0e8fdd13fe1e180b5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823655261
+        }
+    ],
     "wof:id":823655261,
-    "wof:lastmodified":1466418126,
+    "wof:lastmodified":1492127906,
     "wof:name":"Kabob Station",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

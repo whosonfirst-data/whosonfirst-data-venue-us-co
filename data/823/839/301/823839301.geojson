@@ -2,9 +2,14 @@
   "id": 823839301,
   "type": "Feature",
   "properties": {
+    "addr:full":"2780 Eppinger Blvd Denver CO 80229",
+    "addr:housenumber":"2780",
+    "addr:postcode":"80229",
+    "addr:street":"Eppinger Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.951458,39.866102,-104.951458,39.866102",
     "geom:latitude":39.866102,
     "geom:longitude":-104.951458,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0iOZRYNpushqjhcGCRC1Os_39.866102_-104.951458@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447919,
-    "wof:geomhash":"f3aade03bcf0199c136944ae9cadc63f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f1b52daf366775f312dd89ec977d0a9d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":823839301
+        }
+    ],
     "wof:id":823839301,
-    "wof:lastmodified":1466419670,
+    "wof:lastmodified":1492118555,
     "wof:name":"Heredia Drywall Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

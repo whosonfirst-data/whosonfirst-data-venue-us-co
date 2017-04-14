@@ -2,9 +2,14 @@
   "id": 823843101,
   "type": "Feature",
   "properties": {
+    "addr:full":"626 Broken Spoke Rd Grand Junction CO 81504",
+    "addr:housenumber":"626",
+    "addr:postcode":"81504",
+    "addr:street":"Broken Spoke Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.502768,39.096809,-108.502768,39.096809",
     "geom:latitude":39.096809,
     "geom:longitude":-108.502768,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554999
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_48RWXs81DXvxgoOgI3lB7r_39.096809_-108.502768@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448024,
-    "wof:geomhash":"71217ec283280bf5dc4c3926b0cf445b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bed8f0d5de2057c09905c7fd3d476225",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554999,
+            "region_id":85688603,
+            "venue_id":823843101
+        }
+    ],
     "wof:id":823843101,
-    "wof:lastmodified":1466419507,
+    "wof:lastmodified":1492116926,
     "wof:name":"Chalk Mountain Transport",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554999,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

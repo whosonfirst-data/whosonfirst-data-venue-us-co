@@ -2,9 +2,14 @@
   "id": 823965983,
   "type": "Feature",
   "properties": {
+    "addr:full":"120 Girard St Durango CO 81303",
+    "addr:housenumber":"120",
+    "addr:postcode":"co 81303",
+    "addr:street":"Girard St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.875513,37.239618,-107.875513,37.239618",
     "geom:latitude":37.239618,
     "geom:longitude":-107.875513,
@@ -29,19 +34,28 @@
         "instruction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_64sixXgm8JVdWa78Q1NSlE_37.239618_-107.875513@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451162,
-    "wof:geomhash":"4c2fb9a66a79ff18957b4797883351a4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"74e76fab912def6e32b34ef55941dd77",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":823965983
+        }
+    ],
     "wof:id":823965983,
-    "wof:lastmodified":1466420800,
+    "wof:lastmodified":1492126078,
     "wof:name":"Kenpo Karate",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

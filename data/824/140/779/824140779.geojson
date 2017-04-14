@@ -2,9 +2,14 @@
   "id": 824140779,
   "type": "Feature",
   "properties": {
+    "addr:full":"15007 E 17th Ave Aurora CO 80011",
+    "addr:housenumber":"15007",
+    "addr:postcode":"80011",
+    "addr:street":"E 17Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.812536,39.743738,-104.812536,39.743738",
     "geom:latitude":39.743738,
     "geom:longitude":-104.812536,
@@ -35,7 +40,9 @@
         85633793,
         85929235,
         102086877,
-        85802959
+        85802959,
+        420559493,
+        85888271
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,7 +50,7 @@
     },
     "wof:country":"US",
     "wof:created":1463455538,
-    "wof:geomhash":"68478753997a8657bdadcc47bb08d0a2",
+    "wof:geomhash":"9d80b730b64cbd4921ed25926f2b02bb",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -53,12 +60,30 @@
             "neighbourhood_id":85802959,
             "region_id":85688603,
             "venue_id":824140779
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420559493,
+            "region_id":85688603,
+            "venue_id":824140779
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":85888271,
+            "region_id":85688603,
+            "venue_id":824140779
         }
     ],
     "wof:id":824140779,
-    "wof:lastmodified":1466416612,
+    "wof:lastmodified":1492131808,
     "wof:name":"4r Trucking",
-    "wof:parent_id":85802959,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

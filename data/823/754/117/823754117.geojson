@@ -2,9 +2,14 @@
   "id": 823754117,
   "type": "Feature",
   "properties": {
+    "addr:full":"14510 Brighton Rd Brighton CO 80601",
+    "addr:housenumber":"14510",
+    "addr:postcode":"80601",
+    "addr:street":"Brighton Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.837774,39.960215,-104.837774,39.960215",
     "geom:latitude":39.960215,
     "geom:longitude":-104.837774,
@@ -34,19 +39,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_21iydUlzzKInzRq6nGfc6a_39.960215_-104.837774@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445485,
-    "wof:geomhash":"442fe6a7666663a6c3fbd77340a3fbe3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b3637b60fd91abeb603d0053072d0f97",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553375,
+            "region_id":85688603,
+            "venue_id":823754117
+        }
+    ],
     "wof:id":823754117,
-    "wof:lastmodified":1466418991,
+    "wof:lastmodified":1492117493,
     "wof:name":"Cover-All Services Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

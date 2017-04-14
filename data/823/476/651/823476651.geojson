@@ -2,9 +2,14 @@
   "id": 823476651,
   "type": "Feature",
   "properties": {
+    "addr:full":"641 S Broadway Cortez CO 81321",
+    "addr:housenumber":"641",
+    "addr:postcode":"81321",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.598336,37.341798,-108.598336,37.341798",
     "geom:latitude":37.341798,
     "geom:longitude":-108.598336,
@@ -34,19 +39,36 @@
         "utility"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4flxV4s4EfpJZWTBut2T7G_37.341798_-108.598336@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438994,
-    "wof:geomhash":"11b174bf525aa22020e59e575defff45",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6b62f1d7c78971f615e72c23d44b3b10",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555135,
+            "region_id":85688603,
+            "venue_id":823476651
+        }
+    ],
     "wof:id":823476651,
-    "wof:lastmodified":1466412978,
+    "wof:lastmodified":1492127495,
     "wof:name":"Ol' West Trailers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

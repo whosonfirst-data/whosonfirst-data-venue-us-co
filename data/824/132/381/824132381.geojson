@@ -2,9 +2,14 @@
   "id": 824132381,
   "type": "Feature",
   "properties": {
+    "addr:full":"2853 S Zenobia St Denver CO 80236",
+    "addr:housenumber":"2853",
+    "addr:postcode":"80236",
+    "addr:street":"S Zenobia St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.051233,39.664145,-105.051233,39.664145",
     "geom:latitude":39.664145,
     "geom:longitude":-105.051233,
@@ -28,7 +33,15 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4vSxu4vzgOseepZQUnFiLy_39.664145_-105.051233@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463455231,
     "wof:geomhash":"9eb8b6e3b07088c377540897e2fc495a",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":824132381
+        }
+    ],
     "wof:id":824132381,
-    "wof:lastmodified":1466416294,
+    "wof:lastmodified":1491876125,
     "wof:name":"Lite Up Your Life Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

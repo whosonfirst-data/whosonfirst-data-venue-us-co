@@ -2,9 +2,14 @@
   "id": 824048665,
   "type": "Feature",
   "properties": {
+    "addr:full":"7528 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"7528",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053266,39.834527,-105.053266,39.834527",
     "geom:latitude":39.834527,
     "geom:longitude":-105.053266,
@@ -27,19 +32,46 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554605,
+        420554571
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ZATKFbGcY1Q4hS9I07GrZ_39.834527_-105.053266@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453136,
-    "wof:geomhash":"6cac77e011c800aaa4ada7b273451aff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c008ce491930452abcb4d35a50d76580",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554605,
+            "region_id":85688603,
+            "venue_id":824048665
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554571,
+            "region_id":85688603,
+            "venue_id":824048665
+        }
+    ],
     "wof:id":824048665,
-    "wof:lastmodified":1466414293,
+    "wof:lastmodified":1492132186,
     "wof:name":"Nail Studio",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

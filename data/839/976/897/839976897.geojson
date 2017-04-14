@@ -2,9 +2,14 @@
   "id": 839976897,
   "type": "Feature",
   "properties": {
+    "addr:full":"1200 el Paso Blvd Denver CO 80221",
+    "addr:housenumber":"1200",
+    "addr:postcode":"80221",
+    "addr:street":"El Paso Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.003725,39.834767,-105.003725,39.834767",
     "geom:latitude":39.834767,
     "geom:longitude":-105.003725,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553867
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1JwinGvRHo9WkQXux7XqWJ_39.834767_-105.003725@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460297,
-    "wof:geomhash":"d766e4d6e37a9bbebc202fe9bf2c2ae2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a77a619f0359c189a33752d51c1313e9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553867,
+            "region_id":85688603,
+            "venue_id":839976897
+        }
+    ],
     "wof:id":839976897,
-    "wof:lastmodified":1466416746,
+    "wof:lastmodified":1492112511,
     "wof:name":"Valley Vista United Meth Chr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553867,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

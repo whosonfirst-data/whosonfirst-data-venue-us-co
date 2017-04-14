@@ -2,9 +2,14 @@
   "id": 823942861,
   "type": "Feature",
   "properties": {
+    "addr:full":"5735 Hooker St Denver CO 80221",
+    "addr:housenumber":"5735",
+    "addr:postcode":"80221",
+    "addr:street":"Hooker St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.027787,39.801495,-105.027787,39.801495",
     "geom:latitude":39.801495,
     "geom:longitude":-105.027787,
@@ -27,19 +32,36 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5PoE4I2eMN9tHsKLqRSlCe_39.801495_-105.027787@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450588,
-    "wof:geomhash":"0e436717e6af69eb48beaae55b3c306f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c2039031537d7d750bf48ac9b24ee7cd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553839,
+            "region_id":85688603,
+            "venue_id":823942861
+        }
+    ],
     "wof:id":823942861,
-    "wof:lastmodified":1466420669,
+    "wof:lastmodified":1492116643,
     "wof:name":"John Henning Motors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

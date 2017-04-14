@@ -2,9 +2,14 @@
   "id": 839962799,
   "type": "Feature",
   "properties": {
+    "addr:full":"7970 W 120th Ave Broomfield CO 80020",
+    "addr:housenumber":"7970",
+    "addr:postcode":"80020",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.084372,39.914293,-105.084372,39.914293",
     "geom:latitude":39.914293,
     "geom:longitude":-105.084372,
@@ -33,6 +38,7 @@
         85633793,
         85929855,
         102086123,
+        420554279,
         85876555
     ],
     "wof:breaches":[],
@@ -41,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463459720,
-    "wof:geomhash":"ceb4268b300f5aa1c20912d8cb4642d5",
+    "wof:geomhash":"27d50aec5dd87699ebecce31c3442195",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554279,
+            "region_id":85688603,
+            "venue_id":839962799
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,9 +69,9 @@
         }
     ],
     "wof:id":839962799,
-    "wof:lastmodified":1466415885,
+    "wof:lastmodified":1492112170,
     "wof:name":"A Best Travel",
-    "wof:parent_id":85876555,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

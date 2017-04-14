@@ -2,9 +2,14 @@
   "id": 823518943,
   "type": "Feature",
   "properties": {
+    "addr:full":"5729 W 115th Ave Westminster CO 80020",
+    "addr:housenumber":"5729",
+    "addr:postcode":"80020",
+    "addr:street":"W 115Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062518,39.904604,-105.062518,39.904604",
     "geom:latitude":39.904604,
     "geom:longitude":-105.062518,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5QlSDyrAmpEYjk0HRnUg52_39.904604_-105.062518@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439999,
-    "wof:geomhash":"7477dbc485d5af08959eeb668a4dc140",
-    "wof:hierarchy":[],
+    "wof:geomhash":"37e325fc5ba9c929d3d6a4f393f35f60",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":823518943
+        }
+    ],
     "wof:id":823518943,
-    "wof:lastmodified":1466414815,
+    "wof:lastmodified":1492123293,
     "wof:name":"Colo Front Range Commuter Rail",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

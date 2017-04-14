@@ -2,9 +2,14 @@
   "id": 823728705,
   "type": "Feature",
   "properties": {
+    "addr:full":"7979 Meade St Westminster CO 80030",
+    "addr:housenumber":"7979",
+    "addr:postcode":"80030",
+    "addr:street":"Meade St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.035863,39.840889,-105.035863,39.840889",
     "geom:latitude":39.840889,
     "geom:longitude":-105.035863,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553541
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_33yz4P5YD0VXo9fYvm1QDv_39.840889_-105.035863@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444863,
-    "wof:geomhash":"7e9ecfdec7c7267f8091b085280fb3cf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f233b192114470e89ce7806d3d8eabd4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553541,
+            "region_id":85688603,
+            "venue_id":823728705
+        }
+    ],
     "wof:id":823728705,
-    "wof:lastmodified":1466418751,
+    "wof:lastmodified":1492121037,
     "wof:name":"Advent Lutheran Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553541,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

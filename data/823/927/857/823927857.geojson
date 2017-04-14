@@ -2,9 +2,14 @@
   "id": 823927857,
   "type": "Feature",
   "properties": {
+    "addr:full":"6565 Vine Ct Denver CO 80229",
+    "addr:housenumber":"6565",
+    "addr:postcode":"80229",
+    "addr:street":"Vine Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961434,39.881594,-104.961434,39.881594",
     "geom:latitude":39.881594,
     "geom:longitude":-104.961434,
@@ -28,19 +33,36 @@
         "structural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2GFTWSioZ4kw1ZpkvyP2hq_39.881594_-104.961434@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450199,
-    "wof:geomhash":"bc5df2858069cbcc7a33fe5099c38b72",
-    "wof:hierarchy":[],
+    "wof:geomhash":"296056c7946c915ba8361973bdb2a2f5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823927857
+        }
+    ],
     "wof:id":823927857,
-    "wof:lastmodified":1466420463,
+    "wof:lastmodified":1492115964,
     "wof:name":"Rex Iron & Machine Products Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

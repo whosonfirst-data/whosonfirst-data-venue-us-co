@@ -2,9 +2,14 @@
   "id": 824176399,
   "type": "Feature",
   "properties": {
+    "addr:full":"3601 Platte Dr Fort Collins CO 80526",
+    "addr:housenumber":"3601",
+    "addr:postcode":"80526",
+    "addr:street":"Platte Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.12357,40.535774,-105.12357,40.535774",
     "geom:latitude":40.535774,
     "geom:longitude":-105.12357,
@@ -30,9 +35,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85877467,
-        102083353
+        85929679,
+        102083353,
+        85877457,
+        85877467
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -40,20 +48,31 @@
     },
     "wof:country":"US",
     "wof:created":1463456928,
-    "wof:geomhash":"73b36cc69de1a547881ce4948a2b8709",
+    "wof:geomhash":"24be02eabf54a68700ce9e869e95d72f",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877457,
+            "region_id":85688603,
+            "venue_id":824176399
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
             "neighbourhood_id":85877467,
             "region_id":85688603,
             "venue_id":824176399
         }
     ],
     "wof:id":824176399,
-    "wof:lastmodified":1466418011,
+    "wof:lastmodified":1492128416,
     "wof:name":"MDW Graphics & Type",
-    "wof:parent_id":85877467,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

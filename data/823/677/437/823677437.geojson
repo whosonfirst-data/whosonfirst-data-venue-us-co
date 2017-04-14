@@ -2,9 +2,14 @@
   "id": 823677437,
   "type": "Feature",
   "properties": {
+    "addr:full":"4702 Durham Ct Denver CO 80239",
+    "addr:housenumber":"4702",
+    "addr:postcode":"80239",
+    "addr:street":"Durham Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.820991,39.781323,-104.820991,39.781323",
     "geom:latitude":39.781323,
     "geom:longitude":-104.820991,
@@ -24,7 +29,15 @@
     "sg:postcode":"80239",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5RW6BNqASPbcNyk6Nq8dcD_39.781323_-104.820991@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463443734,
     "wof:geomhash":"969092dbdf7f5153e12eeafa7d74322b",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823677437
+        }
+    ],
     "wof:id":823677437,
-    "wof:lastmodified":1466418363,
+    "wof:lastmodified":1491887456,
     "wof:name":"Products Around World",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

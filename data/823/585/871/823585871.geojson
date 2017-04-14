@@ -2,9 +2,14 @@
   "id": 823585871,
   "type": "Feature",
   "properties": {
+    "addr:full":"151 W Mineral Ave Littleton CO 80120",
+    "addr:housenumber":"151",
+    "addr:postcode":"80120",
+    "addr:street":"W Mineral Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.990244,39.573552,-104.990244,39.573552",
     "geom:latitude":39.573552,
     "geom:longitude":-104.990244,
@@ -28,17 +33,32 @@
         "outpatient"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929241,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6KU6TJprBUihTpyXrE1Myn_39.573552_-104.990244@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441551,
-    "wof:geomhash":"380e6f813918cd2e23d237ce0ec97161",
-    "wof:hierarchy":[],
+    "wof:geomhash":"05f08480513fea7e2ac98422cf1a3d23",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929241,
+            "region_id":85688603,
+            "venue_id":823585871
+        }
+    ],
     "wof:id":823585871,
-    "wof:lastmodified":1466416779,
+    "wof:lastmodified":1492127383,
     "wof:name":"HealthSouth",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

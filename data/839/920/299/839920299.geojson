@@ -2,9 +2,14 @@
   "id": 839920299,
   "type": "Feature",
   "properties": {
+    "addr:full":"5815 W 52nd Ave Denver CO 80212",
+    "addr:housenumber":"5815",
+    "addr:postcode":"80212",
+    "addr:street":"W 52Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.061315,39.791148,-105.061315,39.791148",
     "geom:latitude":39.791148,
     "geom:longitude":-105.061315,
@@ -29,19 +34,34 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_01diMhMz3mMJtLw7ku1Rth_39.791148_-105.061315@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457504,
-    "wof:geomhash":"4eb0674c108e6c2ada2388ef956eb148",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8b18e5c6fc647eff354b34d1df2ff004",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":839920299
+        }
+    ],
     "wof:id":839920299,
-    "wof:lastmodified":1466413587,
+    "wof:lastmodified":1492112326,
     "wof:name":"Royal Bell LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

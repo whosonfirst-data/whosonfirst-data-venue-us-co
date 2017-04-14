@@ -2,9 +2,14 @@
   "id": 824161841,
   "type": "Feature",
   "properties": {
+    "addr:full":"2464 Co Rd 228 Durango CO 81301",
+    "addr:housenumber":"2464;228",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.761192,37.261751,-107.761192,37.261751",
     "geom:latitude":37.261751,
     "geom:longitude":-107.761192,
@@ -24,19 +29,34 @@
     "sg:postcode":"81301",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667,
+        420554607
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1QTvTVpb3poTGKNFUKM4HH_37.261751_-107.761192@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456364,
-    "wof:geomhash":"a160f09deeed1eba95dbfd15c1c95936",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fc185639876649479814d5ba3f3e2b91",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824161841
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554607,
+            "venue_id":824161841
+        }
+    ],
     "wof:id":824161841,
-    "wof:lastmodified":1466417449,
+    "wof:lastmodified":1492130475,
     "wof:name":"Flanagan Architecture Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

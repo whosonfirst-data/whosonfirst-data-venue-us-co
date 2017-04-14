@@ -2,9 +2,14 @@
   "id": 839971401,
   "type": "Feature",
   "properties": {
+    "addr:full":"3645 W 46th Ave Denver CO 80211",
+    "addr:housenumber":"3645",
+    "addr:postcode":"80211",
+    "addr:street":"W 46Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.035312,39.780291,-105.035312,39.780291",
     "geom:latitude":39.780291,
     "geom:longitude":-105.035312,
@@ -27,19 +32,38 @@
         "electronic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871261,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6r3wT42jsE4zuhfaAtGigf_39.780291_-105.035312@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460072,
-    "wof:geomhash":"f9be67aff6d847be0c39a30d8cb46936",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bb544bb09562edfdf9881b53e52d4055",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871261,
+            "region_id":85688603,
+            "venue_id":839971401
+        }
+    ],
     "wof:id":839971401,
-    "wof:lastmodified":1466416277,
+    "wof:lastmodified":1492110456,
     "wof:name":"Low Voltage Connection",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871261,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

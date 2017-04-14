@@ -2,9 +2,14 @@
   "id": 823946999,
   "type": "Feature",
   "properties": {
+    "addr:full":"607 S Broadway St Boulder CO 80305",
+    "addr:housenumber":"607",
+    "addr:postcode":"80305",
+    "addr:street":"S Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.243117,39.977805,-105.243117,39.977805",
     "geom:latitude":39.977805,
     "geom:longitude":-105.243117,
@@ -27,19 +32,36 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3FFDCoaQbhngxbNjOwJmx6_39.977805_-105.243117@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450711,
-    "wof:geomhash":"c2b35dfcf7e0eccac1854f950af18591",
-    "wof:hierarchy":[],
+    "wof:geomhash":"00fd7e93e586c07d0e7fab65bc31224c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":823946999
+        }
+    ],
     "wof:id":823946999,
-    "wof:lastmodified":1466420678,
+    "wof:lastmodified":1492122431,
     "wof:name":"One Hour Photo Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

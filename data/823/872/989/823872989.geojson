@@ -2,9 +2,14 @@
   "id": 823872989,
   "type": "Feature",
   "properties": {
+    "addr:full":"2038 Caribou Dr Fort Collins CO 80525",
+    "addr:housenumber":"2038",
+    "addr:postcode":"80525",
+    "addr:street":"Caribou Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040523,40.530806,-105.040523,40.530806",
     "geom:latitude":40.530806,
     "geom:longitude":-105.040523,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6DxqI24Zed5U1TNBicZkY4_40.530806_-105.040523@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448805,
-    "wof:geomhash":"20944a5cb3ef75c67eea0d075f8476cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ac13a5f4c1b28c98a3f776308490fcac",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":823872989
+        }
+    ],
     "wof:id":823872989,
-    "wof:lastmodified":1466420010,
+    "wof:lastmodified":1492120172,
     "wof:name":"Rocky Mountain Medical Search",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

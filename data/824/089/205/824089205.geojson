@@ -2,9 +2,14 @@
   "id": 824089205,
   "type": "Feature",
   "properties": {
+    "addr:full":"3201 Riverside Dr Idaho Springs CO 80452",
+    "addr:housenumber":"3201",
+    "addr:postcode":"80452",
+    "addr:street":"Riverside Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.492738,39.743609,-105.492738,39.743609",
     "geom:latitude":39.743609,
     "geom:longitude":-105.492738,
@@ -27,19 +32,34 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929529,
+        102085243,
+        85803449
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0oHwS8QKMDm3gPsOI9Jtq2_39.743609_-105.492738@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454071,
-    "wof:geomhash":"6876d35519252a99484038f0b4d7d98c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7adc54d42ac56ddb00b6d42a04b4baf1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085243,
+            "locality_id":85929529,
+            "neighbourhood_id":85803449,
+            "region_id":85688603,
+            "venue_id":824089205
+        }
+    ],
     "wof:id":824089205,
-    "wof:lastmodified":1466415012,
+    "wof:lastmodified":1492130138,
     "wof:name":"Big Horn Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":85803449,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

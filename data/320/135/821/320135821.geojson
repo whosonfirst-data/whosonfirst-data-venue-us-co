@@ -2,9 +2,14 @@
   "id": 320135821,
   "type": "Feature",
   "properties": {
+    "addr:full":"3003 Arapahoe St Denver CO 80205",
+    "addr:housenumber":"3003",
+    "addr:postcode":"80205",
+    "addr:street":"Arapahoe St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978836,39.761087,-104.978836,39.761087",
     "geom:latitude":39.761087,
     "geom:longitude":-104.978836,
@@ -28,11 +33,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750115,
+        85871289,
+        102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85888337
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +50,21 @@
     "wof:geomhash":"4f0ab82ec87f6f444a3a41c8b7de574d",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85888337,
+            "macrohood_id":1108750025,
+            "microhood_id":1108750115,
+            "neighbourhood_id":85871289,
             "region_id":85688603,
             "venue_id":320135821
         }
     ],
     "wof:id":320135821,
-    "wof:lastmodified":1466412651,
+    "wof:lastmodified":1486604521,
     "wof:name":"Downtown Locksmith",
-    "wof:parent_id":85888337,
+    "wof:parent_id":1108750115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

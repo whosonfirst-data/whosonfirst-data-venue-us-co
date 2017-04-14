@@ -2,9 +2,14 @@
   "id": 823823797,
   "type": "Feature",
   "properties": {
+    "addr:full":"1883 Co Rd 125 Hesperus CO 81326",
+    "addr:housenumber":"1883",
+    "addr:postcode":"81326",
+    "addr:street":"Co Rd 125 Hesperus",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.998973,37.252259,-107.998973,37.252259",
     "geom:latitude":37.252259,
     "geom:longitude":-107.998973,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7XxhTFwWIp7KGafCvu0gbL_37.252259_-107.998973@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447410,
-    "wof:geomhash":"410a55877c9f25e7989c157132eee683",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0b80cf00f2a12494d8de0c7ec6c8262e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":823823797
+        }
+    ],
     "wof:id":823823797,
-    "wof:lastmodified":1466419575,
+    "wof:lastmodified":1492122129,
     "wof:name":"LA Plata Elec Shenandoah",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

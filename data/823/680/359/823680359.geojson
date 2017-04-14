@@ -2,9 +2,14 @@
   "id": 823680359,
   "type": "Feature",
   "properties": {
+    "addr:full":"403 Kennedy Ave Grand Junction CO 81501",
+    "addr:housenumber":"403",
+    "addr:postcode":"81501",
+    "addr:street":"Kennedy Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.564482,39.079823,-108.564482,39.079823",
     "geom:latitude":39.079823,
     "geom:longitude":-108.564482,
@@ -28,19 +33,36 @@
         "health"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_33jMZnHmbk7YoamPKp1nt3_39.079823_-108.564482@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443794,
-    "wof:geomhash":"9392aa55c4690374723359aa1b70b0fa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3674caa5b9b987ce9691c5c54043ff43",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823680359
+        }
+    ],
     "wof:id":823680359,
-    "wof:lastmodified":1466418368,
+    "wof:lastmodified":1492123936,
     "wof:name":"Clear Rivers Distributing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

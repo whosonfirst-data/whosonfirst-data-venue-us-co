@@ -2,9 +2,14 @@
   "id": 823679989,
   "type": "Feature",
   "properties": {
+    "addr:full":"1544 E 131st Pl Denver CO 80241",
+    "addr:housenumber":"1544",
+    "addr:postcode":"80241",
+    "addr:street":"E 131St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.969454,39.934529,-104.969454,39.934529",
     "geom:latitude":39.934529,
     "geom:longitude":-104.969454,
@@ -28,19 +33,36 @@
         "air"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7PfoQTX9ljTaow7y0ZvLRt_39.934529_-104.969454@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443787,
-    "wof:geomhash":"362f6710269fb22280ee11560d172d63",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f900c936cf8035280d838153a0f88b44",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":823679989
+        }
+    ],
     "wof:id":823679989,
-    "wof:lastmodified":1466418344,
+    "wof:lastmodified":1492119865,
     "wof:name":"Express One",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

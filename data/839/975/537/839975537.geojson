@@ -2,9 +2,14 @@
   "id": 839975537,
   "type": "Feature",
   "properties": {
+    "addr:full":"11887 Tejon St Denver CO 80234",
+    "addr:housenumber":"11887",
+    "addr:postcode":"80234",
+    "addr:street":"Tejon St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00904,39.912268,-105.00904,39.912268",
     "geom:latitude":39.912268,
     "geom:longitude":-105.00904,
@@ -28,19 +33,36 @@
         "membership"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5JgmVA3erRonbYfbb5odX4_39.912268_-105.009040@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460238,
-    "wof:geomhash":"9331a2cd6032da7ed6502bd6680074f8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5013ed4f2a11ba4e5eb38cb7c6f142c3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":839975537
+        }
+    ],
     "wof:id":839975537,
-    "wof:lastmodified":1466416478,
+    "wof:lastmodified":1492113761,
     "wof:name":"Ranch CC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

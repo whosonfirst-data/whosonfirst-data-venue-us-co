@@ -2,9 +2,14 @@
   "id": 823789711,
   "type": "Feature",
   "properties": {
+    "addr:full":"1414 W Gunnison Ave Gunnison CO 81230",
+    "addr:housenumber":"1414",
+    "addr:postcode":"81230",
+    "addr:street":"W Gunnison Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.944373,38.542176,-106.944373,38.542176",
     "geom:latitude":38.542176,
     "geom:longitude":-106.944373,
@@ -27,19 +32,36 @@
         "condominium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ctuV5UImmnM3y98IpR8jS_38.542176_-106.944373@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446417,
-    "wof:geomhash":"5c2d694c20389355bc23a15a5f7b23c6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"31a3d7109700ea662750667fc2db58a2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554393,
+            "region_id":85688603,
+            "venue_id":823789711
+        }
+    ],
     "wof:id":823789711,
-    "wof:lastmodified":1466419238,
+    "wof:lastmodified":1492118118,
     "wof:name":"West Wood Cove",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

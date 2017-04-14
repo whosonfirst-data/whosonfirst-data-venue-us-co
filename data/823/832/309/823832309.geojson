@@ -2,9 +2,14 @@
   "id": 823832309,
   "type": "Feature",
   "properties": {
+    "addr:full":"4355 Chippewa Dr Boulder CO 80303",
+    "addr:housenumber":"4355",
+    "addr:postcode":"80303",
+    "addr:street":"Chippewa Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.239315,39.995999,-105.239315,39.995999",
     "geom:latitude":39.995999,
     "geom:longitude":-105.239315,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554127
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4XNw4ic9ejAgPAVASYtyj0_39.995999_-105.239315@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447669,
-    "wof:geomhash":"e97354dabf0dacff0789b074bc22a9d4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a069dc978d284f77918b872f4de27be7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554127,
+            "region_id":85688603,
+            "venue_id":823832309
+        }
+    ],
     "wof:id":823832309,
-    "wof:lastmodified":1466419645,
+    "wof:lastmodified":1492125726,
     "wof:name":"West Properties",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554127,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

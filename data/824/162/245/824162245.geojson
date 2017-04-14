@@ -2,9 +2,14 @@
   "id": 824162245,
   "type": "Feature",
   "properties": {
+    "addr:full":"617 Main St Fort Morgan CO 80701",
+    "addr:housenumber":"617",
+    "addr:postcode":"80701",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.801572,40.255219,-103.801572,40.255219",
     "geom:latitude":40.255219,
     "geom:longitude":-103.801572,
@@ -28,17 +33,32 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1TWrAUNnBDtRhtdURmJf1j_40.255219_-103.801572@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456383,
-    "wof:geomhash":"0d1cd793e0377436c6b4b785e001c188",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2aca305e8940dc2dd7480facbc570f64",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":824162245
+        }
+    ],
     "wof:id":824162245,
-    "wof:lastmodified":1466417519,
+    "wof:lastmodified":1492132890,
     "wof:name":"Fort Morgan Printing",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

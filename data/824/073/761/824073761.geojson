@@ -2,9 +2,14 @@
   "id": 824073761,
   "type": "Feature",
   "properties": {
+    "addr:full":"56131 E Colfax Ave Strasburg CO 80136",
+    "addr:housenumber":"56131",
+    "addr:postcode":"80136",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.330549,39.738402,-104.330549,39.738402",
     "geom:latitude":39.738402,
     "geom:longitude":-104.330549,
@@ -27,19 +32,36 @@
         "feed"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4lDCUczaCxRfhbmIV9gcl7_39.738402_-104.330549@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453714,
-    "wof:geomhash":"c20b0c035ba1c5cf9820a5da7547dd6a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"be7b7969052f2440617a111b229ab866",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":824073761
+        }
+    ],
     "wof:id":824073761,
-    "wof:lastmodified":1466414649,
+    "wof:lastmodified":1492132509,
     "wof:name":"Ranch Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823630939,
   "type": "Feature",
   "properties": {
+    "addr:full":"204 Allen St Fort Collins CO 80525",
+    "addr:housenumber":"204",
+    "addr:postcode":"80525",
+    "addr:street":"Allen St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.072873,40.550639,-105.072873,40.550639",
     "geom:latitude":40.550639,
     "geom:longitude":-105.072873,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554753
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0MzovdRSkoQgdDgcbjBiJe_40.550639_-105.072873@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442648,
-    "wof:geomhash":"9884944903b13b7e4dacfcd30060d7ab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"012460c24e71b666d461341085bc80cb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554753,
+            "region_id":85688603,
+            "venue_id":823630939
+        }
+    ],
     "wof:id":823630939,
-    "wof:lastmodified":1466417666,
+    "wof:lastmodified":1492123689,
     "wof:name":"Econo-Rate Rent-A-Car",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554753,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

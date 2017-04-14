@@ -2,9 +2,14 @@
   "id": 823527349,
   "type": "Feature",
   "properties": {
+    "addr:full":"3105 28th St Boulder CO 80301",
+    "addr:housenumber":"3105",
+    "addr:postcode":"80301",
+    "addr:street":"28Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258498,40.030868,-105.258498,40.030868",
     "geom:latitude":40.030868,
     "geom:longitude":-105.258498,
@@ -28,19 +33,36 @@
         "child"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ZGQNJOa7IjvxG4gGbk7DW_40.030868_-105.258498@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440200,
-    "wof:geomhash":"0bbeaea0b63e8505eb30e50dcfdf1993",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0ee6fe96ae7cac1defe81390333516b7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":823527349
+        }
+    ],
     "wof:id":823527349,
-    "wof:lastmodified":1466415083,
+    "wof:lastmodified":1492120422,
     "wof:name":"Gymboree Play Programs",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

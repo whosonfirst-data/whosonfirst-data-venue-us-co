@@ -2,9 +2,14 @@
   "id": 824079565,
   "type": "Feature",
   "properties": {
+    "addr:full":"4705 Osage Dr Boulder CO 80303",
+    "addr:housenumber":"4705",
+    "addr:postcode":"80303",
+    "addr:street":"Osage Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.234236,39.990475,-105.234236,39.990475",
     "geom:latitude":39.990475,
     "geom:longitude":-105.234236,
@@ -32,19 +37,36 @@
         "exploration"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_68DfffWjSN4eCq3EQRhTji_39.990475_-105.234236@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453844,
-    "wof:geomhash":"3f7406eb6c20330da78b72cf19618c35",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f1a24b70b2207829aeddb5bce0e6db39",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":824079565
+        }
+    ],
     "wof:id":824079565,
-    "wof:lastmodified":1466414706,
+    "wof:lastmodified":1492128907,
     "wof:name":"Odum Oil & Gas Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

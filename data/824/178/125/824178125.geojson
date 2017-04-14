@@ -2,9 +2,14 @@
   "id": 824178125,
   "type": "Feature",
   "properties": {
+    "addr:full":"760 Burbank St Broomfield CO 80020",
+    "addr:housenumber":"760",
+    "addr:postcode":"80020",
+    "addr:street":"Burbank St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.094281,39.927698,-105.094281,39.927698",
     "geom:latitude":39.927698,
     "geom:longitude":-105.094281,
@@ -27,19 +32,36 @@
         "accountant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1gAd8HCSzunsueI2J8f1ID_39.927698_-105.094281@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456994,
-    "wof:geomhash":"b9f40c3204a5c5d510a1c2e0523890cc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"12334bbc66c8f8dc20043af93bbc6649",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554251,
+            "region_id":85688603,
+            "venue_id":824178125
+        }
+    ],
     "wof:id":824178125,
-    "wof:lastmodified":1466418264,
+    "wof:lastmodified":1492129346,
     "wof:name":"Van Dorn & Bossi",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

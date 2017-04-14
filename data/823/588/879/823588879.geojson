@@ -2,9 +2,14 @@
   "id": 823588879,
   "type": "Feature",
   "properties": {
+    "addr:full":"5172 E 111th Pl Denver CO 80233",
+    "addr:housenumber":"5172",
+    "addr:postcode":"80233",
+    "addr:street":"E 111Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.925391,39.897691,-104.925391,39.897691",
     "geom:latitude":39.897691,
     "geom:longitude":-104.925391,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553691
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0k3P0cJNh1kg3ZBmcxALuS_39.897691_-104.925391@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441621,
-    "wof:geomhash":"2c18e80d9a66c8e4430eec5353d1c740",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b6576f3dafaf7f4a71fcb8befaec79d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553691,
+            "region_id":85688603,
+            "venue_id":823588879
+        }
+    ],
     "wof:id":823588879,
-    "wof:lastmodified":1466416799,
+    "wof:lastmodified":1492125703,
     "wof:name":"Pyi Pressure Washing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553691,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

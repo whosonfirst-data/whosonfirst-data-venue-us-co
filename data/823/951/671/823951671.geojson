@@ -2,9 +2,14 @@
   "id": 823951671,
   "type": "Feature",
   "properties": {
+    "addr:full":"1452 Monroe St Strasburg CO 80136",
+    "addr:housenumber":"1452",
+    "addr:postcode":"80136",
+    "addr:street":"Monroe St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.321331,39.737984,-104.321331,39.737984",
     "geom:latitude":39.737984,
     "geom:longitude":-104.321331,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ZBpLicImvXtz71U65Zyae_39.737984_-104.321331@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450814,
-    "wof:geomhash":"9f2e798e2825930eca90340d2cdfa26d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"173b4f2a9c0fb9db718a19e2fade4eaa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823951671
+        }
+    ],
     "wof:id":823951671,
-    "wof:lastmodified":1466420640,
+    "wof:lastmodified":1492123813,
     "wof:name":"Garrison Motors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

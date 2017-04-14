@@ -2,9 +2,14 @@
   "id": 823853675,
   "type": "Feature",
   "properties": {
+    "addr:full":"8600 Washington St Thornton CO 80229",
+    "addr:housenumber":"8600",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977826,39.8542,-104.977826,39.8542",
     "geom:latitude":39.8542,
     "geom:longitude":-104.977826,
@@ -27,19 +32,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2SvkEi0fuZvLQEd2GhBYT2_39.854200_-104.977826@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448324,
-    "wof:geomhash":"495aa1857143aa94f9a119f3d48b7b21",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1cd7f892469c2d005efaa8c185b1bb77",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":823853675
+        }
+    ],
     "wof:id":823853675,
-    "wof:lastmodified":1466419818,
+    "wof:lastmodified":1492123439,
     "wof:name":"Chimex",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

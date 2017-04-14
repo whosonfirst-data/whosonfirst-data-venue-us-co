@@ -2,9 +2,14 @@
   "id": 823887793,
   "type": "Feature",
   "properties": {
+    "addr:full":"2678 Delta Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2678",
+    "addr:postcode":"80910",
+    "addr:street":"Delta Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.770152,38.79292,-104.770152,38.79292",
     "geom:latitude":38.79292,
     "geom:longitude":-104.770152,
@@ -27,19 +32,36 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3uyjG2u9vtuDVDvxb3Auzf_38.792920_-104.770152@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449140,
-    "wof:geomhash":"1f3b48c89bf151f5d1df6d71022f7906",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0305905fcbec677cc7b6176c293150c1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823887793
+        }
+    ],
     "wof:id":823887793,
-    "wof:lastmodified":1466420112,
+    "wof:lastmodified":1492122499,
     "wof:name":"Precision Standards Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

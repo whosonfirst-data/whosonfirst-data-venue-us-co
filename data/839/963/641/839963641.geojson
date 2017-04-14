@@ -2,9 +2,14 @@
   "id": 839963641,
   "type": "Feature",
   "properties": {
+    "addr:full":"512 Cortez Ct Fort Collins CO 80525",
+    "addr:housenumber":"512",
+    "addr:postcode":"80525",
+    "addr:street":"Cortez Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.068086,40.547837,-105.068086,40.547837",
     "geom:latitude":40.547837,
     "geom:longitude":-105.068086,
@@ -28,19 +33,36 @@
     ],
     "sg:website":"www.locallyownedretailer.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0zAkUBISbuNJZb3mRGwY7s_40.547837_-105.068086@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459757,
-    "wof:geomhash":"16ac9e8d01f2c90d77f2127a0f22fda3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8f57b37f150968f6885bf67f2d589880",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":839963641
+        }
+    ],
     "wof:id":839963641,
-    "wof:lastmodified":1466415988,
+    "wof:lastmodified":1492111774,
     "wof:name":"Locally Owned Retailer",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554749,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

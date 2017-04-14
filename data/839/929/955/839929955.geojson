@@ -2,9 +2,14 @@
   "id": 839929955,
   "type": "Feature",
   "properties": {
+    "addr:full":"7381 Bryant St Westminster CO 80030",
+    "addr:housenumber":"7381",
+    "addr:postcode":"80030",
+    "addr:street":"Bryant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018417,39.827605,-105.018417,39.827605",
     "geom:latitude":39.827605,
     "geom:longitude":-105.018417,
@@ -29,19 +34,36 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553585
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4vQ4vNw1WS5GQ7foPbGJKB_39.827605_-105.018417@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457970,
-    "wof:geomhash":"07d70069679d40a4566cc5622700e684",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e53e3618af6a652ad20fd599039e62cd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553585,
+            "region_id":85688603,
+            "venue_id":839929955
+        }
+    ],
     "wof:id":839929955,
-    "wof:lastmodified":1466413996,
+    "wof:lastmodified":1492112933,
     "wof:name":"Volkmann Carpet Svc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553585,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

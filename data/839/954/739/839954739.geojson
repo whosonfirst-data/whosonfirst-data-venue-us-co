@@ -2,9 +2,14 @@
   "id": 839954739,
   "type": "Feature",
   "properties": {
+    "addr:full":"1305 Iris Cir Broomfield CO 80020",
+    "addr:housenumber":"1305",
+    "addr:postcode":"80020",
+    "addr:street":"Iris Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.083167,39.935405,-105.083167,39.935405",
     "geom:latitude":39.935405,
     "geom:longitude":-105.083167,
@@ -32,19 +37,36 @@
         "pollution"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554191
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Eytj6LP7hPECAgx2mQd7A_39.935405_-105.083167@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459382,
-    "wof:geomhash":"5051784f7943393514af9dc6568f4f88",
-    "wof:hierarchy":[],
+    "wof:geomhash":"69658e7ceeeabe4158d49566c4bda9d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554191,
+            "region_id":85688603,
+            "venue_id":839954739
+        }
+    ],
     "wof:id":839954739,
-    "wof:lastmodified":1466415573,
+    "wof:lastmodified":1492113903,
     "wof:name":"Envirtech Products Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554191,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

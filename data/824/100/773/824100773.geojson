@@ -2,9 +2,14 @@
   "id": 824100773,
   "type": "Feature",
   "properties": {
+    "addr:full":"4740 Walnut St Boulder CO 80301",
+    "addr:housenumber":"4740",
+    "addr:postcode":"80301",
+    "addr:street":"Walnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.243098,40.019576,-105.243098,40.019576",
     "geom:latitude":40.019576,
     "geom:longitude":-105.243098,
@@ -29,19 +34,36 @@
         "raising"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0qipPwYzX1HqBYlcu5LDyq_40.019576_-105.243098@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454359,
-    "wof:geomhash":"96ce02188960bee7af14f3087cf413bf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"946738d869175087597acb360a07771c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":824100773
+        }
+    ],
     "wof:id":824100773,
-    "wof:lastmodified":1466415144,
+    "wof:lastmodified":1492129734,
     "wof:name":"University of Colo Foundation",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

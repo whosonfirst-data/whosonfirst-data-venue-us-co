@@ -2,9 +2,14 @@
   "id": 839972483,
   "type": "Feature",
   "properties": {
+    "addr:full":"8450 Clarkson St Denver CO 80229",
+    "addr:housenumber":"8450",
+    "addr:postcode":"80229",
+    "addr:street":"Clarkson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977056,39.850396,-104.977056,39.850396",
     "geom:latitude":39.850396,
     "geom:longitude":-104.977056,
@@ -28,19 +33,36 @@
         "cellular"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0VcAwrSxpt76mSioEH8CZM_39.850396_-104.977056@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460123,
-    "wof:geomhash":"9140d5cd041280b0cba48a27970ce9c4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"798d28738121aed383cc3d210cb4040f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":839972483
+        }
+    ],
     "wof:id":839972483,
-    "wof:lastmodified":1466416465,
+    "wof:lastmodified":1492112576,
     "wof:name":"Bradshaw Wireless",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

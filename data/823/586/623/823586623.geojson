@@ -2,9 +2,14 @@
   "id": 823586623,
   "type": "Feature",
   "properties": {
+    "addr:full":"11485 Pecos St Denver CO 80234",
+    "addr:housenumber":"11485",
+    "addr:postcode":"80234",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006179,39.904319,-105.006179,39.904319",
     "geom:latitude":39.904319,
     "geom:longitude":-105.006179,
@@ -27,19 +32,36 @@
         "mortgage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553847
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_657i5Msh7Jb06ZUjCC8sGf_39.904319_-105.006179@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441573,
-    "wof:geomhash":"3af9fdcdc4ed0fc41c1475e12dc3ba52",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0a144e9a80db8250548b88bdd7327046",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553847,
+            "region_id":85688603,
+            "venue_id":823586623
+        }
+    ],
     "wof:id":823586623,
-    "wof:lastmodified":1466416806,
+    "wof:lastmodified":1492118486,
     "wof:name":"Apex Mortgage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553847,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

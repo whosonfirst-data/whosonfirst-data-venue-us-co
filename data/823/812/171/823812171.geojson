@@ -2,9 +2,14 @@
   "id": 823812171,
   "type": "Feature",
   "properties": {
+    "addr:full":"2628 S Patton Ct Denver CO 80219",
+    "addr:housenumber":"2628",
+    "addr:postcode":"80219",
+    "addr:street":"S Patton Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.038606,39.668455,-105.038606,39.668455",
     "geom:latitude":39.668455,
     "geom:longitude":-105.038606,
@@ -28,7 +33,15 @@
         "practitioner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42vtCqtbjj5CoMY74Axuxf_39.668455_-105.038606@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463447074,
     "wof:geomhash":"047fc01b47766d4d782e1bb9f80ec75e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":823812171
+        }
+    ],
     "wof:id":823812171,
-    "wof:lastmodified":1466419728,
+    "wof:lastmodified":1486593721,
     "wof:name":"Wolfsong Healing",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

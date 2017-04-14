@@ -2,9 +2,14 @@
   "id": 823579711,
   "type": "Feature",
   "properties": {
+    "addr:full":"11566 Depew Way Westminster CO 80020",
+    "addr:housenumber":"11566",
+    "addr:postcode":"80020",
+    "addr:street":"Depew Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059072,39.905072,-105.059072,39.905072",
     "geom:latitude":39.905072,
     "geom:longitude":-105.059072,
@@ -27,19 +32,36 @@
         "photo"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1OvnPIVQCdVBFI9YIApNOj_39.905072_-105.059072@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441414,
-    "wof:geomhash":"94ed8ff5918678437aa5a526ef64f49a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"303daec68ec79eff13faed35f25576f3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":823579711
+        }
+    ],
     "wof:id":823579711,
-    "wof:lastmodified":1466416582,
+    "wof:lastmodified":1492121692,
     "wof:name":"Haun Imaging",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823724185,
   "type": "Feature",
   "properties": {
+    "addr:full":"1800 Lehigh St Boulder CO 80305",
+    "addr:housenumber":"1800",
+    "addr:postcode":"80305",
+    "addr:street":"Lehigh St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260106,39.969027,-105.260106,39.969027",
     "geom:latitude":39.969027,
     "geom:longitude":-105.260106,
@@ -30,9 +35,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929877,
         102085251,
+        420554113,
         85876439
     ],
     "wof:breaches":[],
@@ -41,8 +48,17 @@
     },
     "wof:country":"US",
     "wof:created":1463444757,
-    "wof:geomhash":"7344b1c1267d1a29aa0982666e48b8f5",
+    "wof:geomhash":"4d1e5d302fe45f25eff3434284dba594",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":823724185
+        },
         {
             "country_id":85633793,
             "county_id":102085251,
@@ -53,9 +69,9 @@
         }
     ],
     "wof:id":823724185,
-    "wof:lastmodified":1466418724,
+    "wof:lastmodified":1492117440,
     "wof:name":"Mesa Office Management Inc",
-    "wof:parent_id":85876439,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

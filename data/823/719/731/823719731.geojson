@@ -2,9 +2,14 @@
   "id": 823719731,
   "type": "Feature",
   "properties": {
+    "addr:full":"888 Main St Springfield CO 81073",
+    "addr:housenumber":"888",
+    "addr:postcode":"81073",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.616451,37.405206,-102.616451,37.405206",
     "geom:latitude":37.405206,
     "geom:longitude":-102.616451,
@@ -27,17 +32,32 @@
         "auctioneer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929173,
+        102085237
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_355QK2xpHKXo2T1VfifHqW_37.405206_-102.616451@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444639,
-    "wof:geomhash":"19df991b5def3ed36d0378182188d3ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"93418f6957249232581ad25de106ed36",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085237,
+            "locality_id":85929173,
+            "region_id":85688603,
+            "venue_id":823719731
+        }
+    ],
     "wof:id":823719731,
-    "wof:lastmodified":1466418726,
+    "wof:lastmodified":1492126045,
     "wof:name":"Sparks Auction Co",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

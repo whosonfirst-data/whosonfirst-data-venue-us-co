@@ -2,9 +2,14 @@
   "id": 824177211,
   "type": "Feature",
   "properties": {
+    "addr:full":"3694 S Hudson St Denver CO 80237",
+    "addr:housenumber":"3694",
+    "addr:postcode":"80237",
+    "addr:street":"S Hudson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.924447,39.650248,-104.924447,39.650248",
     "geom:latitude":39.650248,
     "geom:longitude":-104.924447,
@@ -27,7 +32,15 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750071,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Nyq7CaTeWfMeDCcRdkm99_39.650248_-104.924447@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463456962,
     "wof:geomhash":"5b8ff7b9863c7382e606b1c0a3cb0507",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750071,
+            "region_id":85688603,
+            "venue_id":824177211
+        }
+    ],
     "wof:id":824177211,
-    "wof:lastmodified":1466418144,
+    "wof:lastmodified":1486593589,
     "wof:name":"Rick Shuchter",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750071,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

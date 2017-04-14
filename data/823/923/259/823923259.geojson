@@ -2,9 +2,14 @@
   "id": 823923259,
   "type": "Feature",
   "properties": {
+    "addr:full":"2100 E 66th Ave Denver CO 80229",
+    "addr:housenumber":"2100",
+    "addr:postcode":"80229",
+    "addr:street":"E 66Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959255,39.816253,-104.959255,39.816253",
     "geom:latitude":39.816253,
     "geom:longitude":-104.959255,
@@ -28,19 +33,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0NnwxNMcWP5rXf0OD1f26r_39.816253_-104.959255@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450083,
-    "wof:geomhash":"1dbee0b4af0ee430ddcdf145695ee820",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4c3bd9bf988ddba49c140dcf5d325550",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553699,
+            "region_id":85688603,
+            "venue_id":823923259
+        }
+    ],
     "wof:id":823923259,
-    "wof:lastmodified":1466420391,
+    "wof:lastmodified":1492125983,
     "wof:name":"Aarmstrong's MCP Hobby Distr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

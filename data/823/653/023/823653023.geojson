@@ -2,9 +2,14 @@
   "id": 823653023,
   "type": "Feature",
   "properties": {
+    "addr:full":"4777 Broadway St Boulder CO 80304",
+    "addr:housenumber":"4777",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.282202,40.060418,-105.282202,40.060418",
     "geom:latitude":40.060418,
     "geom:longitude":-105.282202,
@@ -30,19 +35,34 @@
         "facility"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7TLCLRo4oHlIIInaS0wuKY_40.060418_-105.282202@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443145,
-    "wof:geomhash":"2c54f3c5304feaf5bc49b5c300c09d77",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fb7ef34666b3178e70cf2bc4bb27f76c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823653023
+        }
+    ],
     "wof:id":823653023,
-    "wof:lastmodified":1466418100,
+    "wof:lastmodified":1492122358,
     "wof:name":"Holiday Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

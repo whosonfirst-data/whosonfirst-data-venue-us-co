@@ -2,9 +2,14 @@
   "id": 824163573,
   "type": "Feature",
   "properties": {
+    "addr:full":"2848 Delta Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2848",
+    "addr:postcode":"80910",
+    "addr:street":"Delta Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.774983,38.793597,-104.774983,38.793597",
     "geom:latitude":38.793597,
     "geom:longitude":-104.774983,
@@ -29,19 +34,36 @@
         "clean"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3gdOdqgY8YUfXSYpmqtAC0_38.793597_-104.774983@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456439,
-    "wof:geomhash":"5b157b34b5571ab73c467cfbc24c61a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"469a544efa98170f9bb005ccb3066539",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":824163573
+        }
+    ],
     "wof:id":824163573,
-    "wof:lastmodified":1466417776,
+    "wof:lastmodified":1492129947,
     "wof:name":"Affordable Detail Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

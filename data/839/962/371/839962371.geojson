@@ -2,9 +2,14 @@
   "id": 839962371,
   "type": "Feature",
   "properties": {
+    "addr:full":"924 S Sheridan Blvd Denver CO 80226",
+    "addr:housenumber":"924",
+    "addr:postcode":"80226",
+    "addr:street":"S Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053164,39.699508,-105.053164,39.699508",
     "geom:latitude":39.699508,
     "geom:longitude":-105.053164,
@@ -31,7 +36,15 @@
         "check"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0r0HyEdDOikIcA55HtSDUg_39.699508_-105.053164@1294083659"
@@ -39,11 +52,22 @@
     "wof:country":"US",
     "wof:created":1463459699,
     "wof:geomhash":"3e0a6c8f3294387ba157a1d43c80b672",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":839962371
+        }
+    ],
     "wof:id":839962371,
-    "wof:lastmodified":1466415855,
+    "wof:lastmodified":1491876152,
     "wof:name":"Paycheck Loans",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

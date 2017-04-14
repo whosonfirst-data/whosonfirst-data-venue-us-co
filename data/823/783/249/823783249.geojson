@@ -2,9 +2,14 @@
   "id": 823783249,
   "type": "Feature",
   "properties": {
+    "addr:full":"333 Custer Ave Akron CO 80720",
+    "addr:housenumber":"333",
+    "addr:postcode":"80720",
+    "addr:street":"Custer Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.21703,40.1618,-103.21703,40.1618",
     "geom:latitude":40.1618,
     "geom:longitude":-103.21703,
@@ -28,17 +33,32 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929155,
+        102086125
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2X23J4oBaXbivdWhZSV7K0_40.161800_-103.217030@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446179,
-    "wof:geomhash":"15bac3e270089908618086726e9bb19e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3328c67c1de777d7d598ac9b5892a10b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086125,
+            "locality_id":85929155,
+            "region_id":85688603,
+            "venue_id":823783249
+        }
+    ],
     "wof:id":823783249,
-    "wof:lastmodified":1466419216,
+    "wof:lastmodified":1492125169,
     "wof:name":"Wildfire Distributions",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

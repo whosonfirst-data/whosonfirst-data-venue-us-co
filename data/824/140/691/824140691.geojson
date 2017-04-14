@@ -2,9 +2,14 @@
   "id": 824140691,
   "type": "Feature",
   "properties": {
+    "addr:full":"5311 Western Ave Boulder CO 80301",
+    "addr:housenumber":"5311",
+    "addr:postcode":"80301",
+    "addr:street":"Western Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.228378,40.017835,-105.228378,40.017835",
     "geom:latitude":40.017835,
     "geom:longitude":-105.228378,
@@ -27,19 +32,36 @@
         "printer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2zK5czLcKZUEpJBv8SEoDz_40.017835_-105.228378@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455535,
-    "wof:geomhash":"1084bdfa93701ef6eb433a6167c12f34",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8c3f3ceff51fa60ce69cc2b4678d2bad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":824140691
+        }
+    ],
     "wof:id":824140691,
-    "wof:lastmodified":1466416597,
+    "wof:lastmodified":1492131806,
     "wof:name":"Ziemann Printing & Laminating",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

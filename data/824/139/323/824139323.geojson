@@ -2,9 +2,14 @@
   "id": 824139323,
   "type": "Feature",
   "properties": {
+    "addr:full":"400 W Bromley Ln Brighton CO 80601",
+    "addr:housenumber":"400",
+    "addr:postcode":"80601",
+    "addr:street":"W Bromley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.831262,39.972352,-104.831262,39.972352",
     "geom:latitude":39.972352,
     "geom:longitude":-104.831262,
@@ -27,19 +32,47 @@
         "truck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405,
+        85929019,
+        420553375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5toW5TmIZhjnGkfeEjJL5K_39.972352_-104.831262@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455483,
-    "wof:geomhash":"f7bca77216a584c9d047adc6d2b4de5b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"06b03d8968c4502497529ce3e2b4048c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824139323
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553375,
+            "region_id":85688603,
+            "venue_id":824139323
+        }
+    ],
     "wof:id":824139323,
-    "wof:lastmodified":1466416527,
+    "wof:lastmodified":1492128386,
     "wof:name":"Kirk's Diesel",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

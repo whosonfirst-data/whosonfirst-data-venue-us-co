@@ -2,9 +2,14 @@
   "id": 823979283,
   "type": "Feature",
   "properties": {
+    "addr:full":"5350 Manhattan Cir Boulder CO 80303",
+    "addr:housenumber":"5350",
+    "addr:postcode":"80303",
+    "addr:street":"Manhattan Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.229161,39.984973,-105.229161,39.984973",
     "geom:latitude":39.984973,
     "geom:longitude":-105.229161,
@@ -24,19 +29,36 @@
     "sg:postcode":"80303",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1P9cG7Son24rDKU8ucDAM1_39.984973_-105.229161@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451463,
-    "wof:geomhash":"d0754ff8235253fe58afd4252f1879a5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09472f938bf319e28200e6e2271cb2b8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":823979283
+        }
+    ],
     "wof:id":823979283,
-    "wof:lastmodified":1466420868,
+    "wof:lastmodified":1492125366,
     "wof:name":"Woodstock Real Estate",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

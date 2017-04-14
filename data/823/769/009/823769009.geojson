@@ -2,9 +2,14 @@
   "id": 823769009,
   "type": "Feature",
   "properties": {
+    "addr:full":"5255 Holmes Pl Boulder CO 80303",
+    "addr:housenumber":"5255",
+    "addr:postcode":"80303",
+    "addr:street":"Holmes Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.229876,40.010156,-105.229876,40.010156",
     "geom:latitude":40.010156,
     "geom:longitude":-105.229876,
@@ -28,19 +33,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2pLxJpEh07AULTfw3jxZhq_40.010156_-105.229876@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445800,
-    "wof:geomhash":"51e0311118238b11664e160dad422700",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4afaa02d9dd988b0b613e7b911674bf6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":823769009
+        }
+    ],
     "wof:id":823769009,
-    "wof:lastmodified":1466419192,
+    "wof:lastmodified":1492118773,
     "wof:name":"Comer & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

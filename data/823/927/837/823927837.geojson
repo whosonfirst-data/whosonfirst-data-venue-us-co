@@ -2,9 +2,14 @@
   "id": 823927837,
   "type": "Feature",
   "properties": {
+    "addr:full":"1021 N Mildred Rd Cortez CO 81321",
+    "addr:housenumber":"1021",
+    "addr:postcode":"81321",
+    "addr:street":"N Mildred Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572781,37.35929,-108.572781,37.35929",
     "geom:latitude":37.35929,
     "geom:longitude":-108.572781,
@@ -28,19 +33,28 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3PnhZx2DIYyVcobAt9oy5B_37.359290_-108.572781@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450199,
-    "wof:geomhash":"98599ac707239990b813cbca0dbdc3ed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"50e962869babd512ce8022790d10c92f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823927837
+        }
+    ],
     "wof:id":823927837,
-    "wof:lastmodified":1466420507,
+    "wof:lastmodified":1492115963,
     "wof:name":"Four Corners Oncology-Hmtlgy",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

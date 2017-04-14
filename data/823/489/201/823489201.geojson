@@ -2,9 +2,14 @@
   "id": 823489201,
   "type": "Feature",
   "properties": {
+    "addr:full":"925 Main St Longmont CO 80501",
+    "addr:housenumber":"925",
+    "addr:postcode":"80501",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.102532,40.175372,-105.102532,40.175372",
     "geom:latitude":40.175372,
     "geom:longitude":-105.102532,
@@ -28,17 +33,32 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5QawSk325ohrPPYTSs1ykr_40.175372_-105.102532@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439294,
-    "wof:geomhash":"0689daf8c0eca2d8851b5fc91133d30c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cc1fee57a8bcc2404adfe6245eec65b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823489201
+        }
+    ],
     "wof:id":823489201,
-    "wof:lastmodified":1466414074,
+    "wof:lastmodified":1492121994,
     "wof:name":"Computer Specialists",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823552981,
   "type": "Feature",
   "properties": {
+    "addr:full":"3141 Troy St Aurora CO 80011",
+    "addr:housenumber":"3141",
+    "addr:postcode":"80011",
+    "addr:street":"Troy St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.839521,39.760631,-104.839521,39.760631",
     "geom:latitude":39.760631,
     "geom:longitude":-104.839521,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3go7diRXhP8vxE1kBpTUUC_39.760631_-104.839521@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440778,
-    "wof:geomhash":"f047c712f8cacfe10aa6c572da773f80",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aba886e8f923843b027910ec32736acc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553301,
+            "region_id":85688603,
+            "venue_id":823552981
+        }
+    ],
     "wof:id":823552981,
-    "wof:lastmodified":1466416005,
+    "wof:lastmodified":1492123042,
     "wof:name":"Crazyhorse Express Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

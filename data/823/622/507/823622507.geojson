@@ -2,9 +2,14 @@
   "id": 823622507,
   "type": "Feature",
   "properties": {
+    "addr:full":"102 N Greeley Ave Johnstown CO 80534",
+    "addr:housenumber":"102",
+    "addr:postcode":"80534",
+    "addr:street":"N Greeley Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.915099,40.337797,-104.915099,40.337797",
     "geom:latitude":40.337797,
     "geom:longitude":-104.915099,
@@ -24,19 +29,36 @@
     "sg:postcode":"80534",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_14PZvwRHX35jgm04L9muza_40.337797_-104.915099@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442461,
-    "wof:geomhash":"822cb7eeddb6f8f64cae0f427fe6bc0f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7e9d77a0f9966936f9b49c2832afabf2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823622507
+        }
+    ],
     "wof:id":823622507,
-    "wof:lastmodified":1466417475,
+    "wof:lastmodified":1492122528,
     "wof:name":"L&M Racing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

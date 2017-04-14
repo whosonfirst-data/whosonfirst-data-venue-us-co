@@ -2,9 +2,14 @@
   "id": 823873745,
   "type": "Feature",
   "properties": {
+    "addr:full":"6240 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"6240",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025133,39.809622,-105.025133,39.809622",
     "geom:latitude":39.809622,
     "geom:longitude":-105.025133,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2YrBIamfxCuDRa6a8edqyW_39.809622_-105.025133@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448819,
-    "wof:geomhash":"bd6ca59ca59e47e08da8c4c4549501b2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c88b472f89fd473967d98b480330723d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553839,
+            "region_id":85688603,
+            "venue_id":823873745
+        }
+    ],
     "wof:id":823873745,
-    "wof:lastmodified":1466420096,
+    "wof:lastmodified":1492120475,
     "wof:name":"Colorado Custom Home Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839946705,
   "type": "Feature",
   "properties": {
+    "addr:full":"8721 Wagner Dr Westminster CO 80031",
+    "addr:housenumber":"8721",
+    "addr:postcode":"80031",
+    "addr:street":"Wagner Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.04802,39.855588,-105.04802,39.855588",
     "geom:latitude":39.855588,
     "geom:longitude":-105.04802,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0QpPxW3SrIa8TuacSFmZzI_39.855588_-105.048020@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458949,
-    "wof:geomhash":"1a016da838199f6b5c506986e129a9ed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ffcf7cdc8526ebdac2d81f5dd0efd0e4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":839946705
+        }
+    ],
     "wof:id":839946705,
-    "wof:lastmodified":1466415224,
+    "wof:lastmodified":1492112678,
     "wof:name":"Vickar Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

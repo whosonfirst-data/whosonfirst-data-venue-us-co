@@ -2,9 +2,14 @@
   "id": 823835777,
   "type": "Feature",
   "properties": {
+    "addr:full":"1103 W 124th Ct Denver CO 80234",
+    "addr:housenumber":"1103",
+    "addr:postcode":"80234",
+    "addr:street":"W 124Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.004756,39.924151,-105.004756,39.924151",
     "geom:latitude":39.924151,
     "geom:longitude":-105.004756,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Mugbc4cE6MZfB2uEqQIXA_39.924151_-105.004756@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447788,
-    "wof:geomhash":"16d72bd6abc435f6309cfa8b7344eb64",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e73a2b7be7468470d6a5289021097ed5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823835777
+        }
+    ],
     "wof:id":823835777,
-    "wof:lastmodified":1466419680,
+    "wof:lastmodified":1492118052,
     "wof:name":"Torgerson Electric Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

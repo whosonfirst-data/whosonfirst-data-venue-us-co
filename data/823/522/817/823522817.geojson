@@ -2,9 +2,14 @@
   "id": 823522817,
   "type": "Feature",
   "properties": {
+    "addr:full":"9181 Emerson St Denver CO 80229",
+    "addr:housenumber":"9181",
+    "addr:postcode":"80229",
+    "addr:street":"Emerson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.976291,39.863295,-104.976291,39.863295",
     "geom:latitude":39.863295,
     "geom:longitude":-104.976291,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420559961
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0RMi3SGa9D7loH523SXyN8_39.863295_-104.976291@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440087,
-    "wof:geomhash":"2fa6501d79fc47f76f4105ac26fce968",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8a12441caafccf60a7d2f6988f2bb130",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420559961,
+            "region_id":85688603,
+            "venue_id":823522817
+        }
+    ],
     "wof:id":823522817,
-    "wof:lastmodified":1466414957,
+    "wof:lastmodified":1492122594,
     "wof:name":"Reiss Remodeling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559961,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

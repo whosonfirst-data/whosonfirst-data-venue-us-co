@@ -2,9 +2,14 @@
   "id": 839976845,
   "type": "Feature",
   "properties": {
+    "addr:full":"2550 Lincoln Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"2550",
+    "addr:postcode":"80487",
+    "addr:street":"Lincoln Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.86464,40.503114,-106.86464,40.503114",
     "geom:latitude":40.503114,
     "geom:longitude":-106.86464,
@@ -28,19 +33,36 @@
         "parts"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7hiThAjectqZlIow3Pmicu_40.503114_-106.864640@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460295,
-    "wof:geomhash":"f657722278750db2dbbbd41a430751cf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a6180698b5ec8fe07ad31061c7635e0e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555387,
+            "region_id":85688603,
+            "venue_id":839976845
+        }
+    ],
     "wof:id":839976845,
-    "wof:lastmodified":1466416743,
+    "wof:lastmodified":1492112495,
     "wof:name":"ROUTT County Auto Parts Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

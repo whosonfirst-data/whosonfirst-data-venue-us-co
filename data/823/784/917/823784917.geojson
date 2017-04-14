@@ -2,9 +2,14 @@
   "id": 823784917,
   "type": "Feature",
   "properties": {
+    "addr:full":"8854 Pine Cone Ln Longmont CO 80503",
+    "addr:housenumber":"8854",
+    "addr:postcode":"80503",
+    "addr:street":"Pine Cone Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.146514,40.103111,-105.146514,40.103111",
     "geom:latitude":40.103111,
     "geom:longitude":-105.146514,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1dK67v5Um3yQ0v2gmTovrO_40.103111_-105.146514@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446247,
-    "wof:geomhash":"a002a05e686e7bc0b6965b65c5eac9ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"701d6a638025152984b74d11af354466",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554077,
+            "region_id":85688603,
+            "venue_id":823784917
+        }
+    ],
     "wof:id":823784917,
-    "wof:lastmodified":1466419288,
+    "wof:lastmodified":1492124661,
     "wof:name":"Blue Spruce Design & Constr Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824007973,
   "type": "Feature",
   "properties": {
+    "addr:full":"1423 Co Rd 500 Bayfield CO 81122",
+    "addr:housenumber":"1423;500",
+    "addr:postcode":"bayfield;81122",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.557377,37.461258,-107.557377,37.461258",
     "geom:latitude":37.461258,
     "geom:longitude":-107.557377,
@@ -27,19 +32,28 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554683
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7IDl0HwzZaZmgBNm7Xx1HK_37.461258_-107.557377@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452157,
-    "wof:geomhash":"b27c68765418abe09b4c050f91c55bb7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c62309dfaebc6c448126aa6f514c0dce",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554683,
+            "venue_id":824007973
+        }
+    ],
     "wof:id":824007973,
-    "wof:lastmodified":1466412724,
+    "wof:lastmodified":1492128447,
     "wof:name":"America One Home Inspections",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554683,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

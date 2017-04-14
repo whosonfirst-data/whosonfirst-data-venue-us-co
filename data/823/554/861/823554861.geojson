@@ -2,9 +2,14 @@
   "id": 823554861,
   "type": "Feature",
   "properties": {
+    "addr:full":"11627 N 75th St Longmont CO 80503",
+    "addr:housenumber":"11627",
+    "addr:postcode":"80503",
+    "addr:street":"N 75Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.178203,40.186728,-105.178203,40.186728",
     "geom:latitude":40.186728,
     "geom:longitude":-105.178203,
@@ -28,19 +33,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554085
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1fH7QEO3ruQcm4IEg22Bpb_40.186728_-105.178203@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440818,
-    "wof:geomhash":"e050ad3a39291af1692d4d91703863af",
-    "wof:hierarchy":[],
+    "wof:geomhash":"197b71e1d3570800400ade375f3afc9f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554085,
+            "venue_id":823554861
+        }
+    ],
     "wof:id":823554861,
-    "wof:lastmodified":1466415827,
+    "wof:lastmodified":1492125540,
     "wof:name":"Williams Farm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554085,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

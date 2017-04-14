@@ -2,9 +2,14 @@
   "id": 823742393,
   "type": "Feature",
   "properties": {
+    "addr:full":"6535 York St Denver CO 80229",
+    "addr:housenumber":"6535",
+    "addr:postcode":"80229",
+    "addr:street":"York St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959295,39.814457,-104.959295,39.814457",
     "geom:latitude":39.814457,
     "geom:longitude":-104.959295,
@@ -27,19 +32,36 @@
         "cabinet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_27B9cMa0Dc6oGH658lAxK3_39.814457_-104.959295@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445203,
-    "wof:geomhash":"376bda1e6eeed1668edbd1ec269e60ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"40065a8e6bd618e967dbaba379bda6b9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553699,
+            "region_id":85688603,
+            "venue_id":823742393
+        }
+    ],
     "wof:id":823742393,
-    "wof:lastmodified":1466418867,
+    "wof:lastmodified":1492125106,
     "wof:name":"Harris Fine Woodworking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

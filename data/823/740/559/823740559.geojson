@@ -2,9 +2,14 @@
   "id": 823740559,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 W Costilla St Colorado Springs CO 80903",
+    "addr:housenumber":"101",
+    "addr:postcode":"80903",
+    "addr:street":"W Costilla St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.829187,38.828417,-104.829187,38.828417",
     "geom:latitude":38.828417,
     "geom:longitude":-104.829187,
@@ -33,6 +38,7 @@
         85633793,
         85929457,
         102086875,
+        85872779,
         85872783
     ],
     "wof:breaches":[],
@@ -41,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463445168,
-    "wof:geomhash":"b5e66a8b2a24a7fbc7181a2a44878079",
+    "wof:geomhash":"764179b1b986beec2d295af12361c0b8",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":85872779,
+            "region_id":85688603,
+            "venue_id":823740559
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,9 +69,9 @@
         }
     ],
     "wof:id":823740559,
-    "wof:lastmodified":1466418831,
+    "wof:lastmodified":1492122330,
     "wof:name":"Colorado Springs Engineering",
-    "wof:parent_id":85872783,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

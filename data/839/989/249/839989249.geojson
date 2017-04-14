@@ -2,9 +2,14 @@
   "id": 839989249,
   "type": "Feature",
   "properties": {
+    "addr:full":"1800 Broadway St Boulder CO 80302",
+    "addr:housenumber":"1800",
+    "addr:postcode":"80302",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.279303,40.015932,-105.279303,40.015932",
     "geom:latitude":40.015932,
     "geom:longitude":-105.279303,
@@ -29,7 +34,14 @@
         "asian"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ahBTu6BjUEW1rnZK6jKUR_40.015932_-105.279303@1299784598"
@@ -37,11 +49,21 @@
     "wof:country":"US",
     "wof:created":1463460782,
     "wof:geomhash":"aca641ddf1b234f1222006086d08c86f",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":839989249
+        }
+    ],
     "wof:id":839989249,
-    "wof:lastmodified":1466417309,
+    "wof:lastmodified":1491897916,
     "wof:name":"Bombay Bistro",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

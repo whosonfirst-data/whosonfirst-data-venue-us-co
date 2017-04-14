@@ -2,9 +2,14 @@
   "id": 823939829,
   "type": "Feature",
   "properties": {
+    "addr:full":"6422 E Cornell Ave Denver CO 80222",
+    "addr:housenumber":"6422",
+    "addr:postcode":"80222",
+    "addr:street":"E Cornell Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.914324,39.662659,-104.914324,39.662659",
     "geom:latitude":39.662659,
     "geom:longitude":-104.914324,
@@ -33,19 +38,36 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930653,
+        102086877,
+        420559699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_20rBgCD33k9Mb6F7DW5DrO_39.662659_-104.914324@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450516,
-    "wof:geomhash":"24478f0bfb8019bbbdda7919c3162325",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f4927d9ef9de07ab8d66364617871907",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930653,
+            "neighbourhood_id":420559699,
+            "region_id":85688603,
+            "venue_id":823939829
+        }
+    ],
     "wof:id":823939829,
-    "wof:lastmodified":1466420574,
+    "wof:lastmodified":1492116029,
     "wof:name":"Mountain Brook Marketing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823610035,
   "type": "Feature",
   "properties": {
+    "addr:full":"13411 Sheridan Blvd Broomfield CO 80020",
+    "addr:housenumber":"13411",
+    "addr:postcode":"80020",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053152,39.939428,-105.053152,39.939428",
     "geom:latitude":39.939428,
     "geom:longitude":-105.053152,
@@ -27,19 +32,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554177
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3sxSEYdUQMwmbrktyazh46_39.939428_-105.053152@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442140,
-    "wof:geomhash":"f3698d1d31276f11b1bbfba859ab059c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"957602f232f96b7b665fcb6c08760587",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554177,
+            "region_id":85688603,
+            "venue_id":823610035
+        }
+    ],
     "wof:id":823610035,
-    "wof:lastmodified":1466417302,
+    "wof:lastmodified":1492125151,
     "wof:name":"P & D Services Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554177,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

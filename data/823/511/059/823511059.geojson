@@ -2,9 +2,14 @@
   "id": 823511059,
   "type": "Feature",
   "properties": {
+    "addr:full":"5733 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"5733;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.85162,37.383109,-107.85162,37.383109",
     "geom:latitude":37.383109,
     "geom:longitude":-107.85162,
@@ -28,19 +33,28 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1nCOE1oIrv3EuiuqEab7wB_37.383109_-107.851620@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439812,
-    "wof:geomhash":"6334b1c4285ffa057d8395c56bc45b7c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"95a9aa3d5405e2cf47555f334ee50239",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554625,
+            "venue_id":823511059
+        }
+    ],
     "wof:id":823511059,
-    "wof:lastmodified":1466414518,
+    "wof:lastmodified":1492121178,
     "wof:name":"Red Rock Mortgage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

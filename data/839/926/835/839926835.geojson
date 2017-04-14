@@ -2,9 +2,14 @@
   "id": 839926835,
   "type": "Feature",
   "properties": {
+    "addr:full":"8217 Louise Dr Denver CO 80221",
+    "addr:housenumber":"8217",
+    "addr:postcode":"80221",
+    "addr:street":"Louise Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.998903,39.845593,-104.998903,39.845593",
     "geom:latitude":39.845593,
     "geom:longitude":-104.998903,
@@ -28,19 +33,36 @@
         "hanging"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7eO2mWfKAPAdL1ft7Z8zeM_39.845593_-104.998903@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457807,
-    "wof:geomhash":"9431854a8fad61f4d69cc55b6397d6b3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"17b9367b9d4535de73305877c4d8349b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553771,
+            "region_id":85688603,
+            "venue_id":839926835
+        }
+    ],
     "wof:id":839926835,
-    "wof:lastmodified":1466413953,
+    "wof:lastmodified":1492113421,
     "wof:name":"R & B Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

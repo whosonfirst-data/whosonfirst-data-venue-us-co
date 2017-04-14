@@ -2,9 +2,14 @@
   "id": 823823625,
   "type": "Feature",
   "properties": {
+    "addr:full":"16555 Co Rd 16 Oak Creek CO 80467",
+    "addr:housenumber":"16555;16",
+    "addr:postcode":"80467",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.871384,40.268916,-106.871384,40.268916",
     "geom:latitude":40.268916,
     "geom:longitude":-106.871384,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555325
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Pv5E8SCjif8BLzhUzXNat_40.268916_-106.871384@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447400,
-    "wof:geomhash":"d81ac4626a878379bb2baf066fdf68b9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c6e5521c8c50b8bc181de3c4ed746d89",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555325,
+            "venue_id":823823625
+        }
+    ],
     "wof:id":823823625,
-    "wof:lastmodified":1466419554,
+    "wof:lastmodified":1492122125,
     "wof:name":"Snow Country Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555325,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824062609,
   "type": "Feature",
   "properties": {
+    "addr:full":"335 Co Rd 310 Durango CO 81303",
+    "addr:housenumber":"335;310",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.870232,37.058139,-107.870232,37.058139",
     "geom:latitude":37.058139,
     "geom:longitude":-107.870232,
@@ -27,19 +32,28 @@
         "window"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ks8g7XVgyF12dRFOcTPgZ_37.058139_-107.870232@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453443,
-    "wof:geomhash":"b875156baf229a65af21199ea9c0406e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"afcf3116fdae321ff4f690c3b8bb3748",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":824062609
+        }
+    ],
     "wof:id":824062609,
-    "wof:lastmodified":1466414443,
+    "wof:lastmodified":1492132245,
     "wof:name":"Window Cleaning By El Capitan",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

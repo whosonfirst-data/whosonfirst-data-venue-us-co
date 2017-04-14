@@ -2,9 +2,14 @@
   "id": 823777573,
   "type": "Feature",
   "properties": {
+    "addr:full":"640 Baseline Rd Brighton CO 80601",
+    "addr:housenumber":"640",
+    "addr:postcode":"80601",
+    "addr:street":"Baseline Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.814542,40.000339,-104.814542,40.000339",
     "geom:latitude":40.000339,
     "geom:longitude":-104.814542,
@@ -28,19 +33,36 @@
         "drum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7dynsxIUhuI1aFy6jPRa1V_40.000339_-104.814542@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446021,
-    "wof:geomhash":"31964c4d35e62f81cdfe5160d3e059e3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c2c4a76825a1181c47e3ae7b1d610948",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823777573
+        }
+    ],
     "wof:id":823777573,
-    "wof:lastmodified":1466419141,
+    "wof:lastmodified":1492122217,
     "wof:name":"Western Container",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

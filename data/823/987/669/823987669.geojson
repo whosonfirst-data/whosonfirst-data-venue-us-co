@@ -2,9 +2,14 @@
   "id": 823987669,
   "type": "Feature",
   "properties": {
+    "addr:full":"110 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"110",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.988557,39.913884,-104.988557,39.913884",
     "geom:latitude":39.913884,
     "geom:longitude":-104.988557,
@@ -27,19 +32,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553905
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ELRMo94IkwADnL1q1wcpY_39.913884_-104.988557@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451664,
-    "wof:geomhash":"54a48d4c7d01772b7acf1e2189c7e901",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a5c95005e897943b633ca38fab2ca397",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553905,
+            "region_id":85688603,
+            "venue_id":823987669
+        }
+    ],
     "wof:id":823987669,
-    "wof:lastmodified":1466421007,
+    "wof:lastmodified":1492125392,
     "wof:name":"Shear Dimensions Hair & Nails",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553905,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

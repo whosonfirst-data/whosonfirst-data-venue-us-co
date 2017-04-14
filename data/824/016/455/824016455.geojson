@@ -2,9 +2,14 @@
   "id": 824016455,
   "type": "Feature",
   "properties": {
+    "addr:full":"5891 Marion Dr Denver CO 80216",
+    "addr:housenumber":"5891",
+    "addr:postcode":"80216",
+    "addr:street":"Marion Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.9718,39.803812,-104.9718,39.803812",
     "geom:latitude":39.803812,
     "geom:longitude":-104.9718,
@@ -34,19 +39,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7g88H1sYiwoXtzL9hmtAJX_39.803812_-104.971800@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452347,
-    "wof:geomhash":"62535d27e625b87a369ab4d886a4aabe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"059d76ad49d9694497bbb4c6b3e34c74",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":824016455
+        }
+    ],
     "wof:id":824016455,
-    "wof:lastmodified":1466413559,
+    "wof:lastmodified":1492129172,
     "wof:name":"M & N Plumbing Supply Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

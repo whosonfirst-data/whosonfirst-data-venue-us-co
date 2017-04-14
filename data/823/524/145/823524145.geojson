@@ -2,9 +2,14 @@
   "id": 823524145,
   "type": "Feature",
   "properties": {
+    "addr:full":"261 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"261",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.568739,39.07734,-108.568739,39.07734",
     "geom:latitude":39.07734,
     "geom:longitude":-108.568739,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1OkpjqW8ejRTjpA7LwgiGM_39.077340_-108.568739@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440120,
-    "wof:geomhash":"e50fea9092d97cc296d0869ec177ff80",
-    "wof:hierarchy":[],
+    "wof:geomhash":"01c370a0a0a01e433554b3eaa5294c74",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823524145
+        }
+    ],
     "wof:id":823524145,
-    "wof:lastmodified":1466414973,
+    "wof:lastmodified":1492121603,
     "wof:name":"Monument Motors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

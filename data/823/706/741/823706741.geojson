@@ -2,9 +2,14 @@
   "id": 823706741,
   "type": "Feature",
   "properties": {
+    "addr:full":"1540 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"1540;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.836023,37.317663,-107.836023,37.317663",
     "geom:latitude":37.317663,
     "geom:longitude":-107.836023,
@@ -27,19 +32,28 @@
         "acupuncture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Wfhnq3m1Sdy0RDQSInbZU_37.317663_-107.836023@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444373,
-    "wof:geomhash":"ca7182d7266cfbadddc7040468c0df02",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b52bc051d73b3090560c091924de10a2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823706741
+        }
+    ],
     "wof:id":823706741,
-    "wof:lastmodified":1466418646,
+    "wof:lastmodified":1492126767,
     "wof:name":"Nancy Van Dover",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

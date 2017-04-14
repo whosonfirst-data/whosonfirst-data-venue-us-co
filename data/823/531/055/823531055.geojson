@@ -2,9 +2,14 @@
   "id": 823531055,
   "type": "Feature",
   "properties": {
+    "addr:full":"474 Malley Dr Northglenn CO 80233",
+    "addr:housenumber":"474",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97935,39.902933,-104.97935,39.902933",
     "geom:latitude":39.902933,
     "geom:longitude":-104.97935,
@@ -27,19 +32,36 @@
         "cleaners"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_65Hdpm6R2gYg7zIb8W5DYl_39.902933_-104.979350@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440273,
-    "wof:geomhash":"7951b9cabc1ac6278695d0940b7cc156",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dca0b41c910440a64aa17b74d85a2bbd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":823531055
+        }
+    ],
     "wof:id":823531055,
-    "wof:lastmodified":1466415186,
+    "wof:lastmodified":1492120599,
     "wof:name":"Malley Cleaners",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

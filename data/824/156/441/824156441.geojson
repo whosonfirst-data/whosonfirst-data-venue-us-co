@@ -2,9 +2,14 @@
   "id": 824156441,
   "type": "Feature",
   "properties": {
+    "addr:full":"27 Benthaven Pl Boulder CO 80305",
+    "addr:housenumber":"27",
+    "addr:postcode":"80305",
+    "addr:street":"Benthaven Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.262432,39.974047,-105.262432,39.974047",
     "geom:latitude":39.974047,
     "geom:longitude":-105.262432,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_73LJxio5VzmrYHBQPGWsvG_39.974047_-105.262432@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456167,
-    "wof:geomhash":"29fa36cc1379e7236479a51b39518106",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d387887e2cc73fdf8159f54687e2ffe1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":824156441
+        }
+    ],
     "wof:id":824156441,
-    "wof:lastmodified":1466417132,
+    "wof:lastmodified":1492130620,
     "wof:name":"Custom Garage Door Co Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839940641,
   "type": "Feature",
   "properties": {
+    "addr:full":"31710 Hilltop Rd Golden CO 80403",
+    "addr:housenumber":"31710",
+    "addr:postcode":"80403",
+    "addr:street":"Hilltop Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.361152,39.901449,-105.361152,39.901449",
     "geom:latitude":39.901449,
     "geom:longitude":-105.361152,
@@ -27,19 +32,36 @@
         "financing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929919,
+        102084113,
+        420554589
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_026I1F1fMmrgTmTO9jDoMN_39.901449_-105.361152@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458538,
-    "wof:geomhash":"9fa41b26fc43bebe0f5b239534eb1326",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c893d54d8c878a7283e18c4c5938fe9e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929919,
+            "neighbourhood_id":420554589,
+            "region_id":85688603,
+            "venue_id":839940641
+        }
+    ],
     "wof:id":839940641,
-    "wof:lastmodified":1466414827,
+    "wof:lastmodified":1492114256,
     "wof:name":"Easterling Capital",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554589,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823870255,
   "type": "Feature",
   "properties": {
+    "addr:full":"302 N 16th St Canon City CO 81212",
+    "addr:housenumber":"302",
+    "addr:postcode":"81212",
+    "addr:street":"N 16Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.225797,38.449551,-105.225797,38.449551",
     "geom:latitude":38.449551,
     "geom:longitude":-105.225797,
@@ -27,17 +32,32 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929803,
+        102083363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5WxuUDmv5WBSN1PgEg0HbZ_38.449551_-105.225797@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448744,
-    "wof:geomhash":"e3fd14334a123898643ffa4c0f434058",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d43828467c688cf97cb4a2719457549e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "locality_id":85929803,
+            "region_id":85688603,
+            "venue_id":823870255
+        }
+    ],
     "wof:id":823870255,
-    "wof:lastmodified":1466420075,
+    "wof:lastmodified":1492116532,
     "wof:name":"16th Street Cafe",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

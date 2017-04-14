@@ -2,9 +2,14 @@
   "id": 823598723,
   "type": "Feature",
   "properties": {
+    "addr:full":"1006 Hwy 172 Durango CO 81303",
+    "addr:housenumber":"1006",
+    "addr:postcode":"co 81303",
+    "addr:street":"Hwy 172",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.795605,37.215046,-107.795605,37.215046",
     "geom:latitude":37.215046,
     "geom:longitude":-107.795605,
@@ -29,19 +34,34 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554643,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3XtUBivRgu2uoVR0cLoUG6_37.215046_-107.795605@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441853,
-    "wof:geomhash":"d3630c6523be491449b51981de8c188c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6b3fba9a8fab87982c238fb15b60ec7d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554643,
+            "venue_id":823598723
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823598723
+        }
+    ],
     "wof:id":823598723,
-    "wof:lastmodified":1466417320,
+    "wof:lastmodified":1492122107,
     "wof:name":"Americraft Dove Tail Cont",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823511999,
   "type": "Feature",
   "properties": {
+    "addr:full":"9748 Clayton Cir Denver CO 80229",
+    "addr:housenumber":"9748",
+    "addr:postcode":"80229",
+    "addr:street":"Clayton Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.954022,39.872407,-104.954022,39.872407",
     "geom:latitude":39.872407,
     "geom:longitude":-104.954022,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3tjvAGgGg2szucoDR74vKc_39.872407_-104.954022@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439830,
-    "wof:geomhash":"1972387161c647379a84ae09dcf25be1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2bdf488b3648b3c4541cd19b69b65c88",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":823511999
+        }
+    ],
     "wof:id":823511999,
-    "wof:lastmodified":1466414563,
+    "wof:lastmodified":1492121191,
     "wof:name":"Terrazas Dry Wall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

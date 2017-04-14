@@ -2,9 +2,14 @@
   "id": 824150419,
   "type": "Feature",
   "properties": {
+    "addr:full":"6200 Fourmile Canyon Dr Boulder CO 80302",
+    "addr:housenumber":"6200",
+    "addr:postcode":"80302",
+    "addr:street":"Fourmile Canyon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.390784,40.039736,-105.390784,40.039736",
     "geom:latitude":40.039736,
     "geom:longitude":-105.390784,
@@ -28,19 +33,47 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930735,
+        102085251,
+        420553997,
+        85930693,
+        85822117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0X6YLC8k2RYEC8SUagBvSi_40.039736_-105.390784@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455918,
-    "wof:geomhash":"52c4263184f3ea49fff82d18d5217f1e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"82774ab0a18167d38ab246b6314dea4d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930735,
+            "neighbourhood_id":420553997,
+            "region_id":85688603,
+            "venue_id":824150419
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930693,
+            "neighbourhood_id":85822117,
+            "region_id":85688603,
+            "venue_id":824150419
+        }
+    ],
     "wof:id":824150419,
-    "wof:lastmodified":1466416928,
+    "wof:lastmodified":1492131987,
     "wof:name":"Champagne Masonry",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

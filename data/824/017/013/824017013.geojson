@@ -2,9 +2,14 @@
   "id": 824017013,
   "type": "Feature",
   "properties": {
+    "addr:full":"2651 W 106th Loop Denver CO 80234",
+    "addr:housenumber":"2651",
+    "addr:postcode":"80234",
+    "addr:street":"W 106Th Loop",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.019716,39.888767,-105.019716,39.888767",
     "geom:latitude":39.888767,
     "geom:longitude":-105.019716,
@@ -28,19 +33,36 @@
         "geological"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553931
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6nm3dT22gmaqu1eFVMMlqh_39.888767_-105.019716@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452359,
-    "wof:geomhash":"c5a4661c47034db7e4567be4e71a5275",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8fb23c96dc511b961234d7d860129d4c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553931,
+            "region_id":85688603,
+            "venue_id":824017013
+        }
+    ],
     "wof:id":824017013,
-    "wof:lastmodified":1466413548,
+    "wof:lastmodified":1492129250,
     "wof:name":"G Allan Nelson",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553931,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

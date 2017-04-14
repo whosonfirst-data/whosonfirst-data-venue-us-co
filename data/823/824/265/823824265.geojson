@@ -2,9 +2,14 @@
   "id": 823824265,
   "type": "Feature",
   "properties": {
+    "addr:full":"434 N 14th Ct Brighton CO 80601",
+    "addr:housenumber":"434",
+    "addr:postcode":"80601",
+    "addr:street":"N 14Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.805075,39.994542,-104.805075,39.994542",
     "geom:latitude":39.994542,
     "geom:longitude":-104.805075,
@@ -27,19 +32,36 @@
         "pump"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Jvl1RCTgcC6YdRafYf8Yr_39.994542_-104.805075@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447423,
-    "wof:geomhash":"f8c5d46a9d891eb11b6e6d72296abfa8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dffaa771c8c50ba4cbac9525822428c3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":823824265
+        }
+    ],
     "wof:id":823824265,
-    "wof:lastmodified":1466419566,
+    "wof:lastmodified":1492122999,
     "wof:name":"Performance Pump",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823501375,
   "type": "Feature",
   "properties": {
+    "addr:full":"1505 30th St Boulder CO 80303",
+    "addr:housenumber":"1505",
+    "addr:postcode":"80303",
+    "addr:street":"30Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.253502,40.01116,-105.253502,40.01116",
     "geom:latitude":40.01116,
     "geom:longitude":-105.253502,
@@ -28,19 +33,36 @@
         "swimming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3IYCWf4Tv2qUyC90zYLeXu_40.011160_-105.253502@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439606,
-    "wof:geomhash":"216f8fe4d37012dc4491fb5965fc6c29",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8edd91849fe6ae93c59192cc4da6e7da",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":823501375
+        }
+    ],
     "wof:id":823501375,
-    "wof:lastmodified":1466414263,
+    "wof:lastmodified":1492125743,
     "wof:name":"Scott Carpenter Pool",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

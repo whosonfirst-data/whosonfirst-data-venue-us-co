@@ -2,9 +2,14 @@
   "id": 823912801,
   "type": "Feature",
   "properties": {
+    "addr:full":"1308 Springfield Dr Fort Collins CO 80521",
+    "addr:housenumber":"1308",
+    "addr:postcode":"80521",
+    "addr:street":"Springfield Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.100732,40.570427,-105.100732,40.570427",
     "geom:latitude":40.570427,
     "geom:longitude":-105.100732,
@@ -28,19 +33,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4GPSExmiXcMRgPzQld2pBS_40.570427_-105.100732@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449826,
-    "wof:geomhash":"42947d4fff4fadd0c3398b09d49a54c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"143b02ffeed0d3d51fb60e420f16f956",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":823912801
+        }
+    ],
     "wof:id":823912801,
-    "wof:lastmodified":1466420355,
+    "wof:lastmodified":1492117128,
     "wof:name":"Advanced Professional Engineer",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

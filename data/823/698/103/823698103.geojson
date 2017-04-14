@@ -2,9 +2,14 @@
   "id": 823698103,
   "type": "Feature",
   "properties": {
+    "addr:full":"1295 S Federal Blvd Denver CO 80219",
+    "addr:housenumber":"1295",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025139,39.693542,-105.025139,39.693542",
     "geom:latitude":39.693542,
     "geom:longitude":-105.025139,
@@ -27,19 +32,38 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ohvyTkTaSt50X4BcN6eMy_39.693542_-105.025139@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444201,
-    "wof:geomhash":"83969e905dbb4605b4a10ae6b5ec1c24",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5521237400a4f27da9001c16badfe686",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":823698103
+        }
+    ],
     "wof:id":823698103,
-    "wof:lastmodified":1466418472,
+    "wof:lastmodified":1492116171,
     "wof:name":"Jackson Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

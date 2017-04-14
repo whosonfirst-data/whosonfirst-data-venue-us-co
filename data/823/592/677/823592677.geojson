@@ -2,9 +2,14 @@
   "id": 823592677,
   "type": "Feature",
   "properties": {
+    "addr:full":"121 Denver St Brighton CO 80601",
+    "addr:housenumber":"121",
+    "addr:postcode":"80601",
+    "addr:street":"Denver St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.820966,39.993988,-104.820966,39.993988",
     "geom:latitude":39.993988,
     "geom:longitude":-104.820966,
@@ -28,19 +33,36 @@
         "industrial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0s49eOo8QZnDnng9q5txpl_39.993988_-104.820966@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441708,
-    "wof:geomhash":"d1c583cc600d1959ed88f9c5e6411f20",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7f9839c1fbf78288135320eb8053d4d6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823592677
+        }
+    ],
     "wof:id":823592677,
-    "wof:lastmodified":1466416985,
+    "wof:lastmodified":1492122748,
     "wof:name":"Sulley & Sons Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

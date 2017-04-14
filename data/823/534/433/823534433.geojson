@@ -2,9 +2,14 @@
   "id": 823534433,
   "type": "Feature",
   "properties": {
+    "addr:full":"1791 Range St Boulder CO 80301",
+    "addr:housenumber":"1791",
+    "addr:postcode":"80301",
+    "addr:street":"Range St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.230145,40.015715,-105.230145,40.015715",
     "geom:latitude":40.015715,
     "geom:longitude":-105.230145,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_32xvp30k3PqgSA5ArarDR0_40.015715_-105.230145@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440343,
-    "wof:geomhash":"c0110bb8de13278ebbbfc2c2ba41677b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4bd73c034a741e2614ca4fa4f7eebc24",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":823534433
+        }
+    ],
     "wof:id":823534433,
-    "wof:lastmodified":1466415317,
+    "wof:lastmodified":1492126101,
     "wof:name":"Binks Sames",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

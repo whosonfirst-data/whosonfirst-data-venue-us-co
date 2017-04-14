@@ -2,9 +2,14 @@
   "id": 823784927,
   "type": "Feature",
   "properties": {
+    "addr:full":"1039 W 133rd Way Denver CO 80234",
+    "addr:housenumber":"1039",
+    "addr:postcode":"80234",
+    "addr:street":"W 133Rd Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.999935,39.939108,-104.999935,39.939108",
     "geom:latitude":39.939108,
     "geom:longitude":-104.999935,
@@ -28,19 +33,46 @@
         "title"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617,
+        420553815
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6yjggqugvRhI9N0rsW0pgV_39.939108_-104.999935@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446247,
-    "wof:geomhash":"c5203a8d5101f81e16e6298e15b26bde",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5405291fece00d2a8ba1b4e3fd01b738",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":823784927
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553815,
+            "region_id":85688603,
+            "venue_id":823784927
+        }
+    ],
     "wof:id":823784927,
-    "wof:lastmodified":1466419289,
+    "wof:lastmodified":1492124656,
     "wof:name":"A Signing & Closing Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

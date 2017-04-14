@@ -2,9 +2,14 @@
   "id": 824021133,
   "type": "Feature",
   "properties": {
+    "addr:full":"631 E Main St Cortez CO 81321",
+    "addr:housenumber":"631",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.575163,37.348702,-108.575163,37.348702",
     "geom:latitude":37.348702,
     "geom:longitude":-108.575163,
@@ -27,19 +32,36 @@
         "archaeologist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420559447
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1y1FRCuqPtJ2rcdtJzGVlM_37.348702_-108.575163@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452448,
-    "wof:geomhash":"bdd41ac4c2edc8c9d6c10ae0b19dc5d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c9d502df2e9e36f98c434cb200dace2f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420559447,
+            "region_id":85688603,
+            "venue_id":824021133
+        }
+    ],
     "wof:id":824021133,
-    "wof:lastmodified":1466413592,
+    "wof:lastmodified":1492131292,
     "wof:name":"COMPLETE Archaeological Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559447,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

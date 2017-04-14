@@ -2,9 +2,14 @@
   "id": 839911021,
   "type": "Feature",
   "properties": {
+    "addr:full":"299 Co Rd 307 Durango CO 81303",
+    "addr:housenumber":"299;307",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.786743,37.193957,-107.786743,37.193957",
     "geom:latitude":37.193957,
     "geom:longitude":-107.786743,
@@ -30,19 +35,28 @@
         "guide"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_26blWEOwyl52ULwKcawVHm_37.193957_-107.786743@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457149,
-    "wof:geomhash":"4b9dde8ec7a28fe758a41e812d000c6e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6ab0dea0b0287926ef673e9d9818ecde",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":839911021
+        }
+    ],
     "wof:id":839911021,
-    "wof:lastmodified":1466412148,
+    "wof:lastmodified":1492113115,
     "wof:name":"T Bar M Outfitters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

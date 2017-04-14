@@ -2,9 +2,14 @@
   "id": 823502195,
   "type": "Feature",
   "properties": {
+    "addr:full":"11210 Huron St Denver CO 80234",
+    "addr:housenumber":"11210",
+    "addr:postcode":"80234",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996554,39.901619,-104.996554,39.901619",
     "geom:latitude":39.901619,
     "geom:longitude":-104.996554,
@@ -28,19 +33,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553697
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_36wzkEt5xlN1n4QMFVXBq2_39.901619_-104.996554@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439628,
-    "wof:geomhash":"33fa9cc54a62e8b3b8ae443287945d95",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ad47e920e69e28b575591cf5c8840c29",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553697,
+            "region_id":85688603,
+            "venue_id":823502195
+        }
+    ],
     "wof:id":823502195,
-    "wof:lastmodified":1466414218,
+    "wof:lastmodified":1492116218,
     "wof:name":"Compass Bank",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553697,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

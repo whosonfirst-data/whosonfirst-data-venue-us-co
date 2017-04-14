@@ -2,9 +2,14 @@
   "id": 823566781,
   "type": "Feature",
   "properties": {
+    "addr:full":"243 W 80th Ave Denver CO 80221",
+    "addr:housenumber":"243",
+    "addr:postcode":"80221",
+    "addr:street":"W 80Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.988915,39.841821,-104.988915,39.841821",
     "geom:latitude":39.841821,
     "geom:longitude":-104.988915,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3e9RJGSgW5ikqroGvTzlDI_39.841821_-104.988915@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441107,
-    "wof:geomhash":"2b99d890632faa675327545b6e4a899c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"37a9db3fba24d8b611043a3af9a82544",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":823566781
+        }
+    ],
     "wof:id":823566781,
-    "wof:lastmodified":1466416216,
+    "wof:lastmodified":1492124067,
     "wof:name":"Conifer Landing I LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

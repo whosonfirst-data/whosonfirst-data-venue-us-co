@@ -2,9 +2,14 @@
   "id": 824178529,
   "type": "Feature",
   "properties": {
+    "addr:full":"10555 E 45th Ave Denver CO 80239",
+    "addr:housenumber":"10555",
+    "addr:postcode":"80239",
+    "addr:street":"E 45Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.863909,39.77893,-104.863909,39.77893",
     "geom:latitude":39.77893,
     "geom:longitude":-104.863909,
@@ -30,7 +35,15 @@
         "distributes"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3uaotzm4N4zhMQ071vHV8E_39.778930_-104.863909@1294083659"
@@ -38,11 +51,22 @@
     "wof:country":"US",
     "wof:created":1463457008,
     "wof:geomhash":"c628f9b5817f909a91c36cbb29a6adb0",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":824178529
+        }
+    ],
     "wof:id":824178529,
-    "wof:lastmodified":1466418205,
+    "wof:lastmodified":1491887459,
     "wof:name":"Polyone Corporation",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

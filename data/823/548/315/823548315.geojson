@@ -2,9 +2,14 @@
   "id": 823548315,
   "type": "Feature",
   "properties": {
+    "addr:full":"408 S 17th Ave Brighton CO 80601",
+    "addr:housenumber":"408",
+    "addr:postcode":"80601",
+    "addr:street":"S 17Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.801113,39.979251,-104.801113,39.979251",
     "geom:latitude":39.979251,
     "geom:longitude":-104.801113,
@@ -29,19 +34,36 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6sJGpTAI1eqtiVmRuvBiJH_39.979251_-104.801113@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440660,
-    "wof:geomhash":"8e002b268fd64ca1de4509ef4f86d74c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5925a45f03c2bb712710f42e0926ee93",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":823548315
+        }
+    ],
     "wof:id":823548315,
-    "wof:lastmodified":1466415685,
+    "wof:lastmodified":1492126408,
     "wof:name":"Service Master Of Brighton",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

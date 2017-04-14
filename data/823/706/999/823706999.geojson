@@ -2,9 +2,14 @@
   "id": 823706999,
   "type": "Feature",
   "properties": {
+    "addr:full":"7941 Xavier St Westminster CO 80030",
+    "addr:housenumber":"7941",
+    "addr:postcode":"80030",
+    "addr:street":"Xavier St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.049157,39.838333,-105.049157,39.838333",
     "geom:latitude":39.838333,
     "geom:longitude":-105.049157,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2IGyYzEVBAcXRph3YEEx0Y_39.838333_-105.049157@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444377,
-    "wof:geomhash":"28e5004247228afa2d0c5602b49fd549",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a4f234d2e8869f69e588345a05354d60",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":823706999
+        }
+    ],
     "wof:id":823706999,
-    "wof:lastmodified":1466418670,
+    "wof:lastmodified":1492126762,
     "wof:name":"Yipes Stripes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823781261,
   "type": "Feature",
   "properties": {
+    "addr:full":"901 N 1st St Grand Junction CO 81501",
+    "addr:housenumber":"901",
+    "addr:postcode":"81501",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570863,39.076395,-108.570863,39.076395",
     "geom:latitude":39.076395,
     "geom:longitude":-108.570863,
@@ -27,19 +32,46 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554989,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2oRLJwJwMnC08KMmIK6nLw_39.076395_-108.570863@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446121,
-    "wof:geomhash":"70812826638277265bcc32e85ea1c202",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf4df733f309595ce6092abfba009053",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554989,
+            "region_id":85688603,
+            "venue_id":823781261
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823781261
+        }
+    ],
     "wof:id":823781261,
-    "wof:lastmodified":1466419198,
+    "wof:lastmodified":1492118091,
     "wof:name":"Badini Auto Sales",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

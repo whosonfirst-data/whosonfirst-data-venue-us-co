@@ -2,9 +2,14 @@
   "id": 823612969,
   "type": "Feature",
   "properties": {
+    "addr:full":"577 Co Rd 233 Durango CO 81301",
+    "addr:housenumber":"577;233",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.813245,37.229319,-107.813245,37.229319",
     "geom:latitude":37.229319,
     "geom:longitude":-107.813245,
@@ -33,19 +38,34 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554707,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6fAcpTeVHQBel3Q3n9QA2r_37.229319_-107.813245@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442224,
-    "wof:geomhash":"e8a7cd7f4ec5593bc0b8764b65c42544",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c905c0871269a202f3e80aca3cfb536b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554707,
+            "venue_id":823612969
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823612969
+        }
+    ],
     "wof:id":823612969,
-    "wof:lastmodified":1466417362,
+    "wof:lastmodified":1492116726,
     "wof:name":"Las Animas Wood Products Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

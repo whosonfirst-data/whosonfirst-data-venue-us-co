@@ -2,9 +2,14 @@
   "id": 320268203,
   "type": "Feature",
   "properties": {
+    "addr:full":"4920 Washington St Denver CO 80216",
+    "addr:housenumber":"4920",
+    "addr:postcode":"80216",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978287,39.785934,-104.978287,39.785934",
     "geom:latitude":39.785934,
     "geom:longitude":-104.978287,
@@ -29,7 +34,13 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
+        85930255,
+        102084053,
+        420553681,
+        85871297,
+        1108750025,
         85928879,
         102086135
     ],
@@ -38,22 +49,32 @@
         "sg:id":"SG_1EL10P0WIAEZMulwkedQWF_39.785934_-104.978287@1303263089"
     },
     "wof:country":"US",
-    "wof:geomhash":"f00b9702aa1fcb41f8ed4052b75e06d6",
+    "wof:geomhash":"8a29a494209e89cec821d2e8a496d0e5",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":320268203
+        },
+        {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":-1,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871297,
             "region_id":85688603,
             "venue_id":320268203
         }
     ],
     "wof:id":320268203,
-    "wof:lastmodified":1466412948,
+    "wof:lastmodified":1492115277,
     "wof:name":"Computer & Electronics Recycling",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

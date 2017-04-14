@@ -2,9 +2,14 @@
   "id": 823915747,
   "type": "Feature",
   "properties": {
+    "addr:full":"2259 Co Rd 220 Durango CO 81303",
+    "addr:housenumber":"2259;220",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.804762,37.215029,-107.804762,37.215029",
     "geom:latitude":37.215029,
     "geom:longitude":-107.804762,
@@ -28,19 +33,28 @@
         "agent"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3wjPpARg45Vd0dMCeR56mX_37.215029_-107.804762@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449896,
-    "wof:geomhash":"dbe61dc96e7cdf41b0442ba2e75b0916",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bccbe4678cb0fd2e9b5a458d22804f27",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554643,
+            "venue_id":823915747
+        }
+    ],
     "wof:id":823915747,
-    "wof:lastmodified":1466420375,
+    "wof:lastmodified":1492125571,
     "wof:name":"Magical Creations LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

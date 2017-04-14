@@ -2,9 +2,14 @@
   "id": 823662281,
   "type": "Feature",
   "properties": {
+    "addr:full":"1287 W 111th Ave Northglenn CO 80234",
+    "addr:housenumber":"1287",
+    "addr:postcode":"80234",
+    "addr:street":"W 111Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.000823,39.898485,-105.000823,39.898485",
     "geom:latitude":39.898485,
     "geom:longitude":-105.000823,
@@ -27,19 +32,36 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553705
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2sTg9Sn5ZuWwCg8kQGq4u8_39.898485_-105.000823@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443394,
-    "wof:geomhash":"1a3395427c23327967f3a74f90f7de7d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"97706dacd49026432bbab015e9a71634",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553705,
+            "region_id":85688603,
+            "venue_id":823662281
+        }
+    ],
     "wof:id":823662281,
-    "wof:lastmodified":1466418275,
+    "wof:lastmodified":1492123243,
     "wof:name":"Eldon Photography",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553705,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

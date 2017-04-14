@@ -2,9 +2,14 @@
   "id": 823477813,
   "type": "Feature",
   "properties": {
+    "addr:full":"3180 W 76th Ave Westminster CO 80030",
+    "addr:housenumber":"3180",
+    "addr:postcode":"80030",
+    "addr:street":"W 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.027429,39.834457,-105.027429,39.834457",
     "geom:latitude":39.834457,
     "geom:longitude":-105.027429,
@@ -37,19 +42,36 @@
         "home"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2AC2q40WpIypNBLFuMDxPc_39.834457_-105.027429@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439033,
-    "wof:geomhash":"3adf7051cd4355a0c4639d0d5e0e65b6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4fcdd8514ffc205aede77ac53b55af2a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":823477813
+        }
+    ],
     "wof:id":823477813,
-    "wof:lastmodified":1466413105,
+    "wof:lastmodified":1492124192,
     "wof:name":"Westminster Commons",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

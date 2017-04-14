@@ -2,9 +2,14 @@
   "id": 839979223,
   "type": "Feature",
   "properties": {
+    "addr:full":"9090 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"9090",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024912,39.860928,-105.024912,39.860928",
     "geom:latitude":39.860928,
     "geom:longitude":-105.024912,
@@ -24,19 +29,36 @@
     "sg:postcode":"80260",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2eX6lxsATg03HrRMzyJ6Wx_39.860928_-105.024912@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460387,
-    "wof:geomhash":"a61697c80a858a462c859a672dd763d0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a47498a60b3bffe311ad30bf280668f1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":839979223
+        }
+    ],
     "wof:id":839979223,
-    "wof:lastmodified":1466416855,
+    "wof:lastmodified":1492113628,
     "wof:name":"Federal Heights Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

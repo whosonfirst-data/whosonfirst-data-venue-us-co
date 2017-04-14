@@ -2,9 +2,14 @@
   "id": 823990925,
   "type": "Feature",
   "properties": {
+    "addr:full":"4324 Dunkirk Way Denver CO 80249",
+    "addr:housenumber":"4324",
+    "addr:postcode":"80249",
+    "addr:street":"Dunkirk Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.76247,39.774404,-104.76247,39.774404",
     "geom:latitude":39.774404,
     "geom:longitude":-104.76247,
@@ -24,7 +29,16 @@
     "sg:postcode":"80249",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_02Khyk2RVD2LKJGxwP0Q6a_39.774404_-104.762470@1294083659"
@@ -32,11 +46,23 @@
     "wof:country":"US",
     "wof:created":1463451742,
     "wof:geomhash":"f5e34a0bc927f18febf00c1fb832b5ff",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":823990925
+        }
+    ],
     "wof:id":823990925,
-    "wof:lastmodified":1466421026,
+    "wof:lastmodified":1486593991,
     "wof:name":"Media Cast 1",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

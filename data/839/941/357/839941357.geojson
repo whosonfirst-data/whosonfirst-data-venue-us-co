@@ -2,9 +2,14 @@
   "id": 839941357,
   "type": "Feature",
   "properties": {
+    "addr:full":"201 E 1st Ave Springfield CO 81073",
+    "addr:housenumber":"201",
+    "addr:postcode":"81073",
+    "addr:street":"E 1St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.615249,37.413523,-102.615249,37.413523",
     "geom:latitude":37.413523,
     "geom:longitude":-102.615249,
@@ -27,17 +32,32 @@
         "welding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929173,
+        102085237
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2CXFCBFty3kXy7Nr7mkUR7_37.413523_-102.615249@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458588,
-    "wof:geomhash":"e86455bf6ee9818df44eb12379e96a87",
-    "wof:hierarchy":[],
+    "wof:geomhash":"79e46139080840872383cf3bf7c90046",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085237,
+            "locality_id":85929173,
+            "region_id":85688603,
+            "venue_id":839941357
+        }
+    ],
     "wof:id":839941357,
-    "wof:lastmodified":1466414701,
+    "wof:lastmodified":1492113312,
     "wof:name":"Hot Shot Welding",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 839922433,
   "type": "Feature",
   "properties": {
+    "addr:full":"2691 E Southern St Brighton CO 80601",
+    "addr:housenumber":"2691",
+    "addr:postcode":"80601",
+    "addr:street":"E Southern St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.790591,39.979617,-104.790591,39.979617",
     "geom:latitude":39.979617,
     "geom:longitude":-104.790591,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553355
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0nviXRWivcDCQCErpoyB69_39.979617_-104.790591@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457587,
-    "wof:geomhash":"993c96235c284043bc031957a245bcaa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b903b7b02a76ae6b878cdbf86b0f7603",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553355,
+            "region_id":85688603,
+            "venue_id":839922433
+        }
+    ],
     "wof:id":839922433,
-    "wof:lastmodified":1466413628,
+    "wof:lastmodified":1492113317,
     "wof:name":"Davidson Industries Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553355,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

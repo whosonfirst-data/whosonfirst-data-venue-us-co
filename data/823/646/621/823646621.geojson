@@ -2,9 +2,14 @@
   "id": 823646621,
   "type": "Feature",
   "properties": {
+    "addr:full":"8795 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"8795",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053457,39.854523,-105.053457,39.854523",
     "geom:latitude":39.854523,
     "geom:longitude":-105.053457,
@@ -29,19 +34,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7H3P2f4SXFmtyyOPcBxH9z_39.854523_-105.053457@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443006,
-    "wof:geomhash":"a00d41691e313fd11b66b461e4875139",
-    "wof:hierarchy":[],
+    "wof:geomhash":"85002b614c997862189a5afbf497967c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823646621
+        }
+    ],
     "wof:id":823646621,
-    "wof:lastmodified":1466417955,
+    "wof:lastmodified":1492124392,
     "wof:name":"Quick Cup Espresso",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

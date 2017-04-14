@@ -2,9 +2,14 @@
   "id": 823813171,
   "type": "Feature",
   "properties": {
+    "addr:full":"2555 W Evans Ave Denver CO 80219",
+    "addr:housenumber":"2555",
+    "addr:postcode":"80219",
+    "addr:street":"W Evans Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.016523,39.678756,-105.016523,39.678756",
     "geom:latitude":39.678756,
     "geom:longitude":-105.016523,
@@ -30,7 +35,15 @@
         "truck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1l22SCMX6MbIHbk51iMzAv_39.678756_-105.016523@1294083659"
@@ -38,11 +51,22 @@
     "wof:country":"US",
     "wof:created":1463447099,
     "wof:geomhash":"dbffdd57f598b92f04ba204db179589e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":823813171
+        }
+    ],
     "wof:id":823813171,
-    "wof:lastmodified":1466419485,
+    "wof:lastmodified":1491876198,
     "wof:name":"Big J Auto Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

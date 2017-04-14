@@ -2,9 +2,14 @@
   "id": 839986059,
   "type": "Feature",
   "properties": {
+    "addr:full":"1925 W Mississippi Ave Denver CO 80223",
+    "addr:housenumber":"1925",
+    "addr:postcode":"80223",
+    "addr:street":"W Mississippi Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.011185,39.696753,-105.011185,39.696753",
     "geom:latitude":39.696753,
     "geom:longitude":-105.011185,
@@ -28,7 +33,15 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554317,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7TgnFHpiz5hCBtLOVFLe3a_39.696814_-105.011276@1293134755"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463460657,
     "wof:geomhash":"c7a8108b4ec49f3f116399a262a83b32",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554317,
+            "region_id":85688603,
+            "venue_id":839986059
+        }
+    ],
     "wof:id":839986059,
-    "wof:lastmodified":1466417119,
+    "wof:lastmodified":1486589807,
     "wof:name":"Celestial Bakery & Deli",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

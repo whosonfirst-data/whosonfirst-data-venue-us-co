@@ -2,9 +2,14 @@
   "id": 824128519,
   "type": "Feature",
   "properties": {
+    "addr:full":"5381 E 65th Way Commerce City CO 80022",
+    "addr:housenumber":"5381",
+    "addr:postcode":"80022",
+    "addr:street":"E 65Th Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.923031,39.815165,-104.923031,39.815165",
     "geom:latitude":39.815165,
     "geom:longitude":-104.923031,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0nS6BqEGNGZM6sQx3bmlUc_39.815165_-104.923031@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455086,
-    "wof:geomhash":"abe41a5206bbedaa259dad550796e5c0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9381e79051c46ac0f8a41c037cc64327",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":824128519
+        }
+    ],
     "wof:id":824128519,
-    "wof:lastmodified":1466415917,
+    "wof:lastmodified":1492131275,
     "wof:name":"Castro Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

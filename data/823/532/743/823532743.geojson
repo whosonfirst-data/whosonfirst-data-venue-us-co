@@ -2,9 +2,14 @@
   "id": 823532743,
   "type": "Feature",
   "properties": {
+    "addr:full":"11699 Ridge Rd Golden CO 80403",
+    "addr:housenumber":"11699",
+    "addr:postcode":"80403",
+    "addr:street":"Ridge Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.373872,39.909841,-105.373872,39.909841",
     "geom:latitude":39.909841,
     "geom:longitude":-105.373872,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929919,
+        102084113,
+        420554589
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0n2r6QJQJo1Iv3HYGNwWnX_39.909841_-105.373872@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440307,
-    "wof:geomhash":"3c1a358a9a3ab47f994dca2a252068dd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"497ee09acb685c424d55c49d0e91815d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929919,
+            "neighbourhood_id":420554589,
+            "region_id":85688603,
+            "venue_id":823532743
+        }
+    ],
     "wof:id":823532743,
-    "wof:lastmodified":1466415495,
+    "wof:lastmodified":1492122833,
     "wof:name":"JC Carpentry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554589,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

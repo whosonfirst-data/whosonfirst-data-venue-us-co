@@ -2,9 +2,14 @@
   "id": 824163605,
   "type": "Feature",
   "properties": {
+    "addr:full":"80 Park Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"80",
+    "addr:postcode":"80487",
+    "addr:street":"Park Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.826047,40.491406,-106.826047,40.491406",
     "geom:latitude":40.491406,
     "geom:longitude":-106.826047,
@@ -28,19 +33,46 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555223,
+        420555165
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5PCytKnR90CGqSIRGJp0OB_40.491406_-106.826047@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456440,
-    "wof:geomhash":"ba4aa7a5f28bf3cd7afacbe39044bd0f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28f49aac5d2e5bba4edc32a17df3b62d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555223,
+            "region_id":85688603,
+            "venue_id":824163605
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555165,
+            "region_id":85688603,
+            "venue_id":824163605
+        }
+    ],
     "wof:id":824163605,
-    "wof:lastmodified":1466417779,
+    "wof:lastmodified":1492129934,
     "wof:name":"Routt Memorial Hospital",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

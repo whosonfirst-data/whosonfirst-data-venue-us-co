@@ -2,9 +2,14 @@
   "id": 823665003,
   "type": "Feature",
   "properties": {
+    "addr:full":"1430 Nelson Rd Longmont CO 80501",
+    "addr:housenumber":"1430",
+    "addr:postcode":"80501",
+    "addr:street":"Nelson Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.116259,40.152382,-105.116259,40.152382",
     "geom:latitude":40.152382,
     "geom:longitude":-105.116259,
@@ -28,17 +33,32 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1CJUjji7b1XziQcGuA6CRw_40.152382_-105.116259@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443455,
-    "wof:geomhash":"b44b3e686bd98a67321bd1c642226163",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8b30d22759ad37eb0794f01296006f59",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823665003
+        }
+    ],
     "wof:id":823665003,
-    "wof:lastmodified":1466418289,
+    "wof:lastmodified":1492123500,
     "wof:name":"IEA Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

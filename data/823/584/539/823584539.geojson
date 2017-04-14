@@ -2,9 +2,14 @@
   "id": 823584539,
   "type": "Feature",
   "properties": {
+    "addr:full":"5565 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"5565",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025449,39.797322,-105.025449,39.797322",
     "geom:latitude":39.797322,
     "geom:longitude":-105.025449,
@@ -28,19 +33,36 @@
         "home"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5uuW8FXcbwoOh9GMMWZyVQ_39.797322_-105.025449@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441527,
-    "wof:geomhash":"d181940d613369ade67b48131b4db6ff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"abcc54759e6374ad91e1bf9c411e45ea",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553615,
+            "region_id":85688603,
+            "venue_id":823584539
+        }
+    ],
     "wof:id":823584539,
-    "wof:lastmodified":1466416864,
+    "wof:lastmodified":1492122387,
     "wof:name":"Rustic Ranch Mobile Home Park",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

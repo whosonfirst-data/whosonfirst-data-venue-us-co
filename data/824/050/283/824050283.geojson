@@ -2,9 +2,14 @@
   "id": 824050283,
   "type": "Feature",
   "properties": {
+    "addr:full":"803 Buffalo Trl Elizabeth CO 80107",
+    "addr:housenumber":"803",
+    "addr:postcode":"80107",
+    "addr:street":"Buffalo Trl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.642372,39.409193,-104.642372,39.409193",
     "geom:latitude":39.409193,
     "geom:longitude":-104.642372,
@@ -27,17 +32,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929907,
+        102084059
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Z6J8ThTsaPLmicsgJNTyI_39.409193_-104.642372@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453171,
-    "wof:geomhash":"e4f44fd8a33f85d2dfb732016881ed7c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"40e9fab376780a978932bb0350ccc175",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084059,
+            "locality_id":85929907,
+            "region_id":85688603,
+            "venue_id":824050283
+        }
+    ],
     "wof:id":824050283,
-    "wof:lastmodified":1466414204,
+    "wof:lastmodified":1492133302,
     "wof:name":"Anything Tile",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

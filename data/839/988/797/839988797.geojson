@@ -2,9 +2,14 @@
   "id": 839988797,
   "type": "Feature",
   "properties": {
+    "addr:full":"1500 E 104th Ave Denver CO 80233",
+    "addr:housenumber":"1500",
+    "addr:postcode":"80233",
+    "addr:street":"E 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.967919,39.884593,-104.967919,39.884593",
     "geom:latitude":39.884593,
     "geom:longitude":-104.967919,
@@ -30,19 +35,36 @@
         "soup"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7RQBT3vkSyY8GuOjLT4z8e_39.884593_-104.967919@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460768,
-    "wof:geomhash":"5c47de2a92ce636d077de7925533c9b6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"681eee40a82331a7e84a0d6b02f16808",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":839988797
+        }
+    ],
     "wof:id":839988797,
-    "wof:lastmodified":1466417446,
+    "wof:lastmodified":1492112810,
     "wof:name":"Wendy's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

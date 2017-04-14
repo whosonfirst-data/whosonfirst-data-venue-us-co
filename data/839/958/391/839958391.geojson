@@ -2,9 +2,14 @@
   "id": 839958391,
   "type": "Feature",
   "properties": {
+    "addr:full":"5125 W Alameda Ave Denver CO 80219",
+    "addr:housenumber":"5125",
+    "addr:postcode":"80219",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052968,39.711416,-105.052968,39.711416",
     "geom:latitude":39.711416,
     "geom:longitude":-105.052968,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Mbao6TBTs9h1x778CsQ3Y_39.711416_-105.052968@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463459549,
     "wof:geomhash":"daf0bc4c457c053eda75721d7dd5bd19",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":839958391
+        }
+    ],
     "wof:id":839958391,
-    "wof:lastmodified":1466415667,
+    "wof:lastmodified":1486593765,
     "wof:name":"Rainbow Barber Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

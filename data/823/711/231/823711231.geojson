@@ -2,9 +2,14 @@
   "id": 823711231,
   "type": "Feature",
   "properties": {
+    "addr:full":"13050 Foothills Hwy Longmont CO 80503",
+    "addr:housenumber":"13050",
+    "addr:postcode":"80503",
+    "addr:street":"Foothills Hwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.249089,40.211687,-105.249089,40.211687",
     "geom:latitude":40.211687,
     "geom:longitude":-105.249089,
@@ -34,19 +39,32 @@
         "cabin"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85896075,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6oZqRq32egpYszA2rF9JNt_40.211687_-105.249089@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444472,
-    "wof:geomhash":"e979de7aedaed3608cfa68f47f605f11",
-    "wof:hierarchy":[],
+    "wof:geomhash":"624d327d2e16bf59888dd6dfd91029fc",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85896075,
+            "region_id":85688603,
+            "venue_id":823711231
+        }
+    ],
     "wof:id":823711231,
-    "wof:lastmodified":1466418596,
+    "wof:lastmodified":1492126330,
     "wof:name":"Foothills Log Homes Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896075,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824036047,
   "type": "Feature",
   "properties": {
+    "addr:full":"5135 E 74th Ave Commerce City CO 80022",
+    "addr:housenumber":"5135",
+    "addr:postcode":"80022",
+    "addr:street":"E 74Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.930303,39.830948,-104.930303,39.830948",
     "geom:latitude":39.830948,
     "geom:longitude":-104.930303,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930259,
+        102084053,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4pKza9asEctO0BQPoI91RW_39.830948_-104.930303@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452813,
-    "wof:geomhash":"cfaad35aef587850d8d7d097402c4728",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5b77128eb2b034519326ab2ea1fc7760",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":824036047
+        }
+    ],
     "wof:id":824036047,
-    "wof:lastmodified":1466413943,
+    "wof:lastmodified":1492132338,
     "wof:name":"Western Concrete Contractors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553481,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

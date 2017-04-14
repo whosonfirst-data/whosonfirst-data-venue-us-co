@@ -2,9 +2,14 @@
   "id": 839956265,
   "type": "Feature",
   "properties": {
+    "addr:full":"1899 S Academy Blvd Colorado Springs CO 80916",
+    "addr:housenumber":"1899",
+    "addr:postcode":"80916",
+    "addr:street":"S Academy Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.757458,38.806735,-104.757458,38.806735",
     "geom:latitude":38.806735,
     "geom:longitude":-104.757458,
@@ -28,19 +33,36 @@
         "parts"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7SQ1tpbZegbarhLu0aMxbD_38.806735_-104.757458@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459468,
-    "wof:geomhash":"ef0794861f25bdaee6834c2b2c273057",
-    "wof:hierarchy":[],
+    "wof:geomhash":"71aa36cfbd7c7affac27a46d40799a5f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":839956265
+        }
+    ],
     "wof:id":839956265,
-    "wof:lastmodified":1466415311,
+    "wof:lastmodified":1492111829,
     "wof:name":"Autozone",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

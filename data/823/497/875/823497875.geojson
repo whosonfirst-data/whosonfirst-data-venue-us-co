@@ -2,9 +2,14 @@
   "id": 823497875,
   "type": "Feature",
   "properties": {
+    "addr:full":"3323 W 96th Ave Westminster CO 80031",
+    "addr:housenumber":"3323",
+    "addr:postcode":"80031",
+    "addr:street":"W 96Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033145,39.870865,-105.033145,39.870865",
     "geom:latitude":39.870865,
     "geom:longitude":-105.033145,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_36TdogQkkfAqELPK6mv0HH_39.870865_-105.033145@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439516,
-    "wof:geomhash":"201c70c299754bea8a02452d282780d1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0d12a4c244ca8db05f8ec2598d40782a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823497875
+        }
+    ],
     "wof:id":823497875,
-    "wof:lastmodified":1466414114,
+    "wof:lastmodified":1492116262,
     "wof:name":"Environs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

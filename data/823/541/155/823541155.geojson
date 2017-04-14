@@ -2,9 +2,14 @@
   "id": 823541155,
   "type": "Feature",
   "properties": {
+    "addr:full":"4500 E 51st Ave Denver CO 80216",
+    "addr:housenumber":"4500",
+    "addr:postcode":"80216",
+    "addr:street":"E 51St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.934629,39.788839,-104.934629,39.788839",
     "geom:latitude":39.788839,
     "geom:longitude":-104.934629,
@@ -29,7 +34,16 @@
         "garden"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750051,
+        85840547,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4xCqXsFxELfRu2acN99H6N_39.788839_-104.934629@1294083659"
@@ -37,11 +51,23 @@
     "wof:country":"US",
     "wof:created":1463440491,
     "wof:geomhash":"0fa80c32ef78bdd330cbc247cb6326de",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750051,
+            "neighbourhood_id":85840547,
+            "region_id":85688603,
+            "venue_id":823541155
+        }
+    ],
     "wof:id":823541155,
-    "wof:lastmodified":1466415356,
+    "wof:lastmodified":1486604418,
     "wof:name":"Colorado Garden Supply",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

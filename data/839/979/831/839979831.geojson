@@ -2,9 +2,14 @@
   "id": 839979831,
   "type": "Feature",
   "properties": {
+    "addr:full":"4105 Co Rd 46 Johnstown CO 80534",
+    "addr:housenumber":"4105;46",
+    "addr:postcode":"80534",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977732,40.320986,-104.977732,40.320986",
     "geom:latitude":40.320986,
     "geom:longitude":-104.977732,
@@ -24,19 +29,36 @@
         "cash"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0kHuMPuZ8vGIgtYwiCH1v8_40.320986_-104.977732@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460416,
-    "wof:geomhash":"3549442e74803746874117ab97dd42eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b95357cf1572fd96ccea9968bc591f9d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":839979831
+        }
+    ],
     "wof:id":839979831,
-    "wof:lastmodified":1466416922,
+    "wof:lastmodified":1492113576,
     "wof:name":"Allan Littrell",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

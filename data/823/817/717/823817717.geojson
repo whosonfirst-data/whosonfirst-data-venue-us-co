@@ -2,9 +2,14 @@
   "id": 823817717,
   "type": "Feature",
   "properties": {
+    "addr:full":"2699 W 91st Ave Denver CO 80260",
+    "addr:housenumber":"2699",
+    "addr:postcode":"80260",
+    "addr:street":"W 91St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.020642,39.861735,-105.020642,39.861735",
     "geom:latitude":39.861735,
     "geom:longitude":-105.020642,
@@ -28,19 +33,36 @@
         "radiotelephone"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5OKVDsQZcK6uanREpUlmdY_39.861735_-105.020642@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447223,
-    "wof:geomhash":"6d46b9271e378e80eaf0ba4f18e89fdf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"339182c09c231c0e55ef652720277196",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823817717
+        }
+    ],
     "wof:id":823817717,
-    "wof:lastmodified":1466419533,
+    "wof:lastmodified":1492126002,
     "wof:name":"Micro Cellular LP",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

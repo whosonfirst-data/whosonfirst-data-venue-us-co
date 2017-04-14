@@ -2,9 +2,14 @@
   "id": 823591649,
   "type": "Feature",
   "properties": {
+    "addr:full":"730 W Mesa Ave Grand Junction CO 81505",
+    "addr:housenumber":"730",
+    "addr:postcode":"81505",
+    "addr:street":"W Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.578706,39.082467,-108.578706,39.082467",
     "geom:latitude":39.082467,
     "geom:longitude":-108.578706,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554951
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Yjd0UDSE2LliIiIyEPEUs_39.082467_-108.578706@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441685,
-    "wof:geomhash":"7a1d5568058c0a15d4bf6c126d549df8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"42ee310587dee32d79616323f3052adc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554951,
+            "region_id":85688603,
+            "venue_id":823591649
+        }
+    ],
     "wof:id":823591649,
-    "wof:lastmodified":1466416947,
+    "wof:lastmodified":1492124582,
     "wof:name":"Seventh-Day Adventist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554951,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

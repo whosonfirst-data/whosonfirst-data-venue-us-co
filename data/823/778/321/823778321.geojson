@@ -2,9 +2,14 @@
   "id": 823778321,
   "type": "Feature",
   "properties": {
+    "addr:full":"1008 E Empire St Cortez CO 81321",
+    "addr:housenumber":"1008",
+    "addr:postcode":"81321",
+    "addr:street":"E Empire St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.571059,37.356296,-108.571059,37.356296",
     "geom:latitude":37.356296,
     "geom:longitude":-108.571059,
@@ -28,19 +33,36 @@
         "collection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555059
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0EVyyAR5mi1PuP4XLwkKbG_37.356296_-108.571059@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446045,
-    "wof:geomhash":"e3d43166ed26df5c59738f8fcad24f80",
-    "wof:hierarchy":[],
+    "wof:geomhash":"57f2fc931f54e6884a006c690bde4ace",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555059,
+            "region_id":85688603,
+            "venue_id":823778321
+        }
+    ],
     "wof:id":823778321,
-    "wof:lastmodified":1466419030,
+    "wof:lastmodified":1492122224,
     "wof:name":"Countryside Disposal",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555059,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

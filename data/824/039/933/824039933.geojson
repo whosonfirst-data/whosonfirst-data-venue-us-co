@@ -2,9 +2,14 @@
   "id": 824039933,
   "type": "Feature",
   "properties": {
+    "addr:full":"160 Bellevue Dr Boulder CO 80302",
+    "addr:housenumber":"160",
+    "addr:postcode":"80302",
+    "addr:street":"Bellevue Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277298,39.997442,-105.277298,39.997442",
     "geom:latitude":39.997442,
     "geom:longitude":-105.277298,
@@ -28,19 +33,32 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876365,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3VJA5PUhloC3KfKlwr1ycT_39.997442_-105.277298@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452930,
-    "wof:geomhash":"8c888c4987f406cf7d4478d0f8f3f387",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5952d69d16e1cc02d5e622b7c30c010b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876365,
+            "region_id":85688603,
+            "venue_id":824039933
+        }
+    ],
     "wof:id":824039933,
-    "wof:lastmodified":1466413883,
+    "wof:lastmodified":1492133166,
     "wof:name":"Larry R Ryan MD",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

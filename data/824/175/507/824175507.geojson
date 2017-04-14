@@ -2,9 +2,14 @@
   "id": 824175507,
   "type": "Feature",
   "properties": {
+    "addr:full":"6096 W 55th Pl Arvada CO 80002",
+    "addr:housenumber":"6096",
+    "addr:postcode":"80002",
+    "addr:street":"W 55Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.063465,39.797322,-105.063465,39.797322",
     "geom:latitude":39.797322,
     "geom:longitude":-105.063465,
@@ -28,19 +33,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5k8I4RSyYPeud1EcFTznN5_39.797322_-105.063465@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456896,
-    "wof:geomhash":"fbf95e2f09c9853415580a6f8a8fa626",
-    "wof:hierarchy":[],
+    "wof:geomhash":"40223aa68f3bf1f4fb60860cc4c7c2de",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824175507
+        }
+    ],
     "wof:id":824175507,
-    "wof:lastmodified":1466417893,
+    "wof:lastmodified":1492130954,
     "wof:name":"Red Feather Remodeling & Cnstr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824011865,
   "type": "Feature",
   "properties": {
+    "addr:full":"7 Utica St Ward CO 80302",
+    "addr:housenumber":"7",
+    "addr:postcode":"80302",
+    "addr:street":"Utica St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.507289,40.07204,-105.507289,40.07204",
     "geom:latitude":40.07204,
     "geom:longitude":-105.507289,
@@ -29,19 +34,32 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85824859,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_77QU2nVzzYHem1nM59h582_40.072040_-105.507289@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452234,
-    "wof:geomhash":"192255c3fe8506d6e291294874879e11",
-    "wof:hierarchy":[],
+    "wof:geomhash":"601f5e3e1f03b3604e721c20b1efba9f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85824859,
+            "region_id":85688603,
+            "venue_id":824011865
+        }
+    ],
     "wof:id":824011865,
-    "wof:lastmodified":1466413075,
+    "wof:lastmodified":1492130770,
     "wof:name":"High Alpine Water Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85824859,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

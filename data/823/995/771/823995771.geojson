@@ -2,9 +2,14 @@
   "id": 823995771,
   "type": "Feature",
   "properties": {
+    "addr:full":"3535 S Lafayette St Englewood CO 80113",
+    "addr:housenumber":"3535",
+    "addr:postcode":"80113",
+    "addr:street":"S Lafayette St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971247,39.652162,-104.971247,39.652162",
     "geom:latitude":39.652162,
     "geom:longitude":-104.971247,
@@ -28,17 +33,41 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        85929843
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1mFop6oHLxGnmhCCF9swzR_39.652162_-104.971247@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451883,
-    "wof:geomhash":"58bfce0a9716a96d3430c8462a6e55f5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"707850c1ab28c858a0da1d78825dcea6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "region_id":85688603,
+            "venue_id":823995771
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929843,
+            "region_id":85688603,
+            "venue_id":823995771
+        }
+    ],
     "wof:id":823995771,
-    "wof:lastmodified":1466421016,
+    "wof:lastmodified":1492117192,
     "wof:name":"Claude Bays MD",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

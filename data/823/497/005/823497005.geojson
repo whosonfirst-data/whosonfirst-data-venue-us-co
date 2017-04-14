@@ -2,9 +2,14 @@
   "id": 823497005,
   "type": "Feature",
   "properties": {
+    "addr:full":"1714 W 72nd Ave Denver CO 80221",
+    "addr:housenumber":"1714",
+    "addr:postcode":"80221",
+    "addr:street":"W 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006212,39.82729,-105.006212,39.82729",
     "geom:latitude":39.82729,
     "geom:longitude":-105.006212,
@@ -27,19 +32,57 @@
         "bond"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553817,
+        85930251,
+        85888393,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5v9uQnTJOVOGB38zjbBkNa_39.827290_-105.006212@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439488,
-    "wof:geomhash":"299bbdb0cdc4070be43cf15b0c685a1d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3ac5f48afd26fbaca9294d5f8c13f798",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553817,
+            "region_id":85688603,
+            "venue_id":823497005
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":85888393,
+            "region_id":85688603,
+            "venue_id":823497005
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":823497005
+        }
+    ],
     "wof:id":823497005,
-    "wof:lastmodified":1466414020,
+    "wof:lastmodified":1492116262,
     "wof:name":"Denver Bonding",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

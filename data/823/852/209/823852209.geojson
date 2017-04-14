@@ -2,9 +2,14 @@
   "id": 823852209,
   "type": "Feature",
   "properties": {
+    "addr:full":"501 Bauer Ave Mancos CO 81328",
+    "addr:housenumber":"501",
+    "addr:postcode":"81328",
+    "addr:street":"Bauer Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.294926,37.346121,-108.294926,37.346121",
     "geom:latitude":37.346121,
     "geom:longitude":-108.294926,
@@ -31,19 +36,28 @@
         "floor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_30j9SRPuuOwIgjsQXxOCYi_37.346121_-108.294926@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448284,
-    "wof:geomhash":"dfa82113f2ab0cbfc6720e2e161b41b8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d15a73e6b4830a868399454c50216405",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823852209
+        }
+    ],
     "wof:id":823852209,
-    "wof:lastmodified":1466419797,
+    "wof:lastmodified":1492126672,
     "wof:name":"Living Stones Renovations",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

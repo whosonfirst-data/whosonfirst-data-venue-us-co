@@ -2,9 +2,14 @@
   "id": 839972263,
   "type": "Feature",
   "properties": {
+    "addr:full":"2240 Dallas St Aurora CO 80010",
+    "addr:housenumber":"2240",
+    "addr:postcode":"80010",
+    "addr:street":"Dallas St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.87631,39.750347,-104.87631,39.750347",
     "geom:latitude":39.750347,
     "geom:longitude":-104.87631,
@@ -28,17 +33,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1iPNVVeR0Wxx6C68cHt6vN_39.750347_-104.876310@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460113,
-    "wof:geomhash":"2e950c7e654aac4f2eea02330e01c561",
-    "wof:hierarchy":[],
+    "wof:geomhash":"13f34c2f775003b78b593e2abb5934ad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":839972263
+        }
+    ],
     "wof:id":839972263,
-    "wof:lastmodified":1466416438,
+    "wof:lastmodified":1492112564,
     "wof:name":"Lane Park Apartments",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

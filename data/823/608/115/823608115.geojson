@@ -2,9 +2,14 @@
   "id": 823608115,
   "type": "Feature",
   "properties": {
+    "addr:full":"710 Co Rd 737 Gunnison CO 81230",
+    "addr:housenumber":"710;737",
+    "addr:postcode":"81230",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.028429,38.747769,-107.028429,38.747769",
     "geom:latitude":38.747769,
     "geom:longitude":-107.028429,
@@ -27,19 +32,28 @@
         "surveyor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5il0p16QdbpKNuqEYBLSy5_38.747769_-107.028429@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442089,
-    "wof:geomhash":"2b0aea92a57fa17c546fb411c85577aa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c232f56d2b346f107691c9a23cf19901",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554375,
+            "venue_id":823608115
+        }
+    ],
     "wof:id":823608115,
-    "wof:lastmodified":1466417245,
+    "wof:lastmodified":1492124274,
     "wof:name":"North Star Surveying",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

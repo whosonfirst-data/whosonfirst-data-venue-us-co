@@ -2,9 +2,14 @@
   "id": 823525347,
   "type": "Feature",
   "properties": {
+    "addr:full":"360 High Desert Rd Grand Junction CO 81503",
+    "addr:housenumber":"360",
+    "addr:postcode":"81503",
+    "addr:street":"High Desert Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.622313,39.058586,-108.622313,39.058586",
     "geom:latitude":39.058586,
     "geom:longitude":-108.622313,
@@ -27,19 +32,36 @@
         "equipment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554779
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5JSdpmDWtMtANBy0Ev9cHk_39.058586_-108.622313@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440146,
-    "wof:geomhash":"8c1110864d6dce463e8a523621fbf889",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d8927750074d5574f2daf05db0130a78",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554779,
+            "region_id":85688603,
+            "venue_id":823525347
+        }
+    ],
     "wof:id":823525347,
-    "wof:lastmodified":1466414912,
+    "wof:lastmodified":1492119176,
     "wof:name":"Schneider Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554779,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823630363,
   "type": "Feature",
   "properties": {
+    "addr:full":"43 N Maple St Cortez CO 81321",
+    "addr:housenumber":"43",
+    "addr:postcode":"81321",
+    "addr:street":"N Maple St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590508,37.349188,-108.590508,37.349188",
     "geom:latitude":37.349188,
     "geom:longitude":-108.590508,
@@ -27,19 +32,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555131
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5YO4od1i2QXtZ5F7BCo5TM_37.349188_-108.590508@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442638,
-    "wof:geomhash":"b008ab59a3846b3171cbece6719a98eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f80ed953c6690df3f6277aa573afef83",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555131,
+            "region_id":85688603,
+            "venue_id":823630363
+        }
+    ],
     "wof:id":823630363,
-    "wof:lastmodified":1466417703,
+    "wof:lastmodified":1492123697,
     "wof:name":"Southwest Designs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555131,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

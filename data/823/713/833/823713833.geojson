@@ -2,9 +2,14 @@
   "id": 823713833,
   "type": "Feature",
   "properties": {
+    "addr:full":"26795 US Hwy 40 Steamboat Spgs CO 80487",
+    "addr:housenumber":"26795",
+    "addr:postcode":"80487",
+    "addr:street":"Us Hwy 40 Steamboat Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.916764,40.502026,-106.916764,40.502026",
     "geom:latitude":40.502026,
     "geom:longitude":-106.916764,
@@ -24,19 +29,34 @@
     "sg:postcode":"80487",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555181,
+        420555157
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00M8ZhJTmMdpZVEXROOYe1_40.502026_-106.916764@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444527,
-    "wof:geomhash":"c590839604a0a260434aa552eea2aa15",
-    "wof:hierarchy":[],
+    "wof:geomhash":"50ed0a828041c8d09279af102d1c0fb8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555181,
+            "venue_id":823713833
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555157,
+            "venue_id":823713833
+        }
+    ],
     "wof:id":823713833,
-    "wof:lastmodified":1466418681,
+    "wof:lastmodified":1492116818,
     "wof:name":"Jim's Riverbend Roadhouse",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

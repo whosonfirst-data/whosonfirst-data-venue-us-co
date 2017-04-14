@@ -2,9 +2,14 @@
   "id": 823784173,
   "type": "Feature",
   "properties": {
+    "addr:full":"4720 Shoup Pl Boulder CO 80303",
+    "addr:housenumber":"4720",
+    "addr:postcode":"80303",
+    "addr:street":"Shoup Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.234423,40.00589,-105.234423,40.00589",
     "geom:latitude":40.00589,
     "geom:longitude":-105.234423,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7e9SSyQwR4FOAOTx5ddCRk_40.005890_-105.234423@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446212,
-    "wof:geomhash":"b9bc1b98653bc4d59524524266744c49",
-    "wof:hierarchy":[],
+    "wof:geomhash":"789ad8d6459fa512be69af28348fdef4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":823784173
+        }
+    ],
     "wof:id":823784173,
-    "wof:lastmodified":1466419230,
+    "wof:lastmodified":1492124672,
     "wof:name":"Collegiate Painter N Denver BR",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

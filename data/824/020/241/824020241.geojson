@@ -2,9 +2,14 @@
   "id": 824020241,
   "type": "Feature",
   "properties": {
+    "addr:full":"1748 Emma Ln Brighton CO 80601",
+    "addr:housenumber":"1748",
+    "addr:postcode":"80601",
+    "addr:street":"Emma Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.800315,39.977541,-104.800315,39.977541",
     "geom:latitude":39.977541,
     "geom:longitude":-104.800315,
@@ -27,19 +32,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5e4JKbGR9TgOCGKu0Hrc7p_39.977541_-104.800315@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452431,
-    "wof:geomhash":"9d7d2ac97fe526a4990d5696a0cee60e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"195f47afb90ac479accf7a2d9aee2c46",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553423,
+            "venue_id":824020241
+        }
+    ],
     "wof:id":824020241,
-    "wof:lastmodified":1466413603,
+    "wof:lastmodified":1492128333,
     "wof:name":"Constructions Supplies & Svcs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

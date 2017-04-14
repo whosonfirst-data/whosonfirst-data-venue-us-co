@@ -2,9 +2,14 @@
   "id": 823740205,
   "type": "Feature",
   "properties": {
+    "addr:full":"436 Independent Ave Grand Junction CO 81505",
+    "addr:housenumber":"436",
+    "addr:postcode":"81505",
+    "addr:street":"Independent Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.576883,39.080944,-108.576883,39.080944",
     "geom:latitude":39.080944,
     "geom:longitude":-108.576883,
@@ -27,19 +32,36 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554989
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3pF3FRI9uXd3BC0mGVLHTd_39.080944_-108.576883@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445162,
-    "wof:geomhash":"a8b51fd007ea6ed79be96116205fca21",
-    "wof:hierarchy":[],
+    "wof:geomhash":"44f6e1ba575a33882f06d2865af748d6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554989,
+            "region_id":85688603,
+            "venue_id":823740205
+        }
+    ],
     "wof:id":823740205,
-    "wof:lastmodified":1466418827,
+    "wof:lastmodified":1492122320,
     "wof:name":"ERI Gold & Silver Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554989,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

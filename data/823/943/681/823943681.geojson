@@ -2,9 +2,14 @@
   "id": 823943681,
   "type": "Feature",
   "properties": {
+    "addr:full":"6780 Brighton Blvd Commerce City CO 80022",
+    "addr:housenumber":"6780",
+    "addr:postcode":"80022",
+    "addr:street":"Brighton Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.932511,39.819778,-104.932511,39.819778",
     "geom:latitude":39.819778,
     "geom:longitude":-104.932511,
@@ -29,19 +34,36 @@
         "freight"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553475
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6KUWgspmHD1Ug4H4FlULWB_39.819778_-104.932511@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450609,
-    "wof:geomhash":"a86aefa20ed2e6a8c460c300b01550c2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d29172fc3fd98177e3da02388636cbd9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553475,
+            "region_id":85688603,
+            "venue_id":823943681
+        }
+    ],
     "wof:id":823943681,
-    "wof:lastmodified":1466420667,
+    "wof:lastmodified":1492123087,
     "wof:name":"A Royal Wolf Portable Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553475,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

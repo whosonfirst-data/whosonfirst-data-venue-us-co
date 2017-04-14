@@ -2,9 +2,14 @@
   "id": 823882795,
   "type": "Feature",
   "properties": {
+    "addr:full":"11476 Hwy 550 Durango CO 81303",
+    "addr:housenumber":"11476",
+    "addr:postcode":"co 81303",
+    "addr:street":"Hwy 550",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.857882,37.162,-107.857882,37.162",
     "geom:latitude":37.162,
     "geom:longitude":-107.857882,
@@ -24,19 +29,40 @@
     "sg:postcode":"81303",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554633,
+        420554659,
+        420554649
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Wnv2pHiEptAgEPoiPj9Ka_37.162000_-107.857882@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449028,
-    "wof:geomhash":"93dc03bf71456edcc86c556c2fee16d1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e5cb10487e0d9e1f80a23d8ec972ef83",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554633,
+            "venue_id":823882795
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823882795
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554649,
+            "venue_id":823882795
+        }
+    ],
     "wof:id":823882795,
-    "wof:lastmodified":1466420110,
+    "wof:lastmodified":1492120641,
     "wof:name":"Durango Neon",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

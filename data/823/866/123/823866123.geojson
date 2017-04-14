@@ -2,9 +2,14 @@
   "id": 823866123,
   "type": "Feature",
   "properties": {
+    "addr:full":"61 Teocalli Rd Crested Butte CO 81224",
+    "addr:housenumber":"61",
+    "addr:postcode":"81224",
+    "addr:street":"Teocalli Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.887913,38.811703,-106.887913,38.811703",
     "geom:latitude":38.811703,
     "geom:longitude":-106.887913,
@@ -27,19 +32,28 @@
         "sheriff"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554489
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6HU59ZEumtvOmVu0QrpaKP_38.811703_-106.887913@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448647,
-    "wof:geomhash":"2791f99d00cdd61ccd42f986beba61db",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5b24bfe42f1cfe9c739971cc579ab7fb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554489,
+            "venue_id":823866123
+        }
+    ],
     "wof:id":823866123,
-    "wof:lastmodified":1466420032,
+    "wof:lastmodified":1492118516,
     "wof:name":"Gunnison County Sheriff Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554489,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

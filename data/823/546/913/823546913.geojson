@@ -2,9 +2,14 @@
   "id": 823546913,
   "type": "Feature",
   "properties": {
+    "addr:full":"2095 N Dolores Rd Cortez CO 81321",
+    "addr:housenumber":"2095",
+    "addr:postcode":"81321",
+    "addr:street":"N Dolores Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.554573,37.372077,-108.554573,37.372077",
     "geom:latitude":37.372077,
     "geom:longitude":-108.554573,
@@ -27,19 +32,28 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4NsCDYuDKDQaxLmSjY3Xes_37.372077_-108.554573@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440630,
-    "wof:geomhash":"d8e83cbb3ebb3cea9b8aebfcb83abe1b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"76f739ceedc651ecdf86d992e2da93f4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823546913
+        }
+    ],
     "wof:id":823546913,
-    "wof:lastmodified":1466415773,
+    "wof:lastmodified":1492118162,
     "wof:name":"Tricore Reference Laboratories",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

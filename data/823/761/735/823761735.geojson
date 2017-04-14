@@ -2,9 +2,14 @@
   "id": 823761735,
   "type": "Feature",
   "properties": {
+    "addr:full":"12993 US Hwy 491 Cortez CO 81321",
+    "addr:housenumber":"12993",
+    "addr:postcode":"81321",
+    "addr:street":"Us Hwy 491",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.622796,37.399553,-108.622796,37.399553",
     "geom:latitude":37.399553,
     "geom:longitude":-108.622796,
@@ -29,19 +34,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555103
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5oeJOugL8Vm6lotKf19bDA_37.399553_-108.622796@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445650,
-    "wof:geomhash":"5b7a5148968add16aa11833314d3b2d6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ad0ca1826d2ff6eac6584247c7dd43aa",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555103,
+            "venue_id":823761735
+        }
+    ],
     "wof:id":823761735,
-    "wof:lastmodified":1466419172,
+    "wof:lastmodified":1492127145,
     "wof:name":"Rocky Mountain Rentals & Sales",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555103,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

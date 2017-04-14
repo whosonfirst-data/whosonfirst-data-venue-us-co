@@ -2,9 +2,14 @@
   "id": 824095355,
   "type": "Feature",
   "properties": {
+    "addr:full":"6845 W Princeton Ave Denver CO 80235",
+    "addr:housenumber":"6845",
+    "addr:postcode":"80235",
+    "addr:street":"W Princeton Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.0732,39.639901,-105.0732,39.639901",
     "geom:latitude":39.639901,
     "geom:longitude":-105.0732,
@@ -27,19 +32,38 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85868407,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3pS2yFhMCBeAI6v2p5nT2d_39.639901_-105.073200@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454230,
-    "wof:geomhash":"f6baf6349a35806043de9f123afb2d14",
-    "wof:hierarchy":[],
+    "wof:geomhash":"043a405947aed54e896a0df934d26318",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85868407,
+            "region_id":85688603,
+            "venue_id":824095355
+        }
+    ],
     "wof:id":824095355,
-    "wof:lastmodified":1466414971,
+    "wof:lastmodified":1492130064,
     "wof:name":"Brock T Sanders Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":85868407,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

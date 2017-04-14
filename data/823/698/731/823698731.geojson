@@ -2,9 +2,14 @@
   "id": 823698731,
   "type": "Feature",
   "properties": {
+    "addr:full":"109 S Main St Mancos CO 81328",
+    "addr:housenumber":"109",
+    "addr:postcode":"81328",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.289008,37.345111,-108.289008,37.345111",
     "geom:latitude":37.345111,
     "geom:longitude":-108.289008,
@@ -27,19 +32,28 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DijVYj4ow9uDoEk1xO1kd_37.345111_-108.289008@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444212,
-    "wof:geomhash":"19176decc019b932c3d4f081545b075b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"16177c705c0c4074da8bc2928221d15c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823698731
+        }
+    ],
     "wof:id":823698731,
-    "wof:lastmodified":1466418533,
+    "wof:lastmodified":1492116161,
     "wof:name":"Fairview Gift Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

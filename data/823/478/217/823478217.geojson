@@ -2,9 +2,14 @@
   "id": 823478217,
   "type": "Feature",
   "properties": {
+    "addr:full":"430 Craig Ln Durango CO 81303",
+    "addr:housenumber":"430",
+    "addr:postcode":"co 81303",
+    "addr:street":"Craig Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.827861,37.206554,-107.827861,37.206554",
     "geom:latitude":37.206554,
     "geom:longitude":-107.827861,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0rA8HpRp2bKokF9Zu9guZL_37.206554_-107.827861@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439043,
-    "wof:geomhash":"a7cf99628925d4429c89aa8e41855f25",
-    "wof:hierarchy":[],
+    "wof:geomhash":"45d86f32d4348f7281cfff119e84cf87",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823478217
+        }
+    ],
     "wof:id":823478217,
-    "wof:lastmodified":1466413162,
+    "wof:lastmodified":1492123994,
     "wof:name":"Southwest Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

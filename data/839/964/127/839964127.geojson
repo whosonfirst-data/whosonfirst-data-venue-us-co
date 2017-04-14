@@ -2,9 +2,14 @@
   "id": 839964127,
   "type": "Feature",
   "properties": {
+    "addr:full":"10201 Grant St Denver CO 80229",
+    "addr:housenumber":"10201",
+    "addr:postcode":"80229",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.982272,39.884616,-104.982272,39.884616",
     "geom:latitude":39.884616,
     "geom:longitude":-104.982272,
@@ -32,8 +37,10 @@
         85688603,
         102191575,
         85633793,
-        85929127,
+        85929143,
         102084053,
+        420553851,
+        85929127,
         85838293
     ],
     "wof:breaches":[],
@@ -42,8 +49,17 @@
     },
     "wof:country":"US",
     "wof:created":1463459778,
-    "wof:geomhash":"f250e562d55059e67c1a4494010bbd4e",
+    "wof:geomhash":"206ce63de7e6d12928937648abc1ddec",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553851,
+            "region_id":85688603,
+            "venue_id":839964127
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -55,9 +71,9 @@
         }
     ],
     "wof:id":839964127,
-    "wof:lastmodified":1466415929,
+    "wof:lastmodified":1492111283,
     "wof:name":"SCI",
-    "wof:parent_id":85838293,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

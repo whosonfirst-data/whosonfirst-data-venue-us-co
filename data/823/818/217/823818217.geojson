@@ -2,9 +2,14 @@
   "id": 823818217,
   "type": "Feature",
   "properties": {
+    "addr:full":"1321 9th Ave Greeley CO 80631",
+    "addr:housenumber":"1321",
+    "addr:postcode":"80631",
+    "addr:street":"9Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.69277,40.417326,-104.69277,40.417326",
     "geom:latitude":40.417326,
     "geom:longitude":-104.69277,
@@ -26,12 +31,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +44,16 @@
     },
     "wof:country":"US",
     "wof:created":1463447234,
-    "wof:geomhash":"368368aed85902ecf3d85875a1d2a0ef",
+    "wof:geomhash":"9113c88e5dbd744dfdb978154c240c1c",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823818217
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -49,20 +62,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823818217
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823818217
         }
     ],
     "wof:id":823818217,
-    "wof:lastmodified":1466419487,
+    "wof:lastmodified":1492127863,
     "wof:name":"First Untd Prsbytrn Church Gre",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

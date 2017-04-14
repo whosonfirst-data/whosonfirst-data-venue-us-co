@@ -2,9 +2,14 @@
   "id": 824019135,
   "type": "Feature",
   "properties": {
+    "addr:full":"4101 Co Rd 222 Durango CO 81303",
+    "addr:housenumber":"4101;222",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.781376,37.204799,-107.781376,37.204799",
     "geom:latitude":37.204799,
     "geom:longitude":-107.781376,
@@ -28,19 +33,28 @@
         "gravel"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4GYxtynMRpDPAE2ULpXKFX_37.204799_-107.781376@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452402,
-    "wof:geomhash":"a3e1ce6c5d35cf94cca0612d2ee8f3f9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"34d2983f7f823ca447bb328f54d0401e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824019135
+        }
+    ],
     "wof:id":824019135,
-    "wof:lastmodified":1466413593,
+    "wof:lastmodified":1492128950,
     "wof:name":"Sky Ute Sand & Gravel",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

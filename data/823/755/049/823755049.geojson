@@ -2,9 +2,14 @@
   "id": 823755049,
   "type": "Feature",
   "properties": {
+    "addr:full":"2830 D Rd Grand Junction CO 81501",
+    "addr:housenumber":"2830",
+    "addr:postcode":"81501",
+    "addr:street":"D Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.528027,39.062844,-108.528027,39.062844",
     "geom:latitude":39.062844,
     "geom:longitude":-108.528027,
@@ -27,19 +32,36 @@
         "cemetery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554841
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3lMgRXDtTUDUsbxnvGrZ72_39.062844_-108.528027@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445509,
-    "wof:geomhash":"2a84cfbc486531f763b698b4f1329969",
-    "wof:hierarchy":[],
+    "wof:geomhash":"97550aba5e0d2596fe5cad3360251ab9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554841,
+            "region_id":85688603,
+            "venue_id":823755049
+        }
+    ],
     "wof:id":823755049,
-    "wof:lastmodified":1466418980,
+    "wof:lastmodified":1492122080,
     "wof:name":"Veteran's Memorial Cemetery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554841,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823536051,
   "type": "Feature",
   "properties": {
+    "addr:full":"741 N 1st St Grand Junction CO 81501",
+    "addr:housenumber":"741",
+    "addr:postcode":"81501",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570962,39.074038,-108.570962,39.074038",
     "geom:latitude":39.074038,
     "geom:longitude":-108.570962,
@@ -30,19 +35,36 @@
         "van"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554989
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28fRLWDNFnEKR0pTybg2Hk_39.074038_-108.570962@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440383,
-    "wof:geomhash":"02b5c236cdc5d43bf67a09c13b11b5ae",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ba05d6c954298ca474a6735ceaa1e227",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554989,
+            "region_id":85688603,
+            "venue_id":823536051
+        }
+    ],
     "wof:id":823536051,
-    "wof:lastmodified":1466415228,
+    "wof:lastmodified":1492127101,
     "wof:name":"Fuoco Motor Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554989,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

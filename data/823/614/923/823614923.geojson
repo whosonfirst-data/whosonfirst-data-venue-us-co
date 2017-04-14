@@ -2,9 +2,14 @@
   "id": 823614923,
   "type": "Feature",
   "properties": {
+    "addr:full":"2994 W 119th Ave Denver CO 80234",
+    "addr:housenumber":"2994",
+    "addr:postcode":"80234",
+    "addr:street":"W 119Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.023623,39.911575,-105.023623,39.911575",
     "geom:latitude":39.911575,
     "geom:longitude":-105.023623,
@@ -28,19 +33,36 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553897
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7mOUlYq5Yg3wvdvvIM0GoT_39.911575_-105.023623@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442272,
-    "wof:geomhash":"1541205aadacbc11b126a61cd933592d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"baadfddc62735bf3e02c358c0b5fa4d2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553897,
+            "region_id":85688603,
+            "venue_id":823614923
+        }
+    ],
     "wof:id":823614923,
-    "wof:lastmodified":1466417440,
+    "wof:lastmodified":1492118035,
     "wof:name":"A American Stair Lifts LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553897,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

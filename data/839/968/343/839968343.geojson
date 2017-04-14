@@ -2,9 +2,14 @@
   "id": 839968343,
   "type": "Feature",
   "properties": {
+    "addr:full":"7957 Downing St Denver CO 80229",
+    "addr:housenumber":"7957",
+    "addr:postcode":"80229",
+    "addr:street":"Downing St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971894,39.840519,-104.971894,39.840519",
     "geom:latitude":39.840519,
     "geom:longitude":-104.971894,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ALQTWHSLAWPfyO081uBaU_39.840519_-104.971894@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459940,
-    "wof:geomhash":"8142f72e002df48550c4f7bc8754bf6f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"79b2cf542084ff9cfa38120ed0980c55",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":839968343
+        }
+    ],
     "wof:id":839968343,
-    "wof:lastmodified":1466416079,
+    "wof:lastmodified":1492114471,
     "wof:name":"Martinez & Son Remodeling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

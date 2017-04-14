@@ -2,9 +2,14 @@
   "id": 824156241,
   "type": "Feature",
   "properties": {
+    "addr:full":"7901 Zenobia St Westminster CO 80030",
+    "addr:housenumber":"7901",
+    "addr:postcode":"80030",
+    "addr:street":"Zenobia St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.051948,39.841786,-105.051948,39.841786",
     "geom:latitude":39.841786,
     "geom:longitude":-105.051948,
@@ -27,19 +32,47 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554605,
+        85929333,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DtFrEaafVWHziGEroQ0bp_39.841786_-105.051948@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456160,
-    "wof:geomhash":"c7a25b71e2b9765864270f1e6343928f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"31e535d805b0b6b891084a9c9c5bf03b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554605,
+            "region_id":85688603,
+            "venue_id":824156241
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":824156241
+        }
+    ],
     "wof:id":824156241,
-    "wof:lastmodified":1466417311,
+    "wof:lastmodified":1492130579,
     "wof:name":"Denture Clinic Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

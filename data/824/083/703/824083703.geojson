@@ -2,9 +2,14 @@
   "id": 824083703,
   "type": "Feature",
   "properties": {
+    "addr:full":"181 Chapman Rd Boulder CO 80302",
+    "addr:housenumber":"181",
+    "addr:postcode":"80302",
+    "addr:street":"Chapman Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.390933,40.015843,-105.390933,40.015843",
     "geom:latitude":40.015843,
     "geom:longitude":-105.390933,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930735,
+        102085251,
+        420553997
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2v12GTW0KtbC3EKh88PMpN_40.015843_-105.390933@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453938,
-    "wof:geomhash":"5fc5dbe717df337be685eb89f5ffa94b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ecf5e81326e12018ae757cebbb6a2ecb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930735,
+            "neighbourhood_id":420553997,
+            "region_id":85688603,
+            "venue_id":824083703
+        }
+    ],
     "wof:id":824083703,
-    "wof:lastmodified":1466414887,
+    "wof:lastmodified":1492129666,
     "wof:name":"Rocky Mountains Finest",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553997,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

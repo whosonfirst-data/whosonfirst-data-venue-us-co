@@ -2,9 +2,14 @@
   "id": 823485813,
   "type": "Feature",
   "properties": {
+    "addr:full":"1996 Co Rd 205 Durango CO 81301",
+    "addr:housenumber":"1996;205",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.865577,37.361605,-107.865577,37.361605",
     "geom:latitude":37.361605,
     "geom:longitude":-107.865577,
@@ -29,19 +34,34 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615,
+        420554657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5I79hcvyNSOQ1bxpTkVbjI_37.361605_-107.865577@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439200,
-    "wof:geomhash":"312fbfc4b2566ec9b62eae832fd2962f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a247fe8749f0ce088129a7197494279f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823485813
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554657,
+            "venue_id":823485813
+        }
+    ],
     "wof:id":823485813,
-    "wof:lastmodified":1466413671,
+    "wof:lastmodified":1492117224,
     "wof:name":"B & I Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

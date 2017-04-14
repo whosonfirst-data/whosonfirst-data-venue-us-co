@@ -2,9 +2,14 @@
   "id": 824072575,
   "type": "Feature",
   "properties": {
+    "addr:full":"9670 Washington St Denver CO 80229",
+    "addr:housenumber":"9670",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977601,39.875416,-104.977601,39.875416",
     "geom:latitude":39.875416,
     "geom:longitude":-104.977601,
@@ -28,19 +33,36 @@
         "lubrication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_40R5BXDZJBRcIxmpYoK40T_39.875416_-104.977601@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453679,
-    "wof:geomhash":"ed6503e2e371f06cf485a747aff91df1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c00768b281f2554b52f12af2acd44343",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":824072575
+        }
+    ],
     "wof:id":824072575,
-    "wof:lastmodified":1466414751,
+    "wof:lastmodified":1492129846,
     "wof:name":"Dolphin Car Care",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

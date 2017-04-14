@@ -2,9 +2,14 @@
   "id": 823525315,
   "type": "Feature",
   "properties": {
+    "addr:full":"1675 W Hamilton Pl Englewood CO 80110",
+    "addr:housenumber":"1675",
+    "addr:postcode":"80110",
+    "addr:street":"W Hamilton Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.007016,39.65459,-105.007016,39.65459",
     "geom:latitude":39.65459,
     "geom:longitude":-105.007016,
@@ -30,19 +35,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        420553955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Ho5ez8hS2MvlYmVIhiCR3_39.654590_-105.007016@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440145,
-    "wof:geomhash":"8489deb298678d5756826046f1ba5683",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8c13306afc395ecef6a601ff7547ed21",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
+            "region_id":85688603,
+            "venue_id":823525315
+        }
+    ],
     "wof:id":823525315,
-    "wof:lastmodified":1466414911,
+    "wof:lastmodified":1492119168,
     "wof:name":"Specialty Automotive",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

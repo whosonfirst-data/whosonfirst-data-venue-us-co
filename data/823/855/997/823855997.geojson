@@ -2,9 +2,14 @@
   "id": 823855997,
   "type": "Feature",
   "properties": {
+    "addr:full":"530 Ingalls St Denver CO 80226",
+    "addr:housenumber":"530",
+    "addr:postcode":"80226",
+    "addr:street":"Ingalls St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.063866,39.723984,-105.063866,39.723984",
     "geom:latitude":39.723984,
     "geom:longitude":-105.063866,
@@ -28,19 +33,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581,
+        85878615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Ta8P6yeoHfcEyrW9Sx0vs_39.723984_-105.063866@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448381,
-    "wof:geomhash":"c784c0f03023d1f49f84fc13d80b59b9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7aec8f3f7693f6c774edefa10855ff62",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823855997
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":85878615,
+            "region_id":85688603,
+            "venue_id":823855997
+        }
+    ],
     "wof:id":823855997,
-    "wof:lastmodified":1466419899,
+    "wof:lastmodified":1492123019,
     "wof:name":"Armbrust Construction LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

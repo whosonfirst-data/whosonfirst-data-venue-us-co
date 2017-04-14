@@ -2,9 +2,14 @@
   "id": 839943979,
   "type": "Feature",
   "properties": {
+    "addr:full":"7111 Julian St Westminster CO 80030",
+    "addr:housenumber":"7111",
+    "addr:postcode":"80030",
+    "addr:street":"Julian St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030668,39.827151,-105.030668,39.827151",
     "geom:latitude":39.827151,
     "geom:longitude":-105.030668,
@@ -32,19 +37,36 @@
         "metalwork"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553527
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ekMt2eepOgN1SKnNTRbV0_39.827151_-105.030668@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458807,
-    "wof:geomhash":"6fac74d15988ca7981eba8614d7e600d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cf1f85a7b3547839654152723fd971d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553527,
+            "region_id":85688603,
+            "venue_id":839943979
+        }
+    ],
     "wof:id":839943979,
-    "wof:lastmodified":1466415026,
+    "wof:lastmodified":1492112784,
     "wof:name":"Williams Machinery Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553527,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

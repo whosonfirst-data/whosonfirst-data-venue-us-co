@@ -2,9 +2,14 @@
   "id": 839932825,
   "type": "Feature",
   "properties": {
+    "addr:full":"1462 Co Rd 83 Boulder CO 80302",
+    "addr:housenumber":"1462;83",
+    "addr:postcode":"80302",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.362717,40.070128,-105.362717,40.070128",
     "geom:latitude":40.070128,
     "geom:longitude":-105.362717,
@@ -29,19 +34,28 @@
         "fabric"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553993
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6CXpQFerGnFfZp5x5SC2uU_40.070128_-105.362717@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458125,
-    "wof:geomhash":"2c04685e7e144e3c54c9849a322d5249",
-    "wof:hierarchy":[],
+    "wof:geomhash":"55b742700b65e3b59fd84c9a67fc082e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553993,
+            "venue_id":839932825
+        }
+    ],
     "wof:id":839932825,
-    "wof:lastmodified":1466414142,
+    "wof:lastmodified":1492112660,
     "wof:name":"Velcro USA Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553993,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

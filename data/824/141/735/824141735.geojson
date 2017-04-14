@@ -2,9 +2,14 @@
   "id": 824141735,
   "type": "Feature",
   "properties": {
+    "addr:full":"2457 Industrial Blvd Grand Junction CO 81505",
+    "addr:housenumber":"2457",
+    "addr:postcode":"81505",
+    "addr:street":"Industrial Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.594034,39.089063,-108.594034,39.089063",
     "geom:latitude":39.089063,
     "geom:longitude":-108.594034,
@@ -28,19 +33,36 @@
         "dancing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554791
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0G3G64uFiNnljDSpy1G2Cs_39.089063_-108.594034@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455571,
-    "wof:geomhash":"8a7b986017d74200d1d2e9f32b010ac2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b32f948af0694684ee3cdba1f6ded893",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":824141735
+        }
+    ],
     "wof:id":824141735,
-    "wof:lastmodified":1466416598,
+    "wof:lastmodified":1492131676,
     "wof:name":"Colorado West Dance",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554791,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

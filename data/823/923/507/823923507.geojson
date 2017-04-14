@@ -2,9 +2,14 @@
   "id": 823923507,
   "type": "Feature",
   "properties": {
+    "addr:full":"923 E 130th Dr Denver CO 80241",
+    "addr:housenumber":"923",
+    "addr:postcode":"80241",
+    "addr:street":"E 130Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.973884,39.933804,-104.973884,39.933804",
     "geom:latitude":39.933804,
     "geom:longitude":-104.973884,
@@ -28,19 +33,36 @@
         "product"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3IJz1foXXuNyH5lrln9Fv9_39.933804_-104.973884@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450089,
-    "wof:geomhash":"35708759433fd90a7e0182bc93ccbdce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a6a59c3ef44e0aff34f5dfc218fbeb8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":823923507
+        }
+    ],
     "wof:id":823923507,
-    "wof:lastmodified":1466420415,
+    "wof:lastmodified":1492125995,
     "wof:name":"Domenico Food Products Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824131369,
   "type": "Feature",
   "properties": {
+    "addr:full":"5335 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"5335",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02536,39.792126,-105.02536,39.792126",
     "geom:latitude":39.792126,
     "geom:longitude":-105.02536,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553687
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0uTwH8uS1JdXJXpebvkrSl_39.792126_-105.025360@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455196,
-    "wof:geomhash":"dd628db40318c8d06a94cc9db2960a71",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cb5933efe4b796b2e9ff8c93ba58cb47",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553687,
+            "region_id":85688603,
+            "venue_id":824131369
+        }
+    ],
     "wof:id":824131369,
-    "wof:lastmodified":1466416036,
+    "wof:lastmodified":1492130446,
     "wof:name":"A Denver Roofing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553687,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

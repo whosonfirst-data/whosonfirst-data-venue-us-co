@@ -2,9 +2,14 @@
   "id": 839993603,
   "type": "Feature",
   "properties": {
+    "addr:full":"904 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"904",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.557394,39.077447,-108.557394,39.077447",
     "geom:latitude":39.077447,
     "geom:longitude":-108.557394,
@@ -30,19 +35,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7iKSp9CtppmpRfIYLWWlUx_39.077475_-108.556955@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460954,
-    "wof:geomhash":"8554124718de635ea6559ea5814696fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6c766456bc1504fd7baa88e3a42a33a9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554823,
+            "region_id":85688603,
+            "venue_id":839993603
+        }
+    ],
     "wof:id":839993603,
-    "wof:lastmodified":1466417726,
+    "wof:lastmodified":1492110953,
     "wof:name":"Domino's Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

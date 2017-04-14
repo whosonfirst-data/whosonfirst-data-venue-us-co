@@ -2,9 +2,14 @@
   "id": 823738235,
   "type": "Feature",
   "properties": {
+    "addr:full":"2531 W Pinyon Ave Grand Junction CO 81505",
+    "addr:housenumber":"2531",
+    "addr:postcode":"81505",
+    "addr:street":"W Pinyon Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586415,39.085628,-108.586415,39.085628",
     "geom:latitude":39.085628,
     "geom:longitude":-108.586415,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554791
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5H3tBs5EYVh0u9s4KLOaqV_39.085628_-108.586415@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445116,
-    "wof:geomhash":"c9ee47b51433e8daefd2d640a9bdb177",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5e2de79fc93567256e2a59c92fb91d2f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":823738235
+        }
+    ],
     "wof:id":823738235,
-    "wof:lastmodified":1466418834,
+    "wof:lastmodified":1492125008,
     "wof:name":"James M Tarr DDS",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554791,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

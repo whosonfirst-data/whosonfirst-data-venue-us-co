@@ -2,9 +2,14 @@
   "id": 823888599,
   "type": "Feature",
   "properties": {
+    "addr:full":"10203 E Iowa Ave Denver CO 80247",
+    "addr:housenumber":"10203",
+    "addr:postcode":"80247",
+    "addr:street":"E Iowa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.868439,39.687314,-104.868439,39.687314",
     "geom:latitude":39.687314,
     "geom:longitude":-104.868439,
@@ -29,17 +34,32 @@
         "sales"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2vv8EM9htTj4hgu0Fnc16l_39.687314_-104.868439@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449158,
-    "wof:geomhash":"9f317e13756013d53f4da75200b0b7c1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"296fed5262373d2682d0861a01fe0a8d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823888599
+        }
+    ],
     "wof:id":823888599,
-    "wof:lastmodified":1466420156,
+    "wof:lastmodified":1492117091,
     "wof:name":"P Badsky",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

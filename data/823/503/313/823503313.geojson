@@ -2,9 +2,14 @@
   "id": 823503313,
   "type": "Feature",
   "properties": {
+    "addr:full":"655 Evans St Steamboat Spgs CO 80487",
+    "addr:housenumber":"655",
+    "addr:postcode":"80487",
+    "addr:street":"Evans St Steamboat Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.846912,40.487498,-106.846912,40.487498",
     "geom:latitude":40.487498,
     "geom:longitude":-106.846912,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555147
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4sOvZosP1yDNH8voGgqty2_40.487498_-106.846912@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439650,
-    "wof:geomhash":"47b00372b64402b70ffea594f61543f9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3254526b489bab3f2bd665cbd9173c07",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555147,
+            "region_id":85688603,
+            "venue_id":823503313
+        }
+    ],
     "wof:id":823503313,
-    "wof:lastmodified":1466414393,
+    "wof:lastmodified":1492118928,
     "wof:name":"Peak Excavating Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555147,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

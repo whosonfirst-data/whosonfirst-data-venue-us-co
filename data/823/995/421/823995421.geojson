@@ -2,9 +2,14 @@
   "id": 823995421,
   "type": "Feature",
   "properties": {
+    "addr:full":"4765 E 129th Ct Denver CO 80241",
+    "addr:housenumber":"4765",
+    "addr:postcode":"80241",
+    "addr:street":"E 129Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.932099,39.930331,-104.932099,39.930331",
     "geom:latitude":39.930331,
     "geom:longitude":-104.932099,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553903
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ShNKJHw4la3gGN2nr69ST_39.930331_-104.932099@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451873,
-    "wof:geomhash":"631da5d7538c0cc810d63eb120092d3d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ac8c4effeeb0a80a25ef3dd60326b3cf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553903,
+            "region_id":85688603,
+            "venue_id":823995421
+        }
+    ],
     "wof:id":823995421,
-    "wof:lastmodified":1466421006,
+    "wof:lastmodified":1492117200,
     "wof:name":"Kittycat Habitat",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553903,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

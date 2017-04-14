@@ -2,9 +2,14 @@
   "id": 824010427,
   "type": "Feature",
   "properties": {
+    "addr:full":"10048 Raritan Way Denver CO 80260",
+    "addr:housenumber":"10048",
+    "addr:postcode":"80260",
+    "addr:street":"Raritan Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.009202,39.87906,-105.009202,39.87906",
     "geom:latitude":39.87906,
     "geom:longitude":-105.009202,
@@ -29,19 +34,36 @@
         "rooms"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4sOv3lgY2RFGCiVOES5EsO_39.879060_-105.009202@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452204,
-    "wof:geomhash":"e24bba04e169e3ae0613a384d96c5354",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d6902e5518ec1aa434451e04b330e49d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":824010427
+        }
+    ],
     "wof:id":824010427,
-    "wof:lastmodified":1466412944,
+    "wof:lastmodified":1492129060,
     "wof:name":"A Plus Electrical Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824179961,
   "type": "Feature",
   "properties": {
+    "addr:full":"10582 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"10582;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.799528,37.431353,-107.799528,37.431353",
     "geom:latitude":37.431353,
     "geom:longitude":-107.799528,
@@ -27,19 +32,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554715
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Hp4fNcxtLhLm8PT6GIWTX_37.431353_-107.799528@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457065,
-    "wof:geomhash":"dbd42f6de8dd53f9c91267c4d1400ace",
-    "wof:hierarchy":[],
+    "wof:geomhash":"50d2964da4941d7530a8e57d19897d78",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554715,
+            "venue_id":824179961
+        }
+    ],
     "wof:id":824179961,
-    "wof:lastmodified":1466418246,
+    "wof:lastmodified":1492132113,
     "wof:name":"Steve Spriggs Custom Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554715,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823969093,
   "type": "Feature",
   "properties": {
+    "addr:full":"2357 Macon St Aurora CO 80010",
+    "addr:housenumber":"2357",
+    "addr:postcode":"80010",
+    "addr:street":"Macon St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.855287,39.752587,-104.855287,39.752587",
     "geom:latitude":39.752587,
     "geom:longitude":-104.855287,
@@ -28,19 +33,36 @@
         "computer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553913
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1VdUgvr88Dbzz69hieUhUt_39.752587_-104.855287@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451237,
-    "wof:geomhash":"4d4cddedfed44acba759a756e2bc4027",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ef4aaf84c202947cc5fdab5f5584402b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553913,
+            "region_id":85688603,
+            "venue_id":823969093
+        }
+    ],
     "wof:id":823969093,
-    "wof:lastmodified":1466420796,
+    "wof:lastmodified":1492119100,
     "wof:name":"Blind Tech Computer Training",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553913,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

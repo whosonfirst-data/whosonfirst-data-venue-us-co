@@ -2,9 +2,14 @@
   "id": 823904625,
   "type": "Feature",
   "properties": {
+    "addr:full":"5635 Lamar St Arvada CO 80002",
+    "addr:housenumber":"5635",
+    "addr:postcode":"80002",
+    "addr:street":"Lamar St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067378,39.800297,-105.067378,39.800297",
     "geom:latitude":39.800297,
     "geom:longitude":-105.067378,
@@ -28,19 +33,34 @@
         "nonferrous"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_14skymezTX1MLabo0cbarY_39.800297_-105.067378@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449590,
-    "wof:geomhash":"2773a322e32119164a6befa9ea6f2d12",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a3bf914073c7b2678517f1fb949c02a8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823904625
+        }
+    ],
     "wof:id":823904625,
-    "wof:lastmodified":1466420271,
+    "wof:lastmodified":1492116189,
     "wof:name":"Precision Casting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823900291,
   "type": "Feature",
   "properties": {
+    "addr:full":"1500 Bristol Dr Montrose CO 81401",
+    "addr:housenumber":"1500",
+    "addr:postcode":"81401",
+    "addr:street":"Bristol Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.859126,38.470803,-107.859126,38.470803",
     "geom:latitude":38.470803,
     "geom:longitude":-107.859126,
@@ -27,17 +32,32 @@
         "surveyor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2slfNe4aaXqrHDkFz5ahnT_38.470803_-107.859126@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449461,
-    "wof:geomhash":"5fa74869f5e47848b2362fcf108cfdc2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8be5cff9bc085555dab7ee060cf12ffe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":823900291
+        }
+    ],
     "wof:id":823900291,
-    "wof:lastmodified":1466420212,
+    "wof:lastmodified":1492121770,
     "wof:name":"Larsen Surveying",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

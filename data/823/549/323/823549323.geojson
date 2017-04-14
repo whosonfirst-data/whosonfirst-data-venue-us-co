@@ -2,9 +2,14 @@
   "id": 823549323,
   "type": "Feature",
   "properties": {
+    "addr:full":"5714 W 88th Ave Westminster CO 80031",
+    "addr:housenumber":"5714",
+    "addr:postcode":"80031",
+    "addr:street":"W 88Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05886,39.85636,-105.05886,39.85636",
     "geom:latitude":39.85636,
     "geom:longitude":-105.05886,
@@ -28,19 +33,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1qZCpL3u7KObpNjbeeuRlS_39.856360_-105.058860@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440680,
-    "wof:geomhash":"530ce01e732e0c0ec57487d94dc3a2c9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a88907446f4bcf3b0812b5d2a64d3014",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823549323
+        }
+    ],
     "wof:id":823549323,
-    "wof:lastmodified":1466415904,
+    "wof:lastmodified":1492118811,
     "wof:name":"Gamestop 1606",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

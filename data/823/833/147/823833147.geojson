@@ -2,9 +2,14 @@
   "id": 823833147,
   "type": "Feature",
   "properties": {
+    "addr:full":"9412 W 104th Way Broomfield CO 80021",
+    "addr:housenumber":"9412",
+    "addr:postcode":"80021",
+    "addr:street":"W 104Th Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.102975,39.884351,-105.102975,39.884351",
     "geom:latitude":39.884351,
     "geom:longitude":-105.102975,
@@ -28,19 +33,36 @@
         "deck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0fKEIFuVeXEFD45MYJGUeU_39.884351_-105.102975@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447688,
-    "wof:geomhash":"305529b27b532ea8e77ce4f89acf6ae9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fc2aaa394860045ca30240b7e0ffb7fc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823833147
+        }
+    ],
     "wof:id":823833147,
-    "wof:lastmodified":1466419629,
+    "wof:lastmodified":1492118010,
     "wof:name":"Barefoot Decking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

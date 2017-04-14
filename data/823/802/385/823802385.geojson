@@ -2,9 +2,14 @@
   "id": 823802385,
   "type": "Feature",
   "properties": {
+    "addr:full":"13901 US Hwy 385 Julesburg CO 80737",
+    "addr:housenumber":"13901",
+    "addr:postcode":"80737",
+    "addr:street":"Us Hwy 385",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.23654,40.951849,-102.23654,40.951849",
     "geom:latitude":40.951849,
     "geom:longitude":-102.23654,
@@ -34,17 +39,30 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102084121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7H5tq56dYPe8lHZRL4OrvS_40.951849_-102.236540@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446766,
-    "wof:geomhash":"3514063a7ee86df72e11a4ff313dcca1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"10d16d9600f383fb51865f28cd439e15",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084121,
+            "region_id":85688603,
+            "venue_id":823802385
+        }
+    ],
     "wof:id":823802385,
-    "wof:lastmodified":1466419403,
+    "wof:lastmodified":1492126199,
     "wof:name":"Sedgwick County Solid Waste",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

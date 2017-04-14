@@ -2,9 +2,14 @@
   "id": 823695149,
   "type": "Feature",
   "properties": {
+    "addr:full":"126 E Main St Cortez CO 81321",
+    "addr:housenumber":"126",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.583505,37.348722,-108.583505,37.348722",
     "geom:latitude":37.348722,
     "geom:longitude":-108.583505,
@@ -28,19 +33,28 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5bK9eBrkWMtX6d1NM97bj7_37.348722_-108.583505@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444136,
-    "wof:geomhash":"b14bd7f92f64efee72c4f01c88ca76ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f0792bfa5eb9978451207bab972079f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823695149
+        }
+    ],
     "wof:id":823695149,
-    "wof:lastmodified":1466418473,
+    "wof:lastmodified":1492126577,
     "wof:name":"Cortez Tire & Svc Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

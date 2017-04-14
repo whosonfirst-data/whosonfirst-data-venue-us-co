@@ -2,9 +2,14 @@
   "id": 839941577,
   "type": "Feature",
   "properties": {
+    "addr:full":"919 N 7th Pl Johnstown CO 80534",
+    "addr:housenumber":"919",
+    "addr:postcode":"80534",
+    "addr:street":"N 7Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.917925,40.342452,-104.917925,40.342452",
     "geom:latitude":40.342452,
     "geom:longitude":-104.917925,
@@ -29,19 +34,36 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1fucMiueyx1UdEcvLfbE6Y_40.342452_-104.917925@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458628,
-    "wof:geomhash":"51b077b2734c6512da4488a6d1966953",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9bf5e93bc3224bed8c32f7746558878a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":839941577
+        }
+    ],
     "wof:id":839941577,
-    "wof:lastmodified":1466414800,
+    "wof:lastmodified":1492113282,
     "wof:name":"Randall Scott Rehn Foundation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

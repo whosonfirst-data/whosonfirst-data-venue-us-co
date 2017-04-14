@@ -2,9 +2,14 @@
   "id": 824002941,
   "type": "Feature",
   "properties": {
+    "addr:full":"2627 S Parker Rd Aurora CO 80014",
+    "addr:housenumber":"2627",
+    "addr:postcode":"80014",
+    "addr:street":"S Parker Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.864461,39.669603,-104.864461,39.669603",
     "geom:latitude":39.669603,
     "geom:longitude":-104.864461,
@@ -27,17 +32,32 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ru9bGSj9O3zBTqlAQdWzU_39.669603_-104.864461@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452052,
-    "wof:geomhash":"f5b6d155e34049d2e810ae2af69463a9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"445c3b5554f914bc36adfac3ee366c09",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":824002941
+        }
+    ],
     "wof:id":824002941,
-    "wof:lastmodified":1466412236,
+    "wof:lastmodified":1492129609,
     "wof:name":"Charlie's Bar",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 824058503,
   "type": "Feature",
   "properties": {
+    "addr:full":"41 Joan Dr Denver CO 80221",
+    "addr:housenumber":"41",
+    "addr:postcode":"80221",
+    "addr:street":"Joan Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98697,39.838472,-104.98697,39.838472",
     "geom:latitude":39.838472,
     "geom:longitude":-104.98697,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0ANWoAy2ZXQXMAgXV6QFTN_39.838472_-104.986970@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453363,
-    "wof:geomhash":"3039d93377dadca5c852c3fbbf169876",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5d0e3fc85cbfbb88b6c4067d31f6674a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553625,
+            "region_id":85688603,
+            "venue_id":824058503
+        }
+    ],
     "wof:id":824058503,
-    "wof:lastmodified":1466414394,
+    "wof:lastmodified":1492131894,
     "wof:name":"Olivas Roofing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

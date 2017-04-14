@@ -2,9 +2,14 @@
   "id": 823555743,
   "type": "Feature",
   "properties": {
+    "addr:full":"13781 Quebec St Brighton CO 80602",
+    "addr:housenumber":"13781",
+    "addr:postcode":"80602",
+    "addr:street":"Quebec St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.903117,39.943077,-104.903117,39.943077",
     "geom:latitude":39.943077,
     "geom:longitude":-104.903117,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553427
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Ea3C8WWgGdvtS69Vs5DYK_39.943077_-104.903117@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440834,
-    "wof:geomhash":"5feb6476963f96afa81070c1e1411c64",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8886c1faa136ac9d8d2027cb5c8a9ea5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553427,
+            "region_id":85688603,
+            "venue_id":823555743
+        }
+    ],
     "wof:id":823555743,
-    "wof:lastmodified":1466415867,
+    "wof:lastmodified":1492125772,
     "wof:name":"Quality Plumbing & Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553427,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

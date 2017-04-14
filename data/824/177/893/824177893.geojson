@@ -2,9 +2,14 @@
   "id": 824177893,
   "type": "Feature",
   "properties": {
+    "addr:full":"2924 Stanford Rd Fort Collins CO 80525",
+    "addr:housenumber":"2924",
+    "addr:postcode":"80525",
+    "addr:street":"Stanford Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.068984,40.546131,-105.068984,40.546131",
     "geom:latitude":40.546131,
     "geom:longitude":-105.068984,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_29V7GnhVsI82Ri5nnaL7uP_40.546131_-105.068984@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456986,
-    "wof:geomhash":"9a9aecb827e407965e27111ca4f6c3b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ad72f93ef059f4d98c3ff35309aa88cd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":824177893
+        }
+    ],
     "wof:id":824177893,
-    "wof:lastmodified":1466418301,
+    "wof:lastmodified":1492129991,
     "wof:name":"South Hill Masonry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554749,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

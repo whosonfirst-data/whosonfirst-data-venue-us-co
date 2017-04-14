@@ -2,9 +2,14 @@
   "id": 824129197,
   "type": "Feature",
   "properties": {
+    "addr:full":"1116 13th St Boulder CO 80302",
+    "addr:housenumber":"1116",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276172,40.007681,-105.276172,40.007681",
     "geom:latitude":40.007681,
     "geom:longitude":-105.276172,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1zLUgMpjQ9ousgZZPVdXB5_40.007681_-105.276172@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455110,
-    "wof:geomhash":"ce9650f66ad0eb127ce1c165475b19be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"084b6b81fbe76e12fe04faa9c604b54f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":824129197
+        }
+    ],
     "wof:id":824129197,
-    "wof:lastmodified":1466415999,
+    "wof:lastmodified":1492131727,
     "wof:name":"Via Via",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

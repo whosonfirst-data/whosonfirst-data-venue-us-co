@@ -2,9 +2,14 @@
   "id": 823522201,
   "type": "Feature",
   "properties": {
+    "addr:full":"2451 W 82nd Pl Westminster CO 80031",
+    "addr:housenumber":"2451",
+    "addr:postcode":"80031",
+    "addr:street":"W 82Nd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.016509,39.846565,-105.016509,39.846565",
     "geom:latitude":39.846565,
     "geom:longitude":-105.016509,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553589
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0eTfDfVJM9HItix0BwAi59_39.846565_-105.016509@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440072,
-    "wof:geomhash":"8776d3f2c9885898da44a7b3495b1b49",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58e104764c071028da92497535915888",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553589,
+            "region_id":85688603,
+            "venue_id":823522201
+        }
+    ],
     "wof:id":823522201,
-    "wof:lastmodified":1466414928,
+    "wof:lastmodified":1492122589,
     "wof:name":"MB Painting Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553589,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

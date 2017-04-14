@@ -2,9 +2,14 @@
   "id": 823791085,
   "type": "Feature",
   "properties": {
+    "addr:full":"7101 E 54th Pl Commerce City CO 80022",
+    "addr:housenumber":"7101",
+    "addr:postcode":"80022",
+    "addr:street":"E 54Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.908869,39.795738,-104.908869,39.795738",
     "geom:latitude":39.795738,
     "geom:longitude":-104.908869,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_31uCpoqlcXPKvYFcansQb6_39.795738_-104.908869@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446455,
-    "wof:geomhash":"b253ff4943fcd0bee3745326eeac99b3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6f062836c43433db8b9cb58507cf32c3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553923,
+            "region_id":85688603,
+            "venue_id":823791085
+        }
+    ],
     "wof:id":823791085,
-    "wof:lastmodified":1466419259,
+    "wof:lastmodified":1492122555,
     "wof:name":"American Fence",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823561935,
   "type": "Feature",
   "properties": {
+    "addr:full":"7220 Locust St Commerce City CO 80022",
+    "addr:housenumber":"7220",
+    "addr:postcode":"80022",
+    "addr:street":"Locust St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.913297,39.827809,-104.913297,39.827809",
     "geom:latitude":39.827809,
     "geom:longitude":-104.913297,
@@ -28,19 +33,36 @@
         "plant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553491
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0URW0XQQ6GAzvnocK3YIzX_39.827809_-104.913297@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440986,
-    "wof:geomhash":"01e7f7359e77a51826e1930e1578b58c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"853541b521e08949663df26e46378d4e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553491,
+            "region_id":85688603,
+            "venue_id":823561935
+        }
+    ],
     "wof:id":823561935,
-    "wof:lastmodified":1466416145,
+    "wof:lastmodified":1492126162,
     "wof:name":"Derby Cleaners",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553491,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

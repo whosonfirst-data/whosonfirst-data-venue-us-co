@@ -2,9 +2,14 @@
   "id": 823534511,
   "type": "Feature",
   "properties": {
+    "addr:full":"1137 W 126th Ct Denver CO 80234",
+    "addr:housenumber":"1137",
+    "addr:postcode":"80234",
+    "addr:street":"W 126Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.998213,39.926212,-104.998213,39.926212",
     "geom:latitude":39.926212,
     "geom:longitude":-104.998213,
@@ -28,19 +33,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2BQWMkzXpqHKa5idHPyzkN_39.926212_-104.998213@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440346,
-    "wof:geomhash":"0223f01712f59a556dc9f94be3e6e8da",
-    "wof:hierarchy":[],
+    "wof:geomhash":"655cddcad8afb690734c4e9efce0a660",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823534511
+        }
+    ],
     "wof:id":823534511,
-    "wof:lastmodified":1466415320,
+    "wof:lastmodified":1492126109,
     "wof:name":"Topicure",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

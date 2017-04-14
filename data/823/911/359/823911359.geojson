@@ -2,9 +2,14 @@
   "id": 823911359,
   "type": "Feature",
   "properties": {
+    "addr:full":"6062 W 55th Ave Arvada CO 80002",
+    "addr:housenumber":"6062",
+    "addr:postcode":"80002",
+    "addr:street":"W 55Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066281,39.796405,-105.066281,39.796405",
     "geom:latitude":39.796405,
     "geom:longitude":-105.066281,
@@ -34,19 +39,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Z9RcJ0cGhb9OgvemPtLO0_39.796405_-105.066281@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449779,
-    "wof:geomhash":"b10c8b49d6874904e7374afa18c69ce8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c8cfdaa4104e72c0bb56dbbd23e71d97",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823911359
+        }
+    ],
     "wof:id":823911359,
-    "wof:lastmodified":1466420305,
+    "wof:lastmodified":1492124029,
     "wof:name":"P S Custom Woodworking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

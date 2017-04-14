@@ -2,9 +2,14 @@
   "id": 824137943,
   "type": "Feature",
   "properties": {
+    "addr:full":"561 University Ave Boulder CO 80302",
+    "addr:housenumber":"561",
+    "addr:postcode":"80302",
+    "addr:street":"University Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.288172,40.010483,-105.288172,40.010483",
     "geom:latitude":40.010483,
     "geom:longitude":-105.288172,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6NVtjiwzb5BPsoCU438OOL_40.010483_-105.288172@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455435,
-    "wof:geomhash":"85f0b925a79bf5994adf064d896ea684",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5d7cead9a08daaaea90ae07bff3f32f3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":824137943
+        }
+    ],
     "wof:id":824137943,
-    "wof:lastmodified":1466416265,
+    "wof:lastmodified":1492129784,
     "wof:name":"Silk Garden The",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

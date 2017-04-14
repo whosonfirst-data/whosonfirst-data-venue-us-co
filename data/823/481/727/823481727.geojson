@@ -2,9 +2,14 @@
   "id": 823481727,
   "type": "Feature",
   "properties": {
+    "addr:full":"3030 Oneal Pkwy Boulder CO 80301",
+    "addr:housenumber":"3030",
+    "addr:postcode":"80301",
+    "addr:street":"Oneal Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.252339,40.033661,-105.252339,40.033661",
     "geom:latitude":40.033661,
     "geom:longitude":-105.252339,
@@ -27,19 +32,36 @@
         "computer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2EKQOzT4tkzHTjpS46YMpU_40.033661_-105.252339@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439115,
-    "wof:geomhash":"1be43b271d56b6701b0887f671577538",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7e187b695c031d2f1957323664d1ac2d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":823481727
+        }
+    ],
     "wof:id":823481727,
-    "wof:lastmodified":1466413490,
+    "wof:lastmodified":1492120372,
     "wof:name":"Terabyte Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824117663,
   "type": "Feature",
   "properties": {
+    "addr:full":"2776 Moorhead Ave Boulder CO 80305",
+    "addr:housenumber":"2776",
+    "addr:postcode":"80305",
+    "addr:street":"Moorhead Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258846,39.999096,-105.258846,39.999096",
     "geom:latitude":39.999096,
     "geom:longitude":-105.258846,
@@ -27,7 +32,14 @@
         "electronic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2kk2zBnQoyzu3tDaA6lR9Q_39.999096_-105.258846@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463454718,
     "wof:geomhash":"17ee55e3adab779ccccb7a225256ba13",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":824117663
+        }
+    ],
     "wof:id":824117663,
-    "wof:lastmodified":1466415722,
+    "wof:lastmodified":1491890402,
     "wof:name":"A S C",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

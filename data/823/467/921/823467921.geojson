@@ -2,9 +2,14 @@
   "id": 823467921,
   "type": "Feature",
   "properties": {
+    "addr:full":"12760 Quebec St Brighton CO 80602",
+    "addr:housenumber":"12760",
+    "addr:postcode":"80602",
+    "addr:street":"Quebec St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.903122,39.923504,-104.903122,39.923504",
     "geom:latitude":39.923504,
     "geom:longitude":-104.903122,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5H9B02vVByO4fmHKo173Mk_39.923504_-104.903122@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438788,
-    "wof:geomhash":"f806611b27b27a1ea8789783cfb3f8ce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e9fea15ae4d809e32f5069d4bb0f8f25",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":823467921
+        }
+    ],
     "wof:id":823467921,
-    "wof:lastmodified":1466412122,
+    "wof:lastmodified":1492117035,
     "wof:name":"Jehovah's Witnesses",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

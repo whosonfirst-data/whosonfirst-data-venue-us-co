@@ -2,9 +2,14 @@
   "id": 824056627,
   "type": "Feature",
   "properties": {
+    "addr:full":"9650 Huron St Denver CO 80260",
+    "addr:housenumber":"9650",
+    "addr:postcode":"80260",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.99651,39.871569,-104.99651,39.871569",
     "geom:latitude":39.871569,
     "geom:longitude":-104.99651,
@@ -28,19 +33,36 @@
         "mortgage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7aL3x5eF7Zq2tSeVnYzxYu_39.871569_-104.996510@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453320,
-    "wof:geomhash":"6e3d0f1607719bf90f4224fbd1bbdc78",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fc38157889fc69e62a8382ca2724a63a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553659,
+            "region_id":85688603,
+            "venue_id":824056627
+        }
+    ],
     "wof:id":824056627,
-    "wof:lastmodified":1466414358,
+    "wof:lastmodified":1492132417,
     "wof:name":"Capital Trust Mortgage Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

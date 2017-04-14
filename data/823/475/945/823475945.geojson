@@ -2,9 +2,14 @@
   "id": 823475945,
   "type": "Feature",
   "properties": {
+    "addr:full":"1771 E 88th Ave Denver CO 80229",
+    "addr:housenumber":"1771",
+    "addr:postcode":"80229",
+    "addr:street":"E 88Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.965736,39.856296,-104.965736,39.856296",
     "geom:latitude":39.856296,
     "geom:longitude":-104.965736,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5f2Yg6L2GBE3kQE44zZnWk_39.856296_-104.965736@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438976,
-    "wof:geomhash":"588037ee939dafbb9eca12c9c726b788",
-    "wof:hierarchy":[],
+    "wof:geomhash":"be3c2c23d7ce993e35aa67f721f1009f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823475945
+        }
+    ],
     "wof:id":823475945,
-    "wof:lastmodified":1466412908,
+    "wof:lastmodified":1492122799,
     "wof:name":"P&R Trucking Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

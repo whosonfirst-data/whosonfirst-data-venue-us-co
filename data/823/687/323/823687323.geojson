@@ -2,9 +2,14 @@
   "id": 823687323,
   "type": "Feature",
   "properties": {
+    "addr:full":"4424 E 128th Pl Thornton CO 80241",
+    "addr:housenumber":"4424",
+    "addr:postcode":"80241",
+    "addr:street":"E 128Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.935044,39.928813,-104.935044,39.928813",
     "geom:latitude":39.928813,
     "geom:longitude":-104.935044,
@@ -28,19 +33,36 @@
         "rug"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553843
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Dl8i3HxgKOkkNRtRulVo2_39.928813_-104.935044@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443958,
-    "wof:geomhash":"52d0656873b1468824c23dff7eb3ee4c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09998ac0fab0d6fe05e2cdbb15771833",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553843,
+            "region_id":85688603,
+            "venue_id":823687323
+        }
+    ],
     "wof:id":823687323,
-    "wof:lastmodified":1466418424,
+    "wof:lastmodified":1492121534,
     "wof:name":"Speyer's Carpets",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553843,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

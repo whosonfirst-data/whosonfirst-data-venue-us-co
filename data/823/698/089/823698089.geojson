@@ -2,9 +2,14 @@
   "id": 823698089,
   "type": "Feature",
   "properties": {
+    "addr:full":"3007 W Gill Pl Denver CO 80219",
+    "addr:housenumber":"3007",
+    "addr:postcode":"80219",
+    "addr:street":"W Gill Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.027456,39.704996,-105.027456,39.704996",
     "geom:latitude":39.704996,
     "geom:longitude":-105.027456,
@@ -28,7 +33,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_63fiGSX3kU3wZmx20Uv9KT_39.704996_-105.027456@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463444201,
     "wof:geomhash":"0d0b23d2c43df344db052073717034e2",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":823698089
+        }
+    ],
     "wof:id":823698089,
-    "wof:lastmodified":1466418470,
+    "wof:lastmodified":1486589655,
     "wof:name":"Bob's Masonry Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

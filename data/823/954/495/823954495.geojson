@@ -2,9 +2,14 @@
   "id": 823954495,
   "type": "Feature",
   "properties": {
+    "addr:full":"901 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"901",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.973312,39.913835,-104.973312,39.913835",
     "geom:latitude":39.913835,
     "geom:longitude":-104.973312,
@@ -28,19 +33,36 @@
     ],
     "sg:website":"www.orthodon.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4BnaksoU7IH0ewSp1eEl8e_39.913835_-104.973312@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450872,
-    "wof:geomhash":"b6b02eca233184e60a496dd089400817",
-    "wof:hierarchy":[],
+    "wof:geomhash":"595b511cf751ec4b853d97fd72e37efa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553877,
+            "region_id":85688603,
+            "venue_id":823954495
+        }
+    ],
     "wof:id":823954495,
-    "wof:lastmodified":1466420649,
+    "wof:lastmodified":1492125596,
     "wof:name":"Colorado Orthodontics",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553877,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823758447,
   "type": "Feature",
   "properties": {
+    "addr:full":"1936 14th St Boulder CO 80304",
+    "addr:housenumber":"1936",
+    "addr:postcode":"80304",
+    "addr:street":"14Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276996,40.017485,-105.276996,40.017485",
     "geom:latitude":40.017485,
     "geom:longitude":-105.276996,
@@ -27,7 +32,14 @@
         "architectural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4qaVCVnpiukuClxdP23neO_40.017485_-105.276996@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463445585,
     "wof:geomhash":"8143273694a9f39e37f6bfda0610e302",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823758447
+        }
+    ],
     "wof:id":823758447,
-    "wof:lastmodified":1466419011,
+    "wof:lastmodified":1491888490,
     "wof:name":"Midyette Assocs Archtct/Plnnrs",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

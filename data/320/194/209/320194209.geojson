@@ -2,9 +2,14 @@
   "id": 320194209,
   "type": "Feature",
   "properties": {
+    "addr:full":"2550 S University Boulevard Apt 302 Denver CO 80210",
+    "addr:housenumber":"2550;302",
+    "addr:postcode":"80210",
+    "addr:street":"S University Boulevard Apt",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959341,39.670298,-104.959341,39.670298",
     "geom:latitude":39.670298,
     "geom:longitude":-104.959341,
@@ -28,11 +33,13 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750067,
+        102191575,
+        1108750025,
         85633793,
-        85929843,
-        102086877,
-        85871325
+        85928879,
+        102086135,
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +49,20 @@
     "wof:geomhash":"3ae15418a446e81db83eb6b66b34ce39",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
-            "county_id":102086877,
-            "locality_id":85929843,
-            "neighbourhood_id":85871325,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750067,
             "region_id":85688603,
             "venue_id":320194209
         }
     ],
     "wof:id":320194209,
-    "wof:lastmodified":1466412799,
+    "wof:lastmodified":1491865626,
     "wof:name":"House Post",
-    "wof:parent_id":85871325,
+    "wof:parent_id":1108750067,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

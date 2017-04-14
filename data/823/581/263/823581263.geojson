@@ -2,9 +2,14 @@
   "id": 823581263,
   "type": "Feature",
   "properties": {
+    "addr:full":"3386 Longhorn Rd Boulder CO 80302",
+    "addr:housenumber":"3386",
+    "addr:postcode":"80302",
+    "addr:street":"Longhorn Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.279879,40.079833,-105.279879,40.079833",
     "geom:latitude":40.079833,
     "geom:longitude":-105.279879,
@@ -30,19 +35,34 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3aHVKI1HdTJLIrTliCo5SC_40.079833_-105.279879@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441451,
-    "wof:geomhash":"80a04bfaa93ba4e3a252e77a838deca2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1560f7673230534dcc3fa65c53cc1c86",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823581263
+        }
+    ],
     "wof:id":823581263,
-    "wof:lastmodified":1466416481,
+    "wof:lastmodified":1492119651,
     "wof:name":"I T L",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

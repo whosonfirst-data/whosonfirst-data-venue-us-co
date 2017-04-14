@@ -2,9 +2,14 @@
   "id": 824147765,
   "type": "Feature",
   "properties": {
+    "addr:full":"8800 Grant St Denver CO 80229",
+    "addr:housenumber":"8800",
+    "addr:postcode":"80229",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.983745,39.856332,-104.983745,39.856332",
     "geom:latitude":39.856332,
     "geom:longitude":-104.983745,
@@ -29,19 +34,36 @@
         "accessory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_33rwxUr84wfC6aiyctgcxi_39.856332_-104.983745@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455818,
-    "wof:geomhash":"fe7f059bef52f8fa919e8ee6d6adda19",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75223529f43081a20f101675bb190326",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":824147765
+        }
+    ],
     "wof:id":824147765,
-    "wof:lastmodified":1466416644,
+    "wof:lastmodified":1492131633,
     "wof:name":"G & B's Pro Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

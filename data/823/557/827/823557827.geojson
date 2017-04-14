@@ -2,9 +2,14 @@
   "id": 823557827,
   "type": "Feature",
   "properties": {
+    "addr:full":"802 N Main St Gunnison CO 81230",
+    "addr:housenumber":"802",
+    "addr:postcode":"81230",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.926835,38.551505,-106.926835,38.551505",
     "geom:latitude":38.551505,
     "geom:longitude":-106.926835,
@@ -28,19 +33,36 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554411
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ytS2kpVxaRqxaeNt5B0Jt_38.551505_-106.926835@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440886,
-    "wof:geomhash":"33d6034c7327c0bc70e6e2af1a6066ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6747071f3ee149f7a5807c900c5cdfa7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554411,
+            "region_id":85688603,
+            "venue_id":823557827
+        }
+    ],
     "wof:id":823557827,
-    "wof:lastmodified":1466416143,
+    "wof:lastmodified":1492124789,
     "wof:name":"Alpine Orthopaedics & Sports",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554411,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823662289,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 W Main St Aguilar CO 81020",
+    "addr:housenumber":"101",
+    "addr:postcode":"81020",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.655587,37.40162,-104.655587,37.40162",
     "geom:latitude":37.40162,
     "geom:longitude":-104.655587,
@@ -27,19 +32,36 @@
         "city"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930427,
+        102083357,
+        420554761
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_64uDHW1bOuDKtC0EtVOYgh_37.401620_-104.655587@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443394,
-    "wof:geomhash":"7835c6e9b59ac3b976970af926347a26",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9bf9dc8fb0fb03607cb63738a4225c2b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083357,
+            "locality_id":85930427,
+            "neighbourhood_id":420554761,
+            "region_id":85688603,
+            "venue_id":823662289
+        }
+    ],
     "wof:id":823662289,
-    "wof:lastmodified":1466418196,
+    "wof:lastmodified":1492123253,
     "wof:name":"Aguilar Town Hall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554761,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

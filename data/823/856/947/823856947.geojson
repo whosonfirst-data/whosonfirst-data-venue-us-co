@@ -2,9 +2,14 @@
   "id": 823856947,
   "type": "Feature",
   "properties": {
+    "addr:full":"303 Canyon Blvd Boulder CO 80302",
+    "addr:housenumber":"303",
+    "addr:postcode":"80302",
+    "addr:street":"Canyon Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.290182,40.014829,-105.290182,40.014829",
     "geom:latitude":40.014829,
     "geom:longitude":-105.290182,
@@ -27,19 +32,36 @@
         "computer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Ysv46Gc0zc9hK26rOD9Tp_40.014829_-105.290182@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448414,
-    "wof:geomhash":"48857222b1453e5c136c6b4ca30cd74b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7b0577a305d32893403265f12b9b513f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":823856947
+        }
+    ],
     "wof:id":823856947,
-    "wof:lastmodified":1466419806,
+    "wof:lastmodified":1492124102,
     "wof:name":"Rela Designs Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

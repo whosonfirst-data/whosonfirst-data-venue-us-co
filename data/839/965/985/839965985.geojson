@@ -2,9 +2,14 @@
   "id": 839965985,
   "type": "Feature",
   "properties": {
+    "addr:full":"2392 Co Rd 220 Durango CO 81303",
+    "addr:housenumber":"2392;220",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.80306,37.214895,-107.80306,37.214895",
     "geom:latitude":37.214895,
     "geom:longitude":-107.80306,
@@ -27,19 +32,28 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3wGINZRKSTXBmvnUwbQpko_37.214895_-107.803060@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459851,
-    "wof:geomhash":"78831731f0a72c4cfd20999a69a8e7f9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"814c2721c85313752cdbfb9683632b50",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":839965985
+        }
+    ],
     "wof:id":839965985,
-    "wof:lastmodified":1466416096,
+    "wof:lastmodified":1492114204,
     "wof:name":"International Association-Dent",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

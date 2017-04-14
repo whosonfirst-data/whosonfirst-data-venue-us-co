@@ -2,9 +2,14 @@
   "id": 823647603,
   "type": "Feature",
   "properties": {
+    "addr:full":"2690 28th St Boulder CO 80301",
+    "addr:housenumber":"2690",
+    "addr:postcode":"80301",
+    "addr:street":"28Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258237,40.024598,-105.258237,40.024598",
     "geom:latitude":40.024598,
     "geom:longitude":-105.258237,
@@ -27,19 +32,36 @@
         "hanging"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1o6VwcJXTCqm6ejj68vQPN_40.024598_-105.258237@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443030,
-    "wof:geomhash":"c1a94e63e45a94b95d8449b87ead4d53",
-    "wof:hierarchy":[],
+    "wof:geomhash":"794f81a7ae3b97820e98f1dde5df2c5a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":823647603
+        }
+    ],
     "wof:id":823647603,
-    "wof:lastmodified":1466418084,
+    "wof:lastmodified":1492121130,
     "wof:name":"Painting Plus",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

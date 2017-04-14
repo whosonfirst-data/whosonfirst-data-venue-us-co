@@ -2,9 +2,14 @@
   "id": 839991869,
   "type": "Feature",
   "properties": {
+    "addr:full":"1111 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"1111",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.554033,39.077329,-108.554033,39.077329",
     "geom:latitude":39.077329,
     "geom:longitude":-108.554033,
@@ -29,19 +34,36 @@
         "chicken"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0QdFowhOHnJ4veB1wJbDgj_39.077329_-108.554033@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460879,
-    "wof:geomhash":"47c8607507271ff8e08e59fba181d281",
-    "wof:hierarchy":[],
+    "wof:geomhash":"94480d089d7b28df6e1aac1a06d2caf6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":839991869
+        }
+    ],
     "wof:id":839991869,
-    "wof:lastmodified":1466417469,
+    "wof:lastmodified":1492110962,
     "wof:name":"KFC - Kentucky Fried Chicken",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

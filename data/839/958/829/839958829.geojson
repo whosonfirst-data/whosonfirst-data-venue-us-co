@@ -2,9 +2,14 @@
   "id": 839958829,
   "type": "Feature",
   "properties": {
+    "addr:full":"5385 Jackson St Denver CO 80216",
+    "addr:housenumber":"5385",
+    "addr:postcode":"80216",
+    "addr:street":"Jackson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.942941,39.792859,-104.942941,39.792859",
     "geom:latitude":39.792859,
     "geom:longitude":-104.942941,
@@ -28,19 +33,38 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_38Fr3FfaDLlxBBC9YBgd3f_39.792859_-104.942941@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459568,
-    "wof:geomhash":"cfb2b8b5bd8d699495afe3554b2fa7a9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"03f10ba392ba6210e91d7454326300b5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":839958829
+        }
+    ],
     "wof:id":839958829,
-    "wof:lastmodified":1466415733,
+    "wof:lastmodified":1492113240,
     "wof:name":"Boot Hill Auto Salvage",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

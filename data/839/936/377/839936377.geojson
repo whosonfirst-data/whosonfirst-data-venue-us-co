@@ -2,9 +2,14 @@
   "id": 839936377,
   "type": "Feature",
   "properties": {
+    "addr:full":"1327 S Dale Ct Denver CO 80219",
+    "addr:housenumber":"1327",
+    "addr:postcode":"80219",
+    "addr:street":"S Dale Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.021386,39.691496,-105.021386,39.691496",
     "geom:latitude":39.691496,
     "geom:longitude":-105.021386,
@@ -27,7 +32,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871275,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0sUATtgVQHBqKjoaUdYT4a_39.691496_-105.021386@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463458299,
     "wof:geomhash":"89326e83444b5cbecd2e7be46da9429f",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871275,
+            "region_id":85688603,
+            "venue_id":839936377
+        }
+    ],
     "wof:id":839936377,
-    "wof:lastmodified":1466414380,
+    "wof:lastmodified":1491876254,
     "wof:name":"J and G Tile and Stone",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

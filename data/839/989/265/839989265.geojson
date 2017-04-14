@@ -2,9 +2,14 @@
   "id": 839989265,
   "type": "Feature",
   "properties": {
+    "addr:full":"1119 13th St Boulder CO 80302",
+    "addr:housenumber":"1119",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276407,40.007664,-105.276407,40.007664",
     "geom:latitude":40.007664,
     "geom:longitude":-105.276407,
@@ -28,19 +33,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4jX4AGWHetsnon8fzaM4ct_40.007664_-105.276407@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460782,
-    "wof:geomhash":"87db6348cd08a14c10e95ff693d1e82a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9e23526e077ab56bd61e8f0e2bc37e05",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839989265
+        }
+    ],
     "wof:id":839989265,
-    "wof:lastmodified":1466417369,
+    "wof:lastmodified":1492111079,
     "wof:name":"Qdoba",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

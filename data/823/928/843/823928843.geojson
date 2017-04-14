@@ -2,9 +2,14 @@
   "id": 823928843,
   "type": "Feature",
   "properties": {
+    "addr:full":"1002 Colorado Ave Montrose CO 81401",
+    "addr:housenumber":"1002",
+    "addr:postcode":"81401",
+    "addr:street":"Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.876732,38.468676,-107.876732,38.468676",
     "geom:latitude":38.468676,
     "geom:longitude":-107.876732,
@@ -28,17 +33,32 @@
         "line"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_356AlM0hBDzaF7mCBDy4NK_38.468676_-107.876732@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450218,
-    "wof:geomhash":"04516592ca661ec4f4994f3ba16ef01f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"027c08675937a73c783055103a45baf2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":823928843
+        }
+    ],
     "wof:id":823928843,
-    "wof:lastmodified":1466420509,
+    "wof:lastmodified":1492120678,
     "wof:name":"Laidlaw Transit Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

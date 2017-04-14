@@ -2,9 +2,14 @@
   "id": 824164041,
   "type": "Feature",
   "properties": {
+    "addr:full":"2005 Clinton St Aurora CO 80010",
+    "addr:housenumber":"2005",
+    "addr:postcode":"80010",
+    "addr:street":"Clinton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.877644,39.749241,-104.877644,39.749241",
     "geom:latitude":39.749241,
     "geom:longitude":-104.877644,
@@ -27,17 +32,32 @@
         "cleaners"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6kGlvWemtamBhiJbAhJNYz_39.749241_-104.877644@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456455,
-    "wof:geomhash":"2320b16197ad8623656f8e3c54ecb53a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4fd34672fe5e0090dae2fe7d176191d1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":824164041
+        }
+    ],
     "wof:id":824164041,
-    "wof:lastmodified":1466417675,
+    "wof:lastmodified":1492129507,
     "wof:name":"Gigantic Cleaners & Laundry",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

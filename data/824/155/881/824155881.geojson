@@ -2,9 +2,14 @@
   "id": 824155881,
   "type": "Feature",
   "properties": {
+    "addr:full":"1871 Bounty St Aurora CO 80011",
+    "addr:housenumber":"1871",
+    "addr:postcode":"80011",
+    "addr:street":"Bounty St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.823355,39.746478,-104.823355,39.746478",
     "geom:latitude":39.746478,
     "geom:longitude":-104.823355,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_33IlaLV8kG8EUxn2tyoeC8_39.746478_-104.823355@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456148,
-    "wof:geomhash":"00bf540460c55c937b0954a50e4c3417",
-    "wof:hierarchy":[],
+    "wof:geomhash":"29d57265dfbda6c0b5bb52eb6baedb32",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":824155881
+        }
+    ],
     "wof:id":824155881,
-    "wof:lastmodified":1466417209,
+    "wof:lastmodified":1492132080,
     "wof:name":"All Framing Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

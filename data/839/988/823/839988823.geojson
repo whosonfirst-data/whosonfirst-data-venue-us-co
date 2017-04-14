@@ -2,9 +2,14 @@
   "id": 839988823,
   "type": "Feature",
   "properties": {
+    "addr:full":"3790 E 104th Ave Denver CO 80233",
+    "addr:housenumber":"3790",
+    "addr:postcode":"80233",
+    "addr:street":"E 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.942652,39.884372,-104.942652,39.884372",
     "geom:latitude":39.884372,
     "geom:longitude":-104.942652,
@@ -30,19 +35,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553821
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7IJ1dBj5TiQIreYktBfvj1_39.884372_-104.942652@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460768,
-    "wof:geomhash":"8ed761ea1395de6f6f3d1ee1721a9e69",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9b66e0d841a46e70ab665bc8d975dbd8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553821,
+            "region_id":85688603,
+            "venue_id":839988823
+        }
+    ],
     "wof:id":839988823,
-    "wof:lastmodified":1466417451,
+    "wof:lastmodified":1492112809,
     "wof:name":"Quiznos Sub",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553821,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

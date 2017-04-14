@@ -2,9 +2,14 @@
   "id": 839938215,
   "type": "Feature",
   "properties": {
+    "addr:full":"2475 Lincoln Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"2475",
+    "addr:postcode":"80487",
+    "addr:street":"Lincoln Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.862787,40.502855,-106.862787,40.502855",
     "geom:latitude":40.502855,
     "geom:longitude":-106.862787,
@@ -27,19 +32,36 @@
         "transmission"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555187
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1J38FafBVkk7jdOqtisHvR_40.502855_-106.862787@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458399,
-    "wof:geomhash":"5c840c09e80d00eb17a31958aaf68e89",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8ea983c42a8d6797268a250df2aeb40a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555187,
+            "region_id":85688603,
+            "venue_id":839938215
+        }
+    ],
     "wof:id":839938215,
-    "wof:lastmodified":1466414561,
+    "wof:lastmodified":1492110526,
     "wof:name":"Ram Transmission",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555187,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

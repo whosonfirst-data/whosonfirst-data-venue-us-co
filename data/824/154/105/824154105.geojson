@@ -2,9 +2,14 @@
   "id": 824154105,
   "type": "Feature",
   "properties": {
+    "addr:full":"3365 W 67th Ave Denver CO 80221",
+    "addr:housenumber":"3365",
+    "addr:postcode":"80221",
+    "addr:street":"W 67Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030461,39.818333,-105.030461,39.818333",
     "geom:latitude":39.818333,
     "geom:longitude":-105.030461,
@@ -28,19 +33,36 @@
         "swimming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3lC8jO4NHVTlxTANBZAQXU_39.818333_-105.030461@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456083,
-    "wof:geomhash":"1cfb295d21f28e162e9e6b2f963f4570",
-    "wof:hierarchy":[],
+    "wof:geomhash":"803932af2788b637c62ad7af284549e9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553739,
+            "region_id":85688603,
+            "venue_id":824154105
+        }
+    ],
     "wof:id":824154105,
-    "wof:lastmodified":1466417076,
+    "wof:lastmodified":1492129615,
     "wof:name":"Splashland",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

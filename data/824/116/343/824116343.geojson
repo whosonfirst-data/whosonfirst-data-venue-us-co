@@ -2,9 +2,14 @@
   "id": 824116343,
   "type": "Feature",
   "properties": {
+    "addr:full":"10335 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"10335",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025292,39.883026,-105.025292,39.883026",
     "geom:latitude":39.883026,
     "geom:longitude":-105.025292,
@@ -25,19 +30,36 @@
     "sg:province":"CO",
     "sg:website":"www.wendys.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553551
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3nW4SYXvso4KzXhLmm3x3P_39.883026_-105.025292@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454686,
-    "wof:geomhash":"c4516ad15220cc16e226f9e823db5577",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75e4d79794392d0dbd6368a10f1d5e4a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553551,
+            "region_id":85688603,
+            "venue_id":824116343
+        }
+    ],
     "wof:id":824116343,
-    "wof:lastmodified":1466415404,
+    "wof:lastmodified":1492131422,
     "wof:name":"Wendy's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553551,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

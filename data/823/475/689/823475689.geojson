@@ -2,9 +2,14 @@
   "id": 823475689,
   "type": "Feature",
   "properties": {
+    "addr:full":"5555 Airport Blvd Boulder CO 80301",
+    "addr:housenumber":"5555",
+    "addr:postcode":"80301",
+    "addr:street":"Airport Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227296,40.035123,-105.227296,40.035123",
     "geom:latitude":40.035123,
     "geom:longitude":-105.227296,
@@ -29,19 +34,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_05QZTWy8zBuXp8uwSg827A_40.035123_-105.227296@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438968,
-    "wof:geomhash":"147e8b08dcc3e8aff498800abedba4fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"504e0a32d699a23114f0f38133718411",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876385,
+            "region_id":85688603,
+            "venue_id":823475689
+        }
+    ],
     "wof:id":823475689,
-    "wof:lastmodified":1466412861,
+    "wof:lastmodified":1492122781,
     "wof:name":"Paxis Pharmaceuticals",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

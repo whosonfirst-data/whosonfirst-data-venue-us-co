@@ -2,9 +2,14 @@
   "id": 839912885,
   "type": "Feature",
   "properties": {
+    "addr:full":"4581 Julian St Denver CO 80211",
+    "addr:housenumber":"4581",
+    "addr:postcode":"80211",
+    "addr:street":"Julian St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.031533,39.779606,-105.031533,39.779606",
     "geom:latitude":39.779606,
     "geom:longitude":-105.031533,
@@ -28,19 +33,38 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871261,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4yPJ7Vvy9CuGsRFT4oHj5Q_39.779606_-105.031533@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457219,
-    "wof:geomhash":"98cd22ea0102673e22dd73412bffe603",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fe7ab34b61e0c7e907350ce7af49ebbf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871261,
+            "region_id":85688603,
+            "venue_id":839912885
+        }
+    ],
     "wof:id":839912885,
-    "wof:lastmodified":1466412526,
+    "wof:lastmodified":1492110832,
     "wof:name":"Mighty Maids",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871261,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

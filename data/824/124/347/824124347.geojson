@@ -2,9 +2,14 @@
   "id": 824124347,
   "type": "Feature",
   "properties": {
+    "addr:full":"2295 E Louisiana Ave Denver CO 80210",
+    "addr:housenumber":"2295",
+    "addr:postcode":"80210",
+    "addr:street":"E Louisiana Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961651,39.693036,-104.961651,39.693036",
     "geom:latitude":39.693036,
     "geom:longitude":-104.961651,
@@ -24,7 +29,15 @@
     "sg:postcode":"80210",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554305,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0RUNGTiIJjbID2A4fo4po7_39.693036_-104.961651@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463454895,
     "wof:geomhash":"8be0b64651a2e82f8a09d662d56c31fd",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":420554305,
+            "region_id":85688603,
+            "venue_id":824124347
+        }
+    ],
     "wof:id":824124347,
-    "wof:lastmodified":1466415729,
+    "wof:lastmodified":1491865750,
     "wof:name":"Arbor Garden",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

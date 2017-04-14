@@ -2,9 +2,14 @@
   "id": 823477479,
   "type": "Feature",
   "properties": {
+    "addr:full":"9801 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"9801",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.872884,39.740209,-104.872884,39.740209",
     "geom:latitude":39.740209,
     "geom:longitude":-104.872884,
@@ -33,6 +38,7 @@
         85633793,
         85929235,
         102086877,
+        420553933,
         85872957
     ],
     "wof:breaches":[],
@@ -41,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463439018,
-    "wof:geomhash":"27451ddd7d13f1747a8e76c2b50aedea",
+    "wof:geomhash":"e8ee21b1946d8ff0d81ba940afbbf633",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":823477479
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,9 +69,9 @@
         }
     ],
     "wof:id":823477479,
-    "wof:lastmodified":1466413083,
+    "wof:lastmodified":1492124178,
     "wof:name":"Florence Square Apartments",
-    "wof:parent_id":85872957,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839931047,
   "type": "Feature",
   "properties": {
+    "addr:full":"467 Mountain Vista Dr Clifton CO 81520",
+    "addr:housenumber":"467",
+    "addr:postcode":"81520",
+    "addr:street":"Mountain Vista Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.445081,39.076506,-108.445081,39.076506",
     "geom:latitude":39.076506,
     "geom:longitude":-108.445081,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6TjZ9oS5XCgGWFvyL1ryDU_39.076506_-108.445081@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458034,
-    "wof:geomhash":"6d1395fd8e0bfbe217d527fd387b6184",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b854c67f4641cbc1781f6c509ffd53bd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":839931047
+        }
+    ],
     "wof:id":839931047,
-    "wof:lastmodified":1466414151,
+    "wof:lastmodified":1492111522,
     "wof:name":"B & K Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

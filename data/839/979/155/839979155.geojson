@@ -2,9 +2,14 @@
   "id": 839979155,
   "type": "Feature",
   "properties": {
+    "addr:full":"13391 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"13391;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.803056,37.455531,-107.803056,37.455531",
     "geom:latitude":37.455531,
     "geom:longitude":-107.803056,
@@ -27,19 +32,28 @@
         "trailer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554647
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2wkuCV1QqD3LdBFEggTM5z_37.455531_-107.803056@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460385,
-    "wof:geomhash":"d2ec9ed95cd088c9b9c1d963995ae2a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"beff892fc12c98646faa006e466de0f0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554647,
+            "venue_id":839979155
+        }
+    ],
     "wof:id":839979155,
-    "wof:lastmodified":1466416930,
+    "wof:lastmodified":1492113623,
     "wof:name":"Durango North KOA",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554647,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

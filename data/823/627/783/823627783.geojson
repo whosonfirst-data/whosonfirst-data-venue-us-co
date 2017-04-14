@@ -2,9 +2,14 @@
   "id": 823627783,
   "type": "Feature",
   "properties": {
+    "addr:full":"21803 Co Rd 7 Berthoud CO 80513",
+    "addr:housenumber":"21803",
+    "addr:postcode":"80513",
+    "addr:street":"Co Rd 7",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.998901,40.315608,-104.998901,40.315608",
     "geom:latitude":40.315608,
     "geom:longitude":-104.998901,
@@ -29,19 +34,36 @@
         "power"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_23aE1WiqII5rsUYaYl7dCj_40.315608_-104.998901@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442574,
-    "wof:geomhash":"83dde8746305621ec647c8e42691a4e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"02237e84a7bc625551191c86a194bf03",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823627783
+        }
+    ],
     "wof:id":823627783,
-    "wof:lastmodified":1466417601,
+    "wof:lastmodified":1492118737,
     "wof:name":"Innotech",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

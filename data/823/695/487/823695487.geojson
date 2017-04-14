@@ -2,9 +2,14 @@
   "id": 823695487,
   "type": "Feature",
   "properties": {
+    "addr:full":"11855 E 40th Ave Denver CO 80239",
+    "addr:housenumber":"11855",
+    "addr:postcode":"80239",
+    "addr:street":"E 40Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.849155,39.772982,-104.849155,39.772982",
     "geom:latitude":39.772982,
     "geom:longitude":-104.849155,
@@ -28,19 +33,38 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871347,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Y6HWujcy5jwoWomjAOhPx_39.772982_-104.849155@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444144,
-    "wof:geomhash":"4a9ac1c1618f25bacbe7957e9450a4d4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a680e3df28fcbbbc7e3f8feb0966623f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85871347,
+            "region_id":85688603,
+            "venue_id":823695487
+        }
+    ],
     "wof:id":823695487,
-    "wof:lastmodified":1466418495,
+    "wof:lastmodified":1492126569,
     "wof:name":"Extra Space Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871347,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

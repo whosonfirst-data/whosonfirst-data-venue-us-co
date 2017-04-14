@@ -2,9 +2,14 @@
   "id": 824133081,
   "type": "Feature",
   "properties": {
+    "addr:full":"54185 Co Rd 129 Clark CO 80428",
+    "addr:housenumber":"54185;129",
+    "addr:postcode":"80428",
+    "addr:street":"Co Rd;Clark",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.912726,40.752827,-106.912726,40.752827",
     "geom:latitude":40.752827,
     "geom:longitude":-106.912726,
@@ -24,19 +29,28 @@
     "sg:postcode":"80428",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555269
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4LRBqxtgycFvrLnJMmJJ4y_40.752827_-106.912726@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455256,
-    "wof:geomhash":"fbb7964d603581c5b333bdd2bc722bf6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7faacf28ca4867aeb3da79b629f5c1fc",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555269,
+            "venue_id":824133081
+        }
+    ],
     "wof:id":824133081,
-    "wof:lastmodified":1466416163,
+    "wof:lastmodified":1492129273,
     "wof:name":"US Post Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555269,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

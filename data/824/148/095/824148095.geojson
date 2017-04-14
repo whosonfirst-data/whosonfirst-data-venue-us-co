@@ -2,9 +2,14 @@
   "id": 824148095,
   "type": "Feature",
   "properties": {
+    "addr:full":"2868 I- 70 Bus Grand Junction CO 81501",
+    "addr:housenumber":"2868;70 bus",
+    "addr:postcode":"81501",
+    "addr:street":"I",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.520903,39.071541,-108.520903,39.071541",
     "geom:latitude":39.071541,
     "geom:longitude":-108.520903,
@@ -28,19 +33,36 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_23WymiDjMPOfJF3Y83IBQD_39.071541_-108.520903@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455834,
-    "wof:geomhash":"cd2c878a258cca904cd8de7f73cd1b28",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8e7f124e44f2a5ab5b8e9dbc88c902b9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554929,
+            "region_id":85688603,
+            "venue_id":824148095
+        }
+    ],
     "wof:id":824148095,
-    "wof:lastmodified":1466416679,
+    "wof:lastmodified":1492130165,
     "wof:name":"Grand Junction Leasing Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

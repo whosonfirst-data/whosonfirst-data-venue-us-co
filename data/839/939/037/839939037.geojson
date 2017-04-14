@@ -2,9 +2,14 @@
   "id": 839939037,
   "type": "Feature",
   "properties": {
+    "addr:full":"9170 Washington St Denver CO 80229",
+    "addr:housenumber":"9170",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977701,39.861422,-104.977701,39.861422",
     "geom:latitude":39.861422,
     "geom:longitude":-104.977701,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7eYniJGYMC2HY64lKaTtMZ_39.861422_-104.977701@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458441,
-    "wof:geomhash":"523ea4c59e6eb3d1d315394e2cd92fdc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"93371e627171d0f0b6cc03da37364b28",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":839939037
+        }
+    ],
     "wof:id":839939037,
-    "wof:lastmodified":1466414768,
+    "wof:lastmodified":1492110439,
     "wof:name":"M N H Ltd Family Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

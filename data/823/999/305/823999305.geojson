@@ -2,9 +2,14 @@
   "id": 823999305,
   "type": "Feature",
   "properties": {
+    "addr:full":"3141 W 96th Ave Westminster CO 80031",
+    "addr:housenumber":"3141",
+    "addr:postcode":"80031",
+    "addr:street":"W 96Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.028273,39.870819,-105.028273,39.870819",
     "geom:latitude":39.870819,
     "geom:longitude":-105.028273,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1uUegAiMFVHNTLh0P7kSMP_39.870819_-105.028273@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451970,
-    "wof:geomhash":"e3cb72cb3c0ae7d0e915a46f241b0ed7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f39f611a25aedd6b1b6362c37f8294a1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823999305
+        }
+    ],
     "wof:id":823999305,
-    "wof:lastmodified":1466421083,
+    "wof:lastmodified":1492122819,
     "wof:name":"St Marks Catholic Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839952507,
   "type": "Feature",
   "properties": {
+    "addr:full":"9775 Fillmore St Thornton CO 80229",
+    "addr:housenumber":"9775",
+    "addr:postcode":"80229",
+    "addr:street":"Fillmore St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.951522,39.872775,-104.951522,39.872775",
     "geom:latitude":39.872775,
     "geom:longitude":-104.951522,
@@ -27,19 +32,36 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_66fRAEcJA2a80ETc62WNzD_39.872775_-104.951522@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459228,
-    "wof:geomhash":"bba6ec807a0cfaeedd559590a21817f3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"99afbee5c2c336cce5157459ac29c453",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":839952507
+        }
+    ],
     "wof:id":839952507,
-    "wof:lastmodified":1466415447,
+    "wof:lastmodified":1492111989,
     "wof:name":"Ace Inspections",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

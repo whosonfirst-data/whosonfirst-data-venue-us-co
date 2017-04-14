@@ -2,9 +2,14 @@
   "id": 839954839,
   "type": "Feature",
   "properties": {
+    "addr:full":"723 W 4th St Cortez CO 81321",
+    "addr:housenumber":"723",
+    "addr:postcode":"81321",
+    "addr:street":"W 4Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.599332,37.343824,-108.599332,37.343824",
     "geom:latitude":37.343824,
     "geom:longitude":-108.599332,
@@ -27,19 +32,36 @@
         "maintenance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ZlAvzroAGuL7D4qIuTM8k_37.343824_-108.599332@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459386,
-    "wof:geomhash":"8fe5f3cae2c7fe98ff478b2ad4a444fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3c1ca23bd6c311b744e8c22d77903d6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555135,
+            "region_id":85688603,
+            "venue_id":839954839
+        }
+    ],
     "wof:id":839954839,
-    "wof:lastmodified":1466415583,
+    "wof:lastmodified":1492113894,
     "wof:name":"ServiceMaster",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

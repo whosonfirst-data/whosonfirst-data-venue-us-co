@@ -2,9 +2,14 @@
   "id": 839964827,
   "type": "Feature",
   "properties": {
+    "addr:full":"12354 E Caley Ave Centennial CO 80111",
+    "addr:housenumber":"12354",
+    "addr:postcode":"80111",
+    "addr:street":"E Caley Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.843363,39.601325,-104.843363,39.601325",
     "geom:latitude":39.601325,
     "geom:longitude":-104.843363,
@@ -30,17 +35,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929851,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2DoWeDm8aiiYmAPIH59pdE_39.601325_-104.843363@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459807,
-    "wof:geomhash":"543c1c115b03ff85bbce924643136717",
-    "wof:hierarchy":[],
+    "wof:geomhash":"73d139ce7b6603c86ab538b4510257e3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929851,
+            "region_id":85688603,
+            "venue_id":839964827
+        }
+    ],
     "wof:id":839964827,
-    "wof:lastmodified":1466416014,
+    "wof:lastmodified":1492111289,
     "wof:name":"Global Telecom Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

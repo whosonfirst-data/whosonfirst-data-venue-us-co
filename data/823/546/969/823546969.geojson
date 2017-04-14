@@ -2,9 +2,14 @@
   "id": 823546969,
   "type": "Feature",
   "properties": {
+    "addr:full":"1516 W Prospect Rd Fort Collins CO 80526",
+    "addr:housenumber":"1516",
+    "addr:postcode":"80526",
+    "addr:street":"W Prospect Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.104483,40.567434,-105.104483,40.567434",
     "geom:latitude":40.567434,
     "geom:longitude":-105.104483,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Th98N09BYN4r1V53Gxyoi_40.567434_-105.104483@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440631,
-    "wof:geomhash":"aedccf8ae939ff95a7c0b77b01afe79d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"385ef6b012293264a738f2caab02b149",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":823546969
+        }
+    ],
     "wof:id":823546969,
-    "wof:lastmodified":1466415839,
+    "wof:lastmodified":1492118150,
     "wof:name":"Providence Bible Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839988955,
   "type": "Feature",
   "properties": {
+    "addr:full":"3000 S Federal Blvd Denver CO 80236",
+    "addr:housenumber":"3000",
+    "addr:postcode":"80236",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025139,39.66201,-105.025139,39.66201",
     "geom:latitude":39.66201,
     "geom:longitude":-105.025139,
@@ -28,7 +33,15 @@
         "italian"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1cWl4T2Jf2euAqQmnNsrCC_39.662010_-105.025139@1299784598"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463460772,
     "wof:geomhash":"f718fd38413fa6cff57a5f20bc29cc86",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":839988955
+        }
+    ],
     "wof:id":839988955,
-    "wof:lastmodified":1466417478,
+    "wof:lastmodified":1491876202,
     "wof:name":"Vella's Italian Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

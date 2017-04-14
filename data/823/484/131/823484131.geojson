@@ -2,9 +2,14 @@
   "id": 823484131,
   "type": "Feature",
   "properties": {
+    "addr:full":"157 Co Rd 13 Gunnison CO 81230",
+    "addr:housenumber":"157;13",
+    "addr:postcode":"81230",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.931294,38.559211,-106.931294,38.559211",
     "geom:latitude":38.559211,
     "geom:longitude":-106.931294,
@@ -27,19 +32,28 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554413
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7X48scvSFiCj6QrcnzDW1I_38.559211_-106.931294@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439168,
-    "wof:geomhash":"60a0953bf6f74a2efccbd0db26f39ec4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a79f7e56e0bf249a31ba05c82ed3237a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554413,
+            "venue_id":823484131
+        }
+    ],
     "wof:id":823484131,
-    "wof:lastmodified":1466413996,
+    "wof:lastmodified":1492119916,
     "wof:name":"Williams Engineering",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554413,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

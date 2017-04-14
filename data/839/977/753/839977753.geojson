@@ -2,9 +2,14 @@
   "id": 839977753,
   "type": "Feature",
   "properties": {
+    "addr:full":"320 N Spruce Towaoc CO 81328",
+    "addr:housenumber":"320",
+    "addr:postcode":"81328",
+    "addr:street":"N Spruce Towaoc",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.298736,37.348091,-108.298736,37.348091",
     "geom:latitude":37.348091,
     "geom:longitude":-108.298736,
@@ -27,19 +32,36 @@
         "federal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928921,
+        102084099,
+        420555115
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_02f4BRau04ZFnStprMN45r_37.348091_-108.298736@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460338,
-    "wof:geomhash":"f269e497fe86b8013997c4eacb6b96d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"52dbeb4b008a6da8ce0a8d5d18da6166",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928921,
+            "neighbourhood_id":420555115,
+            "region_id":85688603,
+            "venue_id":839977753
+        }
+    ],
     "wof:id":839977753,
-    "wof:lastmodified":1466416807,
+    "wof:lastmodified":1492113780,
     "wof:name":"US Law Enforcement Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

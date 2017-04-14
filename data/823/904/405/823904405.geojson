@@ -2,9 +2,14 @@
   "id": 823904405,
   "type": "Feature",
   "properties": {
+    "addr:full":"50235 Co Rd 129 Steamboat Spgs CO 80487",
+    "addr:housenumber":"50235;129",
+    "addr:postcode":"80487",
+    "addr:street":"Co Rd;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.93301,40.67493,-106.93301,40.67493",
     "geom:latitude":40.67493,
     "geom:longitude":-106.93301,
@@ -28,19 +33,28 @@
         "promoter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555279
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_397FDJr09oPE1smUaw02QL_40.674930_-106.933010@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449581,
-    "wof:geomhash":"c267553ba0236d02d992a03dd98e7749",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2c6f374d3c7e7e040303862e34e494fd",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555279,
+            "venue_id":823904405
+        }
+    ],
     "wof:id":823904405,
-    "wof:lastmodified":1466420255,
+    "wof:lastmodified":1492116183,
     "wof:name":"Hosted Tours",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555279,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

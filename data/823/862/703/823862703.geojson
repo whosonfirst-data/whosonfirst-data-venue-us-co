@@ -2,9 +2,14 @@
   "id": 823862703,
   "type": "Feature",
   "properties": {
+    "addr:full":"510 Compton St Broomfield CO 80020",
+    "addr:housenumber":"510",
+    "addr:postcode":"80020",
+    "addr:street":"Compton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.098755,39.925628,-105.098755,39.925628",
     "geom:latitude":39.925628,
     "geom:longitude":-105.098755,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554249
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3cYolcp7El06uKqFc0wTO0_39.925628_-105.098755@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448567,
-    "wof:geomhash":"192b97ee8a03328131b770d304ac93e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8f5b88d0f7504b318af2a2f6f43de145",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554249,
+            "region_id":85688603,
+            "venue_id":823862703
+        }
+    ],
     "wof:id":823862703,
-    "wof:lastmodified":1466419777,
+    "wof:lastmodified":1492119816,
     "wof:name":"Legasys International",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

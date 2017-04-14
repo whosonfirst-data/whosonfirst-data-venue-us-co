@@ -2,9 +2,14 @@
   "id": 823610837,
   "type": "Feature",
   "properties": {
+    "addr:full":"6677 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"6677",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025344,39.817483,-105.025344,39.817483",
     "geom:latitude":39.817483,
     "geom:longitude":-105.025344,
@@ -27,19 +32,36 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Bc9MNagBBVn1xquh7EkDq_39.817483_-105.025344@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442164,
-    "wof:geomhash":"1d0191d9224dbad5d386a1057b8c109f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6a37887f6ea79a6739faf399bcc02bab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553739,
+            "region_id":85688603,
+            "venue_id":823610837
+        }
+    ],
     "wof:id":823610837,
-    "wof:lastmodified":1466417148,
+    "wof:lastmodified":1492125151,
     "wof:name":"Crazy Leos Discount Furniture",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

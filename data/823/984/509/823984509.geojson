@@ -2,9 +2,14 @@
   "id": 823984509,
   "type": "Feature",
   "properties": {
+    "addr:full":"4900 Thunderbird Dr Boulder CO 80303",
+    "addr:housenumber":"4900",
+    "addr:postcode":"80303",
+    "addr:street":"Thunderbird Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.233438,39.995602,-105.233438,39.995602",
     "geom:latitude":39.995602,
     "geom:longitude":-105.233438,
@@ -29,19 +34,36 @@
         "care"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554127
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6n1br1TYEFn7uUTfVBFSny_39.995602_-105.233438@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451596,
-    "wof:geomhash":"fd1c80738026060b443b9de79d67bbf5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"550466e57b2c40552d658318c70b8ea4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554127,
+            "region_id":85688603,
+            "venue_id":823984509
+        }
+    ],
     "wof:id":823984509,
-    "wof:lastmodified":1466421058,
+    "wof:lastmodified":1492118187,
     "wof:name":"Care Link Adult Day Program",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554127,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

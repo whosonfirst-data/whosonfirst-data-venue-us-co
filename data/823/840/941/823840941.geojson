@@ -2,9 +2,14 @@
   "id": 823840941,
   "type": "Feature",
   "properties": {
+    "addr:full":"117 E Mountain Ave Fort Collins CO 80524",
+    "addr:housenumber":"117",
+    "addr:postcode":"80524",
+    "addr:street":"E Mountain Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076736,40.586953,-105.076736,40.586953",
     "geom:latitude":40.586953,
     "geom:longitude":-105.076736,
@@ -28,19 +33,36 @@
         "org"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554751
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5jdFkVWAr3zde3a1ODullX_40.586953_-105.076736@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447963,
-    "wof:geomhash":"7a22e224708d44d96b1947ecb7e75cdd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c7eef2c39b0d361963c3f61a1dadb5fb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554751,
+            "region_id":85688603,
+            "venue_id":823840941
+        }
+    ],
     "wof:id":823840941,
-    "wof:lastmodified":1466419767,
+    "wof:lastmodified":1492123856,
     "wof:name":"Nature Conservancy",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554751,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

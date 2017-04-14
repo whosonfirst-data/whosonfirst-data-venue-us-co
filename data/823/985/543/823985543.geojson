@@ -2,9 +2,14 @@
   "id": 823985543,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 Adams St Wray CO 80758",
+    "addr:housenumber":"123",
+    "addr:postcode":"80758",
+    "addr:street":"Adams St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.223522,40.080367,-102.223522,40.080367",
     "geom:latitude":40.080367,
     "geom:longitude":-102.223522,
@@ -29,17 +34,32 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929607,
+        102084063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0X6s27vboVtaxXhll4ejHR_40.080367_-102.223522@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451619,
-    "wof:geomhash":"4c67828e8d809bfea5507221d1e03e91",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75b2e012be16f7549ce78a8d88a19828",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084063,
+            "locality_id":85929607,
+            "region_id":85688603,
+            "venue_id":823985543
+        }
+    ],
     "wof:id":823985543,
-    "wof:lastmodified":1466420930,
+    "wof:lastmodified":1492120974,
     "wof:name":"John's Body Shop",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

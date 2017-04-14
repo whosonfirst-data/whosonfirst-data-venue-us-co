@@ -2,9 +2,14 @@
   "id": 824082239,
   "type": "Feature",
   "properties": {
+    "addr:full":"525 E 70th Ave Denver CO 80229",
+    "addr:housenumber":"525",
+    "addr:postcode":"80229",
+    "addr:street":"E 70Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979847,39.823831,-104.979847,39.823831",
     "geom:latitude":39.823831,
     "geom:longitude":-104.979847,
@@ -28,19 +33,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0wsotyei8X7cpz9LSZ7WKu_39.823831_-104.979847@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453900,
-    "wof:geomhash":"7cb31a3b1ad34910d988b5764fecee36",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d8c91475f67ceda549a4b0961c5d1d7b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":824082239
+        }
+    ],
     "wof:id":824082239,
-    "wof:lastmodified":1466414634,
+    "wof:lastmodified":1492128308,
     "wof:name":"Westprint",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

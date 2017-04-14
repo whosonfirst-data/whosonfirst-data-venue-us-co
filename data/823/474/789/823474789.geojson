@@ -2,9 +2,14 @@
   "id": 823474789,
   "type": "Feature",
   "properties": {
+    "addr:full":"6165 E Iliff Ave Denver CO 80222",
+    "addr:housenumber":"6165",
+    "addr:postcode":"80222",
+    "addr:street":"E Iliff Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.912795,39.674853,-104.912795,39.674853",
     "geom:latitude":39.674853,
     "geom:longitude":-104.912795,
@@ -29,12 +34,16 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        85871341,
         102191575,
+        1108750035,
         85633793,
         85928879,
         102086135,
-        85871341
+        85688603,
+        85930653,
+        102086877,
+        420559699
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -49,15 +58,25 @@
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
+            "macrohood_id":1108750035,
             "neighbourhood_id":85871341,
+            "region_id":85688603,
+            "venue_id":823474789
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930653,
+            "neighbourhood_id":420559699,
             "region_id":85688603,
             "venue_id":823474789
         }
     ],
     "wof:id":823474789,
-    "wof:lastmodified":1466412779,
+    "wof:lastmodified":1486590547,
     "wof:name":"Lake and Racquet Hair Styling",
-    "wof:parent_id":85871341,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

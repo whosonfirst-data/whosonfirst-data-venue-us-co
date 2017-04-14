@@ -2,9 +2,14 @@
   "id": 839967013,
   "type": "Feature",
   "properties": {
+    "addr:full":"12499 Rock Ln Longmont CO 80501",
+    "addr:housenumber":"12499",
+    "addr:postcode":"80501",
+    "addr:street":"Rock Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.064587,40.203876,-105.064587,40.203876",
     "geom:latitude":40.203876,
     "geom:longitude":-105.064587,
@@ -28,19 +33,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85896071,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_21EzjfpTfB2MalOVJAuqm9_40.203876_-105.064587@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459891,
-    "wof:geomhash":"843e18b7318baa8587a3293b42096305",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8001d273a92bb67b54d94a71a174a0d2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85896071,
+            "region_id":85688603,
+            "venue_id":839967013
+        }
+    ],
     "wof:id":839967013,
-    "wof:lastmodified":1466415932,
+    "wof:lastmodified":1492112423,
     "wof:name":"AAA Perfect Design Concrete",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896071,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

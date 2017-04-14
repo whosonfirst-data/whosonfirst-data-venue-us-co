@@ -2,9 +2,14 @@
   "id": 823825885,
   "type": "Feature",
   "properties": {
+    "addr:full":"5497 Harlan St Arvada CO 80002",
+    "addr:housenumber":"5497",
+    "addr:postcode":"80002",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.06267,39.795606,-105.06267,39.795606",
     "geom:latitude":39.795606,
     "geom:longitude":-105.06267,
@@ -28,19 +33,34 @@
     ],
     "sg:website":"www.jonestreeandlawn.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1i25gAcmLD8oMFDPWfpsVX_39.795606_-105.062670@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447474,
-    "wof:geomhash":"f805086c8411a028011d4fe229006661",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3139ecf65499b3af6498556ac78d69cd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823825885
+        }
+    ],
     "wof:id":823825885,
-    "wof:lastmodified":1466419632,
+    "wof:lastmodified":1492123461,
     "wof:name":"Jones Tree and Lawn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

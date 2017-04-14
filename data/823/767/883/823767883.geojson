@@ -2,9 +2,14 @@
   "id": 823767883,
   "type": "Feature",
   "properties": {
+    "addr:full":"13203 Osage St Denver CO 80234",
+    "addr:housenumber":"13203",
+    "addr:postcode":"80234",
+    "addr:street":"Osage St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005855,39.936669,-105.005855,39.936669",
     "geom:latitude":39.936669,
     "geom:longitude":-105.005855,
@@ -27,19 +32,36 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Gf9uXvzGvTD53yTBBETod_39.936669_-105.005855@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445777,
-    "wof:geomhash":"98600ecb6588fb584c38307e1ef2c798",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5fb66eddd9956c4fce5f59283488106b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":823767883
+        }
+    ],
     "wof:id":823767883,
-    "wof:lastmodified":1466419134,
+    "wof:lastmodified":1492120197,
     "wof:name":"Brian C Carlson Photography",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

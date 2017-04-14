@@ -2,9 +2,14 @@
   "id": 824134901,
   "type": "Feature",
   "properties": {
+    "addr:full":"6395 W 56th Ave Arvada CO 80002",
+    "addr:housenumber":"6395",
+    "addr:postcode":"80002",
+    "addr:street":"W 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066326,39.798428,-105.066326,39.798428",
     "geom:latitude":39.798428,
     "geom:longitude":-105.066326,
@@ -29,19 +34,34 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_78Smz7T8AyUV6zQbKimpAv_39.798428_-105.066326@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455328,
-    "wof:geomhash":"5f36a679eb3bf00aab20d0673b75b36b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"957064709789b609beb77465dd349782",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824134901
+        }
+    ],
     "wof:id":824134901,
-    "wof:lastmodified":1466416412,
+    "wof:lastmodified":1492129027,
     "wof:name":"Bull Sheet Metal LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

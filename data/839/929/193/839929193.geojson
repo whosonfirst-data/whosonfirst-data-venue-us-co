@@ -2,9 +2,14 @@
   "id": 839929193,
   "type": "Feature",
   "properties": {
+    "addr:full":"2880 Diagonal Hwy Boulder CO 80301",
+    "addr:housenumber":"2880",
+    "addr:postcode":"80301",
+    "addr:street":"Diagonal Hwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.25836,40.036404,-105.25836,40.036404",
     "geom:latitude":40.036404,
     "geom:longitude":-105.25836,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3OuVzoETqZyZESb8InACDu_40.036404_-105.258360@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457923,
-    "wof:geomhash":"9dff06bd103c29126efb4ed7427786db",
-    "wof:hierarchy":[],
+    "wof:geomhash":"86ddb5295125191f66a2b0f297832bf6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":839929193
+        }
+    ],
     "wof:id":839929193,
-    "wof:lastmodified":1466413868,
+    "wof:lastmodified":1492112928,
     "wof:name":"Furrs Cafeteria 189",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

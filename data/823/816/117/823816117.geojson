@@ -2,9 +2,14 @@
   "id": 823816117,
   "type": "Feature",
   "properties": {
+    "addr:full":"1945 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"1945;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.852756,37.326446,-107.852756,37.326446",
     "geom:latitude":37.326446,
     "geom:longitude":-107.852756,
@@ -28,19 +33,28 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0dQAYYCq9xe0oH0aCu1bYY_37.326446_-107.852756@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447187,
-    "wof:geomhash":"b81c5b9efce90ec77c6a6459c9a3cb5b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1acf86b089817d82abc39ee5f5429386",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823816117
+        }
+    ],
     "wof:id":823816117,
-    "wof:lastmodified":1466419472,
+    "wof:lastmodified":1492127635,
     "wof:name":"Hatch Brothers Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

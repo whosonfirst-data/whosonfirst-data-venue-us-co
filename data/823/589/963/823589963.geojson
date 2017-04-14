@@ -2,9 +2,14 @@
   "id": 823589963,
   "type": "Feature",
   "properties": {
+    "addr:full":"315 S Ash St Cortez CO 81321",
+    "addr:housenumber":"315",
+    "addr:postcode":"81321",
+    "addr:street":"S Ash St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.582541,37.345359,-108.582541,37.345359",
     "geom:latitude":37.345359,
     "geom:longitude":-108.582541,
@@ -28,19 +33,36 @@
         "safety"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1sMllbI8dJLa3CBVJfhUft_37.345359_-108.582541@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441642,
-    "wof:geomhash":"2ccb4e74a7b1d39d2b47f91de72433d7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"be4ba5159f988de768e6ac7102e53575",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823589963
+        }
+    ],
     "wof:id":823589963,
-    "wof:lastmodified":1466416769,
+    "wof:lastmodified":1492124253,
     "wof:name":"Randy Pennington",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

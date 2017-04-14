@@ -2,9 +2,14 @@
   "id": 823628697,
   "type": "Feature",
   "properties": {
+    "addr:full":"333 E 76th Ave Denver CO 80229",
+    "addr:housenumber":"333",
+    "addr:postcode":"80229",
+    "addr:street":"E 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978449,39.834171,-104.978449,39.834171",
     "geom:latitude":39.834171,
     "geom:longitude":-104.978449,
@@ -28,19 +33,36 @@
         "banking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553621
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_60jQSFd54mX2AtaI1thhTS_39.834171_-104.978449@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442604,
-    "wof:geomhash":"2c1f15f8c612413fbd6717a58f70e73c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c875a1d1d82049c22c7f82a07dab1366",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553621,
+            "region_id":85688603,
+            "venue_id":823628697
+        }
+    ],
     "wof:id":823628697,
-    "wof:lastmodified":1466417714,
+    "wof:lastmodified":1492116993,
     "wof:name":"Sidewalk Shavers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553621,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

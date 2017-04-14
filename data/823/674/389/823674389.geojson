@@ -2,9 +2,14 @@
   "id": 823674389,
   "type": "Feature",
   "properties": {
+    "addr:full":"5137 Independence Rd Boulder CO 80301",
+    "addr:housenumber":"5137",
+    "addr:postcode":"80301",
+    "addr:street":"Independence Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.235153,40.04022,-105.235153,40.04022",
     "geom:latitude":40.04022,
     "geom:longitude":-105.235153,
@@ -28,19 +33,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6DfCucgLebG23VOf9NWZB0_40.040220_-105.235153@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443672,
-    "wof:geomhash":"1d098b31d838014af466a256dda4bcdc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"344ec4298af720ba46f2f1e22e10e8a2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876385,
+            "region_id":85688603,
+            "venue_id":823674389
+        }
+    ],
     "wof:id":823674389,
-    "wof:lastmodified":1466418311,
+    "wof:lastmodified":1492118423,
     "wof:name":"Staffordshire Homes LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824152903,
   "type": "Feature",
   "properties": {
+    "addr:full":"2011 Braeburn Ct Longmont CO 80503",
+    "addr:housenumber":"2011",
+    "addr:postcode":"80503",
+    "addr:street":"Braeburn Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.15083,40.135631,-105.15083,40.135631",
     "geom:latitude":40.135631,
     "geom:longitude":-105.15083,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251,
+        420554081
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6strOOvJukyGBSy6u62DsD_40.135631_-105.150830@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456015,
-    "wof:geomhash":"5b51a6fa547070111219187a84db4030",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fa9aa0703043fc032021c2172f3a12e2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "neighbourhood_id":420554081,
+            "region_id":85688603,
+            "venue_id":824152903
+        }
+    ],
     "wof:id":824152903,
-    "wof:lastmodified":1466416981,
+    "wof:lastmodified":1492132948,
     "wof:name":"Redstone Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554081,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

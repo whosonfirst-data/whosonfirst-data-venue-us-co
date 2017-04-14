@@ -2,9 +2,14 @@
   "id": 823783499,
   "type": "Feature",
   "properties": {
+    "addr:full":"5253 E 77th Ave Commerce City CO 80022",
+    "addr:housenumber":"5253",
+    "addr:postcode":"80022",
+    "addr:street":"E 77Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927137,39.836376,-104.927137,39.836376",
     "geom:latitude":39.836376,
     "geom:longitude":-104.927137,
@@ -27,19 +32,36 @@
         "foundation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930259,
+        102084053,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_382eRilNJqBBoI9AMBlw3y_39.836376_-104.927137@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446185,
-    "wof:geomhash":"05d3a756457f672ac74cf05a67e48003",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5d32ba0c8b43d08dfb2872212ab6afad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":823783499
+        }
+    ],
     "wof:id":823783499,
-    "wof:lastmodified":1466419222,
+    "wof:lastmodified":1492125181,
     "wof:name":"3 D Piering & Foundation Rpr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553481,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

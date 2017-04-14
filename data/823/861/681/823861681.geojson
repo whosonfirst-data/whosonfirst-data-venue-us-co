@@ -2,9 +2,14 @@
   "id": 823861681,
   "type": "Feature",
   "properties": {
+    "addr:full":"1831 E 73rd Ave Denver CO 80229",
+    "addr:housenumber":"1831",
+    "addr:postcode":"80229",
+    "addr:street":"E 73Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.96777,39.829139,-104.96777,39.829139",
     "geom:latitude":39.829139,
     "geom:longitude":-104.96777,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6T41G3tRraCo6VVrN8uXOh_39.829139_-104.967770@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448536,
-    "wof:geomhash":"64ef72f199116384a2e91f9872ff5119",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae8120bc3e7dc323e70b459b9c6ad930",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823861681
+        }
+    ],
     "wof:id":823861681,
-    "wof:lastmodified":1466419871,
+    "wof:lastmodified":1492122868,
     "wof:name":"C & S Drywall Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

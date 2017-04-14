@@ -2,9 +2,14 @@
   "id": 823792771,
   "type": "Feature",
   "properties": {
+    "addr:full":"800 W Ohio Ave Gunnison CO 81230",
+    "addr:housenumber":"800",
+    "addr:postcode":"81230",
+    "addr:street":"W Ohio Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.936101,38.547734,-106.936101,38.547734",
     "geom:latitude":38.547734,
     "geom:longitude":-106.936101,
@@ -27,19 +32,36 @@
         "high"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6YFMWc5eCmB6gRvlgHuNPp_38.547734_-106.936101@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446507,
-    "wof:geomhash":"101c3824d07485a531450282dea468da",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ec6fafd8031163df25952f66b6e4acb8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":823792771
+        }
+    ],
     "wof:id":823792771,
-    "wof:lastmodified":1466419316,
+    "wof:lastmodified":1492120792,
     "wof:name":"Gunnison High School",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

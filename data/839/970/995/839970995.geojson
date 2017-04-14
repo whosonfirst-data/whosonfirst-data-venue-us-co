@@ -2,9 +2,14 @@
   "id": 839970995,
   "type": "Feature",
   "properties": {
+    "addr:full":"145 W 4th St Delta CO 81416",
+    "addr:housenumber":"145",
+    "addr:postcode":"81416",
+    "addr:street":"W 4Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.070881,38.741673,-108.070881,38.741673",
     "geom:latitude":38.741673,
     "geom:longitude":-108.070881,
@@ -29,19 +34,36 @@
         "state"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928763,
+        102084073,
+        85837553
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NtYE2B6jpzjjOfoenRvlw_38.741673_-108.070881@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460053,
-    "wof:geomhash":"4ce56bb30ff2533e8419ba57e467c695",
-    "wof:hierarchy":[],
+    "wof:geomhash":"57677a3084a9d10ac84551e92701915b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084073,
+            "locality_id":85928763,
+            "neighbourhood_id":85837553,
+            "region_id":85688603,
+            "venue_id":839970995
+        }
+    ],
     "wof:id":839970995,
-    "wof:lastmodified":1466416333,
+    "wof:lastmodified":1492110676,
     "wof:name":"Olathe State Bank Delta",
-    "wof:parent_id":-1,
+    "wof:parent_id":85837553,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

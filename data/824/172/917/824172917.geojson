@@ -2,9 +2,14 @@
   "id": 824172917,
   "type": "Feature",
   "properties": {
+    "addr:full":"3747 Wonderland Hill Ave Boulder CO 80304",
+    "addr:housenumber":"3747",
+    "addr:postcode":"80304",
+    "addr:street":"Wonderland Hill Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.289046,40.04318,-105.289046,40.04318",
     "geom:latitude":40.04318,
     "geom:longitude":-105.289046,
@@ -28,7 +33,14 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876397
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_314vzYVFC4FmwoWNIpAtAg_40.043180_-105.289046@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463456793,
     "wof:geomhash":"0341c959dfe09bbceea0b37967ad7b60",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876397,
+            "region_id":85688603,
+            "venue_id":824172917
+        }
+    ],
     "wof:id":824172917,
-    "wof:lastmodified":1466418048,
+    "wof:lastmodified":1491917816,
     "wof:name":"Ria Properties LLP",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876397,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

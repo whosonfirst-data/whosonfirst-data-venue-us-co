@@ -2,9 +2,14 @@
   "id": 823744301,
   "type": "Feature",
   "properties": {
+    "addr:full":"4861 S Everett St Denver CO 80123",
+    "addr:housenumber":"4861",
+    "addr:postcode":"80123",
+    "addr:street":"S Everett St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.098128,39.629001,-105.098128,39.629001",
     "geom:latitude":39.629001,
     "geom:longitude":-105.098128,
@@ -28,19 +33,38 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871357,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1XFHWqvmBwa1xe7CfmPSLE_39.629001_-105.098128@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445246,
-    "wof:geomhash":"c043c93d64b09a1b5575d036be493f30",
-    "wof:hierarchy":[],
+    "wof:geomhash":"80392791d222d18a4eb8c6fce4855105",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871357,
+            "region_id":85688603,
+            "venue_id":823744301
+        }
+    ],
     "wof:id":823744301,
-    "wof:lastmodified":1466418884,
+    "wof:lastmodified":1492122157,
     "wof:name":"Pets Are Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

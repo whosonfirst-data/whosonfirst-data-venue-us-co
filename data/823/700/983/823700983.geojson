@@ -2,9 +2,14 @@
   "id": 823700983,
   "type": "Feature",
   "properties": {
+    "addr:full":"1247 E 68th Ave Denver CO 80229",
+    "addr:housenumber":"1247",
+    "addr:postcode":"80229",
+    "addr:street":"E 68Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.969934,39.820043,-104.969934,39.820043",
     "geom:latitude":39.820043,
     "geom:longitude":-104.969934,
@@ -27,19 +32,36 @@
         "lumber"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5aBgSu7qKWlOr12XfEhoZ9_39.820043_-104.969934@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444257,
-    "wof:geomhash":"89466c88c101586952771ada346f1059",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ba22000cbab8cf09672ab721da49f134",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823700983
+        }
+    ],
     "wof:id":823700983,
-    "wof:lastmodified":1466418561,
+    "wof:lastmodified":1492119125,
     "wof:name":"Stock Building Supply Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

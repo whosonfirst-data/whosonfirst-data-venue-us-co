@@ -2,9 +2,14 @@
   "id": 823781161,
   "type": "Feature",
   "properties": {
+    "addr:full":"10611 Queen St Broomfield CO 80021",
+    "addr:housenumber":"10611",
+    "addr:postcode":"80021",
+    "addr:street":"Queen St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.124222,39.890122,-105.124222,39.890122",
     "geom:latitude":39.890122,
     "geom:longitude":-105.124222,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Q9fvnyJMQNALlY2rb78hu_39.890122_-105.124222@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446119,
-    "wof:geomhash":"c847e975d1e16030a188375b5e7372f8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3adc500d7df2af0e86c2d13fa58649bb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823781161
+        }
+    ],
     "wof:id":823781161,
-    "wof:lastmodified":1466419195,
+    "wof:lastmodified":1492118090,
     "wof:name":"Harvest Bible Fellowship",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

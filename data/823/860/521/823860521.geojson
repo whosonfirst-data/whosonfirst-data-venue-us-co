@@ -2,9 +2,14 @@
   "id": 823860521,
   "type": "Feature",
   "properties": {
+    "addr:full":"3184 Mesa Ave Grand Junction CO 81504",
+    "addr:housenumber":"3184",
+    "addr:postcode":"81504",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.462619,39.082622,-108.462619,39.082622",
     "geom:latitude":39.082622,
     "geom:longitude":-108.462619,
@@ -27,19 +32,36 @@
         "programing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_65jMK4tv5gRM5n2ncjNXgm_39.082622_-108.462619@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448506,
-    "wof:geomhash":"7271cc659be7dcc1c8bf11126f45801f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"745cf54dce258924396e7fc27258d280",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":823860521
+        }
+    ],
     "wof:id":823860521,
-    "wof:lastmodified":1466419856,
+    "wof:lastmodified":1492123722,
     "wof:name":"Flow Data Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

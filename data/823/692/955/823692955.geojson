@@ -2,9 +2,14 @@
   "id": 823692955,
   "type": "Feature",
   "properties": {
+    "addr:full":"25080 Co Rd H Cortez CO 81321",
+    "addr:housenumber":"25080",
+    "addr:postcode":"81321",
+    "addr:street":"Co Rd H",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.589962,37.324828,-108.589962,37.324828",
     "geom:latitude":37.324828,
     "geom:longitude":-108.589962,
@@ -28,19 +33,28 @@
         "elevator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555031
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7cstevi0x3GZ9yXDtBzpMj_37.324828_-108.589962@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444083,
-    "wof:geomhash":"628466aa94139f2785b0ba8ec3d83a34",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e2b01b4198ba9065609701451aa7520c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555031,
+            "venue_id":823692955
+        }
+    ],
     "wof:id":823692955,
-    "wof:lastmodified":1466418764,
+    "wof:lastmodified":1492119772,
     "wof:name":"Maness Family Farm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555031,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

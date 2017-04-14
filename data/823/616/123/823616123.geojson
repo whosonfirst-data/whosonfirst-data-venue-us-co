@@ -2,9 +2,14 @@
   "id": 823616123,
   "type": "Feature",
   "properties": {
+    "addr:full":"4949 Co Rd 237 Durango CO 81301",
+    "addr:housenumber":"4949;237",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.802741,37.294708,-107.802741,37.294708",
     "geom:latitude":37.294708,
     "geom:longitude":-107.802741,
@@ -27,19 +32,28 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Uc7I05OhydEqa7Hwngikf_37.294708_-107.802741@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442300,
-    "wof:geomhash":"21387ba82572fe9e6ae9471754adbdc2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bda70e7422256b90357fbdbe9c507322",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554717,
+            "venue_id":823616123
+        }
+    ],
     "wof:id":823616123,
-    "wof:lastmodified":1466417371,
+    "wof:lastmodified":1492116228,
     "wof:name":"Horse Gulch Businesses",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

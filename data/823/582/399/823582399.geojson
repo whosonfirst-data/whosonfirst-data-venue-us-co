@@ -2,9 +2,14 @@
   "id": 823582399,
   "type": "Feature",
   "properties": {
+    "addr:full":"10494 Hobbit Ln Westminster CO 80031",
+    "addr:housenumber":"10494",
+    "addr:postcode":"80031",
+    "addr:street":"Hobbit Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030831,39.88709,-105.030831,39.88709",
     "geom:latitude":39.88709,
     "geom:longitude":-105.030831,
@@ -29,19 +34,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553837,
+        85888471
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5LrRGLe7BdiqAxpJdzVY5y_39.887090_-105.030831@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441476,
-    "wof:geomhash":"31514b1de17ea3d2e9ae56929ff2f906",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5b1cad7c615aa05a1f4d75a2ce7b371b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553837,
+            "region_id":85688603,
+            "venue_id":823582399
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":85888471,
+            "region_id":85688603,
+            "venue_id":823582399
+        }
+    ],
     "wof:id":823582399,
-    "wof:lastmodified":1466416587,
+    "wof:lastmodified":1492124145,
     "wof:name":"Rosewood Hardwood Floors",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

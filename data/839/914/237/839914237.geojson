@@ -2,9 +2,14 @@
   "id": 839914237,
   "type": "Feature",
   "properties": {
+    "addr:full":"1345 Spruce St Boulder CO 80302",
+    "addr:housenumber":"1345",
+    "addr:postcode":"80302",
+    "addr:street":"Spruce St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.278171,40.019396,-105.278171,40.019396",
     "geom:latitude":40.019396,
     "geom:longitude":-105.278171,
@@ -25,7 +30,14 @@
     "sg:province":"CO",
     "sg:website":"www.boulder.shambhala.org",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5OrYySpVuMDO5y9GYxcQUg_40.019396_-105.278171@1294083659"
@@ -33,11 +45,21 @@
     "wof:country":"US",
     "wof:created":1463457266,
     "wof:geomhash":"7f0177e69b9a9de82c64a1c6584c98c2",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":839914237
+        }
+    ],
     "wof:id":839914237,
-    "wof:lastmodified":1466412798,
+    "wof:lastmodified":1491888524,
     "wof:name":"Karma Dzong",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

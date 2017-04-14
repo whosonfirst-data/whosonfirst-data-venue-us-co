@@ -2,9 +2,14 @@
   "id": 839919671,
   "type": "Feature",
   "properties": {
+    "addr:full":"11356 W 107th Pl Broomfield CO 80021",
+    "addr:housenumber":"11356",
+    "addr:postcode":"80021",
+    "addr:street":"W 107Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.12239,39.89217,-105.12239,39.89217",
     "geom:latitude":39.89217,
     "geom:longitude":-105.12239,
@@ -27,19 +32,36 @@
         "painter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4eJXa1mof8PyZj8jqza4H4_39.892170_-105.122390@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457476,
-    "wof:geomhash":"046dfdd734c2c09ea44395fcafc42ac2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"478a81cc37c3493521dc57e0e299f558",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":839919671
+        }
+    ],
     "wof:id":839919671,
-    "wof:lastmodified":1466413659,
+    "wof:lastmodified":1492111195,
     "wof:name":"J Kopp Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824071321,
   "type": "Feature",
   "properties": {
+    "addr:full":"8006 Sherman Way Denver CO 80221",
+    "addr:housenumber":"8006",
+    "addr:postcode":"80221",
+    "addr:street":"Sherman Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.985856,39.841775,-104.985856,39.841775",
     "geom:latitude":39.841775,
     "geom:longitude":-104.985856,
@@ -24,19 +29,36 @@
     "sg:postcode":"80221",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7LeMlMQoXPNpi1WgeBoBwu_39.841775_-104.985856@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453649,
-    "wof:geomhash":"80898686601fa4c305ff12946dd9b60b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cacf99e3ffae508dea7ba8dad6d120dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":824071321
+        }
+    ],
     "wof:id":824071321,
-    "wof:lastmodified":1466414615,
+    "wof:lastmodified":1492131602,
     "wof:name":"Kevin Grout",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

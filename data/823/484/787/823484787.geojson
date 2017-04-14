@@ -2,9 +2,14 @@
   "id": 823484787,
   "type": "Feature",
   "properties": {
+    "addr:full":"3765 S Hibiscus Way Denver CO 80237",
+    "addr:housenumber":"3765",
+    "addr:postcode":"80237",
+    "addr:street":"S Hibiscus Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.926198,39.647788,-104.926198,39.647788",
     "geom:latitude":39.647788,
     "geom:longitude":-104.926198,
@@ -27,7 +32,15 @@
         "exploration"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750071,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6DQonxBsgRLv5qCKVMKJgo_39.647788_-104.926198@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463439182,
     "wof:geomhash":"758173c6771d5db7b997f06d91464d10",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750071,
+            "region_id":85688603,
+            "venue_id":823484787
+        }
+    ],
     "wof:id":823484787,
-    "wof:lastmodified":1466414014,
+    "wof:lastmodified":1486593580,
     "wof:name":"William R Leer Cpl",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750071,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

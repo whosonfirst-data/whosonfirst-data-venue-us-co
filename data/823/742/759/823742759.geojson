@@ -2,9 +2,14 @@
   "id": 823742759,
   "type": "Feature",
   "properties": {
+    "addr:full":"6250 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"6250",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025132,39.809499,-105.025132,39.809499",
     "geom:latitude":39.809499,
     "geom:longitude":-105.025132,
@@ -28,19 +33,36 @@
         "home"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1NFG8UWB2SIKfepUqkufNv_39.809499_-105.025132@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445212,
-    "wof:geomhash":"9b07ab6150352b44b14571cb5abc3a09",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b37f65a901dc80483a3d76244c0948ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553839,
+            "region_id":85688603,
+            "venue_id":823742759
+        }
+    ],
     "wof:id":823742759,
-    "wof:lastmodified":1466418898,
+    "wof:lastmodified":1492125100,
     "wof:name":"Mobile Gardens",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

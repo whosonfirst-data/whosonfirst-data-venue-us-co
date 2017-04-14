@@ -2,9 +2,14 @@
   "id": 823933585,
   "type": "Feature",
   "properties": {
+    "addr:full":"13970 Grape St Brighton CO 80602",
+    "addr:housenumber":"13970",
+    "addr:postcode":"80602",
+    "addr:street":"Grape St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.925003,39.948656,-104.925003,39.948656",
     "geom:latitude":39.948656,
     "geom:longitude":-104.925003,
@@ -27,19 +32,36 @@
         "mortgage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553427
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3p7O1JCOlyBQy01ULC9zip_39.948656_-104.925003@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450351,
-    "wof:geomhash":"d0d0d469c9eeb65e0e5a7804b65e1f52",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a0e1730485b99da2283d089abbafb024",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553427,
+            "region_id":85688603,
+            "venue_id":823933585
+        }
+    ],
     "wof:id":823933585,
-    "wof:lastmodified":1466420384,
+    "wof:lastmodified":1492119361,
     "wof:name":"Mullis Mortgage Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553427,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

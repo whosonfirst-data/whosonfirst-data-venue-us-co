@@ -2,9 +2,14 @@
   "id": 823466113,
   "type": "Feature",
   "properties": {
+    "addr:full":"3222 Sugarloaf Rd Boulder CO 80302",
+    "addr:housenumber":"3222",
+    "addr:postcode":"80302",
+    "addr:street":"Sugarloaf Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.392544,40.020672,-105.392544,40.020672",
     "geom:latitude":40.020672,
     "geom:longitude":-105.392544,
@@ -33,19 +38,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930735,
+        102085251,
+        420553997
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2WG0yJOdepfCBs1ltGaw2a_40.020672_-105.392544@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438746,
-    "wof:geomhash":"57b4bed6314e24f88edd0b5d35bf3708",
-    "wof:hierarchy":[],
+    "wof:geomhash":"12be3a524ab71161596fc975f7eaa269",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930735,
+            "neighbourhood_id":420553997,
+            "region_id":85688603,
+            "venue_id":823466113
+        }
+    ],
     "wof:id":823466113,
-    "wof:lastmodified":1466411937,
+    "wof:lastmodified":1492122652,
     "wof:name":"Sunshine Lawn Sprinkler Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553997,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

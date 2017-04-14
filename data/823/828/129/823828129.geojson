@@ -2,9 +2,14 @@
   "id": 823828129,
   "type": "Feature",
   "properties": {
+    "addr:full":"9709 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"9709",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.874144,39.74029,-104.874144,39.74029",
     "geom:latitude":39.74029,
     "geom:longitude":-104.874144,
@@ -27,19 +32,36 @@
         "carrier"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7FHIh3qPvbJJzefHyRtzdX_39.740290_-104.874144@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447556,
-    "wof:geomhash":"426a8e34385dc292f3e24ee40864c239",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a233acf708d6847ae34807bb3addb11c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":823828129
+        }
+    ],
     "wof:id":823828129,
-    "wof:lastmodified":1466419576,
+    "wof:lastmodified":1492119214,
     "wof:name":"All City Auto Insurance Agency",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

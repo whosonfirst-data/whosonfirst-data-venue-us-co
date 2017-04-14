@@ -2,9 +2,14 @@
   "id": 824167877,
   "type": "Feature",
   "properties": {
+    "addr:full":"11230 Grant Dr Denver CO 80233",
+    "addr:housenumber":"11230",
+    "addr:postcode":"80233",
+    "addr:street":"Grant Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.981238,39.903019,-104.981238,39.903019",
     "geom:latitude":39.903019,
     "geom:longitude":-104.981238,
@@ -28,19 +33,46 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Q7pPQ5Ante0G960N9YQhE_39.903019_-104.981238@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456600,
-    "wof:geomhash":"44339d4f8f9ab909a9e8c85be54d5337",
-    "wof:hierarchy":[],
+    "wof:geomhash":"11a02ac9ff67bcdb36999146d6cf1239",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":824167877
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":824167877
+        }
+    ],
     "wof:id":824167877,
-    "wof:lastmodified":1466417835,
+    "wof:lastmodified":1492128219,
     "wof:name":"Glenn Park Village",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

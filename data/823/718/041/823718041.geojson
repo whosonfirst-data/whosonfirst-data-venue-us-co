@@ -2,9 +2,14 @@
   "id": 823718041,
   "type": "Feature",
   "properties": {
+    "addr:full":"657 Co Rd 300 Durango CO 81303",
+    "addr:housenumber":"657;300",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.831385,37.15484,-107.831385,37.15484",
     "geom:latitude":37.15484,
     "geom:longitude":-107.831385,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2mjLbD6kbFEnl8nlPFcYIe_37.154840_-107.831385@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444608,
-    "wof:geomhash":"e27a4d8e1439c89f62b87aa5235ebec6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b18d41f31cbda47feddbfc5238eb2221",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823718041
+        }
+    ],
     "wof:id":823718041,
-    "wof:lastmodified":1466418677,
+    "wof:lastmodified":1492126620,
     "wof:name":"Iron Horse Custom Builders Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

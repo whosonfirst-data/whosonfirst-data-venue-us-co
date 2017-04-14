@@ -2,9 +2,14 @@
   "id": 823643333,
   "type": "Feature",
   "properties": {
+    "addr:full":"1731 W Mississippi Ave Denver CO 80219",
+    "addr:housenumber":"1731",
+    "addr:postcode":"80219",
+    "addr:street":"W Mississippi Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.007595,39.696799,-105.007595,39.696799",
     "geom:latitude":39.696799,
     "geom:longitude":-105.007595,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554317,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0kZL09YrK6NMeZ9zzMLk7A_39.696799_-105.007595@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463442929,
     "wof:geomhash":"62601586e1cb27f572b689bbef791044",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554317,
+            "region_id":85688603,
+            "venue_id":823643333
+        }
+    ],
     "wof:id":823643333,
-    "wof:lastmodified":1466417965,
+    "wof:lastmodified":1486589808,
     "wof:name":"8th Avenue Laundromat",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823903459,
   "type": "Feature",
   "properties": {
+    "addr:full":"730 Lincoln Pl Boulder CO 80302",
+    "addr:housenumber":"730",
+    "addr:postcode":"80302",
+    "addr:street":"Lincoln Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281025,40.001297,-105.281025,40.001297",
     "geom:latitude":40.001297,
     "geom:longitude":-105.281025,
@@ -27,19 +32,32 @@
         "importer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876365,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1yhpE4exiqcIUGsVU6mDuG_40.001297_-105.281025@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449558,
-    "wof:geomhash":"a8a986b565681f5922af2ba7ee0c5bd9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"19c010df50e29ab5ccbe236af0480fbd",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876365,
+            "region_id":85688603,
+            "venue_id":823903459
+        }
+    ],
     "wof:id":823903459,
-    "wof:lastmodified":1466420258,
+    "wof:lastmodified":1492123757,
     "wof:name":"Tres Gatos Trading Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

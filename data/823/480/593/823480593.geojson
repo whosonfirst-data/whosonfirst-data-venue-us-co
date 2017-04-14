@@ -2,9 +2,14 @@
   "id": 823480593,
   "type": "Feature",
   "properties": {
+    "addr:full":"7547 Leyden St Commerce City CO 80022",
+    "addr:housenumber":"7547",
+    "addr:postcode":"80022",
+    "addr:street":"Leyden St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.91471,39.834075,-104.91471,39.834075",
     "geom:latitude":39.834075,
     "geom:longitude":-104.91471,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930259,
+        102084053,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1p3QFcGT2AMyvtWqXsM0FM_39.834075_-104.914710@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439090,
-    "wof:geomhash":"07056dad6b9891534c44db6b8061616e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ea859d9ef548a0fe2d638301bf3e6766",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":823480593
+        }
+    ],
     "wof:id":823480593,
-    "wof:lastmodified":1466413414,
+    "wof:lastmodified":1492127197,
     "wof:name":"Budget Drywall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553481,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

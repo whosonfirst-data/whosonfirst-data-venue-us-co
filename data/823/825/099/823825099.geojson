@@ -2,9 +2,14 @@
   "id": 823825099,
   "type": "Feature",
   "properties": {
+    "addr:full":"1213 Co Rd 500 Bayfield CO 81122",
+    "addr:housenumber":"1213;500",
+    "addr:postcode":"bayfield;81122",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.558714,37.458171,-107.558714,37.458171",
     "geom:latitude":37.458171,
     "geom:longitude":-107.558714,
@@ -24,19 +29,28 @@
     "sg:postcode":"81122",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554669
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3qHVz1zKpNrSwwEjRApWNq_37.458171_-107.558714@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447447,
-    "wof:geomhash":"203b1d7938103ce2f89b3e5bfc3384b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"37d6ff0d58ff4ac60cc09bba22faba3b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554669,
+            "venue_id":823825099
+        }
+    ],
     "wof:id":823825099,
-    "wof:lastmodified":1466419562,
+    "wof:lastmodified":1492123479,
     "wof:name":"Grimes Creek Resort",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554669,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823917851,
   "type": "Feature",
   "properties": {
+    "addr:full":"2895 W 90th Pl Denver CO 80260",
+    "addr:housenumber":"2895",
+    "addr:postcode":"80260",
+    "addr:street":"W 90Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024452,39.86085,-105.024452,39.86085",
     "geom:latitude":39.86085,
     "geom:longitude":-105.024452,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ceLbZzA5nesQv1h2rFZTh_39.860850_-105.024452@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449949,
-    "wof:geomhash":"d164cd3e25801645a5b987b7b6b5718d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"adc1336123dc6be5f98dd844497f95d9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823917851
+        }
+    ],
     "wof:id":823917851,
-    "wof:lastmodified":1466420360,
+    "wof:lastmodified":1492117790,
     "wof:name":"LPA Plumbing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

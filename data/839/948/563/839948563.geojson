@@ -2,9 +2,14 @@
   "id": 839948563,
   "type": "Feature",
   "properties": {
+    "addr:full":"1218 N 4th St Johnstown CO 80534",
+    "addr:housenumber":"1218",
+    "addr:postcode":"80534",
+    "addr:street":"N 4Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.923465,40.339755,-104.923465,40.339755",
     "geom:latitude":40.339755,
     "geom:longitude":-104.923465,
@@ -27,19 +32,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Jj5di2nuJIoazqoXAtnjr_40.339755_-104.923465@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459060,
-    "wof:geomhash":"696d2871f96a6335fac24900752e676a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf4777b32cfd9b99532f820e75eca4ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":839948563
+        }
+    ],
     "wof:id":839948563,
-    "wof:lastmodified":1466415203,
+    "wof:lastmodified":1492114104,
     "wof:name":"CMIT Solutions",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

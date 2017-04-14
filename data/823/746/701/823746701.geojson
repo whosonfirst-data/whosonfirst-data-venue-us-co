@@ -2,9 +2,14 @@
   "id": 823746701,
   "type": "Feature",
   "properties": {
+    "addr:full":"105 W Colorado Ave Grand Junction CO 81501",
+    "addr:housenumber":"105",
+    "addr:postcode":"81501",
+    "addr:street":"W Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572149,39.066259,-108.572149,39.066259",
     "geom:latitude":39.066259,
     "geom:longitude":-108.572149,
@@ -27,19 +32,36 @@
         "grocer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4rbQIOCap7ha0wS9JbEopX_39.066259_-108.572149@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445298,
-    "wof:geomhash":"c094bf0a265074f4078d963ecfd140c1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1fdf59ed5d1a8b0cd7d09e40a2e82ff4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554839,
+            "region_id":85688603,
+            "venue_id":823746701
+        }
+    ],
     "wof:id":823746701,
-    "wof:lastmodified":1466418910,
+    "wof:lastmodified":1492119473,
     "wof:name":"City Market Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823926283,
   "type": "Feature",
   "properties": {
+    "addr:full":"142 S College Ave Fort Collins CO 80524",
+    "addr:housenumber":"142",
+    "addr:postcode":"80524",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076956,40.586531,-105.076956,40.586531",
     "geom:latitude":40.586531,
     "geom:longitude":-105.076956,
@@ -27,19 +32,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554751
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7LtPCmDeWhnZi4W0vOPsVk_40.586531_-105.076956@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450156,
-    "wof:geomhash":"48c1885e77ed77eb16a43169c81492b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e8c73e35258c71a8d3320ab6ff5d0ed9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554751,
+            "region_id":85688603,
+            "venue_id":823926283
+        }
+    ],
     "wof:id":823926283,
-    "wof:lastmodified":1466420406,
+    "wof:lastmodified":1492124924,
     "wof:name":"Esscentuals",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554751,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

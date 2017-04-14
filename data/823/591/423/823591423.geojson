@@ -2,9 +2,14 @@
   "id": 823591423,
   "type": "Feature",
   "properties": {
+    "addr:full":"6120 E 123rd Way Brighton CO 80602",
+    "addr:housenumber":"6120",
+    "addr:postcode":"80602",
+    "addr:street":"E 123Rd Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.915589,39.919589,-104.915589,39.919589",
     "geom:latitude":39.919589,
     "geom:longitude":-104.915589,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0MyZ3y0bmEoNSmQsXAGNNu_39.919589_-104.915589@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441682,
-    "wof:geomhash":"875e680edd7a56bf20657d749f72cd9c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ced972e6a19a97f89a4d55e1898b303e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":823591423
+        }
+    ],
     "wof:id":823591423,
-    "wof:lastmodified":1466416938,
+    "wof:lastmodified":1492124584,
     "wof:name":"Lets Wrap",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

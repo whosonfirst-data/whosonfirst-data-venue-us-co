@@ -2,9 +2,14 @@
   "id": 823746917,
   "type": "Feature",
   "properties": {
+    "addr:full":"4920 28th St Boulder CO 80301",
+    "addr:housenumber":"4920",
+    "addr:postcode":"80301",
+    "addr:street":"28Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277757,40.062327,-105.277757,40.062327",
     "geom:latitude":40.062327,
     "geom:longitude":-105.277757,
@@ -27,7 +32,12 @@
         "material"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876361,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3jAiYNVGs0TcYsExtBNinR_40.062327_-105.277757@1294083659"
@@ -35,11 +45,19 @@
     "wof:country":"US",
     "wof:created":1463445303,
     "wof:geomhash":"ebc238f30473df164b3e2dcd2b2258c4",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876361,
+            "region_id":85688603,
+            "venue_id":823746917
+        }
+    ],
     "wof:id":823746917,
-    "wof:lastmodified":1466418922,
+    "wof:lastmodified":1491924273,
     "wof:name":"Atlas Flooring Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

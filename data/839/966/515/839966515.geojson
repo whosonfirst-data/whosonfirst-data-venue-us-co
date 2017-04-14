@@ -2,9 +2,14 @@
   "id": 839966515,
   "type": "Feature",
   "properties": {
+    "addr:full":"330 Park Ave Fort Lupton CO 80621",
+    "addr:housenumber":"330",
+    "addr:postcode":"80621",
+    "addr:street":"Park Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.811641,40.082961,-104.811641,40.082961",
     "geom:latitude":40.082961,
     "geom:longitude":-104.811641,
@@ -27,19 +32,28 @@
         "county"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2UmcqV3kpK4QqgiTGmTEzX_40.082961_-104.811641@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459874,
-    "wof:geomhash":"cea65b608f77ef89b608b0589d109288",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5028f364940a5a14ab8fce9ba6fb6cb8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":839966515
+        }
+    ],
     "wof:id":839966515,
-    "wof:lastmodified":1466415972,
+    "wof:lastmodified":1492111320,
     "wof:name":"Weld County Clerk",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

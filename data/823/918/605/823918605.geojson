@@ -2,9 +2,14 @@
   "id": 823918605,
   "type": "Feature",
   "properties": {
+    "addr:full":"550 E 64th Ave Denver CO 80229",
+    "addr:housenumber":"550",
+    "addr:postcode":"80229",
+    "addr:street":"E 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979571,39.81268,-104.979571,39.81268",
     "geom:latitude":39.81268,
     "geom:longitude":-104.979571,
@@ -31,19 +36,36 @@
         "generator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ZOzZ9JaBHgHgYskdULrUj_39.812680_-104.979571@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449967,
-    "wof:geomhash":"14ae9125640f4392ed4d9e17bf29a8c1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0363112e2c6a1ed9559d91d21d4eaec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":823918605
+        }
+    ],
     "wof:id":823918605,
-    "wof:lastmodified":1466420359,
+    "wof:lastmodified":1492121260,
     "wof:name":"Rocky Mountain Sales & Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

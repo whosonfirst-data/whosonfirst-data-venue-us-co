@@ -2,9 +2,14 @@
   "id": 839951597,
   "type": "Feature",
   "properties": {
+    "addr:full":"5600 W 88th Ave Westminster CO 80031",
+    "addr:housenumber":"5600",
+    "addr:postcode":"80031",
+    "addr:street":"W 88Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060016,39.856381,-105.060016,39.856381",
     "geom:latitude":39.856381,
     "geom:longitude":-105.060016,
@@ -28,19 +33,36 @@
         "improvement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0hK8rUgO8sxTry9babKGZH_39.856381_-105.060016@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459184,
-    "wof:geomhash":"f26e3f3fbdad0c34dec033fd071e25a8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b176e894c95dfc600d62df01ac9b299e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":839951597
+        }
+    ],
     "wof:id":839951597,
-    "wof:lastmodified":1466415226,
+    "wof:lastmodified":1492113050,
     "wof:name":"Lowe's Of Westminster",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823815965,
   "type": "Feature",
   "properties": {
+    "addr:full":"1340 Airport Rd Durango CO 81303",
+    "addr:housenumber":"1340",
+    "addr:postcode":"co 81303",
+    "addr:street":"Airport Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.752029,37.157784,-107.752029,37.157784",
     "geom:latitude":37.157784,
     "geom:longitude":-107.752029,
@@ -29,19 +34,28 @@
     ],
     "sg:website":"www.durangoair.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_21yC0swyVVuzir6cRe8vt7_37.157784_-107.752029@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447181,
-    "wof:geomhash":"b9a4d0da236922d6b38e1dbe8ef8af48",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c9b47f18314a623944fcc8abfe0de9b9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823815965
+        }
+    ],
     "wof:id":823815965,
-    "wof:lastmodified":1466419536,
+    "wof:lastmodified":1492122349,
     "wof:name":"Durango Air Svc Scenic Flights",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

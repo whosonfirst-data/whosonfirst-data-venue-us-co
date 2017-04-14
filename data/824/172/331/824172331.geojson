@@ -2,9 +2,14 @@
   "id": 824172331,
   "type": "Feature",
   "properties": {
+    "addr:full":"1691 E Empire St Cortez CO 81321",
+    "addr:housenumber":"1691",
+    "addr:postcode":"81321",
+    "addr:street":"E Empire St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.56454,37.356245,-108.56454,37.356245",
     "geom:latitude":37.356245,
     "geom:longitude":-108.56454,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555047
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_79vIL2EJmeZNIO5fHfrQLR_37.356245_-108.564540@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456773,
-    "wof:geomhash":"eb994ae4b7abb4553e8607f5f01776fb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3f1f05ce2be6c51eede35cec24685ae6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555047,
+            "region_id":85688603,
+            "venue_id":824172331
+        }
+    ],
     "wof:id":824172331,
-    "wof:lastmodified":1466418062,
+    "wof:lastmodified":1492128274,
     "wof:name":"Aspen Home Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555047,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

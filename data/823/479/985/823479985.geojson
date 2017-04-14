@@ -2,9 +2,14 @@
   "id": 823479985,
   "type": "Feature",
   "properties": {
+    "addr:full":"70 Co Rd 222 Durango CO 81303",
+    "addr:housenumber":"70;222",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.763738,37.22923,-107.763738,37.22923",
     "geom:latitude":37.22923,
     "geom:longitude":-107.763738,
@@ -27,19 +32,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554645
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6f2hpuBa0MS0dDk3mNqvxZ_37.229230_-107.763738@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439079,
-    "wof:geomhash":"ad3f35b9d2b3a9c00c9545946e7f86e3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a23578601c1619620a06a36dec932f5c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554645,
+            "venue_id":823479985
+        }
+    ],
     "wof:id":823479985,
-    "wof:lastmodified":1466413352,
+    "wof:lastmodified":1492117150,
     "wof:name":"Coyote Tile LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554645,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823652959,
   "type": "Feature",
   "properties": {
+    "addr:full":"1195 Bear Mountain Dr Boulder CO 80305",
+    "addr:housenumber":"1195",
+    "addr:postcode":"80305",
+    "addr:street":"Bear Mountain Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.261278,39.978061,-105.261278,39.978061",
     "geom:latitude":39.978061,
     "geom:longitude":-105.261278,
@@ -27,19 +32,36 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4a5ZshtxtOH5YlCNvCGWY8_39.978061_-105.261278@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443144,
-    "wof:geomhash":"a211f878b487c4cc76d0504f5f74eb0c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b6b215c121e4e2b1e40f6fe9e63e1aa8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":823652959
+        }
+    ],
     "wof:id":823652959,
-    "wof:lastmodified":1466418161,
+    "wof:lastmodified":1492121149,
     "wof:name":"Soho Ergonomics Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

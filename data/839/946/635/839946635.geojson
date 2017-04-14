@@ -2,9 +2,14 @@
   "id": 839946635,
   "type": "Feature",
   "properties": {
+    "addr:full":"1917 Chestnut Pl Denver CO 80202",
+    "addr:housenumber":"1917",
+    "addr:postcode":"80202",
+    "addr:street":"Chestnut Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.998793,39.757631,-104.998793,39.757631",
     "geom:latitude":39.757631,
     "geom:longitude":-104.998793,
@@ -27,7 +32,16 @@
         "garage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108749011,
+        85871287,
+        102191575,
+        1108750057,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7bVjvwg37T0EsXyzrA4s5a_39.757631_-104.998793@1294083659"
@@ -35,11 +49,23 @@
     "wof:country":"US",
     "wof:created":1463458947,
     "wof:geomhash":"88d357fb56beaa97bd41bccf5596f3b9",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750057,
+            "microhood_id":1108749011,
+            "neighbourhood_id":85871287,
+            "region_id":85688603,
+            "venue_id":839946635
+        }
+    ],
     "wof:id":839946635,
-    "wof:lastmodified":1466415210,
+    "wof:lastmodified":1486604348,
     "wof:name":"Tent & Tailgate Club",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108749011,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

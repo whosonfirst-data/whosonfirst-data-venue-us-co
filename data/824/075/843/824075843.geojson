@@ -2,9 +2,14 @@
   "id": 824075843,
   "type": "Feature",
   "properties": {
+    "addr:full":"6331 Washington St Denver CO 80216",
+    "addr:housenumber":"6331",
+    "addr:postcode":"80216",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978128,39.810393,-104.978128,39.810393",
     "geom:latitude":39.810393,
     "geom:longitude":-104.978128,
@@ -27,19 +32,36 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2va4xSOKYKOQc37V25ghYU_39.810393_-104.978128@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453759,
-    "wof:geomhash":"84e6d29c6f48b3f2dada45e3fa921e48",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d099d1c1957a75e7597bd50c4f48b609",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":824075843
+        }
+    ],
     "wof:id":824075843,
-    "wof:lastmodified":1466414705,
+    "wof:lastmodified":1492131132,
     "wof:name":"Why Not Lounge",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

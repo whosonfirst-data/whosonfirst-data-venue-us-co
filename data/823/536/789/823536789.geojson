@@ -2,9 +2,14 @@
   "id": 823536789,
   "type": "Feature",
   "properties": {
+    "addr:full":"104 Peach Clifton CO 81520",
+    "addr:housenumber":"104",
+    "addr:postcode":"81520",
+    "addr:street":"Peach",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.447812,39.092505,-108.447812,39.092505",
     "geom:latitude":39.092505,
     "geom:longitude":-108.447812,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554851
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0kiVmXAiEjefuhpjgu5rTw_39.092505_-108.447812@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440398,
-    "wof:geomhash":"c6a3173d6809937a492e22943ec69883",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1e55080fbb810531f120b2c308dab725",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554851,
+            "region_id":85688603,
+            "venue_id":823536789
+        }
+    ],
     "wof:id":823536789,
-    "wof:lastmodified":1466415296,
+    "wof:lastmodified":1492127077,
     "wof:name":"Western Fireproofing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554851,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

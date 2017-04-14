@@ -2,9 +2,14 @@
   "id": 823911473,
   "type": "Feature",
   "properties": {
+    "addr:full":"512 N Broadway Cortez CO 81321",
+    "addr:housenumber":"512",
+    "addr:postcode":"81321",
+    "addr:street":"N Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.589163,37.355254,-108.589163,37.355254",
     "geom:latitude":37.355254,
     "geom:longitude":-108.589163,
@@ -30,19 +35,28 @@
         "gas"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1j0xfGRjxepR2U7OhJvCVe_37.355254_-108.589163@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449783,
-    "wof:geomhash":"b743388edffee3a01dc5ad7be67da2a9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"47015ec1b171284183efb1bbd0d69fde",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823911473
+        }
+    ],
     "wof:id":823911473,
-    "wof:lastmodified":1466420316,
+    "wof:lastmodified":1492124028,
     "wof:name":"Triad Western Constructors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

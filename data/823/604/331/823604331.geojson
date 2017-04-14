@@ -2,9 +2,14 @@
   "id": 823604331,
   "type": "Feature",
   "properties": {
+    "addr:full":"2345 Phillips Cir Montrose CO 81401",
+    "addr:housenumber":"2345",
+    "addr:postcode":"81401",
+    "addr:street":"Phillips Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.85086,38.477876,-107.85086,38.477876",
     "geom:latitude":38.477876,
     "geom:longitude":-107.85086,
@@ -29,17 +34,32 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6K6tsZnJf8gebAnttl7qwv_38.477876_-107.850860@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442005,
-    "wof:geomhash":"13cdedfab3cae2c7812755ffdb7e8a39",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ef6691f7a9ffb9b0fd1cc2eabca49970",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":823604331
+        }
+    ],
     "wof:id":823604331,
-    "wof:lastmodified":1466417205,
+    "wof:lastmodified":1492119001,
     "wof:name":"Irrevocable Trust of Adam",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 824179855,
   "type": "Feature",
   "properties": {
+    "addr:full":"7757 Ellen Ln Denver CO 80221",
+    "addr:housenumber":"7757",
+    "addr:postcode":"80221",
+    "addr:street":"Ellen Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.987748,39.836198,-104.987748,39.836198",
     "geom:latitude":39.836198,
     "geom:longitude":-104.987748,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_615ri9fZpfzu3JPFSlY6dx_39.836198_-104.987748@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457061,
-    "wof:geomhash":"c030dd0fc069f44251f32fb68bc557aa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cd0694d8a3492b63b72eb40b5d19546e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553625,
+            "region_id":85688603,
+            "venue_id":824179855
+        }
+    ],
     "wof:id":824179855,
-    "wof:lastmodified":1466418236,
+    "wof:lastmodified":1492132129,
     "wof:name":"H D R Investments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

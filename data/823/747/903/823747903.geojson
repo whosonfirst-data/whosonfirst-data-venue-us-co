@@ -2,9 +2,14 @@
   "id": 823747903,
   "type": "Feature",
   "properties": {
+    "addr:full":"1256 Co Rd 119 Durango CO 81326",
+    "addr:housenumber":"1256;119",
+    "addr:postcode":"co 81326",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.130429,37.147853,-108.130429,37.147853",
     "geom:latitude":37.147853,
     "geom:longitude":-108.130429,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_30UaXd6FZslR4B1UPTcjFL_37.147853_-108.130429@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445325,
-    "wof:geomhash":"0f40e09846599d3359181c246d31bf45",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1c6630347d11f06535ff76b360c421c7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":823747903
+        }
+    ],
     "wof:id":823747903,
-    "wof:lastmodified":1466418968,
+    "wof:lastmodified":1492117983,
     "wof:name":"After Hours Sewer & Drain Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

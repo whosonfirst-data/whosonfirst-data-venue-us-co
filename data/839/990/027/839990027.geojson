@@ -2,9 +2,14 @@
   "id": 839990027,
   "type": "Feature",
   "properties": {
+    "addr:full":"800 Macgregor Ave Estes Park CO 80517",
+    "addr:housenumber":"800",
+    "addr:postcode":"80517",
+    "addr:street":"Macgregor Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.523713,40.385899,-105.523713,40.385899",
     "geom:latitude":40.385899,
     "geom:longitude":-105.523713,
@@ -29,19 +34,36 @@
         "steakhouse"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929681,
+        102083353,
+        420554725
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6wpahLvH7cMytPMNp6xBiZ_40.385899_-105.523713@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460813,
-    "wof:geomhash":"ecdfcd727f3365e65785d8bd61173058",
-    "wof:hierarchy":[],
+    "wof:geomhash":"90322a1632735c576773dd0fd35de50e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929681,
+            "neighbourhood_id":420554725,
+            "region_id":85688603,
+            "venue_id":839990027
+        }
+    ],
     "wof:id":839990027,
-    "wof:lastmodified":1466417521,
+    "wof:lastmodified":1492110561,
     "wof:name":"The Twin Owls Steakhouse",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554725,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

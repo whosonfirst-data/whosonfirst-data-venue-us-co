@@ -2,9 +2,14 @@
   "id": 823865647,
   "type": "Feature",
   "properties": {
+    "addr:full":"4843 W 29th Ave Denver CO 80212",
+    "addr:housenumber":"4843",
+    "addr:postcode":"80212",
+    "addr:street":"W 29Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.050796,39.758547,-105.050796,39.758547",
     "geom:latitude":39.758547,
     "geom:longitude":-105.050796,
@@ -27,19 +32,38 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4lQDybC31r3UonJ4RNKpLi_39.758547_-105.050796@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448639,
-    "wof:geomhash":"3b148408451ed0732e74d1a4b3ebd32a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c344f3a4a2b55e78883a1e19fcbd4bdf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823865647
+        }
+    ],
     "wof:id":823865647,
-    "wof:lastmodified":1466419921,
+    "wof:lastmodified":1492121209,
     "wof:name":"Heaton Consultant",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

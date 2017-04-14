@@ -2,9 +2,14 @@
   "id": 823886623,
   "type": "Feature",
   "properties": {
+    "addr:full":"2971 W 90th Pl Denver CO 80260",
+    "addr:housenumber":"2971",
+    "addr:postcode":"80260",
+    "addr:street":"W 90Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.023177,39.860842,-105.023177,39.860842",
     "geom:latitude":39.860842,
     "geom:longitude":-105.023177,
@@ -28,19 +33,36 @@
         "cover"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4b1wX9Q8nmlM5EgGbR2V0o_39.860842_-105.023177@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449119,
-    "wof:geomhash":"bc1ce0be073baa0bcde13c0fffe472a3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"21920472f10e36d3533f2d3696741dec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823886623
+        }
+    ],
     "wof:id":823886623,
-    "wof:lastmodified":1466420091,
+    "wof:lastmodified":1492125659,
     "wof:name":"Pro Wheel & Tires",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823771013,
   "type": "Feature",
   "properties": {
+    "addr:full":"3309 Baltimore Ave Pueblo CO 81008",
+    "addr:housenumber":"3309",
+    "addr:postcode":"81008",
+    "addr:street":"Baltimore Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.635409,38.303351,-104.635409,38.303351",
     "geom:latitude":38.303351,
     "geom:longitude":-104.635409,
@@ -27,17 +32,32 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Kq8vIqCwIfMl4iLGyaVka_38.303351_-104.635409@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445844,
-    "wof:geomhash":"554e86dce83ab9768e0c7cdccc404304",
-    "wof:hierarchy":[],
+    "wof:geomhash":"878264ea02aae3bd145de05297d582b8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823771013
+        }
+    ],
     "wof:id":823771013,
-    "wof:lastmodified":1466419072,
+    "wof:lastmodified":1492119040,
     "wof:name":"Dublin House",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

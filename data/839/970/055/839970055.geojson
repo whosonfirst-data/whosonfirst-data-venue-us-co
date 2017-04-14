@@ -2,9 +2,14 @@
   "id": 839970055,
   "type": "Feature",
   "properties": {
+    "addr:full":"4385 W Florida Ave Denver CO 80219",
+    "addr:housenumber":"4385",
+    "addr:postcode":"80219",
+    "addr:street":"W Florida Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.043356,39.689561,-105.043356,39.689561",
     "geom:latitude":39.689561,
     "geom:longitude":-105.043356,
@@ -27,19 +32,38 @@
         "western"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6skQSiAxqOj6n1VFZm44Hz_39.689561_-105.043356@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460017,
-    "wof:geomhash":"aa3223424f3b337a2df6678591fa9c9e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c253312c0cbdf04a78414b6e5194c6ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":839970055
+        }
+    ],
     "wof:id":839970055,
-    "wof:lastmodified":1466416132,
+    "wof:lastmodified":1492110707,
     "wof:name":"Western Centers Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

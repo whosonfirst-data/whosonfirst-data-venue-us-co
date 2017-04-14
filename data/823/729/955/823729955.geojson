@@ -2,9 +2,14 @@
   "id": 823729955,
   "type": "Feature",
   "properties": {
+    "addr:full":"7850 W 5th Ave Lakewood CO 80226",
+    "addr:housenumber":"7850",
+    "addr:postcode":"80226",
+    "addr:street":"W 5Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.085353,39.723828,-105.085353,39.723828",
     "geom:latitude":39.723828,
     "geom:longitude":-105.085353,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0y9Kg5rXUzWratJg55Gn2O_39.723828_-105.085353@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444901,
-    "wof:geomhash":"97bc000544012d00d7628b960be1a560",
-    "wof:hierarchy":[],
+    "wof:geomhash":"857e6b90798b1ebfcdef857baf3d5036",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823729955
+        }
+    ],
     "wof:id":823729955,
-    "wof:lastmodified":1466418534,
+    "wof:lastmodified":1492118309,
     "wof:name":"Exotic Metal Interior Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

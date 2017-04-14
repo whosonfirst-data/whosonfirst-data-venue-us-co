@@ -2,9 +2,14 @@
   "id": 823667073,
   "type": "Feature",
   "properties": {
+    "addr:full":"2050 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2050",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.543261,39.077462,-108.543261,39.077462",
     "geom:latitude":39.077462,
     "geom:longitude":-108.543261,
@@ -24,19 +29,36 @@
     "sg:postcode":"81501",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0zrI7ygY26kU8Bt4VMaH9H_39.077462_-108.543261@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443502,
-    "wof:geomhash":"0cabde0697322e314913301c452e10fe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"866e01b2635bb76494230cd6879efe7c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554923,
+            "region_id":85688603,
+            "venue_id":823667073
+        }
+    ],
     "wof:id":823667073,
-    "wof:lastmodified":1466418242,
+    "wof:lastmodified":1492127140,
     "wof:name":"Stop N Save",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

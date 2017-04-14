@@ -2,9 +2,14 @@
   "id": 824159971,
   "type": "Feature",
   "properties": {
+    "addr:full":"1670 Co Rd 858 Cimarron CO 81220",
+    "addr:housenumber":"1670;858",
+    "addr:postcode":"cimarron;81220",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.544014,38.26891,-107.544014,38.26891",
     "geom:latitude":38.26891,
     "geom:longitude":-107.544014,
@@ -27,19 +32,28 @@
         "resort"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7cenuFhckzwXbAzZMvgqhp_38.268910_-107.544014@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456295,
-    "wof:geomhash":"5692c93fdd720045de96893fcd567071",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0122825dbe6ff69a30c70f7f6e1c2425",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554359,
+            "venue_id":824159971
+        }
+    ],
     "wof:id":824159971,
-    "wof:lastmodified":1466417512,
+    "wof:lastmodified":1492128618,
     "wof:name":"El Rancho Cimarron Resorts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

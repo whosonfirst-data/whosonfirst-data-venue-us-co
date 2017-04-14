@@ -2,9 +2,14 @@
   "id": 823896209,
   "type": "Feature",
   "properties": {
+    "addr:full":"147 E 7th Ave Durango CO 81301",
+    "addr:housenumber":"147",
+    "addr:postcode":"co 81301",
+    "addr:street":"E 7Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.875141,37.263811,-107.875141,37.263811",
     "geom:latitude":37.263811,
     "geom:longitude":-107.875141,
@@ -27,19 +32,28 @@
         "accident"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Sk7UEa7EhTe5qVTVcH60J_37.263811_-107.875141@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449357,
-    "wof:geomhash":"a136926f4edb07226a9744153f84eed3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"87137716c913342ba950f142b4ac5e18",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":823896209
+        }
+    ],
     "wof:id":823896209,
-    "wof:lastmodified":1466420124,
+    "wof:lastmodified":1492119583,
     "wof:name":"Alliance Group Health Care",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

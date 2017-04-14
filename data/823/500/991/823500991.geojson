@@ -2,9 +2,14 @@
   "id": 823500991,
   "type": "Feature",
   "properties": {
+    "addr:full":"8070 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"8070",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053241,39.843981,-105.053241,39.843981",
     "geom:latitude":39.843981,
     "geom:longitude":-105.053241,
@@ -29,19 +34,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3tMoQeUzs6O5NS77j7tGBP_39.843981_-105.053241@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439598,
-    "wof:geomhash":"808e4fc9567755d8bace0c113dc155e5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a1a97c2eec9f4928a11e4b25b0dd9ea1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":823500991
+        }
+    ],
     "wof:id":823500991,
-    "wof:lastmodified":1466414281,
+    "wof:lastmodified":1492125549,
     "wof:name":"High Tech Auto Clinic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

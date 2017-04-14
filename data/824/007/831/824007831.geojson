@@ -2,9 +2,14 @@
   "id": 824007831,
   "type": "Feature",
   "properties": {
+    "addr:full":"4020 E 104th Ave Denver CO 80233",
+    "addr:housenumber":"4020",
+    "addr:postcode":"80233",
+    "addr:street":"E 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.938471,39.884828,-104.938471,39.884828",
     "geom:latitude":39.884828,
     "geom:longitude":-104.938471,
@@ -27,19 +32,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0IQKVvmKsLewjHkGAX8ahf_39.884828_-104.938471@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452154,
-    "wof:geomhash":"7f1701470ea1bafc607812f8380aba6e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"088371bff43629349c7e66d135e10df6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553729,
+            "region_id":85688603,
+            "venue_id":824007831
+        }
+    ],
     "wof:id":824007831,
-    "wof:lastmodified":1466412709,
+    "wof:lastmodified":1492128438,
     "wof:name":"Shell",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

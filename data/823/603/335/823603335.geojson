@@ -2,9 +2,14 @@
   "id": 823603335,
   "type": "Feature",
   "properties": {
+    "addr:full":"1441 Motor St Grand Junction CO 81505",
+    "addr:housenumber":"1441",
+    "addr:postcode":"81505",
+    "addr:street":"Motor St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.577072,39.079034,-108.577072,39.079034",
     "geom:latitude":39.079034,
     "geom:longitude":-108.577072,
@@ -28,19 +33,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554785
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0rWXT3h8qOxKwCDEpnzkSF_39.079034_-108.577072@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441987,
-    "wof:geomhash":"89e1acc9e51c0485ed2a553b1f2ddada",
-    "wof:hierarchy":[],
+    "wof:geomhash":"20ae96b51d00134a163085b077501292",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554785,
+            "region_id":85688603,
+            "venue_id":823603335
+        }
+    ],
     "wof:id":823603335,
-    "wof:lastmodified":1466417200,
+    "wof:lastmodified":1492126131,
     "wof:name":"Grand Junction Lincoln Devore",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554785,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

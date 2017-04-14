@@ -2,9 +2,14 @@
   "id": 823561667,
   "type": "Feature",
   "properties": {
+    "addr:full":"11340 Downing Dr Northglenn CO 80233",
+    "addr:housenumber":"11340",
+    "addr:postcode":"80233",
+    "addr:street":"Downing Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.975904,39.902344,-104.975904,39.902344",
     "geom:latitude":39.902344,
     "geom:longitude":-104.975904,
@@ -28,19 +33,36 @@
         "locksmith"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2FNnIjMG5vfTYbzqIMl34d_39.902344_-104.975904@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440981,
-    "wof:geomhash":"090747d6c57283bddfed96b8185507d1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b7bd721d9744c1da5a36e154cba25c78",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823561667
+        }
+    ],
     "wof:id":823561667,
-    "wof:lastmodified":1466416134,
+    "wof:lastmodified":1492126167,
     "wof:name":"NTW Lock Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

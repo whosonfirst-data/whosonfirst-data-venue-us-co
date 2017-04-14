@@ -2,9 +2,14 @@
   "id": 824127013,
   "type": "Feature",
   "properties": {
+    "addr:full":"799 E 3rd St Durango CO 81301",
+    "addr:housenumber":"799",
+    "addr:postcode":"co 81301",
+    "addr:street":"E 3Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.873257,37.264914,-107.873257,37.264914",
     "geom:latitude":37.264914,
     "geom:longitude":-107.873257,
@@ -27,19 +32,28 @@
         "body"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1eOc8JM7l43wcHcmUcmW2p_37.264914_-107.873257@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455010,
-    "wof:geomhash":"3bdc44a740eb2f2134821c72ac8feb77",
-    "wof:hierarchy":[],
+    "wof:geomhash":"98b55604ecceceac68822c543bc27edb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":824127013
+        }
+    ],
     "wof:id":824127013,
-    "wof:lastmodified":1466415860,
+    "wof:lastmodified":1492131934,
     "wof:name":"Custom Conversations",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

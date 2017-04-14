@@ -2,9 +2,14 @@
   "id": 823664773,
   "type": "Feature",
   "properties": {
+    "addr:full":"922 S Santa Fe Ave Pueblo CO 81006",
+    "addr:housenumber":"922",
+    "addr:postcode":"81006",
+    "addr:street":"S Santa Fe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.606585,38.250497,-104.606585,38.250497",
     "geom:latitude":38.250497,
     "geom:longitude":-104.606585,
@@ -27,17 +32,32 @@
         "ambulance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1PcKCUJwn1pCOGW9vRIlNV_38.250497_-104.606585@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443451,
-    "wof:geomhash":"7abab6d9c49c96a7ffebbe8c9af2f96e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fada59e5f1d3333ba009ade121ba5525",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823664773
+        }
+    ],
     "wof:id":823664773,
-    "wof:lastmodified":1466418263,
+    "wof:lastmodified":1492127644,
     "wof:name":"American Medical Response",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823491965,
   "type": "Feature",
   "properties": {
+    "addr:full":"854 E 132nd Cir Denver CO 80241",
+    "addr:housenumber":"854",
+    "addr:postcode":"80241",
+    "addr:street":"E 132Nd Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97546,39.936587,-104.97546,39.936587",
     "geom:latitude":39.936587,
     "geom:longitude":-104.97546,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_751OLKZwgEMs0OywKAjyJT_39.936587_-104.975460@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439354,
-    "wof:geomhash":"95e13776029e2d5f4b8f595621302d19",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e06dabf173891f3991866fd7665ac60f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":823491965
+        }
+    ],
     "wof:id":823491965,
-    "wof:lastmodified":1466413788,
+    "wof:lastmodified":1492127271,
     "wof:name":"Gemini Tile",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

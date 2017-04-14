@@ -2,9 +2,14 @@
   "id": 824174141,
   "type": "Feature",
   "properties": {
+    "addr:full":"538 Malley Dr Denver CO 80233",
+    "addr:housenumber":"538",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980061,39.902939,-104.980061,39.902939",
     "geom:latitude":39.902939,
     "geom:longitude":-104.980061,
@@ -27,19 +32,36 @@
         "grocer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3FSveoUChEHeQDG2pQzmFm_39.902939_-104.980061@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456845,
-    "wof:geomhash":"955ae05dd76875457cd1fb596f3403fa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"51d3f13908ec1fbe6f857c869df3f57a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":824174141
+        }
+    ],
     "wof:id":824174141,
-    "wof:lastmodified":1466417939,
+    "wof:lastmodified":1492133230,
     "wof:name":"Tortilleria By Chihuahua",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823669791,
   "type": "Feature",
   "properties": {
+    "addr:full":"2365 Kenwood Dr Boulder CO 80305",
+    "addr:housenumber":"2365",
+    "addr:postcode":"80305",
+    "addr:street":"Kenwood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260715,39.988525,-105.260715,39.988525",
     "geom:latitude":39.988525,
     "geom:longitude":-105.260715,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2yuN7Oc8YC70ygNNT7jeOK_39.988525_-105.260715@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443567,
-    "wof:geomhash":"e295a59222a6e11524bee8d76428ce9f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a7744c18153b025d19c508fd9a2400c8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":823669791
+        }
+    ],
     "wof:id":823669791,
-    "wof:lastmodified":1466418166,
+    "wof:lastmodified":1492121755,
     "wof:name":"Pete's Window Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

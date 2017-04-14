@@ -2,9 +2,14 @@
   "id": 823927211,
   "type": "Feature",
   "properties": {
+    "addr:full":"12902 Columbine Cir Denver CO 80241",
+    "addr:housenumber":"12902",
+    "addr:postcode":"80241",
+    "addr:street":"Columbine Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.95736,39.929215,-104.95736,39.929215",
     "geom:latitude":39.929215,
     "geom:longitude":-104.95736,
@@ -27,19 +32,36 @@
         "project"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7f6K62SYZjzAR7vZbMHJzJ_39.929215_-104.957360@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450182,
-    "wof:geomhash":"e386426747dd861931130ffde31226be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a6ed5469e003e3092193c3869f6c7123",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823927211
+        }
+    ],
     "wof:id":823927211,
-    "wof:lastmodified":1466420407,
+    "wof:lastmodified":1492115952,
     "wof:name":"RGE Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

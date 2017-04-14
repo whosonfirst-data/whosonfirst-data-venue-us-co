@@ -2,9 +2,14 @@
   "id": 839983561,
   "type": "Feature",
   "properties": {
+    "addr:full":"8710 Grant St Denver CO 80229",
+    "addr:housenumber":"8710",
+    "addr:postcode":"80229",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.983706,39.854828,-104.983706,39.854828",
     "geom:latitude":39.854828,
     "geom:longitude":-104.983706,
@@ -30,19 +35,36 @@
     ],
     "sg:website":"http://www.metronorthnews.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4tXTiDWyEin9XHD2HrvPZm_39.854440_-104.983672@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460563,
-    "wof:geomhash":"e5ca1901188348b98847a863217fc9dd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"363f8b5fcb4196c724f2e2074ec26be7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":839983561
+        }
+    ],
     "wof:id":839983561,
-    "wof:lastmodified":1466417048,
+    "wof:lastmodified":1492110662,
     "wof:name":"Metro North Newspapers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

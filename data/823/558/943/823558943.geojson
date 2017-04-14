@@ -2,9 +2,14 @@
   "id": 823558943,
   "type": "Feature",
   "properties": {
+    "addr:full":"3001 Industrial Ln Broomfield CO 80020",
+    "addr:housenumber":"3001",
+    "addr:postcode":"80020",
+    "addr:street":"Industrial Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.107253,39.923554,-105.107253,39.923554",
     "geom:latitude":39.923554,
     "geom:longitude":-105.107253,
@@ -31,19 +36,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554215
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0bAu6Ldr9IjXP04rgzCdFf_39.923554_-105.107253@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440908,
-    "wof:geomhash":"dfb3c7f14d63a1e75701ef671b0e46db",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1065d3efe38b3b8774693122bd17b91f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554215,
+            "region_id":85688603,
+            "venue_id":823558943
+        }
+    ],
     "wof:id":823558943,
-    "wof:lastmodified":1466416152,
+    "wof:lastmodified":1492117746,
     "wof:name":"Performance Foods",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554215,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

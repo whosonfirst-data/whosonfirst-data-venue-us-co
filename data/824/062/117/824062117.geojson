@@ -2,9 +2,14 @@
   "id": 824062117,
   "type": "Feature",
   "properties": {
+    "addr:full":"920 S Broadway Cortez CO 81321",
+    "addr:housenumber":"920",
+    "addr:postcode":"81321",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.59971,37.339639,-108.59971,37.339639",
     "geom:latitude":37.339639,
     "geom:longitude":-108.59971,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3vp8V25rL09aFngSSWkd4a_37.339639_-108.599710@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453433,
-    "wof:geomhash":"4230a831e186a429e43583afabeca75c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1907e265035cd3ed540fbda4946f7a97",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555063,
+            "region_id":85688603,
+            "venue_id":824062117
+        }
+    ],
     "wof:id":824062117,
-    "wof:lastmodified":1466414417,
+    "wof:lastmodified":1492132251,
     "wof:name":"Wheelz LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

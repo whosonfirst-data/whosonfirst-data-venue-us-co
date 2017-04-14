@@ -2,9 +2,14 @@
   "id": 823770007,
   "type": "Feature",
   "properties": {
+    "addr:full":"3121 Delta Dr Colorado Springs CO 80910",
+    "addr:housenumber":"3121",
+    "addr:postcode":"80910",
+    "addr:street":"Delta Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.777528,38.795946,-104.777528,38.795946",
     "geom:latitude":38.795946,
     "geom:longitude":-104.777528,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_76uLHIq2JLzbpVn7uDwpI2_38.795946_-104.777528@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445823,
-    "wof:geomhash":"66adf74d330545a9f2d2309e3c61f50d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fec2384a2a2d2a7782f4bba8ac0021b6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823770007
+        }
+    ],
     "wof:id":823770007,
-    "wof:lastmodified":1466419072,
+    "wof:lastmodified":1492118561,
     "wof:name":"Valley Stucco",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

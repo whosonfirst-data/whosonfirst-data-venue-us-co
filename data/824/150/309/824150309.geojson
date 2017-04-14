@@ -2,9 +2,14 @@
   "id": 824150309,
   "type": "Feature",
   "properties": {
+    "addr:full":"642 Rocky Mountain Way Fort Collins CO 80526",
+    "addr:housenumber":"642",
+    "addr:postcode":"80526",
+    "addr:street":"Rocky Mountain Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.088337,40.548118,-105.088337,40.548118",
     "geom:latitude":40.548118,
     "geom:longitude":-105.088337,
@@ -27,19 +32,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6wXlcoipYdwjy4PX9GA6Hg_40.548118_-105.088337@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455914,
-    "wof:geomhash":"09db93d082c2aa6a6ed947bbf80aac5a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"557c9a9eddd84fa8e5f6ae386b6c6179",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":824150309
+        }
+    ],
     "wof:id":824150309,
-    "wof:lastmodified":1466416832,
+    "wof:lastmodified":1492132002,
     "wof:name":"Agl Computer Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

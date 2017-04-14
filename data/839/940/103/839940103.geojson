@@ -2,9 +2,14 @@
   "id": 839940103,
   "type": "Feature",
   "properties": {
+    "addr:full":"3085 Bluff St Boulder CO 80301",
+    "addr:housenumber":"3085",
+    "addr:postcode":"80301",
+    "addr:street":"Bluff St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.253066,40.027639,-105.253066,40.027639",
     "geom:latitude":40.027639,
     "geom:longitude":-105.253066,
@@ -27,19 +32,36 @@
         "repair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3N3sLJkmxxSHlyVH7qmnCE_40.027639_-105.253066@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458498,
-    "wof:geomhash":"76dc5423ca9fc6ca019800498b392d81",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b25e289098bedf52e060b58b8e3105e7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":839940103
+        }
+    ],
     "wof:id":839940103,
-    "wof:lastmodified":1466414859,
+    "wof:lastmodified":1492114256,
     "wof:name":"Fix Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

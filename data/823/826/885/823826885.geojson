@@ -2,9 +2,14 @@
   "id": 823826885,
   "type": "Feature",
   "properties": {
+    "addr:full":"3670 Morrison Ln Johnstown CO 80534",
+    "addr:housenumber":"3670",
+    "addr:postcode":"80534",
+    "addr:street":"Morrison Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.954875,40.337989,-104.954875,40.337989",
     "geom:latitude":40.337989,
     "geom:longitude":-104.954875,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5N0L41WZ5G9T56BmJ4hmwg_40.337989_-104.954875@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447513,
-    "wof:geomhash":"bed03d1644f9ed890feb90c8e71ab714",
-    "wof:hierarchy":[],
+    "wof:geomhash":"27e750dd5dd1aa93aaa8bdcbd465c49c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823826885
+        }
+    ],
     "wof:id":823826885,
-    "wof:lastmodified":1466419634,
+    "wof:lastmodified":1492124403,
     "wof:name":"Tomes Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

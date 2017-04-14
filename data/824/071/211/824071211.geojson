@@ -2,9 +2,14 @@
   "id": 824071211,
   "type": "Feature",
   "properties": {
+    "addr:full":"7891 Stuart Pl Westminster CO 80030",
+    "addr:housenumber":"7891",
+    "addr:postcode":"80030",
+    "addr:street":"Stuart Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.046354,39.840075,-105.046354,39.840075",
     "geom:latitude":39.840075,
     "geom:longitude":-105.046354,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553567
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1IgRxoehBXkWDmPyibFahX_39.840075_-105.046354@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453647,
-    "wof:geomhash":"1ffd07936890a31a7e214f5134254c57",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a74a455af108cb2826d33811a050ef1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553567,
+            "region_id":85688603,
+            "venue_id":824071211
+        }
+    ],
     "wof:id":824071211,
-    "wof:lastmodified":1466414743,
+    "wof:lastmodified":1492131601,
     "wof:name":"Ja Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553567,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

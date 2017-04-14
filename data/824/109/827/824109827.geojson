@@ -2,9 +2,14 @@
   "id": 824109827,
   "type": "Feature",
   "properties": {
+    "addr:full":"324 South Ave Grand Junction CO 81501",
+    "addr:housenumber":"324",
+    "addr:postcode":"81501",
+    "addr:street":"South Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.566565,39.063502,-108.566565,39.063502",
     "geom:latitude":39.063502,
     "geom:longitude":-108.566565,
@@ -27,19 +32,36 @@
         "painter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_53E490YXOgxXCja3s5UNDg_39.063502_-108.566565@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454551,
-    "wof:geomhash":"3373c7b7ea2378b023ae87d9da1df25b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1470e0cdd67456f0b7f88c4c17a7d84d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554839,
+            "region_id":85688603,
+            "venue_id":824109827
+        }
+    ],
     "wof:id":824109827,
-    "wof:lastmodified":1466415436,
+    "wof:lastmodified":1492132168,
     "wof:name":"B & J Painting Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823808165,
   "type": "Feature",
   "properties": {
+    "addr:full":"7481 Kearney St Commerce City CO 80022",
+    "addr:housenumber":"7481",
+    "addr:postcode":"80022",
+    "addr:street":"Kearney St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.917363,39.834135,-104.917363,39.834135",
     "geom:latitude":39.834135,
     "geom:longitude":-104.917363,
@@ -28,19 +33,36 @@
         "rebuilt"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930259,
+        102084053,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1kQZPsJuhzTOnk14q7wplc_39.834135_-104.917363@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446950,
-    "wof:geomhash":"5031b610f17d55bc9b50eb1ddba87b1a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"72c8c66a86342972e28ec8aae37ba8d1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":823808165
+        }
+    ],
     "wof:id":823808165,
-    "wof:lastmodified":1466419415,
+    "wof:lastmodified":1492116866,
     "wof:name":"Western Auto Recycling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553481,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823786099,
   "type": "Feature",
   "properties": {
+    "addr:full":"814 Hayden Dr Colorado Springs CO 80910",
+    "addr:housenumber":"814",
+    "addr:postcode":"80910",
+    "addr:street":"Hayden Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.784847,38.820384,-104.784847,38.820384",
     "geom:latitude":38.820384,
     "geom:longitude":-104.784847,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554341
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5cj5spHb3C3YdmRbKwXgNX_38.820384_-104.784847@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446288,
-    "wof:geomhash":"fec9d3f06cddce32a75a38ab43cc1450",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4ab278429d868c5702e83d01bd311f32",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":823786099
+        }
+    ],
     "wof:id":823786099,
-    "wof:lastmodified":1466419234,
+    "wof:lastmodified":1492117573,
     "wof:name":"Quality Drywall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554341,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

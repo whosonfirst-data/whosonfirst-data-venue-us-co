@@ -2,9 +2,14 @@
   "id": 823846673,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 Bauer Ave Mancos CO 81328",
+    "addr:housenumber":"101",
+    "addr:postcode":"81328",
+    "addr:street":"Bauer Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.290382,37.346252,-108.290382,37.346252",
     "geom:latitude":37.346252,
     "geom:longitude":-108.290382,
@@ -27,19 +32,28 @@
         "state"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6bKGkHK4ncdThBLqT2x5Vu_37.346252_-108.290382@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448118,
-    "wof:geomhash":"1849c3cdd1a26ec0202d85d67cfd48c4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"49d354482b4f4eff2f28789731046a1a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823846673
+        }
+    ],
     "wof:id":823846673,
-    "wof:lastmodified":1466419769,
+    "wof:lastmodified":1492116431,
     "wof:name":"Natural Resources Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

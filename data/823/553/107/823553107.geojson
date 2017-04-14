@@ -2,9 +2,14 @@
   "id": 823553107,
   "type": "Feature",
   "properties": {
+    "addr:full":"1232 W Elizabeth St Fort Collins CO 80521",
+    "addr:housenumber":"1232",
+    "addr:postcode":"80521",
+    "addr:street":"W Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.098622,40.574719,-105.098622,40.574719",
     "geom:latitude":40.574719,
     "geom:longitude":-105.098622,
@@ -29,19 +34,36 @@
         "instruction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_17ZCPMzBD52Mns6dr2QK7T_40.574719_-105.098622@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440780,
-    "wof:geomhash":"c32aa8a61ab4abdd1dfcc13bf112c76e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"606395e7319f4abcf68a28254541d0a2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":823553107
+        }
+    ],
     "wof:id":823553107,
-    "wof:lastmodified":1466415958,
+    "wof:lastmodified":1492126628,
     "wof:name":"Pai Lum White Dragon",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

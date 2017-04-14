@@ -2,9 +2,14 @@
   "id": 823640863,
   "type": "Feature",
   "properties": {
+    "addr:full":"7331 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"7331;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.845437,37.404224,-107.845437,37.404224",
     "geom:latitude":37.404224,
     "geom:longitude":-107.845437,
@@ -27,19 +32,28 @@
         "truck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5oQYi68xg6itewpJzO1gRC_37.404224_-107.845437@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442874,
-    "wof:geomhash":"27fc2bc60c836582bfb35415f40bdc56",
-    "wof:hierarchy":[],
+    "wof:geomhash":"43f17b06d76cf5069542121816dc560b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554631,
+            "venue_id":823640863
+        }
+    ],
     "wof:id":823640863,
-    "wof:lastmodified":1466417931,
+    "wof:lastmodified":1492119381,
     "wof:name":"Riegel Works",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

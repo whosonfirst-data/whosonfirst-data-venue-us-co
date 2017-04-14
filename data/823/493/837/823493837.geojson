@@ -2,9 +2,14 @@
   "id": 823493837,
   "type": "Feature",
   "properties": {
+    "addr:full":"21181 Apple Ln Eckert CO 81418",
+    "addr:housenumber":"21181",
+    "addr:postcode":"81418",
+    "addr:street":"Apple Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.967523,38.838056,-107.967523,38.838056",
     "geom:latitude":38.838056,
     "geom:longitude":-107.967523,
@@ -27,17 +32,32 @@
         "appraiser"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928773,
+        102084073
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2p3POiBq2LygdkVF9n9qPl_38.838056_-107.967523@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439394,
-    "wof:geomhash":"13ac725ed51869c9828d04ead08d89fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fbe364793048efd026ae512ed043f72a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084073,
+            "locality_id":85928773,
+            "region_id":85688603,
+            "venue_id":823493837
+        }
+    ],
     "wof:id":823493837,
-    "wof:lastmodified":1466414047,
+    "wof:lastmodified":1492116544,
     "wof:name":"Ward Appraisal Svc Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

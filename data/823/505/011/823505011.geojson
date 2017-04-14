@@ -2,9 +2,14 @@
   "id": 823505011,
   "type": "Feature",
   "properties": {
+    "addr:full":"1316 N Mildred Rd Cortez CO 81321",
+    "addr:housenumber":"1316",
+    "addr:postcode":"81321",
+    "addr:street":"N Mildred Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572644,37.363104,-108.572644,37.363104",
     "geom:latitude":37.363104,
     "geom:longitude":-108.572644,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555059
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_05DAg1GW40aWY8PvDhoJwW_37.363104_-108.572644@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439684,
-    "wof:geomhash":"e2c4bbbf841bd23d88a016a01d7429c2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"65ba68b7bf0017fed93a3029aac5d7ec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555059,
+            "region_id":85688603,
+            "venue_id":823505011
+        }
+    ],
     "wof:id":823505011,
-    "wof:lastmodified":1466414283,
+    "wof:lastmodified":1492118859,
     "wof:name":"Colorado West Rental Property",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555059,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

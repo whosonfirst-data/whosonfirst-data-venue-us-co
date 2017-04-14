@@ -2,9 +2,14 @@
   "id": 823913501,
   "type": "Feature",
   "properties": {
+    "addr:full":"424 Lark Dr Grand Junction CO 81504",
+    "addr:housenumber":"424",
+    "addr:postcode":"81504",
+    "addr:street":"Lark Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.484141,39.065776,-108.484141,39.065776",
     "geom:latitude":39.065776,
     "geom:longitude":-108.484141,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_10MSKkzjNiHv2uRnnormSN_39.065776_-108.484141@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449841,
-    "wof:geomhash":"b11754d40b17bce32257f1c492cf858c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c0bb33c4384733338e8d0e63e4cf7e7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823913501
+        }
+    ],
     "wof:id":823913501,
-    "wof:lastmodified":1466420489,
+    "wof:lastmodified":1492125067,
     "wof:name":"Bc Painting Hoffman",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

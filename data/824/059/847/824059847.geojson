@@ -2,9 +2,14 @@
   "id": 824059847,
   "type": "Feature",
   "properties": {
+    "addr:full":"4560 Garrison St Wheat Ridge CO 80033",
+    "addr:housenumber":"4560",
+    "addr:postcode":"80033",
+    "addr:street":"Garrison St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.100208,39.781033,-105.100208,39.781033",
     "geom:latitude":39.781033,
     "geom:longitude":-105.100208,
@@ -28,19 +33,34 @@
         "removal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85930615,
+        102084113,
+        85865183
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2M8tnh03FTE4UR2ern3PFV_39.781033_-105.100208@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453387,
-    "wof:geomhash":"1ba3517272272f3364e852aa98c90e2f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d0c9300a9b4babb196b51b4e3babd8ad",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85930615,
+            "neighbourhood_id":85865183,
+            "region_id":85688603,
+            "venue_id":824059847
+        }
+    ],
     "wof:id":824059847,
-    "wof:lastmodified":1466414459,
+    "wof:lastmodified":1492128301,
     "wof:name":"Neighborhood Landscaping",
-    "wof:parent_id":-1,
+    "wof:parent_id":85865183,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

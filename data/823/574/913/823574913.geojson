@@ -2,9 +2,14 @@
   "id": 823574913,
   "type": "Feature",
   "properties": {
+    "addr:full":"2030 Steamboat Blvd Steamboat Spgs CO 80487",
+    "addr:housenumber":"2030",
+    "addr:postcode":"80487",
+    "addr:street":"Steamboat Blvd;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.812697,40.459895,-106.812697,40.459895",
     "geom:latitude":40.459895,
     "geom:longitude":-106.812697,
@@ -27,19 +32,36 @@
         "condominium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555361
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_03rULoEI5vXPdkBfonLBKH_40.459895_-106.812697@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441298,
-    "wof:geomhash":"4f027049b069f7bcff5a4594ac5c1276",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3bdf2d193d0772baa06dfee674c44a64",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555361,
+            "region_id":85688603,
+            "venue_id":823574913
+        }
+    ],
     "wof:id":823574913,
-    "wof:lastmodified":1466416364,
+    "wof:lastmodified":1492126658,
     "wof:name":"Thunder Mountain Condominiums",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823843333,
   "type": "Feature",
   "properties": {
+    "addr:full":"269 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"269",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81977,39.986888,-104.81977,39.986888",
     "geom:latitude":39.986888,
     "geom:longitude":-104.81977,
@@ -27,19 +32,36 @@
         "lounge"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28yanEwgbF8gQqdficzCKr_39.986888_-104.819770@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448035,
-    "wof:geomhash":"94878edb0974490b1f89b07c49603de1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0b4f5aaf5323d39f3500436ac92af07e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823843333
+        }
+    ],
     "wof:id":823843333,
-    "wof:lastmodified":1466419531,
+    "wof:lastmodified":1492116941,
     "wof:name":"Brighton Sante Fe Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

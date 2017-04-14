@@ -2,9 +2,14 @@
   "id": 823880031,
   "type": "Feature",
   "properties": {
+    "addr:full":"8798 Elgin Dr Lafayette CO 80026",
+    "addr:housenumber":"8798",
+    "addr:postcode":"80026",
+    "addr:street":"Elgin Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.144265,40.001792,-105.144265,40.001792",
     "geom:latitude":40.001792,
     "geom:longitude":-105.144265,
@@ -27,19 +32,28 @@
         "bicycle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2X8zFhegbHoqUfTDd8YkSK_40.001792_-105.144265@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448970,
-    "wof:geomhash":"d905f41bb0f71834ae40c7e533c39971",
-    "wof:hierarchy":[],
+    "wof:geomhash":"637957f3f7f672d04177b2fb37712ff8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554037,
+            "venue_id":823880031
+        }
+    ],
     "wof:id":823880031,
-    "wof:lastmodified":1466419993,
+    "wof:lastmodified":1492116341,
     "wof:name":"Quality Bicycle Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

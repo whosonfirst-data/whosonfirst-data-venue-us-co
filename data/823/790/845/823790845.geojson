@@ -2,9 +2,14 @@
   "id": 823790845,
   "type": "Feature",
   "properties": {
+    "addr:full":"1616 Champa St Denver CO 80202",
+    "addr:housenumber":"1616",
+    "addr:postcode":"80202",
+    "addr:street":"Champa St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.99282,39.747241,-104.99282,39.747241",
     "geom:latitude":39.747241,
     "geom:longitude":-104.99282,
@@ -28,19 +33,38 @@
         "human"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871293,
+        102191575,
+        1108750057,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0PwjlA1yfXIjCCr5deNyoy_39.747241_-104.992820@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446447,
-    "wof:geomhash":"193762df777e584d08d925db86588484",
-    "wof:hierarchy":[],
+    "wof:geomhash":"927325a953a9dbe5f9997eb3488ce896",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750057,
+            "neighbourhood_id":85871293,
+            "region_id":85688603,
+            "venue_id":823790845
+        }
+    ],
     "wof:id":823790845,
-    "wof:lastmodified":1466419373,
+    "wof:lastmodified":1492127727,
     "wof:name":"US Social Security Adm",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871293,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

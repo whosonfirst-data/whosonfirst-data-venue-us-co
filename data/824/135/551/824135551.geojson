@@ -2,9 +2,14 @@
   "id": 824135551,
   "type": "Feature",
   "properties": {
+    "addr:full":"3259 Mesa Ave Clifton CO 81520",
+    "addr:housenumber":"3259",
+    "addr:postcode":"81520",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.448379,39.085312,-108.448379,39.085312",
     "geom:latitude":39.085312,
     "geom:longitude":-108.448379,
@@ -24,19 +29,36 @@
     "sg:postcode":"81520",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554851
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7KLAsgL5eLuGthq7rCZQNU_39.085312_-108.448379@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455352,
-    "wof:geomhash":"420f258576e87b55fea0f168b4f45228",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f6a067487a98822af8dd67849f6414a7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554851,
+            "region_id":85688603,
+            "venue_id":824135551
+        }
+    ],
     "wof:id":824135551,
-    "wof:lastmodified":1466416306,
+    "wof:lastmodified":1492129440,
     "wof:name":"Fair Priced Jewelry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554851,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

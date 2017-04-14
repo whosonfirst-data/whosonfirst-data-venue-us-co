@@ -2,9 +2,14 @@
   "id": 823728631,
   "type": "Feature",
   "properties": {
+    "addr:full":"10350 Grant St Denver CO 80229",
+    "addr:housenumber":"10350",
+    "addr:postcode":"80229",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.982039,39.883891,-104.982039,39.883891",
     "geom:latitude":39.883891,
     "geom:longitude":-104.982039,
@@ -28,19 +33,36 @@
         "finishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553695
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4eR9NImkzvyiG7Fqu4n0Dr_39.883891_-104.982039@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444860,
-    "wof:geomhash":"f5856e521a2392f7331caa87360f12a3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1220fd3cd52f670bbe44bd776d73bd56",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553695,
+            "region_id":85688603,
+            "venue_id":823728631
+        }
+    ],
     "wof:id":823728631,
-    "wof:lastmodified":1466418746,
+    "wof:lastmodified":1492121037,
     "wof:name":"Wolf Camera & Video",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553695,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

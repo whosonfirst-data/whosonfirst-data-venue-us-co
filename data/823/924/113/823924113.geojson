@@ -2,9 +2,14 @@
   "id": 823924113,
   "type": "Feature",
   "properties": {
+    "addr:full":"11170 E 47th Ave Denver CO 80239",
+    "addr:housenumber":"11170",
+    "addr:postcode":"80239",
+    "addr:street":"E 47Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.858675,39.782296,-104.858675,39.782296",
     "geom:latitude":39.782296,
     "geom:longitude":-104.858675,
@@ -27,7 +32,15 @@
         "grain"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ccpM39dO6Ey3TdYu8ZC8F_39.782296_-104.858675@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463450104,
     "wof:geomhash":"afeb099f986d16388bd424546e461db6",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823924113
+        }
+    ],
     "wof:id":823924113,
-    "wof:lastmodified":1466420382,
+    "wof:lastmodified":1491887457,
     "wof:name":"Cargill Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

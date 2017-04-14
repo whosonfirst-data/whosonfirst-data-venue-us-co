@@ -2,9 +2,14 @@
   "id": 839957197,
   "type": "Feature",
   "properties": {
+    "addr:full":"116 E Foothills Pkwy Fort Collins CO 80525",
+    "addr:housenumber":"116",
+    "addr:postcode":"80525",
+    "addr:street":"E Foothills Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.073997,40.544557,-105.073997,40.544557",
     "geom:latitude":40.544557,
     "geom:longitude":-105.073997,
@@ -28,19 +33,36 @@
         "greeting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7INGpe2MjOrtpFgvmAjOy1_40.544557_-105.073997@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459506,
-    "wof:geomhash":"2191d4a572eed33af7bfadddddc65305",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fa9e18081cd762685abdb9b1da2dca24",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":839957197
+        }
+    ],
     "wof:id":839957197,
-    "wof:lastmodified":1466415419,
+    "wof:lastmodified":1492112465,
     "wof:name":"Current",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554749,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

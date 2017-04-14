@@ -2,9 +2,14 @@
   "id": 823920209,
   "type": "Feature",
   "properties": {
+    "addr:full":"2876 Patterson Rd Grand Junction CO 81506",
+    "addr:housenumber":"2876",
+    "addr:postcode":"81506",
+    "addr:street":"Patterson Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.520251,39.091876,-108.520251,39.091876",
     "geom:latitude":39.091876,
     "geom:longitude":-108.520251,
@@ -28,19 +33,36 @@
         "vacuum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0H28lequghGenCUAWZ9GoU_39.091876_-108.520251@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450001,
-    "wof:geomhash":"6895b2768b50bfc221dced995f3a77f4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0b00a9e4b211a7e23d0d846365ab9a65",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554955,
+            "region_id":85688603,
+            "venue_id":823920209
+        }
+    ],
     "wof:id":823920209,
-    "wof:lastmodified":1466420386,
+    "wof:lastmodified":1492121096,
     "wof:name":"Kirby-Western Slope",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

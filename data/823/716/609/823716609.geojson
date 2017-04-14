@@ -2,9 +2,14 @@
   "id": 823716609,
   "type": "Feature",
   "properties": {
+    "addr:full":"11480 Hudson St Denver CO 80233",
+    "addr:housenumber":"11480",
+    "addr:postcode":"80233",
+    "addr:street":"Hudson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.922563,39.902695,-104.922563,39.902695",
     "geom:latitude":39.902695,
     "geom:longitude":-104.922563,
@@ -30,19 +35,36 @@
         "cabinet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553709
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1y0olreNn5nf9g4w6zGL6s_39.902695_-104.922563@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444578,
-    "wof:geomhash":"42e702f3ab965423eb933650dbdb5ff0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"113520f12736aae93b026a9cc950c464",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553709,
+            "region_id":85688603,
+            "venue_id":823716609
+        }
+    ],
     "wof:id":823716609,
-    "wof:lastmodified":1466418692,
+    "wof:lastmodified":1492120032,
     "wof:name":"Downeast Cabinetry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553709,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

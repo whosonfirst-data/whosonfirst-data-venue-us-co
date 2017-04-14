@@ -2,9 +2,14 @@
   "id": 824170143,
   "type": "Feature",
   "properties": {
+    "addr:full":"1105 Aquarius Ave Fruita CO 81521",
+    "addr:housenumber":"1105",
+    "addr:postcode":"81521",
+    "addr:street":"Aquarius Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.716822,39.167642,-108.716822,39.167642",
     "geom:latitude":39.167642,
     "geom:longitude":-108.716822,
@@ -27,19 +32,36 @@
         "logging"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929591,
+        102085221,
+        420554771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3AwNTwnW3bWRkCblqZN8tQ_39.167642_-108.716822@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456679,
-    "wof:geomhash":"7d4837d2f13e1b2ab647c9c79bfbd038",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53e850927b0e402f700c220645355a32",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929591,
+            "neighbourhood_id":420554771,
+            "region_id":85688603,
+            "venue_id":824170143
+        }
+    ],
     "wof:id":824170143,
-    "wof:lastmodified":1466417912,
+    "wof:lastmodified":1492128811,
     "wof:name":"E & G Stump Removal",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

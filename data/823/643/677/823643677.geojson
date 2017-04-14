@@ -2,9 +2,14 @@
   "id": 823643677,
   "type": "Feature",
   "properties": {
+    "addr:full":"6933 E 80th Ave Commerce City CO 80022",
+    "addr:housenumber":"6933",
+    "addr:postcode":"80022",
+    "addr:street":"E 80Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.906977,39.841719,-104.906977,39.841719",
     "geom:latitude":39.841719,
     "geom:longitude":-104.906977,
@@ -27,19 +32,47 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        85888307,
+        85930259,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1mIbu26zHayU6mrEzb9wph_39.841719_-104.906977@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442937,
-    "wof:geomhash":"12e31afe2a294e98ab536e11e52fba2e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3f6226ab80780976c4aa1d3e0d616f79",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":85888307,
+            "region_id":85688603,
+            "venue_id":823643677
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":823643677
+        }
+    ],
     "wof:id":823643677,
-    "wof:lastmodified":1466418000,
+    "wof:lastmodified":1492121248,
     "wof:name":"80th Avenue Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

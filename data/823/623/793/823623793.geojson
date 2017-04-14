@@ -2,9 +2,14 @@
   "id": 823623793,
   "type": "Feature",
   "properties": {
+    "addr:full":"4482 Co Rd 27 Fort Lupton CO 80621",
+    "addr:housenumber":"4482;27",
+    "addr:postcode":"80621",
+    "addr:street":"Co Rd;Fort Lupton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810368,40.059737,-104.810368,40.059737",
     "geom:latitude":40.059737,
     "geom:longitude":-104.810368,
@@ -27,19 +32,28 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ROd7WL0jEenJL8OU7e6E4_40.059737_-104.810368@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442488,
-    "wof:geomhash":"0d28e00ba5b99ccce37d3f8d3f3be722",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5c7c0a26d56d8da0ab88ff29d50ebc7d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823623793
+        }
+    ],
     "wof:id":823623793,
-    "wof:lastmodified":1466417585,
+    "wof:lastmodified":1492117853,
     "wof:name":"Victory Auto Carriers Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

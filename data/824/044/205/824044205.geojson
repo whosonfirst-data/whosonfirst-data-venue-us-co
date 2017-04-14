@@ -2,9 +2,14 @@
   "id": 824044205,
   "type": "Feature",
   "properties": {
+    "addr:full":"2011 Goldenvue Dr Johnstown CO 80534",
+    "addr:housenumber":"2011",
+    "addr:postcode":"80534",
+    "addr:street":"Goldenvue Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.932285,40.341976,-104.932285,40.341976",
     "geom:latitude":40.341976,
     "geom:longitude":-104.932285,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Br5EqFfqnk6f96RM6MRSC_40.341976_-104.932285@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453026,
-    "wof:geomhash":"c47efb263dbf23b337062bd66476ed97",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c980b5cf322b4364c2d99ef8044913d5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":824044205
+        }
+    ],
     "wof:id":824044205,
-    "wof:lastmodified":1466414253,
+    "wof:lastmodified":1492131231,
     "wof:name":"Fricke Custom Home",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

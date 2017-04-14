@@ -2,9 +2,14 @@
   "id": 823866531,
   "type": "Feature",
   "properties": {
+    "addr:full":"2787 S Julian St Denver CO 80236",
+    "addr:housenumber":"2787",
+    "addr:postcode":"80236",
+    "addr:street":"S Julian St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03099,39.666039,-105.03099,39.666039",
     "geom:latitude":39.666039,
     "geom:longitude":-105.03099,
@@ -28,7 +33,15 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3b1sAMSSp5BeKHko8P9b8V_39.666039_-105.030990@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463448663,
     "wof:geomhash":"3bf500f4772330d9dd4a5c2600dda617",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":823866531
+        }
+    ],
     "wof:id":823866531,
-    "wof:lastmodified":1466420068,
+    "wof:lastmodified":1491876189,
     "wof:name":"Affordable Sweeping Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

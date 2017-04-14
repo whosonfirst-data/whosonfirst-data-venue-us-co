@@ -2,9 +2,14 @@
   "id": 823485793,
   "type": "Feature",
   "properties": {
+    "addr:full":"1580 7th St Boulder CO 80302",
+    "addr:housenumber":"1580",
+    "addr:postcode":"80302",
+    "addr:street":"7Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.285504,40.010588,-105.285504,40.010588",
     "geom:latitude":40.010588,
     "geom:longitude":-105.285504,
@@ -27,19 +32,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2T87hOAkAvbQajxsPXExwW_40.010588_-105.285504@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439200,
-    "wof:geomhash":"2ec64e582fe752ab768c726cc442278e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e7bd8bf4f58d26d62fc7e66fd648865b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":823485793
+        }
+    ],
     "wof:id":823485793,
-    "wof:lastmodified":1466413668,
+    "wof:lastmodified":1492117221,
     "wof:name":"Boulder Baked Cookies 2 LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

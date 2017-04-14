@@ -2,9 +2,14 @@
   "id": 823701417,
   "type": "Feature",
   "properties": {
+    "addr:full":"600 51st Ave Greeley CO 80634",
+    "addr:housenumber":"600",
+    "addr:postcode":"80634",
+    "addr:street":"51St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.766078,40.427125,-104.766078,40.427125",
     "geom:latitude":40.427125,
     "geom:longitude":-104.766078,
@@ -33,6 +38,7 @@
         85633793,
         85929071,
         102086117,
+        85835965,
         85845949
     ],
     "wof:breaches":[],
@@ -41,8 +47,16 @@
     },
     "wof:country":"US",
     "wof:created":1463444269,
-    "wof:geomhash":"f470f926996c7ce823537851e4bcfee3",
+    "wof:geomhash":"e01ae32db061bc3ef8788a8f6dc8d428",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823701417
+        },
         {
             "country_id":85633793,
             "county_id":102086117,
@@ -53,9 +67,9 @@
         }
     ],
     "wof:id":823701417,
-    "wof:lastmodified":1466418589,
+    "wof:lastmodified":1492126544,
     "wof:name":"Westside Baptist Church",
-    "wof:parent_id":85845949,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

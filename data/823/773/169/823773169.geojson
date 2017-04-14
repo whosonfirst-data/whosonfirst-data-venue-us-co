@@ -2,9 +2,14 @@
   "id": 823773169,
   "type": "Feature",
   "properties": {
+    "addr:full":"510 N Main St La Junta CO 81050",
+    "addr:housenumber":"510",
+    "addr:postcode":"81050",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.531407,38.004292,-103.531407,38.004292",
     "geom:latitude":38.004292,
     "geom:longitude":-103.531407,
@@ -28,17 +33,32 @@
         "sewage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930537,
+        102084015
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7MGE865Cps06OafiKZ9iId_38.004292_-103.531407@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445905,
-    "wof:geomhash":"6a8e37a45a39cae004d7a63f994161eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ea6d506dec0f90eb20fbbd672fff534f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084015,
+            "locality_id":85930537,
+            "region_id":85688603,
+            "venue_id":823773169
+        }
+    ],
     "wof:id":823773169,
-    "wof:lastmodified":1466419107,
+    "wof:lastmodified":1492115981,
     "wof:name":"Bent's Fort Water Co",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

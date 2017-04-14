@@ -2,9 +2,14 @@
   "id": 839984119,
   "type": "Feature",
   "properties": {
+    "addr:full":"505 Co Rd 228 Durango CO 81301",
+    "addr:housenumber":"505;228",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.788672,37.244273,-107.788672,37.244273",
     "geom:latitude":37.244273,
     "geom:longitude":-107.788672,
@@ -23,19 +28,28 @@
         "crop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5iQssblPXAEtSwqn3hwgKa_37.244273_-107.788672@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460586,
-    "wof:geomhash":"bb4b6b3101be19b46b02aa58575d09b2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7633be4401cc7e4c94c06988bfacd2ab",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":839984119
+        }
+    ],
     "wof:id":839984119,
-    "wof:lastmodified":1466417143,
+    "wof:lastmodified":1492111169,
     "wof:name":"Pedwell Farm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

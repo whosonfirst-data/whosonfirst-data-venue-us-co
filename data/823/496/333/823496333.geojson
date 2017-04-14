@@ -2,9 +2,14 @@
   "id": 823496333,
   "type": "Feature",
   "properties": {
+    "addr:full":"5656 Wadsworth Blvd Arvada CO 80002",
+    "addr:housenumber":"5656",
+    "addr:postcode":"80002",
+    "addr:street":"Wadsworth Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076467,39.79871,-105.076467,39.79871",
     "geom:latitude":39.79871,
     "geom:longitude":-105.076467,
@@ -29,19 +34,34 @@
         "dev"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3NiQycW9VXxd4dOKXfiIQK_39.798710_-105.076467@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439468,
-    "wof:geomhash":"5abd1bfc5aacee8599a82aa0d5d08b51",
-    "wof:hierarchy":[],
+    "wof:geomhash":"30c88985577da8f9ef34976530fa98ad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823496333
+        }
+    ],
     "wof:id":823496333,
-    "wof:lastmodified":1466414105,
+    "wof:lastmodified":1492119424,
     "wof:name":"Arvada Urban Renewal Authority",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

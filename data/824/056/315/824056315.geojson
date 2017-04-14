@@ -2,9 +2,14 @@
   "id": 824056315,
   "type": "Feature",
   "properties": {
+    "addr:full":"9341 York St Denver CO 80229",
+    "addr:housenumber":"9341",
+    "addr:postcode":"80229",
+    "addr:street":"York St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959072,39.866251,-104.959072,39.866251",
     "geom:latitude":39.866251,
     "geom:longitude":-104.959072,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_78pmZtXvzkf6LwqLX2hB3C_39.866251_-104.959072@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453315,
-    "wof:geomhash":"e2756a37601428c1522613ba25a71624",
-    "wof:hierarchy":[],
+    "wof:geomhash":"24f59f0c45749dba2d0c1f752c6b6734",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":824056315
+        }
+    ],
     "wof:id":824056315,
-    "wof:lastmodified":1466414350,
+    "wof:lastmodified":1492132421,
     "wof:name":"Harpers Trucking LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

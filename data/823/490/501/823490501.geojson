@@ -2,9 +2,14 @@
   "id": 823490501,
   "type": "Feature",
   "properties": {
+    "addr:full":"1475 S Quebec Way Denver CO 80231",
+    "addr:housenumber":"1475",
+    "addr:postcode":"80231",
+    "addr:street":"S Quebec Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.898675,39.691363,-104.898675,39.691363",
     "geom:latitude":39.691363,
     "geom:longitude":-104.898675,
@@ -28,19 +33,38 @@
         "child"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871361,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4J5rtPvIMUQxiBhqhdke15_39.691363_-104.898675@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439320,
-    "wof:geomhash":"bfa9de3a872d14acf51dfec71dc46f14",
-    "wof:hierarchy":[],
+    "wof:geomhash":"462ea2b8c1f17bdbee1b9866d92dbcf7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871361,
+            "region_id":85688603,
+            "venue_id":823490501
+        }
+    ],
     "wof:id":823490501,
-    "wof:lastmodified":1466414087,
+    "wof:lastmodified":1492122547,
     "wof:name":"Chance",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

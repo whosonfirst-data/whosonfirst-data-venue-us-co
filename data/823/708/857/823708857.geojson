@@ -2,9 +2,14 @@
   "id": 823708857,
   "type": "Feature",
   "properties": {
+    "addr:full":"12299 Grant St Thornton CO 80241",
+    "addr:housenumber":"12299",
+    "addr:postcode":"80241",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.985334,39.922194,-104.985334,39.922194",
     "geom:latitude":39.922194,
     "geom:longitude":-104.985334,
@@ -30,19 +35,36 @@
         "devices"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553693
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3LYXahw6V1zF8k7jL2DmtS_39.922194_-104.985334@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444421,
-    "wof:geomhash":"741a2a9858c1bec47112650fbd9bc710",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e44d38bb6f2554969944f15c9e74cfc1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553693,
+            "region_id":85688603,
+            "venue_id":823708857
+        }
+    ],
     "wof:id":823708857,
-    "wof:lastmodified":1466418658,
+    "wof:lastmodified":1492117317,
     "wof:name":"Bmc Millwork",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553693,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

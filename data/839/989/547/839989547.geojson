@@ -2,9 +2,14 @@
   "id": 839989547,
   "type": "Feature",
   "properties": {
+    "addr:full":"3980 Broadway St Boulder CO 80304",
+    "addr:housenumber":"3980",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.282086,40.047523,-105.282086,40.047523",
     "geom:latitude":40.047523,
     "geom:longitude":-105.282086,
@@ -31,7 +36,14 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876397
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7jB52O4BcLGBdOG1trEgBg_40.047523_-105.282086@1299784598"
@@ -39,11 +51,21 @@
     "wof:country":"US",
     "wof:created":1463460796,
     "wof:geomhash":"c6bef0f8d59dc718f5678f41f4eae35b",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876397,
+            "region_id":85688603,
+            "venue_id":839989547
+        }
+    ],
     "wof:id":839989547,
-    "wof:lastmodified":1466417403,
+    "wof:lastmodified":1491917818,
     "wof:name":"O! Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876397,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

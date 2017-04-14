@@ -2,9 +2,14 @@
   "id": 824112321,
   "type": "Feature",
   "properties": {
+    "addr:full":"1327 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"1327",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.002787,39.849126,-105.002787,39.849126",
     "geom:latitude":39.849126,
     "geom:longitude":-105.002787,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0db38mq0CsvAUMRkj18Dp6_39.849126_-105.002787@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454600,
-    "wof:geomhash":"f4315b7e32a66c1f7b108f0a6e1dc921",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dade7b66af3748d69834376e46eb65b1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553771,
+            "region_id":85688603,
+            "venue_id":824112321
+        }
+    ],
     "wof:id":824112321,
-    "wof:lastmodified":1466415475,
+    "wof:lastmodified":1492130334,
     "wof:name":"Maples At Crestwood",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

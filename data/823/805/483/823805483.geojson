@@ -2,9 +2,14 @@
   "id": 823805483,
   "type": "Feature",
   "properties": {
+    "addr:full":"3640 W 32nd Ave Denver CO 80211",
+    "addr:housenumber":"3640",
+    "addr:postcode":"80211",
+    "addr:street":"W 32Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.035354,39.762063,-105.035354,39.762063",
     "geom:latitude":39.762063,
     "geom:longitude":-105.035354,
@@ -27,19 +32,38 @@
         "manager"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3mBOvY5eDcqzbgKylYPNuZ_39.762063_-105.035354@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446859,
-    "wof:geomhash":"f8a61f60d094dc511c3d6691266a6526",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cf32a35e04a576708e7c03566fede9a1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823805483
+        }
+    ],
     "wof:id":823805483,
-    "wof:lastmodified":1466419389,
+    "wof:lastmodified":1492118667,
     "wof:name":"Horizons Real Estate Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

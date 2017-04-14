@@ -2,9 +2,14 @@
   "id": 839980061,
   "type": "Feature",
   "properties": {
+    "addr:full":"29780 Co Rd 14 Steamboat Springs CO 80487",
+    "addr:housenumber":"29780;14",
+    "addr:postcode":"80487",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.84116,40.416603,-106.84116,40.416603",
     "geom:latitude":40.416603,
     "geom:longitude":-106.84116,
@@ -26,19 +31,28 @@
         "feedlot"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555283
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0sMOfWadbW4PpTyl0byiUF_40.416603_-106.841160@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460425,
-    "wof:geomhash":"15ef472bf6916cedd3a3ab65803881e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7bd7e8f2a890e985ddfa0e7daf893388",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555283,
+            "venue_id":839980061
+        }
+    ],
     "wof:id":839980061,
-    "wof:lastmodified":1466416761,
+    "wof:lastmodified":1492113359,
     "wof:name":"Double C Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555283,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

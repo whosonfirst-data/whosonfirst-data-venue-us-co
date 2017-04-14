@@ -2,9 +2,14 @@
   "id": 839933593,
   "type": "Feature",
   "properties": {
+    "addr:full":"1015 E Hwy 224 Denver CO 80229",
+    "addr:housenumber":"1015",
+    "addr:postcode":"80229",
+    "addr:street":"E Hwy 224",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971684,39.825085,-104.971684,39.825085",
     "geom:latitude":39.825085,
     "geom:longitude":-104.971684,
@@ -30,19 +35,36 @@
         "floor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6OsxZRRr9CtQCpyfMAFmwK_39.825085_-104.971684@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458166,
-    "wof:geomhash":"19b61d2da064ee74b7e3ddde36e1e51f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"79d6c376baada477792682f4fa3d2efe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":839933593
+        }
+    ],
     "wof:id":839933593,
-    "wof:lastmodified":1466414249,
+    "wof:lastmodified":1492111473,
     "wof:name":"Commercial Flooring Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

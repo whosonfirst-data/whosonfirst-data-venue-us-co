@@ -2,9 +2,14 @@
   "id": 823895067,
   "type": "Feature",
   "properties": {
+    "addr:full":"7065 W 3rd Pl Denver CO 80226",
+    "addr:housenumber":"7065",
+    "addr:postcode":"80226",
+    "addr:street":"W 3Rd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.075064,39.722094,-105.075064,39.722094",
     "geom:latitude":39.722094,
     "geom:longitude":-105.075064,
@@ -30,19 +35,36 @@
         "improvement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_531AwEt2AM6zNydcS4jb5t_39.722094_-105.075064@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449322,
-    "wof:geomhash":"bd118ef75864caf8b21978c2289474c6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0f44709cab87f45a007361c0ba2a10bd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823895067
+        }
+    ],
     "wof:id":823895067,
-    "wof:lastmodified":1466420123,
+    "wof:lastmodified":1492116383,
     "wof:name":"B & B Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

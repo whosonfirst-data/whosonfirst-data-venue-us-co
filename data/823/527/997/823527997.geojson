@@ -2,9 +2,14 @@
   "id": 823527997,
   "type": "Feature",
   "properties": {
+    "addr:full":"431 Co Rd 43Zs Norwood CO 81423",
+    "addr:housenumber":"431",
+    "addr:postcode":"43zs;81423",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.279164,38.124318,-108.279164,38.124318",
     "geom:latitude":38.124318,
     "geom:longitude":-108.279164,
@@ -27,19 +32,28 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555399
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4oVan5Y4bLYeWkgtMsROqz_38.124318_-108.279164@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440215,
-    "wof:geomhash":"0cde0a633f6f42a3c8af98e24c079409",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d85dfb8834f68f525b0ece2bf81e107b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555399,
+            "venue_id":823527997
+        }
+    ],
     "wof:id":823527997,
-    "wof:lastmodified":1466415052,
+    "wof:lastmodified":1492120421,
     "wof:name":"San Miguel Stone & Tile",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555399,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

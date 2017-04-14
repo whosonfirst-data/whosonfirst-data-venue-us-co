@@ -2,9 +2,14 @@
   "id": 824167581,
   "type": "Feature",
   "properties": {
+    "addr:full":"203 S Main St Rocky Ford CO 81067",
+    "addr:housenumber":"203",
+    "addr:postcode":"81067",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.720216,38.052325,-103.720216,38.052325",
     "geom:latitude":38.052325,
     "geom:longitude":-103.720216,
@@ -27,17 +32,32 @@
         "city"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929693,
+        102084015
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5S81ePSV5L8yPXnroF3j6b_38.052325_-103.720216@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456589,
-    "wof:geomhash":"5d6582e7b483b0085ae2202f53731fcd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"baf769a398eaa54b04af210dda0f19f5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084015,
+            "locality_id":85929693,
+            "region_id":85688603,
+            "venue_id":824167581
+        }
+    ],
     "wof:id":824167581,
-    "wof:lastmodified":1466417812,
+    "wof:lastmodified":1492128208,
     "wof:name":"Rocky Ford City Hall",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

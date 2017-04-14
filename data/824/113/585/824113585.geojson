@@ -2,9 +2,14 @@
   "id": 824113585,
   "type": "Feature",
   "properties": {
+    "addr:full":"1512 Florence St Aurora CO 80010",
+    "addr:housenumber":"1512",
+    "addr:postcode":"80010",
+    "addr:street":"Florence St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.871663,39.741757,-104.871663,39.741757",
     "geom:latitude":39.741757,
     "geom:longitude":-104.871663,
@@ -29,19 +34,36 @@
         "wine"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4abNwzArVjNEPKcHVX8ToA_39.741757_-104.871663@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454626,
-    "wof:geomhash":"553a32888577b36882fbfb1fb7059630",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fa930b88b611b7b0fbcdd5dc377d5547",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":824113585
+        }
+    ],
     "wof:id":824113585,
-    "wof:lastmodified":1466415491,
+    "wof:lastmodified":1492131066,
     "wof:name":"Pay Less Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

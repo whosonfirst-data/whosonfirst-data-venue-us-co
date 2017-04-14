@@ -2,9 +2,14 @@
   "id": 839960177,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 N Pinon Dr Cortez CO 81321",
+    "addr:housenumber":"100",
+    "addr:postcode":"81321",
+    "addr:street":"N Pinon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590427,37.349902,-108.590427,37.349902",
     "geom:latitude":37.349902,
     "geom:longitude":-108.590427,
@@ -29,19 +34,28 @@
         "clean"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5nxk2QQRyAtaZ2dtDTgoAj_37.349902_-108.590427@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459619,
-    "wof:geomhash":"ddb74b633817c2c9a9cc3dbabefdad2a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d5bad6d4a56f15e2296e815d45647a5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":839960177
+        }
+    ],
     "wof:id":839960177,
-    "wof:lastmodified":1466415633,
+    "wof:lastmodified":1492111665,
     "wof:name":"Rapidliner Accessories & Auto",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

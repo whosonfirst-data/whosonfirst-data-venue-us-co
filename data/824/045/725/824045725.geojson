@@ -2,9 +2,14 @@
   "id": 824045725,
   "type": "Feature",
   "properties": {
+    "addr:full":"7745 Sherman St Denver CO 80221",
+    "addr:housenumber":"7745",
+    "addr:postcode":"80221",
+    "addr:street":"Sherman St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.984476,39.83537,-104.984476,39.83537",
     "geom:latitude":39.83537,
     "geom:longitude":-104.984476,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553621
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4VbUlrP7AvKMOMG89nYVlE_39.835370_-104.984476@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453056,
-    "wof:geomhash":"b56361a17cbe3c0b9273abc157696c93",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1ce02975c3805a65dd5b5f33af4ac2de",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553621,
+            "region_id":85688603,
+            "venue_id":824045725
+        }
+    ],
     "wof:id":824045725,
-    "wof:lastmodified":1466414273,
+    "wof:lastmodified":1492129560,
     "wof:name":"Dbl Construction Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553621,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

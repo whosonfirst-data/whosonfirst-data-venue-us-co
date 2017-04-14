@@ -2,9 +2,14 @@
   "id": 823693271,
   "type": "Feature",
   "properties": {
+    "addr:full":"9745 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"9745",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.87447,39.740289,-104.87447,39.740289",
     "geom:latitude":39.740289,
     "geom:longitude":-104.87447,
@@ -27,19 +32,36 @@
         "jewelry"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6McM95zmryg51D1Hzl03LR_39.740289_-104.874470@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444088,
-    "wof:geomhash":"6be3690e6fd3fcab0dad9cda8282eee9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cb6286b8698c04bc0dbc51bfbbdd26ca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":823693271
+        }
+    ],
     "wof:id":823693271,
-    "wof:lastmodified":1466418488,
+    "wof:lastmodified":1492117871,
     "wof:name":"Pasternacks Pawn II",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

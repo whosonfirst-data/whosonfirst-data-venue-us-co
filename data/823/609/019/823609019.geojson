@@ -2,9 +2,14 @@
   "id": 823609019,
   "type": "Feature",
   "properties": {
+    "addr:full":"962 Grandview Ave Boulder CO 80302",
+    "addr:housenumber":"962",
+    "addr:postcode":"80302",
+    "addr:street":"Grandview Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.280809,40.011244,-105.280809,40.011244",
     "geom:latitude":40.011244,
     "geom:longitude":-105.280809,
@@ -27,19 +32,36 @@
         "midwife"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4zDnXRlh0Y0R45bbazj2VD_40.011244_-105.280809@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442110,
-    "wof:geomhash":"e332e17661c1853a8a82d068143e19ce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6a09bf384c1cfa59c80b878f2873013c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":823609019
+        }
+    ],
     "wof:id":823609019,
-    "wof:lastmodified":1466417241,
+    "wof:lastmodified":1492119186,
     "wof:name":"Flame Dineen Home Birth",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

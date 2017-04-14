@@ -2,9 +2,14 @@
   "id": 824126081,
   "type": "Feature",
   "properties": {
+    "addr:full":"70 S Main St Brighton CO 80601",
+    "addr:housenumber":"70",
+    "addr:postcode":"80601",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.821661,39.986346,-104.821661,39.986346",
     "geom:latitude":39.986346,
     "geom:longitude":-104.821661,
@@ -27,19 +32,36 @@
         "baker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0nU3KKkzg2OWyVsFWGAtDI_39.986346_-104.821661@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454975,
-    "wof:geomhash":"1fa4d0db208bb89346e43a87f68cb3e6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1d0bfbe8364b67232d7a062096adcc31",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824126081
+        }
+    ],
     "wof:id":824126081,
-    "wof:lastmodified":1466415791,
+    "wof:lastmodified":1492131833,
     "wof:name":"Panaderia LA Central",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

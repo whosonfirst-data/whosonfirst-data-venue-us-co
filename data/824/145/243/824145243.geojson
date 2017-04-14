@@ -2,9 +2,14 @@
   "id": 824145243,
   "type": "Feature",
   "properties": {
+    "addr:full":"3617 Co Rd 225 Durango CO 81301",
+    "addr:housenumber":"3617;225",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.787456,37.271724,-107.787456,37.271724",
     "geom:latitude":37.271724,
     "geom:longitude":-107.787456,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1SXl94xDRbThL4s2JMDy19_37.271724_-107.787456@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455704,
-    "wof:geomhash":"bbb597bbfa4dfccf5f86fdf53d469f23",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f752a965ce3e5a773c0aad4b0a445960",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824145243
+        }
+    ],
     "wof:id":824145243,
-    "wof:lastmodified":1466416561,
+    "wof:lastmodified":1492133023,
     "wof:name":"Madden & Madden",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

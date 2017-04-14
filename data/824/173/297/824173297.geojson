@@ -2,9 +2,14 @@
   "id": 824173297,
   "type": "Feature",
   "properties": {
+    "addr:full":"2543 Xavier St Denver CO 80212",
+    "addr:housenumber":"2543",
+    "addr:postcode":"80212",
+    "addr:street":"Xavier St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.049951,39.753711,-105.049951,39.753711",
     "geom:latitude":39.753711,
     "geom:longitude":-105.049951,
@@ -27,19 +32,38 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Spmd1s3B2OmgKvxrgv1ks_39.753711_-105.049951@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456811,
-    "wof:geomhash":"765336b0a583f600d98f5118d8f556ce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"26443f2f4969e28832947349ea537ac8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":824173297
+        }
+    ],
     "wof:id":824173297,
-    "wof:lastmodified":1466418061,
+    "wof:lastmodified":1492131530,
     "wof:name":"Cronin Photography",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

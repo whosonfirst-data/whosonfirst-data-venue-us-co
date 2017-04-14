@@ -2,9 +2,14 @@
   "id": 824024697,
   "type": "Feature",
   "properties": {
+    "addr:full":"12981 Knight Ct Broomfield CO 80020",
+    "addr:housenumber":"12981",
+    "addr:postcode":"80020",
+    "addr:street":"Knight Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030856,39.931142,-105.030856,39.931142",
     "geom:latitude":39.931142,
     "geom:longitude":-105.030856,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554245
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4atOzLzCx61lbfgJ6QkAUa_39.931142_-105.030856@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452533,
-    "wof:geomhash":"6b895f0a56a080065dabd6aa598ad595",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2cf0b1e51979594df7ac3972bd87f98a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554245,
+            "region_id":85688603,
+            "venue_id":824024697
+        }
+    ],
     "wof:id":824024697,
-    "wof:lastmodified":1466413691,
+    "wof:lastmodified":1492133193,
     "wof:name":"Samuel Maldonado Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554245,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

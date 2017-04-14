@@ -2,9 +2,14 @@
   "id": 823667379,
   "type": "Feature",
   "properties": {
+    "addr:full":"1327 W 101st Pl Denver CO 80260",
+    "addr:housenumber":"1327",
+    "addr:postcode":"80260",
+    "addr:street":"W 101St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.004252,39.88088,-105.004252,39.88088",
     "geom:latitude":39.88088,
     "geom:longitude":-105.004252,
@@ -29,19 +34,36 @@
         "outpatient"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Vn5giWPqyn4siQVc3K3c0_39.880880_-105.004252@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443509,
-    "wof:geomhash":"69f2b155e21927ec5adae2f42336ef94",
-    "wof:hierarchy":[],
+    "wof:geomhash":"35cdd1bc2e3a728b82dea214b8c3fe8c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":823667379
+        }
+    ],
     "wof:id":823667379,
-    "wof:lastmodified":1466418245,
+    "wof:lastmodified":1492127138,
     "wof:name":"ABC Behavioral Counseling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

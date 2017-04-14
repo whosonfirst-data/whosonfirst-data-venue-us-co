@@ -2,9 +2,14 @@
   "id": 823883431,
   "type": "Feature",
   "properties": {
+    "addr:full":"11674 Huron St Northglenn CO 80234",
+    "addr:housenumber":"11674",
+    "addr:postcode":"80234",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996568,39.91039,-104.996568,39.91039",
     "geom:latitude":39.91039,
     "geom:longitude":-104.996568,
@@ -29,19 +34,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1moaSni1xT40NMYE0GgDpy_39.910390_-104.996568@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449046,
-    "wof:geomhash":"b93727b0b4cf48282ebbf85d0e1a8f3a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7f3e36cea4ae91a641eade3e719556b1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":823883431
+        }
+    ],
     "wof:id":823883431,
-    "wof:lastmodified":1466420030,
+    "wof:lastmodified":1492119894,
     "wof:name":"HID Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

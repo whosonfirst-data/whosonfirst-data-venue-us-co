@@ -2,9 +2,14 @@
   "id": 823602503,
   "type": "Feature",
   "properties": {
+    "addr:full":"301 Santa Clara Ave Grand Junction CO 81503",
+    "addr:housenumber":"301",
+    "addr:postcode":"81503",
+    "addr:street":"Santa Clara Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.566825,39.050062,-108.566825,39.050062",
     "geom:latitude":39.050062,
     "geom:longitude":-108.566825,
@@ -27,19 +32,46 @@
         "truck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554783,
+        420555011
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6H7AktlPeSsWAaxLjOvbXv_39.050062_-108.566825@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441966,
-    "wof:geomhash":"78cdb3795f2009048b65cfb82ee8a9ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7593d4d196a63b1bdb405c635c6865c6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554783,
+            "region_id":85688603,
+            "venue_id":823602503
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555011,
+            "region_id":85688603,
+            "venue_id":823602503
+        }
+    ],
     "wof:id":823602503,
-    "wof:lastmodified":1466417220,
+    "wof:lastmodified":1492127778,
     "wof:name":"Clymer's Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

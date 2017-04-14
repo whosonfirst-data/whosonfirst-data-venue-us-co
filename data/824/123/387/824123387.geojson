@@ -2,9 +2,14 @@
   "id": 824123387,
   "type": "Feature",
   "properties": {
+    "addr:full":"2484 Co Rd 234 Durango CO 81301",
+    "addr:housenumber":"2484;234",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.795555,37.258664,-107.795555,37.258664",
     "geom:latitude":37.258664,
     "geom:longitude":-107.795555,
@@ -30,19 +35,28 @@
         "floor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_32fUCAJhri5nyOshbG52dj_37.258664_-107.795555@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454857,
-    "wof:geomhash":"edae23f5b125b5abe4ccde023b0764b1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5f1f8758e7272abe921ff1ad0cc52612",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824123387
+        }
+    ],
     "wof:id":824123387,
-    "wof:lastmodified":1466415798,
+    "wof:lastmodified":1492128846,
     "wof:name":"Hoover Tile",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

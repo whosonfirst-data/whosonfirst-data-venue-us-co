@@ -2,9 +2,14 @@
   "id": 824021147,
   "type": "Feature",
   "properties": {
+    "addr:full":"4255 W 49th Ave Denver CO 80212",
+    "addr:housenumber":"4255",
+    "addr:postcode":"80212",
+    "addr:street":"W 49Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042198,39.785702,-105.042198,39.785702",
     "geom:latitude":39.785702,
     "geom:longitude":-105.042198,
@@ -29,19 +34,38 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871251,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_27Re9WIaUgMalYddXNoDaU_39.785702_-105.042198@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452448,
-    "wof:geomhash":"6f55ee38592a406931da2a21b1d6892d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dcc8add1c165d08039e2c3a52b1ecb6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871251,
+            "region_id":85688603,
+            "venue_id":824021147
+        }
+    ],
     "wof:id":824021147,
-    "wof:lastmodified":1466413523,
+    "wof:lastmodified":1492131303,
     "wof:name":"Dailey Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

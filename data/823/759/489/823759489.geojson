@@ -2,9 +2,14 @@
   "id": 823759489,
   "type": "Feature",
   "properties": {
+    "addr:full":"1211 E Main St Cortez CO 81321",
+    "addr:housenumber":"1211",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.569475,37.348782,-108.569475,37.348782",
     "geom:latitude":37.348782,
     "geom:longitude":-108.569475,
@@ -28,19 +33,36 @@
         "cellular"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555047
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ndzKnKO4Yk3Ue2POjNik9_37.348782_-108.569475@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445605,
-    "wof:geomhash":"364fa538a57b2164e71b70beded59986",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9908f6dc2fa18e9e171e1e387599cbce",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555047,
+            "region_id":85688603,
+            "venue_id":823759489
+        }
+    ],
     "wof:id":823759489,
-    "wof:lastmodified":1466419016,
+    "wof:lastmodified":1492119711,
     "wof:name":"Airtime Cellular",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555047,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

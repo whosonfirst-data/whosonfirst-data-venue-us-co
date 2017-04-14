@@ -2,9 +2,14 @@
   "id": 823734343,
   "type": "Feature",
   "properties": {
+    "addr:full":"216 Hwy 172 Durango CO 81303",
+    "addr:housenumber":"216",
+    "addr:postcode":"co 81303",
+    "addr:street":"Hwy 172",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.795721,37.225476,-107.795721,37.225476",
     "geom:latitude":37.225476,
     "geom:longitude":-107.795721,
@@ -27,19 +32,40 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554645,
+        420554643,
+        420554707
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3XgtYbga0Bxrj9H490L84N_37.225476_-107.795721@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445030,
-    "wof:geomhash":"2aefe49d15c4805d0f1073bfa88fbd54",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4da8c885548df14b8295e984bb96925",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554645,
+            "venue_id":823734343
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554643,
+            "venue_id":823734343
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554707,
+            "venue_id":823734343
+        }
+    ],
     "wof:id":823734343,
-    "wof:lastmodified":1466418843,
+    "wof:lastmodified":1492124816,
     "wof:name":"Florida Mesa Head Start",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

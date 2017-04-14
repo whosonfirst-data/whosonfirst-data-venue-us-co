@@ -2,9 +2,14 @@
   "id": 823947573,
   "type": "Feature",
   "properties": {
+    "addr:full":"2625 Riverside Dr Steamboat Spgs CO 80487",
+    "addr:housenumber":"2625",
+    "addr:postcode":"80487",
+    "addr:street":"Riverside Dr;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.867475,40.50104,-106.867475,40.50104",
     "geom:latitude":40.50104,
     "geom:longitude":-106.867475,
@@ -29,19 +34,36 @@
         "clean"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555187
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5nPkTe4wItrFwQMePGsgo4_40.501040_-106.867475@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450724,
-    "wof:geomhash":"14b5830093deac77de8ab8e1dd1b99dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e11791f8ad337693db459ecd6a99a23",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555187,
+            "region_id":85688603,
+            "venue_id":823947573
+        }
+    ],
     "wof:id":823947573,
-    "wof:lastmodified":1466420614,
+    "wof:lastmodified":1492123780,
     "wof:name":"Premier Car Cleaning Spclst",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555187,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

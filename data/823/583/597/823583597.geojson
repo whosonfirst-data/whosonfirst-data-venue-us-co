@@ -2,9 +2,14 @@
   "id": 823583597,
   "type": "Feature",
   "properties": {
+    "addr:full":"4929 Ironton St Denver CO 80239",
+    "addr:housenumber":"4929",
+    "addr:postcode":"80239",
+    "addr:street":"Ironton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.863376,39.788596,-104.863376,39.788596",
     "geom:latitude":39.788596,
     "geom:longitude":-104.863376,
@@ -27,7 +32,15 @@
         "limousine"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7l2TgXnsvaI1uXVRDgdDgp_39.788596_-104.863376@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463441501,
     "wof:geomhash":"a6435fafb42dfee204f9555f52f86c3e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823583597
+        }
+    ],
     "wof:id":823583597,
-    "wof:lastmodified":1466416741,
+    "wof:lastmodified":1491887449,
     "wof:name":"Super Shuttle",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

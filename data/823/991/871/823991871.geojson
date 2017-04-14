@@ -2,9 +2,14 @@
   "id": 823991871,
   "type": "Feature",
   "properties": {
+    "addr:full":"30 Murray St Niwot CO 80544",
+    "addr:housenumber":"30",
+    "addr:postcode":"80544",
+    "addr:street":"Murray St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.172854,40.103579,-105.172854,40.103579",
     "geom:latitude":40.103579,
     "geom:longitude":-105.172854,
@@ -28,19 +33,36 @@
         "heater"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4uIRLqpeE01F7ycXiRnVK5_40.103579_-105.172854@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451761,
-    "wof:geomhash":"a0398dd7f2baf185af2b43d96c198953",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d10b0fe3fffdd4a3d7e2394b354cd81f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554063,
+            "region_id":85688603,
+            "venue_id":823991871
+        }
+    ],
     "wof:id":823991871,
-    "wof:lastmodified":1466421019,
+    "wof:lastmodified":1492117380,
     "wof:name":"A-1 Plumbing & Heating Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

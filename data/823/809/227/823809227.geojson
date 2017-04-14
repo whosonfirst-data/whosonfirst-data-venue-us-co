@@ -2,9 +2,14 @@
   "id": 823809227,
   "type": "Feature",
   "properties": {
+    "addr:full":"1370 Co Rd 17 Gunnison CO 81230",
+    "addr:housenumber":"1370;17",
+    "addr:postcode":"81230",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.952699,38.550625,-106.952699,38.550625",
     "geom:latitude":38.550625,
     "geom:longitude":-106.952699,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4BrINi8qTmi76bT8cHPDgo_38.550625_-106.952699@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446977,
-    "wof:geomhash":"324cf22178b5dcc3c675fd3cbefa86f4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0bfb8fc04752fec0a66cede77ed3c77c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554393,
+            "region_id":85688603,
+            "venue_id":823809227
+        }
+    ],
     "wof:id":823809227,
-    "wof:lastmodified":1466419428,
+    "wof:lastmodified":1492122896,
     "wof:name":"Westside Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824003839,
   "type": "Feature",
   "properties": {
+    "addr:full":"2040 E Main St Cortez CO 81321",
+    "addr:housenumber":"2040",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.559671,37.349047,-108.559671,37.349047",
     "geom:latitude":37.349047,
     "geom:longitude":-108.559671,
@@ -27,19 +32,28 @@
         "operation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2QQJ18bXUIxTYmB583suRX_37.349047_-108.559671@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452075,
-    "wof:geomhash":"ace7ca48ce9e394a9cc922b8b7981a0e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ccf50b5536ac8160abc00fcc755ab263",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":824003839
+        }
+    ],
     "wof:id":824003839,
-    "wof:lastmodified":1466412340,
+    "wof:lastmodified":1492132611,
     "wof:name":"Bel Rau Lodge",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

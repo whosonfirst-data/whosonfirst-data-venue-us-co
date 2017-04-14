@@ -2,9 +2,14 @@
   "id": 823489015,
   "type": "Feature",
   "properties": {
+    "addr:full":"4850 Ricara Dr Boulder CO 80303",
+    "addr:housenumber":"4850",
+    "addr:postcode":"80303",
+    "addr:street":"Ricara Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.232505,39.992173,-105.232505,39.992173",
     "geom:latitude":39.992173,
     "geom:longitude":-105.232505,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2dEbq1yqM8eveqKT4LmMjP_39.992173_-105.232505@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439291,
-    "wof:geomhash":"09b552c6074d18bb027cfcd937dbbf05",
-    "wof:hierarchy":[],
+    "wof:geomhash":"528ffbd1d24571a0d443253ecbd728f6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":823489015
+        }
+    ],
     "wof:id":823489015,
-    "wof:lastmodified":1466414066,
+    "wof:lastmodified":1492121984,
     "wof:name":"Prana Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

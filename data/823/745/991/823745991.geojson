@@ -2,9 +2,14 @@
   "id": 823745991,
   "type": "Feature",
   "properties": {
+    "addr:full":"343 S Baxter Ave Holyoke CO 80734",
+    "addr:housenumber":"343",
+    "addr:postcode":"80734",
+    "addr:street":"S Baxter Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.303559,40.583135,-102.303559,40.583135",
     "geom:latitude":40.583135,
     "geom:longitude":-102.303559,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929161,
+        102085217
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ExuzCn0unzws4eHKirLk1_40.583135_-102.303559@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445287,
-    "wof:geomhash":"1f6d9f7b56cd3ac2eef0d0f56211bd30",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ec82ec5335ffa478c803d974a0d7cf6f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085217,
+            "locality_id":85929161,
+            "region_id":85688603,
+            "venue_id":823745991
+        }
+    ],
     "wof:id":823745991,
-    "wof:lastmodified":1466418969,
+    "wof:lastmodified":1492125427,
     "wof:name":"First Baptist Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

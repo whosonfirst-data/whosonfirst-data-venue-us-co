@@ -2,9 +2,14 @@
   "id": 823644875,
   "type": "Feature",
   "properties": {
+    "addr:full":"10195 Washington St Denver CO 80229",
+    "addr:housenumber":"10195",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977881,39.879813,-104.977881,39.879813",
     "geom:latitude":39.879813,
     "geom:longitude":-104.977881,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553715
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3CaVDMFaYyWtZWhMmfInYy_39.879813_-104.977881@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442964,
-    "wof:geomhash":"a8b8f6c2b6ce6b27abf7e133aba52b28",
-    "wof:hierarchy":[],
+    "wof:geomhash":"565901ad779a290baaa187ba1286c880",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553715,
+            "region_id":85688603,
+            "venue_id":823644875
+        }
+    ],
     "wof:id":823644875,
-    "wof:lastmodified":1466417989,
+    "wof:lastmodified":1492118283,
     "wof:name":"McDonalds",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553715,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

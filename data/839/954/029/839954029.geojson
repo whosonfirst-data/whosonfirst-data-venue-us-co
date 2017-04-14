@@ -2,9 +2,14 @@
   "id": 839954029,
   "type": "Feature",
   "properties": {
+    "addr:full":"12435 Co Rd 2 Brighton CO 80603",
+    "addr:housenumber":"12435",
+    "addr:postcode":"80603",
+    "addr:street":"Co Rd 2",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.821289,40.000489,-104.821289,40.000489",
     "geom:latitude":40.000489,
     "geom:longitude":-104.821289,
@@ -28,19 +33,28 @@
         "gasoline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2dOCkRpLlclv0kQFIYKx8C_40.000489_-104.821289@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459352,
-    "wof:geomhash":"66ae201c1d0e855c1c01e97f10a61813",
-    "wof:hierarchy":[],
+    "wof:geomhash":"714af70de5c9496c1676b97417eadb4c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":839954029
+        }
+    ],
     "wof:id":839954029,
-    "wof:lastmodified":1466415355,
+    "wof:lastmodified":1492113928,
     "wof:name":"Conoco Energy",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555409,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

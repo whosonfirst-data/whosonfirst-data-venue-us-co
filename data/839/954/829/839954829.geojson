@@ -2,9 +2,14 @@
   "id": 839954829,
   "type": "Feature",
   "properties": {
+    "addr:full":"590 Co Rd 233 Durango CO 81301",
+    "addr:housenumber":"590;233",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.811862,37.22927,-107.811862,37.22927",
     "geom:latitude":37.22927,
     "geom:longitude":-107.811862,
@@ -29,19 +34,28 @@
         "drilling"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0ntzAM60RSUYdKxAOhkVXO_37.229270_-107.811862@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459385,
-    "wof:geomhash":"0c3205118724c3866ba23cb46af969c6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ad4a46f971f08f7cd171223441d2ce08",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":839954829
+        }
+    ],
     "wof:id":839954829,
-    "wof:lastmodified":1466415504,
+    "wof:lastmodified":1492113902,
     "wof:name":"Mortimer Drilling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

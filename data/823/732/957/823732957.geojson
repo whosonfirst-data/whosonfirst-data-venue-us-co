@@ -2,9 +2,14 @@
   "id": 823732957,
   "type": "Feature",
   "properties": {
+    "addr:full":"4912 Dakota Dr Fort Collins CO 80528",
+    "addr:housenumber":"4912",
+    "addr:postcode":"80528",
+    "addr:street":"Dakota Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041682,40.518545,-105.041682,40.518545",
     "geom:latitude":40.518545,
     "geom:longitude":-105.041682,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554731
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2C3N9670W38MaWjR6yTe9g_40.518545_-105.041682@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444990,
-    "wof:geomhash":"719c2649ac7c0bb458d42265d0882fba",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a71fec84a05164e04154e3dd05fa477",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554731,
+            "region_id":85688603,
+            "venue_id":823732957
+        }
+    ],
     "wof:id":823732957,
-    "wof:lastmodified":1466418858,
+    "wof:lastmodified":1492126302,
     "wof:name":"Jerrys Drywalls",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554731,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

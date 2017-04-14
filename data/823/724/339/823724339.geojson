@@ -2,9 +2,14 @@
   "id": 823724339,
   "type": "Feature",
   "properties": {
+    "addr:full":"4420 W Warren Ave Denver CO 80219",
+    "addr:housenumber":"4420",
+    "addr:postcode":"80219",
+    "addr:street":"W Warren Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.045686,39.676365,-105.045686,39.676365",
     "geom:latitude":39.676365,
     "geom:longitude":-105.045686,
@@ -28,7 +33,15 @@
         "permanent"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Bg8BlQlkzOXSm16jSvw7l_39.676365_-105.045686@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463444760,
     "wof:geomhash":"5abce26ec6d9b1ea3d78f1ce4b61e738",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":823724339
+        }
+    ],
     "wof:id":823724339,
-    "wof:lastmodified":1466418741,
+    "wof:lastmodified":1486593729,
     "wof:name":"Once Is Forever",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

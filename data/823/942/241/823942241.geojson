@@ -2,9 +2,14 @@
   "id": 823942241,
   "type": "Feature",
   "properties": {
+    "addr:full":"1670 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"1670",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.544659,39.077464,-108.544659,39.077464",
     "geom:latitude":39.077464,
     "geom:longitude":-108.544659,
@@ -29,19 +34,36 @@
         "finance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7EgJcSQm8fBEsZUFP1dBAf_39.077464_-108.544659@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450576,
-    "wof:geomhash":"6ddccc98c5df0ac0a2e51b783f149a2a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"90839a98e4a0475bc5dedca8a64301d5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554923,
+            "region_id":85688603,
+            "venue_id":823942241
+        }
+    ],
     "wof:id":823942241,
-    "wof:lastmodified":1466420553,
+    "wof:lastmodified":1492116635,
     "wof:name":"Beneficial",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

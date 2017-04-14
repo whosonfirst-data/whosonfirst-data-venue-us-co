@@ -2,9 +2,14 @@
   "id": 823652701,
   "type": "Feature",
   "properties": {
+    "addr:full":"17 Robertson Rd Pueblo CO 81001",
+    "addr:housenumber":"17",
+    "addr:postcode":"81001",
+    "addr:street":"Robertson Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.585941,38.296444,-104.585941,38.296444",
     "geom:latitude":38.296444,
     "geom:longitude":-104.585941,
@@ -36,17 +41,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6WUa7EZ9Arp2yfdbOHWy3A_38.296444_-104.585941@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443135,
-    "wof:geomhash":"659c0b21a644289f40035f68373fae9e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1729fa4f472d65d0c370ca7011568eca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823652701
+        }
+    ],
     "wof:id":823652701,
-    "wof:lastmodified":1466418139,
+    "wof:lastmodified":1492121153,
     "wof:name":"Eastside Sewer & Drain Service",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

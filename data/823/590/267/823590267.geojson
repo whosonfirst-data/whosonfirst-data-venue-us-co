@@ -2,9 +2,14 @@
   "id": 823590267,
   "type": "Feature",
   "properties": {
+    "addr:full":"617 College Ave Boulder CO 80302",
+    "addr:housenumber":"617",
+    "addr:postcode":"80302",
+    "addr:street":"College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.28698,40.007324,-105.28698,40.007324",
     "geom:latitude":40.007324,
     "geom:longitude":-105.28698,
@@ -29,19 +34,36 @@
         "architectural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4VGNpuD4PfRXajgctY5ldU_40.007324_-105.286980@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441653,
-    "wof:geomhash":"67d2c8e09c0296957643dea5a629b795",
-    "wof:hierarchy":[],
+    "wof:geomhash":"31fef59bb6a4660e4ef41dd04d1e2f55",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":823590267
+        }
+    ],
     "wof:id":823590267,
-    "wof:lastmodified":1466416883,
+    "wof:lastmodified":1492120270,
     "wof:name":"Jerry Van Sickle Design Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

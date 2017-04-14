@@ -2,9 +2,14 @@
   "id": 823475245,
   "type": "Feature",
   "properties": {
+    "addr:full":"850 S Lashley Ln Boulder CO 80305",
+    "addr:housenumber":"850",
+    "addr:postcode":"80305",
+    "addr:street":"S Lashley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.245933,39.981707,-105.245933,39.981707",
     "geom:latitude":39.981707,
     "geom:longitude":-105.245933,
@@ -27,19 +32,36 @@
         "alteration"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2mAZqOxLmRMwp4OkSmFpMB_39.981707_-105.245933@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438959,
-    "wof:geomhash":"fa90337d4996c02a8f01ff3d05a33484",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f362dbfe4b5b8bc042871e56635defb0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":823475245
+        }
+    ],
     "wof:id":823475245,
-    "wof:lastmodified":1466412815,
+    "wof:lastmodified":1492122786,
     "wof:name":"Lorna Pollard-Bridal & Alter",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

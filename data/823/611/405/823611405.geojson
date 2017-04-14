@@ -2,9 +2,14 @@
   "id": 823611405,
   "type": "Feature",
   "properties": {
+    "addr:full":"1943 Lake Ave Pueblo CO 81004",
+    "addr:housenumber":"1943",
+    "addr:postcode":"81004",
+    "addr:street":"Lake Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.625326,38.235923,-104.625326,38.235923",
     "geom:latitude":38.235923,
     "geom:longitude":-104.625326,
@@ -28,17 +33,32 @@
         "thrift"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2AqogeTvZZuu1So2a3m9Bb_38.235923_-104.625326@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442177,
-    "wof:geomhash":"bc796cfca960bf1487c9269f03ae210f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"816c67d96612d9cf88f2e7db2affe9bc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823611405
+        }
+    ],
     "wof:id":823611405,
-    "wof:lastmodified":1466417191,
+    "wof:lastmodified":1492116091,
     "wof:name":"Mary's Thrift Store",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 824077567,
   "type": "Feature",
   "properties": {
+    "addr:full":"9235 Perry St Westminster CO 80031",
+    "addr:housenumber":"9235",
+    "addr:postcode":"80031",
+    "addr:street":"Perry St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039322,39.866891,-105.039322,39.866891",
     "geom:latitude":39.866891,
     "geom:longitude":-105.039322,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554569
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5O13Qwjq27IbBaBl4fmYDj_39.866891_-105.039322@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453798,
-    "wof:geomhash":"2f339b0b7da9fd7c0b6018b67de4cf9a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"26a27bfdb9e2bfc657ab87499be365b0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554569,
+            "region_id":85688603,
+            "venue_id":824077567
+        }
+    ],
     "wof:id":824077567,
-    "wof:lastmodified":1466414779,
+    "wof:lastmodified":1492131466,
     "wof:name":"M C Jenkins Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554569,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

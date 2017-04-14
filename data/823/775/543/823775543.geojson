@@ -2,9 +2,14 @@
   "id": 823775543,
   "type": "Feature",
   "properties": {
+    "addr:full":"1260 Yellow Pine Ave Boulder CO 80304",
+    "addr:housenumber":"1260",
+    "addr:postcode":"80304",
+    "addr:street":"Yellow Pine Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.284913,40.059935,-105.284913,40.059935",
     "geom:latitude":40.059935,
     "geom:longitude":-105.284913,
@@ -28,19 +33,34 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ZQxOCz5RW7bLNcuasEcKd_40.059935_-105.284913@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445973,
-    "wof:geomhash":"c3444ef6c4478aae04d2066d926b9a72",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5c55f2252a4a6a65af2cf0a473d09132",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823775543
+        }
+    ],
     "wof:id":823775543,
-    "wof:lastmodified":1466419151,
+    "wof:lastmodified":1492120147,
     "wof:name":"Financial Mortgage Solutions",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

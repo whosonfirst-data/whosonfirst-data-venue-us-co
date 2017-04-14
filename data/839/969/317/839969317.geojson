@@ -2,9 +2,14 @@
   "id": 839969317,
   "type": "Feature",
   "properties": {
+    "addr:full":"11127 Seton Pl Westminster CO 80031",
+    "addr:housenumber":"11127",
+    "addr:postcode":"80031",
+    "addr:street":"Seton Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041535,39.897639,-105.041535,39.897639",
     "geom:latitude":39.897639,
     "geom:longitude":-105.041535,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553523
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Xo7BKSGlCuvSaIj5yfAmB_39.897639_-105.041535@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459985,
-    "wof:geomhash":"b97406a9eab88ebbd060a001828a8077",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f149e3edac1f37e1fafecbf77decb9cf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553523,
+            "region_id":85688603,
+            "venue_id":839969317
+        }
+    ],
     "wof:id":839969317,
-    "wof:lastmodified":1466416348,
+    "wof:lastmodified":1492111435,
     "wof:name":"Coldstone Creamery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553523,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

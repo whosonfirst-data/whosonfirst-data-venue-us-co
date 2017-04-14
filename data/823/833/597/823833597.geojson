@@ -2,9 +2,14 @@
   "id": 823833597,
   "type": "Feature",
   "properties": {
+    "addr:full":"309 Pitkin Ave Grand Junction CO 81501",
+    "addr:housenumber":"309",
+    "addr:postcode":"81501",
+    "addr:street":"Pitkin Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.566275,39.064309,-108.566275,39.064309",
     "geom:latitude":39.064309,
     "geom:longitude":-108.566275,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00ZIiF3ARgZFar6kW0pavW_39.064309_-108.566275@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447701,
-    "wof:geomhash":"fa2257ec41c4bad120c22bd1c6093cc0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"37750649d770e19e25844e6d1715e992",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554839,
+            "region_id":85688603,
+            "venue_id":823833597
+        }
+    ],
     "wof:id":823833597,
-    "wof:lastmodified":1466419675,
+    "wof:lastmodified":1492117993,
     "wof:name":"Lambert & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

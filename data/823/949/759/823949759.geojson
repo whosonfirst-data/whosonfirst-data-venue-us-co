@@ -2,9 +2,14 @@
   "id": 823949759,
   "type": "Feature",
   "properties": {
+    "addr:full":"111 S Perry St Denver CO 80219",
+    "addr:housenumber":"111",
+    "addr:postcode":"80219",
+    "addr:street":"S Perry St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039762,39.713535,-105.039762,39.713535",
     "geom:latitude":39.713535,
     "geom:longitude":-105.039762,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5p4TAoaNSAXewBTtnfCB7L_39.713535_-105.039762@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463450772,
     "wof:geomhash":"c2aa94052985914da408d246cd87bbf1",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":823949759
+        }
+    ],
     "wof:id":823949759,
-    "wof:lastmodified":1466420707,
+    "wof:lastmodified":1486593764,
     "wof:name":"Alonso Richardo",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

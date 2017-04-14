@@ -2,9 +2,14 @@
   "id": 839933931,
   "type": "Feature",
   "properties": {
+    "addr:full":"104 W Main St Oak Creek CO 80467",
+    "addr:housenumber":"104",
+    "addr:postcode":"80467",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.959905,40.275927,-106.959905,40.275927",
     "geom:latitude":40.275927,
     "geom:longitude":-106.959905,
@@ -27,19 +32,36 @@
         "tavern"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929271,
+        102086129,
+        420555335
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_74XaweeRgQEjjuhzybRByO_40.275927_-106.959905@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458184,
-    "wof:geomhash":"09867ee4ac7787a3ab6d6c44f639f816",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8b24aa90e6101746bcccef419bd753e1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929271,
+            "neighbourhood_id":420555335,
+            "region_id":85688603,
+            "venue_id":839933931
+        }
+    ],
     "wof:id":839933931,
-    "wof:lastmodified":1466414338,
+    "wof:lastmodified":1492111463,
     "wof:name":"Elks Tavern Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555335,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824038199,
   "type": "Feature",
   "properties": {
+    "addr:full":"8661 Washington St Denver CO 80229",
+    "addr:housenumber":"8661",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978057,39.85439,-104.978057,39.85439",
     "geom:latitude":39.85439,
     "geom:longitude":-104.978057,
@@ -29,19 +34,36 @@
         "radiator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7McFoZfITi2r3txAtWgTje_39.854390_-104.978057@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452877,
-    "wof:geomhash":"0a7c965a9cc5273085d01b064b1e1dff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7c99c0c4ba55e3fc139cbf598fb38b42",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":824038199
+        }
+    ],
     "wof:id":824038199,
-    "wof:lastmodified":1466414027,
+    "wof:lastmodified":1492132744,
     "wof:name":"Joe's Radiator Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

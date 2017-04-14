@@ -2,9 +2,14 @@
   "id": 839949825,
   "type": "Feature",
   "properties": {
+    "addr:full":"441 Manzana Dr Grand Junction CO 81503",
+    "addr:housenumber":"441",
+    "addr:postcode":"81503",
+    "addr:street":"Manzana Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.608584,39.070218,-108.608584,39.070218",
     "geom:latitude":39.070218,
     "geom:longitude":-108.608584,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554779
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2jpCK2dTQRxW98AEfPHzr3_39.070218_-108.608584@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459118,
-    "wof:geomhash":"fe655125528e5306fdca9916f2672a23",
-    "wof:hierarchy":[],
+    "wof:geomhash":"509a0cb925912efade60dfd52af7978c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554779,
+            "region_id":85688603,
+            "venue_id":839949825
+        }
+    ],
     "wof:id":839949825,
-    "wof:lastmodified":1466415092,
+    "wof:lastmodified":1492111729,
     "wof:name":"Baker Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554779,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

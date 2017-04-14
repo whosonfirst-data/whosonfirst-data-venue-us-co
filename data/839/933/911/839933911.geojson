@@ -2,9 +2,14 @@
   "id": 839933911,
   "type": "Feature",
   "properties": {
+    "addr:full":"4825 Lee Cir Boulder CO 80303",
+    "addr:housenumber":"4825",
+    "addr:postcode":"80303",
+    "addr:street":"Lee Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.233695,40.010959,-105.233695,40.010959",
     "geom:latitude":40.010959,
     "geom:longitude":-105.233695,
@@ -28,19 +33,36 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7AdxlYCdqTknWuG9r1j4l7_40.010959_-105.233695@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458178,
-    "wof:geomhash":"404bd90e0b29abb8823a6627ce617bb4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"df5b69f815c2b4f913c72d91f8cc713c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":839933911
+        }
+    ],
     "wof:id":839933911,
-    "wof:lastmodified":1466414336,
+    "wof:lastmodified":1492111483,
     "wof:name":"Genuine Systems Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

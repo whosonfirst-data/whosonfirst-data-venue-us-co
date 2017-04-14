@@ -2,9 +2,14 @@
   "id": 824129885,
   "type": "Feature",
   "properties": {
+    "addr:full":"305 S Hancock Ave Colorado Springs CO 80903",
+    "addr:housenumber":"305",
+    "addr:postcode":"80903",
+    "addr:street":"S Hancock Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.803981,38.827666,-104.803981,38.827666",
     "geom:latitude":38.827666,
     "geom:longitude":-104.803981,
@@ -34,19 +39,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554343
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_14nD0O5SZfR6xpbeMnsI0X_38.827666_-104.803981@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455133,
-    "wof:geomhash":"eaa06c013bb30319dce949f063638629",
-    "wof:hierarchy":[],
+    "wof:geomhash":"268e5b99e679c717a103119d203f36f0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554343,
+            "region_id":85688603,
+            "venue_id":824129885
+        }
+    ],
     "wof:id":824129885,
-    "wof:lastmodified":1466416070,
+    "wof:lastmodified":1492131722,
     "wof:name":"Door Check Sales & Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554343,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

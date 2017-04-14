@@ -2,9 +2,14 @@
   "id": 824171559,
   "type": "Feature",
   "properties": {
+    "addr:full":"754 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"754",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.56016,39.077476,-108.56016,39.077476",
     "geom:latitude":39.077476,
     "geom:longitude":-108.56016,
@@ -27,19 +32,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6wA29U40BFdclBcXIPTCAK_39.077476_-108.560160@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456747,
-    "wof:geomhash":"8e22d0c93a7f920d0cbbbd9cf74728b2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"35151ffa66003045027ef43a4eca2abb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554823,
+            "region_id":85688603,
+            "venue_id":824171559
+        }
+    ],
     "wof:id":824171559,
-    "wof:lastmodified":1466417818,
+    "wof:lastmodified":1492130330,
     "wof:name":"Junction Adult Arcade",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

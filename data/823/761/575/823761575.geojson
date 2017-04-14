@@ -2,9 +2,14 @@
   "id": 823761575,
   "type": "Feature",
   "properties": {
+    "addr:full":"6262 W 55th Ave Arvada CO 80002",
+    "addr:housenumber":"6262",
+    "addr:postcode":"80002",
+    "addr:street":"W 55Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067508,39.796255,-105.067508,39.796255",
     "geom:latitude":39.796255,
     "geom:longitude":-105.067508,
@@ -29,19 +34,34 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_56FQY3uXtwk0rdDdVWVHpw_39.796255_-105.067508@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445647,
-    "wof:geomhash":"59148ec5df214a7b9f5fadd724201ed3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3bd1e573cc0aa68f44c686f2ce7d5015",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823761575
+        }
+    ],
     "wof:id":823761575,
-    "wof:lastmodified":1466419011,
+    "wof:lastmodified":1492127142,
     "wof:name":"Trade Litho & Die Cutting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

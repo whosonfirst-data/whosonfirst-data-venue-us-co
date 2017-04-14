@@ -2,9 +2,14 @@
   "id": 823543939,
   "type": "Feature",
   "properties": {
+    "addr:full":"603 N 1st St Grand Junction CO 81501",
+    "addr:housenumber":"603",
+    "addr:postcode":"81501",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570961,39.073381,-108.570961,39.073381",
     "geom:latitude":39.073381,
     "geom:longitude":-108.570961,
@@ -30,19 +35,36 @@
         "devices"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554989
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4wkM3uph67O4saAvM2lwGz_39.073381_-108.570961@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440558,
-    "wof:geomhash":"64aa71f0bd6dcf9bd72eea9a1176c55b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"54858225d869dbb3158dc31cf308b46b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554989,
+            "region_id":85688603,
+            "venue_id":823543939
+        }
+    ],
     "wof:id":823543939,
-    "wof:lastmodified":1466415543,
+    "wof:lastmodified":1492118891,
     "wof:name":"Pinyon Mesa Automatics Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554989,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

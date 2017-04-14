@@ -2,9 +2,14 @@
   "id": 839970943,
   "type": "Feature",
   "properties": {
+    "addr:full":"8191 Bradburn Dr Westminster CO 80031",
+    "addr:housenumber":"8191",
+    "addr:postcode":"80031",
+    "addr:street":"Bradburn Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.037518,39.846152,-105.037518,39.846152",
     "geom:latitude":39.846152,
     "geom:longitude":-105.037518,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553561
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0PcPqj8FmDCaA8EEtk7dXV_39.846152_-105.037518@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460049,
-    "wof:geomhash":"7e0e945cf2025056ee90640703d22473",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dcc0f0c7959777491ab6199253713a11",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553561,
+            "region_id":85688603,
+            "venue_id":839970943
+        }
+    ],
     "wof:id":839970943,
-    "wof:lastmodified":1466416327,
+    "wof:lastmodified":1492110700,
     "wof:name":"Double S Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553561,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

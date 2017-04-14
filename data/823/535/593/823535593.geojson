@@ -2,9 +2,14 @@
   "id": 823535593,
   "type": "Feature",
   "properties": {
+    "addr:full":"1380 W 100th Ave Denver CO 80260",
+    "addr:housenumber":"1380",
+    "addr:postcode":"80260",
+    "addr:street":"W 100Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.0041,39.878531,-105.0041,39.878531",
     "geom:latitude":39.878531,
     "geom:longitude":-105.0041,
@@ -29,19 +34,36 @@
         "safety"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7dIjQgzDXopqs3V4Q85mkG_39.878531_-105.004100@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440366,
-    "wof:geomhash":"9d2088fcfbf3a32d8c8bb3988740c12d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9bce11c63b2b3c3736ec32b06c5b06ee",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":823535593
+        }
+    ],
     "wof:id":823535593,
-    "wof:lastmodified":1466415185,
+    "wof:lastmodified":1492127698,
     "wof:name":"Mountain Industrial Sales",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823939077,
   "type": "Feature",
   "properties": {
+    "addr:full":"25 N Main St Brighton CO 80601",
+    "addr:housenumber":"25",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.821308,39.987647,-104.821308,39.987647",
     "geom:latitude":39.987647,
     "geom:longitude":-104.821308,
@@ -27,19 +32,36 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1tH44BiDqpNc8oaY0n2lQQ_39.987647_-104.821308@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450496,
-    "wof:geomhash":"c4324fbf33c1d70041f3470bacba5281",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6a466fada48a05909d94a5dfbaa36c2d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823939077
+        }
+    ],
     "wof:id":823939077,
-    "wof:lastmodified":1466420657,
+    "wof:lastmodified":1492116038,
     "wof:name":"Jordinelli's Cafe",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

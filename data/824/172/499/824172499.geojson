@@ -2,9 +2,14 @@
   "id": 824172499,
   "type": "Feature",
   "properties": {
+    "addr:full":"4218 E 94th Pl Denver CO 80229",
+    "addr:housenumber":"4218",
+    "addr:postcode":"80229",
+    "addr:street":"E 94Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.935829,39.868245,-104.935829,39.868245",
     "geom:latitude":39.868245,
     "geom:longitude":-104.935829,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553637
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Hlvl1fP9RTOmOw4K6qvmt_39.868245_-104.935829@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456779,
-    "wof:geomhash":"eb4d57a091b4ad07031ac0ac30016466",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7e8011501b920ddc46f5d7b0ce65729d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553637,
+            "region_id":85688603,
+            "venue_id":824172499
+        }
+    ],
     "wof:id":824172499,
-    "wof:lastmodified":1466418071,
+    "wof:lastmodified":1492128269,
     "wof:name":"Barraza Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553637,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

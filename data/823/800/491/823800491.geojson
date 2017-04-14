@@ -2,9 +2,14 @@
   "id": 823800491,
   "type": "Feature",
   "properties": {
+    "addr:full":"506 Buena Vista Ct Steamboat Spgs CO 80487",
+    "addr:housenumber":"506",
+    "addr:postcode":"80487",
+    "addr:street":"Buena Vista Ct;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.824045,40.478574,-106.824045,40.478574",
     "geom:latitude":40.478574,
     "geom:longitude":-106.824045,
@@ -27,19 +32,36 @@
         "janitor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555377
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7RveHMfvQTTeiwqaCXD1IM_40.478574_-106.824045@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446723,
-    "wof:geomhash":"f8c1f30213d5c2bedc51f6335cbf9293",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bace4abce5f23533ab8461e04b2e14fb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555377,
+            "region_id":85688603,
+            "venue_id":823800491
+        }
+    ],
     "wof:id":823800491,
-    "wof:lastmodified":1466419405,
+    "wof:lastmodified":1492119322,
     "wof:name":"Steamboat Cleaning Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555377,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

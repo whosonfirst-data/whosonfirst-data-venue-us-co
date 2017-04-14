@@ -2,9 +2,14 @@
   "id": 823582307,
   "type": "Feature",
   "properties": {
+    "addr:full":"323 1st Ave E Longmont CO 80501",
+    "addr:housenumber":"323",
+    "addr:postcode":"80501",
+    "addr:street":"1St Ave E",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.085198,40.161566,-105.085198,40.161566",
     "geom:latitude":40.161566,
     "geom:longitude":-105.085198,
@@ -28,17 +33,32 @@
         "massage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4rnHkKriYZCyZqEuD6EaL5_40.161566_-105.085198@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441473,
-    "wof:geomhash":"c765d9182871400700d7fe5e94fbafb7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7e1626aff996c804e384b42552866c60",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823582307
+        }
+    ],
     "wof:id":823582307,
-    "wof:lastmodified":1466416571,
+    "wof:lastmodified":1492124134,
     "wof:name":"Front Range Medical Massage",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

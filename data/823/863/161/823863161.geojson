@@ -2,9 +2,14 @@
   "id": 823863161,
   "type": "Feature",
   "properties": {
+    "addr:full":"2605 Carnation Way Denver CO 80229",
+    "addr:housenumber":"2605",
+    "addr:postcode":"80229",
+    "addr:street":"Carnation Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.953414,39.860876,-104.953414,39.860876",
     "geom:latitude":39.860876,
     "geom:longitude":-104.953414,
@@ -29,19 +34,36 @@
         "hanging"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1dtfUkAHrem3qkVYrzuBOC_39.860876_-104.953414@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448577,
-    "wof:geomhash":"04871e092eb6e0b81eceb2a1b6d1bc73",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3df674fc2d552503e888c086d879a913",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":823863161
+        }
+    ],
     "wof:id":823863161,
-    "wof:lastmodified":1466419881,
+    "wof:lastmodified":1492124472,
     "wof:name":"Kobs Janitorial Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

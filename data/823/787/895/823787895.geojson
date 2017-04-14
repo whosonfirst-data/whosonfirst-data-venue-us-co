@@ -2,9 +2,14 @@
   "id": 823787895,
   "type": "Feature",
   "properties": {
+    "addr:full":"3057 Ursula St Aurora CO 80011",
+    "addr:housenumber":"3057",
+    "addr:postcode":"80011",
+    "addr:street":"Ursula St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.835047,39.758459,-104.835047,39.758459",
     "geom:latitude":39.758459,
     "geom:longitude":-104.835047,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2L0dGRKVZbnfOr9nOHsj9g_39.758459_-104.835047@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446348,
-    "wof:geomhash":"937cc5c6330d9cb21ce44a4e6565cabb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8ad94b633b913009b8f2f8a32812322f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553301,
+            "region_id":85688603,
+            "venue_id":823787895
+        }
+    ],
     "wof:id":823787895,
-    "wof:lastmodified":1466419368,
+    "wof:lastmodified":1492117661,
     "wof:name":"Intermountain Installation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

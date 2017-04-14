@@ -2,9 +2,14 @@
   "id": 823892411,
   "type": "Feature",
   "properties": {
+    "addr:full":"1400 Lynnwood Dr Fort Collins CO 80521",
+    "addr:housenumber":"1400",
+    "addr:postcode":"80521",
+    "addr:street":"Lynnwood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.10204,40.569208,-105.10204,40.569208",
     "geom:latitude":40.569208,
     "geom:longitude":-105.10204,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Rrez7MCle07iQR54LdZd2_40.569208_-105.102040@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449260,
-    "wof:geomhash":"167e13ace7c521ae855a4e58513e9856",
-    "wof:hierarchy":[],
+    "wof:geomhash":"209c235fea12e775903d7fa31a7fbf11",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":823892411
+        }
+    ],
     "wof:id":823892411,
-    "wof:lastmodified":1466420160,
+    "wof:lastmodified":1492119946,
     "wof:name":"Church Of Jesus Christ Of Lds",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823922123,
   "type": "Feature",
   "properties": {
+    "addr:full":"10362 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"10362",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025018,39.88505,-105.025018,39.88505",
     "geom:latitude":39.88505,
     "geom:longitude":-105.025018,
@@ -27,19 +32,48 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553747,
+        85929351,
+        102084113,
+        85888471
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4PlwspEfycS63MmOP5ARHd_39.885050_-105.025018@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450058,
-    "wof:geomhash":"4a5687489d281b42334e00c1b99d578c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"39a3786e96b631daac5f6187559ee8eb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553747,
+            "region_id":85688603,
+            "venue_id":823922123
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":85888471,
+            "region_id":85688603,
+            "venue_id":823922123
+        }
+    ],
     "wof:id":823922123,
-    "wof:lastmodified":1466420377,
+    "wof:lastmodified":1492124727,
     "wof:name":"Sawyers Subs",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

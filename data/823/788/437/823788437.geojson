@@ -2,9 +2,14 @@
   "id": 823788437,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 E Grand Ave Mancos CO 81328",
+    "addr:housenumber":"123",
+    "addr:postcode":"81328",
+    "addr:street":"E Grand Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.289397,37.345044,-108.289397,37.345044",
     "geom:latitude":37.345044,
     "geom:longitude":-108.289397,
@@ -24,19 +29,28 @@
     "sg:postcode":"81328",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_23uafpQdUGVBA9rzY6AWPM_37.345044_-108.289397@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446376,
-    "wof:geomhash":"4336e3744b05eddd109fd67c33b7aa4c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"74d4e5b7ca1af07683eac5637adfddc2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823788437
+        }
+    ],
     "wof:id":823788437,
-    "wof:lastmodified":1466419265,
+    "wof:lastmodified":1492117591,
     "wof:name":"Columbine Bar",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

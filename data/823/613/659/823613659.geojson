@@ -2,9 +2,14 @@
   "id": 823613659,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 Nickel St Broomfield CO 80020",
+    "addr:housenumber":"100",
+    "addr:postcode":"80020",
+    "addr:street":"Nickel St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.087607,39.92026,-105.087607,39.92026",
     "geom:latitude":39.92026,
     "geom:longitude":-105.087607,
@@ -27,19 +32,46 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554257,
+        85876549
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_51TBjcD5cGa2bdaFdpDGa1_39.920260_-105.087607@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442241,
-    "wof:geomhash":"9cdd16c96a90ce5444bdeb6a9480d29a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ac83a6ee25af04414386dd8c7f19665f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554257,
+            "region_id":85688603,
+            "venue_id":823613659
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":85876549,
+            "region_id":85688603,
+            "venue_id":823613659
+        }
+    ],
     "wof:id":823613659,
-    "wof:lastmodified":1466417403,
+    "wof:lastmodified":1492118966,
     "wof:name":"Broomfield Bowl & Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

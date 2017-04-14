@@ -2,9 +2,14 @@
   "id": 823950337,
   "type": "Feature",
   "properties": {
+    "addr:full":"801 San Pedro Ave Trinidad CO 81082",
+    "addr:housenumber":"801",
+    "addr:postcode":"81082",
+    "addr:street":"San Pedro Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.507813,37.176249,-104.507813,37.176249",
     "geom:latitude":37.176249,
     "geom:longitude":-104.507813,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929549,
+        102083357
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Qanx2L7HPwyYh8t9fijpv_37.176249_-104.507813@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450785,
-    "wof:geomhash":"50cadfc95eae522fc67bb8193a748f49",
-    "wof:hierarchy":[],
+    "wof:geomhash":"582f529b8119cc7477907bec26734582",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083357,
+            "locality_id":85929549,
+            "region_id":85688603,
+            "venue_id":823950337
+        }
+    ],
     "wof:id":823950337,
-    "wof:lastmodified":1466420631,
+    "wof:lastmodified":1492125133,
     "wof:name":"United Presbyterian Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

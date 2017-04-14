@@ -2,9 +2,14 @@
   "id": 823704243,
   "type": "Feature",
   "properties": {
+    "addr:full":"4472 Flanders St Denver CO 80249",
+    "addr:housenumber":"4472",
+    "addr:postcode":"80249",
+    "addr:street":"Flanders St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.757977,39.775672,-104.757977,39.775672",
     "geom:latitude":39.775672,
     "geom:longitude":-104.757977,
@@ -28,7 +33,16 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0VJWgkugUgm9raUj6XE0VM_39.775672_-104.757977@1294083659"
@@ -36,11 +50,23 @@
     "wof:country":"US",
     "wof:created":1463444323,
     "wof:geomhash":"ffcfe6d4c384d5616d7d96c7bccf2c9d",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":823704243
+        }
+    ],
     "wof:id":823704243,
-    "wof:lastmodified":1466418778,
+    "wof:lastmodified":1486593991,
     "wof:name":"Oakwood Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

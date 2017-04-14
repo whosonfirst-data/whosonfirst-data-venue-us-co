@@ -2,9 +2,14 @@
   "id": 823830295,
   "type": "Feature",
   "properties": {
+    "addr:full":"3065 S Hobart Way Denver CO 80227",
+    "addr:housenumber":"3065",
+    "addr:postcode":"80227",
+    "addr:street":"S Hobart Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060782,39.657689,-105.060782,39.657689",
     "geom:latitude":39.657689,
     "geom:longitude":-105.060782,
@@ -27,19 +32,38 @@
         "tree"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871249,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5byRUI96XGTeWEUUtGZBkd_39.657689_-105.060782@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447616,
-    "wof:geomhash":"13fddba35c48900088c7a8d6a3361814",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c28dd6c472508b05e623e13803844395",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871249,
+            "region_id":85688603,
+            "venue_id":823830295
+        }
+    ],
     "wof:id":823830295,
-    "wof:lastmodified":1466419598,
+    "wof:lastmodified":1492125872,
     "wof:name":"Active Tree Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

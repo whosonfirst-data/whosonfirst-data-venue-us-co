@@ -2,9 +2,14 @@
   "id": 823921967,
   "type": "Feature",
   "properties": {
+    "addr:full":"42688 Co Rd N Mancos CO 81328",
+    "addr:housenumber":"42688",
+    "addr:postcode":"81328",
+    "addr:street":"Co Rd N",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.28925,37.312371,-108.28925,37.312371",
     "geom:latitude":37.312371,
     "geom:longitude":-108.28925,
@@ -27,19 +32,34 @@
         "camp"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555075,
+        420555041
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5grHo9k6s8IgsMSInltH4p_37.312371_-108.289250@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450055,
-    "wof:geomhash":"9c1ac9a5c4b8f744c02160767b57bdd2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"082c3ba18370f2aaa42f271449f80b2d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555075,
+            "venue_id":823921967
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555041,
+            "venue_id":823921967
+        }
+    ],
     "wof:id":823921967,
-    "wof:lastmodified":1466420455,
+    "wof:lastmodified":1492123634,
     "wof:name":"Lake Mancos Ranch Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

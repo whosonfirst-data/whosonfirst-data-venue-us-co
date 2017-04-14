@@ -2,9 +2,14 @@
   "id": 824070143,
   "type": "Feature",
   "properties": {
+    "addr:full":"4541 Oakwood Dr Westminster CO 80031",
+    "addr:housenumber":"4541",
+    "addr:postcode":"80031",
+    "addr:street":"Oakwood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.043419,39.847022,-105.043419,39.847022",
     "geom:latitude":39.847022,
     "geom:longitude":-105.043419,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6quxDYEql1WJyA05oXKgYU_39.847022_-105.043419@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453612,
-    "wof:geomhash":"b1c4915c0c36539bccebf6f28e314967",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f84a0c431a6e1646a6db1ebd5cbaf890",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553605,
+            "region_id":85688603,
+            "venue_id":824070143
+        }
+    ],
     "wof:id":824070143,
-    "wof:lastmodified":1466414475,
+    "wof:lastmodified":1492132470,
     "wof:name":"Mechanical Maint Mach",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

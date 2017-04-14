@@ -2,9 +2,14 @@
   "id": 839965577,
   "type": "Feature",
   "properties": {
+    "addr:full":"23 S Main St Longmont CO 80501",
+    "addr:housenumber":"23",
+    "addr:postcode":"80501",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.102607,40.158565,-105.102607,40.158565",
     "geom:latitude":40.158565,
     "geom:longitude":-105.102607,
@@ -28,17 +33,32 @@
         "wear"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2XKDZx3Qxk9A44Y29APBM5_40.158565_-105.102607@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459834,
-    "wof:geomhash":"71a958d403689ef64dffd98cd64a17fe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"183daaa74c63e770a712fe161d9839dd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":839965577
+        }
+    ],
     "wof:id":839965577,
-    "wof:lastmodified":1466415981,
+    "wof:lastmodified":1492114196,
     "wof:name":"El Corral Vaquero Western Wear",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

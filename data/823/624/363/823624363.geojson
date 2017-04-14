@@ -2,9 +2,14 @@
   "id": 823624363,
   "type": "Feature",
   "properties": {
+    "addr:full":"3145 E Fountain Blvd Colorado Springs CO 80910",
+    "addr:housenumber":"3145",
+    "addr:postcode":"80910",
+    "addr:street":"E Fountain Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.769562,38.815367,-104.769562,38.815367",
     "geom:latitude":38.815367,
     "geom:longitude":-104.769562,
@@ -29,19 +34,36 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554341
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Jty3E53h4kK3MPO1NvmpS_38.815367_-104.769562@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442498,
-    "wof:geomhash":"1c1185365dbfbe0f156dfe5cae107556",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75cd5cd45618858c308d53a40a2e161a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":823624363
+        }
+    ],
     "wof:id":823624363,
-    "wof:lastmodified":1466417345,
+    "wof:lastmodified":1492119265,
     "wof:name":"Pikes Peak Carpet Care",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554341,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

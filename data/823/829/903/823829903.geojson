@@ -2,9 +2,14 @@
   "id": 823829903,
   "type": "Feature",
   "properties": {
+    "addr:full":"2864 Co Rd 223 Durango CO 81301",
+    "addr:housenumber":"2864;223",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.7254,37.244941,-107.7254,37.244941",
     "geom:latitude":37.244941,
     "geom:longitude":-107.7254,
@@ -33,19 +38,28 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5n3QYrEsRf3GiT3dAZZr0c_37.244941_-107.725400@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447606,
-    "wof:geomhash":"51ca5b335a45a5b2e85ef2bccb21c3fe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b3a218de58473354603e3e8b6859a715",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554671,
+            "venue_id":823829903
+        }
+    ],
     "wof:id":823829903,
-    "wof:lastmodified":1466419633,
+    "wof:lastmodified":1492120084,
     "wof:name":"Cumberland Basin Properties",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

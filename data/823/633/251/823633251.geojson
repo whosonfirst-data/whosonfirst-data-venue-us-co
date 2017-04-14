@@ -2,9 +2,14 @@
   "id": 823633251,
   "type": "Feature",
   "properties": {
+    "addr:full":"12100 Birch St Denver CO 80241",
+    "addr:housenumber":"12100",
+    "addr:postcode":"80241",
+    "addr:street":"Birch St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.935402,39.916199,-104.935402,39.916199",
     "geom:latitude":39.916199,
     "geom:longitude":-104.935402,
@@ -27,19 +32,46 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Kvs7AO5wU3bLkfPUefINx_39.916199_-104.935402@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442700,
-    "wof:geomhash":"ee13170a2fecd654572e7dac765c5722",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2a085b501147d144b063f32a154e9003",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823633251
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":823633251
+        }
+    ],
     "wof:id":823633251,
-    "wof:lastmodified":1466417782,
+    "wof:lastmodified":1492121605,
     "wof:name":"Blue Sky Construction LP",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823713349,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 US Hwy 85 Brighton CO 80603",
+    "addr:housenumber":"123",
+    "addr:postcode":"80603",
+    "addr:street":"Us Hwy 85",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.821488,40.001875,-104.821488,40.001875",
     "geom:latitude":40.001875,
     "geom:longitude":-104.821488,
@@ -24,19 +29,28 @@
     "sg:postcode":"80603",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1eyE9goYddamXcIiisdjQN_40.001875_-104.821488@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444516,
-    "wof:geomhash":"4fdd0bb9fda4edfd9da60bf528bd62de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6c0909acbc47887f3cb3068458bda59f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":823713349
+        }
+    ],
     "wof:id":823713349,
-    "wof:lastmodified":1466418656,
+    "wof:lastmodified":1492116830,
     "wof:name":"Dick's Tavern",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555409,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

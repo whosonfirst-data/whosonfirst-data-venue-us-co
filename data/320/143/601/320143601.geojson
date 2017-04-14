@@ -2,9 +2,14 @@
   "id": 320143601,
   "type": "Feature",
   "properties": {
+    "addr:full":"3400 Colorado Boulevard Denver CO 80205",
+    "addr:housenumber":"3400",
+    "addr:postcode":"80205",
+    "addr:street":"Colorado Boulevard",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940333,39.764852,-104.940333,39.764852",
     "geom:latitude":39.764852,
     "geom:longitude":-104.940333,
@@ -26,11 +31,14 @@
     "sg:website":"www.conoco.com",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750051,
+        85840547,
+        102191575,
+        1108750055,
         85633793,
         85928879,
         102086135,
-        85871321
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -40,19 +48,21 @@
     "wof:geomhash":"26abc6e2c077c3e57811915da8839079",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85871321,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750051,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":320143601
         }
     ],
     "wof:id":320143601,
-    "wof:lastmodified":1466412669,
+    "wof:lastmodified":1486604415,
     "wof:name":"Malmart Conoco",
-    "wof:parent_id":85871321,
+    "wof:parent_id":1108750051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

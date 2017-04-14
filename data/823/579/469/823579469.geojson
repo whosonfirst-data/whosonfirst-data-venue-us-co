@@ -2,9 +2,14 @@
   "id": 823579469,
   "type": "Feature",
   "properties": {
+    "addr:full":"3117 28th St Boulder CO 80301",
+    "addr:housenumber":"3117",
+    "addr:postcode":"80301",
+    "addr:street":"28Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258496,40.030642,-105.258496,40.030642",
     "geom:latitude":40.030642,
     "geom:longitude":-105.258496,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6bOoWDup3bXZRVZzLTJBnZ_40.030642_-105.258496@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441410,
-    "wof:geomhash":"e9341df1e01b341b711b0ea77449f759",
-    "wof:hierarchy":[],
+    "wof:geomhash":"01c905ac3dddeed2544e11160a04b87a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":823579469
+        }
+    ],
     "wof:id":823579469,
-    "wof:lastmodified":1466416390,
+    "wof:lastmodified":1492121695,
     "wof:name":"Togos Eatery",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

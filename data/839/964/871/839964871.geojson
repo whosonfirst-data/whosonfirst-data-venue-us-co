@@ -2,9 +2,14 @@
   "id": 839964871,
   "type": "Feature",
   "properties": {
+    "addr:full":"2201 S Broadway Cortez CO 81321",
+    "addr:housenumber":"2201",
+    "addr:postcode":"81321",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.607271,37.328506,-108.607271,37.328506",
     "geom:latitude":37.328506,
     "geom:longitude":-108.607271,
@@ -28,19 +33,36 @@
         "construction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555043
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_73EK2jDT206XdjfHh9mSeD_37.328506_-108.607271@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459809,
-    "wof:geomhash":"540815dd698ba9718248b7b1e0454549",
-    "wof:hierarchy":[],
+    "wof:geomhash":"76d784d78a3b6f3ff3b484e16217e821",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555043,
+            "region_id":85688603,
+            "venue_id":839964871
+        }
+    ],
     "wof:id":839964871,
-    "wof:lastmodified":1466416020,
+    "wof:lastmodified":1492111264,
     "wof:name":"Todd Equipment Sales LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555043,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

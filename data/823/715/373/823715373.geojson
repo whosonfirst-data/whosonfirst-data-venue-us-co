@@ -2,9 +2,14 @@
   "id": 823715373,
   "type": "Feature",
   "properties": {
+    "addr:full":"1600 Colorado Blvd Idaho Springs CO 80452",
+    "addr:housenumber":"1600",
+    "addr:postcode":"80452",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.516008,39.742808,-105.516008,39.742808",
     "geom:latitude":39.742808,
     "geom:longitude":-105.516008,
@@ -27,19 +32,34 @@
         "fraternal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929529,
+        102085243,
+        85803449
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6F9R3APkZF1rT2mYKJLwb0_39.742808_-105.516008@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444553,
-    "wof:geomhash":"022f5ca16953ab0139b98ab475c6901b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6bf3a8581a436298c81a190cf9d75207",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085243,
+            "locality_id":85929529,
+            "neighbourhood_id":85803449,
+            "region_id":85688603,
+            "venue_id":823715373
+        }
+    ],
     "wof:id":823715373,
-    "wof:lastmodified":1466418782,
+    "wof:lastmodified":1492117923,
     "wof:name":"Elks Lodge",
-    "wof:parent_id":-1,
+    "wof:parent_id":85803449,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

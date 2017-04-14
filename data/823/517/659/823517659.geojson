@@ -2,9 +2,14 @@
   "id": 823517659,
   "type": "Feature",
   "properties": {
+    "addr:full":"1125 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"1125",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.552823,39.077318,-108.552823,39.077318",
     "geom:latitude":39.077318,
     "geom:longitude":-108.552823,
@@ -27,19 +32,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_01pDyVvMP6YDWoHzYs9BhB_39.077318_-108.552823@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439971,
-    "wof:geomhash":"5620f96b189dba5cf54267e2d0823a49",
-    "wof:hierarchy":[],
+    "wof:geomhash":"826a36e6e8c1f65c913e51163c8417d8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":823517659
+        }
+    ],
     "wof:id":823517659,
-    "wof:lastmodified":1466414667,
+    "wof:lastmodified":1492124508,
     "wof:name":"Diorio's Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

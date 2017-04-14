@@ -2,9 +2,14 @@
   "id": 823637541,
   "type": "Feature",
   "properties": {
+    "addr:full":"3116 Longhorn Rd Boulder CO 80302",
+    "addr:housenumber":"3116",
+    "addr:postcode":"80302",
+    "addr:street":"Longhorn Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281872,40.079839,-105.281872,40.079839",
     "geom:latitude":40.079839,
     "geom:longitude":-105.281872,
@@ -28,19 +33,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_52kFQieUZkTf0nM1Ti5BOK_40.079839_-105.281872@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442798,
-    "wof:geomhash":"0aaf82877a51bbb64737020509385ee4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cc4712092d18dd80ae2d5421c85f12e9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823637541
+        }
+    ],
     "wof:id":823637541,
-    "wof:lastmodified":1466417735,
+    "wof:lastmodified":1492124436,
     "wof:name":"Sunset Cabinet Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

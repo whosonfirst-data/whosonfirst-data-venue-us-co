@@ -2,9 +2,14 @@
   "id": 824142995,
   "type": "Feature",
   "properties": {
+    "addr:full":"1635 Co Rd 302 Parachute CO 81635",
+    "addr:housenumber":"1635",
+    "addr:postcode":"302;81635",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.001249,39.437765,-108.001249,39.437765",
     "geom:latitude":39.437765,
     "geom:longitude":-108.001249,
@@ -28,19 +33,32 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85853011,
+        102084085
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1yh4ISvZ493nlMqVDMgDrH_39.437765_-108.001249@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455617,
-    "wof:geomhash":"c12c58f4b2e1d4106decb2e15d4f3276",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7717825489c42be4aed03ec2b109e9c2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084085,
+            "neighbourhood_id":85853011,
+            "region_id":85688603,
+            "venue_id":824142995
+        }
+    ],
     "wof:id":824142995,
-    "wof:lastmodified":1466416715,
+    "wof:lastmodified":1492129356,
     "wof:name":"Mithril Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":85853011,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

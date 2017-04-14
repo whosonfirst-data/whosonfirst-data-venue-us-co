@@ -2,9 +2,14 @@
   "id": 823655301,
   "type": "Feature",
   "properties": {
+    "addr:full":"1885 W Dartmouth Ave Englewood CO 80110",
+    "addr:housenumber":"1885",
+    "addr:postcode":"80110",
+    "addr:street":"W Dartmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006123,39.660382,-105.006123,39.660382",
     "geom:latitude":39.660382,
     "geom:longitude":-105.006123,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        420553955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4iP3MF6FPzEvRlqPOquso7_39.660382_-105.006123@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443202,
-    "wof:geomhash":"a382f01d8faf4e1b941f3a845b9254c7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"016e3755c2400fcb832bc1e6348a067e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
+            "region_id":85688603,
+            "venue_id":823655301
+        }
+    ],
     "wof:id":823655301,
-    "wof:lastmodified":1466418130,
+    "wof:lastmodified":1492127917,
     "wof:name":"Metopolitan Insulation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

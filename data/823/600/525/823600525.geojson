@@ -2,9 +2,14 @@
   "id": 823600525,
   "type": "Feature",
   "properties": {
+    "addr:full":"1201 City Park Ave Fort Collins CO 80521",
+    "addr:housenumber":"1201",
+    "addr:postcode":"80521",
+    "addr:street":"City Park Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.100843,40.571124,-105.100843,40.571124",
     "geom:latitude":40.571124,
     "geom:longitude":-105.100843,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00rz5MByIDkDxrujWM2EyK_40.571124_-105.100843@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441909,
-    "wof:geomhash":"e959f9dc9793d5af219a7384b24f4db9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"89961b11f31c255df86a48cca66c9e97",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":823600525
+        }
+    ],
     "wof:id":823600525,
-    "wof:lastmodified":1466417124,
+    "wof:lastmodified":1492121655,
     "wof:name":"Artists Custom Stretchers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

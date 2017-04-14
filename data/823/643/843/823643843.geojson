@@ -2,9 +2,14 @@
   "id": 823643843,
   "type": "Feature",
   "properties": {
+    "addr:full":"6314 W 62nd Pl Arvada CO 80003",
+    "addr:housenumber":"6314",
+    "addr:postcode":"80003",
+    "addr:street":"W 62Nd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067133,39.809899,-105.067133,39.809899",
     "geom:latitude":39.809899,
     "geom:longitude":-105.067133,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554591
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1riOe824e8HQygL9Xhlr8B_39.809899_-105.067133@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442942,
-    "wof:geomhash":"77c23e2d7e538591a95662fd62798976",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1e5e244746d2ee7f224f38ad29588a62",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554591,
+            "region_id":85688603,
+            "venue_id":823643843
+        }
+    ],
     "wof:id":823643843,
-    "wof:lastmodified":1466418016,
+    "wof:lastmodified":1492121223,
     "wof:name":"First Choice Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554591,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

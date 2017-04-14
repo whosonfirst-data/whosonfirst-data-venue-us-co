@@ -2,9 +2,14 @@
   "id": 823933723,
   "type": "Feature",
   "properties": {
+    "addr:full":"2344 Teller Ct Grand Junction CO 81501",
+    "addr:housenumber":"2344",
+    "addr:postcode":"81501",
+    "addr:street":"Teller Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.537556,39.075123,-108.537556,39.075123",
     "geom:latitude":39.075123,
     "geom:longitude":-108.537556,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1DOcCHy3sxuk7YzQqvV6eU_39.075123_-108.537556@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450356,
-    "wof:geomhash":"4337b7324664b4f3cc70f4ef54e2ca33",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a559d57d78bbf299a96828b8d226b3b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":823933723
+        }
+    ],
     "wof:id":823933723,
-    "wof:lastmodified":1466420407,
+    "wof:lastmodified":1492119354,
     "wof:name":"Park East Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

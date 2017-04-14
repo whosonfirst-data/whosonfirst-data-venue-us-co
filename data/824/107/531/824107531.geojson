@@ -2,9 +2,14 @@
   "id": 824107531,
   "type": "Feature",
   "properties": {
+    "addr:full":"1905 Mariposa Ave Boulder CO 80302",
+    "addr:housenumber":"1905",
+    "addr:postcode":"80302",
+    "addr:street":"Mariposa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.267803,39.998263,-105.267803,39.998263",
     "geom:latitude":39.998263,
     "geom:longitude":-105.267803,
@@ -29,7 +34,14 @@
         "publishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6aVq0QE6nw3z1UstazRABK_39.998263_-105.267803@1294083659"
@@ -37,11 +49,21 @@
     "wof:country":"US",
     "wof:created":1463454497,
     "wof:geomhash":"cd2428df0f6154edb6e57e5d786d62f1",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":824107531
+        }
+    ],
     "wof:id":824107531,
-    "wof:lastmodified":1466415239,
+    "wof:lastmodified":1491890401,
     "wof:name":"Baylin Publications",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

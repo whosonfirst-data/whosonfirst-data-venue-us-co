@@ -2,9 +2,14 @@
   "id": 823487159,
   "type": "Feature",
   "properties": {
+    "addr:full":"5092 Co Rd 302 Durango CO 81303",
+    "addr:housenumber":"5092;302",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.80286,37.194648,-107.80286,37.194648",
     "geom:latitude":37.194648,
     "geom:longitude":-107.80286,
@@ -28,19 +33,28 @@
         "erosion"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2dXT69B0TKmfxSJPVVxSZM_37.194648_-107.802860@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439236,
-    "wof:geomhash":"a08c8aa04dbe51465f416ac7c19df2de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2d341f1325c198aed734d387a22516b1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823487159
+        }
+    ],
     "wof:id":823487159,
-    "wof:lastmodified":1466413773,
+    "wof:lastmodified":1492121357,
     "wof:name":"K & B Summit Supply",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

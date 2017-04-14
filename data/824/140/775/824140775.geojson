@@ -2,9 +2,14 @@
   "id": 824140775,
   "type": "Feature",
   "properties": {
+    "addr:full":"4949 Pearl East Cir Boulder CO 80301",
+    "addr:housenumber":"4949",
+    "addr:postcode":"80301",
+    "addr:street":"Pearl East Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.2375,40.021224,-105.2375,40.021224",
     "geom:latitude":40.021224,
     "geom:longitude":-105.2375,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_47Fo9n1mpBedleVDmJHZRn_40.021224_-105.237500@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455538,
-    "wof:geomhash":"769042f8f8769e027b61817e53f22edd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c29a1e345d941a591449f41a3aec3027",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":824140775
+        }
+    ],
     "wof:id":824140775,
-    "wof:lastmodified":1466416611,
+    "wof:lastmodified":1492131793,
     "wof:name":"Cyborg Systems Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

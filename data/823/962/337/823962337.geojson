@@ -2,9 +2,14 @@
   "id": 823962337,
   "type": "Feature",
   "properties": {
+    "addr:full":"1256 Beaver Creek Dr Bayfield CO 81122",
+    "addr:housenumber":"1256",
+    "addr:postcode":"81122",
+    "addr:street":"Beaver Creek Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.520375,37.269586,-107.520375,37.269586",
     "geom:latitude":37.269586,
     "geom:longitude":-107.520375,
@@ -36,19 +41,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554661
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0B7w990Rmt5rRC5xjILHf1_37.269586_-107.520375@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451077,
-    "wof:geomhash":"4474e7faa989bc5458c42e6c6266b44e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7b882a07c5d48b2bfc9ac23f7a73ac24",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554661,
+            "venue_id":823962337
+        }
+    ],
     "wof:id":823962337,
-    "wof:lastmodified":1466420693,
+    "wof:lastmodified":1492120921,
     "wof:name":"Troutman Heating & Air",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554661,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

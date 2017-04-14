@@ -2,9 +2,14 @@
   "id": 823705781,
   "type": "Feature",
   "properties": {
+    "addr:full":"600 W 3rd St Florence CO 81226",
+    "addr:housenumber":"600",
+    "addr:postcode":"florence;81226",
+    "addr:street":"W 3Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.125382,38.395029,-105.125382,38.395029",
     "geom:latitude":38.395029,
     "geom:longitude":-105.125382,
@@ -28,17 +33,32 @@
         "physical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929791,
+        102083363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7O8KPxKTvATveVKDuxcdQK_38.395029_-105.125382@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444352,
-    "wof:geomhash":"644ba64444c6e44212da6fbd472e131e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"448c026d05094d373dd7d25ecf9ae657",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "locality_id":85929791,
+            "region_id":85688603,
+            "venue_id":823705781
+        }
+    ],
     "wof:id":823705781,
-    "wof:lastmodified":1466418571,
+    "wof:lastmodified":1492116907,
     "wof:name":"St Joseph Manor",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

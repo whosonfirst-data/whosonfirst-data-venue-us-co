@@ -2,9 +2,14 @@
   "id": 839988681,
   "type": "Feature",
   "properties": {
+    "addr:full":"8410 Pearl St Denver CO 80229",
+    "addr:housenumber":"8410",
+    "addr:postcode":"80229",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979301,39.849657,-104.979301,39.849657",
     "geom:latitude":39.849657,
     "geom:longitude":-104.979301,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Btk8jrnRUZXWkgMGaewab_39.849657_-104.979301@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460764,
-    "wof:geomhash":"23c9405a52123f6585212ccfdb03d983",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2d7672e8397b802d80508c5fa2ff772e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":839988681
+        }
+    ],
     "wof:id":839988681,
-    "wof:lastmodified":1466417422,
+    "wof:lastmodified":1492112818,
     "wof:name":"Starbucks Coffee",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

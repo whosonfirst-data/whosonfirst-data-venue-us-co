@@ -2,9 +2,14 @@
   "id": 823755445,
   "type": "Feature",
   "properties": {
+    "addr:full":"9683 Marion Way Denver CO 80229",
+    "addr:housenumber":"9683",
+    "addr:postcode":"80229",
+    "addr:street":"Marion Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.972116,39.872809,-104.972116,39.872809",
     "geom:latitude":39.872809,
     "geom:longitude":-104.972116,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7J3uQPH1OcsTYssmfuFAce_39.872809_-104.972116@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445519,
-    "wof:geomhash":"357162f5b597b6b9e2db8502a6281a25",
-    "wof:hierarchy":[],
+    "wof:geomhash":"87dda6a3154271595dd5464499c834be",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823755445
+        }
+    ],
     "wof:id":823755445,
-    "wof:lastmodified":1466419026,
+    "wof:lastmodified":1492122077,
     "wof:name":"Reidle Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823762937,
   "type": "Feature",
   "properties": {
+    "addr:full":"8815 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"8815",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025189,39.859373,-105.025189,39.859373",
     "geom:latitude":39.859373,
     "geom:longitude":-105.025189,
@@ -27,19 +32,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553875
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7dpryJ3GlxVTYcv8n26lUZ_39.859373_-105.025189@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445675,
-    "wof:geomhash":"5e1e6c5c75d29259e1672fb529e9fde2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1930930c4797ece7de7a90e594c67866",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553875,
+            "region_id":85688603,
+            "venue_id":823762937
+        }
+    ],
     "wof:id":823762937,
-    "wof:lastmodified":1466419027,
+    "wof:lastmodified":1492118466,
     "wof:name":"Shell Station",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553875,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

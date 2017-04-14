@@ -2,9 +2,14 @@
   "id": 823918025,
   "type": "Feature",
   "properties": {
+    "addr:full":"2637 Valmont Rd Boulder CO 80304",
+    "addr:housenumber":"2637",
+    "addr:postcode":"80304",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.26248,40.02925,-105.26248,40.02925",
     "geom:latitude":40.02925,
     "geom:longitude":-105.26248,
@@ -31,19 +36,36 @@
         "community"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4u6klkeQ5cDNgXLFzWrqKF_40.029250_-105.262480@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449953,
-    "wof:geomhash":"0ccedbbda6ff212187330b831fb71561",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c68d4523c380a035dadbccb9e375f0b4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":823918025
+        }
+    ],
     "wof:id":823918025,
-    "wof:lastmodified":1466420314,
+    "wof:lastmodified":1492121262,
     "wof:name":"Boulder Mobile Manor",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

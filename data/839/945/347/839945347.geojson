@@ -2,9 +2,14 @@
   "id": 839945347,
   "type": "Feature",
   "properties": {
+    "addr:full":"11042 Fillmore Way Denver CO 80233",
+    "addr:housenumber":"11042",
+    "addr:postcode":"80233",
+    "addr:street":"Fillmore Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.953902,39.896895,-104.953902,39.896895",
     "geom:latitude":39.896895,
     "geom:longitude":-104.953902,
@@ -29,19 +34,36 @@
         "site"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553673
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_59wdOQYRReRwLY3IiIjVPT_39.896895_-104.953902@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458867,
-    "wof:geomhash":"18b9f1cd3c57c6e42fe9fd787f125c7c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4de005bcd6204496753b75247e1e5615",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553673,
+            "region_id":85688603,
+            "venue_id":839945347
+        }
+    ],
     "wof:id":839945347,
-    "wof:lastmodified":1466415164,
+    "wof:lastmodified":1492114045,
     "wof:name":"Software Altenative LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553673,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

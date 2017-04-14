@@ -2,9 +2,14 @@
   "id": 839911537,
   "type": "Feature",
   "properties": {
+    "addr:full":"4635 Broadway St Boulder CO 80304",
+    "addr:housenumber":"4635",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.282204,40.05964,-105.282204,40.05964",
     "geom:latitude":40.05964,
     "geom:longitude":-105.282204,
@@ -27,19 +32,34 @@
         "massage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5krxfQAg8OXIr8h1DSKR94_40.059640_-105.282204@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457166,
-    "wof:geomhash":"5c857fe9be0645e89cef821685deca75",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b514e4cc39ffe22b45cf9e5ecfa78951",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":839911537
+        }
+    ],
     "wof:id":839911537,
-    "wof:lastmodified":1466412253,
+    "wof:lastmodified":1492113132,
     "wof:name":"Colorado Healing Arts Products",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

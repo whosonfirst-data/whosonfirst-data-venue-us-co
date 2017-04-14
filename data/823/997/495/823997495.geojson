@@ -2,9 +2,14 @@
   "id": 823997495,
   "type": "Feature",
   "properties": {
+    "addr:full":"240 Electra Lake Rd Durango CO 81301",
+    "addr:housenumber":"240",
+    "addr:postcode":"co 81301",
+    "addr:street":"Electra Lake Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.821859,37.559481,-107.821859,37.559481",
     "geom:latitude":37.559481,
     "geom:longitude":-107.821859,
@@ -28,19 +33,44 @@
         "hydro"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554677,
+        85688603,
+        85888399,
+        102084019,
+        420554627
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ZyhnAl5evqEB2HgiYIRnn_37.559481_-107.821859@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451929,
-    "wof:geomhash":"1917dc1db5fc569dd3eba841e2f5cb2a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2ec3ec81b2ad84a9d35e8ec661c14400",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554677,
+            "venue_id":823997495
+        },
+        {
+            "country_id":85633793,
+            "county_id":102084019,
+            "neighbourhood_id":85888399,
+            "region_id":85688603,
+            "venue_id":823997495
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554627,
+            "venue_id":823997495
+        }
+    ],
     "wof:id":823997495,
-    "wof:lastmodified":1466421043,
+    "wof:lastmodified":1492123797,
     "wof:name":"Public Service Company Colo",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

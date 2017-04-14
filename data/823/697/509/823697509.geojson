@@ -2,9 +2,14 @@
   "id": 823697509,
   "type": "Feature",
   "properties": {
+    "addr:full":"8876 Washington St Thornton CO 80229",
+    "addr:housenumber":"8876",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977728,39.858861,-104.977728,39.858861",
     "geom:latitude":39.858861,
     "geom:longitude":-104.977728,
@@ -24,19 +29,36 @@
     "sg:postcode":"80229",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_69oFa25Gbf9NoAfkh3Mi7k_39.858861_-104.977728@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444187,
-    "wof:geomhash":"708453f606ad410fabc271c9d6178a61",
-    "wof:hierarchy":[],
+    "wof:geomhash":"42c0ad430315cdf4832a3772b588af8c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823697509
+        }
+    ],
     "wof:id":823697509,
-    "wof:lastmodified":1466418512,
+    "wof:lastmodified":1492125316,
     "wof:name":"Thornton Laundromat",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

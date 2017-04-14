@@ -2,9 +2,14 @@
   "id": 839964759,
   "type": "Feature",
   "properties": {
+    "addr:full":"5591 E 72nd Ave Commerce City CO 80022",
+    "addr:housenumber":"5591",
+    "addr:postcode":"80022",
+    "addr:street":"E 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.923328,39.827303,-104.923328,39.827303",
     "geom:latitude":39.827303,
     "geom:longitude":-104.923328,
@@ -30,19 +35,36 @@
         "classic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553537
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0oePb3udvi4pvQH3bIQVhg_39.827303_-104.923328@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459805,
-    "wof:geomhash":"6f4f0537a4d04e6171642d59a664979a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"766ae5138b287c3941d2097bb9bc598a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553537,
+            "region_id":85688603,
+            "venue_id":839964759
+        }
+    ],
     "wof:id":839964759,
-    "wof:lastmodified":1466416008,
+    "wof:lastmodified":1492111259,
     "wof:name":"Maddox Vintage Autos & Parts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553537,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

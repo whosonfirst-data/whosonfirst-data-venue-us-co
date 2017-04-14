@@ -2,9 +2,14 @@
   "id": 823707115,
   "type": "Feature",
   "properties": {
+    "addr:full":"250 E Orchard Rd Littleton CO 80121",
+    "addr:housenumber":"250",
+    "addr:postcode":"80121",
+    "addr:street":"E Orchard Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98542,39.609593,-104.98542,39.609593",
     "geom:latitude":39.609593,
     "geom:longitude":-104.98542,
@@ -27,17 +32,41 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929851,
+        102086877,
+        85929241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6rD73vv7MUaXf1uoxfJ0wR_39.609593_-104.985420@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444379,
-    "wof:geomhash":"bd928023eb0ce9852e404e540e3e7e84",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2c314694c24971a4d5872f05233f111c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929851,
+            "region_id":85688603,
+            "venue_id":823707115
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929241,
+            "region_id":85688603,
+            "venue_id":823707115
+        }
+    ],
     "wof:id":823707115,
-    "wof:lastmodified":1466418584,
+    "wof:lastmodified":1492121482,
     "wof:name":"Gas Detection Services Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

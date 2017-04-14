@@ -2,9 +2,14 @@
   "id": 823983261,
   "type": "Feature",
   "properties": {
+    "addr:full":"31500 State Hwy 131 Steamboat Spgs CO 80487",
+    "addr:housenumber":"31500",
+    "addr:postcode":"80487",
+    "addr:street":"State Hwy 131;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.832216,40.369921,-106.832216,40.369921",
     "geom:latitude":40.369921,
     "geom:longitude":-106.832216,
@@ -28,19 +33,28 @@
         "bureau"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555199
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_25ceY1nqWpbEP6f1zEBhvz_40.369921_-106.832216@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451570,
-    "wof:geomhash":"77ec027872e522ff542aa1dbc3f3f326",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8b40be368764bc03ec37e822345b85b3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555199,
+            "venue_id":823983261
+        }
+    ],
     "wof:id":823983261,
-    "wof:lastmodified":1466420914,
+    "wof:lastmodified":1492116667,
     "wof:name":"D & D Travel Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555199,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

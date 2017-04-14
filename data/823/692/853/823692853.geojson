@@ -2,9 +2,14 @@
   "id": 823692853,
   "type": "Feature",
   "properties": {
+    "addr:full":"11820 Irma Dr Denver CO 80233",
+    "addr:housenumber":"11820",
+    "addr:postcode":"80233",
+    "addr:street":"Irma Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.968785,39.910068,-104.968785,39.910068",
     "geom:latitude":39.910068,
     "geom:longitude":-104.968785,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553653
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2S6PIVusLxEn5T5wmx1TIJ_39.910068_-104.968785@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444081,
-    "wof:geomhash":"f7b30b3e7af588961aff86edb760d028",
-    "wof:hierarchy":[],
+    "wof:geomhash":"02dbe80acde44df7a118ed8c7ffdb2ef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553653,
+            "region_id":85688603,
+            "venue_id":823692853
+        }
+    ],
     "wof:id":823692853,
-    "wof:lastmodified":1466418761,
+    "wof:lastmodified":1492119777,
     "wof:name":"Steve Losli Remodel",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553653,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

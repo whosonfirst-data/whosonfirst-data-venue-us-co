@@ -2,9 +2,14 @@
   "id": 823830277,
   "type": "Feature",
   "properties": {
+    "addr:full":"13100 Co Rd 501 Bayfield CO 81122",
+    "addr:housenumber":"13100",
+    "addr:postcode":"81122",
+    "addr:street":"Co Rd 501",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.580072,37.380645,-107.580072,37.380645",
     "geom:latitude":37.380645,
     "geom:longitude":-107.580072,
@@ -27,19 +32,28 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3JzGxWbxLMho68PMlXFYlY_37.380645_-107.580072@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447616,
-    "wof:geomhash":"3581fc84ca723c3f8b45baf0c3adad8a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"727f654bb8028d67743b19dd962e4044",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554689,
+            "venue_id":823830277
+        }
+    ],
     "wof:id":823830277,
-    "wof:lastmodified":1466419597,
+    "wof:lastmodified":1492125867,
     "wof:name":"Upper Pine River Fire Prot",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

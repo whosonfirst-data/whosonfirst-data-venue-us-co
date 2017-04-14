@@ -2,9 +2,14 @@
   "id": 823610507,
   "type": "Feature",
   "properties": {
+    "addr:full":"898 Racquet Ln Boulder CO 80303",
+    "addr:housenumber":"898",
+    "addr:postcode":"80303",
+    "addr:street":"Racquet Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.222801,40.000988,-105.222801,40.000988",
     "geom:latitude":40.000988,
     "geom:longitude":-105.222801,
@@ -27,19 +32,36 @@
         "foster"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554141
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1k1FLowa5E065WmLORTYUk_40.000988_-105.222801@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442157,
-    "wof:geomhash":"da1edeeb438a551563eef4510b317f23",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a8bc3fa5c905cd24ec62112955b3d0d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554141,
+            "region_id":85688603,
+            "venue_id":823610507
+        }
+    ],
     "wof:id":823610507,
-    "wof:lastmodified":1466417315,
+    "wof:lastmodified":1492125164,
     "wof:name":"Kids' Resource Network",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554141,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

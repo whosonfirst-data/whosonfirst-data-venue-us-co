@@ -2,9 +2,14 @@
   "id": 823483061,
   "type": "Feature",
   "properties": {
+    "addr:full":"5163 W Columbia Pl Denver CO 80236",
+    "addr:housenumber":"5163",
+    "addr:postcode":"80236",
+    "addr:street":"W Columbia Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052271,39.657999,-105.052271,39.657999",
     "geom:latitude":39.657999,
     "geom:longitude":-105.052271,
@@ -24,7 +29,15 @@
     "sg:postcode":"80236",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4j0v8SxX67Np8S2mHry1th_39.657999_-105.052271@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463439147,
     "wof:geomhash":"e6b82475e21b48138e7a21cd089a5eb0",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":823483061
+        }
+    ],
     "wof:id":823483061,
-    "wof:lastmodified":1466413541,
+    "wof:lastmodified":1491876243,
     "wof:name":"Ponderosa Framing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

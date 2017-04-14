@@ -2,9 +2,14 @@
   "id": 824071425,
   "type": "Feature",
   "properties": {
+    "addr:full":"225 Mohawk Dr Boulder CO 80303",
+    "addr:housenumber":"225",
+    "addr:postcode":"80303",
+    "addr:street":"Mohawk Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.238471,39.992493,-105.238471,39.992493",
     "geom:latitude":39.992493,
     "geom:longitude":-105.238471,
@@ -27,19 +32,36 @@
         "agency"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554127
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3xOKxlvpDKOCdzWFIeMaBg_39.992493_-105.238471@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453652,
-    "wof:geomhash":"87d4b5c72395f83e0aacbcc5796014e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6328a7cc55aec09089a3be037b55d63b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554127,
+            "region_id":85688603,
+            "venue_id":824071425
+        }
+    ],
     "wof:id":824071425,
-    "wof:lastmodified":1466414751,
+    "wof:lastmodified":1492131611,
     "wof:name":"Travel Study of America",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554127,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

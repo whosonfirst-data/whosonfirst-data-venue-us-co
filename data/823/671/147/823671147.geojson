@@ -2,9 +2,14 @@
   "id": 823671147,
   "type": "Feature",
   "properties": {
+    "addr:full":"1001 Balsam St Cortez CO 81321",
+    "addr:housenumber":"1001",
+    "addr:postcode":"81321",
+    "addr:street":"Balsam St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.557646,37.36002,-108.557646,37.36002",
     "geom:latitude":37.36002,
     "geom:longitude":-108.557646,
@@ -28,19 +33,28 @@
         "improvement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3M9ktP4R43rA1p8TyANsAF_37.360020_-108.557646@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443594,
-    "wof:geomhash":"6bb504afefe5a0b5daa95b9e0f6a48c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d1d5d29575b41377128ba00419fefdd7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823671147
+        }
+    ],
     "wof:id":823671147,
-    "wof:lastmodified":1466418371,
+    "wof:lastmodified":1492116082,
     "wof:name":"Dan's Home Improvements",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

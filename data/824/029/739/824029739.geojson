@@ -2,9 +2,14 @@
   "id": 824029739,
   "type": "Feature",
   "properties": {
+    "addr:full":"510 S Pierce Ave Louisville CO 80027",
+    "addr:housenumber":"510",
+    "addr:postcode":"80027",
+    "addr:street":"S Pierce Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.121947,39.96228,-105.121947,39.96228",
     "geom:latitude":39.96228,
     "geom:longitude":-105.121947,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251,
+        420554039
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2R6AkuuZ4IHsqvICqps6EW_39.962280_-105.121947@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452657,
-    "wof:geomhash":"e8142673804171e096d8177827949f6c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4b0b9690df6fb2046b9aecb8427a666d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "neighbourhood_id":420554039,
+            "region_id":85688603,
+            "venue_id":824029739
+        }
+    ],
     "wof:id":824029739,
-    "wof:lastmodified":1466413699,
+    "wof:lastmodified":1492132040,
     "wof:name":"H W Home",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554039,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

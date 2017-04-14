@@ -2,9 +2,14 @@
   "id": 823597539,
   "type": "Feature",
   "properties": {
+    "addr:full":"9833 Alamo Dr Denver CO 80260",
+    "addr:housenumber":"9833",
+    "addr:postcode":"80260",
+    "addr:street":"Alamo Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.990721,39.874882,-104.990721,39.874882",
     "geom:latitude":39.874882,
     "geom:longitude":-104.990721,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0dztALg9LiclU9FGNSzK9x_39.874882_-104.990721@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441825,
-    "wof:geomhash":"120ec7bf5bee80fcf7a65846e5de9158",
-    "wof:hierarchy":[],
+    "wof:geomhash":"13bf8e11694050c9b17453063626e08e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553659,
+            "region_id":85688603,
+            "venue_id":823597539
+        }
+    ],
     "wof:id":823597539,
-    "wof:lastmodified":1466417114,
+    "wof:lastmodified":1492116599,
     "wof:name":"Mussack Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

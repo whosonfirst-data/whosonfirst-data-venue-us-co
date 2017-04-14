@@ -2,9 +2,14 @@
   "id": 823586655,
   "type": "Feature",
   "properties": {
+    "addr:full":"3010 W 134th Ave Broomfield CO 80020",
+    "addr:housenumber":"3010",
+    "addr:postcode":"80020",
+    "addr:street":"W 134Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02307,39.940074,-105.02307,39.940074",
     "geom:latitude":39.940074,
     "geom:longitude":-105.02307,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554219
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_52tp7iLjcCa7y3H2ZPIX50_39.940074_-105.023070@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441574,
-    "wof:geomhash":"c81938e2a65b01da57411a6084c31a1d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"feb83a0ee0415cef00c68c3f3f06fb4b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554219,
+            "region_id":85688603,
+            "venue_id":823586655
+        }
+    ],
     "wof:id":823586655,
-    "wof:lastmodified":1466416902,
+    "wof:lastmodified":1492118503,
     "wof:name":"Affordable Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554219,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

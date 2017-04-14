@@ -2,9 +2,14 @@
   "id": 823612225,
   "type": "Feature",
   "properties": {
+    "addr:full":"10051 Melody Dr Northglenn CO 80260",
+    "addr:housenumber":"10051",
+    "addr:postcode":"80260",
+    "addr:street":"Melody Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.990254,39.87879,-104.990254,39.87879",
     "geom:latitude":39.87879,
     "geom:longitude":-104.990254,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5nmyAYYnPwwK4yATsoTjT2_39.878790_-104.990254@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442203,
-    "wof:geomhash":"2f3667bb00078011eb34c0c44a72ae8e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7f6194c7f0acbe550bf277a2805a6781",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553659,
+            "region_id":85688603,
+            "venue_id":823612225
+        }
+    ],
     "wof:id":823612225,
-    "wof:lastmodified":1466417338,
+    "wof:lastmodified":1492116718,
     "wof:name":"Cougar Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823730831,
   "type": "Feature",
   "properties": {
+    "addr:full":"513 Main St Ouray CO 81427",
+    "addr:housenumber":"513",
+    "addr:postcode":"81427",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.671427,38.022635,-107.671427,38.022635",
     "geom:latitude":38.022635,
     "geom:longitude":-107.671427,
@@ -33,17 +38,32 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929649,
+        102085219
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5q4Evjx2ABs0MLGo9GS4Bb_38.022635_-107.671427@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444924,
-    "wof:geomhash":"45ee11c012529d52fd734e4e6e8b3a80",
-    "wof:hierarchy":[],
+    "wof:geomhash":"acf83b76918366a73d36bd853ba474f0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085219,
+            "locality_id":85929649,
+            "region_id":85688603,
+            "venue_id":823730831
+        }
+    ],
     "wof:id":823730831,
-    "wof:lastmodified":1466418583,
+    "wof:lastmodified":1492119478,
     "wof:name":"Bulow's Bistro",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

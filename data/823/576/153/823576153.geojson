@@ -2,9 +2,14 @@
   "id": 823576153,
   "type": "Feature",
   "properties": {
+    "addr:full":"605 W 62nd Ave Denver CO 80216",
+    "addr:housenumber":"605",
+    "addr:postcode":"80216",
+    "addr:street":"W 62Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.989489,39.809164,-104.989489,39.809164",
     "geom:latitude":39.809164,
     "geom:longitude":-104.989489,
@@ -29,19 +34,36 @@
         "road"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4dPo0egJvhWn5i6NxUPmR9_39.809164_-104.989489@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441326,
-    "wof:geomhash":"73a1755a37922cae6686134567744746",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d492ce598ea1fc115935d4087a0c6e30",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":823576153
+        }
+    ],
     "wof:id":823576153,
-    "wof:lastmodified":1466416436,
+    "wof:lastmodified":1492124617,
     "wof:name":"Alpha Milling Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

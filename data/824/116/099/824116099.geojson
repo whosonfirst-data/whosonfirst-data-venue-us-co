@@ -2,9 +2,14 @@
   "id": 824116099,
   "type": "Feature",
   "properties": {
+    "addr:full":"7790 Federal Blvd Westminster CO 80030",
+    "addr:housenumber":"7790",
+    "addr:postcode":"80030",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024712,39.838521,-105.024712,39.838521",
     "geom:latitude":39.838521,
     "geom:longitude":-105.024712,
@@ -34,19 +39,36 @@
         "espresso"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553663
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3WIZINJ2TAWjxH0azx6k4x_39.838521_-105.024712@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454681,
-    "wof:geomhash":"964cbf5e95edbef0018c3034fa2ffab9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1fedde4fa4acbdbb6c4eb6f7b52daf54",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553663,
+            "region_id":85688603,
+            "venue_id":824116099
+        }
+    ],
     "wof:id":824116099,
-    "wof:lastmodified":1466415377,
+    "wof:lastmodified":1492131446,
     "wof:name":"Espresso Lane",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553663,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

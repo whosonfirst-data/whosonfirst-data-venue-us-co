@@ -2,9 +2,14 @@
   "id": 823967881,
   "type": "Feature",
   "properties": {
+    "addr:full":"767 Birch Dr Cortez CO 81321",
+    "addr:housenumber":"767",
+    "addr:postcode":"81321",
+    "addr:street":"Birch Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.576465,37.353176,-108.576465,37.353176",
     "geom:latitude":37.353176,
     "geom:longitude":-108.576465,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420559447
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Dj9lYaI3rRoTjtaLDdh7E_37.353176_-108.576465@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451211,
-    "wof:geomhash":"caa006697cf2d9b2befbfc0c3a1088fd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"645132f20ccffbebfc97d3945578bfb1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420559447,
+            "region_id":85688603,
+            "venue_id":823967881
+        }
+    ],
     "wof:id":823967881,
-    "wof:lastmodified":1466420782,
+    "wof:lastmodified":1492121442,
     "wof:name":"Kkgeo Heating & Cooling Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559447,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

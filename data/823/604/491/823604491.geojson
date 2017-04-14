@@ -2,9 +2,14 @@
   "id": 823604491,
   "type": "Feature",
   "properties": {
+    "addr:full":"5470 Marshall St Arvada CO 80002",
+    "addr:housenumber":"5470",
+    "addr:postcode":"80002",
+    "addr:street":"Marshall St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.068398,39.79621,-105.068398,39.79621",
     "geom:latitude":39.79621,
     "geom:longitude":-105.068398,
@@ -32,19 +37,34 @@
         "embroidery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3H9URyiTj82G4A60BfqJjZ_39.796210_-105.068398@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442013,
-    "wof:geomhash":"d1f783d3086937139152cc37c93d2b0a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"57ff64ca57334c5cea222aa6f217d3e0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823604491
+        }
+    ],
     "wof:id":823604491,
-    "wof:lastmodified":1466417223,
+    "wof:lastmodified":1492119005,
     "wof:name":"Stitchin' Quarters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823490191,
   "type": "Feature",
   "properties": {
+    "addr:full":"2743 S Hazel Ct Denver CO 80236",
+    "addr:housenumber":"2743",
+    "addr:postcode":"80236",
+    "addr:street":"S Hazel Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.028036,39.666178,-105.028036,39.666178",
     "geom:latitude":39.666178,
     "geom:longitude":-105.028036,
@@ -24,7 +29,15 @@
     "sg:postcode":"80236",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3TEacdIGBTcXt7b1gmMVGt_39.666178_-105.028036@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463439314,
     "wof:geomhash":"b481b9d92ee2f898917cbfd02fe6d824",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":823490191
+        }
+    ],
     "wof:id":823490191,
-    "wof:lastmodified":1466414008,
+    "wof:lastmodified":1491876292,
     "wof:name":"Green Pen Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

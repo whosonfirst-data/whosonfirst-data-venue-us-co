@@ -2,9 +2,14 @@
   "id": 823573133,
   "type": "Feature",
   "properties": {
+    "addr:full":"321 E Main St Montrose CO 81401",
+    "addr:housenumber":"321",
+    "addr:postcode":"81401",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.876933,38.479374,-107.876933,38.479374",
     "geom:latitude":38.479374,
     "geom:longitude":-107.876933,
@@ -27,17 +32,32 @@
         "jeweler"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6n9H9tfecDSsMWWwn8utPv_38.479374_-107.876933@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441249,
-    "wof:geomhash":"bb9e9439c9389a1eee88329bb2d1597a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f5febe177e7f0b7722341ea8715cf1ba",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":823573133
+        }
+    ],
     "wof:id":823573133,
-    "wof:lastmodified":1466416545,
+    "wof:lastmodified":1492125277,
     "wof:name":"De Vinny Jewelers",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

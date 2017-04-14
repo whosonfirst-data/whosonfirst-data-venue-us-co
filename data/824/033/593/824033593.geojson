@@ -2,9 +2,14 @@
   "id": 824033593,
   "type": "Feature",
   "properties": {
+    "addr:full":"3580 W 72nd Ave Westminster CO 80030",
+    "addr:housenumber":"3580",
+    "addr:postcode":"80030",
+    "addr:street":"W 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033769,39.827215,-105.033769,39.827215",
     "geom:latitude":39.827215,
     "geom:longitude":-105.033769,
@@ -29,19 +34,36 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553527
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_455QM7MCpuvNSffd8aLcOP_39.827215_-105.033769@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452749,
-    "wof:geomhash":"d8b85dea361b1dab6a033e52e3589efa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"97eb03fa37217397b2906497480b5a64",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553527,
+            "region_id":85688603,
+            "venue_id":824033593
+        }
+    ],
     "wof:id":824033593,
-    "wof:lastmodified":1466413887,
+    "wof:lastmodified":1492133135,
     "wof:name":"Mahnke Collision Ctr Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553527,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

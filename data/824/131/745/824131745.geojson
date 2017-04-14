@@ -2,9 +2,14 @@
   "id": 824131745,
   "type": "Feature",
   "properties": {
+    "addr:full":"37 Co Hwy 111 Frisco CO 80466",
+    "addr:housenumber":"37",
+    "addr:postcode":"80466",
+    "addr:street":"Co Hwy 111",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.601061,39.964856,-105.601061,39.964856",
     "geom:latitude":39.964856,
     "geom:longitude":-105.601061,
@@ -28,19 +33,34 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85930685,
+        102085251,
+        85817739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5MoimsQmaR9oGZARMVlXcC_39.964856_-105.601061@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455209,
-    "wof:geomhash":"aef5e22b4d9263d9eb7b1f33d1dd98f0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a538a33752baaec3ac2cfc1ce5d3cb14",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930685,
+            "neighbourhood_id":85817739,
+            "region_id":85688603,
+            "venue_id":824131745
+        }
+    ],
     "wof:id":824131745,
-    "wof:lastmodified":1466416070,
+    "wof:lastmodified":1492130440,
     "wof:name":"Drivers License",
-    "wof:parent_id":-1,
+    "wof:parent_id":85817739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

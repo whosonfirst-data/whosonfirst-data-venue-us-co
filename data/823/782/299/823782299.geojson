@@ -2,9 +2,14 @@
   "id": 823782299,
   "type": "Feature",
   "properties": {
+    "addr:full":"201 Redwood Cir Broomfield CO 80020",
+    "addr:housenumber":"201",
+    "addr:postcode":"80020",
+    "addr:street":"Redwood Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.069517,39.909375,-105.069517,39.909375",
     "geom:latitude":39.909375,
     "geom:longitude":-105.069517,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554175
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_43Xzd8icZawHFXsxxdannm_39.909375_-105.069517@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446151,
-    "wof:geomhash":"9ee47866be028a4b6dc9c853d8eaa362",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3b8b7f045086232a4e5fd21332990f28",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554175,
+            "region_id":85688603,
+            "venue_id":823782299
+        }
+    ],
     "wof:id":823782299,
-    "wof:lastmodified":1466419200,
+    "wof:lastmodified":1492120054,
     "wof:name":"Rio Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554175,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

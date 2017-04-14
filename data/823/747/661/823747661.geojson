@@ -2,9 +2,14 @@
   "id": 823747661,
   "type": "Feature",
   "properties": {
+    "addr:full":"205 E Oak St Lamar CO 81052",
+    "addr:housenumber":"205",
+    "addr:postcode":"81052",
+    "addr:street":"E Oak St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.61641,38.086256,-102.61641,38.086256",
     "geom:latitude":38.086256,
     "geom:longitude":-102.61641,
@@ -28,17 +33,32 @@
         "massage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928855,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_47nql1cIXAvB31NB3tU3G2_38.086256_-102.616410@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445317,
-    "wof:geomhash":"7178c97a869ae8daa40b92aa0fa55a74",
-    "wof:hierarchy":[],
+    "wof:geomhash":"291f51ba8ece614f5e4bd040fafa024f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928855,
+            "region_id":85688603,
+            "venue_id":823747661
+        }
+    ],
     "wof:id":823747661,
-    "wof:lastmodified":1466418913,
+    "wof:lastmodified":1492117970,
     "wof:name":"Tea Room",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

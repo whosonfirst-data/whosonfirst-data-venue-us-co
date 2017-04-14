@@ -2,9 +2,14 @@
   "id": 824135595,
   "type": "Feature",
   "properties": {
+    "addr:full":"2241 17th St Boulder CO 80302",
+    "addr:housenumber":"2241",
+    "addr:postcode":"80302",
+    "addr:street":"17Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.274412,40.021818,-105.274412,40.021818",
     "geom:latitude":40.021818,
     "geom:longitude":-105.274412,
@@ -27,7 +32,14 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ibSjIyKSepZS1gb4aihSx_40.021818_-105.274412@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463455353,
     "wof:geomhash":"03eb72dd0d1751d4f082d057b870dbaf",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":824135595
+        }
+    ],
     "wof:id":824135595,
-    "wof:lastmodified":1466416386,
+    "wof:lastmodified":1491888504,
     "wof:name":"Odisea LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

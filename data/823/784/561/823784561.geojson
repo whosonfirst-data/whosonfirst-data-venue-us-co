@@ -2,9 +2,14 @@
   "id": 823784561,
   "type": "Feature",
   "properties": {
+    "addr:full":"8761 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"8761",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053085,39.854081,-105.053085,39.854081",
     "geom:latitude":39.854081,
     "geom:longitude":-105.053085,
@@ -28,19 +33,36 @@
         "product"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2V3Lcmz9tMyqoDSazim8EC_39.854081_-105.053085@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446231,
-    "wof:geomhash":"e18f91c6cfbfea443228de09f554efc1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"832d9397ff683758e76522b3d5e76b09",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823784561
+        }
+    ],
     "wof:id":823784561,
-    "wof:lastmodified":1466419245,
+    "wof:lastmodified":1492124675,
     "wof:name":"Enersave",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

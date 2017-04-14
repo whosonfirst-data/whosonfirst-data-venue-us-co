@@ -2,9 +2,14 @@
   "id": 823900193,
   "type": "Feature",
   "properties": {
+    "addr:full":"112 2nd Ave Niwot CO 80544",
+    "addr:housenumber":"112",
+    "addr:postcode":"80544",
+    "addr:street":"2Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.172079,40.103207,-105.172079,40.103207",
     "geom:latitude":40.103207,
     "geom:longitude":-105.172079,
@@ -27,19 +32,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1rd42N0gF1u456dhnzxYFb_40.103207_-105.172079@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449460,
-    "wof:geomhash":"272e411fea60d665babc79da0340b4e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9fd13a5dbfd805ed8c6a3eb672c8ac21",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554063,
+            "region_id":85688603,
+            "venue_id":823900193
+        }
+    ],
     "wof:id":823900193,
-    "wof:lastmodified":1466420210,
+    "wof:lastmodified":1492121766,
     "wof:name":"Yankee Doodler Bookshop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

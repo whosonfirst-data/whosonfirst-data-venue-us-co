@@ -2,9 +2,14 @@
   "id": 823502237,
   "type": "Feature",
   "properties": {
+    "addr:full":"3910 Colorado Ave Boulder CO 80303",
+    "addr:housenumber":"3910",
+    "addr:postcode":"80303",
+    "addr:street":"Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.245122,40.00722,-105.245122,40.00722",
     "geom:latitude":40.00722,
     "geom:longitude":-105.245122,
@@ -28,19 +33,36 @@
         "broadcasting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4otLJTvdXgHwBSjcdyXBRo_40.007220_-105.245122@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439629,
-    "wof:geomhash":"226300b956a100e8e9098b4d8c961907",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b15b33c97160b369bd4bef97e2388a75",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":823502237
+        }
+    ],
     "wof:id":823502237,
-    "wof:lastmodified":1466414223,
+    "wof:lastmodified":1492116222,
     "wof:name":"Health Time Radio Show",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

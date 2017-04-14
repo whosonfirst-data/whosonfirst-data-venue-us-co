@@ -2,9 +2,14 @@
   "id": 823548817,
   "type": "Feature",
   "properties": {
+    "addr:full":"5980 W 59th Ave Arvada CO 80003",
+    "addr:housenumber":"5980",
+    "addr:postcode":"80003",
+    "addr:street":"W 59Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.061761,39.803507,-105.061761,39.803507",
     "geom:latitude":39.803507,
     "geom:longitude":-105.061761,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554591
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0fUbLyF1va3MdWvM0UcJqx_39.803507_-105.061761@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440670,
-    "wof:geomhash":"f5e67f339dff4f5630c1095c4c7d626f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ac04d337c2dd37b0127d28981020974d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554591,
+            "region_id":85688603,
+            "venue_id":823548817
+        }
+    ],
     "wof:id":823548817,
-    "wof:lastmodified":1466415731,
+    "wof:lastmodified":1492126422,
     "wof:name":"Marquez Constructors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554591,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823900305,
   "type": "Feature",
   "properties": {
+    "addr:full":"703 Polaris Pl Denver CO 80260",
+    "addr:housenumber":"703",
+    "addr:postcode":"80260",
+    "addr:street":"Polaris Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996515,39.854726,-104.996515,39.854726",
     "geom:latitude":39.854726,
     "geom:longitude":-104.996515,
@@ -29,19 +34,36 @@
         "cable"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7gkfV5t62neiVcZvJJM5G9_39.854726_-104.996515@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449461,
-    "wof:geomhash":"8c46f6412117caad9f4dfdae73796324",
-    "wof:hierarchy":[],
+    "wof:geomhash":"954e45cde85faa88b638eb392722b8c2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553771,
+            "region_id":85688603,
+            "venue_id":823900305
+        }
+    ],
     "wof:id":823900305,
-    "wof:lastmodified":1466420212,
+    "wof:lastmodified":1492121776,
     "wof:name":"Tri City Telecom",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

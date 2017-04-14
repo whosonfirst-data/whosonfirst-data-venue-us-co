@@ -2,9 +2,14 @@
   "id": 839913101,
   "type": "Feature",
   "properties": {
+    "addr:full":"8601 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"8601",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052914,39.852608,-105.052914,39.852608",
     "geom:latitude":39.852608,
     "geom:longitude":-105.052914,
@@ -24,19 +29,36 @@
     "sg:postcode":"80003",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3RT0VS9CfIjgSlbRjmp5EO_39.852608_-105.052914@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457226,
-    "wof:geomhash":"7606af1988d6c8b292cbe7dc05aac55d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f8f2ef86adadb735291a799d293f46a4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":839913101
+        }
+    ],
     "wof:id":839913101,
-    "wof:lastmodified":1466412569,
+    "wof:lastmodified":1492113463,
     "wof:name":"Always 99 Cents Store",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

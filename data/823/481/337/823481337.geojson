@@ -2,9 +2,14 @@
   "id": 823481337,
   "type": "Feature",
   "properties": {
+    "addr:full":"376 Sunset Dr Brighton CO 80601",
+    "addr:housenumber":"376",
+    "addr:postcode":"80601",
+    "addr:street":"Sunset Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.80777,39.98071,-104.80777,39.98071",
     "geom:latitude":39.98071,
     "geom:longitude":-104.80777,
@@ -27,19 +32,28 @@
         "auctioneer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4sDAzDiwnfJi1OrpyYMgkH_39.980710_-104.807770@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439105,
-    "wof:geomhash":"1258364e81042721d726dbb2d09a3da5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3584ff5154ff189d8d0406f6eacd2af5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553423,
+            "venue_id":823481337
+        }
+    ],
     "wof:id":823481337,
-    "wof:lastmodified":1466413539,
+    "wof:lastmodified":1492120372,
     "wof:name":"Sharton's Auction Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

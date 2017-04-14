@@ -2,9 +2,14 @@
   "id": 823572103,
   "type": "Feature",
   "properties": {
+    "addr:full":"4512 W 11th Ave Denver CO 80204",
+    "addr:housenumber":"4512",
+    "addr:postcode":"80204",
+    "addr:street":"W 11Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.045535,39.733864,-105.045535,39.733864",
     "geom:latitude":39.733864,
     "geom:longitude":-105.045535,
@@ -28,7 +33,15 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750097,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7PEAv7x25Dp8oiyYzYelAR_39.733864_-105.045535@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463441233,
     "wof:geomhash":"f502f8736d240f65babdad2252e65578",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750097,
+            "region_id":85688603,
+            "venue_id":823572103
+        }
+    ],
     "wof:id":823572103,
-    "wof:lastmodified":1466416265,
+    "wof:lastmodified":1486593780,
     "wof:name":"Kelley Sherill",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750097,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

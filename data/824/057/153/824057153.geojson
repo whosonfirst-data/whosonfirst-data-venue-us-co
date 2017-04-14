@@ -2,9 +2,14 @@
   "id": 824057153,
   "type": "Feature",
   "properties": {
+    "addr:full":"12225 Co Rd 29 Dolores CO 81323",
+    "addr:housenumber":"12225;29",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.517526,37.385408,-108.517526,37.385408",
     "geom:latitude":37.385408,
     "geom:longitude":-108.517526,
@@ -28,19 +33,28 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4fTJ9bbV7lK4aEhZed4Ior_37.385408_-108.517526@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453332,
-    "wof:geomhash":"129e1586d370365c092eb493487fc14d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7bc4e2d851aae0255c8025bbf770d803",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":824057153
+        }
+    ],
     "wof:id":824057153,
-    "wof:lastmodified":1466414454,
+    "wof:lastmodified":1492132967,
     "wof:name":"Everything Nice",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

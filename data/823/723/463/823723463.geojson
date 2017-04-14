@@ -2,9 +2,14 @@
   "id": 823723463,
   "type": "Feature",
   "properties": {
+    "addr:full":"601 S University Blvd Denver CO 80209",
+    "addr:housenumber":"601",
+    "addr:postcode":"80209",
+    "addr:street":"S University Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959358,39.703863,-104.959358,39.703863",
     "geom:latitude":39.703863,
     "geom:longitude":-104.959358,
@@ -30,7 +35,16 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108749009,
+        85871327,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3SLE1VSfEyf4LcLMgAx36P_39.703863_-104.959358@1294083659"
@@ -38,11 +52,23 @@
     "wof:country":"US",
     "wof:created":1463444736,
     "wof:geomhash":"ea57957ccaba0f84e6456af03cc4553c",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "microhood_id":1108749009,
+            "neighbourhood_id":85871327,
+            "region_id":85688603,
+            "venue_id":823723463
+        }
+    ],
     "wof:id":823723463,
-    "wof:lastmodified":1466418445,
+    "wof:lastmodified":1486604344,
     "wof:name":"Hierath Products LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108749009,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

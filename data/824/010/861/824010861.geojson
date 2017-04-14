@@ -2,9 +2,14 @@
   "id": 824010861,
   "type": "Feature",
   "properties": {
+    "addr:full":"2707 Fieldstone Dr Fort Collins CO 80525",
+    "addr:housenumber":"2707",
+    "addr:postcode":"80525",
+    "addr:street":"Fieldstone Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.026981,40.539627,-105.026981,40.539627",
     "geom:latitude":40.539627,
     "geom:longitude":-105.026981,
@@ -28,19 +33,36 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1rbF6DAewGrJhzRMHHD55B_40.539627_-105.026981@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452217,
-    "wof:geomhash":"d9e75ad3b537772eab830f2d14d126c8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e1f83af6f9fd4287ceee40bc6f852075",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":824010861
+        }
+    ],
     "wof:id":824010861,
-    "wof:lastmodified":1466412974,
+    "wof:lastmodified":1492129065,
     "wof:name":"Goddard Co Financial Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

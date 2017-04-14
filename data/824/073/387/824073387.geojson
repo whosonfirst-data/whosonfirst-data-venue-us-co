@@ -2,9 +2,14 @@
   "id": 824073387,
   "type": "Feature",
   "properties": {
+    "addr:full":"191 E Orchard Rd Littleton CO 80121",
+    "addr:housenumber":"191",
+    "addr:postcode":"80121",
+    "addr:street":"E Orchard Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.987492,39.609664,-104.987492,39.609664",
     "geom:latitude":39.609664,
     "geom:longitude":-104.987492,
@@ -32,17 +37,32 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929241,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1AgrjCUH4MTOtPcSceVwIo_39.609664_-104.987492@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453704,
-    "wof:geomhash":"0d5b7a40bdcdc01e45d56718364e1e33",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ff5b1a1c440816dfafa86dd973acb4b0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929241,
+            "region_id":85688603,
+            "venue_id":824073387
+        }
+    ],
     "wof:id":824073387,
-    "wof:lastmodified":1466414623,
+    "wof:lastmodified":1492132491,
     "wof:name":"Swedish Family Medicine Ctr",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

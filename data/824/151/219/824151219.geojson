@@ -2,9 +2,14 @@
   "id": 824151219,
   "type": "Feature",
   "properties": {
+    "addr:full":"1465 Dallas St Aurora CO 80010",
+    "addr:housenumber":"1465",
+    "addr:postcode":"80010",
+    "addr:street":"Dallas St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.876624,39.740033,-104.876624,39.740033",
     "geom:latitude":39.740033,
     "geom:longitude":-104.876624,
@@ -29,19 +34,36 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1LwUpgwvr8nwZRvz98vyoS_39.740033_-104.876624@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455956,
-    "wof:geomhash":"87ef9212c79ff8ee960a28c344b2aaca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0ba6ba5560393c76e8dae3074696a1d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":824151219
+        }
+    ],
     "wof:id":824151219,
-    "wof:lastmodified":1466416815,
+    "wof:lastmodified":1492129144,
     "wof:name":"Colorado Auto Body Fleet Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

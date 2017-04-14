@@ -2,9 +2,14 @@
   "id": 823782167,
   "type": "Feature",
   "properties": {
+    "addr:full":"33150 Co Rd 41 Steamboat Spgs CO 80487",
+    "addr:housenumber":"33150;41",
+    "addr:postcode":"80487",
+    "addr:street":"Co Rd;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.877368,40.385639,-106.877368,40.385639",
     "geom:latitude":40.385639,
     "geom:longitude":-106.877368,
@@ -28,19 +33,28 @@
     ],
     "sg:website":"www.blastdynamics.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0vYuqkPwvicSEtozMGScYH_40.385639_-106.877368@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446146,
-    "wof:geomhash":"28e95586618c1fdf7432b362ad20d091",
-    "wof:hierarchy":[],
+    "wof:geomhash":"617ab89ecae8c0ac7051a5383d5ea4cb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555379,
+            "venue_id":823782167
+        }
+    ],
     "wof:id":823782167,
-    "wof:lastmodified":1466419192,
+    "wof:lastmodified":1492120050,
     "wof:name":"Blast Dynamics",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

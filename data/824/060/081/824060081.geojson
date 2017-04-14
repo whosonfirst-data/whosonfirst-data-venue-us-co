@@ -2,9 +2,14 @@
   "id": 824060081,
   "type": "Feature",
   "properties": {
+    "addr:full":"211 Main St Oak Creek CO 80487",
+    "addr:housenumber":"211",
+    "addr:postcode":"80487",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.957609,40.276062,-106.957609,40.276062",
     "geom:latitude":40.276062,
     "geom:longitude":-106.957609,
@@ -27,19 +32,36 @@
         "upholsterer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929271,
+        102086129,
+        420555335
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_68FpAfUHNoDADAWKTRzfWe_40.276062_-106.957609@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453391,
-    "wof:geomhash":"914a41d56983b7124956ec5d890b66b6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"197d80a39bb134e45fd81b1f5759798e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929271,
+            "neighbourhood_id":420555335,
+            "region_id":85688603,
+            "venue_id":824060081
+        }
+    ],
     "wof:id":824060081,
-    "wof:lastmodified":1466414489,
+    "wof:lastmodified":1492131313,
     "wof:name":"Sonja's Upholstery Emporium",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555335,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

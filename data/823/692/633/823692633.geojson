@@ -2,9 +2,14 @@
   "id": 823692633,
   "type": "Feature",
   "properties": {
+    "addr:full":"11623 Columbine St Denver CO 80233",
+    "addr:housenumber":"11623",
+    "addr:postcode":"80233",
+    "addr:street":"Columbine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.95648,39.905385,-104.95648,39.905385",
     "geom:latitude":39.905385,
     "geom:longitude":-104.95648,
@@ -28,19 +33,36 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553673
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3itf3DFdyvFOmSOfvmd15c_39.905385_-104.956480@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444077,
-    "wof:geomhash":"2b5df0404ab0de557d56ea21859b934b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7b72422e3be40c866627114bfc080d6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553673,
+            "region_id":85688603,
+            "venue_id":823692633
+        }
+    ],
     "wof:id":823692633,
-    "wof:lastmodified":1466418526,
+    "wof:lastmodified":1492119773,
     "wof:name":"Teacher's Funding Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553673,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

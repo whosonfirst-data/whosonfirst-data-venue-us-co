@@ -2,9 +2,14 @@
   "id": 823985801,
   "type": "Feature",
   "properties": {
+    "addr:full":"205 S San Juan Ave Buena Vista CO 81211",
+    "addr:housenumber":"205",
+    "addr:postcode":"81211",
+    "addr:street":"S San Juan Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.135047,38.839723,-106.135047,38.839723",
     "geom:latitude":38.839723,
     "geom:longitude":-106.135047,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928795,
+        102085255
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ygZUOUYMkGd3lo1kv6sx1_38.839723_-106.135047@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451624,
-    "wof:geomhash":"458a426766b76eb74e10aba7cd621e96",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1b786eafff9b35ba8af096a631283caa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085255,
+            "locality_id":85928795,
+            "region_id":85688603,
+            "venue_id":823985801
+        }
+    ],
     "wof:id":823985801,
-    "wof:lastmodified":1466420937,
+    "wof:lastmodified":1492120983,
     "wof:name":"Cornerstone Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

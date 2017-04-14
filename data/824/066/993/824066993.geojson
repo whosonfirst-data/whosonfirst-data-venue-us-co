@@ -2,9 +2,14 @@
   "id": 824066993,
   "type": "Feature",
   "properties": {
+    "addr:full":"1433 S 6th Ave Sterling CO 80751",
+    "addr:housenumber":"1433",
+    "addr:postcode":"80751",
+    "addr:street":"S 6Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.219644,40.61225,-103.219644,40.61225",
     "geom:latitude":40.61225,
     "geom:longitude":-103.219644,
@@ -27,17 +32,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929371,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0CBgvcPu0UMv4EWyHIGeSl_40.612250_-103.219644@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453544,
-    "wof:geomhash":"23d875108e03862e3df606848a4f5655",
-    "wof:hierarchy":[],
+    "wof:geomhash":"73bedb50cb7ea09b3ed71758b114744b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929371,
+            "region_id":85688603,
+            "venue_id":824066993
+        }
+    ],
     "wof:id":824066993,
-    "wof:lastmodified":1466414643,
+    "wof:lastmodified":1492132439,
     "wof:name":"SRM Apartment",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

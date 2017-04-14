@@ -2,9 +2,14 @@
   "id": 823702461,
   "type": "Feature",
   "properties": {
+    "addr:full":"565 Ithaca Dr Boulder CO 80305",
+    "addr:housenumber":"565",
+    "addr:postcode":"80305",
+    "addr:street":"Ithaca Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.259939,39.982474,-105.259939,39.982474",
     "geom:latitude":39.982474,
     "geom:longitude":-105.259939,
@@ -27,19 +32,36 @@
         "electronic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Q3pF8CrfLV9efjAyL3WPZ_39.982474_-105.259939@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444290,
-    "wof:geomhash":"6dbeaf0bcf6824c8bb6c4c97f798a270",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a5f51bcd159c3968bbcc6f50f40a2846",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":823702461
+        }
+    ],
     "wof:id":823702461,
-    "wof:lastmodified":1466418777,
+    "wof:lastmodified":1492120940,
     "wof:name":"Hamamatsu Corporation",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

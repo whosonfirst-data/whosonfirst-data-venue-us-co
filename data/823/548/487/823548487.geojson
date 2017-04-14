@@ -2,9 +2,14 @@
   "id": 823548487,
   "type": "Feature",
   "properties": {
+    "addr:full":"2669 Sperber Ln Grand Junction CO 81506",
+    "addr:housenumber":"",
+    "addr:postcode":"2669;81506",
+    "addr:street":"Sperber Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.559332,39.103285,-108.559332,39.103285",
     "geom:latitude":39.103285,
     "geom:longitude":-108.559332,
@@ -27,19 +32,36 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554857
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1wSgu4rgastGi4U2X2r1QH_39.103285_-108.559332@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440663,
-    "wof:geomhash":"480cacd2ced8076ef231c525065eb202",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a37cd56da4ac556f485bf71ced8344e2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554857,
+            "region_id":85688603,
+            "venue_id":823548487
+        }
+    ],
     "wof:id":823548487,
-    "wof:lastmodified":1466415793,
+    "wof:lastmodified":1492126411,
     "wof:name":"Gray Property Inspectors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554857,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

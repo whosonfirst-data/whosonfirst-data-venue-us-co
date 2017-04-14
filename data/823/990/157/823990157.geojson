@@ -2,9 +2,14 @@
   "id": 823990157,
   "type": "Feature",
   "properties": {
+    "addr:full":"316 E Arbecam Ave Cortez CO 81321",
+    "addr:housenumber":"316",
+    "addr:postcode":"81321",
+    "addr:street":"E Arbecam Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.581071,37.352016,-108.581071,37.352016",
     "geom:latitude":37.352016,
     "geom:longitude":-108.581071,
@@ -28,19 +33,28 @@
         "tour"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_10xqtU79S6bdf8ELY22wqL_37.352016_-108.581071@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451718,
-    "wof:geomhash":"5e7dc5196f483a17dd52869700fa79bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75c1f7488498caa796a81817709e3e85",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823990157
+        }
+    ],
     "wof:id":823990157,
-    "wof:lastmodified":1466420957,
+    "wof:lastmodified":1492116572,
     "wof:name":"Four Corners",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

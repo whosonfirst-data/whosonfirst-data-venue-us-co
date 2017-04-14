@@ -2,9 +2,14 @@
   "id": 823564623,
   "type": "Feature",
   "properties": {
+    "addr:full":"20737 E Coolidge Pl Aurora CO 80011",
+    "addr:housenumber":"20737",
+    "addr:postcode":"80011",
+    "addr:street":"E Coolidge Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.747444,39.743682,-104.747444,39.743682",
     "geom:latitude":39.743682,
     "geom:longitude":-104.747444,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553275
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7jD5StASiQy7YgsYgpcSRt_39.743682_-104.747444@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441055,
-    "wof:geomhash":"64e45dce4dc4b1dd3f6ce6dca08226f5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f2b646d0009e0debbe1c0cd98347aded",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553275,
+            "region_id":85688603,
+            "venue_id":823564623
+        }
+    ],
     "wof:id":823564623,
-    "wof:lastmodified":1466416179,
+    "wof:lastmodified":1492123048,
     "wof:name":"Barraza Drywall Scraping",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824042207,
   "type": "Feature",
   "properties": {
+    "addr:full":"956 Quince Ave Boulder CO 80304",
+    "addr:housenumber":"956",
+    "addr:postcode":"80304",
+    "addr:street":"Quince Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.285299,40.04804,-105.285299,40.04804",
     "geom:latitude":40.04804,
     "geom:longitude":-105.285299,
@@ -27,7 +32,14 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876397
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Bw3uXX21MSP3PY3COvqIQ_40.048040_-105.285299@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463452982,
     "wof:geomhash":"c1b5a6c515079d87f5785014f630e859",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876397,
+            "region_id":85688603,
+            "venue_id":824042207
+        }
+    ],
     "wof:id":824042207,
-    "wof:lastmodified":1466414039,
+    "wof:lastmodified":1491917817,
     "wof:name":"Pantiel Communications LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876397,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

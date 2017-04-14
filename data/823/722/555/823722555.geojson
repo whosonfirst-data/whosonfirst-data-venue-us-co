@@ -2,9 +2,14 @@
   "id": 823722555,
   "type": "Feature",
   "properties": {
+    "addr:full":"1230 S Pueblo Blvd Pueblo CO 81005",
+    "addr:housenumber":"1230",
+    "addr:postcode":"81005",
+    "addr:street":"S Pueblo Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.662273,38.24416,-104.662273,38.24416",
     "geom:latitude":38.24416,
     "geom:longitude":-104.662273,
@@ -29,17 +34,32 @@
         "custom"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7LJ4qca6HovJF8gCnldgjK_38.244160_-104.662273@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444718,
-    "wof:geomhash":"88ce04113ec6af4c8498ff67167096c3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fad42f177fc174125885d86f56d84dca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823722555
+        }
+    ],
     "wof:id":823722555,
-    "wof:lastmodified":1466418717,
+    "wof:lastmodified":1492127685,
     "wof:name":"Ornate Door",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

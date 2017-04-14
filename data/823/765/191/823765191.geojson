@@ -2,9 +2,14 @@
   "id": 823765191,
   "type": "Feature",
   "properties": {
+    "addr:full":"2100 W 3rd Ave Durango CO 81301",
+    "addr:housenumber":"2100",
+    "addr:postcode":"co 81301",
+    "addr:street":"W 3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.878662,37.287835,-107.878662,37.287835",
     "geom:latitude":37.287835,
     "geom:longitude":-107.878662,
@@ -29,9 +34,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85888419,
-        102084019
+        85928939,
+        102084019,
+        85888409,
+        85888419
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463445721,
-    "wof:geomhash":"9738660373e75fe1eddf95effdbddbbf",
+    "wof:geomhash":"61bce58888c04d9b7877f5079b04366c",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084019,
+            "locality_id":85928939,
+            "neighbourhood_id":85888409,
+            "region_id":85688603,
+            "venue_id":823765191
+        },
         {
             "country_id":85633793,
             "county_id":102084019,
@@ -50,9 +67,9 @@
         }
     ],
     "wof:id":823765191,
-    "wof:lastmodified":1466419188,
+    "wof:lastmodified":1492119402,
     "wof:name":"Church Of Christ",
-    "wof:parent_id":85888419,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

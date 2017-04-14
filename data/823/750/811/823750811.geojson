@@ -2,9 +2,14 @@
   "id": 823750811,
   "type": "Feature",
   "properties": {
+    "addr:full":"420 el Paso Blvd Denver CO 80221",
+    "addr:housenumber":"420",
+    "addr:postcode":"80221",
+    "addr:street":"El Paso Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.99354,39.83942,-104.99354,39.83942",
     "geom:latitude":39.83942,
     "geom:longitude":-104.99354,
@@ -27,19 +32,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553867
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72sC6N7e7xRpCvlLorN7TT_39.839420_-104.993540@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445403,
-    "wof:geomhash":"fa32cde207757f7fd41d1144c932e166",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2912922430ef4f2a6ac718a21d0f6055",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553867,
+            "region_id":85688603,
+            "venue_id":823750811
+        }
+    ],
     "wof:id":823750811,
-    "wof:lastmodified":1466418932,
+    "wof:lastmodified":1492117716,
     "wof:name":"Alive Designs By Michael Ann",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553867,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

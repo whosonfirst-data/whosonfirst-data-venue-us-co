@@ -2,9 +2,14 @@
   "id": 823962949,
   "type": "Feature",
   "properties": {
+    "addr:full":"9231 Washington St Denver CO 80229",
+    "addr:housenumber":"9231",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978012,39.86034,-104.978012,39.86034",
     "geom:latitude":39.86034,
     "geom:longitude":-104.978012,
@@ -35,19 +40,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_37zILbanokStteFQuQYaUw_39.860340_-104.978012@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451090,
-    "wof:geomhash":"8408708cd15904a129b84c4d991f0c6f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"783264e476005fafecb3ba9920984d1d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823962949
+        }
+    ],
     "wof:id":823962949,
-    "wof:lastmodified":1466420754,
+    "wof:lastmodified":1492120909,
     "wof:name":"White Dragon",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

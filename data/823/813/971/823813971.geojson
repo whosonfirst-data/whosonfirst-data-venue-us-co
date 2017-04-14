@@ -2,9 +2,14 @@
   "id": 823813971,
   "type": "Feature",
   "properties": {
+    "addr:full":"5783 W 118th Pl Broomfield CO 80020",
+    "addr:housenumber":"5783",
+    "addr:postcode":"80020",
+    "addr:street":"W 118Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.057742,39.911543,-105.057742,39.911543",
     "geom:latitude":39.911543,
     "geom:longitude":-105.057742,
@@ -27,19 +32,36 @@
         "operator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4694JGfOtwdo8SRZsXov0G_39.911543_-105.057742@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447118,
-    "wof:geomhash":"4a801fb937920a8f14f15e04f6feb8de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"19319dbf580df9de96df44b5a69550d5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":823813971
+        }
+    ],
     "wof:id":823813971,
-    "wof:lastmodified":1466419561,
+    "wof:lastmodified":1492123903,
     "wof:name":"Smilin Piranha LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

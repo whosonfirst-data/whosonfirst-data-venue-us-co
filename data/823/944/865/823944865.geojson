@@ -2,9 +2,14 @@
   "id": 823944865,
   "type": "Feature",
   "properties": {
+    "addr:full":"2800 Dartmouth Ave Boulder CO 80305",
+    "addr:housenumber":"2800",
+    "addr:postcode":"80305",
+    "addr:street":"Dartmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.256598,39.989079,-105.256598,39.989079",
     "geom:latitude":39.989079,
     "geom:longitude":-105.256598,
@@ -32,19 +37,46 @@
         "sensor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876445,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5thoSezJGe0hU7yACGCN0h_39.989079_-105.256598@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450636,
-    "wof:geomhash":"f81679ce2c72d744042a5500433c449b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"afc4c9a4aafe1f2a4194216aa366d04d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876445,
+            "region_id":85688603,
+            "venue_id":823944865
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":823944865
+        }
+    ],
     "wof:id":823944865,
-    "wof:lastmodified":1466420676,
+    "wof:lastmodified":1492125795,
     "wof:name":"Syntrotek Corporation",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

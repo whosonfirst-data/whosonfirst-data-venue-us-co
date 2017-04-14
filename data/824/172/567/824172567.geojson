@@ -2,9 +2,14 @@
   "id": 824172567,
   "type": "Feature",
   "properties": {
+    "addr:full":"117 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"117;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.848282,37.299929,-107.848282,37.299929",
     "geom:latitude":37.299929,
     "geom:longitude":-107.848282,
@@ -29,19 +34,28 @@
         "producer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YOH7PKD6Jm9FLveoXOGlY_37.299929_-107.848282@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456781,
-    "wof:geomhash":"f539e5276587a1cabd5323f67a897ac2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b86b55d70c4c829b6268ea923a25bb0c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":824172567
+        }
+    ],
     "wof:id":824172567,
-    "wof:lastmodified":1466417999,
+    "wof:lastmodified":1492128280,
     "wof:name":"Group Four Teleproductions",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823808505,
   "type": "Feature",
   "properties": {
+    "addr:full":"17 Elk Ave Crested Butte CO 81224",
+    "addr:housenumber":"17",
+    "addr:postcode":"81224",
+    "addr:street":"Elk Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.989078,38.869752,-106.989078,38.869752",
     "geom:latitude":38.869752,
     "geom:longitude":-106.989078,
@@ -28,19 +33,46 @@
         "physical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929655,
+        102083377,
+        85888321,
+        420554559
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_23tHBIkgOYe8SOtgAvNQP3_38.869752_-106.989078@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446958,
-    "wof:geomhash":"b394003f0fe3bcc791959b8d0e518502",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6e2bb64ddd1a1e8c96723a261b3c1fad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":85888321,
+            "region_id":85688603,
+            "venue_id":823808505
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554559,
+            "region_id":85688603,
+            "venue_id":823808505
+        }
+    ],
     "wof:id":823808505,
-    "wof:lastmodified":1466419444,
+    "wof:lastmodified":1492116864,
     "wof:name":"North Star Physical Therapy",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

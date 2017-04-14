@@ -2,9 +2,14 @@
   "id": 823766115,
   "type": "Feature",
   "properties": {
+    "addr:full":"3185 Sterling Cir Boulder CO 80301",
+    "addr:housenumber":"3185",
+    "addr:postcode":"80301",
+    "addr:street":"Sterling Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227346,40.032135,-105.227346,40.032135",
     "geom:latitude":40.032135,
     "geom:longitude":-105.227346,
@@ -27,19 +32,36 @@
         "pottery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6kO3BKk2XnFz4M1z12zbMP_40.032135_-105.227346@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445743,
-    "wof:geomhash":"80ea4f5f2c0bc5b60f8727d390698f82",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ce6336e3482da4a3f31cd6266e8b4f5b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876385,
+            "region_id":85688603,
+            "venue_id":823766115
+        }
+    ],
     "wof:id":823766115,
-    "wof:lastmodified":1466419062,
+    "wof:lastmodified":1492123673,
     "wof:name":"Boulder Potter's Guild",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

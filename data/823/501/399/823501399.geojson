@@ -2,9 +2,14 @@
   "id": 823501399,
   "type": "Feature",
   "properties": {
+    "addr:full":"2520 Weslo Ct Grand Junction CO 81505",
+    "addr:housenumber":"2520",
+    "addr:postcode":"81505",
+    "addr:street":"Weslo Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586241,39.088747,-108.586241,39.088747",
     "geom:latitude":39.088747,
     "geom:longitude":-108.586241,
@@ -28,19 +33,36 @@
         "shipping"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554791
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1UpEl2Q7m4EdusVUWoAo8f_39.088747_-108.586241@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439606,
-    "wof:geomhash":"e4ed95a0ccf25168d7c74d9ced792cec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"abde1faea49069869387cad0f47b3946",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":823501399
+        }
+    ],
     "wof:id":823501399,
-    "wof:lastmodified":1466414264,
+    "wof:lastmodified":1492125753,
     "wof:name":"Mail Managers Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554791,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

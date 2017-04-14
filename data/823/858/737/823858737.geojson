@@ -2,9 +2,14 @@
   "id": 823858737,
   "type": "Feature",
   "properties": {
+    "addr:full":"11659 Clayton St Denver CO 80233",
+    "addr:housenumber":"11659",
+    "addr:postcode":"80233",
+    "addr:street":"Clayton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.95292,39.905549,-104.95292,39.905549",
     "geom:latitude":39.905549,
     "geom:longitude":-104.95292,
@@ -27,19 +32,36 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553673
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Ay4cmSlpQQnC45BoBwBNj_39.905549_-104.952920@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448470,
-    "wof:geomhash":"58c7771ef98f2190ec2e0f8c57feb23a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"297f0ad1c8417c9816dfadd64703ea0f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553673,
+            "region_id":85688603,
+            "venue_id":823858737
+        }
+    ],
     "wof:id":823858737,
-    "wof:lastmodified":1466419917,
+    "wof:lastmodified":1492122278,
     "wof:name":"Lev Zotman",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553673,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

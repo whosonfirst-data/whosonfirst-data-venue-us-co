@@ -2,9 +2,14 @@
   "id": 823975289,
   "type": "Feature",
   "properties": {
+    "addr:full":"12022 Melody Dr Denver CO 80234",
+    "addr:housenumber":"12022",
+    "addr:postcode":"80234",
+    "addr:street":"Melody Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994622,39.915531,-104.994622,39.915531",
     "geom:latitude":39.915531,
     "geom:longitude":-104.994622,
@@ -27,19 +32,36 @@
         "security"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7HImlgsMzf6PAuDQI1G9Oa_39.915531_-104.994622@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451364,
-    "wof:geomhash":"1847c8490464eeb7cd2d06e72e2420d5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3b7d596fee33d57d2b1b65fd63231897",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":823975289
+        }
+    ],
     "wof:id":823975289,
-    "wof:lastmodified":1466420861,
+    "wof:lastmodified":1492125463,
     "wof:name":"Edward Jones 12095",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

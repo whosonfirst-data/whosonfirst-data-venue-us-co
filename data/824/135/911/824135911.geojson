@@ -2,9 +2,14 @@
   "id": 824135911,
   "type": "Feature",
   "properties": {
+    "addr:full":"12126 Josephine St Denver CO 80241",
+    "addr:housenumber":"12126",
+    "addr:postcode":"80241",
+    "addr:street":"Josephine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.956854,39.916508,-104.956854,39.916508",
     "geom:latitude":39.916508,
     "geom:longitude":-104.956854,
@@ -28,19 +33,36 @@
         "air"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2JJV1hlBANjbcrUNMrTcSi_39.916508_-104.956854@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455364,
-    "wof:geomhash":"a326b4b079b8a108435ec41fbc0786c4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9b796b80be815ef112b4c1ce8bf0c493",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":824135911
+        }
+    ],
     "wof:id":824135911,
-    "wof:lastmodified":1466416411,
+    "wof:lastmodified":1492129428,
     "wof:name":"Whiteline Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

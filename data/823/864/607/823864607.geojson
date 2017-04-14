@@ -2,9 +2,14 @@
   "id": 823864607,
   "type": "Feature",
   "properties": {
+    "addr:full":"4842 Franklin Dr Boulder CO 80301",
+    "addr:housenumber":"4842",
+    "addr:postcode":"80301",
+    "addr:street":"Franklin Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.242145,40.032402,-105.242145,40.032402",
     "geom:latitude":40.032402,
     "geom:longitude":-105.242145,
@@ -29,9 +34,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85853473,
-        102085251
+        85930751,
+        102085251,
+        85929877
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,17 +49,26 @@
     "wof:geomhash":"25c6e37d70d164f616f1d4690ffbb95e",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102085251,
-            "neighbourhood_id":85853473,
+            "locality_id":85930751,
+            "region_id":85688603,
+            "venue_id":823864607
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
             "region_id":85688603,
             "venue_id":823864607
         }
     ],
     "wof:id":823864607,
-    "wof:lastmodified":1466419980,
+    "wof:lastmodified":1491620034,
     "wof:name":"Gehring & Gehring",
-    "wof:parent_id":85853473,
+    "wof:parent_id":-1,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

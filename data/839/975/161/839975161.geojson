@@ -2,9 +2,14 @@
   "id": 839975161,
   "type": "Feature",
   "properties": {
+    "addr:full":"12594 2nd St Northglenn CO 80241",
+    "addr:housenumber":"12594",
+    "addr:postcode":"80241",
+    "addr:street":"2Nd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961005,39.923927,-104.961005,39.923927",
     "geom:latitude":39.923927,
     "geom:longitude":-104.961005,
@@ -27,19 +32,36 @@
         "tree"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6s3frSkRHb4wqr6QNxaG4k_39.923927_-104.961005@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460225,
-    "wof:geomhash":"4b758dd26bd061cf4fc03441311c7a5e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"00cb8afb28b2c45466a833dd4fe6bc98",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":839975161
+        }
+    ],
     "wof:id":839975161,
-    "wof:lastmodified":1466416424,
+    "wof:lastmodified":1492113735,
     "wof:name":"Wills Tree Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

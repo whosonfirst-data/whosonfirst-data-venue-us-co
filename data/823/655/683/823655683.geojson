@@ -2,9 +2,14 @@
   "id": 823655683,
   "type": "Feature",
   "properties": {
+    "addr:full":"2938 S Zurich Ct Denver CO 80236",
+    "addr:housenumber":"2938",
+    "addr:postcode":"80236",
+    "addr:street":"S Zurich Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052065,39.660803,-105.052065,39.660803",
     "geom:latitude":39.660803,
     "geom:longitude":-105.052065,
@@ -27,7 +32,15 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4pTAHvUqX4FMMoCxfrqEL7_39.660803_-105.052065@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463443212,
     "wof:geomhash":"85b32ecdf34ea5a9969c0e965cea1d3a",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":823655683
+        }
+    ],
     "wof:id":823655683,
-    "wof:lastmodified":1466418163,
+    "wof:lastmodified":1491876275,
     "wof:name":"Appliance Parts & Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

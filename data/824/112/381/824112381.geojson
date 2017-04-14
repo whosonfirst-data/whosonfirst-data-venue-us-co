@@ -2,9 +2,14 @@
   "id": 824112381,
   "type": "Feature",
   "properties": {
+    "addr:full":"5334 State Hwy 72 Golden CO 80403",
+    "addr:housenumber":"5334",
+    "addr:postcode":"co 80403",
+    "addr:street":"State Hwy 72",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.476988,39.935866,-105.476988,39.935866",
     "geom:latitude":39.935866,
     "geom:longitude":-105.476988,
@@ -27,19 +32,32 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85896083,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4GhuhtU5lgdadZgSkrIIdI_39.935866_-105.476988@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454602,
-    "wof:geomhash":"7ea22e61c290dc44819c062849eaeb54",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2c95f81417a52c2f24f4eef6a2662147",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85896083,
+            "region_id":85688603,
+            "venue_id":824112381
+        }
+    ],
     "wof:id":824112381,
-    "wof:lastmodified":1466415481,
+    "wof:lastmodified":1492130352,
     "wof:name":"Megalo Software Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

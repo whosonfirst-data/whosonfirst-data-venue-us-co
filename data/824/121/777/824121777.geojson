@@ -2,9 +2,14 @@
   "id": 824121777,
   "type": "Feature",
   "properties": {
+    "addr:full":"3002 Walnut St Denver CO 80205",
+    "addr:housenumber":"3002",
+    "addr:postcode":"80205",
+    "addr:street":"Walnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980144,39.76381,-104.980144,39.76381",
     "geom:latitude":39.76381,
     "geom:longitude":-104.980144,
@@ -29,12 +34,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750115,
+        85871289,
         102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85888337
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -49,15 +56,17 @@
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85888337,
+            "macrohood_id":1108750025,
+            "microhood_id":1108750115,
+            "neighbourhood_id":85871289,
             "region_id":85688603,
             "venue_id":824121777
         }
     ],
     "wof:id":824121777,
-    "wof:lastmodified":1466415708,
+    "wof:lastmodified":1486604494,
     "wof:name":"Cobo Architectural",
-    "wof:parent_id":85888337,
+    "wof:parent_id":1108750115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

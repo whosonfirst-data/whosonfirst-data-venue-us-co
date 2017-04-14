@@ -2,9 +2,14 @@
   "id": 823537915,
   "type": "Feature",
   "properties": {
+    "addr:full":"5585 E 130th Dr Denver CO 80241",
+    "addr:housenumber":"5585",
+    "addr:postcode":"80241",
+    "addr:street":"E 130Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.923119,39.932777,-104.923119,39.932777",
     "geom:latitude":39.932777,
     "geom:longitude":-104.923119,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Dq2TQ3G1v7HgqwrwX5h7y_39.932777_-104.923119@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440420,
-    "wof:geomhash":"b767bc8faa5a52a5872f8d01e5b6ff86",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5b799ad334783af1fc14a7ea30f39601",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553391,
+            "region_id":85688603,
+            "venue_id":823537915
+        }
+    ],
     "wof:id":823537915,
-    "wof:lastmodified":1466415341,
+    "wof:lastmodified":1492127226,
     "wof:name":"Isbell Bill Construction L L C",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

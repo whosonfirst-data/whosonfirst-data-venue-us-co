@@ -2,9 +2,14 @@
   "id": 839963957,
   "type": "Feature",
   "properties": {
+    "addr:full":"5323 Pennsylvania Ave Boulder CO 80303",
+    "addr:housenumber":"5323",
+    "addr:postcode":"80303",
+    "addr:street":"Pennsylvania Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.23133,40.006447,-105.23133,40.006447",
     "geom:latitude":40.006447,
     "geom:longitude":-105.23133,
@@ -34,19 +39,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4s0X2JJGVUxJQfYt9LTK06_40.006447_-105.231330@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459772,
-    "wof:geomhash":"f7c0bd0b4a21c3c98c46b051d2863d46",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2baee8438bf271016a9ee7392af4da7e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":839963957
+        }
+    ],
     "wof:id":839963957,
-    "wof:lastmodified":1466416027,
+    "wof:lastmodified":1492111770,
     "wof:name":"Technology Transfer Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

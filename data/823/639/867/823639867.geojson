@@ -2,9 +2,14 @@
   "id": 823639867,
   "type": "Feature",
   "properties": {
+    "addr:full":"4357 Lowell Blvd Denver CO 80211",
+    "addr:housenumber":"4357",
+    "addr:postcode":"80211",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034683,39.776373,-105.034683,39.776373",
     "geom:latitude":39.776373,
     "geom:longitude":-105.034683,
@@ -27,19 +32,38 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871261,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4yh3NRLxxe9pD2xasrDEiN_39.776373_-105.034683@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442850,
-    "wof:geomhash":"61d9c826bf61c4afe802104e24f3e9cb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c363ccdc488c8b6107eaf0847d7c2657",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871261,
+            "region_id":85688603,
+            "venue_id":823639867
+        }
+    ],
     "wof:id":823639867,
-    "wof:lastmodified":1466417819,
+    "wof:lastmodified":1492125475,
     "wof:name":"Pizza Hut",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871261,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

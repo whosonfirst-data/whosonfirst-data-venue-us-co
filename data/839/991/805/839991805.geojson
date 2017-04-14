@@ -2,9 +2,14 @@
   "id": 839991805,
   "type": "Feature",
   "properties": {
+    "addr:full":"2224 E Main St Cortez CO 81321",
+    "addr:housenumber":"2224",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.554355,37.352304,-108.554355,37.352304",
     "geom:latitude":37.352304,
     "geom:longitude":-108.554355,
@@ -30,19 +35,28 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3L2Wqwn3FqTDkDc2W7wkZr_37.352304_-108.554355@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460877,
-    "wof:geomhash":"48cb24a8d30f295dfb37788077aca4bd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"168896ed34d0e8c512112016ab2e0309",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":839991805
+        }
+    ],
     "wof:id":839991805,
-    "wof:lastmodified":1466417456,
+    "wof:lastmodified":1492110969,
     "wof:name":"Domino's Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

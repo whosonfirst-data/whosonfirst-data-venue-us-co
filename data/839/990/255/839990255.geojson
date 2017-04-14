@@ -2,9 +2,14 @@
   "id": 839990255,
   "type": "Feature",
   "properties": {
+    "addr:full":"215 E Foothills Pkwy Fort Collins CO 80525",
+    "addr:housenumber":"215",
+    "addr:postcode":"80525",
+    "addr:street":"E Foothills Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.072628,40.54228,-105.072628,40.54228",
     "geom:latitude":40.54228,
     "geom:longitude":-105.072628,
@@ -32,19 +37,36 @@
         "salad"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7MFV644hZBev7rjdUVcC11_40.542280_-105.072628@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460820,
-    "wof:geomhash":"ddb9b0b6081445a57069b8f873841bdd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"54177b7816af427ba02bcbb7c0417102",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":839990255
+        }
+    ],
     "wof:id":839990255,
-    "wof:lastmodified":1466417542,
+    "wof:lastmodified":1492110566,
     "wof:name":"Chick-fil-A",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554749,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

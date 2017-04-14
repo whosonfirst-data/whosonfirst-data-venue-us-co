@@ -2,9 +2,14 @@
   "id": 823715319,
   "type": "Feature",
   "properties": {
+    "addr:full":"2000 Vermont Dr Fort Collins CO 80525",
+    "addr:housenumber":"2000",
+    "addr:postcode":"80525",
+    "addr:street":"Vermont Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039255,40.543203,-105.039255,40.543203",
     "geom:latitude":40.543203,
     "geom:longitude":-105.039255,
@@ -29,19 +34,46 @@
     ],
     "sg:website":"www.barlowprojects.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739,
+        85877443
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4tZR1acGtqS2CToJCD7f2R_40.543203_-105.039255@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444553,
-    "wof:geomhash":"ae963452dd6366155e2a8ef6aa30a03b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"da94914ce50f8957c9df35f44db0b302",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":823715319
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877443,
+            "region_id":85688603,
+            "venue_id":823715319
+        }
+    ],
     "wof:id":823715319,
-    "wof:lastmodified":1466418667,
+    "wof:lastmodified":1492117906,
     "wof:name":"Barlow Group Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

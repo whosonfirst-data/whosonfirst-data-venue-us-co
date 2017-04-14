@@ -2,9 +2,14 @@
   "id": 823522197,
   "type": "Feature",
   "properties": {
+    "addr:full":"4326 Clay Commons Ct Boulder CO 80303",
+    "addr:housenumber":"4326",
+    "addr:postcode":"80303",
+    "addr:street":"Clay Commons Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.239701,40.000656,-105.239701,40.000656",
     "geom:latitude":40.000656,
     "geom:longitude":-105.239701,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554147
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3LQhEcK1Jma7miCYRZHEeP_40.000656_-105.239701@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440072,
-    "wof:geomhash":"b6bbb65342e5f3f9c7c31e0a44f09e08",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8a50cf548ee915adf1a0b35db31a33e0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554147,
+            "region_id":85688603,
+            "venue_id":823522197
+        }
+    ],
     "wof:id":823522197,
-    "wof:lastmodified":1466414866,
+    "wof:lastmodified":1492122582,
     "wof:name":"Micheles Pampered Pets",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554147,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

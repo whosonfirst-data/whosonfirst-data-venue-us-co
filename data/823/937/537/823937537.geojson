@@ -2,9 +2,14 @@
   "id": 823937537,
   "type": "Feature",
   "properties": {
+    "addr:full":"285 Co Rd 27 Brighton CO 80603",
+    "addr:housenumber":"285;27",
+    "addr:postcode":"80603",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.816183,40.002142,-104.816183,40.002142",
     "geom:latitude":40.002142,
     "geom:longitude":-104.816183,
@@ -27,19 +32,28 @@
         "field"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0yYd9o5JbWObROacPxdehF_40.002142_-104.816183@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450468,
-    "wof:geomhash":"c48209c6b524f419eb48f23805f4c2e4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2444aed5462978ae766dd764c0e83fe7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":823937537
+        }
+    ],
     "wof:id":823937537,
-    "wof:lastmodified":1466420568,
+    "wof:lastmodified":1492120117,
     "wof:name":"Rocky Mountain Energy Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555409,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

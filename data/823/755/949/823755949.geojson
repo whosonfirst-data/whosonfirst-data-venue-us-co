@@ -2,9 +2,14 @@
   "id": 823755949,
   "type": "Feature",
   "properties": {
+    "addr:full":"13143 Pennsylvania Cir Denver CO 80241",
+    "addr:housenumber":"13143",
+    "addr:postcode":"80241",
+    "addr:street":"Pennsylvania Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980856,39.935716,-104.980856,39.935716",
     "geom:latitude":39.935716,
     "geom:longitude":-104.980856,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2z5UgbNgx5IpYJV8n3AfAa_39.935716_-104.980856@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445535,
-    "wof:geomhash":"87cf80d05894218b233984dd2fd5433e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5774cca174a553cfa8cd72fa08dc258a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":823755949
+        }
+    ],
     "wof:id":823755949,
-    "wof:lastmodified":1466419183,
+    "wof:lastmodified":1492122075,
     "wof:name":"New Paradigm Consulting Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

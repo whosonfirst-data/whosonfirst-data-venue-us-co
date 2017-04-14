@@ -2,9 +2,14 @@
   "id": 823711569,
   "type": "Feature",
   "properties": {
+    "addr:full":"2323 Denver Blvd Pueblo CO 81003",
+    "addr:housenumber":"2323",
+    "addr:postcode":"81003",
+    "addr:street":"Denver Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.637253,38.290617,-104.637253,38.290617",
     "geom:latitude":38.290617,
     "geom:longitude":-104.637253,
@@ -27,17 +32,32 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Xzr0wBwlZn8H75vnzrqnh_38.290617_-104.637253@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444479,
-    "wof:geomhash":"dc9f8e60170067816c889ee8570e1443",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7238d525565923b2f03c5ec8e23473e1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823711569
+        }
+    ],
     "wof:id":823711569,
-    "wof:lastmodified":1466418636,
+    "wof:lastmodified":1492126315,
     "wof:name":"Colorado Online Parkinsons",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

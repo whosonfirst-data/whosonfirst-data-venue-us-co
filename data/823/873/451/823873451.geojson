@@ -2,9 +2,14 @@
   "id": 823873451,
   "type": "Feature",
   "properties": {
+    "addr:full":"4432 Wellington Rd Boulder CO 80301",
+    "addr:housenumber":"4432",
+    "addr:postcode":"80301",
+    "addr:street":"Wellington Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.212918,40.055687,-105.212918,40.055687",
     "geom:latitude":40.055687,
     "geom:longitude":-105.212918,
@@ -29,19 +34,36 @@
         "air"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554005
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7jmDqYinuricj4okjg4Cxk_40.055687_-105.212918@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448814,
-    "wof:geomhash":"a2e2ac7163d735902447ca39b7bc215e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae2b44aa00b96b76455d12e24d6d1dc5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554005,
+            "region_id":85688603,
+            "venue_id":823873451
+        }
+    ],
     "wof:id":823873451,
-    "wof:lastmodified":1466419974,
+    "wof:lastmodified":1492120458,
     "wof:name":"Quality Environmental Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554005,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

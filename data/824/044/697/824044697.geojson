@@ -2,9 +2,14 @@
   "id": 824044697,
   "type": "Feature",
   "properties": {
+    "addr:full":"412 Grand Mesa Ave Grand Junction CO 81503",
+    "addr:housenumber":"412",
+    "addr:postcode":"81503",
+    "addr:street":"Grand Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.56494,39.052069,-108.56494,39.052069",
     "geom:latitude":39.052069,
     "geom:longitude":-108.56494,
@@ -27,19 +32,36 @@
         "pottery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4JGdD4dYXdjlVvvWWgh0pV_39.052069_-108.564940@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453034,
-    "wof:geomhash":"743188b52656994f3a4ac69fde2c358b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"54ad4c76ef1bba13489f4fe9e887c3df",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554783,
+            "region_id":85688603,
+            "venue_id":824044697
+        }
+    ],
     "wof:id":824044697,
-    "wof:lastmodified":1466414172,
+    "wof:lastmodified":1492131236,
     "wof:name":"Petware Pottery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

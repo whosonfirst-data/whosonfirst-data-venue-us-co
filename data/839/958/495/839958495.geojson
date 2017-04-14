@@ -2,9 +2,14 @@
   "id": 839958495,
   "type": "Feature",
   "properties": {
+    "addr:full":"1885 Upland Ave Boulder CO 80304",
+    "addr:housenumber":"1885",
+    "addr:postcode":"80304",
+    "addr:street":"Upland Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.274708,40.052867,-105.274708,40.052867",
     "geom:latitude":40.052867,
     "geom:longitude":-105.274708,
@@ -31,7 +36,10 @@
         85688603,
         85633793,
         85841683,
-        102085251
+        102085251,
+        102191575,
+        85929877,
+        420558747
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,7 +47,7 @@
     },
     "wof:country":"US",
     "wof:created":1463459552,
-    "wof:geomhash":"81ce3872c8e0560eb80fe80f3db08fe5",
+    "wof:geomhash":"4057723dceda6c3af33fab025a9f9985",
     "wof:hierarchy":[
         {
             "country_id":85633793,
@@ -47,12 +55,21 @@
             "neighbourhood_id":85841683,
             "region_id":85688603,
             "venue_id":839958495
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420558747,
+            "region_id":85688603,
+            "venue_id":839958495
         }
     ],
     "wof:id":839958495,
-    "wof:lastmodified":1466415684,
+    "wof:lastmodified":1492113243,
     "wof:name":"Boulder Cleaning Svc",
-    "wof:parent_id":85841683,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

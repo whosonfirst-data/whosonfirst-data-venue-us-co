@@ -2,9 +2,14 @@
   "id": 823501619,
   "type": "Feature",
   "properties": {
+    "addr:full":"5711 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"5711;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.851529,37.383411,-107.851529,37.383411",
     "geom:latitude":37.383411,
     "geom:longitude":-107.851529,
@@ -27,19 +32,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0LIyrUpWV7jxuhMyJTkszS_37.383411_-107.851529@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439611,
-    "wof:geomhash":"22f1f757c1e9c3e5ecda4cdc9c929b06",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d12b247bd50a74c8b725ddb725f9d57",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554625,
+            "venue_id":823501619
+        }
+    ],
     "wof:id":823501619,
-    "wof:lastmodified":1466414168,
+    "wof:lastmodified":1492125745,
     "wof:name":"Jim Rudisill Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

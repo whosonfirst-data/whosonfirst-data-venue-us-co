@@ -2,9 +2,14 @@
   "id": 824162743,
   "type": "Feature",
   "properties": {
+    "addr:full":"4820 Briar Ridge Ct Boulder CO 80301",
+    "addr:housenumber":"4820",
+    "addr:postcode":"80301",
+    "addr:street":"Briar Ridge Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.181885,40.063193,-105.181885,40.063193",
     "geom:latitude":40.063193,
     "geom:longitude":-105.181885,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554161
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4M58M2QCsxu0G0pLUs767L_40.063193_-105.181885@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456405,
-    "wof:geomhash":"7e3702a76fb7eca9d3b22b0a48f191e4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d540da4936c58245404145954a06adc8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554161,
+            "region_id":85688603,
+            "venue_id":824162743
+        }
+    ],
     "wof:id":824162743,
-    "wof:lastmodified":1466417567,
+    "wof:lastmodified":1492132889,
     "wof:name":"Colorado Automation LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554161,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

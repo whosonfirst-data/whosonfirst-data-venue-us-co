@@ -2,9 +2,14 @@
   "id": 824090911,
   "type": "Feature",
   "properties": {
+    "addr:full":"6102 W 55th Ave Arvada CO 80002",
+    "addr:housenumber":"6102",
+    "addr:postcode":"80002",
+    "addr:street":"W 55Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.06803,39.796255,-105.06803,39.796255",
     "geom:latitude":39.796255,
     "geom:longitude":-105.06803,
@@ -28,19 +33,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4VT16l3xwIw6H7zmHgues0_39.796255_-105.068030@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454107,
-    "wof:geomhash":"0f8d7ab564812cedf00bb4285e52307e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4deebc870312462e6d605fd220b623fc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824090911
+        }
+    ],
     "wof:id":824090911,
-    "wof:lastmodified":1466415037,
+    "wof:lastmodified":1492130211,
     "wof:name":"Woodcrafters By Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823892881,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 Co Rd 233 Durango CO 81301",
+    "addr:housenumber":"500;233",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.813797,37.229228,-107.813797,37.229228",
     "geom:latitude":37.229228,
     "geom:longitude":-107.813797,
@@ -28,19 +33,28 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6WZhdKzGnq7QXkge46DKyx_37.229228_-107.813797@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449270,
-    "wof:geomhash":"82d6a1a3e5afef2ec99bf24cc9a0d314",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e916428a59c705b46b2f42090710db7d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823892881
+        }
+    ],
     "wof:id":823892881,
-    "wof:lastmodified":1466420206,
+    "wof:lastmodified":1492119941,
     "wof:name":"Grandview Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

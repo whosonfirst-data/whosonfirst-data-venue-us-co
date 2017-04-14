@@ -2,9 +2,14 @@
   "id": 823514043,
   "type": "Feature",
   "properties": {
+    "addr:full":"15 S Main St Brighton CO 80601",
+    "addr:housenumber":"15",
+    "addr:postcode":"80601",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.822024,39.985501,-104.822024,39.985501",
     "geom:latitude":39.985501,
     "geom:longitude":-104.822024,
@@ -25,19 +30,36 @@
     "sg:province":"CO",
     "sg:website":"www.wellsfargo.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Ujm8f2lcNZ7uZT0Jvclm2_39.985501_-104.822024@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439886,
-    "wof:geomhash":"be085fa24753456d7193696db348e5ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e60c69e5bfde937185858fdc157a600e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823514043
+        }
+    ],
     "wof:id":823514043,
-    "wof:lastmodified":1466414527,
+    "wof:lastmodified":1492124915,
     "wof:name":"Wells Fargo Bank",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

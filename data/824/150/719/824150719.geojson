@@ -2,9 +2,14 @@
   "id": 824150719,
   "type": "Feature",
   "properties": {
+    "addr:full":"12742 Clermont St Denver CO 80241",
+    "addr:housenumber":"12742",
+    "addr:postcode":"80241",
+    "addr:street":"Clermont St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.935023,39.926615,-104.935023,39.926615",
     "geom:latitude":39.926615,
     "geom:longitude":-104.935023,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553661
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_27vrGVunkpRJOAgdBZAUA1_39.926615_-104.935023@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455938,
-    "wof:geomhash":"e4a2e52e632e7ee94d4f77b41fab7944",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2f1724bef36825c1a79864bf960b7b6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553661,
+            "region_id":85688603,
+            "venue_id":824150719
+        }
+    ],
     "wof:id":824150719,
-    "wof:lastmodified":1466416877,
+    "wof:lastmodified":1492132023,
     "wof:name":"Wildflower Landscape",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553661,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

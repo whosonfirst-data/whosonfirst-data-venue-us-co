@@ -2,9 +2,14 @@
   "id": 823664365,
   "type": "Feature",
   "properties": {
+    "addr:full":"2886 Co Rd 308 Durango CO 81303",
+    "addr:housenumber":"2886;308",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.784683,37.169168,-107.784683,37.169168",
     "geom:latitude":37.169168,
     "geom:longitude":-107.784683,
@@ -27,19 +32,28 @@
         "alpaca"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Da61HwG1NZ1zqZQIwprSz_37.169168_-107.784683@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443443,
-    "wof:geomhash":"6c52bd5e37f761e8eca7d1c491ccb82a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4068cef004635ebc239bd7d7de592124",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823664365
+        }
+    ],
     "wof:id":823664365,
-    "wof:lastmodified":1466418303,
+    "wof:lastmodified":1492127654,
     "wof:name":"LA Plata Alpacas",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

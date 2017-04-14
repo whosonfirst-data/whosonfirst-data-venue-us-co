@@ -2,9 +2,14 @@
   "id": 823610373,
   "type": "Feature",
   "properties": {
+    "addr:full":"5171 Cook St Denver CO 80216",
+    "addr:housenumber":"5171",
+    "addr:postcode":"80216",
+    "addr:street":"Cook St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.947618,39.789703,-104.947618,39.789703",
     "geom:latitude":39.789703,
     "geom:longitude":-104.947618,
@@ -28,19 +33,38 @@
         "except"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7LqXX6BPgxRpWIDVxgQUfY_39.789703_-104.947618@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442153,
-    "wof:geomhash":"add77b52c39e2967defbbd99f604a57f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae0c739f8b7d4547903d2e8702ab0d6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":823610373
+        }
+    ],
     "wof:id":823610373,
-    "wof:lastmodified":1466417092,
+    "wof:lastmodified":1492125167,
     "wof:name":"Stone Energy LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

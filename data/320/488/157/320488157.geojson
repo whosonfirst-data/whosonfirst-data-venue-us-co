@@ -2,9 +2,14 @@
   "id": 320488157,
   "type": "Feature",
   "properties": {
+    "addr:full":"24050 E 78th Ave Denver CO 80249",
+    "addr:housenumber":"24050",
+    "addr:postcode":"80249",
+    "addr:street":"E 78Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.709009,39.838032,-104.709009,39.838032",
     "geom:latitude":39.838032,
     "geom:longitude":-104.709009,
@@ -36,10 +41,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        102531189,
+        1108750063,
+        102191575,
+        1108750025,
         85633793,
         85928879,
-        102086135
+        102086135,
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -49,19 +58,21 @@
     "wof:geomhash":"cea2792745bd7bd5b0c145dc3f2cd423",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "campus_id":102531189,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":-1,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750063,
             "region_id":85688603,
             "venue_id":320488157
         }
     ],
     "wof:id":320488157,
-    "wof:lastmodified":1466413396,
+    "wof:lastmodified":1486593671,
     "wof:name":"SAFELITE AUTO GLASS",
-    "wof:parent_id":-1,
+    "wof:parent_id":102531189,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

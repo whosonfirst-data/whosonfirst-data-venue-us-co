@@ -2,9 +2,14 @@
   "id": 823734417,
   "type": "Feature",
   "properties": {
+    "addr:full":"307 Interlocken Pkwy Broomfield CO 80021",
+    "addr:housenumber":"307",
+    "addr:postcode":"80021",
+    "addr:street":"Interlocken Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.111348,39.917343,-105.111348,39.917343",
     "geom:latitude":39.917343,
     "geom:longitude":-105.111348,
@@ -28,19 +33,36 @@
         "datum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554163
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0ugAwOteaVREOVe9i6Xm81_39.917343_-105.111348@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445031,
-    "wof:geomhash":"abcacf897a8c599fe536e3ab1113832b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09001d719c36c6a2fbd6212a0292b334",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554163,
+            "region_id":85688603,
+            "venue_id":823734417
+        }
+    ],
     "wof:id":823734417,
-    "wof:lastmodified":1466418845,
+    "wof:lastmodified":1492124815,
     "wof:name":"Experian",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554163,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839984939,
   "type": "Feature",
   "properties": {
+    "addr:full":"4259 W Florida Ave Denver CO 80219",
+    "addr:housenumber":"4259",
+    "addr:postcode":"80219",
+    "addr:street":"W Florida Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042845,39.689453,-105.042845,39.689453",
     "geom:latitude":39.689453,
     "geom:longitude":-105.042845,
@@ -25,19 +30,38 @@
     "sg:province":"CO",
     "sg:website":"www.usps.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6GJ0DtDTxTjmOyNEXEsGnO_39.689557_-105.042671@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460616,
-    "wof:geomhash":"9f7be8cfeabfab60e6a37fe7aa13ba75",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c283d810c26aa7adeaad01b4280bc3d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":839984939
+        }
+    ],
     "wof:id":839984939,
-    "wof:lastmodified":1466417286,
+    "wof:lastmodified":1492111139,
     "wof:name":"US Post Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

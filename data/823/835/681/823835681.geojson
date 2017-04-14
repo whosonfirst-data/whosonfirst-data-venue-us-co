@@ -2,9 +2,14 @@
   "id": 823835681,
   "type": "Feature",
   "properties": {
+    "addr:full":"2905 S Zurich Ct Denver CO 80236",
+    "addr:housenumber":"2905",
+    "addr:postcode":"80236",
+    "addr:street":"S Zurich Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052146,39.659802,-105.052146,39.659802",
     "geom:latitude":39.659802,
     "geom:longitude":-105.052146,
@@ -32,7 +37,15 @@
         "embroidery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_26EWR9UsHT7IbtPXs511d3_39.659802_-105.052146@1294083659"
@@ -40,11 +53,22 @@
     "wof:country":"US",
     "wof:created":1463447785,
     "wof:geomhash":"5ce57b8fdeb1cd4c4b1c710be2361ccb",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":823835681
+        }
+    ],
     "wof:id":823835681,
-    "wof:lastmodified":1466419667,
+    "wof:lastmodified":1491876268,
     "wof:name":"Flutter By Designs",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

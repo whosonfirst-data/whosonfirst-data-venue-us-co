@@ -2,9 +2,14 @@
   "id": 823982885,
   "type": "Feature",
   "properties": {
+    "addr:full":"11664 Logan St Northglenn CO 80233",
+    "addr:housenumber":"11664",
+    "addr:postcode":"80233",
+    "addr:street":"Logan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980152,39.907868,-104.980152,39.907868",
     "geom:latitude":39.907868,
     "geom:longitude":-104.980152,
@@ -28,19 +33,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06XkOVNLmL8Y2RTkj3xTdy_39.907868_-104.980152@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451563,
-    "wof:geomhash":"3374f05668a2389d1b5088776b71dad8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e3fd549211fdab4317d19772def54586",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":823982885
+        }
+    ],
     "wof:id":823982885,
-    "wof:lastmodified":1466420979,
+    "wof:lastmodified":1492126875,
     "wof:name":"William Thaxton Bradford LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

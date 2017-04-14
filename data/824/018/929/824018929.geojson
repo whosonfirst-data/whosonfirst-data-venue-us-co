@@ -2,9 +2,14 @@
   "id": 824018929,
   "type": "Feature",
   "properties": {
+    "addr:full":"2349 Co Rd 220 Durango CO 81303",
+    "addr:housenumber":"2349;220",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.803585,37.21504,-107.803585,37.21504",
     "geom:latitude":37.21504,
     "geom:longitude":-107.803585,
@@ -35,19 +40,28 @@
         "refrigerating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2enVw5XBoJEPUnaXRg3zlB_37.215040_-107.803585@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452397,
-    "wof:geomhash":"f7cfec4b3dabb96fce71f153544b2ae1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a283bd723a8b57fd59f22bf4691bb5bc",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554643,
+            "venue_id":824018929
+        }
+    ],
     "wof:id":824018929,
-    "wof:lastmodified":1466413660,
+    "wof:lastmodified":1492130907,
     "wof:name":"B & K Refrigeration Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

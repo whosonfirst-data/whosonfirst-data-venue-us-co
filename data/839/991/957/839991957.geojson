@@ -2,9 +2,14 @@
   "id": 839991957,
   "type": "Feature",
   "properties": {
+    "addr:full":"2428 Highway 6 and 50 Grand Junction CO 81505",
+    "addr:housenumber":"2428",
+    "addr:postcode":"81505",
+    "addr:street":"Highway 6 And 50",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.60329,39.089225,-108.60329,39.089225",
     "geom:latitude":39.089225,
     "geom:longitude":-108.60329,
@@ -28,19 +33,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554869
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5PPRe3f9ZKfaWSsNrxtx4y_39.089225_-108.603290@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460882,
-    "wof:geomhash":"ae542e832f803d0d32928188c8b3264a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"398392e63702cc0b18ea13834546170f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554869,
+            "region_id":85688603,
+            "venue_id":839991957
+        }
+    ],
     "wof:id":839991957,
-    "wof:lastmodified":1466417487,
+    "wof:lastmodified":1492110981,
     "wof:name":"Taco Bell",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554869,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

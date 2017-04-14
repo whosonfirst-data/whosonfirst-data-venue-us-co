@@ -2,9 +2,14 @@
   "id": 839930097,
   "type": "Feature",
   "properties": {
+    "addr:full":"8124 Conifer Rd Denver CO 80221",
+    "addr:housenumber":"8124",
+    "addr:postcode":"80221",
+    "addr:street":"Conifer Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.991159,39.843795,-104.991159,39.843795",
     "geom:latitude":39.843795,
     "geom:longitude":-104.991159,
@@ -27,19 +32,36 @@
         "operator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Y7uhiLWB6mcZzVseV1riE_39.843795_-104.991159@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457976,
-    "wof:geomhash":"f1d61e85722de24c336ccc10801de56c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"624bb6f03d2e95a0cf8bb08e5a0db906",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":839930097
+        }
+    ],
     "wof:id":839930097,
-    "wof:lastmodified":1466414076,
+    "wof:lastmodified":1492112252,
     "wof:name":"Import Vending",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823880675,
   "type": "Feature",
   "properties": {
+    "addr:full":"1115 Colorado Ave Longmont CO 80501",
+    "addr:housenumber":"1115",
+    "addr:postcode":"80501",
+    "addr:street":"Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.107959,40.155887,-105.107959,40.155887",
     "geom:latitude":40.155887,
     "geom:longitude":-105.107959,
@@ -28,17 +33,32 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2K20mWB47Fn1TmVDJ2ozwa_40.155887_-105.107959@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448983,
-    "wof:geomhash":"588e78133da828264a18be1e25704980",
-    "wof:hierarchy":[],
+    "wof:geomhash":"73e4fa137287e17fe60fa95fc017e5f9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823880675
+        }
+    ],
     "wof:id":823880675,
-    "wof:lastmodified":1466420107,
+    "wof:lastmodified":1492116333,
     "wof:name":"Guy Tech Machining",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823803657,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 Colorado St Springfield CO 81073",
+    "addr:housenumber":"101",
+    "addr:postcode":"81073",
+    "addr:street":"Colorado St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.617904,37.413515,-102.617904,37.413515",
     "geom:latitude":37.413515,
     "geom:longitude":-102.617904,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929173,
+        102085237
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6IitlB9XCQNDJ0L9UYCtmP_37.413515_-102.617904@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446812,
-    "wof:geomhash":"da35a58b33654b7433c6bf35a6049f2c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"93b5d13b3dad759cd10bf4a9b743672b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085237,
+            "locality_id":85929173,
+            "region_id":85688603,
+            "venue_id":823803657
+        }
+    ],
     "wof:id":823803657,
-    "wof:lastmodified":1466419444,
+    "wof:lastmodified":1492127058,
     "wof:name":"Church Of Christ",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

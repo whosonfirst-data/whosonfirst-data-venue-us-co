@@ -2,9 +2,14 @@
   "id": 824172009,
   "type": "Feature",
   "properties": {
+    "addr:full":"38545 Co Rd 51 Hayden CO 81639",
+    "addr:housenumber":"38545;51",
+    "addr:postcode":"81639",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.200614,40.48228,-107.200614,40.48228",
     "geom:latitude":40.48228,
     "geom:longitude":-107.200614,
@@ -28,19 +33,28 @@
         "govt"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555313
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1qzPqIupEbbuOd1qG0W3PE_40.482280_-107.200614@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456762,
-    "wof:geomhash":"7662297a7af5faf2b18682c425d008b8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0cd80c170d53e8a51d09b59472386391",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555313,
+            "venue_id":824172009
+        }
+    ],
     "wof:id":824172009,
-    "wof:lastmodified":1466417921,
+    "wof:lastmodified":1492128254,
     "wof:name":"US Western Area Power Adm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555313,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

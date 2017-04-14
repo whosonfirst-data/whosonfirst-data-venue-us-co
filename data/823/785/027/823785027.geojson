@@ -2,9 +2,14 @@
   "id": 823785027,
   "type": "Feature",
   "properties": {
+    "addr:full":"6970 Leyden St Commerce City CO 80022",
+    "addr:housenumber":"6970",
+    "addr:postcode":"80022",
+    "addr:street":"Leyden St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.915337,39.82244,-104.915337,39.82244",
     "geom:latitude":39.82244,
     "geom:longitude":-104.915337,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553537
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00SHj2oIV0afvG8R4j3auA_39.822440_-104.915337@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446251,
-    "wof:geomhash":"754a7eab5f21daf915ec97ea485085dd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cc54b9f2f9c2e78b03ab10e8c2456460",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553537,
+            "region_id":85688603,
+            "venue_id":823785027
+        }
+    ],
     "wof:id":823785027,
-    "wof:lastmodified":1466419359,
+    "wof:lastmodified":1492125224,
     "wof:name":"Monarrez Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553537,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

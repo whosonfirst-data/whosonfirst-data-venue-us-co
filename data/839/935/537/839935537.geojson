@@ -2,9 +2,14 @@
   "id": 839935537,
   "type": "Feature",
   "properties": {
+    "addr:full":"275 Main St Broomfield CO 80020",
+    "addr:housenumber":"275",
+    "addr:postcode":"80020",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.071805,39.918365,-105.071805,39.918365",
     "geom:latitude":39.918365,
     "geom:longitude":-105.071805,
@@ -27,19 +32,56 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        85876547,
+        85876573,
+        85876541
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0AvoLzwDqfkkIUOpYozMzi_39.918365_-105.071805@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458258,
-    "wof:geomhash":"0ad5ebea469293c71eedebeb769fa73b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"60f4ff635497cd5f5b9e54ab6385aba5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":85876547,
+            "region_id":85688603,
+            "venue_id":839935537
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":85876573,
+            "region_id":85688603,
+            "venue_id":839935537
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":85876541,
+            "region_id":85688603,
+            "venue_id":839935537
+        }
+    ],
     "wof:id":839935537,
-    "wof:lastmodified":1466414374,
+    "wof:lastmodified":1492113221,
     "wof:name":"Timbre Line Music",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

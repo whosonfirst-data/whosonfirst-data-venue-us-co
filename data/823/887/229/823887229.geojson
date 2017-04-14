@@ -2,9 +2,14 @@
   "id": 823887229,
   "type": "Feature",
   "properties": {
+    "addr:full":"2137 S Sheridan Blvd Denver CO 80227",
+    "addr:housenumber":"2137",
+    "addr:postcode":"80227",
+    "addr:street":"S Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053341,39.677536,-105.053341,39.677536",
     "geom:latitude":39.677536,
     "geom:longitude":-105.053341,
@@ -30,7 +35,15 @@
         "tape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3eQ61hjQxm5dDZl5qmpAob_39.677536_-105.053341@1294083659"
@@ -38,11 +51,22 @@
     "wof:country":"US",
     "wof:created":1463449129,
     "wof:geomhash":"37d6d2cb1e0918e13a89fe113a7a7a0e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":823887229
+        }
+    ],
     "wof:id":823887229,
-    "wof:lastmodified":1466420017,
+    "wof:lastmodified":1486593728,
     "wof:name":"Myrna's Music",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

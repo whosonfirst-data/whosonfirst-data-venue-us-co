@@ -2,9 +2,14 @@
   "id": 823529693,
   "type": "Feature",
   "properties": {
+    "addr:full":"6381 W 56th Ave Arvada CO 80002",
+    "addr:housenumber":"6381",
+    "addr:postcode":"80002",
+    "addr:street":"W 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066539,39.798428,-105.066539,39.798428",
     "geom:latitude":39.798428,
     "geom:longitude":-105.066539,
@@ -28,19 +33,34 @@
         "product"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0erfdKehhVWNT9awpqS0Vj_39.798428_-105.066539@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440246,
-    "wof:geomhash":"3d7da4d56469ca5a17d35bef52677f74",
-    "wof:hierarchy":[],
+    "wof:geomhash":"620485420a79e9f403307657ac451f1b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823529693
+        }
+    ],
     "wof:id":823529693,
-    "wof:lastmodified":1466415250,
+    "wof:lastmodified":1492117329,
     "wof:name":"R & D Foods",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839977027,
   "type": "Feature",
   "properties": {
+    "addr:full":"6537 E 72nd Pl Commerce City CO 80022",
+    "addr:housenumber":"6537",
+    "addr:postcode":"80022",
+    "addr:street":"E 72Nd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.911091,39.82833,-104.911091,39.82833",
     "geom:latitude":39.82833,
     "geom:longitude":-104.911091,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553491
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6iLY7yqmNtKIw2yYfojY4m_39.828330_-104.911091@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460302,
-    "wof:geomhash":"841b21214fc94ec1ac45ec9cafbc6922",
-    "wof:hierarchy":[],
+    "wof:geomhash":"de209377c4c5d715bff222af0ec8843f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553491,
+            "region_id":85688603,
+            "venue_id":839977027
+        }
+    ],
     "wof:id":839977027,
-    "wof:lastmodified":1466416752,
+    "wof:lastmodified":1492113811,
     "wof:name":"Commerce City Dental Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553491,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

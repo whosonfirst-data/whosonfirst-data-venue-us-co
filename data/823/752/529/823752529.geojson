@@ -2,9 +2,14 @@
   "id": 823752529,
   "type": "Feature",
   "properties": {
+    "addr:full":"147 N 7th Ave Brighton CO 80601",
+    "addr:housenumber":"147",
+    "addr:postcode":"80601",
+    "addr:street":"N 7Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.814171,39.98958,-104.814171,39.98958",
     "geom:latitude":39.98958,
     "geom:longitude":-104.814171,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4cTBuP02jaooqSV2FQsjPM_39.989580_-104.814171@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445442,
-    "wof:geomhash":"13ace611a119bc0589be174abcc80616",
-    "wof:hierarchy":[],
+    "wof:geomhash":"504b911b0bcae8fcaf6c43202f5a9265",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823752529
+        }
+    ],
     "wof:id":823752529,
-    "wof:lastmodified":1466418973,
+    "wof:lastmodified":1492125230,
     "wof:name":"Aragon Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

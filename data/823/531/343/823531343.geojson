@@ -2,9 +2,14 @@
   "id": 823531343,
   "type": "Feature",
   "properties": {
+    "addr:full":"324 Main St Longmont CO 80501",
+    "addr:housenumber":"324",
+    "addr:postcode":"80501",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.102439,40.165292,-105.102439,40.165292",
     "geom:latitude":40.165292,
     "geom:longitude":-105.102439,
@@ -27,17 +32,32 @@
         "fuel"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6vQkV4ZhYrxkxlKA9WDVIM_40.165292_-105.102439@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440278,
-    "wof:geomhash":"8d364b0bff12c6e5b7a3e9d77b9ab7de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d65f61e0529b8e4b44ea0ba1b4582437",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823531343
+        }
+    ],
     "wof:id":823531343,
-    "wof:lastmodified":1466415215,
+    "wof:lastmodified":1492120586,
     "wof:name":"Rocky Mountain Offender Mgmt",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

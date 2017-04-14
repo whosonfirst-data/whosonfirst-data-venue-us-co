@@ -2,9 +2,14 @@
   "id": 823688045,
   "type": "Feature",
   "properties": {
+    "addr:full":"3531 E 118th Ave Denver CO 80233",
+    "addr:housenumber":"3531",
+    "addr:postcode":"80233",
+    "addr:street":"E 118Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.94419,39.910052,-104.94419,39.910052",
     "geom:latitude":39.910052,
     "geom:longitude":-104.94419,
@@ -28,19 +33,46 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553907,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1fObp7M0KTzX8pr3LgWUqE_39.910052_-104.944190@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443972,
-    "wof:geomhash":"bf402131247bd3426ffd75cb2bbf2f93",
-    "wof:hierarchy":[],
+    "wof:geomhash":"719cf220e900e203c7628de861273400",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":823688045
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823688045
+        }
+    ],
     "wof:id":823688045,
-    "wof:lastmodified":1466418385,
+    "wof:lastmodified":1492126176,
     "wof:name":"Carl L Hall Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824035057,
   "type": "Feature",
   "properties": {
+    "addr:full":"7710 James Way Westminster CO 80030",
+    "addr:housenumber":"7710",
+    "addr:postcode":"80030",
+    "addr:street":"James Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030591,39.83572,-105.030591,39.83572",
     "geom:latitude":39.83572,
     "geom:longitude":-105.030591,
@@ -27,19 +32,36 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553515
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2c1YJVH9cl3kH9vte6zTXy_39.835720_-105.030591@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452785,
-    "wof:geomhash":"11a714740085405913518e6baeea5b3e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4def324cf8c95f9d6d294296a449c2c3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553515,
+            "region_id":85688603,
+            "venue_id":824035057
+        }
+    ],
     "wof:id":824035057,
-    "wof:lastmodified":1466413944,
+    "wof:lastmodified":1492130543,
     "wof:name":"Carousel Photo Sculpture",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553515,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

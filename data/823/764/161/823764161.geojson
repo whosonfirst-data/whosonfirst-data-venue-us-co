@@ -2,9 +2,14 @@
   "id": 823764161,
   "type": "Feature",
   "properties": {
+    "addr:full":"76 S 3rd Ave Brighton CO 80601",
+    "addr:housenumber":"76",
+    "addr:postcode":"80601",
+    "addr:street":"S 3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.819463,39.986454,-104.819463,39.986454",
     "geom:latitude":39.986454,
     "geom:longitude":-104.819463,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6NscxR9mVCwjUpcnrV5JqS_39.986454_-104.819463@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445702,
-    "wof:geomhash":"bb8a1c967f70683ab7682d512c3e282d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ed34216e458eebfb49ec5abd0544586b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823764161
+        }
+    ],
     "wof:id":823764161,
-    "wof:lastmodified":1466419186,
+    "wof:lastmodified":1492116845,
     "wof:name":"St Elizabeth Episcopal Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

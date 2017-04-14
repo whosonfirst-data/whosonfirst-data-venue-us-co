@@ -2,9 +2,14 @@
   "id": 824086223,
   "type": "Feature",
   "properties": {
+    "addr:full":"8820 Washington St Denver CO 80229",
+    "addr:housenumber":"8820",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977714,39.859872,-104.977714,39.859872",
     "geom:latitude":39.859872,
     "geom:longitude":-104.977714,
@@ -27,19 +32,36 @@
         "jeweler"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6pPhmXxadwmFcIDjatbgLy_39.859872_-104.977714@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454000,
-    "wof:geomhash":"9b6a61ddcc768a46a58fdbf34c21751e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bc0beabc4c1169977b68934624d08e83",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":824086223
+        }
+    ],
     "wof:id":824086223,
-    "wof:lastmodified":1466414829,
+    "wof:lastmodified":1492131597,
     "wof:name":"Goldsmith's Custom Jewelry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

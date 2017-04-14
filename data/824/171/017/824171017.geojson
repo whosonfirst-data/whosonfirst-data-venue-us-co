@@ -2,9 +2,14 @@
   "id": 824171017,
   "type": "Feature",
   "properties": {
+    "addr:full":"7881 Fairview Ave Denver CO 80221",
+    "addr:housenumber":"7881",
+    "addr:postcode":"80221",
+    "addr:street":"Fairview Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.019431,39.83798,-105.019431,39.83798",
     "geom:latitude":39.83798,
     "geom:longitude":-105.019431,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553663
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0eKyBEDs5AbqsFNo6o4ulq_39.837980_-105.019431@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456723,
-    "wof:geomhash":"cbc1c707a9afdabedfc88fc365365977",
-    "wof:hierarchy":[],
+    "wof:geomhash":"25cd24503dea19be3e5baa7ce8032729",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553663,
+            "region_id":85688603,
+            "venue_id":824171017
+        }
+    ],
     "wof:id":824171017,
-    "wof:lastmodified":1466417837,
+    "wof:lastmodified":1492130298,
     "wof:name":"Fairview Baptist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553663,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

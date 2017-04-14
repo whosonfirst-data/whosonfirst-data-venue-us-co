@@ -2,9 +2,14 @@
   "id": 823667699,
   "type": "Feature",
   "properties": {
+    "addr:full":"3108 Racine St Aurora CO 80011",
+    "addr:housenumber":"3108",
+    "addr:postcode":"80011",
+    "addr:street":"Racine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.843663,39.762249,-104.843663,39.762249",
     "geom:latitude":39.762249,
     "geom:longitude":-104.843663,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1dETxTfUVnD2dzlZKknOWy_39.762249_-104.843663@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443518,
-    "wof:geomhash":"a91102567109e8eb6e905c9898bb7c3a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"97bd7dce9d988e56fcd3655cd5319547",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553301,
+            "region_id":85688603,
+            "venue_id":823667699
+        }
+    ],
     "wof:id":823667699,
-    "wof:lastmodified":1466418248,
+    "wof:lastmodified":1492127134,
     "wof:name":"Crockett's Maintenance",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839993011,
   "type": "Feature",
   "properties": {
+    "addr:full":"1240 W Elizabeth St Fort Collins CO 80521",
+    "addr:housenumber":"1240",
+    "addr:postcode":"80521",
+    "addr:street":"W Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.099245,40.574829,-105.099245,40.574829",
     "geom:latitude":40.574829,
     "geom:longitude":-105.099245,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0P6o1N7HLDpHG76yWZ59Hh_40.574720_-105.098525@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460928,
-    "wof:geomhash":"0b47fa07d3288f8b2d43532be0cd38bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6cd80af99a66e32baec60e6ae0857ebd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":839993011
+        }
+    ],
     "wof:id":839993011,
-    "wof:lastmodified":1466417682,
+    "wof:lastmodified":1492110938,
     "wof:name":"Silver Mine Subs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

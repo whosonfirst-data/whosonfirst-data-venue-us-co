@@ -2,9 +2,14 @@
   "id": 824145949,
   "type": "Feature",
   "properties": {
+    "addr:full":"56861 E Colfax Ave Strasburg CO 80136",
+    "addr:housenumber":"56861",
+    "addr:postcode":"80136",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.321952,39.738293,-104.321952,39.738293",
     "geom:latitude":39.738293,
     "geom:longitude":-104.321952,
@@ -28,19 +33,36 @@
         "washing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7VUMsz23RBMYKforvps91I_39.738293_-104.321952@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455739,
-    "wof:geomhash":"e36285279a76318dba8725a62eb55be6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bc828f21febbe7dfb1d6341c4f0b3e6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":824145949
+        }
+    ],
     "wof:id":824145949,
-    "wof:lastmodified":1466416731,
+    "wof:lastmodified":1492133022,
     "wof:name":"High Plains Car Wash",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

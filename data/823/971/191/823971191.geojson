@@ -2,9 +2,14 @@
   "id": 823971191,
   "type": "Feature",
   "properties": {
+    "addr:full":"30496 Bryant Dr Evergreen CO 80439",
+    "addr:housenumber":"30496",
+    "addr:postcode":"80439",
+    "addr:street":"Bryant Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.349159,39.650287,-105.349159,39.650287",
     "geom:latitude":39.650287,
     "geom:longitude":-105.349159,
@@ -28,17 +33,32 @@
         "thrift"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930597,
+        102084113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Q9CTke9ZnIFVYhUlIqF1H_39.650287_-105.349159@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451278,
-    "wof:geomhash":"06f5255aab43b9d741ad1987d82d7c46",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f1a094d234b35cbe16fe008000018640",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85930597,
+            "region_id":85688603,
+            "venue_id":823971191
+        }
+    ],
     "wof:id":823971191,
-    "wof:lastmodified":1466420803,
+    "wof:lastmodified":1492116299,
     "wof:name":"Habitat For Humanity",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

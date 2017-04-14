@@ -2,9 +2,14 @@
   "id": 823715103,
   "type": "Feature",
   "properties": {
+    "addr:full":"5786 Logan Ct Denver CO 80216",
+    "addr:housenumber":"5786",
+    "addr:postcode":"80216",
+    "addr:street":"Logan Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.981565,39.798542,-104.981565,39.798542",
     "geom:latitude":39.798542,
     "geom:longitude":-104.981565,
@@ -28,19 +33,36 @@
         "gift"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_38rT97rEAexF74nNxxxAtw_39.798542_-104.981565@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444549,
-    "wof:geomhash":"175f2e029476669116f5ebb8c625e4f0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e0f6d1dc7a24a3868d2cdc77a7a8f4dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":823715103
+        }
+    ],
     "wof:id":823715103,
-    "wof:lastmodified":1466418652,
+    "wof:lastmodified":1492117915,
     "wof:name":"Multiline Intl Imports",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

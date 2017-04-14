@@ -2,9 +2,14 @@
   "id": 823817607,
   "type": "Feature",
   "properties": {
+    "addr:full":"995 US Hwy 85 Brighton CO 80603",
+    "addr:housenumber":"995",
+    "addr:postcode":"80603",
+    "addr:street":"Us Hwy 85",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.819305,40.007574,-104.819305,40.007574",
     "geom:latitude":40.007574,
     "geom:longitude":-104.819305,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0XbkEdE1M3iCXANOKzzRj5_40.007574_-104.819305@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447220,
-    "wof:geomhash":"efa50ffa16cb2bc23d066edcfec52866",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5a2137ac8c9110c08b77607910f1dc02",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":823817607
+        }
+    ],
     "wof:id":823817607,
-    "wof:lastmodified":1466419522,
+    "wof:lastmodified":1492126019,
     "wof:name":"Concrete Contractor Interstate",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555409,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

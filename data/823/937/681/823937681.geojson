@@ -2,9 +2,14 @@
   "id": 823937681,
   "type": "Feature",
   "properties": {
+    "addr:full":"1819 E Main St Cortez CO 81321",
+    "addr:housenumber":"1819",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.563248,37.348836,-108.563248,37.348836",
     "geom:latitude":37.348836,
     "geom:longitude":-108.563248,
@@ -28,19 +33,36 @@
         "animal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555127
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2viLETfDfBSP4kSa3UrhTO_37.348836_-108.563248@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450470,
-    "wof:geomhash":"648004fc46b9f2975f9a966e851a5144",
-    "wof:hierarchy":[],
+    "wof:geomhash":"346cb6f06bb600b71c06498280999693",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555127,
+            "region_id":85688603,
+            "venue_id":823937681
+        }
+    ],
     "wof:id":823937681,
-    "wof:lastmodified":1466420584,
+    "wof:lastmodified":1492120115,
     "wof:name":"Cedar Wood Animal Clinic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555127,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

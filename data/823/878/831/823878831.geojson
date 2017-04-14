@@ -2,9 +2,14 @@
   "id": 823878831,
   "type": "Feature",
   "properties": {
+    "addr:full":"1104 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"1104",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.807017,39.986707,-104.807017,39.986707",
     "geom:latitude":39.986707,
     "geom:longitude":-104.807017,
@@ -30,19 +35,36 @@
         "tape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1NMU4KLVJXLYj17xx58KdA_39.986707_-104.807017@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448946,
-    "wof:geomhash":"abf6801816ac424cf12b2e3ad9721b53",
-    "wof:hierarchy":[],
+    "wof:geomhash":"817fd502c7f983a496ad46c96c4d2643",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":823878831
+        }
+    ],
     "wof:id":823878831,
-    "wof:lastmodified":1466420066,
+    "wof:lastmodified":1492127870,
     "wof:name":"House Of Rentals",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

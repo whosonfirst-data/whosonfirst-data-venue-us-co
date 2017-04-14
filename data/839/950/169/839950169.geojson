@@ -2,9 +2,14 @@
   "id": 839950169,
   "type": "Feature",
   "properties": {
+    "addr:full":"12801 Washington St Denver CO 80241",
+    "addr:housenumber":"12801",
+    "addr:postcode":"80241",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97807,39.93155,-104.97807,39.93155",
     "geom:latitude":39.93155,
     "geom:longitude":-104.97807,
@@ -29,19 +34,47 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717,
+        85929351,
+        420553815
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4PfskNr9UChDP7vpM3pUki_39.931550_-104.978070@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459130,
-    "wof:geomhash":"b4c3248630cf7071f9032227695a0020",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf90231eae134af8c534b99f94e96310",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":839950169
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553815,
+            "region_id":85688603,
+            "venue_id":839950169
+        }
+    ],
     "wof:id":839950169,
-    "wof:lastmodified":1466415333,
+    "wof:lastmodified":1492113515,
     "wof:name":"Shell",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823842147,
   "type": "Feature",
   "properties": {
+    "addr:full":"226 Basher Rd Berthoud CO 80513",
+    "addr:housenumber":"226",
+    "addr:postcode":"80513",
+    "addr:street":"Basher Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.984766,40.340781,-104.984766,40.340781",
     "geom:latitude":40.340781,
     "geom:longitude":-104.984766,
@@ -27,19 +32,36 @@
         "plastic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3HZHuozOILonaRZwVDMdpk_40.340781_-104.984766@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447992,
-    "wof:geomhash":"c7e06c4f1b80372d2b0253ac810409ba",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1141450f786b40e34607384370d812d6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823842147
+        }
+    ],
     "wof:id":823842147,
-    "wof:lastmodified":1466419417,
+    "wof:lastmodified":1492118620,
     "wof:name":"Rainbow Plastics",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

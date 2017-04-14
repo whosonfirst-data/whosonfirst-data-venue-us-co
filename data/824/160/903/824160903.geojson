@@ -2,9 +2,14 @@
   "id": 824160903,
   "type": "Feature",
   "properties": {
+    "addr:full":"8803 Lakeside Ct Boulder CO 80301",
+    "addr:housenumber":"8803",
+    "addr:postcode":"80301",
+    "addr:street":"Lakeside Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.147719,40.020135,-105.147719,40.020135",
     "geom:latitude":40.020135,
     "geom:longitude":-105.147719,
@@ -28,19 +33,28 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554157
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7mcF0o01is5qPAae3z4cj8_40.020135_-105.147719@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456332,
-    "wof:geomhash":"58f21872d35edf8db28d9a55243d1337",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab3ef70345dfaaf0c1da2c9f4d83eef0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554157,
+            "venue_id":824160903
+        }
+    ],
     "wof:id":824160903,
-    "wof:lastmodified":1466417680,
+    "wof:lastmodified":1492133082,
     "wof:name":"Boulder Quantum Ventures",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554157,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

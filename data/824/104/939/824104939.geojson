@@ -2,9 +2,14 @@
   "id": 824104939,
   "type": "Feature",
   "properties": {
+    "addr:full":"4029 Co Rd 29 Fort Lupton CO 80621",
+    "addr:housenumber":"4029;29",
+    "addr:postcode":"80621",
+    "addr:street":"Co Rd;Fort Lupton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.791682,40.065504,-104.791682,40.065504",
     "geom:latitude":40.065504,
     "geom:longitude":-104.791682,
@@ -28,19 +33,28 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6aQ1Jz0fp4xqDkK4jofKGd_40.065504_-104.791682@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454444,
-    "wof:geomhash":"476672d42d10eff5f8844fc2d7c68457",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6dd0d16d76f53ede41d174b2b34050f4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":824104939
+        }
+    ],
     "wof:id":824104939,
-    "wof:lastmodified":1466415261,
+    "wof:lastmodified":1492128541,
     "wof:name":"Kimmel Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

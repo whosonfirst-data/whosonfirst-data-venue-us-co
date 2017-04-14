@@ -2,9 +2,14 @@
   "id": 823784813,
   "type": "Feature",
   "properties": {
+    "addr:full":"4840 Sterling Dr Boulder CO 80301",
+    "addr:housenumber":"4840",
+    "addr:postcode":"80301",
+    "addr:street":"Sterling Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.240749,40.027239,-105.240749,40.027239",
     "geom:latitude":40.027239,
     "geom:longitude":-105.240749,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0uF15mUrEMu6nrXin9N4Gz_40.027239_-105.240749@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446243,
-    "wof:geomhash":"0f685a1e95ae4742c74038c90efe9a28",
-    "wof:hierarchy":[],
+    "wof:geomhash":"26c1d01cf146be81d9ab6306711c754a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823784813
+        }
+    ],
     "wof:id":823784813,
-    "wof:lastmodified":1466419278,
+    "wof:lastmodified":1492124672,
     "wof:name":"Kranzberg Design Studio",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

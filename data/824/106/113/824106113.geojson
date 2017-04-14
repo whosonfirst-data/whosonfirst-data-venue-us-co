@@ -2,9 +2,14 @@
   "id": 824106113,
   "type": "Feature",
   "properties": {
+    "addr:full":"4880 E 115th Ct Denver CO 80233",
+    "addr:housenumber":"4880",
+    "addr:postcode":"80233",
+    "addr:street":"E 115Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931704,39.903292,-104.931704,39.903292",
     "geom:latitude":39.903292,
     "geom:longitude":-104.931704,
@@ -28,19 +33,36 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553691
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3fpm02bZHkQZei1DxBa1cB_39.903292_-104.931704@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454467,
-    "wof:geomhash":"a28487aa2004a365122020d387c39026",
-    "wof:hierarchy":[],
+    "wof:geomhash":"acd7ebf7625fe7331fa47ecb90cf5ac9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553691,
+            "region_id":85688603,
+            "venue_id":824106113
+        }
+    ],
     "wof:id":824106113,
-    "wof:lastmodified":1466415113,
+    "wof:lastmodified":1492132384,
     "wof:name":"Red Star Mobile Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553691,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

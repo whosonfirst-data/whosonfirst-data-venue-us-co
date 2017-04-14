@@ -2,9 +2,14 @@
   "id": 823908283,
   "type": "Feature",
   "properties": {
+    "addr:full":"2676 W 80th Pl Westminster CO 80031",
+    "addr:housenumber":"2676",
+    "addr:postcode":"80031",
+    "addr:street":"W 80Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02015,39.843632,-105.02015,39.843632",
     "geom:latitude":39.843632,
     "geom:longitude":-105.02015,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Gy9fZqq0uzZX6EwA6SNei_39.843632_-105.020150@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449682,
-    "wof:geomhash":"b21b82256bb9b01ce17bc3e6b1eed761",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a429c6325a6b2b8c4141ee8f74b9d93",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553579,
+            "region_id":85688603,
+            "venue_id":823908283
+        }
+    ],
     "wof:id":823908283,
-    "wof:lastmodified":1466420478,
+    "wof:lastmodified":1492117266,
     "wof:name":"Priority One Investments LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

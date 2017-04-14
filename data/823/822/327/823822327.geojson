@@ -2,9 +2,14 @@
   "id": 823822327,
   "type": "Feature",
   "properties": {
+    "addr:full":"4850 W 80th Ave Westminster CO 80030",
+    "addr:housenumber":"4850",
+    "addr:postcode":"80030",
+    "addr:street":"W 80Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.04882,39.841719,-105.04882,39.841719",
     "geom:latitude":39.841719,
     "geom:longitude":-105.04882,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6hNrucnge2Welk0ZDFKHvq_39.841719_-105.048820@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447363,
-    "wof:geomhash":"280733b92e1bce3c0f80ceb04e01eb8b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"955e6defa00c823257490628320d32d9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554605,
+            "region_id":85688603,
+            "venue_id":823822327
+        }
+    ],
     "wof:id":823822327,
-    "wof:lastmodified":1466419529,
+    "wof:lastmodified":1492116367,
     "wof:name":"Family Dentist  The",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

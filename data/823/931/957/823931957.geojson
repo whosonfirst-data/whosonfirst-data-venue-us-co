@@ -2,9 +2,14 @@
   "id": 823931957,
   "type": "Feature",
   "properties": {
+    "addr:full":"3783 S Hudson St Denver CO 80237",
+    "addr:housenumber":"3783",
+    "addr:postcode":"80237",
+    "addr:street":"S Hudson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.92745,39.647446,-104.92745,39.647446",
     "geom:latitude":39.647446,
     "geom:longitude":-104.92745,
@@ -24,7 +29,15 @@
     "sg:postcode":"80237",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750071,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_71q7wTBXjpqhd1HBJl5tut_39.647446_-104.927450@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463450306,
     "wof:geomhash":"ff5d800c0e35b10e233b960e6397cc59",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750071,
+            "region_id":85688603,
+            "venue_id":823931957
+        }
+    ],
     "wof:id":823931957,
-    "wof:lastmodified":1466420328,
+    "wof:lastmodified":1486593587,
     "wof:name":"Muggy LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750071,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

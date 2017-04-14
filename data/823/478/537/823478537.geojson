@@ -2,9 +2,14 @@
   "id": 823478537,
   "type": "Feature",
   "properties": {
+    "addr:full":"1495 Yarmouth Ave Boulder CO 80304",
+    "addr:housenumber":"1495",
+    "addr:postcode":"80304",
+    "addr:street":"Yarmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.278776,40.05832,-105.278776,40.05832",
     "geom:latitude":40.05832,
     "geom:longitude":-105.278776,
@@ -27,7 +32,12 @@
         "statistical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876361,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0x0Cn41xDhDBlnkkvZW9Pn_40.058320_-105.278776@1294083659"
@@ -35,11 +45,19 @@
     "wof:country":"US",
     "wof:created":1463439049,
     "wof:geomhash":"1afe82339c1b6ec25c407cb7085da607",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876361,
+            "region_id":85688603,
+            "venue_id":823478537
+        }
+    ],
     "wof:id":823478537,
-    "wof:lastmodified":1466413194,
+    "wof:lastmodified":1491924272,
     "wof:name":"Survey Research Management",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

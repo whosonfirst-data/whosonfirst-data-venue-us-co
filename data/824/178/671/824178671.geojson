@@ -2,9 +2,14 @@
   "id": 824178671,
   "type": "Feature",
   "properties": {
+    "addr:full":"5984 W 69th Ave Arvada CO 80003",
+    "addr:housenumber":"5984",
+    "addr:postcode":"80003",
+    "addr:street":"W 69Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062531,39.821775,-105.062531,39.821775",
     "geom:latitude":39.821775,
     "geom:longitude":-105.062531,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554587
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_37G4s7fMxrGlfmYGhyUBgM_39.821775_-105.062531@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457012,
-    "wof:geomhash":"c89dbde7cf395ba5443751f3de2fb61a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"058949e0090cc2111bf51f651d6a7e72",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554587,
+            "region_id":85688603,
+            "venue_id":824178671
+        }
+    ],
     "wof:id":824178671,
-    "wof:lastmodified":1466418284,
+    "wof:lastmodified":1492129309,
     "wof:name":"Koach Electric Of Colorado",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554587,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

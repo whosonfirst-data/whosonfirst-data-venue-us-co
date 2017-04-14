@@ -2,9 +2,14 @@
   "id": 823858919,
   "type": "Feature",
   "properties": {
+    "addr:full":"3000 N Elizabeth St Pueblo CO 81008",
+    "addr:housenumber":"3000",
+    "addr:postcode":"81008",
+    "addr:street":"N Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.615155,38.302002,-104.615155,38.302002",
     "geom:latitude":38.302002,
     "geom:longitude":-104.615155,
@@ -27,19 +32,36 @@
         "pawnbroker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233,
+        85817291
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3snbIGBr2UvfdsqGiomqKd_38.302002_-104.615155@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448473,
-    "wof:geomhash":"d92ef747dcd89586e29d83524a0ecd75",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28fefa68f6d56dce225f627ba3d5b234",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "neighbourhood_id":85817291,
+            "region_id":85688603,
+            "venue_id":823858919
+        }
+    ],
     "wof:id":823858919,
-    "wof:lastmodified":1466419924,
+    "wof:lastmodified":1492122269,
     "wof:name":"EZ Pawn Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85817291,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823787423,
   "type": "Feature",
   "properties": {
+    "addr:full":"13169 Umatilla Ct Denver CO 80234",
+    "addr:housenumber":"13169",
+    "addr:postcode":"80234",
+    "addr:street":"Umatilla Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.01309,39.937096,-105.01309,39.937096",
     "geom:latitude":39.937096,
     "geom:longitude":-105.01309,
@@ -27,19 +32,36 @@
         "music"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4oCaOiWAlWTTE2WCGarOi1_39.937096_-105.013090@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446328,
-    "wof:geomhash":"657171675ec47755b2f195d1b53441e3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf51d36a2b7ae25b6207cc3ac3e90892",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":823787423
+        }
+    ],
     "wof:id":823787423,
-    "wof:lastmodified":1466419268,
+    "wof:lastmodified":1492117665,
     "wof:name":"Artists Collaborative",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

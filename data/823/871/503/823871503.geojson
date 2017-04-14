@@ -2,9 +2,14 @@
   "id": 823871503,
   "type": "Feature",
   "properties": {
+    "addr:full":"8099 N 63rd St Longmont CO 80503",
+    "addr:housenumber":"8099",
+    "addr:postcode":"80503",
+    "addr:street":"N 63Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.206921,40.125816,-105.206921,40.125816",
     "geom:latitude":40.125816,
     "geom:longitude":-105.206921,
@@ -28,19 +33,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554051
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2N1EiVQUFomcBQPsLt67VL_40.125816_-105.206921@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448769,
-    "wof:geomhash":"a4ba09ab56d671df4d10e9ecfc85e44b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3decde38a987e81812ecdfe9817c0004",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554051,
+            "venue_id":823871503
+        }
+    ],
     "wof:id":823871503,
-    "wof:lastmodified":1466420090,
+    "wof:lastmodified":1492120611,
     "wof:name":"Rabbit Tail Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

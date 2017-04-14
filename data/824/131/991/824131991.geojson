@@ -2,9 +2,14 @@
   "id": 824131991,
   "type": "Feature",
   "properties": {
+    "addr:full":"15998 Co Rd 22 Dolores CO 81323",
+    "addr:housenumber":"15998;22",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.646231,37.441984,-108.646231,37.441984",
     "geom:latitude":37.441984,
     "geom:longitude":-108.646231,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555111
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3IQLzfxITm3fwE4quOphjY_37.441984_-108.646231@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455218,
-    "wof:geomhash":"10dfb32451fe6e44548db7e9116c1fa0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4d903e32291c608d1537dc403e9db35",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555111,
+            "venue_id":824131991
+        }
+    ],
     "wof:id":824131991,
-    "wof:lastmodified":1466416096,
+    "wof:lastmodified":1492130402,
     "wof:name":"Arriola Bible Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555111,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

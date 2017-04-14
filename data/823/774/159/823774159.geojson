@@ -2,9 +2,14 @@
   "id": 823774159,
   "type": "Feature",
   "properties": {
+    "addr:full":"3104 F Rd Grand Junction CO 81504",
+    "addr:housenumber":"3104",
+    "addr:postcode":"81504",
+    "addr:street":"F Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.476415,39.091851,-108.476415,39.091851",
     "geom:latitude":39.091851,
     "geom:longitude":-108.476415,
@@ -30,19 +35,36 @@
         "deck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930467,
+        102085221,
+        420554947
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1AsRV01ocs6To2eCZXcj8E_39.091851_-108.476415@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445932,
-    "wof:geomhash":"cd79859b37351ad30d01b1345ff70c35",
-    "wof:hierarchy":[],
+    "wof:geomhash":"79ce0798719dea9a88ae2e8027c4bfd2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930467,
+            "neighbourhood_id":420554947,
+            "region_id":85688603,
+            "venue_id":823774159
+        }
+    ],
     "wof:id":823774159,
-    "wof:lastmodified":1466419108,
+    "wof:lastmodified":1492124112,
     "wof:name":"S & N Pressure Wash",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554947,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823834495,
   "type": "Feature",
   "properties": {
+    "addr:full":"310 N 1st St Johnstown CO 80534",
+    "addr:housenumber":"310",
+    "addr:postcode":"80534",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.90971,40.337045,-104.90971,40.337045",
     "geom:latitude":40.337045,
     "geom:longitude":-104.90971,
@@ -28,19 +33,36 @@
         "applicator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5u3794tXZ7TOgv7lfTKsp1_40.337045_-104.909710@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447740,
-    "wof:geomhash":"c2ce11031af2dd20bbd2a49c7fff2eec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"07ff59c2a3eecb87b048a529b63bbd43",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823834495
+        }
+    ],
     "wof:id":823834495,
-    "wof:lastmodified":1466419658,
+    "wof:lastmodified":1492123307,
     "wof:name":"Ag Air Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

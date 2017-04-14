@@ -2,9 +2,14 @@
   "id": 823830043,
   "type": "Feature",
   "properties": {
+    "addr:full":"234 E River St Pueblo CO 81003",
+    "addr:housenumber":"234",
+    "addr:postcode":"81003",
+    "addr:street":"E River St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.60405,38.266919,-104.60405,38.266919",
     "geom:latitude":38.266919,
     "geom:longitude":-104.60405,
@@ -28,17 +33,32 @@
         "driving"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6sdABwcZ8fKLGiiyQG6Upj_38.266919_-104.604050@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447610,
-    "wof:geomhash":"24ca7120dac4a3cc0c51cbc9ed10a6fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"569f9801220333f322c44c4cf2b91027",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823830043
+        }
+    ],
     "wof:id":823830043,
-    "wof:lastmodified":1466419586,
+    "wof:lastmodified":1492125879,
     "wof:name":"Adult Driving Education",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

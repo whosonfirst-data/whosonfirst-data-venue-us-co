@@ -2,9 +2,14 @@
   "id": 823535251,
   "type": "Feature",
   "properties": {
+    "addr:full":"9767 Orangewood Dr Denver CO 80260",
+    "addr:housenumber":"9767",
+    "addr:postcode":"80260",
+    "addr:street":"Orangewood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.003503,39.878578,-105.003503,39.878578",
     "geom:latitude":39.878578,
     "geom:longitude":-105.003503,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6hlHtVd1OEIeGeN0323BAR_39.878578_-105.003503@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440360,
-    "wof:geomhash":"102a9e72e7e270f8b7a8581e8077f177",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f134ee59ee8a7cd49596e205b90e93a1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":823535251
+        }
+    ],
     "wof:id":823535251,
-    "wof:lastmodified":1466415164,
+    "wof:lastmodified":1492127688,
     "wof:name":"G & M Acoustics Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

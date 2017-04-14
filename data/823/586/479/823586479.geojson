@@ -2,9 +2,14 @@
   "id": 823586479,
   "type": "Feature",
   "properties": {
+    "addr:full":"1965 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"1965;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.853165,37.328547,-107.853165,37.328547",
     "geom:latitude":37.328547,
     "geom:longitude":-107.853165,
@@ -27,19 +32,28 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5uUfSpS1l8OttmQesFLMn9_37.328547_-107.853165@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441571,
-    "wof:geomhash":"09b93fb64defe8dc1bd532d06bc8650e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1ca57210a45d8e6328cb47ee70beb93e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823586479
+        }
+    ],
     "wof:id":823586479,
-    "wof:lastmodified":1466416799,
+    "wof:lastmodified":1492118485,
     "wof:name":"Canyon Consultants LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

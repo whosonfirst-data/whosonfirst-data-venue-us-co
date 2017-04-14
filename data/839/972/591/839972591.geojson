@@ -2,9 +2,14 @@
   "id": 839972591,
   "type": "Feature",
   "properties": {
+    "addr:full":"354 Co Rd 229 Durango CO 81301",
+    "addr:housenumber":"354;229",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.78703,37.234662,-107.78703,37.234662",
     "geom:latitude":37.234662,
     "geom:longitude":-107.78703,
@@ -28,19 +33,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554645
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2MRAQjkH6beltrCsYot4KC_37.234662_-107.787030@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460128,
-    "wof:geomhash":"516d94fd834efdc3eb1dba719c6be79f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0e115a664be3ec9e87c9f50d0ae68341",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554645,
+            "venue_id":839972591
+        }
+    ],
     "wof:id":839972591,
-    "wof:lastmodified":1466416488,
+    "wof:lastmodified":1492112573,
     "wof:name":"Freienmuth Farms Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554645,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

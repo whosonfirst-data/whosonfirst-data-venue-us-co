@@ -2,9 +2,14 @@
   "id": 824177495,
   "type": "Feature",
   "properties": {
+    "addr:full":"1170 Lehigh St Boulder CO 80305",
+    "addr:housenumber":"1170",
+    "addr:postcode":"80305",
+    "addr:street":"Lehigh St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260039,39.978565,-105.260039,39.978565",
     "geom:latitude":39.978565,
     "geom:longitude":-105.260039,
@@ -27,19 +32,36 @@
         "modeling"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YCiP9BzO7j91usiHorxZa_39.978565_-105.260039@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456972,
-    "wof:geomhash":"71be53a38c62c846c4a6e162b7d03601",
-    "wof:hierarchy":[],
+    "wof:geomhash":"de76ba36de736ee42599d087767a0970",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":824177495
+        }
+    ],
     "wof:id":824177495,
-    "wof:lastmodified":1466418195,
+    "wof:lastmodified":1492130000,
     "wof:name":"Alena's Modeling Edge",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

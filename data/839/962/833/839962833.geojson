@@ -2,9 +2,14 @@
   "id": 839962833,
   "type": "Feature",
   "properties": {
+    "addr:full":"2401 E 78th Ave Denver CO 80229",
+    "addr:housenumber":"2401",
+    "addr:postcode":"80229",
+    "addr:street":"E 78Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.956865,39.838171,-104.956865,39.838171",
     "geom:latitude":39.838171,
     "geom:longitude":-104.956865,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553889
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6OQTJtr1nvq38aXuE596hB_39.838171_-104.956865@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459721,
-    "wof:geomhash":"745eff39dca144fb19ded5743932d1d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"44dc348efa6fd8c3364adcdd12497392",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553889,
+            "region_id":85688603,
+            "venue_id":839962833
+        }
+    ],
     "wof:id":839962833,
-    "wof:lastmodified":1466415814,
+    "wof:lastmodified":1492112173,
     "wof:name":"Cosmi Farms LP",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553889,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

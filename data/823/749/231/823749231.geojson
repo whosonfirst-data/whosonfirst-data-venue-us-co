@@ -2,9 +2,14 @@
   "id": 823749231,
   "type": "Feature",
   "properties": {
+    "addr:full":"14620 Uinta St Brighton CO 80602",
+    "addr:housenumber":"",
+    "addr:postcode":"14620;80602",
+    "addr:street":"Uinta St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.892283,39.962564,-104.892283,39.962564",
     "geom:latitude":39.962564,
     "geom:longitude":-104.892283,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2BDGgM7mCqVgyBKegzA4MW_39.962564_-104.892283@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445365,
-    "wof:geomhash":"a5b83da601ef00a61f70f85038febd73",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91bec62549948f49bb780017221957b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553381,
+            "region_id":85688603,
+            "venue_id":823749231
+        }
+    ],
     "wof:id":823749231,
-    "wof:lastmodified":1466418957,
+    "wof:lastmodified":1492116018,
     "wof:name":"Quick Chick Racing LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

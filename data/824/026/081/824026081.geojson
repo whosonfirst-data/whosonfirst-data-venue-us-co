@@ -2,9 +2,14 @@
   "id": 824026081,
   "type": "Feature",
   "properties": {
+    "addr:full":"1441 E 96th Pl Denver CO 80229",
+    "addr:housenumber":"1441",
+    "addr:postcode":"80229",
+    "addr:street":"E 96Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.969933,39.873095,-104.969933,39.873095",
     "geom:latitude":39.873095,
     "geom:longitude":-104.969933,
@@ -27,19 +32,36 @@
         "advisory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0awwzzwJgxnBazwXJCmV54_39.873095_-104.969933@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452565,
-    "wof:geomhash":"73f8483c02e9a6daa14109e6f0cb39bd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d9909c43f0ddc6d19a64443212733960",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":824026081
+        }
+    ],
     "wof:id":824026081,
-    "wof:lastmodified":1466413662,
+    "wof:lastmodified":1492128155,
     "wof:name":"Cybex Financial Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

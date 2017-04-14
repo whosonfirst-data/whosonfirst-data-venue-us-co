@@ -2,9 +2,14 @@
   "id": 823670735,
   "type": "Feature",
   "properties": {
+    "addr:full":"3028 Tulane Dr Fort Collins CO 80525",
+    "addr:housenumber":"3028",
+    "addr:postcode":"80525",
+    "addr:street":"Tulane Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.071181,40.546359,-105.071181,40.546359",
     "geom:latitude":40.546359,
     "geom:longitude":-105.071181,
@@ -28,19 +33,36 @@
         "dancing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5PSXJTfwy00OUPEjdXsHKM_40.546359_-105.071181@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443586,
-    "wof:geomhash":"991cf619ae7fca66caac7eb24a2b5435",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1398eee6098ca74d22e97c51624109bf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":823670735
+        }
+    ],
     "wof:id":823670735,
-    "wof:lastmodified":1466418288,
+    "wof:lastmodified":1492126964,
     "wof:name":"Rocky Mountain Belly Dance Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554749,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839941647,
   "type": "Feature",
   "properties": {
+    "addr:full":"11155 E 45th Ave Denver CO 80239",
+    "addr:housenumber":"11155",
+    "addr:postcode":"80239",
+    "addr:street":"E 45Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.855763,39.778703,-104.855763,39.778703",
     "geom:latitude":39.778703,
     "geom:longitude":-104.855763,
@@ -29,7 +34,15 @@
     ],
     "sg:website":"www.thewesterngroup.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5fohynwJThYIgq7Z6xuIh9_39.778703_-104.855763@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463458630,
     "wof:geomhash":"d09b88c6bf4875d48363e52e27344d80",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":839941647
+        }
+    ],
     "wof:id":839941647,
-    "wof:lastmodified":1466414741,
+    "wof:lastmodified":1491887429,
     "wof:name":"Western Group-Colorado",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

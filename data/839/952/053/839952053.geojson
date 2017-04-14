@@ -2,9 +2,14 @@
   "id": 839952053,
   "type": "Feature",
   "properties": {
+    "addr:full":"2039 S Federal Blvd Denver CO 80219",
+    "addr:housenumber":"2039",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025126,39.679063,-105.025126,39.679063",
     "geom:latitude":39.679063,
     "geom:longitude":-105.025126,
@@ -30,7 +35,15 @@
         "tape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5NpEXUJBRGI1u9GmYl111l_39.679063_-105.025126@1294083659"
@@ -38,11 +51,22 @@
     "wof:country":"US",
     "wof:created":1463459208,
     "wof:geomhash":"ed00216a662691fce05f2080d134f9f7",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":839952053
+        }
+    ],
     "wof:id":839952053,
-    "wof:lastmodified":1466415356,
+    "wof:lastmodified":1486593727,
     "wof:name":"Krystal Music & Video 2",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

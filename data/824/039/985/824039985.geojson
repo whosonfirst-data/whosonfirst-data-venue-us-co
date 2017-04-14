@@ -2,9 +2,14 @@
   "id": 824039985,
   "type": "Feature",
   "properties": {
+    "addr:full":"3773 Wonderland Hill Ave Boulder CO 80304",
+    "addr:housenumber":"3773",
+    "addr:postcode":"80304",
+    "addr:street":"Wonderland Hill Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.286087,40.043268,-105.286087,40.043268",
     "geom:latitude":40.043268,
     "geom:longitude":-105.286087,
@@ -27,7 +32,14 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876397
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3trux9928z9FnQIuG6ZWj3_40.043268_-105.286087@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463452931,
     "wof:geomhash":"4503e6510dc4ea012d75e33d4f5db029",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876397,
+            "region_id":85688603,
+            "venue_id":824039985
+        }
+    ],
     "wof:id":824039985,
-    "wof:lastmodified":1466413888,
+    "wof:lastmodified":1491917817,
     "wof:name":"Inspex Of Boulder Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876397,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

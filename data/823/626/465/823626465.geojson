@@ -2,9 +2,14 @@
   "id": 823626465,
   "type": "Feature",
   "properties": {
+    "addr:full":"2500 S Main St Lamar CO 81052",
+    "addr:housenumber":"2500",
+    "addr:postcode":"81052",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.617709,38.070627,-102.617709,38.070627",
     "geom:latitude":38.070627,
     "geom:longitude":-102.617709,
@@ -28,17 +33,32 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928855,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7RkXoCRqDlMiEOB6IPc7xH_38.070627_-102.617709@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442542,
-    "wof:geomhash":"b13051b1e73542c79da1bee3ff20b87e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c0e9363052e3de2dc4ec4c1a4bbd472d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928855,
+            "region_id":85688603,
+            "venue_id":823626465
+        }
+    ],
     "wof:id":823626465,
-    "wof:lastmodified":1466417416,
+    "wof:lastmodified":1492125613,
     "wof:name":"Transportation Dept",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

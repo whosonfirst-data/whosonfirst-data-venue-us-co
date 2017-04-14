@@ -2,9 +2,14 @@
   "id": 839929857,
   "type": "Feature",
   "properties": {
+    "addr:full":"12599 Colorado Blvd Denver CO 80241",
+    "addr:housenumber":"12599",
+    "addr:postcode":"80241",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940402,39.923468,-104.940402,39.923468",
     "geom:latitude":39.923468,
     "geom:longitude":-104.940402,
@@ -27,19 +32,36 @@
         "veterinarian"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Mr9JLcqDKhCSJFqVtSZLq_39.923468_-104.940402@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457967,
-    "wof:geomhash":"6f5c55f08aa1e8c1442b1ea052ee5cd5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"260dc5319fefe111e83649c796599331",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":839929857
+        }
+    ],
     "wof:id":839929857,
-    "wof:lastmodified":1466414055,
+    "wof:lastmodified":1492112939,
     "wof:name":"Eastlake Veterinary Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839935303,
   "type": "Feature",
   "properties": {
+    "addr:full":"1131 21st St Grand Junction CO 81501",
+    "addr:housenumber":"1131",
+    "addr:postcode":"81501",
+    "addr:street":"21St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.540818,39.078542,-108.540818,39.078542",
     "geom:latitude":39.078542,
     "geom:longitude":-108.540818,
@@ -27,19 +32,36 @@
         "home"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_52nwGd3CLa40x2YGnQ4Os4_39.078542_-108.540818@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458248,
-    "wof:geomhash":"cf8165e51b542de64366c3d52ff15a71",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eff732690a669240b1c99a834e9d763d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554923,
+            "region_id":85688603,
+            "venue_id":839935303
+        }
+    ],
     "wof:id":839935303,
-    "wof:lastmodified":1466414297,
+    "wof:lastmodified":1492113180,
     "wof:name":"Home Care Of Grand Valley",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

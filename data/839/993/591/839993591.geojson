@@ -2,9 +2,14 @@
   "id": 839993591,
   "type": "Feature",
   "properties": {
+    "addr:full":"517 N 1st St Grand Junction CO 81501",
+    "addr:housenumber":"517",
+    "addr:postcode":"81501",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570855,39.071842,-108.570855,39.071842",
     "geom:latitude":39.071842,
     "geom:longitude":-108.570855,
@@ -30,19 +35,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554989
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_14uheICMgUdOVNhkMgjAkb_39.072192_-108.570937@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460953,
-    "wof:geomhash":"996fb0d162f813b80be86c0182db8757",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2d8ccee044762f8ff3ae2f4554877a5e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554989,
+            "region_id":85688603,
+            "venue_id":839993591
+        }
+    ],
     "wof:id":839993591,
-    "wof:lastmodified":1466417661,
+    "wof:lastmodified":1492110948,
     "wof:name":"Quiznos Sub",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554989,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

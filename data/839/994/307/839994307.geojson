@@ -2,9 +2,14 @@
   "id": 839994307,
   "type": "Feature",
   "properties": {
+    "addr:full":"1048 Pearl Street, Suite J Boulder CO 80302",
+    "addr:housenumber":"1048",
+    "addr:postcode":"80302",
+    "addr:street":"Pearl Street Suite J Boulder",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.285009,40.016847,-105.285009,40.016847",
     "geom:latitude":40.016847,
     "geom:longitude":-105.285009,
@@ -33,7 +38,15 @@
     ],
     "sg:website":"http://www.spotinfluence.com/",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876419,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0RXWbYhNrPUpdlCDfCzTK7_40.016847_-105.285009@1308186500"
@@ -41,11 +54,30 @@
     "wof:country":"US",
     "wof:created":1463461006,
     "wof:geomhash":"9cc8696b0f94bc84a4e13e5f9d8d47d2",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876419,
+            "region_id":85688603,
+            "venue_id":839994307
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":839994307
+        }
+    ],
     "wof:id":839994307,
-    "wof:lastmodified":1466417783,
+    "wof:lastmodified":1491897929,
     "wof:name":"Spot Influence",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

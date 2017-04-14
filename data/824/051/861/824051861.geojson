@@ -2,9 +2,14 @@
   "id": 824051861,
   "type": "Feature",
   "properties": {
+    "addr:full":"5570 Harlan St Arvada CO 80002",
+    "addr:housenumber":"5570",
+    "addr:postcode":"80002",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062501,39.797993,-105.062501,39.797993",
     "geom:latitude":39.797993,
     "geom:longitude":-105.062501,
@@ -28,19 +33,34 @@
         "customizing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ZR71KnMS8L44nh7nahwtW_39.797993_-105.062501@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453209,
-    "wof:geomhash":"009d82d148999d52a7580886f8f77de2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"acd200b587bfb6cebc7e9258dd667fdd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824051861
+        }
+    ],
     "wof:id":824051861,
-    "wof:lastmodified":1466414207,
+    "wof:lastmodified":1492133001,
     "wof:name":"Surface Exploration",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

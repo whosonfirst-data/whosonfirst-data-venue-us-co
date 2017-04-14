@@ -2,9 +2,14 @@
   "id": 823637193,
   "type": "Feature",
   "properties": {
+    "addr:full":"2301 Research Blvd Fort Collins CO 80526",
+    "addr:housenumber":"2301",
+    "addr:postcode":"80526",
+    "addr:street":"Research Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.085988,40.55264,-105.085988,40.55264",
     "geom:latitude":40.55264,
     "geom:longitude":-105.085988,
@@ -27,19 +32,46 @@
         "calibration"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554759,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5z4u7IzW4U9AWW1ru7YELN_40.552640_-105.085988@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442787,
-    "wof:geomhash":"f57e7626c74111ed2dcf70dcc3acbbb7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8863c46913dab1a1537b3c82ffa6eab8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554759,
+            "region_id":85688603,
+            "venue_id":823637193
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823637193
+        }
+    ],
     "wof:id":823637193,
-    "wof:lastmodified":1466417797,
+    "wof:lastmodified":1492124424,
     "wof:name":"Refmacal",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

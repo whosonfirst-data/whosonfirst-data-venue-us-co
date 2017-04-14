@@ -2,9 +2,14 @@
   "id": 823592941,
   "type": "Feature",
   "properties": {
+    "addr:full":"1007 Hickman St Eads CO 81036",
+    "addr:housenumber":"1007",
+    "addr:postcode":"81036",
+    "addr:street":"Hickman St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.778916,38.482913,-102.778916,38.482913",
     "geom:latitude":38.482913,
     "geom:longitude":-102.778916,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929059,
+        102085253
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0dJPpf0KS5KXxpYEJiIOFu_38.482913_-102.778916@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441713,
-    "wof:geomhash":"cf0fa0376da6a16f603ca58df10c58b9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"954d655003713368d5b95af07c4712c1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085253,
+            "locality_id":85929059,
+            "region_id":85688603,
+            "venue_id":823592941
+        }
+    ],
     "wof:id":823592941,
-    "wof:lastmodified":1466416994,
+    "wof:lastmodified":1492122745,
     "wof:name":"Assembly Of God Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

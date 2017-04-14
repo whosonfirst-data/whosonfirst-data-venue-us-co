@@ -2,9 +2,14 @@
   "id": 823700729,
   "type": "Feature",
   "properties": {
+    "addr:full":"10683 Co Rd 120 Hesperus CO 81326",
+    "addr:housenumber":"10683",
+    "addr:postcode":"81326",
+    "addr:street":"Co Rd 120 Hesperus",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.132495,37.198356,-108.132495,37.198356",
     "geom:latitude":37.198356,
     "geom:longitude":-108.132495,
@@ -27,19 +32,28 @@
         "stable"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3V2ujt3WPrfvkgbDPckGPs_37.198356_-108.132495@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444252,
-    "wof:geomhash":"532500bab0ac41a3bcfab2f699c2f617",
-    "wof:hierarchy":[],
+    "wof:geomhash":"06b09d591b58fd55d6b5732c16f90e53",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":823700729
+        }
+    ],
     "wof:id":823700729,
-    "wof:lastmodified":1466418558,
+    "wof:lastmodified":1492119128,
     "wof:name":"Hayes Ranches",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

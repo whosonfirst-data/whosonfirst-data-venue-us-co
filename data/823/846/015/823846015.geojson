@@ -2,9 +2,14 @@
   "id": 823846015,
   "type": "Feature",
   "properties": {
+    "addr:full":"7063 Pecos St Denver CO 80221",
+    "addr:housenumber":"7063",
+    "addr:postcode":"80221",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006308,39.824733,-105.006308,39.824733",
     "geom:latitude":39.824733,
     "geom:longitude":-105.006308,
@@ -29,19 +34,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553817
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7TZPo4AyqZRHLrV9l1o87o_39.824733_-105.006308@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448100,
-    "wof:geomhash":"d1326922b55a2a6eeb2f8b74dc5d72db",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bed361e5544c086a4897de4e71db39e0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553817,
+            "region_id":85688603,
+            "venue_id":823846015
+        }
+    ],
     "wof:id":823846015,
-    "wof:lastmodified":1466419827,
+    "wof:lastmodified":1492116418,
     "wof:name":"Cottage Care",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553817,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

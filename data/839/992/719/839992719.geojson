@@ -2,9 +2,14 @@
   "id": 839992719,
   "type": "Feature",
   "properties": {
+    "addr:full":"4965 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"4965",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025596,39.78681,-105.025596,39.78681",
     "geom:latitude":39.78681,
     "geom:longitude":-105.025596,
@@ -42,19 +47,38 @@
         "pastry"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871251,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6T0c8dmqqu4tLcjTCvHK7K_39.786247_-105.025277@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460913,
-    "wof:geomhash":"89b1a7d587a60a33a85b29f5d1c368ca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a90d6105ec54ab0144a33c96168646c9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871251,
+            "region_id":85688603,
+            "venue_id":839992719
+        }
+    ],
     "wof:id":839992719,
-    "wof:lastmodified":1466417578,
+    "wof:lastmodified":1492114455,
     "wof:name":"Winchell's Doughnut House",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

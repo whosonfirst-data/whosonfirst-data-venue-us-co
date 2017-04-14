@@ -2,9 +2,14 @@
   "id": 823884805,
   "type": "Feature",
   "properties": {
+    "addr:full":"1416 D Bar K Dr Durango CO 81301",
+    "addr:housenumber":"1416 d",
+    "addr:postcode":"co 81301",
+    "addr:street":"K Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.737276,37.25279,-107.737276,37.25279",
     "geom:latitude":37.25279,
     "geom:longitude":-107.737276,
@@ -27,19 +32,28 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2T8kQFqnlxiLTUxUeYrxaa_37.252790_-107.737276@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449076,
-    "wof:geomhash":"f856a095d17c6766b46cbad3195b32a0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8cd8e0ce2d601126e3134f550b9de7d8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823884805
+        }
+    ],
     "wof:id":823884805,
-    "wof:lastmodified":1466420071,
+    "wof:lastmodified":1492122468,
     "wof:name":"George Gething & Sons Appl Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823995085,
   "type": "Feature",
   "properties": {
+    "addr:full":"8806 Washington St Denver CO 80229",
+    "addr:housenumber":"8806",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977711,39.860125,-104.977711,39.860125",
     "geom:latitude":39.860125,
     "geom:longitude":-104.977711,
@@ -28,19 +33,36 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1PaHVMzss51KswFqbnIKnJ_39.860125_-104.977711@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451865,
-    "wof:geomhash":"06ce4508ae61aa31b1cf40f0ef836395",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e58112655773aab26dc7329b84e91cee",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823995085
+        }
+    ],
     "wof:id":823995085,
-    "wof:lastmodified":1466420994,
+    "wof:lastmodified":1492117190,
     "wof:name":"Payless Shoesource",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

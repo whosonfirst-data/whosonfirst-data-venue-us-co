@@ -2,9 +2,14 @@
   "id": 839991895,
   "type": "Feature",
   "properties": {
+    "addr:full":"2885 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2885",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.518059,39.077097,-108.518059,39.077097",
     "geom:latitude":39.077097,
     "geom:longitude":-108.518059,
@@ -29,19 +34,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3cDqtPV4ZiTR9hMzRe7IQr_39.077097_-108.518059@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460880,
-    "wof:geomhash":"b265b27b5b2fe061fdf906dd8f7f3acc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aa8ef1636c5f8596426a4496a06ffc96",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554929,
+            "region_id":85688603,
+            "venue_id":839991895
+        }
+    ],
     "wof:id":839991895,
-    "wof:lastmodified":1466417475,
+    "wof:lastmodified":1492110960,
     "wof:name":"Subway",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

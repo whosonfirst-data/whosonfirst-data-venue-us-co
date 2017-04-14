@@ -2,9 +2,14 @@
   "id": 823543025,
   "type": "Feature",
   "properties": {
+    "addr:full":"14070 Co Rd 20.7 Cortez CO 81321",
+    "addr:housenumber":"14070",
+    "addr:postcode":"81321",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.668968,37.414155,-108.668968,37.414155",
     "geom:latitude":37.414155,
     "geom:longitude":-108.668968,
@@ -29,19 +34,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555111
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_61SoJxjLriX4GxYjxLCrum_37.414155_-108.668968@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440536,
-    "wof:geomhash":"06a5e8b7cb89f97f2d9c321aae553037",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5070940c05b1b67a31ed3c25148fb89c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555111,
+            "venue_id":823543025
+        }
+    ],
     "wof:id":823543025,
-    "wof:lastmodified":1466415516,
+    "wof:lastmodified":1492118904,
     "wof:name":"Aragorn Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555111,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

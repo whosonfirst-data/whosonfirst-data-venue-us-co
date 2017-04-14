@@ -2,9 +2,14 @@
   "id": 823623203,
   "type": "Feature",
   "properties": {
+    "addr:full":"4281 Creek Dr Broomfield CO 80023",
+    "addr:housenumber":"4281",
+    "addr:postcode":"80023",
+    "addr:street":"Creek Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040994,39.945742,-105.040994,39.945742",
     "geom:latitude":39.945742,
     "geom:longitude":-105.040994,
@@ -27,19 +32,36 @@
         "windows"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554235
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_43yn0SswfefWl0vcDjrti2_39.945742_-105.040994@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442473,
-    "wof:geomhash":"ad13e6c06f6c2a7dd42b47f70a276506",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4601f1185b7d376fc272e293dcb7be71",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554235,
+            "region_id":85688603,
+            "venue_id":823623203
+        }
+    ],
     "wof:id":823623203,
-    "wof:lastmodified":1466417461,
+    "wof:lastmodified":1492117845,
     "wof:name":"Blue Ribbon Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554235,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

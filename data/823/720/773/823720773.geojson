@@ -2,9 +2,14 @@
   "id": 823720773,
   "type": "Feature",
   "properties": {
+    "addr:full":"2501 Blichman Ave Grand Junction CO 81505",
+    "addr:housenumber":"2501",
+    "addr:postcode":"81505",
+    "addr:street":"Blichman Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586738,39.096838,-108.586738,39.096838",
     "geom:latitude":39.096838,
     "geom:longitude":-108.586738,
@@ -27,19 +32,36 @@
         "food"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554863
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_52PoCxg5zphfe1NyVPpt82_39.096838_-108.586738@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444666,
-    "wof:geomhash":"dc548f4fab9b77fd19ec5158f2ab1468",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a0d504ae1514b32b941106a8d1db34ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554863,
+            "region_id":85688603,
+            "venue_id":823720773
+        }
+    ],
     "wof:id":823720773,
-    "wof:lastmodified":1466418734,
+    "wof:lastmodified":1492121943,
     "wof:name":"Town & Country Foods",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554863,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

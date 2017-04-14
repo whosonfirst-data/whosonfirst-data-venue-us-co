@@ -2,9 +2,14 @@
   "id": 823772679,
   "type": "Feature",
   "properties": {
+    "addr:full":"1400 Bluebell Ave Boulder CO 80302",
+    "addr:housenumber":"1400",
+    "addr:postcode":"80302",
+    "addr:street":"Bluebell Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275389,39.996879,-105.275389,39.996879",
     "geom:latitude":39.996879,
     "geom:longitude":-105.275389,
@@ -28,19 +33,32 @@
         "mattress"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876365,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_05E4g31DdHxqHQlHv9Zroy_39.996879_-105.275389@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445887,
-    "wof:geomhash":"d24f0318a1e84b0db85c4b832926bb18",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1b5c8e70ffdfd94f1320baf001aaa1bb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876365,
+            "region_id":85688603,
+            "venue_id":823772679
+        }
+    ],
     "wof:id":823772679,
-    "wof:lastmodified":1466419211,
+    "wof:lastmodified":1492124601,
     "wof:name":"Suite Sleep",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

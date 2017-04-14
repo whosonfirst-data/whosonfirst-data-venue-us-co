@@ -2,9 +2,14 @@
   "id": 823659949,
   "type": "Feature",
   "properties": {
+    "addr:full":"541 E 86th Ave Thornton CO 80229",
+    "addr:housenumber":"541",
+    "addr:postcode":"80229",
+    "addr:street":"E 86Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980845,39.852719,-104.980845,39.852719",
     "geom:latitude":39.852719,
     "geom:longitude":-104.980845,
@@ -29,19 +34,36 @@
         "radiator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5HUoxaglbWvrmnYi0Kslmn_39.852719_-104.980845@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443335,
-    "wof:geomhash":"8f5ece1951d4feca81d6a2942b5a4fdd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"07e2352f58a1d6be83441a4f4fd9169a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":823659949
+        }
+    ],
     "wof:id":823659949,
-    "wof:lastmodified":1466418215,
+    "wof:lastmodified":1492118375,
     "wof:name":"Gold Star Radiator North",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

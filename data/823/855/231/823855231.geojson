@@ -2,9 +2,14 @@
   "id": 823855231,
   "type": "Feature",
   "properties": {
+    "addr:full":"9585 Kalamath Cir Denver CO 80260",
+    "addr:housenumber":"9585",
+    "addr:postcode":"80260",
+    "addr:street":"Kalamath Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.000717,39.869826,-105.000717,39.869826",
     "geom:latitude":39.869826,
     "geom:longitude":-105.000717,
@@ -28,19 +33,36 @@
         "insurance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553703
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3RD4FCkG8GTmoEiTx0Jlre_39.869826_-105.000717@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448365,
-    "wof:geomhash":"ca1be9e3118daa83b8ed599fd10de7d0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a6bfb8d886bccfb09bdae7943263984e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553703,
+            "region_id":85688603,
+            "venue_id":823855231
+        }
+    ],
     "wof:id":823855231,
-    "wof:lastmodified":1466419878,
+    "wof:lastmodified":1492123023,
     "wof:name":"Erickson Claims Investigation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553703,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

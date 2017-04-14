@@ -2,9 +2,14 @@
   "id": 823915675,
   "type": "Feature",
   "properties": {
+    "addr:full":"11450 Melody Dr Denver CO 80234",
+    "addr:housenumber":"11450",
+    "addr:postcode":"80234",
+    "addr:street":"Melody Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994891,39.90519,-104.994891,39.90519",
     "geom:latitude":39.90519,
     "geom:longitude":-104.994891,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553697
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4O7K1fSrolaZTJlR0EjRyj_39.905190_-104.994891@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449894,
-    "wof:geomhash":"bfaed6196ed2f3f84e8a6ffe72412009",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4bf7e82622d51e6a59c77ade9dddb0b6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553697,
+            "region_id":85688603,
+            "venue_id":823915675
+        }
+    ],
     "wof:id":823915675,
-    "wof:lastmodified":1466420368,
+    "wof:lastmodified":1492125572,
     "wof:name":"Village At North Hills",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553697,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

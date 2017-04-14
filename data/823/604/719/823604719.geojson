@@ -2,9 +2,14 @@
   "id": 823604719,
   "type": "Feature",
   "properties": {
+    "addr:full":"7321 Birch St Commerce City CO 80022",
+    "addr:housenumber":"7321",
+    "addr:postcode":"80022",
+    "addr:street":"Birch St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.936322,39.828037,-104.936322,39.828037",
     "geom:latitude":39.828037,
     "geom:longitude":-104.936322,
@@ -31,19 +36,36 @@
         "ambulance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553889
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7YH2AOJw7xK40Y6wdCssXb_39.828037_-104.936322@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442016,
-    "wof:geomhash":"b442842229c178f112ddd73d0c7a4f2f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aeec9d93b7f97d94fb358e689b013b40",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553889,
+            "region_id":85688603,
+            "venue_id":823604719
+        }
+    ],
     "wof:id":823604719,
-    "wof:lastmodified":1466417246,
+    "wof:lastmodified":1492119003,
     "wof:name":"Adams County Communication Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553889,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

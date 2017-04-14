@@ -2,9 +2,14 @@
   "id": 823503953,
   "type": "Feature",
   "properties": {
+    "addr:full":"12154 Sunflower St Broomfield CO 80020",
+    "addr:housenumber":"12154",
+    "addr:postcode":"80020",
+    "addr:street":"Sunflower St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.036447,39.919121,-105.036447,39.919121",
     "geom:latitude":39.919121,
     "geom:longitude":-105.036447,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420553613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_73uz7U7Iv6yyB7op3GZ99x_39.919121_-105.036447@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439662,
-    "wof:geomhash":"4a969fe9798e3c782e0dd2b04b55fc9c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"12afb05117af35ce8e39f873cf861ff8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420553613,
+            "region_id":85688603,
+            "venue_id":823503953
+        }
+    ],
     "wof:id":823503953,
-    "wof:lastmodified":1466414427,
+    "wof:lastmodified":1492118921,
     "wof:name":"Chuck Wagon",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

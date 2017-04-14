@@ -2,9 +2,14 @@
   "id": 824173811,
   "type": "Feature",
   "properties": {
+    "addr:full":"1530 E 64th Ave Denver CO 80229",
+    "addr:housenumber":"1530",
+    "addr:postcode":"80229",
+    "addr:street":"E 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.968865,39.812659,-104.968865,39.812659",
     "geom:latitude":39.812659,
     "geom:longitude":-104.968865,
@@ -27,19 +32,36 @@
         "lumber"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6F5Yuey6kjKnhropPI1d9K_39.812659_-104.968865@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456833,
-    "wof:geomhash":"9cb2881c134c9f9e915eec1ceab63f41",
-    "wof:hierarchy":[],
+    "wof:geomhash":"db9cf5b8ae0090e7eb189fa633b73767",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553699,
+            "region_id":85688603,
+            "venue_id":824173811
+        }
+    ],
     "wof:id":824173811,
-    "wof:lastmodified":1466418085,
+    "wof:lastmodified":1492131510,
     "wof:name":"Colorado Forest Industries",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

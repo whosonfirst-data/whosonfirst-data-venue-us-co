@@ -2,9 +2,14 @@
   "id": 823646597,
   "type": "Feature",
   "properties": {
+    "addr:full":"4400 Argonne St Denver CO 80249",
+    "addr:housenumber":"4400",
+    "addr:postcode":"80249",
+    "addr:street":"Argonne St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.769015,39.777971,-104.769015,39.777971",
     "geom:latitude":39.777971,
     "geom:longitude":-104.769015,
@@ -27,7 +32,16 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3hBzWHiu2wiCsb90JiPrFU_39.777971_-104.769015@1294083659"
@@ -35,11 +49,23 @@
     "wof:country":"US",
     "wof:created":1463443006,
     "wof:geomhash":"08627892b68c1ab3c172aee280007510",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":823646597
+        }
+    ],
     "wof:id":823646597,
-    "wof:lastmodified":1466417954,
+    "wof:lastmodified":1486593994,
     "wof:name":"Oakwood Homes Ltd Liability Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

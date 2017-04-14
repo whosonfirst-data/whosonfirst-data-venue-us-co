@@ -2,9 +2,14 @@
   "id": 319900191,
   "type": "Feature",
   "properties": {
+    "addr:full":"14851 E Colfax Ave Aurora CO 80011",
+    "addr:housenumber":"14851",
+    "addr:postcode":"80011",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81532,39.740168,-104.81532,39.740168",
     "geom:latitude":39.740168,
     "geom:longitude":-104.81532,
@@ -58,32 +63,43 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929235,
         102086877,
-        85802959
+        85802959,
+        420553941
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_467tHlDWgPQ1PtxrzebMGu_39.740168_-104.815320@1303263079"
     },
     "wof:country":"US",
-    "wof:geomhash":"c26fbfa0c0d2b57c239242d79f851046",
+    "wof:geomhash":"9d6188a71320bab41f9713bc5fe5307c",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086877,
             "locality_id":85929235,
             "neighbourhood_id":85802959,
             "region_id":85688603,
             "venue_id":319900191
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":319900191
         }
     ],
     "wof:id":319900191,
-    "wof:lastmodified":1466412128,
+    "wof:lastmodified":1492109956,
     "wof:name":"Tune Tech Automotive",
-    "wof:parent_id":85802959,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

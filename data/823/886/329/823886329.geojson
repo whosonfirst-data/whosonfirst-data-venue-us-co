@@ -2,9 +2,14 @@
   "id": 823886329,
   "type": "Feature",
   "properties": {
+    "addr:full":"825 Main St Springfield CO 81073",
+    "addr:housenumber":"825",
+    "addr:postcode":"81073",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.616608,37.405883,-102.616608,37.405883",
     "geom:latitude":37.405883,
     "geom:longitude":-102.616608,
@@ -27,17 +32,32 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929173,
+        102085237
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5x113AXbhFLTdngiHwc7Cm_37.405883_-102.616608@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449110,
-    "wof:geomhash":"fdec0dcee3e5ea9864a4f2e22406e836",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e7739562b2f9f5bfe63cba6b2b712177",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085237,
+            "locality_id":85929173,
+            "region_id":85688603,
+            "venue_id":823886329
+        }
+    ],
     "wof:id":823886329,
-    "wof:lastmodified":1466420085,
+    "wof:lastmodified":1492125672,
     "wof:name":"Springfield Met Rec Dist",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823662245,
   "type": "Feature",
   "properties": {
+    "addr:full":"9020 Gale Blvd Denver CO 80260",
+    "addr:housenumber":"9020",
+    "addr:postcode":"80260",
+    "addr:street":"Gale Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.000419,39.863281,-105.000419,39.863281",
     "geom:latitude":39.863281,
     "geom:longitude":-105.000419,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553825
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42VbNuJfd2hIAUfNnWvT9e_39.863281_-105.000419@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443394,
-    "wof:geomhash":"3d1107e48b701949d0731d4ce43dc2b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5c1b2ba08d171b90943034e81388ece5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553825,
+            "region_id":85688603,
+            "venue_id":823662245
+        }
+    ],
     "wof:id":823662245,
-    "wof:lastmodified":1466418195,
+    "wof:lastmodified":1492123237,
     "wof:name":"Amber Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553825,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

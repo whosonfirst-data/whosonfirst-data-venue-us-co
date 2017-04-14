@@ -2,9 +2,14 @@
   "id": 823469543,
   "type": "Feature",
   "properties": {
+    "addr:full":"903 W 124th Dr Denver CO 80234",
+    "addr:housenumber":"903",
+    "addr:postcode":"80234",
+    "addr:street":"W 124Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.003225,39.924584,-105.003225,39.924584",
     "geom:latitude":39.924584,
     "geom:longitude":-105.003225,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2b4NJzJDMhIxaLhyqJ37vW_39.924584_-105.003225@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438827,
-    "wof:geomhash":"c86de00f6e7a3af31c98d4720d6ffe7e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"79fdc5f3356254bea018adc09a62f6ca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823469543
+        }
+    ],
     "wof:id":823469543,
-    "wof:lastmodified":1466412279,
+    "wof:lastmodified":1492127806,
     "wof:name":"Ridelis Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

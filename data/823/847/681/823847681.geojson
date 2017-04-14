@@ -2,9 +2,14 @@
   "id": 823847681,
   "type": "Feature",
   "properties": {
+    "addr:full":"4377 E 118th Ave Denver CO 80233",
+    "addr:housenumber":"4377",
+    "addr:postcode":"80233",
+    "addr:street":"E 118Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.935297,39.910296,-104.935297,39.910296",
     "geom:latitude":39.910296,
     "geom:longitude":-104.935297,
@@ -27,19 +32,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5WvFVL5FgMVj3Cymrg7mQv_39.910296_-104.935297@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448162,
-    "wof:geomhash":"524ac257a7885807efe0c24c8ede9ed4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9d558376ca75e33f1f2ad23ca65adee0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823847681
+        }
+    ],
     "wof:id":823847681,
-    "wof:lastmodified":1466419766,
+    "wof:lastmodified":1492124335,
     "wof:name":"Pg 13 Communications",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839937035,
   "type": "Feature",
   "properties": {
+    "addr:full":"800 Macgregor Ave Estes Park CO 80517",
+    "addr:housenumber":"800",
+    "addr:postcode":"80517",
+    "addr:street":"Macgregor Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.523783,40.386103,-105.523783,40.386103",
     "geom:latitude":40.386103,
     "geom:longitude":-105.523783,
@@ -25,19 +30,45 @@
     "sg:province":"CO",
     "sg:website":"www.blackcanyoninn.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929681,
+        102083353,
+        85805137,
+        102191575,
+        420554725
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5nHomsxdxUYyaS13PIwXhD_40.386103_-105.523783@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458339,
-    "wof:geomhash":"942afb008e11ff7cd0e7458d8719f802",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b5e83063b24a69c8cb5d63e54423d9d8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929681,
+            "neighbourhood_id":85805137,
+            "region_id":85688603,
+            "venue_id":839937035
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929681,
+            "neighbourhood_id":420554725,
+            "region_id":85688603,
+            "venue_id":839937035
+        }
+    ],
     "wof:id":839937035,
-    "wof:lastmodified":1466414511,
+    "wof:lastmodified":1492111869,
     "wof:name":"Black Canyon Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

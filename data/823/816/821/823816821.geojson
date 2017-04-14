@@ -2,9 +2,14 @@
   "id": 823816821,
   "type": "Feature",
   "properties": {
+    "addr:full":"2425 E 88th Ave Denver CO 80229",
+    "addr:housenumber":"2425",
+    "addr:postcode":"80229",
+    "addr:street":"E 88Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.958815,39.856259,-104.958815,39.856259",
     "geom:latitude":39.856259,
     "geom:longitude":-104.958815,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0gfLcR7fFs21HpeoR9803U_39.856259_-104.958815@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447203,
-    "wof:geomhash":"8567e7843b652d723979dfa206bb5a50",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b353cd63b867b0a2722eeca882cc5c89",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":823816821
+        }
+    ],
     "wof:id":823816821,
-    "wof:lastmodified":1466419535,
+    "wof:lastmodified":1492127638,
     "wof:name":"Pizza Hut",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

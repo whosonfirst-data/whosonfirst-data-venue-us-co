@@ -2,9 +2,14 @@
   "id": 823922875,
   "type": "Feature",
   "properties": {
+    "addr:full":"353 W 56th Ave Denver CO 80216",
+    "addr:housenumber":"353",
+    "addr:postcode":"80216",
+    "addr:street":"W 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.993517,39.79828,-104.993517,39.79828",
     "geom:latitude":39.79828,
     "geom:longitude":-104.993517,
@@ -27,19 +32,36 @@
         "beverage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553677
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Y68fZp7FDfWPBpa7zXoYa_39.798280_-104.993517@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450074,
-    "wof:geomhash":"1eedf76c60c864a35d5dee077a05a624",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e8f28be69047638776c43895190d6322",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553677,
+            "region_id":85688603,
+            "venue_id":823922875
+        }
+    ],
     "wof:id":823922875,
-    "wof:lastmodified":1466420501,
+    "wof:lastmodified":1492124732,
     "wof:name":"Denver Syrup & Bar Supply",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553677,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

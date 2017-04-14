@@ -2,9 +2,14 @@
   "id": 839974489,
   "type": "Feature",
   "properties": {
+    "addr:full":"2199 Montview Pkwy Durango CO 81301",
+    "addr:housenumber":"2199",
+    "addr:postcode":"co 81301",
+    "addr:street":"Montview Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.879417,37.28686,-107.879417,37.28686",
     "geom:latitude":37.28686,
     "geom:longitude":-107.879417,
@@ -32,10 +37,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
-        85928939,
+        85888419,
         102084019,
+        102191575,
+        85928939,
         85888409
     ],
     "wof:breaches":[],
@@ -44,8 +50,15 @@
     },
     "wof:country":"US",
     "wof:created":1463460194,
-    "wof:geomhash":"ca9dd0f07e5a6db4eab941a954310fa8",
+    "wof:geomhash":"e89b3c904101a6cd4102219c7f57f334",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084019,
+            "neighbourhood_id":85888419,
+            "region_id":85688603,
+            "venue_id":839974489
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -57,9 +70,9 @@
         }
     ],
     "wof:id":839974489,
-    "wof:lastmodified":1466416738,
+    "wof:lastmodified":1492110895,
     "wof:name":"Formworks Building",
-    "wof:parent_id":85888409,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

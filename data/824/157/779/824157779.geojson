@@ -2,9 +2,14 @@
   "id": 824157779,
   "type": "Feature",
   "properties": {
+    "addr:full":"12501 Clermont St Denver CO 80241",
+    "addr:housenumber":"12501",
+    "addr:postcode":"80241",
+    "addr:street":"Clermont St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.935278,39.923168,-104.935278,39.923168",
     "geom:latitude":39.923168,
     "geom:longitude":-104.935278,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0NK80cQmpp9KZyoIdtodjG_39.923168_-104.935278@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456217,
-    "wof:geomhash":"ac2f724abcfe45c9dbc2584c494b76e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7104b3ddec4e9a59d9fc2d8673951bb1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":824157779
+        }
+    ],
     "wof:id":824157779,
-    "wof:lastmodified":1466417305,
+    "wof:lastmodified":1492131184,
     "wof:name":"Mighty Movers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824045191,
   "type": "Feature",
   "properties": {
+    "addr:full":"229 Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"229",
+    "addr:postcode":"80621",
+    "addr:street":"Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81058,40.082085,-104.81058,40.082085",
     "geom:latitude":40.082085,
     "geom:longitude":-104.81058,
@@ -27,19 +32,28 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2FlBrL7DP3nKoJPzsutHjP_40.082085_-104.810580@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453043,
-    "wof:geomhash":"52eec8383dcf6f4f81381e9294482816",
-    "wof:hierarchy":[],
+    "wof:geomhash":"331dfa56b2dd39f4920df9e78545fae4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":824045191
+        }
+    ],
     "wof:id":824045191,
-    "wof:lastmodified":1466414256,
+    "wof:lastmodified":1492129564,
     "wof:name":"Fort Lupton Dental Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

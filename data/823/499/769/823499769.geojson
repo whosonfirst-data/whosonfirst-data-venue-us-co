@@ -2,9 +2,14 @@
   "id": 823499769,
   "type": "Feature",
   "properties": {
+    "addr:full":"1118 N Main St Pueblo CO 81003",
+    "addr:housenumber":"1118",
+    "addr:postcode":"81003",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.608642,38.277866,-104.608642,38.277866",
     "geom:latitude":38.277866,
     "geom:longitude":-104.608642,
@@ -28,17 +33,32 @@
         "good"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6DD9HdwqHoNq4eVcroYa19_38.277866_-104.608642@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439568,
-    "wof:geomhash":"7a18119c297e58336d7da576e9f0ebe7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b330f263ee32af973f98d022710d0615",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823499769
+        }
+    ],
     "wof:id":823499769,
-    "wof:lastmodified":1466414231,
+    "wof:lastmodified":1492123654,
     "wof:name":"General Optical Repair",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

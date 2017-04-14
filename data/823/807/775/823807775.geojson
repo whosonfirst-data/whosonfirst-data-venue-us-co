@@ -2,9 +2,14 @@
   "id": 823807775,
   "type": "Feature",
   "properties": {
+    "addr:full":"1911 Broadway St Boulder CO 80302",
+    "addr:housenumber":"1911",
+    "addr:postcode":"80302",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.279816,40.017163,-105.279816,40.017163",
     "geom:latitude":40.017163,
     "geom:longitude":-105.279816,
@@ -24,7 +29,14 @@
     "sg:postcode":"80302",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Dpr8OlhqPn2KRYXg0LDcB_40.017163_-105.279816@1294083659"
@@ -32,11 +44,21 @@
     "wof:country":"US",
     "wof:created":1463446935,
     "wof:geomhash":"0b8270e38e09957fa8b24c3564cf6f79",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823807775
+        }
+    ],
     "wof:id":823807775,
-    "wof:lastmodified":1466419477,
+    "wof:lastmodified":1491897940,
     "wof:name":"Karma Cuisine",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

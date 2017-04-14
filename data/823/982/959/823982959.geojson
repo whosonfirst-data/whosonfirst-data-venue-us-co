@@ -2,9 +2,14 @@
   "id": 823982959,
   "type": "Feature",
   "properties": {
+    "addr:full":"5393 Lincoln St Denver CO 80216",
+    "addr:housenumber":"5393",
+    "addr:postcode":"80216",
+    "addr:street":"Lincoln St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.986422,39.792946,-104.986422,39.792946",
     "geom:latitude":39.792946,
     "geom:longitude":-104.986422,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553751
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_148UADBFZVSlnyfuPpJATI_39.792946_-104.986422@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451564,
-    "wof:geomhash":"814e4e0f61fc08f8dc314ce9e22a0b97",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8f367115901310046642d32fe17fff20",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553751,
+            "region_id":85688603,
+            "venue_id":823982959
+        }
+    ],
     "wof:id":823982959,
-    "wof:lastmodified":1466420988,
+    "wof:lastmodified":1492126886,
     "wof:name":"O K Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553751,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

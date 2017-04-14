@@ -2,9 +2,14 @@
   "id": 823586633,
   "type": "Feature",
   "properties": {
+    "addr:full":"250 S Union Blvd Colorado Springs CO 80910",
+    "addr:housenumber":"250",
+    "addr:postcode":"80910",
+    "addr:street":"S Union Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.795159,38.827145,-104.795159,38.827145",
     "geom:latitude":38.827145,
     "geom:longitude":-104.795159,
@@ -27,19 +32,36 @@
         "athletic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554343
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7XFOu6shh3tVtO6tSlJaZq_38.827145_-104.795159@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441573,
-    "wof:geomhash":"2c879db5e2512c9951f93f9406752ef3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5eb40f3fa1c8c713c96ba0c7df58c4b3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554343,
+            "region_id":85688603,
+            "venue_id":823586633
+        }
+    ],
     "wof:id":823586633,
-    "wof:lastmodified":1466416901,
+    "wof:lastmodified":1492118492,
     "wof:name":"Velodrome 7-11 Olympic Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554343,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

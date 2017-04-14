@@ -2,9 +2,14 @@
   "id": 839970325,
   "type": "Feature",
   "properties": {
+    "addr:full":"4510 E 121st Pl Denver CO 80241",
+    "addr:housenumber":"4510",
+    "addr:postcode":"80241",
+    "addr:street":"E 121St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.932837,39.916402,-104.932837,39.916402",
     "geom:latitude":39.916402,
     "geom:longitude":-104.932837,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6rYy2cp7N3gHCGcHpASqgL_39.916402_-104.932837@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460026,
-    "wof:geomhash":"ecaf456e0c85ecc8fa03863158343cb6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"501b1fb50b1dd55531859c1349fd6b00",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":839970325
+        }
+    ],
     "wof:id":839970325,
-    "wof:lastmodified":1466416235,
+    "wof:lastmodified":1492110695,
     "wof:name":"Marcs Mechanical Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

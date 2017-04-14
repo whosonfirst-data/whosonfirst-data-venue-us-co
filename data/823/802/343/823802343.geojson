@@ -2,9 +2,14 @@
   "id": 823802343,
   "type": "Feature",
   "properties": {
+    "addr:full":"2525 Federal Blvd Denver CO 80211",
+    "addr:housenumber":"2525",
+    "addr:postcode":"80211",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025354,39.753756,-105.025354,39.753756",
     "geom:latitude":39.753756,
     "geom:longitude":-105.025354,
@@ -27,19 +32,38 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0pJiX5xUkKNb4HFSpMTdhF_39.753756_-105.025354@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446765,
-    "wof:geomhash":"1e02ca9f5c0768d8244d347dd841e0be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"de028a16e06349eaa0ba2a7131e647aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":823802343
+        }
+    ],
     "wof:id":823802343,
-    "wof:lastmodified":1466419400,
+    "wof:lastmodified":1492126195,
     "wof:name":"Dollar Town",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

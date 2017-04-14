@@ -2,9 +2,14 @@
   "id": 824044899,
   "type": "Feature",
   "properties": {
+    "addr:full":"6241 W Alameda Ave Denver CO 80226",
+    "addr:housenumber":"6241",
+    "addr:postcode":"80226",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.065427,39.711219,-105.065427,39.711219",
     "geom:latitude":39.711219,
     "geom:longitude":-105.065427,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7UwoTD4qIyemZd34DO2fRv_39.711219_-105.065427@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453037,
-    "wof:geomhash":"971b951c27ecfc5beafcf762246c04f8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"893b6837c47e72fd7185bd9136dfcfde",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":824044899
+        }
+    ],
     "wof:id":824044899,
-    "wof:lastmodified":1466414282,
+    "wof:lastmodified":1492131221,
     "wof:name":"Alameda Discount Liquor Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

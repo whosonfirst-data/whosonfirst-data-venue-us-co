@@ -2,9 +2,14 @@
   "id": 823748543,
   "type": "Feature",
   "properties": {
+    "addr:full":"2279 el Moro Ct Grand Junction CO 81503",
+    "addr:housenumber":"2279",
+    "addr:postcode":"81503",
+    "addr:street":"El Moro Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.630341,39.086197,-108.630341,39.086197",
     "geom:latitude":39.086197,
     "geom:longitude":-108.630341,
@@ -28,19 +33,36 @@
         "maintenance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554975
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5bSleJgRE2CuFOlLJlivGy_39.086197_-108.630341@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445339,
-    "wof:geomhash":"92bababce09ad046be8328bb78f0bed4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb84cdad0d2c651c2f3037fc4371c901",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554975,
+            "region_id":85688603,
+            "venue_id":823748543
+        }
+    ],
     "wof:id":823748543,
-    "wof:lastmodified":1466418880,
+    "wof:lastmodified":1492125077,
     "wof:name":"Hawke & Co Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554975,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

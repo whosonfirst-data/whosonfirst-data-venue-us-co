@@ -2,9 +2,14 @@
   "id": 823513883,
   "type": "Feature",
   "properties": {
+    "addr:full":"333 S Broadway Cortez CO 81321",
+    "addr:housenumber":"333",
+    "addr:postcode":"81321",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.596097,37.344901,-108.596097,37.344901",
     "geom:latitude":37.344901,
     "geom:longitude":-108.596097,
@@ -29,19 +34,36 @@
     ],
     "sg:website":"www.newcountryautocenter.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5EIgPGEUE235U3ruhctw7X_37.344901_-108.596097@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439883,
-    "wof:geomhash":"28d471afff525e22bf7b16f136e17333",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b2a7ecbc0eae4b2d928e8366e2486821",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555135,
+            "region_id":85688603,
+            "venue_id":823513883
+        }
+    ],
     "wof:id":823513883,
-    "wof:lastmodified":1466414764,
+    "wof:lastmodified":1492124344,
     "wof:name":"New Country Auto Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

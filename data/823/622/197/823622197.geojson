@@ -2,9 +2,14 @@
   "id": 823622197,
   "type": "Feature",
   "properties": {
+    "addr:full":"13836 Co Rd 28 Dolores CO 81323",
+    "addr:housenumber":"13836;28",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.526736,37.411404,-108.526736,37.411404",
     "geom:latitude":37.411404,
     "geom:longitude":-108.526736,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6L4ng6uMSthYi0k49OM26p_37.411404_-108.526736@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442455,
-    "wof:geomhash":"f1e05364dc28747c170ae25783bb7a6d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c5825de52cb62c16a36ea2dbaee9b63f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823622197
+        }
+    ],
     "wof:id":823622197,
-    "wof:lastmodified":1466417443,
+    "wof:lastmodified":1492122516,
     "wof:name":"Burr Contractors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

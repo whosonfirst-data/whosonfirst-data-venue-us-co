@@ -2,9 +2,14 @@
   "id": 824039805,
   "type": "Feature",
   "properties": {
+    "addr:full":"3200 W Mississippi Ave Denver CO 80219",
+    "addr:housenumber":"3200",
+    "addr:postcode":"80219",
+    "addr:street":"W Mississippi Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02891,39.696667,-105.02891,39.696667",
     "geom:latitude":39.696667,
     "geom:longitude":-105.02891,
@@ -29,19 +34,38 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5UWTWZ35KycbU8w8HGgED5_39.696667_-105.028910@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452927,
-    "wof:geomhash":"63630b78d943ab7c43d0e3ab41fc701f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3289c25fb066bd33ab3910f75cf9f51f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":824039805
+        }
+    ],
     "wof:id":824039805,
-    "wof:lastmodified":1466413870,
+    "wof:lastmodified":1492133166,
     "wof:name":"L A Sunshine Carpet Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

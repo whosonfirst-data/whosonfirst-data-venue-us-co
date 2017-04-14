@@ -2,9 +2,14 @@
   "id": 823499321,
   "type": "Feature",
   "properties": {
+    "addr:full":"452 Main St Walden CO 80480",
+    "addr:housenumber":"452",
+    "addr:postcode":"80480",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.282155,40.730489,-106.282155,40.730489",
     "geom:latitude":40.730489,
     "geom:longitude":-106.282155,
@@ -27,17 +32,32 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928785,
+        102085259
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1QnNBzDFWalyKRb79N3MV4_40.730489_-106.282155@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439560,
-    "wof:geomhash":"b345e8e33e3af5ff5f5fbb6892393412",
-    "wof:hierarchy":[],
+    "wof:geomhash":"469f2b082a47bf1c41a1906989667745",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085259,
+            "locality_id":85928785,
+            "region_id":85688603,
+            "venue_id":823499321
+        }
+    ],
     "wof:id":823499321,
-    "wof:lastmodified":1466414208,
+    "wof:lastmodified":1492123651,
     "wof:name":"Jackson County District Atty",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

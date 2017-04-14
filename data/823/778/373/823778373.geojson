@@ -2,9 +2,14 @@
   "id": 823778373,
   "type": "Feature",
   "properties": {
+    "addr:full":"11154 Huron St Northglenn CO 80234",
+    "addr:housenumber":"11154",
+    "addr:postcode":"80234",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.99663,39.898028,-104.99663,39.898028",
     "geom:latitude":39.898028,
     "geom:longitude":-104.99663,
@@ -35,7 +40,9 @@
         85633793,
         85929127,
         102084053,
-        85838293
+        420553697,
+        85838293,
+        420553707
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,8 +50,17 @@
     },
     "wof:country":"US",
     "wof:created":1463446046,
-    "wof:geomhash":"5c49184a443506df6fb4cd745694d896",
+    "wof:geomhash":"2beb18802ff2b06537dd3169dd939ccf",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553697,
+            "region_id":85688603,
+            "venue_id":823778373
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -53,12 +69,21 @@
             "neighbourhood_id":85838293,
             "region_id":85688603,
             "venue_id":823778373
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553707,
+            "region_id":85688603,
+            "venue_id":823778373
         }
     ],
     "wof:id":823778373,
-    "wof:lastmodified":1466419033,
+    "wof:lastmodified":1492122243,
     "wof:name":"Crossroads Counseling Assoc",
-    "wof:parent_id":85838293,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

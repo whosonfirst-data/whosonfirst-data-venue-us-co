@@ -2,9 +2,14 @@
   "id": 823493901,
   "type": "Feature",
   "properties": {
+    "addr:full":"5502 Pearl St Denver CO 80216",
+    "addr:housenumber":"5502",
+    "addr:postcode":"80216",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979277,39.79831,-104.979277,39.79831",
     "geom:latitude":39.79831,
     "geom:longitude":-104.979277,
@@ -28,19 +33,36 @@
         "industrial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6t5vpxNQIyDTNVAeDoBy6s_39.798310_-104.979277@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439396,
-    "wof:geomhash":"e70f9c5c669294d9a0f7238d50e94a69",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f1861774125977ae13c01194aa87526e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":823493901
+        }
+    ],
     "wof:id":823493901,
-    "wof:lastmodified":1466413981,
+    "wof:lastmodified":1492116542,
     "wof:name":"Diesel Service & Sales Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

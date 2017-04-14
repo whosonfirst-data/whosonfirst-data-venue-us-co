@@ -2,9 +2,14 @@
   "id": 823695523,
   "type": "Feature",
   "properties": {
+    "addr:full":"5001 Lowell Blvd Denver CO 80221",
+    "addr:housenumber":"5001",
+    "addr:postcode":"80221",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03459,39.788724,-105.03459,39.788724",
     "geom:latitude":39.788724,
     "geom:longitude":-105.03459,
@@ -27,19 +32,38 @@
         "grocer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871251,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5froahELUhmPHUSXlcalPF_39.788724_-105.034590@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444145,
-    "wof:geomhash":"b56f4ab8a77d109b9fea32f77f8d5b73",
-    "wof:hierarchy":[],
+    "wof:geomhash":"64efc0343312c94ad2f311671042a310",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871251,
+            "region_id":85688603,
+            "venue_id":823695523
+        }
+    ],
     "wof:id":823695523,
-    "wof:lastmodified":1466418498,
+    "wof:lastmodified":1492126574,
     "wof:name":"Everday",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

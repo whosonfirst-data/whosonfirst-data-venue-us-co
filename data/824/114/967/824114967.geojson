@@ -2,9 +2,14 @@
   "id": 824114967,
   "type": "Feature",
   "properties": {
+    "addr:full":"4700 E Bromley Ln Brighton CO 80601",
+    "addr:housenumber":"4700",
+    "addr:postcode":"80601",
+    "addr:street":"E Bromley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.756305,39.972401,-104.756305,39.972401",
     "geom:latitude":39.972401,
     "geom:longitude":-104.756305,
@@ -28,19 +33,46 @@
         "counsel"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553455,
+        420553361
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2balgSD0wyzT0GPkxsPqVM_39.972401_-104.756305@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454656,
-    "wof:geomhash":"a228fee5c3bba05b344cf98c016db369",
-    "wof:hierarchy":[],
+    "wof:geomhash":"258ac74256a17e47d50e0ed7cc20f448",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553455,
+            "region_id":85688603,
+            "venue_id":824114967
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553361,
+            "region_id":85688603,
+            "venue_id":824114967
+        }
+    ],
     "wof:id":824114967,
-    "wof:lastmodified":1466415530,
+    "wof:lastmodified":1492132643,
     "wof:name":"Public Defender",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

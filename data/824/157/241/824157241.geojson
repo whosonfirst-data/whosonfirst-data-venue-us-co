@@ -2,9 +2,14 @@
   "id": 824157241,
   "type": "Feature",
   "properties": {
+    "addr:full":"125 N 5th St Hayden CO 81639",
+    "addr:housenumber":"125",
+    "addr:postcode":"81639",
+    "addr:street":"N 5Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.265704,40.495422,-107.265704,40.495422",
     "geom:latitude":40.495422,
     "geom:longitude":-107.265704,
@@ -27,19 +32,28 @@
         "caterer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555315
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_14ed6bZwzADQsC3brjkHl1_40.495422_-107.265704@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456197,
-    "wof:geomhash":"0acfe7e61519dedfdd33dcf641571832",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0cdbbe250c946f95c6928fe197baff48",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555315,
+            "venue_id":824157241
+        }
+    ],
     "wof:id":824157241,
-    "wof:lastmodified":1466417135,
+    "wof:lastmodified":1492131161,
     "wof:name":"C's Catering",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

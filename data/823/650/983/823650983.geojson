@@ -2,9 +2,14 @@
   "id": 823650983,
   "type": "Feature",
   "properties": {
+    "addr:full":"12351 Grant St Thornton CO 80241",
+    "addr:housenumber":"12351",
+    "addr:postcode":"80241",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.985554,39.921283,-104.985554,39.921283",
     "geom:latitude":39.921283,
     "geom:longitude":-104.985554,
@@ -29,19 +34,36 @@
         "instruction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553693
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_27SSd0eOi7OxnB1MF4yDoo_39.921283_-104.985554@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443099,
-    "wof:geomhash":"61da31e938fc0e572646dade3bf519fd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4388f75c16214008b7e271b3fbd684e1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553693,
+            "region_id":85688603,
+            "venue_id":823650983
+        }
+    ],
     "wof:id":823650983,
-    "wof:lastmodified":1466418002,
+    "wof:lastmodified":1492126444,
     "wof:name":"Us Taekwondo Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553693,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

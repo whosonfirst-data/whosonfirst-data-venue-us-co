@@ -2,9 +2,14 @@
   "id": 823972027,
   "type": "Feature",
   "properties": {
+    "addr:full":"4845 W 81st Pl Westminster CO 80031",
+    "addr:housenumber":"4845",
+    "addr:postcode":"80031",
+    "addr:street":"W 81St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.049603,39.843963,-105.049603,39.843963",
     "geom:latitude":39.843963,
     "geom:longitude":-105.049603,
@@ -28,19 +33,36 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ozrqiFSTEMvU7SB2AZLuc_39.843963_-105.049603@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451296,
-    "wof:geomhash":"6e580806592be31016f40a82431938f5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"131e5591953f1d7859983e64ef0fa8e3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":823972027
+        }
+    ],
     "wof:id":823972027,
-    "wof:lastmodified":1466420786,
+    "wof:lastmodified":1492121919,
     "wof:name":"Axex Ryzor Software",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

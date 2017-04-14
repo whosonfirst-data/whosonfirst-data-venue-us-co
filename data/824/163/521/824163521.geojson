@@ -2,9 +2,14 @@
   "id": 824163521,
   "type": "Feature",
   "properties": {
+    "addr:full":"211 W 3rd Ave Mancos CO 81328",
+    "addr:housenumber":"211",
+    "addr:postcode":"81328",
+    "addr:street":"W 3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.292024,37.348902,-108.292024,37.348902",
     "geom:latitude":37.348902,
     "geom:longitude":-108.292024,
@@ -28,19 +33,36 @@
         "convalescent"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928921,
+        102084099,
+        420555101
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1NCMJUjq59ZMI3wsAq00NB_37.348902_-108.292024@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456432,
-    "wof:geomhash":"76ae9a329c68a457139ac8d943a3936d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"63856fdfe624475ea639509ffc6a4d7e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928921,
+            "neighbourhood_id":420555101,
+            "region_id":85688603,
+            "venue_id":824163521
+        }
+    ],
     "wof:id":824163521,
-    "wof:lastmodified":1466417772,
+    "wof:lastmodified":1492129926,
     "wof:name":"Valley Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555101,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

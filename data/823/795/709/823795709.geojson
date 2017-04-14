@@ -2,9 +2,14 @@
   "id": 823795709,
   "type": "Feature",
   "properties": {
+    "addr:full":"1594 Walnut Dr Brighton CO 80601",
+    "addr:housenumber":"1594",
+    "addr:postcode":"80601",
+    "addr:street":"Walnut Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.802134,39.98865,-104.802134,39.98865",
     "geom:latitude":39.98865,
     "geom:longitude":-104.802134,
@@ -27,19 +32,36 @@
         "skilled"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_75d67eQ5xgV58P3AAcWX9z_39.988650_-104.802134@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446593,
-    "wof:geomhash":"3c9b3c23e49a884c5af6c21ff10ad1c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8b9398e0f3a5717b479f4444459cd51f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":823795709
+        }
+    ],
     "wof:id":823795709,
-    "wof:lastmodified":1466419318,
+    "wof:lastmodified":1492120455,
     "wof:name":"Glen At Brighton",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

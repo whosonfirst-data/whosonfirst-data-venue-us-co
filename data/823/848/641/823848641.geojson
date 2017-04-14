@@ -2,9 +2,14 @@
   "id": 823848641,
   "type": "Feature",
   "properties": {
+    "addr:full":"667 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"667",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81474,39.986869,-104.81474,39.986869",
     "geom:latitude":39.986869,
     "geom:longitude":-104.81474,
@@ -28,19 +33,36 @@
         "health"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42h7WFtz37h7dFsrLcIyuq_39.986869_-104.814740@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448188,
-    "wof:geomhash":"9aa9b21da7f3bbeb19a012c41c5d7714",
-    "wof:hierarchy":[],
+    "wof:geomhash":"643294f1c0d499cb0efe9171436323f1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823848641
+        }
+    ],
     "wof:id":823848641,
-    "wof:lastmodified":1466419879,
+    "wof:lastmodified":1492127115,
     "wof:name":"Brighton Your Day Spa",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

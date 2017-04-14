@@ -2,9 +2,14 @@
   "id": 823594171,
   "type": "Feature",
   "properties": {
+    "addr:full":"1102 4th St Fort Lupton CO 80621",
+    "addr:housenumber":"1102",
+    "addr:postcode":"80621",
+    "addr:street":"4Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.806353,40.083196,-104.806353,40.083196",
     "geom:latitude":40.083196,
     "geom:longitude":-104.806353,
@@ -28,19 +33,28 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5QokfDNfPSyuVDOV9Y0epw_40.083196_-104.806353@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441744,
-    "wof:geomhash":"ea01c23bab595d69bc500406b9702a33",
-    "wof:hierarchy":[],
+    "wof:geomhash":"19a0cdfa22f6ce22de8a399feafe3ce7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823594171
+        }
+    ],
     "wof:id":823594171,
-    "wof:lastmodified":1466417275,
+    "wof:lastmodified":1492125347,
     "wof:name":"Bee Hive Ft Lupton",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

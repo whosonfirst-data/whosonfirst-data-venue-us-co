@@ -2,9 +2,14 @@
   "id": 823480671,
   "type": "Feature",
   "properties": {
+    "addr:full":"841 Orchard Ave Grand Junction CO 81501",
+    "addr:housenumber":"841",
+    "addr:postcode":"81501",
+    "addr:street":"Orchard Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.558292,39.084537,-108.558292,39.084537",
     "geom:latitude":39.084537,
     "geom:longitude":-108.558292,
@@ -28,19 +33,36 @@
         "furniture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420555005
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5siRlRIYYpIGXgDyGmF99e_39.084537_-108.558292@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439091,
-    "wof:geomhash":"29e116a57cc75f8cdffa80aca3a157a1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fa0e6c4ceeea2311b898d4754efb35c5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555005,
+            "region_id":85688603,
+            "venue_id":823480671
+        }
+    ],
     "wof:id":823480671,
-    "wof:lastmodified":1466413421,
+    "wof:lastmodified":1492127185,
     "wof:name":"Pieces Of Wood",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555005,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

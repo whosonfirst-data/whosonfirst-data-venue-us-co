@@ -2,9 +2,14 @@
   "id": 823690545,
   "type": "Feature",
   "properties": {
+    "addr:full":"2882 Texas Ave Grand Junction CO 81501",
+    "addr:housenumber":"2882",
+    "addr:postcode":"81501",
+    "addr:street":"Texas Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.518705,39.08194,-108.518705,39.08194",
     "geom:latitude":39.08194,
     "geom:longitude":-108.518705,
@@ -29,19 +34,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7RcbOin8g8oMSDm8pfXvM1_39.081940_-108.518705@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444028,
-    "wof:geomhash":"a1d081705dece92a48ad6230221047a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"17cd60eea4df1cd1bbec20a88d74c65c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554879,
+            "region_id":85688603,
+            "venue_id":823690545
+        }
+    ],
     "wof:id":823690545,
-    "wof:lastmodified":1466418502,
+    "wof:lastmodified":1492124805,
     "wof:name":"Digital Direct",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

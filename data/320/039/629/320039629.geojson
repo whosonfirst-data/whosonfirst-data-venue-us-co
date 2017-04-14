@@ -2,9 +2,14 @@
   "id": 320039629,
   "type": "Feature",
   "properties": {
+    "addr:full":"1509 Blake Street Denver CO 80202",
+    "addr:housenumber":"1509",
+    "addr:postcode":"80202",
+    "addr:street":"Blake Street",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.000329,39.749995,-105.000329,39.749995",
     "geom:latitude":39.749995,
     "geom:longitude":-105.000329,
@@ -34,11 +39,14 @@
     "sg:website":"www.fedex.com/us/office/",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108749017,
+        85871287,
+        102191575,
+        1108750057,
         85633793,
         85928879,
         102086135,
-        85888361
+        85688603
     ],
     "wof:brand_id":420574513,
     "wof:breaches":[],
@@ -49,19 +57,21 @@
     "wof:geomhash":"d3a21864434f558292f8192a69fb53df",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85888361,
+            "macrohood_id":1108750057,
+            "microhood_id":1108749017,
+            "neighbourhood_id":85871287,
             "region_id":85688603,
             "venue_id":320039629
         }
     ],
     "wof:id":320039629,
-    "wof:lastmodified":1466412401,
+    "wof:lastmodified":1486593977,
     "wof:name":"FedEx Office Print & Ship Center",
-    "wof:parent_id":85888361,
+    "wof:parent_id":1108749017,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

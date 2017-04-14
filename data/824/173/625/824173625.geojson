@@ -2,9 +2,14 @@
   "id": 824173625,
   "type": "Feature",
   "properties": {
+    "addr:full":"1429 Morgan Ct Steamboat Springs CO 80487",
+    "addr:housenumber":"1429",
+    "addr:postcode":"80487",
+    "addr:street":"Morgan Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.809043,40.450228,-106.809043,40.450228",
     "geom:latitude":40.450228,
     "geom:longitude":-106.809043,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555239
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1EzKpU493kCBchbo1Gltrc_40.450228_-106.809043@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456822,
-    "wof:geomhash":"8b1b4638dfe458f9d8d2ac7b861f23bd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5e7581b70323ad45f5acb03bd63216aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555239,
+            "region_id":85688603,
+            "venue_id":824173625
+        }
+    ],
     "wof:id":824173625,
-    "wof:lastmodified":1466418075,
+    "wof:lastmodified":1492131511,
     "wof:name":"American Heating & Sheet Metal",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555239,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

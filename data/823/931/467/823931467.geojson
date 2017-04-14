@@ -2,9 +2,14 @@
   "id": 823931467,
   "type": "Feature",
   "properties": {
+    "addr:full":"408 Primrose Rd Boulder CO 80302",
+    "addr:housenumber":"408",
+    "addr:postcode":"80302",
+    "addr:street":"Primrose Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281624,39.997184,-105.281624,39.997184",
     "geom:latitude":39.997184,
     "geom:longitude":-105.281624,
@@ -27,19 +32,32 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876365,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7gZz4Aod10tUAB9dfqCiMU_39.997184_-105.281624@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450284,
-    "wof:geomhash":"69b89058f1c3e5c46a9d55bbde196c25",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9dc8fb8700fe1efb6ebb1b12b2445738",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876365,
+            "region_id":85688603,
+            "venue_id":823931467
+        }
+    ],
     "wof:id":823931467,
-    "wof:lastmodified":1466420279,
+    "wof:lastmodified":1492119433,
     "wof:name":"Chautauqua Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

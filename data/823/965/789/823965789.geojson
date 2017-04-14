@@ -2,9 +2,14 @@
   "id": 823965789,
   "type": "Feature",
   "properties": {
+    "addr:full":"418 Rio Vista Rd Grand Junction CO 81503",
+    "addr:housenumber":"418",
+    "addr:postcode":"81503",
+    "addr:street":"Rio Vista Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.617526,39.066005,-108.617526,39.066005",
     "geom:latitude":39.066005,
     "geom:longitude":-108.617526,
@@ -28,19 +33,36 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554779
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1SqoKdYeJAMVn8R0k3rEci_39.066005_-108.617526@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451155,
-    "wof:geomhash":"1163e777fca638fe56847ccda7b819b4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ef2ee62dff631394f699dc6f7dc4fdcd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554779,
+            "region_id":85688603,
+            "venue_id":823965789
+        }
+    ],
     "wof:id":823965789,
-    "wof:lastmodified":1466420781,
+    "wof:lastmodified":1492126080,
     "wof:name":"Diversified Capital Management",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554779,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

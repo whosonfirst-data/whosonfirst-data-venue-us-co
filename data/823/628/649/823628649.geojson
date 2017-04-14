@@ -2,9 +2,14 @@
   "id": 823628649,
   "type": "Feature",
   "properties": {
+    "addr:full":"3035 Ohio Way Denver CO 80209",
+    "addr:housenumber":"3035",
+    "addr:postcode":"80209",
+    "addr:street":"Ohio Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.951911,39.702334,-104.951911,39.702334",
     "geom:latitude":39.702334,
     "geom:longitude":-104.951911,
@@ -30,7 +35,16 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108749009,
+        85871327,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0B6c6MZoYGECNJDndqIDcd_39.702334_-104.951911@1294083659"
@@ -38,11 +52,23 @@
     "wof:country":"US",
     "wof:created":1463442602,
     "wof:geomhash":"90cd472a15436943ba5c06f843e04e6e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "microhood_id":1108749009,
+            "neighbourhood_id":85871327,
+            "region_id":85688603,
+            "venue_id":823628649
+        }
+    ],
     "wof:id":823628649,
-    "wof:lastmodified":1466417710,
+    "wof:lastmodified":1486604344,
     "wof:name":"Laurie Straub Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108749009,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

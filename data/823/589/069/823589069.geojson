@@ -2,9 +2,14 @@
   "id": 823589069,
   "type": "Feature",
   "properties": {
+    "addr:full":"6317 Co Rd 240 Durango CO 81301",
+    "addr:housenumber":"6317;240",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.784396,37.311934,-107.784396,37.311934",
     "geom:latitude":37.311934,
     "geom:longitude":-107.784396,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2poJwO3IKDCG5j5oYmnrnJ_37.311934_-107.784396@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441627,
-    "wof:geomhash":"cd099bf4a2783deb15754ad39bed31b8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"33d08b5cba9d03b4d89cd0747b21db9c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554717,
+            "venue_id":823589069
+        }
+    ],
     "wof:id":823589069,
-    "wof:lastmodified":1466416749,
+    "wof:lastmodified":1492124257,
     "wof:name":"Green Acres Lawn Care",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839945181,
   "type": "Feature",
   "properties": {
+    "addr:full":"1577 Co Rd 27 Brighton CO 80603",
+    "addr:housenumber":"1577;27",
+    "addr:postcode":"80603",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.813414,40.010842,-104.813414,40.010842",
     "geom:latitude":40.010842,
     "geom:longitude":-104.813414,
@@ -29,19 +34,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5XDbUAo0I7iaM7LxiX7Lm4_40.010842_-104.813414@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458861,
-    "wof:geomhash":"6aebc7a6d8b0610804465599ff7a0941",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5445107137c7075a0b488d5da260044f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":839945181
+        }
+    ],
     "wof:id":839945181,
-    "wof:lastmodified":1466415133,
+    "wof:lastmodified":1492114042,
     "wof:name":"Highway 85 Self Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555409,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

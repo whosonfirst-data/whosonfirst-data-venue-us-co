@@ -2,9 +2,14 @@
   "id": 823554407,
   "type": "Feature",
   "properties": {
+    "addr:full":"4545 E 52nd Ave Commerce City CO 80022",
+    "addr:housenumber":"4545",
+    "addr:postcode":"80022",
+    "addr:street":"E 52Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.935826,39.791076,-104.935826,39.791076",
     "geom:latitude":39.791076,
     "geom:longitude":-104.935826,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4WIHlEdUK1viUhhGs2T9UQ_39.791076_-104.935826@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440808,
-    "wof:geomhash":"7204841dea519bc319a38eb4942b822f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"71dda91d47eebbad79060d65a7e1a396",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":823554407
+        }
+    ],
     "wof:id":823554407,
-    "wof:lastmodified":1466415892,
+    "wof:lastmodified":1492125538,
     "wof:name":"AME Fleet Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

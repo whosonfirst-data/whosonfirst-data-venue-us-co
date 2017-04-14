@@ -2,9 +2,14 @@
   "id": 839935295,
   "type": "Feature",
   "properties": {
+    "addr:full":"725 E Main St Cortez CO 81321",
+    "addr:housenumber":"725",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.574689,37.348711,-108.574689,37.348711",
     "geom:latitude":37.348711,
     "geom:longitude":-108.574689,
@@ -28,19 +33,36 @@
         "diagnostic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420559447
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Vid0b5QTFp8z8RlRTL6AQ_37.348711_-108.574689@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458242,
-    "wof:geomhash":"0160a7721ec36316c92091d92f838771",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0fa090acfefbb0eb3c2eeb0e9cd183e2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420559447,
+            "region_id":85688603,
+            "venue_id":839935295
+        }
+    ],
     "wof:id":839935295,
-    "wof:lastmodified":1466414360,
+    "wof:lastmodified":1492113211,
     "wof:name":"Cortez Auto Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559447,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

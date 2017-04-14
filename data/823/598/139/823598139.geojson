@@ -2,9 +2,14 @@
   "id": 823598139,
   "type": "Feature",
   "properties": {
+    "addr:full":"9947 Monroe Dr Denver CO 80229",
+    "addr:housenumber":"9947",
+    "addr:postcode":"80229",
+    "addr:street":"Monroe Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.944485,39.876611,-104.944485,39.876611",
     "geom:latitude":39.876611,
     "geom:longitude":-104.944485,
@@ -27,19 +32,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7g949lYZ7pcXQLGuqQAJDI_39.876611_-104.944485@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441842,
-    "wof:geomhash":"686760f4327bc6db62454c90077bb6c0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b7ad9ced382f4d27851835480880afea",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553689,
+            "region_id":85688603,
+            "venue_id":823598139
+        }
+    ],
     "wof:id":823598139,
-    "wof:lastmodified":1466417090,
+    "wof:lastmodified":1492122095,
     "wof:name":"Prolink Communications Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

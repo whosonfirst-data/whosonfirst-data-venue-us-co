@@ -2,9 +2,14 @@
   "id": 823801139,
   "type": "Feature",
   "properties": {
+    "addr:full":"113 W State St Carbondale CO 81623",
+    "addr:housenumber":"113",
+    "addr:postcode":"81623",
+    "addr:street":"W State St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.188257,39.071099,-107.188257,39.071099",
     "geom:latitude":39.071099,
     "geom:longitude":-107.188257,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929663,
+        102083377,
+        420554357
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3hvHQ9r5Eubi3rbI7ltJQa_39.071099_-107.188257@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446737,
-    "wof:geomhash":"2967c68274307378df1c1b640ee6af0a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"552960d1160af0b921e41bb110b64210",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929663,
+            "neighbourhood_id":420554357,
+            "region_id":85688603,
+            "venue_id":823801139
+        }
+    ],
     "wof:id":823801139,
-    "wof:lastmodified":1466419387,
+    "wof:lastmodified":1492123203,
     "wof:name":"Hightower Installations",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

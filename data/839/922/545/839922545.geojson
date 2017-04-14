@@ -2,9 +2,14 @@
   "id": 839922545,
   "type": "Feature",
   "properties": {
+    "addr:full":"2465 F Rd Grand Junction CO 81505",
+    "addr:housenumber":"2465",
+    "addr:postcode":"81505",
+    "addr:street":"F Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.589461,39.091899,-108.589461,39.091899",
     "geom:latitude":39.091899,
     "geom:longitude":-108.589461,
@@ -30,19 +35,45 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554791,
+        85803287
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6hPHAa48UycG51sofWfebN_39.091899_-108.589461@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457592,
-    "wof:geomhash":"3503921cb85cab6295ab89431a914c50",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4490d8bad133c2bf5de2e0c9c8c54a26",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":839922545
+        },
+        {
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":85803287,
+            "region_id":85688603,
+            "venue_id":839922545
+        }
+    ],
     "wof:id":839922545,
-    "wof:lastmodified":1466413648,
+    "wof:lastmodified":1492113340,
     "wof:name":"U S Tech",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839925631,
   "type": "Feature",
   "properties": {
+    "addr:full":"141 Co Rd 233 Durango CO 81301",
+    "addr:housenumber":"141;233",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.820083,37.228047,-107.820083,37.228047",
     "geom:latitude":37.228047,
     "geom:longitude":-107.820083,
@@ -27,19 +32,28 @@
         "furnace"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_50GXhE0Bs7ZtamR7zp3fnR_37.228047_-107.820083@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457754,
-    "wof:geomhash":"6019816e04b6ad5cfcda4a8f9849471a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a4d34b4206f99dfe8dde8f4010cd8a67",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":839925631
+        }
+    ],
     "wof:id":839925631,
-    "wof:lastmodified":1466413911,
+    "wof:lastmodified":1492114278,
     "wof:name":"Tin Bender's Four Corners Htg",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839960355,
   "type": "Feature",
   "properties": {
+    "addr:full":"2585 Central Ave Boulder CO 80301",
+    "addr:housenumber":"2585",
+    "addr:postcode":"80301",
+    "addr:street":"Central Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.218295,40.022275,-105.218295,40.022275",
     "geom:latitude":40.022275,
     "geom:longitude":-105.218295,
@@ -27,19 +32,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4gME3GMa8NfxSMPPXZytZS_40.022275_-105.218295@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459625,
-    "wof:geomhash":"7fc765a2a7b1cf585febc72a0af29833",
-    "wof:hierarchy":[],
+    "wof:geomhash":"df649b7cae5e5a0f4095c3d2bac80a3e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":839960355
+        }
+    ],
     "wof:id":839960355,
-    "wof:lastmodified":1466415566,
+    "wof:lastmodified":1492111659,
     "wof:name":"Enterprise MGT Prof Servi",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

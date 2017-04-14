@@ -2,9 +2,14 @@
   "id": 823963591,
   "type": "Feature",
   "properties": {
+    "addr:full":"130 S McKinley Ave Fort Lupton CO 80621",
+    "addr:housenumber":"130",
+    "addr:postcode":"80621",
+    "addr:street":"S Mckinley Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.812836,40.079851,-104.812836,40.079851",
     "geom:latitude":40.079851,
     "geom:longitude":-104.812836,
@@ -27,19 +32,28 @@
         "department"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1kx4EH3VxMOtwMHG3fAEau_40.079851_-104.812836@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451102,
-    "wof:geomhash":"011638766fd9e4f6cb74de96a05200d7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"83bbbe6a8cba4f18859316ec1c797eb6",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823963591
+        }
+    ],
     "wof:id":823963591,
-    "wof:lastmodified":1466420786,
+    "wof:lastmodified":1492119855,
     "wof:name":"Fort Lupton Police Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

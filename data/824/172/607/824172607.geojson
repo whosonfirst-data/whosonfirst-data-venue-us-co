@@ -2,9 +2,14 @@
   "id": 824172607,
   "type": "Feature",
   "properties": {
+    "addr:full":"343 W Drake Rd Fort Collins CO 80526",
+    "addr:housenumber":"343",
+    "addr:postcode":"80526",
+    "addr:street":"W Drake Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.080234,40.552524,-105.080234,40.552524",
     "geom:latitude":40.552524,
     "geom:longitude":-105.080234,
@@ -28,19 +33,36 @@
         "practitioner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_04QnKBZZRWg0AzX0VbuChU_40.552524_-105.080234@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456782,
-    "wof:geomhash":"d2b66e76a60aca2bfae95fd334d833ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b935ac6cba743034ad5ca269fc93ec37",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":824172607
+        }
+    ],
     "wof:id":824172607,
-    "wof:lastmodified":1466418006,
+    "wof:lastmodified":1492128283,
     "wof:name":"Bio Energetics",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

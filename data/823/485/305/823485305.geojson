@@ -2,9 +2,14 @@
   "id": 823485305,
   "type": "Feature",
   "properties": {
+    "addr:full":"2857 Bunting Ave Grand Junction CO 81501",
+    "addr:housenumber":"2857",
+    "addr:postcode":"81501",
+    "addr:street":"Bunting Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.523333,39.079534,-108.523333,39.079534",
     "geom:latitude":39.079534,
     "geom:longitude":-108.523333,
@@ -28,19 +33,36 @@
         "ecological"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2256r6ossX0WMmFEkt2YOQ_39.079534_-108.523333@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439191,
-    "wof:geomhash":"90c3c1352d33c24bd8a49f852420e3fa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d2989ba3ac0e8a8d5c914998f8ff8d9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554879,
+            "region_id":85688603,
+            "venue_id":823485305
+        }
+    ],
     "wof:id":823485305,
-    "wof:lastmodified":1466413750,
+    "wof:lastmodified":1492117228,
     "wof:name":"Soaring Eagle Interpretive Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

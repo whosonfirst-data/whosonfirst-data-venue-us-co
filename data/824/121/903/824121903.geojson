@@ -2,9 +2,14 @@
   "id": 824121903,
   "type": "Feature",
   "properties": {
+    "addr:full":"2616 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"2616",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.958241,39.913734,-104.958241,39.913734",
     "geom:latitude":39.913734,
     "geom:longitude":-104.958241,
@@ -28,19 +33,36 @@
         "vacuum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553653
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ojmdgLp5JA9h1E7ki16Q1_39.913734_-104.958241@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454799,
-    "wof:geomhash":"6f88f5dc08d03cf94b3b170f2d6c181b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"210fc98e4d14daa4a3b418688b03b341",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553653,
+            "region_id":85688603,
+            "venue_id":824121903
+        }
+    ],
     "wof:id":824121903,
-    "wof:lastmodified":1466415717,
+    "wof:lastmodified":1492131103,
     "wof:name":"Oreck Floor Care Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553653,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

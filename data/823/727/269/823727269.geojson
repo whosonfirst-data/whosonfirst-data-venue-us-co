@@ -2,9 +2,14 @@
   "id": 823727269,
   "type": "Feature",
   "properties": {
+    "addr:full":"1141 State Hwy 135 Gunnison CO 81230",
+    "addr:housenumber":"1141",
+    "addr:postcode":"81230",
+    "addr:street":"State Hwy 135",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.926996,38.560753,-106.926996,38.560753",
     "geom:latitude":38.560753,
     "geom:longitude":-106.926996,
@@ -30,19 +35,34 @@
         "gymnasium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554413,
+        420554395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7HzjpsJDgzdl8JHwYtvl9j_38.560753_-106.926996@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444831,
-    "wof:geomhash":"fc953f7f6998ffd7cc502a7a0b64627d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"30abc742456525e11d4a8a45c53dbca0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554413,
+            "venue_id":823727269
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554395,
+            "venue_id":823727269
+        }
+    ],
     "wof:id":823727269,
-    "wof:lastmodified":1466418737,
+    "wof:lastmodified":1492124755,
     "wof:name":"Temple Of The Lord Gym",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

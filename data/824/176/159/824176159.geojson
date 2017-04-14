@@ -2,9 +2,14 @@
   "id": 824176159,
   "type": "Feature",
   "properties": {
+    "addr:full":"4746 E 129th Pl Denver CO 80241",
+    "addr:housenumber":"4746",
+    "addr:postcode":"80241",
+    "addr:street":"E 129Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931838,39.932519,-104.931838,39.932519",
     "geom:latitude":39.932519,
     "geom:longitude":-104.931838,
@@ -33,19 +38,36 @@
         "publishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553903
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0tIuiugYBj94anOMwTEwJM_39.932519_-104.931838@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456920,
-    "wof:geomhash":"5bb4b762df2820c7baa2962d4aa4102c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5e1607f392490f96e394016a7804f356",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553903,
+            "region_id":85688603,
+            "venue_id":824176159
+        }
+    ],
     "wof:id":824176159,
-    "wof:lastmodified":1466417975,
+    "wof:lastmodified":1492128398,
     "wof:name":"Dakota Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553903,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823841183,
   "type": "Feature",
   "properties": {
+    "addr:full":"3833 57th St Boulder CO 80301",
+    "addr:housenumber":"3833",
+    "addr:postcode":"80301",
+    "addr:street":"57Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.22089,40.044194,-105.22089,40.044194",
     "geom:latitude":40.044194,
     "geom:longitude":-105.22089,
@@ -27,19 +32,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930751,
+        102085251,
+        420559247
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5pLff8SifeXoZRutWRsb4j_40.044194_-105.220890@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447968,
-    "wof:geomhash":"4e50ded0588202ac4bbfd13e5f3005de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b245b970edaf61951c6f8feb00b4bff4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930751,
+            "neighbourhood_id":420559247,
+            "region_id":85688603,
+            "venue_id":823841183
+        }
+    ],
     "wof:id":823841183,
-    "wof:lastmodified":1466419665,
+    "wof:lastmodified":1492121741,
     "wof:name":"Mediators Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559247,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

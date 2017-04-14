@@ -2,9 +2,14 @@
   "id": 823788671,
   "type": "Feature",
   "properties": {
+    "addr:full":"150 Lamar St Denver CO 80226",
+    "addr:housenumber":"150",
+    "addr:postcode":"80226",
+    "addr:street":"Lamar St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067366,39.72008,-105.067366,39.72008",
     "geom:latitude":39.72008,
     "geom:longitude":-105.067366,
@@ -27,19 +32,36 @@
         "parks"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2wxEwbDmxg7ccWQuzfT0pf_39.720080_-105.067366@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446386,
-    "wof:geomhash":"40fcf425f101e690edd65b09ddfc4b71",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c9732e3824a4b80113eaa91ebb58fd9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823788671
+        }
+    ],
     "wof:id":823788671,
-    "wof:lastmodified":1466419290,
+    "wof:lastmodified":1492117574,
     "wof:name":"Broomfield Skate Park",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

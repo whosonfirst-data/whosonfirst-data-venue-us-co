@@ -2,9 +2,14 @@
   "id": 824175881,
   "type": "Feature",
   "properties": {
+    "addr:full":"3247 E Rd Clifton CO 81520",
+    "addr:housenumber":"3247",
+    "addr:postcode":"81520",
+    "addr:street":"E Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.453393,39.077214,-108.453393,39.077214",
     "geom:latitude":39.077214,
     "geom:longitude":-108.453393,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1hvp69ZAGGJQ0gBg5wS1nW_39.077214_-108.453393@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456909,
-    "wof:geomhash":"81669911ab5ed7567858af20ee6ac68e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aa1975aede36bc7ed12594f768875695",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":824175881
+        }
+    ],
     "wof:id":824175881,
-    "wof:lastmodified":1466417932,
+    "wof:lastmodified":1492130941,
     "wof:name":"Caseys Custom Welding",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

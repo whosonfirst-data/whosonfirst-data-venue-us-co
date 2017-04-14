@@ -2,9 +2,14 @@
   "id": 823912593,
   "type": "Feature",
   "properties": {
+    "addr:full":"12760 Forest St Denver CO 80241",
+    "addr:housenumber":"12760",
+    "addr:postcode":"80241",
+    "addr:street":"Forest St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927139,39.926789,-104.927139,39.926789",
     "geom:latitude":39.926789,
     "geom:longitude":-104.927139,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553661
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4naR06JenzfFpH5pjIkEsE_39.926789_-104.927139@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449822,
-    "wof:geomhash":"cf6e58a4a0a69e7f9add08d9408b621e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8386a7c3ff2875ae978122073e0f4051",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553661,
+            "region_id":85688603,
+            "venue_id":823912593
+        }
+    ],
     "wof:id":823912593,
-    "wof:lastmodified":1466420337,
+    "wof:lastmodified":1492117124,
     "wof:name":"Freedom Builders Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553661,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823855013,
   "type": "Feature",
   "properties": {
+    "addr:full":"11645 E 37th Ave Denver CO 80239",
+    "addr:housenumber":"11645",
+    "addr:postcode":"80239",
+    "addr:street":"E 37Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.852237,39.768454,-104.852237,39.768454",
     "geom:latitude":39.768454,
     "geom:longitude":-104.852237,
@@ -27,19 +32,38 @@
         "transportation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871347,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6OUw46q0fCsIqSw0Q1yegm_39.768454_-104.852237@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448359,
-    "wof:geomhash":"a8531194856d490e1a1dd8c4b3d1ed34",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1c66ffc821e4039fbc80e115ee9a202a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85871347,
+            "region_id":85688603,
+            "venue_id":823855013
+        }
+    ],
     "wof:id":823855013,
-    "wof:lastmodified":1466419869,
+    "wof:lastmodified":1492123015,
     "wof:name":"Ttd Dnver Frito Lay Shipg Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871347,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

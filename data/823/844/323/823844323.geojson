@@ -2,9 +2,14 @@
   "id": 823844323,
   "type": "Feature",
   "properties": {
+    "addr:full":"421 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"421",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.993069,39.849143,-104.993069,39.849143",
     "geom:latitude":39.849143,
     "geom:longitude":-104.993069,
@@ -32,19 +37,36 @@
         "lubrication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553865
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2HB4K5lVY67iti47EunvOM_39.849143_-104.993069@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448061,
-    "wof:geomhash":"cb28e3cb0130652a05ed7569c293d53e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5a168a2f96ce5e110dc0f7d72d80170c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553865,
+            "region_id":85688603,
+            "venue_id":823844323
+        }
+    ],
     "wof:id":823844323,
-    "wof:lastmodified":1466419815,
+    "wof:lastmodified":1492118140,
     "wof:name":"Econo Lube N Tune",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553865,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

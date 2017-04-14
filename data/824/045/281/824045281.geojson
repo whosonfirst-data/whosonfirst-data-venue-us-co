@@ -2,9 +2,14 @@
   "id": 824045281,
   "type": "Feature",
   "properties": {
+    "addr:full":"533 Co Rd 200 Durango CO 81301",
+    "addr:housenumber":"533;200",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.805429,37.490555,-107.805429,37.490555",
     "geom:latitude":37.490555,
     "geom:longitude":-107.805429,
@@ -27,19 +32,28 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554705
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2k6d38J9nxojALclcrEKUA_37.490555_-107.805429@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453045,
-    "wof:geomhash":"ee2e6d41d5fe43c59c85744be1420fe3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a79fc7c695d9496dc061f205c338d68",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554705,
+            "venue_id":824045281
+        }
+    ],
     "wof:id":824045281,
-    "wof:lastmodified":1466414260,
+    "wof:lastmodified":1492129561,
     "wof:name":"LA Plata Electric Assn Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554705,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824156611,
   "type": "Feature",
   "properties": {
+    "addr:full":"14585 Brighton Rd Brighton CO 80601",
+    "addr:housenumber":"14585",
+    "addr:postcode":"80601",
+    "addr:street":"Brighton Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.836039,39.961538,-104.836039,39.961538",
     "geom:latitude":39.961538,
     "geom:longitude":-104.836039,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6FYuLL37wwzQqolQ76Lvdb_39.961538_-104.836039@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456173,
-    "wof:geomhash":"ece5a22d56ce31569001cf5ef51c0cb8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bdfb06d7f3003941bce2e0e3d1ea8b8f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553375,
+            "region_id":85688603,
+            "venue_id":824156611
+        }
+    ],
     "wof:id":824156611,
-    "wof:lastmodified":1466417162,
+    "wof:lastmodified":1492130569,
     "wof:name":"Ready Mix Agrigates",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

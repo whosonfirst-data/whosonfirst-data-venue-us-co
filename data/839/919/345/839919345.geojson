@@ -2,9 +2,14 @@
   "id": 839919345,
   "type": "Feature",
   "properties": {
+    "addr:full":"4166 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"4166;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.854695,37.359457,-107.854695,37.359457",
     "geom:latitude":37.359457,
     "geom:longitude":-107.854695,
@@ -28,19 +33,28 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5FDArqPW8xDr1P06g0Vi1X_37.359457_-107.854695@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457465,
-    "wof:geomhash":"2ac24c864683eb77b360c71ce7596d23",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3328d7e6323deae66e91067b54e5bc3e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":839919345
+        }
+    ],
     "wof:id":839919345,
-    "wof:lastmodified":1466413605,
+    "wof:lastmodified":1492111233,
     "wof:name":"Marketing Results",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

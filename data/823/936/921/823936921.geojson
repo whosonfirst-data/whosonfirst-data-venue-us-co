@@ -2,9 +2,14 @@
   "id": 823936921,
   "type": "Feature",
   "properties": {
+    "addr:full":"12227 Krameria St Brighton CO 80602",
+    "addr:housenumber":"12227",
+    "addr:postcode":"80602",
+    "addr:street":"Krameria St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.916328,39.917802,-104.916328,39.917802",
     "geom:latitude":39.917802,
     "geom:longitude":-104.916328,
@@ -27,19 +32,36 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6GXwYbqsBtjtPIoX76y0j2_39.917802_-104.916328@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450454,
-    "wof:geomhash":"8398a21be019945c9eeae679d63cda2d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d2b4a4b81c8beb5467591080b6bf286b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":823936921
+        }
+    ],
     "wof:id":823936921,
-    "wof:lastmodified":1466420598,
+    "wof:lastmodified":1492117079,
     "wof:name":"Beneficial Home Inspections",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

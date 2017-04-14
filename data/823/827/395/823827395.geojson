@@ -2,9 +2,14 @@
   "id": 823827395,
   "type": "Feature",
   "properties": {
+    "addr:full":"2536 W 108th Pl Denver CO 80234",
+    "addr:housenumber":"2536",
+    "addr:postcode":"80234",
+    "addr:street":"W 108Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.017494,39.894988,-105.017494,39.894988",
     "geom:latitude":39.894988,
     "geom:longitude":-105.017494,
@@ -31,19 +36,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553639
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2OFWkmbYE5CYhhO1fLnElZ_39.894988_-105.017494@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447536,
-    "wof:geomhash":"8e369f325fb4e449e128074eacd2fe92",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1c91ce46bcf5cfcc4cbd2dae63aecb27",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553639,
+            "region_id":85688603,
+            "venue_id":823827395
+        }
+    ],
     "wof:id":823827395,
-    "wof:lastmodified":1466419590,
+    "wof:lastmodified":1492126723,
     "wof:name":"Professnal Fire Protection Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

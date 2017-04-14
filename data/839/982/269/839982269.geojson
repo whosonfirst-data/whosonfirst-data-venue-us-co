@@ -2,9 +2,14 @@
   "id": 839982269,
   "type": "Feature",
   "properties": {
+    "addr:full":"2600 W Alameda Ave Denver CO 80219",
+    "addr:housenumber":"2600",
+    "addr:postcode":"80219",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018395,39.710844,-105.018395,39.710844",
     "geom:latitude":39.710844,
     "geom:longitude":-105.018395,
@@ -28,7 +33,15 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554317,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DmeLPHeMEuKlprLRtsRMU_39.711172_-105.019160@1293134755"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463460513,
     "wof:geomhash":"4ca2aa94735c3d05d0d71a4317d3bdbb",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554317,
+            "region_id":85688603,
+            "venue_id":839982269
+        }
+    ],
     "wof:id":839982269,
-    "wof:lastmodified":1466416894,
+    "wof:lastmodified":1491876189,
     "wof:name":"Los DOS Toros",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

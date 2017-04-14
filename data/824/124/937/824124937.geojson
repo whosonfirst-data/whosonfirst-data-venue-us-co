@@ -2,9 +2,14 @@
   "id": 824124937,
   "type": "Feature",
   "properties": {
+    "addr:full":"10577 W Robb Dr Broomfield CO 80021",
+    "addr:housenumber":"10577",
+    "addr:postcode":"80021",
+    "addr:street":"W Robb Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.125451,39.887629,-105.125451,39.887629",
     "geom:latitude":39.887629,
     "geom:longitude":-105.125451,
@@ -27,19 +32,36 @@
         "sales"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6n0KcLb9l5gqo2zutgZ3gE_39.887629_-105.125451@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454932,
-    "wof:geomhash":"223201ea540bd5a5624168708a691f70",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7ce8d6349105e346bc8a0a8139207b3d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":824124937
+        }
+    ],
     "wof:id":824124937,
-    "wof:lastmodified":1466415784,
+    "wof:lastmodified":1492130821,
     "wof:name":"Purple Mountain Realty",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

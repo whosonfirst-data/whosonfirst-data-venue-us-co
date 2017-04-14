@@ -2,9 +2,14 @@
   "id": 839983175,
   "type": "Feature",
   "properties": {
+    "addr:full":"311 W 56th Ave Denver CO 80216",
+    "addr:housenumber":"311",
+    "addr:postcode":"80216",
+    "addr:street":"W 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.993256,39.798279,-104.993256,39.798279",
     "geom:latitude":39.798279,
     "geom:longitude":-104.993256,
@@ -28,19 +33,36 @@
         "carpeting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553677
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4gHzDJCGdDMD6GBMk1fBZG_39.798271_-104.993552@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460550,
-    "wof:geomhash":"aad77e7d822d120a0a16bdad3d424e0a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f4291883e3e5e90ceb6cce27dcddf9e6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553677,
+            "region_id":85688603,
+            "venue_id":839983175
+        }
+    ],
     "wof:id":839983175,
-    "wof:lastmodified":1466416969,
+    "wof:lastmodified":1492110643,
     "wof:name":"Century Carpet Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553677,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

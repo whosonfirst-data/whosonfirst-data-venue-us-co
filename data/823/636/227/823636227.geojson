@@ -2,9 +2,14 @@
   "id": 823636227,
   "type": "Feature",
   "properties": {
+    "addr:full":"700 Co Rd 305 Durango CO 81301",
+    "addr:housenumber":"700;305",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.804391,37.162221,-107.804391,37.162221",
     "geom:latitude":37.162221,
     "geom:longitude":-107.804391,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42oKg2ShAaPp1IRVST7dno_37.162221_-107.804391@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442767,
-    "wof:geomhash":"66433be6afe2d7208bc07e6e2b575cee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c577a909356e5895e82831fe84f58ca2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554633,
+            "venue_id":823636227
+        }
+    ],
     "wof:id":823636227,
-    "wof:lastmodified":1466417749,
+    "wof:lastmodified":1492126895,
     "wof:name":"Four Corners Materials",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

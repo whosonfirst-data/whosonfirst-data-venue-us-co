@@ -2,9 +2,14 @@
   "id": 839991899,
   "type": "Feature",
   "properties": {
+    "addr:full":"2301 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2301",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.538141,39.077137,-108.538141,39.077137",
     "geom:latitude":39.077137,
     "geom:longitude":-108.538141,
@@ -29,19 +34,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2UBC1A00C69duwQsFaDXCi_39.077137_-108.538141@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460880,
-    "wof:geomhash":"f9b0f2bf529607738efe450167aacf95",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91539050b5cb5865160a74aeaf658edb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":839991899
+        }
+    ],
     "wof:id":839991899,
-    "wof:lastmodified":1466417475,
+    "wof:lastmodified":1492110959,
     "wof:name":"Good Times Burgers & Frozen Custard",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

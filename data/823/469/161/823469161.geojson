@@ -2,9 +2,14 @@
   "id": 823469161,
   "type": "Feature",
   "properties": {
+    "addr:full":"6603 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"6603",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025358,39.816961,-105.025358,39.816961",
     "geom:latitude":39.816961,
     "geom:longitude":-105.025358,
@@ -29,19 +34,36 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5WmNTafAiGBan3Oua98aHd_39.816961_-105.025358@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438818,
-    "wof:geomhash":"196387732c726b44bd54b326774d248e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4f27e80f5ee85d35b9266f8c9d40be0e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553739,
+            "region_id":85688603,
+            "venue_id":823469161
+        }
+    ],
     "wof:id":823469161,
-    "wof:lastmodified":1466412228,
+    "wof:lastmodified":1492127812,
     "wof:name":"T & L Autobody",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

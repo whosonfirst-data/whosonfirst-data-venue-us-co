@@ -2,9 +2,14 @@
   "id": 823996171,
   "type": "Feature",
   "properties": {
+    "addr:full":"495 Wadsworth Blvd Denver CO 80226",
+    "addr:housenumber":"495",
+    "addr:postcode":"80226",
+    "addr:street":"Wadsworth Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.08158,39.722224,-105.08158,39.722224",
     "geom:latitude":39.722224,
     "geom:longitude":-105.08158,
@@ -33,19 +38,36 @@
         "station"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4N2Ck5tM6P9S21YGd9PdUU_39.722224_-105.081580@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451893,
-    "wof:geomhash":"f8a9068ad0c80445a4e72505a1f12421",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ad60393edca4c917954428688ad0b206",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823996171
+        }
+    ],
     "wof:id":823996171,
-    "wof:lastmodified":1466421074,
+    "wof:lastmodified":1492117464,
     "wof:name":"Circle S Mini Mart",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

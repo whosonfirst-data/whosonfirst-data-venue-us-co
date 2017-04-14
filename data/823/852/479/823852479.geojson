@@ -2,9 +2,14 @@
   "id": 823852479,
   "type": "Feature",
   "properties": {
+    "addr:full":"159 Co Rd 205 Durango CO 81301",
+    "addr:housenumber":"159;205",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.896075,37.324598,-107.896075,37.324598",
     "geom:latitude":37.324598,
     "geom:longitude":-107.896075,
@@ -27,19 +32,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0TGGAVOJYQ9B3IIrDdAXbO_37.324598_-107.896075@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448290,
-    "wof:geomhash":"373ebf5cca5af5a5b7845f3e85699034",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dcb88c0e6dd13a2300bcf34c39e310ce",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554657,
+            "venue_id":823852479
+        }
+    ],
     "wof:id":823852479,
-    "wof:lastmodified":1466419887,
+    "wof:lastmodified":1492126665,
     "wof:name":"Seibel Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554657,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823719673,
   "type": "Feature",
   "properties": {
+    "addr:full":"10789 Irma Dr Northglenn CO 80233",
+    "addr:housenumber":"10789",
+    "addr:postcode":"80233",
+    "addr:street":"Irma Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.965137,39.89081,-104.965137,39.89081",
     "geom:latitude":39.89081,
     "geom:longitude":-104.965137,
@@ -27,19 +32,36 @@
         "brake"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5neZiGKZQT8Cpa6WioAfV4_39.890810_-104.965137@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444638,
-    "wof:geomhash":"2d473bf83d5243b38b51abace06fc88f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d88948464692e095fe6e195057b64cfa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553741,
+            "region_id":85688603,
+            "venue_id":823719673
+        }
+    ],
     "wof:id":823719673,
-    "wof:lastmodified":1466418720,
+    "wof:lastmodified":1492126052,
     "wof:name":"L & S Auto Svc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

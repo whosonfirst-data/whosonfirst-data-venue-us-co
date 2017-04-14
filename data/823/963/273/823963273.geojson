@@ -2,9 +2,14 @@
   "id": 823963273,
   "type": "Feature",
   "properties": {
+    "addr:full":"2202 Main St Austin CO 81427",
+    "addr:housenumber":"2202",
+    "addr:postcode":"81427",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.679412,38.039534,-107.679412,38.039534",
     "geom:latitude":38.039534,
     "geom:longitude":-107.679412,
@@ -27,17 +32,32 @@
         "cafe"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929649,
+        102085219
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2cqN7jScCFyCNj7EpPWC9t_38.039534_-107.679412@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451097,
-    "wof:geomhash":"3bd23551c2568dfece34c3111ef66086",
-    "wof:hierarchy":[],
+    "wof:geomhash":"047e2c29790bb5914638d166eee3907f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085219,
+            "locality_id":85929649,
+            "region_id":85688603,
+            "venue_id":823963273
+        }
+    ],
     "wof:id":823963273,
-    "wof:lastmodified":1466420769,
+    "wof:lastmodified":1492119846,
     "wof:name":"Faye's Cafe & Lounge",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

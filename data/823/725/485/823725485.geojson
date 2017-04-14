@@ -2,9 +2,14 @@
   "id": 823725485,
   "type": "Feature",
   "properties": {
+    "addr:full":"1611 S Galena St Denver CO 80247",
+    "addr:housenumber":"1611",
+    "addr:postcode":"80247",
+    "addr:street":"S Galena St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.869269,39.686005,-104.869269,39.686005",
     "geom:latitude":39.686005,
     "geom:longitude":-104.869269,
@@ -27,17 +32,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5dC2mFh7E4TEpO8wjXaghN_39.686005_-104.869269@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444796,
-    "wof:geomhash":"a0715a8680f5618398d01c9cfbeafed8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3e9bf5a79e36f2697610849469c9e7ab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823725485
+        }
+    ],
     "wof:id":823725485,
-    "wof:lastmodified":1466418758,
+    "wof:lastmodified":1492121830,
     "wof:name":"Buckingham Station",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

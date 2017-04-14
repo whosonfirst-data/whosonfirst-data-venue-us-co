@@ -2,9 +2,14 @@
   "id": 823477935,
   "type": "Feature",
   "properties": {
+    "addr:full":"4820 Granby Way Denver CO 80239",
+    "addr:housenumber":"4820",
+    "addr:postcode":"80239",
+    "addr:street":"Granby Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810595,39.779356,-104.810595,39.779356",
     "geom:latitude":39.779356,
     "geom:longitude":-104.810595,
@@ -24,7 +29,15 @@
     "sg:postcode":"80239",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4wAkmJWMaCqMXscT64061i_39.779356_-104.810595@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463439037,
     "wof:geomhash":"7e8fae5a87f02206d6f058beac6c06a1",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823477935
+        }
+    ],
     "wof:id":823477935,
-    "wof:lastmodified":1466413130,
+    "wof:lastmodified":1491887419,
     "wof:name":"Brewers Best Brush",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

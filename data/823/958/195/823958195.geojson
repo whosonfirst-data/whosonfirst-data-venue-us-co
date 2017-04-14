@@ -2,9 +2,14 @@
   "id": 823958195,
   "type": "Feature",
   "properties": {
+    "addr:full":"301 S 4th Ave Brighton CO 80601",
+    "addr:housenumber":"301",
+    "addr:postcode":"80601",
+    "addr:street":"S 4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.818116,39.980536,-104.818116,39.980536",
     "geom:latitude":39.980536,
     "geom:longitude":-104.818116,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0XYltnTQnL7hQuJ2J8qZAA_39.980536_-104.818116@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450979,
-    "wof:geomhash":"551742c12df6b12b4e2ffaa268be3e22",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ea40fc6411ecf3ad564e99efabb1fec6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823958195
+        }
+    ],
     "wof:id":823958195,
-    "wof:lastmodified":1466420735,
+    "wof:lastmodified":1492124240,
     "wof:name":"Good News Fellowship-Brighton",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

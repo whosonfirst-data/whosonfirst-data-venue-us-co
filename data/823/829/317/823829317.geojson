@@ -2,9 +2,14 @@
   "id": 823829317,
   "type": "Feature",
   "properties": {
+    "addr:full":"23201 Rd T Dolores CO 81323",
+    "addr:housenumber":"23201",
+    "addr:postcode":"81323",
+    "addr:street":"Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.625705,37.4572,-108.625705,37.4572",
     "geom:latitude":37.4572,
     "geom:longitude":-108.625705,
@@ -28,19 +33,28 @@
         "pilot"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555049
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Dji3GgdjgpiYvy9fr7DXt_37.457200_-108.625705@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447587,
-    "wof:geomhash":"639e4f9041ec5fdb8d6a420701f41e8e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7c679ef192157b9bfcc87cb3196117cf",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555049,
+            "venue_id":823829317
+        }
+    ],
     "wof:id":823829317,
-    "wof:lastmodified":1466419595,
+    "wof:lastmodified":1492120086,
     "wof:name":"AAAA Blair Pilot Cars Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555049,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

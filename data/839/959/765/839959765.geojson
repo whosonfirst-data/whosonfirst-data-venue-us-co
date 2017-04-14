@@ -2,9 +2,14 @@
   "id": 839959765,
   "type": "Feature",
   "properties": {
+    "addr:full":"5240 Grove St Denver CO 80221",
+    "addr:housenumber":"5240",
+    "addr:postcode":"80221",
+    "addr:street":"Grove St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.027832,39.792084,-105.027832,39.792084",
     "geom:latitude":39.792084,
     "geom:longitude":-105.027832,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5o39IFfvVqBoYqZQfF9C6R_39.792084_-105.027832@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459604,
-    "wof:geomhash":"3d7394aa0dbc0a2c0d8ce2eca6d0a22b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8c5c68907c3ea52e95bf69e83452f900",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553615,
+            "region_id":85688603,
+            "venue_id":839959765
+        }
+    ],
     "wof:id":839959765,
-    "wof:lastmodified":1466415801,
+    "wof:lastmodified":1492113147,
     "wof:name":"Heartland Custom Pools",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

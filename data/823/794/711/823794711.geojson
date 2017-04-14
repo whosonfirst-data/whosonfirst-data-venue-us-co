@@ -2,9 +2,14 @@
   "id": 823794711,
   "type": "Feature",
   "properties": {
+    "addr:full":"217 E Bromley Ln Brighton CO 80601",
+    "addr:housenumber":"217",
+    "addr:postcode":"80601",
+    "addr:street":"E Bromley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.818308,39.972366,-104.818308,39.972366",
     "geom:latitude":39.972366,
     "geom:longitude":-104.818308,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_77IqyzWW4vWywfEIyccfc9_39.972366_-104.818308@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446563,
-    "wof:geomhash":"6bc5efa4348d734787656007523907dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a6587c8f099c4b7b96b64c3f326e5cd4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823794711
+        }
+    ],
     "wof:id":823794711,
-    "wof:lastmodified":1466419301,
+    "wof:lastmodified":1492126863,
     "wof:name":"Above All Acoustics",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

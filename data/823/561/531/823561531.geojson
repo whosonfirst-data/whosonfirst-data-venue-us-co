@@ -2,9 +2,14 @@
   "id": 823561531,
   "type": "Feature",
   "properties": {
+    "addr:full":"2999 W 104th Ave Denver CO 80234",
+    "addr:housenumber":"2999",
+    "addr:postcode":"80234",
+    "addr:street":"W 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.022044,39.885247,-105.022044,39.885247",
     "geom:latitude":39.885247,
     "geom:longitude":-105.022044,
@@ -29,19 +34,58 @@
     ],
     "sg:website":"www.elwaydealers.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553747,
+        420553931,
+        85929351,
+        102084113,
+        85888471
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5tsiIjIQ3y1QmuS9MqbhTX_39.885247_-105.022044@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440977,
-    "wof:geomhash":"e04502259de87e23f05434142220599a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"231fb82fe86b29e1595b2dd6cb8d019d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553747,
+            "region_id":85688603,
+            "venue_id":823561531
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553931,
+            "region_id":85688603,
+            "venue_id":823561531
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":85888471,
+            "region_id":85688603,
+            "venue_id":823561531
+        }
+    ],
     "wof:id":823561531,
-    "wof:lastmodified":1466416196,
+    "wof:lastmodified":1492126156,
     "wof:name":"John Elway Honda",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823740875,
   "type": "Feature",
   "properties": {
+    "addr:full":"4801 E 78th Ave Commerce City CO 80022",
+    "addr:housenumber":"4801",
+    "addr:postcode":"80022",
+    "addr:street":"E 78Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.924743,39.838132,-104.924743,39.838132",
     "geom:latitude":39.838132,
     "geom:longitude":-104.924743,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930259,
+        102084053,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_17Meo1GvNSFQZVv8uKBRXk_39.838132_-104.924743@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445173,
-    "wof:geomhash":"2795916dd3eb1a230e5a5418b53abda0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"605d3dc7e80034534e61aef5fb77ccb0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":823740875
+        }
+    ],
     "wof:id":823740875,
-    "wof:lastmodified":1466418793,
+    "wof:lastmodified":1492122316,
     "wof:name":"Aggregate Industries",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553481,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

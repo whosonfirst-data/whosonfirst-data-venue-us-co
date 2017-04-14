@@ -2,9 +2,14 @@
   "id": 839973071,
   "type": "Feature",
   "properties": {
+    "addr:full":"330 S Lincoln Ave Steamboat Springs CO 80487",
+    "addr:housenumber":"330",
+    "addr:postcode":"80487",
+    "addr:street":"S Lincoln Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.826386,40.4781,-106.826386,40.4781",
     "geom:latitude":40.4781,
     "geom:longitude":-106.826386,
@@ -30,19 +35,36 @@
         "bookkeeping"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555275
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_32ZB5VtcENKU1JajAtnN11_40.478100_-106.826386@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460144,
-    "wof:geomhash":"2500b50ce20183c9a915fc1a4550ebb4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6bcf8e89bb1ae3dd704499ba41ebb67b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555275,
+            "region_id":85688603,
+            "venue_id":839973071
+        }
+    ],
     "wof:id":839973071,
-    "wof:lastmodified":1466416419,
+    "wof:lastmodified":1492112854,
     "wof:name":"Wither Tredway & Henion",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

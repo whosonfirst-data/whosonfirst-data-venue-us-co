@@ -2,9 +2,14 @@
   "id": 823564147,
   "type": "Feature",
   "properties": {
+    "addr:full":"280 2nd Ave Niwot CO 80544",
+    "addr:housenumber":"280",
+    "addr:postcode":"80544",
+    "addr:street":"2Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.169865,40.101729,-105.169865,40.101729",
     "geom:latitude":40.101729,
     "geom:longitude":-105.169865,
@@ -28,19 +33,36 @@
         "frame"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Fe72XDoCofwHluYEfXZ3t_40.101729_-105.169865@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441044,
-    "wof:geomhash":"4a12181ebe18dfa8a22e4772fb75be7e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cd04f3f87a340f74fbb80cc7edd8112c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554063,
+            "region_id":85688603,
+            "venue_id":823564147
+        }
+    ],
     "wof:id":823564147,
-    "wof:lastmodified":1466416231,
+    "wof:lastmodified":1492123061,
     "wof:name":"Canvasgack Gallery & Framing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

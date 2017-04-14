@@ -2,9 +2,14 @@
   "id": 824085799,
   "type": "Feature",
   "properties": {
+    "addr:full":"29 S 4th Ave Brighton CO 80601",
+    "addr:housenumber":"29",
+    "addr:postcode":"80601",
+    "addr:street":"S 4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.818214,39.986326,-104.818214,39.986326",
     "geom:latitude":39.986326,
     "geom:longitude":-104.818214,
@@ -27,19 +32,36 @@
         "surveyor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Q1MIEelVum27VMgrZ4jv6_39.986326_-104.818214@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453993,
-    "wof:geomhash":"b2d3f503d9f02093791f59abf039e5d5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a8bfaf8096092103623302b628177300",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824085799
+        }
+    ],
     "wof:id":824085799,
-    "wof:lastmodified":1466414846,
+    "wof:lastmodified":1492128929,
     "wof:name":"American West Land Surveying",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

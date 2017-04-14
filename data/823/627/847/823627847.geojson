@@ -2,9 +2,14 @@
   "id": 823627847,
   "type": "Feature",
   "properties": {
+    "addr:full":"4111 Clay St Denver CO 80211",
+    "addr:housenumber":"4111",
+    "addr:postcode":"80211",
+    "addr:street":"Clay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.020606,39.773996,-105.020606,39.773996",
     "geom:latitude":39.773996,
     "geom:longitude":-105.020606,
@@ -27,19 +32,38 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871279,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1LlI5MspFatwLUN6xeGFSu_39.773996_-105.020606@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442577,
-    "wof:geomhash":"0153da9a2e49c5933c0e6c53fc7d2586",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e0568591193e9b6d8c906c4a42679b5d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871279,
+            "region_id":85688603,
+            "venue_id":823627847
+        }
+    ],
     "wof:id":823627847,
-    "wof:lastmodified":1466417604,
+    "wof:lastmodified":1492118736,
     "wof:name":"Pizza Pit",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871279,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

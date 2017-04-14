@@ -2,9 +2,14 @@
   "id": 823997541,
   "type": "Feature",
   "properties": {
+    "addr:full":"1152 Aberdeen Dr Broomfield CO 80020",
+    "addr:housenumber":"1152",
+    "addr:postcode":"80020",
+    "addr:street":"Aberdeen Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059099,39.922729,-105.059099,39.922729",
     "geom:latitude":39.922729,
     "geom:longitude":-105.059099,
@@ -28,19 +33,36 @@
         "recreation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554271
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5fSadlOPrQA2BIVDuNwkcc_39.922729_-105.059099@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451930,
-    "wof:geomhash":"8b08b294111aa29f126e3cefbbd601fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0813d6167828bd4ac3e6cac00ef84908",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554271,
+            "region_id":85688603,
+            "venue_id":823997541
+        }
+    ],
     "wof:id":823997541,
-    "wof:lastmodified":1466420791,
+    "wof:lastmodified":1492123811,
     "wof:name":"Never Too Old Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554271,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

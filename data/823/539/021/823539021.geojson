@@ -2,9 +2,14 @@
   "id": 823539021,
   "type": "Feature",
   "properties": {
+    "addr:full":"7310 Washington St Denver CO 80229",
+    "addr:housenumber":"7310",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977832,39.830691,-104.977832,39.830691",
     "geom:latitude":39.830691,
     "geom:longitude":-104.977832,
@@ -29,19 +34,36 @@
         "cocktail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7L56SrRfoAEFvAvdYmlARb_39.830691_-104.977832@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440448,
-    "wof:geomhash":"ed02d437800ad8fe217c5b4f1c600026",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d56150854087607013d6136cc85240a6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823539021
+        }
+    ],
     "wof:id":823539021,
-    "wof:lastmodified":1466415639,
+    "wof:lastmodified":1492123361,
     "wof:name":"Ginger's Lounge",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

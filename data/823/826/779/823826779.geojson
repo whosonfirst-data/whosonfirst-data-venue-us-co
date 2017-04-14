@@ -2,9 +2,14 @@
   "id": 823826779,
   "type": "Feature",
   "properties": {
+    "addr:full":"1670 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"1670;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.835604,37.316108,-107.835604,37.316108",
     "geom:latitude":37.316108,
     "geom:longitude":-107.835604,
@@ -27,19 +32,28 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4NyFIDEA3xKNO59dcQg7Oj_37.316108_-107.835604@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447509,
-    "wof:geomhash":"3af48f5401eb57ecfad3d3568a972e2b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"efe9f4b3b8d78be7d1a8d8f5d006f269",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823826779
+        }
+    ],
     "wof:id":823826779,
-    "wof:lastmodified":1466419621,
+    "wof:lastmodified":1492124412,
     "wof:name":"Mallari Dental Lab",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

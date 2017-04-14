@@ -2,9 +2,14 @@
   "id": 824107031,
   "type": "Feature",
   "properties": {
+    "addr:full":"945 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"945;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.843369,37.30406,-107.843369,37.30406",
     "geom:latitude":37.30406,
     "geom:longitude":-107.843369,
@@ -27,19 +32,28 @@
         "product"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2qAPChrAq8w4RgJ4JKnnDj_37.304060_-107.843369@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454486,
-    "wof:geomhash":"584afed53c07d299218a33525bb74810",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1208dc1a14b9b00cfd67cb7be3c5bd11",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":824107031
+        }
+    ],
     "wof:id":824107031,
-    "wof:lastmodified":1466415180,
+    "wof:lastmodified":1492130046,
     "wof:name":"Palmer Pipe Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

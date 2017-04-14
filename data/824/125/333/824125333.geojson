@@ -2,9 +2,14 @@
   "id": 824125333,
   "type": "Feature",
   "properties": {
+    "addr:full":"41680 Co Rd 44 Steamboat Springs CO 80487",
+    "addr:housenumber":"41680;44",
+    "addr:postcode":"80487",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.931361,40.541734,-106.931361,40.541734",
     "geom:latitude":40.541734,
     "geom:longitude":-106.931361,
@@ -29,19 +34,28 @@
         "cattle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555189
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_65k3Grl9QDQz0ejp4g6jQn_40.541734_-106.931361@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454947,
-    "wof:geomhash":"1d003c170ffbf889144a9b51948a6945",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ed8cf1aed4baa3f2df6681c0621f7433",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555189,
+            "venue_id":824125333
+        }
+    ],
     "wof:id":824125333,
-    "wof:lastmodified":1466415882,
+    "wof:lastmodified":1492132711,
     "wof:name":"Raymond Gray",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555189,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

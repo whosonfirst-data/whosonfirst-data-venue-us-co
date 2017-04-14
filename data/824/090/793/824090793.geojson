@@ -2,9 +2,14 @@
   "id": 824090793,
   "type": "Feature",
   "properties": {
+    "addr:full":"324 Pine Ridge Loop Durango CO 81301",
+    "addr:housenumber":"324",
+    "addr:postcode":"co 81301",
+    "addr:street":"Pine Ridge Loop",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.980728,37.265745,-107.980728,37.265745",
     "geom:latitude":37.265745,
     "geom:longitude":-107.980728,
@@ -28,19 +33,28 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554719
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_40hj0KdVUCQHdDFGlw4yvT_37.265745_-107.980728@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454105,
-    "wof:geomhash":"8e4a94379b82e53e926081e86a199ec3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0cf42bf4bc8e31fe728b54a5e1aff2f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554719,
+            "venue_id":824090793
+        }
+    ],
     "wof:id":824090793,
-    "wof:lastmodified":1466415033,
+    "wof:lastmodified":1492130207,
     "wof:name":"J & J Builders Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554719,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

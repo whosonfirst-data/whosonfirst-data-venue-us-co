@@ -2,9 +2,14 @@
   "id": 823948939,
   "type": "Feature",
   "properties": {
+    "addr:full":"10150 State Hwy 2 Commerce City CO 80022",
+    "addr:housenumber":"10150",
+    "addr:postcode":"80022",
+    "addr:street":"State Hwy 2",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.852212,39.881431,-104.852212,39.881431",
     "geom:latitude":39.881431,
     "geom:longitude":-104.852212,
@@ -30,19 +35,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553285
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_35G21dwGHaV8gY6sYts9cL_39.881431_-104.852212@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450756,
-    "wof:geomhash":"9b79d74bb0f7785c3c56ec0a8087c4e4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"52e84b8001af8f7051e6f8f6b443c31f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553285,
+            "region_id":85688603,
+            "venue_id":823948939
+        }
+    ],
     "wof:id":823948939,
-    "wof:lastmodified":1466420645,
+    "wof:lastmodified":1492125941,
     "wof:name":"Toby Cordovas Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553285,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

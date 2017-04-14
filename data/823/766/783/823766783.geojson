@@ -2,9 +2,14 @@
   "id": 823766783,
   "type": "Feature",
   "properties": {
+    "addr:full":"21485 US Hwy 40 Steamboat Spgs CO 80487",
+    "addr:housenumber":"",
+    "addr:postcode":"21485;80487",
+    "addr:street":"Us Hwy 40 Steamboat Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.998395,40.486656,-106.998395,40.486656",
     "geom:latitude":40.486656,
     "geom:longitude":-106.998395,
@@ -29,19 +34,28 @@
         "special"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555175
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ajU80qYwp4bqSzCPsV00t_40.486656_-106.998395@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445754,
-    "wof:geomhash":"2257c7018ecacff0245e1493bd8ac830",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d5086401d68d53679bcd174a620def75",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555175,
+            "venue_id":823766783
+        }
+    ],
     "wof:id":823766783,
-    "wof:lastmodified":1466419070,
+    "wof:lastmodified":1492123685,
     "wof:name":"Milner Mini Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555175,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

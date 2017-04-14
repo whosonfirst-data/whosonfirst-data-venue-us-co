@@ -2,9 +2,14 @@
   "id": 823620709,
   "type": "Feature",
   "properties": {
+    "addr:full":"5914 W Columbia Pl Denver CO 80227",
+    "addr:housenumber":"5914",
+    "addr:postcode":"80227",
+    "addr:street":"W Columbia Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.061434,39.660171,-105.061434,39.660171",
     "geom:latitude":39.660171,
     "geom:longitude":-105.061434,
@@ -28,19 +33,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871249,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2OQygi9s9kaXIzVMe9oTlh_39.660171_-105.061434@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442414,
-    "wof:geomhash":"c4f97672c09258c9da35865799e70e38",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8de960786dc996a18f889246e4d964be",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871249,
+            "region_id":85688603,
+            "venue_id":823620709
+        }
+    ],
     "wof:id":823620709,
-    "wof:lastmodified":1466417491,
+    "wof:lastmodified":1492124020,
     "wof:name":"Jeff Schmitz Carpentry Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823664549,
   "type": "Feature",
   "properties": {
+    "addr:full":"334 Dakota Cir Grand Junction CO 81503",
+    "addr:housenumber":"334",
+    "addr:postcode":"81503",
+    "addr:street":"Dakota Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.636706,39.05463,-108.636706,39.05463",
     "geom:latitude":39.05463,
     "geom:longitude":-108.636706,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554779
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1uE8ghwrh0TPWtEuhZ3x2o_39.054630_-108.636706@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443447,
-    "wof:geomhash":"ebcc04c7bd05a3d81fc86dbbf29d0357",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1956db37e0d945e0f544d763db9dceb1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554779,
+            "region_id":85688603,
+            "venue_id":823664549
+        }
+    ],
     "wof:id":823664549,
-    "wof:lastmodified":1466418306,
+    "wof:lastmodified":1492127648,
     "wof:name":"Grand Valley Engineering",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554779,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

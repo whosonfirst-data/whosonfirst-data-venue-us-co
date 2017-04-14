@@ -2,9 +2,14 @@
   "id": 839938019,
   "type": "Feature",
   "properties": {
+    "addr:full":"1029 E 131st Dr Denver CO 80241",
+    "addr:housenumber":"1029",
+    "addr:postcode":"80241",
+    "addr:street":"E 131St Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.973608,39.935613,-104.973608,39.935613",
     "geom:latitude":39.935613,
     "geom:longitude":-104.973608,
@@ -28,19 +33,36 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Ucn3QX0qFud8h70EfFdNE_39.935613_-104.973608@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458392,
-    "wof:geomhash":"e862fb1e6729a58f54766587829be6a1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b732b660bb695c5caef5776426d7a794",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553667,
+            "region_id":85688603,
+            "venue_id":839938019
+        }
+    ],
     "wof:id":839938019,
-    "wof:lastmodified":1466414540,
+    "wof:lastmodified":1492110496,
     "wof:name":"Twilight Technologies",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

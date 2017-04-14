@@ -2,9 +2,14 @@
   "id": 824099871,
   "type": "Feature",
   "properties": {
+    "addr:full":"456 S Ironton St Aurora CO 80012",
+    "addr:housenumber":"456",
+    "addr:postcode":"80012",
+    "addr:street":"S Ironton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.863661,39.708078,-104.863661,39.708078",
     "geom:latitude":39.708078,
     "geom:longitude":-104.863661,
@@ -27,17 +32,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2U2A0i7bZZTfQCU1tzZK9p_39.708078_-104.863661@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454338,
-    "wof:geomhash":"36c5dab6373896ea61c242a98cd87f66",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ccc0cac4630ae8b4e07113b2bf567ff1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":824099871
+        }
+    ],
     "wof:id":824099871,
-    "wof:lastmodified":1466415330,
+    "wof:lastmodified":1492133253,
     "wof:name":"Park East Apartments",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

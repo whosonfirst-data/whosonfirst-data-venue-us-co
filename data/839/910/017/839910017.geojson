@@ -2,9 +2,14 @@
   "id": 839910017,
   "type": "Feature",
   "properties": {
+    "addr:full":"12799 Clermont St Denver CO 80241",
+    "addr:housenumber":"12799",
+    "addr:postcode":"80241",
+    "addr:street":"Clermont St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.934859,39.928385,-104.934859,39.928385",
     "geom:latitude":39.928385,
     "geom:longitude":-104.934859,
@@ -28,19 +33,56 @@
         "operative"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671,
+        420553843,
+        420553661
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6DrOM7vECzTJU6jE2YZixv_39.928385_-104.934859@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457113,
-    "wof:geomhash":"0e4451761c1754379e702866909df9c7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3877039b7c86d3c56ce8f20a1eec3c90",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":839910017
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553843,
+            "region_id":85688603,
+            "venue_id":839910017
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553661,
+            "region_id":85688603,
+            "venue_id":839910017
+        }
+    ],
     "wof:id":839910017,
-    "wof:lastmodified":1466411945,
+    "wof:lastmodified":1492110730,
     "wof:name":"D R Horton Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

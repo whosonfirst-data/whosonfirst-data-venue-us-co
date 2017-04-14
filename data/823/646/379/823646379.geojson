@@ -2,9 +2,14 @@
   "id": 823646379,
   "type": "Feature",
   "properties": {
+    "addr:full":"210 Seminole Dr Boulder CO 80303",
+    "addr:housenumber":"210",
+    "addr:postcode":"80303",
+    "addr:street":"Seminole Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.230766,39.992824,-105.230766,39.992824",
     "geom:latitude":39.992824,
     "geom:longitude":-105.230766,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7GFb4IPXcG1iVLKL6FMZLa_39.992824_-105.230766@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443000,
-    "wof:geomhash":"d83a11b7874ee4c5d7dbb5fe971c3c7b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"061ce4976cf00f7316f14eac1f35ef8a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":823646379
+        }
+    ],
     "wof:id":823646379,
-    "wof:lastmodified":1466417949,
+    "wof:lastmodified":1492124393,
     "wof:name":"Larry Hicks",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839965741,
   "type": "Feature",
   "properties": {
+    "addr:full":"2510 I- 70 Business Lp Grand Junction CO 81505",
+    "addr:housenumber":"2510;70",
+    "addr:postcode":"81505",
+    "addr:street":"I;Business Lp",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586419,39.082012,-108.586419,39.082012",
     "geom:latitude":39.082012,
     "geom:longitude":-108.586419,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554951
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0mOGefgGZLNDGLoemeuiAe_39.082012_-108.586419@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459840,
-    "wof:geomhash":"adb26c1f64898af2d0d526a2b122662c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"690071a6ad508ff85c111ca50da8c886",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554951,
+            "region_id":85688603,
+            "venue_id":839965741
+        }
+    ],
     "wof:id":839965741,
-    "wof:lastmodified":1466416077,
+    "wof:lastmodified":1492114224,
     "wof:name":"Appleton Christian Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554951,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

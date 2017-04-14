@@ -2,9 +2,14 @@
   "id": 823740175,
   "type": "Feature",
   "properties": {
+    "addr:full":"5180 S Lowell Blvd Littleton CO 80123",
+    "addr:housenumber":"5180",
+    "addr:postcode":"80123",
+    "addr:street":"S Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034905,39.622592,-105.034905,39.622592",
     "geom:latitude":39.622592,
     "geom:longitude":-105.034905,
@@ -27,17 +32,32 @@
         "cleaners"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929241,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_17KQrjJHKYnPFLFfA91PBE_39.622592_-105.034905@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445161,
-    "wof:geomhash":"c244adee1b2b8b6965fe7ed8018fd909",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cd83e10cf3c85b21960ea22250f69c49",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929241,
+            "region_id":85688603,
+            "venue_id":823740175
+        }
+    ],
     "wof:id":823740175,
-    "wof:lastmodified":1466418827,
+    "wof:lastmodified":1492122321,
     "wof:name":"Infinity Cleaners",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

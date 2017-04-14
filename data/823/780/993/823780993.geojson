@@ -2,9 +2,14 @@
   "id": 823780993,
   "type": "Feature",
   "properties": {
+    "addr:full":"1975 S Decatur St Denver CO 80219",
+    "addr:housenumber":"1975",
+    "addr:postcode":"80219",
+    "addr:street":"S Decatur St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02278,39.681856,-105.02278,39.681856",
     "geom:latitude":39.681856,
     "geom:longitude":-105.02278,
@@ -28,7 +33,15 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_675RzrbUQ0XADXuWB4Kup1_39.681856_-105.022780@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463446115,
     "wof:geomhash":"2b7c4fdbd121ae27b4d75315c405984e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":823780993
+        }
+    ],
     "wof:id":823780993,
-    "wof:lastmodified":1466419353,
+    "wof:lastmodified":1491876274,
     "wof:name":"Cherry Tree Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

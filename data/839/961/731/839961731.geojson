@@ -2,9 +2,14 @@
   "id": 839961731,
   "type": "Feature",
   "properties": {
+    "addr:full":"3225 W Ada Pl Denver CO 80219",
+    "addr:housenumber":"3225",
+    "addr:postcode":"80219",
+    "addr:street":"W Ada Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.028837,39.701413,-105.028837,39.701413",
     "geom:latitude":39.701413,
     "geom:longitude":-105.028837,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6h0SMSVW8xY2f3Uueg8Nkg_39.701413_-105.028837@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463459675,
     "wof:geomhash":"479a23f71d830d3d5f6a680572ac78b0",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":839961731
+        }
+    ],
     "wof:id":839961731,
-    "wof:lastmodified":1466415739,
+    "wof:lastmodified":1486589838,
     "wof:name":"Cisneros Javier Carpet & Vinyl",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

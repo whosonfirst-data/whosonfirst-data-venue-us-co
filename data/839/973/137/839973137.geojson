@@ -2,9 +2,14 @@
   "id": 839973137,
   "type": "Feature",
   "properties": {
+    "addr:full":"4337 Ceylon Ct Denver CO 80249",
+    "addr:housenumber":"4337",
+    "addr:postcode":"80249",
+    "addr:street":"Ceylon Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.763012,39.775104,-104.763012,39.775104",
     "geom:latitude":39.775104,
     "geom:longitude":-104.763012,
@@ -27,7 +32,16 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3xJTRLZo9bxiVJjcBOWRvK_39.775104_-104.763012@1294083659"
@@ -35,11 +49,23 @@
     "wof:country":"US",
     "wof:created":1463460147,
     "wof:geomhash":"bd480fd7b617f6f0cd23fc2f958eb9d0",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":839973137
+        }
+    ],
     "wof:id":839973137,
-    "wof:lastmodified":1466416423,
+    "wof:lastmodified":1486593991,
     "wof:name":"Fuentes Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

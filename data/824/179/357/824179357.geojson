@@ -2,9 +2,14 @@
   "id": 824179357,
   "type": "Feature",
   "properties": {
+    "addr:full":"2401 Research Blvd Fort Collins CO 80526",
+    "addr:housenumber":"2401",
+    "addr:postcode":"80526",
+    "addr:street":"Research Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.086247,40.554237,-105.086247,40.554237",
     "geom:latitude":40.554237,
     "geom:longitude":-105.086247,
@@ -28,19 +33,36 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554759
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7i09Lk9mwO6gFPF5qAuFDX_40.554237_-105.086247@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457039,
-    "wof:geomhash":"3891c337708cbd05eeb87464167d14cf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ffa6f50d4555633403cabb412ae29ac3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554759,
+            "region_id":85688603,
+            "venue_id":824179357
+        }
+    ],
     "wof:id":824179357,
-    "wof:lastmodified":1466418175,
+    "wof:lastmodified":1492132147,
     "wof:name":"Spinal Cord Society",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554759,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

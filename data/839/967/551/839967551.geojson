@@ -2,9 +2,14 @@
   "id": 839967551,
   "type": "Feature",
   "properties": {
+    "addr:full":"233 Co Rd 48 Gunnison CO 81230",
+    "addr:housenumber":"233;48",
+    "addr:postcode":"81230",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.928318,38.588138,-106.928318,38.588138",
     "geom:latitude":38.588138,
     "geom:longitude":-106.928318,
@@ -30,19 +35,28 @@
     ],
     "sg:website":"www.gunnisonlodging.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_62HCcpkrNjEBzIPei6crft_38.588138_-106.928318@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459909,
-    "wof:geomhash":"45d898a282d574a6be63042998604b4b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d506419bb3ccb115032cfe7c765ee8a9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554379,
+            "venue_id":839967551
+        }
+    ],
     "wof:id":839967551,
-    "wof:lastmodified":1466416080,
+    "wof:lastmodified":1492112445,
     "wof:name":"Ranch House Bed & Breakfast",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823650341,
   "type": "Feature",
   "properties": {
+    "addr:full":"121 E Grand Ave Mancos CO 81328",
+    "addr:housenumber":"121",
+    "addr:postcode":"81328",
+    "addr:street":"E Grand Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.289419,37.345044,-108.289419,37.345044",
     "geom:latitude":37.345044,
     "geom:longitude":-108.289419,
@@ -29,19 +34,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2sSBP6ca9m59WbMV1nA7Ra_37.345044_-108.289419@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443086,
-    "wof:geomhash":"f636f2d580007e0e41f97639e7c77e2d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b89c81f7c111cb1e96d5c6de2244239c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823650341
+        }
+    ],
     "wof:id":823650341,
-    "wof:lastmodified":1466417950,
+    "wof:lastmodified":1492126446,
     "wof:name":"Flooring Depot",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823702795,
   "type": "Feature",
   "properties": {
+    "addr:full":"6522 Clay St Denver CO 80221",
+    "addr:housenumber":"6522",
+    "addr:postcode":"80221",
+    "addr:street":"Clay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.020067,39.815721,-105.020067,39.815721",
     "geom:latitude":39.815721,
     "geom:longitude":-105.020067,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_21bR2C0Mzs13LxaQLCQUnn_39.815721_-105.020067@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444297,
-    "wof:geomhash":"78020eebb63ffc9eaecf1220fda45f9a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9537652b181ece637cb9f25b63f2ae6e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553657,
+            "region_id":85688603,
+            "venue_id":823702795
+        }
+    ],
     "wof:id":823702795,
-    "wof:lastmodified":1466418602,
+    "wof:lastmodified":1492120934,
     "wof:name":"B L & R Concrete",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553657,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

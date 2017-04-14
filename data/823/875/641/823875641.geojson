@@ -2,9 +2,14 @@
   "id": 823875641,
   "type": "Feature",
   "properties": {
+    "addr:full":"10640 W 104th Pl Broomfield CO 80021",
+    "addr:housenumber":"10640",
+    "addr:postcode":"80021",
+    "addr:street":"W 104Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.116207,39.884717,-105.116207,39.884717",
     "geom:latitude":39.884717,
     "geom:longitude":-105.116207,
@@ -27,19 +32,36 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1qdUynrs2UAFn29BJqDScj_39.884717_-105.116207@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448863,
-    "wof:geomhash":"fe7d0973d1ed48714b25a78dc0cab772",
-    "wof:hierarchy":[],
+    "wof:geomhash":"073e17cde6819db2753a35e502786cfb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823875641
+        }
+    ],
     "wof:id":823875641,
-    "wof:lastmodified":1466419982,
+    "wof:lastmodified":1492120017,
     "wof:name":"Fotografia Limited",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

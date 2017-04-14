@@ -2,9 +2,14 @@
   "id": 823510581,
   "type": "Feature",
   "properties": {
+    "addr:full":"1240 Sheldon Dr Denver CO 80229",
+    "addr:housenumber":"1240",
+    "addr:postcode":"80229",
+    "addr:street":"Sheldon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.972916,39.853585,-104.972916,39.853585",
     "geom:latitude":39.853585,
     "geom:longitude":-104.972916,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_30pJscRafHCOmTAIkP13jP_39.853585_-104.972916@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439803,
-    "wof:geomhash":"5200c05a1a913a802d1da4b050e34d6d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a2df4bd8a6af7ba9bab11a5af94e8c4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":823510581
+        }
+    ],
     "wof:id":823510581,
-    "wof:lastmodified":1466414548,
+    "wof:lastmodified":1492124836,
     "wof:name":"Cherry Masonry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

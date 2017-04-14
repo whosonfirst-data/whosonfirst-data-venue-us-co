@@ -2,9 +2,14 @@
   "id": 823908747,
   "type": "Feature",
   "properties": {
+    "addr:full":"3010 N Speer Blvd Denver CO 80211",
+    "addr:housenumber":"3010",
+    "addr:postcode":"80211",
+    "addr:street":"N Speer Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.026604,39.760903,-105.026604,39.760903",
     "geom:latitude":39.760903,
     "geom:longitude":-105.026604,
@@ -28,19 +33,38 @@
         "check"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4dEh5pHtNu7bubG807BBSS_39.760903_-105.026604@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449700,
-    "wof:geomhash":"7dccab0f6c7f12eaae4a827276e946fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cd7e542b65e30b1b8ac3d86ce3e77df2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823908747
+        }
+    ],
     "wof:id":823908747,
-    "wof:lastmodified":1466420284,
+    "wof:lastmodified":1492117262,
     "wof:name":"Dollar Doc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839919873,
   "type": "Feature",
   "properties": {
+    "addr:full":"1626 Fantail Ct Fort Collins CO 80528",
+    "addr:housenumber":"1626",
+    "addr:postcode":"80528",
+    "addr:street":"Fantail Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.04711,40.509766,-105.04711,40.509766",
     "geom:latitude":40.509766,
     "geom:longitude":-105.04711,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554731
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7gahF1Mu01jiMkIsItvAd4_40.509766_-105.047110@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457484,
-    "wof:geomhash":"cd39241dec477ef01ff7fb4ace73ff53",
-    "wof:hierarchy":[],
+    "wof:geomhash":"670b57f810bd291bc25369068e71bea8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554731,
+            "region_id":85688603,
+            "venue_id":839919873
+        }
+    ],
     "wof:id":839919873,
-    "wof:lastmodified":1466413694,
+    "wof:lastmodified":1492111213,
     "wof:name":"Zitti Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554731,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

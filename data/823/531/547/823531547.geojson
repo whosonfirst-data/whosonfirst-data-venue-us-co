@@ -2,9 +2,14 @@
   "id": 823531547,
   "type": "Feature",
   "properties": {
+    "addr:full":"209 W 5th St Cortez CO 81321",
+    "addr:housenumber":"209",
+    "addr:postcode":"81321",
+    "addr:street":"W 5Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.588287,37.343266,-108.588287,37.343266",
     "geom:latitude":37.343266,
     "geom:longitude":-108.588287,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0c38ew5afJOd2X0YVVvhyh_37.343266_-108.588287@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440282,
-    "wof:geomhash":"1e1e53fe5b7df4f2d9b22524d899958d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2d36237714eaa59fabdd907da24d1964",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823531547
+        }
+    ],
     "wof:id":823531547,
-    "wof:lastmodified":1466415239,
+    "wof:lastmodified":1492120581,
     "wof:name":"Evangel Assembly Of God",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

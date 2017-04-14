@@ -2,9 +2,14 @@
   "id": 823501921,
   "type": "Feature",
   "properties": {
+    "addr:full":"1702 US Hwy 50 Pueblo CO 81008",
+    "addr:housenumber":"1702",
+    "addr:postcode":"81008",
+    "addr:street":"Us Hwy 50",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.633755,38.30991,-104.633755,38.30991",
     "geom:latitude":38.30991,
     "geom:longitude":-104.633755,
@@ -27,17 +32,32 @@
         "broadcast"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2rnqGwSwjyh8R3GU5gef7p_38.309910_-104.633755@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439619,
-    "wof:geomhash":"6cb2def15a82e4985268d67c3eab0c29",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c6c7b02d50aa353ef3d1b42c096b5781",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823501921
+        }
+    ],
     "wof:id":823501921,
-    "wof:lastmodified":1466414200,
+    "wof:lastmodified":1492125757,
     "wof:name":"AT&T",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

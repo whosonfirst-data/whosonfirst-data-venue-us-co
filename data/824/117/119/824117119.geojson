@@ -2,9 +2,14 @@
   "id": 824117119,
   "type": "Feature",
   "properties": {
+    "addr:full":"2667 Co Rd 302 Durango CO 81303",
+    "addr:housenumber":"2667;302",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.81107,37.16944,-107.81107,37.16944",
     "geom:latitude":37.16944,
     "geom:longitude":-107.81107,
@@ -28,19 +33,34 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554633,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ytB6GNt4f5FDWPMIUNA7x_37.169440_-107.811070@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454706,
-    "wof:geomhash":"169cdd30ee9df6ac15115782fc70108e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9bdb420fc86fad64404274563bbd8a16",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554633,
+            "venue_id":824117119
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":824117119
+        }
+    ],
     "wof:id":824117119,
-    "wof:lastmodified":1466415689,
+    "wof:lastmodified":1492131340,
     "wof:name":"Golden Eagle Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

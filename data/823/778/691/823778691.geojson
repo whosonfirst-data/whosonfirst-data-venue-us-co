@@ -2,9 +2,14 @@
   "id": 823778691,
   "type": "Feature",
   "properties": {
+    "addr:full":"5684 W 88th Ave Westminster CO 80031",
+    "addr:housenumber":"5684",
+    "addr:postcode":"80031",
+    "addr:street":"W 88Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059164,39.856365,-105.059164,39.856365",
     "geom:latitude":39.856365,
     "geom:longitude":-105.059164,
@@ -27,19 +32,36 @@
         "maternity"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ODUpzq6YP1XkI4fuIbgWd_39.856365_-105.059164@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446054,
-    "wof:geomhash":"e27628a1f5fffa00060a85b4c2a3bb9e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"36033c583141315e0db6c6a2af7c4e6c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823778691
+        }
+    ],
     "wof:id":823778691,
-    "wof:lastmodified":1466419056,
+    "wof:lastmodified":1492122236,
     "wof:name":"Motherhood Maternity",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823871065,
   "type": "Feature",
   "properties": {
+    "addr:full":"1114 N 1st St Grand Junction CO 81501",
+    "addr:housenumber":"1114",
+    "addr:postcode":"81501",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570822,39.07864,-108.570822,39.07864",
     "geom:latitude":39.07864,
     "geom:longitude":-108.570822,
@@ -28,19 +33,36 @@
         "title"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6wZTQWmBJyaMTJAtt3srzo_39.078640_-108.570822@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448761,
-    "wof:geomhash":"b04433d3c50b497a6ec1efd660734cc6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"62768f866bd76ec66d7436c652b65bfd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823871065
+        }
+    ],
     "wof:id":823871065,
-    "wof:lastmodified":1466419955,
+    "wof:lastmodified":1492120612,
     "wof:name":"Abstract & Title Co-Mesa Cnty",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824125209,
   "type": "Feature",
   "properties": {
+    "addr:full":"1795 Folsom St Boulder CO 80302",
+    "addr:housenumber":"1795",
+    "addr:postcode":"80302",
+    "addr:street":"Folsom St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.262996,40.016253,-105.262996,40.016253",
     "geom:latitude":40.016253,
     "geom:longitude":-105.262996,
@@ -28,19 +33,46 @@
         "coffee"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876453,
+        85876399
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6pRqgLLmOXeMnXP58ndCyJ_40.016253_-105.262996@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454943,
-    "wof:geomhash":"48152c115f14d3cb25074d63563d85cc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a77c7066af45c6f9d9e111480a46666b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876453,
+            "region_id":85688603,
+            "venue_id":824125209
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876399,
+            "region_id":85688603,
+            "venue_id":824125209
+        }
+    ],
     "wof:id":824125209,
-    "wof:lastmodified":1466415868,
+    "wof:lastmodified":1492132699,
     "wof:name":"Folsom Street Coffee",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

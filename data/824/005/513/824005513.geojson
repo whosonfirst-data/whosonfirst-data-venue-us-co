@@ -2,9 +2,14 @@
   "id": 824005513,
   "type": "Feature",
   "properties": {
+    "addr:full":"2616 Jacob Cir Steamboat Springs CO 80487",
+    "addr:housenumber":"2616",
+    "addr:postcode":"80487",
+    "addr:street":"Jacob Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.860091,40.507522,-106.860091,40.507522",
     "geom:latitude":40.507522,
     "geom:longitude":-106.860091,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555365
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5B9UXPKdotbgXYEiZoUlGn_40.507522_-106.860091@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452108,
-    "wof:geomhash":"23900345101de8ad571584a0c56e37b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"af9c80b59ef2e231110377bb99fc22bd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555365,
+            "region_id":85688603,
+            "venue_id":824005513
+        }
+    ],
     "wof:id":824005513,
-    "wof:lastmodified":1466412506,
+    "wof:lastmodified":1492129730,
     "wof:name":"Precision Excavating Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

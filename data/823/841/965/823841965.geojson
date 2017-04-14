@@ -2,9 +2,14 @@
   "id": 823841965,
   "type": "Feature",
   "properties": {
+    "addr:full":"8962 Washington St Denver CO 80229",
+    "addr:housenumber":"8962",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977738,39.857308,-104.977738,39.857308",
     "geom:latitude":39.857308,
     "geom:longitude":-104.977738,
@@ -27,19 +32,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0HYLDmorMH46Xy51n6hUev_39.857308_-104.977738@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447988,
-    "wof:geomhash":"207a6874151c40edba9243a796dec26e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0b8b13eb1236e9ba2c0cf3bd076681fe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823841965
+        }
+    ],
     "wof:id":823841965,
-    "wof:lastmodified":1466419400,
+    "wof:lastmodified":1492121742,
     "wof:name":"Trini's Hair Styling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

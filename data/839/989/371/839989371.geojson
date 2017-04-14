@@ -2,9 +2,14 @@
   "id": 839989371,
   "type": "Feature",
   "properties": {
+    "addr:full":"1124 13th St Boulder CO 80302",
+    "addr:housenumber":"1124",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276227,40.007645,-105.276227,40.007645",
     "geom:latitude":40.007645,
     "geom:longitude":-105.276227,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Ss67zWWv3jRZv9jvb7gWP_40.007645_-105.276227@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460785,
-    "wof:geomhash":"ae6bfda0d9c320523972bf99290deb5e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1b44c86942790a7fd872e12910aba107",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839989371
+        }
+    ],
     "wof:id":839989371,
-    "wof:lastmodified":1466417385,
+    "wof:lastmodified":1492111059,
     "wof:name":"Teresa's Pizza Colore",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

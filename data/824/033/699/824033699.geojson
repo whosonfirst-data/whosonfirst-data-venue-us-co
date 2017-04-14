@@ -2,9 +2,14 @@
   "id": 824033699,
   "type": "Feature",
   "properties": {
+    "addr:full":"6335 Washington St Denver CO 80216",
+    "addr:housenumber":"6335",
+    "addr:postcode":"80216",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978128,39.81032,-104.978128,39.81032",
     "geom:latitude":39.81032,
     "geom:longitude":-104.978128,
@@ -29,19 +34,36 @@
         "sprinkler"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0AAFr6Gm8ML9CYJor1zdEs_39.810320_-104.978128@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452752,
-    "wof:geomhash":"481ef23a14a7805b51d146ced595d0e3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0b06f2235992c290ab9f21ed0dcc5898",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":824033699
+        }
+    ],
     "wof:id":824033699,
-    "wof:lastmodified":1466413909,
+    "wof:lastmodified":1492133136,
     "wof:name":"Aqua Green",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

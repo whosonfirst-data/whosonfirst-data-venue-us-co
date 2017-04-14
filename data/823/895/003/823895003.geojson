@@ -2,9 +2,14 @@
   "id": 823895003,
   "type": "Feature",
   "properties": {
+    "addr:full":"7380 Lowell Blvd Westminster CO 80030",
+    "addr:housenumber":"7380",
+    "addr:postcode":"80030",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034258,39.829579,-105.034258,39.829579",
     "geom:latitude":39.829579,
     "geom:longitude":-105.034258,
@@ -27,19 +32,36 @@
         "publisher"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553527
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0EsEHzR43rIvlTVgJwu4T7_39.829579_-105.034258@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449319,
-    "wof:geomhash":"5efbd17f0eb00af4bf2ef324a3046132",
-    "wof:hierarchy":[],
+    "wof:geomhash":"454c1af6f4bd70afaea5c523c617b75b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553527,
+            "region_id":85688603,
+            "venue_id":823895003
+        }
+    ],
     "wof:id":823895003,
-    "wof:lastmodified":1466420429,
+    "wof:lastmodified":1492116394,
     "wof:name":"Publishing House",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553527,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

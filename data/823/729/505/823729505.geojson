@@ -2,9 +2,14 @@
   "id": 823729505,
   "type": "Feature",
   "properties": {
+    "addr:full":"9400 Brighton Rd Henderson CO 80640",
+    "addr:housenumber":"9400",
+    "addr:postcode":"80640",
+    "addr:street":"Brighton Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.905146,39.866233,-104.905146,39.866233",
     "geom:latitude":39.866233,
     "geom:longitude":-104.905146,
@@ -26,10 +31,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
-        85929341,
+        85888297,
         102084053,
+        102191575,
+        85929341,
         85888307
     ],
     "wof:breaches":[],
@@ -38,8 +44,15 @@
     },
     "wof:country":"US",
     "wof:created":1463444890,
-    "wof:geomhash":"c7f7acd5fcb33dfef2c89dd03f292112",
+    "wof:geomhash":"b57cf226896c4e300e6b9f9289d49019",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084053,
+            "neighbourhood_id":85888297,
+            "region_id":85688603,
+            "venue_id":823729505
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -51,9 +64,9 @@
         }
     ],
     "wof:id":823729505,
-    "wof:lastmodified":1466418500,
+    "wof:lastmodified":1492118306,
     "wof:name":"Leadbetter Small Animal Hosp",
-    "wof:parent_id":85888307,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

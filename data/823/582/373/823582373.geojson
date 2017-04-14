@@ -2,9 +2,14 @@
   "id": 823582373,
   "type": "Feature",
   "properties": {
+    "addr:full":"5660 Sioux Dr Boulder CO 80303",
+    "addr:housenumber":"5660",
+    "addr:postcode":"80303",
+    "addr:street":"Sioux Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.230574,39.993084,-105.230574,39.993084",
     "geom:latitude":39.993084,
     "geom:longitude":-105.230574,
@@ -28,19 +33,36 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ORO5XTkyuU6kL1XWbRK03_39.993084_-105.230574@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441475,
-    "wof:geomhash":"801bcc5143fb6550bb36532c75507b7e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"18d405ffa33555e219be3cc4a01d49d9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":823582373
+        }
+    ],
     "wof:id":823582373,
-    "wof:lastmodified":1466416583,
+    "wof:lastmodified":1492124155,
     "wof:name":"East Boulder Community Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

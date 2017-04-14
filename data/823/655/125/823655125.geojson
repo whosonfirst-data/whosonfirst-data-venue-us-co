@@ -2,9 +2,14 @@
   "id": 823655125,
   "type": "Feature",
   "properties": {
+    "addr:full":"2261 Pine Terrace Ct Grand Junction CO 81503",
+    "addr:housenumber":"2261",
+    "addr:postcode":"81503",
+    "addr:street":"Pine Terrace Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.633594,39.08232,-108.633594,39.08232",
     "geom:latitude":39.08232,
     "geom:longitude":-108.633594,
@@ -30,19 +35,36 @@
         "heating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3L2IUEz79XOWgFwuEzC1Lb_39.082320_-108.633594@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443196,
-    "wof:geomhash":"4e2c2912819d7d9f7563970bb473cc64",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4dee8945a2fbafbf4bc215047474795f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554765,
+            "region_id":85688603,
+            "venue_id":823655125
+        }
+    ],
     "wof:id":823655125,
-    "wof:lastmodified":1466418107,
+    "wof:lastmodified":1492127916,
     "wof:name":"Murphys Plbg Htg & A Conditio",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

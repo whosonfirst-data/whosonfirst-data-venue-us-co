@@ -2,9 +2,14 @@
   "id": 823891565,
   "type": "Feature",
   "properties": {
+    "addr:full":"111 N Main St Mancos CO 81328",
+    "addr:housenumber":"111",
+    "addr:postcode":"81328",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.289011,37.34552,-108.289011,37.34552",
     "geom:latitude":37.34552,
     "geom:longitude":-108.289011,
@@ -24,19 +29,28 @@
     "sg:postcode":"81328",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ewznH1V4ZGL7AvPkwP5Of_37.345520_-108.289011@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449243,
-    "wof:geomhash":"9dfe2dc8904b01caaa6e8cd08f8ddec1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"61d6b142d458a665f0a1e86540c11a74",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823891565
+        }
+    ],
     "wof:id":823891565,
-    "wof:lastmodified":1466420162,
+    "wof:lastmodified":1492117603,
     "wof:name":"Mancos Public Library",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

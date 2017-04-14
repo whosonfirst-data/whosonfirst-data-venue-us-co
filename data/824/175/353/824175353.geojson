@@ -2,9 +2,14 @@
   "id": 824175353,
   "type": "Feature",
   "properties": {
+    "addr:full":"2817 Cherrystone Pl Fort Collins CO 80525",
+    "addr:housenumber":"2817",
+    "addr:postcode":"80525",
+    "addr:street":"Cherrystone Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025412,40.540931,-105.025412,40.540931",
     "geom:latitude":40.540931,
     "geom:longitude":-105.025412,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5RiKChKzwKFntXTJg3tuyo_40.540931_-105.025412@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456891,
-    "wof:geomhash":"879e1e624ace231507caf63004cf4ef6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6f799d3528d068f9dadee5e7ae94c60b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":824175353
+        }
+    ],
     "wof:id":824175353,
-    "wof:lastmodified":1466417966,
+    "wof:lastmodified":1492130920,
     "wof:name":"Zingmark Masonry LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

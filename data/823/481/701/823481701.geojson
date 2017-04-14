@@ -2,9 +2,14 @@
   "id": 823481701,
   "type": "Feature",
   "properties": {
+    "addr:full":"2305 S Townsend Ave Montrose CO 81401",
+    "addr:housenumber":"2305",
+    "addr:postcode":"81401",
+    "addr:street":"S Townsend Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.866195,38.461091,-107.866195,38.461091",
     "geom:latitude":38.461091,
     "geom:longitude":-107.866195,
@@ -28,17 +33,32 @@
         "fixture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2jdHC1xOlw88egzd1vXvsW_38.461091_-107.866195@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439115,
-    "wof:geomhash":"7dd984581d319f6dc85694634c193634",
-    "wof:hierarchy":[],
+    "wof:geomhash":"571db341c78211815d71e6e8fc92ff74",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":823481701
+        }
+    ],
     "wof:id":823481701,
-    "wof:lastmodified":1466413546,
+    "wof:lastmodified":1492120376,
     "wof:name":"House of Lights",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 839929669,
   "type": "Feature",
   "properties": {
+    "addr:full":"9201 Harrison St Thornton CO 80229",
+    "addr:housenumber":"9201",
+    "addr:postcode":"80229",
+    "addr:street":"Harrison St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.941061,39.863507,-104.941061,39.863507",
     "geom:latitude":39.863507,
     "geom:longitude":-104.941061,
@@ -27,19 +32,36 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553637
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6eKk34MnZ3VbIqMYKkgfq6_39.863507_-104.941061@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457955,
-    "wof:geomhash":"00ffc74e2786ba6f5721cabe0dc79a1a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"869bfd584c537579bcab7799d3d9f9aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553637,
+            "region_id":85688603,
+            "venue_id":839929669
+        }
+    ],
     "wof:id":839929669,
-    "wof:lastmodified":1466413961,
+    "wof:lastmodified":1492112937,
     "wof:name":"Chance Dawn Home Inspections",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553637,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

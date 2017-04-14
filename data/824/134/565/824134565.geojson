@@ -2,9 +2,14 @@
   "id": 824134565,
   "type": "Feature",
   "properties": {
+    "addr:full":"12220 Colorado Blvd Denver CO 80241",
+    "addr:housenumber":"12220",
+    "addr:postcode":"80241",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940108,39.9202,-104.940108,39.9202",
     "geom:latitude":39.9202,
     "geom:longitude":-104.940108,
@@ -28,19 +33,36 @@
         "complex"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3col6qK7rrjZKsptwUE6T4_39.920200_-104.940108@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455316,
-    "wof:geomhash":"39063ddd4b475f91c4126d1a4e57936c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"841d0418ab1d82f480337492322b60b8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":824134565
+        }
+    ],
     "wof:id":824134565,
-    "wof:lastmodified":1466416389,
+    "wof:lastmodified":1492129021,
     "wof:name":"Fox Creek I",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

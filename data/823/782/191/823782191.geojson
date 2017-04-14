@@ -2,9 +2,14 @@
   "id": 823782191,
   "type": "Feature",
   "properties": {
+    "addr:full":"810 N Main St Gunnison CO 81230",
+    "addr:housenumber":"810",
+    "addr:postcode":"81230",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.926835,38.551396,-106.926835,38.551396",
     "geom:latitude":38.551396,
     "geom:longitude":-106.926835,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554411
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4OtlFdQHkVkVObi0vBKK6G_38.551396_-106.926835@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446146,
-    "wof:geomhash":"8502f9d0eaab928600c4bc1d221bf93e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e4dd8454e9e47ceff3279aaf14983de0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554411,
+            "region_id":85688603,
+            "venue_id":823782191
+        }
+    ],
     "wof:id":823782191,
-    "wof:lastmodified":1466419192,
+    "wof:lastmodified":1492120066,
     "wof:name":"Secret Creek Spirits",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554411,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

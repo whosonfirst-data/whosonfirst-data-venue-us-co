@@ -2,9 +2,14 @@
   "id": 824010965,
   "type": "Feature",
   "properties": {
+    "addr:full":"11900 Pecos St Denver CO 80234",
+    "addr:housenumber":"11900",
+    "addr:postcode":"80234",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006023,39.912227,-105.006023,39.912227",
     "geom:latitude":39.912227,
     "geom:longitude":-105.006023,
@@ -28,19 +33,36 @@
         "interest"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6AInlfqNClDHi5DpYjLRLY_39.912227_-105.006023@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452219,
-    "wof:geomhash":"6b3f273b55a8b5814e7cbde5deb8f694",
-    "wof:hierarchy":[],
+    "wof:geomhash":"db393a450f3e85e2740e9b667c8b7a12",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":824010965
+        }
+    ],
     "wof:id":824010965,
-    "wof:lastmodified":1466412984,
+    "wof:lastmodified":1492129070,
     "wof:name":"Denver Library",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

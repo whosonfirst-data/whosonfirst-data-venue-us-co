@@ -2,9 +2,14 @@
   "id": 823925453,
   "type": "Feature",
   "properties": {
+    "addr:full":"3333 Regis Blvd Denver CO 80221",
+    "addr:housenumber":"3333",
+    "addr:postcode":"80221",
+    "addr:street":"Regis Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030698,39.787355,-105.030698,39.787355",
     "geom:latitude":39.787355,
     "geom:longitude":-105.030698,
@@ -27,19 +32,38 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871251,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6CINPO35fX3awIlnkI8M7l_39.787355_-105.030698@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450135,
-    "wof:geomhash":"3ce1a6e6cd43a53e8c832ec041c86497",
-    "wof:hierarchy":[],
+    "wof:geomhash":"92db0cc6336bf97c40a0112f95a23361",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871251,
+            "region_id":85688603,
+            "venue_id":823925453
+        }
+    ],
     "wof:id":823925453,
-    "wof:lastmodified":1466420418,
+    "wof:lastmodified":1492126359,
     "wof:name":"Regis Dayton Memorial Library",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

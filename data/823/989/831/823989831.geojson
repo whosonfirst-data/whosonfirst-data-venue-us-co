@@ -2,9 +2,14 @@
   "id": 823989831,
   "type": "Feature",
   "properties": {
+    "addr:full":"14421 Tejon St Broomfield CO 80023",
+    "addr:housenumber":"14421",
+    "addr:postcode":"80023",
+    "addr:street":"Tejon St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.010971,39.965483,-105.010971,39.965483",
     "geom:latitude":39.965483,
     "geom:longitude":-105.010971,
@@ -26,9 +31,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929351,
         102084053,
+        420553459,
         85888293
     ],
     "wof:breaches":[],
@@ -37,9 +44,19 @@
     },
     "wof:country":"US",
     "wof:created":1463451711,
-    "wof:geomhash":"358fc058706e7d66a75d5fcad65858c8",
+    "wof:geomhash":"114303d07ff82aa17352d95c3c3fb3d7",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553459,
+            "region_id":85688603,
+            "venue_id":823989831
+        },
+        {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102084053,
             "locality_id":85929351,
@@ -49,9 +66,9 @@
         }
     ],
     "wof:id":823989831,
-    "wof:lastmodified":1466421008,
+    "wof:lastmodified":1492117686,
     "wof:name":"Matco Tools",
-    "wof:parent_id":85888293,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

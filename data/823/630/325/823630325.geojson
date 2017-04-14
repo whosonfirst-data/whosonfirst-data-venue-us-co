@@ -2,9 +2,14 @@
   "id": 823630325,
   "type": "Feature",
   "properties": {
+    "addr:full":"4999 Pearl East Cir Boulder CO 80301",
+    "addr:housenumber":"4999",
+    "addr:postcode":"80301",
+    "addr:street":"Pearl East Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.238466,40.021155,-105.238466,40.021155",
     "geom:latitude":40.021155,
     "geom:longitude":-105.238466,
@@ -28,19 +33,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_63MXwF8WRujoQjgDMGztG7_40.021155_-105.238466@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442637,
-    "wof:geomhash":"ccd16de5f5e02e1d2164dcfb3c97efbd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4f84e8653e4b3e8adff09c4052a6d4bf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823630325
+        }
+    ],
     "wof:id":823630325,
-    "wof:lastmodified":1466417632,
+    "wof:lastmodified":1492123701,
     "wof:name":"RPC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

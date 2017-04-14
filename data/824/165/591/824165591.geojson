@@ -2,9 +2,14 @@
   "id": 824165591,
   "type": "Feature",
   "properties": {
+    "addr:full":"1275 W 133rd Cir Denver CO 80234",
+    "addr:housenumber":"1275",
+    "addr:postcode":"80234",
+    "addr:street":"W 133Rd Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001867,39.938178,-105.001867,39.938178",
     "geom:latitude":39.938178,
     "geom:longitude":-105.001867,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3CVk9TGZWXqiUsJF22C2fz_39.938178_-105.001867@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456512,
-    "wof:geomhash":"ff91afc968f54ced9335f4aa3fde6599",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53faef49e32e324dbe8396273c6dbe28",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":824165591
+        }
+    ],
     "wof:id":824165591,
-    "wof:lastmodified":1466417721,
+    "wof:lastmodified":1492129903,
     "wof:name":"Monarch Construction Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

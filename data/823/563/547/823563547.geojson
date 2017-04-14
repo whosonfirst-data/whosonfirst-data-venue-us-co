@@ -2,9 +2,14 @@
   "id": 823563547,
   "type": "Feature",
   "properties": {
+    "addr:full":"1632 S Murray Blvd Colorado Springs CO 80916",
+    "addr:housenumber":"1632",
+    "addr:postcode":"80916",
+    "addr:street":"S Murray Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.751735,38.809172,-104.751735,38.809172",
     "geom:latitude":38.809172,
     "geom:longitude":-104.751735,
@@ -27,19 +32,36 @@
         "electrical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_08V1sXn4N2Lrpu4mRVrS54_38.809172_-104.751735@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441028,
-    "wof:geomhash":"35bef6208252331eabeb5c3781e8650e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3f923e2aae994de0059b35b89d425394",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823563547
+        }
+    ],
     "wof:id":823563547,
-    "wof:lastmodified":1466416168,
+    "wof:lastmodified":1492125029,
     "wof:name":"ARINC Incorporated",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

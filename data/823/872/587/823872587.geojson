@@ -2,9 +2,14 @@
   "id": 823872587,
   "type": "Feature",
   "properties": {
+    "addr:full":"915 Centre Ave Fort Collins CO 80526",
+    "addr:housenumber":"915",
+    "addr:postcode":"80526",
+    "addr:street":"Centre Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.091317,40.555906,-105.091317,40.555906",
     "geom:latitude":40.555906,
     "geom:longitude":-105.091317,
@@ -34,19 +39,36 @@
         "care"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5QIt1VSu4RTcF3HZsPSCa2_40.555906_-105.091317@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448798,
-    "wof:geomhash":"9ccb07f6fcd714781c615d69c4576c87",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a3afd351690f42376039cdc0df57ddd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823872587
+        }
+    ],
     "wof:id":823872587,
-    "wof:lastmodified":1466420094,
+    "wof:lastmodified":1492120189,
     "wof:name":"Columbine Medical Equipment",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

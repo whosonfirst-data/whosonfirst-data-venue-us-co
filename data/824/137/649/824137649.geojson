@@ -2,9 +2,14 @@
   "id": 824137649,
   "type": "Feature",
   "properties": {
+    "addr:full":"6381 W Alameda Ave Denver CO 80226",
+    "addr:housenumber":"6381",
+    "addr:postcode":"80226",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067056,39.711206,-105.067056,39.711206",
     "geom:latitude":39.711206,
     "geom:longitude":-105.067056,
@@ -28,19 +33,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Qp2n8q0DNOQlGRCE4acmp_39.711206_-105.067056@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455425,
-    "wof:geomhash":"a5b17130c3a12f2cf61aa05207d50fe3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a851e814d6c3e35a5d97e5d2988109b5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":824137649
+        }
+    ],
     "wof:id":824137649,
-    "wof:lastmodified":1466416225,
+    "wof:lastmodified":1492129764,
     "wof:name":"Front Range Security Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

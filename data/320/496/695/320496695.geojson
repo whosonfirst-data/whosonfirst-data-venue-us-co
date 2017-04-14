@@ -2,9 +2,14 @@
   "id": 320496695,
   "type": "Feature",
   "properties": {
+    "addr:full":"3434 47th St Ste 201 Boulder CO 80301",
+    "addr:housenumber":"3434",
+    "addr:postcode":"80301",
+    "addr:street":"47Th St Ste 201",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.244202,40.035876,-105.244202,40.035876",
     "geom:latitude":40.035876,
     "geom:longitude":-105.244202,
@@ -33,9 +38,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
+        85930751,
         102085251,
-        85853473
+        85929877
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -45,19 +52,26 @@
     "wof:geomhash":"02fa909ee0ca4c120bc4f62c1f8d6a34",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102085251,
-            "locality_id":-1,
-            "neighbourhood_id":85853473,
+            "locality_id":85930751,
+            "region_id":85688603,
+            "venue_id":320496695
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
             "region_id":85688603,
             "venue_id":320496695
         }
     ],
     "wof:id":320496695,
-    "wof:lastmodified":1466413423,
+    "wof:lastmodified":1491620041,
     "wof:name":"Boulder Valley Rheumatogy",
-    "wof:parent_id":85853473,
+    "wof:parent_id":-1,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

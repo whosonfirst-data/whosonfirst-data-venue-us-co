@@ -2,9 +2,14 @@
   "id": 823532797,
   "type": "Feature",
   "properties": {
+    "addr:full":"530 Malley Dr Denver CO 80233",
+    "addr:housenumber":"530",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979972,39.902938,-104.979972,39.902938",
     "geom:latitude":39.902938,
     "geom:longitude":-104.979972,
@@ -28,19 +33,36 @@
         "security"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4nM4HBdUm7PGsedDNV9YpB_39.902938_-104.979972@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440308,
-    "wof:geomhash":"769709bdaaa82af81b02e05375746d90",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c408f92fb0ae48a62028b43024e73ee",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":823532797
+        }
+    ],
     "wof:id":823532797,
-    "wof:lastmodified":1466415497,
+    "wof:lastmodified":1492122838,
     "wof:name":"Gt Global Staffing Industrial",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

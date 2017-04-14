@@ -2,9 +2,14 @@
   "id": 823682257,
   "type": "Feature",
   "properties": {
+    "addr:full":"1525 Havana St Aurora CO 80010",
+    "addr:housenumber":"1525",
+    "addr:postcode":"80010",
+    "addr:street":"Havana St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.86588,39.741537,-104.86588,39.741537",
     "geom:latitude":39.741537,
     "geom:longitude":-104.86588,
@@ -27,19 +32,36 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553937
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1v6ok2BfXMjBGvRLOHtBwG_39.741537_-104.865880@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443835,
-    "wof:geomhash":"ec47449a2c077743a0f055524d5d26a0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"35192d997c4210f6b52f0b21f145f300",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553937,
+            "region_id":85688603,
+            "venue_id":823682257
+        }
+    ],
     "wof:id":823682257,
-    "wof:lastmodified":1466418429,
+    "wof:lastmodified":1492116763,
     "wof:name":"Montclair Management Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553937,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

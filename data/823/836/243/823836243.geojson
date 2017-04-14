@@ -2,9 +2,14 @@
   "id": 823836243,
   "type": "Feature",
   "properties": {
+    "addr:full":"8852 Washington St Denver CO 80229",
+    "addr:housenumber":"8852",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977721,39.859294,-104.977721,39.859294",
     "geom:latitude":39.859294,
     "geom:longitude":-104.977721,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_55gSJBV7nf8L4Tby9n5rx1_39.859294_-104.977721@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447804,
-    "wof:geomhash":"b1c36b1a917da3b9f240e49bf155edae",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d3ad8e4a1488c1d290ab70ec3c3fccd8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823836243
+        }
+    ],
     "wof:id":823836243,
-    "wof:lastmodified":1466419661,
+    "wof:lastmodified":1492126253,
     "wof:name":"Colorado Victory 2004",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

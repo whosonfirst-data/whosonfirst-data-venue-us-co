@@ -2,9 +2,14 @@
   "id": 823619463,
   "type": "Feature",
   "properties": {
+    "addr:full":"660 Co Rd 301 Durango CO 81303",
+    "addr:housenumber":"660;301",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.821492,37.207543,-107.821492,37.207543",
     "geom:latitude":37.207543,
     "geom:longitude":-107.821492,
@@ -29,19 +34,28 @@
         "seminar"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4lWW9AyuTX9odDGYJUe0f7_37.207543_-107.821492@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442379,
-    "wof:geomhash":"d4e19b867e3fc560d4f912cb81428ca7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"797aa504e5ca4d3cf9b30d9b0e047632",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823619463
+        }
+    ],
     "wof:id":823619463,
-    "wof:lastmodified":1466417463,
+    "wof:lastmodified":1492118595,
     "wof:name":"Durango Sanga Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

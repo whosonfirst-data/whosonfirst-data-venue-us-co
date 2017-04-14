@@ -2,9 +2,14 @@
   "id": 823833735,
   "type": "Feature",
   "properties": {
+    "addr:full":"922 N 1st St Grand Junction CO 81501",
+    "addr:housenumber":"922",
+    "addr:postcode":"81501",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570788,39.07618,-108.570788,39.07618",
     "geom:latitude":39.07618,
     "geom:longitude":-108.570788,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0DNffgQATsH9LLeeGlukkd_39.076180_-108.570788@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447707,
-    "wof:geomhash":"d51705f90905f4e71a310c444430de16",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0c761be7ec27e7d7f1e030b52a46b2b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823833735
+        }
+    ],
     "wof:id":823833735,
-    "wof:lastmodified":1466419694,
+    "wof:lastmodified":1492117997,
     "wof:name":"Andy's Liquor Mart",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

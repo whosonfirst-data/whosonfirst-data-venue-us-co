@@ -2,9 +2,14 @@
   "id": 823981153,
   "type": "Feature",
   "properties": {
+    "addr:full":"725 Co Rd 101 Hesperus CO 81326",
+    "addr:housenumber":"725",
+    "addr:postcode":"81326",
+    "addr:street":"Co Rd 101 Hesperus",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.146299,37.110948,-108.146299,37.110948",
     "geom:latitude":37.110948,
     "geom:longitude":-108.146299,
@@ -29,19 +34,28 @@
         "drilling"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0lLSMlfvg6yJfp4b9s8dSY_37.110948_-108.146299@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451513,
-    "wof:geomhash":"3642f5053d015c410d6e15dd48997fcb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e5bcfdd012ebcfb57f86cfa15a7da921",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":823981153
+        }
+    ],
     "wof:id":823981153,
-    "wof:lastmodified":1466420876,
+    "wof:lastmodified":1492126581,
     "wof:name":"Campbells Drilling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

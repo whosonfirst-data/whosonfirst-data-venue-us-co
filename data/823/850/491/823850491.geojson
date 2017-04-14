@@ -2,9 +2,14 @@
   "id": 823850491,
   "type": "Feature",
   "properties": {
+    "addr:full":"210 S Sheridan Ave Holyoke CO 80734",
+    "addr:housenumber":"210",
+    "addr:postcode":"80734",
+    "addr:street":"S Sheridan Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.309102,40.584432,-102.309102,40.584432",
     "geom:latitude":40.584432,
     "geom:longitude":-102.309102,
@@ -27,17 +32,32 @@
         "surveyor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929161,
+        102085217
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2kFcRBGYzrtJbgnS48uG48_40.584432_-102.309102@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448235,
-    "wof:geomhash":"740ced24be138ae35dce32760108fe08",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0f009bc2dd16751ece7225003dd273e1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085217,
+            "locality_id":85929161,
+            "region_id":85688603,
+            "venue_id":823850491
+        }
+    ],
     "wof:id":823850491,
-    "wof:lastmodified":1466419816,
+    "wof:lastmodified":1492117814,
     "wof:name":"Great Plains Surveying",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

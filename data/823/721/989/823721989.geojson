@@ -2,9 +2,14 @@
   "id": 823721989,
   "type": "Feature",
   "properties": {
+    "addr:full":"104 W Highland St Oak Creek CO 80467",
+    "addr:housenumber":"104",
+    "addr:postcode":"80467",
+    "addr:street":"W Highland St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.958848,40.271501,-106.958848,40.271501",
     "geom:latitude":40.271501,
     "geom:longitude":-106.958848,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929271,
+        102086129,
+        420555335
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Qbd3OlTOH2U2Pr7TBOhHG_40.271501_-106.958848@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444688,
-    "wof:geomhash":"5167e4099a4e591be1a32486d9e2e850",
-    "wof:hierarchy":[],
+    "wof:geomhash":"efbd412216e63181732ea6d07c2ef9ce",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929271,
+            "neighbourhood_id":420555335,
+            "region_id":85688603,
+            "venue_id":823721989
+        }
+    ],
     "wof:id":823721989,
-    "wof:lastmodified":1466418757,
+    "wof:lastmodified":1492121562,
     "wof:name":"Concrete Decor",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555335,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

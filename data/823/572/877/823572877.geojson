@@ -2,9 +2,14 @@
   "id": 823572877,
   "type": "Feature",
   "properties": {
+    "addr:full":"1619 S Vrain St Denver CO 80219",
+    "addr:housenumber":"1619",
+    "addr:postcode":"80219",
+    "addr:street":"S Vrain St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.046212,39.685809,-105.046212,39.685809",
     "geom:latitude":39.685809,
     "geom:longitude":-105.046212,
@@ -28,19 +33,38 @@
         "improvement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3P9dNVZGClnU8mkOBKr496_39.685809_-105.046212@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441247,
-    "wof:geomhash":"23de6ee1549d77beb41f2efd75e41c72",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f6fbfc6fa9516bb3cdc7bfbdf77a5e84",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":823572877
+        }
+    ],
     "wof:id":823572877,
-    "wof:lastmodified":1466416387,
+    "wof:lastmodified":1492121974,
     "wof:name":"E & I Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839950505,
   "type": "Feature",
   "properties": {
+    "addr:full":"2649 S Meade St Denver CO 80219",
+    "addr:housenumber":"2649",
+    "addr:postcode":"80219",
+    "addr:street":"S Meade St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.035985,39.668979,-105.035985,39.668979",
     "geom:latitude":39.668979,
     "geom:longitude":-105.035985,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1T3m7zn3uMPsmFk25R66WV_39.668979_-105.035985@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463459141,
     "wof:geomhash":"86ce764bac0399a0f0be936b27b1f8c5",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":839950505
+        }
+    ],
     "wof:id":839950505,
-    "wof:lastmodified":1466415368,
+    "wof:lastmodified":1486593725,
     "wof:name":"Touch Down Carpets",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

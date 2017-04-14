@@ -2,9 +2,14 @@
   "id": 823853023,
   "type": "Feature",
   "properties": {
+    "addr:full":"3234 W Fairview Pl Denver CO 80211",
+    "addr:housenumber":"3234",
+    "addr:postcode":"80211",
+    "addr:street":"W Fairview Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.029409,39.763664,-105.029409,39.763664",
     "geom:latitude":39.763664,
     "geom:longitude":-105.029409,
@@ -28,19 +33,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3XaunrPXIMsui7KBHFogg3_39.763664_-105.029409@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448303,
-    "wof:geomhash":"d4ab46c3345120e0426de28e3414cd9c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d3c5345dd1a3078f41447f32ecef4e79",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823853023
+        }
+    ],
     "wof:id":823853023,
-    "wof:lastmodified":1466419782,
+    "wof:lastmodified":1492123443,
     "wof:name":"Mellick Carpentry",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

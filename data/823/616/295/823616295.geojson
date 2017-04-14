@@ -2,9 +2,14 @@
   "id": 823616295,
   "type": "Feature",
   "properties": {
+    "addr:full":"2075 Clinton St Aurora CO 80010",
+    "addr:housenumber":"2075",
+    "addr:postcode":"80010",
+    "addr:street":"Clinton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.877643,39.748585,-104.877643,39.748585",
     "geom:latitude":39.748585,
     "geom:longitude":-104.877643,
@@ -28,17 +33,32 @@
         "facility"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1dFQ3mWfVnO5QiBG5ZJm0T_39.748585_-104.877643@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442305,
-    "wof:geomhash":"7f74ad2839e990d78589ce2db4e70fc3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1cf496af5ece6d84a41afd1e6536700b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823616295
+        }
+    ],
     "wof:id":823616295,
-    "wof:lastmodified":1466417388,
+    "wof:lastmodified":1492116246,
     "wof:name":"Greyhound Lines",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

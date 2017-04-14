@@ -2,9 +2,14 @@
   "id": 824159523,
   "type": "Feature",
   "properties": {
+    "addr:full":"113 E Main St Cortez CO 81321",
+    "addr:housenumber":"113",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.58371,37.348571,-108.58371,37.348571",
     "geom:latitude":37.348571,
     "geom:longitude":-108.58371,
@@ -29,19 +34,28 @@
         "offset"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2kYvCKxhvJ8VbGS7FPsykV_37.348571_-108.583710@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456280,
-    "wof:geomhash":"723e473499c5f4ab3301827c6a162179",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ff2bb1d2c64f9ed775ca02789649ef55",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":824159523
+        }
+    ],
     "wof:id":824159523,
-    "wof:lastmodified":1466417379,
+    "wof:lastmodified":1492128661,
     "wof:name":"Southwest Printing Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

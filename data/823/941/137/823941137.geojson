@@ -2,9 +2,14 @@
   "id": 823941137,
   "type": "Feature",
   "properties": {
+    "addr:full":"241 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"241",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.568472,39.077342,-108.568472,39.077342",
     "geom:latitude":39.077342,
     "geom:longitude":-108.568472,
@@ -28,19 +33,36 @@
         "washing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Np183U5bf7o7fem2hmrsU_39.077342_-108.568472@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450552,
-    "wof:geomhash":"305087a62ccdc5510ed851fe3a03e8eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8591bf1f2a87526e96f3829e3e8716c9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823941137
+        }
+    ],
     "wof:id":823941137,
-    "wof:lastmodified":1466420517,
+    "wof:lastmodified":1492124446,
     "wof:name":"North Avenue Car Wash",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

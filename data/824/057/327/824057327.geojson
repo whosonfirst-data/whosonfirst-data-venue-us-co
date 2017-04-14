@@ -2,9 +2,14 @@
   "id": 824057327,
   "type": "Feature",
   "properties": {
+    "addr:full":"2565 Kenwood Dr Boulder CO 80305",
+    "addr:housenumber":"2565",
+    "addr:postcode":"80305",
+    "addr:street":"Kenwood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.262685,39.988395,-105.262685,39.988395",
     "geom:latitude":39.988395,
     "geom:longitude":-105.262685,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0hwsOjnS5OtWZSWO1a69WS_39.988395_-105.262685@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453336,
-    "wof:geomhash":"79bfa31d3aac8302a9cd0a73e216b946",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9413d595cc15347f309aa5720390a30c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":824057327
+        }
+    ],
     "wof:id":824057327,
-    "wof:lastmodified":1466414463,
+    "wof:lastmodified":1492132983,
     "wof:name":"Louis Puls Patent Agent",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

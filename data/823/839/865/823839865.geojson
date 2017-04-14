@@ -2,9 +2,14 @@
   "id": 823839865,
   "type": "Feature",
   "properties": {
+    "addr:full":"2349 E 124th Ct Denver CO 80241",
+    "addr:housenumber":"2349",
+    "addr:postcode":"80241",
+    "addr:street":"E 124Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.958025,39.922905,-104.958025,39.922905",
     "geom:latitude":39.922905,
     "geom:longitude":-104.958025,
@@ -28,19 +33,36 @@
         "operative"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2QKMYHROG1HDFz8Fm4ir8X_39.922905_-104.958025@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447932,
-    "wof:geomhash":"5974d6ab797622f86185b534bbaa39f6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d31905e1800db6c10d486f17846e01d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823839865
+        }
+    ],
     "wof:id":823839865,
-    "wof:lastmodified":1466419762,
+    "wof:lastmodified":1492118545,
     "wof:name":"Critical Dimensions LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

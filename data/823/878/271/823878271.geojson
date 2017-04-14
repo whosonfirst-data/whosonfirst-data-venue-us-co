@@ -2,9 +2,14 @@
   "id": 823878271,
   "type": "Feature",
   "properties": {
+    "addr:full":"5000 E 120th Pl Denver CO 80241",
+    "addr:housenumber":"5000",
+    "addr:postcode":"80241",
+    "addr:street":"E 120Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927853,39.91448,-104.927853,39.91448",
     "geom:latitude":39.91448,
     "geom:longitude":-104.927853,
@@ -24,19 +29,36 @@
     "sg:postcode":"80241",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2UXd8Om3nmOw2XVuj1F3Hc_39.914480_-104.927853@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448934,
-    "wof:geomhash":"c99b5efe196b550ec951e687f030a93e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"38d9be10243b6688d53c614aecd03c44",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":823878271
+        }
+    ],
     "wof:id":823878271,
-    "wof:lastmodified":1466420019,
+    "wof:lastmodified":1492127878,
     "wof:name":"James Stanek",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

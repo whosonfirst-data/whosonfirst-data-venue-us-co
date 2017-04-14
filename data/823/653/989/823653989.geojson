@@ -2,9 +2,14 @@
   "id": 823653989,
   "type": "Feature",
   "properties": {
+    "addr:full":"18500 E Colfax Ave Aurora CO 80011",
+    "addr:housenumber":"18500",
+    "addr:postcode":"80011",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.770209,39.740251,-104.770209,39.740251",
     "geom:latitude":39.740251,
     "geom:longitude":-104.770209,
@@ -33,7 +38,9 @@
         85633793,
         85929235,
         102086877,
-        85872959
+        420559489,
+        85872959,
+        420559491
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,8 +48,17 @@
     },
     "wof:country":"US",
     "wof:created":1463443173,
-    "wof:geomhash":"53b1bc6c9042f9a115a4c3f9ac86d762",
+    "wof:geomhash":"7c822f2a65cc800f23db052b1e5a412d",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420559489,
+            "region_id":85688603,
+            "venue_id":823653989
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -51,12 +67,21 @@
             "neighbourhood_id":85872959,
             "region_id":85688603,
             "venue_id":823653989
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420559491,
+            "region_id":85688603,
+            "venue_id":823653989
         }
     ],
     "wof:id":823653989,
-    "wof:lastmodified":1466418157,
+    "wof:lastmodified":1492122353,
     "wof:name":"Rideway Department",
-    "wof:parent_id":85872959,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

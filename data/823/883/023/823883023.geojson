@@ -2,9 +2,14 @@
   "id": 823883023,
   "type": "Feature",
   "properties": {
+    "addr:full":"1317 W 121st Ave Denver CO 80234",
+    "addr:housenumber":"1317",
+    "addr:postcode":"80234",
+    "addr:street":"W 121St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.002812,39.916058,-105.002812,39.916058",
     "geom:latitude":39.916058,
     "geom:longitude":-105.002812,
@@ -30,19 +35,36 @@
     ],
     "sg:website":"www.servicewise.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1WVI0SxQt6sima9cHyNNa7_39.916058_-105.002812@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449038,
-    "wof:geomhash":"86ba4e8d2ddf3516d73542418d700991",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ca72b998bd8f7b603eee5f5479de93ad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823883023
+        }
+    ],
     "wof:id":823883023,
-    "wof:lastmodified":1466419991,
+    "wof:lastmodified":1492119896,
     "wof:name":"Lord & Reynolds Electric Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

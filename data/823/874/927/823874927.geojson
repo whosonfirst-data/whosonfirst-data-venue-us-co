@@ -2,9 +2,14 @@
   "id": 823874927,
   "type": "Feature",
   "properties": {
+    "addr:full":"722 S Lashley Ln Boulder CO 80305",
+    "addr:housenumber":"722",
+    "addr:postcode":"80305",
+    "addr:street":"S Lashley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.246824,39.982569,-105.246824,39.982569",
     "geom:latitude":39.982569,
     "geom:longitude":-105.246824,
@@ -27,19 +32,36 @@
         "equipment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0y7Z9Pe5Rc5VcRGUHRwlfi_39.982569_-105.246824@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448842,
-    "wof:geomhash":"753220ce7fd96af28dfd2b65f427434b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e4a492dffd09f656cab5cf478a5059f1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":823874927
+        }
+    ],
     "wof:id":823874927,
-    "wof:lastmodified":1466419969,
+    "wof:lastmodified":1492122871,
     "wof:name":"RDS Illumination Products",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823649573,
   "type": "Feature",
   "properties": {
+    "addr:full":"625 S Decatur St Denver CO 80219",
+    "addr:housenumber":"625",
+    "addr:postcode":"80219",
+    "addr:street":"S Decatur St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.022776,39.704334,-105.022776,39.704334",
     "geom:latitude":39.704334,
     "geom:longitude":-105.022776,
@@ -27,7 +32,15 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554317,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7FeUZc9eZg63xYwhJS1oKp_39.704334_-105.022776@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463443072,
     "wof:geomhash":"000768f984b986838b3e3fcb022264fd",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554317,
+            "region_id":85688603,
+            "venue_id":823649573
+        }
+    ],
     "wof:id":823649573,
-    "wof:lastmodified":1466418019,
+    "wof:lastmodified":1491876271,
     "wof:name":"Red Oak Construction & Paintin",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823795311,
   "type": "Feature",
   "properties": {
+    "addr:full":"130 W Bridge St Brighton CO 80601",
+    "addr:housenumber":"130",
+    "addr:postcode":"80601",
+    "addr:street":"W Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.822736,39.986751,-104.822736,39.986751",
     "geom:latitude":39.986751,
     "geom:longitude":-104.822736,
@@ -27,19 +32,36 @@
         "upholsterer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553351
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_71D0bIhFBg8WwLUxHF92mV_39.986751_-104.822736@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446584,
-    "wof:geomhash":"10a97e287dc70089aeef746cb3dc06e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5f0461bf41d49553feb86c2c77514cf3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553351,
+            "region_id":85688603,
+            "venue_id":823795311
+        }
+    ],
     "wof:id":823795311,
-    "wof:lastmodified":1466419280,
+    "wof:lastmodified":1492120431,
     "wof:name":"Bear Creek Upholstery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553351,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

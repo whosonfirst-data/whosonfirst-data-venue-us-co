@@ -2,9 +2,14 @@
   "id": 839947175,
   "type": "Feature",
   "properties": {
+    "addr:full":"312 F St Salida CO 81201",
+    "addr:housenumber":"312",
+    "addr:postcode":"81201",
+    "addr:street":"F St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.993625,38.534494,-105.993625,38.534494",
     "geom:latitude":38.534494,
     "geom:longitude":-105.993625,
@@ -28,17 +33,32 @@
         "fixture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928803,
+        102085255
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7NJTB3zsGDraVIwXJFuvhf_38.534494_-105.993625@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458997,
-    "wof:geomhash":"5aaf99610a4cf8cb245240a66aa2b713",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1e32a314934d874ee9bb0d72b115cfb6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085255,
+            "locality_id":85928803,
+            "region_id":85688603,
+            "venue_id":839947175
+        }
+    ],
     "wof:id":839947175,
-    "wof:lastmodified":1466415130,
+    "wof:lastmodified":1492113028,
     "wof:name":"Home Lighting",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

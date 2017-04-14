@@ -2,9 +2,14 @@
   "id": 823998269,
   "type": "Feature",
   "properties": {
+    "addr:full":"2732 Co Rd 27 Fort Lupton CO 80621",
+    "addr:housenumber":"2732;27",
+    "addr:postcode":"80621",
+    "addr:street":"Co Rd;Fort Lupton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810422,40.040931,-104.810422,40.040931",
     "geom:latitude":40.040931,
     "geom:longitude":-104.810422,
@@ -29,19 +34,28 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4NLYwgX8xh03qzYJEWX9V6_40.040931_-104.810422@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451948,
-    "wof:geomhash":"ff0ccebf76e356196f90d14b76fd5db4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"af3db92de6b185c95e2134c021d715e4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823998269
+        }
+    ],
     "wof:id":823998269,
-    "wof:lastmodified":1466420872,
+    "wof:lastmodified":1492127408,
     "wof:name":"M B Auto Salvage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

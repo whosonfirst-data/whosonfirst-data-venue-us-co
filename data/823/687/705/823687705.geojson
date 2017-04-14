@@ -2,9 +2,14 @@
   "id": 823687705,
   "type": "Feature",
   "properties": {
+    "addr:full":"235 US Hwy 85 Brighton CO 80603",
+    "addr:housenumber":"235",
+    "addr:postcode":"80603",
+    "addr:street":"Us Hwy 85",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.821852,40.001014,-104.821852,40.001014",
     "geom:latitude":40.001014,
     "geom:longitude":-104.821852,
@@ -28,19 +33,28 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4pfS0mKpd3au9VT3lm8Jsg_40.001014_-104.821852@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443965,
-    "wof:geomhash":"769bb74b81bd796d9dc6303f41de0219",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d629086bdd35ad53072711706fa4e6a6",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":823687705
+        }
+    ],
     "wof:id":823687705,
-    "wof:lastmodified":1466418433,
+    "wof:lastmodified":1492121518,
     "wof:name":"Tri-State Insulating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555409,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

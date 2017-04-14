@@ -2,9 +2,14 @@
   "id": 824144345,
   "type": "Feature",
   "properties": {
+    "addr:full":"4959 Kingston St Denver CO 80239",
+    "addr:housenumber":"4959",
+    "addr:postcode":"80239",
+    "addr:street":"Kingston St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.859107,39.790047,-104.859107,39.790047",
     "geom:latitude":39.790047,
     "geom:longitude":-104.859107,
@@ -29,7 +34,15 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1AOcMDCY8JFhALSHMTdqSt_39.790047_-104.859107@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463455667,
     "wof:geomhash":"f8dd3d9c88ce292948f8a598d50418e6",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":824144345
+        }
+    ],
     "wof:id":824144345,
-    "wof:lastmodified":1466416576,
+    "wof:lastmodified":1491887462,
     "wof:name":"Brewers Supply Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

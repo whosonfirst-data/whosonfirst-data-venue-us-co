@@ -2,9 +2,14 @@
   "id": 823836543,
   "type": "Feature",
   "properties": {
+    "addr:full":"5250 W 1st Ave Lakewood CO 80226",
+    "addr:housenumber":"5250",
+    "addr:postcode":"80226",
+    "addr:street":"W 1St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053993,39.718533,-105.053993,39.718533",
     "geom:latitude":39.718533,
     "geom:longitude":-105.053993,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Atd5vol6u9i1OuX9tj04J_39.718533_-105.053993@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447815,
-    "wof:geomhash":"8acd1ad7b7c8fbec1938c6cc0dccd908",
-    "wof:hierarchy":[],
+    "wof:geomhash":"31591d02bf5edaef838ab59b75e81605",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823836543
+        }
+    ],
     "wof:id":823836543,
-    "wof:lastmodified":1466419692,
+    "wof:lastmodified":1492126251,
     "wof:name":"Lakewood New Life Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

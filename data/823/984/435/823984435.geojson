@@ -2,9 +2,14 @@
   "id": 823984435,
   "type": "Feature",
   "properties": {
+    "addr:full":"909 Centre Ave Fort Collins CO 80526",
+    "addr:housenumber":"909",
+    "addr:postcode":"80526",
+    "addr:street":"Centre Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.091074,40.555957,-105.091074,40.555957",
     "geom:latitude":40.555957,
     "geom:longitude":-105.091074,
@@ -29,19 +34,36 @@
         "community"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5klhAtWmk6UrgCyWI6B89f_40.555957_-105.091074@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451595,
-    "wof:geomhash":"66ade1d922aab0bd6fad93e4acf83afc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"781fdcd92041c32652ec941002acf0ab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823984435
+        }
+    ],
     "wof:id":823984435,
-    "wof:lastmodified":1466420935,
+    "wof:lastmodified":1492118168,
     "wof:name":"Winslow",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

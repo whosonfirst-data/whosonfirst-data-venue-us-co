@@ -2,9 +2,14 @@
   "id": 823862201,
   "type": "Feature",
   "properties": {
+    "addr:full":"275 State Hwy 72 Nederland CO 80466",
+    "addr:housenumber":"275",
+    "addr:postcode":"80466",
+    "addr:street":"State Hwy 72",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.515137,39.963251,-105.515137,39.963251",
     "geom:latitude":39.963251,
     "geom:longitude":-105.515137,
@@ -27,19 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85896083,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Mio7n4pru0zQW1GphLoYm_39.963251_-105.515137@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448551,
-    "wof:geomhash":"d590cdaa9c102b2f785256e73cadf4e6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bde814d67aea3a9a65ce286fe5d150bc",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85896083,
+            "region_id":85688603,
+            "venue_id":823862201
+        }
+    ],
     "wof:id":823862201,
-    "wof:lastmodified":1466419852,
+    "wof:lastmodified":1492119826,
     "wof:name":"Calvary Chapel",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

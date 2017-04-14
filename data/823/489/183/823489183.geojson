@@ -2,9 +2,14 @@
   "id": 823489183,
   "type": "Feature",
   "properties": {
+    "addr:full":"16802 Co Rd 27 Dolores CO 81323",
+    "addr:housenumber":"16802;27",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.562356,37.463968,-108.562356,37.463968",
     "geom:latitude":37.463968,
     "geom:longitude":-108.562356,
@@ -27,19 +32,28 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555049
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4140qq6PLXO2jM2DIg9eV6_37.463968_-108.562356@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439294,
-    "wof:geomhash":"5e360c4a056620547aff9207b19d62c7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c1f5839fa0a4602d53dbf2f7cee0b8e5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555049,
+            "venue_id":823489183
+        }
+    ],
     "wof:id":823489183,
-    "wof:lastmodified":1466414007,
+    "wof:lastmodified":1492121999,
     "wof:name":"Westmoreland Cortez Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555049,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

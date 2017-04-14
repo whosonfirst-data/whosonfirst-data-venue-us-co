@@ -2,9 +2,14 @@
   "id": 824028429,
   "type": "Feature",
   "properties": {
+    "addr:full":"8067 Raleigh St Westminster CO 80031",
+    "addr:housenumber":"8067",
+    "addr:postcode":"80031",
+    "addr:street":"Raleigh St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.043631,39.84306,-105.043631,39.84306",
     "geom:latitude":39.84306,
     "geom:longitude":-105.043631,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553567
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2hACIr0ecvq9xppc1KeYtB_39.843060_-105.043631@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452626,
-    "wof:geomhash":"f198c16146af43928adcf2746812c936",
-    "wof:hierarchy":[],
+    "wof:geomhash":"619cb88d5c28490fa57571877f5e2f84",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553567,
+            "region_id":85688603,
+            "venue_id":824028429
+        }
+    ],
     "wof:id":824028429,
-    "wof:lastmodified":1466413730,
+    "wof:lastmodified":1492129588,
     "wof:name":"Neils Tile Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553567,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

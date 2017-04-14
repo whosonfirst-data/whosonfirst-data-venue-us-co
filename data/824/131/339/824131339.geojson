@@ -2,9 +2,14 @@
   "id": 824131339,
   "type": "Feature",
   "properties": {
+    "addr:full":"2131 E 99th Pl Denver CO 80229",
+    "addr:housenumber":"2131",
+    "addr:postcode":"80229",
+    "addr:street":"E 99Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961712,39.877379,-104.961712,39.877379",
     "geom:latitude":39.877379,
     "geom:longitude":-104.961712,
@@ -31,19 +36,36 @@
         "equipment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6AafL4KRWMIsU8Yc0K0YT8_39.877379_-104.961712@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455195,
-    "wof:geomhash":"fc5f575e681ee1461e796830b5c40202",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fdc290b33d4e81b44805414dd7f5e721",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":824131339
+        }
+    ],
     "wof:id":824131339,
-    "wof:lastmodified":1466416104,
+    "wof:lastmodified":1492130422,
     "wof:name":"About Packaging Robotics Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

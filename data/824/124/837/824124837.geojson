@@ -2,9 +2,14 @@
   "id": 824124837,
   "type": "Feature",
   "properties": {
+    "addr:full":"24410 Co Rd 17 Johnstown CO 80534",
+    "addr:housenumber":"24410;17",
+    "addr:postcode":"80534",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.907561,40.361236,-104.907561,40.361236",
     "geom:latitude":40.361236,
     "geom:longitude":-104.907561,
@@ -28,19 +33,36 @@
         "contract"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5QEuItwgUVsDx8JU1ocugj_40.361236_-104.907561@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454927,
-    "wof:geomhash":"af8cf87914f56e9c670c5252b4ed315c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75df523547e17631ba6c665da8fd7b05",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":824124837
+        }
+    ],
     "wof:id":824124837,
-    "wof:lastmodified":1466415659,
+    "wof:lastmodified":1492130826,
     "wof:name":"Greg White Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

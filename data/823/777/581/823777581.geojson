@@ -2,9 +2,14 @@
   "id": 823777581,
   "type": "Feature",
   "properties": {
+    "addr:full":"43 N Main St Brighton CO 80601",
+    "addr:housenumber":"43",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.821355,39.98745,-104.821355,39.98745",
     "geom:latitude":39.98745,
     "geom:longitude":-104.821355,
@@ -29,19 +34,36 @@
         "information"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0qskDkxPRuBYe2y4Dnogv6_39.987450_-104.821355@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446022,
-    "wof:geomhash":"c73459217cdca36d90063abc6ef1ffed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"70cbe1055c3e01855e0353b739a0a3c7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823777581
+        }
+    ],
     "wof:id":823777581,
-    "wof:lastmodified":1466419142,
+    "wof:lastmodified":1492122206,
     "wof:name":"Michael Ray Perfroming Arts Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

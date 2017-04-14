@@ -2,9 +2,14 @@
   "id": 823581069,
   "type": "Feature",
   "properties": {
+    "addr:full":"4120 Evans Dr Boulder CO 80303",
+    "addr:housenumber":"4120",
+    "addr:postcode":"80303",
+    "addr:street":"Evans Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.24349,40.00142,-105.24349,40.00142",
     "geom:latitude":40.00142,
     "geom:longitude":-105.24349,
@@ -29,19 +34,36 @@
         "time"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5lJIbWg6OEAj1ihi18AojS_40.001420_-105.243490@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441445,
-    "wof:geomhash":"0fc4a44940ac19477808b1a1dfcf6ff5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"714710ba946a27567e449f6da9cf1aed",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":823581069
+        }
+    ],
     "wof:id":823581069,
-    "wof:lastmodified":1466416685,
+    "wof:lastmodified":1492119650,
     "wof:name":"Total Frequency",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

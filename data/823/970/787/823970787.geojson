@@ -2,9 +2,14 @@
   "id": 823970787,
   "type": "Feature",
   "properties": {
+    "addr:full":"11392 Quivas Way Denver CO 80234",
+    "addr:housenumber":"11392",
+    "addr:postcode":"80234",
+    "addr:street":"Quivas Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.009039,39.902794,-105.009039,39.902794",
     "geom:latitude":39.902794,
     "geom:longitude":-105.009039,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553847
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7UgbCtYSuNPEhepFUiZvfA_39.902794_-105.009039@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451272,
-    "wof:geomhash":"1aa5242a15e4da870478ebba4dc5dc87",
-    "wof:hierarchy":[],
+    "wof:geomhash":"94b9fc9fc91347451e32f5027c36fe78",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553847,
+            "region_id":85688603,
+            "venue_id":823970787
+        }
+    ],
     "wof:id":823970787,
-    "wof:lastmodified":1466420854,
+    "wof:lastmodified":1492116683,
     "wof:name":"Simply Coatings Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553847,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

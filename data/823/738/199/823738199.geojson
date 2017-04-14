@@ -2,9 +2,14 @@
   "id": 823738199,
   "type": "Feature",
   "properties": {
+    "addr:full":"10669 Johnson St Broomfield CO 80021",
+    "addr:housenumber":"10669",
+    "addr:postcode":"80021",
+    "addr:street":"Johnson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.107382,39.889667,-105.107382,39.889667",
     "geom:latitude":39.889667,
     "geom:longitude":-105.107382,
@@ -29,19 +34,36 @@
         "bow"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_39kTpj2bIpjb6amY3rrzRY_39.889667_-105.107382@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445116,
-    "wof:geomhash":"85c29387d63e4acdbe0f2bdbd5380541",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8ec80a1873d0d0303b2c10f1fc555ea0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823738199
+        }
+    ],
     "wof:id":823738199,
-    "wof:lastmodified":1466418907,
+    "wof:lastmodified":1492125009,
     "wof:name":"Festive Bow Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

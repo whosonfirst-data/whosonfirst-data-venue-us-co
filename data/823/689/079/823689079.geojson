@@ -2,9 +2,14 @@
   "id": 823689079,
   "type": "Feature",
   "properties": {
+    "addr:full":"1155 Co Rd 301 Durango CO 81303",
+    "addr:housenumber":"1155;301",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.821604,37.196678,-107.821604,37.196678",
     "geom:latitude":37.196678,
     "geom:longitude":-107.821604,
@@ -27,19 +32,28 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5wX1tSupQTZ5Zvce06XNI5_37.196678_-107.821604@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443992,
-    "wof:geomhash":"c11fa7da35b1f37f6db28a0dba7b7bc3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"02d46f36df8d19f809186ef5d83c4554",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823689079
+        }
+    ],
     "wof:id":823689079,
-    "wof:lastmodified":1466418466,
+    "wof:lastmodified":1492118391,
     "wof:name":"Skips Cars & Truck",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

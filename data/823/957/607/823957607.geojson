@@ -2,9 +2,14 @@
   "id": 823957607,
   "type": "Feature",
   "properties": {
+    "addr:full":"1331 Bellaire St Broomfield CO 80020",
+    "addr:housenumber":"1331",
+    "addr:postcode":"80020",
+    "addr:street":"Bellaire St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.06055,39.937472,-105.06055,39.937472",
     "geom:latitude":39.937472,
     "geom:longitude":-105.06055,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554177
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_74abVGtYlPuIgMPRYuL4HE_39.937472_-105.060550@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450956,
-    "wof:geomhash":"f4dd4044d97fc34b7345fdea8a6537c9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a915bd6286a453a7cba2b4681afad5c1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554177,
+            "region_id":85688603,
+            "venue_id":823957607
+        }
+    ],
     "wof:id":823957607,
-    "wof:lastmodified":1466420742,
+    "wof:lastmodified":1492121558,
     "wof:name":"Outback Steakhouse",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554177,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

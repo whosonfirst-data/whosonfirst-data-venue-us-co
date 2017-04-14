@@ -2,9 +2,14 @@
   "id": 823766799,
   "type": "Feature",
   "properties": {
+    "addr:full":"5940 W 59th Ave Arvada CO 80003",
+    "addr:housenumber":"5940",
+    "addr:postcode":"80003",
+    "addr:street":"W 59Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.061256,39.80351,-105.061256,39.80351",
     "geom:latitude":39.80351,
     "geom:longitude":-105.061256,
@@ -34,19 +39,36 @@
         "industrial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554591
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2PMaChpxpkTkmq1CSmBb9R_39.803510_-105.061256@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445755,
-    "wof:geomhash":"8e25d6289b79eb349790373d82c569a5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4ad81874f492e5b1409f5d33b144bc5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554591,
+            "region_id":85688603,
+            "venue_id":823766799
+        }
+    ],
     "wof:id":823766799,
-    "wof:lastmodified":1466418959,
+    "wof:lastmodified":1492123671,
     "wof:name":"Express Yourself Screen Print",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554591,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

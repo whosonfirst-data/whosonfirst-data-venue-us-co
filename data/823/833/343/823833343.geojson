@@ -2,9 +2,14 @@
   "id": 823833343,
   "type": "Feature",
   "properties": {
+    "addr:full":"6290 Clermont St Commerce City CO 80022",
+    "addr:housenumber":"6290",
+    "addr:postcode":"80022",
+    "addr:street":"Clermont St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.934759,39.807644,-104.934759,39.807644",
     "geom:latitude":39.807644,
     "geom:longitude":-104.934759,
@@ -36,19 +41,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0OJltUKlWFdlkHLPd7YMVa_39.807644_-104.934759@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447692,
-    "wof:geomhash":"79d43ab23af9c47110f59d7cafe85f90",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f44b4989e35197417447b6f40d497018",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":823833343
+        }
+    ],
     "wof:id":823833343,
-    "wof:lastmodified":1466419648,
+    "wof:lastmodified":1492117997,
     "wof:name":"Contech Construction Prods Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

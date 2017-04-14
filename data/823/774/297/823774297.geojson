@@ -2,9 +2,14 @@
   "id": 823774297,
   "type": "Feature",
   "properties": {
+    "addr:full":"559 Garfield Dr Grand Junction CO 81504",
+    "addr:housenumber":"559",
+    "addr:postcode":"81504",
+    "addr:street":"Garfield Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.508843,39.086117,-108.508843,39.086117",
     "geom:latitude":39.086117,
     "geom:longitude":-108.508843,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554993
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1em9kl96Zf8bCeMn3OLiqP_39.086117_-108.508843@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445936,
-    "wof:geomhash":"dab02109ae80095850c7352753cdc6ec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a4b1dabf67081ba36df1a9a1e619c5c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554993,
+            "region_id":85688603,
+            "venue_id":823774297
+        }
+    ],
     "wof:id":823774297,
-    "wof:lastmodified":1466419119,
+    "wof:lastmodified":1492124129,
     "wof:name":"Monument Flooring",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554993,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

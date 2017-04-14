@@ -2,9 +2,14 @@
   "id": 823989039,
   "type": "Feature",
   "properties": {
+    "addr:full":"3065 Sterling Cir Boulder CO 80301",
+    "addr:housenumber":"3065",
+    "addr:postcode":"80301",
+    "addr:street":"Sterling Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227193,40.0323,-105.227193,40.0323",
     "geom:latitude":40.0323,
     "geom:longitude":-105.227193,
@@ -27,19 +32,36 @@
         "cabinet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2m7PGqtyP07ArYIzd1H8ct_40.032300_-105.227193@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451694,
-    "wof:geomhash":"f8015334c7d5f53acec1dc4e5ee8022a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"77bad86da2afa26f74390a6ea4e6230c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876385,
+            "region_id":85688603,
+            "venue_id":823989039
+        }
+    ],
     "wof:id":823989039,
-    "wof:lastmodified":1466420945,
+    "wof:lastmodified":1492117704,
     "wof:name":"Bruce Jaffe Design LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

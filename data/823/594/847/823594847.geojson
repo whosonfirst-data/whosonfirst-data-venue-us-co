@@ -2,9 +2,14 @@
   "id": 823594847,
   "type": "Feature",
   "properties": {
+    "addr:full":"731 S Main St Brighton CO 80601",
+    "addr:housenumber":"731",
+    "addr:postcode":"80601",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.826149,39.974631,-104.826149,39.974631",
     "geom:latitude":39.974631,
     "geom:longitude":-104.826149,
@@ -27,19 +32,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553351
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5j30c5ZukZBDBgr0i5mjgz_39.974631_-104.826149@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441756,
-    "wof:geomhash":"8cd7dee6cf76f9fe0ed97adf952f6776",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3c0b78bcc735f60af2272e2259db91d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553351,
+            "region_id":85688603,
+            "venue_id":823594847
+        }
+    ],
     "wof:id":823594847,
-    "wof:lastmodified":1466417065,
+    "wof:lastmodified":1492125353,
     "wof:name":"Gasamat",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553351,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

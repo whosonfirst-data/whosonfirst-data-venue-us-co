@@ -2,9 +2,14 @@
   "id": 823507887,
   "type": "Feature",
   "properties": {
+    "addr:full":"3645 W 81st Ave Westminster CO 80031",
+    "addr:housenumber":"3645",
+    "addr:postcode":"80031",
+    "addr:street":"W 81St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034953,39.8437,-105.034953,39.8437",
     "geom:latitude":39.8437,
     "geom:longitude":-105.034953,
@@ -31,19 +36,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553541
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1JxdbBF4DiHvITZ1KhZ5y1_39.843700_-105.034953@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439758,
-    "wof:geomhash":"35825410a314959df6f6b774ff831513",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e71e89687d7baa62427c101764f71baf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553541,
+            "region_id":85688603,
+            "venue_id":823507887
+        }
+    ],
     "wof:id":823507887,
-    "wof:lastmodified":1466414466,
+    "wof:lastmodified":1492126533,
     "wof:name":"Silent Sentry Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553541,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

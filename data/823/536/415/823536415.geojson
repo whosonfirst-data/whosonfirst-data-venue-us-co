@@ -2,9 +2,14 @@
   "id": 823536415,
   "type": "Feature",
   "properties": {
+    "addr:full":"4901 S Lafayette Ln Englewood CO 80113",
+    "addr:housenumber":"4901",
+    "addr:postcode":"80113",
+    "addr:street":"S Lafayette Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971497,39.626915,-104.971497,39.626915",
     "geom:latitude":39.626915,
     "geom:longitude":-104.971497,
@@ -27,7 +32,14 @@
         "classic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929843,
+        102086877,
+        85810675
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4DPqkuNj51w0EWujgp3clW_39.626915_-104.971497@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463440392,
     "wof:geomhash":"16f44ac035ab7e10ba85bf7924a3b2f3",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929843,
+            "neighbourhood_id":85810675,
+            "region_id":85688603,
+            "venue_id":823536415
+        }
+    ],
     "wof:id":823536415,
-    "wof:lastmodified":1466415280,
+    "wof:lastmodified":1491934799,
     "wof:name":"Carter & Sons Auto Restoration",
-    "wof:parent_id":-1,
+    "wof:parent_id":85810675,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

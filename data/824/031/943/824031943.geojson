@@ -2,9 +2,14 @@
   "id": 824031943,
   "type": "Feature",
   "properties": {
+    "addr:full":"2504 W Mulberry St Fort Collins CO 80521",
+    "addr:housenumber":"2504",
+    "addr:postcode":"80521",
+    "addr:street":"W Mulberry St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.124229,40.582108,-105.124229,40.582108",
     "geom:latitude":40.582108,
     "geom:longitude":-105.124229,
@@ -29,9 +34,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929679,
         102083353,
+        85877447,
         85877463
     ],
     "wof:breaches":[],
@@ -40,9 +47,19 @@
     },
     "wof:country":"US",
     "wof:created":1463452718,
-    "wof:geomhash":"92cba7a0a10b06255ea7ace437270245",
+    "wof:geomhash":"3601474f8b5980a91d4cfff96d005b56",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877447,
+            "region_id":85688603,
+            "venue_id":824031943
+        },
+        {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102083353,
             "locality_id":85929679,
@@ -52,9 +69,9 @@
         }
     ],
     "wof:id":824031943,
-    "wof:lastmodified":1466413934,
+    "wof:lastmodified":1492131037,
     "wof:name":"Rex General Contracting Inc",
-    "wof:parent_id":85877463,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

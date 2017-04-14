@@ -2,9 +2,14 @@
   "id": 824137945,
   "type": "Feature",
   "properties": {
+    "addr:full":"1343 Wildwood Ct Boulder CO 80305",
+    "addr:housenumber":"1343",
+    "addr:postcode":"80305",
+    "addr:street":"Wildwood Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.266794,39.975592,-105.266794,39.975592",
     "geom:latitude":39.975592,
     "geom:longitude":-105.266794,
@@ -28,19 +33,36 @@
         "planning"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876377
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0aNCrVg6Yx5K7fSkmz38oL_39.975592_-105.266794@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455435,
-    "wof:geomhash":"2ae9c6e92cd486de0f461fbd91c524e8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5d01f9dbdcaec089a7bb1a6666d9a8bd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876377,
+            "region_id":85688603,
+            "venue_id":824137945
+        }
+    ],
     "wof:id":824137945,
-    "wof:lastmodified":1466416266,
+    "wof:lastmodified":1492129795,
     "wof:name":"In Celebration",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876377,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

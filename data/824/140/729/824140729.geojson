@@ -2,9 +2,14 @@
   "id": 824140729,
   "type": "Feature",
   "properties": {
+    "addr:full":"32223 Hwy 550 Durango CO 81301",
+    "addr:housenumber":"32223",
+    "addr:postcode":"co 81301",
+    "addr:street":"Hwy 550",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.839699,37.406048,-107.839699,37.406048",
     "geom:latitude":37.406048,
     "geom:longitude":-107.839699,
@@ -29,19 +34,34 @@
         "supermarket"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554695,
+        420554631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_32qxvJYPEXhcGKEcBrM1kf_37.406048_-107.839699@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455537,
-    "wof:geomhash":"e165d75389b019976849a993f0dd1f7f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0de9682edb885bee95057c4c1271d022",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554695,
+            "venue_id":824140729
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554631,
+            "venue_id":824140729
+        }
+    ],
     "wof:id":824140729,
-    "wof:lastmodified":1466416603,
+    "wof:lastmodified":1492131786,
     "wof:name":"Mac's Hermosa Supermarket",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

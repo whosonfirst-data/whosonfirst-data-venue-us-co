@@ -2,9 +2,14 @@
   "id": 823823635,
   "type": "Feature",
   "properties": {
+    "addr:full":"4155 Darley Ave Boulder CO 80305",
+    "addr:housenumber":"4155",
+    "addr:postcode":"80305",
+    "addr:street":"Darley Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.242027,39.981455,-105.242027,39.981455",
     "geom:latitude":39.981455,
     "geom:longitude":-105.242027,
@@ -27,19 +32,36 @@
         "security"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4dRsY9hDVfEQCj6Irc6f4b_39.981455_-105.242027@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447400,
-    "wof:geomhash":"2f873ab0f3e3ddaae180e6e2a8636c26",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f975b82d8671612893d3e1900d64075",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":823823635
+        }
+    ],
     "wof:id":823823635,
-    "wof:lastmodified":1466419555,
+    "wof:lastmodified":1492122123,
     "wof:name":"Edward Jones 16641",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

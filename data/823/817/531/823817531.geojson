@@ -2,9 +2,14 @@
   "id": 823817531,
   "type": "Feature",
   "properties": {
+    "addr:full":"605 12th St Boulder CO 80302",
+    "addr:housenumber":"605",
+    "addr:postcode":"80302",
+    "addr:street":"12Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277472,40.000028,-105.277472,40.000028",
     "geom:latitude":40.000028,
     "geom:longitude":-105.277472,
@@ -28,19 +33,32 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876365,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6WDtvwtnZlLPe6JGKuip6D_40.000028_-105.277472@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447219,
-    "wof:geomhash":"d0c48ed11b4c328177e1aff8730456af",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1def33e521c0c9193f85f00c67dbf4f7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876365,
+            "region_id":85688603,
+            "venue_id":823817531
+        }
+    ],
     "wof:id":823817531,
-    "wof:lastmodified":1466419514,
+    "wof:lastmodified":1492126006,
     "wof:name":"Makonikey",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

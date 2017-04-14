@@ -2,9 +2,14 @@
   "id": 823776787,
   "type": "Feature",
   "properties": {
+    "addr:full":"13298 Wyandot St Denver CO 80234",
+    "addr:housenumber":"13298",
+    "addr:postcode":"80234",
+    "addr:street":"Wyandot St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.014796,39.937952,-105.014796,39.937952",
     "geom:latitude":39.937952,
     "geom:longitude":-105.014796,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6o8sEUYDPjw8cbhbVAGgKx_39.937952_-105.014796@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446001,
-    "wof:geomhash":"a5715aba15173da4fa9b1344a73df928",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5787986b6a137622178da060f3ee01c7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":823776787
+        }
+    ],
     "wof:id":823776787,
-    "wof:lastmodified":1466419161,
+    "wof:lastmodified":1492123579,
     "wof:name":"Maintenance On Demand LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

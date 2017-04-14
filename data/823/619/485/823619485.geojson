@@ -2,9 +2,14 @@
   "id": 823619485,
   "type": "Feature",
   "properties": {
+    "addr:full":"9950 E 145th Ave Hudson CO 80602",
+    "addr:housenumber":"9950",
+    "addr:postcode":"80602",
+    "addr:street":"E 145Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.872639,39.958502,-104.872639,39.958502",
     "geom:latitude":39.958502,
     "geom:longitude":-104.872639,
@@ -27,19 +32,36 @@
         "grocery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_470ImE46l8HpdqaHr0fe6H_39.958502_-104.872639@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442380,
-    "wof:geomhash":"8df080cc76824238e59d42e48bcb0b15",
-    "wof:hierarchy":[],
+    "wof:geomhash":"893ffc1e37994e77bcac531aece005de",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553381,
+            "region_id":85688603,
+            "venue_id":823619485
+        }
+    ],
     "wof:id":823619485,
-    "wof:lastmodified":1466417465,
+    "wof:lastmodified":1492118586,
     "wof:name":"Pattys Pantry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

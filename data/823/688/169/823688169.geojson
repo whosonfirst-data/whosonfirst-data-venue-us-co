@@ -2,9 +2,14 @@
   "id": 823688169,
   "type": "Feature",
   "properties": {
+    "addr:full":"11152 Huron St Denver CO 80234",
+    "addr:housenumber":"11152",
+    "addr:postcode":"80234",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996556,39.898064,-104.996556,39.898064",
     "geom:latitude":39.898064,
     "geom:longitude":-104.996556,
@@ -27,19 +32,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553707
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1reGzzapE3AGL58ef82VXm_39.898064_-104.996556@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443975,
-    "wof:geomhash":"ba87dba123d44fa5e4b6cd85a7d76720",
-    "wof:hierarchy":[],
+    "wof:geomhash":"325400f16dd2847cfae51a81c92fc149",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553707,
+            "region_id":85688603,
+            "venue_id":823688169
+        }
+    ],
     "wof:id":823688169,
-    "wof:lastmodified":1466418394,
+    "wof:lastmodified":1492126172,
     "wof:name":"Mane Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553707,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

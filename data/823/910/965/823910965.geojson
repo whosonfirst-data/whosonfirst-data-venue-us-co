@@ -2,9 +2,14 @@
   "id": 823910965,
   "type": "Feature",
   "properties": {
+    "addr:full":"9450 Perry St Westminster CO 80031",
+    "addr:housenumber":"9450",
+    "addr:postcode":"80031",
+    "addr:street":"Perry St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039425,39.870084,-105.039425,39.870084",
     "geom:latitude":39.870084,
     "geom:longitude":-105.039425,
@@ -27,19 +32,36 @@
         "delivery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_35yIWky39ZNf3QvoejeMkn_39.870084_-105.039425@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449768,
-    "wof:geomhash":"a0e5245364b9a5486f0db17bd97626d5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"74c98114c5c5fefdf61a4b4609feb7dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553595,
+            "region_id":85688603,
+            "venue_id":823910965
+        }
+    ],
     "wof:id":823910965,
-    "wof:lastmodified":1466420358,
+    "wof:lastmodified":1492116793,
     "wof:name":"Dine In Delivery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

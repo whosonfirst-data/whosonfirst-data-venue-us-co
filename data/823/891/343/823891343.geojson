@@ -2,9 +2,14 @@
   "id": 823891343,
   "type": "Feature",
   "properties": {
+    "addr:full":"5100 Goshawk St Brighton CO 80601",
+    "addr:housenumber":"5100",
+    "addr:postcode":"80601",
+    "addr:street":"Goshawk St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.749201,39.977111,-104.749201,39.977111",
     "geom:latitude":39.977111,
     "geom:longitude":-104.749201,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553455
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ViW3a58d6xy9KQDW69xVF_39.977111_-104.749201@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449239,
-    "wof:geomhash":"1969020027b310a14f0626c6bed2e8f5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a1a7f427fbbd554e233ba0f54742f922",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553455,
+            "region_id":85688603,
+            "venue_id":823891343
+        }
+    ],
     "wof:id":823891343,
-    "wof:lastmodified":1466420459,
+    "wof:lastmodified":1492117602,
     "wof:name":"Modec",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553455,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

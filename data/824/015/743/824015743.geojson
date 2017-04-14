@@ -2,9 +2,14 @@
   "id": 824015743,
   "type": "Feature",
   "properties": {
+    "addr:full":"6655 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"6655;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.847398,37.393712,-107.847398,37.393712",
     "geom:latitude":37.393712,
     "geom:longitude":-107.847398,
@@ -27,19 +32,28 @@
         "window"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5vBDDxlIED25RJVyDOxtmY_37.393712_-107.847398@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452331,
-    "wof:geomhash":"4bd9064be1f5855a977f62954e06822b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0a329c0f9d198664b1335ead61001ae7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554613,
+            "venue_id":824015743
+        }
+    ],
     "wof:id":824015743,
-    "wof:lastmodified":1466413472,
+    "wof:lastmodified":1492127949,
     "wof:name":"J & H Window Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

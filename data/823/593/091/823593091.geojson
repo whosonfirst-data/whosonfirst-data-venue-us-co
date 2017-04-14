@@ -2,9 +2,14 @@
   "id": 823593091,
   "type": "Feature",
   "properties": {
+    "addr:full":"220 E 3rd St Cortez CO 81321",
+    "addr:housenumber":"220",
+    "addr:postcode":"81321",
+    "addr:street":"E 3Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.5822,37.34559,-108.5822,37.34559",
     "geom:latitude":37.34559,
     "geom:longitude":-108.5822,
@@ -30,19 +35,36 @@
         "sewer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42NZYakjbhOEhJsO7VOidZ_37.345590_-108.582200@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441721,
-    "wof:geomhash":"f99710d6921f76d1cbb12477a1742b0a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8fb50f8a904765ad3cf7143cc8146161",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823593091
+        }
+    ],
     "wof:id":823593091,
-    "wof:lastmodified":1466416939,
+    "wof:lastmodified":1492121924,
     "wof:name":"Dean's Sewer Drain Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824121293,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 W Mesa Ave Grand Junction CO 81505",
+    "addr:housenumber":"100",
+    "addr:postcode":"81505",
+    "addr:street":"W Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.571984,39.082827,-108.571984,39.082827",
     "geom:latitude":39.082827,
     "geom:longitude":-108.571984,
@@ -24,19 +29,46 @@
     "sg:postcode":"81505",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        85888429,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1O4tDkbbZGtzZSQCeVFRkl_39.082827_-108.571984@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454788,
-    "wof:geomhash":"ab163138601289e5ab53141fbb2a013c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"61d99843cda68c6ac5c660f8429c0141",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":85888429,
+            "region_id":85688603,
+            "venue_id":824121293
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":824121293
+        }
+    ],
     "wof:id":824121293,
-    "wof:lastmodified":1466415672,
+    "wof:lastmodified":1492131100,
     "wof:name":"Sears",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

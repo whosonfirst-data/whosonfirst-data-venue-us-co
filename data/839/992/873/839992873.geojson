@@ -2,9 +2,14 @@
   "id": 839992873,
   "type": "Feature",
   "properties": {
+    "addr:full":"1165 13th St Boulder CO 80302",
+    "addr:housenumber":"1165",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276223,40.008193,-105.276223,40.008193",
     "geom:latitude":40.008193,
     "geom:longitude":-105.276223,
@@ -33,19 +38,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0X4wpR5VLfjAJrFEKIeyHL_40.008398_-105.276392@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460923,
-    "wof:geomhash":"4446b81ab8886ab33c21e9e1d958696a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"51604bb6c39d2c18ed433c9495bf3a8f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839992873
+        }
+    ],
     "wof:id":839992873,
-    "wof:lastmodified":1466417596,
+    "wof:lastmodified":1492114437,
     "wof:name":"The Sink",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

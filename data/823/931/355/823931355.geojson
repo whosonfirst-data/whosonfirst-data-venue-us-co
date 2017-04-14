@@ -2,9 +2,14 @@
   "id": 823931355,
   "type": "Feature",
   "properties": {
+    "addr:full":"300 S Ivy St Denver CO 80224",
+    "addr:housenumber":"300",
+    "addr:postcode":"80224",
+    "addr:street":"S Ivy St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.921132,39.709298,-104.921132,39.709298",
     "geom:latitude":39.709298,
     "geom:longitude":-104.921132,
@@ -27,7 +32,15 @@
         "protection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85888391,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0yDVCiskzKXogPH3fW2weZ_39.709298_-104.921132@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463450280,
     "wof:geomhash":"80cad5e1e526a606eb68fa58a7805428",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85888391,
+            "region_id":85688603,
+            "venue_id":823931355
+        }
+    ],
     "wof:id":823931355,
-    "wof:lastmodified":1466420484,
+    "wof:lastmodified":1491866044,
     "wof:name":"Fire Dept-Dist 4",
-    "wof:parent_id":-1,
+    "wof:parent_id":85888391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

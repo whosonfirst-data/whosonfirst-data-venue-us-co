@@ -2,9 +2,14 @@
   "id": 823982271,
   "type": "Feature",
   "properties": {
+    "addr:full":"50 N Broadway Cortez CO 81321",
+    "addr:housenumber":"50",
+    "addr:postcode":"81321",
+    "addr:street":"N Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.594569,37.346701,-108.594569,37.346701",
     "geom:latitude":37.346701,
     "geom:longitude":-108.594569,
@@ -29,19 +34,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555131
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6G4CEuC0308fkjFJiiH04n_37.346701_-108.594569@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451540,
-    "wof:geomhash":"4c836ee19cb67693500cf1152c3b2275",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4c0a66d2997c7ac07c74cad82da6cd21",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555131,
+            "region_id":85688603,
+            "venue_id":823982271
+        }
+    ],
     "wof:id":823982271,
-    "wof:lastmodified":1466420908,
+    "wof:lastmodified":1492126879,
     "wof:name":"Plumbing Store Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555131,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

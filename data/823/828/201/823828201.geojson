@@ -2,9 +2,14 @@
   "id": 823828201,
   "type": "Feature",
   "properties": {
+    "addr:full":"2001 E 74th Ave Denver CO 80229",
+    "addr:housenumber":"2001",
+    "addr:postcode":"80229",
+    "addr:street":"E 74Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959127,39.830864,-104.959127,39.830864",
     "geom:latitude":39.830864,
     "geom:longitude":-104.959127,
@@ -27,19 +32,36 @@
         "greenhouse"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553889
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2GVmn8Y002hQHGdx8VGzIo_39.830864_-104.959127@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447558,
-    "wof:geomhash":"465b8e33a555ef14197b7f546fb42251",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8a3104a48b7e66fbee76fcca446e811f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553889,
+            "region_id":85688603,
+            "venue_id":823828201
+        }
+    ],
     "wof:id":823828201,
-    "wof:lastmodified":1466419584,
+    "wof:lastmodified":1492119213,
     "wof:name":"Authentic Garden & Greenhouse",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553889,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

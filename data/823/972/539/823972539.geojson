@@ -2,9 +2,14 @@
   "id": 823972539,
   "type": "Feature",
   "properties": {
+    "addr:full":"18498 E Colfax Ave Aurora CO 80011",
+    "addr:housenumber":"18498",
+    "addr:postcode":"80011",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.773372,39.740252,-104.773372,39.740252",
     "geom:latitude":39.740252,
     "geom:longitude":-104.773372,
@@ -34,6 +39,7 @@
         85633793,
         85929235,
         102086877,
+        420559489,
         85872959
     ],
     "wof:breaches":[],
@@ -42,8 +48,17 @@
     },
     "wof:country":"US",
     "wof:created":1463451305,
-    "wof:geomhash":"3bc4f6aa5fb14b7e8bacd7c57d4e908e",
+    "wof:geomhash":"417fc61a8c4730b739455df73559dbc1",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420559489,
+            "region_id":85688603,
+            "venue_id":823972539
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -55,9 +70,9 @@
         }
     ],
     "wof:id":823972539,
-    "wof:lastmodified":1466420831,
+    "wof:lastmodified":1492121913,
     "wof:name":"Robert's Firearms Co",
-    "wof:parent_id":85872959,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

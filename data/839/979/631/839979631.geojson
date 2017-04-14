@@ -2,9 +2,14 @@
   "id": 839979631,
   "type": "Feature",
   "properties": {
+    "addr:full":"3226 Main St Clifton CO 81520",
+    "addr:housenumber":"3226",
+    "addr:postcode":"81520",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.456782,39.067249,-108.456782,39.067249",
     "geom:latitude":39.067249,
     "geom:longitude":-108.456782,
@@ -21,19 +26,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0EAQxnBbohl6NVwRW7Hgsa_39.067249_-108.456782@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460404,
-    "wof:geomhash":"24ed165070400061dd3f9575a7b45421",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c9e24f7acf214dea6e32ce4e2127821a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":839979631
+        }
+    ],
     "wof:id":839979631,
-    "wof:lastmodified":1466416904,
+    "wof:lastmodified":1492113576,
     "wof:name":"Amsoil DEALER-USA Synthetic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

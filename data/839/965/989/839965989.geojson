@@ -2,9 +2,14 @@
   "id": 839965989,
   "type": "Feature",
   "properties": {
+    "addr:full":"999 E 7th St Craig CO 81625",
+    "addr:housenumber":"999",
+    "addr:postcode":"81625",
+    "addr:street":"E 7Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.53544,40.51777,-107.53544,40.51777",
     "geom:latitude":40.51777,
     "geom:longitude":-107.53544,
@@ -27,17 +32,32 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928901,
+        102085247
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1JHsteINv01Nxqr0TMN9RJ_40.517770_-107.535440@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459851,
-    "wof:geomhash":"700cce9fe2f9231f0deaaeb5648243dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"72f34b80a4ecaea52b394f78ef742809",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085247,
+            "locality_id":85928901,
+            "region_id":85688603,
+            "venue_id":839965989
+        }
+    ],
     "wof:id":839965989,
-    "wof:lastmodified":1466416096,
+    "wof:lastmodified":1492114187,
     "wof:name":"Direct Appliance",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

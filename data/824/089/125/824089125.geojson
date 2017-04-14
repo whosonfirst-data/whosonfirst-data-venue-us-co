@@ -2,9 +2,14 @@
   "id": 824089125,
   "type": "Feature",
   "properties": {
+    "addr:full":"435 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"435",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.564973,39.077336,-108.564973,39.077336",
     "geom:latitude":39.077336,
     "geom:longitude":-108.564973,
@@ -28,19 +33,36 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5g1NXQPdp0LIK64uOPykTR_39.077336_-108.564973@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454070,
-    "wof:geomhash":"658b4a0908e5240d47c14f04f55652d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b32fd5977999930f90f9b4e7247f0499",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":824089125
+        }
+    ],
     "wof:id":824089125,
-    "wof:lastmodified":1466415006,
+    "wof:lastmodified":1492130146,
     "wof:name":"Grand Junction Laboratories",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

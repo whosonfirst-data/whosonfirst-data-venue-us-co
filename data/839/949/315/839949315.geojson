@@ -2,9 +2,14 @@
   "id": 839949315,
   "type": "Feature",
   "properties": {
+    "addr:full":"8143 Co Rd 3 Carbondale CO 81623",
+    "addr:housenumber":"8143",
+    "addr:postcode":"81623",
+    "addr:street":"Co Rd 3",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.104269,39.059449,-107.104269,39.059449",
     "geom:latitude":39.059449,
     "geom:longitude":-107.104269,
@@ -39,19 +44,28 @@
         "supplier"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554355
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_70AnSTU7dX3aMlJFOtrpRf_39.059449_-107.104269@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459095,
-    "wof:geomhash":"bce168bbbdbfcfce0d6c936b92fae619",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fa53767efd5e38be238728a822ad6e01",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554355,
+            "venue_id":839949315
+        }
+    ],
     "wof:id":839949315,
-    "wof:lastmodified":1466415179,
+    "wof:lastmodified":1492111715,
     "wof:name":"Colorado Outward Bound School",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554355,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

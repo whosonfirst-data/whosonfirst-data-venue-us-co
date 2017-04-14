@@ -2,9 +2,14 @@
   "id": 823937449,
   "type": "Feature",
   "properties": {
+    "addr:full":"644 S Main St Brighton CO 80601",
+    "addr:housenumber":"644",
+    "addr:postcode":"80601",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.826615,39.973122,-104.826615,39.973122",
     "geom:latitude":39.973122,
     "geom:longitude":-104.826615,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3OSKliFLt1mQT9RlxMA5ud_39.973122_-104.826615@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450466,
-    "wof:geomhash":"e6c06a76f17c0b155dac1763a21b7d05",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5833e250496fbf27c11c903dd29313fb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823937449
+        }
+    ],
     "wof:id":823937449,
-    "wof:lastmodified":1466420557,
+    "wof:lastmodified":1492120115,
     "wof:name":"El Taco Loco Mexican Rstrnt",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

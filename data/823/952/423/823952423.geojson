@@ -2,9 +2,14 @@
   "id": 823952423,
   "type": "Feature",
   "properties": {
+    "addr:full":"2444 Vineyard Pl Boulder CO 80304",
+    "addr:housenumber":"2444",
+    "addr:postcode":"80304",
+    "addr:street":"Vineyard Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.265484,40.054069,-105.265484,40.054069",
     "geom:latitude":40.054069,
     "geom:longitude":-105.265484,
@@ -27,19 +32,42 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554121,
+        85688603,
+        102191575,
+        85929877,
+        102085251,
+        85876369
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Xkj0YO44AHZ6J7uMsA1fN_40.054069_-105.265484@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450830,
-    "wof:geomhash":"784495b874a177412af927b5bec697d7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0268d42609863a7122e04bf25fcfa71",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554121,
+            "venue_id":823952423
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876369,
+            "region_id":85688603,
+            "venue_id":823952423
+        }
+    ],
     "wof:id":823952423,
-    "wof:lastmodified":1466420716,
+    "wof:lastmodified":1492120704,
     "wof:name":"Green Acres Landscape MAI",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

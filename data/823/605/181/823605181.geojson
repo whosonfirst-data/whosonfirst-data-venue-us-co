@@ -2,9 +2,14 @@
   "id": 823605181,
   "type": "Feature",
   "properties": {
+    "addr:full":"204 Bauer Ave Mancos CO 81328",
+    "addr:housenumber":"204",
+    "addr:postcode":"81328",
+    "addr:street":"Bauer Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.29169,37.346235,-108.29169,37.346235",
     "geom:latitude":37.346235,
     "geom:longitude":-108.29169,
@@ -27,19 +32,28 @@
         "woodworker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7YCl9mFwVRCJd0t4cvXIQo_37.346235_-108.291690@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442025,
-    "wof:geomhash":"09a2e416a408fe904aea01b126bd4511",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0c8096f604699e98012ee7a01064ebb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823605181
+        }
+    ],
     "wof:id":823605181,
-    "wof:lastmodified":1466417194,
+    "wof:lastmodified":1492121715,
     "wof:name":"ABM Woodcraft",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

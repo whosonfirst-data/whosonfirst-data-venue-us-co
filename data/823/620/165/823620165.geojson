@@ -2,9 +2,14 @@
   "id": 823620165,
   "type": "Feature",
   "properties": {
+    "addr:full":"2580 F Rd Grand Junction CO 81505",
+    "addr:housenumber":"2580",
+    "addr:postcode":"81505",
+    "addr:street":"F Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.574713,39.091913,-108.574713,39.091913",
     "geom:latitude":39.091913,
     "geom:longitude":-108.574713,
@@ -31,19 +36,36 @@
         "hydraulic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420555003
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7fG2hOoosVagptrjh4fHN6_39.091913_-108.574713@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442405,
-    "wof:geomhash":"c785e8ea289cd85f763e149143f3de5a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"07f7cf0ed1a8cf2f41a49b5af220ba10",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555003,
+            "region_id":85688603,
+            "venue_id":823620165
+        }
+    ],
     "wof:id":823620165,
-    "wof:lastmodified":1466417436,
+    "wof:lastmodified":1492124006,
     "wof:name":"Sanders Hydraulics Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555003,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

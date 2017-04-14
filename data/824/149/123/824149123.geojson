@@ -2,9 +2,14 @@
   "id": 824149123,
   "type": "Feature",
   "properties": {
+    "addr:full":"34575 Co Rd 13 Lamar CO 81052",
+    "addr:housenumber":"34575;13",
+    "addr:postcode":"lamar;81052",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.521209,38.132373,-102.521209,38.132373",
     "geom:latitude":38.132373,
     "geom:longitude":-102.521209,
@@ -28,17 +33,30 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_11wn129DdtItGFDYPrapeI_38.132373_-102.521209@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455872,
-    "wof:geomhash":"621bd1f44432b9fec1f60becec8e9138",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b60782b2bb4e34f755e87513128ea62c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "region_id":85688603,
+            "venue_id":824149123
+        }
+    ],
     "wof:id":824149123,
-    "wof:lastmodified":1466416807,
+    "wof:lastmodified":1492132795,
     "wof:name":"R Gruenloh",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

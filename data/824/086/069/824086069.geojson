@@ -2,9 +2,14 @@
   "id": 824086069,
   "type": "Feature",
   "properties": {
+    "addr:full":"6657 Colorado Blvd Commerce City CO 80022",
+    "addr:housenumber":"6657",
+    "addr:postcode":"80022",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940495,39.813519,-104.940495,39.813519",
     "geom:latitude":39.813519,
     "geom:longitude":-104.940495,
@@ -28,19 +33,36 @@
         "drilling"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553321
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_15j8xfOVduV5isoaEdIZMT_39.813519_-104.940495@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453998,
-    "wof:geomhash":"715aa197c3e3151759ecb1b91051673a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e7fdeebd663f58eae8e321655207c64b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553321,
+            "region_id":85688603,
+            "venue_id":824086069
+        }
+    ],
     "wof:id":824086069,
-    "wof:lastmodified":1466414896,
+    "wof:lastmodified":1492131589,
     "wof:name":"Drilling Equipment & Supplies",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553321,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

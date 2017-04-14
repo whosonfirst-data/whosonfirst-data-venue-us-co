@@ -2,9 +2,14 @@
   "id": 823653381,
   "type": "Feature",
   "properties": {
+    "addr:full":"1333 King Ave Boulder CO 80302",
+    "addr:housenumber":"1333",
+    "addr:postcode":"80302",
+    "addr:street":"King Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.274032,39.996334,-105.274032,39.996334",
     "geom:latitude":39.996334,
     "geom:longitude":-105.274032,
@@ -27,19 +32,32 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876365,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0R2PsE5mMYZQWpMwBzrB38_39.996334_-105.274032@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443154,
-    "wof:geomhash":"ac8d0cd4b7396ac862352bbe69292078",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28f9066e04c6ac576554feda48203be2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876365,
+            "region_id":85688603,
+            "venue_id":823653381
+        }
+    ],
     "wof:id":823653381,
-    "wof:lastmodified":1466418115,
+    "wof:lastmodified":1492122366,
     "wof:name":"Information Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

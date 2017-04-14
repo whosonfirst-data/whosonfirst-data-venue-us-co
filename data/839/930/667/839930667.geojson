@@ -2,9 +2,14 @@
   "id": 839930667,
   "type": "Feature",
   "properties": {
+    "addr:full":"11940 Bradburn Blvd Westminster CO 80031",
+    "addr:housenumber":"11940",
+    "addr:postcode":"80031",
+    "addr:street":"Bradburn Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041658,39.913546,-105.041658,39.913546",
     "geom:latitude":39.913546,
     "geom:longitude":-105.041658,
@@ -28,19 +33,36 @@
         "coffee"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420553613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_07cCf9qr2UpxM5DDTxqrkR_39.913546_-105.041658@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458011,
-    "wof:geomhash":"5e446492d92a704d67232a44c4a977b9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d1156db86b38ca9e248cd44e6493576",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420553613,
+            "region_id":85688603,
+            "venue_id":839930667
+        }
+    ],
     "wof:id":839930667,
-    "wof:lastmodified":1466414053,
+    "wof:lastmodified":1492112254,
     "wof:name":"Press Coffee Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

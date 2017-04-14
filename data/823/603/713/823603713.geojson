@@ -2,9 +2,14 @@
   "id": 823603713,
   "type": "Feature",
   "properties": {
+    "addr:full":"1221 W Elizabeth St Fort Collins CO 80521",
+    "addr:housenumber":"1221",
+    "addr:postcode":"80521",
+    "addr:street":"W Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.098805,40.574564,-105.098805,40.574564",
     "geom:latitude":40.574564,
     "geom:longitude":-105.098805,
@@ -27,19 +32,36 @@
         "representative"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3XeYXJTSG8vm4ckOYtXyum_40.574564_-105.098805@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441994,
-    "wof:geomhash":"b3ccaf932d21883bd3730d982c02d1e7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9d2e7549501913737f2e3f9d65c6953f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":823603713
+        }
+    ],
     "wof:id":823603713,
-    "wof:lastmodified":1466417239,
+    "wof:lastmodified":1492126124,
     "wof:name":"AT&T",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824066387,
   "type": "Feature",
   "properties": {
+    "addr:full":"1202 E 58th Ave Denver CO 80216",
+    "addr:housenumber":"1202",
+    "addr:postcode":"80216",
+    "addr:street":"E 58Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.972141,39.801835,-104.972141,39.801835",
     "geom:latitude":39.801835,
     "geom:longitude":-104.972141,
@@ -27,19 +32,36 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1otqFvVHbHLpUJYi3bbYsg_39.801835_-104.972141@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453532,
-    "wof:geomhash":"53fec53b8e94fcf77c86c52c7d32af53",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9b393bd9c6588072a50fa715f2e64eaf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":824066387
+        }
+    ],
     "wof:id":824066387,
-    "wof:lastmodified":1466414522,
+    "wof:lastmodified":1492132444,
     "wof:name":"58th Avenue Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

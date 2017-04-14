@@ -2,9 +2,14 @@
   "id": 839935253,
   "type": "Feature",
   "properties": {
+    "addr:full":"8483 Stoneridge Ter Boulder CO 80302",
+    "addr:housenumber":"8483",
+    "addr:postcode":"80302",
+    "addr:street":"Stoneridge Ter",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.295533,40.126154,-105.295533,40.126154",
     "geom:latitude":40.126154,
     "geom:longitude":-105.295533,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930741,
+        102085251,
+        420554155
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ocQfb2jhTh3ZqDB19FCHM_40.126154_-105.295533@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458241,
-    "wof:geomhash":"82cdcf5b27c558efd696d23feb191945",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c1fbcfca59ef79d9014fea663eb5a285",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930741,
+            "neighbourhood_id":420554155,
+            "region_id":85688603,
+            "venue_id":839935253
+        }
+    ],
     "wof:id":839935253,
-    "wof:lastmodified":1466414358,
+    "wof:lastmodified":1492113198,
     "wof:name":"City Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554155,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

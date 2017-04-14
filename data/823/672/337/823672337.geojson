@@ -2,9 +2,14 @@
   "id": 823672337,
   "type": "Feature",
   "properties": {
+    "addr:full":"1005 N 12th St Grand Junction CO 81501",
+    "addr:housenumber":"1005",
+    "addr:postcode":"81501",
+    "addr:street":"N 12Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.552464,39.077349,-108.552464,39.077349",
     "geom:latitude":39.077349,
     "geom:longitude":-108.552464,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5sLie4etY1nwRoTMjnJtvg_39.077349_-108.552464@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443624,
-    "wof:geomhash":"0687e75053841dbafd9b96a83931804b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f9aadb84b6c90f1031cdfc30e661f7eb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":823672337
+        }
+    ],
     "wof:id":823672337,
-    "wof:lastmodified":1466418383,
+    "wof:lastmodified":1492124716,
     "wof:name":"Upper Valley Church Of Christ",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

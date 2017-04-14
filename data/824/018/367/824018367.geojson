@@ -2,9 +2,14 @@
   "id": 824018367,
   "type": "Feature",
   "properties": {
+    "addr:full":"801 Main St Canon City CO 81212",
+    "addr:housenumber":"801",
+    "addr:postcode":"81212",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.23554,38.44301,-105.23554,38.44301",
     "geom:latitude":38.44301,
     "geom:longitude":-105.23554,
@@ -28,19 +33,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929803,
+        102083363,
+        85816081
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2MvqwS6ymiL9YCdb7gsSsR_38.443010_-105.235540@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452384,
-    "wof:geomhash":"e0c5246044984a5543e721638ab821e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"986caad2024a3de3c48a2ca4b0aebc46",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "locality_id":85929803,
+            "neighbourhood_id":85816081,
+            "region_id":85688603,
+            "venue_id":824018367
+        }
+    ],
     "wof:id":824018367,
-    "wof:lastmodified":1466413737,
+    "wof:lastmodified":1492130907,
     "wof:name":"First United Methodist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":85816081,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839982665,
   "type": "Feature",
   "properties": {
+    "addr:full":"59 Co Rd 60 Hooper CO 81136",
+    "addr:housenumber":"59;60",
+    "addr:postcode":"81136",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.909841,37.749137,-105.909841,37.749137",
     "geom:latitude":37.749137,
     "geom:longitude":-105.909841,
@@ -23,17 +28,38 @@
         "potato"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102084133,
+        102085223
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3qWsrE1h0VpZMoI3DeRGfS_37.749137_-105.909841@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460526,
-    "wof:geomhash":"0ecd98cae99b51646e563f24982ee297",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0dae10e6567c88d2364eec3ae636a8a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084133,
+            "region_id":85688603,
+            "venue_id":839982665
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085223,
+            "region_id":85688603,
+            "venue_id":839982665
+        }
+    ],
     "wof:id":839982665,
-    "wof:lastmodified":1466416988,
+    "wof:lastmodified":1492114402,
     "wof:name":"John Myers Farms",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

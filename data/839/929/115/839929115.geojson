@@ -2,9 +2,14 @@
   "id": 839929115,
   "type": "Feature",
   "properties": {
+    "addr:full":"776 Co Rd 201 Durango CO 81301",
+    "addr:housenumber":"776;201",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.840565,37.421588,-107.840565,37.421588",
     "geom:latitude":37.421588,
     "geom:longitude":-107.840565,
@@ -29,19 +34,28 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554647
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_61RD5nklda6WhkbSN4k7Xj_37.421588_-107.840565@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457919,
-    "wof:geomhash":"0db3a0462c4910979a7555c2aeb643b2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"db9f7c67a625e46c4dce68215af3132a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554647,
+            "venue_id":839929115
+        }
+    ],
     "wof:id":839929115,
-    "wof:lastmodified":1466413852,
+    "wof:lastmodified":1492112923,
     "wof:name":"Peak To Peak Financial Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554647,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

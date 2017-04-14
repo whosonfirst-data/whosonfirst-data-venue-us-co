@@ -2,9 +2,14 @@
   "id": 823731315,
   "type": "Feature",
   "properties": {
+    "addr:full":"401 E 3rd St La Junta CO 81050",
+    "addr:housenumber":"401",
+    "addr:postcode":"81050",
+    "addr:street":"E 3Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.538096,37.985991,-103.538096,37.985991",
     "geom:latitude":37.985991,
     "geom:longitude":-103.538096,
@@ -29,17 +34,32 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929689,
+        102084015
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2SHYurFtrUNGxth5YqOvCj_37.985991_-103.538096@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444939,
-    "wof:geomhash":"03a278e406cca7e3062e811b303e8fb3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"78f0abc0ba2cbe9f7582056a2c8d4407",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084015,
+            "locality_id":85929689,
+            "region_id":85688603,
+            "venue_id":823731315
+        }
+    ],
     "wof:id":823731315,
-    "wof:lastmodified":1466418611,
+    "wof:lastmodified":1492117537,
     "wof:name":"Radio Shack",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

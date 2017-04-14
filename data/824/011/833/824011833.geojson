@@ -2,9 +2,14 @@
   "id": 824011833,
   "type": "Feature",
   "properties": {
+    "addr:full":"5685 Gray St Arvada CO 80002",
+    "addr:housenumber":"5685",
+    "addr:postcode":"80002",
+    "addr:street":"Gray St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.061499,39.80034,-105.061499,39.80034",
     "geom:latitude":39.80034,
     "geom:longitude":-105.061499,
@@ -27,19 +32,34 @@
         "packaging"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1XAe3RxwgEC3jq7Etg4YHE_39.800340_-105.061499@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452233,
-    "wof:geomhash":"8edb8743eedda8778a9633cc4dd6b287",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fdf87d69cb4eb0388823ca02bbb858c2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824011833
+        }
+    ],
     "wof:id":824011833,
-    "wof:lastmodified":1466413072,
+    "wof:lastmodified":1492130765,
     "wof:name":"Developmental Disabilities",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

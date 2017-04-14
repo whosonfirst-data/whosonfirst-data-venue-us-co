@@ -2,9 +2,14 @@
   "id": 823806939,
   "type": "Feature",
   "properties": {
+    "addr:full":"110 N Broadway Cortez CO 81321",
+    "addr:housenumber":"110",
+    "addr:postcode":"81321",
+    "addr:street":"N Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.591181,37.351513,-108.591181,37.351513",
     "geom:latitude":37.351513,
     "geom:longitude":-108.591181,
@@ -31,19 +36,28 @@
         "station"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_31HjPROFgkUMSndrwpN92J_37.351513_-108.591181@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446897,
-    "wof:geomhash":"2a33634280b6ee110ba526926359aa9a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2eb56922d8d4172c63639ab2458d912d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":823806939
+        }
+    ],
     "wof:id":823806939,
-    "wof:lastmodified":1466419728,
+    "wof:lastmodified":1492118235,
     "wof:name":"Fraley & Company Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

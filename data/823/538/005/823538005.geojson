@@ -2,9 +2,14 @@
   "id": 823538005,
   "type": "Feature",
   "properties": {
+    "addr:full":"1120 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"1120",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.552764,39.077468,-108.552764,39.077468",
     "geom:latitude":39.077468,
     "geom:longitude":-108.552764,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6LuI96SlnyzvrdJRgYF8Eb_39.077468_-108.552764@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440422,
-    "wof:geomhash":"437b2fb50df83089970e2b30a65c0f04",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cee42302b18ea80d3a25fe6710b61ff9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554945,
+            "region_id":85688603,
+            "venue_id":823538005
+        }
+    ],
     "wof:id":823538005,
-    "wof:lastmodified":1466415638,
+    "wof:lastmodified":1492116451,
     "wof:name":"KMSA",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

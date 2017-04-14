@@ -2,9 +2,14 @@
   "id": 823908937,
   "type": "Feature",
   "properties": {
+    "addr:full":"2220 Howard Pl Boulder CO 80305",
+    "addr:housenumber":"2220",
+    "addr:postcode":"80305",
+    "addr:street":"Howard Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.265856,39.980637,-105.265856,39.980637",
     "geom:latitude":39.980637,
     "geom:longitude":-105.265856,
@@ -28,19 +33,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876377
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1VLpUCxMRYLnZb7Yg5pas6_39.980637_-105.265856@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449707,
-    "wof:geomhash":"c336eb0f1080045d035fb83db087f77a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"253fea36df8fe9cf31982aa0d87d1b90",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876377,
+            "region_id":85688603,
+            "venue_id":823908937
+        }
+    ],
     "wof:id":823908937,
-    "wof:lastmodified":1466420303,
+    "wof:lastmodified":1492117266,
     "wof:name":"Flatirons Toxicology Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876377,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

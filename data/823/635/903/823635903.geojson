@@ -2,9 +2,14 @@
   "id": 823635903,
   "type": "Feature",
   "properties": {
+    "addr:full":"2041 Co Rd 205 Durango CO 81301",
+    "addr:housenumber":"2041;205",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.868354,37.335643,-107.868354,37.335643",
     "geom:latitude":37.335643,
     "geom:longitude":-107.868354,
@@ -27,19 +32,34 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615,
+        420554657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3tTcsrKZOAMMJABQFOXG0t_37.335643_-107.868354@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442760,
-    "wof:geomhash":"62459aa10257bc567a279d7667265e3f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0d9b4f1ee3b8e08bbeabf0e39e6b3065",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823635903
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554657,
+            "venue_id":823635903
+        }
+    ],
     "wof:id":823635903,
-    "wof:lastmodified":1466417787,
+    "wof:lastmodified":1492120528,
     "wof:name":"BJ Berger Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839988525,
   "type": "Feature",
   "properties": {
+    "addr:full":"440 Wadsworth Blvd Denver CO 80226",
+    "addr:housenumber":"440",
+    "addr:postcode":"80226",
+    "addr:street":"Wadsworth Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.080316,39.721614,-105.080316,39.721614",
     "geom:latitude":39.721614,
     "geom:longitude":-105.080316,
@@ -29,19 +34,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ze4GPYqyCWOehJH5STHWU_39.721614_-105.080316@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460760,
-    "wof:geomhash":"6963fb623aa56cf578cc3f07d288942a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"84f8981cc2a9b46f6f9c772ed6daaab9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":839988525
+        }
+    ],
     "wof:id":839988525,
-    "wof:lastmodified":1466417560,
+    "wof:lastmodified":1492112801,
     "wof:name":"Subway",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

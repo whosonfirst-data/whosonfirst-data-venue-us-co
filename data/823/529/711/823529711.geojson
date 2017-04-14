@@ -2,9 +2,14 @@
   "id": 823529711,
   "type": "Feature",
   "properties": {
+    "addr:full":"2807 Jay Rd Boulder CO 80301",
+    "addr:housenumber":"2807",
+    "addr:postcode":"80301",
+    "addr:street":"Jay Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258516,40.051102,-105.258516,40.051102",
     "geom:latitude":40.051102,
     "geom:longitude":-105.258516,
@@ -27,19 +32,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4KW5wMDmytO8UhizIFSXvA_40.051102_-105.258516@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440246,
-    "wof:geomhash":"5e24f4ae7eac35d1e8f8fafbb4bbe5e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6ccdcb2776f379b98bcc15723d4cc503",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554121,
+            "venue_id":823529711
+        }
+    ],
     "wof:id":823529711,
-    "wof:lastmodified":1466415252,
+    "wof:lastmodified":1492117346,
     "wof:name":"Frontier Homes LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554121,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

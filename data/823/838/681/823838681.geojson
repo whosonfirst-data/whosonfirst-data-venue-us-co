@@ -2,9 +2,14 @@
   "id": 823838681,
   "type": "Feature",
   "properties": {
+    "addr:full":"12349 Jasmine St Brighton CO 80602",
+    "addr:housenumber":"12349",
+    "addr:postcode":"80602",
+    "addr:street":"Jasmine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.917872,39.919374,-104.917872,39.919374",
     "geom:latitude":39.919374,
     "geom:longitude":-104.917872,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7EzYhEdcItIotiEp6dNQPC_39.919374_-104.917872@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447897,
-    "wof:geomhash":"3ad257a5e499e45a03b8d044637caa2a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4759683a7ba7b75f06e1041c0363104c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":823838681
+        }
+    ],
     "wof:id":823838681,
-    "wof:lastmodified":1466419680,
+    "wof:lastmodified":1492125335,
     "wof:name":"M & M Heating & AC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

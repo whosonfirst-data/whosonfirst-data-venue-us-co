@@ -2,9 +2,14 @@
   "id": 839968725,
   "type": "Feature",
   "properties": {
+    "addr:full":"40516 Steamboat Dr Steamboat Spgs CO 80487",
+    "addr:housenumber":"",
+    "addr:postcode":"40516;80487",
+    "addr:street":"Steamboat Dr;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.904668,40.509833,-106.904668,40.509833",
     "geom:latitude":40.509833,
     "geom:longitude":-106.904668,
@@ -27,19 +32,34 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555227,
+        420555225
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ClLdKIp1IeZrudhBrB0CV_40.509833_-106.904668@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459966,
-    "wof:geomhash":"0a53401546f0cb821f3b476ab269d3ae",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6366cdf57d7678929a27fc4e6cf2d698",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555227,
+            "venue_id":839968725
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555225,
+            "venue_id":839968725
+        }
+    ],
     "wof:id":839968725,
-    "wof:lastmodified":1466416174,
+    "wof:lastmodified":1492114482,
     "wof:name":"ABA Refrigeration & Appl Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

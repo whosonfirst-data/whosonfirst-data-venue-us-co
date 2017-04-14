@@ -2,9 +2,14 @@
   "id": 823616753,
   "type": "Feature",
   "properties": {
+    "addr:full":"1648 Spruce St Boulder CO 80302",
+    "addr:housenumber":"1648",
+    "addr:postcode":"80302",
+    "addr:street":"Spruce St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.274249,40.020047,-105.274249,40.020047",
     "geom:latitude":40.020047,
     "geom:longitude":-105.274249,
@@ -28,7 +33,14 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5QkV7Oh6y1t0BfbnMHGmhi_40.020047_-105.274249@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463442313,
     "wof:geomhash":"e05b7fd4bb850f0efca968de1415dd3b",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823616753
+        }
+    ],
     "wof:id":823616753,
-    "wof:lastmodified":1466417408,
+    "wof:lastmodified":1491888488,
     "wof:name":"E 4 Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

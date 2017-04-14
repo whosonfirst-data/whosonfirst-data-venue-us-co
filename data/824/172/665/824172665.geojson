@@ -2,9 +2,14 @@
   "id": 824172665,
   "type": "Feature",
   "properties": {
+    "addr:full":"2906 I- 70 Bus Grand Junction CO 81504",
+    "addr:housenumber":"2906;70 bus",
+    "addr:postcode":"81504",
+    "addr:street":"I",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.513049,39.073336,-108.513049,39.073336",
     "geom:latitude":39.073336,
     "geom:longitude":-108.513049,
@@ -27,19 +32,36 @@
         "cabinet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_31cS3aRKGPPgzyA68H416E_39.073336_-108.513049@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456784,
-    "wof:geomhash":"5c528657519e9759337b655c0a953fef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"10a2dc0101febbd61fc97003a18008ec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554929,
+            "region_id":85688603,
+            "venue_id":824172665
+        }
+    ],
     "wof:id":824172665,
-    "wof:lastmodified":1466418015,
+    "wof:lastmodified":1492128269,
     "wof:name":"Woodworkers-Grand Junction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

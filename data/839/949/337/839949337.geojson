@@ -2,9 +2,14 @@
   "id": 839949337,
   "type": "Feature",
   "properties": {
+    "addr:full":"1710 Billings St Aurora CO 80011",
+    "addr:housenumber":"1710",
+    "addr:postcode":"80011",
+    "addr:street":"Billings St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.824603,39.74327,-104.824603,39.74327",
     "geom:latitude":39.74327,
     "geom:longitude":-104.824603,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1FBzZZusWcVG52UINlsz2w_39.743270_-104.824603@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459096,
-    "wof:geomhash":"afdb2834f646b94cf2f60bd31945e2ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6891b957f45b70489008733301b8effc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":839949337
+        }
+    ],
     "wof:id":839949337,
-    "wof:lastmodified":1466415054,
+    "wof:lastmodified":1492111735,
     "wof:name":"Aurora East Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

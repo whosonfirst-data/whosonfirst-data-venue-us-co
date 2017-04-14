@@ -2,9 +2,14 @@
   "id": 824127945,
   "type": "Feature",
   "properties": {
+    "addr:full":"54737 Co Rd 129 Clark CO 80428",
+    "addr:housenumber":"54737;129",
+    "addr:postcode":"80428",
+    "addr:street":"Co Rd;Clark",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.913702,40.753938,-106.913702,40.753938",
     "geom:latitude":40.753938,
     "geom:longitude":-106.913702,
@@ -25,19 +30,28 @@
     "sg:province":"CO",
     "sg:website":"www.glenedenresort.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555269
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5l6HwsYO1MkAb6DNU7OMaA_40.753938_-106.913702@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455066,
-    "wof:geomhash":"027122b9838eb1419100461ea45fb58b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d49b248c44ec4f9dd0c03f96fdb690ab",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555269,
+            "venue_id":824127945
+        }
+    ],
     "wof:id":824127945,
-    "wof:lastmodified":1466415974,
+    "wof:lastmodified":1492131953,
     "wof:name":"Glen Eden Resort",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555269,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

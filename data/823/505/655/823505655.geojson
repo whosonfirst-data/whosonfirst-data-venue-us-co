@@ -2,9 +2,14 @@
   "id": 823505655,
   "type": "Feature",
   "properties": {
+    "addr:full":"1663 Shield Dr Steamboat Spgs CO 80487",
+    "addr:housenumber":"1663",
+    "addr:postcode":"80487",
+    "addr:street":"Shield Dr;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.857482,40.49661,-106.857482,40.49661",
     "geom:latitude":40.49661,
     "geom:longitude":-106.857482,
@@ -28,19 +33,36 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555187
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3vD38NzoEIsDY76cbsmPSg_40.496610_-106.857482@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439701,
-    "wof:geomhash":"a45eb751209cf21801479ca272a4c4b4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b6a4ecb3c5aaf9a41584e02958281774",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555187,
+            "region_id":85688603,
+            "venue_id":823505655
+        }
+    ],
     "wof:id":823505655,
-    "wof:lastmodified":1466414369,
+    "wof:lastmodified":1492118871,
     "wof:name":"A-Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555187,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823840889,
   "type": "Feature",
   "properties": {
+    "addr:full":"2540 Pine St Boulder CO 80302",
+    "addr:housenumber":"2540",
+    "addr:postcode":"80302",
+    "addr:street":"Pine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.261851,40.023686,-105.261851,40.023686",
     "geom:latitude":40.023686,
     "geom:longitude":-105.261851,
@@ -27,19 +32,36 @@
         "project"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Wj57pZBLnqj3DTu0ayIPu_40.023686_-105.261851@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447961,
-    "wof:geomhash":"c0f93f7002bd4d8ac1bf651abcc4d809",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a521b921bdc05978b4dd10bb7d125365",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":823840889
+        }
+    ],
     "wof:id":823840889,
-    "wof:lastmodified":1466419765,
+    "wof:lastmodified":1492123862,
     "wof:name":"Petersen Constrctn & Remdlng",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

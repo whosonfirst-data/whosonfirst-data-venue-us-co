@@ -2,9 +2,14 @@
   "id": 823786395,
   "type": "Feature",
   "properties": {
+    "addr:full":"1387 Ember St Denver CO 80221",
+    "addr:housenumber":"1387",
+    "addr:postcode":"80221",
+    "addr:street":"Ember St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001617,39.838302,-105.001617,39.838302",
     "geom:latitude":39.838302,
     "geom:longitude":-105.001617,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553669
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DXQlK4IJyUIau20kcwJzR_39.838302_-105.001617@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446301,
-    "wof:geomhash":"0840f4c0dfea15fca858956114173937",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2c93bcd204f91b986b9c0eba3088318a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553669,
+            "region_id":85688603,
+            "venue_id":823786395
+        }
+    ],
     "wof:id":823786395,
-    "wof:lastmodified":1466419263,
+    "wof:lastmodified":1492117570,
     "wof:name":"Foothills Roofing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553669,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

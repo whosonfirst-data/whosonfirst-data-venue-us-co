@@ -2,9 +2,14 @@
   "id": 823478235,
   "type": "Feature",
   "properties": {
+    "addr:full":"10522 Owens St Broomfield CO 80021",
+    "addr:housenumber":"10522",
+    "addr:postcode":"80021",
+    "addr:street":"Owens St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.118593,39.888687,-105.118593,39.888687",
     "geom:latitude":39.888687,
     "geom:longitude":-105.118593,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2bh6MeIHQnxxh6k4589e1s_39.888687_-105.118593@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439043,
-    "wof:geomhash":"fdebe8774b4c08f25ad3d815ead7b3ed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"420633ba4cb9513d5e3bd907b092a32e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823478235
+        }
+    ],
     "wof:id":823478235,
-    "wof:lastmodified":1466413164,
+    "wof:lastmodified":1492123998,
     "wof:name":"Moose Chick",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

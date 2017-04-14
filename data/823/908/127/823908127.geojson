@@ -2,9 +2,14 @@
   "id": 823908127,
   "type": "Feature",
   "properties": {
+    "addr:full":"8901 Huron St Denver CO 80260",
+    "addr:housenumber":"8901",
+    "addr:postcode":"80260",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996739,39.858021,-104.996739,39.858021",
     "geom:latitude":39.858021,
     "geom:longitude":-104.996739,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553733
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_11immPaKix2QDH665FZ7lW_39.858021_-104.996739@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449676,
-    "wof:geomhash":"a1251a495a4b5934ed3b0096cf2c384c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"54e8474563e19bec74c02613966048d7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553733,
+            "region_id":85688603,
+            "venue_id":823908127
+        }
+    ],
     "wof:id":823908127,
-    "wof:lastmodified":1466420231,
+    "wof:lastmodified":1492117275,
     "wof:name":"Carriage Hill Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553733,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

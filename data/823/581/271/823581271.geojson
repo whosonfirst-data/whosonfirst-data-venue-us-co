@@ -2,9 +2,14 @@
   "id": 823581271,
   "type": "Feature",
   "properties": {
+    "addr:full":"1200 7th Ave Greeley CO 80631",
+    "addr:housenumber":"1200",
+    "addr:postcode":"80631",
+    "addr:street":"7Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.689078,40.418396,-104.689078,40.418396",
     "geom:latitude":40.418396,
     "geom:longitude":-104.689078,
@@ -26,12 +31,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +44,16 @@
     },
     "wof:country":"US",
     "wof:created":1463441451,
-    "wof:geomhash":"ccd56d1ce7287949c25280ff364659f9",
+    "wof:geomhash":"55b9b3631e04b81796d2d92650c133f1",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823581271
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -49,20 +62,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823581271
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823581271
         }
     ],
     "wof:id":823581271,
-    "wof:lastmodified":1466416482,
+    "wof:lastmodified":1492119649,
     "wof:name":"Coca-Cola Bottling Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

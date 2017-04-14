@@ -2,9 +2,14 @@
   "id": 823813765,
   "type": "Feature",
   "properties": {
+    "addr:full":"1370 W 133rd Way Denver CO 80234",
+    "addr:housenumber":"1370",
+    "addr:postcode":"80234",
+    "addr:street":"W 133Rd Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.004458,39.937626,-105.004458,39.937626",
     "geom:latitude":39.937626,
     "geom:longitude":-105.004458,
@@ -29,19 +34,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0483RdLH9fhXkPaiFbmrvL_39.937626_-105.004458@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447113,
-    "wof:geomhash":"99ca4d20c3c8b754cee5ecdae8aa9303",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d15abfc8ff12eaf407101834cc32861",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":823813765
+        }
+    ],
     "wof:id":823813765,
-    "wof:lastmodified":1466419540,
+    "wof:lastmodified":1492123910,
     "wof:name":"ABA Audio Services Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

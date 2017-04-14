@@ -2,9 +2,14 @@
   "id": 823753477,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 W Denver St Holyoke CO 80734",
+    "addr:housenumber":"101",
+    "addr:postcode":"80734",
+    "addr:street":"W Denver St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.302922,40.585571,-102.302922,40.585571",
     "geom:latitude":40.585571,
     "geom:longitude":-102.302922,
@@ -27,17 +32,32 @@
         "federal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929161,
+        102085217
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4yozfffzZUixoZm1iBTdQO_40.585571_-102.302922@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445460,
-    "wof:geomhash":"ac886655619f86cd0cc15870da94b894",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3b97b4938488d5bed32f73db3d7700be",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085217,
+            "locality_id":85929161,
+            "region_id":85688603,
+            "venue_id":823753477
+        }
+    ],
     "wof:id":823753477,
-    "wof:lastmodified":1466419015,
+    "wof:lastmodified":1492120231,
     "wof:name":"Holyoke Cmnty Federal Cr Un",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

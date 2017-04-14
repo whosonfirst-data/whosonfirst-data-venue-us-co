@@ -2,9 +2,14 @@
   "id": 823740341,
   "type": "Feature",
   "properties": {
+    "addr:full":"440 Wadsworth Blvd Lakewood CO 80226",
+    "addr:housenumber":"440",
+    "addr:postcode":"80226",
+    "addr:street":"Wadsworth Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.081433,39.723192,-105.081433,39.723192",
     "geom:latitude":39.723192,
     "geom:longitude":-105.081433,
@@ -28,19 +33,36 @@
         "filing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6pCjNewrSOKcfGB4Dx84Mp_39.723192_-105.081433@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445164,
-    "wof:geomhash":"263da3fc6ffbe7b577c102dffee0c518",
-    "wof:hierarchy":[],
+    "wof:geomhash":"663f4c504e8f50f821cccb99d77f0fe0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823740341
+        }
+    ],
     "wof:id":823740341,
-    "wof:lastmodified":1466418829,
+    "wof:lastmodified":1492122314,
     "wof:name":"H & R Block Tax Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

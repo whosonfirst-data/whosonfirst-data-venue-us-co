@@ -2,9 +2,14 @@
   "id": 823483581,
   "type": "Feature",
   "properties": {
+    "addr:full":"2039 11th St Boulder CO 80302",
+    "addr:housenumber":"2039",
+    "addr:postcode":"80302",
+    "addr:street":"11Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281601,40.018215,-105.281601,40.018215",
     "geom:latitude":40.018215,
     "geom:longitude":-105.281601,
@@ -27,7 +32,14 @@
         "exploration"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6T1k5B1V8uoiu1VT8cZhIv_40.018215_-105.281601@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463439157,
     "wof:geomhash":"802c4f118b00fd8488c47894fdadcf77",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823483581
+        }
+    ],
     "wof:id":823483581,
-    "wof:lastmodified":1466413570,
+    "wof:lastmodified":1491897924,
     "wof:name":"Peregrine Ventures Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

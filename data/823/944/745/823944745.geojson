@@ -2,9 +2,14 @@
   "id": 823944745,
   "type": "Feature",
   "properties": {
+    "addr:full":"245 Main Ave Akron CO 80720",
+    "addr:housenumber":"245",
+    "addr:postcode":"80720",
+    "addr:street":"Main Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.212892,40.160708,-103.212892,40.160708",
     "geom:latitude":40.160708,
     "geom:longitude":-103.212892,
@@ -27,17 +32,32 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929155,
+        102086125
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ZaRL6GzjwwdMUXcdMZy93_40.160708_-103.212892@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450633,
-    "wof:geomhash":"ee68f986ca33e06bfe1976f921f74411",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28a689eabf280cbc11b76a00bce3cdf3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086125,
+            "locality_id":85929155,
+            "region_id":85688603,
+            "venue_id":823944745
+        }
+    ],
     "wof:id":823944745,
-    "wof:lastmodified":1466420673,
+    "wof:lastmodified":1492125804,
     "wof:name":"Akron Chamberof Commerce",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

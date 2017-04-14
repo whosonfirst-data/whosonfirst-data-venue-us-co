@@ -2,9 +2,14 @@
   "id": 824069635,
   "type": "Feature",
   "properties": {
+    "addr:full":"1161 W 64th Ave Denver CO 80221",
+    "addr:housenumber":"1161",
+    "addr:postcode":"80221",
+    "addr:street":"W 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005038,39.812869,-105.005038,39.812869",
     "geom:latitude":39.812869,
     "geom:longitude":-105.005038,
@@ -28,19 +33,36 @@
         "asphalt"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553793
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4PsQzLXk6h1kuWv7vcSxQj_39.812869_-105.005038@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453600,
-    "wof:geomhash":"74387927e53e3602017973b5c9862050",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e6279ec2f55da4a9b2fb756a4d98b035",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553793,
+            "region_id":85688603,
+            "venue_id":824069635
+        }
+    ],
     "wof:id":824069635,
-    "wof:lastmodified":1466414580,
+    "wof:lastmodified":1492130792,
     "wof:name":"Express Asphalt",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553793,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

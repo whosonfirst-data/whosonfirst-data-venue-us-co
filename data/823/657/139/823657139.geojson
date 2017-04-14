@@ -2,9 +2,14 @@
   "id": 823657139,
   "type": "Feature",
   "properties": {
+    "addr:full":"2006 Crestview Dr Johnstown CO 80534",
+    "addr:housenumber":"2006",
+    "addr:postcode":"80534",
+    "addr:street":"Crestview Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931647,40.339368,-104.931647,40.339368",
     "geom:latitude":40.339368,
     "geom:longitude":-104.931647,
@@ -29,19 +34,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7WENJsiWeJfYYF7J49HDsg_40.339368_-104.931647@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443241,
-    "wof:geomhash":"e0e2a0717ee78ee6639e96083e1a96a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae24501e95de075553b83034a3e49e47",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823657139
+        }
+    ],
     "wof:id":823657139,
-    "wof:lastmodified":1466418110,
+    "wof:lastmodified":1492121157,
     "wof:name":"Swyng",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

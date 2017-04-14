@@ -2,9 +2,14 @@
   "id": 824020259,
   "type": "Feature",
   "properties": {
+    "addr:full":"2320 Co Rd 225 Durango CO 81301",
+    "addr:housenumber":"2320;225",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.779937,37.264696,-107.779937,37.264696",
     "geom:latitude":37.264696,
     "geom:longitude":-107.779937,
@@ -28,19 +33,28 @@
         "design"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554607
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4dbMgssfVmIhZZ6FRInbYy_37.264696_-107.779937@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452431,
-    "wof:geomhash":"a40741feac90cb8f5e3dfcd41977dc18",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aeba6b0a925425ca1f13f7ed4787194f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554607,
+            "venue_id":824020259
+        }
+    ],
     "wof:id":824020259,
-    "wof:lastmodified":1466413605,
+    "wof:lastmodified":1492128333,
     "wof:name":"Inspiration 2 Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554607,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

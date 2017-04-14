@@ -2,9 +2,14 @@
   "id": 823700369,
   "type": "Feature",
   "properties": {
+    "addr:full":"7501 York St Denver CO 80229",
+    "addr:housenumber":"7501",
+    "addr:postcode":"80229",
+    "addr:street":"York St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959222,39.833872,-104.959222,39.833872",
     "geom:latitude":39.833872,
     "geom:longitude":-104.959222,
@@ -27,19 +32,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0QbQPMkcY2EgKvyCUJYBBY_39.833872_-104.959222@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444243,
-    "wof:geomhash":"0450a021218de8b1dbc7fe5da8971a5a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"669be92a6d2f6cfbba8d081552eb239a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823700369
+        }
+    ],
     "wof:id":823700369,
-    "wof:lastmodified":1466418555,
+    "wof:lastmodified":1492119140,
     "wof:name":"Wagoner Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

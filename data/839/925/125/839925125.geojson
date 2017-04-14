@@ -2,9 +2,14 @@
   "id": 839925125,
   "type": "Feature",
   "properties": {
+    "addr:full":"3551 Co Rd 225 Durango CO 81301",
+    "addr:housenumber":"3551;225",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.788051,37.272609,-107.788051,37.272609",
     "geom:latitude":37.272609,
     "geom:longitude":-107.788051,
@@ -27,19 +32,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0aAVcTGJofVwqEPaBS16Je_37.272609_-107.788051@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457736,
-    "wof:geomhash":"61f45aaccd8354fd0690cdc9e17d3d0b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"373e0cc79985e22c8b18a7d8c2c497bb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":839925125
+        }
+    ],
     "wof:id":839925125,
-    "wof:lastmodified":1466413808,
+    "wof:lastmodified":1492114313,
     "wof:name":"Camarca Tile Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

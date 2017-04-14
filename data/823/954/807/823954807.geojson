@@ -2,9 +2,14 @@
   "id": 823954807,
   "type": "Feature",
   "properties": {
+    "addr:full":"4963 Kelso Rd Boulder CO 80301",
+    "addr:housenumber":"4963",
+    "addr:postcode":"80301",
+    "addr:street":"Kelso Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.234971,40.065647,-105.234971,40.065647",
     "geom:latitude":40.065647,
     "geom:longitude":-105.234971,
@@ -28,19 +33,44 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85895997,
+        85895969
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3jmwKBSIeYDsdT1no0dqEQ_40.065647_-105.234971@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450878,
-    "wof:geomhash":"015bf51a10d440cd0b59f3fe53c88509",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a3e693ef86647706d5d209098a6d6b3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85895997,
+            "region_id":85688603,
+            "venue_id":823954807
+        },
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85895969,
+            "region_id":85688603,
+            "venue_id":823954807
+        }
+    ],
     "wof:id":823954807,
-    "wof:lastmodified":1466420653,
+    "wof:lastmodified":1492125598,
     "wof:name":"Ccr",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839989429,
   "type": "Feature",
   "properties": {
+    "addr:full":"1333 Broadway St Boulder CO 80302",
+    "addr:housenumber":"1333",
+    "addr:postcode":"80302",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.27645,40.009707,-105.27645,40.009707",
     "geom:latitude":40.009707,
     "geom:longitude":-105.27645,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4cJtfXYUC2jLW05ip6bJBO_40.009707_-105.276450@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460787,
-    "wof:geomhash":"fb03488f9d89fef19f6cf8c0a095a3aa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"da0b87394c21229d4daf8c14fbd777ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839989429
+        }
+    ],
     "wof:id":839989429,
-    "wof:lastmodified":1466417388,
+    "wof:lastmodified":1492111087,
     "wof:name":"Dot's Diner",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

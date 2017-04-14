@@ -2,9 +2,14 @@
   "id": 824006809,
   "type": "Feature",
   "properties": {
+    "addr:full":"1700 E Empire St Cortez CO 81321",
+    "addr:housenumber":"1700",
+    "addr:postcode":"81321",
+    "addr:street":"E Empire St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.564258,37.356397,-108.564258,37.356397",
     "geom:latitude":37.356397,
     "geom:longitude":-108.564258,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555047
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1GRN7UpoIUlhYYAHhPWyB9_37.356397_-108.564258@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452133,
-    "wof:geomhash":"de90287d2049a234252ee73104ef80e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0e13dd7a7ebc9e23ff71e5ac85fdb25",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555047,
+            "region_id":85688603,
+            "venue_id":824006809
+        }
+    ],
     "wof:id":824006809,
-    "wof:lastmodified":1466412620,
+    "wof:lastmodified":1492129818,
     "wof:name":"Cortez Fourth Ward",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555047,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

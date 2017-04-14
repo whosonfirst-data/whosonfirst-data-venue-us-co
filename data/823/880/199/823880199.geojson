@@ -2,9 +2,14 @@
   "id": 823880199,
   "type": "Feature",
   "properties": {
+    "addr:full":"1600 Iris St Broomfield CO 80020",
+    "addr:housenumber":"1600",
+    "addr:postcode":"80020",
+    "addr:street":"Iris St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.082425,39.93982,-105.082425,39.93982",
     "geom:latitude":39.93982,
     "geom:longitude":-105.082425,
@@ -28,19 +33,36 @@
         "cad"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554191
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7dpoJttEsSahJUA0IOzqV8_39.939820_-105.082425@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448974,
-    "wof:geomhash":"8e6f303b7516a98f7186455218cd5a17",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c5aa0ca34ba43c37b8d06852d887e1a7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554191,
+            "region_id":85688603,
+            "venue_id":823880199
+        }
+    ],
     "wof:id":823880199,
-    "wof:lastmodified":1466420010,
+    "wof:lastmodified":1492116350,
     "wof:name":"Paramax Consulting Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554191,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

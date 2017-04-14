@@ -2,9 +2,14 @@
   "id": 823708259,
   "type": "Feature",
   "properties": {
+    "addr:full":"2052 E 100th Pl Thornton CO 80229",
+    "addr:housenumber":"2052",
+    "addr:postcode":"80229",
+    "addr:street":"E 100Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961623,39.878257,-104.961623,39.878257",
     "geom:latitude":39.878257,
     "geom:longitude":-104.961623,
@@ -30,19 +35,36 @@
         "floor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1GsVgi0abbofVhsvzpKJJl_39.878257_-104.961623@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444409,
-    "wof:geomhash":"2180d27e0f744ddb0d45624cc88057d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d1f63e3d50d77ff2fe3ae0efe290b74f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823708259
+        }
+    ],
     "wof:id":823708259,
-    "wof:lastmodified":1466418599,
+    "wof:lastmodified":1492117311,
     "wof:name":"Taylor Hardwood Floor Co Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

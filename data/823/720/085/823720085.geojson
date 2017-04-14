@@ -2,9 +2,14 @@
   "id": 823720085,
   "type": "Feature",
   "properties": {
+    "addr:full":"419 N 6th Ave Brighton CO 80601",
+    "addr:housenumber":"419",
+    "addr:postcode":"80601",
+    "addr:street":"N 6Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81551,39.995497,-104.81551,39.995497",
     "geom:latitude":39.995497,
     "geom:longitude":-104.81551,
@@ -28,19 +33,36 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2hn34RXyk7piiIrO1qfXxE_39.995497_-104.815510@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444653,
-    "wof:geomhash":"6d0fe9101672f0909afe1075716c9c98",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1cba740c34c032e09329d57f145fa9ff",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823720085
+        }
+    ],
     "wof:id":823720085,
-    "wof:lastmodified":1466418678,
+    "wof:lastmodified":1492121946,
     "wof:name":"WGC Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823760681,
   "type": "Feature",
   "properties": {
+    "addr:full":"2805 Bunting Ave Grand Junction CO 81501",
+    "addr:housenumber":"2805",
+    "addr:postcode":"81501",
+    "addr:street":"Bunting Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.5223,39.079537,-108.5223,39.079537",
     "geom:latitude":39.079537,
     "geom:longitude":-108.5223,
@@ -27,19 +32,36 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5kmDn18Iuo90LTTnAPzDpN_39.079537_-108.522300@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445629,
-    "wof:geomhash":"47e3c3dacf5d2f6705f3bc550d599581",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf6c55b459fc9304f6638a03601c432f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554879,
+            "region_id":85688603,
+            "venue_id":823760681
+        }
+    ],
     "wof:id":823760681,
-    "wof:lastmodified":1466419038,
+    "wof:lastmodified":1492119804,
     "wof:name":"Progressive Dental Arts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

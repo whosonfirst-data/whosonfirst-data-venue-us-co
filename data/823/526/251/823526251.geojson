@@ -2,9 +2,14 @@
   "id": 823526251,
   "type": "Feature",
   "properties": {
+    "addr:full":"4184 19th St Boulder CO 80304",
+    "addr:housenumber":"4184",
+    "addr:postcode":"80304",
+    "addr:street":"19Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.272681,40.050679,-105.272681,40.050679",
     "geom:latitude":40.050679,
     "geom:longitude":-105.272681,
@@ -24,19 +29,42 @@
     "sg:postcode":"80304",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554121,
+        85688603,
+        102191575,
+        85929877,
+        102085251,
+        85876369
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_54HybSFvdf5qKj78A9fHY9_40.050679_-105.272681@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440171,
-    "wof:geomhash":"812d1fa3dd7a3fcd88cfc07659ad6532",
-    "wof:hierarchy":[],
+    "wof:geomhash":"21432004689ece74cab06a9335a52437",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554121,
+            "venue_id":823526251
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876369,
+            "region_id":85688603,
+            "venue_id":823526251
+        }
+    ],
     "wof:id":823526251,
-    "wof:lastmodified":1466415045,
+    "wof:lastmodified":1492125188,
     "wof:name":"Dennis Liebert",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

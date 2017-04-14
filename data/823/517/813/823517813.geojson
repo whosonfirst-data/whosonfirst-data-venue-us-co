@@ -2,9 +2,14 @@
   "id": 823517813,
   "type": "Feature",
   "properties": {
+    "addr:full":"301 W Main St Cortez CO 81321",
+    "addr:housenumber":"301",
+    "addr:postcode":"81321",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.589106,37.348569,-108.589106,37.348569",
     "geom:latitude":37.348569,
     "geom:longitude":-108.589106,
@@ -29,19 +34,36 @@
         "hotel"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555131
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3GkLOyTQAtsM1hhoHJ3FbU_37.348569_-108.589106@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439971,
-    "wof:geomhash":"643dbbc79efaf7c9e1bab018a446964e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"310c240b7b21e3955480a95a369ea1fa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555131,
+            "region_id":85688603,
+            "venue_id":823517813
+        }
+    ],
     "wof:id":823517813,
-    "wof:lastmodified":1466414668,
+    "wof:lastmodified":1492124517,
     "wof:name":"National 9 Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555131,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

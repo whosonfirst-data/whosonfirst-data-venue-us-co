@@ -2,9 +2,14 @@
   "id": 823494353,
   "type": "Feature",
   "properties": {
+    "addr:full":"1825 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"1825;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.836647,37.318839,-107.836647,37.318839",
     "geom:latitude":37.318839,
     "geom:longitude":-107.836647,
@@ -29,19 +34,28 @@
         "equine"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6yhFTkwvROpXt1qKABysfV_37.318839_-107.836647@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439411,
-    "wof:geomhash":"0ba57f9f8ec37de79859622c6a93e0ca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e9bc6a355c09986244de6b3c552e6a3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823494353
+        }
+    ],
     "wof:id":823494353,
-    "wof:lastmodified":1466414068,
+    "wof:lastmodified":1492119954,
     "wof:name":"Frazier Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

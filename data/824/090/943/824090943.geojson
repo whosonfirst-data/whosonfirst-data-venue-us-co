@@ -2,9 +2,14 @@
   "id": 824090943,
   "type": "Feature",
   "properties": {
+    "addr:full":"8481 Harrison Way Denver CO 80229",
+    "addr:housenumber":"8481",
+    "addr:postcode":"80229",
+    "addr:street":"Harrison Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.944364,39.850032,-104.944364,39.850032",
     "geom:latitude":39.850032,
     "geom:longitude":-104.944364,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553799
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5U6ZN9fZeA1oGli3s1dvYo_39.850032_-104.944364@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454108,
-    "wof:geomhash":"ca995ef083d7ad64ac2275ac5a56620c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb97cf01b42d89b59305eb0fb018427e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553799,
+            "region_id":85688603,
+            "venue_id":824090943
+        }
+    ],
     "wof:id":824090943,
-    "wof:lastmodified":1466415038,
+    "wof:lastmodified":1492130209,
     "wof:name":"Ice Cream Bandit",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553799,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

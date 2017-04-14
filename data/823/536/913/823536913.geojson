@@ -2,9 +2,14 @@
   "id": 823536913,
   "type": "Feature",
   "properties": {
+    "addr:full":"2300 Panama Ct Fort Collins CO 80526",
+    "addr:housenumber":"2300",
+    "addr:postcode":"80526",
+    "addr:street":"Panama Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.120832,40.558837,-105.120832,40.558837",
     "geom:latitude":40.558837,
     "geom:longitude":-105.120832,
@@ -26,10 +31,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929679,
         102083353,
-        85877463
+        85877463,
+        85877429
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -37,21 +44,31 @@
     },
     "wof:country":"US",
     "wof:created":1463440403,
-    "wof:geomhash":"7e74392a2a1019aa722b4435aefb0a8b",
+    "wof:geomhash":"1e791de5ef8ce71f1c3a670b34bdabc7",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102083353,
             "locality_id":85929679,
             "neighbourhood_id":85877463,
             "region_id":85688603,
             "venue_id":823536913
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877429,
+            "region_id":85688603,
+            "venue_id":823536913
         }
     ],
     "wof:id":823536913,
-    "wof:lastmodified":1466415483,
+    "wof:lastmodified":1492127095,
     "wof:name":"Acclaim Adjusters",
-    "wof:parent_id":85877463,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

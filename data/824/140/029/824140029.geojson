@@ -2,9 +2,14 @@
   "id": 824140029,
   "type": "Feature",
   "properties": {
+    "addr:full":"2504 Riverside Dr Steamboat Spgs CO 80487",
+    "addr:housenumber":"2504",
+    "addr:postcode":"80487",
+    "addr:street":"Riverside Dr;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.863912,40.502251,-106.863912,40.502251",
     "geom:latitude":40.502251,
     "geom:longitude":-106.863912,
@@ -29,19 +34,36 @@
         "cabin"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555187
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_34VpVm8gF2fBnvMN2Ni3sm_40.502251_-106.863912@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455512,
-    "wof:geomhash":"9165bbfa87a50d4a20786e11188f1b9d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bd3cefe9d407b39d4294db8f19252bef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555187,
+            "region_id":85688603,
+            "venue_id":824140029
+        }
+    ],
     "wof:id":824140029,
-    "wof:lastmodified":1466416470,
+    "wof:lastmodified":1492131812,
     "wof:name":"Log Connection",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555187,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823974243,
   "type": "Feature",
   "properties": {
+    "addr:full":"2635 Acre Ln Steamboat Spgs CO 80487",
+    "addr:housenumber":"2635",
+    "addr:postcode":"80487",
+    "addr:street":"Acre Ln;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.861599,40.508801,-106.861599,40.508801",
     "geom:latitude":40.508801,
     "geom:longitude":-106.861599,
@@ -28,19 +33,36 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555365
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6eitR0S7t1QPaAI6szeyAg_40.508801_-106.861599@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451339,
-    "wof:geomhash":"fe1bec0ae7fddf5d99667e4d37450c82",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf57b9cc965b921360f7e56b6e2fe8c7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555365,
+            "region_id":85688603,
+            "venue_id":823974243
+        }
+    ],
     "wof:id":823974243,
-    "wof:lastmodified":1466420809,
+    "wof:lastmodified":1492117241,
     "wof:name":"Uphill Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

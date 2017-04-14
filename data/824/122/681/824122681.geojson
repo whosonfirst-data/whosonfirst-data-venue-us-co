@@ -2,9 +2,14 @@
   "id": 824122681,
   "type": "Feature",
   "properties": {
+    "addr:full":"1304 Cheyenne Blvd Colorado Springs CO 80906",
+    "addr:housenumber":"1304",
+    "addr:postcode":"80906",
+    "addr:street":"Cheyenne Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.851805,38.799547,-104.851805,38.799547",
     "geom:latitude":38.799547,
     "geom:longitude":-104.851805,
@@ -29,9 +34,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85807689,
-        102086875
+        85929457,
+        102086875,
+        85827205,
+        85807689
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463454825,
-    "wof:geomhash":"15e28bc96856be972df8f1f5f7575fe2",
+    "wof:geomhash":"551dfdd2b0efb3c8749d3ae276b54a40",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":85827205,
+            "region_id":85688603,
+            "venue_id":824122681
+        },
         {
             "country_id":85633793,
             "county_id":102086875,
@@ -50,9 +67,9 @@
         }
     ],
     "wof:id":824122681,
-    "wof:lastmodified":1466415813,
+    "wof:lastmodified":1492130886,
     "wof:name":"Garden of Gods Seasonings Corp",
-    "wof:parent_id":85807689,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

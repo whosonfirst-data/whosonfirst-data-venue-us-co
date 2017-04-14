@@ -2,9 +2,14 @@
   "id": 824008693,
   "type": "Feature",
   "properties": {
+    "addr:full":"2460 E Main St Grand Junction CO 81501",
+    "addr:housenumber":"2460",
+    "addr:postcode":"81501",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.534526,39.069126,-108.534526,39.069126",
     "geom:latitude":39.069126,
     "geom:longitude":-108.534526,
@@ -28,19 +33,36 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0pJDJu4QwkmDiazCaDTEMA_39.069126_-108.534526@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452170,
-    "wof:geomhash":"153ca2f508cfbdf93cb961e4b6c26c8a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a2d044eac5723fadac9b1a681a57edd5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":824008693
+        }
+    ],
     "wof:id":824008693,
-    "wof:lastmodified":1466412798,
+    "wof:lastmodified":1492129961,
     "wof:name":"Colonnade Holdings Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

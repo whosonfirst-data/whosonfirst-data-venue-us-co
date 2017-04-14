@@ -2,9 +2,14 @@
   "id": 839930399,
   "type": "Feature",
   "properties": {
+    "addr:full":"4437 E 118th Ct Denver CO 80233",
+    "addr:housenumber":"4437",
+    "addr:postcode":"80233",
+    "addr:street":"E 118Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.932733,39.912382,-104.932733,39.912382",
     "geom:latitude":39.912382,
     "geom:longitude":-104.932733,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7UgmZuhU31Q8en23U505J2_39.912382_-104.932733@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457996,
-    "wof:geomhash":"307022b5e546801939311f8b37b4a24d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d7b7a6172dd6ba42a431468c5092f46",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":839930399
+        }
+    ],
     "wof:id":839930399,
-    "wof:lastmodified":1466414038,
+    "wof:lastmodified":1492112236,
     "wof:name":"Fearless Enterprises Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

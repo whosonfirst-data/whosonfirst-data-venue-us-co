@@ -2,9 +2,14 @@
   "id": 823806021,
   "type": "Feature",
   "properties": {
+    "addr:full":"2557 River Rd Grand Junction CO 81501",
+    "addr:housenumber":"2557",
+    "addr:postcode":"81501",
+    "addr:street":"River Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.584423,39.075796,-108.584423,39.075796",
     "geom:latitude":39.075796,
     "geom:longitude":-108.584423,
@@ -27,19 +32,46 @@
         "ale"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554919,
+        420554785
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_67cGV1Ca8oNCZ4KYfx9f9i_39.075796_-108.584423@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446872,
-    "wof:geomhash":"7dfee62e6fb08d632f8ce5c0365f2c25",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a8723f3ec320730d1b7510a499a61e46",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554919,
+            "region_id":85688603,
+            "venue_id":823806021
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554785,
+            "region_id":85688603,
+            "venue_id":823806021
+        }
+    ],
     "wof:id":823806021,
-    "wof:lastmodified":1466419400,
+    "wof:lastmodified":1492118247,
     "wof:name":"Colorado Beverage Distributing",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

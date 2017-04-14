@@ -2,9 +2,14 @@
   "id": 839933029,
   "type": "Feature",
   "properties": {
+    "addr:full":"1980 Billings St Aurora CO 80011",
+    "addr:housenumber":"1980",
+    "addr:postcode":"80011",
+    "addr:street":"Billings St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.824613,39.744918,-104.824613,39.744918",
     "geom:latitude":39.744918,
     "geom:longitude":-104.824613,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0NFhKuegyz7djPJxaROtXm_39.744918_-104.824613@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458136,
-    "wof:geomhash":"f38605e1846cf95c1f8923ca7887e1ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1834887f8d3fc6b80206c9f6ab85424d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":839933029
+        }
+    ],
     "wof:id":839933029,
-    "wof:lastmodified":1466414272,
+    "wof:lastmodified":1492111487,
     "wof:name":"Once More Trucking Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

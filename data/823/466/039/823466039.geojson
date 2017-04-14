@@ -2,9 +2,14 @@
   "id": 823466039,
   "type": "Feature",
   "properties": {
+    "addr:full":"2820 W 92nd Ave Denver CO 80260",
+    "addr:housenumber":"2820",
+    "addr:postcode":"80260",
+    "addr:street":"W 92Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.022681,39.863496,-105.022681,39.863496",
     "geom:latitude":39.863496,
     "geom:longitude":-105.022681,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_11YAwYNEV0GlYAV2uCxRu9_39.863496_-105.022681@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438744,
-    "wof:geomhash":"0887c484bf13ba6922ef80627b43c2e8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f984048a5d3bf5b55a042e2844d976ba",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823466039
+        }
+    ],
     "wof:id":823466039,
-    "wof:lastmodified":1466411930,
+    "wof:lastmodified":1492122661,
     "wof:name":"New Life Worship Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

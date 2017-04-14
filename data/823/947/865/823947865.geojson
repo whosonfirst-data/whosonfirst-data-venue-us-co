@@ -2,9 +2,14 @@
   "id": 823947865,
   "type": "Feature",
   "properties": {
+    "addr:full":"2841 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2841",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.527066,39.077293,-108.527066,39.077293",
     "geom:latitude":39.077293,
     "geom:longitude":-108.527066,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Yek5c8YImc1darFLps7eU_39.077293_-108.527066@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450730,
-    "wof:geomhash":"1f789a94a5ab48e4d9bbbb938bf88bd2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"228838d1589a46f69f1178bb90634bd7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554879,
+            "region_id":85688603,
+            "venue_id":823947865
+        }
+    ],
     "wof:id":823947865,
-    "wof:lastmodified":1466420619,
+    "wof:lastmodified":1492123770,
     "wof:name":"Quail Creek Log Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

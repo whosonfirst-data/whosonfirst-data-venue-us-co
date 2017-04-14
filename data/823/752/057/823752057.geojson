@@ -2,9 +2,14 @@
   "id": 823752057,
   "type": "Feature",
   "properties": {
+    "addr:full":"12224 Wheeling Ct Henderson CO 80640",
+    "addr:housenumber":"12224",
+    "addr:postcode":"80640",
+    "addr:street":"Wheeling Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.832731,39.920786,-104.832731,39.920786",
     "geom:latitude":39.920786,
     "geom:longitude":-104.832731,
@@ -27,19 +32,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1QpTqOxC57pIsUIgFbaWso_39.920786_-104.832731@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445429,
-    "wof:geomhash":"4bdc3f2c9b34fc47368dcb1a2cfa566e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a552781c3a550c823ce90b78643a631",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553367,
+            "region_id":85688603,
+            "venue_id":823752057
+        }
+    ],
     "wof:id":823752057,
-    "wof:lastmodified":1466418959,
+    "wof:lastmodified":1492125251,
     "wof:name":"Wenscorp Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

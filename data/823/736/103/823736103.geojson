@@ -2,9 +2,14 @@
   "id": 823736103,
   "type": "Feature",
   "properties": {
+    "addr:full":"4001 Nevis St Boulder CO 80301",
+    "addr:housenumber":"4001",
+    "addr:postcode":"80301",
+    "addr:street":"Nevis St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.253271,40.048252,-105.253271,40.048252",
     "geom:latitude":40.048252,
     "geom:longitude":-105.253271,
@@ -28,19 +33,28 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553975
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4U20eLTiA5AR8Warj2coek_40.048252_-105.253271@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445067,
-    "wof:geomhash":"0d50d0f44a35b6ce4414d175f9aff992",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9e86511dd2533f5ddcc777ae6fe4a9ef",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553975,
+            "venue_id":823736103
+        }
+    ],
     "wof:id":823736103,
-    "wof:lastmodified":1466418747,
+    "wof:lastmodified":1492118883,
     "wof:name":"Hegg Aircraft",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553975,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

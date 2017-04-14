@@ -2,9 +2,14 @@
   "id": 839968955,
   "type": "Feature",
   "properties": {
+    "addr:full":"108 Emery Rd Denver CO 80233",
+    "addr:housenumber":"108",
+    "addr:postcode":"80233",
+    "addr:street":"Emery Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98128,39.898476,-104.98128,39.898476",
     "geom:latitude":39.898476,
     "geom:longitude":-104.98128,
@@ -27,19 +32,36 @@
         "operator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2GHn5Qm3xVKrsWYfJUKCu8_39.898476_-104.981280@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459973,
-    "wof:geomhash":"7484e41add2aab2a7e6aa9644a84a520",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1ef8391c6dc9e69f6a1bb56cfc7be126",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":839968955
+        }
+    ],
     "wof:id":839968955,
-    "wof:lastmodified":1466416126,
+    "wof:lastmodified":1492114478,
     "wof:name":"AG Vending Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824135467,
   "type": "Feature",
   "properties": {
+    "addr:full":"12170 E 30th Ave Aurora CO 80011",
+    "addr:housenumber":"12170",
+    "addr:postcode":"80011",
+    "addr:street":"E 30Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.846836,39.759195,-104.846836,39.759195",
     "geom:latitude":39.759195,
     "geom:longitude":-104.846836,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7HxreiJIdcjCvNrqgtT2ap_39.759195_-104.846836@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455349,
-    "wof:geomhash":"863ec499567779bfd99ce1d85e1435aa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7aa6e155cedf99bccd5e29954ba78e86",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553301,
+            "region_id":85688603,
+            "venue_id":824135467
+        }
+    ],
     "wof:id":824135467,
-    "wof:lastmodified":1466416376,
+    "wof:lastmodified":1492129401,
     "wof:name":"Abrigo Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

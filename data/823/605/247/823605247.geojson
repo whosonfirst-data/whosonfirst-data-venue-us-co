@@ -2,9 +2,14 @@
   "id": 823605247,
   "type": "Feature",
   "properties": {
+    "addr:full":"2140 E 88th Ave Thornton CO 80229",
+    "addr:housenumber":"2140",
+    "addr:postcode":"80229",
+    "addr:street":"E 88Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.960936,39.856032,-104.960936,39.856032",
     "geom:latitude":39.856032,
     "geom:longitude":-104.960936,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3KwicQ9H7MVxdd62bqGqt3_39.856032_-104.960936@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442028,
-    "wof:geomhash":"46e0e1df049afb9454fdef482f550173",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cf58125cbfa579e9c7f23fa4aca0aee6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823605247
+        }
+    ],
     "wof:id":823605247,
-    "wof:lastmodified":1466417207,
+    "wof:lastmodified":1492121706,
     "wof:name":"Grace Christian Fellowship",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824160353,
   "type": "Feature",
   "properties": {
+    "addr:full":"14730 Colorado Blvd Brighton CO 80602",
+    "addr:housenumber":"14730",
+    "addr:postcode":"80602",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940192,39.96406,-104.940192,39.96406",
     "geom:latitude":39.96406,
     "geom:longitude":-104.940192,
@@ -29,19 +34,28 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Y4d6JoqvyKpxMWHwHXV9R_39.964060_-104.940192@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456314,
-    "wof:geomhash":"e71b6a10001a74afd1db163c833523c6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8cb135d04b15b8ca531408bb4c399d0f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553345,
+            "venue_id":824160353
+        }
+    ],
     "wof:id":824160353,
-    "wof:lastmodified":1466417547,
+    "wof:lastmodified":1492133055,
     "wof:name":"Bob Amerin Hauling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

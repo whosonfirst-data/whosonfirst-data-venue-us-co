@@ -2,9 +2,14 @@
   "id": 823903201,
   "type": "Feature",
   "properties": {
+    "addr:full":"301 W 32nd St Durango CO 81301",
+    "addr:housenumber":"301",
+    "addr:postcode":"co 81301",
+    "addr:street":"W 32Nd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.873605,37.301339,-107.873605,37.301339",
     "geom:latitude":37.301339,
     "geom:longitude":-107.873605,
@@ -28,8 +33,9 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
         85633793,
+        420554611,
+        85688603,
         85888419,
         102084019
     ],
@@ -39,8 +45,13 @@
     },
     "wof:country":"US",
     "wof:created":1463449551,
-    "wof:geomhash":"ee3d13bc69e9ab196c901e6a64a6ef0b",
+    "wof:geomhash":"61e7e507d9cbedb0b97c3029be62d03a",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":823903201
+        },
         {
             "country_id":85633793,
             "county_id":102084019,
@@ -50,9 +61,9 @@
         }
     ],
     "wof:id":823903201,
-    "wof:lastmodified":1466420238,
+    "wof:lastmodified":1492123751,
     "wof:name":"Kelan Builders",
-    "wof:parent_id":85888419,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839962649,
   "type": "Feature",
   "properties": {
+    "addr:full":"1150 E 66th Ave Denver CO 80229",
+    "addr:housenumber":"1150",
+    "addr:postcode":"80229",
+    "addr:street":"E 66Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977122,39.81632,-104.977122,39.81632",
     "geom:latitude":39.81632,
     "geom:longitude":-104.977122,
@@ -27,19 +32,36 @@
         "fence"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6GCr2ADVMPN0p1JNB7MRdn_39.816320_-104.977122@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459714,
-    "wof:geomhash":"392f9590f41801d90f013b28bc271263",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4977ab5057c2e50a843867deb2f8a4f1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":839962649
+        }
+    ],
     "wof:id":839962649,
-    "wof:lastmodified":1466415874,
+    "wof:lastmodified":1492112172,
     "wof:name":"Ozark Fence",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

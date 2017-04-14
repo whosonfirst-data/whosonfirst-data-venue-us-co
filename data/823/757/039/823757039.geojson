@@ -2,9 +2,14 @@
   "id": 823757039,
   "type": "Feature",
   "properties": {
+    "addr:full":"645 27th Way Boulder CO 80305",
+    "addr:housenumber":"645",
+    "addr:postcode":"80305",
+    "addr:street":"27Th Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.26065,39.996975,-105.26065,39.996975",
     "geom:latitude":39.996975,
     "geom:longitude":-105.26065,
@@ -28,7 +33,14 @@
         "yoga"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5in6kWdRILxtTyw1cxd3KA_39.996975_-105.260650@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463445560,
     "wof:geomhash":"bc55bb8278a6511f5bd3f09b7eafc6ed",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":823757039
+        }
+    ],
     "wof:id":823757039,
-    "wof:lastmodified":1466418979,
+    "wof:lastmodified":1491890404,
     "wof:name":"Bikram Yoga On Baseline",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

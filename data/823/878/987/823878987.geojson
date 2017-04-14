@@ -2,9 +2,14 @@
   "id": 823878987,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 N Dolores Rd Cortez CO 81321",
+    "addr:housenumber":"500",
+    "addr:postcode":"81321",
+    "addr:street":"N Dolores Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.554588,37.355021,-108.554588,37.355021",
     "geom:latitude":37.355021,
     "geom:longitude":-108.554588,
@@ -29,19 +34,28 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5UApOGRJvErrhUQTUlEhy7_37.355021_-108.554588@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448949,
-    "wof:geomhash":"5b1f103c39e98ab3f2236d5ee5422243",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5219b58a10d8f1193bb6602e396e17db",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823878987
+        }
+    ],
     "wof:id":823878987,
-    "wof:lastmodified":1466420116,
+    "wof:lastmodified":1492127887,
     "wof:name":"Tile Warehouse",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

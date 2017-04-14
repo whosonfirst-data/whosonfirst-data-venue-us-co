@@ -2,9 +2,14 @@
   "id": 823981615,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 Telep Ave Johnstown CO 80534",
+    "addr:housenumber":"100",
+    "addr:postcode":"80534",
+    "addr:street":"Telep Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.923828,40.335844,-104.923828,40.335844",
     "geom:latitude":40.335844,
     "geom:longitude":-104.923828,
@@ -27,19 +32,36 @@
         "department"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0X1J1jUEB24QMsh1R5v6te_40.335844_-104.923828@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451521,
-    "wof:geomhash":"ca58d6d965c2fb625f6e9dd4e658538a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3503b7dd756a771894854a2ac7b371fa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823981615
+        }
+    ],
     "wof:id":823981615,
-    "wof:lastmodified":1466420921,
+    "wof:lastmodified":1492126587,
     "wof:name":"Prevention Inspections",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

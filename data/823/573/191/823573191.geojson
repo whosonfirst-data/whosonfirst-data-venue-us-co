@@ -2,9 +2,14 @@
   "id": 823573191,
   "type": "Feature",
   "properties": {
+    "addr:full":"21700 Co Rd 742 Almont CO 81210",
+    "addr:housenumber":"21700;742",
+    "addr:postcode":"81210",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.580659,38.820431,-106.580659,38.820431",
     "geom:latitude":38.820431,
     "geom:longitude":-106.580659,
@@ -31,19 +36,28 @@
         "boat"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554433
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6HW69msgGo3OgnldUBqRLX_38.820431_-106.580659@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441256,
-    "wof:geomhash":"0fd4e87b11fc2328a584de15cad282d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bb4dd39c9d61785afe822249fed18f36",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554433,
+            "venue_id":823573191
+        }
+    ],
     "wof:id":823573191,
-    "wof:lastmodified":1466416562,
+    "wof:lastmodified":1492125289,
     "wof:name":"Taylor Park Marina Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554433,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

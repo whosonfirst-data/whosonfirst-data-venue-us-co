@@ -2,9 +2,14 @@
   "id": 823941161,
   "type": "Feature",
   "properties": {
+    "addr:full":"8630 Richard Rd Denver CO 80229",
+    "addr:housenumber":"8630",
+    "addr:postcode":"80229",
+    "addr:street":"Richard Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.96427,39.852471,-104.96427,39.852471",
     "geom:latitude":39.852471,
     "geom:longitude":-104.96427,
@@ -27,19 +32,46 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823,
+        420553651
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2GzNbibS2bShtCJNmtB5IG_39.852471_-104.964270@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450553,
-    "wof:geomhash":"fab01ebf6565440442f72736879d9a3c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b644e6bd4b845f0d1f5a493fcabf52ca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823941161
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553651,
+            "region_id":85688603,
+            "venue_id":823941161
+        }
+    ],
     "wof:id":823941161,
-    "wof:lastmodified":1466420518,
+    "wof:lastmodified":1492124448,
     "wof:name":"Rt Handyman & Const",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

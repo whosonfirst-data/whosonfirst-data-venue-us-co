@@ -2,9 +2,14 @@
   "id": 823771847,
   "type": "Feature",
   "properties": {
+    "addr:full":"3550 W Oxford Ave Denver CO 80236",
+    "addr:housenumber":"3550",
+    "addr:postcode":"80236",
+    "addr:street":"W Oxford Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033955,39.642196,-105.033955,39.642196",
     "geom:latitude":39.642196,
     "geom:longitude":-105.033955,
@@ -27,19 +32,38 @@
         "training"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85868407,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_794bbv2gIaU6VqDFVfxUaS_39.642196_-105.033955@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445865,
-    "wof:geomhash":"c3910cfe3200470231520e1ebe15e04c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2804dd9464a8d3aadda62fcd941ae108",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85868407,
+            "region_id":85688603,
+            "venue_id":823771847
+        }
+    ],
     "wof:id":823771847,
-    "wof:lastmodified":1466419088,
+    "wof:lastmodified":1492119046,
     "wof:name":"County & Staff Dev Training",
-    "wof:parent_id":-1,
+    "wof:parent_id":85868407,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

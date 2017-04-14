@@ -2,9 +2,14 @@
   "id": 823617989,
   "type": "Feature",
   "properties": {
+    "addr:full":"1301 S Chestnut St Cortez CO 81321",
+    "addr:housenumber":"1301",
+    "addr:postcode":"81321",
+    "addr:street":"S Chestnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586446,37.335693,-108.586446,37.335693",
     "geom:latitude":37.335693,
     "geom:longitude":-108.586446,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0ErQ94NMy2FJ19vMWu9ohg_37.335693_-108.586446@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442345,
-    "wof:geomhash":"67a149373b54157fac2607a79cbfba3f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9263f3bdd7af39512a8c6f1e9662e9c7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823617989
+        }
+    ],
     "wof:id":823617989,
-    "wof:lastmodified":1466417520,
+    "wof:lastmodified":1492122621,
     "wof:name":"EZ Homes LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

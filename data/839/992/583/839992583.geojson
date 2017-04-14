@@ -2,9 +2,14 @@
   "id": 839992583,
   "type": "Feature",
   "properties": {
+    "addr:full":"4250 W Colfax Ave Denver CO 80204",
+    "addr:housenumber":"4250",
+    "addr:postcode":"80204",
+    "addr:street":"W Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042491,39.740121,-105.042491,39.740121",
     "geom:latitude":39.740121,
     "geom:longitude":-105.042491,
@@ -29,19 +34,38 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871267,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3bEZ6OJylwApQ5qSIcOW1d_39.740269_-105.042320@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460908,
-    "wof:geomhash":"3b4bd20f5f4c293f7abe034a7d668e7b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"600e676a583cbacbc688c12728ed6618",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871267,
+            "region_id":85688603,
+            "venue_id":839992583
+        }
+    ],
     "wof:id":839992583,
-    "wof:lastmodified":1466417643,
+    "wof:lastmodified":1492114424,
     "wof:name":"Papa John's Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871267,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823832017,
   "type": "Feature",
   "properties": {
+    "addr:full":"12859 Claude Pl Denver CO 80241",
+    "addr:housenumber":"12859",
+    "addr:postcode":"80241",
+    "addr:street":"Claude Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961403,39.92948,-104.961403,39.92948",
     "geom:latitude":39.92948,
     "geom:longitude":-104.961403,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NLZ2L4kf2pVKNVS8gpvyJ_39.929480_-104.961403@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447662,
-    "wof:geomhash":"2223fe51f5ae7309c69a9eb0783e74d8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e14cca95fd4ebd867eb81e99e9784458",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823832017
+        }
+    ],
     "wof:id":823832017,
-    "wof:lastmodified":1466419616,
+    "wof:lastmodified":1492125724,
     "wof:name":"Hancock Excavating Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

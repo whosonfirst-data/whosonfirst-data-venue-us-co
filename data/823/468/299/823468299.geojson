@@ -2,9 +2,14 @@
   "id": 823468299,
   "type": "Feature",
   "properties": {
+    "addr:full":"2775 S Federal Blvd Denver CO 80236",
+    "addr:housenumber":"2775",
+    "addr:postcode":"80236",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02518,39.66598,-105.02518,39.66598",
     "geom:latitude":39.66598,
     "geom:longitude":-105.02518,
@@ -24,7 +29,15 @@
     "sg:postcode":"80236",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_24KV8IDXVsbZtFcVlA29gU_39.665980_-105.025180@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463438799,
     "wof:geomhash":"99e14afe0a24fa04b623e3ffeb165e77",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":823468299
+        }
+    ],
     "wof:id":823468299,
-    "wof:lastmodified":1466412143,
+    "wof:lastmodified":1491876114,
     "wof:name":"Trans Lawn Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823677141,
   "type": "Feature",
   "properties": {
+    "addr:full":"2200 Village Inn Ct Steamboat Springs CO 80477",
+    "addr:housenumber":"2200",
+    "addr:postcode":"80477",
+    "addr:street":"Village Inn Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.805018,40.458783,-106.805018,40.458783",
     "geom:latitude":40.458783,
     "geom:longitude":-106.805018,
@@ -27,19 +32,46 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555265,
+        420555203
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4GSxy6DT7rHBAQsBwW4cWJ_40.458783_-106.805018@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443727,
-    "wof:geomhash":"c41dcfbb5f4bb42be474ea6d7d08b210",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ace8b6f929cd03efb1a234140ab15e05",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555265,
+            "region_id":85688603,
+            "venue_id":823677141
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555203,
+            "region_id":85688603,
+            "venue_id":823677141
+        }
+    ],
     "wof:id":823677141,
-    "wof:lastmodified":1466418420,
+    "wof:lastmodified":1492126483,
     "wof:name":"Starbucks",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

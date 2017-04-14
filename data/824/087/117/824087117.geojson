@@ -2,9 +2,14 @@
   "id": 824087117,
   "type": "Feature",
   "properties": {
+    "addr:full":"6045 W Alameda Ave Denver CO 80226",
+    "addr:housenumber":"6045",
+    "addr:postcode":"80226",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.064644,39.711223,-105.064644,39.711223",
     "geom:latitude":39.711223,
     "geom:longitude":-105.064644,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1jIGKrJ1ra9UigN3dsuN6z_39.711223_-105.064644@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454023,
-    "wof:geomhash":"07b7a23f0452ae8c938db38855f50cab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a337c07af67f5e25fe1dbd0003224380",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":824087117
+        }
+    ],
     "wof:id":824087117,
-    "wof:lastmodified":1466414827,
+    "wof:lastmodified":1492128075,
     "wof:name":"Mario Sanchez Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

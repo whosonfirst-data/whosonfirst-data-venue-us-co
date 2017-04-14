@@ -2,9 +2,14 @@
   "id": 839948771,
   "type": "Feature",
   "properties": {
+    "addr:full":"2598 S Quitman St Denver CO 80219",
+    "addr:housenumber":"2598",
+    "addr:postcode":"80219",
+    "addr:street":"S Quitman St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040638,39.672533,-105.040638,39.672533",
     "geom:latitude":39.672533,
     "geom:longitude":-105.040638,
@@ -27,7 +32,15 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3XJKodY5iJErckB67KVkY0_39.672533_-105.040638@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463459077,
     "wof:geomhash":"6276e4ecd11a79aa3d5eca09377bb7d5",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":839948771
+        }
+    ],
     "wof:id":839948771,
-    "wof:lastmodified":1466415245,
+    "wof:lastmodified":1486593730,
     "wof:name":"Al Ewing Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

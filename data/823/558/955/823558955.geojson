@@ -2,9 +2,14 @@
   "id": 823558955,
   "type": "Feature",
   "properties": {
+    "addr:full":"4010 E 129th Way Thornton CO 80241",
+    "addr:housenumber":"4010",
+    "addr:postcode":"80241",
+    "addr:street":"E 129Th Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.938162,39.930834,-104.938162,39.930834",
     "geom:latitude":39.930834,
     "geom:longitude":-104.938162,
@@ -28,19 +33,36 @@
         "finishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553843
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5t4KxVtWnwtjAOToPvkOiI_39.930834_-104.938162@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440908,
-    "wof:geomhash":"46ccbb9fba0fce3471c384a546a54279",
-    "wof:hierarchy":[],
+    "wof:geomhash":"35a5795751479a5fa2fbd03a68811b18",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553843,
+            "region_id":85688603,
+            "venue_id":823558955
+        }
+    ],
     "wof:id":823558955,
-    "wof:lastmodified":1466416153,
+    "wof:lastmodified":1492117740,
     "wof:name":"Digital Treasures",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553843,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

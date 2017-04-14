@@ -2,9 +2,14 @@
   "id": 823873893,
   "type": "Feature",
   "properties": {
+    "addr:full":"3215 Piggott Rd Strasburg CO 80136",
+    "addr:housenumber":"3215",
+    "addr:postcode":"80136",
+    "addr:street":"Piggott Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.339901,39.759698,-104.339901,39.759698",
     "geom:latitude":39.759698,
     "geom:longitude":-104.339901,
@@ -27,19 +32,36 @@
         "locating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4TroJpw6JkvlNC29fBtZ8m_39.759698_-104.339901@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448823,
-    "wof:geomhash":"f89433d53314e452d02423266ef81ff7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e92b888c185a88cd51b66915478900cd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823873893
+        }
+    ],
     "wof:id":823873893,
-    "wof:lastmodified":1466420005,
+    "wof:lastmodified":1492120460,
     "wof:name":"Eacmd Sanitation & Water Dist",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

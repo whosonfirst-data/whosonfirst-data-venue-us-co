@@ -2,9 +2,14 @@
   "id": 823999929,
   "type": "Feature",
   "properties": {
+    "addr:full":"102 S Maple St Cortez CO 81321",
+    "addr:housenumber":"102",
+    "addr:postcode":"81321",
+    "addr:street":"S Maple St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590345,37.34747,-108.590345,37.34747",
     "geom:latitude":37.34747,
     "geom:longitude":-108.590345,
@@ -24,19 +29,28 @@
     "sg:postcode":"81321",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6yUFwf1GMUHBPCd3vPJL69_37.347470_-108.590345@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451986,
-    "wof:geomhash":"ec2ed9f220a0556412d995e4be941c23",
-    "wof:hierarchy":[],
+    "wof:geomhash":"15a546635f8805b573fe2b101f090e90",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823999929
+        }
+    ],
     "wof:id":823999929,
-    "wof:lastmodified":1466421088,
+    "wof:lastmodified":1492122815,
     "wof:name":"Colorado West Realty",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

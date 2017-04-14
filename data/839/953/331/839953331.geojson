@@ -2,9 +2,14 @@
   "id": 839953331,
   "type": "Feature",
   "properties": {
+    "addr:full":"2234 E Main St Cortez CO 81321",
+    "addr:housenumber":"2234",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.556051,37.350426,-108.556051,37.350426",
     "geom:latitude":37.350426,
     "geom:longitude":-108.556051,
@@ -27,19 +32,28 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0oEDpKIqITux5tMtDMVJYl_37.350426_-108.556051@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459305,
-    "wof:geomhash":"e4f0cf4a9f8f69f70b4c46ac2520898e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2e39a13903b103a306286ee5a30a906a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":839953331
+        }
+    ],
     "wof:id":839953331,
-    "wof:lastmodified":1466415415,
+    "wof:lastmodified":1492111634,
     "wof:name":"Hair Headquarters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

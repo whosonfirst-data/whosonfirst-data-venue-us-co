@@ -2,9 +2,14 @@
   "id": 839956677,
   "type": "Feature",
   "properties": {
+    "addr:full":"2912 Hill Ave Grand Junction CO 81504",
+    "addr:housenumber":"2912",
+    "addr:postcode":"81504",
+    "addr:street":"Hill Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.511798,39.074596,-108.511798,39.074596",
     "geom:latitude":39.074596,
     "geom:longitude":-108.511798,
@@ -29,19 +34,36 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_05C2qfkH6wjrwDsJ6ToY3H_39.074596_-108.511798@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459488,
-    "wof:geomhash":"df619499d0a35db084fbcc3ca20e71d0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"815f711a7b872ba4dd38160b9fe85951",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554929,
+            "region_id":85688603,
+            "venue_id":839956677
+        }
+    ],
     "wof:id":839956677,
-    "wof:lastmodified":1466415545,
+    "wof:lastmodified":1492111838,
     "wof:name":"Auto Crafters Collision Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

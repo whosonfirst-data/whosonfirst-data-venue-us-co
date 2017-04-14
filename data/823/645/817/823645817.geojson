@@ -2,9 +2,14 @@
   "id": 823645817,
   "type": "Feature",
   "properties": {
+    "addr:full":"853 E 73rd Ave Denver CO 80229",
+    "addr:housenumber":"853",
+    "addr:postcode":"80229",
+    "addr:street":"E 73Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.972079,39.82913,-104.972079,39.82913",
     "geom:latitude":39.82913,
     "geom:longitude":-104.972079,
@@ -28,19 +33,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2nDiRQxbEkX4ECMQzZN9C6_39.829130_-104.972079@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442986,
-    "wof:geomhash":"289220ef2b6e0f9cc67623a255a4abc0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"49fd381bdda9e0f99e4e6f5c548ce540",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823645817
+        }
+    ],
     "wof:id":823645817,
-    "wof:lastmodified":1466417997,
+    "wof:lastmodified":1492120137,
     "wof:name":"Coltec Tooling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824092139,
   "type": "Feature",
   "properties": {
+    "addr:full":"10383 Co Rd 100 Marvel CO 81329",
+    "addr:housenumber":"10383;100",
+    "addr:postcode":"marvel;81329",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.131322,37.111404,-108.131322,37.111404",
     "geom:latitude":37.111404,
     "geom:longitude":-108.131322,
@@ -24,19 +29,28 @@
     "sg:postcode":"81329",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2iOZ1wdFcnlY1FZMoA7arQ_37.111404_-108.131322@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454133,
-    "wof:geomhash":"862199c36a5a1219279776024d11941f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae1a33290c6755525247233ff5f51e69",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":824092139
+        }
+    ],
     "wof:id":824092139,
-    "wof:lastmodified":1466414960,
+    "wof:lastmodified":1492128990,
     "wof:name":"US Post Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

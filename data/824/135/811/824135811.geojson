@@ -2,9 +2,14 @@
   "id": 824135811,
   "type": "Feature",
   "properties": {
+    "addr:full":"2863 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2863",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.522928,39.077282,-108.522928,39.077282",
     "geom:latitude":39.077282,
     "geom:longitude":-108.522928,
@@ -28,19 +33,36 @@
         "instruction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1SHWZwm2luwofRNv35up4H_39.077282_-108.522928@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455361,
-    "wof:geomhash":"7d003f690a7507eadc27f1d64b0fc7d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9a5a2a9a0e579a016b6916d715bc7dcc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554929,
+            "region_id":85688603,
+            "venue_id":824135811
+        }
+    ],
     "wof:id":824135811,
-    "wof:lastmodified":1466416402,
+    "wof:lastmodified":1492129416,
     "wof:name":"Adventure Sports",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

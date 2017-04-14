@@ -2,9 +2,14 @@
   "id": 839988883,
   "type": "Feature",
   "properties": {
+    "addr:full":"1298 E 104th Ave Denver CO 80233",
+    "addr:housenumber":"1298",
+    "addr:postcode":"80233",
+    "addr:street":"E 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97051,39.885016,-104.97051,39.885016",
     "geom:latitude":39.885016,
     "geom:longitude":-104.97051,
@@ -28,19 +33,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5IrcEuqEH0HBkAM1rJjVik_39.885016_-104.970510@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460770,
-    "wof:geomhash":"346ff5b89e6e9621f67b68601f78da16",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f73b49929cd29e6905fe5150358a3116",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":839988883
+        }
+    ],
     "wof:id":839988883,
-    "wof:lastmodified":1466417463,
+    "wof:lastmodified":1492112803,
     "wof:name":"Taco Bell",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823909699,
   "type": "Feature",
   "properties": {
+    "addr:full":"4901 Nelson Rd Longmont CO 80503",
+    "addr:housenumber":"4901",
+    "addr:postcode":"80503",
+    "addr:street":"Nelson Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.236532,40.153059,-105.236532,40.153059",
     "geom:latitude":40.153059,
     "geom:longitude":-105.236532,
@@ -28,19 +33,28 @@
     ],
     "sg:website":"www.stvrainpc.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554059
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6pS01e8keA2YEchdwYJQ1d_40.153059_-105.236532@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449738,
-    "wof:geomhash":"f3520d772898eebfbe9c0b7615824665",
-    "wof:hierarchy":[],
+    "wof:geomhash":"afe3fea142ebbd9d0f660056b39fd14e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554059,
+            "venue_id":823909699
+        }
+    ],
     "wof:id":823909699,
-    "wof:lastmodified":1466420259,
+    "wof:lastmodified":1492122973,
     "wof:name":"St Vrain Presbyterian Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554059,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

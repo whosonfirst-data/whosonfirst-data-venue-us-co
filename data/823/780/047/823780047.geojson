@@ -2,9 +2,14 @@
   "id": 823780047,
   "type": "Feature",
   "properties": {
+    "addr:full":"2805 Sundown Ln Boulder CO 80303",
+    "addr:housenumber":"2805",
+    "addr:postcode":"80303",
+    "addr:street":"Sundown Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.25694,40.009832,-105.25694,40.009832",
     "geom:latitude":40.009832,
     "geom:longitude":-105.25694,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_30qlMKRGYPgccUUGFUBoMG_40.009832_-105.256940@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446091,
-    "wof:geomhash":"be7ee5d13a3351e54e16802e6bdde472",
-    "wof:hierarchy":[],
+    "wof:geomhash":"de05816d5103903b20547a9d55bd4f08",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":823780047
+        }
+    ],
     "wof:id":823780047,
-    "wof:lastmodified":1466419321,
+    "wof:lastmodified":1492118704,
     "wof:name":"Grca-He",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

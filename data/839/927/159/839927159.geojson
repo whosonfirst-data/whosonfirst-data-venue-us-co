@@ -2,9 +2,14 @@
   "id": 839927159,
   "type": "Feature",
   "properties": {
+    "addr:full":"2800 Valmont Rd Boulder CO 80301",
+    "addr:housenumber":"2800",
+    "addr:postcode":"80301",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.25603,40.029104,-105.25603,40.029104",
     "geom:latitude":40.029104,
     "geom:longitude":-105.25603,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0jzzRyeuKiYTT8AWh7WNGi_40.029104_-105.256030@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457822,
-    "wof:geomhash":"48d9fc09c91331ae130c476bbcdf4a32",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e9a2e3944f0e002419c914d05bcff75",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":839927159
+        }
+    ],
     "wof:id":839927159,
-    "wof:lastmodified":1466413815,
+    "wof:lastmodified":1492110355,
     "wof:name":"Today's Choice Dental",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

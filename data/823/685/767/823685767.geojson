@@ -2,9 +2,14 @@
   "id": 823685767,
   "type": "Feature",
   "properties": {
+    "addr:full":"685 W Gunnison Ave Grand Junction CO 81501",
+    "addr:housenumber":"685",
+    "addr:postcode":"81501",
+    "addr:street":"W Gunnison Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.579626,39.072043,-108.579626,39.072043",
     "geom:latitude":39.072043,
     "geom:longitude":-108.579626,
@@ -29,19 +34,36 @@
         "instruction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554837
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_66B7KHeLdf8rcMlKpmHLn8_39.072043_-108.579626@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443917,
-    "wof:geomhash":"37ea4b0a5f935b22e04dde36419c846a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7477fade72a53d54bf38ddfdc0ae9fa9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554837,
+            "region_id":85688603,
+            "venue_id":823685767
+        }
+    ],
     "wof:id":823685767,
-    "wof:lastmodified":1466418455,
+    "wof:lastmodified":1492117890,
     "wof:name":"Western Colorado USTF Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554837,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

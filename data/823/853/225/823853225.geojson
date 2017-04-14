@@ -2,9 +2,14 @@
   "id": 823853225,
   "type": "Feature",
   "properties": {
+    "addr:full":"1707 Exposition Dr Boulder CO 80301",
+    "addr:housenumber":"1707",
+    "addr:postcode":"80301",
+    "addr:street":"Exposition Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.246899,40.015416,-105.246899,40.015416",
     "geom:latitude":40.015416,
     "geom:longitude":-105.246899,
@@ -28,19 +33,36 @@
         "line"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2q1AmozSStuHYDa4gOzD3k_40.015416_-105.246899@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448307,
-    "wof:geomhash":"fb7432dfea1b032a9e36950929c2f238",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a259be8f3410a350e9257d535f99d44d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":823853225
+        }
+    ],
     "wof:id":823853225,
-    "wof:lastmodified":1466419793,
+    "wof:lastmodified":1492123435,
     "wof:name":"Regional Transportation Dst",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

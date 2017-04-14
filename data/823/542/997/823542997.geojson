@@ -2,9 +2,14 @@
   "id": 823542997,
   "type": "Feature",
   "properties": {
+    "addr:full":"14201 Co Rd 20 Cortez CO 81321",
+    "addr:housenumber":"14201;20",
+    "addr:postcode":"81321",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.682766,37.41586,-108.682766,37.41586",
     "geom:latitude":37.41586,
     "geom:longitude":-108.682766,
@@ -27,19 +32,28 @@
         "surveyor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555125
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_07QbsIuO1tTp27ZtxoZ2gY_37.415860_-108.682766@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440536,
-    "wof:geomhash":"d16fac6a2deedb7f1a7575e0f2a5aeaa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e01f55739d0857caab36cce276721680",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555125,
+            "venue_id":823542997
+        }
+    ],
     "wof:id":823542997,
-    "wof:lastmodified":1466415514,
+    "wof:lastmodified":1492124574,
     "wof:name":"Johnston Southwestern",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555125,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

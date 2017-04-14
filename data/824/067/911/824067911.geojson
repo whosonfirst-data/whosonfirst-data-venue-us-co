@@ -2,9 +2,14 @@
   "id": 824067911,
   "type": "Feature",
   "properties": {
+    "addr:full":"3300 Airport Rd Boulder CO 80301",
+    "addr:housenumber":"3300",
+    "addr:postcode":"80301",
+    "addr:street":"Airport Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.233288,40.034646,-105.233288,40.034646",
     "geom:latitude":40.034646,
     "geom:longitude":-105.233288,
@@ -28,19 +33,36 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_67xvXu5nvIgRO9TbBkYL3v_40.034646_-105.233288@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453564,
-    "wof:geomhash":"13423c2dbe63ee5dc9e7a0c6224d6605",
-    "wof:hierarchy":[],
+    "wof:geomhash":"79b341dd7864171c13caee122f050b4e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876385,
+            "region_id":85688603,
+            "venue_id":824067911
+        }
+    ],
     "wof:id":824067911,
-    "wof:lastmodified":1466414468,
+    "wof:lastmodified":1492130391,
     "wof:name":"Center For Sever Weather Rsrch",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

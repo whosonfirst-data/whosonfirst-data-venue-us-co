@@ -2,9 +2,14 @@
   "id": 823905191,
   "type": "Feature",
   "properties": {
+    "addr:full":"2484 Co Rd 222 Durango CO 81303",
+    "addr:housenumber":"2484;222",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.7548,37.20296,-107.7548,37.20296",
     "geom:latitude":37.20296,
     "geom:longitude":-107.7548,
@@ -27,19 +32,28 @@
         "genealogist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4SNvqkEQEaZfYEJJA2UxNF_37.202960_-107.754800@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449605,
-    "wof:geomhash":"ed9edc1684207b03878a64fd6b9469f7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"028724a310ab0e0872c2b60dd9ceece7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823905191
+        }
+    ],
     "wof:id":823905191,
-    "wof:lastmodified":1466420237,
+    "wof:lastmodified":1492121894,
     "wof:name":"Family Tree Research",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823598835,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 W 53rd Pl Denver CO 80216",
+    "addr:housenumber":"500",
+    "addr:postcode":"80216",
+    "addr:street":"W 53Rd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.991498,39.795007,-104.991498,39.795007",
     "geom:latitude":39.795007,
     "geom:longitude":-104.991498,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553677
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1QGgMm1ZYATMxae6Va9BN0_39.795007_-104.991498@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441855,
-    "wof:geomhash":"0e35d56d6ac5462c25dc44062a2b2886",
-    "wof:hierarchy":[],
+    "wof:geomhash":"38537db40db0673feb8f7eec99490285",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553677,
+            "region_id":85688603,
+            "venue_id":823598835
+        }
+    ],
     "wof:id":823598835,
-    "wof:lastmodified":1466417322,
+    "wof:lastmodified":1492122097,
     "wof:name":"General Parts Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553677,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

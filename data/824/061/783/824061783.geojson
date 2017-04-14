@@ -2,9 +2,14 @@
   "id": 824061783,
   "type": "Feature",
   "properties": {
+    "addr:full":"6259 Willow Ln Boulder CO 80301",
+    "addr:housenumber":"6259",
+    "addr:postcode":"80301",
+    "addr:street":"Willow Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.208441,40.059604,-105.208441,40.059604",
     "geom:latitude":40.059604,
     "geom:longitude":-105.208441,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420553963
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0iHcY1YrId4bJHxJAuo6Xa_40.059604_-105.208441@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453427,
-    "wof:geomhash":"c285eee1e036e38612bf6a72da5c10d7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d9db7ec7b5a92aa662d356e1d219ca61",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420553963,
+            "region_id":85688603,
+            "venue_id":824061783
+        }
+    ],
     "wof:id":824061783,
-    "wof:lastmodified":1466414452,
+    "wof:lastmodified":1492127934,
     "wof:name":"Jayhawk Remodeling Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553963,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

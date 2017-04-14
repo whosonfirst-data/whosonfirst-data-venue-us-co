@@ -2,9 +2,14 @@
   "id": 823863679,
   "type": "Feature",
   "properties": {
+    "addr:full":"1064 W 125th Dr Denver CO 80234",
+    "addr:housenumber":"1064",
+    "addr:postcode":"80234",
+    "addr:street":"W 125Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.003742,39.92586,-105.003742,39.92586",
     "geom:latitude":39.92586,
     "geom:longitude":-105.003742,
@@ -30,19 +35,36 @@
         "toner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1yLoJ07UqgHntyNAP3KmM6_39.925860_-105.003742@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448591,
-    "wof:geomhash":"ee58ed84b2ab77f0707b6f7fcecba3c7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fb64033dc2402dd5e811999fd5a2a0ec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823863679
+        }
+    ],
     "wof:id":823863679,
-    "wof:lastmodified":1466419895,
+    "wof:lastmodified":1492124468,
     "wof:name":"E P Research LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

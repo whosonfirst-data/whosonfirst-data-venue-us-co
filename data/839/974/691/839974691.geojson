@@ -2,9 +2,14 @@
   "id": 839974691,
   "type": "Feature",
   "properties": {
+    "addr:full":"2979 Eagle Way Boulder CO 80301",
+    "addr:housenumber":"2979",
+    "addr:postcode":"80301",
+    "addr:street":"Eagle Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.25437,40.030868,-105.25437,40.030868",
     "geom:latitude":40.030868,
     "geom:longitude":-105.25437,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5XTHdilSbd51PCx5ejgzeM_40.030868_-105.254370@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460206,
-    "wof:geomhash":"aa567f6a8365275721a21bea76a63cb8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"343524e714b8ad3182d2e6610f69a497",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":839974691
+        }
+    ],
     "wof:id":839974691,
-    "wof:lastmodified":1466416750,
+    "wof:lastmodified":1492110900,
     "wof:name":"Ahern Plbg Htg",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

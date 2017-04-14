@@ -2,9 +2,14 @@
   "id": 823958441,
   "type": "Feature",
   "properties": {
+    "addr:full":"1317 Spruce St Boulder CO 80302",
+    "addr:housenumber":"1317",
+    "addr:postcode":"80302",
+    "addr:street":"Spruce St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277886,40.019471,-105.277886,40.019471",
     "geom:latitude":40.019471,
     "geom:longitude":-105.277886,
@@ -31,7 +36,14 @@
         "drug"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ga6uoPTM7u8icerVgzi17_40.019471_-105.277886@1294083659"
@@ -39,11 +51,21 @@
     "wof:country":"US",
     "wof:created":1463450988,
     "wof:geomhash":"e0c171e9730889c9b004f020ee345ae6",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823958441
+        }
+    ],
     "wof:id":823958441,
-    "wof:lastmodified":1466420692,
+    "wof:lastmodified":1491888517,
     "wof:name":"Denver Behavioral Health Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

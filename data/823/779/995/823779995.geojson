@@ -2,9 +2,14 @@
   "id": 823779995,
   "type": "Feature",
   "properties": {
+    "addr:full":"714 Lincoln Pl Boulder CO 80302",
+    "addr:housenumber":"714",
+    "addr:postcode":"80302",
+    "addr:street":"Lincoln Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281026,40.001586,-105.281026,40.001586",
     "geom:latitude":40.001586,
     "geom:longitude":-105.281026,
@@ -24,19 +29,32 @@
     "sg:postcode":"80302",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876365,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6gcgKbvUHKphRLKIeOKYQn_40.001586_-105.281026@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446089,
-    "wof:geomhash":"4f7da905e390b535a7f8db0702867dde",
-    "wof:hierarchy":[],
+    "wof:geomhash":"23635103489f5582900f86f4db1908ed",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876365,
+            "region_id":85688603,
+            "venue_id":823779995
+        }
+    ],
     "wof:id":823779995,
-    "wof:lastmodified":1466419348,
+    "wof:lastmodified":1492123865,
     "wof:name":"Detectronix Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

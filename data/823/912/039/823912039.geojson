@@ -2,9 +2,14 @@
   "id": 823912039,
   "type": "Feature",
   "properties": {
+    "addr:full":"22990 Co Rd 54 Steamboat Springs CO 80487",
+    "addr:housenumber":"22990;54",
+    "addr:postcode":"80487",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.939079,40.616493,-106.939079,40.616493",
     "geom:latitude":40.616493,
     "geom:longitude":-106.939079,
@@ -29,19 +34,34 @@
         "cattle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555167,
+        420555155
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6aW9mqfCE0PxpI7jBSq8uB_40.616493_-106.939079@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449803,
-    "wof:geomhash":"b0259055933baf8882bbfe4aed4c9c2a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f4e6d77b0e5728266576755249122d80",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555167,
+            "venue_id":823912039
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555155,
+            "venue_id":823912039
+        }
+    ],
     "wof:id":823912039,
-    "wof:lastmodified":1466420272,
+    "wof:lastmodified":1492117138,
     "wof:name":"Rick Myers",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

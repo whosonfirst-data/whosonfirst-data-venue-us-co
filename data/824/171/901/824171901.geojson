@@ -2,9 +2,14 @@
   "id": 824171901,
   "type": "Feature",
   "properties": {
+    "addr:full":"6842 Camelia Ct Longmont CO 80503",
+    "addr:housenumber":"6842",
+    "addr:postcode":"80503",
+    "addr:street":"Camelia Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.171746,40.098555,-105.171746,40.098555",
     "geom:latitude":40.098555,
     "geom:longitude":-105.171746,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1lEUsdqPtTugKWkqKsY2fx_40.098555_-105.171746@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456758,
-    "wof:geomhash":"3f6212b86fc9e7d22904a5445fa8bea7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9a99814140f3dca711ecd752e9196067",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554063,
+            "region_id":85688603,
+            "venue_id":824171901
+        }
+    ],
     "wof:id":824171901,
-    "wof:lastmodified":1466417911,
+    "wof:lastmodified":1492130305,
     "wof:name":"Unlimited Proprty Improvements",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839956393,
   "type": "Feature",
   "properties": {
+    "addr:full":"110 E Main St Montrose CO 81401",
+    "addr:housenumber":"110",
+    "addr:postcode":"81401",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.879445,38.477464,-107.879445,38.477464",
     "geom:latitude":38.477464,
     "geom:longitude":-107.879445,
@@ -28,17 +33,32 @@
         "covering"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7cDu2U06qrRu9NciV0r1EJ_38.477464_-107.879445@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459475,
-    "wof:geomhash":"43e6db2c7bb7444b01b1538028be9fdc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"211c089e97e0f9aceefa6fa27113d648",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":839956393
+        }
+    ],
     "wof:id":839956393,
-    "wof:lastmodified":1466415319,
+    "wof:lastmodified":1492111824,
     "wof:name":"Sherwin-Williams Paints",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

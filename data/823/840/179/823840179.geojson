@@ -2,9 +2,14 @@
   "id": 823840179,
   "type": "Feature",
   "properties": {
+    "addr:full":"1961 W 64th Ave Denver CO 80221",
+    "addr:housenumber":"1961",
+    "addr:postcode":"80221",
+    "addr:street":"W 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.009027,39.814666,-105.009027,39.814666",
     "geom:latitude":39.814666,
     "geom:longitude":-105.009027,
@@ -28,19 +33,36 @@
         "packing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4F97aae6n0pAiORG7FOoEL_39.814666_-105.009027@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447940,
-    "wof:geomhash":"6c81fc15ae4a0e270c4473755baf9e6b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"39f744f67baef3a27a498e2eee980434",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553657,
+            "region_id":85688603,
+            "venue_id":823840179
+        }
+    ],
     "wof:id":823840179,
-    "wof:lastmodified":1466419661,
+    "wof:lastmodified":1492123859,
     "wof:name":"Rocky Mountain Meats",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553657,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

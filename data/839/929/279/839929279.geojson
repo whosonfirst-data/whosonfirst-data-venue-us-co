@@ -2,9 +2,14 @@
   "id": 839929279,
   "type": "Feature",
   "properties": {
+    "addr:full":"2350 W 112th Ave Denver CO 80234",
+    "addr:housenumber":"2350",
+    "addr:postcode":"80234",
+    "addr:street":"W 112Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.015914,39.899579,-105.015914,39.899579",
     "geom:latitude":39.899579,
     "geom:longitude":-105.015914,
@@ -27,19 +32,36 @@
         "plant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553639
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2uPAQ5uJ1nYXNZLvCw4boM_39.899579_-105.015914@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457927,
-    "wof:geomhash":"2bd8d49f4ee8be8453bca4589b7060c4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0974c9d81a3404eeb97c5cc5b52749cd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553639,
+            "region_id":85688603,
+            "venue_id":839929279
+        }
+    ],
     "wof:id":839929279,
-    "wof:lastmodified":1466413886,
+    "wof:lastmodified":1492112942,
     "wof:name":"City of Northglenn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

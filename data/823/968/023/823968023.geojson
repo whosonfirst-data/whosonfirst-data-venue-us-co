@@ -2,9 +2,14 @@
   "id": 823968023,
   "type": "Feature",
   "properties": {
+    "addr:full":"5435 Harlan St Arvada CO 80002",
+    "addr:housenumber":"5435",
+    "addr:postcode":"80002",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062675,39.796212,-105.062675,39.796212",
     "geom:latitude":39.796212,
     "geom:longitude":-105.062675,
@@ -29,19 +34,34 @@
     ],
     "sg:website":"www.washathome.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4GPGdK0yYmmw5TNEbohHPg_39.796212_-105.062675@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451213,
-    "wof:geomhash":"d4a908b2ab80c21e60a90b69a79b80a5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3ce8f2501958cb4c0df60cbea23bbc7f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823968023
+        }
+    ],
     "wof:id":823968023,
-    "wof:lastmodified":1466420785,
+    "wof:lastmodified":1492127757,
     "wof:name":"Wash At Home",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

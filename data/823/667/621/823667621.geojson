@@ -2,9 +2,14 @@
   "id": 823667621,
   "type": "Feature",
   "properties": {
+    "addr:full":"3171 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"3171;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.856613,37.344923,-107.856613,37.344923",
     "geom:latitude":37.344923,
     "geom:longitude":-107.856613,
@@ -29,19 +34,28 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5nQESVhYpFbaLYYiGvgPuY_37.344923_-107.856613@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443516,
-    "wof:geomhash":"743adc08a530504f4656cfb21e92f5a0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58b8fb15d5d9eb70cac306de96ee52c8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823667621
+        }
+    ],
     "wof:id":823667621,
-    "wof:lastmodified":1466418247,
+    "wof:lastmodified":1492127138,
     "wof:name":"Sundance Ironworks",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

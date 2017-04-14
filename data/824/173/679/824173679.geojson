@@ -2,9 +2,14 @@
   "id": 824173679,
   "type": "Feature",
   "properties": {
+    "addr:full":"1711 Roosevelt Way Aurora CO 80011",
+    "addr:housenumber":"1711",
+    "addr:postcode":"80011",
+    "addr:street":"Roosevelt Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.788826,39.743819,-104.788826,39.743819",
     "geom:latitude":39.743819,
     "geom:longitude":-104.788826,
@@ -34,19 +39,36 @@
         "site"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420560081
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0kSIZLHeLFKBYdcPIdOUq4_39.743819_-104.788826@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456829,
-    "wof:geomhash":"2e711efc1dcb2d9a398f88464261a0ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9eb44afaacda36d5ce0fa51660a16758",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420560081,
+            "region_id":85688603,
+            "venue_id":824173679
+        }
+    ],
     "wof:id":824173679,
-    "wof:lastmodified":1466418011,
+    "wof:lastmodified":1492131506,
     "wof:name":"Friendly Village of Aurora Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420560081,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

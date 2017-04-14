@@ -2,9 +2,14 @@
   "id": 823513825,
   "type": "Feature",
   "properties": {
+    "addr:full":"3015 Bluff St Boulder CO 80301",
+    "addr:housenumber":"3015",
+    "addr:postcode":"80301",
+    "addr:street":"Bluff St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.252386,40.027642,-105.252386,40.027642",
     "geom:latitude":40.027642,
     "geom:longitude":-105.252386,
@@ -30,19 +35,36 @@
         "trip"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4X9xvNExpaYc7U6tXaJ0xo_40.027642_-105.252386@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439881,
-    "wof:geomhash":"ec4779480b1d304be25b1ef5554ec4cc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8cf952bf2d0eff6f85b26ed0abd2b04b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":823513825
+        }
+    ],
     "wof:id":823513825,
-    "wof:lastmodified":1466414763,
+    "wof:lastmodified":1492124350,
     "wof:name":"Scuba Joe",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

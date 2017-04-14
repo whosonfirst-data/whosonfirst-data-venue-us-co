@@ -2,9 +2,14 @@
   "id": 823867401,
   "type": "Feature",
   "properties": {
+    "addr:full":"2002 Rolling Rd Cortez CO 81321",
+    "addr:housenumber":"2002",
+    "addr:postcode":"81321",
+    "addr:street":"Rolling Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.558516,37.36841,-108.558516,37.36841",
     "geom:latitude":37.36841,
     "geom:longitude":-108.558516,
@@ -31,19 +36,28 @@
         "gas"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4uwCkG0oEcSPpfhC05YTxu_37.368410_-108.558516@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448679,
-    "wof:geomhash":"9e5f2d80fb2f34524dd3a83c4b934637",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bc6c02eebcee22564fa13a8caf71b184",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823867401
+        }
+    ],
     "wof:id":823867401,
-    "wof:lastmodified":1466420043,
+    "wof:lastmodified":1492123605,
     "wof:name":"Colorado Pica Petroleum Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

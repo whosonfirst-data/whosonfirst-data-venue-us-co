@@ -2,9 +2,14 @@
   "id": 839945995,
   "type": "Feature",
   "properties": {
+    "addr:full":"7150 Hooker St Westminster CO 80030",
+    "addr:housenumber":"7150",
+    "addr:postcode":"80030",
+    "addr:street":"Hooker St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.027845,39.826527,-105.027845,39.826527",
     "geom:latitude":39.826527,
     "geom:longitude":-105.027845,
@@ -27,19 +32,36 @@
         "mission"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_44s9mgqYb4x8ZLVUnQFKUx_39.826527_-105.027845@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458914,
-    "wof:geomhash":"1388c7daa7409efd7fded3337e24bba2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1e66a4c9ff121481df4461886ef68c76",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":839945995
+        }
+    ],
     "wof:id":839945995,
-    "wof:lastmodified":1466415288,
+    "wof:lastmodified":1492114006,
     "wof:name":"IMD Intl",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

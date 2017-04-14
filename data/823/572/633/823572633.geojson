@@ -2,9 +2,14 @@
   "id": 823572633,
   "type": "Feature",
   "properties": {
+    "addr:full":"2505 W 7th Ave Denver CO 80204",
+    "addr:housenumber":"2505",
+    "addr:postcode":"80204",
+    "addr:street":"W 7Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018625,39.72758,-105.018625,39.72758",
     "geom:latitude":39.72758,
     "geom:longitude":-105.018625,
@@ -24,7 +29,15 @@
     "sg:postcode":"80204",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3stT0lZOsbJItgDxPycqCV_39.727580_-105.018625@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463441242,
     "wof:geomhash":"4484b7650b1064bad0a351f9f12d93ee",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":823572633
+        }
+    ],
     "wof:id":823572633,
-    "wof:lastmodified":1466416380,
+    "wof:lastmodified":1486588759,
     "wof:name":"Carrier West",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

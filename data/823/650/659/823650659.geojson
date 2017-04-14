@@ -2,9 +2,14 @@
   "id": 823650659,
   "type": "Feature",
   "properties": {
+    "addr:full":"6773 Rd 25 Cortez CO 81321",
+    "addr:housenumber":"6773",
+    "addr:postcode":"81321",
+    "addr:street":"Rd 25",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.591238,37.307587,-108.591238,37.307587",
     "geom:latitude":37.307587,
     "geom:longitude":-108.591238,
@@ -28,19 +33,38 @@
         "pilot"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555031,
+        85688603,
+        85896007,
+        102084099
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1hs5feQEoc3ujBjbk9dIkb_37.307587_-108.591238@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443092,
-    "wof:geomhash":"6f76728519d69481236db2a563e7ad32",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3b04864845c42033a20b21436cb3100e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555031,
+            "venue_id":823650659
+        },
+        {
+            "country_id":85633793,
+            "county_id":102084099,
+            "neighbourhood_id":85896007,
+            "region_id":85688603,
+            "venue_id":823650659
+        }
+    ],
     "wof:id":823650659,
-    "wof:lastmodified":1466417973,
+    "wof:lastmodified":1492126446,
     "wof:name":"Pontino Pilot Car Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824143845,
   "type": "Feature",
   "properties": {
+    "addr:full":"310 Belleview Ave Crested Butte CO 81224",
+    "addr:housenumber":"310",
+    "addr:postcode":"81224",
+    "addr:street":"Belleview Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.9843,38.866966,-106.9843,38.866966",
     "geom:latitude":38.866966,
     "geom:longitude":-106.9843,
@@ -27,19 +32,36 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929655,
+        102083377,
+        420554485
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1zz7rctU53ef36GnYrhMaq_38.866966_-106.984300@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455649,
-    "wof:geomhash":"675a4b5bc7f91a95edc6ad95f7fca718",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09f0a52f52af46964fd5a3c077a12274",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554485,
+            "region_id":85688603,
+            "venue_id":824143845
+        }
+    ],
     "wof:id":824143845,
-    "wof:lastmodified":1466416647,
+    "wof:lastmodified":1492130644,
     "wof:name":"Tom Stillo Photographer",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554485,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

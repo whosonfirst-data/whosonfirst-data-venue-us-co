@@ -2,9 +2,14 @@
   "id": 824165069,
   "type": "Feature",
   "properties": {
+    "addr:full":"13005 King Cir Broomfield CO 80020",
+    "addr:housenumber":"13005",
+    "addr:postcode":"80020",
+    "addr:street":"King Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.032347,39.932312,-105.032347,39.932312",
     "geom:latitude":39.932312,
     "geom:longitude":-105.032347,
@@ -29,19 +34,36 @@
         "grounds"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554245
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0mTXe4x48qDsiqRHpYM5G7_39.932312_-105.032347@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456494,
-    "wof:geomhash":"9aadad84975177c7dde7c59b1d215819",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0339b918bbc7feb7817250ce8018c9a3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554245,
+            "region_id":85688603,
+            "venue_id":824165069
+        }
+    ],
     "wof:id":824165069,
-    "wof:lastmodified":1466417677,
+    "wof:lastmodified":1492129892,
     "wof:name":"Mac's Mowing & Landscape",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554245,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

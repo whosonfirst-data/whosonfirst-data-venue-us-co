@@ -2,9 +2,14 @@
   "id": 823870561,
   "type": "Feature",
   "properties": {
+    "addr:full":"724 Elk Ave Crested Butte CO 81224",
+    "addr:housenumber":"724",
+    "addr:postcode":"81224",
+    "addr:street":"Elk Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.977658,38.869752,-106.977658,38.869752",
     "geom:latitude":38.869752,
     "geom:longitude":-106.977658,
@@ -28,19 +33,66 @@
         "org"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929655,
+        102083377,
+        85888329,
+        420554477,
+        420554505,
+        420554509
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6vUn6j7V9BPRokKmRttOqV_38.869752_-106.977658@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448750,
-    "wof:geomhash":"edcca1c3ff270f99a6db6b1c3c1e922d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5969c3cc911b7f85ebfe870f4165f85a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":85888329,
+            "region_id":85688603,
+            "venue_id":823870561
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554477,
+            "region_id":85688603,
+            "venue_id":823870561
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554505,
+            "region_id":85688603,
+            "venue_id":823870561
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554509,
+            "region_id":85688603,
+            "venue_id":823870561
+        }
+    ],
     "wof:id":823870561,
-    "wof:lastmodified":1466420081,
+    "wof:lastmodified":1492116530,
     "wof:name":"High Country Citizens Alliance",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839958991,
   "type": "Feature",
   "properties": {
+    "addr:full":"11990 Grant St Denver CO 80233",
+    "addr:housenumber":"11990",
+    "addr:postcode":"80233",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.981416,39.911398,-104.981416,39.911398",
     "geom:latitude":39.911398,
     "geom:longitude":-104.981416,
@@ -29,19 +34,36 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2mw563dvjgchSn8JnmTdFn_39.911398_-104.981416@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459579,
-    "wof:geomhash":"d4c12909b9152de5442b9b44fe776db3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d8fe9e67204cc93d08c7cf7ed0542c27",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":839958991
+        }
+    ],
     "wof:id":839958991,
-    "wof:lastmodified":1466415817,
+    "wof:lastmodified":1492113229,
     "wof:name":"Rbc Mortgage Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

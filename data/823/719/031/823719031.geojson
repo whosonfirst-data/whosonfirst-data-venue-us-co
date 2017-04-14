@@ -2,9 +2,14 @@
   "id": 823719031,
   "type": "Feature",
   "properties": {
+    "addr:full":"5680 W 88th Ave Westminster CO 80031",
+    "addr:housenumber":"5680",
+    "addr:postcode":"80031",
+    "addr:street":"W 88Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059205,39.856366,-105.059205,39.856366",
     "geom:latitude":39.856366,
     "geom:longitude":-105.059205,
@@ -27,19 +32,36 @@
         "out"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0azjZYiVPazEOQ0CPBZUVw_39.856366_-105.059205@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444625,
-    "wof:geomhash":"6be514d058c3e53158e8e67281fdfb2f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"087af74af64a710d43b3e14d13e22b97",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823719031
+        }
+    ],
     "wof:id":823719031,
-    "wof:lastmodified":1466418679,
+    "wof:lastmodified":1492126052,
     "wof:name":"Dinner & Dish",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

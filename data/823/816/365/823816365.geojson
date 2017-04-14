@@ -2,9 +2,14 @@
   "id": 823816365,
   "type": "Feature",
   "properties": {
+    "addr:full":"9548 Clayton Ct Denver CO 80229",
+    "addr:housenumber":"9548",
+    "addr:postcode":"80229",
+    "addr:street":"Clayton Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.954635,39.869496,-104.954635,39.869496",
     "geom:latitude":39.869496,
     "geom:longitude":-104.954635,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4WU4KYxeGkO6X3r3ChHzht_39.869496_-104.954635@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447193,
-    "wof:geomhash":"fdcfef5eceae2d3115ced33baae2fca8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"15cd2fdd6fd083084f81072aaf63ecf3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":823816365
+        }
+    ],
     "wof:id":823816365,
-    "wof:lastmodified":1466419495,
+    "wof:lastmodified":1492127633,
     "wof:name":"Yaroslav Family Trucking Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

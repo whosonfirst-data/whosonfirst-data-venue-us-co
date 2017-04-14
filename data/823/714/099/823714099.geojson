@@ -2,9 +2,14 @@
   "id": 823714099,
   "type": "Feature",
   "properties": {
+    "addr:full":"565 E 70th Ave Denver CO 80229",
+    "addr:housenumber":"565",
+    "addr:postcode":"80229",
+    "addr:street":"E 70Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980105,39.82383,-104.980105,39.82383",
     "geom:latitude":39.82383,
     "geom:longitude":-104.980105,
@@ -27,19 +32,36 @@
         "prefab"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7OEVVxlyGUSHNyzY4Aveyd_39.823830_-104.980105@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444531,
-    "wof:geomhash":"c644850d9aefa4977b8c73dbb432256e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"efde531410f94045014efbd7f550ec07",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823714099
+        }
+    ],
     "wof:id":823714099,
-    "wof:lastmodified":1466418633,
+    "wof:lastmodified":1492126357,
     "wof:name":"Abbey Manufacturing LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

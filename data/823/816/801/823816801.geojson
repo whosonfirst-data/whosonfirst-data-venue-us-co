@@ -2,9 +2,14 @@
   "id": 823816801,
   "type": "Feature",
   "properties": {
+    "addr:full":"1203 13th St Boulder CO 80302",
+    "addr:housenumber":"1203",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.27634,40.009486,-105.27634,40.009486",
     "geom:latitude":40.009486,
     "geom:longitude":-105.27634,
@@ -27,19 +32,36 @@
         "clothing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_26vZM8fDcFPXMQGeToutTa_40.009486_-105.276340@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447202,
-    "wof:geomhash":"e950a8e7d14958fc69c1718e16148882",
-    "wof:hierarchy":[],
+    "wof:geomhash":"24a768adaa305fffc4215210ac9664d1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":823816801
+        }
+    ],
     "wof:id":823816801,
-    "wof:lastmodified":1466419533,
+    "wof:lastmodified":1492127635,
     "wof:name":"Stellar Clothing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

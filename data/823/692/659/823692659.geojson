@@ -2,9 +2,14 @@
   "id": 823692659,
   "type": "Feature",
   "properties": {
+    "addr:full":"25 Xavier St Denver CO 80219",
+    "addr:housenumber":"25",
+    "addr:postcode":"80219",
+    "addr:street":"Xavier St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.04947,39.717807,-105.04947,39.717807",
     "geom:latitude":39.717807,
     "geom:longitude":-105.04947,
@@ -28,7 +33,15 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3xDxQsdaBwj5Y6Oricy0as_39.717807_-105.049470@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463444077,
     "wof:geomhash":"a9c5b44806fc95b257373d86729fac1e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":823692659
+        }
+    ],
     "wof:id":823692659,
-    "wof:lastmodified":1466418528,
+    "wof:lastmodified":1486593769,
     "wof:name":"Grap Hicks & Distribution",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

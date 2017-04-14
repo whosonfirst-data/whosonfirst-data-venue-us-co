@@ -2,9 +2,14 @@
   "id": 824092051,
   "type": "Feature",
   "properties": {
+    "addr:full":"4501 W Kentucky Ave Denver CO 80219",
+    "addr:housenumber":"4501",
+    "addr:postcode":"80219",
+    "addr:street":"W Kentucky Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.046959,39.70041,-105.046959,39.70041",
     "geom:latitude":39.70041,
     "geom:longitude":-105.046959,
@@ -28,7 +33,15 @@
         "home"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ThGFOKPbwPhWzZdztG2n3_39.700410_-105.046959@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463454130,
     "wof:geomhash":"536a91035474fb055c29942619595666",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":824092051
+        }
+    ],
     "wof:id":824092051,
-    "wof:lastmodified":1466415039,
+    "wof:lastmodified":1491876336,
     "wof:name":"Capitol City Mobile Home Park",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

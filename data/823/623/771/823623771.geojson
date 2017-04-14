@@ -2,9 +2,14 @@
   "id": 823623771,
   "type": "Feature",
   "properties": {
+    "addr:full":"108 W Main St Florence CO 81226",
+    "addr:housenumber":"108",
+    "addr:postcode":"81226",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.119279,38.390288,-105.119279,38.390288",
     "geom:latitude":38.390288,
     "geom:longitude":-105.119279,
@@ -27,17 +32,32 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929791,
+        102083363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5dVIYln2XErBWSBxKGEfO2_38.390288_-105.119279@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442488,
-    "wof:geomhash":"00966524d9dbf087a8b9034d44f6ffee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d0c4ada204a6c38b5ce1004665d0ec8d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "locality_id":85929791,
+            "region_id":85688603,
+            "venue_id":823623771
+        }
+    ],
     "wof:id":823623771,
-    "wof:lastmodified":1466417509,
+    "wof:lastmodified":1492117845,
     "wof:name":"Fremont Lanes",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

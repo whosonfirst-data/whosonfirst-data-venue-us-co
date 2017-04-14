@@ -2,9 +2,14 @@
   "id": 839929903,
   "type": "Feature",
   "properties": {
+    "addr:full":"1101 Colorado Ave Longmont CO 80501",
+    "addr:housenumber":"1101",
+    "addr:postcode":"80501",
+    "addr:street":"Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.108111,40.155886,-105.108111,40.155886",
     "geom:latitude":40.155886,
     "geom:longitude":-105.108111,
@@ -30,17 +35,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6wdXZG3IJbKJbJzAEjLdMG_40.155886_-105.108111@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457969,
-    "wof:geomhash":"bdc8fc3c28af2c50ccb85db83b35d3fa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5c652875e865520a5d1a15436a904c16",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":839929903
+        }
+    ],
     "wof:id":839929903,
-    "wof:lastmodified":1466414059,
+    "wof:lastmodified":1492112945,
     "wof:name":"Wright Heating & AC",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

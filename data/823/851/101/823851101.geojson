@@ -2,9 +2,14 @@
   "id": 823851101,
   "type": "Feature",
   "properties": {
+    "addr:full":"4690 Sioux Dr Boulder CO 80303",
+    "addr:housenumber":"4690",
+    "addr:postcode":"80303",
+    "addr:street":"Sioux Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.236057,39.993064,-105.236057,39.993064",
     "geom:latitude":39.993064,
     "geom:longitude":-105.236057,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1cFKupVDAsMklTqMw2Kk2k_39.993064_-105.236057@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448251,
-    "wof:geomhash":"592a518d10b6554015f6463c2df43e8d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e738573a95c9512814179158f6f4b3e5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":823851101
+        }
+    ],
     "wof:id":823851101,
-    "wof:lastmodified":1466419788,
+    "wof:lastmodified":1492127310,
     "wof:name":"Enterprise Roofings",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

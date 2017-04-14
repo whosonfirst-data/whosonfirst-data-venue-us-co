@@ -2,9 +2,14 @@
   "id": 823468733,
   "type": "Feature",
   "properties": {
+    "addr:full":"10037 S Hover Rd Longmont CO 80501",
+    "addr:housenumber":"10037",
+    "addr:postcode":"80501",
+    "addr:street":"S Hover Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.130625,40.159676,-105.130625,40.159676",
     "geom:latitude":40.159676,
     "geom:longitude":-105.130625,
@@ -29,10 +34,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929115,
         102085251,
+        85832583,
+        102191575,
         85896065
     ],
     "wof:breaches":[],
@@ -41,8 +47,16 @@
     },
     "wof:country":"US",
     "wof:created":1463438810,
-    "wof:geomhash":"2aae8a4248f6ce697266caa8c6b48602",
+    "wof:geomhash":"4987f8dfc533cd8b93306f8232fe2073",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "neighbourhood_id":85832583,
+            "region_id":85688603,
+            "venue_id":823468733
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,9 +68,9 @@
         }
     ],
     "wof:id":823468733,
-    "wof:lastmodified":1466412184,
+    "wof:lastmodified":1492124549,
     "wof:name":"Creative Landscaping Nursery",
-    "wof:parent_id":85896065,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

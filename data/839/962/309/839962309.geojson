@@ -2,9 +2,14 @@
   "id": 839962309,
   "type": "Feature",
   "properties": {
+    "addr:full":"12200 Bellaire St Denver CO 80241",
+    "addr:housenumber":"12200",
+    "addr:postcode":"80241",
+    "addr:street":"Bellaire St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.936754,39.920128,-104.936754,39.920128",
     "geom:latitude":39.920128,
     "geom:longitude":-104.936754,
@@ -28,19 +33,46 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5bW7i1Ajh6tENgBhoX43WA_39.920128_-104.936754@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459696,
-    "wof:geomhash":"5ef6276fbbc5e8086bf0fd22ffe69462",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5dca2eac9c0d53aac96c5f348b3df727",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":839962309
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":839962309
+        }
+    ],
     "wof:id":839962309,
-    "wof:lastmodified":1466415850,
+    "wof:lastmodified":1492112184,
     "wof:name":"Indepndant Cpitl Resources LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824102317,
   "type": "Feature",
   "properties": {
+    "addr:full":"1285 Yellow Pine Ave Boulder CO 80304",
+    "addr:housenumber":"1285",
+    "addr:postcode":"80304",
+    "addr:street":"Yellow Pine Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.285423,40.059754,-105.285423,40.059754",
     "geom:latitude":40.059754,
     "geom:longitude":-105.285423,
@@ -28,19 +33,34 @@
     ],
     "sg:website":"www.youbeboss.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1JFDmE4ZxU3hZYoNAC92tD_40.059754_-105.285423@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454388,
-    "wof:geomhash":"b1df395c1a36b673942d59ffb2f44d54",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0ff8b0dae03650be7393f7c59447b371",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":824102317
+        }
+    ],
     "wof:id":824102317,
-    "wof:lastmodified":1466415096,
+    "wof:lastmodified":1492131978,
     "wof:name":"Alice A Cohen CPA",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

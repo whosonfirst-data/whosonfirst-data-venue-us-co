@@ -2,9 +2,14 @@
   "id": 823962503,
   "type": "Feature",
   "properties": {
+    "addr:full":"939 E 62nd Ave Denver CO 80216",
+    "addr:housenumber":"939",
+    "addr:postcode":"80216",
+    "addr:street":"E 62Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.975402,39.809227,-104.975402,39.809227",
     "geom:latitude":39.809227,
     "geom:longitude":-104.975402,
@@ -27,19 +32,36 @@
         "safety"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3St4hne5ERstUP8dBl9lP8_39.809227_-104.975402@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451081,
-    "wof:geomhash":"82e03e9f85cd102629c247266219b157",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9a9ce2c80320b0b9b3af7040b5ffaf10",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":823962503
+        }
+    ],
     "wof:id":823962503,
-    "wof:lastmodified":1466420747,
+    "wof:lastmodified":1492120907,
     "wof:name":"Safety Equipment",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823836883,
   "type": "Feature",
   "properties": {
+    "addr:full":"3995 Aurora Ave Boulder CO 80303",
+    "addr:housenumber":"3995",
+    "addr:postcode":"80303",
+    "addr:street":"Aurora Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.244213,40.003812,-105.244213,40.003812",
     "geom:latitude":40.003812,
     "geom:longitude":-105.244213,
@@ -24,19 +29,36 @@
     "sg:postcode":"80303",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6mZTIO6kPAm35DqU8W4vzB_40.003812_-105.244213@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447823,
-    "wof:geomhash":"29b11540a1a48667df20570419573811",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b2b89f331f2b0181dc9dc5481efbf360",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":823836883
+        }
+    ],
     "wof:id":823836883,
-    "wof:lastmodified":1466419761,
+    "wof:lastmodified":1492126253,
     "wof:name":"High Peaks Elementary School",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

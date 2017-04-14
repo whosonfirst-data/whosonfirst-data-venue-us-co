@@ -2,9 +2,14 @@
   "id": 823854787,
   "type": "Feature",
   "properties": {
+    "addr:full":"13398 Pearl Cir Denver CO 80241",
+    "addr:housenumber":"13398",
+    "addr:postcode":"80241",
+    "addr:street":"Pearl Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978806,39.938939,-104.978806,39.938939",
     "geom:latitude":39.938939,
     "geom:longitude":-104.978806,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553815
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2V05feWtueTTn1hwtKejrw_39.938939_-104.978806@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448355,
-    "wof:geomhash":"74de2bde517469c596ec51998bbcafac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"38a776a08b990e284c038863d88e182b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553815,
+            "region_id":85688603,
+            "venue_id":823854787
+        }
+    ],
     "wof:id":823854787,
-    "wof:lastmodified":1466419825,
+    "wof:lastmodified":1492125013,
     "wof:name":"Kennedy Electric Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553815,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824096477,
   "type": "Feature",
   "properties": {
+    "addr:full":"1440 Alpine Dr Boulder CO 80304",
+    "addr:housenumber":"1440",
+    "addr:postcode":"80304",
+    "addr:street":"Alpine Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277213,40.025431,-105.277213,40.025431",
     "geom:latitude":40.025431,
     "geom:longitude":-105.277213,
@@ -24,7 +29,14 @@
     "sg:postcode":"80304",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00THOJejVpF2sFj2MBmbjW_40.025431_-105.277213@1294083659"
@@ -32,11 +44,21 @@
     "wof:country":"US",
     "wof:created":1463454255,
     "wof:geomhash":"164b28e00096014b2d0c28721d99489e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":824096477
+        }
+    ],
     "wof:id":824096477,
-    "wof:lastmodified":1466415031,
+    "wof:lastmodified":1491888508,
     "wof:name":"CCL Enterprises Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

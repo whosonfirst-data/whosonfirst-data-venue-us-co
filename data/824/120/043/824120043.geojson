@@ -2,9 +2,14 @@
   "id": 824120043,
   "type": "Feature",
   "properties": {
+    "addr:full":"9291 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"9291",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025247,39.865272,-105.025247,39.865272",
     "geom:latitude":39.865272,
     "geom:longitude":-105.025247,
@@ -27,19 +32,36 @@
         "human"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3owmiB8Mcrztb6pqTbdwVt_39.865272_-105.025247@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454766,
-    "wof:geomhash":"d47ddff4d41333b90972aab336f93061",
-    "wof:hierarchy":[],
+    "wof:geomhash":"42a5d4f95ec76eeff23920f133975642",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":824120043
+        }
+    ],
     "wof:id":824120043,
-    "wof:lastmodified":1466415610,
+    "wof:lastmodified":1492128056,
     "wof:name":"Servicios Hispanos",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823897837,
   "type": "Feature",
   "properties": {
+    "addr:full":"5440 N Foothills Hwy Boulder CO 80302",
+    "addr:housenumber":"5440",
+    "addr:postcode":"80302",
+    "addr:street":"N Foothills Hwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.284568,40.074376,-105.284568,40.074376",
     "geom:latitude":40.074376,
     "geom:longitude":-105.284568,
@@ -29,19 +34,34 @@
         "cabinet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42UkTd1eEC5rWs27u57AeJ_40.074376_-105.284568@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449386,
-    "wof:geomhash":"c5f91ce7a17ed964ee19aad8223b561b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"217d490297a2303d43ead5446354401f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823897837
+        }
+    ],
     "wof:id":823897837,
-    "wof:lastmodified":1466420219,
+    "wof:lastmodified":1492120546,
     "wof:name":"Sal Custom Woodcraft",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

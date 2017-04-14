@@ -2,9 +2,14 @@
   "id": 823596181,
   "type": "Feature",
   "properties": {
+    "addr:full":"2357 Research Blvd Fort Collins CO 80526",
+    "addr:housenumber":"2357",
+    "addr:postcode":"80526",
+    "addr:street":"Research Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.085961,40.553546,-105.085961,40.553546",
     "geom:latitude":40.553546,
     "geom:longitude":-105.085961,
@@ -29,19 +34,36 @@
     ],
     "sg:website":"www.mbi.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554759
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_46b7jRauSNsz6pU3otUlC7_40.553546_-105.085961@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441797,
-    "wof:geomhash":"533f66e2c874b416e8bc92f760d5f108",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d3c14bba822d348cf4034ba311126e0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554759,
+            "region_id":85688603,
+            "venue_id":823596181
+        }
+    ],
     "wof:id":823596181,
-    "wof:lastmodified":1466416977,
+    "wof:lastmodified":1492123409,
     "wof:name":"MBI Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554759,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

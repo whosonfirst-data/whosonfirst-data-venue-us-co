@@ -2,9 +2,14 @@
   "id": 823938103,
   "type": "Feature",
   "properties": {
+    "addr:full":"6337 Co Rd 742 Almont CO 81210",
+    "addr:housenumber":"6337;742",
+    "addr:postcode":"81210",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.775781,38.722885,-106.775781,38.722885",
     "geom:latitude":38.722885,
     "geom:longitude":-106.775781,
@@ -27,19 +32,28 @@
         "gen"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554451
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4scGMZ68iIhdePuwqJMstk_38.722885_-106.775781@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450478,
-    "wof:geomhash":"a5f65844b4a4c2e2e7664fa5f7a90bac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a4b7af8c7a0dbfb557f8cab197653801",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554451,
+            "venue_id":823938103
+        }
+    ],
     "wof:id":823938103,
-    "wof:lastmodified":1466420658,
+    "wof:lastmodified":1492116499,
     "wof:name":"Wapiti Canyon Ranch Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554451,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

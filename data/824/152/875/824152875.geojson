@@ -2,9 +2,14 @@
   "id": 824152875,
   "type": "Feature",
   "properties": {
+    "addr:full":"10555 Adams Ct Denver CO 80233",
+    "addr:housenumber":"10555",
+    "addr:postcode":"80233",
+    "addr:street":"Adams Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.949565,39.888249,-104.949565,39.888249",
     "geom:latitude":39.888249,
     "geom:longitude":-104.949565,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Hsr1bPZzq2u7g6HLd0DxH_39.888249_-104.949565@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456014,
-    "wof:geomhash":"2bc0e5681921643e7025e0d320632e01",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fdad684fda66461cae1ca823a0236ba1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":824152875
+        }
+    ],
     "wof:id":824152875,
-    "wof:lastmodified":1466416918,
+    "wof:lastmodified":1492132933,
     "wof:name":"Arctic Elec Svcs Ntwrk Cabling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

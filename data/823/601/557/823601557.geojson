@@ -2,9 +2,14 @@
   "id": 823601557,
   "type": "Feature",
   "properties": {
+    "addr:full":"13748 Co Rd 4 Brighton CO 80603",
+    "addr:housenumber":"13748",
+    "addr:postcode":"80603",
+    "addr:street":"Co Rd 4",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.803628,40.014944,-104.803628,40.014944",
     "geom:latitude":40.014944,
     "geom:longitude":-104.803628,
@@ -24,19 +29,34 @@
     "sg:postcode":"80603",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2EqtwX2QpyJrWnRSBwzv8q_40.014944_-104.803628@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441942,
-    "wof:geomhash":"0b07845b581b1a8bb499e507a2a7dbce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ac22c4d8a2ce73de480f063399b30e0b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":823601557
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823601557
+        }
+    ],
     "wof:id":823601557,
-    "wof:lastmodified":1466417140,
+    "wof:lastmodified":1492126819,
     "wof:name":"Faster Horses Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

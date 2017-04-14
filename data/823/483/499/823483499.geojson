@@ -2,9 +2,14 @@
   "id": 823483499,
   "type": "Feature",
   "properties": {
+    "addr:full":"620 E 58th Ave Denver CO 80216",
+    "addr:housenumber":"620",
+    "addr:postcode":"80216",
+    "addr:street":"E 58Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977585,39.801876,-104.977585,39.801876",
     "geom:latitude":39.801876,
     "geom:longitude":-104.977585,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_20a2MNtbcAaawFx9TfU8eG_39.801876_-104.977585@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439155,
-    "wof:geomhash":"19b6343e7f74cec3b18860e7964d457f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"19461d7208db3f7d040647a6abc48f03",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":823483499
+        }
+    ],
     "wof:id":823483499,
-    "wof:lastmodified":1466413561,
+    "wof:lastmodified":1492125692,
     "wof:name":"Los Camperos Musical",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

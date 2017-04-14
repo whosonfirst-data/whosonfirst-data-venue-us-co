@@ -2,9 +2,14 @@
   "id": 824079345,
   "type": "Feature",
   "properties": {
+    "addr:full":"2100 W Midway Blvd Broomfield CO 80020",
+    "addr:housenumber":"2100",
+    "addr:postcode":"80020",
+    "addr:street":"W Midway Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.09849,39.923483,-105.09849,39.923483",
     "geom:latitude":39.923483,
     "geom:longitude":-105.09849,
@@ -35,7 +40,10 @@
         85633793,
         85929855,
         102086123,
-        85876549
+        420554249,
+        420554199,
+        85876549,
+        420554181
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,8 +51,26 @@
     },
     "wof:country":"US",
     "wof:created":1463453838,
-    "wof:geomhash":"f9ab7df72151f67fd82449c01926748e",
+    "wof:geomhash":"d1d1a05398c044100fa4ffa4d31e4ff5",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554249,
+            "region_id":85688603,
+            "venue_id":824079345
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554199,
+            "region_id":85688603,
+            "venue_id":824079345
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -53,12 +79,21 @@
             "neighbourhood_id":85876549,
             "region_id":85688603,
             "venue_id":824079345
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554181,
+            "region_id":85688603,
+            "venue_id":824079345
         }
     ],
     "wof:id":824079345,
-    "wof:lastmodified":1466414674,
+    "wof:lastmodified":1492128920,
     "wof:name":"Bestop Inc",
-    "wof:parent_id":85876549,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

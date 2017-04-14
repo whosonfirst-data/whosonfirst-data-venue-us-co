@@ -2,9 +2,14 @@
   "id": 824157925,
   "type": "Feature",
   "properties": {
+    "addr:full":"2165 W Evans Ave Denver CO 80223",
+    "addr:housenumber":"2165",
+    "addr:postcode":"80223",
+    "addr:street":"W Evans Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.011869,39.678725,-105.011869,39.678725",
     "geom:latitude":39.678725,
     "geom:longitude":-105.011869,
@@ -28,7 +33,15 @@
         "customizing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_602gBvQcVYxtJX21DtgRt0_39.678725_-105.011869@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463456223,
     "wof:geomhash":"d22dde20ca1eb33a84d65c30a1f2e1bc",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":824157925
+        }
+    ],
     "wof:id":824157925,
-    "wof:lastmodified":1466417086,
+    "wof:lastmodified":1491876209,
     "wof:name":"Sam's Kustom Hydraulics",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

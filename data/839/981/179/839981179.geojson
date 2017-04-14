@@ -2,9 +2,14 @@
   "id": 839981179,
   "type": "Feature",
   "properties": {
+    "addr:full":"12360 Hwy 666 Cortez CO 81321",
+    "addr:housenumber":"12360",
+    "addr:postcode":"81321",
+    "addr:street":"Hwy 666",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.614242,37.390421,-108.614242,37.390421",
     "geom:latitude":37.390421,
     "geom:longitude":-108.614242,
@@ -23,19 +28,28 @@
         "petroleum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1z3mPCBm85VCp0evXLiBKp_37.390421_-108.614242@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460466,
-    "wof:geomhash":"0a38fcf9525b798f1e2a83f7a3f8342a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f92b77e6ee80946ba91f7a24114fae3b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555117,
+            "venue_id":839981179
+        }
+    ],
     "wof:id":839981179,
-    "wof:lastmodified":1466417007,
+    "wof:lastmodified":1492114357,
     "wof:name":"Country Gas",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555117,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

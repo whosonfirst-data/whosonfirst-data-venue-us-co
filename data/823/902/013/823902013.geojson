@@ -2,9 +2,14 @@
   "id": 823902013,
   "type": "Feature",
   "properties": {
+    "addr:full":"4705 Eugene Way Denver CO 80239",
+    "addr:housenumber":"4705",
+    "addr:postcode":"80239",
+    "addr:street":"Eugene Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.816863,39.779821,-104.816863,39.779821",
     "geom:latitude":39.779821,
     "geom:longitude":-104.816863,
@@ -27,7 +32,15 @@
         "janitor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5kq1d5qIrPYVEeU66vFDcs_39.779821_-104.816863@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463449516,
     "wof:geomhash":"634cbbda67ec4a188a9c0801734f075e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823902013
+        }
+    ],
     "wof:id":823902013,
-    "wof:lastmodified":1466420219,
+    "wof:lastmodified":1491887477,
     "wof:name":"Dave's Cleaning Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

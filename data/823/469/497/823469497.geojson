@@ -2,9 +2,14 @@
   "id": 823469497,
   "type": "Feature",
   "properties": {
+    "addr:full":"12169 Sheridan Blvd Broomfield CO 80020",
+    "addr:housenumber":"12169",
+    "addr:postcode":"80020",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053026,39.914731,-105.053026,39.914731",
     "geom:latitude":39.914731,
     "geom:longitude":-105.053026,
@@ -27,19 +32,36 @@
         "retail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554229
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6oSnk6Goj9LEkhzc183E7T_39.914731_-105.053026@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438826,
-    "wof:geomhash":"0462856e4f6ddd4739e65a6d7b0504ae",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2de154642edbf297b19e562306a963e2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554229,
+            "region_id":85688603,
+            "venue_id":823469497
+        }
+    ],
     "wof:id":823469497,
-    "wof:lastmodified":1466412274,
+    "wof:lastmodified":1492127797,
     "wof:name":"Rocky Mountain Hot Dogs LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554229,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

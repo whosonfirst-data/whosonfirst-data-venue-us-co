@@ -2,9 +2,14 @@
   "id": 824050239,
   "type": "Feature",
   "properties": {
+    "addr:full":"1420 Shasta Dr Colorado Springs CO 80910",
+    "addr:housenumber":"1420",
+    "addr:postcode":"80910",
+    "addr:street":"Shasta Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.77181,38.811568,-104.77181,38.811568",
     "geom:latitude":38.811568,
     "geom:longitude":-104.77181,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554341
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ZB2JOvVUa53e3F1cCglH5_38.811568_-104.771810@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453170,
-    "wof:geomhash":"1bce7738fd2462dbc6fda245ce882c1e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b46bc6f8ac58173175fcc738305592a9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":824050239
+        }
+    ],
     "wof:id":824050239,
-    "wof:lastmodified":1466414201,
+    "wof:lastmodified":1492133294,
     "wof:name":"Full Gospel Korean Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554341,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

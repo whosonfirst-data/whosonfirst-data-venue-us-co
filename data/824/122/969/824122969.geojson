@@ -2,9 +2,14 @@
   "id": 824122969,
   "type": "Feature",
   "properties": {
+    "addr:full":"12216 Sunflower St Broomfield CO 80020",
+    "addr:housenumber":"12216",
+    "addr:postcode":"80020",
+    "addr:street":"Sunflower St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.036032,39.918181,-105.036032,39.918181",
     "geom:latitude":39.918181,
     "geom:longitude":-105.036032,
@@ -27,19 +32,36 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420553613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1UxQDKBxhLvFIMvTTE9vWC_39.918181_-105.036032@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454836,
-    "wof:geomhash":"3dfd62a935cd82ee715db045c591f71c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1cf6593b7ba0e46b5ebbc1147bdca959",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420553613,
+            "region_id":85688603,
+            "venue_id":824122969
+        }
+    ],
     "wof:id":824122969,
-    "wof:lastmodified":1466415779,
+    "wof:lastmodified":1492130860,
     "wof:name":"Western Skies Landscaping Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

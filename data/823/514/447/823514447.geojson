@@ -2,9 +2,14 @@
   "id": 823514447,
   "type": "Feature",
   "properties": {
+    "addr:full":"1620 Meade St Denver CO 80204",
+    "addr:housenumber":"1620",
+    "addr:postcode":"80204",
+    "addr:street":"Meade St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.035704,39.743689,-105.035704,39.743689",
     "geom:latitude":39.743689,
     "geom:longitude":-105.035704,
@@ -29,19 +34,38 @@
         "day"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871267,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2mROm5TAaaH7WgHvClYIN8_39.743689_-105.035704@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439895,
-    "wof:geomhash":"7b782dae0394bbb0133a9aef186f919a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6b67030ae389e817699f16e8885c923b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871267,
+            "region_id":85688603,
+            "venue_id":823514447
+        }
+    ],
     "wof:id":823514447,
-    "wof:lastmodified":1466414560,
+    "wof:lastmodified":1492124910,
     "wof:name":"Centura Adult Day Programs",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871267,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

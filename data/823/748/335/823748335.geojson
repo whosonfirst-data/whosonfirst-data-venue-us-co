@@ -2,9 +2,14 @@
   "id": 823748335,
   "type": "Feature",
   "properties": {
+    "addr:full":"17800 E 32nd Ave Aurora CO 80011",
+    "addr:housenumber":"17800",
+    "addr:postcode":"80011",
+    "addr:street":"E 32Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.78026,39.759428,-104.78026,39.759428",
     "geom:latitude":39.759428,
     "geom:longitude":-104.78026,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553315
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4oTN2T0khsY2Pz6zHoj4xz_39.759428_-104.780260@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445334,
-    "wof:geomhash":"d10e06a5ea56a33421caaef853716358",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53dc34bb47e54902e4e942d21750e983",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553315,
+            "region_id":85688603,
+            "venue_id":823748335
+        }
+    ],
     "wof:id":823748335,
-    "wof:lastmodified":1466418876,
+    "wof:lastmodified":1492125080,
     "wof:name":"Philips Med Systems Cleveland",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

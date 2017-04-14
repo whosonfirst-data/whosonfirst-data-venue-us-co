@@ -2,9 +2,14 @@
   "id": 824129411,
   "type": "Feature",
   "properties": {
+    "addr:full":"6195 E 72nd Ave Commerce City CO 80022",
+    "addr:housenumber":"6195",
+    "addr:postcode":"80022",
+    "addr:street":"E 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.916059,39.827311,-104.916059,39.827311",
     "geom:latitude":39.827311,
     "geom:longitude":-104.916059,
@@ -27,19 +32,36 @@
         "pawnbroker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553569
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4BceUdN3X85FZySh35fTak_39.827311_-104.916059@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455117,
-    "wof:geomhash":"b27dfe9184c21e877b789b14b84a159b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1cb7673dd4e0c10a32e6bbcea36d40de",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553569,
+            "region_id":85688603,
+            "venue_id":824129411
+        }
+    ],
     "wof:id":824129411,
-    "wof:lastmodified":1466416097,
+    "wof:lastmodified":1492131749,
     "wof:name":"EZ Pawn Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553569,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

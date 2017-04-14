@@ -2,9 +2,14 @@
   "id": 823536509,
   "type": "Feature",
   "properties": {
+    "addr:full":"303 Park Ave Fort Lupton CO 80621",
+    "addr:housenumber":"303",
+    "addr:postcode":"80621",
+    "addr:street":"Park Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.811784,40.083223,-104.811784,40.083223",
     "geom:latitude":40.083223,
     "geom:longitude":-104.811784,
@@ -29,19 +34,28 @@
         "property"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3tuoUCuSQhrTs8XvFsmEpP_40.083223_-104.811784@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440393,
-    "wof:geomhash":"76f04bd97e3c5063c80b2e965c4a7696",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9420e1b1268d5bf1caefca9d878bbea0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823536509
+        }
+    ],
     "wof:id":823536509,
-    "wof:lastmodified":1466415344,
+    "wof:lastmodified":1492127099,
     "wof:name":"Alan Bueltel",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

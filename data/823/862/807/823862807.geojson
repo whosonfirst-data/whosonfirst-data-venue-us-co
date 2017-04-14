@@ -2,9 +2,14 @@
   "id": 823862807,
   "type": "Feature",
   "properties": {
+    "addr:full":"2001 Co Rd 300 Durango CO 81303",
+    "addr:housenumber":"2001;300",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.817242,37.152196,-107.817242,37.152196",
     "geom:latitude":37.152196,
     "geom:longitude":-107.817242,
@@ -28,19 +33,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3UBmjDh3uBWOvY2LbwnKvp_37.152196_-107.817242@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448568,
-    "wof:geomhash":"1eda5ed74ef0b7b8ebd99d1c685c3f24",
-    "wof:hierarchy":[],
+    "wof:geomhash":"29ac97022d0cc122f3cc92629614c9a4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554633,
+            "venue_id":823862807
+        }
+    ],
     "wof:id":823862807,
-    "wof:lastmodified":1466419868,
+    "wof:lastmodified":1492119821,
     "wof:name":"Anthony Zellitti Farm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

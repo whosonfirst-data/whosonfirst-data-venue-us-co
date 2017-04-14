@@ -2,9 +2,14 @@
   "id": 823896431,
   "type": "Feature",
   "properties": {
+    "addr:full":"10605 Rd 23 Cortez CO 81321",
+    "addr:housenumber":"10605",
+    "addr:postcode":"81321",
+    "addr:street":"Rd 23",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.627573,37.367411,-108.627573,37.367411",
     "geom:latitude":37.367411,
     "geom:longitude":-108.627573,
@@ -29,19 +34,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0K2wPZXDUBG9kvb78YVOwf_37.367411_-108.627573@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449361,
-    "wof:geomhash":"45e762ecf64c5d2b441b2b3a1e6fa219",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0441c4d9c80634d4c38fa2dc223ce918",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555089,
+            "venue_id":823896431
+        }
+    ],
     "wof:id":823896431,
-    "wof:lastmodified":1466420133,
+    "wof:lastmodified":1492119579,
     "wof:name":"Just Wood Floors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

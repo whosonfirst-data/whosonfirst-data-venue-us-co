@@ -2,9 +2,14 @@
   "id": 824026673,
   "type": "Feature",
   "properties": {
+    "addr:full":"5605 63rd St Boulder CO 80301",
+    "addr:housenumber":"5605",
+    "addr:postcode":"80301",
+    "addr:street":"63Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.206955,40.075655,-105.206955,40.075655",
     "geom:latitude":40.075655,
     "geom:longitude":-105.206955,
@@ -35,7 +40,9 @@
         85633793,
         85929877,
         102085251,
-        85865179
+        420559243,
+        85865179,
+        85895981
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,8 +50,17 @@
     },
     "wof:country":"US",
     "wof:created":1463452580,
-    "wof:geomhash":"40a09a79d393d5e094bb9264eca28853",
+    "wof:geomhash":"27aa077f0b1a8571fcfc276da3eaf62c",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420559243,
+            "region_id":85688603,
+            "venue_id":824026673
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -53,12 +69,20 @@
             "neighbourhood_id":85865179,
             "region_id":85688603,
             "venue_id":824026673
+        },
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85895981,
+            "region_id":85688603,
+            "venue_id":824026673
         }
     ],
     "wof:id":824026673,
-    "wof:lastmodified":1466413693,
+    "wof:lastmodified":1492128164,
     "wof:name":"Boulder County Health Dept",
-    "wof:parent_id":85865179,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

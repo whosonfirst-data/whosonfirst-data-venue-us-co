@@ -2,9 +2,14 @@
   "id": 839947439,
   "type": "Feature",
   "properties": {
+    "addr:full":"800 Sherman St Fort Morgan CO 80701",
+    "addr:housenumber":"800",
+    "addr:postcode":"morgan;80701",
+    "addr:street":"Sherman St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.792019,40.257584,-103.792019,40.257584",
     "geom:latitude":40.257584,
     "geom:longitude":-103.792019,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7U7qvr9ttEDDhHxJo8esCF_40.257584_-103.792019@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459014,
-    "wof:geomhash":"96a7d1b256c31694819d76b746ba0acf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3f51abb050b046b1fd83b7eb0b791f76",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":839947439
+        }
+    ],
     "wof:id":839947439,
-    "wof:lastmodified":1466415175,
+    "wof:lastmodified":1492113045,
     "wof:name":"Trinity Lutheran Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

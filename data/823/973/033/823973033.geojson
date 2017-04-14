@@ -2,9 +2,14 @@
   "id": 823973033,
   "type": "Feature",
   "properties": {
+    "addr:full":"460 Carson Lake Dr Clifton CO 81520",
+    "addr:housenumber":"460",
+    "addr:postcode":"81520",
+    "addr:street":"Carson Lake Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.452597,39.070094,-108.452597,39.070094",
     "geom:latitude":39.070094,
     "geom:longitude":-108.452597,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1MSFZqgT3C1WXP0VGubFW1_39.070094_-108.452597@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451314,
-    "wof:geomhash":"3db23032941613f9a5d55b41bd8b2d2b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d24cdb879f51125f069a138ed4a5aba2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":823973033
+        }
+    ],
     "wof:id":823973033,
-    "wof:lastmodified":1466420788,
+    "wof:lastmodified":1492123147,
     "wof:name":"Leanard Vigil",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

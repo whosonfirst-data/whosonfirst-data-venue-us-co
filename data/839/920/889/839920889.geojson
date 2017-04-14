@@ -2,9 +2,14 @@
   "id": 839920889,
   "type": "Feature",
   "properties": {
+    "addr:full":"5151 W 1st Ave Denver CO 80219",
+    "addr:housenumber":"5151",
+    "addr:postcode":"80219",
+    "addr:street":"W 1St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052339,39.718294,-105.052339,39.718294",
     "geom:latitude":39.718294,
     "geom:longitude":-105.052339,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6jIxNzFstC3R4ohXtPIJnj_39.718294_-105.052339@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463457530,
     "wof:geomhash":"4e6f215ef92efa8fa88c029702830607",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":839920889
+        }
+    ],
     "wof:id":839920889,
-    "wof:lastmodified":1466413560,
+    "wof:lastmodified":1486593764,
     "wof:name":"National Assn-Letter Carriers",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

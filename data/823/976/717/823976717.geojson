@@ -2,9 +2,14 @@
   "id": 823976717,
   "type": "Feature",
   "properties": {
+    "addr:full":"10450 Owens St Broomfield CO 80021",
+    "addr:housenumber":"10450",
+    "addr:postcode":"80021",
+    "addr:street":"Owens St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.125372,39.886526,-105.125372,39.886526",
     "geom:latitude":39.886526,
     "geom:longitude":-105.125372,
@@ -27,19 +32,36 @@
         "sprinkler"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5IqAG7xhSaShewylJYwzaG_39.886526_-105.125372@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451391,
-    "wof:geomhash":"dad53cbb98519099d0b7c78d694ce8dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ada7a5f95723ba9e7d3412cb681afb4e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823976717
+        }
+    ],
     "wof:id":823976717,
-    "wof:lastmodified":1466420903,
+    "wof:lastmodified":1492121855,
     "wof:name":"Buffalo Sprinkler Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

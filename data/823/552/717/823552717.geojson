@@ -2,9 +2,14 @@
   "id": 823552717,
   "type": "Feature",
   "properties": {
+    "addr:full":"4315 Ceylon Ct Denver CO 80249",
+    "addr:housenumber":"4315",
+    "addr:postcode":"80249",
+    "addr:street":"Ceylon Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.763811,39.77425,-104.763811,39.77425",
     "geom:latitude":39.77425,
     "geom:longitude":-104.763811,
@@ -27,7 +32,16 @@
         "mover"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0GPiUtl0eVSuv2MDeE5k2u_39.774250_-104.763811@1294083659"
@@ -35,11 +49,23 @@
     "wof:country":"US",
     "wof:created":1463440773,
     "wof:geomhash":"f8f1b236719a783582546d42e9ca1b44",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":823552717
+        }
+    ],
     "wof:id":823552717,
-    "wof:lastmodified":1466415898,
+    "wof:lastmodified":1486593994,
     "wof:name":"Kodiak Moving Inc & Courier",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

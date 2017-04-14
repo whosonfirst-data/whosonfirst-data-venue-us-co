@@ -2,9 +2,14 @@
   "id": 823903259,
   "type": "Feature",
   "properties": {
+    "addr:full":"9601 Orangewood Dr Denver CO 80260",
+    "addr:housenumber":"9601",
+    "addr:postcode":"80260",
+    "addr:street":"Orangewood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.004138,39.870912,-105.004138,39.870912",
     "geom:latitude":39.870912,
     "geom:longitude":-105.004138,
@@ -29,19 +34,46 @@
         "sales"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787,
+        420553721
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0ikv5FPib4omOd6LfyUng3_39.870912_-105.004138@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449553,
-    "wof:geomhash":"28eec97b8beb419c13ac52690a67145f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b4a89a84ac5b06fdae37fca971e1fa26",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":823903259
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553721,
+            "region_id":85688603,
+            "venue_id":823903259
+        }
+    ],
     "wof:id":823903259,
-    "wof:lastmodified":1466420243,
+    "wof:lastmodified":1492123742,
     "wof:name":"Health & Prosperity",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

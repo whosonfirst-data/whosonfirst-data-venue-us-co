@@ -2,9 +2,14 @@
   "id": 824176537,
   "type": "Feature",
   "properties": {
+    "addr:full":"2053 Yarmouth Ave Boulder CO 80301",
+    "addr:housenumber":"2053",
+    "addr:postcode":"80301",
+    "addr:street":"Yarmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.270233,40.05825,-105.270233,40.05825",
     "geom:latitude":40.05825,
     "geom:longitude":-105.270233,
@@ -27,7 +32,12 @@
         "sporting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876361,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3wxgkMRZ9303dijSptex7h_40.058250_-105.270233@1294083659"
@@ -35,11 +45,19 @@
     "wof:country":"US",
     "wof:created":1463456933,
     "wof:geomhash":"6b17a03383a5c63d01157978577a7e84",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876361,
+            "region_id":85688603,
+            "venue_id":824176537
+        }
+    ],
     "wof:id":824176537,
-    "wof:lastmodified":1466418087,
+    "wof:lastmodified":1491924271,
     "wof:name":"Acquired Tastes Saddle Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

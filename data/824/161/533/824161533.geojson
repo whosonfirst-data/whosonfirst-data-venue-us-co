@@ -2,9 +2,14 @@
   "id": 824161533,
   "type": "Feature",
   "properties": {
+    "addr:full":"225 Turner Dr Durango CO 81303",
+    "addr:housenumber":"225",
+    "addr:postcode":"co 81303",
+    "addr:street":"Turner Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.877071,37.238114,-107.877071,37.238114",
     "geom:latitude":37.238114,
     "geom:longitude":-107.877071,
@@ -28,19 +33,28 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3TGVAYSfr1NZL8GoXw6FJv_37.238114_-107.877071@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456354,
-    "wof:geomhash":"4e18d74aba5491c3978be90fb6da995d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a040c332cf8c4e0396b7bb6ecf060f3c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":824161533
+        }
+    ],
     "wof:id":824161533,
-    "wof:lastmodified":1466417398,
+    "wof:lastmodified":1492130472,
     "wof:name":"Alignments & Repair-Vandegrift",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

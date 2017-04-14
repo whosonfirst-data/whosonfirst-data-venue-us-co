@@ -2,9 +2,14 @@
   "id": 823607835,
   "type": "Feature",
   "properties": {
+    "addr:full":"2827 W 72nd Ave Westminster CO 80030",
+    "addr:housenumber":"2827",
+    "addr:postcode":"80030",
+    "addr:street":"W 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.022283,39.827361,-105.022283,39.827361",
     "geom:latitude":39.827361,
     "geom:longitude":-105.022283,
@@ -30,19 +35,36 @@
         "tape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5H0xxDvbUOaG3l65eFV1wd_39.827361_-105.022283@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442084,
-    "wof:geomhash":"ad08ab5a7cc4bed6b860c38fbc28391d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"905eba70bd595b81cd12d989618146de",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":823607835
+        }
+    ],
     "wof:id":823607835,
-    "wof:lastmodified":1466417340,
+    "wof:lastmodified":1492127519,
     "wof:name":"Laura's Music & Cd",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

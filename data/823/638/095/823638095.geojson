@@ -2,9 +2,14 @@
   "id": 823638095,
   "type": "Feature",
   "properties": {
+    "addr:full":"980 W 112th Ave Northglenn CO 80234",
+    "addr:housenumber":"980",
+    "addr:postcode":"80234",
+    "addr:street":"W 112Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996757,39.899725,-104.996757,39.899725",
     "geom:latitude":39.899725,
     "geom:longitude":-104.996757,
@@ -27,19 +32,48 @@
         "baker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553697,
+        85929351,
+        102084113,
+        420553725
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3BmsTs4TH6Hh1UPrQnGxry_39.899725_-104.996757@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442810,
-    "wof:geomhash":"c833f6133fa917a5a0969e34a19a283f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91cd8090455a05c1f29fc3f5d4153779",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553697,
+            "region_id":85688603,
+            "venue_id":823638095
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553725,
+            "region_id":85688603,
+            "venue_id":823638095
+        }
+    ],
     "wof:id":823638095,
-    "wof:lastmodified":1466417756,
+    "wof:lastmodified":1492123188,
     "wof:name":"Cakes By Karen Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

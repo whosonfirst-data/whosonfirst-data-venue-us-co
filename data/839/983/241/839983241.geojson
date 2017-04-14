@@ -2,9 +2,14 @@
   "id": 839983241,
   "type": "Feature",
   "properties": {
+    "addr:full":"5830 W 56th Ave Arvada CO 80002",
+    "addr:housenumber":"5830",
+    "addr:postcode":"80002",
+    "addr:street":"W 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059974,39.798328,-105.059974,39.798328",
     "geom:latitude":39.798328,
     "geom:longitude":-105.059974,
@@ -29,19 +34,34 @@
         "vehicle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4JhI9AiiYNh37RMhuGElQS_39.798335_-105.060596@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460552,
-    "wof:geomhash":"f3bf4f28b25ad6fb0e94b4e539660a52",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b2784e5a0012ccfa47e2bce4bc8f836b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":839983241
+        }
+    ],
     "wof:id":839983241,
-    "wof:lastmodified":1466416973,
+    "wof:lastmodified":1492110625,
     "wof:name":"Mike's 56th Avenue Rv Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

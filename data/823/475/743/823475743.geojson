@@ -2,9 +2,14 @@
   "id": 823475743,
   "type": "Feature",
   "properties": {
+    "addr:full":"12173 Monaco Dr Brighton CO 80602",
+    "addr:housenumber":"12173",
+    "addr:postcode":"80602",
+    "addr:street":"Monaco Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.911228,39.916705,-104.911228,39.916705",
     "geom:latitude":39.916705,
     "geom:longitude":-104.911228,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1BKkFfqpArLKMafdmb7ur2_39.916705_-104.911228@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438970,
-    "wof:geomhash":"f59228eb3b74c76845dea5ed7ed5b660",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dd0447227cd18560c87748e15a9e1214",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":823475743
+        }
+    ],
     "wof:id":823475743,
-    "wof:lastmodified":1466412872,
+    "wof:lastmodified":1492122786,
     "wof:name":"Simon Sanchez",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

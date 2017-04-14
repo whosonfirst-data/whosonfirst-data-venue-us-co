@@ -2,9 +2,14 @@
   "id": 839978115,
   "type": "Feature",
   "properties": {
+    "addr:full":"1919 S Broadway Cortez CO 81321",
+    "addr:housenumber":"1919",
+    "addr:postcode":"81321",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.60589,37.331064,-108.60589,37.331064",
     "geom:latitude":37.331064,
     "geom:longitude":-108.60589,
@@ -29,19 +34,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555043
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3gXPRe20RqxnX9Eqgmv8MJ_37.331064_-108.605890@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460349,
-    "wof:geomhash":"13e3b0bf7c1394ab2fe9db041f457f81",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c7936d6c6384b5a27dbc8ac608299cca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555043,
+            "region_id":85688603,
+            "venue_id":839978115
+        }
+    ],
     "wof:id":839978115,
-    "wof:lastmodified":1466416929,
+    "wof:lastmodified":1492112005,
     "wof:name":"Out Back Portable Buildings",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555043,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

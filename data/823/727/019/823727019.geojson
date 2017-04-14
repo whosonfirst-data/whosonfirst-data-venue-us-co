@@ -2,9 +2,14 @@
   "id": 823727019,
   "type": "Feature",
   "properties": {
+    "addr:full":"250 Caribou Ln Steamboat Springs CO 80487",
+    "addr:housenumber":"250",
+    "addr:postcode":"80487",
+    "addr:street":"Caribou Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.815884,40.482215,-106.815884,40.482215",
     "geom:latitude":40.482215,
     "geom:longitude":-106.815884,
@@ -28,19 +33,36 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3spEi4znuisXwo4uFK8IMA_40.482215_-106.815884@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444826,
-    "wof:geomhash":"6d1580627fdbc49950aadc5ae19bb880",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e75cb935bb3e968c6ebdd9ffdcd2b155",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555395,
+            "region_id":85688603,
+            "venue_id":823727019
+        }
+    ],
     "wof:id":823727019,
-    "wof:lastmodified":1466418713,
+    "wof:lastmodified":1492124751,
     "wof:name":"Shady Curry Holding LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

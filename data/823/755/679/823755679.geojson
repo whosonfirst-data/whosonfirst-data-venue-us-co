@@ -2,9 +2,14 @@
   "id": 823755679,
   "type": "Feature",
   "properties": {
+    "addr:full":"2401 W 80th Ave Denver CO 80221",
+    "addr:housenumber":"2401",
+    "addr:postcode":"80221",
+    "addr:street":"W 80Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018298,39.841755,-105.018298,39.841755",
     "geom:latitude":39.841755,
     "geom:longitude":-105.018298,
@@ -29,9 +34,13 @@
         85688603,
         102191575,
         85633793,
+        85929351,
+        102084113,
+        420553587,
         85930251,
         102084053,
-        85888393
+        85888393,
+        420553563
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +48,17 @@
     },
     "wof:country":"US",
     "wof:created":1463445530,
-    "wof:geomhash":"1dc69ecae60b8cd447536e0e683c24bd",
+    "wof:geomhash":"24d3289c7aef8e77efb77a00f4c81be7",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553587,
+            "region_id":85688603,
+            "venue_id":823755679
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -49,12 +67,21 @@
             "neighbourhood_id":85888393,
             "region_id":85688603,
             "venue_id":823755679
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553563,
+            "region_id":85688603,
+            "venue_id":823755679
         }
     ],
     "wof:id":823755679,
-    "wof:lastmodified":1466419045,
+    "wof:lastmodified":1492122075,
     "wof:name":"Iver C Ranum High School",
-    "wof:parent_id":85888393,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

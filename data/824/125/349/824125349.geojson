@@ -2,9 +2,14 @@
   "id": 824125349,
   "type": "Feature",
   "properties": {
+    "addr:full":"2315 W 92nd Ave Denver CO 80260",
+    "addr:housenumber":"2315",
+    "addr:postcode":"80260",
+    "addr:street":"W 92Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.015995,39.863553,-105.015995,39.863553",
     "geom:latitude":39.863553,
     "geom:longitude":-105.015995,
@@ -28,19 +33,36 @@
         "station"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3pMOaFz33rtFIO406DjGhY_39.863553_-105.015995@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454947,
-    "wof:geomhash":"83378ee0fb8f2864777bb9369e81cad9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7beb4a188791d2cc896e477b345d1ba1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":824125349
+        }
+    ],
     "wof:id":824125349,
-    "wof:lastmodified":1466415886,
+    "wof:lastmodified":1492132711,
     "wof:name":"Gemini Food Mart Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

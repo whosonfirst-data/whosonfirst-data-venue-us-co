@@ -2,9 +2,14 @@
   "id": 824036313,
   "type": "Feature",
   "properties": {
+    "addr:full":"7358 Federal Blvd Westminster CO 80030",
+    "addr:housenumber":"7358",
+    "addr:postcode":"80030",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024724,39.827997,-105.024724,39.827997",
     "geom:latitude":39.827997,
     "geom:longitude":-105.024724,
@@ -31,19 +36,36 @@
         "exhaust"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_43fzWlYFhjOM28bu3DSFAp_39.827997_-105.024724@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452818,
-    "wof:geomhash":"109a9837348b6f8401479c3c94407335",
-    "wof:hierarchy":[],
+    "wof:geomhash":"43fa3e58897d6ca45099c3440623288f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":824036313
+        }
+    ],
     "wof:id":824036313,
-    "wof:lastmodified":1466413983,
+    "wof:lastmodified":1492132343,
     "wof:name":"Midas Auto Svc Experts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

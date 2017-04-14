@@ -2,9 +2,14 @@
   "id": 823523413,
   "type": "Feature",
   "properties": {
+    "addr:full":"2744 W 107th Ct Denver CO 80234",
+    "addr:housenumber":"2744",
+    "addr:postcode":"80234",
+    "addr:street":"W 107Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.021253,39.890393,-105.021253,39.890393",
     "geom:latitude":39.890393,
     "geom:longitude":-105.021253,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553639
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1u7pb1alcKxrnZ8F4t4DP9_39.890393_-105.021253@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440102,
-    "wof:geomhash":"90df01dc2853ec44c7014d048a6ffd5c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2bbc3c034aed9f462daab9ca8b4bd2eb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553639,
+            "region_id":85688603,
+            "venue_id":823523413
+        }
+    ],
     "wof:id":823523413,
-    "wof:lastmodified":1466415060,
+    "wof:lastmodified":1492124499,
     "wof:name":"Blackhawk Heating Co Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

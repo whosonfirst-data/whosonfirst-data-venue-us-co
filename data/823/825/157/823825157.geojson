@@ -2,9 +2,14 @@
   "id": 823825157,
   "type": "Feature",
   "properties": {
+    "addr:full":"1203 Co Rd 308 Durango CO 81303",
+    "addr:housenumber":"1203;308",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.768529,37.185474,-107.768529,37.185474",
     "geom:latitude":37.185474,
     "geom:longitude":-107.768529,
@@ -28,19 +33,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0KAFb2Ph5yodWMovza53yu_37.185474_-107.768529@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447450,
-    "wof:geomhash":"5bcdbf26f764d7afda607fe6bb720e1b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f7f5dd05c1ff05a6df67f01befd3153c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823825157
+        }
+    ],
     "wof:id":823825157,
-    "wof:lastmodified":1466419568,
+    "wof:lastmodified":1492123469,
     "wof:name":"Harry Fassett",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

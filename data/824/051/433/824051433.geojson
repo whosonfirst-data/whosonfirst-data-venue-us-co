@@ -2,9 +2,14 @@
   "id": 824051433,
   "type": "Feature",
   "properties": {
+    "addr:full":"525 Burbank St Broomfield CO 80020",
+    "addr:housenumber":"525",
+    "addr:postcode":"80020",
+    "addr:street":"Burbank St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.09544,39.924195,-105.09544,39.924195",
     "geom:latitude":39.924195,
     "geom:longitude":-105.09544,
@@ -27,19 +32,36 @@
         "case"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554181
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1oaTc6oq9VbNy4IK4dMTSc_39.924195_-105.095440@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453198,
-    "wof:geomhash":"42440d9c1614b2bc066ef0f37ba6e8ee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"288ae6ef040e565e41146043298cc097",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554181,
+            "region_id":85688603,
+            "venue_id":824051433
+        }
+    ],
     "wof:id":824051433,
-    "wof:lastmodified":1466414193,
+    "wof:lastmodified":1492132993,
     "wof:name":"Allen Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554181,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823633611,
   "type": "Feature",
   "properties": {
+    "addr:full":"25655 6th Ave Clark CO 80428",
+    "addr:housenumber":"25655",
+    "addr:postcode":"80428",
+    "addr:street":"6Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.944241,40.808676,-106.944241,40.808676",
     "geom:latitude":40.808676,
     "geom:longitude":-106.944241,
@@ -29,19 +34,28 @@
         "cabin"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555243
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Y0s1y27KsklxEtDTASsdu_40.808676_-106.944241@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442706,
-    "wof:geomhash":"9fb6b24ca39ed7469f25dce2ba9809f9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"485009fc3b2990d3a3a40b8f858311db",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555243,
+            "venue_id":823633611
+        }
+    ],
     "wof:id":823633611,
-    "wof:lastmodified":1466417802,
+    "wof:lastmodified":1492121604,
     "wof:name":"Clark & Son Log Home Builder",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555243,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824090371,
   "type": "Feature",
   "properties": {
+    "addr:full":"4946 E 109th Ct Denver CO 80233",
+    "addr:housenumber":"4946",
+    "addr:postcode":"80233",
+    "addr:street":"E 109Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927626,39.894005,-104.927626,39.894005",
     "geom:latitude":39.894005,
     "geom:longitude":-104.927626,
@@ -27,19 +32,36 @@
         "passenger"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553691
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_46VTAP62oGfuJ0QTSbXfow_39.894005_-104.927626@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454094,
-    "wof:geomhash":"a085f797df9879cc04ad977e97dc7a2f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"888afb5f4731c7c59aae671db73801b9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553691,
+            "region_id":85688603,
+            "venue_id":824090371
+        }
+    ],
     "wof:id":824090371,
-    "wof:lastmodified":1466414927,
+    "wof:lastmodified":1492130199,
     "wof:name":"2 Hearts Limousine LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553691,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

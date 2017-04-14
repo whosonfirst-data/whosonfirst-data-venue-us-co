@@ -2,9 +2,14 @@
   "id": 839974609,
   "type": "Feature",
   "properties": {
+    "addr:full":"2604 Avocet Rd Fort Collins CO 80526",
+    "addr:housenumber":"2604",
+    "addr:postcode":"80526",
+    "addr:street":"Avocet Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.085296,40.551872,-105.085296,40.551872",
     "geom:latitude":40.551872,
     "geom:longitude":-105.085296,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_654hzeyFc1j7JUOhD5meMh_40.551872_-105.085296@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460203,
-    "wof:geomhash":"57b3fe70b22d00e0bb04e814818a7344",
-    "wof:hierarchy":[],
+    "wof:geomhash":"df97cb5e8edbbfa24963055df0593b12",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":839974609
+        }
+    ],
     "wof:id":839974609,
-    "wof:lastmodified":1466416745,
+    "wof:lastmodified":1492110882,
     "wof:name":"Choice City Heating & Air",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

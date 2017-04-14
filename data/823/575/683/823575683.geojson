@@ -2,9 +2,14 @@
   "id": 823575683,
   "type": "Feature",
   "properties": {
+    "addr:full":"803 Co Rd 233 Durango CO 81301",
+    "addr:housenumber":"803;233",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.807357,37.229586,-107.807357,37.229586",
     "geom:latitude":37.229586,
     "geom:longitude":-107.807357,
@@ -27,19 +32,34 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554707,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6FfU22Fj281vZljqKjechU_37.229586_-107.807357@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441318,
-    "wof:geomhash":"f2192cf077e7fd19448f8d8ff4f5fd97",
-    "wof:hierarchy":[],
+    "wof:geomhash":"52a187922e6ea11f532b8280047201e8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554707,
+            "venue_id":823575683
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823575683
+        }
+    ],
     "wof:id":823575683,
-    "wof:lastmodified":1466416477,
+    "wof:lastmodified":1492116398,
     "wof:name":"Durango Friends Meeting",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

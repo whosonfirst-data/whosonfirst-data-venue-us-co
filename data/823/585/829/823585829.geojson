@@ -2,9 +2,14 @@
   "id": 823585829,
   "type": "Feature",
   "properties": {
+    "addr:full":"11246 Rifle St Commerce City CO 80022",
+    "addr:housenumber":"11246",
+    "addr:postcode":"80022",
+    "addr:street":"Rifle St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.78426,39.901061,-104.78426,39.901061",
     "geom:latitude":39.901061,
     "geom:longitude":-104.78426,
@@ -29,19 +34,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553357
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Gkh783gf1Ydgp2SjbLxgf_39.901061_-104.784260@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441551,
-    "wof:geomhash":"e7c6f7a821f279fa0650422908411d90",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ed106fa4cf69d7887d4337e9e1d82182",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553357,
+            "region_id":85688603,
+            "venue_id":823585829
+        }
+    ],
     "wof:id":823585829,
-    "wof:lastmodified":1466416778,
+    "wof:lastmodified":1492127382,
     "wof:name":"Buffalo Hills Bison Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

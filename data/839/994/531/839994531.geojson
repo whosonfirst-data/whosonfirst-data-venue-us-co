@@ -2,9 +2,14 @@
   "id": 839994531,
   "type": "Feature",
   "properties": {
+    "addr:full":"3035 Ohio Way Denver CO 80209",
+    "addr:housenumber":"3035",
+    "addr:postcode":"80209",
+    "addr:street":"Ohio Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.952078,39.702469,-104.952078,39.702469",
     "geom:latitude":39.702469,
     "geom:longitude":-104.952078,
@@ -36,7 +41,16 @@
     ],
     "sg:website":"http://www.socialbios.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108749009,
+        85871327,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_46QPxVIt3iGXfNKt735L28_39.702469_-104.952078@1308186501"
@@ -44,11 +58,23 @@
     "wof:country":"US",
     "wof:created":1463461013,
     "wof:geomhash":"9f8091ed1ec0b326ef7887b9740ef85e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "microhood_id":1108749009,
+            "neighbourhood_id":85871327,
+            "region_id":85688603,
+            "venue_id":839994531
+        }
+    ],
     "wof:id":839994531,
-    "wof:lastmodified":1466417859,
+    "wof:lastmodified":1486604348,
     "wof:name":"SocialBios",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108749009,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

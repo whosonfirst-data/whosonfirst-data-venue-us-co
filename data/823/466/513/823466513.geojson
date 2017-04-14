@@ -2,9 +2,14 @@
   "id": 823466513,
   "type": "Feature",
   "properties": {
+    "addr:full":"726 N Main St Gunnison CO 81230",
+    "addr:housenumber":"726",
+    "addr:postcode":"81230",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.92683,38.552533,-106.92683,38.552533",
     "geom:latitude":38.552533,
     "geom:longitude":-106.92683,
@@ -27,19 +32,36 @@
         "bond"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554411
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3is2hebLKeKO6QtuEoQxnb_38.552533_-106.926830@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438759,
-    "wof:geomhash":"a8335dbd4729db928f8134fa00ce2a30",
-    "wof:hierarchy":[],
+    "wof:geomhash":"537d47adc38d51ba19a2ad4053cb0d94",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554411,
+            "region_id":85688603,
+            "venue_id":823466513
+        }
+    ],
     "wof:id":823466513,
-    "wof:lastmodified":1466411979,
+    "wof:lastmodified":1492122655,
     "wof:name":"B-Free Bonding",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554411,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

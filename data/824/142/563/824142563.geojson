@@ -2,9 +2,14 @@
   "id": 824142563,
   "type": "Feature",
   "properties": {
+    "addr:full":"4553 W 111th Ave Westminster CO 80031",
+    "addr:housenumber":"4553",
+    "addr:postcode":"80031",
+    "addr:street":"W 111Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.044751,39.89717,-105.044751,39.89717",
     "geom:latitude":39.89717,
     "geom:longitude":-105.044751,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553523
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5cATFUi8rlH8EDe4kJB2Jg_39.897170_-105.044751@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455602,
-    "wof:geomhash":"8dcf35da9f5786cd0e90ab87a5196f79",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a6f169399989632ea998816569f6a687",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553523,
+            "region_id":85688603,
+            "venue_id":824142563
+        }
+    ],
     "wof:id":824142563,
-    "wof:lastmodified":1466416699,
+    "wof:lastmodified":1492129387,
     "wof:name":"Gregory Home",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553523,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

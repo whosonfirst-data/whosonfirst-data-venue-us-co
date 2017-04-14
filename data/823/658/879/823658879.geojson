@@ -2,9 +2,14 @@
   "id": 823658879,
   "type": "Feature",
   "properties": {
+    "addr:full":"10351 Grant St Denver CO 80229",
+    "addr:housenumber":"10351",
+    "addr:postcode":"80229",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98226,39.885102,-104.98226,39.885102",
     "geom:latitude":39.885102,
     "geom:longitude":-104.98226,
@@ -34,8 +39,10 @@
         85688603,
         102191575,
         85633793,
-        85929127,
+        85929143,
         102084053,
+        420553851,
+        85929127,
         85838293
     ],
     "wof:breaches":[],
@@ -44,8 +51,17 @@
     },
     "wof:country":"US",
     "wof:created":1463443298,
-    "wof:geomhash":"6ebf3b14974953a12ac617444138b607",
+    "wof:geomhash":"8553df6ecf72d660cae469bc34f4ec2d",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553851,
+            "region_id":85688603,
+            "venue_id":823658879
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -57,9 +73,9 @@
         }
     ],
     "wof:id":823658879,
-    "wof:lastmodified":1466418066,
+    "wof:lastmodified":1492120239,
     "wof:name":"Cigarette Red House",
-    "wof:parent_id":85838293,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823639759,
   "type": "Feature",
   "properties": {
+    "addr:full":"5100 W 8th Ave Denver CO 80204",
+    "addr:housenumber":"5100",
+    "addr:postcode":"80204",
+    "addr:street":"W 8Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053244,39.729538,-105.053244,39.729538",
     "geom:latitude":39.729538,
     "geom:longitude":-105.053244,
@@ -24,7 +29,15 @@
     "sg:postcode":"80204",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750097,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YLdhuHViFYJzAKrdUQQt6_39.729538_-105.053244@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463442848,
     "wof:geomhash":"62bd4b70186ef89b10da2b3b95f4de58",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750097,
+            "region_id":85688603,
+            "venue_id":823639759
+        }
+    ],
     "wof:id":823639759,
-    "wof:lastmodified":1466417876,
+    "wof:lastmodified":1486593775,
     "wof:name":"Miguel Loya",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750097,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824126365,
   "type": "Feature",
   "properties": {
+    "addr:full":"457 Wadsworth Blvd Denver CO 80226",
+    "addr:housenumber":"457",
+    "addr:postcode":"80226",
+    "addr:street":"Wadsworth Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.081582,39.722905,-105.081582,39.722905",
     "geom:latitude":39.722905,
     "geom:longitude":-105.081582,
@@ -27,19 +32,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4E2Ohiz3iwwhIIbzUJ341C_39.722905_-105.081582@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454988,
-    "wof:geomhash":"0aa76bc3abeec925676f287c4992ed71",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c075802f2ec5fea43f73c41f65cca822",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":824126365
+        }
+    ],
     "wof:id":824126365,
-    "wof:lastmodified":1466415739,
+    "wof:lastmodified":1492131846,
     "wof:name":"Signs Now",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

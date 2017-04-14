@@ -2,9 +2,14 @@
   "id": 839934011,
   "type": "Feature",
   "properties": {
+    "addr:full":"135 Iris St Broomfield CO 80020",
+    "addr:housenumber":"135",
+    "addr:postcode":"80020",
+    "addr:street":"Iris St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.081996,39.916948,-105.081996,39.916948",
     "geom:latitude":39.916948,
     "geom:longitude":-105.081996,
@@ -30,19 +35,36 @@
         "sewer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554243
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5DacDyOYpj1WhkFlg4Wre1_39.916948_-105.081996@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458186,
-    "wof:geomhash":"1cb35e36f355b0cb58f93f9924aa45ed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2bc520fa829fd6b5eaa61ca3ab9beea9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554243,
+            "region_id":85688603,
+            "venue_id":839934011
+        }
+    ],
     "wof:id":839934011,
-    "wof:lastmodified":1466414343,
+    "wof:lastmodified":1492112606,
     "wof:name":"Quality Drain & Sewer Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554243,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

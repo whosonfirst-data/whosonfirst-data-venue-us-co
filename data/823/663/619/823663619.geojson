@@ -2,9 +2,14 @@
   "id": 823663619,
   "type": "Feature",
   "properties": {
+    "addr:full":"4850 Lima St Denver CO 80239",
+    "addr:housenumber":"4850",
+    "addr:postcode":"80239",
+    "addr:street":"Lima St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.856548,39.78406,-104.856548,39.78406",
     "geom:latitude":39.78406,
     "geom:longitude":-104.856548,
@@ -30,7 +35,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5a783JwJ9fUb5Z3FwpoHzV_39.784060_-104.856548@1294083659"
@@ -38,11 +51,22 @@
     "wof:country":"US",
     "wof:created":1463443422,
     "wof:geomhash":"d7065dea04c1bdbf50019aa0dfb88eaf",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823663619
+        }
+    ],
     "wof:id":823663619,
-    "wof:lastmodified":1466418081,
+    "wof:lastmodified":1491887444,
     "wof:name":"M A T O",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

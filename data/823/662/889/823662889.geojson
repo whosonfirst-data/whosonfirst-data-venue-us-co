@@ -2,9 +2,14 @@
   "id": 823662889,
   "type": "Feature",
   "properties": {
+    "addr:full":"5791 S Orchard Creek Cir Boulder CO 80301",
+    "addr:housenumber":"5791",
+    "addr:postcode":"80301",
+    "addr:street":"S Orchard Creek Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.219142,40.055328,-105.219142,40.055328",
     "geom:latitude":40.055328,
     "geom:longitude":-105.219142,
@@ -27,19 +32,36 @@
         "accountant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554005
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ofDMH0cHpAyHjlgGG3gfr_40.055328_-105.219142@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443407,
-    "wof:geomhash":"7904bb508760dc868657ca5dc35f3c39",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8f8f64f7715835aaa537d9d06ce1083d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554005,
+            "region_id":85688603,
+            "venue_id":823662889
+        }
+    ],
     "wof:id":823662889,
-    "wof:lastmodified":1466418240,
+    "wof:lastmodified":1492123252,
     "wof:name":"Irving W Block CPA",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554005,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823746801,
   "type": "Feature",
   "properties": {
+    "addr:full":"11426 Pearl St Denver CO 80233",
+    "addr:housenumber":"11426",
+    "addr:postcode":"80233",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978968,39.903882,-104.978968,39.903882",
     "geom:latitude":39.903882,
     "geom:longitude":-104.978968,
@@ -27,19 +32,36 @@
         "day"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1rN4rcpuBjw9PHtWTstwLk_39.903882_-104.978968@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445301,
-    "wof:geomhash":"dd4bf6a7f5a677f9a055235adebea5bf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"76281a49d7659e25ab4b4c404dd43b5c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":823746801
+        }
+    ],
     "wof:id":823746801,
-    "wof:lastmodified":1466418964,
+    "wof:lastmodified":1492119467,
     "wof:name":"Kindercare Center 804",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

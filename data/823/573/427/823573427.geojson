@@ -2,9 +2,14 @@
   "id": 823573427,
   "type": "Feature",
   "properties": {
+    "addr:full":"11416 Pearl St Northglenn CO 80233",
+    "addr:housenumber":"11416",
+    "addr:postcode":"80233",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978969,39.90428,-104.978969,39.90428",
     "geom:latitude":39.90428,
     "geom:longitude":-104.978969,
@@ -28,19 +33,36 @@
         "washing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3pTknYQOWbuWy8vuPKPcfF_39.904280_-104.978969@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441262,
-    "wof:geomhash":"80f099360994931724bac86df4816844",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a10e771110889c21f565cdfc2bdb2181",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":823573427
+        }
+    ],
     "wof:id":823573427,
-    "wof:lastmodified":1466416406,
+    "wof:lastmodified":1492125280,
     "wof:name":"Mile High Car Wash",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823492131,
   "type": "Feature",
   "properties": {
+    "addr:full":"5025 Lowell Blvd Denver CO 80221",
+    "addr:housenumber":"5025",
+    "addr:postcode":"80221",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034659,39.788285,-105.034659,39.788285",
     "geom:latitude":39.788285,
     "geom:longitude":-105.034659,
@@ -28,19 +33,38 @@
         "physical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871251,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2bF3M5IkBloNNDEU2IviMi_39.788285_-105.034659@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439357,
-    "wof:geomhash":"93d6478dbe531e7248dabdfcf45f14ff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8ede2d76f6f6f2d87bb5b422e89635c2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871251,
+            "region_id":85688603,
+            "venue_id":823492131
+        }
+    ],
     "wof:id":823492131,
-    "wof:lastmodified":1466413809,
+    "wof:lastmodified":1492127013,
     "wof:name":"Rvision Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

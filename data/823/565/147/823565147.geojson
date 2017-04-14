@@ -2,9 +2,14 @@
   "id": 823565147,
   "type": "Feature",
   "properties": {
+    "addr:full":"12978 Hwy 666 Cortez CO 81321",
+    "addr:housenumber":"12978",
+    "addr:postcode":"81321",
+    "addr:street":"Hwy 666",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.623117,37.400039,-108.623117,37.400039",
     "geom:latitude":37.400039,
     "geom:longitude":-108.623117,
@@ -27,19 +32,28 @@
         "tractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555103
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4bYFy91vo2ZbvrnI5hCATL_37.400039_-108.623117@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441065,
-    "wof:geomhash":"13a808e6f38b5e26a13198b6cc55c546",
-    "wof:hierarchy":[],
+    "wof:geomhash":"48c5e7143a7e659d2377104724c418c8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555103,
+            "venue_id":823565147
+        }
+    ],
     "wof:id":823565147,
-    "wof:lastmodified":1466416094,
+    "wof:lastmodified":1492119232,
     "wof:name":"Mfe West Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555103,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824045111,
   "type": "Feature",
   "properties": {
+    "addr:full":"11887 Rd 27.3 Dolores CO 81323",
+    "addr:housenumber":"11887;27.3",
+    "addr:postcode":"81323",
+    "addr:street":"Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.545526,37.384849,-108.545526,37.384849",
     "geom:latitude":37.384849,
     "geom:longitude":-108.545526,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3cGkKE3589UxtlkLnqO8RG_37.384849_-108.545526@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453041,
-    "wof:geomhash":"6e23db9c934b7d9003a60b5a26cb53c4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cc3f2409499ed23cdb9b2e1505f19f17",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":824045111
+        }
+    ],
     "wof:id":824045111,
-    "wof:lastmodified":1466414140,
+    "wof:lastmodified":1492129568,
     "wof:name":"Adams Trench & Plow Servi",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

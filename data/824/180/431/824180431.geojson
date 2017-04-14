@@ -2,9 +2,14 @@
   "id": 824180431,
   "type": "Feature",
   "properties": {
+    "addr:full":"351 S Lowell Blvd Denver CO 80219",
+    "addr:housenumber":"351",
+    "addr:postcode":"80219",
+    "addr:street":"S Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.035044,39.70961,-105.035044,39.70961",
     "geom:latitude":39.70961,
     "geom:longitude":-105.035044,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5BbDJu6Rp7uwBmpARtOIPP_39.709610_-105.035044@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463457081,
     "wof:geomhash":"45931eb63a47571b6fbb108797cd7651",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":824180431
+        }
+    ],
     "wof:id":824180431,
-    "wof:lastmodified":1466418204,
+    "wof:lastmodified":1486593351,
     "wof:name":"Datum Machine",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

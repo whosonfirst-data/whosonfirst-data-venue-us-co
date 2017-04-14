@@ -2,9 +2,14 @@
   "id": 824133443,
   "type": "Feature",
   "properties": {
+    "addr:full":"708 San Juan Dr Cortez CO 81321",
+    "addr:housenumber":"708",
+    "addr:postcode":"81321",
+    "addr:street":"San Juan Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.601716,37.340062,-108.601716,37.340062",
     "geom:latitude":37.340062,
     "geom:longitude":-108.601716,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42p7CTy46fRXdTQ2kxw5tm_37.340062_-108.601716@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455268,
-    "wof:geomhash":"d797d19950d839bb2b115e346758eac9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ef6da296a0ec894471751db475e7ad05",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555063,
+            "region_id":85688603,
+            "venue_id":824133443
+        }
+    ],
     "wof:id":824133443,
-    "wof:lastmodified":1466416122,
+    "wof:lastmodified":1492129283,
     "wof:name":"Mr Fix-It",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

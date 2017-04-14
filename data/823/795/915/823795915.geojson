@@ -2,9 +2,14 @@
   "id": 823795915,
   "type": "Feature",
   "properties": {
+    "addr:full":"3775 Co Rd 307 Durango CO 81303",
+    "addr:housenumber":"3775;307",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.786814,37.143084,-107.786814,37.143084",
     "geom:latitude":37.143084,
     "geom:longitude":-107.786814,
@@ -27,19 +32,28 @@
         "field"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ot6pvDlBjO2v86HQyUtUg_37.143084_-107.786814@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446598,
-    "wof:geomhash":"2b8eea4ba35f6469f8e77e7b841d99b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e61bcb3690646e5c78c1a033469b515e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823795915
+        }
+    ],
     "wof:id":823795915,
-    "wof:lastmodified":1466419331,
+    "wof:lastmodified":1492120450,
     "wof:name":"Cross Country Energy Svcs LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

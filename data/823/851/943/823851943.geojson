@@ -2,9 +2,14 @@
   "id": 823851943,
   "type": "Feature",
   "properties": {
+    "addr:full":"2400 S Holly Pl Denver CO 80222",
+    "addr:housenumber":"2400",
+    "addr:postcode":"80222",
+    "addr:street":"S Holly Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.926629,39.67261,-104.926629,39.67261",
     "geom:latitude":39.67261,
     "geom:longitude":-104.926629,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930653,
+        102086877,
+        420559699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3BmHIWnE19TwYlZlRd7DUN_39.672610_-104.926629@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448273,
-    "wof:geomhash":"b8d9ce7359f544ce76a2681fdc7e8a11",
-    "wof:hierarchy":[],
+    "wof:geomhash":"92e4cf7753db0d7237dad4cff14f5c82",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930653,
+            "neighbourhood_id":420559699,
+            "region_id":85688603,
+            "venue_id":823851943
+        }
+    ],
     "wof:id":823851943,
-    "wof:lastmodified":1466419896,
+    "wof:lastmodified":1492127320,
     "wof:name":"Holly Hills Bible Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

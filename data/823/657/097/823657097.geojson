@@ -2,9 +2,14 @@
   "id": 823657097,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 W Mineral Ave Littleton CO 80120",
+    "addr:housenumber":"101",
+    "addr:postcode":"80120",
+    "addr:street":"W Mineral Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.990807,39.573555,-104.990807,39.573555",
     "geom:latitude":39.573555,
     "geom:longitude":-104.990807,
@@ -35,17 +40,32 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929241,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5t7fIUNCgP90aksjxnGWoS_39.573555_-104.990807@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443240,
-    "wof:geomhash":"2892f31be80fca4fed0873c5faf43663",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0cad2e45e898c259974012e29497bcc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929241,
+            "region_id":85688603,
+            "venue_id":823657097
+        }
+    ],
     "wof:id":823657097,
-    "wof:lastmodified":1466418105,
+    "wof:lastmodified":1492121174,
     "wof:name":"Euro Offline",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

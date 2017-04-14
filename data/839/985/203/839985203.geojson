@@ -2,9 +2,14 @@
   "id": 839985203,
   "type": "Feature",
   "properties": {
+    "addr:full":"145 S Sheridan Blvd Lakewood CO 80226",
+    "addr:housenumber":"145",
+    "addr:postcode":"80226",
+    "addr:street":"S Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053001,39.714199,-105.053001,39.714199",
     "geom:latitude":39.714199,
     "geom:longitude":-105.053001,
@@ -27,7 +32,15 @@
         "accessory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6QWjhklFsRXUw43yGdSXu4_39.713999_-105.053343@1293134755"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463460627,
     "wof:geomhash":"9f21599e372ec4628c397882aba7f282",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":839985203
+        }
+    ],
     "wof:id":839985203,
-    "wof:lastmodified":1466417170,
+    "wof:lastmodified":1486593763,
     "wof:name":"Hannah's Mart",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

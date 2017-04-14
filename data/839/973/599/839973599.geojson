@@ -2,9 +2,14 @@
   "id": 839973599,
   "type": "Feature",
   "properties": {
+    "addr:full":"1175 S Clayton St Denver CO 80210",
+    "addr:housenumber":"1175",
+    "addr:postcode":"80210",
+    "addr:street":"S Clayton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.954746,39.696134,-104.954746,39.696134",
     "geom:latitude":39.696134,
     "geom:longitude":-104.954746,
@@ -29,7 +34,15 @@
         "gas"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871329,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2bc1Bo7c2a3wXqQ8SD8hDc_39.696134_-104.954746@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463460163,
     "wof:geomhash":"cf631987569188f24c5ad3efbc0e57fb",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871329,
+            "region_id":85688603,
+            "venue_id":839973599
+        }
+    ],
     "wof:id":839973599,
-    "wof:lastmodified":1466416520,
+    "wof:lastmodified":1491866135,
     "wof:name":"CMC Drilling",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871329,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823840735,
   "type": "Feature",
   "properties": {
+    "addr:full":"90 S 18th Ave Brighton CO 80601",
+    "addr:housenumber":"90",
+    "addr:postcode":"80601",
+    "addr:street":"S 18Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.800485,39.985065,-104.800485,39.985065",
     "geom:latitude":39.985065,
     "geom:longitude":-104.800485,
@@ -27,19 +32,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_47NynyjNlHME7jljq55OLJ_39.985065_-104.800485@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447957,
-    "wof:geomhash":"294c80857d49d6e5fd686b05300b31af",
-    "wof:hierarchy":[],
+    "wof:geomhash":"30b2c5b971061eb518746c7814238b9f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":823840735
+        }
+    ],
     "wof:id":823840735,
-    "wof:lastmodified":1466419713,
+    "wof:lastmodified":1492123843,
     "wof:name":"Mountain A Communications LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

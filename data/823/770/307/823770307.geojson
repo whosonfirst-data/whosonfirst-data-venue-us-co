@@ -2,9 +2,14 @@
   "id": 823770307,
   "type": "Feature",
   "properties": {
+    "addr:full":"4853 Fountain St Boulder CO 80304",
+    "addr:housenumber":"4853",
+    "addr:postcode":"80304",
+    "addr:street":"Fountain St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.286614,40.063976,-105.286614,40.063976",
     "geom:latitude":40.063976,
     "geom:longitude":-105.286614,
@@ -27,19 +32,34 @@
         "artist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4KtebX9oyLAVFVW208Hts3_40.063976_-105.286614@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445829,
-    "wof:geomhash":"98207fdb11cc38cc7ef71a93905afd9b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"961bd085dbd1e55936adcc996ed019f7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823770307
+        }
+    ],
     "wof:id":823770307,
-    "wof:lastmodified":1466419090,
+    "wof:lastmodified":1492118559,
     "wof:name":"Dan Frazier Fantasy Illstrtr",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

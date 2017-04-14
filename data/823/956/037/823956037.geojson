@@ -2,9 +2,14 @@
   "id": 823956037,
   "type": "Feature",
   "properties": {
+    "addr:full":"222 Main St Ovid CO 80744",
+    "addr:housenumber":"222",
+    "addr:postcode":"80744",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.387745,40.960521,-102.387745,40.960521",
     "geom:latitude":40.960521,
     "geom:longitude":-102.387745,
@@ -27,17 +32,32 @@
         "grocer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928869,
+        102084121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Du1UbhBxaIv6faKjxqZdi_40.960521_-102.387745@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450904,
-    "wof:geomhash":"e3b94fb010bd35ef577f03fb16fb0c24",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6afb42a25e069110dfafe39f3306d06f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084121,
+            "locality_id":85928869,
+            "region_id":85688603,
+            "venue_id":823956037
+        }
+    ],
     "wof:id":823956037,
-    "wof:lastmodified":1466420681,
+    "wof:lastmodified":1492120004,
     "wof:name":"Home Town Market",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 824174573,
   "type": "Feature",
   "properties": {
+    "addr:full":"5576 Harlan St Arvada CO 80002",
+    "addr:housenumber":"5576",
+    "addr:postcode":"80002",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062502,39.797866,-105.062502,39.797866",
     "geom:latitude":39.797866,
     "geom:longitude":-105.062502,
@@ -28,19 +33,34 @@
         "medical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0U86DjPlnHHgTaJvTd6KZ4_39.797866_-105.062502@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456863,
-    "wof:geomhash":"d74729e51b84aa2ad9596fe5c67ae8bc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cbba726d8971ace8936960bf8cc75b2f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824174573
+        }
+    ],
     "wof:id":824174573,
-    "wof:lastmodified":1466417993,
+    "wof:lastmodified":1492133234,
     "wof:name":"DACO",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

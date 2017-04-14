@@ -2,9 +2,14 @@
   "id": 823989853,
   "type": "Feature",
   "properties": {
+    "addr:full":"2307 E Rd Grand Junction CO 81503",
+    "addr:housenumber":"2307",
+    "addr:postcode":"81503",
+    "addr:street":"E Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.625665,39.077057,-108.625665,39.077057",
     "geom:latitude":39.077057,
     "geom:longitude":-108.625665,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4keOtQsZz3Fg5iNikpGWVm_39.077057_-108.625665@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451712,
-    "wof:geomhash":"e39cfba78cf2e49ee1fc3405ca3e6e06",
-    "wof:hierarchy":[],
+    "wof:geomhash":"223831635a5c1cd3275a379e8cfa00b9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554787,
+            "region_id":85688603,
+            "venue_id":823989853
+        }
+    ],
     "wof:id":823989853,
-    "wof:lastmodified":1466421009,
+    "wof:lastmodified":1492117697,
     "wof:name":"702 Putter Drive LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

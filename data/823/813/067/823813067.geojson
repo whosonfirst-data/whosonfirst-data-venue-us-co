@@ -2,9 +2,14 @@
   "id": 823813067,
   "type": "Feature",
   "properties": {
+    "addr:full":"11275 E 23rd Ave Aurora CO 80010",
+    "addr:housenumber":"11275",
+    "addr:postcode":"80010",
+    "addr:street":"E 23Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.85707,39.751166,-104.85707,39.751166",
     "geom:latitude":39.751166,
     "geom:longitude":-104.85707,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553913
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_088kZsvs1uNbClj42qKTdn_39.751166_-104.857070@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447095,
-    "wof:geomhash":"515f0ff75594e752228ccb872c84ea68",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ca4d69db278cbfc027876c4a40b25ec4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553913,
+            "region_id":85688603,
+            "venue_id":823813067
+        }
+    ],
     "wof:id":823813067,
-    "wof:lastmodified":1466419467,
+    "wof:lastmodified":1492123915,
     "wof:name":"J&H Drywall Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553913,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

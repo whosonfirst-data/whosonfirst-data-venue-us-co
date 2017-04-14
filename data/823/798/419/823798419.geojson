@@ -2,9 +2,14 @@
   "id": 823798419,
   "type": "Feature",
   "properties": {
+    "addr:full":"4875 Sioux Dr Boulder CO 80303",
+    "addr:housenumber":"4875",
+    "addr:postcode":"80303",
+    "addr:street":"Sioux Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.233755,39.993219,-105.233755,39.993219",
     "geom:latitude":39.993219,
     "geom:longitude":-105.233755,
@@ -28,19 +33,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554127
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3hQMAQ7Q4cYrbINUaMth3e_39.993219_-105.233755@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446671,
-    "wof:geomhash":"3b8e6ff559af2e21df1ba58c857dec54",
-    "wof:hierarchy":[],
+    "wof:geomhash":"141df8d8df831674cac082d605461bb0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554127,
+            "region_id":85688603,
+            "venue_id":823798419
+        }
+    ],
     "wof:id":823798419,
-    "wof:lastmodified":1466419255,
+    "wof:lastmodified":1492118626,
     "wof:name":"Emc Compliance LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554127,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823830819,
   "type": "Feature",
   "properties": {
+    "addr:full":"5700 W Alameda Ave Lakewood CO 80226",
+    "addr:housenumber":"5700",
+    "addr:postcode":"80226",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060277,39.711172,-105.060277,39.711172",
     "geom:latitude":39.711172,
     "geom:longitude":-105.060277,
@@ -29,19 +34,46 @@
         "plate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581,
+        85878623
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0p40el9Ne9v4sfxPHtONXF_39.711172_-105.060277@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447630,
-    "wof:geomhash":"60e690818d8f9746fad046bc9cc9698e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"145c65cb2772837102aa2a8127e5c53d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823830819
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":85878623,
+            "region_id":85688603,
+            "venue_id":823830819
+        }
+    ],
     "wof:id":823830819,
-    "wof:lastmodified":1466419611,
+    "wof:lastmodified":1492125857,
     "wof:name":"All Glass Svc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

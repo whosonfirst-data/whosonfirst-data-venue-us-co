@@ -2,9 +2,14 @@
   "id": 823940251,
   "type": "Feature",
   "properties": {
+    "addr:full":"12357 Utica St Broomfield CO 80020",
+    "addr:housenumber":"12357",
+    "addr:postcode":"80020",
+    "addr:street":"Utica St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.044707,39.925528,-105.044707,39.925528",
     "geom:latitude":39.925528,
     "geom:longitude":-105.044707,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554217
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3CsNoFsXg3fQQxkcgm43rc_39.925528_-105.044707@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450529,
-    "wof:geomhash":"476363d1a1e1b41a16c2d0cc061eed00",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4dbbd146f9a8e0e8b52cdbcfb52de56",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554217,
+            "region_id":85688603,
+            "venue_id":823940251
+        }
+    ],
     "wof:id":823940251,
-    "wof:lastmodified":1466420537,
+    "wof:lastmodified":1492126229,
     "wof:name":"Neff Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554217,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

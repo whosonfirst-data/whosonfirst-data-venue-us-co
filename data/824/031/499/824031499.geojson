@@ -2,9 +2,14 @@
   "id": 824031499,
   "type": "Feature",
   "properties": {
+    "addr:full":"311 Sheridan Blvd Lakewood CO 80226",
+    "addr:housenumber":"311",
+    "addr:postcode":"80226",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05319,39.722439,-105.05319,39.722439",
     "geom:latitude":39.722439,
     "geom:longitude":-105.05319,
@@ -28,7 +33,15 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1wjHrrD5VLfnzFrbUaH7ub_39.722439_-105.053190@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463452707,
     "wof:geomhash":"47f8abde760222d6326f0073204f7064",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":824031499
+        }
+    ],
     "wof:id":824031499,
-    "wof:lastmodified":1466413889,
+    "wof:lastmodified":1486593767,
     "wof:name":"Dallas Rice Used Cars",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

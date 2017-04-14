@@ -2,9 +2,14 @@
   "id": 823892153,
   "type": "Feature",
   "properties": {
+    "addr:full":"12185 US Hwy 491 Cortez CO 81321",
+    "addr:housenumber":"12185",
+    "addr:postcode":"81321",
+    "addr:street":"Us Hwy 491",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.611806,37.386931,-108.611806,37.386931",
     "geom:latitude":37.386931,
     "geom:longitude":-108.611806,
@@ -24,19 +29,28 @@
     "sg:postcode":"81321",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Tc6ATsRcBsO8599W7VAwH_37.386931_-108.611806@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449254,
-    "wof:geomhash":"5ee2d0261496b1dbc6e0904b1865aca1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"81ed58aa14893fc1871c2b1688d9a210",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555117,
+            "venue_id":823892153
+        }
+    ],
     "wof:id":823892153,
-    "wof:lastmodified":1466420129,
+    "wof:lastmodified":1492119929,
     "wof:name":"Geisinger Feed Grains",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555117,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

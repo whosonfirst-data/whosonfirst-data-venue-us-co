@@ -2,9 +2,14 @@
   "id": 823785679,
   "type": "Feature",
   "properties": {
+    "addr:full":"7171 Beach St Westminster CO 80030",
+    "addr:housenumber":"7171",
+    "addr:postcode":"80030",
+    "addr:street":"Beach St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.017877,39.825938,-105.017877,39.825938",
     "geom:latitude":39.825938,
     "geom:longitude":-105.017877,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553585
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4mXPkwcg91EY8AHBsFHbR2_39.825938_-105.017877@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446270,
-    "wof:geomhash":"47838de1e2cf5894a6752d5339dfa625",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8fd74c295eff82217dab571b85ae6368",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553585,
+            "region_id":85688603,
+            "venue_id":823785679
+        }
+    ],
     "wof:id":823785679,
-    "wof:lastmodified":1466419291,
+    "wof:lastmodified":1492125214,
     "wof:name":"M J Wood & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553585,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

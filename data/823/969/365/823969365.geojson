@@ -2,9 +2,14 @@
   "id": 823969365,
   "type": "Feature",
   "properties": {
+    "addr:full":"1030 13th St Boulder CO 80302",
+    "addr:housenumber":"1030",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276123,40.006737,-105.276123,40.006737",
     "geom:latitude":40.006737,
     "geom:longitude":-105.276123,
@@ -28,19 +33,36 @@
         "educational"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0VcdFJxBsjowAPBXQyQOcd_40.006737_-105.276123@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451244,
-    "wof:geomhash":"3c1741790bc878a0ffe90918374f75a5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3013873c8b567ebfaef7c91e608d546b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":823969365
+        }
+    ],
     "wof:id":823969365,
-    "wof:lastmodified":1466420828,
+    "wof:lastmodified":1492119092,
     "wof:name":"Learning For Living",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

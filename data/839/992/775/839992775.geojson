@@ -2,9 +2,14 @@
   "id": 839992775,
   "type": "Feature",
   "properties": {
+    "addr:full":"8650 Washington St Denver CO 80229",
+    "addr:housenumber":"8650",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977905,39.853566,-104.977905,39.853566",
     "geom:latitude":39.853566,
     "geom:longitude":-104.977905,
@@ -29,19 +34,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3xMaei7Cdw4pD4jZTOfTlw_39.853404_-104.977749@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460915,
-    "wof:geomhash":"ef1332ceb111cebb7c64d8b424fbf823",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f2b142f8aea23a3c03bcc5e6111a54fa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":839992775
+        }
+    ],
     "wof:id":839992775,
-    "wof:lastmodified":1466417584,
+    "wof:lastmodified":1492114435,
     "wof:name":"Subway",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

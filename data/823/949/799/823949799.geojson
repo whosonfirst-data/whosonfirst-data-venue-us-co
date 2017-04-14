@@ -2,9 +2,14 @@
   "id": 823949799,
   "type": "Feature",
   "properties": {
+    "addr:full":"5715 E 63rd Pl Commerce City CO 80022",
+    "addr:housenumber":"5715",
+    "addr:postcode":"80022",
+    "addr:street":"E 63Rd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.920037,39.812005,-104.920037,39.812005",
     "geom:latitude":39.812005,
     "geom:longitude":-104.920037,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0SMv2LPoHTTqIBrWHfai0N_39.812005_-104.920037@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450773,
-    "wof:geomhash":"1596618e68b07fc91d17597ccf58f332",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e23b7881e6a00d975eeb8d114b745013",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":823949799
+        }
+    ],
     "wof:id":823949799,
-    "wof:lastmodified":1466420654,
+    "wof:lastmodified":1492119725,
     "wof:name":"Nationwide Temporary Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

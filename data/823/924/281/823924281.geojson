@@ -2,9 +2,14 @@
   "id": 823924281,
   "type": "Feature",
   "properties": {
+    "addr:full":"13577 Co Rd 213 Durango CO 81303",
+    "addr:housenumber":"13577;213",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.869316,37.230258,-107.869316,37.230258",
     "geom:latitude":37.230258,
     "geom:longitude":-107.869316,
@@ -29,19 +34,28 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_63UBUK0onvMMAIrS1SBbRQ_37.230258_-107.869316@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450112,
-    "wof:geomhash":"fcc848a7c58a74ed1b65a2e099d0d1d7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"63c4e8ddfd774454f2565deca4aa88ca",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":823924281
+        }
+    ],
     "wof:id":823924281,
-    "wof:lastmodified":1466420398,
+    "wof:lastmodified":1492117518,
     "wof:name":"APS Topsoil",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

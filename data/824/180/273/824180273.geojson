@@ -2,9 +2,14 @@
   "id": 824180273,
   "type": "Feature",
   "properties": {
+    "addr:full":"23 E Montezuma Ave Cortez CO 81321",
+    "addr:housenumber":"23",
+    "addr:postcode":"81321",
+    "addr:street":"E Montezuma Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.584924,37.350818,-108.584924,37.350818",
     "geom:latitude":37.350818,
     "geom:longitude":-108.584924,
@@ -27,19 +32,28 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0FzROX0Ssv99ZJMiLoYcYT_37.350818_-108.584924@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457076,
-    "wof:geomhash":"b5caf79fcdc6fa2018def7f6d6b69cc5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2aac93546d9a3c783d658de8a73defad",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":824180273
+        }
+    ],
     "wof:id":824180273,
-    "wof:lastmodified":1466418180,
+    "wof:lastmodified":1492128597,
     "wof:name":"Studio 23 Photography",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

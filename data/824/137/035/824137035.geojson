@@ -2,9 +2,14 @@
   "id": 824137035,
   "type": "Feature",
   "properties": {
+    "addr:full":"6013 W 56th Ave Arvada CO 80002",
+    "addr:housenumber":"6013",
+    "addr:postcode":"80002",
+    "addr:street":"W 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.065213,39.798414,-105.065213,39.798414",
     "geom:latitude":39.798414,
     "geom:longitude":-105.065213,
@@ -27,19 +32,34 @@
         "filter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6n72TkgVeJzms0n1KIcTdn_39.798414_-105.065213@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455403,
-    "wof:geomhash":"5ef121eeb687053f803f5ec988e4b766",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4821e444a90d254455523cb7fdbedde7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824137035
+        }
+    ],
     "wof:id":824137035,
-    "wof:lastmodified":1466416240,
+    "wof:lastmodified":1492129778,
     "wof:name":"D & D Filter Recycling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

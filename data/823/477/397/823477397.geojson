@@ -2,9 +2,14 @@
   "id": 823477397,
   "type": "Feature",
   "properties": {
+    "addr:full":"60 E 9th Ave Longmont CO 80501",
+    "addr:housenumber":"60",
+    "addr:postcode":"80501",
+    "addr:street":"E 9Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.090961,40.174052,-105.090961,40.174052",
     "geom:latitude":40.174052,
     "geom:longitude":-105.090961,
@@ -28,17 +33,32 @@
         "washing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_41f7KEQvupcGKd2umrCSNz_40.174052_-105.090961@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439015,
-    "wof:geomhash":"4e0683166de386311b2530be3cb1fd7c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"94a158de0c280343d08ac9e722dadc90",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823477397
+        }
+    ],
     "wof:id":823477397,
-    "wof:lastmodified":1466413067,
+    "wof:lastmodified":1492124192,
     "wof:name":"Colorado Car Wash",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

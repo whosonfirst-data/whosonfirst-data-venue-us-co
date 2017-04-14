@@ -2,9 +2,14 @@
   "id": 839956049,
   "type": "Feature",
   "properties": {
+    "addr:full":"900 Indiana Ave Pueblo CO 81004",
+    "addr:housenumber":"900",
+    "addr:postcode":"81004",
+    "addr:street":"Indiana Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.621294,38.231386,-104.621294,38.231386",
     "geom:latitude":38.231386,
     "geom:longitude":-104.621294,
@@ -28,17 +33,32 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0dNeiGZxQCt6zmtBEvLNVJ_38.231386_-104.621294@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459457,
-    "wof:geomhash":"b92d4167075897a835678f2b3f7d1e70",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4edaccfca80a13867e2507672981542a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":839956049
+        }
+    ],
     "wof:id":839956049,
-    "wof:lastmodified":1466415295,
+    "wof:lastmodified":1492111820,
     "wof:name":"Family Medicine",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

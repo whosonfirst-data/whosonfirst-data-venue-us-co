@@ -2,9 +2,14 @@
   "id": 823945175,
   "type": "Feature",
   "properties": {
+    "addr:full":"7184 Washington St Denver CO 80229",
+    "addr:housenumber":"7184",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977881,39.825878,-104.977881,39.825878",
     "geom:latitude":39.825878,
     "geom:longitude":-104.977881,
@@ -28,19 +33,36 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Dm5hUh1GYGoT8Zm5Xcjbf_39.825878_-104.977881@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450645,
-    "wof:geomhash":"5100b102189df517e34fe0ccede375a5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f83701580438d42d8cf61220beec0ca7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823945175
+        }
+    ],
     "wof:id":823945175,
-    "wof:lastmodified":1466420551,
+    "wof:lastmodified":1492125890,
     "wof:name":"Sunset Auto Brokers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

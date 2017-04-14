@@ -2,9 +2,14 @@
   "id": 823670545,
   "type": "Feature",
   "properties": {
+    "addr:full":"1700 Co Rd 46 Fort Collins CO 80513",
+    "addr:housenumber":"1700;46",
+    "addr:postcode":"80513",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02997,40.320277,-105.02997,40.320277",
     "geom:latitude":40.320277,
     "geom:longitude":-105.02997,
@@ -27,19 +32,36 @@
         "window"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_49OM6Z9PbAXzPNScnfkRLF_40.320277_-105.029970@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443583,
-    "wof:geomhash":"200b03607f312032b5b35a7fa4ea035d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"067a1dc6ff1006f7447933863109b16f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823670545
+        }
+    ],
     "wof:id":823670545,
-    "wof:lastmodified":1466418214,
+    "wof:lastmodified":1492126973,
     "wof:name":"Johnson Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

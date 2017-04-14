@@ -2,9 +2,14 @@
   "id": 823831311,
   "type": "Feature",
   "properties": {
+    "addr:full":"5455 Pecos St Denver CO 80221",
+    "addr:housenumber":"5455",
+    "addr:postcode":"80221",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006388,39.796143,-105.006388,39.796143",
     "geom:latitude":39.796143,
     "geom:longitude":-105.006388,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553627
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ZPdoGW65trq54l7as6W4c_39.796143_-105.006388@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447641,
-    "wof:geomhash":"6c05e0fd880f268f51fb07d50ee56b71",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c8b9cefab407fd099abbd025f07f82f2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553627,
+            "region_id":85688603,
+            "venue_id":823831311
+        }
+    ],
     "wof:id":823831311,
-    "wof:lastmodified":1466419644,
+    "wof:lastmodified":1492116998,
     "wof:name":"Cruz Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553627,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

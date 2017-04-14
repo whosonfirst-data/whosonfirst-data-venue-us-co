@@ -2,9 +2,14 @@
   "id": 823813053,
   "type": "Feature",
   "properties": {
+    "addr:full":"2461 W 82nd Pl Westminster CO 80031",
+    "addr:housenumber":"2461",
+    "addr:postcode":"80031",
+    "addr:street":"W 82Nd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.016207,39.846582,-105.016207,39.846582",
     "geom:latitude":39.846582,
     "geom:longitude":-105.016207,
@@ -28,19 +33,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553589
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_767eukDfGibMPPdMvfgvUU_39.846582_-105.016207@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447095,
-    "wof:geomhash":"88497657935d685bdae9106e41c4eb22",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c2eb2583f781a39478d016dd951b2d6f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553589,
+            "region_id":85688603,
+            "venue_id":823813053
+        }
+    ],
     "wof:id":823813053,
-    "wof:lastmodified":1466419466,
+    "wof:lastmodified":1492123927,
     "wof:name":"Villa Maria Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553589,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839931143,
   "type": "Feature",
   "properties": {
+    "addr:full":"13064 Co Rd 370 Sterling CO 80751",
+    "addr:housenumber":"13064;370",
+    "addr:postcode":"80751",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.181562,40.618801,-103.181562,40.618801",
     "geom:latitude":40.618801,
     "geom:longitude":-103.181562,
@@ -27,17 +32,32 @@
         "course"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929371,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4eaVjUufxLAtbax8dJVa3G_40.618801_-103.181562@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458040,
-    "wof:geomhash":"763096bc771734703d57b26caf511654",
-    "wof:hierarchy":[],
+    "wof:geomhash":"578bc896473e99fc17e8beb652b0f7ff",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929371,
+            "region_id":85688603,
+            "venue_id":839931143
+        }
+    ],
     "wof:id":839931143,
-    "wof:lastmodified":1466414161,
+    "wof:lastmodified":1492111522,
     "wof:name":"Riverview Golf Club",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

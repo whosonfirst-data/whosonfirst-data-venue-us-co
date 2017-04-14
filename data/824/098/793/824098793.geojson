@@ -2,9 +2,14 @@
   "id": 824098793,
   "type": "Feature",
   "properties": {
+    "addr:full":"6525 W 62nd Ave Arvada CO 80003",
+    "addr:housenumber":"6525",
+    "addr:postcode":"80003",
+    "addr:street":"W 62Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.069513,39.809286,-105.069513,39.809286",
     "geom:latitude":39.809286,
     "geom:longitude":-105.069513,
@@ -27,19 +32,36 @@
         "protection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554591
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3BRiEJcuJUHp5bwUgWddHz_39.809286_-105.069513@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454315,
-    "wof:geomhash":"2cf37332857bdb550b61378b203accfd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f2aa42ea60ec5fa7068701f14f680268",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554591,
+            "region_id":85688603,
+            "venue_id":824098793
+        }
+    ],
     "wof:id":824098793,
-    "wof:lastmodified":1466415066,
+    "wof:lastmodified":1492132548,
     "wof:name":"Colorado Law Enforce",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554591,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

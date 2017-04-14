@@ -2,9 +2,14 @@
   "id": 823822393,
   "type": "Feature",
   "properties": {
+    "addr:full":"1001 E Yale Ave Denver CO 80210",
+    "addr:housenumber":"1001",
+    "addr:postcode":"80210",
+    "addr:street":"E Yale Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.973944,39.667687,-104.973944,39.667687",
     "geom:latitude":39.667687,
     "geom:longitude":-104.973944,
@@ -24,7 +29,15 @@
     "sg:postcode":"80210",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871301,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0uJAL5M5c9diCo25NEc5Hv_39.667687_-104.973944@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463447366,
     "wof:geomhash":"1ede38627c405193acb0c2a94e9828a3",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871301,
+            "region_id":85688603,
+            "venue_id":823822393
+        }
+    ],
     "wof:id":823822393,
-    "wof:lastmodified":1466419536,
+    "wof:lastmodified":1491866053,
     "wof:name":"Avabelle Snook Family Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

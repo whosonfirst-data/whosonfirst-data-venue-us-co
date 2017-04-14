@@ -2,9 +2,14 @@
   "id": 823760313,
   "type": "Feature",
   "properties": {
+    "addr:full":"1391 S Vallejo St Denver CO 80223",
+    "addr:housenumber":"1391",
+    "addr:postcode":"80223",
+    "addr:street":"S Vallejo St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.01371,39.692945,-105.01371,39.692945",
     "geom:latitude":39.692945,
     "geom:longitude":-105.01371,
@@ -30,7 +35,15 @@
     ],
     "sg:website":"www.csalarm.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871275,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7n2eGY4Vrb1VFybUKMk6By_39.692945_-105.013710@1294083659"
@@ -38,11 +51,22 @@
     "wof:country":"US",
     "wof:created":1463445623,
     "wof:geomhash":"8a1fa83dfb84cd518daf26220d2f4aef",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871275,
+            "region_id":85688603,
+            "venue_id":823760313
+        }
+    ],
     "wof:id":823760313,
-    "wof:lastmodified":1466419004,
+    "wof:lastmodified":1491876237,
     "wof:name":"Colorado Security Alarm",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

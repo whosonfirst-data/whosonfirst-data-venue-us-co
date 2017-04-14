@@ -2,9 +2,14 @@
   "id": 839992903,
   "type": "Feature",
   "properties": {
+    "addr:full":"1215 13th St Boulder CO 80302",
+    "addr:housenumber":"1215",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276216,40.008842,-105.276216,40.008842",
     "geom:latitude":40.008842,
     "geom:longitude":-105.276216,
@@ -34,19 +39,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1n8ZSHoY1z3FzI3ZC6qb43_40.009377_-105.276369@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460924,
-    "wof:geomhash":"2d38d9013713cc179639f7a3909cafe7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e23743771c8243eeebfa7c87e1945102",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839992903
+        }
+    ],
     "wof:id":839992903,
-    "wof:lastmodified":1466417674,
+    "wof:lastmodified":1492114448,
     "wof:name":"Half Fast Subs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

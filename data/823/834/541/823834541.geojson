@@ -2,9 +2,14 @@
   "id": 823834541,
   "type": "Feature",
   "properties": {
+    "addr:full":"640 S Broadway Cortez CO 81321",
+    "addr:housenumber":"640",
+    "addr:postcode":"81321",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.598206,37.341724,-108.598206,37.341724",
     "geom:latitude":37.341724,
     "geom:longitude":-108.598206,
@@ -28,19 +33,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0hHUr5pouFLjALnMAwEhIr_37.341724_-108.598206@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447747,
-    "wof:geomhash":"4e0ef44f8efaf87d0429ca907446e419",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ef03cd9fdcdf8e6d95e5a28b9567a6ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555135,
+            "region_id":85688603,
+            "venue_id":823834541
+        }
+    ],
     "wof:id":823834541,
-    "wof:lastmodified":1466419662,
+    "wof:lastmodified":1492123318,
     "wof:name":"Anasazi Motor Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

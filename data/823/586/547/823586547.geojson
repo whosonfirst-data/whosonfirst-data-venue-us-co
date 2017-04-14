@@ -2,9 +2,14 @@
   "id": 823586547,
   "type": "Feature",
   "properties": {
+    "addr:full":"4282 Co Rd 129 Hesperus CO 81326",
+    "addr:housenumber":"4282",
+    "addr:postcode":"81326",
+    "addr:street":"Co Rd 129 Hesperus",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.092093,37.158587,-108.092093,37.158587",
     "geom:latitude":37.158587,
     "geom:longitude":-108.092093,
@@ -30,19 +35,28 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1slQItcJ1jcwgUP2Fx4xxh_37.158587_-108.092093@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441572,
-    "wof:geomhash":"6e416958af6341e7b61a0acce5a56b13",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8a44baa501273b2e787cdad0cbc2f051",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":823586547
+        }
+    ],
     "wof:id":823586547,
-    "wof:lastmodified":1466416802,
+    "wof:lastmodified":1492118483,
     "wof:name":"White Lightning",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

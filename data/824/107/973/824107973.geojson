@@ -2,9 +2,14 @@
   "id": 824107973,
   "type": "Feature",
   "properties": {
+    "addr:full":"5255 Lincoln St Denver CO 80216",
+    "addr:housenumber":"5255",
+    "addr:postcode":"80216",
+    "addr:street":"Lincoln St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.986416,39.792761,-104.986416,39.792761",
     "geom:latitude":39.792761,
     "geom:longitude":-104.986416,
@@ -29,19 +34,36 @@
         "cleaning"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553751
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7gzKO5jUJOKi8D8aSRe6Ix_39.792761_-104.986416@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454509,
-    "wof:geomhash":"b663ca01b60be995e922f448bd6756a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6f4efc21c1cf16c086adbfadd73d9a7f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553751,
+            "region_id":85688603,
+            "venue_id":824107973
+        }
+    ],
     "wof:id":824107973,
-    "wof:lastmodified":1466415293,
+    "wof:lastmodified":1492130048,
     "wof:name":"John's Mobile Wash",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553751,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

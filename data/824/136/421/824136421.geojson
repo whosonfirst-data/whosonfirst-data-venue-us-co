@@ -2,9 +2,14 @@
   "id": 824136421,
   "type": "Feature",
   "properties": {
+    "addr:full":"5185 W 80th Ave Westminster CO 80030",
+    "addr:housenumber":"5185",
+    "addr:postcode":"80030",
+    "addr:street":"W 80Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052335,39.841863,-105.052335,39.841863",
     "geom:latitude":39.841863,
     "geom:longitude":-105.052335,
@@ -29,19 +34,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0goc1xabjvVHx0AGUmS7EL_39.841863_-105.052335@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455381,
-    "wof:geomhash":"3493d3a826b61e317da6eae52038ccb9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae90a1e8be928ed984e4bce8aabf43cf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":824136421
+        }
+    ],
     "wof:id":824136421,
-    "wof:lastmodified":1466416376,
+    "wof:lastmodified":1492130273,
     "wof:name":"Mighty Muffler Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

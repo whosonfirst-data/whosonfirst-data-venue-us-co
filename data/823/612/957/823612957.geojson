@@ -2,9 +2,14 @@
   "id": 823612957,
   "type": "Feature",
   "properties": {
+    "addr:full":"3600 E 156th Ave Brighton CO 80602",
+    "addr:housenumber":"3600",
+    "addr:postcode":"80602",
+    "addr:street":"E 156Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.944402,39.979126,-104.944402,39.979126",
     "geom:latitude":39.979126,
     "geom:longitude":-104.944402,
@@ -28,19 +33,28 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ulV8rLx5CBSKwrJz8McEt_39.979126_-104.944402@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442223,
-    "wof:geomhash":"6c128fb7f96885c899c4a74736361520",
-    "wof:hierarchy":[],
+    "wof:geomhash":"feaea8caff3af82fb7a0bf9950dac8bb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553345,
+            "venue_id":823612957
+        }
+    ],
     "wof:id":823612957,
-    "wof:lastmodified":1466417362,
+    "wof:lastmodified":1492116731,
     "wof:name":"Mountain View Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

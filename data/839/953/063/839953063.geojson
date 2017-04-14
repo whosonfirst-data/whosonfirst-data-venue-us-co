@@ -2,9 +2,14 @@
   "id": 839953063,
   "type": "Feature",
   "properties": {
+    "addr:full":"2903 F Rd Grand Junction CO 81504",
+    "addr:housenumber":"2903",
+    "addr:postcode":"81504",
+    "addr:street":"F Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.514368,39.091728,-108.514368,39.091728",
     "geom:latitude":39.091728,
     "geom:longitude":-108.514368,
@@ -27,19 +32,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554993
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6VrbFBondSzIpViWwsZ0hH_39.091728_-108.514368@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459284,
-    "wof:geomhash":"38acd8b6e98016f0e02016567560aa38",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d54b9d7e4207697c4802173281337312",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554993,
+            "region_id":85688603,
+            "venue_id":839953063
+        }
+    ],
     "wof:id":839953063,
-    "wof:lastmodified":1466415362,
+    "wof:lastmodified":1492111645,
     "wof:name":"Bank Of Colorado",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554993,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

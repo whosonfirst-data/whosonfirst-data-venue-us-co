@@ -2,9 +2,14 @@
   "id": 823757657,
   "type": "Feature",
   "properties": {
+    "addr:full":"45 Strong St Brighton CO 80601",
+    "addr:housenumber":"45",
+    "addr:postcode":"80601",
+    "addr:street":"Strong St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.820629,39.987896,-104.820629,39.987896",
     "geom:latitude":39.987896,
     "geom:longitude":-104.820629,
@@ -27,19 +32,36 @@
         "event"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0T9Tpx1PNLFgJvMEhvj976_39.987896_-104.820629@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445572,
-    "wof:geomhash":"a4e35f65ac0126cda569a4f8e07c7198",
-    "wof:hierarchy":[],
+    "wof:geomhash":"33f16dfb70077cb142d2f7249a876b44",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823757657
+        }
+    ],
     "wof:id":823757657,
-    "wof:lastmodified":1466419036,
+    "wof:lastmodified":1492124645,
     "wof:name":"Bella Sera Event Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

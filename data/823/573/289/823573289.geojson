@@ -2,9 +2,14 @@
   "id": 823573289,
   "type": "Feature",
   "properties": {
+    "addr:full":"3650 W 84th Ave Westminster CO 80031",
+    "addr:housenumber":"3650",
+    "addr:postcode":"80031",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039695,39.849145,-105.039695,39.849145",
     "geom:latitude":39.849145,
     "geom:longitude":-105.039695,
@@ -32,8 +37,9 @@
         102191575,
         85633793,
         85929351,
-        102084113,
-        85888481
+        102084053,
+        85888481,
+        420553605
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,22 +47,31 @@
     },
     "wof:country":"US",
     "wof:created":1463441260,
-    "wof:geomhash":"0b1a360353bcd385e7e689726833cc65",
+    "wof:geomhash":"47153f93f6c26c555cbd8bb2003c276d",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
             "country_id":85633793,
-            "county_id":102084113,
+            "county_id":102084053,
             "locality_id":85929351,
             "neighbourhood_id":85888481,
+            "region_id":85688603,
+            "venue_id":823573289
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553605,
             "region_id":85688603,
             "venue_id":823573289
         }
     ],
     "wof:id":823573289,
-    "wof:lastmodified":1466416600,
+    "wof:lastmodified":1492125293,
     "wof:name":"Mountain Terrace Apartments",
-    "wof:parent_id":85888481,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

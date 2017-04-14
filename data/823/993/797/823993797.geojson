@@ -2,9 +2,14 @@
   "id": 823993797,
   "type": "Feature",
   "properties": {
+    "addr:full":"6660 W 6th Ave Lakewood CO 80214",
+    "addr:housenumber":"6660",
+    "addr:postcode":"80214",
+    "addr:street":"W 6Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.075506,39.7254,-105.075506,39.7254",
     "geom:latitude":39.7254,
     "geom:longitude":-105.075506,
@@ -27,19 +32,36 @@
         "refrigerating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_66DLLUvX7j0nNCfVPHlLKL_39.725400_-105.075506@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451820,
-    "wof:geomhash":"3fe32b61ae38818f5dc7dd56da362ade",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d28ebdab8e1ba5f7fd1114be435f1f25",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823993797
+        }
+    ],
     "wof:id":823993797,
-    "wof:lastmodified":1466421019,
+    "wof:lastmodified":1492117363,
     "wof:name":"Air Control Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

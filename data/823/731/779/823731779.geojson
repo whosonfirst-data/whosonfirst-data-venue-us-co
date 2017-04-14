@@ -2,9 +2,14 @@
   "id": 823731779,
   "type": "Feature",
   "properties": {
+    "addr:full":"5230 Cook St Denver CO 80216",
+    "addr:housenumber":"5230",
+    "addr:postcode":"80216",
+    "addr:street":"Cook St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.947516,39.792355,-104.947516,39.792355",
     "geom:latitude":39.792355,
     "geom:longitude":-104.947516,
@@ -28,19 +33,38 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_34PMtXzlfaN4D9psQgLk1P_39.792355_-104.947516@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444954,
-    "wof:geomhash":"4abfaf467d48c705add27ab726460bc2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bae74fc62198ed56fa5a886d9131fdb5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":823731779
+        }
+    ],
     "wof:id":823731779,
-    "wof:lastmodified":1466418779,
+    "wof:lastmodified":1492117544,
     "wof:name":"Pena Cylinder Head LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

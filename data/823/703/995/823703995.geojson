@@ -2,9 +2,14 @@
   "id": 823703995,
   "type": "Feature",
   "properties": {
+    "addr:full":"301 S 14th St Gunnison CO 81230",
+    "addr:housenumber":"301",
+    "addr:postcode":"81230",
+    "addr:street":"S 14Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.9321,38.542196,-106.9321,38.542196",
     "geom:latitude":38.542196,
     "geom:longitude":-106.9321,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554465
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2KO9W9dWgjs03H7kZRzfHD_38.542196_-106.932100@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444319,
-    "wof:geomhash":"2318ddb174e82c18fa5c8b9c99eed045",
-    "wof:hierarchy":[],
+    "wof:geomhash":"48c269e0d154a9109265175495b71cf3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554465,
+            "region_id":85688603,
+            "venue_id":823703995
+        }
+    ],
     "wof:id":823703995,
-    "wof:lastmodified":1466418620,
+    "wof:lastmodified":1492119663,
     "wof:name":"R A's Garage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554465,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

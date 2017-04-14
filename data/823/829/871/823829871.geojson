@@ -2,9 +2,14 @@
   "id": 823829871,
   "type": "Feature",
   "properties": {
+    "addr:full":"5300 E 67th Pl Commerce City CO 80022",
+    "addr:housenumber":"5300",
+    "addr:postcode":"80022",
+    "addr:street":"E 67Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.922934,39.817398,-104.922934,39.817398",
     "geom:latitude":39.817398,
     "geom:longitude":-104.922934,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553537
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3yd8Uxvj1zpZmUYuH65hbi_39.817398_-104.922934@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447606,
-    "wof:geomhash":"993bb030f62d135fccf5dd74d54cf507",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0a75d96aab0222ef145227ddb83f8763",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553537,
+            "region_id":85688603,
+            "venue_id":823829871
+        }
+    ],
     "wof:id":823829871,
-    "wof:lastmodified":1466419630,
+    "wof:lastmodified":1492120079,
     "wof:name":"American Pride Installations I",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553537,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

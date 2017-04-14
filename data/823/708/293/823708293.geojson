@@ -2,9 +2,14 @@
   "id": 823708293,
   "type": "Feature",
   "properties": {
+    "addr:full":"893 S Kuner Rd Brighton CO 80601",
+    "addr:housenumber":"893",
+    "addr:postcode":"80601",
+    "addr:street":"S Kuner Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.827746,39.972448,-104.827746,39.972448",
     "geom:latitude":39.972448,
     "geom:longitude":-104.827746,
@@ -27,19 +32,36 @@
         "grocer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_147jt7RegYIY2oUZCqzBdG_39.972448_-104.827746@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444410,
-    "wof:geomhash":"cbb37fa272f78ec9964f6e0752ba626b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bc1cdd0a433bc1d8982203cff37bcb95",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823708293
+        }
+    ],
     "wof:id":823708293,
-    "wof:lastmodified":1466418603,
+    "wof:lastmodified":1492117317,
     "wof:name":"Albertsons",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

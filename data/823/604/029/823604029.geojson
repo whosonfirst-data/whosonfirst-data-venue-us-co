@@ -2,9 +2,14 @@
   "id": 823604029,
   "type": "Feature",
   "properties": {
+    "addr:full":"1327 Spruce St Boulder CO 80302",
+    "addr:housenumber":"1327",
+    "addr:postcode":"80302",
+    "addr:street":"Spruce St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277988,40.019444,-105.277988,40.019444",
     "geom:latitude":40.019444,
     "geom:longitude":-105.277988,
@@ -27,7 +32,14 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3b1Ha3lhojmdfuHT7ZxXK8_40.019444_-105.277988@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463441999,
     "wof:geomhash":"e3407f46b8355f4f661735c3cc91cc90",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823604029
+        }
+    ],
     "wof:id":823604029,
-    "wof:lastmodified":1466417174,
+    "wof:lastmodified":1491888505,
     "wof:name":"Schuetze & Gordon",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

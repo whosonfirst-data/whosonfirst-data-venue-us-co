@@ -2,9 +2,14 @@
   "id": 823819031,
   "type": "Feature",
   "properties": {
+    "addr:full":"5308 Sheridan Blvd Arvada CO 80002",
+    "addr:housenumber":"5308",
+    "addr:postcode":"80002",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053253,39.792939,-105.053253,39.792939",
     "geom:latitude":39.792939,
     "geom:longitude":-105.053253,
@@ -28,19 +33,34 @@
         "health"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_17x0qPtq9YVr63wKTR8XLg_39.792939_-105.053253@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447259,
-    "wof:geomhash":"220a9dd0ec7dcfd1450e6366d1c058c9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3cefe1ba0654365c912ff8ce036c2de3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823819031
+        }
+    ],
     "wof:id":823819031,
-    "wof:lastmodified":1466419505,
+    "wof:lastmodified":1492116316,
     "wof:name":"Toyko Spa",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

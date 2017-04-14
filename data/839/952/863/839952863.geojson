@@ -2,9 +2,14 @@
   "id": 839952863,
   "type": "Feature",
   "properties": {
+    "addr:full":"6900 Warren Dr Denver CO 80221",
+    "addr:housenumber":"6900",
+    "addr:postcode":"80221",
+    "addr:street":"Warren Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.012271,39.820682,-105.012271,39.820682",
     "geom:latitude":39.820682,
     "geom:longitude":-105.012271,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553585
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_462YH3aisCLyNgd3DJYbYT_39.820682_-105.012271@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459262,
-    "wof:geomhash":"a514591ae69db6307f04408124a51398",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d206441e9e7ff8dad0fb1199cd758dab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553585,
+            "region_id":85688603,
+            "venue_id":839952863
+        }
+    ],
     "wof:id":839952863,
-    "wof:lastmodified":1466415501,
+    "wof:lastmodified":1492111981,
     "wof:name":"Drake Land Farms",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553585,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

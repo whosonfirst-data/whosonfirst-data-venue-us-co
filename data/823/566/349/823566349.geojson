@@ -2,9 +2,14 @@
   "id": 823566349,
   "type": "Feature",
   "properties": {
+    "addr:full":"6525 W Sumac Ave Denver CO 80123",
+    "addr:housenumber":"6525",
+    "addr:postcode":"80123",
+    "addr:street":"W Sumac Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.069801,39.615001,-105.069801,39.615001",
     "geom:latitude":39.615001,
     "geom:longitude":-105.069801,
@@ -27,19 +32,38 @@
         "windows"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871357,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3LKRSOZ2nT4Azv7mS7w1y3_39.615001_-105.069801@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441088,
-    "wof:geomhash":"e52c543742e37502a407e65ab5ed066a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"177ecad9875fcd5b48161e005c94c97d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871357,
+            "region_id":85688603,
+            "venue_id":823566349
+        }
+    ],
     "wof:id":823566349,
-    "wof:lastmodified":1466416296,
+    "wof:lastmodified":1492124080,
     "wof:name":"T R Window Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

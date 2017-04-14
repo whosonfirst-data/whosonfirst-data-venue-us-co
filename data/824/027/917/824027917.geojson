@@ -2,9 +2,14 @@
   "id": 824027917,
   "type": "Feature",
   "properties": {
+    "addr:full":"480 E 76th Ave Denver CO 80229",
+    "addr:housenumber":"480",
+    "addr:postcode":"80229",
+    "addr:street":"E 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979945,39.834205,-104.979945,39.834205",
     "geom:latitude":39.834205,
     "geom:longitude":-104.979945,
@@ -29,19 +34,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553621
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3s5iNiQjaqLF2coYgcchmt_39.834205_-104.979945@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452617,
-    "wof:geomhash":"28ffaaf1ee2de6eef48ada4e17709deb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bca4b4541184968d17359fa00a6d7d4e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553621,
+            "region_id":85688603,
+            "venue_id":824027917
+        }
+    ],
     "wof:id":824027917,
-    "wof:lastmodified":1466413739,
+    "wof:lastmodified":1492132396,
     "wof:name":"Northglen Winnelson",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553621,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

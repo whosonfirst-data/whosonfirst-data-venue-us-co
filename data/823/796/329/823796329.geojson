@@ -2,9 +2,14 @@
   "id": 823796329,
   "type": "Feature",
   "properties": {
+    "addr:full":"4929 Moline St Denver CO 80239",
+    "addr:housenumber":"4929",
+    "addr:postcode":"80239",
+    "addr:street":"Moline St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.854948,39.790009,-104.854948,39.790009",
     "geom:latitude":39.790009,
     "geom:longitude":-104.854948,
@@ -28,7 +33,15 @@
         "direct"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6uQGA2l9GBc2o5PjrQxLV4_39.790009_-104.854948@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463446614,
     "wof:geomhash":"59f65fb61a95efb3217d36c4ad02b5f7",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823796329
+        }
+    ],
     "wof:id":823796329,
-    "wof:lastmodified":1466419325,
+    "wof:lastmodified":1491887474,
     "wof:name":"Advantage Business Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

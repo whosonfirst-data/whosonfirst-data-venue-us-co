@@ -2,9 +2,14 @@
   "id": 823648981,
   "type": "Feature",
   "properties": {
+    "addr:full":"45800 US Hwy 50 Gunnison CO 81230",
+    "addr:housenumber":"",
+    "addr:postcode":"45800;81230",
+    "addr:street":"Us Hwy 50",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.824235,38.530967,-106.824235,38.530967",
     "geom:latitude":38.530967,
     "geom:longitude":-106.824235,
@@ -27,19 +32,28 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554445
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2VFhERGQA9CiUVOgqy4Wbd_38.530967_-106.824235@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443060,
-    "wof:geomhash":"bad681d43313620684cd07f055bb069e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d92c1ba1c3baa734ebbf634896a5530",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554445,
+            "venue_id":823648981
+        }
+    ],
     "wof:id":823648981,
-    "wof:lastmodified":1466418092,
+    "wof:lastmodified":1492119763,
     "wof:name":"Gunnison County Landfill",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554445,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

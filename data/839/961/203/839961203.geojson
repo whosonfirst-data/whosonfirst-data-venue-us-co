@@ -2,9 +2,14 @@
   "id": 839961203,
   "type": "Feature",
   "properties": {
+    "addr:full":"504 Marine St Boulder CO 80302",
+    "addr:housenumber":"504",
+    "addr:postcode":"80302",
+    "addr:street":"Marine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.287299,40.011613,-105.287299,40.011613",
     "geom:latitude":40.011613,
     "geom:longitude":-105.287299,
@@ -27,19 +32,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1jWUhjWmJM2IB7G5DhPkfc_40.011613_-105.287299@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459656,
-    "wof:geomhash":"82f014fd3b4c7eef8fb7adb573d98f99",
-    "wof:hierarchy":[],
+    "wof:geomhash":"adba15ba01ccefcdd1f7f04561360e57",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":839961203
+        }
+    ],
     "wof:id":839961203,
-    "wof:lastmodified":1466415664,
+    "wof:lastmodified":1492111558,
     "wof:name":"Scottsdale Building & Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

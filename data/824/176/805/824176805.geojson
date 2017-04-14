@@ -2,9 +2,14 @@
   "id": 824176805,
   "type": "Feature",
   "properties": {
+    "addr:full":"1661 E 77th Ave Denver CO 80229",
+    "addr:housenumber":"1661",
+    "addr:postcode":"80229",
+    "addr:street":"E 77Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.967377,39.836545,-104.967377,39.836545",
     "geom:latitude":39.836545,
     "geom:longitude":-104.967377,
@@ -27,19 +32,36 @@
         "greenhouse"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2HyPMkDHGJ7smPxhGx7tBm_39.836545_-104.967377@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456948,
-    "wof:geomhash":"58ec32b9c8f5575adacbc8fc48669838",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8541dacae33c451df35594d94b45bfcf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":824176805
+        }
+    ],
     "wof:id":824176805,
-    "wof:lastmodified":1466418101,
+    "wof:lastmodified":1492128402,
     "wof:name":"Busch Greenhouses",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

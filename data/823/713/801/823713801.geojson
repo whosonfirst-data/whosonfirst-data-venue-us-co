@@ -2,9 +2,14 @@
   "id": 823713801,
   "type": "Feature",
   "properties": {
+    "addr:full":"31901 State Hwy 149 Gunnison CO 81230",
+    "addr:housenumber":"31901",
+    "addr:postcode":"81230",
+    "addr:street":"State Hwy 149",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.090136,38.466439,-107.090136,38.466439",
     "geom:latitude":38.466439,
     "geom:longitude":-107.090136,
@@ -28,19 +33,28 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1aEA8hXG2dkECW7Yd7RWAV_38.466439_-107.090136@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444526,
-    "wof:geomhash":"3480b6cc149e6057f21fd12b340b98c8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a505a635cf992b5c031606d34e1d660",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554391,
+            "venue_id":823713801
+        }
+    ],
     "wof:id":823713801,
-    "wof:lastmodified":1466418678,
+    "wof:lastmodified":1492116829,
     "wof:name":"Airport Self Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

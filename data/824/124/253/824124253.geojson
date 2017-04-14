@@ -2,9 +2,14 @@
   "id": 824124253,
   "type": "Feature",
   "properties": {
+    "addr:full":"2336 Gunnison Ave Grand Junction CO 81501",
+    "addr:housenumber":"2336",
+    "addr:postcode":"81501",
+    "addr:street":"Gunnison Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.552326,39.073474,-108.552326,39.073474",
     "geom:latitude":39.073474,
     "geom:longitude":-108.552326,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0dG1tj33ay4dSIlL43oXHm_39.073474_-108.552326@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454892,
-    "wof:geomhash":"73db9fd736aac1b009e75df89065c1e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bacf8937205abf38c13628857cd107f2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":824124253
+        }
+    ],
     "wof:id":824124253,
-    "wof:lastmodified":1466415591,
+    "wof:lastmodified":1492130824,
     "wof:name":"Hamilton Drywall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823780099,
   "type": "Feature",
   "properties": {
+    "addr:full":"9850 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"9850",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025013,39.876848,-105.025013,39.876848",
     "geom:latitude":39.876848,
     "geom:longitude":-105.025013,
@@ -28,19 +33,36 @@
         "care"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553551
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0ieuJXgO2H7Orheeho1rm2_39.876848_-105.025013@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446092,
-    "wof:geomhash":"d05dd569f38775b0a8d44e37a72ca389",
-    "wof:hierarchy":[],
+    "wof:geomhash":"43965716b992346c3edea64bd0ddbdbb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553551,
+            "region_id":85688603,
+            "venue_id":823780099
+        }
+    ],
     "wof:id":823780099,
-    "wof:lastmodified":1466419323,
+    "wof:lastmodified":1492118717,
     "wof:name":"Home Care Dental Services Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553551,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

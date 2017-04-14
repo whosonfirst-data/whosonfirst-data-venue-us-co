@@ -2,9 +2,14 @@
   "id": 823643347,
   "type": "Feature",
   "properties": {
+    "addr:full":"13549 Detroit St Thornton CO 80241",
+    "addr:housenumber":"13549",
+    "addr:postcode":"80241",
+    "addr:street":"Detroit St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.95142,39.938008,-104.95142,39.938008",
     "geom:latitude":39.938008,
     "geom:longitude":-104.95142,
@@ -28,19 +33,36 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420559959
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5w53rvAcpj3SkBZF2SkxlK_39.938008_-104.951420@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442929,
-    "wof:geomhash":"86773e3004730d1baff02d15a8aef13b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5bacd1c040c942288cb8c75b64851585",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420559959,
+            "region_id":85688603,
+            "venue_id":823643347
+        }
+    ],
     "wof:id":823643347,
-    "wof:lastmodified":1466417966,
+    "wof:lastmodified":1492121244,
     "wof:name":"K D Johnson Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559959,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

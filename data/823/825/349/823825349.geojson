@@ -2,9 +2,14 @@
   "id": 823825349,
   "type": "Feature",
   "properties": {
+    "addr:full":"125 Cody Rd Durango CO 81303",
+    "addr:housenumber":"125",
+    "addr:postcode":"co 81303",
+    "addr:street":"Cody Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.721028,37.213618,-107.721028,37.213618",
     "geom:latitude":37.213618,
     "geom:longitude":-107.721028,
@@ -27,19 +32,28 @@
         "cabinet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Nk1AF2aLtcfhUgm4YCd9y_37.213618_-107.721028@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447459,
-    "wof:geomhash":"4beafa3f1d9d663d2974390d3e2ab0f2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f714dc37326a12ed87ebc0ce5f40e16",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554671,
+            "venue_id":823825349
+        }
+    ],
     "wof:id":823825349,
-    "wof:lastmodified":1466419584,
+    "wof:lastmodified":1492123473,
     "wof:name":"Benchmark Custom Cabinetry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

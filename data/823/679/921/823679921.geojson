@@ -2,9 +2,14 @@
   "id": 823679921,
   "type": "Feature",
   "properties": {
+    "addr:full":"11715 E 51st Ave Denver CO 80239",
+    "addr:housenumber":"11715",
+    "addr:postcode":"80239",
+    "addr:street":"E 51St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.850701,39.790399,-104.850701,39.790399",
     "geom:latitude":39.790399,
     "geom:longitude":-104.850701,
@@ -28,7 +33,15 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Qh1AiV1EBiAwNEjdiYgrM_39.790399_-104.850701@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463443785,
     "wof:geomhash":"4596a51a8d5833808440b1567b64c223",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823679921
+        }
+    ],
     "wof:id":823679921,
-    "wof:lastmodified":1466418343,
+    "wof:lastmodified":1491887479,
     "wof:name":"Gates Mold Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

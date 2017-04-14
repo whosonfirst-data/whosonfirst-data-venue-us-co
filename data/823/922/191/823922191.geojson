@@ -2,9 +2,14 @@
   "id": 823922191,
   "type": "Feature",
   "properties": {
+    "addr:full":"11165 Cherokee St Northglenn CO 80234",
+    "addr:housenumber":"11165",
+    "addr:postcode":"80234",
+    "addr:street":"Cherokee St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.990994,39.89777,-104.990994,39.89777",
     "geom:latitude":39.89777,
     "geom:longitude":-104.990994,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553697
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3K3NZazkmL4AvtsGpIR1fg_39.897770_-104.990994@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450059,
-    "wof:geomhash":"56e14c148add3df513a0fdb3639dc8dd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cddd11eca4752537e3bc991946c5868e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553697,
+            "region_id":85688603,
+            "venue_id":823922191
+        }
+    ],
     "wof:id":823922191,
-    "wof:lastmodified":1466420384,
+    "wof:lastmodified":1492124742,
     "wof:name":"Wheeler's Plumbing Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553697,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

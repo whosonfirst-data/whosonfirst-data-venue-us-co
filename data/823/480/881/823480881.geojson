@@ -2,9 +2,14 @@
   "id": 823480881,
   "type": "Feature",
   "properties": {
+    "addr:full":"12150 Race St Denver CO 80241",
+    "addr:housenumber":"12150",
+    "addr:postcode":"80241",
+    "addr:street":"Race St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.963668,39.915133,-104.963668,39.915133",
     "geom:latitude":39.915133,
     "geom:longitude":-104.963668,
@@ -29,19 +34,36 @@
         "trust"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_55DUG7ypoe02fwQxkxXIFQ_39.915133_-104.963668@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439096,
-    "wof:geomhash":"1f58718ba3b98c4958b94f6a29a5a264",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9b6c8b9faf57f51a7e2fa69ea04c6875",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823480881
+        }
+    ],
     "wof:id":823480881,
-    "wof:lastmodified":1466413443,
+    "wof:lastmodified":1492127197,
     "wof:name":"Registry At 120th",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

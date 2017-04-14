@@ -2,9 +2,14 @@
   "id": 839993541,
   "type": "Feature",
   "properties": {
+    "addr:full":"2059 E Main St Cortez CO 81321",
+    "addr:housenumber":"2059",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.558719,37.34904,-108.558719,37.34904",
     "geom:latitude":37.34904,
     "geom:longitude":-108.558719,
@@ -29,19 +34,28 @@
         "diner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6gZI4MYiw4krkOffuTsI6Y_37.348940_-108.558750@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460952,
-    "wof:geomhash":"206ab877cd9dbc36089bcca89caabb0c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b1c7d746ac9370d46999da2290d5a239",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":839993541
+        }
+    ],
     "wof:id":839993541,
-    "wof:lastmodified":1466417723,
+    "wof:lastmodified":1492110955,
     "wof:name":"Denny's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

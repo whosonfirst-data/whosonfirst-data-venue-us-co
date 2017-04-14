@@ -2,9 +2,14 @@
   "id": 823779605,
   "type": "Feature",
   "properties": {
+    "addr:full":"975 35th St Boulder CO 80303",
+    "addr:housenumber":"975",
+    "addr:postcode":"80303",
+    "addr:street":"35Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.248443,40.00513,-105.248443,40.00513",
     "geom:latitude":40.00513,
     "geom:longitude":-105.248443,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4etV960z2wAJpo8lK5jHfH_40.005130_-105.248443@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446077,
-    "wof:geomhash":"76f097be6f7f9fcb9d72e0ca6e2db9a3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f2c745d9a706056efd27b34dd032c0e3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":823779605
+        }
+    ],
     "wof:id":823779605,
-    "wof:lastmodified":1466419342,
+    "wof:lastmodified":1492123873,
     "wof:name":"Annette Yuan",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

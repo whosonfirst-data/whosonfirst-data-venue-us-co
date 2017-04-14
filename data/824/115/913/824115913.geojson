@@ -2,9 +2,14 @@
   "id": 824115913,
   "type": "Feature",
   "properties": {
+    "addr:full":"6215 E 122nd Dr Brighton CO 80602",
+    "addr:housenumber":"6215",
+    "addr:postcode":"80602",
+    "addr:street":"E 122Nd Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.914287,39.918682,-104.914287,39.918682",
     "geom:latitude":39.918682,
     "geom:longitude":-104.914287,
@@ -29,19 +34,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5cIGgj3acQLFIMR0T1V4Rk_39.918682_-104.914287@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454674,
-    "wof:geomhash":"c444b744a3fd390150d0669d2698d281",
-    "wof:hierarchy":[],
+    "wof:geomhash":"203e932736acd233b2a5e7cae636c8de",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":824115913
+        }
+    ],
     "wof:id":824115913,
-    "wof:lastmodified":1466415556,
+    "wof:lastmodified":1492129116,
     "wof:name":"Totalarms Security Systems Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

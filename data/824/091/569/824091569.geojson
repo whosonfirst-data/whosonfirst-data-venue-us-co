@@ -2,9 +2,14 @@
   "id": 824091569,
   "type": "Feature",
   "properties": {
+    "addr:full":"11106 Pearl St Denver CO 80233",
+    "addr:housenumber":"11106",
+    "addr:postcode":"80233",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978289,39.897282,-104.978289,39.897282",
     "geom:latitude":39.897282,
     "geom:longitude":-104.978289,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0SvAid7jcRAvns32YlZqJk_39.897282_-104.978289@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454121,
-    "wof:geomhash":"2495c7fd9380db2fda7fb3c36f4a7c70",
-    "wof:hierarchy":[],
+    "wof:geomhash":"70bcc7f49bf001f93cb8db5b42cf8d22",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":824091569
+        }
+    ],
     "wof:id":824091569,
-    "wof:lastmodified":1466414938,
+    "wof:lastmodified":1492128089,
     "wof:name":"White Lightnin Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

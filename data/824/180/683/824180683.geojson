@@ -2,9 +2,14 @@
   "id": 824180683,
   "type": "Feature",
   "properties": {
+    "addr:full":"4149 Dunkirk Ct Denver CO 80249",
+    "addr:housenumber":"4149",
+    "addr:postcode":"80249",
+    "addr:street":"Dunkirk Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.761853,39.773724,-104.761853,39.773724",
     "geom:latitude":39.773724,
     "geom:longitude":-104.761853,
@@ -36,7 +41,16 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2XUC8lUwaJuXkxnOHk24Xk_39.773724_-104.761853@1294083659"
@@ -44,11 +58,23 @@
     "wof:country":"US",
     "wof:created":1463457090,
     "wof:geomhash":"60bbfd32e13ba7f75b272dd9d2503b91",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":824180683
+        }
+    ],
     "wof:id":824180683,
-    "wof:lastmodified":1466418220,
+    "wof:lastmodified":1486593993,
     "wof:name":"Perimeter Electronics LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

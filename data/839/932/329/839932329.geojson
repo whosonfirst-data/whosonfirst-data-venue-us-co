@@ -2,9 +2,14 @@
   "id": 839932329,
   "type": "Feature",
   "properties": {
+    "addr:full":"3122 Sterling Cir Boulder CO 80301",
+    "addr:housenumber":"3122",
+    "addr:postcode":"80301",
+    "addr:street":"Sterling Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227157,40.032119,-105.227157,40.032119",
     "geom:latitude":40.032119,
     "geom:longitude":-105.227157,
@@ -30,19 +35,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6qOISyBtMf6lVRk7JUP8d9_40.032119_-105.227157@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458106,
-    "wof:geomhash":"ea6283060f54bac6b8512eb96f6dfea9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ad0c7df711aeea02603187c39094fdb8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876385,
+            "region_id":85688603,
+            "venue_id":839932329
+        }
+    ],
     "wof:id":839932329,
-    "wof:lastmodified":1466414177,
+    "wof:lastmodified":1492112668,
     "wof:name":"Quantum Corporation",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

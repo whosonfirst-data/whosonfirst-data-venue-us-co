@@ -2,9 +2,14 @@
   "id": 823534981,
   "type": "Feature",
   "properties": {
+    "addr:full":"7000 Raleigh St Westminster CO 80030",
+    "addr:housenumber":"7000",
+    "addr:postcode":"80030",
+    "addr:street":"Raleigh St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041361,39.824347,-105.041361,39.824347",
     "geom:latitude":39.824347,
     "geom:longitude":-105.041361,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553401
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2OPhwFAeSkag3X5AIQPrBK_39.824347_-105.041361@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440355,
-    "wof:geomhash":"a0cf4f1c039fd3041791af1d276ddc75",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0e87649c6d5ccf67f2f3024ada5acdcd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553401,
+            "region_id":85688603,
+            "venue_id":823534981
+        }
+    ],
     "wof:id":823534981,
-    "wof:lastmodified":1466415138,
+    "wof:lastmodified":1492126119,
     "wof:name":"GM Walls",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553401,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

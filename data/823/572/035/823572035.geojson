@@ -2,9 +2,14 @@
   "id": 823572035,
   "type": "Feature",
   "properties": {
+    "addr:full":"6765 King St Denver CO 80221",
+    "addr:housenumber":"6765",
+    "addr:postcode":"80221",
+    "addr:street":"King St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033425,39.819777,-105.033425,39.819777",
     "geom:latitude":39.819777,
     "geom:longitude":-105.033425,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4q7CffSWU2PBr66QIPzUan_39.819777_-105.033425@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441232,
-    "wof:geomhash":"4136a4f42c9ac472895ee098547a9979",
-    "wof:hierarchy":[],
+    "wof:geomhash":"242d1ab1fb3a41e51cfb19ae153793ec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553739,
+            "region_id":85688603,
+            "venue_id":823572035
+        }
+    ],
     "wof:id":823572035,
-    "wof:lastmodified":1466416260,
+    "wof:lastmodified":1492121972,
     "wof:name":"Above Top Plumbing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

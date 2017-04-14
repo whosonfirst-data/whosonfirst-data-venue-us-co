@@ -2,9 +2,14 @@
   "id": 839926115,
   "type": "Feature",
   "properties": {
+    "addr:full":"3749 S King St Denver CO 80236",
+    "addr:housenumber":"3749",
+    "addr:postcode":"80236",
+    "addr:street":"S King St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033432,39.648779,-105.033432,39.648779",
     "geom:latitude":39.648779,
     "geom:longitude":-105.033432,
@@ -27,17 +32,32 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929811,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4AvvQaZsrbap7A2uWRfpr9_39.648779_-105.033432@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457776,
-    "wof:geomhash":"3e9de12a31ab18f564e5629c74a78ceb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2676a186eb43dfc9ac6d85d6d800415f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929811,
+            "region_id":85688603,
+            "venue_id":839926115
+        }
+    ],
     "wof:id":839926115,
-    "wof:lastmodified":1466413806,
+    "wof:lastmodified":1492113422,
     "wof:name":"Denver Indian Health & Family",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

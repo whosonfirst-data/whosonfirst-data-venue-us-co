@@ -2,9 +2,14 @@
   "id": 839918603,
   "type": "Feature",
   "properties": {
+    "addr:full":"1307 Birch St Fort Collins CO 80521",
+    "addr:housenumber":"1307",
+    "addr:postcode":"80521",
+    "addr:street":"Birch St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.100554,40.579064,-105.100554,40.579064",
     "geom:latitude":40.579064,
     "geom:longitude":-105.100554,
@@ -28,19 +33,36 @@
         "social"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2tygaYoB3LeRXunK3bqJbV_40.579064_-105.100554@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457429,
-    "wof:geomhash":"4e026d650c5aa0c0ace1e63a930beb70",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bc2b8e22ab994c3632015e308819fb90",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":839918603
+        }
+    ],
     "wof:id":839918603,
-    "wof:lastmodified":1466413754,
+    "wof:lastmodified":1492112396,
     "wof:name":"Delta Delta Delta",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

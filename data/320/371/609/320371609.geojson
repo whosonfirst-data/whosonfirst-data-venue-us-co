@@ -2,9 +2,14 @@
   "id": 320371609,
   "type": "Feature",
   "properties": {
+    "addr:full":"5895 E Evans Ave Ste 100 Denver CO 80222",
+    "addr:housenumber":"5895",
+    "addr:postcode":"80222",
+    "addr:street":"E Evans Ave Ste 100",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.918837,39.67844,-104.918837,39.67844",
     "geom:latitude":39.67844,
     "geom:longitude":-104.918837,
@@ -30,11 +35,16 @@
     "sg:website":"http://www.helmsurgical.com",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        85871341,
+        102191575,
+        1108750035,
         85633793,
         85928879,
         102086135,
-        85871341
+        85688603,
+        85930653,
+        102086877,
+        420559699
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -44,19 +54,29 @@
     "wof:geomhash":"7ed28af3ce2e0ece3d063389f081fa3f",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
+            "macrohood_id":1108750035,
             "neighbourhood_id":85871341,
+            "region_id":85688603,
+            "venue_id":320371609
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930653,
+            "neighbourhood_id":420559699,
             "region_id":85688603,
             "venue_id":320371609
         }
     ],
     "wof:id":320371609,
-    "wof:lastmodified":1466413189,
+    "wof:lastmodified":1486590134,
     "wof:name":"Helm Surgical Systems",
-    "wof:parent_id":85871341,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

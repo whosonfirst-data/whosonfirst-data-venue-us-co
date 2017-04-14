@@ -2,9 +2,14 @@
   "id": 823884999,
   "type": "Feature",
   "properties": {
+    "addr:full":"3780 S Jason St Englewood CO 80110",
+    "addr:housenumber":"3780",
+    "addr:postcode":"80110",
+    "addr:street":"S Jason St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.999303,39.649068,-104.999303,39.649068",
     "geom:latitude":39.649068,
     "geom:longitude":-104.999303,
@@ -28,19 +33,36 @@
         "rooms"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        420553955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0MKOTfpsDzTV68GOrxDE6p_39.649068_-104.999303@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449081,
-    "wof:geomhash":"6c89f54991d8f2d32f9351a611490121",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aa6b2f44a15f0ca0d8b9fe31ec0d93df",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
+            "region_id":85688603,
+            "venue_id":823884999
+        }
+    ],
     "wof:id":823884999,
-    "wof:lastmodified":1466419955,
+    "wof:lastmodified":1492122476,
     "wof:name":"Fraternal Order Of Eagles",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

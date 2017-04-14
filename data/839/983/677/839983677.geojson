@@ -2,9 +2,14 @@
   "id": 839983677,
   "type": "Feature",
   "properties": {
+    "addr:full":"12007 Pecos St Denver CO 80234",
+    "addr:housenumber":"12007",
+    "addr:postcode":"80234",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006083,39.91417,-105.006083,39.91417",
     "geom:latitude":39.91417,
     "geom:longitude":-105.006083,
@@ -29,19 +34,36 @@
         "removing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4XQT2DwODdXOlv7NJ21TdL_39.914174_-105.006186@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460566,
-    "wof:geomhash":"890812791d377b6add4902b051b8233e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"43fb9f774a628de5601cd44c35baed6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":839983677
+        }
+    ],
     "wof:id":839983677,
-    "wof:lastmodified":1466417058,
+    "wof:lastmodified":1492110663,
     "wof:name":"Medispa",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

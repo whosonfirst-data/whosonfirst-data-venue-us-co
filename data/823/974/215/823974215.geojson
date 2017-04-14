@@ -2,9 +2,14 @@
   "id": 823974215,
   "type": "Feature",
   "properties": {
+    "addr:full":"4943 W 73rd Ave Westminster CO 80030",
+    "addr:housenumber":"4943",
+    "addr:postcode":"80030",
+    "addr:street":"W 73Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052711,39.829008,-105.052711,39.829008",
     "geom:latitude":39.829008,
     "geom:longitude":-105.052711,
@@ -27,19 +32,36 @@
         "appraiser"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Cj5zOl0u6cUezHzLrmYvh_39.829008_-105.052711@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451339,
-    "wof:geomhash":"ca3cd0a9cd0870a3521b56dd31fa35cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"144660f02c5ce80f5dc2ab7e364fe736",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554605,
+            "region_id":85688603,
+            "venue_id":823974215
+        }
+    ],
     "wof:id":823974215,
-    "wof:lastmodified":1466420808,
+    "wof:lastmodified":1492117253,
     "wof:name":"Roper & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

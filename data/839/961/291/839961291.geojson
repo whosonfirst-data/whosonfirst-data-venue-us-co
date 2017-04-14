@@ -2,9 +2,14 @@
   "id": 839961291,
   "type": "Feature",
   "properties": {
+    "addr:full":"6525 W 3rd Ave Denver CO 80226",
+    "addr:housenumber":"6525",
+    "addr:postcode":"80226",
+    "addr:street":"W 3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.069519,39.721812,-105.069519,39.721812",
     "geom:latitude":39.721812,
     "geom:longitude":-105.069519,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_16TL8jgfhlLZ19wn93SuSm_39.721812_-105.069519@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459659,
-    "wof:geomhash":"3992ae5158a83cbf8128e90b60a7fc96",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4eb4d9f6fb482fc30f21a53bb6170400",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":839961291
+        }
+    ],
     "wof:id":839961291,
-    "wof:lastmodified":1466415678,
+    "wof:lastmodified":1492111570,
     "wof:name":"Champion Glass Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

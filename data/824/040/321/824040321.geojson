@@ -2,9 +2,14 @@
   "id": 824040321,
   "type": "Feature",
   "properties": {
+    "addr:full":"10131 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"10131",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.869639,39.740282,-104.869639,39.740282",
     "geom:latitude":39.740282,
     "geom:longitude":-104.869639,
@@ -27,19 +32,36 @@
         "western"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1PBWfs3g1PkyjgfqT5L1gx_39.740282_-104.869639@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452937,
-    "wof:geomhash":"82099fe68f6f7331ef5338300e2614ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ed19305db42cc12b98866e6b7d05fd22",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":824040321
+        }
+    ],
     "wof:id":824040321,
-    "wof:lastmodified":1466413920,
+    "wof:lastmodified":1492128674,
     "wof:name":"Tress Caballos",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

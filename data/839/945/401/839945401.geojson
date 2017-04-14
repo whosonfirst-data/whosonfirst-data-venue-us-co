@@ -2,9 +2,14 @@
   "id": 839945401,
   "type": "Feature",
   "properties": {
+    "addr:full":"1549 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"1549",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.801484,39.986867,-104.801484,39.986867",
     "geom:latitude":39.986867,
     "geom:longitude":-104.801484,
@@ -28,19 +33,36 @@
         "plant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_264PjYczHUgEdmikV2Iwcb_39.986867_-104.801484@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458874,
-    "wof:geomhash":"bef3fd36b2a690a8fbfdf293bc77b352",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1ffa95b1472e502fef51157fc0998084",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":839945401
+        }
+    ],
     "wof:id":839945401,
-    "wof:lastmodified":1466415173,
+    "wof:lastmodified":1492114015,
     "wof:name":"High Country Cleaners",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

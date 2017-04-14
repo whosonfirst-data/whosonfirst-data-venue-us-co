@@ -2,9 +2,14 @@
   "id": 839959205,
   "type": "Feature",
   "properties": {
+    "addr:full":"3294 W 102nd Pl Westminster CO 80031",
+    "addr:housenumber":"3294",
+    "addr:postcode":"80031",
+    "addr:street":"W 102Nd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02953,39.881779,-105.02953,39.881779",
     "geom:latitude":39.881779,
     "geom:longitude":-105.02953,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553349
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Ujs4T7DpcnGZ4LNu9XGO3_39.881779_-105.029530@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459585,
-    "wof:geomhash":"95bf42ce0d11788f30e159a12a64262c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e92fa92129113fed374d38aee7372dd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553349,
+            "region_id":85688603,
+            "venue_id":839959205
+        }
+    ],
     "wof:id":839959205,
-    "wof:lastmodified":1466415641,
+    "wof:lastmodified":1492113157,
     "wof:name":"Lotus Chinese Buffet Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553349,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

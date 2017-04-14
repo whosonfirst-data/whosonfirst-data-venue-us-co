@@ -2,9 +2,14 @@
   "id": 824028909,
   "type": "Feature",
   "properties": {
+    "addr:full":"4200 Evans Dr Boulder CO 80303",
+    "addr:housenumber":"4200",
+    "addr:postcode":"80303",
+    "addr:street":"Evans Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.240308,40.003287,-105.240308,40.003287",
     "geom:latitude":40.003287,
     "geom:longitude":-105.240308,
@@ -27,19 +32,36 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_777v4XgCxnoNCa13zSG3Y8_40.003287_-105.240308@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452640,
-    "wof:geomhash":"f9817873dfe51e1018cf9a6e4cd2ff08",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d02624b49833ac3ea9a18714ed4b2a47",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":824028909
+        }
+    ],
     "wof:id":824028909,
-    "wof:lastmodified":1466413625,
+    "wof:lastmodified":1492129581,
     "wof:name":"Ted's Quick Appliance & Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

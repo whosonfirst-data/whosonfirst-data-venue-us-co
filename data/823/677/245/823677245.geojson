@@ -2,9 +2,14 @@
   "id": 823677245,
   "type": "Feature",
   "properties": {
+    "addr:full":"876 Co Rd 252 Durango CO 81301",
+    "addr:housenumber":"876;252",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.836323,37.384776,-107.836323,37.384776",
     "geom:latitude":37.384776,
     "geom:longitude":-107.836323,
@@ -28,19 +33,28 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ZkIRCg9PDtvucqQ1BoNez_37.384776_-107.836323@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443730,
-    "wof:geomhash":"5febe23717625ca9643fb0b6d0cac148",
-    "wof:hierarchy":[],
+    "wof:geomhash":"68646a2d9c94f1ec50bd08b3c8d05cc0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823677245
+        }
+    ],
     "wof:id":823677245,
-    "wof:lastmodified":1466418347,
+    "wof:lastmodified":1492126475,
     "wof:name":"Hermosa Sanitation District",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823861765,
   "type": "Feature",
   "properties": {
+    "addr:full":"3000 College Dr Rock Springs CO 82901",
+    "addr:housenumber":"3000",
+    "addr:postcode":"82901",
+    "addr:street":"College Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-109.2347,41.59203,-109.2347,41.59203",
     "geom:latitude":41.59203,
     "geom:longitude":-109.2347,
@@ -31,19 +36,36 @@
         "beauty"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688475,
+        102191575,
+        85633793,
+        101734005,
+        102081155,
+        85806363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7CQvcPqTwBxJbeB07o5QFO_41.592030_-109.234700@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448538,
-    "wof:geomhash":"e3659c964433c783319b4b45c9ec40f0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09f27aca54d1665a0eed95b71810bbe3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102081155,
+            "locality_id":101734005,
+            "neighbourhood_id":85806363,
+            "region_id":85688475,
+            "venue_id":823861765
+        }
+    ],
     "wof:id":823861765,
-    "wof:lastmodified":1466419922,
+    "wof:lastmodified":1492122854,
     "wof:name":"College Hill Womens Health Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":85806363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

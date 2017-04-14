@@ -2,9 +2,14 @@
   "id": 823988327,
   "type": "Feature",
   "properties": {
+    "addr:full":"8025 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"8025",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053306,39.842525,-105.053306,39.842525",
     "geom:latitude":39.842525,
     "geom:longitude":-105.053306,
@@ -27,19 +32,36 @@
         "veterinarian"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0MZwrgZqNOeuj3Z4rLr6FM_39.842525_-105.053306@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451681,
-    "wof:geomhash":"d7606525e7616f85416d989087196f42",
-    "wof:hierarchy":[],
+    "wof:geomhash":"49fdcd4247a2dc0bc6accce65dbd4047",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":823988327
+        }
+    ],
     "wof:id":823988327,
-    "wof:lastmodified":1466420974,
+    "wof:lastmodified":1492123108,
     "wof:name":"Pets Vet",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

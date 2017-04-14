@@ -2,9 +2,14 @@
   "id": 824150177,
   "type": "Feature",
   "properties": {
+    "addr:full":"2260 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2260",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.539091,39.077458,-108.539091,39.077458",
     "geom:latitude":39.077458,
     "geom:longitude":-108.539091,
@@ -27,19 +32,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7aanpeKU3TeAtFmsuLToYv_39.077458_-108.539091@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455909,
-    "wof:geomhash":"5ba34f8d827b0d5f854f924ead6df220",
-    "wof:hierarchy":[],
+    "wof:geomhash":"74bafc311954b4314d8a241335b18e66",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":824150177
+        }
+    ],
     "wof:id":824150177,
-    "wof:lastmodified":1466416814,
+    "wof:lastmodified":1492132002,
     "wof:name":"Grand Junction Sinclair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

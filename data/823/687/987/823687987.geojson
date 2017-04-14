@@ -2,9 +2,14 @@
   "id": 823687987,
   "type": "Feature",
   "properties": {
+    "addr:full":"1045 S Public Rd Lafayette CO 80026",
+    "addr:housenumber":"1045",
+    "addr:postcode":"80026",
+    "addr:street":"S Public Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.090583,39.989667,-105.090583,39.989667",
     "geom:latitude":39.989667,
     "geom:longitude":-105.090583,
@@ -28,17 +33,32 @@
         "locksmith"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7cOnj5496h6MZ413dQrXtZ_39.989667_-105.090583@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443971,
-    "wof:geomhash":"5b0d8455bd682888f9467f60812c1a45",
-    "wof:hierarchy":[],
+    "wof:geomhash":"48cb0d25c015de4483012e945416deaf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "region_id":85688603,
+            "venue_id":823687987
+        }
+    ],
     "wof:id":823687987,
-    "wof:lastmodified":1466418438,
+    "wof:lastmodified":1492121533,
     "wof:name":"Lafayette Lock & Key",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 839910579,
   "type": "Feature",
   "properties": {
+    "addr:full":"14365 Co Rd 22 Dolores CO 81323",
+    "addr:housenumber":"14365;22",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.646262,37.417999,-108.646262,37.417999",
     "geom:latitude":37.417999,
     "geom:longitude":-108.646262,
@@ -29,19 +34,28 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555111
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7MUym3AxAaAnlC2MV6taZt_37.417999_-108.646262@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457133,
-    "wof:geomhash":"9a04657f5d1a31724c251c87ae0bfabd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"63d7823f831dfcadcefa9a6d7fa08c67",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555111,
+            "venue_id":839910579
+        }
+    ],
     "wof:id":839910579,
-    "wof:lastmodified":1466412058,
+    "wof:lastmodified":1492110742,
     "wof:name":"Lingos Lonewolf Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555111,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

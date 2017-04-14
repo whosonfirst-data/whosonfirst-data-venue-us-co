@@ -2,9 +2,14 @@
   "id": 823545267,
   "type": "Feature",
   "properties": {
+    "addr:full":"1023 Madison Ave Canon City CO 81212",
+    "addr:housenumber":"1023",
+    "addr:postcode":"81212",
+    "addr:street":"Madison Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.242038,38.430835,-105.242038,38.430835",
     "geom:latitude":38.430835,
     "geom:longitude":-105.242038,
@@ -27,17 +32,32 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929803,
+        102083363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_77c1fVatLNe4ciQA80HoaI_38.430835_-105.242038@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440588,
-    "wof:geomhash":"f35b0c45c6be693ec46b0cabb41d23ca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5a0727a38c6e8d6a119f109d2212ef01",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "locality_id":85929803,
+            "region_id":85688603,
+            "venue_id":823545267
+        }
+    ],
     "wof:id":823545267,
-    "wof:lastmodified":1466415558,
+    "wof:lastmodified":1492122954,
     "wof:name":"U S Therapies",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

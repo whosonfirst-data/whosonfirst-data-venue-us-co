@@ -2,9 +2,14 @@
   "id": 823543231,
   "type": "Feature",
   "properties": {
+    "addr:full":"2150 Comanche Cir Strasburg CO 80136",
+    "addr:housenumber":"2150",
+    "addr:postcode":"80136",
+    "addr:street":"Comanche Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.313809,39.745739,-104.313809,39.745739",
     "geom:latitude":39.745739,
     "geom:longitude":-104.313809,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553501
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3hDfxcryLVQ59R0XfoBpIY_39.745739_-104.313809@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440542,
-    "wof:geomhash":"e29f5541cef00e186498f1a5c96e62a4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f4f4b2a3249eed5e3ccc3ec0b8b866c9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553501,
+            "region_id":85688603,
+            "venue_id":823543231
+        }
+    ],
     "wof:id":823543231,
-    "wof:lastmodified":1466415603,
+    "wof:lastmodified":1492118910,
     "wof:name":"J & V Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553501,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823522189,
   "type": "Feature",
   "properties": {
+    "addr:full":"1411 E 98th Ave Denver CO 80229",
+    "addr:housenumber":"1411",
+    "addr:postcode":"80229",
+    "addr:street":"E 98Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.969821,39.875584,-104.969821,39.875584",
     "geom:latitude":39.875584,
     "geom:longitude":-104.969821,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4yCOmOxYRESmvElTGVxjUX_39.875584_-104.969821@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440071,
-    "wof:geomhash":"e5b4e93d02027bf3d817fa5d41cd2609",
-    "wof:hierarchy":[],
+    "wof:geomhash":"457c4ad29d60288fd86065a6640d9269",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823522189
+        }
+    ],
     "wof:id":823522189,
-    "wof:lastmodified":1466414928,
+    "wof:lastmodified":1492122588,
     "wof:name":"Bnd Noodles Remodeling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

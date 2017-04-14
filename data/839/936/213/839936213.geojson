@@ -2,9 +2,14 @@
   "id": 839936213,
   "type": "Feature",
   "properties": {
+    "addr:full":"1190 35th St Boulder CO 80303",
+    "addr:housenumber":"1190",
+    "addr:postcode":"80303",
+    "addr:street":"35Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.248366,40.006164,-105.248366,40.006164",
     "geom:latitude":40.006164,
     "geom:longitude":-105.248366,
@@ -27,19 +32,36 @@
         "janitor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4K6SY3Qx2iP37s22YYDMwx_40.006164_-105.248366@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458290,
-    "wof:geomhash":"e7ab03df87edc68dc05b16a7a39c4f28",
-    "wof:hierarchy":[],
+    "wof:geomhash":"775e020bdb41cca9fab6904a2fd4063d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":839936213
+        }
+    ],
     "wof:id":839936213,
-    "wof:lastmodified":1466414364,
+    "wof:lastmodified":1492110783,
     "wof:name":"Global Commercial Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

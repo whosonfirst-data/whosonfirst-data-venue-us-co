@@ -2,9 +2,14 @@
   "id": 839917585,
   "type": "Feature",
   "properties": {
+    "addr:full":"4444 W Colfax Ave Denver CO 80204",
+    "addr:housenumber":"4444",
+    "addr:postcode":"80204",
+    "addr:street":"W Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.044724,39.740273,-105.044724,39.740273",
     "geom:latitude":39.740273,
     "geom:longitude":-105.044724,
@@ -27,19 +32,38 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871267,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3fqqnpRuiUq9JNHXIect2c_39.740273_-105.044724@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457391,
-    "wof:geomhash":"991fad1d5df055be22c9a695f060bd07",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e4f46aff5f9f1745f0179150eceb71bd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871267,
+            "region_id":85688603,
+            "venue_id":839917585
+        }
+    ],
     "wof:id":839917585,
-    "wof:lastmodified":1466413472,
+    "wof:lastmodified":1492111135,
     "wof:name":"Affordable Motors",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871267,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

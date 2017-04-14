@@ -2,9 +2,14 @@
   "id": 823664987,
   "type": "Feature",
   "properties": {
+    "addr:full":"1050 Walnut St Boulder CO 80302",
+    "addr:housenumber":"1050",
+    "addr:postcode":"80302",
+    "addr:street":"Walnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281329,40.016422,-105.281329,40.016422",
     "geom:latitude":40.016422,
     "geom:longitude":-105.281329,
@@ -27,7 +32,14 @@
         "windows"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3KtLQC9T7MKgSvzvCm0gq1_40.016422_-105.281329@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463443454,
     "wof:geomhash":"1796f863c450bb26b62afdb7191870f7",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823664987
+        }
+    ],
     "wof:id":823664987,
-    "wof:lastmodified":1466418320,
+    "wof:lastmodified":1491897944,
     "wof:name":"Ameritech Construction Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

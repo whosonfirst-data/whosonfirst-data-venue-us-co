@@ -2,9 +2,14 @@
   "id": 320456777,
   "type": "Feature",
   "properties": {
+    "addr:full":"4695 Kingston St Unit A Denver CO 80239",
+    "addr:housenumber":"4695",
+    "addr:postcode":"80239",
+    "addr:street":"Kingston St Unit A",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.858994,39.782301,-104.858994,39.782301",
     "geom:latitude":39.782301,
     "geom:longitude":-104.858994,
@@ -34,10 +39,13 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        85834893,
+        102191575,
+        1108750055,
         85633793,
         85928879,
-        102086135
+        102086135,
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -47,19 +55,20 @@
     "wof:geomhash":"f1c0324d4d2a76eb24a04daf57c50e09",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":-1,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
             "region_id":85688603,
             "venue_id":320456777
         }
     ],
     "wof:id":320456777,
-    "wof:lastmodified":1466413351,
+    "wof:lastmodified":1491887440,
     "wof:name":"Fail-Safe",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

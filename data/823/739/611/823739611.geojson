@@ -2,9 +2,14 @@
   "id": 823739611,
   "type": "Feature",
   "properties": {
+    "addr:full":"1495 Canyon Blvd Boulder CO 80302",
+    "addr:housenumber":"1495",
+    "addr:postcode":"80302",
+    "addr:street":"Canyon Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276367,40.01654,-105.276367,40.01654",
     "geom:latitude":40.01654,
     "geom:longitude":-105.276367,
@@ -27,7 +32,14 @@
         "national"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6qX27UFxv3PbIb95lfEpog_40.016540_-105.276367@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463445150,
     "wof:geomhash":"1708fdad23224afce42229fb939b0344",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823739611
+        }
+    ],
     "wof:id":823739611,
-    "wof:lastmodified":1466418914,
+    "wof:lastmodified":1491888520,
     "wof:name":"Boulder-Canyon Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

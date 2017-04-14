@@ -2,9 +2,14 @@
   "id": 823679029,
   "type": "Feature",
   "properties": {
+    "addr:full":"4800 28th St Boulder CO 80301",
+    "addr:housenumber":"4800",
+    "addr:postcode":"80301",
+    "addr:street":"28Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.280042,40.063983,-105.280042,40.063983",
     "geom:latitude":40.063983,
     "geom:longitude":-105.280042,
@@ -28,7 +33,14 @@
         "rink"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876361,
+        102085251,
+        85929877,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Fnz1UItyconXjhG4ZEFsg_40.063983_-105.280042@1294083659"
@@ -36,11 +48,27 @@
     "wof:country":"US",
     "wof:created":1463443769,
     "wof:geomhash":"bc20e63e019ed2a13f0d5107711c7cee",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876361,
+            "region_id":85688603,
+            "venue_id":823679029
+        },
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823679029
+        }
+    ],
     "wof:id":823679029,
-    "wof:lastmodified":1466418327,
+    "wof:lastmodified":1491924270,
     "wof:name":"Hartmann Inline Rink",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

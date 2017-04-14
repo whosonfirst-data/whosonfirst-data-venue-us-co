@@ -2,9 +2,14 @@
   "id": 839936581,
   "type": "Feature",
   "properties": {
+    "addr:full":"2962 Shadow Creek Dr Boulder CO 80303",
+    "addr:housenumber":"2962",
+    "addr:postcode":"80303",
+    "addr:street":"Shadow Creek Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.254101,40.010255,-105.254101,40.010255",
     "geom:latitude":40.010255,
     "geom:longitude":-105.254101,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_047MO5cmh9l6D9fga8oF0L_40.010255_-105.254101@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458317,
-    "wof:geomhash":"e1aa04093f0ef20ebdacc265c548ed3f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"320705e292299e0c334fe2d6efae4b71",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":839936581
+        }
+    ],
     "wof:id":839936581,
-    "wof:lastmodified":1466414471,
+    "wof:lastmodified":1492110784,
     "wof:name":"Bold Contracting & Development",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

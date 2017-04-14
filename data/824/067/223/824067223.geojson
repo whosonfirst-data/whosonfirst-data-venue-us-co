@@ -2,9 +2,14 @@
   "id": 824067223,
   "type": "Feature",
   "properties": {
+    "addr:full":"43543 Hwy 13 Meeker CO 81641",
+    "addr:housenumber":"43543",
+    "addr:postcode":"81641",
+    "addr:street":"Hwy 13",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.867086,40.062688,-107.867086,40.062688",
     "geom:latitude":40.062688,
     "geom:longitude":-107.867086,
@@ -28,17 +33,32 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929227,
+        102084117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6s6gYUtse2JngXFkD5QHlF_40.062688_-107.867086@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453549,
-    "wof:geomhash":"8bdffa9cf3f4d8f092566d6c7f3757eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c3b0d9ab2526efd510acac1f0144496d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084117,
+            "locality_id":85929227,
+            "region_id":85688603,
+            "venue_id":824067223
+        }
+    ],
     "wof:id":824067223,
-    "wof:lastmodified":1466414439,
+    "wof:lastmodified":1492130394,
     "wof:name":"Transportation-Maintenance",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

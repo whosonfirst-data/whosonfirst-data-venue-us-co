@@ -2,9 +2,14 @@
   "id": 839989577,
   "type": "Feature",
   "properties": {
+    "addr:full":"2690 Baseline Rd Boulder CO 80305",
+    "addr:housenumber":"2690",
+    "addr:postcode":"80305",
+    "addr:street":"Baseline Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.261099,40.000166,-105.261099,40.000166",
     "geom:latitude":40.000166,
     "geom:longitude":-105.261099,
@@ -29,7 +34,14 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5RogNrBdmMpJ1cG3fRzmi8_40.000166_-105.261099@1299784598"
@@ -37,11 +49,21 @@
     "wof:country":"US",
     "wof:created":1463460797,
     "wof:geomhash":"7754caca61a347685d3e9b8405421921",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":839989577
+        }
+    ],
     "wof:id":839989577,
-    "wof:lastmodified":1466417405,
+    "wof:lastmodified":1491890399,
     "wof:name":"Beau Jo's Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823729137,
   "type": "Feature",
   "properties": {
+    "addr:full":"3059 Noble Ct Grand Junction CO 81504",
+    "addr:housenumber":"3059",
+    "addr:postcode":"81504",
+    "addr:street":"Noble Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.48674,39.095872,-108.48674,39.095872",
     "geom:latitude":39.095872,
     "geom:longitude":-108.48674,
@@ -29,19 +34,36 @@
         "reporter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930467,
+        102085221,
+        420554833
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2KvwCIiXvOk3CHEf86LBK4_39.095872_-108.486740@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444876,
-    "wof:geomhash":"17f1ad29bb19e42f705c1e115b659e88",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d7188e41151589cee51a717e94905f65",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930467,
+            "neighbourhood_id":420554833,
+            "region_id":85688603,
+            "venue_id":823729137
+        }
+    ],
     "wof:id":823729137,
-    "wof:lastmodified":1466418758,
+    "wof:lastmodified":1492118308,
     "wof:name":"Peak Reporting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

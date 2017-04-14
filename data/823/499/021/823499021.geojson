@@ -2,9 +2,14 @@
   "id": 823499021,
   "type": "Feature",
   "properties": {
+    "addr:full":"4515 Wellington Rd Boulder CO 80301",
+    "addr:housenumber":"4515",
+    "addr:postcode":"80301",
+    "addr:street":"Wellington Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.212242,40.056864,-105.212242,40.056864",
     "geom:latitude":40.056864,
     "geom:longitude":-105.212242,
@@ -27,19 +32,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554005
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0eEGmEhjmdW8ZFWvc7EasQ_40.056864_-105.212242@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439554,
-    "wof:geomhash":"ea84d57c543df98b4e2b1f8564952070",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6e2135964e0099606cd3cf479f1c724d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554005,
+            "region_id":85688603,
+            "venue_id":823499021
+        }
+    ],
     "wof:id":823499021,
-    "wof:lastmodified":1466414183,
+    "wof:lastmodified":1492123661,
     "wof:name":"Aperture Associates LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554005,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

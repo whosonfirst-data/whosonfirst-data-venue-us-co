@@ -2,9 +2,14 @@
   "id": 824052523,
   "type": "Feature",
   "properties": {
+    "addr:full":"701 Decatur St Denver CO 80204",
+    "addr:housenumber":"701",
+    "addr:postcode":"80204",
+    "addr:street":"Decatur St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.022117,39.728379,-105.022117,39.728379",
     "geom:latitude":39.728379,
     "geom:longitude":-105.022117,
@@ -29,7 +34,15 @@
         "structural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1jImBKGcpCNtpDcrtrrzzV_39.728379_-105.022117@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463453221,
     "wof:geomhash":"40d930a91e3b5b61c49c3f49a069e942",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":824052523
+        }
+    ],
     "wof:id":824052523,
-    "wof:lastmodified":1466414260,
+    "wof:lastmodified":1486588678,
     "wof:name":"Rons Welding and Fabrication",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

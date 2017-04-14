@@ -2,9 +2,14 @@
   "id": 823497549,
   "type": "Feature",
   "properties": {
+    "addr:full":"1011 16th St Greeley CO 80631",
+    "addr:housenumber":"1011",
+    "addr:postcode":"80631",
+    "addr:street":"16Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.696208,40.413856,-104.696208,40.413856",
     "geom:latitude":40.413856,
     "geom:longitude":-104.696208,
@@ -30,12 +35,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,8 +48,16 @@
     },
     "wof:country":"US",
     "wof:created":1463439508,
-    "wof:geomhash":"fbbe2832ac58faa1af9e67fe9ef5d7f1",
+    "wof:geomhash":"000e4ef162300eca61f0f94b49f1d483",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823497549
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -53,20 +66,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823497549
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823497549
         }
     ],
     "wof:id":823497549,
-    "wof:lastmodified":1466414109,
+    "wof:lastmodified":1492116259,
     "wof:name":"Phillips 66",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

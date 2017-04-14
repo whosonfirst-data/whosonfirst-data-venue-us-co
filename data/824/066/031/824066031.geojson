@@ -2,9 +2,14 @@
   "id": 824066031,
   "type": "Feature",
   "properties": {
+    "addr:full":"134 S College Ave Fort Collins CO 80524",
+    "addr:housenumber":"134",
+    "addr:postcode":"80524",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076957,40.58635,-105.076957,40.58635",
     "geom:latitude":40.58635,
     "geom:longitude":-105.076957,
@@ -29,19 +34,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554751
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ddcwe3uz8MkImXvBvU30V_40.586350_-105.076957@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453519,
-    "wof:geomhash":"a0a1d9d0511506b17d7de88e407c1d4f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"de45b06c5a6dd26affd6b50ac6ecfbde",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554751,
+            "region_id":85688603,
+            "venue_id":824066031
+        }
+    ],
     "wof:id":824066031,
-    "wof:lastmodified":1466414582,
+    "wof:lastmodified":1492132450,
     "wof:name":"Crown Pub",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554751,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

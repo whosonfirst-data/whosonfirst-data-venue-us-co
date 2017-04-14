@@ -2,9 +2,14 @@
   "id": 823864445,
   "type": "Feature",
   "properties": {
+    "addr:full":"7041 Ruth Way Denver CO 80221",
+    "addr:housenumber":"7041",
+    "addr:postcode":"80221",
+    "addr:street":"Ruth Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.01334,39.825415,-105.01334,39.825415",
     "geom:latitude":39.825415,
     "geom:longitude":-105.01334,
@@ -27,19 +32,36 @@
         "arrangement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553585
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2qJsCaVzRDarGkXv993lbR_39.825415_-105.013340@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448614,
-    "wof:geomhash":"7d97045829913d415af6164ffe9629cf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"faf33590cab826c8c6333a78e276d31d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553585,
+            "region_id":85688603,
+            "venue_id":823864445
+        }
+    ],
     "wof:id":823864445,
-    "wof:lastmodified":1466419916,
+    "wof:lastmodified":1492126029,
     "wof:name":"Air Rapid Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553585,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

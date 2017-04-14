@@ -2,9 +2,14 @@
   "id": 823860721,
   "type": "Feature",
   "properties": {
+    "addr:full":"6474 Cranberry Ct Longmont CO 80503",
+    "addr:housenumber":"6474",
+    "addr:postcode":"80503",
+    "addr:street":"Cranberry Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.158781,40.092426,-105.158781,40.092426",
     "geom:latitude":40.092426,
     "geom:longitude":-105.158781,
@@ -27,19 +32,36 @@
         "investor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554073
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1jgwM6Yj1SwmbbdvHRNybp_40.092426_-105.158781@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448512,
-    "wof:geomhash":"204f4cafd232f15b8164b73637429a78",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b711d256676aaa54a7da63b9469eb62f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554073,
+            "region_id":85688603,
+            "venue_id":823860721
+        }
+    ],
     "wof:id":823860721,
-    "wof:lastmodified":1466419913,
+    "wof:lastmodified":1492123725,
     "wof:name":"Growth Family Investments LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554073,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

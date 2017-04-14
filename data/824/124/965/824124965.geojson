@@ -2,9 +2,14 @@
   "id": 824124965,
   "type": "Feature",
   "properties": {
+    "addr:full":"1125 13th St Boulder CO 80302",
+    "addr:housenumber":"1125",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276312,40.007549,-105.276312,40.007549",
     "geom:latitude":40.007549,
     "geom:longitude":-105.276312,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5TegclmOG54r6ZEYxtpq9n_40.007549_-105.276312@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454933,
-    "wof:geomhash":"a408288b75e5e420fc39b8f7826fc110",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d1e83ff8be1e95657206bf23e330b67",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":824124965
+        }
+    ],
     "wof:id":824124965,
-    "wof:lastmodified":1466415680,
+    "wof:lastmodified":1492130842,
     "wof:name":"Jimmy Johns Gourmet Sandwiches",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

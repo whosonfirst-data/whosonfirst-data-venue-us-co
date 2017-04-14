@@ -2,9 +2,14 @@
   "id": 823921045,
   "type": "Feature",
   "properties": {
+    "addr:full":"104 Logan Ave Steamboat Springs CO 80487",
+    "addr:housenumber":"104",
+    "addr:postcode":"80487",
+    "addr:street":"Logan Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.827685,40.490595,-106.827685,40.490595",
     "geom:latitude":40.490595,
     "geom:longitude":-106.827685,
@@ -29,19 +34,36 @@
         "material"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555223
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4CsVdXtSqFIjXduIljaQbP_40.490595_-106.827685@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450028,
-    "wof:geomhash":"bdeb43f820bc470df187a03b21614698",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bade3c3cc09263091eba2a63ac88b340",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555223,
+            "region_id":85688603,
+            "venue_id":823921045
+        }
+    ],
     "wof:id":823921045,
-    "wof:lastmodified":1466420370,
+    "wof:lastmodified":1492123630,
     "wof:name":"Blue House Organic Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555223,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

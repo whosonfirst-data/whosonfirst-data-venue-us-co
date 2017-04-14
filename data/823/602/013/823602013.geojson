@@ -2,9 +2,14 @@
   "id": 823602013,
   "type": "Feature",
   "properties": {
+    "addr:full":"900 Arapahoe Ave Boulder CO 80302",
+    "addr:housenumber":"900",
+    "addr:postcode":"80302",
+    "addr:street":"Arapahoe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281857,40.013467,-105.281857,40.013467",
     "geom:latitude":40.013467,
     "geom:longitude":-105.281857,
@@ -29,7 +34,14 @@
     ],
     "sg:website":"www.efaa.org",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0VVTPIbqk0dgq856m6SF3h_40.013467_-105.281857@1294083659"
@@ -37,11 +49,21 @@
     "wof:country":"US",
     "wof:created":1463441957,
     "wof:geomhash":"cf350213c1534f33040933e92e94bc78",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823602013
+        }
+    ],
     "wof:id":823602013,
-    "wof:lastmodified":1466417172,
+    "wof:lastmodified":1491897919,
     "wof:name":"Emergency Family Assistance",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

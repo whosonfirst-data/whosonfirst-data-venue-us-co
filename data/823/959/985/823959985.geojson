@@ -2,9 +2,14 @@
   "id": 823959985,
   "type": "Feature",
   "properties": {
+    "addr:full":"2465 S Jasmine St Denver CO 80222",
+    "addr:housenumber":"2465",
+    "addr:postcode":"80222",
+    "addr:street":"S Jasmine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.920076,39.67068,-104.920076,39.67068",
     "geom:latitude":39.67068,
     "geom:longitude":-104.920076,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930653,
+        102086877,
+        420559699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_49pG6TRKRmF1BAAr9rq4E1_39.670680_-104.920076@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451032,
-    "wof:geomhash":"3721e45e8e1a928ccf2fb3065d40e9fd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ca5ecaaad841647199e5666aedad31d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930653,
+            "neighbourhood_id":420559699,
+            "region_id":85688603,
+            "venue_id":823959985
+        }
+    ],
     "wof:id":823959985,
-    "wof:lastmodified":1466420712,
+    "wof:lastmodified":1492124053,
     "wof:name":"Whole Control LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

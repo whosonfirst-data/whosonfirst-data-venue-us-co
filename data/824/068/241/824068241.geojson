@@ -2,9 +2,14 @@
   "id": 824068241,
   "type": "Feature",
   "properties": {
+    "addr:full":"2525 W Barberry Pl Denver CO 80204",
+    "addr:housenumber":"2525",
+    "addr:postcode":"80204",
+    "addr:street":"W Barberry Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018828,39.73037,-105.018828,39.73037",
     "geom:latitude":39.73037,
     "geom:longitude":-105.018828,
@@ -27,7 +32,15 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4y8lpiqiEwwJoBOe1k0IMa_39.730370_-105.018828@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463453570,
     "wof:geomhash":"25244119cbb354d43fcddfb135f54e7d",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":824068241
+        }
+    ],
     "wof:id":824068241,
-    "wof:lastmodified":1466414560,
+    "wof:lastmodified":1486589185,
     "wof:name":"Coated Metals Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

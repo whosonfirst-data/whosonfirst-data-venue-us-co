@@ -2,9 +2,14 @@
   "id": 823946963,
   "type": "Feature",
   "properties": {
+    "addr:full":"8402 Clay St Westminster CO 80031",
+    "addr:housenumber":"8402",
+    "addr:postcode":"80031",
+    "addr:street":"Clay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.020712,39.850047,-105.020712,39.850047",
     "geom:latitude":39.850047,
     "geom:longitude":-105.020712,
@@ -28,19 +33,36 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553535
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6WW5PbH7L5phe0hNTlJulQ_39.850047_-105.020712@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450710,
-    "wof:geomhash":"205a09c3845c16fbd430371ed451cf69",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2694059c7f6a02c3cf53cbcd17b63a55",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553535,
+            "region_id":85688603,
+            "venue_id":823946963
+        }
+    ],
     "wof:id":823946963,
-    "wof:lastmodified":1466420677,
+    "wof:lastmodified":1492122425,
     "wof:name":"Charles B Johnson MD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553535,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

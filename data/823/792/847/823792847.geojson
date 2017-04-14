@@ -2,9 +2,14 @@
   "id": 823792847,
   "type": "Feature",
   "properties": {
+    "addr:full":"1235 W 13th Ave Broomfield CO 80020",
+    "addr:housenumber":"1235",
+    "addr:postcode":"80020",
+    "addr:street":"W 13Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.084069,39.935723,-105.084069,39.935723",
     "geom:latitude":39.935723,
     "geom:longitude":-105.084069,
@@ -28,19 +33,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554191
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5yn5qPWovg9zJa0aZpjhAE_39.935723_-105.084069@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446510,
-    "wof:geomhash":"2cdf721b67b11d039263d62ec8909cc0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"23b0ba89121fcd52a891f18db76ea90b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554191,
+            "region_id":85688603,
+            "venue_id":823792847
+        }
+    ],
     "wof:id":823792847,
-    "wof:lastmodified":1466419321,
+    "wof:lastmodified":1492120803,
     "wof:name":"Manufacturing Consultants Intl",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554191,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

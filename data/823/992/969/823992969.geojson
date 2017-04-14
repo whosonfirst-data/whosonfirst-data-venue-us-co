@@ -2,9 +2,14 @@
   "id": 823992969,
   "type": "Feature",
   "properties": {
+    "addr:full":"6980 Zuni St Denver CO 80221",
+    "addr:housenumber":"6980",
+    "addr:postcode":"80221",
+    "addr:street":"Zuni St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.015028,39.822998,-105.015028,39.822998",
     "geom:latitude":39.822998,
     "geom:longitude":-105.015028,
@@ -27,19 +32,36 @@
         "boot"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553585
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7JNvTRgsGb4WV5IfYrmM4H_39.822998_-105.015028@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451787,
-    "wof:geomhash":"a75fc22e0531cf92281dea243f011b2f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"25409c374e899f54728910bcf98085e7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553585,
+            "region_id":85688603,
+            "venue_id":823992969
+        }
+    ],
     "wof:id":823992969,
-    "wof:lastmodified":1466421069,
+    "wof:lastmodified":1492127236,
     "wof:name":"Ltdwdn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553585,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

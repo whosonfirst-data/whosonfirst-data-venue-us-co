@@ -2,9 +2,14 @@
   "id": 823816001,
   "type": "Feature",
   "properties": {
+    "addr:full":"12207 Cherrywood St Broomfield CO 80020",
+    "addr:housenumber":"12207",
+    "addr:postcode":"80020",
+    "addr:street":"Cherrywood St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.037786,39.917545,-105.037786,39.917545",
     "geom:latitude":39.917545,
     "geom:longitude":-105.037786,
@@ -27,19 +32,36 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420553613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5DRa69lMsd7PhWCFgmbgE2_39.917545_-105.037786@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447183,
-    "wof:geomhash":"476e4ccd008155fa4e877d3c0f8c99b8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2d5153b318d852e015c962771475362f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420553613,
+            "region_id":85688603,
+            "venue_id":823816001
+        }
+    ],
     "wof:id":823816001,
-    "wof:lastmodified":1466419728,
+    "wof:lastmodified":1492127631,
     "wof:name":"Bk Painting & Home Improvement",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823586881,
   "type": "Feature",
   "properties": {
+    "addr:full":"2810 Stanford Ave Boulder CO 80305",
+    "addr:housenumber":"2810",
+    "addr:postcode":"80305",
+    "addr:street":"Stanford Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.256853,39.986504,-105.256853,39.986504",
     "geom:latitude":39.986504,
     "geom:longitude":-105.256853,
@@ -24,19 +29,36 @@
     "sg:postcode":"80305",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5TsNIvBkF6imIiIIOqHPr2_39.986504_-105.256853@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441577,
-    "wof:geomhash":"90d10fd1eaebb66198b2cb061dbe7264",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a77d936892aff469dbf52b709cf28430",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":823586881
+        }
+    ],
     "wof:id":823586881,
-    "wof:lastmodified":1466416823,
+    "wof:lastmodified":1492118494,
     "wof:name":"Front Range Claims",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

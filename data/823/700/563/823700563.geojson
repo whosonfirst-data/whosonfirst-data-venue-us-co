@@ -2,9 +2,14 @@
   "id": 823700563,
   "type": "Feature",
   "properties": {
+    "addr:full":"5445 Dahlia St Commerce City CO 80022",
+    "addr:housenumber":"5445",
+    "addr:postcode":"80022",
+    "addr:street":"Dahlia St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.933392,39.796255,-104.933392,39.796255",
     "geom:latitude":39.796255,
     "geom:longitude":-104.933392,
@@ -34,19 +39,36 @@
         "industrial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6s8mA8pr19eEX5tbF2tR75_39.796255_-104.933392@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444249,
-    "wof:geomhash":"78b098f1ffacd58a0a1bbded3e7aad38",
-    "wof:hierarchy":[],
+    "wof:geomhash":"307c48f4e18ee8085ecc7d79e8ef1186",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":823700563
+        }
+    ],
     "wof:id":823700563,
-    "wof:lastmodified":1466418556,
+    "wof:lastmodified":1492119138,
     "wof:name":"Maddox Machine Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

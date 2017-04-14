@@ -2,9 +2,14 @@
   "id": 824137925,
   "type": "Feature",
   "properties": {
+    "addr:full":"575 Co Rd 207 Durango CO 81301",
+    "addr:housenumber":"575;207",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.934496,37.285758,-107.934496,37.285758",
     "geom:latitude":37.285758,
     "geom:longitude":-107.934496,
@@ -28,19 +33,28 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554653
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5sOS2yslsftTQLsyJvXA0t_37.285758_-107.934496@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455435,
-    "wof:geomhash":"b005cb31c46113f29e6f81c69953366c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb4b0db060f66bdd6e0c8d0cdbecd5e5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554653,
+            "venue_id":824137925
+        }
+    ],
     "wof:id":824137925,
-    "wof:lastmodified":1466416262,
+    "wof:lastmodified":1492129797,
     "wof:name":"Lloyd B Lifton MD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554653,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

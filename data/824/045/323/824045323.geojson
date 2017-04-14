@@ -2,9 +2,14 @@
   "id": 824045323,
   "type": "Feature",
   "properties": {
+    "addr:full":"3112 S Parker Rd Aurora CO 80014",
+    "addr:housenumber":"3112",
+    "addr:postcode":"80014",
+    "addr:street":"S Parker Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.848332,39.659161,-104.848332,39.659161",
     "geom:latitude":39.659161,
     "geom:longitude":-104.848332,
@@ -28,17 +33,32 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ugbVBceJuu89pdvcYuI8O_39.659161_-104.848332@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453046,
-    "wof:geomhash":"8dd79b2a30c2867d8abff33a2cf0258f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5bd2c023d3ecf01d90610cd2a6dd79f1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":824045323
+        }
+    ],
     "wof:id":824045323,
-    "wof:lastmodified":1466414152,
+    "wof:lastmodified":1492129566,
     "wof:name":"Papa Rick's Pizza",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

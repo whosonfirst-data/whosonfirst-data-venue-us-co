@@ -2,9 +2,14 @@
   "id": 824114785,
   "type": "Feature",
   "properties": {
+    "addr:full":"1617 Clinton St Aurora CO 80010",
+    "addr:housenumber":"1617",
+    "addr:postcode":"80010",
+    "addr:street":"Clinton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.877639,39.743488,-104.877639,39.743488",
     "geom:latitude":39.743488,
     "geom:longitude":-104.877639,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5kC1aO7V0LCPyJPXMynIg6_39.743488_-104.877639@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454653,
-    "wof:geomhash":"e66adbcbfd59aafe64b57a7c42f8ba0b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2253e3b354fbf5d875cd53cf1719af92",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":824114785
+        }
+    ],
     "wof:id":824114785,
-    "wof:lastmodified":1466415523,
+    "wof:lastmodified":1492132649,
     "wof:name":"Macias Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

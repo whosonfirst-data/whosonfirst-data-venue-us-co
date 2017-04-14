@@ -2,9 +2,14 @@
   "id": 839993583,
   "type": "Feature",
   "properties": {
+    "addr:full":"850 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"850",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.558491,39.077451,-108.558491,39.077451",
     "geom:latitude":39.077451,
     "geom:longitude":-108.558491,
@@ -28,19 +33,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6SYPhYQrpc3W2aAXplk9Z5_39.077477_-108.558424@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460953,
-    "wof:geomhash":"e1d2686925bf1e0e0455ecd17e3be9e1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b2fc3686e0a17b3c7dc70cfe1072ceef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554823,
+            "region_id":85688603,
+            "venue_id":839993583
+        }
+    ],
     "wof:id":839993583,
-    "wof:lastmodified":1466417725,
+    "wof:lastmodified":1492110921,
     "wof:name":"Taco Bell",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839968925,
   "type": "Feature",
   "properties": {
+    "addr:full":"510 S 27th Ave Brighton CO 80601",
+    "addr:housenumber":"510",
+    "addr:postcode":"80601",
+    "addr:street":"S 27Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.789871,39.977985,-104.789871,39.977985",
     "geom:latitude":39.977985,
     "geom:longitude":-104.789871,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553355
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5KOGsXC1e8UU694JfUGx6b_39.977985_-104.789871@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459972,
-    "wof:geomhash":"325fb7cff60edc94a4477c1728c13581",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b353e579a058c7adb27a4e59ff8d6b66",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553355,
+            "region_id":85688603,
+            "venue_id":839968925
+        }
+    ],
     "wof:id":839968925,
-    "wof:lastmodified":1466416124,
+    "wof:lastmodified":1492114499,
     "wof:name":"First Presbyterian Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553355,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

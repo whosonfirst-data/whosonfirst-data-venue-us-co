@@ -2,9 +2,14 @@
   "id": 839924445,
   "type": "Feature",
   "properties": {
+    "addr:full":"215 Rice St Grand Junction CO 81501",
+    "addr:housenumber":"215",
+    "addr:postcode":"81501",
+    "addr:street":"Rice St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.573139,39.06815,-108.573139,39.06815",
     "geom:latitude":39.06815,
     "geom:longitude":-108.573139,
@@ -27,19 +32,36 @@
         "sheriff"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554837
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1CreljngBfC4nUImG5QUwm_39.068150_-108.573139@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457696,
-    "wof:geomhash":"1e869c0d782456cbd3c5412a76b1ff68",
-    "wof:hierarchy":[],
+    "wof:geomhash":"72be19f90622745729d1c8863dd37621",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554837,
+            "region_id":85688603,
+            "venue_id":839924445
+        }
+    ],
     "wof:id":839924445,
-    "wof:lastmodified":1466413873,
+    "wof:lastmodified":1492111021,
     "wof:name":"Sheriff's Office-Victim Asstnc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554837,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

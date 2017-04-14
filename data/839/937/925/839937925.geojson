@@ -2,9 +2,14 @@
   "id": 839937925,
   "type": "Feature",
   "properties": {
+    "addr:full":"2227 Mowry Dr Grand Junction CO 81503",
+    "addr:housenumber":"2227",
+    "addr:postcode":"81503",
+    "addr:street":"Mowry Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.63964,39.075907,-108.63964,39.075907",
     "geom:latitude":39.075907,
     "geom:longitude":-108.63964,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554967
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5CxOkvrSKdCtPZEhBSoFtf_39.075907_-108.639640@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458383,
-    "wof:geomhash":"a63c72318f0b3a593e6177306a8e0783",
-    "wof:hierarchy":[],
+    "wof:geomhash":"619a200c53016a442abf48cb65a6bfa1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554967,
+            "region_id":85688603,
+            "venue_id":839937925
+        }
+    ],
     "wof:id":839937925,
-    "wof:lastmodified":1466414606,
+    "wof:lastmodified":1492111889,
     "wof:name":"Redwood Decks & Pole Barns",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554967,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

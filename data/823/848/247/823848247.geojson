@@ -2,9 +2,14 @@
   "id": 823848247,
   "type": "Feature",
   "properties": {
+    "addr:full":"2785 W 72nd Ave Westminster CO 80030",
+    "addr:housenumber":"2785",
+    "addr:postcode":"80030",
+    "addr:street":"W 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02052,39.827361,-105.02052,39.827361",
     "geom:latitude":39.827361,
     "geom:longitude":-105.02052,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6PxfJQB3xVrbABED7oG9LC_39.827361_-105.020520@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448176,
-    "wof:geomhash":"dcfc57d89f90d686733f595d1c2d1df7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2383c65e9c95d482131ea9e8fabaa46c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":823848247
+        }
+    ],
     "wof:id":823848247,
-    "wof:lastmodified":1466419865,
+    "wof:lastmodified":1492127111,
     "wof:name":"Eliot & 72 Avenue Auto Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

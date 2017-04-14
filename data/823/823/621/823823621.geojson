@@ -2,9 +2,14 @@
   "id": 823823621,
   "type": "Feature",
   "properties": {
+    "addr:full":"627 Lane St Fort Morgan CO 80701",
+    "addr:housenumber":"627",
+    "addr:postcode":"80701",
+    "addr:street":"Lane St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.815128,40.254203,-103.815128,40.254203",
     "geom:latitude":40.254203,
     "geom:longitude":-103.815128,
@@ -27,17 +32,32 @@
         "pipe"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_36YYBdCpOTLG9ARMbJH0Cv_40.254203_-103.815128@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447400,
-    "wof:geomhash":"5bff6c2806b047b59bcfb4e2e4643a61",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e39731aabf6e8575fe7063c2eb8d60ba",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":823823621
+        }
+    ],
     "wof:id":823823621,
-    "wof:lastmodified":1466419554,
+    "wof:lastmodified":1492122133,
     "wof:name":"Denver Drilling Co",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

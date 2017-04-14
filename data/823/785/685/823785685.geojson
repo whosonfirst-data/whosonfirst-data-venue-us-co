@@ -2,9 +2,14 @@
   "id": 823785685,
   "type": "Feature",
   "properties": {
+    "addr:full":"5196 E Iliff Ave Denver CO 80222",
+    "addr:housenumber":"5196",
+    "addr:postcode":"80222",
+    "addr:street":"E Iliff Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.92772,39.674752,-104.92772,39.674752",
     "geom:latitude":39.674752,
     "geom:longitude":-104.92772,
@@ -27,19 +32,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930653,
+        102086877,
+        420559699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1D0NeIypCIpx3sZTC91NYZ_39.674752_-104.927720@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446271,
-    "wof:geomhash":"98d241864776e9fb0e00cd368b3c2b7c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"230d44015f32dcc44c78fa4e40f5b621",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930653,
+            "neighbourhood_id":420559699,
+            "region_id":85688603,
+            "venue_id":823785685
+        }
+    ],
     "wof:id":823785685,
-    "wof:lastmodified":1466419293,
+    "wof:lastmodified":1492125211,
     "wof:name":"Open Door Bookstore Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

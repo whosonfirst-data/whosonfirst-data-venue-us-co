@@ -2,9 +2,14 @@
   "id": 824180633,
   "type": "Feature",
   "properties": {
+    "addr:full":"4927 Co Rd 234 Durango CO 81301",
+    "addr:housenumber":"4927;234",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.7889,37.300794,-107.7889,37.300794",
     "geom:latitude":37.300794,
     "geom:longitude":-107.7889,
@@ -29,19 +34,28 @@
         "grounds"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0fQHG3E0MANDRgABZEbw7V_37.300794_-107.788900@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457088,
-    "wof:geomhash":"63187191f83bf2834fc6ae9153d4083d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"673b8c93942be644532e31dcab7c21f5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554717,
+            "venue_id":824180633
+        }
+    ],
     "wof:id":824180633,
-    "wof:lastmodified":1466418218,
+    "wof:lastmodified":1492128600,
     "wof:name":"Classic Lawns",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

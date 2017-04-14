@@ -2,9 +2,14 @@
   "id": 823708725,
   "type": "Feature",
   "properties": {
+    "addr:full":"1241 Meadowlark Dr Boulder CO 80303",
+    "addr:housenumber":"1241",
+    "addr:postcode":"80303",
+    "addr:street":"Meadowlark Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.197468,40.011229,-105.197468,40.011229",
     "geom:latitude":40.011229,
     "geom:longitude":-105.197468,
@@ -27,8 +32,9 @@
     "wof:belongsto":[
         85688603,
         85633793,
-        85896001,
-        102085251
+        85895961,
+        102085251,
+        85896001
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -36,8 +42,15 @@
     },
     "wof:country":"US",
     "wof:created":1463444418,
-    "wof:geomhash":"ad132b7c2603cc74b7dee2ecf61fd46c",
+    "wof:geomhash":"41f9a46d13631ffbf8d90eb2bb7c8b16",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85895961,
+            "region_id":85688603,
+            "venue_id":823708725
+        },
         {
             "country_id":85633793,
             "county_id":102085251,
@@ -47,9 +60,9 @@
         }
     ],
     "wof:id":823708725,
-    "wof:lastmodified":1466418645,
+    "wof:lastmodified":1492117316,
     "wof:name":"Konecne Betty",
-    "wof:parent_id":85896001,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824111159,
   "type": "Feature",
   "properties": {
+    "addr:full":"19200 Smith Rd Aurora CO 80011",
+    "addr:housenumber":"19200",
+    "addr:postcode":"80011",
+    "addr:street":"Smith Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.760922,39.752786,-104.760922,39.752786",
     "geom:latitude":39.752786,
     "geom:longitude":-104.760922,
@@ -29,19 +34,46 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553289,
+        420553275
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6UFNjuPK7HetmPWEmbJ26w_39.752786_-104.760922@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454573,
-    "wof:geomhash":"4e2f7fb118e39ef97156b8d125b30597",
-    "wof:hierarchy":[],
+    "wof:geomhash":"450841bb1655fa0ea6d305ed7338c2a0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553289,
+            "region_id":85688603,
+            "venue_id":824111159
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553275,
+            "region_id":85688603,
+            "venue_id":824111159
+        }
+    ],
     "wof:id":824111159,
-    "wof:lastmodified":1466415369,
+    "wof:lastmodified":1492132747,
     "wof:name":"Telecommunications Assn Of Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

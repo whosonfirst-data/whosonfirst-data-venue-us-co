@@ -2,9 +2,14 @@
   "id": 824017267,
   "type": "Feature",
   "properties": {
+    "addr:full":"2800 W 7th Ave Denver CO 80204",
+    "addr:housenumber":"2800",
+    "addr:postcode":"80204",
+    "addr:street":"W 7Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025135,39.727509,-105.025135,39.727509",
     "geom:latitude":39.727509,
     "geom:longitude":-105.025135,
@@ -27,19 +32,38 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750097,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Qbi21X9JYlZYeo2P3dmXQ_39.727509_-105.025135@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452364,
-    "wof:geomhash":"967fe5193741801497753d693fdad612",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b5b48cf888da2a9a435a25cb57070299",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750097,
+            "region_id":85688603,
+            "venue_id":824017267
+        }
+    ],
     "wof:id":824017267,
-    "wof:lastmodified":1466413554,
+    "wof:lastmodified":1492129252,
     "wof:name":"Dps Hilltop Terminal Bus Gar",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750097,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

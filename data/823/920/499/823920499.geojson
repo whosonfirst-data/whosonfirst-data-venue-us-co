@@ -2,9 +2,14 @@
   "id": 823920499,
   "type": "Feature",
   "properties": {
+    "addr:full":"2975 W 92nd Ave Denver CO 80260",
+    "addr:housenumber":"2975",
+    "addr:postcode":"80260",
+    "addr:street":"W 92Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.023296,39.863569,-105.023296,39.863569",
     "geom:latitude":39.863569,
     "geom:longitude":-105.023296,
@@ -31,19 +36,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_31tOA1y3eEOZhbZChp3bln_39.863569_-105.023296@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450006,
-    "wof:geomhash":"a35c6b29e4906eefd28fa47e53918085",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b63fad39502e8ba490d71dd08ce25d9f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823920499
+        }
+    ],
     "wof:id":823920499,
-    "wof:lastmodified":1466420414,
+    "wof:lastmodified":1492121102,
     "wof:name":"Automotive Tech Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

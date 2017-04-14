@@ -2,9 +2,14 @@
   "id": 824131479,
   "type": "Feature",
   "properties": {
+    "addr:full":"1310 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"1310",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.550682,39.077465,-108.550682,39.077465",
     "geom:latitude":39.077465,
     "geom:longitude":-108.550682,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5TY1pn5Zgn8AfVVJ5AAkDx_39.077465_-108.550682@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455200,
-    "wof:geomhash":"b24cc2f90944a7aaeb4881a74a8097d4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"737f33b3fb2de440951d0d8803571bd1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":824131479
+        }
+    ],
     "wof:id":824131479,
-    "wof:lastmodified":1466416044,
+    "wof:lastmodified":1492130401,
     "wof:name":"JP White Construction Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

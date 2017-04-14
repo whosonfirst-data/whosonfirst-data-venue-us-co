@@ -2,9 +2,14 @@
   "id": 824164905,
   "type": "Feature",
   "properties": {
+    "addr:full":"1206 Florida Rd Durango CO 81301",
+    "addr:housenumber":"1206",
+    "addr:postcode":"co 81301",
+    "addr:street":"Florida Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.85439,37.295664,-107.85439,37.295664",
     "geom:latitude":37.295664,
     "geom:longitude":-107.85439,
@@ -28,19 +33,28 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4xm1BzHmAPsm35xScU29j3_37.295664_-107.854390@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456487,
-    "wof:geomhash":"f97c774e6d789e7de248c13fbb4eeac3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf5f4ccb7eb6ba6da0cba9b9a8939983",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":824164905
+        }
+    ],
     "wof:id":824164905,
-    "wof:lastmodified":1466417754,
+    "wof:lastmodified":1492129487,
     "wof:name":"Mountain Sun Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

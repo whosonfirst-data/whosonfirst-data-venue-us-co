@@ -2,9 +2,14 @@
   "id": 823849175,
   "type": "Feature",
   "properties": {
+    "addr:full":"550 E 84th Ave Thornton CO 80229",
+    "addr:housenumber":"550",
+    "addr:postcode":"80229",
+    "addr:street":"E 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979582,39.848887,-104.979582,39.848887",
     "geom:latitude":39.848887,
     "geom:longitude":-104.979582,
@@ -28,19 +33,36 @@
     ],
     "sg:website":"www.inflow.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06D5f4shCJnGxIH8nxdnHf_39.848887_-104.979582@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448200,
-    "wof:geomhash":"4fb7273fbf1a36b9572fc581efc19682",
-    "wof:hierarchy":[],
+    "wof:geomhash":"55b3fec401bd66b12231ffe7537b3d51",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":823849175
+        }
+    ],
     "wof:id":823849175,
-    "wof:lastmodified":1466419772,
+    "wof:lastmodified":1492127036,
     "wof:name":"In Flow Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

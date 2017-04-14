@@ -2,9 +2,14 @@
   "id": 823768153,
   "type": "Feature",
   "properties": {
+    "addr:full":"421 E 76th Ave Denver CO 80229",
+    "addr:housenumber":"421",
+    "addr:postcode":"80229",
+    "addr:street":"E 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979327,39.834279,-104.979327,39.834279",
     "geom:latitude":39.834279,
     "geom:longitude":-104.979327,
@@ -32,19 +37,36 @@
         "structure"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553621
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1B5QwfIeVyoBGWr0qEkDp4_39.834279_-104.979327@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445784,
-    "wof:geomhash":"db8157de5453459431b0de5672a44fa1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"144b6d5e6953b6d47bac0f8dbf6d4395",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553621,
+            "region_id":85688603,
+            "venue_id":823768153
+        }
+    ],
     "wof:id":823768153,
-    "wof:lastmodified":1466419080,
+    "wof:lastmodified":1492124680,
     "wof:name":"N B Q Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553621,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

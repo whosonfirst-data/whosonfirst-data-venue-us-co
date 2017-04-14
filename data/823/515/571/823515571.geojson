@@ -2,9 +2,14 @@
   "id": 823515571,
   "type": "Feature",
   "properties": {
+    "addr:full":"1028 Centre Ave Fort Collins CO 80526",
+    "addr:housenumber":"1028",
+    "addr:postcode":"80526",
+    "addr:street":"Centre Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.094822,40.555414,-105.094822,40.555414",
     "geom:latitude":40.555414,
     "geom:longitude":-105.094822,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_08b4s25dT03FvgKo8Vo598_40.555414_-105.094822@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439918,
-    "wof:geomhash":"1ecb1a00aac09600477e03088bbc00ae",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6dc25781b706ea1f053c8d1aef97e78d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823515571
+        }
+    ],
     "wof:id":823515571,
-    "wof:lastmodified":1466414807,
+    "wof:lastmodified":1492122682,
     "wof:name":"Ebert Orthodontics",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

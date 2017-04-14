@@ -2,9 +2,14 @@
   "id": 839947121,
   "type": "Feature",
   "properties": {
+    "addr:full":"41090 Co Rd 80 Hayden CO 81639",
+    "addr:housenumber":"41090;80",
+    "addr:postcode":"81639",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.235222,40.520693,-107.235222,40.520693",
     "geom:latitude":40.520693,
     "geom:longitude":-107.235222,
@@ -27,19 +32,28 @@
         "livestock"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555313
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1e6Wr4HRZJkworlmPFlP3M_40.520693_-107.235222@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458983,
-    "wof:geomhash":"e248b3e185f4a6b1492dae51e7b0b22e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"075c5445eed4f1272080ddecfb24a929",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555313,
+            "venue_id":839947121
+        }
+    ],
     "wof:id":839947121,
-    "wof:lastmodified":1466415326,
+    "wof:lastmodified":1492113029,
     "wof:name":"Dalaney Yak Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555313,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

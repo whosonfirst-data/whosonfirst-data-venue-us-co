@@ -2,9 +2,14 @@
   "id": 823710765,
   "type": "Feature",
   "properties": {
+    "addr:full":"3800 Automation Way Fort Collins CO 80525",
+    "addr:housenumber":"3800",
+    "addr:postcode":"80525",
+    "addr:street":"Automation Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041201,40.534404,-105.041201,40.534404",
     "geom:latitude":40.534404,
     "geom:longitude":-105.041201,
@@ -29,19 +34,36 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5hxqyj3dLqu7tJc8nQwrhE_40.534404_-105.041201@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444462,
-    "wof:geomhash":"b6cf59cd7132a7027fc0fe70f9b8bd3d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b52df743f5e82c6c349c694f2f7ea2fc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":823710765
+        }
+    ],
     "wof:id":823710765,
-    "wof:lastmodified":1466418639,
+    "wof:lastmodified":1492126794,
     "wof:name":"C L Financial Planning",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

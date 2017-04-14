@@ -2,9 +2,14 @@
   "id": 823548673,
   "type": "Feature",
   "properties": {
+    "addr:full":"7080 Co Rd 120 Hesperus CO 81326",
+    "addr:housenumber":"7080",
+    "addr:postcode":"81326",
+    "addr:street":"Co Rd 120 Hesperus",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.118688,37.249037,-108.118688,37.249037",
     "geom:latitude":37.249037,
     "geom:longitude":-108.118688,
@@ -27,19 +32,34 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554623,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_34zM5SHiwb5dIgFr3dzXmw_37.249037_-108.118688@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440666,
-    "wof:geomhash":"7c10cb9f16ddfc28a99089438a6840f6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"57b8e26ea0a46f18b4cb205d2f8d6810",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554623,
+            "venue_id":823548673
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":823548673
+        }
+    ],
     "wof:id":823548673,
-    "wof:lastmodified":1466415712,
+    "wof:lastmodified":1492126412,
     "wof:name":"Huntington Minerals",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824148769,
   "type": "Feature",
   "properties": {
+    "addr:full":"30 S 3rd Ave Brighton CO 80601",
+    "addr:housenumber":"30",
+    "addr:postcode":"80601",
+    "addr:street":"S 3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81946,39.985704,-104.81946,39.985704",
     "geom:latitude":39.985704,
     "geom:longitude":-104.81946,
@@ -28,19 +33,36 @@
         "outpatient"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6dFvS8a1s62c7P85gtC4jl_39.985704_-104.819460@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455858,
-    "wof:geomhash":"06da455248fe33186f7a0d5da39fae91",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fcf13ed7844afe7c6a0cacee26596739",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824148769
+        }
+    ],
     "wof:id":824148769,
-    "wof:lastmodified":1466416778,
+    "wof:lastmodified":1492130158,
     "wof:name":"Adams Cmnty Mental Hlth Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

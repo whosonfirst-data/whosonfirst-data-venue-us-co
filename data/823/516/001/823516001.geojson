@@ -2,9 +2,14 @@
   "id": 823516001,
   "type": "Feature",
   "properties": {
+    "addr:full":"1490 Co Rd 27 Brighton CO 80603",
+    "addr:housenumber":"1490;27",
+    "addr:postcode":"80603",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81311,40.011455,-104.81311,40.011455",
     "geom:latitude":40.011455,
     "geom:longitude":-104.81311,
@@ -28,19 +33,28 @@
         "cocktail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6EB2zXHsG9liRuPIqJHiLU_40.011455_-104.813110@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439925,
-    "wof:geomhash":"b1247915084594b7430a002af757892f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a74b27829dd14fafea33a70e53e213d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":823516001
+        }
+    ],
     "wof:id":823516001,
-    "wof:lastmodified":1466414584,
+    "wof:lastmodified":1492123890,
     "wof:name":"Tio's Lounge",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555409,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

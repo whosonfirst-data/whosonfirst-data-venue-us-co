@@ -2,9 +2,14 @@
   "id": 839934209,
   "type": "Feature",
   "properties": {
+    "addr:full":"315 Oak St Mancos CO 81328",
+    "addr:housenumber":"315",
+    "addr:postcode":"81328",
+    "addr:street":"Oak St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.295026,37.348251,-108.295026,37.348251",
     "geom:latitude":37.348251,
     "geom:longitude":-108.295026,
@@ -27,19 +32,28 @@
         "marble"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2gCc7kZtJoZwkwCbwXIVSU_37.348251_-108.295026@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458194,
-    "wof:geomhash":"f2d32af2b79d4c6f72aeb6a1aeb56069",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b4278e3cd164d2f13afb6a56bb21083c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":839934209
+        }
+    ],
     "wof:id":839934209,
-    "wof:lastmodified":1466414432,
+    "wof:lastmodified":1492112603,
     "wof:name":"Victor Marble Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

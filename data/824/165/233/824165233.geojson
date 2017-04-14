@@ -2,9 +2,14 @@
   "id": 824165233,
   "type": "Feature",
   "properties": {
+    "addr:full":"5640 W Alameda Ave Lakewood CO 80226",
+    "addr:housenumber":"5640",
+    "addr:postcode":"80226",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05876,39.7111,-105.05876,39.7111",
     "geom:latitude":39.7111,
     "geom:longitude":-105.05876,
@@ -29,19 +34,36 @@
         "instruction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0cdjwKZ8EiKOWJ5a1y9ffO_39.711100_-105.058760@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456500,
-    "wof:geomhash":"c4abb261d8023a19f04f9f978a408dc0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f60acc46093a35ed5a641cccd9d832c0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":824165233
+        }
+    ],
     "wof:id":824165233,
-    "wof:lastmodified":1466417689,
+    "wof:lastmodified":1492129873,
     "wof:name":"Ralph Krause's Sport Karate",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

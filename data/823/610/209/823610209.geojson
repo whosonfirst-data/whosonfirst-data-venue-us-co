@@ -2,9 +2,14 @@
   "id": 823610209,
   "type": "Feature",
   "properties": {
+    "addr:full":"5491 Sage Ct Johnstown CO 80534",
+    "addr:housenumber":"5491",
+    "addr:postcode":"80534",
+    "addr:street":"Sage Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.952428,40.29301,-104.952428,40.29301",
     "geom:latitude":40.29301,
     "geom:longitude":-104.952428,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6FV3kFTKxlhBIODNypWrWx_40.293010_-104.952428@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442144,
-    "wof:geomhash":"95a9930cbf474505d104721ca4b35330",
-    "wof:hierarchy":[],
+    "wof:geomhash":"727a4aad4f9d2d9a8cd7d639f7736a92",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823610209
+        }
+    ],
     "wof:id":823610209,
-    "wof:lastmodified":1466417069,
+    "wof:lastmodified":1492125150,
     "wof:name":"Morrison Engineering Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

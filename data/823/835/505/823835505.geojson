@@ -2,9 +2,14 @@
   "id": 823835505,
   "type": "Feature",
   "properties": {
+    "addr:full":"8804 Washington St Thornton CO 80229",
+    "addr:housenumber":"8804",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977711,39.860161,-104.977711,39.860161",
     "geom:latitude":39.860161,
     "geom:longitude":-104.977711,
@@ -24,19 +29,36 @@
     "sg:postcode":"80229",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5tsJbZzrJynrLjKWk4RV2P_39.860161_-104.977711@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447772,
-    "wof:geomhash":"5f799850b2afba6190f52ff65a3f2a73",
-    "wof:hierarchy":[],
+    "wof:geomhash":"de5b2319407b0560f8a29ed467748efa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823835505
+        }
+    ],
     "wof:id":823835505,
-    "wof:lastmodified":1466419661,
+    "wof:lastmodified":1492118045,
     "wof:name":"US Post Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

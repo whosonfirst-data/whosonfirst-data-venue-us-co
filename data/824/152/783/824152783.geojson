@@ -2,9 +2,14 @@
   "id": 824152783,
   "type": "Feature",
   "properties": {
+    "addr:full":"146 S Maple St Cortez CO 81321",
+    "addr:housenumber":"146",
+    "addr:postcode":"81321",
+    "addr:street":"S Maple St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590343,37.346998,-108.590343,37.346998",
     "geom:latitude":37.346998,
     "geom:longitude":-108.590343,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3tPbDOUnpBRNdhYxlKR8O9_37.346998_-108.590343@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456011,
-    "wof:geomhash":"9d619ed8f82cd37e8946d30a006b0d07",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9769af259562b88da0788d6a9edbb906",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":824152783
+        }
+    ],
     "wof:id":824152783,
-    "wof:lastmodified":1466416971,
+    "wof:lastmodified":1492132953,
     "wof:name":"Faith Bible Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

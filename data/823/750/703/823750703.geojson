@@ -2,9 +2,14 @@
   "id": 823750703,
   "type": "Feature",
   "properties": {
+    "addr:full":"2111 Zion Rd Grand Junction CO 81503",
+    "addr:housenumber":"2111",
+    "addr:postcode":"81503",
+    "addr:street":"Zion Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.656038,39.092669,-108.656038,39.092669",
     "geom:latitude":39.092669,
     "geom:longitude":-108.656038,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554935
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0dnrbw95CU8WlY94FNJnny_39.092669_-108.656038@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445401,
-    "wof:geomhash":"4849089d32a0b89c57739b41dc412a44",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6fa340b5661f564b90b7b7cfb7a1bddd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554935,
+            "region_id":85688603,
+            "venue_id":823750703
+        }
+    ],
     "wof:id":823750703,
-    "wof:lastmodified":1466418928,
+    "wof:lastmodified":1492117713,
     "wof:name":"Durham Plumbing & Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554935,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823970011,
   "type": "Feature",
   "properties": {
+    "addr:full":"12099 Lowell Blvd Broomfield CO 80020",
+    "addr:housenumber":"12099",
+    "addr:postcode":"80020",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034444,39.916623,-105.034444,39.916623",
     "geom:latitude":39.916623,
     "geom:longitude":-105.034444,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420553613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4seuF4bryF6jH3Z078c43f_39.916623_-105.034444@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451259,
-    "wof:geomhash":"fea3ff0b9cf3d0d53bb03b1584c26b76",
-    "wof:hierarchy":[],
+    "wof:geomhash":"35bdf834740194aa8314836eaea26cd0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420553613,
+            "region_id":85688603,
+            "venue_id":823970011
+        }
+    ],
     "wof:id":823970011,
-    "wof:lastmodified":1466420784,
+    "wof:lastmodified":1492116692,
     "wof:name":"Cross Christ Lutheran Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823601057,
   "type": "Feature",
   "properties": {
+    "addr:full":"6841 Ruth Way Denver CO 80221",
+    "addr:housenumber":"6841",
+    "addr:postcode":"80221",
+    "addr:street":"Ruth Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.011617,39.822031,-105.011617,39.822031",
     "geom:latitude":39.822031,
     "geom:longitude":-105.011617,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553585
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5k6S0rPoTiQrU77X2P2DqI_39.822031_-105.011617@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441927,
-    "wof:geomhash":"eac2de78e1a3ad750841049fd1394be3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"956e9936d81761f568b3fcc6f131b8ef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553585,
+            "region_id":85688603,
+            "venue_id":823601057
+        }
+    ],
     "wof:id":823601057,
-    "wof:lastmodified":1466417089,
+    "wof:lastmodified":1492126824,
     "wof:name":"Apple Valley Drywall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553585,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

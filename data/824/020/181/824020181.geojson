@@ -2,9 +2,14 @@
   "id": 824020181,
   "type": "Feature",
   "properties": {
+    "addr:full":"11106 Livingston Dr Northglenn CO 80234",
+    "addr:housenumber":"11106",
+    "addr:postcode":"80234",
+    "addr:street":"Livingston Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.000167,39.899205,-105.000167,39.899205",
     "geom:latitude":39.899205,
     "geom:longitude":-105.000167,
@@ -27,19 +32,36 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553705
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28o7FaC7hXhmzxRjRZAESt_39.899205_-105.000167@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452429,
-    "wof:geomhash":"d31a16c90175c2c92962d347b210d8d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b33fc0d174b95c4525572658c30ff466",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553705,
+            "region_id":85688603,
+            "venue_id":824020181
+        }
+    ],
     "wof:id":824020181,
-    "wof:lastmodified":1466413598,
+    "wof:lastmodified":1492128343,
     "wof:name":"Koppenheffer & Koppenheffer",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553705,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

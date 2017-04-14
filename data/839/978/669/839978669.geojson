@@ -2,9 +2,14 @@
   "id": 839978669,
   "type": "Feature",
   "properties": {
+    "addr:full":"10502 King Ct Westminster CO 80031",
+    "addr:housenumber":"10502",
+    "addr:postcode":"80031",
+    "addr:street":"King Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033369,39.887502,-105.033369,39.887502",
     "geom:latitude":39.887502,
     "geom:longitude":-105.033369,
@@ -28,19 +33,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553837,
+        85888355
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2iMwfOjML0zYRX3il2SkpW_39.887502_-105.033369@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460369,
-    "wof:geomhash":"d79a52c55971a05e1b6fe785c34e6cb6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"526d1601d66487df7df0147dbbe3503b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553837,
+            "region_id":85688603,
+            "venue_id":839978669
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":85888355,
+            "region_id":85688603,
+            "venue_id":839978669
+        }
+    ],
     "wof:id":839978669,
-    "wof:lastmodified":1466416972,
+    "wof:lastmodified":1492112019,
     "wof:name":"Jmk Electric Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

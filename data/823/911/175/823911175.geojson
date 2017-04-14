@@ -2,9 +2,14 @@
   "id": 823911175,
   "type": "Feature",
   "properties": {
+    "addr:full":"1570 E 100th Ave Denver CO 80229",
+    "addr:housenumber":"1570",
+    "addr:postcode":"80229",
+    "addr:street":"E 100Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.966428,39.877766,-104.966428,39.877766",
     "geom:latitude":39.877766,
     "geom:longitude":-104.966428,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Kr3gAq9lYCt7qddFirhDY_39.877766_-104.966428@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449773,
-    "wof:geomhash":"e4926271ab7da4998e0210b34375b4ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0589e14460c4fb155198881313601297",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823911175
+        }
+    ],
     "wof:id":823911175,
-    "wof:lastmodified":1466420286,
+    "wof:lastmodified":1492124032,
     "wof:name":"Beavers Heating & AC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

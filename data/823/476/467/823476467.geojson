@@ -2,9 +2,14 @@
   "id": 823476467,
   "type": "Feature",
   "properties": {
+    "addr:full":"1110 Boston Ave Longmont CO 80501",
+    "addr:housenumber":"1110",
+    "addr:postcode":"80501",
+    "addr:street":"Boston Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.111867,40.158827,-105.111867,40.158827",
     "geom:latitude":40.158827,
     "geom:longitude":-105.111867,
@@ -28,17 +33,32 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5smLbr1Prt2bGd71EAeICc_40.158827_-105.111867@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438990,
-    "wof:geomhash":"b24b9543fa8db2413a4c09ff778420ab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"93ac20a2737291ef26040eb543ee1f17",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823476467
+        }
+    ],
     "wof:id":823476467,
-    "wof:lastmodified":1466412960,
+    "wof:lastmodified":1492127493,
     "wof:name":"Colorado Software Arch",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

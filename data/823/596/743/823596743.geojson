@@ -2,9 +2,14 @@
   "id": 823596743,
   "type": "Feature",
   "properties": {
+    "addr:full":"4100 W Colfax Ave Denver CO 80204",
+    "addr:housenumber":"4100",
+    "addr:postcode":"80204",
+    "addr:street":"W Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.041658,39.740344,-105.041658,39.740344",
     "geom:latitude":39.740344,
     "geom:longitude":-105.041658,
@@ -28,19 +33,38 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871267,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ktfjWwQh1XEw6HsOaoNO8_39.740344_-105.041658@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441809,
-    "wof:geomhash":"5a325dba03bf169e8c349263708e9586",
-    "wof:hierarchy":[],
+    "wof:geomhash":"32e3e2be5ac33eb45f4d1efe1aa21ec6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871267,
+            "region_id":85688603,
+            "venue_id":823596743
+        }
+    ],
     "wof:id":823596743,
-    "wof:lastmodified":1466417055,
+    "wof:lastmodified":1492123402,
     "wof:name":"Tobins Pharmacy Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871267,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

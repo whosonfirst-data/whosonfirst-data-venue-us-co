@@ -2,9 +2,14 @@
   "id": 839991949,
   "type": "Feature",
   "properties": {
+    "addr:full":"2506 Rimrock Ave Grand Junction CO 81505",
+    "addr:housenumber":"2506",
+    "addr:postcode":"81505",
+    "addr:street":"Rimrock Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.583758,39.080342,-108.583758,39.080342",
     "geom:latitude":39.080342,
     "geom:longitude":-108.583758,
@@ -28,19 +33,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554785
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0U9SyvUeEPHIsgAyLhDRUD_39.080342_-108.583758@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460882,
-    "wof:geomhash":"51844deaf42fb8ea7773c7ea2ddf32e6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"129a98184020658a7847b8266c52bf52",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554785,
+            "region_id":85688603,
+            "venue_id":839991949
+        }
+    ],
     "wof:id":839991949,
-    "wof:lastmodified":1466417486,
+    "wof:lastmodified":1492110973,
     "wof:name":"Qdoba",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554785,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823803761,
   "type": "Feature",
   "properties": {
+    "addr:full":"10659 Co Rd 26 Cortez CO 81321",
+    "addr:housenumber":"10659;26",
+    "addr:postcode":"81321",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572768,37.370604,-108.572768,37.370604",
     "geom:latitude":37.370604,
     "geom:longitude":-108.572768,
@@ -29,19 +34,28 @@
     ],
     "sg:website":"www.zetroc.net",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_741zce06xq1n4AQNEe0GRA_37.370604_-108.572768@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446815,
-    "wof:geomhash":"ad78ff43db9b622ddd4b7639f5b63588",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bd0a3abb9f3a90fb4a20f6cf6cded9e0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823803761
+        }
+    ],
     "wof:id":823803761,
-    "wof:lastmodified":1466419725,
+    "wof:lastmodified":1492127070,
     "wof:name":"Zetroc Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

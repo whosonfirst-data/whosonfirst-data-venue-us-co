@@ -2,9 +2,14 @@
   "id": 824043091,
   "type": "Feature",
   "properties": {
+    "addr:full":"601 S Federal Blvd Denver CO 80219",
+    "addr:housenumber":"601",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025099,39.704912,-105.025099,39.704912",
     "geom:latitude":39.704912,
     "geom:longitude":-105.025099,
@@ -28,7 +33,15 @@
         "billiard"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554317,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0lZp2JTKA29hx7OWKU4K6h_39.704912_-105.025099@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463453006,
     "wof:geomhash":"d359ea2a63be2168db4806ca74a9416e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554317,
+            "region_id":85688603,
+            "venue_id":824043091
+        }
+    ],
     "wof:id":824043091,
-    "wof:lastmodified":1466414132,
+    "wof:lastmodified":1491876272,
     "wof:name":"Vinh Son",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

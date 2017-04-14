@@ -2,9 +2,14 @@
   "id": 823541673,
   "type": "Feature",
   "properties": {
+    "addr:full":"1226 Pennsylvania Ave Boulder CO 80302",
+    "addr:housenumber":"1226",
+    "addr:postcode":"80302",
+    "addr:street":"Pennsylvania Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.27656,40.008627,-105.27656,40.008627",
     "geom:latitude":40.008627,
     "geom:longitude":-105.27656,
@@ -28,19 +33,36 @@
         "animal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6nL7XdbJ78SRFwU3EumbdK_40.008627_-105.276560@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440502,
-    "wof:geomhash":"07574e60d0203657a41d0d1d68215a8a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d780964a7e081d3b79eaf5f665decdc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":823541673
+        }
+    ],
     "wof:id":823541673,
-    "wof:lastmodified":1466415393,
+    "wof:lastmodified":1492126836,
     "wof:name":"Captive Bred Geckos",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

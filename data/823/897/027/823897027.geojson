@@ -2,9 +2,14 @@
   "id": 823897027,
   "type": "Feature",
   "properties": {
+    "addr:full":"2601 S College Ave Fort Collins CO 80525",
+    "addr:housenumber":"2601",
+    "addr:postcode":"80525",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.077024,40.550989,-105.077024,40.550989",
     "geom:latitude":40.550989,
     "geom:longitude":-105.077024,
@@ -28,19 +33,46 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        85877471,
+        420554753
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2nJUkh36FeFPcL8t57xqFI_40.550989_-105.077024@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449372,
-    "wof:geomhash":"99f8c1ebcf5aacd5270e1e24c6a16eec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d56f801bb9931312ac9891d57d4fbc0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877471,
+            "region_id":85688603,
+            "venue_id":823897027
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554753,
+            "region_id":85688603,
+            "venue_id":823897027
+        }
+    ],
     "wof:id":823897027,
-    "wof:lastmodified":1466420162,
+    "wof:lastmodified":1492120556,
     "wof:name":"Mercury Sales & Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

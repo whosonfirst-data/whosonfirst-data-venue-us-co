@@ -2,9 +2,14 @@
   "id": 824150231,
   "type": "Feature",
   "properties": {
+    "addr:full":"1333 University Ave Boulder CO 80302",
+    "addr:housenumber":"1333",
+    "addr:postcode":"80302",
+    "addr:street":"University Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275045,40.010591,-105.275045,40.010591",
     "geom:latitude":40.010591,
     "geom:longitude":-105.275045,
@@ -27,19 +32,36 @@
         "sorority"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_62Qx2ivslbS4I4CeF2APp2_40.010591_-105.275045@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455911,
-    "wof:geomhash":"1af451497f6de4dae6df641f8741a62a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"05396e40e99a854c585f86c9c0543508",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":824150231
+        }
+    ],
     "wof:id":824150231,
-    "wof:lastmodified":1466416821,
+    "wof:lastmodified":1492132022,
     "wof:name":"Kappa Alpha Theta",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

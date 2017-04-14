@@ -2,9 +2,14 @@
   "id": 824130255,
   "type": "Feature",
   "properties": {
+    "addr:full":"1317 State Ave Alamosa CO 81101",
+    "addr:housenumber":"1317",
+    "addr:postcode":"81101",
+    "addr:street":"State Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.86556,37.458915,-105.86556,37.458915",
     "geom:latitude":37.458915,
     "geom:longitude":-105.86556,
@@ -40,17 +45,32 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929545,
+        102084133
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7CAAaSKXx4lcbfPg6F53nR_37.458915_-105.865560@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455147,
-    "wof:geomhash":"c945eeb408c21b3ed8ef53522db762ff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bd7a40031bffb1176c096601886efd39",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084133,
+            "locality_id":85929545,
+            "region_id":85688603,
+            "venue_id":824130255
+        }
+    ],
     "wof:id":824130255,
-    "wof:lastmodified":1466415913,
+    "wof:lastmodified":1492128789,
     "wof:name":"Summit Engineering Co Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

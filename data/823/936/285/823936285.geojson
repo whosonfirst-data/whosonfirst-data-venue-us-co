@@ -2,9 +2,14 @@
   "id": 823936285,
   "type": "Feature",
   "properties": {
+    "addr:full":"18 N Main St Brighton CO 80601",
+    "addr:housenumber":"18",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.821142,39.987697,-104.821142,39.987697",
     "geom:latitude":39.987697,
     "geom:longitude":-104.821142,
@@ -27,19 +32,36 @@
         "manicuring"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6N9m8ntVQcK2xRwq5ae1bC_39.987697_-104.821142@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450440,
-    "wof:geomhash":"fe2802bb6e0987e23cb89a72216f5f6f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"279098695ad9dce2b6ff4b19295a1f12",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823936285
+        }
+    ],
     "wof:id":823936285,
-    "wof:lastmodified":1466420662,
+    "wof:lastmodified":1492117063,
     "wof:name":"Hot Spot",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

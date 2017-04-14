@@ -2,9 +2,14 @@
   "id": 824086723,
   "type": "Feature",
   "properties": {
+    "addr:full":"14917 E 50th Ave Denver CO 80239",
+    "addr:housenumber":"14917",
+    "addr:postcode":"80239",
+    "addr:street":"E 50Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.813006,39.782289,-104.813006,39.782289",
     "geom:latitude":39.782289,
     "geom:longitude":-104.813006,
@@ -29,7 +34,15 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2G3xpmjvyBw3eQUB3Y5zo5_39.782289_-104.813006@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463454014,
     "wof:geomhash":"72a5226785cdee40ee7ccedf5c97e0fa",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":824086723
+        }
+    ],
     "wof:id":824086723,
-    "wof:lastmodified":1466414927,
+    "wof:lastmodified":1491887456,
     "wof:name":"C & R Carpet Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

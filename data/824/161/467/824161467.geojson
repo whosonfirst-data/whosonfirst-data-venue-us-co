@@ -2,9 +2,14 @@
   "id": 824161467,
   "type": "Feature",
   "properties": {
+    "addr:full":"201 N Pinon Dr Cortez CO 81321",
+    "addr:housenumber":"201",
+    "addr:postcode":"81321",
+    "addr:street":"N Pinon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590927,37.351154,-108.590927,37.351154",
     "geom:latitude":37.351154,
     "geom:longitude":-108.590927,
@@ -29,19 +34,28 @@
         "clean"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6cqGn3J0ivqodFo2VaUTlY_37.351154_-108.590927@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456352,
-    "wof:geomhash":"b85f22fb3f8b9748d151b412302008d5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"44b5f4bb54cb3a206bdedc44e7ccc2f8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":824161467
+        }
+    ],
     "wof:id":824161467,
-    "wof:lastmodified":1466417391,
+    "wof:lastmodified":1492130454,
     "wof:name":"ACT Detailing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

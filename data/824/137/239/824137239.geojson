@@ -2,9 +2,14 @@
   "id": 824137239,
   "type": "Feature",
   "properties": {
+    "addr:full":"1129 13th St Boulder CO 80302",
+    "addr:housenumber":"1129",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.2763,40.007492,-105.2763,40.007492",
     "geom:latitude":40.007492,
     "geom:longitude":-105.2763,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Z3MzmzPWBjJttSl29ORuF_40.007492_-105.276300@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455410,
-    "wof:geomhash":"b2ad9cd980fcd61407326d5b105f29a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8ae81d36c8bc18db2065749fd933dfc9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":824137239
+        }
+    ],
     "wof:id":824137239,
-    "wof:lastmodified":1466416181,
+    "wof:lastmodified":1492129760,
     "wof:name":"Hill Liquor Store",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824136751,
   "type": "Feature",
   "properties": {
+    "addr:full":"470 W 3rd St Nederland CO 80466",
+    "addr:housenumber":"470",
+    "addr:postcode":"80466",
+    "addr:street":"W 3Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.513655,39.963574,-105.513655,39.963574",
     "geom:latitude":39.963574,
     "geom:longitude":-105.513655,
@@ -27,19 +32,32 @@
         "newspaper"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85896083,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_38pzNAqbcnBPPwOGaAwWxI_39.963574_-105.513655@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455393,
-    "wof:geomhash":"1068f9d6706d1bb63e80f559369c1116",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5f00f3749d253f528386dea3bbadc845",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85896083,
+            "region_id":85688603,
+            "venue_id":824136751
+        }
+    ],
     "wof:id":824136751,
-    "wof:lastmodified":1466416399,
+    "wof:lastmodified":1492130243,
     "wof:name":"Mountainear",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

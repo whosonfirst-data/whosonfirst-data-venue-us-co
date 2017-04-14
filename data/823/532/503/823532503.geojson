@@ -2,9 +2,14 @@
   "id": 823532503,
   "type": "Feature",
   "properties": {
+    "addr:full":"11929 Co Rd 501 Bayfield CO 81122",
+    "addr:housenumber":"11929",
+    "addr:postcode":"81122",
+    "addr:street":"Co Rd 501",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.592735,37.371518,-107.592735,37.371518",
     "geom:latitude":37.371518,
     "geom:longitude":-107.592735,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554669
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1u89zFvpHpcFlWoQplirEB_37.371518_-107.592735@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440302,
-    "wof:geomhash":"7dc7fa3ac3e280ccde54f33f417b5143",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7a03350f8363224af99ee05a8d1d0764",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554669,
+            "venue_id":823532503
+        }
+    ],
     "wof:id":823532503,
-    "wof:lastmodified":1466415301,
+    "wof:lastmodified":1492122830,
     "wof:name":"Marsh Excavation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554669,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

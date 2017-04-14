@@ -2,9 +2,14 @@
   "id": 823503137,
   "type": "Feature",
   "properties": {
+    "addr:full":"5959 Valmont Rd Boulder CO 80301",
+    "addr:housenumber":"5959",
+    "addr:postcode":"80301",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.211736,40.031809,-105.211736,40.031809",
     "geom:latitude":40.031809,
     "geom:longitude":-105.211736,
@@ -28,7 +33,14 @@
         "gypsum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_05Mvy7WcQQvzDQDcth7Kcu_40.031809_-105.211736@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463439647,
     "wof:geomhash":"8e3cfe958bc8659d1492073aadc6270f",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823503137
+        }
+    ],
     "wof:id":823503137,
-    "wof:lastmodified":1466414323,
+    "wof:lastmodified":1491620026,
     "wof:name":"Lafarge N America Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

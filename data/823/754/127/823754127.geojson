@@ -2,9 +2,14 @@
   "id": 823754127,
   "type": "Feature",
   "properties": {
+    "addr:full":"12357 Co Rd 25 Gunnison CO 81230",
+    "addr:housenumber":"12357;25",
+    "addr:postcode":"81230",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.316657,38.399104,-107.316657,38.399104",
     "geom:latitude":38.399104,
     "geom:longitude":-107.316657,
@@ -27,19 +32,28 @@
         "ranch"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554399
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3v8In8GDDu9OvUCoHkC4ds_38.399104_-107.316657@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445486,
-    "wof:geomhash":"899453f449eb536d6e58f5a05b9bfa75",
-    "wof:hierarchy":[],
+    "wof:geomhash":"008591010eef116c08841308da2d89fb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554399,
+            "venue_id":823754127
+        }
+    ],
     "wof:id":823754127,
-    "wof:lastmodified":1466418993,
+    "wof:lastmodified":1492117497,
     "wof:name":"Ute Tribe Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554399,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

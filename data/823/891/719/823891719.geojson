@@ -2,9 +2,14 @@
   "id": 823891719,
   "type": "Feature",
   "properties": {
+    "addr:full":"2651 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"2651",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.95824,39.914017,-104.95824,39.914017",
     "geom:latitude":39.914017,
     "geom:longitude":-104.95824,
@@ -29,19 +34,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2eTqA0aDiuPxIbFIqdDT0V_39.914017_-104.958240@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449245,
-    "wof:geomhash":"e42ddbd208392796fd92d0954c2edbdb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4fb4f67c39562873cb3434acc64a7e9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823891719
+        }
+    ],
     "wof:id":823891719,
-    "wof:lastmodified":1466420178,
+    "wof:lastmodified":1492117615,
     "wof:name":"Phillips Kicks 66",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

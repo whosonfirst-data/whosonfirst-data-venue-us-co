@@ -2,9 +2,14 @@
   "id": 823759007,
   "type": "Feature",
   "properties": {
+    "addr:full":"2436 Powderhorn Ln Boulder CO 80305",
+    "addr:housenumber":"2436",
+    "addr:postcode":"80305",
+    "addr:street":"Powderhorn Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.263964,39.972256,-105.263964,39.972256",
     "geom:latitude":39.972256,
     "geom:longitude":-105.263964,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1WWLwMCHGuAN6TwWoVikye_39.972256_-105.263964@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445596,
-    "wof:geomhash":"05814cc2895e5f1514e720780480fa75",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f9cda0b34bc2971abfe6af5ffccf5787",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":823759007
+        }
+    ],
     "wof:id":823759007,
-    "wof:lastmodified":1466418977,
+    "wof:lastmodified":1492119702,
     "wof:name":"Luxor Homes Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

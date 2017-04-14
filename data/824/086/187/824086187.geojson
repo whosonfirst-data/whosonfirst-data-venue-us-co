@@ -2,9 +2,14 @@
   "id": 824086187,
   "type": "Feature",
   "properties": {
+    "addr:full":"7435 Chase St Arvada CO 80003",
+    "addr:housenumber":"7435",
+    "addr:postcode":"80003",
+    "addr:street":"Chase St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.056108,39.831814,-105.056108,39.831814",
     "geom:latitude":39.831814,
     "geom:longitude":-105.056108,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_04yhJh9VUUTXhAvtlFCR8J_39.831814_-105.056108@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454000,
-    "wof:geomhash":"c6cc9462cfd3e2cb634a8c984d138564",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75bff676749d17aae5849200cd37ec43",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554605,
+            "region_id":85688603,
+            "venue_id":824086187
+        }
+    ],
     "wof:id":824086187,
-    "wof:lastmodified":1466414899,
+    "wof:lastmodified":1492131592,
     "wof:name":"Deary Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

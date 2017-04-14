@@ -2,9 +2,14 @@
   "id": 823841203,
   "type": "Feature",
   "properties": {
+    "addr:full":"441 State Hwy 56 Berthoud CO 80513",
+    "addr:housenumber":"441",
+    "addr:postcode":"80513",
+    "addr:street":"State Hwy 56",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.047609,40.30553,-105.047609,40.30553",
     "geom:latitude":40.30553,
     "geom:longitude":-105.047609,
@@ -29,19 +34,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ZIlOeTM1beUYpckBxyjIX_40.305530_-105.047609@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447969,
-    "wof:geomhash":"fbff039852bc3b635fe5070c996c3e00",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0cedb3e051d683db4917f52b0a64ea2d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823841203
+        }
+    ],
     "wof:id":823841203,
-    "wof:lastmodified":1466419668,
+    "wof:lastmodified":1492121729,
     "wof:name":"Davcom Satellite Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

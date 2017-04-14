@@ -2,9 +2,14 @@
   "id": 823825451,
   "type": "Feature",
   "properties": {
+    "addr:full":"9821 Huron St Northglenn CO 80260",
+    "addr:housenumber":"9821",
+    "addr:postcode":"80260",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996803,39.875378,-104.996803,39.875378",
     "geom:latitude":39.875378,
     "geom:longitude":-104.996803,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553869
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6o4EeBifo873sN7dnwPwKU_39.875378_-104.996803@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447463,
-    "wof:geomhash":"f817f895851c202b653cc2b708051aeb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0f20aea0b5946c19c42c30b414c646e1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553869,
+            "region_id":85688603,
+            "venue_id":823825451
+        }
+    ],
     "wof:id":823825451,
-    "wof:lastmodified":1466419740,
+    "wof:lastmodified":1492123458,
     "wof:name":"Mile High Free Will Bapt Chr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553869,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

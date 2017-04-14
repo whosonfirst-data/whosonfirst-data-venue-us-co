@@ -2,9 +2,14 @@
   "id": 839956823,
   "type": "Feature",
   "properties": {
+    "addr:full":"488 Co Rd 232 Durango CO 81303",
+    "addr:housenumber":"488;232",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.824541,37.227841,-107.824541,37.227841",
     "geom:latitude":37.227841,
     "geom:longitude":-107.824541,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_21O2MnH0y9ExFnDN8JnNVe_37.227841_-107.824541@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459493,
-    "wof:geomhash":"562ac6f006bcc356aaf1f26c722ca7ab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a6d0fcd1f30ce579a7d5f24d0d82e026",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":839956823
+        }
+    ],
     "wof:id":839956823,
-    "wof:lastmodified":1466415552,
+    "wof:lastmodified":1492111821,
     "wof:name":"DEMA",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

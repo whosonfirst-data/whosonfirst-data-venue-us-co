@@ -2,9 +2,14 @@
   "id": 823476387,
   "type": "Feature",
   "properties": {
+    "addr:full":"450 E 84th Ave Thornton CO 80229",
+    "addr:housenumber":"450",
+    "addr:postcode":"80229",
+    "addr:street":"E 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980362,39.848953,-104.980362,39.848953",
     "geom:latitude":39.848953,
     "geom:longitude":-104.980362,
@@ -27,19 +32,36 @@
         "mattress"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1j6mxzmnHEuxmt3L0xmoVf_39.848953_-104.980362@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438984,
-    "wof:geomhash":"106e857f57427be89744e5f48e7409c2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d8730f58608c531e371b569864566483",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":823476387
+        }
+    ],
     "wof:id":823476387,
-    "wof:lastmodified":1466412957,
+    "wof:lastmodified":1492127498,
     "wof:name":"Mattress King",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

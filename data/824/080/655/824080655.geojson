@@ -2,9 +2,14 @@
   "id": 824080655,
   "type": "Feature",
   "properties": {
+    "addr:full":"422 N 10th Ave Brighton CO 80601",
+    "addr:housenumber":"422",
+    "addr:postcode":"80601",
+    "addr:street":"N 10Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.809996,39.994138,-104.809996,39.994138",
     "geom:latitude":39.994138,
     "geom:longitude":-104.809996,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4W4omV6MQc0CoA40hD2KQ4_39.994138_-104.809996@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453865,
-    "wof:geomhash":"067821365cae737f5a7183ad430e143e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"580f302ddc79c1647f00308060ed93c9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824080655
+        }
+    ],
     "wof:id":824080655,
-    "wof:lastmodified":1466414782,
+    "wof:lastmodified":1492130983,
     "wof:name":"Southwest AG Transport Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

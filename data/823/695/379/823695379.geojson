@@ -2,9 +2,14 @@
   "id": 823695379,
   "type": "Feature",
   "properties": {
+    "addr:full":"107 Main St Kit Carson CO 80825",
+    "addr:housenumber":"107",
+    "addr:postcode":"80825",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.791884,38.763604,-102.791884,38.763604",
     "geom:latitude":38.763604,
     "geom:longitude":-102.791884,
@@ -29,17 +34,32 @@
         "citizen"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929535,
+        102084045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5iJ45LxdLy4IJ0ESz3ZH9b_38.763604_-102.791884@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444142,
-    "wof:geomhash":"5308d3ed63a39ac09db87b54c3700a50",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c57bae78ea08513c87b1caa875de3b44",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084045,
+            "locality_id":85929535,
+            "region_id":85688603,
+            "venue_id":823695379
+        }
+    ],
     "wof:id":823695379,
-    "wof:lastmodified":1466418483,
+    "wof:lastmodified":1492126575,
     "wof:name":"Senior Citizens Ctr",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

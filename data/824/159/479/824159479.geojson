@@ -2,9 +2,14 @@
   "id": 824159479,
   "type": "Feature",
   "properties": {
+    "addr:full":"850 20th St Boulder CO 80302",
+    "addr:housenumber":"850",
+    "addr:postcode":"80302",
+    "addr:street":"20Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.267736,40.003191,-105.267736,40.003191",
     "geom:latitude":40.003191,
     "geom:longitude":-105.267736,
@@ -27,7 +32,14 @@
         "condominium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_58lVvLLMJoHJnIvXGWgxfm_40.003191_-105.267736@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463456279,
     "wof:geomhash":"d6a0e22f68acdb93eab3f40cb584b5a9",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":824159479
+        }
+    ],
     "wof:id":824159479,
-    "wof:lastmodified":1466417374,
+    "wof:lastmodified":1491890403,
     "wof:name":"San Marco North Condominium",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

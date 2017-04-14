@@ -2,9 +2,14 @@
   "id": 839974327,
   "type": "Feature",
   "properties": {
+    "addr:full":"4737 W Mississippi Ave Denver CO 80219",
+    "addr:housenumber":"4737",
+    "addr:postcode":"80219",
+    "addr:street":"W Mississippi Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.048309,39.696839,-105.048309,39.696839",
     "geom:latitude":39.696839,
     "geom:longitude":-105.048309,
@@ -28,7 +33,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1EHy6BEd6lPUNq5OQyC84t_39.696839_-105.048309@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463460188,
     "wof:geomhash":"b866afeeef776d0ffbf84faf458e93be",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":839974327
+        }
+    ],
     "wof:id":839974327,
-    "wof:lastmodified":1466416670,
+    "wof:lastmodified":1486589862,
     "wof:name":"Alfredo Carpet Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

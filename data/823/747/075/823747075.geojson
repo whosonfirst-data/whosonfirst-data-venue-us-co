@@ -2,9 +2,14 @@
   "id": 823747075,
   "type": "Feature",
   "properties": {
+    "addr:full":"11320 Fenton St Broomfield CO 80020",
+    "addr:housenumber":"11320",
+    "addr:postcode":"80020",
+    "addr:street":"Fenton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060561,39.901768,-105.060561,39.901768",
     "geom:latitude":39.901768,
     "geom:longitude":-105.060561,
@@ -29,19 +34,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0KvUrNrfzPyXS7ItdjKJZ8_39.901768_-105.060561@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445307,
-    "wof:geomhash":"9338a37f60c4b7374bee16a2522df3d0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3ccb8a1d7417cb114c4e5b1e22650aa8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":823747075
+        }
+    ],
     "wof:id":823747075,
-    "wof:lastmodified":1466418874,
+    "wof:lastmodified":1492117981,
     "wof:name":"Something Special Custom EMB",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

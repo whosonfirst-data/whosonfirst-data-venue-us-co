@@ -2,9 +2,14 @@
   "id": 823839965,
   "type": "Feature",
   "properties": {
+    "addr:full":"407 E Grand Ave Mancos CO 81328",
+    "addr:housenumber":"407",
+    "addr:postcode":"81328",
+    "addr:street":"E Grand Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.293612,37.344985,-108.293612,37.344985",
     "geom:latitude":37.344985,
     "geom:longitude":-108.293612,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4x996BusZRFUzOB6TSYfIh_37.344985_-108.293612@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447934,
-    "wof:geomhash":"f59a432a94a8b99c25c92d77537b9eee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"03f56711d07ced2fd7ae4381b1fd7e3c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823839965
+        }
+    ],
     "wof:id":823839965,
-    "wof:lastmodified":1466419763,
+    "wof:lastmodified":1492118554,
     "wof:name":"Summit Lake Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

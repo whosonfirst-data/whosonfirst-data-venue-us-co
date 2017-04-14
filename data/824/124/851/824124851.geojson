@@ -2,9 +2,14 @@
   "id": 824124851,
   "type": "Feature",
   "properties": {
+    "addr:full":"1316 W 133rd Way Denver CO 80234",
+    "addr:housenumber":"1316",
+    "addr:postcode":"80234",
+    "addr:street":"W 133Rd Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.002717,39.93695,-105.002717,39.93695",
     "geom:latitude":39.93695,
     "geom:longitude":-105.002717,
@@ -27,19 +32,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_25a0fhqjCbE1ik3AAj1JbZ_39.936950_-105.002717@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454928,
-    "wof:geomhash":"d3c47ef5cccd439d429c874acd79c3fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7dfe0353cc9d8d3e88bb148743b49c4b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":824124851
+        }
+    ],
     "wof:id":824124851,
-    "wof:lastmodified":1466415662,
+    "wof:lastmodified":1492130846,
     "wof:name":"Rocky Mountain Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

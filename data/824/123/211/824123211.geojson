@@ -2,9 +2,14 @@
   "id": 824123211,
   "type": "Feature",
   "properties": {
+    "addr:full":"10857 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"10857",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.861504,39.740284,-104.861504,39.740284",
     "geom:latitude":39.740284,
     "geom:longitude":-104.861504,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553943
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_51Sl5jjBhirNO6JWpmwgBi_39.740284_-104.861504@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454845,
-    "wof:geomhash":"74944b1493f35fa99f7c412defb54d51",
-    "wof:hierarchy":[],
+    "wof:geomhash":"881c26685147e503dfc3ad29220df030",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553943,
+            "region_id":85688603,
+            "venue_id":824123211
+        }
+    ],
     "wof:id":824123211,
-    "wof:lastmodified":1466415684,
+    "wof:lastmodified":1492128836,
     "wof:name":"Tacos El Oso",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553943,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

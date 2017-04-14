@@ -2,9 +2,14 @@
   "id": 823992257,
   "type": "Feature",
   "properties": {
+    "addr:full":"3985 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"3985",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.945628,39.913902,-104.945628,39.913902",
     "geom:latitude":39.913902,
     "geom:longitude":-104.945628,
@@ -27,19 +32,46 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553911,
+        85888365
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_24H6K5XHfSJ17LoRLVJCf4_39.913902_-104.945628@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451771,
-    "wof:geomhash":"2c201dc773438f35173688a17b4e6cca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"79952b292f353db5a28b0ed5927cd1dd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553911,
+            "region_id":85688603,
+            "venue_id":823992257
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":85888365,
+            "region_id":85688603,
+            "venue_id":823992257
+        }
+    ],
     "wof:id":823992257,
-    "wof:lastmodified":1466420965,
+    "wof:lastmodified":1492127248,
     "wof:name":"Chans Inn Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839986295,
   "type": "Feature",
   "properties": {
+    "addr:full":"13700 E Colfax Ave Aurora CO 80011",
+    "addr:housenumber":"13700",
+    "addr:postcode":"80011",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.827606,39.739481,-104.827606,39.739481",
     "geom:latitude":39.739481,
     "geom:longitude":-104.827606,
@@ -28,19 +33,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7kxBeHUiwZfUCNUMjWYGZx_39.739481_-104.827606@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460669,
-    "wof:geomhash":"541951a564ee0ce26a6125e261dcabbe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09ef808e9c6f36bd8a20e3bc8cbfa55f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":839986295
+        }
+    ],
     "wof:id":839986295,
-    "wof:lastmodified":1466417324,
+    "wof:lastmodified":1492111382,
     "wof:name":"Chipotle",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

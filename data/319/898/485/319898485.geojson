@@ -2,9 +2,14 @@
   "id": 319898485,
   "type": "Feature",
   "properties": {
+    "addr:full":"1540 Altura Blvd Aurora CO 80011",
+    "addr:housenumber":"1540",
+    "addr:postcode":"80011",
+    "addr:street":"Altura Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.814737,39.740882,-104.814737,39.740882",
     "geom:latitude":39.740882,
     "geom:longitude":-104.814737,
@@ -41,32 +46,43 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929235,
         102086877,
-        85802959
+        85802959,
+        420553941
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72C43IsYBLJKAX1KJPCUlF_39.740882_-104.814737@1303263079"
     },
     "wof:country":"US",
-    "wof:geomhash":"035edc325f1dbf56795f03a4589a7e5c",
+    "wof:geomhash":"42e3831c484cfe9a80c5ee1c6a7db7cf",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086877,
             "locality_id":85929235,
             "neighbourhood_id":85802959,
             "region_id":85688603,
             "venue_id":319898485
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":319898485
         }
     ],
     "wof:id":319898485,
-    "wof:lastmodified":1466412127,
+    "wof:lastmodified":1492110075,
     "wof:name":"U-Store-It",
-    "wof:parent_id":85802959,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

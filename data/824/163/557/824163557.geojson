@@ -2,9 +2,14 @@
   "id": 824163557,
   "type": "Feature",
   "properties": {
+    "addr:full":"1221 University Ave Fort Collins CO 80521",
+    "addr:housenumber":"1221",
+    "addr:postcode":"80521",
+    "addr:street":"University Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.099272,40.573239,-105.099272,40.573239",
     "geom:latitude":40.573239,
     "geom:longitude":-105.099272,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5t8mtKXvPGGlofNOwjvPD0_40.573239_-105.099272@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456439,
-    "wof:geomhash":"8778b19c3b650b9312b3448c598396bf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0266bda92119a5e6a9c8c9de59ca0c69",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":824163557
+        }
+    ],
     "wof:id":824163557,
-    "wof:lastmodified":1466417703,
+    "wof:lastmodified":1492129945,
     "wof:name":"Big Horn Village",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

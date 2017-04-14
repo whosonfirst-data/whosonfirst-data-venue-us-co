@@ -2,9 +2,14 @@
   "id": 823763837,
   "type": "Feature",
   "properties": {
+    "addr:full":"940 Central Park Dr Steamboat Springs CO 80487",
+    "addr:housenumber":"940",
+    "addr:postcode":"80487",
+    "addr:street":"Central Park Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.817532,40.462002,-106.817532,40.462002",
     "geom:latitude":40.462002,
     "geom:longitude":-106.817532,
@@ -27,19 +32,36 @@
         "medical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555173
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ecF3sjPOcEr8moG43sLzt_40.462002_-106.817532@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445696,
-    "wof:geomhash":"b49d1a63f2fa664932b279cb89355ae9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2042432c35bfd75cbdbd618da8619658",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555173,
+            "region_id":85688603,
+            "venue_id":823763837
+        }
+    ],
     "wof:id":823763837,
-    "wof:lastmodified":1466419060,
+    "wof:lastmodified":1492123163,
     "wof:name":"Alpine Oral and Facial Surger",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555173,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

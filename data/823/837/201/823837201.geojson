@@ -2,9 +2,14 @@
   "id": 823837201,
   "type": "Feature",
   "properties": {
+    "addr:full":"2067 E 102nd Ave Denver CO 80229",
+    "addr:housenumber":"2067",
+    "addr:postcode":"80229",
+    "addr:street":"E 102Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.962338,39.88109,-104.962338,39.88109",
     "geom:latitude":39.88109,
     "geom:longitude":-104.962338,
@@ -27,19 +32,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_11wqFvmPiuyKJUcnSZBPVe_39.881090_-104.962338@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447838,
-    "wof:geomhash":"ebcb1e2c1b81398df503fb26b42ee07d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"99b3184fb1b8b3d948d2525f0572139d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823837201
+        }
+    ],
     "wof:id":823837201,
-    "wof:lastmodified":1466419656,
+    "wof:lastmodified":1492121407,
     "wof:name":"Concept 3 Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

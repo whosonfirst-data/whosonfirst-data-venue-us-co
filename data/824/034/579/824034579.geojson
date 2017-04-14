@@ -2,9 +2,14 @@
   "id": 824034579,
   "type": "Feature",
   "properties": {
+    "addr:full":"10129 Grove Ct Westminster CO 80031",
+    "addr:housenumber":"10129",
+    "addr:postcode":"80031",
+    "addr:street":"Grove Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.026592,39.878904,-105.026592,39.878904",
     "geom:latitude":39.878904,
     "geom:longitude":-105.026592,
@@ -29,19 +34,36 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553551
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0lfkorGiIeBUUFXLQ15CCT_39.878904_-105.026592@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452773,
-    "wof:geomhash":"0a70e92a00b00953d1227b15577e9ac8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"652a7815fef4795085565e991fe75250",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553551,
+            "region_id":85688603,
+            "venue_id":824034579
+        }
+    ],
     "wof:id":824034579,
-    "wof:lastmodified":1466413957,
+    "wof:lastmodified":1492130745,
     "wof:name":"Rocky Mountain Water Tech",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553551,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

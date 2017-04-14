@@ -2,9 +2,14 @@
   "id": 823878231,
   "type": "Feature",
   "properties": {
+    "addr:full":"3737 Carrington Rd Fort Collins CO 80525",
+    "addr:housenumber":"3737",
+    "addr:postcode":"80525",
+    "addr:street":"Carrington Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.021255,40.536048,-105.021255,40.536048",
     "geom:latitude":40.536048,
     "geom:longitude":-105.021255,
@@ -30,19 +35,36 @@
         "grounds"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Y1iZUarB2Hhg52mcPhdHn_40.536048_-105.021255@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448932,
-    "wof:geomhash":"14695a543aefd5a04a45b34acef33254",
-    "wof:hierarchy":[],
+    "wof:geomhash":"69feeca657d6288a4c168167110d3ba3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":823878231
+        }
+    ],
     "wof:id":823878231,
-    "wof:lastmodified":1466420012,
+    "wof:lastmodified":1492127888,
     "wof:name":"Garden Tender",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

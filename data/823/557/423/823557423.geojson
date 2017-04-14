@@ -2,9 +2,14 @@
   "id": 823557423,
   "type": "Feature",
   "properties": {
+    "addr:full":"401 N 111th St Lafayette CO 80026",
+    "addr:housenumber":"401",
+    "addr:postcode":"80026",
+    "addr:street":"N 111Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.09336,40.001522,-105.09336,40.001522",
     "geom:latitude":40.001522,
     "geom:longitude":-105.09336,
@@ -27,19 +32,36 @@
         "department"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251,
+        85896029
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Nbx5lDOScpQ2Kj8aye6In_40.001522_-105.093360@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440876,
-    "wof:geomhash":"ddd877343f9944a743d9088d42f5845a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cd4cadd42f87cf78b41b2ef4904f9e1c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "neighbourhood_id":85896029,
+            "region_id":85688603,
+            "venue_id":823557423
+        }
+    ],
     "wof:id":823557423,
-    "wof:lastmodified":1466416124,
+    "wof:lastmodified":1492124772,
     "wof:name":"Lafayette Fire Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896029,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

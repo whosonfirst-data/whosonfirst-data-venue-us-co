@@ -2,9 +2,14 @@
   "id": 823975547,
   "type": "Feature",
   "properties": {
+    "addr:full":"105 S Sheridan Blvd Denver CO 80226",
+    "addr:housenumber":"105",
+    "addr:postcode":"80226",
+    "addr:street":"S Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053338,39.713255,-105.053338,39.713255",
     "geom:latitude":39.713255,
     "geom:longitude":-105.053338,
@@ -28,19 +33,36 @@
         "parts"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7RJdSkNzDWhzTlRFrVtSO1_39.713255_-105.053338@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451369,
-    "wof:geomhash":"28590686008b6a022196a329141ca3ce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f47c357ef1a8110ea59f9c648380b390",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823975547
+        }
+    ],
     "wof:id":823975547,
-    "wof:lastmodified":1466420886,
+    "wof:lastmodified":1492125444,
     "wof:name":"Checker Auto Parts 1072",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

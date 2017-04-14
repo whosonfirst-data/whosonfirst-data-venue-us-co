@@ -2,9 +2,14 @@
   "id": 823889483,
   "type": "Feature",
   "properties": {
+    "addr:full":"20 S Market St Cortez CO 81321",
+    "addr:housenumber":"20",
+    "addr:postcode":"81321",
+    "addr:street":"S Market St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.585114,37.348425,-108.585114,37.348425",
     "geom:latitude":37.348425,
     "geom:longitude":-108.585114,
@@ -28,19 +33,28 @@
         "physical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3umZSAiIsPAZXcLh8B0VPx_37.348425_-108.585114@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449189,
-    "wof:geomhash":"00d1f8c40cbb993f08fd8a2fb9a5dca7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6fe28c0d2c27e4a86afad88db1607048",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823889483
+        }
+    ],
     "wof:id":823889483,
-    "wof:lastmodified":1466420153,
+    "wof:lastmodified":1492127551,
     "wof:name":"Southwest Memorial Outpatient",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

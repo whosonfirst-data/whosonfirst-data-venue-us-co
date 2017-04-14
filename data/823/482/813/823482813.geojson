@@ -2,9 +2,14 @@
   "id": 823482813,
   "type": "Feature",
   "properties": {
+    "addr:full":"23486 Co Rd 501 Bayfield CO 81122",
+    "addr:housenumber":"23486",
+    "addr:postcode":"81122",
+    "addr:street":"Co Rd 501",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.506174,37.445295,-107.506174,37.445295",
     "geom:latitude":37.445295,
     "geom:longitude":-107.506174,
@@ -28,19 +33,28 @@
         "guest"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554697
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ZqqDPXZD0N4afXoCNQPXm_37.445295_-107.506174@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439143,
-    "wof:geomhash":"4b5cfdbb90065af6e3595d9147d5da87",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1b8c85f92e0a4a183a82744f07a52ad1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554697,
+            "venue_id":823482813
+        }
+    ],
     "wof:id":823482813,
-    "wof:lastmodified":1466413532,
+    "wof:lastmodified":1492125974,
     "wof:name":"Wilderness Trails Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554697,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

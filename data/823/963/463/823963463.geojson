@@ -2,9 +2,14 @@
   "id": 823963463,
   "type": "Feature",
   "properties": {
+    "addr:full":"6332 E 72nd Ave Commerce City CO 80022",
+    "addr:housenumber":"6332",
+    "addr:postcode":"80022",
+    "addr:street":"E 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.914145,39.827127,-104.914145,39.827127",
     "geom:latitude":39.827127,
     "geom:longitude":-104.914145,
@@ -30,19 +35,36 @@
         "treatment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553569
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2XLloMwkjNbXLock8REdf7_39.827127_-104.914145@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451100,
-    "wof:geomhash":"5d4f6043cb62ce42c755218d4322baee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2ed6b4bd9d6a742e0cdf6548cf369632",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553569,
+            "region_id":85688603,
+            "venue_id":823963463
+        }
+    ],
     "wof:id":823963463,
-    "wof:lastmodified":1466420779,
+    "wof:lastmodified":1492119851,
     "wof:name":"LA Trenza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553569,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

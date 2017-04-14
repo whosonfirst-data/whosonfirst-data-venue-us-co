@@ -2,9 +2,14 @@
   "id": 824108903,
   "type": "Feature",
   "properties": {
+    "addr:full":"14100 E 35th Pl Aurora CO 80011",
+    "addr:housenumber":"14100",
+    "addr:postcode":"80011",
+    "addr:street":"E 35Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.819245,39.768403,-104.819245,39.768403",
     "geom:latitude":39.768403,
     "geom:longitude":-104.819245,
@@ -29,19 +34,46 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553641,
+        85846555
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7UEKnd9ZANhJlVgPN2gwQZ_39.768403_-104.819245@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454531,
-    "wof:geomhash":"b3665c12922f23462cfc3f4454c8a6f0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8db9ccce378665431f2f662d88d8dc98",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553641,
+            "region_id":85688603,
+            "venue_id":824108903
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":85846555,
+            "region_id":85688603,
+            "venue_id":824108903
+        }
+    ],
     "wof:id":824108903,
-    "wof:lastmodified":1466415444,
+    "wof:lastmodified":1492129693,
     "wof:name":"Prologis",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

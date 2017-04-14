@@ -2,9 +2,14 @@
   "id": 823628999,
   "type": "Feature",
   "properties": {
+    "addr:full":"19531 E 40th Pl Denver CO 80249",
+    "addr:housenumber":"19531",
+    "addr:postcode":"80249",
+    "addr:street":"E 40Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.759248,39.771124,-104.759248,39.771124",
     "geom:latitude":39.771124,
     "geom:longitude":-104.759248,
@@ -24,7 +29,16 @@
     "sg:postcode":"80249",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0JQMdE5r47RvrjTHRZW6UY_39.771124_-104.759248@1294083659"
@@ -32,11 +46,23 @@
     "wof:country":"US",
     "wof:created":1463442610,
     "wof:geomhash":"2786ecd8b505e0f81b07d2187d4b5f9a",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":823628999
+        }
+    ],
     "wof:id":823628999,
-    "wof:lastmodified":1466417666,
+    "wof:lastmodified":1486593997,
     "wof:name":"Joan & Kat",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

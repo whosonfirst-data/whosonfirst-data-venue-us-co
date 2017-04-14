@@ -2,9 +2,14 @@
   "id": 823993181,
   "type": "Feature",
   "properties": {
+    "addr:full":"3055 E 101st Ct Denver CO 80229",
+    "addr:housenumber":"3055",
+    "addr:postcode":"80229",
+    "addr:street":"E 101St Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.952138,39.879725,-104.952138,39.879725",
     "geom:latitude":39.879725,
     "geom:longitude":-104.952138,
@@ -27,19 +32,36 @@
         "operator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YVgZ2wbsJOD4rRpdNzyLu_39.879725_-104.952138@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451800,
-    "wof:geomhash":"05e7b6d7586c2b87cc1ce92d452970ed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"142822cb614fe6a461e851de25745316",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":823993181
+        }
+    ],
     "wof:id":823993181,
-    "wof:lastmodified":1466420969,
+    "wof:lastmodified":1492117366,
     "wof:name":"Candy Family",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

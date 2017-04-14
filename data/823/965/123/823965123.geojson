@@ -2,9 +2,14 @@
   "id": 823965123,
   "type": "Feature",
   "properties": {
+    "addr:full":"705 E Drake Rd Fort Collins CO 80525",
+    "addr:housenumber":"705",
+    "addr:postcode":"80525",
+    "addr:street":"E Drake Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.06462,40.552461,-105.06462,40.552461",
     "geom:latitude":40.552461,
     "geom:longitude":-105.06462,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554723
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_454JbLWYU6JYELBiWiLdWj_40.552461_-105.064620@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451137,
-    "wof:geomhash":"74b0bbbc590fd28a6796b7afcb6624b2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6cc86fd30f955e1ba46b9fa170b0ee4d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554723,
+            "region_id":85688603,
+            "venue_id":823965123
+        }
+    ],
     "wof:id":823965123,
-    "wof:lastmodified":1466420761,
+    "wof:lastmodified":1492126080,
     "wof:name":"Vic's Heating & Air Cond Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554723,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

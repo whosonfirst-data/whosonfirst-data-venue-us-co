@@ -2,9 +2,14 @@
   "id": 823842521,
   "type": "Feature",
   "properties": {
+    "addr:full":"331 Francis St Longmont CO 80501",
+    "addr:housenumber":"331",
+    "addr:postcode":"80501",
+    "addr:street":"Francis St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.116576,40.168589,-105.116576,40.168589",
     "geom:latitude":40.168589,
     "geom:longitude":-105.116576,
@@ -28,19 +33,36 @@
         "orchestra"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251,
+        85896051
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Jz5FXbP1q0ToLE5ZpcNCt_40.168589_-105.116576@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448005,
-    "wof:geomhash":"0dcbc59d4d490d52198356277051bea8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f8bc95676a75a4ab55a56d11692ea22c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "neighbourhood_id":85896051,
+            "region_id":85688603,
+            "venue_id":823842521
+        }
+    ],
     "wof:id":823842521,
-    "wof:lastmodified":1466419726,
+    "wof:lastmodified":1492118609,
     "wof:name":"Spurs & Roses Country",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

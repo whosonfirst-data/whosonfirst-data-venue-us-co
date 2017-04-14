@@ -2,9 +2,14 @@
   "id": 823795003,
   "type": "Feature",
   "properties": {
+    "addr:full":"610 State Ave Alamosa CO 81101",
+    "addr:housenumber":"610",
+    "addr:postcode":"81101",
+    "addr:street":"State Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.865404,37.467055,-105.865404,37.467055",
     "geom:latitude":37.467055,
     "geom:longitude":-105.865404,
@@ -28,17 +33,32 @@
         "resource"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929545,
+        102084133
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3z3oKVVeuGoYOh6V080vRx_37.467055_-105.865404@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446574,
-    "wof:geomhash":"653082c2467d7bff83e9b8e5b7c7eae7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6de60fdd2f5f92737b2ed2e23085215a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084133,
+            "locality_id":85929545,
+            "region_id":85688603,
+            "venue_id":823795003
+        }
+    ],
     "wof:id":823795003,
-    "wof:lastmodified":1466419242,
+    "wof:lastmodified":1492120452,
     "wof:name":"Alamosa Food Stamp Program",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

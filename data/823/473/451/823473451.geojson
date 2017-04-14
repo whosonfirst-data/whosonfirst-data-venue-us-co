@@ -2,9 +2,14 @@
   "id": 823473451,
   "type": "Feature",
   "properties": {
+    "addr:full":"3550 S Kendall St Denver CO 80235",
+    "addr:housenumber":"3550",
+    "addr:postcode":"80235",
+    "addr:street":"S Kendall St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.06672,39.651451,-105.06672,39.651451",
     "geom:latitude":39.651451,
     "geom:longitude":-105.06672,
@@ -27,19 +32,38 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871249,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5d57jyVAk4SbvCptJpvdBe_39.651451_-105.066720@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438915,
-    "wof:geomhash":"44d97769c9024a0268b97fafaadd3d3c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5edbb64c1e11d7fd1135c9de8fbc8c3c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871249,
+            "region_id":85688603,
+            "venue_id":823473451
+        }
+    ],
     "wof:id":823473451,
-    "wof:lastmodified":1466412685,
+    "wof:lastmodified":1492119327,
     "wof:name":"Peachtree Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

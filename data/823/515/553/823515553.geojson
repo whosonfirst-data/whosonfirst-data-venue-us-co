@@ -2,9 +2,14 @@
   "id": 823515553,
   "type": "Feature",
   "properties": {
+    "addr:full":"6252 W 104th Ave Broomfield CO 80020",
+    "addr:housenumber":"6252",
+    "addr:postcode":"80020",
+    "addr:street":"W 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.063455,39.885904,-105.063455,39.885904",
     "geom:latitude":39.885904,
     "geom:longitude":-105.063455,
@@ -36,19 +41,36 @@
         "invertebrate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554567
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0IBEyCspohSVBLOQ0Vrtoj_39.885904_-105.063455@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439918,
-    "wof:geomhash":"646a992984252e065c00ab7a29f6c9a4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fbd34f2d7594a50c3922da482e521c6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554567,
+            "region_id":85688603,
+            "venue_id":823515553
+        }
+    ],
     "wof:id":823515553,
-    "wof:lastmodified":1466414807,
+    "wof:lastmodified":1492122683,
     "wof:name":"Butterfly Pavilion Insect Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554567,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839924107,
   "type": "Feature",
   "properties": {
+    "addr:full":"6800 W 5th Ave Denver CO 80226",
+    "addr:housenumber":"6800",
+    "addr:postcode":"80226",
+    "addr:street":"W 5Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.075527,39.724205,-105.075527,39.724205",
     "geom:latitude":39.724205,
     "geom:longitude":-105.075527,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1JWXUGQL2BgfksvrB2zGtc_39.724205_-105.075527@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457683,
-    "wof:geomhash":"d585e9bbf8f0245f3738704e80042993",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e15795f23716f3ed3404bc8dfb736eb7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":839924107
+        }
+    ],
     "wof:id":839924107,
-    "wof:lastmodified":1466413804,
+    "wof:lastmodified":1492111023,
     "wof:name":"Blackadar Const Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

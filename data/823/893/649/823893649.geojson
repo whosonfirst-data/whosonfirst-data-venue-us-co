@@ -2,9 +2,14 @@
   "id": 823893649,
   "type": "Feature",
   "properties": {
+    "addr:full":"2363 Ranch Dr Denver CO 80234",
+    "addr:housenumber":"2363",
+    "addr:postcode":"80234",
+    "addr:street":"Ranch Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.014491,39.901254,-105.014491,39.901254",
     "geom:latitude":39.901254,
     "geom:longitude":-105.014491,
@@ -29,19 +34,36 @@
         "floor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553847
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6TLNrPLrb8Ur16469Wpgpp_39.901254_-105.014491@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449289,
-    "wof:geomhash":"e396611470ca39ed617486800ba4227d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5caad69c32baa259c5485a82ad8190f6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553847,
+            "region_id":85688603,
+            "venue_id":823893649
+        }
+    ],
     "wof:id":823893649,
-    "wof:lastmodified":1466420183,
+    "wof:lastmodified":1492118213,
     "wof:name":"Home Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553847,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

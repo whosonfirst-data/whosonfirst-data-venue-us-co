@@ -2,9 +2,14 @@
   "id": 823597817,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 Jessup St Brighton CO 80601",
+    "addr:housenumber":"101",
+    "addr:postcode":"80601",
+    "addr:street":"Jessup St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.820877,39.977419,-104.820877,39.977419",
     "geom:latitude":39.977419,
     "geom:longitude":-104.820877,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Nv4wBuQoT1vwc0nH7Cx95_39.977419_-104.820877@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441833,
-    "wof:geomhash":"6f1ec155ab9ee14382f7cd416e8c294f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d8bad70959965998aa129759659f6a2c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823597817
+        }
+    ],
     "wof:id":823597817,
-    "wof:lastmodified":1466417150,
+    "wof:lastmodified":1492116603,
     "wof:name":"Miller's Garage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

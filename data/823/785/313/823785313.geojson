@@ -2,9 +2,14 @@
   "id": 823785313,
   "type": "Feature",
   "properties": {
+    "addr:full":"30 N Ash St Cortez CO 81321",
+    "addr:housenumber":"30",
+    "addr:postcode":"81321",
+    "addr:street":"N Ash St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.582461,37.349422,-108.582461,37.349422",
     "geom:latitude":37.349422,
     "geom:longitude":-108.582461,
@@ -29,19 +34,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6eIVjfa3elClZ6y91UJ1Zx_37.349422_-108.582461@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446259,
-    "wof:geomhash":"59089c5e32e48cddb896da387d4207c9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f95c053d46c114297841eda723c6013a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823785313
+        }
+    ],
     "wof:id":823785313,
-    "wof:lastmodified":1466419250,
+    "wof:lastmodified":1492125221,
     "wof:name":"Cortez Fire Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

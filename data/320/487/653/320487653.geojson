@@ -2,9 +2,14 @@
   "id": 320487653,
   "type": "Feature",
   "properties": {
+    "addr:full":"7001 Yampa St Denver CO 80249",
+    "addr:housenumber":"7001",
+    "addr:postcode":"80249",
+    "addr:street":"Yampa St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.774292,39.821869,-104.774292,39.821869",
     "geom:latitude":39.821869,
     "geom:longitude":-104.774292,
@@ -51,11 +56,14 @@
     "sg:website":"http://www.embassysuitesdenverairport.com",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        102531189,
+        1108750063,
+        102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85888349
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -65,19 +73,21 @@
     "wof:geomhash":"fa6b69669a232358689edc08ab9bf7a0",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "campus_id":102531189,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85888349,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750063,
             "region_id":85688603,
             "venue_id":320487653
         }
     ],
     "wof:id":320487653,
-    "wof:lastmodified":1466413403,
+    "wof:lastmodified":1491919528,
     "wof:name":"Embassy Suites Denver-International Airport",
-    "wof:parent_id":85888349,
+    "wof:parent_id":102531189,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

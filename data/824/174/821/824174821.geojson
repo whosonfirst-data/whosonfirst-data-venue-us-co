@@ -2,9 +2,14 @@
   "id": 824174821,
   "type": "Feature",
   "properties": {
+    "addr:full":"2600 Picadilly Rd Aurora CO 80019",
+    "addr:housenumber":"2600",
+    "addr:postcode":"80019",
+    "addr:street":"Picadilly Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.73462,39.755298,-104.73462,39.755298",
     "geom:latitude":39.755298,
     "geom:longitude":-104.73462,
@@ -30,19 +35,36 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553951
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7meRgXOtQljHhXvGx7Z1Pn_39.755298_-104.734620@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456873,
-    "wof:geomhash":"5799783a1a08ec8d012239dac0cd4f84",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d2618790897111e76d8c89749e76e6d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553951,
+            "region_id":85688603,
+            "venue_id":824174821
+        }
+    ],
     "wof:id":824174821,
-    "wof:lastmodified":1466418027,
+    "wof:lastmodified":1492133231,
     "wof:name":"Yos Phase II",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553951,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

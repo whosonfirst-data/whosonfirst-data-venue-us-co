@@ -2,9 +2,14 @@
   "id": 823534473,
   "type": "Feature",
   "properties": {
+    "addr:full":"253 Co Rd 216 Durango CO 81303",
+    "addr:housenumber":"253;216",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.876059,37.114761,-107.876059,37.114761",
     "geom:latitude":37.114761,
     "geom:longitude":-107.876059,
@@ -24,19 +29,34 @@
     "sg:postcode":"81303",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554651,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0VoLtZf9X0lQUvV9jB9grk_37.114761_-107.876059@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440345,
-    "wof:geomhash":"0140f08a1de55ecca7706e9347f5ce13",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5004b6823eda326cd0c8ffb1caf64013",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554651,
+            "venue_id":823534473
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823534473
+        }
+    ],
     "wof:id":823534473,
-    "wof:lastmodified":1466415093,
+    "wof:lastmodified":1492126105,
     "wof:name":"Sunnyside Meats Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

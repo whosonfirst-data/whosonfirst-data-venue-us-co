@@ -2,9 +2,14 @@
   "id": 839911573,
   "type": "Feature",
   "properties": {
+    "addr:full":"3215 W 4th Ave Durango CO 81301",
+    "addr:housenumber":"3215",
+    "addr:postcode":"co 81301",
+    "addr:street":"W 4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.873239,37.302188,-107.873239,37.302188",
     "geom:latitude":37.302188,
     "geom:longitude":-107.873239,
@@ -27,19 +32,38 @@
         "paralegal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611,
+        85688603,
+        85888419,
+        102084019
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4mOV7XvHGUPXemSIfyjd78_37.302188_-107.873239@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457168,
-    "wof:geomhash":"5a788df24eb81378271630a661967469",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d91b15bbe178f1d491f8ff6e18546be2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":839911573
+        },
+        {
+            "country_id":85633793,
+            "county_id":102084019,
+            "neighbourhood_id":85888419,
+            "region_id":85688603,
+            "venue_id":839911573
+        }
+    ],
     "wof:id":839911573,
-    "wof:lastmodified":1466412260,
+    "wof:lastmodified":1492113125,
     "wof:name":"Colorado Litigation Support",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

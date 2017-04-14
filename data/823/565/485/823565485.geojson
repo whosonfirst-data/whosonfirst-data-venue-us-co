@@ -2,9 +2,14 @@
   "id": 823565485,
   "type": "Feature",
   "properties": {
+    "addr:full":"7320 Canosa Ct Westminster CO 80030",
+    "addr:housenumber":"7320",
+    "addr:postcode":"80030",
+    "addr:street":"Canosa Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.019572,39.830444,-105.019572,39.830444",
     "geom:latitude":39.830444,
     "geom:longitude":-105.019572,
@@ -27,19 +32,36 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553585
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_02Ry0mToZtSbsU4e2LEs39_39.830444_-105.019572@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441071,
-    "wof:geomhash":"12e96f7a9f68aaca53cacbfe219bbafb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c728ee3925cf43bbdbb446cd4b9ae921",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553585,
+            "region_id":85688603,
+            "venue_id":823565485
+        }
+    ],
     "wof:id":823565485,
-    "wof:lastmodified":1466416160,
+    "wof:lastmodified":1492119222,
     "wof:name":"Automatic Appliance Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553585,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

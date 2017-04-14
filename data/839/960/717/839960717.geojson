@@ -2,9 +2,14 @@
   "id": 839960717,
   "type": "Feature",
   "properties": {
+    "addr:full":"525 Courtney Way Lafayette CO 80026",
+    "addr:housenumber":"525",
+    "addr:postcode":"80026",
+    "addr:street":"Courtney Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.095776,39.983726,-105.095776,39.983726",
     "geom:latitude":39.983726,
     "geom:longitude":-105.095776,
@@ -28,19 +33,36 @@
         "rental"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251,
+        420554039
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2veu2Px5TzfyzVONwsvxQB_39.983726_-105.095776@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459637,
-    "wof:geomhash":"d005c99bde6db65e13855542da793479",
-    "wof:hierarchy":[],
+    "wof:geomhash":"207019f655979e75ba06de08637b45a5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "neighbourhood_id":420554039,
+            "region_id":85688603,
+            "venue_id":839960717
+        }
+    ],
     "wof:id":839960717,
-    "wof:lastmodified":1466415607,
+    "wof:lastmodified":1492111654,
     "wof:name":"Dog House Music Rehearsal Stds",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554039,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823930961,
   "type": "Feature",
   "properties": {
+    "addr:full":"1711 Altura Blvd Aurora CO 80011",
+    "addr:housenumber":"1711",
+    "addr:postcode":"80011",
+    "addr:street":"Altura Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.8148,39.745042,-104.8148,39.745042",
     "geom:latitude":39.745042,
     "geom:longitude":-104.8148,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_44PCmwSTelyQ6cSC9yySoP_39.745042_-104.814800@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450267,
-    "wof:geomhash":"77e7143c23eb1bea51ac7508f0cf2b56",
-    "wof:hierarchy":[],
+    "wof:geomhash":"447f976e37d65fcaa64f1418bf392b32",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":823930961
+        }
+    ],
     "wof:id":823930961,
-    "wof:lastmodified":1466420235,
+    "wof:lastmodified":1492120953,
     "wof:name":"Mount Moriah Missionary Bapt",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

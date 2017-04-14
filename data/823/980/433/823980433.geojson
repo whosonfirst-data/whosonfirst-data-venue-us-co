@@ -2,9 +2,14 @@
   "id": 823980433,
   "type": "Feature",
   "properties": {
+    "addr:full":"2750 Co Rd 102 Rangely CO 81648",
+    "addr:housenumber":"2750",
+    "addr:postcode":"81648",
+    "addr:street":"Co Rd 102 Rangely",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.862746,40.081798,-108.862746,40.081798",
     "geom:latitude":40.081798,
     "geom:longitude":-108.862746,
@@ -28,17 +33,30 @@
         "pipeline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102084117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2HERglsz2mSjdVef3S0KU6_40.081798_-108.862746@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451495,
-    "wof:geomhash":"9d0827ef033a52714046d252d46ebed5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"295c086a2c52008f8210b3ce7c2ca508",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084117,
+            "region_id":85688603,
+            "venue_id":823980433
+        }
+    ],
     "wof:id":823980433,
-    "wof:lastmodified":1466420915,
+    "wof:lastmodified":1492124874,
     "wof:name":"Chevron",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

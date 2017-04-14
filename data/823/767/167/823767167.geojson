@@ -2,9 +2,14 @@
   "id": 823767167,
   "type": "Feature",
   "properties": {
+    "addr:full":"845 Walnut St Boulder CO 80302",
+    "addr:housenumber":"845",
+    "addr:postcode":"80302",
+    "addr:street":"Walnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.284161,40.016027,-105.284161,40.016027",
     "geom:latitude":40.016027,
     "geom:longitude":-105.284161,
@@ -24,7 +29,14 @@
     "sg:postcode":"80302",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3zcmHEgh66fZuGG5LsiuVA_40.016027_-105.284161@1294083659"
@@ -32,11 +44,21 @@
     "wof:country":"US",
     "wof:created":1463445761,
     "wof:geomhash":"33a15939568a7a9dfb7153c85034579b",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823767167
+        }
+    ],
     "wof:id":823767167,
-    "wof:lastmodified":1466419196,
+    "wof:lastmodified":1491897915,
     "wof:name":"Van Heyst Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

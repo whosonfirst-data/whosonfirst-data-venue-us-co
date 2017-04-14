@@ -2,9 +2,14 @@
   "id": 839956661,
   "type": "Feature",
   "properties": {
+    "addr:full":"6875 E Colfax Ave Denver CO 80220",
+    "addr:housenumber":"6875",
+    "addr:postcode":"80220",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.908908,39.740223,-104.908908,39.740223",
     "geom:latitude":39.740223,
     "geom:longitude":-104.908908,
@@ -29,12 +34,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750053,
+        85840547,
         102191575,
+        1108750055,
         85633793,
         85928879,
         102086135,
-        85868405
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -49,15 +56,17 @@
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85868405,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750053,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":839956661
         }
     ],
     "wof:id":839956661,
-    "wof:lastmodified":1466415339,
+    "wof:lastmodified":1486604459,
     "wof:name":"Ola's Emission",
-    "wof:parent_id":85868405,
+    "wof:parent_id":1108750053,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

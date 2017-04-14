@@ -2,9 +2,14 @@
   "id": 824176243,
   "type": "Feature",
   "properties": {
+    "addr:full":"2535 W Barberry Pl Denver CO 80204",
+    "addr:housenumber":"2535",
+    "addr:postcode":"80204",
+    "addr:street":"W Barberry Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018676,39.730371,-105.018676,39.730371",
     "geom:latitude":39.730371,
     "geom:longitude":-105.018676,
@@ -31,7 +36,15 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2UcWOkD25e0OPLAMNrsyze_39.730371_-105.018676@1294083659"
@@ -39,11 +52,22 @@
     "wof:country":"US",
     "wof:created":1463456923,
     "wof:geomhash":"b23d425d0992f0f7593c0314fffbbddb",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":824176243
+        }
+    ],
     "wof:id":824176243,
-    "wof:lastmodified":1466417987,
+    "wof:lastmodified":1486588691,
     "wof:name":"Air Handlers Supply Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

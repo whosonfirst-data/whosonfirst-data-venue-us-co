@@ -2,9 +2,14 @@
   "id": 824008331,
   "type": "Feature",
   "properties": {
+    "addr:full":"5707 E 122nd Dr Brighton CO 80602",
+    "addr:housenumber":"5707",
+    "addr:postcode":"80602",
+    "addr:street":"E 122Nd Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.919036,39.918344,-104.919036,39.918344",
     "geom:latitude":39.918344,
     "geom:longitude":-104.919036,
@@ -27,19 +32,36 @@
         "agency"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72YTBOh4X8fGzDu1EIGgBq_39.918344_-104.919036@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452163,
-    "wof:geomhash":"3338b970e7143fee22cca675034b36a6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5aea882dfa220878abecf06f23800b3e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":824008331
+        }
+    ],
     "wof:id":824008331,
-    "wof:lastmodified":1466412760,
+    "wof:lastmodified":1492129975,
     "wof:name":"Appleberry Vacations",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

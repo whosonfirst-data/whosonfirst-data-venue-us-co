@@ -2,9 +2,14 @@
   "id": 823653529,
   "type": "Feature",
   "properties": {
+    "addr:full":"640 S Surrey Ct Grand Junction CO 81503",
+    "addr:housenumber":"640",
+    "addr:postcode":"81503",
+    "addr:street":"S Surrey Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.669394,39.096602,-108.669394,39.096602",
     "geom:latitude":39.096602,
     "geom:longitude":-108.669394,
@@ -28,19 +33,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554953
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1J4R7skKjjRmQZMYkYKqCn_39.096602_-108.669394@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443157,
-    "wof:geomhash":"aa808e17ee21589d484c261184dd9bad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e0fb8daaece498a79402f36151a0cfba",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554953,
+            "region_id":85688603,
+            "venue_id":823653529
+        }
+    ],
     "wof:id":823653529,
-    "wof:lastmodified":1466418126,
+    "wof:lastmodified":1492122353,
     "wof:name":"J S Consulting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554953,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

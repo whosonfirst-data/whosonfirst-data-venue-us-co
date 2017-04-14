@@ -2,9 +2,14 @@
   "id": 823977683,
   "type": "Feature",
   "properties": {
+    "addr:full":"1970 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"1970;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.83699,37.319919,-107.83699,37.319919",
     "geom:latitude":37.319919,
     "geom:longitude":-107.83699,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1LPXsWGluVtfEfx5uT2BmH_37.319919_-107.836990@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451420,
-    "wof:geomhash":"8e6a0db66684a39d8475f701ace1b04f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a36641e68b0236bdcbd21960a5ac55a0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823977683
+        }
+    ],
     "wof:id":823977683,
-    "wof:lastmodified":1466420900,
+    "wof:lastmodified":1492125486,
     "wof:name":"Electric Blues Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

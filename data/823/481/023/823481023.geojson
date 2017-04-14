@@ -2,9 +2,14 @@
   "id": 823481023,
   "type": "Feature",
   "properties": {
+    "addr:full":"12600 Co Rd 29 Dolores CO 81323",
+    "addr:housenumber":"12600;29",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.517458,37.396253,-108.517458,37.396253",
     "geom:latitude":37.396253,
     "geom:longitude":-108.517458,
@@ -27,19 +32,28 @@
         "livestock"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_31ZHFcnvLsJe7KIrbL1ZtE_37.396253_-108.517458@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439099,
-    "wof:geomhash":"8363c75549457afa9ea06463589830c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5642d2586ac58d28bd714cee3d4751fc",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823481023
+        }
+    ],
     "wof:id":823481023,
-    "wof:lastmodified":1466413458,
+    "wof:lastmodified":1492120362,
     "wof:name":"Joy L Steerman",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

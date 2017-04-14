@@ -2,9 +2,14 @@
   "id": 824092409,
   "type": "Feature",
   "properties": {
+    "addr:full":"8430 Federal Blvd Westminster CO 80031",
+    "addr:housenumber":"8430",
+    "addr:postcode":"80031",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024755,39.850194,-105.024755,39.850194",
     "geom:latitude":39.850194,
     "geom:longitude":-105.024755,
@@ -27,19 +32,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553589
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6bLCGqEcxR1QI6iqxu3m0E_39.850194_-105.024755@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454138,
-    "wof:geomhash":"c143e447bb8586489a60ece581e9bb8b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a9f54cbe301d3408e6d15dc2e3036ffd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553589,
+            "region_id":85688603,
+            "venue_id":824092409
+        }
+    ],
     "wof:id":824092409,
-    "wof:lastmodified":1466415053,
+    "wof:lastmodified":1492129005,
     "wof:name":"Safeway",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553589,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

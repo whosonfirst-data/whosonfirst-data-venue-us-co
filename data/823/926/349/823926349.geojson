@@ -2,9 +2,14 @@
   "id": 823926349,
   "type": "Feature",
   "properties": {
+    "addr:full":"2827 W 9th Ave Denver CO 80204",
+    "addr:housenumber":"2827",
+    "addr:postcode":"80204",
+    "addr:street":"W 9Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02481,39.731269,-105.02481,39.731269",
     "geom:latitude":39.731269,
     "geom:longitude":-105.02481,
@@ -27,7 +32,15 @@
         "fence"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2SWbmyt4eMz0b3gPSoLAnw_39.731269_-105.024810@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463450157,
     "wof:geomhash":"779be0c5019e9960bbfb5380e84abce6",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":823926349
+        }
+    ],
     "wof:id":823926349,
-    "wof:lastmodified":1466420413,
+    "wof:lastmodified":1486588679,
     "wof:name":"Southwest Construction Supply",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

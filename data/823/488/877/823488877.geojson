@@ -2,9 +2,14 @@
   "id": 823488877,
   "type": "Feature",
   "properties": {
+    "addr:full":"2061 Co Rd 225 Durango CO 81301",
+    "addr:housenumber":"2061;225",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.773808,37.256081,-107.773808,37.256081",
     "geom:latitude":37.256081,
     "geom:longitude":-107.773808,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2gCh2rT0fLGjAbe9CqYis0_37.256081_-107.773808@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439288,
-    "wof:geomhash":"a46c90812964d954fa5ecd482a75cab6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c33fbf2c7f4cf1f70bb765d5ddad3c7f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823488877
+        }
+    ],
     "wof:id":823488877,
-    "wof:lastmodified":1466413741,
+    "wof:lastmodified":1492122766,
     "wof:name":"Frontier Baptist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

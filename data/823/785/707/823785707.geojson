@@ -2,9 +2,14 @@
   "id": 823785707,
   "type": "Feature",
   "properties": {
+    "addr:full":"4567 Sandpiper Ct Boulder CO 80301",
+    "addr:housenumber":"4567",
+    "addr:postcode":"80301",
+    "addr:street":"Sandpiper Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.20032,40.055673,-105.20032,40.055673",
     "geom:latitude":40.055673,
     "geom:longitude":-105.20032,
@@ -24,19 +29,28 @@
     "sg:postcode":"80301",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553987
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6x0Xgt9WyRaedOPgWBzFeP_40.055673_-105.200320@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446272,
-    "wof:geomhash":"b7ab1d50ad35dd44b33b37a78b0ef741",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e30f2ae8a8f5d96bcfb37445bd98fb1b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553987,
+            "venue_id":823785707
+        }
+    ],
     "wof:id":823785707,
-    "wof:lastmodified":1466419297,
+    "wof:lastmodified":1492125218,
     "wof:name":"Ron Smaron LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553987,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

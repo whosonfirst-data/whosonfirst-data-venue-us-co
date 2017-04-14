@@ -2,9 +2,14 @@
   "id": 824152895,
   "type": "Feature",
   "properties": {
+    "addr:full":"7111 Kalamath St Denver CO 80221",
+    "addr:housenumber":"7111",
+    "addr:postcode":"80221",
+    "addr:street":"Kalamath St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00018,39.826451,-105.00018,39.826451",
     "geom:latitude":39.826451,
     "geom:longitude":-105.00018,
@@ -28,19 +33,36 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3YLgroP9jaQZsw8XjBConJ_39.826451_-105.000180@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456015,
-    "wof:geomhash":"318d31475f33e09b79915e904c370478",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0a69aad0a48b0f72f4101bf88a901cb6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":824152895
+        }
+    ],
     "wof:id":824152895,
-    "wof:lastmodified":1466416920,
+    "wof:lastmodified":1492132919,
     "wof:name":"L J Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

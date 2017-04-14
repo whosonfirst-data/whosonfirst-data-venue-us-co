@@ -2,9 +2,14 @@
   "id": 823688817,
   "type": "Feature",
   "properties": {
+    "addr:full":"10120 Grant St Denver CO 80229",
+    "addr:housenumber":"10120",
+    "addr:postcode":"80229",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.982364,39.880434,-104.982364,39.880434",
     "geom:latitude":39.880434,
     "geom:longitude":-104.982364,
@@ -29,19 +34,36 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553715
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Ogq4fnHiepDxup5K57GBD_39.880434_-104.982364@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443987,
-    "wof:geomhash":"095203df3ae2efddd6d3e7c018852fae",
-    "wof:hierarchy":[],
+    "wof:geomhash":"155d02fbe351e2f449876b5b9e041f53",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553715,
+            "region_id":85688603,
+            "venue_id":823688817
+        }
+    ],
     "wof:id":823688817,
-    "wof:lastmodified":1466418460,
+    "wof:lastmodified":1492126187,
     "wof:name":"Abra Auto Body & Glass",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553715,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

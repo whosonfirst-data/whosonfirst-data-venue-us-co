@@ -2,9 +2,14 @@
   "id": 823795355,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 Belleview Ave Crested Butte CO 81224",
+    "addr:housenumber":"500",
+    "addr:postcode":"81224",
+    "addr:street":"Belleview Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.981814,38.867041,-106.981814,38.867041",
     "geom:latitude":38.867041,
     "geom:longitude":-106.981814,
@@ -27,19 +32,46 @@
         "delivery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929655,
+        102083377,
+        85888329,
+        420554503
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Y0J5gfSd6GsnRpekzpaOh_38.867041_-106.981814@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446585,
-    "wof:geomhash":"784659010ccf3a130f3a1c352ca65bca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1fa05e60af93d398e98618cb95c29e9f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":85888329,
+            "region_id":85688603,
+            "venue_id":823795355
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554503,
+            "region_id":85688603,
+            "venue_id":823795355
+        }
+    ],
     "wof:id":823795355,
-    "wof:lastmodified":1466419284,
+    "wof:lastmodified":1492120435,
     "wof:name":"Ramon's Delivery",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

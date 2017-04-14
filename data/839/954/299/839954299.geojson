@@ -2,9 +2,14 @@
   "id": 839954299,
   "type": "Feature",
   "properties": {
+    "addr:full":"10230 E 149th Ct Brighton CO 80602",
+    "addr:housenumber":"10230",
+    "addr:postcode":"80602",
+    "addr:street":"E 149Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.872969,39.967344,-104.872969,39.967344",
     "geom:latitude":39.967344,
     "geom:longitude":-104.872969,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_68swLJLQamdqHjPwGQoPIr_39.967344_-104.872969@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459366,
-    "wof:geomhash":"0751526828198fd05218c02554d0704e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5e0300d010bb9fb8b83f9361f7c0bf5d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553381,
+            "region_id":85688603,
+            "venue_id":839954299
+        }
+    ],
     "wof:id":839954299,
-    "wof:lastmodified":1466415410,
+    "wof:lastmodified":1492113896,
     "wof:name":"Blessings Electrical Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823682747,
   "type": "Feature",
   "properties": {
+    "addr:full":"4395 W 144th Ave Broomfield CO 80023",
+    "addr:housenumber":"4395",
+    "addr:postcode":"80023",
+    "addr:street":"W 144Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.038896,39.957712,-105.038896,39.957712",
     "geom:latitude":39.957712,
     "geom:longitude":-105.038896,
@@ -28,19 +33,36 @@
         "city"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554237
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5b2sSLUiccKRLDImjvu5B0_39.957712_-105.038896@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443847,
-    "wof:geomhash":"487a7226fb5b71eda93259ed501f2bac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e6a505319c67b4de62db29462fb7fb51",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554237,
+            "region_id":85688603,
+            "venue_id":823682747
+        }
+    ],
     "wof:id":823682747,
-    "wof:lastmodified":1466418446,
+    "wof:lastmodified":1492116750,
     "wof:name":"Broomfield Water Treatment",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554237,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

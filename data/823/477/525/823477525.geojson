@@ -2,9 +2,14 @@
   "id": 823477525,
   "type": "Feature",
   "properties": {
+    "addr:full":"95 S Sheridan Blvd Denver CO 80226",
+    "addr:housenumber":"95",
+    "addr:postcode":"80226",
+    "addr:street":"S Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053345,39.716563,-105.053345,39.716563",
     "geom:latitude":39.716563,
     "geom:longitude":-105.053345,
@@ -28,19 +33,36 @@
         "tape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_68apCe1wqYZ4QJn8Pkc5rb_39.716563_-105.053345@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439019,
-    "wof:geomhash":"0c0c06cc0105eb138f11df03d577b645",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f9c1f8827068df996ec2e0b933c8d507",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823477525
+        }
+    ],
     "wof:id":823477525,
-    "wof:lastmodified":1466413090,
+    "wof:lastmodified":1492124181,
     "wof:name":"Pleasures Video Palace",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

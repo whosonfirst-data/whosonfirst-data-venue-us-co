@@ -2,9 +2,14 @@
   "id": 824068201,
   "type": "Feature",
   "properties": {
+    "addr:full":"4407 W 34th Ave Denver CO 80212",
+    "addr:housenumber":"4407",
+    "addr:postcode":"80212",
+    "addr:street":"W 34Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.044881,39.764906,-105.044881,39.764906",
     "geom:latitude":39.764906,
     "geom:longitude":-105.044881,
@@ -27,19 +32,38 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_38SmBqs5WmFTIfbiMEVzqc_39.764906_-105.044881@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453569,
-    "wof:geomhash":"cb7c241e02fa7e5b91d3f43046284bd2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7257bbe0efc1f345f413cb56ae3b7b63",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":824068201
+        }
+    ],
     "wof:id":824068201,
-    "wof:lastmodified":1466414557,
+    "wof:lastmodified":1492131569,
     "wof:name":"Built Wright Home Improvement",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

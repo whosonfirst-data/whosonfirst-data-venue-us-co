@@ -2,9 +2,14 @@
   "id": 823754051,
   "type": "Feature",
   "properties": {
+    "addr:full":"5550 E Yale Ave Denver CO 80222",
+    "addr:housenumber":"5550",
+    "addr:postcode":"80222",
+    "addr:street":"E Yale Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.922638,39.667578,-104.922638,39.667578",
     "geom:latitude":39.667578,
     "geom:longitude":-104.922638,
@@ -29,12 +34,16 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        85871343,
         102191575,
+        1108750035,
         85633793,
+        85928879,
+        102086135,
+        85688603,
         85930653,
         102086877,
-        85866869
+        420559699
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,22 +51,32 @@
     },
     "wof:country":"US",
     "wof:created":1463445483,
-    "wof:geomhash":"56e53e3f12fb3c8ec9d2ff53b4bc777c",
+    "wof:geomhash":"b14e1751b0c1909495bfc21f2f96ddda",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871343,
+            "region_id":85688603,
+            "venue_id":823754051
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086877,
             "locality_id":85930653,
-            "neighbourhood_id":85866869,
+            "neighbourhood_id":420559699,
             "region_id":85688603,
             "venue_id":823754051
         }
     ],
     "wof:id":823754051,
-    "wof:lastmodified":1466418982,
+    "wof:lastmodified":1492117502,
     "wof:name":"Stresscon Corp",
-    "wof:parent_id":85866869,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

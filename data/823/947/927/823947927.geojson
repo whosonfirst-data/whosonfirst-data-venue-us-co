@@ -2,9 +2,14 @@
   "id": 823947927,
   "type": "Feature",
   "properties": {
+    "addr:full":"8004 Sherman St Denver CO 80221",
+    "addr:housenumber":"8004",
+    "addr:postcode":"80221",
+    "addr:street":"Sherman St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.985047,39.842673,-104.985047,39.842673",
     "geom:latitude":39.842673,
     "geom:longitude":-104.985047,
@@ -28,19 +33,36 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3QWRG0r4FN4wFbilRzOe02_39.842673_-104.985047@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450731,
-    "wof:geomhash":"5088bdc323510c5d9208d35a067c19e5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"88374cf411793d56ebe2687433b00594",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":823947927
+        }
+    ],
     "wof:id":823947927,
-    "wof:lastmodified":1466420490,
+    "wof:lastmodified":1492123759,
     "wof:name":"Simco Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824077063,
   "type": "Feature",
   "properties": {
+    "addr:full":"3751 Fraser St Aurora CO 80011",
+    "addr:housenumber":"3751",
+    "addr:postcode":"80011",
+    "addr:street":"Fraser St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.812504,39.76924,-104.812504,39.76924",
     "geom:latitude":39.76924,
     "geom:longitude":-104.812504,
@@ -27,19 +32,36 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4vKHc5MJyzPkly8L13k5mn_39.769240_-104.812504@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453785,
-    "wof:geomhash":"95916ba00224fc0eb2e8c2c798a0e81e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"08137ef1c72d6d1b3ff668af24380462",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553641,
+            "region_id":85688603,
+            "venue_id":824077063
+        }
+    ],
     "wof:id":824077063,
-    "wof:lastmodified":1466414659,
+    "wof:lastmodified":1492131468,
     "wof:name":"Gateway Service Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

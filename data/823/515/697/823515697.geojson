@@ -2,9 +2,14 @@
   "id": 823515697,
   "type": "Feature",
   "properties": {
+    "addr:full":"12955 Albrook Dr Denver CO 80239",
+    "addr:housenumber":"12955",
+    "addr:postcode":"80239",
+    "addr:street":"Albrook Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.841285,39.780407,-104.841285,39.780407",
     "geom:latitude":39.780407,
     "geom:longitude":-104.841285,
@@ -24,7 +29,15 @@
     "sg:postcode":"80239",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1m2F1zePSrAMiyF2l0voFO_39.780407_-104.841285@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463439920,
     "wof:geomhash":"12ae312d1eb79b1f62a413bfca23865b",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823515697
+        }
+    ],
     "wof:id":823515697,
-    "wof:lastmodified":1466414745,
+    "wof:lastmodified":1491887481,
     "wof:name":"Montbello Library",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

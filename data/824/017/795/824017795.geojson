@@ -2,9 +2,14 @@
   "id": 824017795,
   "type": "Feature",
   "properties": {
+    "addr:full":"545 Grand Mesa Ave Grand Junction CO 81503",
+    "addr:housenumber":"545",
+    "addr:postcode":"81503",
+    "addr:street":"Grand Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.564067,39.051908,-108.564067,39.051908",
     "geom:latitude":39.051908,
     "geom:longitude":-108.564067,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420555011
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Opawfd0nv13INeIO6nep5_39.051908_-108.564067@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452374,
-    "wof:geomhash":"98665fce45a4f5b9868d42747faf94b2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c1c74d36001f08bed07bd3837185b452",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555011,
+            "region_id":85688603,
+            "venue_id":824017795
+        }
+    ],
     "wof:id":824017795,
-    "wof:lastmodified":1466413571,
+    "wof:lastmodified":1492129249,
     "wof:name":"Ashley Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555011,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

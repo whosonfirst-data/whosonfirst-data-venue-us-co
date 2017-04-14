@@ -2,9 +2,14 @@
   "id": 823475641,
   "type": "Feature",
   "properties": {
+    "addr:full":"5516 W 4th Ave Denver CO 80226",
+    "addr:housenumber":"5516",
+    "addr:postcode":"80226",
+    "addr:street":"W 4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.057672,39.723037,-105.057672,39.723037",
     "geom:latitude":39.723037,
     "geom:longitude":-105.057672,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2E9Sk46ivXjp6bLiJFUnf7_39.723037_-105.057672@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438967,
-    "wof:geomhash":"2f1b5ecd6a53cfec4a453fbdfe2e4df8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"56d7e57652a8d527fb1a4d2faa2616e4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823475641
+        }
+    ],
     "wof:id":823475641,
-    "wof:lastmodified":1466412852,
+    "wof:lastmodified":1492122791,
     "wof:name":"Moses & Guman Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

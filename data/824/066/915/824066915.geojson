@@ -2,9 +2,14 @@
   "id": 824066915,
   "type": "Feature",
   "properties": {
+    "addr:full":"2561 E 98th Ave Denver CO 80229",
+    "addr:housenumber":"2561",
+    "addr:postcode":"80229",
+    "addr:street":"E 98Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.954235,39.873482,-104.954235,39.873482",
     "geom:latitude":39.873482,
     "geom:longitude":-104.954235,
@@ -27,19 +32,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1i8uSHW33AxtoVkQdO320Z_39.873482_-104.954235@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453543,
-    "wof:geomhash":"785eed749407df1987ca87d49b6c22fa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d923da5f60355cecff30863120dd9841",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":824066915
+        }
+    ],
     "wof:id":824066915,
-    "wof:lastmodified":1466414558,
+    "wof:lastmodified":1492132457,
     "wof:name":"Anything N Glass",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

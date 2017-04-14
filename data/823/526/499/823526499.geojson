@@ -2,9 +2,14 @@
   "id": 823526499,
   "type": "Feature",
   "properties": {
+    "addr:full":"8601 Turnpike Dr Westminster CO 80031",
+    "addr:housenumber":"8601",
+    "addr:postcode":"80031",
+    "addr:street":"Turnpike Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05122,39.85191,-105.05122,39.85191",
     "geom:latitude":39.85191,
     "geom:longitude":-105.05122,
@@ -27,19 +32,36 @@
         "periodical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_55g1lp1IMswaOY4yeke376_39.851910_-105.051220@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440178,
-    "wof:geomhash":"072eac341f5ec8774529467a1216f5b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c0884b4637bcb52a78f2c0b1562e45c5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823526499
+        }
+    ],
     "wof:id":823526499,
-    "wof:lastmodified":1466414979,
+    "wof:lastmodified":1492125202,
     "wof:name":"Mile High Sports Magazine",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

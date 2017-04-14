@@ -2,9 +2,14 @@
   "id": 823774609,
   "type": "Feature",
   "properties": {
+    "addr:full":"8416 Federal Blvd Westminster CO 80031",
+    "addr:housenumber":"8416",
+    "addr:postcode":"80031",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024756,39.850447,-105.024756,39.850447",
     "geom:latitude":39.850447,
     "geom:longitude":-105.024756,
@@ -28,19 +33,36 @@
         "check"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553589
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7mRt9R1TK159jXZ4JDhlJO_39.850447_-105.024756@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445945,
-    "wof:geomhash":"a301d5dd10408702b63ee7c96a22029b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cc1fc8b7df9efeee09e4822d51c6cc0b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553589,
+            "region_id":85688603,
+            "venue_id":823774609
+        }
+    ],
     "wof:id":823774609,
-    "wof:lastmodified":1466419212,
+    "wof:lastmodified":1492124116,
     "wof:name":"Loan Mart 3540",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553589,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

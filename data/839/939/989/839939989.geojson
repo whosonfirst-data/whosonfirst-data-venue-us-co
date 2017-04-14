@@ -2,9 +2,14 @@
   "id": 839939989,
   "type": "Feature",
   "properties": {
+    "addr:full":"10359 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"10359",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025296,39.882663,-105.025296,39.882663",
     "geom:latitude":39.882663,
     "geom:longitude":-105.025296,
@@ -33,19 +38,36 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553551
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7heyyHqCwVWy1Ohs2dXgFs_39.882663_-105.025296@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458495,
-    "wof:geomhash":"72074233f976abc124fdd2ca5f5e62bf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a85504d01f5dd92904a7b697befc2013",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553551,
+            "region_id":85688603,
+            "venue_id":839939989
+        }
+    ],
     "wof:id":839939989,
-    "wof:lastmodified":1466414933,
+    "wof:lastmodified":1492110403,
     "wof:name":"Columbine Dermatology PC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553551,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839940545,
   "type": "Feature",
   "properties": {
+    "addr:full":"6090 W 55th Pl Arvada CO 80002",
+    "addr:housenumber":"6090",
+    "addr:postcode":"80002",
+    "addr:street":"W 55Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.063497,39.797322,-105.063497,39.797322",
     "geom:latitude":39.797322,
     "geom:longitude":-105.063497,
@@ -28,19 +33,34 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4AuTpV0KOgqER08oYAWN73_39.797322_-105.063497@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458535,
-    "wof:geomhash":"1c0d6702525083c03bf5e284c911beb6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb738baeae59b017fffe0920c525c389",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":839940545
+        }
+    ],
     "wof:id":839940545,
-    "wof:lastmodified":1466414892,
+    "wof:lastmodified":1492114259,
     "wof:name":"Supertech Auto Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

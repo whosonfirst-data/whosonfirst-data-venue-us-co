@@ -2,9 +2,14 @@
   "id": 823969259,
   "type": "Feature",
   "properties": {
+    "addr:full":"1211 Luther St Eads CO 81036",
+    "addr:housenumber":"1211",
+    "addr:postcode":"81036",
+    "addr:street":"Luther St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.784307,38.480895,-102.784307,38.480895",
     "geom:latitude":38.480895,
     "geom:longitude":-102.784307,
@@ -27,17 +32,32 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929059,
+        102085253
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7d6Dw5fRKFk8NBIMr49OJh_38.480895_-102.784307@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451242,
-    "wof:geomhash":"578b1956a9e81e90f9b6dc86320401fb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7020196ef05a12fa12c2a9dab6b9602f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085253,
+            "locality_id":85929059,
+            "region_id":85688603,
+            "venue_id":823969259
+        }
+    ],
     "wof:id":823969259,
-    "wof:lastmodified":1466420817,
+    "wof:lastmodified":1492119085,
     "wof:name":"Eads Medical Clinic",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

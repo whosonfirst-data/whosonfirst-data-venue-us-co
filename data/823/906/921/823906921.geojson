@@ -2,9 +2,14 @@
   "id": 823906921,
   "type": "Feature",
   "properties": {
+    "addr:full":"1353 King Ave Boulder CO 80302",
+    "addr:housenumber":"1353",
+    "addr:postcode":"80302",
+    "addr:street":"King Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.274179,39.996284,-105.274179,39.996284",
     "geom:latitude":39.996284,
     "geom:longitude":-105.274179,
@@ -27,19 +32,32 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876365,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5QeC2BVrWgcck72BDAGUdt_39.996284_-105.274179@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449644,
-    "wof:geomhash":"4a28bb04464995a1a02422dd89ba95f2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d76105abbc362a7190baaf8f01f3f14",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876365,
+            "region_id":85688603,
+            "venue_id":823906921
+        }
+    ],
     "wof:id":823906921,
-    "wof:lastmodified":1466420289,
+    "wof:lastmodified":1492118203,
     "wof:name":"Craig H Russell",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

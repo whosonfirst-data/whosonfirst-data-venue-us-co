@@ -2,9 +2,14 @@
   "id": 839938557,
   "type": "Feature",
   "properties": {
+    "addr:full":"8991 Washington St Denver CO 80229",
+    "addr:housenumber":"8991",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97805,39.85677,-104.97805,39.85677",
     "geom:latitude":39.85677,
     "geom:longitude":-104.97805,
@@ -35,19 +40,36 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2xglZFsN30rUQcN9Z10STQ_39.856770_-104.978050@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458418,
-    "wof:geomhash":"92789785c5a23cd9be2a0294eec8f91f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5973e96e0942c472e15dd27b57b3e25b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":839938557
+        }
+    ],
     "wof:id":839938557,
-    "wof:lastmodified":1466414726,
+    "wof:lastmodified":1492110523,
     "wof:name":"Monarch Cleaners",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

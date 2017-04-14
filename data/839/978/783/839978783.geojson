@@ -2,9 +2,14 @@
   "id": 839978783,
   "type": "Feature",
   "properties": {
+    "addr:full":"12010 Newport Dr Brighton CO 80602",
+    "addr:housenumber":"12010",
+    "addr:postcode":"80602",
+    "addr:street":"Newport Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.908261,39.916228,-104.908261,39.916228",
     "geom:latitude":39.916228,
     "geom:longitude":-104.908261,
@@ -28,19 +33,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3kbqESCWVVDseBJs0hzLNk_39.916228_-104.908261@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460372,
-    "wof:geomhash":"fa7a99d2c45122ae1b8945195abdd5c1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a8bf2191a4f3d13a110c2e186c72adf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":839978783
+        }
+    ],
     "wof:id":839978783,
-    "wof:lastmodified":1466416980,
+    "wof:lastmodified":1492112034,
     "wof:name":"Efficncy Intgrated Systems LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

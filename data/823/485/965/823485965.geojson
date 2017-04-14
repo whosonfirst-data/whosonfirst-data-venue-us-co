@@ -2,9 +2,14 @@
   "id": 823485965,
   "type": "Feature",
   "properties": {
+    "addr:full":"2560 W Barberry Pl Denver CO 80204",
+    "addr:housenumber":"2560",
+    "addr:postcode":"80204",
+    "addr:street":"W Barberry Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018281,39.730222,-105.018281,39.730222",
     "geom:latitude":39.730222,
     "geom:longitude":-105.018281,
@@ -33,7 +38,15 @@
         "bakery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3yahr8PsG9sTZOuMbdWmhS_39.730222_-105.018281@1294083659"
@@ -41,11 +54,22 @@
     "wof:country":"US",
     "wof:created":1463439203,
     "wof:geomhash":"66538c0618ee915054656aa3b946acf9",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":823485965
+        }
+    ],
     "wof:id":823485965,
-    "wof:lastmodified":1466413685,
+    "wof:lastmodified":1486588740,
     "wof:name":"Reyes Distributors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

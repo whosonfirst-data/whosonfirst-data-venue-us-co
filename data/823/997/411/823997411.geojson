@@ -2,9 +2,14 @@
   "id": 823997411,
   "type": "Feature",
   "properties": {
+    "addr:full":"4995 Clay St Denver CO 80221",
+    "addr:housenumber":"4995",
+    "addr:postcode":"80221",
+    "addr:street":"Clay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.020552,39.78569,-105.020552,39.78569",
     "geom:latitude":39.78569,
     "geom:longitude":-105.020552,
@@ -27,7 +32,15 @@
         "passenger"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420781639,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4HkhZ9EF2yyAkZ5p4oxRCb_39.785690_-105.020552@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463451927,
     "wof:geomhash":"4b3af7572242065f9ec562cbe5fe2526",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420781639,
+            "region_id":85688603,
+            "venue_id":823997411
+        }
+    ],
     "wof:id":823997411,
-    "wof:lastmodified":1466421041,
+    "wof:lastmodified":1486593525,
     "wof:name":"Rays Personal Car Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420781639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

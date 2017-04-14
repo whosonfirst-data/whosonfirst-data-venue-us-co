@@ -2,9 +2,14 @@
   "id": 823804149,
   "type": "Feature",
   "properties": {
+    "addr:full":"12081 Cherry Pl Denver CO 80241",
+    "addr:housenumber":"12081",
+    "addr:postcode":"80241",
+    "addr:street":"Cherry Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.932547,39.915519,-104.932547,39.915519",
     "geom:latitude":39.915519,
     "geom:longitude":-104.932547,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1DgAxp11n5aklobqn1fgHp_39.915519_-104.932547@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446824,
-    "wof:geomhash":"d46a2d60099b521065e9ab8856ea5805",
-    "wof:hierarchy":[],
+    "wof:geomhash":"edc1c8c84fc17ea286f5c3359421352b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":823804149
+        }
+    ],
     "wof:id":823804149,
-    "wof:lastmodified":1466419391,
+    "wof:lastmodified":1492127000,
     "wof:name":"Oak Leaf Hardwood Floors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

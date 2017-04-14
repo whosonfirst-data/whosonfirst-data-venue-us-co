@@ -2,9 +2,14 @@
   "id": 824055243,
   "type": "Feature",
   "properties": {
+    "addr:full":"1290 Boston Ave Longmont CO 80501",
+    "addr:housenumber":"1290",
+    "addr:postcode":"80501",
+    "addr:street":"Boston Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.113594,40.158835,-105.113594,40.158835",
     "geom:latitude":40.158835,
     "geom:longitude":-105.113594,
@@ -28,17 +33,32 @@
         "resource"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6zhtZyy6TxINb0S9sNW22C_40.158835_-105.113594@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453293,
-    "wof:geomhash":"d08844613020d6c5e92e7d12ef90cd00",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e6679688031d1bca4c4f978eaa5c5b6c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":824055243
+        }
+    ],
     "wof:id":824055243,
-    "wof:lastmodified":1466414312,
+    "wof:lastmodified":1492131874,
     "wof:name":"Human Services Dept",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

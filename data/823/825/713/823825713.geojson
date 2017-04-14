@@ -2,9 +2,14 @@
   "id": 823825713,
   "type": "Feature",
   "properties": {
+    "addr:full":"6460 W 5th Ave Denver CO 80226",
+    "addr:housenumber":"6460",
+    "addr:postcode":"80226",
+    "addr:street":"W 5Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.068729,39.723846,-105.068729,39.723846",
     "geom:latitude":39.723846,
     "geom:longitude":-105.068729,
@@ -28,19 +33,36 @@
         "closed"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6nAdeQw0ii9hV2nT8t6I2A_39.723846_-105.068729@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447470,
-    "wof:geomhash":"ba76dd8d28973c4df80fe701bb1dfe57",
-    "wof:hierarchy":[],
+    "wof:geomhash":"960c7a0f54607838047e24174f23e250",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823825713
+        }
+    ],
     "wof:id":823825713,
-    "wof:lastmodified":1466419614,
+    "wof:lastmodified":1492123456,
     "wof:name":"Work Diversified LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

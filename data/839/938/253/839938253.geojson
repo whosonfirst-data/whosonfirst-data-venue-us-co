@@ -2,9 +2,14 @@
   "id": 839938253,
   "type": "Feature",
   "properties": {
+    "addr:full":"14509 E 33rd Pl Aurora CO 80011",
+    "addr:housenumber":"14509",
+    "addr:postcode":"80011",
+    "addr:street":"E 33Rd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.815181,39.765516,-104.815181,39.765516",
     "geom:latitude":39.765516,
     "geom:longitude":-104.815181,
@@ -27,19 +32,36 @@
         "building"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00M7LsFR3eP94OkCmSdhSJ_39.765516_-104.815181@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458401,
-    "wof:geomhash":"cb9868427f393330cf6bab322d8c1ef0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c1754b87f426aae0e0abe751e818451b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553641,
+            "region_id":85688603,
+            "venue_id":839938253
+        }
+    ],
     "wof:id":839938253,
-    "wof:lastmodified":1466414565,
+    "wof:lastmodified":1492110507,
     "wof:name":"Milltech",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823576327,
   "type": "Feature",
   "properties": {
+    "addr:full":"10890 Larry Dr Denver CO 80233",
+    "addr:housenumber":"10890",
+    "addr:postcode":"80233",
+    "addr:street":"Larry Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.969802,39.89414,-104.969802,39.89414",
     "geom:latitude":39.89414,
     "geom:longitude":-104.969802,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2z6InPFNLB4qFOTp6VoqC4_39.894140_-104.969802@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441329,
-    "wof:geomhash":"ab34714234b63f7b72acfa2fe3d7cd28",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7c521d15fc63aa43fc30f9d75e583772",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823576327
+        }
+    ],
     "wof:id":823576327,
-    "wof:lastmodified":1466416681,
+    "wof:lastmodified":1492124628,
     "wof:name":"Landa Brothers Drywall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

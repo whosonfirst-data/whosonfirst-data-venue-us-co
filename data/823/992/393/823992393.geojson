@@ -2,9 +2,14 @@
   "id": 823992393,
   "type": "Feature",
   "properties": {
+    "addr:full":"781 Co Rd 302 Durango CO 81303",
+    "addr:housenumber":"781;302",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.847631,37.169505,-107.847631,37.169505",
     "geom:latitude":37.169505,
     "geom:longitude":-107.847631,
@@ -28,19 +33,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2YwwRAHyyyYaqUWd5Wq5k4_37.169505_-107.847631@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451774,
-    "wof:geomhash":"6f6cc7485e8898bbbd9847ae1d033013",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b5597cdc98bbd3672dbb3a777691949f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823992393
+        }
+    ],
     "wof:id":823992393,
-    "wof:lastmodified":1466420979,
+    "wof:lastmodified":1492127246,
     "wof:name":"Zellitti Farm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

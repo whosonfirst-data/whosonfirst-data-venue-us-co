@@ -2,9 +2,14 @@
   "id": 823936903,
   "type": "Feature",
   "properties": {
+    "addr:full":"2002 Caribou Dr Fort Collins CO 80525",
+    "addr:housenumber":"2002",
+    "addr:postcode":"80525",
+    "addr:street":"Caribou Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040877,40.530808,-105.040877,40.530808",
     "geom:latitude":40.530808,
     "geom:longitude":-105.040877,
@@ -28,19 +33,36 @@
     ],
     "sg:website":"www.wind2.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1KGJ7FpiKDzS1difFL1vLT_40.530808_-105.040877@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450454,
-    "wof:geomhash":"9324d2ee219cff474471627415ab0676",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b02c7690c85572b5243439f81eeb3887",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":823936903
+        }
+    ],
     "wof:id":823936903,
-    "wof:lastmodified":1466420597,
+    "wof:lastmodified":1492117079,
     "wof:name":"Wind-2 Software Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

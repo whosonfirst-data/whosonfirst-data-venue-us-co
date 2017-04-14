@@ -2,9 +2,14 @@
   "id": 839971443,
   "type": "Feature",
   "properties": {
+    "addr:full":"11510 Lewistown St Commerce City CO 80022",
+    "addr:housenumber":"",
+    "addr:postcode":"11510;80022",
+    "addr:street":"St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.795802,39.904584,-104.795802,39.904584",
     "geom:latitude":39.904584,
     "geom:longitude":-104.795802,
@@ -29,19 +34,36 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553489
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1IW943ANmT9fvqRJm0CSXu_39.904584_-104.795802@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460073,
-    "wof:geomhash":"588a07e7428121f97e32453a39255fab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"14b157514398b5fbeacd082ff37a4504",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553489,
+            "region_id":85688603,
+            "venue_id":839971443
+        }
+    ],
     "wof:id":839971443,
-    "wof:lastmodified":1466416283,
+    "wof:lastmodified":1492110462,
     "wof:name":"American Express Financial Adv",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553489,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

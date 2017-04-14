@@ -2,9 +2,14 @@
   "id": 823811747,
   "type": "Feature",
   "properties": {
+    "addr:full":"1995 57th Ct N Boulder CO 80301",
+    "addr:housenumber":"1995",
+    "addr:postcode":"80301",
+    "addr:street":"57Th Ct N",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.220858,40.019721,-105.220858,40.019721",
     "geom:latitude":40.019721,
     "geom:longitude":-105.220858,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5wzglLTPsFlWkDatLM1tQE_40.019721_-105.220858@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447056,
-    "wof:geomhash":"1da90668dcad147a8b8b69b444899848",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bcda49a515d8ed76932ce2c7e80f6fcb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823811747
+        }
+    ],
     "wof:id":823811747,
-    "wof:lastmodified":1466419457,
+    "wof:lastmodified":1492120994,
     "wof:name":"Baileys Holding Company Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

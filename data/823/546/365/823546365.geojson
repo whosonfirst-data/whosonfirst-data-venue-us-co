@@ -2,9 +2,14 @@
   "id": 823546365,
   "type": "Feature",
   "properties": {
+    "addr:full":"2185 Floral Dr Boulder CO 80304",
+    "addr:housenumber":"2185",
+    "addr:postcode":"80304",
+    "addr:street":"Floral Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.269423,40.030987,-105.269423,40.030987",
     "geom:latitude":40.030987,
     "geom:longitude":-105.269423,
@@ -28,19 +33,36 @@
         "training"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_69AuX0Pxdhm5SQsH9Fmdy5_40.030987_-105.269423@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440613,
-    "wof:geomhash":"478944ce7bdea3c0521f86b5dfaa53ec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"00bf690de3425d09b7522e3d62854071",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":823546365
+        }
+    ],
     "wof:id":823546365,
-    "wof:lastmodified":1466415746,
+    "wof:lastmodified":1492118156,
     "wof:name":"Learning Tree Intl",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

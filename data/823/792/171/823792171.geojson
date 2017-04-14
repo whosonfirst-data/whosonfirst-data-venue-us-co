@@ -2,9 +2,14 @@
   "id": 823792171,
   "type": "Feature",
   "properties": {
+    "addr:full":"3041 Co Rd 46 Berthoud CO 80513",
+    "addr:housenumber":"3041;46",
+    "addr:postcode":"80513",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.998193,40.320802,-104.998193,40.320802",
     "geom:latitude":40.320802,
     "geom:longitude":-104.998193,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7dcnHdl03ABhuklSBX7Asm_40.320802_-104.998193@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446488,
-    "wof:geomhash":"160e4f3ca30159625124ecad596c998b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"153bc1b0714352b4e0770f5dbf5a5360",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823792171
+        }
+    ],
     "wof:id":823792171,
-    "wof:lastmodified":1466419257,
+    "wof:lastmodified":1492120797,
     "wof:name":"Zimmerman Brothers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

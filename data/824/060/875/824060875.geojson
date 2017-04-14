@@ -2,9 +2,14 @@
   "id": 824060875,
   "type": "Feature",
   "properties": {
+    "addr:full":"1110 W 95th Cir Denver CO 80260",
+    "addr:housenumber":"1110",
+    "addr:postcode":"80260",
+    "addr:street":"W 95Th Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001861,39.87033,-105.001861,39.87033",
     "geom:latitude":39.87033,
     "geom:longitude":-105.001861,
@@ -27,19 +32,36 @@
         "repair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553703
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7IurBBvHiXXweOqsxFE5xu_39.870330_-105.001861@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453407,
-    "wof:geomhash":"50da5c5eb5e89453b0906b626f543b10",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75ca328b37589e6d33684978edb53eb6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553703,
+            "region_id":85688603,
+            "venue_id":824060875
+        }
+    ],
     "wof:id":824060875,
-    "wof:lastmodified":1466414523,
+    "wof:lastmodified":1492131315,
     "wof:name":"Metro Office Resources Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553703,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823939959,
   "type": "Feature",
   "properties": {
+    "addr:full":"2615 Briarwood Dr Boulder CO 80305",
+    "addr:housenumber":"2615",
+    "addr:postcode":"80305",
+    "addr:street":"Briarwood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260807,39.967624,-105.260807,39.967624",
     "geom:latitude":39.967624,
     "geom:longitude":-105.260807,
@@ -29,9 +34,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929877,
         102085251,
+        85876377,
         85876439
     ],
     "wof:breaches":[],
@@ -40,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463450521,
-    "wof:geomhash":"4bc6650f6b08d89d597e3b80e6ab3615",
+    "wof:geomhash":"5029370af3385637580722e7de806c0d",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876377,
+            "region_id":85688603,
+            "venue_id":823939959
+        },
         {
             "country_id":85633793,
             "county_id":102085251,
@@ -52,9 +68,9 @@
         }
     ],
     "wof:id":823939959,
-    "wof:lastmodified":1466420666,
+    "wof:lastmodified":1492116039,
     "wof:name":"C G Jung & Assoc",
-    "wof:parent_id":85876439,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

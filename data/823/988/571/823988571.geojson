@@ -2,9 +2,14 @@
   "id": 823988571,
   "type": "Feature",
   "properties": {
+    "addr:full":"3205 W Floyd Ave Englewood CO 80236",
+    "addr:housenumber":"3205",
+    "addr:postcode":"80236",
+    "addr:street":"W Floyd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024572,39.656909,-105.024572,39.656909",
     "geom:latitude":39.656909,
     "geom:longitude":-105.024572,
@@ -29,7 +34,15 @@
     ],
     "sg:website":"www.foothillsapartments.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5fCx0QQjRbGonqiuvaWHKo_39.656909_-105.024572@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463451685,
     "wof:geomhash":"baebf604d7f0798a7e32410b851cb171",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":823988571
+        }
+    ],
     "wof:id":823988571,
-    "wof:lastmodified":1466421061,
+    "wof:lastmodified":1491876116,
     "wof:name":"Foothills Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

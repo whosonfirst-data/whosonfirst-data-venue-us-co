@@ -2,9 +2,14 @@
   "id": 839926721,
   "type": "Feature",
   "properties": {
+    "addr:full":"2625 W 8th Ave Denver CO 80204",
+    "addr:housenumber":"2625",
+    "addr:postcode":"80204",
+    "addr:street":"W 8Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.017361,39.729391,-105.017361,39.729391",
     "geom:latitude":39.729391,
     "geom:longitude":-105.017361,
@@ -29,7 +34,15 @@
         "motor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_74nt7smACScEjjxl3Vfw9L_39.729391_-105.017361@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463457803,
     "wof:geomhash":"5c3c4350a3121c5fce82e78b6d5c625e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":839926721
+        }
+    ],
     "wof:id":839926721,
-    "wof:lastmodified":1466413930,
+    "wof:lastmodified":1486588821,
     "wof:name":"Faster Cycle Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

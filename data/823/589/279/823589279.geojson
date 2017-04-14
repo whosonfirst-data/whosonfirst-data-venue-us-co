@@ -2,9 +2,14 @@
   "id": 823589279,
   "type": "Feature",
   "properties": {
+    "addr:full":"2401 Co Rd 220 Durango CO 81303",
+    "addr:housenumber":"2401;220",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.802966,37.215046,-107.802966,37.215046",
     "geom:latitude":37.215046,
     "geom:longitude":-107.802966,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NTrgBThbrWJxEangMOTnG_37.215046_-107.802966@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441630,
-    "wof:geomhash":"34336606e7743954635e14dc0c083ea5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"83e1fe687e35a45b503924e1d9cd5f01",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554643,
+            "venue_id":823589279
+        }
+    ],
     "wof:id":823589279,
-    "wof:lastmodified":1466416826,
+    "wof:lastmodified":1492124259,
     "wof:name":"Church Of Christ",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

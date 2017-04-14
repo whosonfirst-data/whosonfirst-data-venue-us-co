@@ -2,9 +2,14 @@
   "id": 823479601,
   "type": "Feature",
   "properties": {
+    "addr:full":"107 S 12th St Gunnison CO 81230",
+    "addr:housenumber":"107",
+    "addr:postcode":"81230",
+    "addr:street":"S 12Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.934913,38.544342,-106.934913,38.544342",
     "geom:latitude":38.544342,
     "geom:longitude":-106.934913,
@@ -27,19 +32,36 @@
         "military"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7kioXM6we5pQ3gnu4Vi34M_38.544342_-106.934913@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439072,
-    "wof:geomhash":"6872ec3bc8d340bd7113cf415ac18ee6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f94719aed87d372c9d32a219471e1aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":823479601
+        }
+    ],
     "wof:id":823479601,
-    "wof:lastmodified":1466413313,
+    "wof:lastmodified":1492117161,
     "wof:name":"Veterans Of Foreign Wars",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

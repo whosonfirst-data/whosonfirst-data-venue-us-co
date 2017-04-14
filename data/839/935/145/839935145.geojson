@@ -2,9 +2,14 @@
   "id": 839935145,
   "type": "Feature",
   "properties": {
+    "addr:full":"3777 Co Rd 307 Durango CO 81303",
+    "addr:housenumber":"3777;307",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.786814,37.143075,-107.786814,37.143075",
     "geom:latitude":37.143075,
     "geom:longitude":-107.786814,
@@ -28,19 +33,28 @@
         "pipeline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0QTdQYf7hppAcqXhgJYRpE_37.143075_-107.786814@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458237,
-    "wof:geomhash":"745ae40c79f545f6cb9571a0ae96ca6b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3754902dbda696ab0b82b13d93670a02",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":839935145
+        }
+    ],
     "wof:id":839935145,
-    "wof:lastmodified":1466414348,
+    "wof:lastmodified":1492113223,
     "wof:name":"Northwest Pipeline",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

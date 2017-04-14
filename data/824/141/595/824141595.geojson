@@ -2,9 +2,14 @@
   "id": 824141595,
   "type": "Feature",
   "properties": {
+    "addr:full":"1106 13th St Boulder CO 80302",
+    "addr:housenumber":"1106",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276181,40.007815,-105.276181,40.007815",
     "geom:latitude":40.007815,
     "geom:longitude":-105.276181,
@@ -27,19 +32,36 @@
         "alteration"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4LbU4nUysAVtoK41TrEElA_40.007815_-105.276181@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455566,
-    "wof:geomhash":"31bfb6fbd5cb029463897952af81625f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0fec4db88cd31bc0769f45f7e603bfc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":824141595
+        }
+    ],
     "wof:id":824141595,
-    "wof:lastmodified":1466416575,
+    "wof:lastmodified":1492131698,
     "wof:name":"Budget Alteration & Tailoring",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

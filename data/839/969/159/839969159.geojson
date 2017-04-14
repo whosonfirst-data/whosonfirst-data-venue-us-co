@@ -2,9 +2,14 @@
   "id": 839969159,
   "type": "Feature",
   "properties": {
+    "addr:full":"2520 Stanford Rd Fort Collins CO 80525",
+    "addr:housenumber":"2520",
+    "addr:postcode":"80525",
+    "addr:street":"Stanford Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.06938,40.55255,-105.06938,40.55255",
     "geom:latitude":40.55255,
     "geom:longitude":-105.06938,
@@ -27,19 +32,46 @@
         "periodical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        85877471,
+        420554723
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1K6zZ8ybpPxPI7jSMwtPa1_40.552550_-105.069380@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459980,
-    "wof:geomhash":"d09978c495e5df38e55fdfc4aaf7db89",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ede08faf23cad06ae34b52e4a1316390",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877471,
+            "region_id":85688603,
+            "venue_id":839969159
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554723,
+            "region_id":85688603,
+            "venue_id":839969159
+        }
+    ],
     "wof:id":839969159,
-    "wof:lastmodified":1466416220,
+    "wof:lastmodified":1492111407,
     "wof:name":"Three Dog Publishing LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

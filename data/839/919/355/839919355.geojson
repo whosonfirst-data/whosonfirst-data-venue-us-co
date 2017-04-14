@@ -2,9 +2,14 @@
   "id": 839919355,
   "type": "Feature",
   "properties": {
+    "addr:full":"1261 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"1261",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001797,39.849128,-105.001797,39.849128",
     "geom:latitude":39.849128,
     "geom:longitude":-105.001797,
@@ -28,19 +33,36 @@
         "cellular"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7dyYWM4nqzeQceDDlHBW1V_39.849128_-105.001797@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457465,
-    "wof:geomhash":"649037c18a06f4966285bc43dc8ffe07",
-    "wof:hierarchy":[],
+    "wof:geomhash":"11eda8d305b69b9bae5f104b06c3be8b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553771,
+            "region_id":85688603,
+            "venue_id":839919355
+        }
+    ],
     "wof:id":839919355,
-    "wof:lastmodified":1466413607,
+    "wof:lastmodified":1492111206,
     "wof:name":"Big Time Communications",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

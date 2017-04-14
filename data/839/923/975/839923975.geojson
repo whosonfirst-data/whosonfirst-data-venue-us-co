@@ -2,9 +2,14 @@
   "id": 839923975,
   "type": "Feature",
   "properties": {
+    "addr:full":"4342 W Rice Pl Denver CO 80236",
+    "addr:housenumber":"4342",
+    "addr:postcode":"80236",
+    "addr:street":"W Rice Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.043735,39.635767,-105.043735,39.635767",
     "geom:latitude":39.635767,
     "geom:longitude":-105.043735,
@@ -27,19 +32,38 @@
         "distribution"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85868407,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7E9AoTi5sfLiSRJ8JUoth9_39.635767_-105.043735@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457673,
-    "wof:geomhash":"fc5c49bfd0f1933808e90bf988f380bc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d2ecd80ecdbc1757725dc6df7d7debeb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85868407,
+            "region_id":85688603,
+            "venue_id":839923975
+        }
+    ],
     "wof:id":839923975,
-    "wof:lastmodified":1466413974,
+    "wof:lastmodified":1492114166,
     "wof:name":"Perdew Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":85868407,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

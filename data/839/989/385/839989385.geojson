@@ -2,9 +2,14 @@
   "id": 839989385,
   "type": "Feature",
   "properties": {
+    "addr:full":"1401 Pearl St Boulder CO 80302",
+    "addr:housenumber":"1401",
+    "addr:postcode":"80302",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.277043,40.018759,-105.277043,40.018759",
     "geom:latitude":40.018759,
     "geom:longitude":-105.277043,
@@ -30,7 +35,14 @@
         "pastry"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1pXBGpT9xM2rgJ3UQ47gTv_40.018759_-105.277043@1299784598"
@@ -38,11 +50,21 @@
     "wof:country":"US",
     "wof:created":1463460786,
     "wof:geomhash":"632b4bf106b674d5883215a3850ddea0",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":839989385
+        }
+    ],
     "wof:id":839989385,
-    "wof:lastmodified":1466417385,
+    "wof:lastmodified":1491888524,
     "wof:name":"The Cheesecake Factory",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

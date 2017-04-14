@@ -2,9 +2,14 @@
   "id": 823491903,
   "type": "Feature",
   "properties": {
+    "addr:full":"1360 Airport Rd Breckenridge CO 80424",
+    "addr:housenumber":"1360",
+    "addr:postcode":"80424",
+    "addr:street":"Airport Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.049499,39.499044,-106.049499,39.499044",
     "geom:latitude":39.499044,
     "geom:longitude":-106.049499,
@@ -27,17 +32,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929295,
+        102084025
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7XIXS9R4UT5aN5opzqgiAH_39.499044_-106.049499@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439353,
-    "wof:geomhash":"52c77baab82c32c14e0b69404f954f55",
-    "wof:hierarchy":[],
+    "wof:geomhash":"865f8f029cf28bdaf56cdef54a006549",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084025,
+            "locality_id":85929295,
+            "region_id":85688603,
+            "venue_id":823491903
+        }
+    ],
     "wof:id":823491903,
-    "wof:lastmodified":1466413783,
+    "wof:lastmodified":1492127267,
     "wof:name":"Breckenridge Terrace Apt",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 839984501,
   "type": "Feature",
   "properties": {
+    "addr:full":"9537 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"9537",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.877315,39.740135,-104.877315,39.740135",
     "geom:latitude":39.740135,
     "geom:longitude":-104.877315,
@@ -21,19 +26,36 @@
         "equipment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5VDXL531qnMjbRSQHTIj85_39.740135_-104.877315@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460599,
-    "wof:geomhash":"97e53a622487834c1b065a205847d666",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d05cf19ffe97dd1a69636ce94ece1ee0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":839984501
+        }
+    ],
     "wof:id":839984501,
-    "wof:lastmodified":1466417213,
+    "wof:lastmodified":1492111186,
     "wof:name":"Nu-Way",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823958557,
   "type": "Feature",
   "properties": {
+    "addr:full":"2234 Mesa Ave Grand Junction CO 81501",
+    "addr:housenumber":"2234",
+    "addr:postcode":"81501",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.539788,39.082876,-108.539788,39.082876",
     "geom:latitude":39.082876,
     "geom:longitude":-108.539788,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_00JnQpSWRORV7fN6wjGMqa_39.082876_-108.539788@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450990,
-    "wof:geomhash":"359fdaa0cbbc818ce3ead5aecfd54e9b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7221ceffde323f4698cbd4a4405cecae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":823958557
+        }
+    ],
     "wof:id":823958557,
-    "wof:lastmodified":1466420746,
+    "wof:lastmodified":1492124240,
     "wof:name":"Heather Russell",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

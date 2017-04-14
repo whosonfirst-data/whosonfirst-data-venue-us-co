@@ -2,9 +2,14 @@
   "id": 823763071,
   "type": "Feature",
   "properties": {
+    "addr:full":"5060 Newton St Denver CO 80221",
+    "addr:housenumber":"5060",
+    "addr:postcode":"80221",
+    "addr:street":"Newton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.036865,39.788136,-105.036865,39.788136",
     "geom:latitude":39.788136,
     "geom:longitude":-105.036865,
@@ -29,19 +34,38 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871251,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0c4r6i0eb4r3dEfqj1KyMX_39.788136_-105.036865@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445678,
-    "wof:geomhash":"fbf6d3f6a2030da80670f9dc514ef919",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d207b688877adf1be723567c89db049",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871251,
+            "region_id":85688603,
+            "venue_id":823763071
+        }
+    ],
     "wof:id":823763071,
-    "wof:lastmodified":1466419033,
+    "wof:lastmodified":1492123170,
     "wof:name":"Scott Delivery Service Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

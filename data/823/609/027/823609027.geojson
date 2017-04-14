@@ -2,9 +2,14 @@
   "id": 823609027,
   "type": "Feature",
   "properties": {
+    "addr:full":"13497 Quivas St Denver CO 80234",
+    "addr:housenumber":"13497",
+    "addr:postcode":"80234",
+    "addr:street":"Quivas St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.008153,39.938632,-105.008153,39.938632",
     "geom:latitude":39.938632,
     "geom:longitude":-105.008153,
@@ -28,19 +33,36 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Z846SY9hHChoDwAL4wmZq_39.938632_-105.008153@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442110,
-    "wof:geomhash":"99dfd283897a353e037ada434c71425f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"011ca3bbd6d8dc623b5ef95558e923fb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":823609027
+        }
+    ],
     "wof:id":823609027,
-    "wof:lastmodified":1466417242,
+    "wof:lastmodified":1492119197,
     "wof:name":"Westwinds Financial Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

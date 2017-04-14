@@ -2,9 +2,14 @@
   "id": 823678445,
   "type": "Feature",
   "properties": {
+    "addr:full":"9114 Lowell Ct Westminster CO 80031",
+    "addr:housenumber":"9114",
+    "addr:postcode":"80031",
+    "addr:street":"Lowell Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034832,39.862303,-105.034832,39.862303",
     "geom:latitude":39.862303,
     "geom:longitude":-105.034832,
@@ -29,19 +34,36 @@
         "floor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553513
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2vtK87owwIc5fdaEm6aGhv_39.862303_-105.034832@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443754,
-    "wof:geomhash":"2630d229a83faab35d33ff413b853b4e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f74cd63430a7a6ef0c959583584b93d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553513,
+            "region_id":85688603,
+            "venue_id":823678445
+        }
+    ],
     "wof:id":823678445,
-    "wof:lastmodified":1466418427,
+    "wof:lastmodified":1492121418,
     "wof:name":"Clean Sweep Floor Care",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553513,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824090711,
   "type": "Feature",
   "properties": {
+    "addr:full":"2489 E 124th Dr Denver CO 80241",
+    "addr:housenumber":"2489",
+    "addr:postcode":"80241",
+    "addr:street":"E 124Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.956857,39.922228,-104.956857,39.922228",
     "geom:latitude":39.922228,
     "geom:longitude":-104.956857,
@@ -34,19 +39,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4NJG21NciR3QAfwSg4AZkr_39.922228_-104.956857@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454102,
-    "wof:geomhash":"dacb03cc26e42256a9025a07a0964132",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4715599dd324be230bc3806ddf13a18e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":824090711
+        }
+    ],
     "wof:id":824090711,
-    "wof:lastmodified":1466414942,
+    "wof:lastmodified":1492130214,
     "wof:name":"Natural Stone Restoration",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

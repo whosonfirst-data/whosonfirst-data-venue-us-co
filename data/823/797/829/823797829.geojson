@@ -2,9 +2,14 @@
   "id": 823797829,
   "type": "Feature",
   "properties": {
+    "addr:full":"10166 Grove Loop Westminster CO 80031",
+    "addr:housenumber":"10166",
+    "addr:postcode":"80031",
+    "addr:street":"Grove Loop",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.027328,39.881152,-105.027328,39.881152",
     "geom:latitude":39.881152,
     "geom:longitude":-105.027328,
@@ -27,19 +32,36 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553551
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6rquzvg9wq4vTJej55XckN_39.881152_-105.027328@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446657,
-    "wof:geomhash":"d844c2eb965a0298b1a45a1a1f16d5a8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7b8a3540d99999ab8a43f44dd3b6990c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553551,
+            "region_id":85688603,
+            "venue_id":823797829
+        }
+    ],
     "wof:id":823797829,
-    "wof:lastmodified":1466419355,
+    "wof:lastmodified":1492122605,
     "wof:name":"Moldcheck",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553551,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823553817,
   "type": "Feature",
   "properties": {
+    "addr:full":"451 Malley Dr Denver CO 80233",
+    "addr:housenumber":"451",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979128,39.903082,-104.979128,39.903082",
     "geom:latitude":39.903082,
     "geom:longitude":-104.979128,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1I8TVNNuXgHxxVTFM9czSg_39.903082_-104.979128@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440797,
-    "wof:geomhash":"370c8d3e34b5debee31ac02d82464b46",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4ee6ce138ff022f7bdf9162fcc7f402b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":823553817
+        }
+    ],
     "wof:id":823553817,
-    "wof:lastmodified":1466415998,
+    "wof:lastmodified":1492126638,
     "wof:name":"Crossroads At Northglenn The",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

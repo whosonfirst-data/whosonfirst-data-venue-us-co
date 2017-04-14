@@ -2,9 +2,14 @@
   "id": 824006735,
   "type": "Feature",
   "properties": {
+    "addr:full":"3519 E 104th Pl Denver CO 80233",
+    "addr:housenumber":"3519",
+    "addr:postcode":"80233",
+    "addr:street":"E 104Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.946233,39.885635,-104.946233,39.885635",
     "geom:latitude":39.885635,
     "geom:longitude":-104.946233,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1n2JoNiB4trOtJPy2p97Kl_39.885635_-104.946233@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452132,
-    "wof:geomhash":"019517d274386af3adf25dd0cbea0f27",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09f498648f01329224a78329ad421beb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":824006735
+        }
+    ],
     "wof:id":824006735,
-    "wof:lastmodified":1466412612,
+    "wof:lastmodified":1492129810,
     "wof:name":"I G Tile",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

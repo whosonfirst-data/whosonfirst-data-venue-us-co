@@ -2,9 +2,14 @@
   "id": 823552349,
   "type": "Feature",
   "properties": {
+    "addr:full":"806 Rio Grande Ave Gunnison CO 81230",
+    "addr:housenumber":"806",
+    "addr:postcode":"81230",
+    "addr:street":"Rio Grande Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.936558,38.537826,-106.936558,38.537826",
     "geom:latitude":38.537826,
     "geom:longitude":-106.936558,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554419
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2bv5WyayycgW8HRiZAo36L_38.537826_-106.936558@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440763,
-    "wof:geomhash":"867c0b8873cfd9a69b43ef88747a94bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6337b2522b8c33a0db7050b8ef84861f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554419,
+            "region_id":85688603,
+            "venue_id":823552349
+        }
+    ],
     "wof:id":823552349,
-    "wof:lastmodified":1466415889,
+    "wof:lastmodified":1492123040,
     "wof:name":"Performance Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554419,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

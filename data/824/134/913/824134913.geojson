@@ -2,9 +2,14 @@
   "id": 824134913,
   "type": "Feature",
   "properties": {
+    "addr:full":"200 W Cleveland St Lafayette CO 80026",
+    "addr:housenumber":"200",
+    "addr:postcode":"80026",
+    "addr:street":"W Cleveland St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.091831,39.997229,-105.091831,39.997229",
     "geom:latitude":39.997229,
     "geom:longitude":-105.091831,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Q70WnzRM5YbPXAQOKWAWt_39.997229_-105.091831@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455328,
-    "wof:geomhash":"c2912f03b2d9eba0a300e2e2550f418e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"03a0907690a56f71feb84fcbc88e7ac6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "region_id":85688603,
+            "venue_id":824134913
+        }
+    ],
     "wof:id":824134913,
-    "wof:lastmodified":1466416413,
+    "wof:lastmodified":1492129043,
     "wof:name":"First Baptist Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

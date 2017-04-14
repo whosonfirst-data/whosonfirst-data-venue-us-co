@@ -2,9 +2,14 @@
   "id": 823530205,
   "type": "Feature",
   "properties": {
+    "addr:full":"4101 Woodglen Blvd Denver CO 80233",
+    "addr:housenumber":"4101",
+    "addr:postcode":"80233",
+    "addr:street":"Woodglen Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.936415,39.907056,-104.936415,39.907056",
     "geom:latitude":39.907056,
     "geom:longitude":-104.936415,
@@ -27,19 +32,46 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553907,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3awpURvgT1qjRmdoMPgfL2_39.907056_-104.936415@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440257,
-    "wof:geomhash":"ff2efa7b9ce0c27ebc811c14efd87803",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dd9059b762359bdff9d6f541a510be1f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":823530205
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823530205
+        }
+    ],
     "wof:id":823530205,
-    "wof:lastmodified":1466415202,
+    "wof:lastmodified":1492125413,
     "wof:name":"Roy'l Steaks Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

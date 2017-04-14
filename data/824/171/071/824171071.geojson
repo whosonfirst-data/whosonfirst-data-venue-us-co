@@ -2,9 +2,14 @@
   "id": 824171071,
   "type": "Feature",
   "properties": {
+    "addr:full":"321 Red Lady Ave Crested Butte CO 81224",
+    "addr:housenumber":"321",
+    "addr:postcode":"81224",
+    "addr:street":"Red Lady Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.98469,38.86624,-106.98469,38.86624",
     "geom:latitude":38.86624,
     "geom:longitude":-106.98469,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929655,
+        102083377,
+        420554485
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3WJz3iwH0YTJFbIF07vK32_38.866240_-106.984690@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456725,
-    "wof:geomhash":"3820534b7b05de0ca56b0dd2e16935c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"59a2a7b50f27f7e049b52e673904bb96",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554485,
+            "region_id":85688603,
+            "venue_id":824171071
+        }
+    ],
     "wof:id":824171071,
-    "wof:lastmodified":1466417778,
+    "wof:lastmodified":1492130318,
     "wof:name":"Van's Homewerks",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554485,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

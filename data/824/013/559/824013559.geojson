@@ -2,9 +2,14 @@
   "id": 824013559,
   "type": "Feature",
   "properties": {
+    "addr:full":"222 Hap Ct Olathe CO 81425",
+    "addr:housenumber":"222",
+    "addr:postcode":"81425",
+    "addr:street":"Hap Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.987896,38.607149,-107.987896,38.607149",
     "geom:latitude":38.607149,
     "geom:longitude":-107.987896,
@@ -28,17 +33,32 @@
         "housing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929413,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ExxLFbFCq9Q1yJo1U3YNX_38.607149_-107.987896@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452278,
-    "wof:geomhash":"409ee69355322dcdb32ca7d50ce2115c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b8b42300cb5769cf21d17f2edc2de75f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929413,
+            "region_id":85688603,
+            "venue_id":824013559
+        }
+    ],
     "wof:id":824013559,
-    "wof:lastmodified":1466413235,
+    "wof:lastmodified":1492130373,
     "wof:name":"Montrose County Housing Auth",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

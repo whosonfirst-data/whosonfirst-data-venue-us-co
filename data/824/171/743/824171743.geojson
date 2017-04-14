@@ -2,9 +2,14 @@
   "id": 824171743,
   "type": "Feature",
   "properties": {
+    "addr:full":"11180 Grant Dr Northglenn CO 80233",
+    "addr:housenumber":"11180",
+    "addr:postcode":"80233",
+    "addr:street":"Grant Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98112,39.899808,-104.98112,39.899808",
     "geom:latitude":39.899808,
     "geom:longitude":-104.98112,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6VgAi5rXFBxTsc0ulSu4lQ_39.899808_-104.981120@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456753,
-    "wof:geomhash":"eba86e0dc0ef4bcaed3b2df8e767aac6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28c5f876abe8cfe94d9718098eb78734",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":824171743
+        }
+    ],
     "wof:id":824171743,
-    "wof:lastmodified":1466417894,
+    "wof:lastmodified":1492130304,
     "wof:name":"Squire Village Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

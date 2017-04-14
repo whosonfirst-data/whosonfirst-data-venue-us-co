@@ -2,9 +2,14 @@
   "id": 824129423,
   "type": "Feature",
   "properties": {
+    "addr:full":"1015 Main St Canon City CO 81212",
+    "addr:housenumber":"1015",
+    "addr:postcode":"81212",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.233124,38.444196,-105.233124,38.444196",
     "geom:latitude":38.444196,
     "geom:longitude":-105.233124,
@@ -28,17 +33,32 @@
         "covering"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929803,
+        102083363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6jLsvZ5xGXFKckFGDcbWOB_38.444196_-105.233124@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455118,
-    "wof:geomhash":"fd5d86235306e6a6f43c1ab9da33841f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b4ec007e34ecf431c93491cab393b37a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "locality_id":85929803,
+            "region_id":85688603,
+            "venue_id":824129423
+        }
+    ],
     "wof:id":824129423,
-    "wof:lastmodified":1466416099,
+    "wof:lastmodified":1492131721,
     "wof:name":"Sherwin-Williams Paints",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

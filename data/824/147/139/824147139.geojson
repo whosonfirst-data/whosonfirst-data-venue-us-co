@@ -2,9 +2,14 @@
   "id": 824147139,
   "type": "Feature",
   "properties": {
+    "addr:full":"1055 Lehigh St Boulder CO 80305",
+    "addr:housenumber":"1055",
+    "addr:postcode":"80305",
+    "addr:street":"Lehigh St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260054,39.980101,-105.260054,39.980101",
     "geom:latitude":39.980101,
     "geom:longitude":-105.260054,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4I88oW2aHfuOQrgHP89KYZ_39.980101_-105.260054@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455791,
-    "wof:geomhash":"90723289826c9ecc6660f72f269d46f1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"869e8d22d6b27ad0d47637c6f0d0bbd2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":824147139
+        }
+    ],
     "wof:id":824147139,
-    "wof:lastmodified":1466416534,
+    "wof:lastmodified":1492131625,
     "wof:name":"Finley Masonry Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

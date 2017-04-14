@@ -2,9 +2,14 @@
   "id": 823670161,
   "type": "Feature",
   "properties": {
+    "addr:full":"4945 Clay St Denver CO 80221",
+    "addr:housenumber":"4945",
+    "addr:postcode":"80221",
+    "addr:street":"Clay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.020548,39.786615,-105.020548,39.786615",
     "geom:latitude":39.786615,
     "geom:longitude":-105.020548,
@@ -29,7 +34,15 @@
         "cleaning"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420781639,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28w3G3z1rLyV1U4lG2rsDk_39.786615_-105.020548@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463443576,
     "wof:geomhash":"056750f88e2ce8302862e443b71b258f",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420781639,
+            "region_id":85688603,
+            "venue_id":823670161
+        }
+    ],
     "wof:id":823670161,
-    "wof:lastmodified":1466418186,
+    "wof:lastmodified":1486593528,
     "wof:name":"Golden West Plumbing & Drain C",
-    "wof:parent_id":-1,
+    "wof:parent_id":420781639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

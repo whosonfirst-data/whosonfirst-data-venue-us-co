@@ -2,9 +2,14 @@
   "id": 823666589,
   "type": "Feature",
   "properties": {
+    "addr:full":"2000 W 60th Ave Denver CO 80221",
+    "addr:housenumber":"2000",
+    "addr:postcode":"80221",
+    "addr:street":"W 60Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.014836,39.805578,-105.014836,39.805578",
     "geom:latitude":39.805578,
     "geom:longitude":-105.014836,
@@ -28,19 +33,46 @@
         "architectural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553657,
+        420553839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3sMZsKTv7M7N0SImt7HD3Z_39.805578_-105.014836@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443491,
-    "wof:geomhash":"ff85c532455b18e754c6054be5fe89e4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"af309ba33278cf08ce1a0603e8c1fc63",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553657,
+            "region_id":85688603,
+            "venue_id":823666589
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553839,
+            "region_id":85688603,
+            "venue_id":823666589
+        }
+    ],
     "wof:id":823666589,
-    "wof:lastmodified":1466418236,
+    "wof:lastmodified":1492127721,
     "wof:name":"Architectural Shapes & Designs",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823503867,
   "type": "Feature",
   "properties": {
+    "addr:full":"5595 E Lehigh Ave Denver CO 80237",
+    "addr:housenumber":"5595",
+    "addr:postcode":"80237",
+    "addr:street":"E Lehigh Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.924515,39.647865,-104.924515,39.647865",
     "geom:latitude":39.647865,
     "geom:longitude":-104.924515,
@@ -27,7 +32,15 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750071,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2JR2DXqtbYPMzDl7XVdsft_39.647865_-104.924515@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463439660,
     "wof:geomhash":"9e3dc559707721c4db4318a49c57d777",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750071,
+            "region_id":85688603,
+            "venue_id":823503867
+        }
+    ],
     "wof:id":823503867,
-    "wof:lastmodified":1466414420,
+    "wof:lastmodified":1486593589,
     "wof:name":"Cohens Cuisine",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750071,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

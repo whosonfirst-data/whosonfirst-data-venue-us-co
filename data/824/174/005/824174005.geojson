@@ -2,9 +2,14 @@
   "id": 824174005,
   "type": "Feature",
   "properties": {
+    "addr:full":"425 Cherry Dr Steamboat Spgs CO 80487",
+    "addr:housenumber":"425",
+    "addr:postcode":"80487",
+    "addr:street":"Cherry Dr;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.821709,40.482903,-106.821709,40.482903",
     "geom:latitude":40.482903,
     "geom:longitude":-106.821709,
@@ -28,19 +33,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555185,
+        420555395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1i1BvqSaB7qTG7DU9fDimD_40.482903_-106.821709@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456840,
-    "wof:geomhash":"14ca7812d9e959b5d5cdf55e3b46206c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0f7bfa82c8e4e49b1f00442d65e663b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555185,
+            "region_id":85688603,
+            "venue_id":824174005
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555395,
+            "region_id":85688603,
+            "venue_id":824174005
+        }
+    ],
     "wof:id":824174005,
-    "wof:lastmodified":1466417921,
+    "wof:lastmodified":1492133213,
     "wof:name":"Ken Finch Plumbing",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

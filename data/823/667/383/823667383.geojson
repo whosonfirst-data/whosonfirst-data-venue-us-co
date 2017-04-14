@@ -2,9 +2,14 @@
   "id": 823667383,
   "type": "Feature",
   "properties": {
+    "addr:full":"545 University Ave Boulder CO 80302",
+    "addr:housenumber":"545",
+    "addr:postcode":"80302",
+    "addr:street":"University Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.287919,40.010494,-105.287919,40.010494",
     "geom:latitude":40.010494,
     "geom:longitude":-105.287919,
@@ -24,19 +29,36 @@
     "sg:postcode":"80302",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Jq1WnSs3DIyQRlDKsZpB9_40.010494_-105.287919@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443509,
-    "wof:geomhash":"7b4cafb8f7c7a96f329c0b2501473ae6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d9be916454a2ad446eb80897ff64d4ca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":823667383
+        }
+    ],
     "wof:id":823667383,
-    "wof:lastmodified":1466418245,
+    "wof:lastmodified":1492127131,
     "wof:name":"Stacylake L L C",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

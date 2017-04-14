@@ -2,9 +2,14 @@
   "id": 823963983,
   "type": "Feature",
   "properties": {
+    "addr:full":"193 Ute Ln Gunnison CO 81230",
+    "addr:housenumber":"193",
+    "addr:postcode":"81230",
+    "addr:street":"Ute Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.894038,38.54716,-106.894038,38.54716",
     "geom:latitude":38.54716,
     "geom:longitude":-106.894038,
@@ -28,19 +33,42 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554445,
+        85688603,
+        102191575,
+        85929659,
+        102083377,
+        85888435
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4MhdR8fcTAExuvduLPqZ4z_38.547160_-106.894038@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451114,
-    "wof:geomhash":"425ecc13968097ae93249661c48e59ee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"94f5d0e934cd2b579539ad7c51235424",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554445,
+            "venue_id":823963983
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":85888435,
+            "region_id":85688603,
+            "venue_id":823963983
+        }
+    ],
     "wof:id":823963983,
-    "wof:lastmodified":1466420830,
+    "wof:lastmodified":1492119836,
     "wof:name":"Hisson HVAC Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

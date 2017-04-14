@@ -2,9 +2,14 @@
   "id": 839979907,
   "type": "Feature",
   "properties": {
+    "addr:full":"343 S 20th Ave Brighton CO 80601",
+    "addr:housenumber":"343",
+    "addr:postcode":"80601",
+    "addr:street":"S 20Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.79756,39.981489,-104.79756,39.981489",
     "geom:latitude":39.981489,
     "geom:longitude":-104.79756,
@@ -23,19 +28,36 @@
         "crop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0nAgdBDaPVDm0AmaOvJols_39.981489_-104.797560@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460419,
-    "wof:geomhash":"ae5ab8e909ee2a967998b8cce09ce253",
-    "wof:hierarchy":[],
+    "wof:geomhash":"00a84353db335ca9b41f1de883691ae5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":839979907
+        }
+    ],
     "wof:id":839979907,
-    "wof:lastmodified":1466416987,
+    "wof:lastmodified":1492113629,
     "wof:name":"Gordon Siert Farm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

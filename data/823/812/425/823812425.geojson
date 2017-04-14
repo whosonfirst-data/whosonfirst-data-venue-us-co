@@ -2,9 +2,14 @@
   "id": 823812425,
   "type": "Feature",
   "properties": {
+    "addr:full":"10103 E 150th Ave Brighton CO 80602",
+    "addr:housenumber":"10103",
+    "addr:postcode":"80602",
+    "addr:street":"E 150Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.868805,39.969051,-104.868805,39.969051",
     "geom:latitude":39.969051,
     "geom:longitude":-104.868805,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5YQV3rbfQZuxs5aqzUVQpJ_39.969051_-104.868805@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447079,
-    "wof:geomhash":"cdf58e5a5a63a8d28bdf99b48fb9ba39",
-    "wof:hierarchy":[],
+    "wof:geomhash":"94bd12d717f8e3ddcab26858e33236ea",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553381,
+            "region_id":85688603,
+            "venue_id":823812425
+        }
+    ],
     "wof:id":823812425,
-    "wof:lastmodified":1466419500,
+    "wof:lastmodified":1492119066,
     "wof:name":"Landmark Garage Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823507027,
   "type": "Feature",
   "properties": {
+    "addr:full":"2021 Co Rd 27 Fort Lupton CO 80621",
+    "addr:housenumber":"2021;27",
+    "addr:postcode":"80621",
+    "addr:street":"Co Rd;Fort Lupton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810558,40.031085,-104.810558,40.031085",
     "geom:latitude":40.031085,
     "geom:longitude":-104.810558,
@@ -31,19 +36,28 @@
         "well"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3zj2uhXg4Th95ItDbAQMQE_40.031085_-104.810558@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439734,
-    "wof:geomhash":"dd9c19115f033089ab13b513e3834740",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e69d46d66ef4d252620159685069e08",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823507027
+        }
+    ],
     "wof:id":823507027,
-    "wof:lastmodified":1466414437,
+    "wof:lastmodified":1492126538,
     "wof:name":"Spains Pump Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

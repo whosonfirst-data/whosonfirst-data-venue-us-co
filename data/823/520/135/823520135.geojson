@@ -2,9 +2,14 @@
   "id": 823520135,
   "type": "Feature",
   "properties": {
+    "addr:full":"7121 Warren Dr Denver CO 80221",
+    "addr:housenumber":"7121",
+    "addr:postcode":"80221",
+    "addr:street":"Warren Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.014297,39.826342,-105.014297,39.826342",
     "geom:latitude":39.826342,
     "geom:longitude":-105.014297,
@@ -27,19 +32,36 @@
         "planning"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553585
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2QZguuP8HbQPt2X4rcpqZN_39.826342_-105.014297@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440030,
-    "wof:geomhash":"c68328a2f6a9ee989e68c93cf5bc62e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d1ae56ab62248fd064625fb2d39d619",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553585,
+            "region_id":85688603,
+            "venue_id":823520135
+        }
+    ],
     "wof:id":823520135,
-    "wof:lastmodified":1466414943,
+    "wof:lastmodified":1492127471,
     "wof:name":"Nadines Tours",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553585,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

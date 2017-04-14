@@ -2,9 +2,14 @@
   "id": 823803251,
   "type": "Feature",
   "properties": {
+    "addr:full":"1451 Cortez St Denver CO 80221",
+    "addr:housenumber":"1451",
+    "addr:postcode":"80221",
+    "addr:street":"Cortez St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00373,39.830487,-105.00373,39.830487",
     "geom:latitude":39.830487,
     "geom:longitude":-105.00373,
@@ -27,19 +32,36 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_49SNXtihKxi9EHhMVCi8S6_39.830487_-105.003730@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446795,
-    "wof:geomhash":"65d2fd346ec5fb7060a14ac033dfcd0f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f6e01f75f332b9f448b0fa8e13079bc6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":823803251
+        }
+    ],
     "wof:id":823803251,
-    "wof:lastmodified":1466419396,
+    "wof:lastmodified":1492127047,
     "wof:name":"Bottle Caps Pub & Grill",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

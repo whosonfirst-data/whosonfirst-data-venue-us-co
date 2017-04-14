@@ -2,9 +2,14 @@
   "id": 839920251,
   "type": "Feature",
   "properties": {
+    "addr:full":"2509 Industrial Ct Grand Junction CO 81505",
+    "addr:housenumber":"2509",
+    "addr:postcode":"81505",
+    "addr:street":"Industrial Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.588421,39.089697,-108.588421,39.089697",
     "geom:latitude":39.089697,
     "geom:longitude":-108.588421,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554791
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2agrIvLpObF1fLCTIWdPgU_39.089697_-108.588421@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457502,
-    "wof:geomhash":"048a5da52364e029993915951759fe57",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f703411a95dd133b4326eb4cb1c22229",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":839920251
+        }
+    ],
     "wof:id":839920251,
-    "wof:lastmodified":1466413518,
+    "wof:lastmodified":1492112315,
     "wof:name":"Pet Spa",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554791,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

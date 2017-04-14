@@ -2,9 +2,14 @@
   "id": 824123615,
   "type": "Feature",
   "properties": {
+    "addr:full":"456 S Glasgow Ave Rico CO 81323",
+    "addr:housenumber":"456",
+    "addr:postcode":"81323",
+    "addr:street":"S Glasgow Ave Rico",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.031454,37.686724,-108.031454,37.686724",
     "geom:latitude":37.686724,
     "geom:longitude":-108.031454,
@@ -28,17 +33,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928977,
+        102085229
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6vFk4gUxQrwHZXfeiRWsZs_37.686724_-108.031454@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454864,
-    "wof:geomhash":"6f8ab9ae4b721a6785226d2137b44f90",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f65d8a90ec515d3b3b05a8975e02928d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085229,
+            "locality_id":85928977,
+            "region_id":85688603,
+            "venue_id":824123615
+        }
+    ],
     "wof:id":824123615,
-    "wof:lastmodified":1466415815,
+    "wof:lastmodified":1492128852,
     "wof:name":"Concrete Creations",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

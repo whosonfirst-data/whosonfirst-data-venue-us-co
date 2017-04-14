@@ -2,9 +2,14 @@
   "id": 839909987,
   "type": "Feature",
   "properties": {
+    "addr:full":"1149 W 102nd Ave Denver CO 80260",
+    "addr:housenumber":"1149",
+    "addr:postcode":"80260",
+    "addr:street":"W 102Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005587,39.88155,-105.005587,39.88155",
     "geom:latitude":39.88155,
     "geom:longitude":-105.005587,
@@ -28,19 +33,36 @@
         "promotional"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_57mV2EE4W14Kq37PhTTiuQ_39.881550_-105.005587@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457113,
-    "wof:geomhash":"09447d2c8c1207f7cf03f110dd8bd0f1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"045c5ae31a2b36b54f943dedef5856b1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":839909987
+        }
+    ],
     "wof:id":839909987,
-    "wof:lastmodified":1466413523,
+    "wof:lastmodified":1492112742,
     "wof:name":"Jans Advertising Specialties",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

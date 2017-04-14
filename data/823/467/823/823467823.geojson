@@ -2,9 +2,14 @@
   "id": 823467823,
   "type": "Feature",
   "properties": {
+    "addr:full":"1221 Bellaire St Broomfield CO 80020",
+    "addr:housenumber":"1221",
+    "addr:postcode":"80020",
+    "addr:street":"Bellaire St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060215,39.935701,-105.060215,39.935701",
     "geom:latitude":39.935701,
     "geom:longitude":-105.060215,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554177
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_60J7ftS3Mb9eQhJVdj59qa_39.935701_-105.060215@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438784,
-    "wof:geomhash":"00cad79411ce09fff4370b30d26adffb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6af2d86442727bb78147593ef112e939",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554177,
+            "region_id":85688603,
+            "venue_id":823467823
+        }
+    ],
     "wof:id":823467823,
-    "wof:lastmodified":1466412113,
+    "wof:lastmodified":1492117032,
     "wof:name":"Northland Electrical Co I",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554177,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

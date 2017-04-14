@@ -2,9 +2,14 @@
   "id": 824089449,
   "type": "Feature",
   "properties": {
+    "addr:full":"4055 Pinon Dr Boulder CO 80303",
+    "addr:housenumber":"4055",
+    "addr:postcode":"80303",
+    "addr:street":"Pinon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.244998,39.998283,-105.244998,39.998283",
     "geom:latitude":39.998283,
     "geom:longitude":-105.244998,
@@ -28,19 +33,46 @@
         "training"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554147,
+        85876421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7csSUkFfDcrufjIjUaR39C_39.998283_-105.244998@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454078,
-    "wof:geomhash":"5f5e277127171ad43156227c205e59c1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fe5ddb3052b11ae34038ad4d7ac2b237",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554147,
+            "region_id":85688603,
+            "venue_id":824089449
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876421,
+            "region_id":85688603,
+            "venue_id":824089449
+        }
+    ],
     "wof:id":824089449,
-    "wof:lastmodified":1466415017,
+    "wof:lastmodified":1492130146,
     "wof:name":"Apprion",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

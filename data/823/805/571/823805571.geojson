@@ -2,9 +2,14 @@
   "id": 823805571,
   "type": "Feature",
   "properties": {
+    "addr:full":"255 State Hwy 56 Berthoud CO 80513",
+    "addr:housenumber":"255",
+    "addr:postcode":"80513",
+    "addr:street":"State Hwy 56",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.050614,40.305409,-105.050614,40.305409",
     "geom:latitude":40.305409,
     "geom:longitude":-105.050614,
@@ -27,19 +32,36 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1tE4ZbRMOCszMOHc7bu6PD_40.305409_-105.050614@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446862,
-    "wof:geomhash":"1ed4e1c643e31dcf966c2d584f6553fe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ef7214b82c9ba72224ec27db5cc1d7eb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823805571
+        }
+    ],
     "wof:id":823805571,
-    "wof:lastmodified":1466419392,
+    "wof:lastmodified":1492118666,
     "wof:name":"Orpheous",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

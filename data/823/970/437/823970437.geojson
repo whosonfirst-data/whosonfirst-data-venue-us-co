@@ -2,9 +2,14 @@
   "id": 823970437,
   "type": "Feature",
   "properties": {
+    "addr:full":"11175 E 55th Ave Denver CO 80239",
+    "addr:housenumber":"11175",
+    "addr:postcode":"80239",
+    "addr:street":"E 55Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.852934,39.79592,-104.852934,39.79592",
     "geom:latitude":39.79592,
     "geom:longitude":-104.852934,
@@ -34,7 +39,15 @@
         "pharmaceutical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3s0u6gyfwDUD2OuCjfG483_39.795920_-104.852934@1294083659"
@@ -42,11 +55,22 @@
     "wof:country":"US",
     "wof:created":1463451266,
     "wof:geomhash":"15b7f535cce9d77dbe25e8a8378e1c48",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823970437
+        }
+    ],
     "wof:id":823970437,
-    "wof:lastmodified":1466420820,
+    "wof:lastmodified":1491887454,
     "wof:name":"Physician Sales & Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

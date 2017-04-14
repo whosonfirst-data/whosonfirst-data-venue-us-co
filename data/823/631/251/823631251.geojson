@@ -2,9 +2,14 @@
   "id": 823631251,
   "type": "Feature",
   "properties": {
+    "addr:full":"114 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"114;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.848132,37.299892,-107.848132,37.299892",
     "geom:latitude":37.299892,
     "geom:longitude":-107.848132,
@@ -27,19 +32,28 @@
         "greenhouse"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7FQ4E4YeHcN2l9ojQuMDxG_37.299892_-107.848132@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442654,
-    "wof:geomhash":"9b96f95dd96bf8067d86582b4020d95f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58e706bcd6677bcd0e7407f68b71165e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":823631251
+        }
+    ],
     "wof:id":823631251,
-    "wof:lastmodified":1466417545,
+    "wof:lastmodified":1492117165,
     "wof:name":"Native Roots Garden Ctr Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839974117,
   "type": "Feature",
   "properties": {
+    "addr:full":"3310 W 94th Ave Westminster CO 80031",
+    "addr:housenumber":"3310",
+    "addr:postcode":"80031",
+    "addr:street":"W 94Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.029012,39.867716,-105.029012,39.867716",
     "geom:latitude":39.867716,
     "geom:longitude":-105.029012,
@@ -27,19 +32,36 @@
         "wrecker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1To1cYXHfRUxoa5suX2Sw2_39.867716_-105.029012@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460181,
-    "wof:geomhash":"34d404f177bb475b8a552b3a00ab2ada",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e22973ddc8dce28289ce418511f844bb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":839974117
+        }
+    ],
     "wof:id":839974117,
-    "wof:lastmodified":1466416641,
+    "wof:lastmodified":1492110900,
     "wof:name":"Gary's Towing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

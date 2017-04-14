@@ -2,9 +2,14 @@
   "id": 839989245,
   "type": "Feature",
   "properties": {
+    "addr:full":"1083 14th St Boulder CO 80302",
+    "addr:housenumber":"1083",
+    "addr:postcode":"80302",
+    "addr:street":"14Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275004,40.00708,-105.275004,40.00708",
     "geom:latitude":40.00708,
     "geom:longitude":-105.275004,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Obif7Zlcg7xnD86FoLD79_40.007080_-105.275004@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460781,
-    "wof:geomhash":"0992b0dc3b8fefba925a3e420314b11a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4529e82b35d2eb5f6932b7cbbb219d49",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839989245
+        }
+    ],
     "wof:id":839989245,
-    "wof:lastmodified":1466417366,
+    "wof:lastmodified":1492111067,
     "wof:name":"Thunderbird Burgers & BBQ",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

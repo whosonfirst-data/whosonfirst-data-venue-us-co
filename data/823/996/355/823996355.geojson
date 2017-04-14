@@ -2,9 +2,14 @@
   "id": 823996355,
   "type": "Feature",
   "properties": {
+    "addr:full":"1898 W 92nd Ave Denver CO 80260",
+    "addr:housenumber":"1898",
+    "addr:postcode":"80260",
+    "addr:street":"W 92Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.010232,39.863408,-105.010232,39.863408",
     "geom:latitude":39.863408,
     "geom:longitude":-105.010232,
@@ -27,19 +32,36 @@
         "grocer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553861
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Qf4PmciouvqGZC5m5hpd6_39.863408_-105.010232@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451901,
-    "wof:geomhash":"9927c41487fd0cc21540d71596122a3b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5d832f54bc67dcc1d94ad7f61cdf709d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553861,
+            "region_id":85688603,
+            "venue_id":823996355
+        }
+    ],
     "wof:id":823996355,
-    "wof:lastmodified":1466421076,
+    "wof:lastmodified":1492117458,
     "wof:name":"Carniceria Mi Raza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553861,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

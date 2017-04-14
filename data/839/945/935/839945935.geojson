@@ -2,9 +2,14 @@
   "id": 839945935,
   "type": "Feature",
   "properties": {
+    "addr:full":"6801 Lowell Blvd Denver CO 80221",
+    "addr:housenumber":"6801",
+    "addr:postcode":"80221",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034473,39.822122,-105.034473,39.822122",
     "geom:latitude":39.822122,
     "geom:longitude":-105.034473,
@@ -27,19 +32,47 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553401,
+        85930265,
+        420553739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4LViV3Bm9aQ5dYF0MyoftV_39.822122_-105.034473@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458912,
-    "wof:geomhash":"24817510bfc7064628717b8a6cdd29a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bbbf69eff9683e25f315e01ca563f178",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553401,
+            "region_id":85688603,
+            "venue_id":839945935
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553739,
+            "region_id":85688603,
+            "venue_id":839945935
+        }
+    ],
     "wof:id":839945935,
-    "wof:lastmodified":1466415280,
+    "wof:lastmodified":1492114043,
     "wof:name":"Phoenix Bar & Grill",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

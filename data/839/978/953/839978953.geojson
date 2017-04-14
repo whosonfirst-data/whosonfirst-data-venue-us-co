@@ -2,9 +2,14 @@
   "id": 839978953,
   "type": "Feature",
   "properties": {
+    "addr:full":"15493 Co Rd 25 Gunnison CO 81243",
+    "addr:housenumber":"15493;25",
+    "addr:postcode":"81243",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.312631,38.386596,-107.312631,38.386596",
     "geom:latitude":38.386596,
     "geom:longitude":-107.312631,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554399
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7foU3cb6l7pIdOcuzpZfMS_38.386596_-107.312631@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460378,
-    "wof:geomhash":"759e1df9a4d4d34f22789be4f9eb515a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fbdd648eb88639060004caf2bc01262f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554399,
+            "venue_id":839978953
+        }
+    ],
     "wof:id":839978953,
-    "wof:lastmodified":1466416933,
+    "wof:lastmodified":1492112010,
     "wof:name":"Blue Mesa Excavation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554399,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823521579,
   "type": "Feature",
   "properties": {
+    "addr:full":"855 E 68th Ave Denver CO 80229",
+    "addr:housenumber":"855",
+    "addr:postcode":"80229",
+    "addr:street":"E 68Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974719,39.820054,-104.974719,39.820054",
     "geom:latitude":39.820054,
     "geom:longitude":-104.974719,
@@ -28,19 +33,36 @@
         "industrial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2UOG7KbK7XH6AIVxd690XB_39.820054_-104.974719@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440061,
-    "wof:geomhash":"069f7ca3d4669c1d289ff212a3262a61",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0c6e5ea034c7a4c7e9526b6fbb73040",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823521579
+        }
+    ],
     "wof:id":823521579,
-    "wof:lastmodified":1466414829,
+    "wof:lastmodified":1492119609,
     "wof:name":"Western Mixer Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

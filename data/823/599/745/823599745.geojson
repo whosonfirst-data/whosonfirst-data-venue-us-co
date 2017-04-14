@@ -2,9 +2,14 @@
   "id": 823599745,
   "type": "Feature",
   "properties": {
+    "addr:full":"6901 W 117th Ave Broomfield CO 80020",
+    "addr:housenumber":"6901",
+    "addr:postcode":"80020",
+    "addr:street":"W 117Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076455,39.909872,-105.076455,39.909872",
     "geom:latitude":39.909872,
     "geom:longitude":-105.076455,
@@ -28,19 +33,58 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        85876543,
+        85929855,
+        102086123,
+        420554175,
+        420554221
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4XK6Tpm2c4Td3KqIfCrLWp_39.909872_-105.076455@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441887,
-    "wof:geomhash":"98c9da7bbcec44a732a196f45786479c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2195cc18da3b2f3e4421cef505e93b51",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":85876543,
+            "region_id":85688603,
+            "venue_id":823599745
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554175,
+            "region_id":85688603,
+            "venue_id":823599745
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554221,
+            "region_id":85688603,
+            "venue_id":823599745
+        }
+    ],
     "wof:id":823599745,
-    "wof:lastmodified":1466417123,
+    "wof:lastmodified":1492117770,
     "wof:name":"Steven Karowe",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

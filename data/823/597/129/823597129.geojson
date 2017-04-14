@@ -2,9 +2,14 @@
   "id": 823597129,
   "type": "Feature",
   "properties": {
+    "addr:full":"234 S Main St Campo CO 81029",
+    "addr:housenumber":"234",
+    "addr:postcode":"81029",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.579091,37.106937,-102.579091,37.106937",
     "geom:latitude":37.106937,
     "geom:longitude":-102.579091,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929169,
+        102085237
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2MSBXjwhqcpbEUMvbUvSD1_37.106937_-102.579091@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441817,
-    "wof:geomhash":"ff8fa830203e20eed341c472425ceec0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58b5148e16bbe52da67c84576be8a068",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085237,
+            "locality_id":85929169,
+            "region_id":85688603,
+            "venue_id":823597129
+        }
+    ],
     "wof:id":823597129,
-    "wof:lastmodified":1466417308,
+    "wof:lastmodified":1492116600,
     "wof:name":"Wesleyan Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

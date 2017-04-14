@@ -2,9 +2,14 @@
   "id": 823787071,
   "type": "Feature",
   "properties": {
+    "addr:full":"1024 Co Rd 230 Durango CO 81301",
+    "addr:housenumber":"1024;230",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.786608,37.236827,-107.786608,37.236827",
     "geom:latitude":37.236827,
     "geom:longitude":-107.786608,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554645
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3hoEtfrvLnpqxfJXW0MLHC_37.236827_-107.786608@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446317,
-    "wof:geomhash":"fc006cffdcac831434479c214de60c2b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7a0eeaf1095b60f9643db168856447b8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554645,
+            "venue_id":823787071
+        }
+    ],
     "wof:id":823787071,
-    "wof:lastmodified":1466419360,
+    "wof:lastmodified":1492117677,
     "wof:name":"Florida Presbyterian Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554645,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

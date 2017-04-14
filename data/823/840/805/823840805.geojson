@@ -2,9 +2,14 @@
   "id": 823840805,
   "type": "Feature",
   "properties": {
+    "addr:full":"1075 W 85th Ave Denver CO 80260",
+    "addr:housenumber":"1075",
+    "addr:postcode":"80260",
+    "addr:street":"W 85Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.002767,39.85182,-105.002767,39.85182",
     "geom:latitude":39.85182,
     "geom:longitude":-105.002767,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1UOzAlIpgGDcDMd8FgsZmN_39.851820_-105.002767@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447958,
-    "wof:geomhash":"553a49cd1334f94face28e49fd6898a9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5c2cfd3cff0a5847f7584fdc0e4f3003",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553771,
+            "region_id":85688603,
+            "venue_id":823840805
+        }
+    ],
     "wof:id":823840805,
-    "wof:lastmodified":1466419761,
+    "wof:lastmodified":1492123843,
     "wof:name":"Landsharks Contractors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

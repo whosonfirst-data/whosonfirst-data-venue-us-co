@@ -2,9 +2,14 @@
   "id": 824146525,
   "type": "Feature",
   "properties": {
+    "addr:full":"12844 E 116th Ct Henderson CO 80640",
+    "addr:housenumber":"12844",
+    "addr:postcode":"80640",
+    "addr:street":"E 116Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.839502,39.906311,-104.839502,39.906311",
     "geom:latitude":39.906311,
     "geom:longitude":-104.839502,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1QdKH0PJRBDjjQIVQ5lt8E_39.906311_-104.839502@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455763,
-    "wof:geomhash":"5e13960e47fc671e52009a6511cbdeab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d3f04efe235b67c049272cc7e96c212",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553367,
+            "region_id":85688603,
+            "venue_id":824146525
+        }
+    ],
     "wof:id":824146525,
-    "wof:lastmodified":1466416673,
+    "wof:lastmodified":1492127998,
     "wof:name":"Modelco Electric Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

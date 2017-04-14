@@ -2,9 +2,14 @@
   "id": 824048419,
   "type": "Feature",
   "properties": {
+    "addr:full":"610 11th Ave Longmont CO 80501",
+    "addr:housenumber":"610",
+    "addr:postcode":"80501",
+    "addr:street":"11Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.103628,40.177716,-105.103628,40.177716",
     "geom:latitude":40.177716,
     "geom:longitude":-105.103628,
@@ -27,17 +32,32 @@
         "cemetery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6BjIYg73HjYysmpMvsooLi_40.177716_-105.103628@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453130,
-    "wof:geomhash":"028685a3347b6b27618e090e94940420",
-    "wof:hierarchy":[],
+    "wof:geomhash":"760f0e2c671c93ba7a7f7146b9819941",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":824048419
+        }
+    ],
     "wof:id":824048419,
-    "wof:lastmodified":1466414285,
+    "wof:lastmodified":1492132171,
     "wof:name":"Longmont Mountain View Cmtry",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823861563,
   "type": "Feature",
   "properties": {
+    "addr:full":"1317 N 3rd St Grand Junction CO 81501",
+    "addr:housenumber":"1317",
+    "addr:postcode":"81501",
+    "addr:street":"N 3Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.567935,39.079834,-108.567935,39.079834",
     "geom:latitude":39.079834,
     "geom:longitude":-108.567935,
@@ -27,19 +32,36 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ca1nxTnpAILPJyUokLhJ9_39.079834_-108.567935@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448529,
-    "wof:geomhash":"889865b809f51f4cb6c87eae7f1d9dc2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"273659c1fec8a3dc2c752768766fc70a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823861563
+        }
+    ],
     "wof:id":823861563,
-    "wof:lastmodified":1466419915,
+    "wof:lastmodified":1492122866,
     "wof:name":"Diamond Dental Laboratory",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

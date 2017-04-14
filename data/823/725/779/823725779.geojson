@@ -2,9 +2,14 @@
   "id": 823725779,
   "type": "Feature",
   "properties": {
+    "addr:full":"3127 Teal Ct Grand Junction CO 81504",
+    "addr:housenumber":"3127",
+    "addr:postcode":"81504",
+    "addr:street":"Teal Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.472629,39.063242,-108.472629,39.063242",
     "geom:latitude":39.063242,
     "geom:longitude":-108.472629,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5u4TUE1LeSGIr7VR8uaGhR_39.063242_-108.472629@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444801,
-    "wof:geomhash":"a287e4d87402fc78f21683e047f9600f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"01e3dc64927f62febfe198cc38b275a1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823725779
+        }
+    ],
     "wof:id":823725779,
-    "wof:lastmodified":1466418818,
+    "wof:lastmodified":1492121844,
     "wof:name":"Cimarron Drilling Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

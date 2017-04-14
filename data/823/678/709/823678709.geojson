@@ -2,9 +2,14 @@
   "id": 823678709,
   "type": "Feature",
   "properties": {
+    "addr:full":"462 8th St Bennett CO 80102",
+    "addr:housenumber":"462",
+    "addr:postcode":"80102",
+    "addr:street":"8Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.423717,39.757649,-104.423717,39.757649",
     "geom:latitude":39.757649,
     "geom:longitude":-104.423717,
@@ -27,19 +32,36 @@
         "elementary"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929337,
+        102086877,
+        420553325
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3wGkHn4m3CzrogvO4tSewO_39.757649_-104.423717@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443759,
-    "wof:geomhash":"fbd4d35525481c8e34218f46a5bd03b1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"33e0b877e1acd01a5dd77ba227088a0d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929337,
+            "neighbourhood_id":420553325,
+            "region_id":85688603,
+            "venue_id":823678709
+        }
+    ],
     "wof:id":823678709,
-    "wof:lastmodified":1466418369,
+    "wof:lastmodified":1492121428,
     "wof:name":"Bennett Elementary School",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553325,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

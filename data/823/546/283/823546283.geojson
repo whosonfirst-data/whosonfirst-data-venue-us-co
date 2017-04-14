@@ -2,9 +2,14 @@
   "id": 823546283,
   "type": "Feature",
   "properties": {
+    "addr:full":"2730 Worthington Ave Fort Collins CO 80526",
+    "addr:housenumber":"2730",
+    "addr:postcode":"80526",
+    "addr:street":"Worthington Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.090299,40.549229,-105.090299,40.549229",
     "geom:latitude":40.549229,
     "geom:longitude":-105.090299,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_40bnPBbwiGonsTcoUTTiQS_40.549229_-105.090299@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440610,
-    "wof:geomhash":"89c3df34ca654e8d325b16040d90c4ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7151afbe0fcfc34eb04f5ebe2eb5381c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823546283
+        }
+    ],
     "wof:id":823546283,
-    "wof:lastmodified":1466415734,
+    "wof:lastmodified":1492118153,
     "wof:name":"Miller Crossing Rest Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

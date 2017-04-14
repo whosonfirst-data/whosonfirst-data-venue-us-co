@@ -2,9 +2,14 @@
   "id": 823717707,
   "type": "Feature",
   "properties": {
+    "addr:full":"801 N Broadway Cortez CO 81321",
+    "addr:housenumber":"801",
+    "addr:postcode":"81321",
+    "addr:street":"N Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.591054,37.358486,-108.591054,37.358486",
     "geom:latitude":37.358486,
     "geom:longitude":-108.591054,
@@ -28,19 +33,34 @@
     ],
     "sg:website":"www.empireelectric.org",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4b4vvMZZLYoQzQrfBDLh2Q_37.358486_-108.591054@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444601,
-    "wof:geomhash":"a5787a3c680318f197791eb565ebe626",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dbbde845eaafa49cc0bf12941e846ce2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":823717707
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823717707
+        }
+    ],
     "wof:id":823717707,
-    "wof:lastmodified":1466418673,
+    "wof:lastmodified":1492117957,
     "wof:name":"Empire Electric Assn Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

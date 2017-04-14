@@ -2,9 +2,14 @@
   "id": 823531829,
   "type": "Feature",
   "properties": {
+    "addr:full":"7880 Washington St Denver CO 80229",
+    "addr:housenumber":"7880",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977796,39.840654,-104.977796,39.840654",
     "geom:latitude":39.840654,
     "geom:longitude":-104.977796,
@@ -29,19 +34,36 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553621
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_34HEF8sEWNYInKYZVpccmq_39.840654_-104.977796@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440288,
-    "wof:geomhash":"8bde58e892b22c623395eed6fe9f523e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"214d91102c3aa74a8e751ec30d3c1c05",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553621,
+            "region_id":85688603,
+            "venue_id":823531829
+        }
+    ],
     "wof:id":823531829,
-    "wof:lastmodified":1466415267,
+    "wof:lastmodified":1492120588,
     "wof:name":"Auto Works Intl",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553621,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

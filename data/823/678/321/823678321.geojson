@@ -2,9 +2,14 @@
   "id": 823678321,
   "type": "Feature",
   "properties": {
+    "addr:full":"1529 Spruce St Boulder CO 80302",
+    "addr:housenumber":"1529",
+    "addr:postcode":"80302",
+    "addr:street":"Spruce St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275395,40.019981,-105.275395,40.019981",
     "geom:latitude":40.019981,
     "geom:longitude":-105.275395,
@@ -27,7 +32,14 @@
         "investor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2sYyTiyM55PkOb9WVoYKys_40.019981_-105.275395@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463443752,
     "wof:geomhash":"840b4b37ab7d565dee66ab224e34074d",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823678321
+        }
+    ],
     "wof:id":823678321,
-    "wof:lastmodified":1466418423,
+    "wof:lastmodified":1491888516,
     "wof:name":"Rkfv Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

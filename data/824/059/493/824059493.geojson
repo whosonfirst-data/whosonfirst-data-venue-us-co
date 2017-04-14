@@ -2,9 +2,14 @@
   "id": 824059493,
   "type": "Feature",
   "properties": {
+    "addr:full":"6867 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"6867;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.847076,37.39613,-107.847076,37.39613",
     "geom:latitude":37.39613,
     "geom:longitude":-107.847076,
@@ -28,19 +33,28 @@
         "snowmobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0kZe6Akw8s7n24dJl8Me6z_37.396130_-107.847076@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453381,
-    "wof:geomhash":"4df321a6d675f8cb6b2eaa824ec92afe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"73766b5b548cd38e927e919c76a5d833",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554631,
+            "venue_id":824059493
+        }
+    ],
     "wof:id":824059493,
-    "wof:lastmodified":1466414511,
+    "wof:lastmodified":1492128286,
     "wof:name":"Ice Pirates",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

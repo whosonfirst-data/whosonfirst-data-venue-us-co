@@ -2,9 +2,14 @@
   "id": 823598491,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 S San Juan Ave Montrose CO 81401",
+    "addr:housenumber":"101",
+    "addr:postcode":"81401",
+    "addr:street":"S;Juan Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.866515,38.485122,-107.866515,38.485122",
     "geom:latitude":38.485122,
     "geom:longitude":-107.866515,
@@ -28,17 +33,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72GnZdZhCBo1m6ctqOLVHL_38.485122_-107.866515@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441849,
-    "wof:geomhash":"a111db15554357a1650b470d04ce47b0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"48c2ada3b4411aec7d171ddb3aefa4fd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":823598491
+        }
+    ],
     "wof:id":823598491,
-    "wof:lastmodified":1466417124,
+    "wof:lastmodified":1492122114,
     "wof:name":"Schmidt Construction",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

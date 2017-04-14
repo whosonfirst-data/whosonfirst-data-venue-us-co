@@ -2,9 +2,14 @@
   "id": 839983475,
   "type": "Feature",
   "properties": {
+    "addr:full":"12768 Co Rd 26 Cortez CO 81321",
+    "addr:housenumber":"12768;26",
+    "addr:postcode":"81321",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572707,37.398451,-108.572707,37.398451",
     "geom:latitude":37.398451,
     "geom:longitude":-108.572707,
@@ -23,19 +28,28 @@
         "crop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4r2uhWcFEk45CEE7oU3wrp_37.398451_-108.572707@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460560,
-    "wof:geomhash":"0b058cf5c013f293bb18f5f5dc56b532",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7593d767e2f7643e8a8c180e98fd4dae",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":839983475
+        }
+    ],
     "wof:id":839983475,
-    "wof:lastmodified":1466417041,
+    "wof:lastmodified":1492110646,
     "wof:name":"Danny W Vankuren",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

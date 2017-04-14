@@ -2,9 +2,14 @@
   "id": 839993455,
   "type": "Feature",
   "properties": {
+    "addr:full":"1905 N Hudson Ave Pueblo CO 81001",
+    "addr:housenumber":"1905",
+    "addr:postcode":"81001",
+    "addr:street":"N Hudson Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.595997,38.28481,-104.595997,38.28481",
     "geom:latitude":38.28481,
     "geom:longitude":-104.595997,
@@ -29,17 +34,32 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4HUXBOWkbmsQJkplhabenv_38.284333_-104.595683@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460949,
-    "wof:geomhash":"2d9ce8fb91312df0602539dcd128df9f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ee0b93e577c393511fe98f24999f1285",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":839993455
+        }
+    ],
     "wof:id":839993455,
-    "wof:lastmodified":1466417648,
+    "wof:lastmodified":1492110930,
     "wof:name":"Pizza Hut",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

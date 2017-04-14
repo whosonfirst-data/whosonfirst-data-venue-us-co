@@ -2,9 +2,14 @@
   "id": 839923797,
   "type": "Feature",
   "properties": {
+    "addr:full":"2101 E Hwy 224 Denver CO 80229",
+    "addr:housenumber":"2101",
+    "addr:postcode":"80229",
+    "addr:street":"E Hwy 224",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.9656,39.827129,-104.9656,39.827129",
     "geom:latitude":39.827129,
     "geom:longitude":-104.9656,
@@ -27,19 +32,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6QAWkb39IMyLeIGojhgGtU_39.827129_-104.965600@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457653,
-    "wof:geomhash":"cccc03a69ce1d93e8919bdee48b3aaea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ddaec2fdf5916f66e98f180b3472850d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":839923797
+        }
+    ],
     "wof:id":839923797,
-    "wof:lastmodified":1466413944,
+    "wof:lastmodified":1492114151,
     "wof:name":"NAPA Auto Parts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

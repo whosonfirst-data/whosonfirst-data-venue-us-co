@@ -2,9 +2,14 @@
   "id": 823758887,
   "type": "Feature",
   "properties": {
+    "addr:full":"3501 Highland Pl Westminster CO 80031",
+    "addr:housenumber":"3501",
+    "addr:postcode":"80031",
+    "addr:street":"Highland Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.031685,39.860692,-105.031685,39.860692",
     "geom:latitude":39.860692,
     "geom:longitude":-105.031685,
@@ -28,19 +33,36 @@
         "day"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420553829
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7CTq58Bk6wVbyTtc5Jo3mV_39.860692_-105.031685@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445594,
-    "wof:geomhash":"9934c98828ce37a919c2442563aed459",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a0f355c64daa6b3802dfc9f6d988b29f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420553829,
+            "region_id":85688603,
+            "venue_id":823758887
+        }
+    ],
     "wof:id":823758887,
-    "wof:lastmodified":1466419178,
+    "wof:lastmodified":1492125847,
     "wof:name":"Knowledge Learning Corporation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553829,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

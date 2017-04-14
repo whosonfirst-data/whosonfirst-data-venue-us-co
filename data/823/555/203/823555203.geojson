@@ -2,9 +2,14 @@
   "id": 823555203,
   "type": "Feature",
   "properties": {
+    "addr:full":"56773 I- 70 Strasburg CO 80136",
+    "addr:housenumber":"56773;70",
+    "addr:postcode":"80136",
+    "addr:street":"I",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.323683,39.734325,-104.323683,39.734325",
     "geom:latitude":39.734325,
     "geom:longitude":-104.323683,
@@ -27,19 +32,36 @@
         "wrecker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1w2uRdFhY14xkQaPNx3H5m_39.734325_-104.323683@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440824,
-    "wof:geomhash":"7e2b0fe22b093974aa9903c4800a8834",
-    "wof:hierarchy":[],
+    "wof:geomhash":"460dffcfd799eddcd7dacbb1a90811de",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823555203
+        }
+    ],
     "wof:id":823555203,
-    "wof:lastmodified":1466415926,
+    "wof:lastmodified":1492125769,
     "wof:name":"Hank's Happy Acres",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

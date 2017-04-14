@@ -2,9 +2,14 @@
   "id": 823885419,
   "type": "Feature",
   "properties": {
+    "addr:full":"1738 Carmel Dr Colorado Springs CO 80910",
+    "addr:housenumber":"1738",
+    "addr:postcode":"80910",
+    "addr:street":"Carmel Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.7669,38.805771,-104.7669,38.805771",
     "geom:latitude":38.805771,
     "geom:longitude":-104.7669,
@@ -27,19 +32,36 @@
         "courier"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0kCMAuYNdwEx3Izo1bf37P_38.805771_-104.766900@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449089,
-    "wof:geomhash":"a152c878a19b31a0181702ed9fbec025",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91ade45b431e3bc28cbced7c082d1091",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823885419
+        }
+    ],
     "wof:id":823885419,
-    "wof:lastmodified":1466420158,
+    "wof:lastmodified":1492119105,
     "wof:name":"Julius Lester Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

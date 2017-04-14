@@ -2,9 +2,14 @@
   "id": 823940761,
   "type": "Feature",
   "properties": {
+    "addr:full":"256 Evans Blvd Elizabeth CO 80107",
+    "addr:housenumber":"256",
+    "addr:postcode":"80107",
+    "addr:street":"Evans Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.602303,39.362317,-104.602303,39.362317",
     "geom:latitude":39.362317,
     "geom:longitude":-104.602303,
@@ -28,17 +33,32 @@
         "security"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928809,
+        102084059
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5vJ34aK0lGoH6pfYZIhS5W_39.362317_-104.602303@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450541,
-    "wof:geomhash":"74d87f762e8b58151ee9895caa362f52",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3c000de6eec871309df302a4bc5e2254",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084059,
+            "locality_id":85928809,
+            "region_id":85688603,
+            "venue_id":823940761
+        }
+    ],
     "wof:id":823940761,
-    "wof:lastmodified":1466420575,
+    "wof:lastmodified":1492126245,
     "wof:name":"Civil Air Patrol Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

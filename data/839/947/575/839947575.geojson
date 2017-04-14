@@ -2,9 +2,14 @@
   "id": 839947575,
   "type": "Feature",
   "properties": {
+    "addr:full":"113 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"113;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.848262,37.299966,-107.848262,37.299966",
     "geom:latitude":37.299966,
     "geom:longitude":-107.848262,
@@ -28,19 +33,28 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0jFT28W4Ku51QcuqXkOyRL_37.299966_-107.848262@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459021,
-    "wof:geomhash":"bdc2a2718e78afafb7b9a267c180485b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b3626638efab2de7924d53a0fdcebafa",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":839947575
+        }
+    ],
     "wof:id":839947575,
-    "wof:lastmodified":1466415200,
+    "wof:lastmodified":1492113007,
     "wof:name":"Affordable Automotive",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

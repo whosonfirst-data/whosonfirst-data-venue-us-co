@@ -2,9 +2,14 @@
   "id": 823543669,
   "type": "Feature",
   "properties": {
+    "addr:full":"357 State Hwy 56 Berthoud CO 80513",
+    "addr:housenumber":"357",
+    "addr:postcode":"80513",
+    "addr:street":"State Hwy 56",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.048803,40.305471,-105.048803,40.305471",
     "geom:latitude":40.305471,
     "geom:longitude":-105.048803,
@@ -27,19 +32,36 @@
         "confectionery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_22izYeG1MZiExRPhUgom9q_40.305471_-105.048803@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440553,
-    "wof:geomhash":"c995fb673122d947ad2521ea5df231cf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"49b5853a42d96852a394dcc34d8b01e8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823543669
+        }
+    ],
     "wof:id":823543669,
-    "wof:lastmodified":1466415617,
+    "wof:lastmodified":1492118901,
     "wof:name":"Berthoud Candy Shoppe",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

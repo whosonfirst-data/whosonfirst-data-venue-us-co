@@ -2,9 +2,14 @@
   "id": 823970883,
   "type": "Feature",
   "properties": {
+    "addr:full":"6595 Pecos St Denver CO 80221",
+    "addr:housenumber":"6595",
+    "addr:postcode":"80221",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006342,39.819011,-105.006342,39.819011",
     "geom:latitude":39.819011,
     "geom:longitude":-105.006342,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4nOlKSe4G1NHkAdFejK4OZ_39.819011_-105.006342@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451273,
-    "wof:geomhash":"b19ff81d7ad88f80c9a5c9c8e83a0976",
-    "wof:hierarchy":[],
+    "wof:geomhash":"162233fc4436b058c3fb86a0edfb6494",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553657,
+            "region_id":85688603,
+            "venue_id":823970883
+        }
+    ],
     "wof:id":823970883,
-    "wof:lastmodified":1466420863,
+    "wof:lastmodified":1492116687,
     "wof:name":"Glass Systems Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553657,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

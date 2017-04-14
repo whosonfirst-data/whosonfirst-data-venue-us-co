@@ -2,9 +2,14 @@
   "id": 823929283,
   "type": "Feature",
   "properties": {
+    "addr:full":"350 Interlocken Blvd Broomfield CO 80021",
+    "addr:housenumber":"350",
+    "addr:postcode":"80021",
+    "addr:street":"Interlocken Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.111834,39.922287,-105.111834,39.922287",
     "geom:latitude":39.922287,
     "geom:longitude":-105.111834,
@@ -27,19 +32,36 @@
         "architectural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554215
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5w1cT70mvGmyeuksV1CAmY_39.922287_-105.111834@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450228,
-    "wof:geomhash":"894b6d0bee3012f55c124a350421d209",
-    "wof:hierarchy":[],
+    "wof:geomhash":"130490abf81bc7781a1b9e9d9cbcd323",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554215,
+            "region_id":85688603,
+            "venue_id":823929283
+        }
+    ],
     "wof:id":823929283,
-    "wof:lastmodified":1466420425,
+    "wof:lastmodified":1492123510,
     "wof:name":"John Williams Architecture",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554215,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

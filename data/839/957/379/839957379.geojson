@@ -2,9 +2,14 @@
   "id": 839957379,
   "type": "Feature",
   "properties": {
+    "addr:full":"5771 W 52nd Ave Denver CO 80212",
+    "addr:housenumber":"5771",
+    "addr:postcode":"80212",
+    "addr:street":"W 52Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060583,39.791148,-105.060583,39.791148",
     "geom:latitude":39.791148,
     "geom:longitude":-105.060583,
@@ -28,19 +33,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2jnKkHM7zUUxh1nQt4J6bU_39.791148_-105.060583@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459514,
-    "wof:geomhash":"e698fbfeb557e4c547a68302324ca676",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7e3e9642411308f88bfcbf86fa70d1a1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":839957379
+        }
+    ],
     "wof:id":839957379,
-    "wof:lastmodified":1466415558,
+    "wof:lastmodified":1492112485,
     "wof:name":"Helix Stair & Supply",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

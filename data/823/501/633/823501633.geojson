@@ -2,9 +2,14 @@
   "id": 823501633,
   "type": "Feature",
   "properties": {
+    "addr:full":"8681 Hopkins Dr Denver CO 80229",
+    "addr:housenumber":"8681",
+    "addr:postcode":"80229",
+    "addr:street":"Hopkins Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.965108,39.852948,-104.965108,39.852948",
     "geom:latitude":39.852948,
     "geom:longitude":-104.965108,
@@ -29,19 +34,36 @@
         "washing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6WWErwop1pjaVJzgnRKuyg_39.852948_-104.965108@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439611,
-    "wof:geomhash":"226381d464caae4ef8d5747ab0442d67",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53199622a543da98a9ba67dd4dbadc47",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823501633
+        }
+    ],
     "wof:id":823501633,
-    "wof:lastmodified":1466414169,
+    "wof:lastmodified":1492125751,
     "wof:name":"Friendly Familiar Grooming",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

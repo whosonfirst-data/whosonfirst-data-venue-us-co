@@ -2,9 +2,14 @@
   "id": 839989095,
   "type": "Feature",
   "properties": {
+    "addr:full":"1824 W 92nd Ave Denver CO 80260",
+    "addr:housenumber":"1824",
+    "addr:postcode":"80260",
+    "addr:street":"W 92Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00979,39.863471,-105.00979,39.863471",
     "geom:latitude":39.863471,
     "geom:longitude":-105.00979,
@@ -29,19 +34,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553861
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Mg4yZC7efMv4ThBYOicdq_39.863471_-105.009790@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460777,
-    "wof:geomhash":"bfcd9b6d709140d6f5267289687ca1d1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"22a1b82f85be405565eaebcc763700fb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553861,
+            "region_id":85688603,
+            "venue_id":839989095
+        }
+    ],
     "wof:id":839989095,
-    "wof:lastmodified":1466417353,
+    "wof:lastmodified":1492111068,
     "wof:name":"Blackjack Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553861,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

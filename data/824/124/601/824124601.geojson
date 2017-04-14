@@ -2,9 +2,14 @@
   "id": 824124601,
   "type": "Feature",
   "properties": {
+    "addr:full":"7891 Linda Cir Denver CO 80221",
+    "addr:housenumber":"7891",
+    "addr:postcode":"80221",
+    "addr:street":"Linda Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.99565,39.839995,-104.99565,39.839995",
     "geom:latitude":39.839995,
     "geom:longitude":-104.99565,
@@ -28,19 +33,36 @@
         "removal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553867
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3MVvJX65bf2E2D98Z4nDfG_39.839995_-104.995650@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454909,
-    "wof:geomhash":"3e338c1c314515f67348767ad8ae2759",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf3abeeb009f7a36c8fb428e0b4a3ca6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553867,
+            "region_id":85688603,
+            "venue_id":824124601
+        }
+    ],
     "wof:id":824124601,
-    "wof:lastmodified":1466415629,
+    "wof:lastmodified":1492130845,
     "wof:name":"Tanks Away Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553867,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

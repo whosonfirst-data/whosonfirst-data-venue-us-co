@@ -2,9 +2,14 @@
   "id": 823777593,
   "type": "Feature",
   "properties": {
+    "addr:full":"7300 Leyden St Commerce City CO 80022",
+    "addr:housenumber":"7300",
+    "addr:postcode":"80022",
+    "addr:street":"Leyden St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.914649,39.829886,-104.914649,39.829886",
     "geom:latitude":39.829886,
     "geom:longitude":-104.914649,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930259,
+        102084053,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6nXo5sSG4SReeT9wzBV16O_39.829886_-104.914649@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446023,
-    "wof:geomhash":"531557c549086579552b26883e038b22",
-    "wof:hierarchy":[],
+    "wof:geomhash":"02fb5c8bd95f1a0040ab40ba1d23595d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":823777593
+        }
+    ],
     "wof:id":823777593,
-    "wof:lastmodified":1466419143,
+    "wof:lastmodified":1492122211,
     "wof:name":"J C Auto Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553481,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

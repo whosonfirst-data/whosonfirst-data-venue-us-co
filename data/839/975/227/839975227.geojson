@@ -2,9 +2,14 @@
   "id": 839975227,
   "type": "Feature",
   "properties": {
+    "addr:full":"140 Power Rd Grand Junction CO 81503",
+    "addr:housenumber":"140",
+    "addr:postcode":"81503",
+    "addr:street":"Power Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.589248,39.067503,-108.589248,39.067503",
     "geom:latitude":39.067503,
     "geom:longitude":-108.589248,
@@ -30,19 +35,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554767
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4tbZYOJd4GDYWolEitHyeZ_39.067503_-108.589248@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460227,
-    "wof:geomhash":"bd507d09e4558d4f427ff8f0e2c0d1bf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"95c60295512987354f106d3fb8311b8f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554767,
+            "region_id":85688603,
+            "venue_id":839975227
+        }
+    ],
     "wof:id":839975227,
-    "wof:lastmodified":1466416428,
+    "wof:lastmodified":1492113711,
     "wof:name":"Pepsi-Cola",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554767,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

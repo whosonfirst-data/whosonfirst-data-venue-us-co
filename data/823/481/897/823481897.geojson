@@ -2,9 +2,14 @@
   "id": 823481897,
   "type": "Feature",
   "properties": {
+    "addr:full":"1041 Dawson Dr Denver CO 80229",
+    "addr:housenumber":"1041",
+    "addr:postcode":"80229",
+    "addr:street":"Dawson Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971964,39.851951,-104.971964,39.851951",
     "geom:latitude":39.851951,
     "geom:longitude":-104.971964,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5rhq61seh1mCmC0BXurzO5_39.851951_-104.971964@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439120,
-    "wof:geomhash":"a791be0911905613020939e863129896",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bfe89a66d4592148ae2a57d21be189bf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":823481897
+        }
+    ],
     "wof:id":823481897,
-    "wof:lastmodified":1466413560,
+    "wof:lastmodified":1492120361,
     "wof:name":"Alvarado Brothers Constr Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

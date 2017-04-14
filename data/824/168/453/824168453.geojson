@@ -2,9 +2,14 @@
   "id": 824168453,
   "type": "Feature",
   "properties": {
+    "addr:full":"13113 Pennsylvania Cir Denver CO 80241",
+    "addr:housenumber":"13113",
+    "addr:postcode":"80241",
+    "addr:street":"Pennsylvania Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980876,39.935003,-104.980876,39.935003",
     "geom:latitude":39.935003,
     "geom:longitude":-104.980876,
@@ -27,19 +32,36 @@
         "internet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_75SC2DbJchEtZCbrrKCl2Z_39.935003_-104.980876@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456619,
-    "wof:geomhash":"d9cf2bc9d020bdda145e918068c9abf8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ca152cf3146c79d0a6c4f5073af987f8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":824168453
+        }
+    ],
     "wof:id":824168453,
-    "wof:lastmodified":1466417729,
+    "wof:lastmodified":1492132198,
     "wof:name":"Rocky Mountain Hobbies LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

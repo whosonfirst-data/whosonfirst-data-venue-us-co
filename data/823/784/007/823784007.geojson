@@ -2,9 +2,14 @@
   "id": 823784007,
   "type": "Feature",
   "properties": {
+    "addr:full":"863 E Main St Rangely CO 81648",
+    "addr:housenumber":"863",
+    "addr:postcode":"81648",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.791585,40.087475,-108.791585,40.087475",
     "geom:latitude":40.087475,
     "geom:longitude":-108.791585,
@@ -27,17 +32,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929231,
+        102084117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_63VKHOyMcDMydiCsBrLbEX_40.087475_-108.791585@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446205,
-    "wof:geomhash":"ede176eb609f1031b8eff51232ef11e5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a5394968b33b9634a8d8eff26f55f44",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084117,
+            "locality_id":85929231,
+            "region_id":85688603,
+            "venue_id":823784007
+        }
+    ],
     "wof:id":823784007,
-    "wof:lastmodified":1466419357,
+    "wof:lastmodified":1492124659,
     "wof:name":"Rangely Apartments",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

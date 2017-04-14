@@ -2,9 +2,14 @@
   "id": 839927921,
   "type": "Feature",
   "properties": {
+    "addr:full":"9126 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"9126",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024933,39.863468,-105.024933,39.863468",
     "geom:latitude":39.863468,
     "geom:longitude":-105.024933,
@@ -29,19 +34,36 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553761
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5MNVyaTm1WiYq4W8fBnAgW_39.863468_-105.024933@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457861,
-    "wof:geomhash":"1d23dbb9380ed1a3ab534108a1c106c4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9e7976df68670307ef1b44e5fc8898b8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553761,
+            "region_id":85688603,
+            "venue_id":839927921
+        }
+    ],
     "wof:id":839927921,
-    "wof:lastmodified":1466413966,
+    "wof:lastmodified":1492110381,
     "wof:name":"Glory Homes LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553761,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823720111,
   "type": "Feature",
   "properties": {
+    "addr:full":"473 N 20th Ave Brighton CO 80601",
+    "addr:housenumber":"473",
+    "addr:postcode":"80601",
+    "addr:street":"N 20Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.798862,39.995534,-104.798862,39.995534",
     "geom:latitude":39.995534,
     "geom:longitude":-104.798862,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Ul2dIp1vKyNs8KI7Y8Ajl_39.995534_-104.798862@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444654,
-    "wof:geomhash":"6b735e629ede478f9ef19ebb60a1e22c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ddc4568df82bb5ab519beae43f780774",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":823720111
+        }
+    ],
     "wof:id":823720111,
-    "wof:lastmodified":1466418680,
+    "wof:lastmodified":1492121960,
     "wof:name":"Isaias Madera Masonry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

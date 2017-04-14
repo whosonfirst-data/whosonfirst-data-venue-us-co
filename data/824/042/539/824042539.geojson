@@ -2,9 +2,14 @@
   "id": 824042539,
   "type": "Feature",
   "properties": {
+    "addr:full":"4350 E Bromley Ln Brighton CO 80601",
+    "addr:housenumber":"4350",
+    "addr:postcode":"80601",
+    "addr:street":"E Bromley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.761577,39.972373,-104.761577,39.972373",
     "geom:latitude":39.972373,
     "geom:longitude":-104.761577,
@@ -29,19 +34,36 @@
         "municipal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553455
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6b52F5Za2ikyhvOrN0Qfd6_39.972373_-104.761577@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452991,
-    "wof:geomhash":"9498e8f82ded20388edcbbfc3776286b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"450e2835a23c708585e75541f01df242",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553455,
+            "region_id":85688603,
+            "venue_id":824042539
+        }
+    ],
     "wof:id":824042539,
-    "wof:lastmodified":1466414059,
+    "wof:lastmodified":1492129090,
     "wof:name":"Brighton Water Plant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553455,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

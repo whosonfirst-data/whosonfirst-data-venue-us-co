@@ -2,9 +2,14 @@
   "id": 823806559,
   "type": "Feature",
   "properties": {
+    "addr:full":"8890 Xavier St Westminster CO 80031",
+    "addr:housenumber":"8890",
+    "addr:postcode":"80031",
+    "addr:street":"Xavier St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.049793,39.858743,-105.049793,39.858743",
     "geom:latitude":39.858743,
     "geom:longitude":-105.049793,
@@ -35,19 +40,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553597
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5nA0NFsTd16bSSmGCo1vuV_39.858743_-105.049793@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446888,
-    "wof:geomhash":"7117054fdbc0daa02149a88d200346c0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a1a5b2c60000cf95ff17c8d3ea6d6c7b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553597,
+            "region_id":85688603,
+            "venue_id":823806559
+        }
+    ],
     "wof:id":823806559,
-    "wof:lastmodified":1466419440,
+    "wof:lastmodified":1492118253,
     "wof:name":"B & B Balancing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553597,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

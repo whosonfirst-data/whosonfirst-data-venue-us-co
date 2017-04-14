@@ -2,9 +2,14 @@
   "id": 823862435,
   "type": "Feature",
   "properties": {
+    "addr:full":"1200 E Evans Ave Pueblo CO 81004",
+    "addr:housenumber":"1200",
+    "addr:postcode":"81004",
+    "addr:street":"E Evans Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.614915,38.244102,-104.614915,38.244102",
     "geom:latitude":38.244102,
     "geom:longitude":-104.614915,
@@ -28,17 +33,32 @@
         "line"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_77wL0O5FQzvMNLIiwNwxM7_38.244102_-104.614915@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448562,
-    "wof:geomhash":"f91813baf778f19090fcee94abac78eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c17ca905126008f7619f52edb56c9c7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823862435
+        }
+    ],
     "wof:id":823862435,
-    "wof:lastmodified":1466419859,
+    "wof:lastmodified":1492119808,
     "wof:name":"El Paso Los Angeles Limousine",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

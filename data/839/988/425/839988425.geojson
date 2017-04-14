@@ -2,9 +2,14 @@
   "id": 839988425,
   "type": "Feature",
   "properties": {
+    "addr:full":"4916 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"4916",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024784,39.786077,-105.024784,39.786077",
     "geom:latitude":39.786077,
     "geom:longitude":-105.024784,
@@ -29,7 +34,15 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420781639,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4MXYiKyEBrpVy4oUhLMt9B_39.786077_-105.024784@1299784598"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463460756,
     "wof:geomhash":"c7ff733847323148eaeffaec39a269a6",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420781639,
+            "region_id":85688603,
+            "venue_id":839988425
+        }
+    ],
     "wof:id":839988425,
-    "wof:lastmodified":1466417551,
+    "wof:lastmodified":1486593524,
     "wof:name":"Little Caesar's Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420781639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

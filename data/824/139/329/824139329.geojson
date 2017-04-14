@@ -2,9 +2,14 @@
   "id": 824139329,
   "type": "Feature",
   "properties": {
+    "addr:full":"455 Egbert Cir Brighton CO 80601",
+    "addr:housenumber":"455",
+    "addr:postcode":"80601",
+    "addr:street":"Egbert Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.828136,39.984929,-104.828136,39.984929",
     "geom:latitude":39.984929,
     "geom:longitude":-104.828136,
@@ -27,19 +32,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6udgkqkaulS4rtRlPBquje_39.984929_-104.828136@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455483,
-    "wof:geomhash":"e1d11344f9a3819c7fe09bdb856f2977",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d10acb26dde99e1d7fe56116e8e3b497",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824139329
+        }
+    ],
     "wof:id":824139329,
-    "wof:lastmodified":1466416528,
+    "wof:lastmodified":1492128386,
     "wof:name":"Dd Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

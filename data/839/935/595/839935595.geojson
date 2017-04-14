@@ -2,9 +2,14 @@
   "id": 839935595,
   "type": "Feature",
   "properties": {
+    "addr:full":"2011 Ventura Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2011",
+    "addr:postcode":"80910",
+    "addr:street":"Ventura Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.768917,38.800232,-104.768917,38.800232",
     "geom:latitude":38.800232,
     "geom:longitude":-104.768917,
@@ -27,19 +32,36 @@
         "janitor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0dGM3BcP9tc7fI8XDwuvke_38.800232_-104.768917@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458260,
-    "wof:geomhash":"72502f753f8d4500ee3bcb2257eeadf3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1ae87dcee1ef2c5237805ebc33aa087d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":839935595
+        }
+    ],
     "wof:id":839935595,
-    "wof:lastmodified":1466414380,
+    "wof:lastmodified":1492113210,
     "wof:name":"Nana's Janitorial Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

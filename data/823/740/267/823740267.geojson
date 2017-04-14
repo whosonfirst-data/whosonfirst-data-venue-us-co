@@ -2,9 +2,14 @@
   "id": 823740267,
   "type": "Feature",
   "properties": {
+    "addr:full":"136 E Jefferson Ave Hayden CO 81639",
+    "addr:housenumber":"136",
+    "addr:postcode":"81639",
+    "addr:street":"E Jefferson Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.258377,40.495017,-107.258377,40.495017",
     "geom:latitude":40.495017,
     "geom:longitude":-107.258377,
@@ -28,19 +33,28 @@
         "cocktail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555315
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2bh3vtajfJTEeEdoYJiVZt_40.495017_-107.258377@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445163,
-    "wof:geomhash":"e970e3acb239662b105f132f257584fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2614c91d1fecf369b3aabf0b42b04176",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555315,
+            "venue_id":823740267
+        }
+    ],
     "wof:id":823740267,
-    "wof:lastmodified":1466418828,
+    "wof:lastmodified":1492122320,
     "wof:name":"Hiway Bar",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

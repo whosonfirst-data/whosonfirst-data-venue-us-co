@@ -2,9 +2,14 @@
   "id": 824085249,
   "type": "Feature",
   "properties": {
+    "addr:full":"600 Coffman St Longmont CO 80501",
+    "addr:housenumber":"600",
+    "addr:postcode":"80501",
+    "addr:street":"Coffman St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.103827,40.170667,-105.103827,40.170667",
     "geom:latitude":40.170667,
     "geom:longitude":-105.103827,
@@ -33,19 +38,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251,
+        85896051
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2bIgpVijFAJdphoVqF948E_40.170667_-105.103827@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453980,
-    "wof:geomhash":"ebf63badd411c43e5e848d9944573830",
-    "wof:hierarchy":[],
+    "wof:geomhash":"af71af25c4217c38ad72a86516f38ae2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "neighbourhood_id":85896051,
+            "region_id":85688603,
+            "venue_id":824085249
+        }
+    ],
     "wof:id":824085249,
-    "wof:lastmodified":1466414824,
+    "wof:lastmodified":1492128927,
     "wof:name":"Rem Village Place Longmont",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

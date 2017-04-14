@@ -2,9 +2,14 @@
   "id": 823689735,
   "type": "Feature",
   "properties": {
+    "addr:full":"110 Duncan Ave Montrose CO 81401",
+    "addr:housenumber":"110",
+    "addr:postcode":"81401",
+    "addr:street":"Duncan Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.87246,38.467975,-107.87246,38.467975",
     "geom:latitude":38.467975,
     "geom:longitude":-107.87246,
@@ -28,17 +33,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6MmAEWrmxY96AofsJ25ozk_38.467975_-107.872460@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444007,
-    "wof:geomhash":"3feeb5f6e66be1cfc1fb0ebb8556a961",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3367a0315555e4a1b88fcf966c5ebe03",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":823689735
+        }
+    ],
     "wof:id":823689735,
-    "wof:lastmodified":1466418520,
+    "wof:lastmodified":1492118392,
     "wof:name":"Montrose Electric",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

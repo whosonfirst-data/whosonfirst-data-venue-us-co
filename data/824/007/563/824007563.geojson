@@ -2,9 +2,14 @@
   "id": 824007563,
   "type": "Feature",
   "properties": {
+    "addr:full":"1102 Elm Ave Grand Junction CO 81501",
+    "addr:housenumber":"1102",
+    "addr:postcode":"81501",
+    "addr:street":"Elm Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.552421,39.081081,-108.552421,39.081081",
     "geom:latitude":39.081081,
     "geom:longitude":-108.552421,
@@ -27,19 +32,36 @@
         "day"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4x1LZWmkOHAjCdYogfdXfI_39.081081_-108.552421@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452150,
-    "wof:geomhash":"62e2c3e424c238bc1516d34bab584ab3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b27e2885a35575d621798614d5896384",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554823,
+            "region_id":85688603,
+            "venue_id":824007563
+        }
+    ],
     "wof:id":824007563,
-    "wof:lastmodified":1466412682,
+    "wof:lastmodified":1492128451,
     "wof:name":"Western Colo Erly Chldhood Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

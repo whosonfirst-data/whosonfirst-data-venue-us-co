@@ -2,9 +2,14 @@
   "id": 823858273,
   "type": "Feature",
   "properties": {
+    "addr:full":"801 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"801",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.997704,39.849061,-104.997704,39.849061",
     "geom:latitude":39.849061,
     "geom:longitude":-104.997704,
@@ -28,19 +33,36 @@
         "gasoline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6IulcrtVkckyy43FlrvWaC_39.849061_-104.997704@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448461,
-    "wof:geomhash":"205dfb7ad4993c601168e1c523f3d82e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7fb92ef72a57e69bf9256bdb622be772",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553771,
+            "region_id":85688603,
+            "venue_id":823858273
+        }
+    ],
     "wof:id":823858273,
-    "wof:lastmodified":1466419905,
+    "wof:lastmodified":1492122273,
     "wof:name":"Total No 4101",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

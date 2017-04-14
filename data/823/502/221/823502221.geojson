@@ -2,9 +2,14 @@
   "id": 823502221,
   "type": "Feature",
   "properties": {
+    "addr:full":"3050 W 71st Ave Westminster CO 80030",
+    "addr:housenumber":"3050",
+    "addr:postcode":"80030",
+    "addr:street":"W 71St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025084,39.82467,-105.025084,39.82467",
     "geom:latitude":39.82467,
     "geom:longitude":-105.025084,
@@ -27,19 +32,46 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543,
+        420553527
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7blQM2r03dWuZh1chfeOV2_39.824670_-105.025084@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439629,
-    "wof:geomhash":"f8382501fbfc285af8e7672b1232c010",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2a44a6d5be367af9a171803c4e60882c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":823502221
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553527,
+            "region_id":85688603,
+            "venue_id":823502221
+        }
+    ],
     "wof:id":823502221,
-    "wof:lastmodified":1466414221,
+    "wof:lastmodified":1492116214,
     "wof:name":"Crum Electric Supply Co Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

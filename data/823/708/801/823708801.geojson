@@ -2,9 +2,14 @@
   "id": 823708801,
   "type": "Feature",
   "properties": {
+    "addr:full":"11815 Ridge Pkwy Broomfield CO 80021",
+    "addr:housenumber":"11815",
+    "addr:postcode":"80021",
+    "addr:street":"Ridge Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.152769,39.910534,-105.152769,39.910534",
     "geom:latitude":39.910534,
     "geom:longitude":-105.152769,
@@ -28,17 +33,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_73rAdfDXUIPJV9k6JLY7Wq_39.910534_-105.152769@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444420,
-    "wof:geomhash":"875e80252d3c71f78ca3feb5f25b7cea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f8ccae7a7887690fd5c9a59556062c8a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "region_id":85688603,
+            "venue_id":823708801
+        }
+    ],
     "wof:id":823708801,
-    "wof:lastmodified":1466418653,
+    "wof:lastmodified":1492117319,
     "wof:name":"Stonegate",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

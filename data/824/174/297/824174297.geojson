@@ -2,9 +2,14 @@
   "id": 824174297,
   "type": "Feature",
   "properties": {
+    "addr:full":"7333 Olde Stage Rd Boulder CO 80302",
+    "addr:housenumber":"7333",
+    "addr:postcode":"80302",
+    "addr:street":"Olde Stage Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.30358,40.108995,-105.30358,40.108995",
     "geom:latitude":40.108995,
     "geom:longitude":-105.30358,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930741,
+        102085251,
+        420554155
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5fUUZfyiRrWEvH608Ewpxx_40.108995_-105.303580@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456850,
-    "wof:geomhash":"595cfe1defa65862c7fe199da0808e45",
-    "wof:hierarchy":[],
+    "wof:geomhash":"55f878026b5dbad0dcd84b2c843133fa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930741,
+            "neighbourhood_id":420554155,
+            "region_id":85688603,
+            "venue_id":824174297
+        }
+    ],
     "wof:id":824174297,
-    "wof:lastmodified":1466417960,
+    "wof:lastmodified":1492133239,
     "wof:name":"Ridge Line Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554155,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824033967,
   "type": "Feature",
   "properties": {
+    "addr:full":"3200 Valmont Rd Boulder CO 80301",
+    "addr:housenumber":"3200",
+    "addr:postcode":"80301",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.252139,40.029122,-105.252139,40.029122",
     "geom:latitude":40.029122,
     "geom:longitude":-105.252139,
@@ -27,19 +32,36 @@
         "appraiser"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3JCjV7w7YJBfjzNBDYmGeD_40.029122_-105.252139@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452759,
-    "wof:geomhash":"6fe6d40cdcfb1b81887f5f9ea28c5d98",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf52e02dc03f9d5b070edfadba7189b5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":824033967
+        }
+    ],
     "wof:id":824033967,
-    "wof:lastmodified":1466413950,
+    "wof:lastmodified":1492133134,
     "wof:name":"Chaz Appraisal Services Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839938157,
   "type": "Feature",
   "properties": {
+    "addr:full":"5415 Golden Willow Dr Fort Collins CO 80528",
+    "addr:housenumber":"5415",
+    "addr:postcode":"80528",
+    "addr:street":"Golden Willow Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.046584,40.511978,-105.046584,40.511978",
     "geom:latitude":40.511978,
     "geom:longitude":-105.046584,
@@ -30,19 +35,36 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554731
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5FJIlyZUI4De1H738DMhT5_40.511978_-105.046584@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458397,
-    "wof:geomhash":"dc42bb796b27138f555d021afe73807d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"163a49caa7fef5a979caad6aa7b57c32",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554731,
+            "region_id":85688603,
+            "venue_id":839938157
+        }
+    ],
     "wof:id":839938157,
-    "wof:lastmodified":1466414636,
+    "wof:lastmodified":1492110514,
     "wof:name":"Design Innovations",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554731,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

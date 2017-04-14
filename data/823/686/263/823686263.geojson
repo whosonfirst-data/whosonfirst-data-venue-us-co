@@ -2,9 +2,14 @@
   "id": 823686263,
   "type": "Feature",
   "properties": {
+    "addr:full":"6998 York St Denver CO 80229",
+    "addr:housenumber":"6998",
+    "addr:postcode":"80229",
+    "addr:street":"York St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959091,39.82415,-104.959091,39.82415",
     "geom:latitude":39.82415,
     "geom:longitude":-104.959091,
@@ -28,19 +33,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553889
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72s6f1e1fg2D7Wsi4VCHIq_39.824150_-104.959091@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443926,
-    "wof:geomhash":"0fda6e83af1e48eeddaf3fcc8930194c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6c63110acca80f99a32cdf37494f04b7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553889,
+            "region_id":85688603,
+            "venue_id":823686263
+        }
+    ],
     "wof:id":823686263,
-    "wof:lastmodified":1466418399,
+    "wof:lastmodified":1492116619,
     "wof:name":"Budget Truck Rental",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553889,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

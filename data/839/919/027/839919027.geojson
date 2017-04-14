@@ -2,9 +2,14 @@
   "id": 839919027,
   "type": "Feature",
   "properties": {
+    "addr:full":"6032 Valmont Rd Boulder CO 80301",
+    "addr:housenumber":"6032",
+    "addr:postcode":"80301",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.213249,40.031419,-105.213249,40.031419",
     "geom:latitude":40.031419,
     "geom:longitude":-105.213249,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2zYmnt4cJdhRq78FN6DQd1_40.031419_-105.213249@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457454,
-    "wof:geomhash":"973e0ae44f0ec9facebd526e1ec38fff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e60909c19c481d1480b5abb137f36e3f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":839919027
+        }
+    ],
     "wof:id":839919027,
-    "wof:lastmodified":1466413710,
+    "wof:lastmodified":1492111236,
     "wof:name":"Otto Container Management",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

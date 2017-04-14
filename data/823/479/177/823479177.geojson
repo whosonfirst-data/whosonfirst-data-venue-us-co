@@ -2,9 +2,14 @@
   "id": 823479177,
   "type": "Feature",
   "properties": {
+    "addr:full":"1123 Muriel Dr Denver CO 80233",
+    "addr:housenumber":"1123",
+    "addr:postcode":"80233",
+    "addr:street":"Muriel Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.973294,39.89624,-104.973294,39.89624",
     "geom:latitude":39.89624,
     "geom:longitude":-104.973294,
@@ -27,19 +32,36 @@
         "middle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Rid8kjrhMBz3fEZaF0V8R_39.896240_-104.973294@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439063,
-    "wof:geomhash":"65f5f9571c2d9e7cbca41a5e950d6879",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2fdf3a1c04bd029a52acf2cf1d89d043",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823479177
+        }
+    ],
     "wof:id":823479177,
-    "wof:lastmodified":1466413271,
+    "wof:lastmodified":1492117149,
     "wof:name":"Northglenn Middle High School",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

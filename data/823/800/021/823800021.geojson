@@ -2,9 +2,14 @@
   "id": 823800021,
   "type": "Feature",
   "properties": {
+    "addr:full":"4706 E 127th Dr Denver CO 80241",
+    "addr:housenumber":"4706",
+    "addr:postcode":"80241",
+    "addr:street":"E 127Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931541,39.926412,-104.931541,39.926412",
     "geom:latitude":39.926412,
     "geom:longitude":-104.931541,
@@ -24,19 +29,36 @@
     "sg:postcode":"80241",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553661
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5rJjmi12cbKhgQA83wrAdC_39.926412_-104.931541@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446712,
-    "wof:geomhash":"4470fe937cbcef6fe07a9576450ddb49",
-    "wof:hierarchy":[],
+    "wof:geomhash":"36251c1b258fbf749ff66b6347ada873",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553661,
+            "region_id":85688603,
+            "venue_id":823800021
+        }
+    ],
     "wof:id":823800021,
-    "wof:lastmodified":1466419381,
+    "wof:lastmodified":1492119314,
     "wof:name":"Johnson & Cobbs Realty",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553661,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

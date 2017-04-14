@@ -2,9 +2,14 @@
   "id": 823756121,
   "type": "Feature",
   "properties": {
+    "addr:full":"1550 Elmira St Aurora CO 80010",
+    "addr:housenumber":"1550",
+    "addr:postcode":"80010",
+    "addr:street":"Elmira St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.872807,39.741071,-104.872807,39.741071",
     "geom:latitude":39.741071,
     "geom:longitude":-104.872807,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1QdTbzlf1EPNiM9emRlyzy_39.741071_-104.872807@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445539,
-    "wof:geomhash":"33ab5e43038dfa98e1ea92b3c5cbf511",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b18788c18f5ad2023310828073735cfa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":823756121
+        }
+    ],
     "wof:id":823756121,
-    "wof:lastmodified":1466418993,
+    "wof:lastmodified":1492124307,
     "wof:name":"Grumpys Cafe",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

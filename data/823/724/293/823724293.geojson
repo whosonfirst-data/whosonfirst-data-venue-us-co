@@ -2,9 +2,14 @@
   "id": 823724293,
   "type": "Feature",
   "properties": {
+    "addr:full":"230 W North St Cortez CO 81321",
+    "addr:housenumber":"230",
+    "addr:postcode":"81321",
+    "addr:street":"W North St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.588787,37.349732,-108.588787,37.349732",
     "geom:latitude":37.349732,
     "geom:longitude":-108.588787,
@@ -28,19 +33,28 @@
         "physical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6rDo5ryfgc0AsPybPUBNMZ_37.349732_-108.588787@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444759,
-    "wof:geomhash":"fc4225e5640be0a50e0aeed153cee787",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3fe8355eff2cff7c99a4f785113fa372",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823724293
+        }
+    ],
     "wof:id":823724293,
-    "wof:lastmodified":1466418734,
+    "wof:lastmodified":1492117443,
     "wof:name":"Cortez Physical Therapy Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

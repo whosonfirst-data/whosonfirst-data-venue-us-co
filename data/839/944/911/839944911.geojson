@@ -2,9 +2,14 @@
   "id": 839944911,
   "type": "Feature",
   "properties": {
+    "addr:full":"5961 Marion Dr Denver CO 80216",
+    "addr:housenumber":"5961",
+    "addr:postcode":"80216",
+    "addr:street":"Marion Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971809,39.802578,-104.971809,39.802578",
     "geom:latitude":39.802578,
     "geom:longitude":-104.971809,
@@ -28,19 +33,36 @@
         "printing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5n3x7PI3lO9MGZzEt0W8Ea_39.802578_-104.971809@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458847,
-    "wof:geomhash":"76b1f9935c37e6ca9096380c49ec2b4b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"618182ff1060de52a13839e7a49a724c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":839944911
+        }
+    ],
     "wof:id":839944911,
-    "wof:lastmodified":1466415093,
+    "wof:lastmodified":1492113982,
     "wof:name":"Alan Roller Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

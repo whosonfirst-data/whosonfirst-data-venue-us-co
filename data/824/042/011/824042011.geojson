@@ -2,9 +2,14 @@
   "id": 824042011,
   "type": "Feature",
   "properties": {
+    "addr:full":"2201 E 101st Ave Denver CO 80229",
+    "addr:housenumber":"2201",
+    "addr:postcode":"80229",
+    "addr:street":"E 101St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961193,39.879175,-104.961193,39.879175",
     "geom:latitude":39.879175,
     "geom:longitude":-104.961193,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2VHc89hMZ1pJM8LHmQaHfP_39.879175_-104.961193@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452976,
-    "wof:geomhash":"a01d240edaa48d2aa91efd7e001237af",
-    "wof:hierarchy":[],
+    "wof:geomhash":"89ab7bf59a94e00de01c38790943d4e0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":824042011
+        }
+    ],
     "wof:id":824042011,
-    "wof:lastmodified":1466414020,
+    "wof:lastmodified":1492129086,
     "wof:name":"Maria Castro Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

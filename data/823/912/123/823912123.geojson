@@ -2,9 +2,14 @@
   "id": 823912123,
   "type": "Feature",
   "properties": {
+    "addr:full":"5390 W 112th Ave Westminster CO 80020",
+    "addr:housenumber":"5390",
+    "addr:postcode":"80020",
+    "addr:street":"W 112Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.058609,39.899732,-105.058609,39.899732",
     "geom:latitude":39.899732,
     "geom:longitude":-105.058609,
@@ -27,19 +32,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554575
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5GOCFpQ7keNCJlfy5UL8g2_39.899732_-105.058609@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449806,
-    "wof:geomhash":"b8a4b9d46d07b3d412da9105bef08c5e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"075d1b963074304676263f9e6ecb3931",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554575,
+            "region_id":85688603,
+            "venue_id":823912123
+        }
+    ],
     "wof:id":823912123,
-    "wof:lastmodified":1466420281,
+    "wof:lastmodified":1492117117,
     "wof:name":"Diamond Shamrock Refining Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554575,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

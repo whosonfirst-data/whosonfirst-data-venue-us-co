@@ -2,9 +2,14 @@
   "id": 823839265,
   "type": "Feature",
   "properties": {
+    "addr:full":"56 Lincoln St Yampa CO 80483",
+    "addr:housenumber":"56",
+    "addr:postcode":"80483",
+    "addr:street":"Lincoln St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.907424,40.15132,-106.907424,40.15132",
     "geom:latitude":40.15132,
     "geom:longitude":-106.907424,
@@ -27,19 +32,28 @@
         "city"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555323
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2BeqKsgifrx89N6eZjHT48_40.151320_-106.907424@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447919,
-    "wof:geomhash":"c425949701ac915402b25b53334c6e81",
-    "wof:hierarchy":[],
+    "wof:geomhash":"270ef9de4f3db2a08c418073259c63de",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555323,
+            "venue_id":823839265
+        }
+    ],
     "wof:id":823839265,
-    "wof:lastmodified":1466419667,
+    "wof:lastmodified":1492118550,
     "wof:name":"Yampa Town Hall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555323,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

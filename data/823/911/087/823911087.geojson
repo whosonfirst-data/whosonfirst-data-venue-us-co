@@ -2,9 +2,14 @@
   "id": 823911087,
   "type": "Feature",
   "properties": {
+    "addr:full":"918 Garrison Dr Cortez CO 81321",
+    "addr:housenumber":"918",
+    "addr:postcode":"81321",
+    "addr:street":"Garrison Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.565685,37.359466,-108.565685,37.359466",
     "geom:latitude":37.359466,
     "geom:longitude":-108.565685,
@@ -29,19 +34,36 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555059
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6KhjNiTgwqfCuvF1xQegQm_37.359466_-108.565685@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449771,
-    "wof:geomhash":"52a25faea7304c20ed047498b645d20f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cc17f38c9f003bc2f06b102c2098c463",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555059,
+            "region_id":85688603,
+            "venue_id":823911087
+        }
+    ],
     "wof:id":823911087,
-    "wof:lastmodified":1466420277,
+    "wof:lastmodified":1492124022,
     "wof:name":"R & B Carpet Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555059,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

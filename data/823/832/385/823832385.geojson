@@ -2,9 +2,14 @@
   "id": 823832385,
   "type": "Feature",
   "properties": {
+    "addr:full":"390 Co Rd 216 Durango CO 81303",
+    "addr:housenumber":"390;216",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.876086,37.108485,-107.876086,37.108485",
     "geom:latitude":37.108485,
     "geom:longitude":-107.876086,
@@ -27,19 +32,28 @@
         "investigator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554651
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7bwIUNKad8YLlbl7SayG6l_37.108485_-107.876086@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447671,
-    "wof:geomhash":"55575949dd8863d14ba5a60ef08256f2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9c9c613dfc51618e7c1e83fbe3fce8b1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554651,
+            "venue_id":823832385
+        }
+    ],
     "wof:id":823832385,
-    "wof:lastmodified":1466419652,
+    "wof:lastmodified":1492125728,
     "wof:name":"Animas Investigations",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554651,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

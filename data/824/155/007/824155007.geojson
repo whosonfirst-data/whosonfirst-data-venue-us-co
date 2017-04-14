@@ -2,9 +2,14 @@
   "id": 824155007,
   "type": "Feature",
   "properties": {
+    "addr:full":"2610 Pearl St Boulder CO 80302",
+    "addr:housenumber":"2610",
+    "addr:postcode":"80302",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258825,40.022316,-105.258825,40.022316",
     "geom:latitude":40.022316,
     "geom:longitude":-105.258825,
@@ -27,19 +32,36 @@
         "newspaper"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4eUNSWlD0XWV5AvvGwEn3x_40.022316_-105.258825@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456118,
-    "wof:geomhash":"233931477f1432094d29fd8dbbac3ba1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"33016ae9ae7d96a4ffdf7327e19e5be9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":824155007
+        }
+    ],
     "wof:id":824155007,
-    "wof:lastmodified":1466417059,
+    "wof:lastmodified":1492132058,
     "wof:name":"Colorado Daily",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

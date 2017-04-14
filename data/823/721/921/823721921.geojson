@@ -2,9 +2,14 @@
   "id": 823721921,
   "type": "Feature",
   "properties": {
+    "addr:full":"555 S 42nd St Boulder CO 80305",
+    "addr:housenumber":"555",
+    "addr:postcode":"80305",
+    "addr:street":"S 42Nd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.245535,39.982747,-105.245535,39.982747",
     "geom:latitude":39.982747,
     "geom:longitude":-105.245535,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4v8B8Df9mv506QLZoYmN0j_39.982747_-105.245535@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444686,
-    "wof:geomhash":"c1d8e95e3a35367498f59712bb27b1de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0789a6552b1eb0a264e9c7d369ba3578",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":823721921
+        }
+    ],
     "wof:id":823721921,
-    "wof:lastmodified":1466418808,
+    "wof:lastmodified":1492121573,
     "wof:name":"Mountain Veiw Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

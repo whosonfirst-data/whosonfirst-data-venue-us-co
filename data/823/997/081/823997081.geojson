@@ -2,9 +2,14 @@
   "id": 823997081,
   "type": "Feature",
   "properties": {
+    "addr:full":"18999 Mitchell Pl Denver CO 80249",
+    "addr:housenumber":"18999",
+    "addr:postcode":"80249",
+    "addr:street":"Mitchell Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.766887,39.775347,-104.766887,39.775347",
     "geom:latitude":39.775347,
     "geom:longitude":-104.766887,
@@ -28,7 +33,16 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_56xMUlkfoKVL5tP2OUesDK_39.775347_-104.766887@1294083659"
@@ -36,11 +50,23 @@
     "wof:country":"US",
     "wof:created":1463451921,
     "wof:geomhash":"2e1a8b38d0b5b9f604edfbcee835be27",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":823997081
+        }
+    ],
     "wof:id":823997081,
-    "wof:lastmodified":1466420764,
+    "wof:lastmodified":1486593994,
     "wof:name":"Midwest Information Solutions",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

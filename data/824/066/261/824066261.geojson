@@ -2,9 +2,14 @@
   "id": 824066261,
   "type": "Feature",
   "properties": {
+    "addr:full":"5720 W 120th Ave Broomfield CO 80020",
+    "addr:housenumber":"5720",
+    "addr:postcode":"80020",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053357,39.91409,-105.053357,39.91409",
     "geom:latitude":39.91409,
     "geom:longitude":-105.053357,
@@ -27,19 +32,36 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554229
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7fA3BPi7AlDr872BEMByyT_39.914090_-105.053357@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453524,
-    "wof:geomhash":"13044417969e99387c84fb8b429085b4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"32d1fe55105bf32b268868e635b51e18",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554229,
+            "region_id":85688603,
+            "venue_id":824066261
+        }
+    ],
     "wof:id":824066261,
-    "wof:lastmodified":1466414511,
+    "wof:lastmodified":1492132449,
     "wof:name":"Moneymax Financial Solutions",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554229,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

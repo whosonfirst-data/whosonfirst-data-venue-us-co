@@ -2,9 +2,14 @@
   "id": 824058075,
   "type": "Feature",
   "properties": {
+    "addr:full":"706 S Main St Brighton CO 80601",
+    "addr:housenumber":"706",
+    "addr:postcode":"80601",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.826209,39.974162,-104.826209,39.974162",
     "geom:latitude":39.974162,
     "geom:longitude":-104.826209,
@@ -28,19 +33,36 @@
         "dancing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553351
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4hu0oMNXTpj0AmEh3A7WaW_39.974162_-104.826209@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453354,
-    "wof:geomhash":"78741e4a839dca763d62e92cb0ba9360",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a9a629184b416df44047acfce5529beb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553351,
+            "region_id":85688603,
+            "venue_id":824058075
+        }
+    ],
     "wof:id":824058075,
-    "wof:lastmodified":1466414377,
+    "wof:lastmodified":1492131905,
     "wof:name":"Platte Valley Ctr Of Dance",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553351,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

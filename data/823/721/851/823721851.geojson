@@ -2,9 +2,14 @@
   "id": 823721851,
   "type": "Feature",
   "properties": {
+    "addr:full":"4211 E 100th Ave Denver CO 80229",
+    "addr:housenumber":"4211",
+    "addr:postcode":"80229",
+    "addr:street":"E 100Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940161,39.877379,-104.940161,39.877379",
     "geom:latitude":39.877379,
     "geom:longitude":-104.940161,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YphitRnwelEo0LebSkaOB_39.877379_-104.940161@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444685,
-    "wof:geomhash":"4850f8041cfa85f34dc82a5b1ec968a1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"14dec11a73dcff3b270ea171e94ee76b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553689,
+            "region_id":85688603,
+            "venue_id":823721851
+        }
+    ],
     "wof:id":823721851,
-    "wof:lastmodified":1466418747,
+    "wof:lastmodified":1492121580,
     "wof:name":"German Vega Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824135235,
   "type": "Feature",
   "properties": {
+    "addr:full":"5460 Harlan St Arvada CO 80002",
+    "addr:housenumber":"5460",
+    "addr:postcode":"80002",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062523,39.795959,-105.062523,39.795959",
     "geom:latitude":39.795959,
     "geom:longitude":-105.062523,
@@ -27,19 +32,34 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1LbCF6liQHzcfnDn0Oq4Ws_39.795959_-105.062523@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455340,
-    "wof:geomhash":"41159f1de8e547fa9b8a6375bcb4f876",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fd30e02f551a9964cad9a045a453a038",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824135235
+        }
+    ],
     "wof:id":824135235,
-    "wof:lastmodified":1466416270,
+    "wof:lastmodified":1492129440,
     "wof:name":"PJD Construction & Roofing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

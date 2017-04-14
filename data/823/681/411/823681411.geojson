@@ -2,9 +2,14 @@
   "id": 823681411,
   "type": "Feature",
   "properties": {
+    "addr:full":"33300 Co Rd 24 Steamboat Spgs CO 80487",
+    "addr:housenumber":"33300;24",
+    "addr:postcode":"80487",
+    "addr:street":"Co Rd;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.808002,40.42931,-106.808002,40.42931",
     "geom:latitude":40.42931,
     "geom:longitude":-106.808002,
@@ -27,19 +32,28 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555291
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Ozu81EV3D1u0fdXGaRCRm_40.429310_-106.808002@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443818,
-    "wof:geomhash":"a74bc93ef6c33edb4236343230bb3e5b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"221809f01300ff2c01fa2cd511ddea9d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555291,
+            "venue_id":823681411
+        }
+    ],
     "wof:id":823681411,
-    "wof:lastmodified":1466418431,
+    "wof:lastmodified":1492126074,
     "wof:name":"Bear Valley Design LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555291,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

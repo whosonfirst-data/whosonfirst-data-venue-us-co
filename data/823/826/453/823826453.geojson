@@ -2,9 +2,14 @@
   "id": 823826453,
   "type": "Feature",
   "properties": {
+    "addr:full":"32670 Co Rd 14 Steamboat Spgs CO 80487",
+    "addr:housenumber":"32670;14",
+    "addr:postcode":"80487",
+    "addr:street":"Co Rd;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.826865,40.444133,-106.826865,40.444133",
     "geom:latitude":40.444133,
     "geom:longitude":-106.826865,
@@ -27,19 +32,28 @@
         "guide"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555283
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3CktswAl4LKkdydQTzB6el_40.444133_-106.826865@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447492,
-    "wof:geomhash":"f1b0792ccb1909a0752a195f964b6ced",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5f92da13ba76c6898762b5ef07ce7a0d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555283,
+            "venue_id":823826453
+        }
+    ],
     "wof:id":823826453,
-    "wof:lastmodified":1466419603,
+    "wof:lastmodified":1492124398,
     "wof:name":"Back Country Guide & Outfitter",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555283,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

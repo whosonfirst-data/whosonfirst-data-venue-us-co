@@ -2,9 +2,14 @@
   "id": 839937097,
   "type": "Feature",
   "properties": {
+    "addr:full":"2232 E Main St Cortez CO 81321",
+    "addr:housenumber":"2232",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.556041,37.35044,-108.556041,37.35044",
     "geom:latitude":37.35044,
     "geom:longitude":-108.556041,
@@ -27,19 +32,28 @@
         "delicatessen"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6g0a7I5kgZfYN0o2fbw1BT_37.350440_-108.556041@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458342,
-    "wof:geomhash":"5e7c779c3f9fe6a0704e857110533eac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7b2547f52af946a59084ba8f4d609a7b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":839937097
+        }
+    ],
     "wof:id":839937097,
-    "wof:lastmodified":1466414517,
+    "wof:lastmodified":1492111890,
     "wof:name":"Wild Bunch Deli",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

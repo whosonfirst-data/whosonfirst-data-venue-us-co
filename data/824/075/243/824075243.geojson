@@ -2,9 +2,14 @@
   "id": 824075243,
   "type": "Feature",
   "properties": {
+    "addr:full":"4715 Broadway St Boulder CO 80304",
+    "addr:housenumber":"4715",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.2822,40.061541,-105.2822,40.061541",
     "geom:latitude":40.061541,
     "geom:longitude":-105.2822,
@@ -28,19 +33,34 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_31ixWXCzftdUbtmii6d7gm_40.061541_-105.282200@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453746,
-    "wof:geomhash":"66da4512febc77f51131e5b87ea1115b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"50afb2f138cc5f898fbee42f8a9b662e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":824075243
+        }
+    ],
     "wof:id":824075243,
-    "wof:lastmodified":1466414668,
+    "wof:lastmodified":1492131138,
     "wof:name":"German Auto",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

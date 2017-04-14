@@ -2,9 +2,14 @@
   "id": 824167753,
   "type": "Feature",
   "properties": {
+    "addr:full":"230 Commerce Rd Berthoud CO 80513",
+    "addr:housenumber":"230",
+    "addr:postcode":"80513",
+    "addr:street":"Commerce Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.986911,40.336619,-104.986911,40.336619",
     "geom:latitude":40.336619,
     "geom:longitude":-104.986911,
@@ -31,19 +36,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1vTJKgfRBkMVeISRPbnbSn_40.336619_-104.986911@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456595,
-    "wof:geomhash":"eb29d6d89f04c957fe4110499fb1331d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b1aeb97301b062d8d6cf9020fb49f811",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":824167753
+        }
+    ],
     "wof:id":824167753,
-    "wof:lastmodified":1466417886,
+    "wof:lastmodified":1492128210,
     "wof:name":"Mayo Industries",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839924395,
   "type": "Feature",
   "properties": {
+    "addr:full":"1304 W 133rd Way Denver CO 80234",
+    "addr:housenumber":"1304",
+    "addr:postcode":"80234",
+    "addr:street":"W 133Rd Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.002529,39.936949,-105.002529,39.936949",
     "geom:latitude":39.936949,
     "geom:longitude":-105.002529,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0uirw11BdngIdfHGrbQUJw_39.936949_-105.002529@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457694,
-    "wof:geomhash":"e695a9eb09b39f7cef6240631a9289fd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab18bb0771a3e554e2231bbdce8d368b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":839924395
+        }
+    ],
     "wof:id":839924395,
-    "wof:lastmodified":1466413863,
+    "wof:lastmodified":1492111043,
     "wof:name":"Affordable Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823477907,
   "type": "Feature",
   "properties": {
+    "addr:full":"1575 Elmira St Aurora CO 80010",
+    "addr:housenumber":"1575",
+    "addr:postcode":"80010",
+    "addr:street":"Elmira St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.872958,39.74064,-104.872958,39.74064",
     "geom:latitude":39.74064,
     "geom:longitude":-104.872958,
@@ -27,19 +32,36 @@
         "club"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4SJbTUEATjLTVGyVvoQ4xL_39.740640_-104.872958@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439036,
-    "wof:geomhash":"02666acd22708155ca06eeb88a9d27e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"400193033adb5711103f6601e39f6a0b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":823477907
+        }
+    ],
     "wof:id":823477907,
-    "wof:lastmodified":1466413124,
+    "wof:lastmodified":1492124197,
     "wof:name":"Silent Athletic Club",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823780831,
   "type": "Feature",
   "properties": {
+    "addr:full":"4501 E Virginia Ave Denver CO 80246",
+    "addr:housenumber":"4501",
+    "addr:postcode":"80246",
+    "addr:street":"E Virginia Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.933398,39.707425,-104.933398,39.707425",
     "geom:latitude":39.707425,
     "geom:longitude":-104.933398,
@@ -28,17 +33,32 @@
         "night"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929821,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6VDqboghH6aw6CMgfQAFaE_39.707425_-104.933398@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446110,
-    "wof:geomhash":"824df32643a2f167cb4691f9f64c848e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f5bba094936ab91114715ba8046c7e53",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929821,
+            "region_id":85688603,
+            "venue_id":823780831
+        }
+    ],
     "wof:id":823780831,
-    "wof:lastmodified":1466419350,
+    "wof:lastmodified":1492118695,
     "wof:name":"Cherry Street Bar & Grill",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

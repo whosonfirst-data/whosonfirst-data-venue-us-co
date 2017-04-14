@@ -2,9 +2,14 @@
   "id": 839945573,
   "type": "Feature",
   "properties": {
+    "addr:full":"201 E Silver St Marble CO 81623",
+    "addr:housenumber":"201",
+    "addr:postcode":"81623",
+    "addr:street":"E Silver St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.185611,39.07267,-107.185611,39.07267",
     "geom:latitude":39.07267,
     "geom:longitude":-107.185611,
@@ -27,19 +32,36 @@
         "resort"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929663,
+        102083377,
+        420554353
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7GR7uGKTkmYlA41Vmplaij_39.072670_-107.185611@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458885,
-    "wof:geomhash":"a3014898611cb90535aa1e6cb4988430",
-    "wof:hierarchy":[],
+    "wof:geomhash":"af29c188072eca1b7f98040d3953fcb1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929663,
+            "neighbourhood_id":420554353,
+            "region_id":85688603,
+            "venue_id":839945573
+        }
+    ],
     "wof:id":839945573,
-    "wof:lastmodified":1466415206,
+    "wof:lastmodified":1492114046,
     "wof:name":"Beaver Lake Lodge & Cabins",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554353,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

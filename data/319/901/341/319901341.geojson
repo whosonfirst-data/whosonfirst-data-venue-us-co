@@ -2,9 +2,14 @@
   "id": 319901341,
   "type": "Feature",
   "properties": {
+    "addr:full":"15231 E Colfax Ave Aurora CO 80011",
+    "addr:housenumber":"15231",
+    "addr:postcode":"80011",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810993,39.74016,-104.810993,39.74016",
     "geom:latitude":39.74016,
     "geom:longitude":-104.810993,
@@ -39,10 +44,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929235,
         102086877,
-        85802959
+        85802959,
+        420559493
     ],
     "wof:brand_id":420574001,
     "wof:breaches":[],
@@ -50,22 +57,31 @@
         "sg:id":"SG_6WN3EUQLdbonyoSWc63dff_39.740160_-104.810993@1303263079"
     },
     "wof:country":"US",
-    "wof:geomhash":"ef0e99b8c370912c0eed99848bfd9df1",
+    "wof:geomhash":"67a089807c0adfce445d88f0b8e841a1",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086877,
             "locality_id":85929235,
             "neighbourhood_id":85802959,
             "region_id":85688603,
             "venue_id":319901341
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420559493,
+            "region_id":85688603,
+            "venue_id":319901341
         }
     ],
     "wof:id":319901341,
-    "wof:lastmodified":1466412130,
+    "wof:lastmodified":1492109883,
     "wof:name":"Starbucks Coffee",
-    "wof:parent_id":85802959,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

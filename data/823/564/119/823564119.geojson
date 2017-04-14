@@ -2,9 +2,14 @@
   "id": 823564119,
   "type": "Feature",
   "properties": {
+    "addr:full":"8426 Federal Blvd Westminster CO 80031",
+    "addr:housenumber":"8426",
+    "addr:postcode":"80031",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024755,39.850266,-105.024755,39.850266",
     "geom:latitude":39.850266,
     "geom:longitude":-105.024755,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553589
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7TeX3Id9oCrEZEH4s14Olu_39.850266_-105.024755@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441044,
-    "wof:geomhash":"7c6b9afba0961ca57ac008f5f5985f69",
-    "wof:hierarchy":[],
+    "wof:geomhash":"da4438bab24729d7af86a0e6143cce51",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553589,
+            "region_id":85688603,
+            "venue_id":823564119
+        }
+    ],
     "wof:id":823564119,
-    "wof:lastmodified":1466416230,
+    "wof:lastmodified":1492123057,
     "wof:name":"Lee Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553589,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

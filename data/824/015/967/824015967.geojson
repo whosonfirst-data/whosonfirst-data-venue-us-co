@@ -2,9 +2,14 @@
   "id": 824015967,
   "type": "Feature",
   "properties": {
+    "addr:full":"514 E 77th Pl Denver CO 80229",
+    "addr:housenumber":"514",
+    "addr:postcode":"80229",
+    "addr:street":"E 77Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980365,39.837122,-104.980365,39.837122",
     "geom:latitude":39.837122,
     "geom:longitude":-104.980365,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553621
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5yHE43KLJrocbX15fBvvwK_39.837122_-104.980365@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452337,
-    "wof:geomhash":"33210a68c8205765a4d2b85474665463",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0131289aec9c5ad48759acce12baa8b6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553621,
+            "region_id":85688603,
+            "venue_id":824015967
+        }
+    ],
     "wof:id":824015967,
-    "wof:lastmodified":1466413488,
+    "wof:lastmodified":1492127951,
     "wof:name":"JMB Roofing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553621,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

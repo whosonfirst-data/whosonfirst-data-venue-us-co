@@ -2,9 +2,14 @@
   "id": 839948303,
   "type": "Feature",
   "properties": {
+    "addr:full":"1444 Stuart St Denver CO 80204",
+    "addr:housenumber":"1444",
+    "addr:postcode":"80204",
+    "addr:street":"Stuart St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042759,39.739506,-105.042759,39.739506",
     "geom:latitude":39.739506,
     "geom:longitude":-105.042759,
@@ -27,19 +32,38 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871267,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3xU3pNowSMNt3k56PJm7RQ_39.739506_-105.042759@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459051,
-    "wof:geomhash":"cdf215c7708f79676dd9e46b1649c115",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f6d298bc82b74dd7123fb33caf181df3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871267,
+            "region_id":85688603,
+            "venue_id":839948303
+        }
+    ],
     "wof:id":839948303,
-    "wof:lastmodified":1466415156,
+    "wof:lastmodified":1492114061,
     "wof:name":"Douglas Engler",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871267,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

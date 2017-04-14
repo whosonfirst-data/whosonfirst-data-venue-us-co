@@ -2,9 +2,14 @@
   "id": 839967509,
   "type": "Feature",
   "properties": {
+    "addr:full":"12034 Melody Dr Denver CO 80234",
+    "addr:housenumber":"12034",
+    "addr:postcode":"80234",
+    "addr:street":"Melody Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994621,39.915296,-104.994621,39.915296",
     "geom:latitude":39.915296,
     "geom:longitude":-104.994621,
@@ -27,19 +32,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2dZOPieFULQVm44Ehyd9WJ_39.915296_-104.994621@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459908,
-    "wof:geomhash":"5f98c23feaf833f75f4763833875d1a8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1d434e47d15fc9130bba51d3126c1668",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":839967509
+        }
+    ],
     "wof:id":839967509,
-    "wof:lastmodified":1466416075,
+    "wof:lastmodified":1492112444,
     "wof:name":"Anglz Salon",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

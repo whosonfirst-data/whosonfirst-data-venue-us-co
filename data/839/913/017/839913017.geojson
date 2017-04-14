@@ -2,9 +2,14 @@
   "id": 839913017,
   "type": "Feature",
   "properties": {
+    "addr:full":"1966 Co Rd 500 Bayfield CO 81122",
+    "addr:housenumber":"1966;500",
+    "addr:postcode":"bayfield;81122",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.552167,37.465149,-107.552167,37.465149",
     "geom:latitude":37.465149,
     "geom:longitude":-107.552167,
@@ -29,19 +34,28 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554683
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7K4tKbt2zRejqC0Uky9CYU_37.465149_-107.552167@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457223,
-    "wof:geomhash":"b359b9a0814c8a7093cc797e83e80f9d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c99e6b535c050695a6b8d390c3a4437b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554683,
+            "venue_id":839913017
+        }
+    ],
     "wof:id":839913017,
-    "wof:lastmodified":1466412552,
+    "wof:lastmodified":1492113470,
     "wof:name":"Durango Gravel Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554683,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

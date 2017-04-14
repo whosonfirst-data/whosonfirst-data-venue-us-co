@@ -2,9 +2,14 @@
   "id": 823846319,
   "type": "Feature",
   "properties": {
+    "addr:full":"341 S Bryant St Denver CO 80219",
+    "addr:housenumber":"341",
+    "addr:postcode":"80219",
+    "addr:street":"S Bryant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018149,39.710085,-105.018149,39.710085",
     "geom:latitude":39.710085,
     "geom:longitude":-105.018149,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554317,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5pcWyMGHmnUbUsQxgbxskI_39.710085_-105.018149@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463448109,
     "wof:geomhash":"fececeaffd99f43506c95c275a22bd3c",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554317,
+            "region_id":85688603,
+            "venue_id":823846319
+        }
+    ],
     "wof:id":823846319,
-    "wof:lastmodified":1466419763,
+    "wof:lastmodified":1491876334,
     "wof:name":"McGintys Lawn Servi Ce",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

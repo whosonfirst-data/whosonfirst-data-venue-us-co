@@ -2,9 +2,14 @@
   "id": 839930123,
   "type": "Feature",
   "properties": {
+    "addr:full":"825 E 32nd St Durango CO 81301",
+    "addr:housenumber":"825",
+    "addr:postcode":"co 81301",
+    "addr:street":"E 32Nd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.860391,37.298075,-107.860391,37.298075",
     "geom:latitude":37.298075,
     "geom:longitude":-107.860391,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0KXfAL1BjyrJbsgERE90fc_37.298075_-107.860391@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457977,
-    "wof:geomhash":"0c0f4ea3e1b6bc0f4515a887a9d0f6b0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3710f959fae96136c141da072f100a8e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":839930123
+        }
+    ],
     "wof:id":839930123,
-    "wof:lastmodified":1466414078,
+    "wof:lastmodified":1492112220,
     "wof:name":"T L Roofing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

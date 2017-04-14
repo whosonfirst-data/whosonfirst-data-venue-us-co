@@ -2,9 +2,14 @@
   "id": 824024685,
   "type": "Feature",
   "properties": {
+    "addr:full":"5155 Arapahoe Ave Boulder CO 80303",
+    "addr:housenumber":"5155",
+    "addr:postcode":"80303",
+    "addr:street":"Arapahoe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.231955,40.014768,-105.231955,40.014768",
     "geom:latitude":40.014768,
     "geom:longitude":-105.231955,
@@ -29,19 +34,36 @@
         "sitting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3EgEcAdzGPKRYGd2YRXeWT_40.014768_-105.231955@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452530,
-    "wof:geomhash":"d6dbf5aa4b6010e631c0175d14578120",
-    "wof:hierarchy":[],
+    "wof:geomhash":"987f7126177e73c46f447747cd4d3b12",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":824024685
+        }
+    ],
     "wof:id":824024685,
-    "wof:lastmodified":1466413766,
+    "wof:lastmodified":1492133179,
     "wof:name":"Canine Castle",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

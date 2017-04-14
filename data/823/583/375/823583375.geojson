@@ -2,9 +2,14 @@
   "id": 823583375,
   "type": "Feature",
   "properties": {
+    "addr:full":"4780 E Bromley Ln Brighton CO 80601",
+    "addr:housenumber":"4780",
+    "addr:postcode":"80601",
+    "addr:street":"E Bromley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.752683,39.972417,-104.752683,39.972417",
     "geom:latitude":39.972417,
     "geom:longitude":-104.752683,
@@ -27,19 +32,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553455
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4CfyzVr3kUkzHQx3vD2Zrk_39.972417_-104.752683@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441496,
-    "wof:geomhash":"5045be295a19de4a98ee25e90168b818",
-    "wof:hierarchy":[],
+    "wof:geomhash":"824e5efd8cd26ade0cbfdb9e725425ca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553455,
+            "region_id":85688603,
+            "venue_id":823583375
+        }
+    ],
     "wof:id":823583375,
-    "wof:lastmodified":1466416730,
+    "wof:lastmodified":1492116950,
     "wof:name":"Diamond Shamrock",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553455,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

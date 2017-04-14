@@ -2,9 +2,14 @@
   "id": 823882299,
   "type": "Feature",
   "properties": {
+    "addr:full":"804 S Broadway Cortez CO 81321",
+    "addr:housenumber":"804",
+    "addr:postcode":"81321",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.598964,37.340647,-108.598964,37.340647",
     "geom:latitude":37.340647,
     "geom:longitude":-108.598964,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_56MXru2lBqXgIz2wxpmPu1_37.340647_-108.598964@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449019,
-    "wof:geomhash":"7d9d3b22f386b75517840e9fd10180f5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5befe448278ba6fe89dbd726e71c262f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555063,
+            "region_id":85688603,
+            "venue_id":823882299
+        }
+    ],
     "wof:id":823882299,
-    "wof:lastmodified":1466420017,
+    "wof:lastmodified":1492120638,
     "wof:name":"A 1 Sandy's Maintenance Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

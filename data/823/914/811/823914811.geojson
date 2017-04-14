@@ -2,9 +2,14 @@
   "id": 823914811,
   "type": "Feature",
   "properties": {
+    "addr:full":"301 Elati St Denver CO 80223",
+    "addr:housenumber":"301",
+    "addr:postcode":"80223",
+    "addr:street":"Elati St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994003,39.722532,-104.994003,39.722532",
     "geom:latitude":39.722532,
     "geom:longitude":-104.994003,
@@ -31,7 +36,15 @@
         "conditioning"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871285,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6emTM0r2apCDicZyygAZwO_39.722532_-104.994003@1294083659"
@@ -39,11 +52,22 @@
     "wof:country":"US",
     "wof:created":1463449873,
     "wof:geomhash":"95df009d0429fe038494787841b2a344",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871285,
+            "region_id":85688603,
+            "venue_id":823914811
+        }
+    ],
     "wof:id":823914811,
-    "wof:lastmodified":1466420361,
+    "wof:lastmodified":1491876335,
     "wof:name":"A & P Heating Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871285,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

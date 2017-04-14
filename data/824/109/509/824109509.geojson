@@ -2,9 +2,14 @@
   "id": 824109509,
   "type": "Feature",
   "properties": {
+    "addr:full":"5679 Boulder Hills Dr Longmont CO 80503",
+    "addr:housenumber":"5679",
+    "addr:postcode":"80503",
+    "addr:street":"Boulder Hills Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.220582,40.128362,-105.220582,40.128362",
     "geom:latitude":40.128362,
     "geom:longitude":-105.220582,
@@ -28,19 +33,28 @@
         "training"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554051
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4fmufO3aYIoqEcQjza0qh4_40.128362_-105.220582@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454545,
-    "wof:geomhash":"09da5fb0b29546d1ec0c587a9d32d22a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"311c48e4649bdbd951ab478fa64d3c76",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554051,
+            "venue_id":824109509
+        }
+    ],
     "wof:id":824109509,
-    "wof:lastmodified":1466415403,
+    "wof:lastmodified":1492132168,
     "wof:name":"Teamworks Training",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

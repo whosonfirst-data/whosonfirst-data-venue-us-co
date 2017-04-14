@@ -2,9 +2,14 @@
   "id": 823645933,
   "type": "Feature",
   "properties": {
+    "addr:full":"330 N Broadway Cortez CO 81321",
+    "addr:housenumber":"330",
+    "addr:postcode":"81321",
+    "addr:street":"N Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.589698,37.353691,-108.589698,37.353691",
     "geom:latitude":37.353691,
     "geom:longitude":-108.589698,
@@ -27,19 +32,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4G9ra21VUGHHVFTNaTHe7u_37.353691_-108.589698@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442988,
-    "wof:geomhash":"830f56695c0e68f44e289b10b3c527de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"12dda7d7234e68b152afd0fcd2290140",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":823645933
+        }
+    ],
     "wof:id":823645933,
-    "wof:lastmodified":1466418008,
+    "wof:lastmodified":1492120124,
     "wof:name":"Builders Depot",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

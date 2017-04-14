@@ -2,9 +2,14 @@
   "id": 839940405,
   "type": "Feature",
   "properties": {
+    "addr:full":"1520 Eisenhower Dr Boulder CO 80303",
+    "addr:housenumber":"1520",
+    "addr:postcode":"80303",
+    "addr:street":"Eisenhower Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.232004,40.013003,-105.232004,40.013003",
     "geom:latitude":40.013003,
     "geom:longitude":-105.232004,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_61cWGuBxpv14ddSTwYxoCw_40.013003_-105.232004@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458523,
-    "wof:geomhash":"5274ce4831d13cbc8a769aae82b4f6c6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d63db861aaf2b0f8d3b055c575cf7f33",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":839940405
+        }
+    ],
     "wof:id":839940405,
-    "wof:lastmodified":1466414881,
+    "wof:lastmodified":1492114241,
     "wof:name":"Sanchopaca Alpacas",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

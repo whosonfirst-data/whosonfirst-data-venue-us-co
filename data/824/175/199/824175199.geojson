@@ -2,9 +2,14 @@
   "id": 824175199,
   "type": "Feature",
   "properties": {
+    "addr:full":"12060 Colorado Blvd Denver CO 80241",
+    "addr:housenumber":"12060",
+    "addr:postcode":"80241",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940114,39.914739,-104.940114,39.914739",
     "geom:latitude":39.914739,
     "geom:longitude":-104.940114,
@@ -29,19 +34,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4jxukXJ9LxYX1y0lqo2UkE_39.914739_-104.940114@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456886,
-    "wof:geomhash":"8937a92e85dc4ce2ce9bb3f52e1ffae9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2ae22117197f0d6b39bf01963fde60ed",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":824175199
+        }
+    ],
     "wof:id":824175199,
-    "wof:lastmodified":1466417945,
+    "wof:lastmodified":1492130957,
     "wof:name":"Grease Monkey",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

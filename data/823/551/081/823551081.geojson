@@ -2,9 +2,14 @@
   "id": 823551081,
   "type": "Feature",
   "properties": {
+    "addr:full":"9892 Vine Ct Denver CO 80229",
+    "addr:housenumber":"9892",
+    "addr:postcode":"80229",
+    "addr:street":"Vine Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961095,39.882002,-104.961095,39.882002",
     "geom:latitude":39.882002,
     "geom:longitude":-104.961095,
@@ -27,19 +32,36 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3vdyZvTA5kVeBmapwARVsQ_39.882002_-104.961095@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440723,
-    "wof:geomhash":"447c8ed2e4d82f10023e74da8f12d807",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b7fba68d2b26d9fee799691749816a0a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823551081
+        }
+    ],
     "wof:id":823551081,
-    "wof:lastmodified":1466415867,
+    "wof:lastmodified":1492127297,
     "wof:name":"El Bandolero Rest & Lounge",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

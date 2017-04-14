@@ -2,9 +2,14 @@
   "id": 824147605,
   "type": "Feature",
   "properties": {
+    "addr:full":"2599 W 90th Ave Denver CO 80260",
+    "addr:housenumber":"2599",
+    "addr:postcode":"80260",
+    "addr:street":"W 90Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.017853,39.859866,-105.017853,39.859866",
     "geom:latitude":39.859866,
     "geom:longitude":-105.017853,
@@ -27,19 +32,36 @@
         "day"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553753
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4HTvq6EWIBIW7f3onr2rBr_39.859866_-105.017853@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455812,
-    "wof:geomhash":"403fd045b906d693821987d1ae97e65e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"675b5e1bc9fb058251bdde2cefc11382",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553753,
+            "region_id":85688603,
+            "venue_id":824147605
+        }
+    ],
     "wof:id":824147605,
-    "wof:lastmodified":1466416709,
+    "wof:lastmodified":1492131642,
     "wof:name":"Little Britches Learning Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553753,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

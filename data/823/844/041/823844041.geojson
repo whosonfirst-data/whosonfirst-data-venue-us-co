@@ -2,9 +2,14 @@
   "id": 823844041,
   "type": "Feature",
   "properties": {
+    "addr:full":"5313 Cook St Denver CO 80216",
+    "addr:housenumber":"5313",
+    "addr:postcode":"80216",
+    "addr:street":"Cook St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.947653,39.794542,-104.947653,39.794542",
     "geom:latitude":39.794542,
     "geom:longitude":-104.947653,
@@ -27,19 +32,38 @@
         "wrecker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4zta4NxLyLLEKvHmdB44Q9_39.794542_-104.947653@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448052,
-    "wof:geomhash":"2c1cb926e40d98f6b2164ba79a7150b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c50375b75b9ca827483abbedb3b2edf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":823844041
+        }
+    ],
     "wof:id":823844041,
-    "wof:lastmodified":1466419801,
+    "wof:lastmodified":1492118144,
     "wof:name":"Access Towing",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

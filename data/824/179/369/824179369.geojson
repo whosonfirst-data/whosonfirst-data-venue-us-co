@@ -2,9 +2,14 @@
   "id": 824179369,
   "type": "Feature",
   "properties": {
+    "addr:full":"650 S Taylor Ave Louisville CO 80027",
+    "addr:housenumber":"650",
+    "addr:postcode":"80027",
+    "addr:street":"S Taylor Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.119676,39.958302,-105.119676,39.958302",
     "geom:latitude":39.958302,
     "geom:longitude":-105.119676,
@@ -28,19 +33,36 @@
         "power"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251,
+        420554039
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6avtcON8i8F8BaJd8v3TvP_39.958302_-105.119676@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457039,
-    "wof:geomhash":"5df5024a25663a3382fa8e2092da6ef3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a7ba4e8e04f8245c2e6bad660428355",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "neighbourhood_id":420554039,
+            "region_id":85688603,
+            "venue_id":824179369
+        }
+    ],
     "wof:id":824179369,
-    "wof:lastmodified":1466418177,
+    "wof:lastmodified":1492132143,
     "wof:name":"Eaton Corporation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554039,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

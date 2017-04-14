@@ -2,9 +2,14 @@
   "id": 824034467,
   "type": "Feature",
   "properties": {
+    "addr:full":"5601 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"5601",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025403,39.799034,-105.025403,39.799034",
     "geom:latitude":39.799034,
     "geom:longitude":-105.025403,
@@ -34,19 +39,46 @@
         "site"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553735,
+        420553615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_45F2gLu2xOPsoE0XF5DCda_39.799034_-105.025403@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452770,
-    "wof:geomhash":"85321bbcea7fbd16d6fec86021de9c49",
-    "wof:hierarchy":[],
+    "wof:geomhash":"85d29e565221c5351fbc948a57a1651b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553735,
+            "region_id":85688603,
+            "venue_id":824034467
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553615,
+            "region_id":85688603,
+            "venue_id":824034467
+        }
+    ],
     "wof:id":824034467,
-    "wof:lastmodified":1466413943,
+    "wof:lastmodified":1492130734,
     "wof:name":"Elm Ridge Mobile Home Park",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

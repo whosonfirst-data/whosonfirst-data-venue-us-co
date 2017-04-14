@@ -2,9 +2,14 @@
   "id": 823822561,
   "type": "Feature",
   "properties": {
+    "addr:full":"1865 E Main St Montrose CO 81401",
+    "addr:housenumber":"1865",
+    "addr:postcode":"81401",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.857936,38.488229,-107.857936,38.488229",
     "geom:latitude":38.488229,
     "geom:longitude":-107.857936,
@@ -28,17 +33,32 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6hB9lg6ato1m6KTD8Ojslh_38.488229_-107.857936@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447371,
-    "wof:geomhash":"c9450aeec41d5c46561bcc62f9af8c81",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cf464e916f557d2fff448673940404a5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":823822561
+        }
+    ],
     "wof:id":823822561,
-    "wof:lastmodified":1466419553,
+    "wof:lastmodified":1492116371,
     "wof:name":"Western Slope Electric Supply",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

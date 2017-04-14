@@ -2,9 +2,14 @@
   "id": 824121591,
   "type": "Feature",
   "properties": {
+    "addr:full":"2851 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2851",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.520969,39.077349,-108.520969,39.077349",
     "geom:latitude":39.077349,
     "geom:longitude":-108.520969,
@@ -27,19 +32,46 @@
         "yard"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554929,
+        420554879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6FgBjEsTMfi7OqrPO7fxSr_39.077349_-108.520969@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454794,
-    "wof:geomhash":"4d7be728435025542f13fb2a25b55591",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09d1f64b97b1597cb1a3a25f80375333",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554929,
+            "region_id":85688603,
+            "venue_id":824121591
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554879,
+            "region_id":85688603,
+            "venue_id":824121591
+        }
+    ],
     "wof:id":824121591,
-    "wof:lastmodified":1466415790,
+    "wof:lastmodified":1492131104,
     "wof:name":"Rent Club Cars",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

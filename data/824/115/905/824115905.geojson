@@ -2,9 +2,14 @@
   "id": 824115905,
   "type": "Feature",
   "properties": {
+    "addr:full":"11287 Ranch Pl Denver CO 80234",
+    "addr:housenumber":"11287",
+    "addr:postcode":"80234",
+    "addr:street":"Ranch Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.012033,39.901472,-105.012033,39.901472",
     "geom:latitude":39.901472,
     "geom:longitude":-105.012033,
@@ -27,19 +32,36 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553847
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4yANMh69Xhr7nhRC3myQXk_39.901472_-105.012033@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454674,
-    "wof:geomhash":"5b2f62d2a132047ce64b82f72b4ea7e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0d2de5f1da1971e311f8e71b5dc5e25",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553847,
+            "region_id":85688603,
+            "venue_id":824115905
+        }
+    ],
     "wof:id":824115905,
-    "wof:lastmodified":1466415351,
+    "wof:lastmodified":1492129111,
     "wof:name":"Dale Swenarton Photographics",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553847,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

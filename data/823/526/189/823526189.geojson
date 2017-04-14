@@ -2,9 +2,14 @@
   "id": 823526189,
   "type": "Feature",
   "properties": {
+    "addr:full":"4567 Florida Rd Durango CO 81301",
+    "addr:housenumber":"4567",
+    "addr:postcode":"co 81301",
+    "addr:street":"Florida Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.808053,37.311674,-107.808053,37.311674",
     "geom:latitude":37.311674,
     "geom:longitude":-107.808053,
@@ -28,19 +33,28 @@
         "parts"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2CYf6gOD25Jotle5SKbL8X_37.311674_-107.808053@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440169,
-    "wof:geomhash":"ca925583223e937c4ae08d6b7adea380",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a9c95e45cea7fb70a335dc77e2004acf",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554717,
+            "venue_id":823526189
+        }
+    ],
     "wof:id":823526189,
-    "wof:lastmodified":1466414958,
+    "wof:lastmodified":1492125201,
     "wof:name":"Clock Repair & Restoration",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

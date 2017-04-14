@@ -2,9 +2,14 @@
   "id": 839927795,
   "type": "Feature",
   "properties": {
+    "addr:full":"8330 Louise Dr Denver CO 80221",
+    "addr:housenumber":"8330",
+    "addr:postcode":"80221",
+    "addr:street":"Louise Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.002257,39.84896,-105.002257,39.84896",
     "geom:latitude":39.84896,
     "geom:longitude":-105.002257,
@@ -27,19 +32,36 @@
         "sanitary"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0lg3LIeOY4T5FrYYZp2orO_39.848960_-105.002257@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457856,
-    "wof:geomhash":"80d897a2fb9d71b8398666707f923b54",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a9668f34aecb30bd1cff64ee3f222dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553771,
+            "region_id":85688603,
+            "venue_id":839927795
+        }
+    ],
     "wof:id":839927795,
-    "wof:lastmodified":1466413944,
+    "wof:lastmodified":1492110366,
     "wof:name":"Jims Lawn Care",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

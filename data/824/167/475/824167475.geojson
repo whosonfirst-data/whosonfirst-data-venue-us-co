@@ -2,9 +2,14 @@
   "id": 824167475,
   "type": "Feature",
   "properties": {
+    "addr:full":"5354 S Jay Dr Denver CO 80123",
+    "addr:housenumber":"5354",
+    "addr:postcode":"80123",
+    "addr:street":"S Jay Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.065235,39.618473,-105.065235,39.618473",
     "geom:latitude":39.618473,
     "geom:longitude":-105.065235,
@@ -27,19 +32,38 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871357,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2VE6RCqntfMeVTYWo81TbL_39.618473_-105.065235@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456586,
-    "wof:geomhash":"e6c873bfc042bdf31ab4b13c8a86f820",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bdb5c0dc42f61e19152e60579f4d9088",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871357,
+            "region_id":85688603,
+            "venue_id":824167475
+        }
+    ],
     "wof:id":824167475,
-    "wof:lastmodified":1466417866,
+    "wof:lastmodified":1492128221,
     "wof:name":"MVP Properties",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

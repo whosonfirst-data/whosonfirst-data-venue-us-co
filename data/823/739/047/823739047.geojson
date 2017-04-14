@@ -2,9 +2,14 @@
   "id": 823739047,
   "type": "Feature",
   "properties": {
+    "addr:full":"1497 Main St Strasburg CO 80136",
+    "addr:housenumber":"1497",
+    "addr:postcode":"80136",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.323868,39.737099,-104.323868,39.737099",
     "geom:latitude":39.737099,
     "geom:longitude":-104.323868,
@@ -27,19 +32,36 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1NQJWF9bnwOvS7LxUfnR66_39.737099_-104.323868@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445133,
-    "wof:geomhash":"0ac6a8bbc9ba6ff99c4484374a50a189",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2c048a74c4957c6bb272f531cec39097",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823739047
+        }
+    ],
     "wof:id":823739047,
-    "wof:lastmodified":1466418827,
+    "wof:lastmodified":1492120342,
     "wof:name":"REA Intermountain Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

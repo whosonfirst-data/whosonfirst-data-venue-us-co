@@ -2,9 +2,14 @@
   "id": 823553161,
   "type": "Feature",
   "properties": {
+    "addr:full":"3246 Stuart St Denver CO 80212",
+    "addr:housenumber":"3246",
+    "addr:postcode":"80212",
+    "addr:street":"Stuart St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042761,39.763073,-105.042761,39.763073",
     "geom:latitude":39.763073,
     "geom:longitude":-105.042761,
@@ -28,19 +33,38 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0EEjjICOOIRA3yeVaKQfjT_39.763073_-105.042761@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440781,
-    "wof:geomhash":"959fa9ce801622f73107299a1022a68a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6c9ce0d3588077dc589d7d7297c49819",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823553161
+        }
+    ],
     "wof:id":823553161,
-    "wof:lastmodified":1466415961,
+    "wof:lastmodified":1492126630,
     "wof:name":"Tantalus Property Holdings LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

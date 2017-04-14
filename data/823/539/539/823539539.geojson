@@ -2,9 +2,14 @@
   "id": 823539539,
   "type": "Feature",
   "properties": {
+    "addr:full":"217 Co Rd 133E Marvel CO 81326",
+    "addr:housenumber":"217;133e",
+    "addr:postcode":"marvel;81326",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.126968,37.113593,-108.126968,37.113593",
     "geom:latitude":37.113593,
     "geom:longitude":-108.126968,
@@ -24,19 +29,28 @@
     "sg:postcode":"81326",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5dGa7ih6HMecqYQXAiDjbm_37.113593_-108.126968@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440459,
-    "wof:geomhash":"2845dc17f8f6c5ce2c93dc947703323a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9073a2947b8028af9157ee89b1bc8f29",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":823539539
+        }
+    ],
     "wof:id":823539539,
-    "wof:lastmodified":1466415590,
+    "wof:lastmodified":1492123363,
     "wof:name":"Marvel Grange",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

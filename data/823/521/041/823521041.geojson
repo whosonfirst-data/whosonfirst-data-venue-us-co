@@ -2,9 +2,14 @@
   "id": 823521041,
   "type": "Feature",
   "properties": {
+    "addr:full":"403 16th St Greeley CO 80631",
+    "addr:housenumber":"403",
+    "addr:postcode":"80631",
+    "addr:street":"16Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.684781,40.413765,-104.684781,40.413765",
     "geom:latitude":40.413765,
     "geom:longitude":-104.684781,
@@ -34,12 +39,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -47,8 +52,16 @@
     },
     "wof:country":"US",
     "wof:created":1463440049,
-    "wof:geomhash":"a582603bf02787c6b7b148583b860a3d",
+    "wof:geomhash":"56ea473a87e2d1f55096879306c11c9c",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823521041
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -57,20 +70,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823521041
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823521041
         }
     ],
     "wof:id":823521041,
-    "wof:lastmodified":1466414878,
+    "wof:lastmodified":1492119620,
     "wof:name":"Craftsman Decorating Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

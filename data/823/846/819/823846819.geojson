@@ -2,9 +2,14 @@
   "id": 823846819,
   "type": "Feature",
   "properties": {
+    "addr:full":"6800 Broadway St Denver CO 80221",
+    "addr:housenumber":"6800",
+    "addr:postcode":"80221",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.987367,39.820619,-104.987367,39.820619",
     "geom:latitude":39.820619,
     "geom:longitude":-104.987367,
@@ -28,19 +33,36 @@
         "greeting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553727
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6dI70F5BdGFrP29JMZTZ7L_39.820619_-104.987367@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448124,
-    "wof:geomhash":"b1bedfb9e855404b2eb4fc5466e9c241",
-    "wof:hierarchy":[],
+    "wof:geomhash":"14c56637a607b1481c572f3d233bd370",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553727,
+            "region_id":85688603,
+            "venue_id":823846819
+        }
+    ],
     "wof:id":823846819,
-    "wof:lastmodified":1466419774,
+    "wof:lastmodified":1492116418,
     "wof:name":"Sunnyfield Collection Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553727,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

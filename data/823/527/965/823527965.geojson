@@ -2,9 +2,14 @@
   "id": 823527965,
   "type": "Feature",
   "properties": {
+    "addr:full":"2785 W 65th Ave Denver CO 80221",
+    "addr:housenumber":"2785",
+    "addr:postcode":"80221",
+    "addr:street":"W 65Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024162,39.814189,-105.024162,39.814189",
     "geom:latitude":39.814189,
     "geom:longitude":-105.024162,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0NJFxLTkAAYnXbDqPaiXFt_39.814189_-105.024162@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440215,
-    "wof:geomhash":"a1d6634e8998a9112dcac09d52093970",
-    "wof:hierarchy":[],
+    "wof:geomhash":"76be284b613bcf10437caf5252bcc059",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553657,
+            "region_id":85688603,
+            "venue_id":823527965
+        }
+    ],
     "wof:id":823527965,
-    "wof:lastmodified":1466415051,
+    "wof:lastmodified":1492120425,
     "wof:name":"Art's Water & Sewer Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553657,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

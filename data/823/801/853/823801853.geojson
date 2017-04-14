@@ -2,9 +2,14 @@
   "id": 823801853,
   "type": "Feature",
   "properties": {
+    "addr:full":"7555 Co Rd 123 Penrose CO 81240",
+    "addr:housenumber":"7555;123",
+    "addr:postcode":"81240",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066485,38.446798,-105.066485,38.446798",
     "geom:latitude":38.446798,
     "geom:longitude":-105.066485,
@@ -28,17 +33,30 @@
         "ranch"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102083363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1aEwuSMaFAY89HJvidepsm_38.446798_-105.066485@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446754,
-    "wof:geomhash":"b332ecea80ae5947df0105c71fbdaac3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28e2ea136ed55fd3135bf9a58be7c70b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "region_id":85688603,
+            "venue_id":823801853
+        }
+    ],
     "wof:id":823801853,
-    "wof:lastmodified":1466419448,
+    "wof:lastmodified":1492123218,
     "wof:name":"Jazz Horse Ranch",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

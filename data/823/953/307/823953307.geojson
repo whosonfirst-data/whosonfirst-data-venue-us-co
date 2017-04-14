@@ -2,9 +2,14 @@
   "id": 823953307,
   "type": "Feature",
   "properties": {
+    "addr:full":"17 N 12th Ave Brighton CO 80601",
+    "addr:housenumber":"17",
+    "addr:postcode":"80601",
+    "addr:street":"N 12Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.807054,39.987309,-104.807054,39.987309",
     "geom:latitude":39.987309,
     "geom:longitude":-104.807054,
@@ -27,19 +32,36 @@
         "day"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_50AKaVuS8D1n4env9hdgBf_39.987309_-104.807054@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450850,
-    "wof:geomhash":"d6ce5f45b02f9fad7c0e11f9af2d0246",
-    "wof:hierarchy":[],
+    "wof:geomhash":"752892e64a985cf225d41e1423439bfd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":823953307
+        }
+    ],
     "wof:id":823953307,
-    "wof:lastmodified":1466420711,
+    "wof:lastmodified":1492119550,
     "wof:name":"Posie Patch Child Care Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

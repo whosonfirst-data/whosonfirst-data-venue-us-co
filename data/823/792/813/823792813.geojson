@@ -2,9 +2,14 @@
   "id": 823792813,
   "type": "Feature",
   "properties": {
+    "addr:full":"999 E 1st Ave Broomfield CO 80020",
+    "addr:housenumber":"999",
+    "addr:postcode":"80020",
+    "addr:street":"E 1St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059904,39.915199,-105.059904,39.915199",
     "geom:latitude":39.915199,
     "geom:longitude":-105.059904,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554229
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0NGIVqfOsmIn2QYpGF4iHj_39.915199_-105.059904@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446508,
-    "wof:geomhash":"e26d6a57f558b7bcc484a2e347e7c93e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b257a3f4a0263135308d0b108295a4c8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554229,
+            "region_id":85688603,
+            "venue_id":823792813
+        }
+    ],
     "wof:id":823792813,
-    "wof:lastmodified":1466419319,
+    "wof:lastmodified":1492120802,
     "wof:name":"Oakwood Companies",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554229,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

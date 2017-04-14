@@ -2,9 +2,14 @@
   "id": 823931801,
   "type": "Feature",
   "properties": {
+    "addr:full":"2446 Cherry Cir Brighton CO 80601",
+    "addr:housenumber":"2446",
+    "addr:postcode":"80601",
+    "addr:street":"Cherry Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.79249,39.97297,-104.79249,39.97297",
     "geom:latitude":39.97297,
     "geom:longitude":-104.79249,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553355
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ycFfJIBNqmhAEbVO5BD0i_39.972970_-104.792490@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450301,
-    "wof:geomhash":"3797c4e281e7ad7051fed6d9e65d61e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e5ff9ba9a7864143657647bd17cf9d3f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553355,
+            "region_id":85688603,
+            "venue_id":823931801
+        }
+    ],
     "wof:id":823931801,
-    "wof:lastmodified":1466420313,
+    "wof:lastmodified":1492119444,
     "wof:name":"Unlimited Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553355,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824142713,
   "type": "Feature",
   "properties": {
+    "addr:full":"5355 Harrison St Denver CO 80216",
+    "addr:housenumber":"5355",
+    "addr:postcode":"80216",
+    "addr:street":"Harrison St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.941778,39.793392,-104.941778,39.793392",
     "geom:latitude":39.793392,
     "geom:longitude":-104.941778,
@@ -28,19 +33,38 @@
         "picture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6MVYhbq2Kg323k0BMBaKt5_39.793392_-104.941778@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455607,
-    "wof:geomhash":"d3eac173a6162b5770e510e588fbdd11",
-    "wof:hierarchy":[],
+    "wof:geomhash":"18b2ea90e189bc870371c3d348d28451",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":824142713
+        }
+    ],
     "wof:id":824142713,
-    "wof:lastmodified":1466416705,
+    "wof:lastmodified":1492129354,
     "wof:name":"Denver Shipping & Inspection",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

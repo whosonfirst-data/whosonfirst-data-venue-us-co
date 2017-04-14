@@ -2,9 +2,14 @@
   "id": 823947493,
   "type": "Feature",
   "properties": {
+    "addr:full":"2092 Truda Dr Denver CO 80233",
+    "addr:housenumber":"2092",
+    "addr:postcode":"80233",
+    "addr:street":"Truda Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961455,39.909135,-104.961455,39.909135",
     "geom:latitude":39.909135,
     "geom:longitude":-104.961455,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553653
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3GuKrSl6JZqWLxBJOHfIrn_39.909135_-104.961455@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450721,
-    "wof:geomhash":"03e61ce23368082f799c87a70c88a6e7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a78b67b6bb1135d1b5419952b22422ac",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553653,
+            "region_id":85688603,
+            "venue_id":823947493
+        }
+    ],
     "wof:id":823947493,
-    "wof:lastmodified":1466420612,
+    "wof:lastmodified":1492123760,
     "wof:name":"Anderson Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553653,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

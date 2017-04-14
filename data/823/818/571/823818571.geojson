@@ -2,9 +2,14 @@
   "id": 823818571,
   "type": "Feature",
   "properties": {
+    "addr:full":"111 W Beaver Ave Fort Morgan CO 80701",
+    "addr:housenumber":"111",
+    "addr:postcode":"80701",
+    "addr:street":"W Beaver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.801978,40.251312,-103.801978,40.251312",
     "geom:latitude":40.251312,
     "geom:longitude":-103.801978,
@@ -27,17 +32,32 @@
         "opportunity"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6y3ck5yr3YHaxtb1XrK4h8_40.251312_-103.801978@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447246,
-    "wof:geomhash":"28befe3ab6147792ef713926dd3d8c31",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ffea21184f69c65ebc3e874ed277f74e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":823818571
+        }
+    ],
     "wof:id":823818571,
-    "wof:lastmodified":1466419494,
+    "wof:lastmodified":1492127863,
     "wof:name":"Express Personnel Svc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

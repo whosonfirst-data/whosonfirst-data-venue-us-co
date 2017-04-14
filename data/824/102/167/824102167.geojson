@@ -2,9 +2,14 @@
   "id": 824102167,
   "type": "Feature",
   "properties": {
+    "addr:full":"1501 W Lake St Fort Collins CO 80521",
+    "addr:housenumber":"1501",
+    "addr:postcode":"80521",
+    "addr:street":"W Lake St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.104981,40.568304,-105.104981,40.568304",
     "geom:latitude":40.568304,
     "geom:longitude":-105.104981,
@@ -29,19 +34,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2maweDDcKN8lKZFax530iR_40.568304_-105.104981@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454385,
-    "wof:geomhash":"42a0200446c2ab24884c1dceb17f8df6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab889bc30b71f957097740d43a29ac71",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":824102167
+        }
+    ],
     "wof:id":824102167,
-    "wof:lastmodified":1466415086,
+    "wof:lastmodified":1492131961,
     "wof:name":"Wellness Machine",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

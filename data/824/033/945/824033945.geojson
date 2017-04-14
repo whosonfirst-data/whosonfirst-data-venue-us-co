@@ -2,9 +2,14 @@
   "id": 824033945,
   "type": "Feature",
   "properties": {
+    "addr:full":"525 W 115th Ave Northglenn CO 80234",
+    "addr:housenumber":"525",
+    "addr:postcode":"80234",
+    "addr:street":"W 115Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.993802,39.905694,-104.993802,39.905694",
     "geom:latitude":39.905694,
     "geom:longitude":-104.993802,
@@ -28,19 +33,36 @@
         "dancing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553905
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ns8C7TjpziJDr8LzlyTLV_39.905694_-104.993802@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452758,
-    "wof:geomhash":"1b42381b555ca5594b8a91dbebde1f5c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"89ba4528e0d9fd921640086fdde82369",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553905,
+            "region_id":85688603,
+            "venue_id":824033945
+        }
+    ],
     "wof:id":824033945,
-    "wof:lastmodified":1466413946,
+    "wof:lastmodified":1492133143,
     "wof:name":"Dance Unlimited",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553905,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

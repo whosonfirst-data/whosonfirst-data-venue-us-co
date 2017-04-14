@@ -2,9 +2,14 @@
   "id": 823645389,
   "type": "Feature",
   "properties": {
+    "addr:full":"17756 Co Rd 8 Brighton CO 80603",
+    "addr:housenumber":"17756",
+    "addr:postcode":"80603",
+    "addr:street":"Co Rd 8",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.721583,40.043977,-104.721583,40.043977",
     "geom:latitude":40.043977,
     "geom:longitude":-104.721583,
@@ -35,19 +40,28 @@
         "devices"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Ypr8FNOrRx2Gyj2dC2FPI_40.043977_-104.721583@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442973,
-    "wof:geomhash":"a1b955b5b7696f0b89e90826f526d679",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f8a6fc817a0ebbdf23c841c2b8a2d1e0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823645389
+        }
+    ],
     "wof:id":823645389,
-    "wof:lastmodified":1466418063,
+    "wof:lastmodified":1492120133,
     "wof:name":"Bradley's Hardware Connections",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

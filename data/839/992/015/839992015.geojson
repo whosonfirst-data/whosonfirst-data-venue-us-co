@@ -2,9 +2,14 @@
   "id": 839992015,
   "type": "Feature",
   "properties": {
+    "addr:full":"710 Horizon Dr Grand Junction CO 81506",
+    "addr:housenumber":"710",
+    "addr:postcode":"81506",
+    "addr:street":"Horizon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.54422,39.106734,-108.54422,39.106734",
     "geom:latitude":39.106734,
     "geom:longitude":-108.54422,
@@ -29,19 +34,36 @@
         "diner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554861
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ReQmGZ4AxrppFBmhdlb3g_39.106734_-108.544220@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460884,
-    "wof:geomhash":"ebe813174c578cd44fc7fad2fe5c27e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"99b0399e26cb80d954e87ff804211864",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554861,
+            "region_id":85688603,
+            "venue_id":839992015
+        }
+    ],
     "wof:id":839992015,
-    "wof:lastmodified":1466417497,
+    "wof:lastmodified":1492114422,
     "wof:name":"Denny's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554861,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

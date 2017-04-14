@@ -2,9 +2,14 @@
   "id": 823479427,
   "type": "Feature",
   "properties": {
+    "addr:full":"8584 Wiley Cir Westminster CO 80031",
+    "addr:housenumber":"8584",
+    "addr:postcode":"80031",
+    "addr:street":"Wiley Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.046985,39.85116,-105.046985,39.85116",
     "geom:latitude":39.85116,
     "geom:longitude":-105.046985,
@@ -31,19 +36,36 @@
         "cartage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5miUblbWo7bwRdWgDgH10s_39.851160_-105.046985@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439068,
-    "wof:geomhash":"431727530870587d2817d257b154549d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"10777dba4ad2b5d570b1f286b291b434",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823479427
+        }
+    ],
     "wof:id":823479427,
-    "wof:lastmodified":1466413296,
+    "wof:lastmodified":1492117148,
     "wof:name":"Metro Express Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

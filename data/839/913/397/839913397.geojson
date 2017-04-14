@@ -2,9 +2,14 @@
   "id": 839913397,
   "type": "Feature",
   "properties": {
+    "addr:full":"2901 W 92nd Ave Denver CO 80260",
+    "addr:housenumber":"2901",
+    "addr:postcode":"80260",
+    "addr:street":"W 92Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024404,39.863564,-105.024404,39.863564",
     "geom:latitude":39.863564,
     "geom:longitude":-105.024404,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_04ULJ5KyEvAbhoqLhhgqqt_39.863564_-105.024404@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457236,
-    "wof:geomhash":"974c6c0766709a0d8233ff7649eff546",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c344c0acb42b1e079b5ef9919036c03b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":839913397
+        }
+    ],
     "wof:id":839913397,
-    "wof:lastmodified":1466412629,
+    "wof:lastmodified":1492113492,
     "wof:name":"Atlas Precision Machining Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

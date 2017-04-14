@@ -2,9 +2,14 @@
   "id": 824151785,
   "type": "Feature",
   "properties": {
+    "addr:full":"1020 Co Rd 125 Hesperus CO 81326",
+    "addr:housenumber":"1020",
+    "addr:postcode":"81326",
+    "addr:street":"Co Rd 125 Hesperus",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.986203,37.245573,-107.986203,37.245573",
     "geom:latitude":37.245573,
     "geom:longitude":-107.986203,
@@ -27,19 +32,28 @@
         "appraiser"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06AGl5UgWjtgwTM4VGiMwy_37.245573_-107.986203@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455976,
-    "wof:geomhash":"e90e9ddd870789f5354de0603a26e216",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0b1af3702db3bb293c8e231d12e40cb1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":824151785
+        }
+    ],
     "wof:id":824151785,
-    "wof:lastmodified":1466416886,
+    "wof:lastmodified":1492129156,
     "wof:name":"Rocky Mountain Appraisal",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

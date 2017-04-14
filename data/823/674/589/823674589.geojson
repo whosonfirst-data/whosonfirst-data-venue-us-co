@@ -2,9 +2,14 @@
   "id": 823674589,
   "type": "Feature",
   "properties": {
+    "addr:full":"2380 S Holly Pl Denver CO 80222",
+    "addr:housenumber":"2380",
+    "addr:postcode":"80222",
+    "addr:street":"S Holly Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.925454,39.673741,-104.925454,39.673741",
     "geom:latitude":39.673741,
     "geom:longitude":-104.925454,
@@ -27,19 +32,36 @@
         "repair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930653,
+        102086877,
+        420559699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2VUvvd0OtY58I5NBr7myAJ_39.673741_-104.925454@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443675,
-    "wof:geomhash":"743e5dd283b55e2846dc77a0e37e254b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f1b38380b8ffc461f115d4f556056d53",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930653,
+            "neighbourhood_id":420559699,
+            "region_id":85688603,
+            "venue_id":823674589
+        }
+    ],
     "wof:id":823674589,
-    "wof:lastmodified":1466418317,
+    "wof:lastmodified":1492118424,
     "wof:name":"Direct Source Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

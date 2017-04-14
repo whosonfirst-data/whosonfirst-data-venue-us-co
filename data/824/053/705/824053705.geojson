@@ -2,9 +2,14 @@
   "id": 824053705,
   "type": "Feature",
   "properties": {
+    "addr:full":"220 Sunrise Ln Durango CO 81301",
+    "addr:housenumber":"220",
+    "addr:postcode":"co 81301",
+    "addr:street":"Sunrise Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.68754,37.339126,-107.68754,37.339126",
     "geom:latitude":37.339126,
     "geom:longitude":-107.68754,
@@ -28,19 +33,38 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554699,
+        85688603,
+        85888397,
+        102084019
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4FBf1RxkaC19hMC47o70ad_37.339126_-107.687540@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453242,
-    "wof:geomhash":"553096f2e8e6fb771d5c02f6bfe74b36",
-    "wof:hierarchy":[],
+    "wof:geomhash":"734daf167d77c3f08ee5cec4cc9a53f8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554699,
+            "venue_id":824053705
+        },
+        {
+            "country_id":85633793,
+            "county_id":102084019,
+            "neighbourhood_id":85888397,
+            "region_id":85688603,
+            "venue_id":824053705
+        }
+    ],
     "wof:id":824053705,
-    "wof:lastmodified":1466414227,
+    "wof:lastmodified":1492132837,
     "wof:name":"Sunrise Performance Horses",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

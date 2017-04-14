@@ -2,9 +2,14 @@
   "id": 824062553,
   "type": "Feature",
   "properties": {
+    "addr:full":"129 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"129;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.848367,37.299819,-107.848367,37.299819",
     "geom:latitude":37.299819,
     "geom:longitude":-107.848367,
@@ -28,19 +33,28 @@
         "physical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6DX9uFndQoHYvMF4Z6JSYR_37.299819_-107.848367@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453442,
-    "wof:geomhash":"6b8cfc7cbb4cdf0e92610b459b9cedba",
-    "wof:hierarchy":[],
+    "wof:geomhash":"81e582496cb7f3abded937d85686e1f2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":824062553
+        }
+    ],
     "wof:id":824062553,
-    "wof:lastmodified":1466414367,
+    "wof:lastmodified":1492132257,
     "wof:name":"Mc Award Physical Therapy",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

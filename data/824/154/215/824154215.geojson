@@ -2,9 +2,14 @@
   "id": 824154215,
   "type": "Feature",
   "properties": {
+    "addr:full":"5425 Co Rd 123 Penrose CO 81240",
+    "addr:housenumber":"5425;123",
+    "addr:postcode":"81240",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.088626,38.448739,-105.088626,38.448739",
     "geom:latitude":38.448739,
     "geom:longitude":-105.088626,
@@ -29,17 +34,30 @@
         "structural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102083363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1K3lsaox9WV1NALXtPkgGy_38.448739_-105.088626@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456086,
-    "wof:geomhash":"cb11b022982d78cd86f76a3d8a378cfd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0e6182853da84be0c3aa6cf36275cee",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083363,
+            "region_id":85688603,
+            "venue_id":824154215
+        }
+    ],
     "wof:id":824154215,
-    "wof:lastmodified":1466417097,
+    "wof:lastmodified":1492129651,
     "wof:name":"Penrose Steel & Tubing Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 824094619,
   "type": "Feature",
   "properties": {
+    "addr:full":"12004 Melody Dr Denver CO 80234",
+    "addr:housenumber":"12004",
+    "addr:postcode":"80234",
+    "addr:street":"Melody Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994623,39.915885,-104.994623,39.915885",
     "geom:latitude":39.915885,
     "geom:longitude":-104.994623,
@@ -28,19 +33,36 @@
         "care"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3yroGSLZB07w9oyegj0ead_39.915885_-104.994623@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454210,
-    "wof:geomhash":"e920392b8a8c91bb01a5c1b17bf09a0e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d5d6fabe97c2dc6de1c004ad3f5d4e8a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":824094619
+        }
+    ],
     "wof:id":824094619,
-    "wof:lastmodified":1466414982,
+    "wof:lastmodified":1492128461,
     "wof:name":"Health Matters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

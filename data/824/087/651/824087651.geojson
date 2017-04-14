@@ -2,9 +2,14 @@
   "id": 824087651,
   "type": "Feature",
   "properties": {
+    "addr:full":"380 N Main St Brighton CO 80601",
+    "addr:housenumber":"380",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.819216,39.994052,-104.819216,39.994052",
     "geom:latitude":39.994052,
     "geom:longitude":-104.819216,
@@ -27,19 +32,42 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409,
+        85688603,
+        102191575,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2RHhol24PS8iO0rtVRpbGP_39.994052_-104.819216@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454034,
-    "wof:geomhash":"03a4846b7f7cc3390875a15df4d88659",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b29ea75227626b67b1e67e6650dbf6b9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":824087651
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824087651
+        }
+    ],
     "wof:id":824087651,
-    "wof:lastmodified":1466414851,
+    "wof:lastmodified":1492128063,
     "wof:name":"Bustamante Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

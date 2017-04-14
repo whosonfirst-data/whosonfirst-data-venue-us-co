@@ -2,9 +2,14 @@
   "id": 824153849,
   "type": "Feature",
   "properties": {
+    "addr:full":"7348 Washington St Denver CO 80229",
+    "addr:housenumber":"7348",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977839,39.829998,-104.977839,39.829998",
     "geom:latitude":39.829998,
     "geom:longitude":-104.977839,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2DNAhseyUl9k3jwyJ6WgLm_39.829998_-104.977839@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456070,
-    "wof:geomhash":"0793e86d03e0374964a7f7198475072c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2b5a4873b56069d561144c5fc3e2e235",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":824153849
+        }
+    ],
     "wof:id":824153849,
-    "wof:lastmodified":1466417046,
+    "wof:lastmodified":1492128538,
     "wof:name":"I & G Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

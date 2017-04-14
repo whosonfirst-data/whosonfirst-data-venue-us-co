@@ -2,9 +2,14 @@
   "id": 823688515,
   "type": "Feature",
   "properties": {
+    "addr:full":"3601 S Federal Blvd Englewood CO 80110",
+    "addr:housenumber":"3601",
+    "addr:postcode":"80110",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025362,39.651565,-105.025362,39.651565",
     "geom:latitude":39.651565,
     "geom:longitude":-105.025362,
@@ -27,17 +32,32 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929811,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7J5vW9qlFMhmcsAESszPQt_39.651565_-105.025362@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443981,
-    "wof:geomhash":"b6d7f090d81d458b862356add2be5138",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c84bccd64e0c120adef620e949c66c6a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929811,
+            "region_id":85688603,
+            "venue_id":823688515
+        }
+    ],
     "wof:id":823688515,
-    "wof:lastmodified":1466418452,
+    "wof:lastmodified":1492126182,
     "wof:name":"McDonalds",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

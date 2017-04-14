@@ -2,9 +2,14 @@
   "id": 823486049,
   "type": "Feature",
   "properties": {
+    "addr:full":"555 Co Rd 134 Durango CO 81326",
+    "addr:housenumber":"555;134",
+    "addr:postcode":"co 81326",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.138307,37.074855,-108.138307,37.074855",
     "geom:latitude":37.074855,
     "geom:longitude":-108.138307,
@@ -24,19 +29,28 @@
     "sg:postcode":"81326",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1yBPpybUgrGLzlPJlKcx20_37.074855_-108.138307@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439206,
-    "wof:geomhash":"45551572752243f87203560214f67d82",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2d9a9c7b75fe17feca08aba1315485b3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":823486049
+        }
+    ],
     "wof:id":823486049,
-    "wof:lastmodified":1466413770,
+    "wof:lastmodified":1492120494,
     "wof:name":"Janet Wiley Architects",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823565235,
   "type": "Feature",
   "properties": {
+    "addr:full":"3855 Lewiston St Aurora CO 80011",
+    "addr:housenumber":"3855",
+    "addr:postcode":"80011",
+    "addr:street":"Lewiston St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.799097,39.772779,-104.799097,39.772779",
     "geom:latitude":39.772779,
     "geom:longitude":-104.799097,
@@ -28,19 +33,36 @@
         "security"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553283
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4dlP8AnSXcxZa9d5gzIdaG_39.772779_-104.799097@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441067,
-    "wof:geomhash":"fad635e1c2c35c0955f030bfc8b0f8a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cd4aafad52de06679c9388be410fb35d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553283,
+            "region_id":85688603,
+            "venue_id":823565235
+        }
+    ],
     "wof:id":823565235,
-    "wof:lastmodified":1466416155,
+    "wof:lastmodified":1492119237,
     "wof:name":"Headquarters Western Sector",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553283,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

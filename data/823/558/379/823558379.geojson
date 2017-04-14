@@ -2,9 +2,14 @@
   "id": 823558379,
   "type": "Feature",
   "properties": {
+    "addr:full":"719 S University Blvd Denver CO 80209",
+    "addr:housenumber":"719",
+    "addr:postcode":"80209",
+    "addr:street":"S University Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959413,39.702367,-104.959413,39.702367",
     "geom:latitude":39.702367,
     "geom:longitude":-104.959413,
@@ -27,7 +32,15 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554305,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2cDFH5MfJTeQpczCwzWTqy_39.702367_-104.959413@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463440896,
     "wof:geomhash":"ede826ab137b9815a62ef22e6612d805",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":420554305,
+            "region_id":85688603,
+            "venue_id":823558379
+        }
+    ],
     "wof:id":823558379,
-    "wof:lastmodified":1466416061,
+    "wof:lastmodified":1491865765,
     "wof:name":"Todds Tropical Fish",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

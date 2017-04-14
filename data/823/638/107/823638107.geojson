@@ -2,9 +2,14 @@
   "id": 823638107,
   "type": "Feature",
   "properties": {
+    "addr:full":"1225 S Dale Ct Denver CO 80219",
+    "addr:housenumber":"1225",
+    "addr:postcode":"80219",
+    "addr:street":"S Dale Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.021649,39.695327,-105.021649,39.695327",
     "geom:latitude":39.695327,
     "geom:longitude":-105.021649,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871275,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_50BEJNgWDVsgbyldCMPzGV_39.695327_-105.021649@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463442810,
     "wof:geomhash":"d52a34cfc2a84e2863621d29cd053d4f",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871275,
+            "region_id":85688603,
+            "venue_id":823638107
+        }
+    ],
     "wof:id":823638107,
-    "wof:lastmodified":1466417827,
+    "wof:lastmodified":1491876185,
     "wof:name":"Sarape Creations",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

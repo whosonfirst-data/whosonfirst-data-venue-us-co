@@ -2,9 +2,14 @@
   "id": 823508781,
   "type": "Feature",
   "properties": {
+    "addr:full":"8665 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"8665",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053013,39.853775,-105.053013,39.853775",
     "geom:latitude":39.853775,
     "geom:longitude":-105.053013,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0HRv2h4CWcWhmXbCUSaBbb_39.853775_-105.053013@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439773,
-    "wof:geomhash":"e137dc8992b5337e286a6a782e52ed85",
-    "wof:hierarchy":[],
+    "wof:geomhash":"599482a8e86b24851dbb9c6c746e5465",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":823508781
+        }
+    ],
     "wof:id":823508781,
-    "wof:lastmodified":1466414503,
+    "wof:lastmodified":1492121298,
     "wof:name":"Yak & Yeti",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

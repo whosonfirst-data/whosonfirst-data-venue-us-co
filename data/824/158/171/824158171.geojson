@@ -2,9 +2,14 @@
   "id": 824158171,
   "type": "Feature",
   "properties": {
+    "addr:full":"7890 Linda Cir Denver CO 80221",
+    "addr:housenumber":"7890",
+    "addr:postcode":"80221",
+    "addr:street":"Linda Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.995653,39.839845,-104.995653,39.839845",
     "geom:latitude":39.839845,
     "geom:longitude":-104.995653,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553867
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5oSt2DbPCMhppHv6OXqHRb_39.839845_-104.995653@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456231,
-    "wof:geomhash":"e4493ce9a7b57ee0b1a2f293cbdcd501",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bfd8f68dd7a3d8ac017675e3eedf4c88",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553867,
+            "region_id":85688603,
+            "venue_id":824158171
+        }
+    ],
     "wof:id":824158171,
-    "wof:lastmodified":1466417128,
+    "wof:lastmodified":1492131367,
     "wof:name":"Pacheco's Quality Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553867,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

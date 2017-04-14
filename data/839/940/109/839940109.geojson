@@ -2,9 +2,14 @@
   "id": 839940109,
   "type": "Feature",
   "properties": {
+    "addr:full":"1077 S Gaylord St Denver CO 80209",
+    "addr:housenumber":"1077",
+    "addr:postcode":"80209",
+    "addr:street":"S Gaylord St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961825,39.697994,-104.961825,39.697994",
     "geom:latitude":39.697994,
     "geom:longitude":-104.961825,
@@ -29,7 +34,15 @@
         "wear"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554305,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4weyNWtQPNwVuMgEOpAB8M_39.697994_-104.961825@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463458499,
     "wof:geomhash":"ac635d50d0b7fb8f00f7e26a20c367de",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":420554305,
+            "region_id":85688603,
+            "venue_id":839940109
+        }
+    ],
     "wof:id":839940109,
-    "wof:lastmodified":1466414859,
+    "wof:lastmodified":1491865970,
     "wof:name":"Trouts American Sportswear Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

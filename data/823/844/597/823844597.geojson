@@ -2,9 +2,14 @@
   "id": 823844597,
   "type": "Feature",
   "properties": {
+    "addr:full":"7050 N Peterson Rd Sedalia CO 80135",
+    "addr:housenumber":"7050",
+    "addr:postcode":"80135",
+    "addr:street":"N Peterson Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.989402,39.470943,-104.989402,39.470943",
     "geom:latitude":39.470943,
     "geom:longitude":-104.989402,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929257,
+        102085225,
+        85865181
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2IkafTzhfDZnPdpqmt63AD_39.470943_-104.989402@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448067,
-    "wof:geomhash":"9dc9d1e328fe8e77a8b3f430e927f4d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"490c9644082227c4df3d8ed659929ef0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085225,
+            "locality_id":85929257,
+            "neighbourhood_id":85865181,
+            "region_id":85688603,
+            "venue_id":823844597
+        }
+    ],
     "wof:id":823844597,
-    "wof:lastmodified":1466419830,
+    "wof:lastmodified":1492118122,
     "wof:name":"D & D Utility and Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":85865181,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

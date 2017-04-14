@@ -2,9 +2,14 @@
   "id": 839946731,
   "type": "Feature",
   "properties": {
+    "addr:full":"5220 W 3rd Ave Denver CO 80226",
+    "addr:housenumber":"5220",
+    "addr:postcode":"80226",
+    "addr:street":"W 3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.054588,39.721013,-105.054588,39.721013",
     "geom:latitude":39.721013,
     "geom:longitude":-105.054588,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7WV3cX9agR2oxr0t9qRXru_39.721013_-105.054588@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458950,
-    "wof:geomhash":"752a6affe2a3ba24ceb8ff9ffe3c73cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9e87bb8b725c7e23b166f980b7628524",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":839946731
+        }
+    ],
     "wof:id":839946731,
-    "wof:lastmodified":1466415229,
+    "wof:lastmodified":1492112680,
     "wof:name":"Masco",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

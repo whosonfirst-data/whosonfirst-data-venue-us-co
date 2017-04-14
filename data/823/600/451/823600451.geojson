@@ -2,9 +2,14 @@
   "id": 823600451,
   "type": "Feature",
   "properties": {
+    "addr:full":"978 S Vine St Denver CO 80209",
+    "addr:housenumber":"978",
+    "addr:postcode":"80209",
+    "addr:street":"S Vine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.962806,39.699847,-104.962806,39.699847",
     "geom:latitude":39.699847,
     "geom:longitude":-104.962806,
@@ -28,7 +33,15 @@
         "audio"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554305,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0SyjHPbRHLaXJ8Ttl7F1ph_39.699847_-104.962806@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463441908,
     "wof:geomhash":"86071b061e49645fbc855fe67152c543",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":420554305,
+            "region_id":85688603,
+            "venue_id":823600451
+        }
+    ],
     "wof:id":823600451,
-    "wof:lastmodified":1466417120,
+    "wof:lastmodified":1491865832,
     "wof:name":"Robert Stevens & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

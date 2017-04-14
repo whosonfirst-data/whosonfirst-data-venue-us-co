@@ -2,9 +2,14 @@
   "id": 823570441,
   "type": "Feature",
   "properties": {
+    "addr:full":"160 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"160;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.848391,37.299459,-107.848391,37.299459",
     "geom:latitude":37.299459,
     "geom:longitude":-107.848391,
@@ -27,19 +32,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Al9u1BiZFoKEIJxIWlqe1_37.299459_-107.848391@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441196,
-    "wof:geomhash":"f8944d8bddec7bcbff736e44cf923989",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ceef6135e3b10f9ceaf20aa2b32d39bf",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":823570441
+        }
+    ],
     "wof:id":823570441,
-    "wof:lastmodified":1466416328,
+    "wof:lastmodified":1492118368,
     "wof:name":"East Animas Road Building Mtls",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

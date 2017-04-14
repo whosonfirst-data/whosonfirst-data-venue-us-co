@@ -2,9 +2,14 @@
   "id": 823974181,
   "type": "Feature",
   "properties": {
+    "addr:full":"5676 Pecos St Denver CO 80221",
+    "addr:housenumber":"5676",
+    "addr:postcode":"80221",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006329,39.801536,-105.006329,39.801536",
     "geom:latitude":39.801536,
     "geom:longitude":-105.006329,
@@ -32,19 +37,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553627
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5XflrbluSpyudBKzmgQxsM_39.801536_-105.006329@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451338,
-    "wof:geomhash":"e35b97f2b5b184b333348349836dbb2a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f43b774bfee085eb29566b6ecb45f3ed",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553627,
+            "region_id":85688603,
+            "venue_id":823974181
+        }
+    ],
     "wof:id":823974181,
-    "wof:lastmodified":1466420807,
+    "wof:lastmodified":1492117250,
     "wof:name":"Action Air Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553627,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

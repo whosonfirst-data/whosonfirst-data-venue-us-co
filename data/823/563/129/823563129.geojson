@@ -2,9 +2,14 @@
   "id": 823563129,
   "type": "Feature",
   "properties": {
+    "addr:full":"6281 Carol Way Commerce City CO 80022",
+    "addr:housenumber":"6281",
+    "addr:postcode":"80022",
+    "addr:street":"Carol Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.914606,39.835248,-104.914606,39.835248",
     "geom:latitude":39.835248,
     "geom:longitude":-104.914606,
@@ -27,19 +32,36 @@
         "refrigerating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930259,
+        102084053,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5xsKSjxKTDEYzEMa4QBzKf_39.835248_-104.914606@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441018,
-    "wof:geomhash":"d534dfff5ee26e43cb3eca2d5ac0178d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6dbd99f5467e5f1455d125014dc20fb8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":823563129
+        }
+    ],
     "wof:id":823563129,
-    "wof:lastmodified":1466416229,
+    "wof:lastmodified":1492125040,
     "wof:name":"Mike's Refrigeration",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553481,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

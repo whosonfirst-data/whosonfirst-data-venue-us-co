@@ -2,9 +2,14 @@
   "id": 839989505,
   "type": "Feature",
   "properties": {
+    "addr:full":"5200 Manhattan Cir Boulder CO 80303",
+    "addr:housenumber":"5200",
+    "addr:postcode":"80303",
+    "addr:street":"Manhattan Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.228717,39.985524,-105.228717,39.985524",
     "geom:latitude":39.985524,
     "geom:longitude":-105.228717,
@@ -29,19 +34,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7HQpDC1qo37aZb2J3CNAsP_39.985524_-105.228717@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460795,
-    "wof:geomhash":"e0f06feaf1fda7ec0a1288964c192021",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d481ccc669858f95d661f889b5142890",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":839989505
+        }
+    ],
     "wof:id":839989505,
-    "wof:lastmodified":1466417322,
+    "wof:lastmodified":1492111061,
     "wof:name":"Subway",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

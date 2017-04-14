@@ -2,9 +2,14 @@
   "id": 823501565,
   "type": "Feature",
   "properties": {
+    "addr:full":"2669 Spruce St Boulder CO 80302",
+    "addr:housenumber":"2669",
+    "addr:postcode":"80302",
+    "addr:street":"Spruce St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260531,40.023009,-105.260531,40.023009",
     "geom:latitude":40.023009,
     "geom:longitude":-105.260531,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5tKKbWYSYWHEVqQ6V1e3qA_40.023009_-105.260531@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439610,
-    "wof:geomhash":"9a1a551c43df3383a20160134a4ee700",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a1e713fabf98b7b2ef310637826fd3f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":823501565
+        }
+    ],
     "wof:id":823501565,
-    "wof:lastmodified":1466414165,
+    "wof:lastmodified":1492125746,
     "wof:name":"Gregory A Norris DDS PC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

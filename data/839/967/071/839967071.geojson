@@ -2,9 +2,14 @@
   "id": 839967071,
   "type": "Feature",
   "properties": {
+    "addr:full":"419 Co Rd 141 Durango CO 81303",
+    "addr:housenumber":"419;141",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.92386,37.261715,-107.92386,37.261715",
     "geom:latitude":37.261715,
     "geom:longitude":-107.92386,
@@ -30,19 +35,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554609
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7jS6U8IxGNnyjToZozpzTF_37.261715_-107.923860@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459893,
-    "wof:geomhash":"5d4b735ef21df37b77da90017ec90559",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bc8bf68b4622f5473f2407641fbf9ad7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554609,
+            "venue_id":839967071
+        }
+    ],
     "wof:id":839967071,
-    "wof:lastmodified":1466415939,
+    "wof:lastmodified":1492112435,
     "wof:name":"Lloyd's Heating & Refrig",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554609,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

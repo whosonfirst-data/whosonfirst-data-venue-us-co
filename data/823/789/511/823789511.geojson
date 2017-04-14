@@ -2,9 +2,14 @@
   "id": 823789511,
   "type": "Feature",
   "properties": {
+    "addr:full":"409 Gunnison Ave Lake City CO 81235",
+    "addr:housenumber":"409",
+    "addr:postcode":"81235",
+    "addr:street":"Gunnison Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.314998,38.030786,-107.314998,38.030786",
     "geom:latitude":38.030786,
     "geom:longitude":-107.314998,
@@ -27,17 +32,32 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928739,
+        102085257
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0AiOXQxaB46eBoYeLLvAcJ_38.030786_-107.314998@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446412,
-    "wof:geomhash":"e61f27ebad822196b37a35407c921295",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6dfeb0f578291905c697e1f88eca814a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085257,
+            "locality_id":85928739,
+            "region_id":85688603,
+            "venue_id":823789511
+        }
+    ],
     "wof:id":823789511,
-    "wof:lastmodified":1466419234,
+    "wof:lastmodified":1492118109,
     "wof:name":"Twin Peaks",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

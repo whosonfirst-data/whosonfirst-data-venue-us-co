@@ -2,9 +2,14 @@
   "id": 823760897,
   "type": "Feature",
   "properties": {
+    "addr:full":"11802 Community Center Dr Northglenn CO 80233",
+    "addr:housenumber":"11802",
+    "addr:postcode":"80233",
+    "addr:street":"Community Center Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.986796,39.911339,-104.986796,39.911339",
     "geom:latitude":39.911339,
     "geom:longitude":-104.986796,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1xvPoANquOq7vk2PhLW7K2_39.911339_-104.986796@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445633,
-    "wof:geomhash":"20b8d9827f5f279b8dc21d2cb56beefe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"050a249d370c4c7be47603c4b990ec5e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":823760897
+        }
+    ],
     "wof:id":823760897,
-    "wof:lastmodified":1466419056,
+    "wof:lastmodified":1492119794,
     "wof:name":"Holly Ridge Baptist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

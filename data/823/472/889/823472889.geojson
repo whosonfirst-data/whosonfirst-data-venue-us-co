@@ -2,9 +2,14 @@
   "id": 823472889,
   "type": "Feature",
   "properties": {
+    "addr:full":"17921 Co Rd 25 Dolores CO 81323",
+    "addr:housenumber":"17921;25",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.574795,37.472442,-108.574795,37.472442",
     "geom:latitude":37.472442,
     "geom:longitude":-108.574795,
@@ -27,19 +32,28 @@
         "repair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555049
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2k6UWfRGG0mdvb9hYOjjIz_37.472442_-108.574795@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438894,
-    "wof:geomhash":"d427066bf4b332b804b9754a8b3e718a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8a44b6bd141016903592beeb565a1237",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555049,
+            "venue_id":823472889
+        }
+    ],
     "wof:id":823472889,
-    "wof:lastmodified":1466412630,
+    "wof:lastmodified":1492120306,
     "wof:name":"Frontier Computer Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555049,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

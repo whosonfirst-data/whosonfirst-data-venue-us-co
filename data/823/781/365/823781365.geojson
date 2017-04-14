@@ -2,9 +2,14 @@
   "id": 823781365,
   "type": "Feature",
   "properties": {
+    "addr:full":"2585 W 8th Ave Denver CO 80204",
+    "addr:housenumber":"2585",
+    "addr:postcode":"80204",
+    "addr:street":"W 8Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018142,39.729388,-105.018142,39.729388",
     "geom:latitude":39.729388,
     "geom:longitude":-105.018142,
@@ -27,7 +32,15 @@
         "tool"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5qzn6ULUwNp30qwXKC132z_39.729388_-105.018142@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463446125,
     "wof:geomhash":"ed4d114ebb19de443e3a47ecfe71f756",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":823781365
+        }
+    ],
     "wof:id":823781365,
-    "wof:lastmodified":1466419201,
+    "wof:lastmodified":1486589282,
     "wof:name":"Robert Bosch Tool Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824000141,
   "type": "Feature",
   "properties": {
+    "addr:full":"501 Malley Dr Northglenn CO 80233",
+    "addr:housenumber":"501",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979691,39.903086,-104.979691,39.903086",
     "geom:latitude":39.903086,
     "geom:longitude":-104.979691,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_18gl4qZ1CmVq0egjJkDYCC_39.903086_-104.979691@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451990,
-    "wof:geomhash":"574516914044f1739b74a1b317bd0166",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d91e9e8dd3523fff84d110ce01a321b0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":824000141
+        }
+    ],
     "wof:id":824000141,
-    "wof:lastmodified":1466411947,
+    "wof:lastmodified":1492131409,
     "wof:name":"Tunex Automotive Specialists",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

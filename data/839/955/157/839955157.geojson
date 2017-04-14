@@ -2,9 +2,14 @@
   "id": 839955157,
   "type": "Feature",
   "properties": {
+    "addr:full":"226 N Elm St Cortez CO 81321",
+    "addr:housenumber":"226",
+    "addr:postcode":"81321",
+    "addr:street":"N Elm St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.587805,37.351049,-108.587805,37.351049",
     "geom:latitude":37.351049,
     "geom:longitude":-108.587805,
@@ -27,19 +32,28 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Ezl4pJ3HaIQHAAT96iwfR_37.351049_-108.587805@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459397,
-    "wof:geomhash":"a91c4070b8f070a2dacbc741a9c84e95",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9a8c82bb384c2f523bfd0ba5f8eca713",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":839955157
+        }
+    ],
     "wof:id":839955157,
-    "wof:lastmodified":1466415382,
+    "wof:lastmodified":1492112074,
     "wof:name":"Mesa Applied Technologies",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

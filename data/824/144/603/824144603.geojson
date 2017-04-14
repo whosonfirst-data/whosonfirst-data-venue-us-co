@@ -2,9 +2,14 @@
   "id": 824144603,
   "type": "Feature",
   "properties": {
+    "addr:full":"375 Hillview Dr Grand Junction CO 81503",
+    "addr:housenumber":"375",
+    "addr:postcode":"81503",
+    "addr:street":"Hillview Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.617744,39.059528,-108.617744,39.059528",
     "geom:latitude":39.059528,
     "geom:longitude":-108.617744,
@@ -29,19 +34,36 @@
         "bed"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554779
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1NzHllA4Gz0nEHqo1nY9aF_39.059528_-108.617744@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455675,
-    "wof:geomhash":"ff259069c0ca21bdcaca432202d3385a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6670dd22c080b98eaeb0845b0a570e18",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554779,
+            "region_id":85688603,
+            "venue_id":824144603
+        }
+    ],
     "wof:id":824144603,
-    "wof:lastmodified":1466416618,
+    "wof:lastmodified":1492132299,
     "wof:name":"Los Altos Bed & Breakfast",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554779,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824047789,
   "type": "Feature",
   "properties": {
+    "addr:full":"3143 Nelson Rd Longmont CO 80503",
+    "addr:housenumber":"3143",
+    "addr:postcode":"80503",
+    "addr:street":"Nelson Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.280778,40.145148,-105.280778,40.145148",
     "geom:latitude":40.145148,
     "geom:longitude":-105.280778,
@@ -28,19 +33,28 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553967
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ctSZJizn2jH2uYVZkWofy_40.145148_-105.280778@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453111,
-    "wof:geomhash":"8411e75c3b1c795cfc0d954c0c47d643",
-    "wof:hierarchy":[],
+    "wof:geomhash":"caef89891d06b4fd890c3ed0fb244d72",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553967,
+            "venue_id":824047789
+        }
+    ],
     "wof:id":824047789,
-    "wof:lastmodified":1466414240,
+    "wof:lastmodified":1492130547,
     "wof:name":"L'Heureux Construction Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553967,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

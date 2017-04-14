@@ -2,9 +2,14 @@
   "id": 823707773,
   "type": "Feature",
   "properties": {
+    "addr:full":"3131 75th St Boulder CO 80301",
+    "addr:housenumber":"3131",
+    "addr:postcode":"80301",
+    "addr:street":"75Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.178538,40.029982,-105.178538,40.029982",
     "geom:latitude":40.029982,
     "geom:longitude":-105.178538,
@@ -29,19 +34,36 @@
     ],
     "sg:website":"www.lidlandscapes.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2sZTLef6dELTjfpyaS4XUR_40.029982_-105.178538@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444398,
-    "wof:geomhash":"d37ecca7bc394785cb71939640fc6582",
-    "wof:hierarchy":[],
+    "wof:geomhash":"01e87cf8125a23051ea1bd0ae6276620",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823707773
+        }
+    ],
     "wof:id":823707773,
-    "wof:lastmodified":1466418636,
+    "wof:lastmodified":1492121478,
     "wof:name":"LID Landscapes",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

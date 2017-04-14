@@ -2,9 +2,14 @@
   "id": 824141985,
   "type": "Feature",
   "properties": {
+    "addr:full":"33355 US Hwy 36 Watkins CO 80137",
+    "addr:housenumber":"",
+    "addr:postcode":"33355;80137",
+    "addr:street":"Us Hwy 36",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.598144,39.745206,-104.598144,39.745206",
     "geom:latitude":39.745206,
     "geom:longitude":-104.598144,
@@ -28,19 +33,36 @@
         "cocktail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553949
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7dkrYQ4vXSQcaEvelpXpVi_39.745206_-104.598144@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455580,
-    "wof:geomhash":"224e67e10d02dd5e9775da9c7175e8a4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ed0602193e2e5f957dcec4de0acb78fe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553949,
+            "region_id":85688603,
+            "venue_id":824141985
+        }
+    ],
     "wof:id":824141985,
-    "wof:lastmodified":1466416643,
+    "wof:lastmodified":1492131685,
     "wof:name":"Lulu's Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553949,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

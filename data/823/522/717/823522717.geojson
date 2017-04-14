@@ -2,9 +2,14 @@
   "id": 823522717,
   "type": "Feature",
   "properties": {
+    "addr:full":"4643 Burgundy Ln Boulder CO 80301",
+    "addr:housenumber":"4643",
+    "addr:postcode":"80301",
+    "addr:street":"Burgundy Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.208624,40.058822,-105.208624,40.058822",
     "geom:latitude":40.058822,
     "geom:longitude":-105.208624,
@@ -27,19 +32,36 @@
         "wear"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420553963
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0NvHtAbHZgy4wOqYion7Go_40.058822_-105.208624@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440084,
-    "wof:geomhash":"cbcb4fe85b5160b735b8e59c3beaecc9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6fe11c727305feb78511d90d5c6a73a7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420553963,
+            "region_id":85688603,
+            "venue_id":823522717
+        }
+    ],
     "wof:id":823522717,
-    "wof:lastmodified":1466414887,
+    "wof:lastmodified":1492122578,
     "wof:name":"Climb For Kids Foundation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553963,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

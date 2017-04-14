@@ -2,9 +2,14 @@
   "id": 839915823,
   "type": "Feature",
   "properties": {
+    "addr:full":"220 Co Rd 245 Durango CO 81301",
+    "addr:housenumber":"220;245",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.701756,37.340264,-107.701756,37.340264",
     "geom:latitude":37.340264,
     "geom:longitude":-107.701756,
@@ -28,19 +33,28 @@
         "horse"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554607
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2EyGe3EcItsKaq2hr06Zdc_37.340264_-107.701756@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457332,
-    "wof:geomhash":"2b607fcf69801761b97c95b2a1693cb8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a760e7e79bd3d13912f37bedeac1d489",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554607,
+            "venue_id":839915823
+        }
+    ],
     "wof:id":839915823,
-    "wof:lastmodified":1466413118,
+    "wof:lastmodified":1492113853,
     "wof:name":"Sunrise Performance Horses",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554607,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

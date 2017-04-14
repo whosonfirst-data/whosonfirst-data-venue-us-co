@@ -2,9 +2,14 @@
   "id": 824165353,
   "type": "Feature",
   "properties": {
+    "addr:full":"1940 W 64th Ave Denver CO 80221",
+    "addr:housenumber":"1940",
+    "addr:postcode":"80221",
+    "addr:street":"W 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.011246,39.812826,-105.011246,39.812826",
     "geom:latitude":39.812826,
     "geom:longitude":-105.011246,
@@ -36,19 +41,36 @@
         "air"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553793
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6wRPFoft9ag9jT78g3ksjp_39.812826_-105.011246@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456504,
-    "wof:geomhash":"c93321d2c518c4d24d6d476b2b2554d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"05d7fb89a41bb57122283c1ef1846616",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553793,
+            "region_id":85688603,
+            "venue_id":824165353
+        }
+    ],
     "wof:id":824165353,
-    "wof:lastmodified":1466417628,
+    "wof:lastmodified":1492129871,
     "wof:name":"Ovation Heating & Air Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553793,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

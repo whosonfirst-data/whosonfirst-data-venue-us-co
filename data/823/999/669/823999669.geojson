@@ -2,9 +2,14 @@
   "id": 823999669,
   "type": "Feature",
   "properties": {
+    "addr:full":"9373 Wigham St Denver CO 80229",
+    "addr:housenumber":"9373",
+    "addr:postcode":"80229",
+    "addr:street":"Wigham St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.953671,39.865736,-104.953671,39.865736",
     "geom:latitude":39.865736,
     "geom:longitude":-104.953671,
@@ -27,19 +32,36 @@
         "state"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0GxwgxT67nOi9VkjdQTXDr_39.865736_-104.953671@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451982,
-    "wof:geomhash":"da2a4f62ef02ffb886c1585df7e30dc7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0b093fa1e480439b024ad5e496ca6d5e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":823999669
+        }
+    ],
     "wof:id":823999669,
-    "wof:lastmodified":1466421086,
+    "wof:lastmodified":1492122813,
     "wof:name":"Members First Credit Union",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

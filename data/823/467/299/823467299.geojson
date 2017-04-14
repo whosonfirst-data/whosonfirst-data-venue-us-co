@@ -2,9 +2,14 @@
   "id": 823467299,
   "type": "Feature",
   "properties": {
+    "addr:full":"1602 S Broadway Cortez CO 81321",
+    "addr:housenumber":"1602",
+    "addr:postcode":"81321",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.603835,37.333675,-108.603835,37.333675",
     "geom:latitude":37.333675,
     "geom:longitude":-108.603835,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7QhOzO9iN6wdPI9zvqNcL5_37.333675_-108.603835@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438772,
-    "wof:geomhash":"aaf086ec6de7874a61db298abb54a492",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2bfd0b065e2a64c75ac60826763019bc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555063,
+            "region_id":85688603,
+            "venue_id":823467299
+        }
+    ],
     "wof:id":823467299,
-    "wof:lastmodified":1466412059,
+    "wof:lastmodified":1492117026,
     "wof:name":"Used Carz",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

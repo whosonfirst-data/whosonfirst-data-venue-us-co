@@ -2,9 +2,14 @@
   "id": 839990161,
   "type": "Feature",
   "properties": {
+    "addr:full":"126 S College Ave Fort Collins CO 80524",
+    "addr:housenumber":"126",
+    "addr:postcode":"80524",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076524,40.586351,-105.076524,40.586351",
     "geom:latitude":40.586351,
     "geom:longitude":-105.076524,
@@ -29,19 +34,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554751
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Qq5YRCthQPEsLWkDS4Nr1_40.586351_-105.076524@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460817,
-    "wof:geomhash":"f7aabc346350ca4b522c8649c0db7d8b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"edac2547ce12ecce553c1dbf28d731aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554751,
+            "region_id":85688603,
+            "venue_id":839990161
+        }
+    ],
     "wof:id":839990161,
-    "wof:lastmodified":1466417608,
+    "wof:lastmodified":1492110548,
     "wof:name":"Subway",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554751,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

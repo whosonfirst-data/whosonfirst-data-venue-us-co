@@ -2,9 +2,14 @@
   "id": 823911081,
   "type": "Feature",
   "properties": {
+    "addr:full":"7250 W 118th Pl Broomfield CO 80020",
+    "addr:housenumber":"7250",
+    "addr:postcode":"80020",
+    "addr:street":"W 118Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.077779,39.91034,-105.077779,39.91034",
     "geom:latitude":39.91034,
     "geom:longitude":-105.077779,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554221
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0LjhaUjz2jDvnATXMeLI3S_39.910340_-105.077779@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449771,
-    "wof:geomhash":"8616ccbc0a9e4b1b20bbefeb753b5b40",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3afa462f891cdf6d59d7a41d9171a0b4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554221,
+            "region_id":85688603,
+            "venue_id":823911081
+        }
+    ],
     "wof:id":823911081,
-    "wof:lastmodified":1466420276,
+    "wof:lastmodified":1492124026,
     "wof:name":"Greystone Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554221,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

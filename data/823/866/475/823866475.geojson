@@ -2,9 +2,14 @@
   "id": 823866475,
   "type": "Feature",
   "properties": {
+    "addr:full":"1540 Billings St Aurora CO 80011",
+    "addr:housenumber":"1540",
+    "addr:postcode":"80011",
+    "addr:street":"Billings St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.82461,39.741643,-104.82461,39.741643",
     "geom:latitude":39.741643,
     "geom:longitude":-104.82461,
@@ -34,19 +39,36 @@
         "site"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2jVZg1mjwNPHLazOXIhzPc_39.741643_-104.824610@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448662,
-    "wof:geomhash":"aeb00247492ca67790fa627aa60ae0ec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3e56705cd4026bb8c0cbc31d276c88ac",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":823866475
+        }
+    ],
     "wof:id":823866475,
-    "wof:lastmodified":1466419942,
+    "wof:lastmodified":1492118528,
     "wof:name":"Green Acres Mobile Home Park",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

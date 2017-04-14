@@ -2,9 +2,14 @@
   "id": 823557923,
   "type": "Feature",
   "properties": {
+    "addr:full":"12218 Yates Ct Broomfield CO 80020",
+    "addr:housenumber":"12218",
+    "addr:postcode":"80020",
+    "addr:street":"Yates Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052325,39.918595,-105.052325,39.918595",
     "geom:latitude":39.918595,
     "geom:longitude":-105.052325,
@@ -27,19 +32,36 @@
         "appraiser"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554247
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3kns8P3aeelof0m5l9djTu_39.918595_-105.052325@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440888,
-    "wof:geomhash":"4ddb5a3d6f9173928217614dbed46c59",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f76542275c16690f942015b889ad1465",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554247,
+            "region_id":85688603,
+            "venue_id":823557923
+        }
+    ],
     "wof:id":823557923,
-    "wof:lastmodified":1466416148,
+    "wof:lastmodified":1492124788,
     "wof:name":"Appraisal Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554247,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

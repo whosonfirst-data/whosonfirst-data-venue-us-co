@@ -2,9 +2,14 @@
   "id": 823587895,
   "type": "Feature",
   "properties": {
+    "addr:full":"5160 W 120th Ave Broomfield CO 80020",
+    "addr:housenumber":"5160",
+    "addr:postcode":"80020",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.04644,39.914059,-105.04644,39.914059",
     "geom:latitude":39.914059,
     "geom:longitude":-105.04644,
@@ -25,19 +30,36 @@
     "sg:province":"CO",
     "sg:website":"www.chipotle.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        85888285
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3SQJ3lvpfWlbbnOluwknwK_39.914059_-105.046440@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441598,
-    "wof:geomhash":"bd75af4f1eff0ba31eb158bcd02728b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9d63f4ca823c879cd275235a35ac780f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":85888285,
+            "region_id":85688603,
+            "venue_id":823587895
+        }
+    ],
     "wof:id":823587895,
-    "wof:lastmodified":1466416916,
+    "wof:lastmodified":1492126210,
     "wof:name":"Chipotle Mexican Grill",
-    "wof:parent_id":-1,
+    "wof:parent_id":85888285,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

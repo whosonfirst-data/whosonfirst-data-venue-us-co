@@ -2,9 +2,14 @@
   "id": 823819027,
   "type": "Feature",
   "properties": {
+    "addr:full":"133 Jay St Lakewood CO 80226",
+    "addr:housenumber":"133",
+    "addr:postcode":"80226",
+    "addr:street":"Jay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.065123,39.722354,-105.065123,39.722354",
     "geom:latitude":39.722354,
     "geom:longitude":-105.065123,
@@ -28,19 +33,36 @@
         "filing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2DvQD1rNcaQFnEFxYb8W5n_39.722354_-105.065123@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447259,
-    "wof:geomhash":"df4d6f31be2c96abb4b635630d8b6a2b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bbca7abf5335e265fcd667a8908fdcec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823819027
+        }
+    ],
     "wof:id":823819027,
-    "wof:lastmodified":1466419505,
+    "wof:lastmodified":1492116323,
     "wof:name":"Sunny Shepherd Tax",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

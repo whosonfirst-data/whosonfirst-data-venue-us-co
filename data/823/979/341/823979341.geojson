@@ -2,9 +2,14 @@
   "id": 823979341,
   "type": "Feature",
   "properties": {
+    "addr:full":"12180 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"12180;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.794666,37.450758,-107.794666,37.450758",
     "geom:latitude":37.450758,
     "geom:longitude":-107.794666,
@@ -24,19 +29,28 @@
     "sg:postcode":"81301",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554715
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5jtoD2o91ckIFy6dXdBftf_37.450758_-107.794666@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451464,
-    "wof:geomhash":"725f2fb4774dadb96c0b47e8486edb76",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5e7ceaa9bb0aa24f930e9159a0be0899",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554715,
+            "venue_id":823979341
+        }
+    ],
     "wof:id":823979341,
-    "wof:lastmodified":1466420874,
+    "wof:lastmodified":1492125364,
     "wof:name":"A & B Lines",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554715,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

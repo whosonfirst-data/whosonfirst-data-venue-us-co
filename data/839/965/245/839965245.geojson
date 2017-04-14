@@ -2,9 +2,14 @@
   "id": 839965245,
   "type": "Feature",
   "properties": {
+    "addr:full":"7255 Irving St Westminster CO 80030",
+    "addr:housenumber":"7255",
+    "addr:postcode":"80030",
+    "addr:street":"Irving St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.029687,39.828285,-105.029687,39.828285",
     "geom:latitude":39.828285,
     "geom:longitude":-105.029687,
@@ -28,19 +33,36 @@
         "appraiser"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553527
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1yZnX4dlDDz0XJPMY4OuNP_39.828285_-105.029687@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459822,
-    "wof:geomhash":"bb81f9f971d34b6d8aec0736e361ab57",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a3c6595b9b242fe0137a58cdb690b05",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553527,
+            "region_id":85688603,
+            "venue_id":839965245
+        }
+    ],
     "wof:id":839965245,
-    "wof:lastmodified":1466416033,
+    "wof:lastmodified":1492114202,
     "wof:name":"Rocky Mountain Damage Apprsrs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553527,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

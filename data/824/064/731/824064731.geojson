@@ -2,9 +2,14 @@
   "id": 824064731,
   "type": "Feature",
   "properties": {
+    "addr:full":"1011 N Mildred Rd Cortez CO 81321",
+    "addr:housenumber":"1011",
+    "addr:postcode":"81321",
+    "addr:street":"N Mildred Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572781,37.359387,-108.572781,37.359387",
     "geom:latitude":37.359387,
     "geom:longitude":-108.572781,
@@ -35,19 +40,28 @@
         "laboratory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4uT9yuMuDVVreV9t8MPSMM_37.359387_-108.572781@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453491,
-    "wof:geomhash":"3f2211980b08f842e80ebb1449766e52",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d79abb027b9d9c2a4a43ffd6e8a223b8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":824064731
+        }
+    ],
     "wof:id":824064731,
-    "wof:lastmodified":1466414525,
+    "wof:lastmodified":1492128177,
     "wof:name":"Four Corners Drug Testing Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

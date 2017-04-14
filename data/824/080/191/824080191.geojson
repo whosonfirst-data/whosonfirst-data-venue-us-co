@@ -2,9 +2,14 @@
   "id": 824080191,
   "type": "Feature",
   "properties": {
+    "addr:full":"1260 Rock Creek Cir Lafayette CO 80026",
+    "addr:housenumber":"1260",
+    "addr:postcode":"80026",
+    "addr:street":"Rock Creek Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.071878,39.973174,-105.071878,39.973174",
     "geom:latitude":39.973174,
     "geom:longitude":-105.071878,
@@ -30,19 +35,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251,
+        420554039,
+        420554193
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3P1TRs1LioPyegUpFFPdog_39.973174_-105.071878@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453856,
-    "wof:geomhash":"dff8848d6fb1ab8344444dd8a61745e1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7e481915cbb422603002b7ad7bf9d07b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "neighbourhood_id":420554039,
+            "region_id":85688603,
+            "venue_id":824080191
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "neighbourhood_id":420554193,
+            "region_id":85688603,
+            "venue_id":824080191
+        }
+    ],
     "wof:id":824080191,
-    "wof:lastmodified":1466414667,
+    "wof:lastmodified":1492130976,
     "wof:name":"Concrete Works of Colorado",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

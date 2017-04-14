@@ -2,9 +2,14 @@
   "id": 823983797,
   "type": "Feature",
   "properties": {
+    "addr:full":"6105 Benton St Arvada CO 80003",
+    "addr:housenumber":"6105",
+    "addr:postcode":"80003",
+    "addr:street":"Benton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.055763,39.808308,-105.055763,39.808308",
     "geom:latitude":39.808308,
     "geom:longitude":-105.055763,
@@ -28,19 +33,36 @@
         "locksmith"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554591
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2W7JtbInYTOIvP9z6ZjGsm_39.808308_-105.055763@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451582,
-    "wof:geomhash":"e896d1c291ef3e54e29fed7a8fcb4c72",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28a1ba03ab635d37935ee3b1b1ffdc02",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554591,
+            "region_id":85688603,
+            "venue_id":823983797
+        }
+    ],
     "wof:id":823983797,
-    "wof:lastmodified":1466420975,
+    "wof:lastmodified":1492116669,
     "wof:name":"Arvada West Lock & Key",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554591,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

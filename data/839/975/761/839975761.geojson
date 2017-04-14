@@ -2,9 +2,14 @@
   "id": 839975761,
   "type": "Feature",
   "properties": {
+    "addr:full":"11517 Marshall St Westminster CO 80020",
+    "addr:housenumber":"11517",
+    "addr:postcode":"80020",
+    "addr:street":"Marshall St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.068519,39.906278,-105.068519,39.906278",
     "geom:latitude":39.906278,
     "geom:longitude":-105.068519,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4FiZEAYay9qMpV3FoHpiSQ_39.906278_-105.068519@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460247,
-    "wof:geomhash":"17abfb3985b6f251836fcc87c46eb773",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5ff2f24be9894f2a7f1a6d2fafe7cfeb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":839975761
+        }
+    ],
     "wof:id":839975761,
-    "wof:lastmodified":1466416522,
+    "wof:lastmodified":1492113761,
     "wof:name":"Denver Controls Electrical",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

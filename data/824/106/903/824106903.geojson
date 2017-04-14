@@ -2,9 +2,14 @@
   "id": 824106903,
   "type": "Feature",
   "properties": {
+    "addr:full":"11068 Murray Dr Northglenn CO 80233",
+    "addr:housenumber":"11068",
+    "addr:postcode":"80233",
+    "addr:street":"Murray Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.967984,39.898644,-104.967984,39.898644",
     "geom:latitude":39.898644,
     "geom:longitude":-104.967984,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3gOTdD8LauDW8VYm0yDgwD_39.898644_-104.967984@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454483,
-    "wof:geomhash":"d58435af3e0377ae1708b2abd518224d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f6698aff15c92dda0cbfea78dc2a19da",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":824106903
+        }
+    ],
     "wof:id":824106903,
-    "wof:lastmodified":1466415174,
+    "wof:lastmodified":1492132386,
     "wof:name":"Vaughn Heating & Air Cond",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823627751,
   "type": "Feature",
   "properties": {
+    "addr:full":"240 S Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"240",
+    "addr:postcode":"80621",
+    "addr:street":"S Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810444,40.078489,-104.810444,40.078489",
     "geom:latitude":40.078489,
     "geom:longitude":-104.810444,
@@ -28,19 +33,28 @@
         "citizen"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0eo5gYauwK7at679C05PHN_40.078489_-104.810444@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442573,
-    "wof:geomhash":"23a49636debffdb2b60b2b147e8ee8ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"41d8d49cf3adc4ed06d257a163980057",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823627751
+        }
+    ],
     "wof:id":823627751,
-    "wof:lastmodified":1466417599,
+    "wof:lastmodified":1492118719,
     "wof:name":"Catholic Charities Northern",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

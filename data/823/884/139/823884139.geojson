@@ -2,9 +2,14 @@
   "id": 823884139,
   "type": "Feature",
   "properties": {
+    "addr:full":"5465 Harlan St Arvada CO 80002",
+    "addr:housenumber":"5465",
+    "addr:postcode":"80002",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062673,39.795919,-105.062673,39.795919",
     "geom:latitude":39.795919,
     "geom:longitude":-105.062673,
@@ -28,19 +33,34 @@
         "studio"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NQ4XujCeA3PE31T1Y692O_39.795919_-105.062673@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449062,
-    "wof:geomhash":"733516aec06eab12240760cfc9a023b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1ae93ae84ee5cb1826e14c34f4f27379",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823884139
+        }
+    ],
     "wof:id":823884139,
-    "wof:lastmodified":1466420020,
+    "wof:lastmodified":1492122464,
     "wof:name":"Colorado Scenery Entertainment",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

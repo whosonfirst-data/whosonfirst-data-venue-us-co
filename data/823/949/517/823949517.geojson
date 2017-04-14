@@ -2,9 +2,14 @@
   "id": 823949517,
   "type": "Feature",
   "properties": {
+    "addr:full":"6336 W 71st Pl Arvada CO 80003",
+    "addr:housenumber":"6336",
+    "addr:postcode":"80003",
+    "addr:street":"W 71St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067342,39.826494,-105.067342,39.826494",
     "geom:latitude":39.826494,
     "geom:longitude":-105.067342,
@@ -27,19 +32,47 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554587,
+        85929351,
+        85888253
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0aZpeXnRubOfHldqQ3nPLC_39.826494_-105.067342@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450768,
-    "wof:geomhash":"3d0f211d3ce173e3b47518ea24cce48d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58a362e0565362030141e9c0856e6fdb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554587,
+            "region_id":85688603,
+            "venue_id":823949517
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":85888253,
+            "region_id":85688603,
+            "venue_id":823949517
+        }
+    ],
     "wof:id":823949517,
-    "wof:lastmodified":1466420697,
+    "wof:lastmodified":1492119740,
     "wof:name":"Crespin Mechanical Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823673389,
   "type": "Feature",
   "properties": {
+    "addr:full":"608 Pacific Ave Fort Lupton CO 80621",
+    "addr:housenumber":"608",
+    "addr:postcode":"80621",
+    "addr:street":"Pacific Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.807512,40.085269,-104.807512,40.085269",
     "geom:latitude":40.085269,
     "geom:longitude":-104.807512,
@@ -27,19 +32,28 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3FmaJSvQeiDROmzJiDu5oZ_40.085269_-104.807512@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443654,
-    "wof:geomhash":"159f5a8d6f58f084502a32ec37c77c5c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2acf1e5916a67f3ea676d5dd1e996b3a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823673389
+        }
+    ],
     "wof:id":823673389,
-    "wof:lastmodified":1466418394,
+    "wof:lastmodified":1492122061,
     "wof:name":"Martys Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823575243,
   "type": "Feature",
   "properties": {
+    "addr:full":"12490 Jason Ct Denver CO 80234",
+    "addr:housenumber":"12490",
+    "addr:postcode":"80234",
+    "addr:street":"Jason Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.999196,39.925007,-104.999196,39.925007",
     "geom:latitude":39.925007,
     "geom:longitude":-104.999196,
@@ -24,19 +29,36 @@
     "sg:postcode":"80234",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4XU13qUirfRyW4vOf6L48L_39.925007_-104.999196@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441311,
-    "wof:geomhash":"7bad487ace0b7dd4da8db6534ded4720",
-    "wof:hierarchy":[],
+    "wof:geomhash":"365aa03559df5108e9f44230e5f5b3ee",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823575243
+        }
+    ],
     "wof:id":823575243,
-    "wof:lastmodified":1466416446,
+    "wof:lastmodified":1492116402,
     "wof:name":"Brent A Worthington",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

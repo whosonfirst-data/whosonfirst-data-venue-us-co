@@ -2,9 +2,14 @@
   "id": 823582237,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 W Main St Sterling CO 80751",
+    "addr:housenumber":"100",
+    "addr:postcode":"80751",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.212065,40.625423,-103.212065,40.625423",
     "geom:latitude":40.625423,
     "geom:longitude":-103.212065,
@@ -29,17 +34,32 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929371,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0c2MIuCxelxI3ucBwmwj8K_40.625423_-103.212065@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441471,
-    "wof:geomhash":"8096db68846c9e4af8f9a9bf1986ea43",
-    "wof:hierarchy":[],
+    "wof:geomhash":"55ddf2671345f9a58fd04dcf539be75a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929371,
+            "region_id":85688603,
+            "venue_id":823582237
+        }
+    ],
     "wof:id":823582237,
-    "wof:lastmodified":1466416564,
+    "wof:lastmodified":1492124155,
     "wof:name":"Muffler Shop",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

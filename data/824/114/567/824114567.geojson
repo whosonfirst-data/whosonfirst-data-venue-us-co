@@ -2,9 +2,14 @@
   "id": 824114567,
   "type": "Feature",
   "properties": {
+    "addr:full":"2657 Hwy 50 Grand Junction CO 81503",
+    "addr:housenumber":"2657",
+    "addr:postcode":"81503",
+    "addr:street":"Hwy 50",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.558594,39.045225,-108.558594,39.045225",
     "geom:latitude":39.045225,
     "geom:longitude":-108.558594,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420555011
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1AO2A0CIIL04ZkUDJYuikU_39.045225_-108.558594@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454649,
-    "wof:geomhash":"103d195645c8f73fc227859e5c0bfd03",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d93295e6a584309ad2fc778b36b88c44",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555011,
+            "region_id":85688603,
+            "venue_id":824114567
+        }
+    ],
     "wof:id":824114567,
-    "wof:lastmodified":1466415316,
+    "wof:lastmodified":1492132651,
     "wof:name":"Hart's Auto Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555011,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

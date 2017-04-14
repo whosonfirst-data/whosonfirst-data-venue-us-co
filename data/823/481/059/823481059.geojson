@@ -2,9 +2,14 @@
   "id": 823481059,
   "type": "Feature",
   "properties": {
+    "addr:full":"514 N Chestnut St Cortez CO 81321",
+    "addr:housenumber":"514",
+    "addr:postcode":"81321",
+    "addr:street":"N Chestnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586566,37.354862,-108.586566,37.354862",
     "geom:latitude":37.354862,
     "geom:longitude":-108.586566,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6prqFxcsdtTXpxL3m9ItXH_37.354862_-108.586566@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439100,
-    "wof:geomhash":"4ebce520e73418f8c092f9bf013536ff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"157ab1b547a925f5889eac106140d579",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823481059
+        }
+    ],
     "wof:id":823481059,
-    "wof:lastmodified":1466413462,
+    "wof:lastmodified":1492120353,
     "wof:name":"Church Of The Nazarene",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

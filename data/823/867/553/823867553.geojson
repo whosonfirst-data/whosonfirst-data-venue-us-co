@@ -2,9 +2,14 @@
   "id": 823867553,
   "type": "Feature",
   "properties": {
+    "addr:full":"255 N Broadway Cortez CO 81321",
+    "addr:housenumber":"255",
+    "addr:postcode":"81321",
+    "addr:street":"N Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590688,37.352466,-108.590688,37.352466",
     "geom:latitude":37.352466,
     "geom:longitude":-108.590688,
@@ -27,19 +32,28 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4XjGd5RmYl9FMN2TaKcZKw_37.352466_-108.590688@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448682,
-    "wof:geomhash":"be6266935786bcc8b46f8b0f3f028bc6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"090383a5ec48f83e035a96f11af260b1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":823867553
+        }
+    ],
     "wof:id":823867553,
-    "wof:lastmodified":1466420049,
+    "wof:lastmodified":1492123620,
     "wof:name":"Sonny's Appliance Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

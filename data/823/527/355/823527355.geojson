@@ -2,9 +2,14 @@
   "id": 823527355,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 E Drake Rd Fort Collins CO 80525",
+    "addr:housenumber":"123",
+    "addr:postcode":"80525",
+    "addr:street":"E Drake Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.075572,40.552493,-105.075572,40.552493",
     "geom:latitude":40.552493,
     "geom:longitude":-105.075572,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554753
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2jcdemYYYEpsgMJatAVglG_40.552493_-105.075572@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440200,
-    "wof:geomhash":"3f5a73bce14d8662d35e121c89928f1b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f31ba5a2134f236d58accc2142f30c42",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554753,
+            "region_id":85688603,
+            "venue_id":823527355
+        }
+    ],
     "wof:id":823527355,
-    "wof:lastmodified":1466415083,
+    "wof:lastmodified":1492120409,
     "wof:name":"Eckankar Colorado Satsang Soc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554753,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

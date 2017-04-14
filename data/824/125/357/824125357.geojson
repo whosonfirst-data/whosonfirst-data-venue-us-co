@@ -2,9 +2,14 @@
   "id": 824125357,
   "type": "Feature",
   "properties": {
+    "addr:full":"1862 Co Rd 223 Durango CO 81301",
+    "addr:housenumber":"1862;223",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.743065,37.24208,-107.743065,37.24208",
     "geom:latitude":37.24208,
     "geom:longitude":-107.743065,
@@ -29,19 +34,28 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_788qNmiWJ2q7UWkjG43Msd_37.242080_-107.743065@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454948,
-    "wof:geomhash":"2351c976e6eed3bdd5a45a78d7f95ea8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7c85aea35b96f8ad7d2cbe69f34c915c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824125357
+        }
+    ],
     "wof:id":824125357,
-    "wof:lastmodified":1466415887,
+    "wof:lastmodified":1492132723,
     "wof:name":"American Tel-Com Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

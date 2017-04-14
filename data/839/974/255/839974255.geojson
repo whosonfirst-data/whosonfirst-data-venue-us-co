@@ -2,9 +2,14 @@
   "id": 839974255,
   "type": "Feature",
   "properties": {
+    "addr:full":"405 Ridges Blvd Grand Junction CO 81503",
+    "addr:housenumber":"405",
+    "addr:postcode":"81503",
+    "addr:street":"Ridges Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.604175,39.06599,-108.604175,39.06599",
     "geom:latitude":39.06599,
     "geom:longitude":-108.604175,
@@ -32,19 +37,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554807
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_21MABDltSBa50zgN9AeukP_39.065990_-108.604175@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460186,
-    "wof:geomhash":"02d5afd36044b548caeec9b25ba50252",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3cc3cf76d7e416b819c07d49762924ac",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554807,
+            "region_id":85688603,
+            "venue_id":839974255
+        }
+    ],
     "wof:id":839974255,
-    "wof:lastmodified":1466416722,
+    "wof:lastmodified":1492110918,
     "wof:name":"Rolland Engineering",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554807,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

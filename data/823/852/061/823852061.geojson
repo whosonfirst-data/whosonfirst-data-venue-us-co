@@ -2,9 +2,14 @@
   "id": 823852061,
   "type": "Feature",
   "properties": {
+    "addr:full":"9096 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"9096;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.814204,37.406422,-107.814204,37.406422",
     "geom:latitude":37.406422,
     "geom:longitude":-107.814204,
@@ -27,19 +32,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554631,
+        420554665
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_44FHdBYHspN20vxaKqNcXS_37.406422_-107.814204@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448276,
-    "wof:geomhash":"b732890c8690fc1660de6c0ed6274af4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1b1fd9e4a0ba9895c1774ef3fb298fec",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554631,
+            "venue_id":823852061
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554665,
+            "venue_id":823852061
+        }
+    ],
     "wof:id":823852061,
-    "wof:lastmodified":1466419785,
+    "wof:lastmodified":1492126663,
     "wof:name":"Mark Devaux Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

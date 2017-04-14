@@ -2,9 +2,14 @@
   "id": 839956769,
   "type": "Feature",
   "properties": {
+    "addr:full":"3273 E 102nd Dr Denver CO 80229",
+    "addr:housenumber":"3273",
+    "addr:postcode":"80229",
+    "addr:street":"E 102Nd Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.94736,39.881773,-104.94736,39.881773",
     "geom:latitude":39.881773,
     "geom:longitude":-104.94736,
@@ -27,19 +32,36 @@
         "industrial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ajfANIY07kv9m7CWHjMSV_39.881773_-104.947360@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459491,
-    "wof:geomhash":"f2e7eb765d650e9a54bea128f2af7ef7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a32f4ffaa194f698507eb564cb94273e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553689,
+            "region_id":85688603,
+            "venue_id":839956769
+        }
+    ],
     "wof:id":839956769,
-    "wof:lastmodified":1466415549,
+    "wof:lastmodified":1492111806,
     "wof:name":"Intelltech Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

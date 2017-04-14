@@ -2,9 +2,14 @@
   "id": 823748101,
   "type": "Feature",
   "properties": {
+    "addr:full":"9455 Boston Ct Henderson CO 80640",
+    "addr:housenumber":"9455",
+    "addr:postcode":"80640",
+    "addr:street":"Boston Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.87905,39.869341,-104.87905,39.869341",
     "geom:latitude":39.869341,
     "geom:longitude":-104.87905,
@@ -34,19 +39,28 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553497
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1HvR7owxWAtBLJSkHDaptU_39.869341_-104.879050@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445330,
-    "wof:geomhash":"f9a6f6e41a9d20eef637b91c048f502f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"50d9765668b96d51425b38c5567b1b02",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553497,
+            "venue_id":823748101
+        }
+    ],
     "wof:id":823748101,
-    "wof:lastmodified":1466418872,
+    "wof:lastmodified":1492125074,
     "wof:name":"Precast Concepts LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553497,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

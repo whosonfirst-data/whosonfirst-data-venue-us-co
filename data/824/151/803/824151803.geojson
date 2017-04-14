@@ -2,9 +2,14 @@
   "id": 824151803,
   "type": "Feature",
   "properties": {
+    "addr:full":"300 Iris Dr Sterling CO 80751",
+    "addr:housenumber":"300",
+    "addr:postcode":"80751",
+    "addr:street":"Iris Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.21521,40.610769,-103.21521,40.610769",
     "geom:latitude":40.610769,
     "geom:longitude":-103.21521,
@@ -28,17 +33,32 @@
         "lessor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929371,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6NVpEnE6fHYNL4pSUPlYdn_40.610769_-103.215210@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455977,
-    "wof:geomhash":"ff7f6737f94399bcf0185b9a0e21048a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9cfbdef3d73d7c6412c55f46a814236c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929371,
+            "region_id":85688603,
+            "venue_id":824151803
+        }
+    ],
     "wof:id":824151803,
-    "wof:lastmodified":1466416887,
+    "wof:lastmodified":1492129163,
     "wof:name":"Property Doctor",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823963949,
   "type": "Feature",
   "properties": {
+    "addr:full":"1001 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"1001",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.970611,39.913847,-104.970611,39.913847",
     "geom:latitude":39.913847,
     "geom:longitude":-104.970611,
@@ -28,19 +33,36 @@
         "brokerage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Q1BZzTXf0DcszAQAZIjtC_39.913847_-104.970611@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451114,
-    "wof:geomhash":"d3087e93b852aecd0e75dd443e3fc7a4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"64a785fc7b2bffb0d14843c0e7118ba8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553877,
+            "region_id":85688603,
+            "venue_id":823963949
+        }
+    ],
     "wof:id":823963949,
-    "wof:lastmodified":1466420828,
+    "wof:lastmodified":1492119842,
     "wof:name":"E Trade Financial Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553877,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823515031,
   "type": "Feature",
   "properties": {
+    "addr:full":"1732 E 66th Ave Denver CO 80229",
+    "addr:housenumber":"1732",
+    "addr:postcode":"80229",
+    "addr:street":"E 66Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961988,39.816266,-104.961988,39.816266",
     "geom:latitude":39.816266,
     "geom:longitude":-104.961988,
@@ -27,19 +32,36 @@
         "retail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553699
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4zMXtXS6rZH5ZlRPz1Cmhl_39.816266_-104.961988@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439910,
-    "wof:geomhash":"f045c1bf2cfba3fc42372cd140fc9e6e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2cf6e635a93575f9c8cac6c666122084",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553699,
+            "region_id":85688603,
+            "venue_id":823515031
+        }
+    ],
     "wof:id":823515031,
-    "wof:lastmodified":1466414707,
+    "wof:lastmodified":1492122676,
     "wof:name":"TNT Millwork Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553699,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

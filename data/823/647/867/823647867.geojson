@@ -2,9 +2,14 @@
   "id": 823647867,
   "type": "Feature",
   "properties": {
+    "addr:full":"4200 W 23rd Ave Denver CO 80212",
+    "addr:housenumber":"4200",
+    "addr:postcode":"80212",
+    "addr:street":"W 23Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042832,39.751184,-105.042832,39.751184",
     "geom:latitude":39.751184,
     "geom:longitude":-105.042832,
@@ -28,19 +33,38 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Q6rj5uolxVbqrcCjY8vLU_39.751184_-105.042832@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443035,
-    "wof:geomhash":"be65fc74116a8f13e0d63860d21fe3a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a0256030ec0b5f9335b0bc2a5956a5f9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":823647867
+        }
+    ],
     "wof:id":823647867,
-    "wof:lastmodified":1466418090,
+    "wof:lastmodified":1492121124,
     "wof:name":"PM HI Tech",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

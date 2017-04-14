@@ -2,9 +2,14 @@
   "id": 823532339,
   "type": "Feature",
   "properties": {
+    "addr:full":"7758 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"7758;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.842516,37.408438,-107.842516,37.408438",
     "geom:latitude":37.408438,
     "geom:longitude":-107.842516,
@@ -28,19 +33,28 @@
     ],
     "sg:website":"www.appleorchardinn.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5LnVBkxLEVDJSjC5JBnCXD_37.408438_-107.842516@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440297,
-    "wof:geomhash":"d4d971637d889e5e29f94f986a0b8f88",
-    "wof:hierarchy":[],
+    "wof:geomhash":"def02c02293dc8a2365532bbdf1518f1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554631,
+            "venue_id":823532339
+        }
+    ],
     "wof:id":823532339,
-    "wof:lastmodified":1466415348,
+    "wof:lastmodified":1492122837,
     "wof:name":"Apple Orchard Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

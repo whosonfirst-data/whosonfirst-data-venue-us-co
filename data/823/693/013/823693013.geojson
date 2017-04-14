@@ -2,9 +2,14 @@
   "id": 823693013,
   "type": "Feature",
   "properties": {
+    "addr:full":"2201 Federal Blvd Denver CO 80211",
+    "addr:housenumber":"2201",
+    "addr:postcode":"80211",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025229,39.750726,-105.025229,39.750726",
     "geom:latitude":39.750726,
     "geom:longitude":-105.025229,
@@ -29,19 +34,38 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420781637,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5UCS6k2r25pTLapCcPVBWx_39.750726_-105.025229@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444084,
-    "wof:geomhash":"18a9dee9c1e4787e031a33f24fecafce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1cd6e50c0b88d775908016fd60f2154f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420781637,
+            "region_id":85688603,
+            "venue_id":823693013
+        }
+    ],
     "wof:id":823693013,
-    "wof:lastmodified":1466418462,
+    "wof:lastmodified":1492117871,
     "wof:name":"Denver Fire Dept Federal Cr Un",
-    "wof:parent_id":-1,
+    "wof:parent_id":420781637,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

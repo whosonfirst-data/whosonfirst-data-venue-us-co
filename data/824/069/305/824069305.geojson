@@ -2,9 +2,14 @@
   "id": 824069305,
   "type": "Feature",
   "properties": {
+    "addr:full":"12085 Delaware St Denver CO 80234",
+    "addr:housenumber":"12085",
+    "addr:postcode":"80234",
+    "addr:street":"Delaware St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.9927,39.915692,-104.9927,39.915692",
     "geom:latitude":39.915692,
     "geom:longitude":-104.9927,
@@ -27,19 +32,36 @@
         "operation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6NWY0AcBqSslS0rHpOlR0W_39.915692_-104.992700@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453593,
-    "wof:geomhash":"137a1f1ad5929338f33fd282cd59a785",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b1c9a7c7bd568d245b2c3f0d95c232d7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":824069305
+        }
+    ],
     "wof:id":824069305,
-    "wof:lastmodified":1466414566,
+    "wof:lastmodified":1492130802,
     "wof:name":"Comfort Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

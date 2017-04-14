@@ -2,9 +2,14 @@
   "id": 823483903,
   "type": "Feature",
   "properties": {
+    "addr:full":"3777 W 76th Ave Westminster CO 80030",
+    "addr:housenumber":"3777",
+    "addr:postcode":"80030",
+    "addr:street":"W 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.036889,39.834604,-105.036889,39.834604",
     "geom:latitude":39.834604,
     "geom:longitude":-105.036889,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553531
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0TYRKhmFHBYvPUL8jSuGJ3_39.834604_-105.036889@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439164,
-    "wof:geomhash":"49288c8939d05c2f8909d75c3177e9a6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c22e93302d9da74ae29e04094fbbdd11",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553531,
+            "region_id":85688603,
+            "venue_id":823483903
+        }
+    ],
     "wof:id":823483903,
-    "wof:lastmodified":1466413592,
+    "wof:lastmodified":1492125692,
     "wof:name":"Alarm Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553531,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839958609,
   "type": "Feature",
   "properties": {
+    "addr:full":"12380 York St Denver CO 80241",
+    "addr:housenumber":"12380",
+    "addr:postcode":"80241",
+    "addr:street":"York St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.958788,39.921108,-104.958788,39.921108",
     "geom:latitude":39.921108,
     "geom:longitude":-104.958788,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6DeHnCbE18Zzq9gXkivGoE_39.921108_-104.958788@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459561,
-    "wof:geomhash":"fc535ffc4f16bf15e35494756137523a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d35cb21a3d566ae8986f9b3ecc7c903",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":839958609
+        }
+    ],
     "wof:id":839958609,
-    "wof:lastmodified":1466415794,
+    "wof:lastmodified":1492113237,
     "wof:name":"Robert Straub",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839986955,
   "type": "Feature",
   "properties": {
+    "addr:full":"7347 Federal Blvd Westminster CO 80030",
+    "addr:housenumber":"7347",
+    "addr:postcode":"80030",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025487,39.829733,-105.025487,39.829733",
     "geom:latitude":39.829733,
     "geom:longitude":-105.025487,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1DHX8B6G9aV9hndBHtLuHZ_39.829733_-105.025487@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460694,
-    "wof:geomhash":"17604024eab2d15d56ca66ebbd5b80da",
-    "wof:hierarchy":[],
+    "wof:geomhash":"62e00621a1e03850e1cc4c6c824e0994",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":839986955
+        }
+    ],
     "wof:id":839986955,
-    "wof:lastmodified":1466417340,
+    "wof:lastmodified":1492111364,
     "wof:name":"Starbucks Coffee",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

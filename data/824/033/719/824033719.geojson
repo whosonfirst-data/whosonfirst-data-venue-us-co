@@ -2,9 +2,14 @@
   "id": 824033719,
   "type": "Feature",
   "properties": {
+    "addr:full":"1653 Co Rd 213 Durango CO 81303",
+    "addr:housenumber":"1653;213",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.88138,37.066187,-107.88138,37.066187",
     "geom:latitude":37.066187,
     "geom:longitude":-107.88138,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554651
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5VtbAwYUEPZvQQvFeQclfo_37.066187_-107.881380@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452753,
-    "wof:geomhash":"0447b438afb47dd5676de7feadccf978",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0c25d0dc4b0d159bc659d8ab7d09d94",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554651,
+            "venue_id":824033719
+        }
+    ],
     "wof:id":824033719,
-    "wof:lastmodified":1466413913,
+    "wof:lastmodified":1492133143,
     "wof:name":"Interior Trim Specialist",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554651,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823795421,
   "type": "Feature",
   "properties": {
+    "addr:full":"11589 Birch Dr Denver CO 80233",
+    "addr:housenumber":"11589",
+    "addr:postcode":"80233",
+    "addr:street":"Birch Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.933612,39.90625,-104.933612,39.90625",
     "geom:latitude":39.90625,
     "geom:longitude":-104.933612,
@@ -27,19 +32,36 @@
         "spice"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553907
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0u1n0YUUNbQpt5X4jsx6dU_39.906250_-104.933612@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446587,
-    "wof:geomhash":"0f515a9dadf3f1b749f93180ab70b6e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e42521bdabcda00c797ecd92bf9fdd17",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":823795421
+        }
+    ],
     "wof:id":823795421,
-    "wof:lastmodified":1466419291,
+    "wof:lastmodified":1492120446,
     "wof:name":"Watkins Products",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553907,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

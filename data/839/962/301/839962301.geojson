@@ -2,9 +2,14 @@
   "id": 839962301,
   "type": "Feature",
   "properties": {
+    "addr:full":"3165 E Fountain Blvd Colorado Springs CO 80910",
+    "addr:housenumber":"3165",
+    "addr:postcode":"80910",
+    "addr:street":"E Fountain Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.766304,38.815158,-104.766304,38.815158",
     "geom:latitude":38.815158,
     "geom:longitude":-104.766304,
@@ -33,6 +38,7 @@
         85633793,
         85929457,
         102086875,
+        420554341,
         85872749
     ],
     "wof:breaches":[],
@@ -41,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463459696,
-    "wof:geomhash":"034c0b63d48354c422c3bd245eca8865",
+    "wof:geomhash":"83d4d59ea6dee87f201199de84ed67ee",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":839962301
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,9 +69,9 @@
         }
     ],
     "wof:id":839962301,
-    "wof:lastmodified":1466415849,
+    "wof:lastmodified":1492112208,
     "wof:name":"Fountain Garden Apartments",
-    "wof:parent_id":85872749,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

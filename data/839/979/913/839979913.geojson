@@ -2,9 +2,14 @@
   "id": 839979913,
   "type": "Feature",
   "properties": {
+    "addr:full":"441 Wadsworth Blvd Lakewood CO 80226",
+    "addr:housenumber":"441",
+    "addr:postcode":"80226",
+    "addr:street":"Wadsworth Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.082357,39.722883,-105.082357,39.722883",
     "geom:latitude":39.722883,
     "geom:longitude":-105.082357,
@@ -29,19 +34,36 @@
         "mortgage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0nbaNBF12uPgeW39jPDtyf_39.723191_-105.081583@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460419,
-    "wof:geomhash":"cd19c942d68b003fd763badb6bc5df41",
-    "wof:hierarchy":[],
+    "wof:geomhash":"553ee1a3a5e31ca6c74366fc35e80bf8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":839979913
+        }
+    ],
     "wof:id":839979913,
-    "wof:lastmodified":1466416987,
+    "wof:lastmodified":1492113623,
     "wof:name":"J & L Mortgage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

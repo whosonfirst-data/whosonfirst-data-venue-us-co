@@ -2,9 +2,14 @@
   "id": 823564439,
   "type": "Feature",
   "properties": {
+    "addr:full":"1360 W 120th Ave Denver CO 80234",
+    "addr:housenumber":"1360",
+    "addr:postcode":"80234",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005094,39.91377,-105.005094,39.91377",
     "geom:latitude":39.91377,
     "geom:longitude":-105.005094,
@@ -27,19 +32,36 @@
         "tattooing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1JmrDr61tvl89Jq7xcSHiV_39.913770_-105.005094@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441051,
-    "wof:geomhash":"626154d290fd5034019bb480be1c58bc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"70c6da2086deef663f5134647702270f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":823564439
+        }
+    ],
     "wof:id":823564439,
-    "wof:lastmodified":1466416264,
+    "wof:lastmodified":1492123067,
     "wof:name":"Smoky Banana Tattoo",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

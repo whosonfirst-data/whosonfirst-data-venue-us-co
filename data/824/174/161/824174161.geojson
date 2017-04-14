@@ -2,9 +2,14 @@
   "id": 824174161,
   "type": "Feature",
   "properties": {
+    "addr:full":"8850 Elm Ct Denver CO 80260",
+    "addr:housenumber":"8850",
+    "addr:postcode":"80260",
+    "addr:street":"Elm Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.022535,39.856903,-105.022535,39.856903",
     "geom:latitude":39.856903,
     "geom:longitude":-105.022535,
@@ -30,19 +35,36 @@
         "floor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553875
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6XdOllpLwXgUYMekU5Snh2_39.856903_-105.022535@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456845,
-    "wof:geomhash":"1ac74fe0f0b5c0e532e63c8b628d0dec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1328fcfd594cd4544656d5dc36ee2ff6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553875,
+            "region_id":85688603,
+            "venue_id":824174161
+        }
+    ],
     "wof:id":824174161,
-    "wof:lastmodified":1466418054,
+    "wof:lastmodified":1492133218,
     "wof:name":"Colorado Custom Hardwood Floor",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553875,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

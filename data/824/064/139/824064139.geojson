@@ -2,9 +2,14 @@
   "id": 824064139,
   "type": "Feature",
   "properties": {
+    "addr:full":"6078 W 55th Ave Arvada CO 80002",
+    "addr:housenumber":"6078",
+    "addr:postcode":"80002",
+    "addr:street":"W 55Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066161,39.796405,-105.066161,39.796405",
     "geom:latitude":39.796405,
     "geom:longitude":-105.066161,
@@ -29,19 +34,34 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2cU8zu7ThIYNgDnyu8i3F8_39.796405_-105.066161@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453477,
-    "wof:geomhash":"5dad62a40b771f0aa9b4a87e73184859",
-    "wof:hierarchy":[],
+    "wof:geomhash":"01957a09b43f46bdaf071c9b303f6253",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824064139
+        }
+    ],
     "wof:id":824064139,
-    "wof:lastmodified":1466414499,
+    "wof:lastmodified":1492128176,
     "wof:name":"Stone Leaf Pottery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

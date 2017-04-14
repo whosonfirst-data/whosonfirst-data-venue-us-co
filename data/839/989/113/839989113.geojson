@@ -2,9 +2,14 @@
   "id": 839989113,
   "type": "Feature",
   "properties": {
+    "addr:full":"10280 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"10280",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024524,39.883171,-105.024524,39.883171",
     "geom:latitude":39.883171,
     "geom:longitude":-105.024524,
@@ -32,19 +37,36 @@
         "salad"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553747
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4xpg02AMoJK8Hd8YTowDDX_39.883171_-105.024524@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460777,
-    "wof:geomhash":"81e9b6d9d57fffb3e1991ce8667195e1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a74f14f326c409e36200c114d54f3a63",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553747,
+            "region_id":85688603,
+            "venue_id":839989113
+        }
+    ],
     "wof:id":839989113,
-    "wof:lastmodified":1466417299,
+    "wof:lastmodified":1492111074,
     "wof:name":"Chick-fil-A",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553747,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

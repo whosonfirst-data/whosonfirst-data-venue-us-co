@@ -2,9 +2,14 @@
   "id": 839958735,
   "type": "Feature",
   "properties": {
+    "addr:full":"2040 W 104th Ave Northglenn CO 80234",
+    "addr:housenumber":"2040",
+    "addr:postcode":"80234",
+    "addr:street":"W 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.008398,39.885054,-105.008398,39.885054",
     "geom:latitude":39.885054,
     "geom:longitude":-105.008398,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7HamQVzSohwb8TDcP4iD1Y_39.885054_-105.008398@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459565,
-    "wof:geomhash":"29b9441a475336e66b9c5f1af3c28c11",
-    "wof:hierarchy":[],
+    "wof:geomhash":"da73bf85378798c3cf04b20ae5bd5797",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":839958735
+        }
+    ],
     "wof:id":839958735,
-    "wof:lastmodified":1466415720,
+    "wof:lastmodified":1492113235,
     "wof:name":"Skyline Automotive Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

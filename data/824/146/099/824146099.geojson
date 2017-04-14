@@ -2,9 +2,14 @@
   "id": 824146099,
   "type": "Feature",
   "properties": {
+    "addr:full":"571 Co Rd 234 Durango CO 81301",
+    "addr:housenumber":"571;234",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.795858,37.243881,-107.795858,37.243881",
     "geom:latitude":37.243881,
     "geom:longitude":-107.795858,
@@ -28,19 +33,28 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554707
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2tcrgUyxWjy1o2t2uLhqSP_37.243881_-107.795858@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455744,
-    "wof:geomhash":"ba02b16e515603ac1c67882a9ecd00ff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4927e7e8eeacc9147a2c1d920a212b64",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554707,
+            "venue_id":824146099
+        }
+    ],
     "wof:id":824146099,
-    "wof:lastmodified":1466416398,
+    "wof:lastmodified":1492128032,
     "wof:name":"Grand Prix Audio",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554707,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

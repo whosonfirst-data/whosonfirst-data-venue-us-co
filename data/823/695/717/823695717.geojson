@@ -2,9 +2,14 @@
   "id": 823695717,
   "type": "Feature",
   "properties": {
+    "addr:full":"800 N Boulevard St Gunnison CO 81230",
+    "addr:housenumber":"800",
+    "addr:postcode":"81230",
+    "addr:street":"N Boulevard St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.933452,38.55289,-106.933452,38.55289",
     "geom:latitude":38.55289,
     "geom:longitude":-106.933452,
@@ -27,19 +32,34 @@
         "district"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554413,
+        420554387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2PB51aHn17pm0y3AyMs09o_38.552890_-106.933452@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444148,
-    "wof:geomhash":"fd9afd3cfdc453543752783bc767c62f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5e7c48cdfafb574ae355cd0087d2d1e8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554413,
+            "venue_id":823695717
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554387,
+            "venue_id":823695717
+        }
+    ],
     "wof:id":823695717,
-    "wof:lastmodified":1466418518,
+    "wof:lastmodified":1492126564,
     "wof:name":"Gunnison Watershed School Dst",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

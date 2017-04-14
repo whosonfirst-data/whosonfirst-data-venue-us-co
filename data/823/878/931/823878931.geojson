@@ -2,9 +2,14 @@
   "id": 823878931,
   "type": "Feature",
   "properties": {
+    "addr:full":"8621 Washington St Denver CO 80229",
+    "addr:housenumber":"8621",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978055,39.853549,-104.978055,39.853549",
     "geom:latitude":39.853549,
     "geom:longitude":-104.978055,
@@ -27,19 +32,36 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Zwly333WIZ4L56TbAVM3i_39.853549_-104.978055@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448948,
-    "wof:geomhash":"ac516d92cddec89cdbf434369020da6e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c588fa570f08b2338685de4ced17d3e0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":823878931
+        }
+    ],
     "wof:id":823878931,
-    "wof:lastmodified":1466420115,
+    "wof:lastmodified":1492127875,
     "wof:name":"A Plus Appliance Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

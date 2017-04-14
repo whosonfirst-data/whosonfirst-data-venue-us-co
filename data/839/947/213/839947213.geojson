@@ -2,9 +2,14 @@
   "id": 839947213,
   "type": "Feature",
   "properties": {
+    "addr:full":"470 Russell St Craig CO 81625",
+    "addr:housenumber":"470",
+    "addr:postcode":"81625",
+    "addr:street":"Russell St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.54612,40.512949,-107.54612,40.512949",
     "geom:latitude":40.512949,
     "geom:longitude":-107.54612,
@@ -29,17 +34,32 @@
         "interstate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928901,
+        102085247
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6XdsauNK2vBEAO9PPFQWNc_40.512949_-107.546120@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458999,
-    "wof:geomhash":"11c8df21ba1eeb1ee041b84b7fdb88d4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"651c82e86cd581c3e3a8976f15819002",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085247,
+            "locality_id":85928901,
+            "region_id":85688603,
+            "venue_id":839947213
+        }
+    ],
     "wof:id":839947213,
-    "wof:lastmodified":1466415138,
+    "wof:lastmodified":1492113018,
     "wof:name":"Bus Station",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

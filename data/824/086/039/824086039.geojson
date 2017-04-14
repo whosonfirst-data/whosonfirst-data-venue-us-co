@@ -2,9 +2,14 @@
   "id": 824086039,
   "type": "Feature",
   "properties": {
+    "addr:full":"18200 Co Rd 25 Dolores CO 81323",
+    "addr:housenumber":"18200;25",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.556516,37.475544,-108.556516,37.475544",
     "geom:latitude":37.475544,
     "geom:longitude":-108.556516,
@@ -27,19 +32,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555049
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2pjr4dKI1qeag9iDIVTmPv_37.475544_-108.556516@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453997,
-    "wof:geomhash":"e9a30051c30af9950d9e042c0b90e8f0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a69a1e162123d764b5dc7a868527a08c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555049,
+            "venue_id":824086039
+        }
+    ],
     "wof:id":824086039,
-    "wof:lastmodified":1466414895,
+    "wof:lastmodified":1492131600,
     "wof:name":"Wellsbuilt",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555049,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

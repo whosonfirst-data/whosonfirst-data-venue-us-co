@@ -2,9 +2,14 @@
   "id": 824122327,
   "type": "Feature",
   "properties": {
+    "addr:full":"5501 E 65th Way Commerce City CO 80022",
+    "addr:housenumber":"5501",
+    "addr:postcode":"80022",
+    "addr:street":"E 65Th Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.924571,39.815152,-104.924571,39.815152",
     "geom:latitude":39.815152,
     "geom:longitude":-104.924571,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3V3OdlE71ZprtS79746aU6_39.815152_-104.924571@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454813,
-    "wof:geomhash":"6602dd38f7237210de400db6a677f2bf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e9c99effb4bc12b3a9984306c24d686d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":824122327
+        }
+    ],
     "wof:id":824122327,
-    "wof:lastmodified":1466415790,
+    "wof:lastmodified":1492130879,
     "wof:name":"Villalpando Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

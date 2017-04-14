@@ -2,9 +2,14 @@
   "id": 823623581,
   "type": "Feature",
   "properties": {
+    "addr:full":"1566 Co Rd 83 Boulder CO 80302",
+    "addr:housenumber":"1566;83",
+    "addr:postcode":"80302",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.365072,40.068983,-105.365072,40.068983",
     "geom:latitude":40.068983,
     "geom:longitude":-105.365072,
@@ -27,19 +32,28 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553993
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4lc6Qbi2KUTDHR2DvygLoX_40.068983_-105.365072@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442482,
-    "wof:geomhash":"13911fb3b53dc2c265fd6dda3d200cce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"acddb1a2d450e35449e35087fcd4e2a1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553993,
+            "venue_id":823623581
+        }
+    ],
     "wof:id":823623581,
-    "wof:lastmodified":1466417484,
+    "wof:lastmodified":1492117846,
     "wof:name":"Pat Noyes & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553993,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

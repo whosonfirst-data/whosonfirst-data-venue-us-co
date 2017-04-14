@@ -2,9 +2,14 @@
   "id": 839928939,
   "type": "Feature",
   "properties": {
+    "addr:full":"3801 W Ohio Ave Denver CO 80219",
+    "addr:housenumber":"3801",
+    "addr:postcode":"80219",
+    "addr:street":"W Ohio Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.037939,39.70217,-105.037939,39.70217",
     "geom:latitude":39.70217,
     "geom:longitude":-105.037939,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42PabWAEOuhEI7S6txEe8g_39.702170_-105.037939@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463457910,
     "wof:geomhash":"266932ad6571e54da66537530949d1ff",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":839928939
+        }
+    ],
     "wof:id":839928939,
-    "wof:lastmodified":1466413817,
+    "wof:lastmodified":1486589583,
     "wof:name":"St Anthony Pdua Cathlic Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

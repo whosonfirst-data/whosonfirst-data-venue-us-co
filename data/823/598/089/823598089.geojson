@@ -2,9 +2,14 @@
   "id": 823598089,
   "type": "Feature",
   "properties": {
+    "addr:full":"1750 14th St Boulder CO 80304",
+    "addr:housenumber":"1750",
+    "addr:postcode":"80304",
+    "addr:street":"14Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276663,40.016354,-105.276663,40.016354",
     "geom:latitude":40.016354,
     "geom:longitude":-105.276663,
@@ -28,7 +33,15 @@
         "bureau"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5wk57T70rntOmJLTUDehXP_40.016354_-105.276663@1294083659"
@@ -36,11 +49,30 @@
     "wof:country":"US",
     "wof:created":1463441841,
     "wof:geomhash":"f2470628658239e1c45e24c9df198943",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823598089
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823598089
+        }
+    ],
     "wof:id":823598089,
-    "wof:lastmodified":1466417080,
+    "wof:lastmodified":1491888509,
     "wof:name":"James Travel",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

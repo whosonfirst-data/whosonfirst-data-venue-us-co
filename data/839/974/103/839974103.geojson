@@ -2,9 +2,14 @@
   "id": 839974103,
   "type": "Feature",
   "properties": {
+    "addr:full":"5603 W 118th Pl Broomfield CO 80020",
+    "addr:housenumber":"5603",
+    "addr:postcode":"80020",
+    "addr:street":"W 118Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060543,39.912236,-105.060543,39.912236",
     "geom:latitude":39.912236,
     "geom:longitude":-105.060543,
@@ -28,19 +33,36 @@
         "retrieval"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_73f3x96Ad2vMNGgIdklgHi_39.912236_-105.060543@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460180,
-    "wof:geomhash":"035a651abcd14b71d773f673ef57171d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d92141f47ef57b3e21434bec9b703fde",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":839974103
+        }
+    ],
     "wof:id":839974103,
-    "wof:lastmodified":1466416638,
+    "wof:lastmodified":1492110896,
     "wof:name":"Clear Reach Networks",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839986845,
   "type": "Feature",
   "properties": {
+    "addr:full":"5101 Quebec St Commerce City CO 80022",
+    "addr:housenumber":"5101",
+    "addr:postcode":"80022",
+    "addr:street":"Quebec St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.905321,39.790645,-104.905321,39.790645",
     "geom:latitude":39.790645,
     "geom:longitude":-104.905321,
@@ -30,19 +35,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553547
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3yOx6ePpuuthp30wOrW5xZ_39.790645_-104.905321@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460687,
-    "wof:geomhash":"500f626674547e5c360fd40b85c10714",
-    "wof:hierarchy":[],
+    "wof:geomhash":"546464ae5f4d2b7b37ebe2c5cb17e192",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553547,
+            "region_id":85688603,
+            "venue_id":839986845
+        }
+    ],
     "wof:id":839986845,
-    "wof:lastmodified":1466417270,
+    "wof:lastmodified":1492111342,
     "wof:name":"Quiznos Sub",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553547,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

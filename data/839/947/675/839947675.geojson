@@ -2,9 +2,14 @@
   "id": 839947675,
   "type": "Feature",
   "properties": {
+    "addr:full":"1522 11th Ave Greeley CO 80631",
+    "addr:housenumber":"1522",
+    "addr:postcode":"80631",
+    "addr:street":"11Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.696267,40.414207,-104.696267,40.414207",
     "geom:latitude":40.414207,
     "geom:longitude":-104.696267,
@@ -29,12 +34,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,8 +47,16 @@
     },
     "wof:country":"US",
     "wof:created":1463459026,
-    "wof:geomhash":"41f6d4a0ae865a05755d928e8bd4a425",
+    "wof:geomhash":"7fcf8b42b8619cb60e9846f32212babc",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":839947675
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -52,20 +65,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":839947675
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":839947675
         }
     ],
     "wof:id":839947675,
-    "wof:lastmodified":1466415220,
+    "wof:lastmodified":1492113015,
     "wof:name":"Contemporary Studio",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

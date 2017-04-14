@@ -2,9 +2,14 @@
   "id": 823628017,
   "type": "Feature",
   "properties": {
+    "addr:full":"355 Ponca Pl Boulder CO 80303",
+    "addr:housenumber":"355",
+    "addr:postcode":"80303",
+    "addr:street":"Ponca Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.235161,39.99379,-105.235161,39.99379",
     "geom:latitude":39.99379,
     "geom:longitude":-105.235161,
@@ -29,19 +34,36 @@
         "school"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554127
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6nAPWS7qozvVVly3Gpzurz_39.993790_-105.235161@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442583,
-    "wof:geomhash":"2917d3efc8d3da3cd1ee0bf7792ae94d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"80a008ea2dc24e5ae83fba0d43bb3f0a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554127,
+            "region_id":85688603,
+            "venue_id":823628017
+        }
+    ],
     "wof:id":823628017,
-    "wof:lastmodified":1466417611,
+    "wof:lastmodified":1492116981,
     "wof:name":"Peter Pan Cooperative Preschl",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554127,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

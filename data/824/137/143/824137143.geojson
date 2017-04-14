@@ -2,9 +2,14 @@
   "id": 824137143,
   "type": "Feature",
   "properties": {
+    "addr:full":"535 W 115th Ave Northglenn CO 80234",
+    "addr:housenumber":"535",
+    "addr:postcode":"80234",
+    "addr:street":"W 115Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.993938,39.905695,-104.993938,39.905695",
     "geom:latitude":39.905695,
     "geom:longitude":-104.993938,
@@ -29,19 +34,36 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553905
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2a18LlTV2a5Se9Vr5cnD88_39.905695_-104.993938@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455407,
-    "wof:geomhash":"50113bc29b33e4967c8f1f54a6d274d5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a4aadcfdd9add07e10d83bf2d9645e5c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553905,
+            "region_id":85688603,
+            "venue_id":824137143
+        }
+    ],
     "wof:id":824137143,
-    "wof:lastmodified":1466416170,
+    "wof:lastmodified":1492129778,
     "wof:name":"Northglenn Auto Body",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553905,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

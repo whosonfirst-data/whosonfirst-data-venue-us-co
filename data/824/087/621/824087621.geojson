@@ -2,9 +2,14 @@
   "id": 824087621,
   "type": "Feature",
   "properties": {
+    "addr:full":"4497 Dearborn St Denver CO 80239",
+    "addr:housenumber":"4497",
+    "addr:postcode":"80239",
+    "addr:street":"Dearborn St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.820797,39.776626,-104.820797,39.776626",
     "geom:latitude":39.776626,
     "geom:longitude":-104.820797,
@@ -27,7 +32,15 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4yIkhBWRKye2VGSk0znsnl_39.776626_-104.820797@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463454034,
     "wof:geomhash":"2df697e010597bf1bee8c21b4058bb82",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":824087621
+        }
+    ],
     "wof:id":824087621,
-    "wof:lastmodified":1466414849,
+    "wof:lastmodified":1491887434,
     "wof:name":"Thomas Insurance Agency",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

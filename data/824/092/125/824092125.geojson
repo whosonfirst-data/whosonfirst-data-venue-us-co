@@ -2,9 +2,14 @@
   "id": 824092125,
   "type": "Feature",
   "properties": {
+    "addr:full":"5335 Pecos St Denver CO 80221",
+    "addr:housenumber":"5335",
+    "addr:postcode":"80221",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006314,39.795414,-105.006314,39.795414",
     "geom:latitude":39.795414,
     "geom:longitude":-105.006314,
@@ -33,19 +38,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553627
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4gFpalXPCdabwDmpga8iE2_39.795414_-105.006314@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454133,
-    "wof:geomhash":"4c36bc0e1b738ca61d6995b6f99eeff8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"02e0110acc2b0825845aa0d268b617dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553627,
+            "region_id":85688603,
+            "venue_id":824092125
+        }
+    ],
     "wof:id":824092125,
-    "wof:lastmodified":1466415043,
+    "wof:lastmodified":1492129008,
     "wof:name":"Peco's Place LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553627,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839943613,
   "type": "Feature",
   "properties": {
+    "addr:full":"51 Park Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"51",
+    "addr:postcode":"80487",
+    "addr:street":"Park Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.825826,40.491326,-106.825826,40.491326",
     "geom:latitude":40.491326,
     "geom:longitude":-106.825826,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555223
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5dwudhEan3kZAcACnXZLRx_40.491326_-106.825826@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458783,
-    "wof:geomhash":"6788c18605e11508a14ce9f66f00b8e5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"efb88b263086cf1a456e6ae9338bec76",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555223,
+            "region_id":85688603,
+            "venue_id":839943613
+        }
+    ],
     "wof:id":839943613,
-    "wof:lastmodified":1466414907,
+    "wof:lastmodified":1492112759,
     "wof:name":"Baker Siding & Windows",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555223,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

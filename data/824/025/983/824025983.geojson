@@ -2,9 +2,14 @@
   "id": 824025983,
   "type": "Feature",
   "properties": {
+    "addr:full":"377 S 29th Ave Brighton CO 80601",
+    "addr:housenumber":"377",
+    "addr:postcode":"80601",
+    "addr:street":"S 29Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.788075,39.981419,-104.788075,39.981419",
     "geom:latitude":39.981419,
     "geom:longitude":-104.788075,
@@ -29,19 +34,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553355
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6yQWzS9lFHRut26dWoEn3l_39.981419_-104.788075@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452563,
-    "wof:geomhash":"ca4ca51fb0fb3aa2dd8e5f4def4b13ed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1dcbb2efaa193176cf93d217dc2854ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553355,
+            "region_id":85688603,
+            "venue_id":824025983
+        }
+    ],
     "wof:id":824025983,
-    "wof:lastmodified":1466413778,
+    "wof:lastmodified":1492131068,
     "wof:name":"Leicas Rubber Stamps & Sups",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553355,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

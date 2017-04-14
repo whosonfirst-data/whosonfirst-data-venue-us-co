@@ -2,9 +2,14 @@
   "id": 823755091,
   "type": "Feature",
   "properties": {
+    "addr:full":"160 Newland St Lakewood CO 80226",
+    "addr:housenumber":"160",
+    "addr:postcode":"80226",
+    "addr:street":"Newland St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.06971,39.719174,-105.06971,39.719174",
     "geom:latitude":39.719174,
     "geom:longitude":-105.06971,
@@ -28,19 +33,36 @@
         "interpreter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2A04xSdHbhMgKJEIshEP5k_39.719174_-105.069710@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445509,
-    "wof:geomhash":"c3c4bbb34a3118e3333c5ca2a114c8cf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2ce7addf9f0260603cfaebeff80a3817",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823755091
+        }
+    ],
     "wof:id":823755091,
-    "wof:lastmodified":1466418985,
+    "wof:lastmodified":1492122069,
     "wof:name":"Spanish Intrprtng Trnsltng Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

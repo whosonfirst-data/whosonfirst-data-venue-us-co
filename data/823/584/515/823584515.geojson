@@ -2,9 +2,14 @@
   "id": 823584515,
   "type": "Feature",
   "properties": {
+    "addr:full":"3189 Hill Ave Grand Junction CO 81504",
+    "addr:housenumber":"3189",
+    "addr:postcode":"81504",
+    "addr:street":"Hill Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.462068,39.074901,-108.462068,39.074901",
     "geom:latitude":39.074901,
     "geom:longitude":-108.462068,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2LjslndCEzH1pZfWtv1dCi_39.074901_-108.462068@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441526,
-    "wof:geomhash":"768d0e1e44ea29eab4a65b05612a7236",
-    "wof:hierarchy":[],
+    "wof:geomhash":"209bb24636f268e4093b04bf937e9a4a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":823584515
+        }
+    ],
     "wof:id":823584515,
-    "wof:lastmodified":1466416862,
+    "wof:lastmodified":1492122386,
     "wof:name":"MCI-Tso",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

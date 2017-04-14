@@ -2,9 +2,14 @@
   "id": 823620133,
   "type": "Feature",
   "properties": {
+    "addr:full":"13791 E Colfax Ave Aurora CO 80011",
+    "addr:housenumber":"13791",
+    "addr:postcode":"80011",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.828245,39.740222,-104.828245,39.740222",
     "geom:latitude":39.740222,
     "geom:longitude":-104.828245,
@@ -31,19 +36,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Bj3mOEpFdERNxh6wBPSHq_39.740222_-104.828245@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442404,
-    "wof:geomhash":"f9b300167098bda0f7001dcafe4d7433",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cab83c6924d6501b943b0da24aaf19c1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":823620133
+        }
+    ],
     "wof:id":823620133,
-    "wof:lastmodified":1466417433,
+    "wof:lastmodified":1492124003,
     "wof:name":"Aurora Auto Clinic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

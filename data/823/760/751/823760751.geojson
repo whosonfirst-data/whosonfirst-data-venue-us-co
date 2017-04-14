@@ -2,9 +2,14 @@
   "id": 823760751,
   "type": "Feature",
   "properties": {
+    "addr:full":"2306 E Empire St Cortez CO 81321",
+    "addr:housenumber":"2306",
+    "addr:postcode":"81321",
+    "addr:street":"E Empire St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.555831,37.356404,-108.555831,37.356404",
     "geom:latitude":37.356404,
     "geom:longitude":-108.555831,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_05Zhcmnxsg7NCbspenr6PJ_37.356404_-108.555831@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445630,
-    "wof:geomhash":"73cd6345c57445a9a95ffd442c7fbbf9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"474ed054f62c6562d08b4a05ceb81f0a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823760751
+        }
+    ],
     "wof:id":823760751,
-    "wof:lastmodified":1466419044,
+    "wof:lastmodified":1492119787,
     "wof:name":"Cortez Christian Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

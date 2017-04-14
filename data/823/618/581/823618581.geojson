@@ -2,9 +2,14 @@
   "id": 823618581,
   "type": "Feature",
   "properties": {
+    "addr:full":"599 S Main St Brighton CO 80601",
+    "addr:housenumber":"599",
+    "addr:postcode":"80601",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.824005,39.977703,-104.824005,39.977703",
     "geom:latitude":39.977703,
     "geom:longitude":-104.824005,
@@ -27,19 +32,36 @@
         "foundation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2wKkSX5Ni6bW2jJcDr7rNj_39.977703_-104.824005@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442355,
-    "wof:geomhash":"a6747ad104598a83c0d47981a0b3f314",
-    "wof:hierarchy":[],
+    "wof:geomhash":"841510a7357267eaff7ca8f2e61427f2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823618581
+        }
+    ],
     "wof:id":823618581,
-    "wof:lastmodified":1466417477,
+    "wof:lastmodified":1492127334,
     "wof:name":"A P Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

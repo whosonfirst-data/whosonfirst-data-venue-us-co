@@ -2,9 +2,14 @@
   "id": 823631457,
   "type": "Feature",
   "properties": {
+    "addr:full":"1231 8th Ave Greeley CO 80631",
+    "addr:housenumber":"1231",
+    "addr:postcode":"80631",
+    "addr:street":"8Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.690959,40.418833,-104.690959,40.418833",
     "geom:latitude":40.418833,
     "geom:longitude":-104.690959,
@@ -34,12 +39,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -47,8 +52,16 @@
     },
     "wof:country":"US",
     "wof:created":1463442658,
-    "wof:geomhash":"07ef65916d81aecad45d184c1e4e9d59",
+    "wof:geomhash":"b9aee9556c2736c9c4ce545a8ec6f864",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823631457
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -57,20 +70,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823631457
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823631457
         }
     ],
     "wof:id":823631457,
-    "wof:lastmodified":1466417555,
+    "wof:lastmodified":1492117169,
     "wof:name":"Mc Rae & Short Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

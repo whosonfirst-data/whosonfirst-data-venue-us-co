@@ -2,9 +2,14 @@
   "id": 823475231,
   "type": "Feature",
   "properties": {
+    "addr:full":"5529 Gray St Arvada CO 80002",
+    "addr:housenumber":"5529",
+    "addr:postcode":"80002",
+    "addr:street":"Gray St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.06144,39.798051,-105.06144,39.798051",
     "geom:latitude":39.798051,
     "geom:longitude":-105.06144,
@@ -29,19 +34,34 @@
         "ink"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0L0qjpEbGVfz05tXnDjSw3_39.798051_-105.061440@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438959,
-    "wof:geomhash":"54358243a35fe49f431207b34b0d1840",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ce2375053f85e7c8d3dafdbe44df6f26",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823475231
+        }
+    ],
     "wof:id":823475231,
-    "wof:lastmodified":1466412813,
+    "wof:lastmodified":1492122799,
     "wof:name":"Martinez Ink Company Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

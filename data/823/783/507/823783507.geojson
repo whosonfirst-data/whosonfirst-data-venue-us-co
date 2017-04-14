@@ -2,9 +2,14 @@
   "id": 823783507,
   "type": "Feature",
   "properties": {
+    "addr:full":"1260 Havana St Aurora CO 80010",
+    "addr:housenumber":"1260",
+    "addr:postcode":"80010",
+    "addr:street":"Havana St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.865765,39.735351,-104.865765,39.735351",
     "geom:latitude":39.735351,
     "geom:longitude":-104.865765,
@@ -27,19 +32,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553937
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1vPKZM8hXZZ4qI1yNOH5SF_39.735351_-104.865765@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446186,
-    "wof:geomhash":"453bdb9689e0a323f924d888b6fa681a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"98d3f40615c94d6d7296712c4c730dff",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553937,
+            "region_id":85688603,
+            "venue_id":823783507
+        }
+    ],
     "wof:id":823783507,
-    "wof:lastmodified":1466419222,
+    "wof:lastmodified":1492125185,
     "wof:name":"Dollar Directors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553937,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

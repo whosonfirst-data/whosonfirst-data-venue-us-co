@@ -2,9 +2,14 @@
   "id": 824025057,
   "type": "Feature",
   "properties": {
+    "addr:full":"440 Co Rd 232 Durango CO 81303",
+    "addr:housenumber":"440;232",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.825202,37.226855,-107.825202,37.226855",
     "geom:latitude":37.226855,
     "geom:longitude":-107.825202,
@@ -28,19 +33,34 @@
         "asphalt"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554643,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3S9sxu3TnPx3ZdEZKUTqmz_37.226855_-107.825202@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452540,
-    "wof:geomhash":"f9600dac420ba3a152cf354eadc34944",
-    "wof:hierarchy":[],
+    "wof:geomhash":"213bab19c253e2ce1174289f571fd48c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554643,
+            "venue_id":824025057
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824025057
+        }
+    ],
     "wof:id":824025057,
-    "wof:lastmodified":1466413639,
+    "wof:lastmodified":1492131087,
     "wof:name":"C M Asphalt Maintenance & Roof",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

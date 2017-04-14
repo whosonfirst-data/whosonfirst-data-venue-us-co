@@ -2,9 +2,14 @@
   "id": 824010067,
   "type": "Feature",
   "properties": {
+    "addr:full":"120 Grace Pl Denver CO 80221",
+    "addr:housenumber":"120",
+    "addr:postcode":"80221",
+    "addr:street":"Grace Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.984627,39.833525,-104.984627,39.833525",
     "geom:latitude":39.833525,
     "geom:longitude":-104.984627,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6f9pGNR8lkIbXaFmc7fjIt_39.833525_-104.984627@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452198,
-    "wof:geomhash":"5b199b7847f6281480daf8e674210ef5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2086c4bfd154f5cbf8bbd695d5fb653c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553625,
+            "region_id":85688603,
+            "venue_id":824010067
+        }
+    ],
     "wof:id":824010067,
-    "wof:lastmodified":1466412908,
+    "wof:lastmodified":1492129063,
     "wof:name":"Sherrel Manor Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

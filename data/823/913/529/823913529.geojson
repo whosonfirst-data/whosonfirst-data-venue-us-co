@@ -2,9 +2,14 @@
   "id": 823913529,
   "type": "Feature",
   "properties": {
+    "addr:full":"8176 Washington St Denver CO 80229",
+    "addr:housenumber":"8176",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977799,39.842363,-104.977799,39.842363",
     "geom:latitude":39.842363,
     "geom:longitude":-104.977799,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553819
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4F76qoEPe5DMkXDJrxkyYd_39.842363_-104.977799@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449842,
-    "wof:geomhash":"ea7beb8ae60f2147f01713096177a220",
-    "wof:hierarchy":[],
+    "wof:geomhash":"89f92cf8ef4c69c292312200b1c7369e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553819,
+            "region_id":85688603,
+            "venue_id":823913529
+        }
+    ],
     "wof:id":823913529,
-    "wof:lastmodified":1466420346,
+    "wof:lastmodified":1492125048,
     "wof:name":"Cordova Professional Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553819,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

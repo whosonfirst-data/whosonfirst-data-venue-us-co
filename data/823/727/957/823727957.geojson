@@ -2,9 +2,14 @@
   "id": 823727957,
   "type": "Feature",
   "properties": {
+    "addr:full":"3585 W 76th Ave Westminster CO 80030",
+    "addr:housenumber":"3585",
+    "addr:postcode":"80030",
+    "addr:street":"W 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033604,39.834616,-105.033604,39.834616",
     "geom:latitude":39.834616,
     "geom:longitude":-105.033604,
@@ -29,19 +34,36 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553619
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5sG1QC4UMm7tAeP8rNIGAf_39.834616_-105.033604@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444845,
-    "wof:geomhash":"c63c79f930217a9b3f70b42dc17945f3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"014ad514608dd74bf3fc33405aa5fab8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553619,
+            "region_id":85688603,
+            "venue_id":823727957
+        }
+    ],
     "wof:id":823727957,
-    "wof:lastmodified":1466418815,
+    "wof:lastmodified":1492124756,
     "wof:name":"Samaritan Counseling Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553619,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

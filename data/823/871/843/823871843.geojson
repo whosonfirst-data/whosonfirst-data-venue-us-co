@@ -2,9 +2,14 @@
   "id": 823871843,
   "type": "Feature",
   "properties": {
+    "addr:full":"415 San Juan Ave Alamosa CO 81101",
+    "addr:housenumber":"415",
+    "addr:postcode":"81101",
+    "addr:street":"San Juan Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.867224,37.469121,-105.867224,37.469121",
     "geom:latitude":37.469121,
     "geom:longitude":-105.867224,
@@ -27,17 +32,32 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929545,
+        102084133
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6N57BCjkGzaTDbNsFvYwJ5_37.469121_-105.867224@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448776,
-    "wof:geomhash":"7492f44108922c92d5a658cb983ec4ba",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fcea904abcfac94ea51fbcc859d7cbea",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084133,
+            "locality_id":85929545,
+            "region_id":85688603,
+            "venue_id":823871843
+        }
+    ],
     "wof:id":823871843,
-    "wof:lastmodified":1466419995,
+    "wof:lastmodified":1492120607,
     "wof:name":"San Luis Vly Wtr Cnsrvancy Dst",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

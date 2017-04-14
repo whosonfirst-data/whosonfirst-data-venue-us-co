@@ -2,9 +2,14 @@
   "id": 823892629,
   "type": "Feature",
   "properties": {
+    "addr:full":"4398 Carter Trl Boulder CO 80301",
+    "addr:housenumber":"4398",
+    "addr:postcode":"80301",
+    "addr:street":"Carter Trl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.186846,40.053916,-105.186846,40.053916",
     "geom:latitude":40.053916,
     "geom:longitude":-105.186846,
@@ -29,9 +34,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85895985,
-        102085251
+        85930699,
+        102085251,
+        420554161,
+        85895985
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463449265,
-    "wof:geomhash":"290fabfc377ba590b93c1e76ecdb37a5",
+    "wof:geomhash":"a806da4c0ecf69e5ad8a2b6ed6ab5d36",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554161,
+            "region_id":85688603,
+            "venue_id":823892629
+        },
         {
             "country_id":85633793,
             "county_id":102085251,
@@ -50,9 +67,9 @@
         }
     ],
     "wof:id":823892629,
-    "wof:lastmodified":1466420182,
+    "wof:lastmodified":1492119934,
     "wof:name":"Whiteman Consulting LTD",
-    "wof:parent_id":85895985,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

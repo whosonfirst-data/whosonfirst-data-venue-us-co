@@ -2,9 +2,14 @@
   "id": 824133203,
   "type": "Feature",
   "properties": {
+    "addr:full":"1000 W Main St Sterling CO 80751",
+    "addr:housenumber":"1000",
+    "addr:postcode":"80751",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.224749,40.625206,-103.224749,40.625206",
     "geom:latitude":40.625206,
     "geom:longitude":-103.224749,
@@ -27,17 +32,32 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929371,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Yp9RwGrbWCxySZR4dcaxG_40.625206_-103.224749@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455260,
-    "wof:geomhash":"8754b9f227374be56193aebcbb2a2ae3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ce84b4772c71840ba72ae72a8fd8868e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929371,
+            "region_id":85688603,
+            "venue_id":824133203
+        }
+    ],
     "wof:id":824133203,
-    "wof:lastmodified":1466416169,
+    "wof:lastmodified":1492129275,
     "wof:name":"Discount Liquors LLC",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

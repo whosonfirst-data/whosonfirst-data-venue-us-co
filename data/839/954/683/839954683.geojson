@@ -2,9 +2,14 @@
   "id": 839954683,
   "type": "Feature",
   "properties": {
+    "addr:full":"1901 Leroy Dr Northglenn CO 80233",
+    "addr:housenumber":"1901",
+    "addr:postcode":"80233",
+    "addr:street":"Leroy Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.965729,39.890203,-104.965729,39.890203",
     "geom:latitude":39.890203,
     "geom:longitude":-104.965729,
@@ -30,19 +35,36 @@
         "floor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2VFDKTCj4JV9XnJC4hlHr8_39.890203_-104.965729@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459381,
-    "wof:geomhash":"c43f354d1a3f271a2afd3867253a5fb2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b677abc8ca574fc0ad5f99088bdb721d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553741,
+            "region_id":85688603,
+            "venue_id":839954683
+        }
+    ],
     "wof:id":839954683,
-    "wof:lastmodified":1466415481,
+    "wof:lastmodified":1492113889,
     "wof:name":"D & L Floorcovering",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

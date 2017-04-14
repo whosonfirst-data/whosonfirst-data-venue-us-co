@@ -2,9 +2,14 @@
   "id": 337418931,
   "type": "Feature",
   "properties": {
+    "addr:full":"911 Park Ave W Denver CO 80205",
+    "addr:housenumber":"911",
+    "addr:postcode":"80205",
+    "addr:street":"Park Ave W",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.985441,39.753238,-104.985441,39.753238",
     "geom:latitude":39.753238,
     "geom:longitude":-104.985441,
@@ -30,11 +35,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750115,
+        85871289,
+        102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85871289
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -44,19 +52,21 @@
     "wof:geomhash":"5f4f1511c4a0937f9d48f426c9e7a94f",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "microhood_id":1108750115,
             "neighbourhood_id":85871289,
             "region_id":85688603,
             "venue_id":337418931
         }
     ],
     "wof:id":337418931,
-    "wof:lastmodified":1466411957,
+    "wof:lastmodified":1486604477,
     "wof:name":"Bryant of New York",
-    "wof:parent_id":85871289,
+    "wof:parent_id":1108750115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

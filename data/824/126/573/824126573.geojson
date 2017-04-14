@@ -2,9 +2,14 @@
   "id": 824126573,
   "type": "Feature",
   "properties": {
+    "addr:full":"110 S Main St Mancos CO 81328",
+    "addr:housenumber":"110",
+    "addr:postcode":"81328",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.289008,37.345099,-108.289008,37.345099",
     "geom:latitude":37.345099,
     "geom:longitude":-108.289008,
@@ -27,19 +32,28 @@
         "baker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ItBuYSiybnbDPS014auuz_37.345099_-108.289008@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454995,
-    "wof:geomhash":"e0243a2f00fc635e9fab9440ae2819a9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f688bd2aa2efead751a14c7b6b38525e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":824126573
+        }
+    ],
     "wof:id":824126573,
-    "wof:lastmodified":1466415764,
+    "wof:lastmodified":1492131859,
     "wof:name":"Absolute Bakery & Cafe",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

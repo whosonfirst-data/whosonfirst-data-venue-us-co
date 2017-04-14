@@ -2,9 +2,14 @@
   "id": 823620509,
   "type": "Feature",
   "properties": {
+    "addr:full":"4871 Fountain St Boulder CO 80304",
+    "addr:housenumber":"4871",
+    "addr:postcode":"80304",
+    "addr:street":"Fountain St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.286614,40.063819,-105.286614,40.063819",
     "geom:latitude":40.063819,
     "geom:longitude":-105.286614,
@@ -24,19 +29,34 @@
     "sg:postcode":"80304",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7AM2OAsR5uEupA7HSj8Te8_40.063819_-105.286614@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442411,
-    "wof:geomhash":"1fe9bb9b08eae3b8e283d4e1322f50a1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d62263a1a7d30d416751370b449ef76",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823620509
+        }
+    ],
     "wof:id":823620509,
-    "wof:lastmodified":1466417470,
+    "wof:lastmodified":1492124019,
     "wof:name":"Foodscan",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

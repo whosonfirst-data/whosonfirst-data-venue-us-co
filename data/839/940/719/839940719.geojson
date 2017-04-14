@@ -2,9 +2,14 @@
   "id": 839940719,
   "type": "Feature",
   "properties": {
+    "addr:full":"18900 E 118th Ave Commerce City CO 80022",
+    "addr:housenumber":"18900",
+    "addr:postcode":"80022",
+    "addr:street":"E 118Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.77118,39.910854,-104.77118,39.910854",
     "geom:latitude":39.910854,
     "geom:longitude":-104.77118,
@@ -31,8 +36,10 @@
     "wof:belongsto":[
         85688603,
         85633793,
-        85888303,
-        102084053
+        85888299,
+        102084053,
+        102191575,
+        85888303
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -40,9 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463458541,
-    "wof:geomhash":"e4929e5df62d78fe2a885daa5ffb2a1a",
+    "wof:geomhash":"3646899b0a764d1e621f0297bbe14497",
     "wof:hierarchy":[
         {
+            "country_id":85633793,
+            "county_id":102084053,
+            "neighbourhood_id":85888299,
+            "region_id":85688603,
+            "venue_id":839940719
+        },
+        {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102084053,
             "neighbourhood_id":85888303,
@@ -51,9 +66,9 @@
         }
     ],
     "wof:id":839940719,
-    "wof:lastmodified":1466414908,
+    "wof:lastmodified":1492114269,
     "wof:name":"Spraymax 2000 Inc",
-    "wof:parent_id":85888303,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

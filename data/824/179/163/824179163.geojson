@@ -2,9 +2,14 @@
   "id": 824179163,
   "type": "Feature",
   "properties": {
+    "addr:full":"2111 Thomas Ave Alamosa CO 81101",
+    "addr:housenumber":"2111",
+    "addr:postcode":"81101",
+    "addr:street":"Thomas Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.887043,37.477648,-105.887043,37.477648",
     "geom:latitude":37.477648,
     "geom:longitude":-105.887043,
@@ -27,17 +32,32 @@
         "sprinkler"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929545,
+        102084133
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3QLdDESpgPxa4i1pczorP7_37.477648_-105.887043@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457032,
-    "wof:geomhash":"a2f81153a2620e147f330b62a9ba27c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d50ad184cdaa0629546769fb032a0cf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084133,
+            "locality_id":85929545,
+            "region_id":85688603,
+            "venue_id":824179163
+        }
+    ],
     "wof:id":824179163,
-    "wof:lastmodified":1466418266,
+    "wof:lastmodified":1492132116,
     "wof:name":"Holman Landscape Irrigation",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

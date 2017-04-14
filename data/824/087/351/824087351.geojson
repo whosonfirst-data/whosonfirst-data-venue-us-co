@@ -2,9 +2,14 @@
   "id": 824087351,
   "type": "Feature",
   "properties": {
+    "addr:full":"1671 Galena St Aurora CO 80010",
+    "addr:housenumber":"1671",
+    "addr:postcode":"80010",
+    "addr:street":"Galena St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.869436,39.742492,-104.869436,39.742492",
     "geom:latitude":39.742492,
     "geom:longitude":-104.869436,
@@ -27,19 +32,36 @@
         "village"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ZKr7zjwC6lB6mFjfKfkiU_39.742492_-104.869436@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454028,
-    "wof:geomhash":"0f0af672325087b8c509a5ac9ead7464",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5920bf632c65060393fa32b64d4fae61",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":824087351
+        }
+    ],
     "wof:id":824087351,
-    "wof:lastmodified":1466414839,
+    "wof:lastmodified":1492128077,
     "wof:name":"Aurora Centennial House",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

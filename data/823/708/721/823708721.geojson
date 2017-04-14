@@ -2,9 +2,14 @@
   "id": 823708721,
   "type": "Feature",
   "properties": {
+    "addr:full":"7630 US Hwy 287 Broomfield CO 80020",
+    "addr:housenumber":"7630",
+    "addr:postcode":"80020",
+    "addr:street":"Us Hwy 287",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.083767,39.915892,-105.083767,39.915892",
     "geom:latitude":39.915892,
     "geom:longitude":-105.083767,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554243
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5WAn07mX2aNWY65aiXVmBK_39.915892_-105.083767@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444418,
-    "wof:geomhash":"7e2022f4515e71639594670d860ae979",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf463df5c90d8ccd812938161e3181ab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554243,
+            "region_id":85688603,
+            "venue_id":823708721
+        }
+    ],
     "wof:id":823708721,
-    "wof:lastmodified":1466418645,
+    "wof:lastmodified":1492117315,
     "wof:name":"Enterprise Rent-A-Car",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554243,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

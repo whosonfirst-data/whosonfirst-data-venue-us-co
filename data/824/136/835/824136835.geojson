@@ -2,9 +2,14 @@
   "id": 824136835,
   "type": "Feature",
   "properties": {
+    "addr:full":"117 N Main St Mancos CO 81328",
+    "addr:housenumber":"117",
+    "addr:postcode":"81328",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.28901,37.345495,-108.28901,37.345495",
     "geom:latitude":37.345495,
     "geom:longitude":-108.28901,
@@ -27,19 +32,28 @@
         "village"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0kibOm10OaCoqTyfVTy6Jz_37.345495_-108.289010@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455396,
-    "wof:geomhash":"b11b4d6c7d7252912e661b0e66a34420",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e7aa6a53b3df5eef936967e74b814da0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":824136835
+        }
+    ],
     "wof:id":824136835,
-    "wof:lastmodified":1466416406,
+    "wof:lastmodified":1492130251,
     "wof:name":"Mancos Town Administration",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

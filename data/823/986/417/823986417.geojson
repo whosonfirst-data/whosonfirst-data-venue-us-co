@@ -2,9 +2,14 @@
   "id": 823986417,
   "type": "Feature",
   "properties": {
+    "addr:full":"1919 Yarmouth Ave Boulder CO 80304",
+    "addr:housenumber":"1919",
+    "addr:postcode":"80304",
+    "addr:street":"Yarmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.271981,40.058367,-105.271981,40.058367",
     "geom:latitude":40.058367,
     "geom:longitude":-105.271981,
@@ -28,7 +33,12 @@
         "preschool"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876361,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6qzxQbDWFTjANKpmAeAKA9_40.058367_-105.271981@1294083659"
@@ -36,11 +46,19 @@
     "wof:country":"US",
     "wof:created":1463451639,
     "wof:geomhash":"3d5fdda9c24116fdd6da0c011f6361f8",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876361,
+            "region_id":85688603,
+            "venue_id":823986417
+        }
+    ],
     "wof:id":823986417,
-    "wof:lastmodified":1466421061,
+    "wof:lastmodified":1491924272,
     "wof:name":"Boulder Journey School",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

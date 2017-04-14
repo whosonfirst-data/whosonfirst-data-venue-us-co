@@ -2,9 +2,14 @@
   "id": 839993601,
   "type": "Feature",
   "properties": {
+    "addr:full":"1730 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"1730",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.544697,39.077423,-108.544697,39.077423",
     "geom:latitude":39.077423,
     "geom:longitude":-108.544697,
@@ -29,19 +34,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2fNz86lhFMjxwgbk9mMtye_39.077465_-108.545311@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460954,
-    "wof:geomhash":"29f8d77f7fa88e9836951efd72faea13",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c8b45d8621effae29f0800c27f935f6c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554923,
+            "region_id":85688603,
+            "venue_id":839993601
+        }
+    ],
     "wof:id":839993601,
-    "wof:lastmodified":1466417726,
+    "wof:lastmodified":1492110955,
     "wof:name":"Burger King",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

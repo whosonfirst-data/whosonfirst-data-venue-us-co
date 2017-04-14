@@ -2,9 +2,14 @@
   "id": 823748287,
   "type": "Feature",
   "properties": {
+    "addr:full":"1111 Monroe Dr Boulder CO 80303",
+    "addr:housenumber":"1111",
+    "addr:postcode":"80303",
+    "addr:street":"Monroe Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.2408,40.005644,-105.2408,40.005644",
     "geom:latitude":40.005644,
     "geom:longitude":-105.2408,
@@ -24,19 +29,36 @@
     "sg:postcode":"80303",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_62Qtc1iZ8LtCC88aIMQNxt_40.005644_-105.240800@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445333,
-    "wof:geomhash":"947a20a0ff457672f11ccaf1e7e73a02",
-    "wof:hierarchy":[],
+    "wof:geomhash":"35414ec94b6e644674cf64be167b5ae7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":823748287
+        }
+    ],
     "wof:id":823748287,
-    "wof:lastmodified":1466418875,
+    "wof:lastmodified":1492125092,
     "wof:name":"A Moment In Time",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

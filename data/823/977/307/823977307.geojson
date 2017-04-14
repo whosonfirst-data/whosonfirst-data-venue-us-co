@@ -2,9 +2,14 @@
   "id": 823977307,
   "type": "Feature",
   "properties": {
+    "addr:full":"235 Linden Ave Grand Junction CO 81503",
+    "addr:housenumber":"235",
+    "addr:postcode":"81503",
+    "addr:street":"Linden Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.557037,39.04062,-108.557037,39.04062",
     "geom:latitude":39.04062,
     "geom:longitude":-108.557037,
@@ -27,19 +32,36 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420555011
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6JTR5Ujb6ffO53rI1Y2TJD_39.040620_-108.557037@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451405,
-    "wof:geomhash":"4ad40af3f2263883a62b5f9b5b570457",
-    "wof:hierarchy":[],
+    "wof:geomhash":"60345b8af43d2df955439db9fa3754d5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555011,
+            "region_id":85688603,
+            "venue_id":823977307
+        }
+    ],
     "wof:id":823977307,
-    "wof:lastmodified":1466420863,
+    "wof:lastmodified":1492125484,
     "wof:name":"A-1 Inspection Svc-Western Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555011,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

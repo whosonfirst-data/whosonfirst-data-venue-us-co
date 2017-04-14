@@ -2,9 +2,14 @@
   "id": 823950109,
   "type": "Feature",
   "properties": {
+    "addr:full":"5610 Lamar St Arvada CO 80002",
+    "addr:housenumber":"5610",
+    "addr:postcode":"80002",
+    "addr:street":"Lamar St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067403,39.798573,-105.067403,39.798573",
     "geom:latitude":39.798573,
     "geom:longitude":-105.067403,
@@ -31,19 +36,34 @@
         "accessory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YVdvDJrOWoI2JKzKCGVf7_39.798573_-105.067403@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450781,
-    "wof:geomhash":"7773491c96d3c691a9f34a790818bb76",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c957686af2031001009832e2e4dfad5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823950109
+        }
+    ],
     "wof:id":823950109,
-    "wof:lastmodified":1466420679,
+    "wof:lastmodified":1492125134,
     "wof:name":"Dance Theatre & Costume Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

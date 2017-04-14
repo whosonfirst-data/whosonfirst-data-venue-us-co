@@ -2,9 +2,14 @@
   "id": 823701055,
   "type": "Feature",
   "properties": {
+    "addr:full":"1825 Marine St Boulder CO 80302",
+    "addr:housenumber":"1825",
+    "addr:postcode":"80302",
+    "addr:street":"Marine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.270495,40.013683,-105.270495,40.013683",
     "geom:latitude":40.013683,
     "geom:longitude":-105.270495,
@@ -27,19 +32,36 @@
         "communications"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876399
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6U7CVo9KlbEoZzisJvFHhE_40.013683_-105.270495@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444258,
-    "wof:geomhash":"d41e40ba8ed344bea600787ec4484236",
-    "wof:hierarchy":[],
+    "wof:geomhash":"036306f0b005fdb00001d728b1882144",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876399,
+            "region_id":85688603,
+            "venue_id":823701055
+        }
+    ],
     "wof:id":823701055,
-    "wof:lastmodified":1466418564,
+    "wof:lastmodified":1492126556,
     "wof:name":"Goldstone McAlister & Acc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876399,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

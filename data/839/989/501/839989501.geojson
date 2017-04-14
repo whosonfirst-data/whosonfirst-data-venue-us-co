@@ -2,9 +2,14 @@
   "id": 839989501,
   "type": "Feature",
   "properties": {
+    "addr:full":"5350 Arapahoe Ave Boulder CO 80303",
+    "addr:housenumber":"5350",
+    "addr:postcode":"80303",
+    "addr:street":"Arapahoe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227926,40.013621,-105.227926,40.013621",
     "geom:latitude":40.013621,
     "geom:longitude":-105.227926,
@@ -30,19 +35,36 @@
         "soup"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2VQ9RRp52FUGKDjoEn99D9_40.013621_-105.227926@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460795,
-    "wof:geomhash":"3734bd8d6b193f8d310830a8375e05fe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0380f37c7fc5be9f903d2d80df6dd19a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":839989501
+        }
+    ],
     "wof:id":839989501,
-    "wof:lastmodified":1466417396,
+    "wof:lastmodified":1492111084,
     "wof:name":"Wendy's",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

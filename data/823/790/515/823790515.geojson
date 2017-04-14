@@ -2,9 +2,14 @@
   "id": 823790515,
   "type": "Feature",
   "properties": {
+    "addr:full":"16075 E 32nd Ave Aurora CO 80011",
+    "addr:housenumber":"16075",
+    "addr:postcode":"80011",
+    "addr:street":"E 32Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.800833,39.761996,-104.800833,39.761996",
     "geom:latitude":39.761996,
     "geom:longitude":-104.800833,
@@ -27,19 +32,36 @@
         "arrangement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553317
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_36e9VXoGbPX2bY4NTtz9gG_39.761996_-104.800833@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446437,
-    "wof:geomhash":"049d20cdae8e8fb671a066d201e0f569",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b46db8702208b793ad203005db0a1139",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553317,
+            "region_id":85688603,
+            "venue_id":823790515
+        }
+    ],
     "wof:id":823790515,
-    "wof:lastmodified":1466419296,
+    "wof:lastmodified":1492127739,
     "wof:name":"Bax Global Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839992891,
   "type": "Feature",
   "properties": {
+    "addr:full":"1143 13th St Boulder CO 80302",
+    "addr:housenumber":"1143",
+    "addr:postcode":"80302",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276225,40.007891,-105.276225,40.007891",
     "geom:latitude":40.007891,
     "geom:longitude":-105.276225,
@@ -33,19 +38,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2LmwShr2kj0xIaw6X8jElB_40.007303_-105.276203@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460924,
-    "wof:geomhash":"6d11f607bcdcda16d6c653178f23fd46",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7ab4d8568e1ffdb9cbfd918e544f93c3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839992891
+        }
+    ],
     "wof:id":839992891,
-    "wof:lastmodified":1466417598,
+    "wof:lastmodified":1492114426,
     "wof:name":"The Players Club",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

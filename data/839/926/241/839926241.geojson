@@ -2,9 +2,14 @@
   "id": 839926241,
   "type": "Feature",
   "properties": {
+    "addr:full":"1221 Pennsylvania Ave Boulder CO 80302",
+    "addr:housenumber":"1221",
+    "addr:postcode":"80302",
+    "addr:street":"Pennsylvania Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276985,40.008768,-105.276985,40.008768",
     "geom:latitude":40.008768,
     "geom:longitude":-105.276985,
@@ -27,19 +32,36 @@
         "salon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NDfobKRSXcAZc0W8ENV8a_40.008768_-105.276985@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457780,
-    "wof:geomhash":"ef9b503c9e807c2af00e943b8cdef2c7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"07d4c9694458972a991999d1fd7d651c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839926241
+        }
+    ],
     "wof:id":839926241,
-    "wof:lastmodified":1466413832,
+    "wof:lastmodified":1492113423,
     "wof:name":"Sol Tans On The Hill",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

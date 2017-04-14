@@ -2,9 +2,14 @@
   "id": 823928465,
   "type": "Feature",
   "properties": {
+    "addr:full":"31790 Rcr 35 Steamboat Springs CO 80487",
+    "addr:housenumber":"35",
+    "addr:postcode":"31790;80487",
+    "addr:street":"Rcr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.885143,40.387116,-106.885143,40.387116",
     "geom:latitude":40.387116,
     "geom:longitude":-106.885143,
@@ -28,19 +33,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0CWvP8eOFjH68qf568YCmh_40.387116_-106.885143@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450210,
-    "wof:geomhash":"82472b1f49399a8476c1bbfd87ffae22",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0fd1b59684c9a9fa35e331b0083e5da0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555379,
+            "venue_id":823928465
+        }
+    ],
     "wof:id":823928465,
-    "wof:lastmodified":1466420499,
+    "wof:lastmodified":1492120681,
     "wof:name":"E-Z Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

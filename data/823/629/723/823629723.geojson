@@ -2,9 +2,14 @@
   "id": 823629723,
   "type": "Feature",
   "properties": {
+    "addr:full":"3600 S Galapago St Englewood CO 80110",
+    "addr:housenumber":"3600",
+    "addr:postcode":"80110",
+    "addr:street":"S Galapago St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.99591,39.650636,-104.99591,39.650636",
     "geom:latitude":39.650636,
     "geom:longitude":-104.99591,
@@ -29,19 +34,36 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        420553955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ztFsqUC77F7yjORHxk6z1_39.650636_-104.995910@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442626,
-    "wof:geomhash":"c53f96a347672552918ac19099438045",
-    "wof:hierarchy":[],
+    "wof:geomhash":"daa2d52915d7d5bd93615317a4f5cecf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
+            "region_id":85688603,
+            "venue_id":823629723
+        }
+    ],
     "wof:id":823629723,
-    "wof:lastmodified":1466417709,
+    "wof:lastmodified":1492119632,
     "wof:name":"Community Counseling Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823482843,
   "type": "Feature",
   "properties": {
+    "addr:full":"17241 Co Rd 24 Dolores CO 81323",
+    "addr:housenumber":"17241;24",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.610025,37.460035,-108.610025,37.460035",
     "geom:latitude":37.460035,
     "geom:longitude":-108.610025,
@@ -30,19 +35,28 @@
         "gunsmith"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555049
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3LBidM8dA0cpfSEjiypecq_37.460035_-108.610025@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439144,
-    "wof:geomhash":"23effd3f2127c416541a0bb396a0f7eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c97d49a8ef2dc1361aae6a80ce3fe790",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555049,
+            "venue_id":823482843
+        }
+    ],
     "wof:id":823482843,
-    "wof:lastmodified":1466413616,
+    "wof:lastmodified":1492125963,
     "wof:name":"Riley's Gunstocks",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555049,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

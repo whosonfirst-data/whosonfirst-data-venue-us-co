@@ -2,9 +2,14 @@
   "id": 823880141,
   "type": "Feature",
   "properties": {
+    "addr:full":"5441 Western Ave Boulder CO 80301",
+    "addr:housenumber":"5441",
+    "addr:postcode":"80301",
+    "addr:street":"Western Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227793,40.017839,-105.227793,40.017839",
     "geom:latitude":40.017839,
     "geom:longitude":-105.227793,
@@ -29,19 +34,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NbpDGL2TDE65zTGbw4uB0_40.017839_-105.227793@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448973,
-    "wof:geomhash":"01eb984980bdaac1e2e8045c58559eab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a67a12c26b34b0db7de4d8735376ee1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":823880141
+        }
+    ],
     "wof:id":823880141,
-    "wof:lastmodified":1466420004,
+    "wof:lastmodified":1492116344,
     "wof:name":"Jdecm",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

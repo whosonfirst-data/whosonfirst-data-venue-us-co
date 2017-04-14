@@ -2,9 +2,14 @@
   "id": 839988805,
   "type": "Feature",
   "properties": {
+    "addr:full":"1251 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"1251",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971535,39.914512,-104.971535,39.914512",
     "geom:latitude":39.914512,
     "geom:longitude":-104.971535,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Jf4qXyhOWGVwwJo6vqRLl_39.914512_-104.971535@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460768,
-    "wof:geomhash":"a6f1a29f476e93c33a59483541bd19b6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"33a743b13c3a2db7bef81746b651d563",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553877,
+            "region_id":85688603,
+            "venue_id":839988805
+        }
+    ],
     "wof:id":839988805,
-    "wof:lastmodified":1466417447,
+    "wof:lastmodified":1492112799,
     "wof:name":"T.G.I. Friday's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553877,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823532343,
   "type": "Feature",
   "properties": {
+    "addr:full":"232 1st St Fort Lupton CO 80621",
+    "addr:housenumber":"232",
+    "addr:postcode":"80621",
+    "addr:street":"1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.816327,40.080107,-104.816327,40.080107",
     "geom:latitude":40.080107,
     "geom:longitude":-104.816327,
@@ -27,19 +32,28 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2LpdWumretA879C0PnS7yp_40.080107_-104.816327@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440297,
-    "wof:geomhash":"b03763f87493265fdb4664dcb213452f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5e5c5e7df8c119b25a2e79448f0f2d5e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823532343
+        }
+    ],
     "wof:id":823532343,
-    "wof:lastmodified":1466415348,
+    "wof:lastmodified":1492122829,
     "wof:name":"Animal Clinic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

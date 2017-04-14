@@ -2,9 +2,14 @@
   "id": 823611505,
   "type": "Feature",
   "properties": {
+    "addr:full":"1112 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"1112;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.835432,37.311156,-107.835432,37.311156",
     "geom:latitude":37.311156,
     "geom:longitude":-107.835432,
@@ -29,19 +34,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1uKRJblZ51yiVT8NUE5v7l_37.311156_-107.835432@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442180,
-    "wof:geomhash":"0b532411016ba54450f3434006abcb0e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e90598ce44268ad26234238130ddbf30",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823611505
+        }
+    ],
     "wof:id":823611505,
-    "wof:lastmodified":1466417211,
+    "wof:lastmodified":1492116092,
     "wof:name":"Stan Neil Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

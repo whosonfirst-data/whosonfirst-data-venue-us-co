@@ -2,9 +2,14 @@
   "id": 839930573,
   "type": "Feature",
   "properties": {
+    "addr:full":"2943 Redburn Dr Fort Collins CO 80525",
+    "addr:housenumber":"2943",
+    "addr:postcode":"80525",
+    "addr:street":"Redburn Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.023675,40.533459,-105.023675,40.533459",
     "geom:latitude":40.533459,
     "geom:longitude":-105.023675,
@@ -28,19 +33,36 @@
         "design"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Al9DN0Dk8z0B17WcjB51b_40.533459_-105.023675@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458003,
-    "wof:geomhash":"a7612568352177d6b2a72cc5f07641d4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b87c82c00bd770aabd5d1ed81a188540",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":839930573
+        }
+    ],
     "wof:id":839930573,
-    "wof:lastmodified":1466414110,
+    "wof:lastmodified":1492112248,
     "wof:name":"Fort Collings Web Works LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

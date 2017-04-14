@@ -2,9 +2,14 @@
   "id": 823841373,
   "type": "Feature",
   "properties": {
+    "addr:full":"6691 King St Denver CO 80221",
+    "addr:housenumber":"6691",
+    "addr:postcode":"80221",
+    "addr:street":"King St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033464,39.816618,-105.033464,39.816618",
     "geom:latitude":39.816618,
     "geom:longitude":-105.033464,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553401
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5kO70iX5u2lP9iBi1jwERT_39.816618_-105.033464@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447975,
-    "wof:geomhash":"289c69dd0da58134b5f59e82337613ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1de9389d56e35dbb6b1563e9dedf79e8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553401,
+            "region_id":85688603,
+            "venue_id":823841373
+        }
+    ],
     "wof:id":823841373,
-    "wof:lastmodified":1466419692,
+    "wof:lastmodified":1492121744,
     "wof:name":"Crest View Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553401,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

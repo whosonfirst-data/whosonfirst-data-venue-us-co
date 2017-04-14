@@ -2,9 +2,14 @@
   "id": 824127917,
   "type": "Feature",
   "properties": {
+    "addr:full":"850 N 5th St Grand Junction CO 81501",
+    "addr:housenumber":"850",
+    "addr:postcode":"81501",
+    "addr:street":"N 5Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.564395,39.074935,-108.564395,39.074935",
     "geom:latitude":39.074935,
     "geom:longitude":-108.564395,
@@ -28,19 +33,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ByzvjUYYLVu8lV9ZSkAty_39.074935_-108.564395@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455065,
-    "wof:geomhash":"192b560e3ad1df12620403a548768cfa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fbb129437fcb5630b5e2aba9a9960459",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":824127917
+        }
+    ],
     "wof:id":824127917,
-    "wof:lastmodified":1466415970,
+    "wof:lastmodified":1492131922,
     "wof:name":"Grandma Gee",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

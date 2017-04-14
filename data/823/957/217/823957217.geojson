@@ -2,9 +2,14 @@
   "id": 823957217,
   "type": "Feature",
   "properties": {
+    "addr:full":"11837 Keough Dr Denver CO 80233",
+    "addr:housenumber":"11837",
+    "addr:postcode":"80233",
+    "addr:street":"Keough Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971872,39.910903,-104.971872,39.910903",
     "geom:latitude":39.910903,
     "geom:longitude":-104.971872,
@@ -28,19 +33,36 @@
         "sign"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1lH2OPSDBTqr1T8Rb6Y1d0_39.910903_-104.971872@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450941,
-    "wof:geomhash":"6d20183fe49c211e45d01c91c9f6e6e1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8b09a1f2edc6bad72392c02ed8c1d75e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553877,
+            "region_id":85688603,
+            "venue_id":823957217
+        }
+    ],
     "wof:id":823957217,
-    "wof:lastmodified":1466420732,
+    "wof:lastmodified":1492121555,
     "wof:name":"D & D Signs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553877,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

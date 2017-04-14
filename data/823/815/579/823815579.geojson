@@ -2,9 +2,14 @@
   "id": 823815579,
   "type": "Feature",
   "properties": {
+    "addr:full":"103 N Chestnut St Cortez CO 81321",
+    "addr:housenumber":"103",
+    "addr:postcode":"81321",
+    "addr:street":"N Chestnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586629,37.350687,-108.586629,37.350687",
     "geom:latitude":37.350687,
     "geom:longitude":-108.586629,
@@ -27,19 +32,28 @@
         "opportunity"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7BuHxD3nyxqiCkPpcStXKa_37.350687_-108.586629@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447162,
-    "wof:geomhash":"4362f4e3a05c2e24cb9212e61dd54219",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6bbaf5aa4f904b948dc2647adfa27fa2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823815579
+        }
+    ],
     "wof:id":823815579,
-    "wof:lastmodified":1466419735,
+    "wof:lastmodified":1492122340,
     "wof:name":"Job Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823803571,
   "type": "Feature",
   "properties": {
+    "addr:full":"4871 Broadway St Boulder CO 80304",
+    "addr:housenumber":"4871",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.282201,40.063875,-105.282201,40.063875",
     "geom:latitude":40.063875,
     "geom:longitude":-105.282201,
@@ -27,19 +32,34 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_482DDi61JZ7p7Xl9waGDr9_40.063875_-105.282201@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446807,
-    "wof:geomhash":"43947cbbb1755d94c0227aa94308c665",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6a5f3534b4768ad22a78f59d6786ae59",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823803571
+        }
+    ],
     "wof:id":823803571,
-    "wof:lastmodified":1466419429,
+    "wof:lastmodified":1492127067,
     "wof:name":"Bustop",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

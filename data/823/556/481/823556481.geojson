@@ -2,9 +2,14 @@
   "id": 823556481,
   "type": "Feature",
   "properties": {
+    "addr:full":"1728 16th St Boulder CO 80302",
+    "addr:housenumber":"1728",
+    "addr:postcode":"80302",
+    "addr:street":"16Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.274031,40.016898,-105.274031,40.016898",
     "geom:latitude":40.016898,
     "geom:longitude":-105.274031,
@@ -27,19 +32,46 @@
         "psychotherapist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379,
+        85876399
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_76RwunyhC1jnE6szEbfQDs_40.016898_-105.274031@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440851,
-    "wof:geomhash":"462fdb7ef7ea993fab1aa08216e047d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"36ea4e8e80193f6176abd971725ea1df",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823556481
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876399,
+            "region_id":85688603,
+            "venue_id":823556481
+        }
+    ],
     "wof:id":823556481,
-    "wof:lastmodified":1466415903,
+    "wof:lastmodified":1492127565,
     "wof:name":"Gestalt Institute Of Boulder",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

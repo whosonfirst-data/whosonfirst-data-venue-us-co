@@ -2,9 +2,14 @@
   "id": 823981215,
   "type": "Feature",
   "properties": {
+    "addr:full":"8051 W Tufts Ave Denver CO 80123",
+    "addr:housenumber":"8051",
+    "addr:postcode":"80123",
+    "addr:street":"W Tufts Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.087132,39.633001,-105.087132,39.633001",
     "geom:latitude":39.633001,
     "geom:longitude":-105.087132,
@@ -28,19 +33,38 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871357,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1VKSFFBRhu4uup4YuOrCs9_39.633001_-105.087132@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451514,
-    "wof:geomhash":"0cddcf320067646d100b9d755621388a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c52ba335e096c1b6e3e85cfd55e4d7e6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871357,
+            "region_id":85688603,
+            "venue_id":823981215
+        }
+    ],
     "wof:id":823981215,
-    "wof:lastmodified":1466420883,
+    "wof:lastmodified":1492126597,
     "wof:name":"Phil Long Ford",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

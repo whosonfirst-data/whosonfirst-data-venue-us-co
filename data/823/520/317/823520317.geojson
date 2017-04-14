@@ -2,9 +2,14 @@
   "id": 823520317,
   "type": "Feature",
   "properties": {
+    "addr:full":"7505 W Yale Ave Denver CO 80227",
+    "addr:housenumber":"7505",
+    "addr:postcode":"80227",
+    "addr:street":"W Yale Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.079103,39.667821,-105.079103,39.667821",
     "geom:latitude":39.667821,
     "geom:longitude":-105.079103,
@@ -28,19 +33,38 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871249,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7a9NIMmM3wiC1ADsJuBRs8_39.667821_-105.079103@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440036,
-    "wof:geomhash":"9c39b82feb22a7957be6c2c3752ac8d5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a6259fbcf7272b6b4af66383cee6e7e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871249,
+            "region_id":85688603,
+            "venue_id":823520317
+        }
+    ],
     "wof:id":823520317,
-    "wof:lastmodified":1466414955,
+    "wof:lastmodified":1492127483,
     "wof:name":"S & R Medical Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

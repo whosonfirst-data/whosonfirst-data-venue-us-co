@@ -2,9 +2,14 @@
   "id": 823847731,
   "type": "Feature",
   "properties": {
+    "addr:full":"12808 Claude Pl Denver CO 80241",
+    "addr:housenumber":"12808",
+    "addr:postcode":"80241",
+    "addr:street":"Claude Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961261,39.929061,-104.961261,39.929061",
     "geom:latitude":39.929061,
     "geom:longitude":-104.961261,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5xizXQRZ8ZRb07957TMsEC_39.929061_-104.961261@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448164,
-    "wof:geomhash":"2853ca34528fa8c28df0f2bfee0b5edf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8337137bdf43aa026cfa3e6236f0c4fe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823847731
+        }
+    ],
     "wof:id":823847731,
-    "wof:lastmodified":1466419767,
+    "wof:lastmodified":1492124321,
     "wof:name":"Advanced Air Solutions",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

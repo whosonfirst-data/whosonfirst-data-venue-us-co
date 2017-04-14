@@ -2,9 +2,14 @@
   "id": 823769167,
   "type": "Feature",
   "properties": {
+    "addr:full":"380 Co Rd 309 Durango CO 81303",
+    "addr:housenumber":"380;309",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.750378,37.171782,-107.750378,37.171782",
     "geom:latitude":37.171782,
     "geom:longitude":-107.750378,
@@ -31,19 +36,28 @@
         "drug"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3bPSJZOHHwnxvGo9reYPeu_37.171782_-107.750378@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445805,
-    "wof:geomhash":"ad3f6e50e059b345ef000ad1ee3a0652",
-    "wof:hierarchy":[],
+    "wof:geomhash":"62ae5850c8976d3ef52133077e98cb42",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823769167
+        }
+    ],
     "wof:id":823769167,
-    "wof:lastmodified":1466419093,
+    "wof:lastmodified":1492118765,
     "wof:name":"Narcotics Anonymous",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

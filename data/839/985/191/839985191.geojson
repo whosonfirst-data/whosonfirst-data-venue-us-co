@@ -2,9 +2,14 @@
   "id": 839985191,
   "type": "Feature",
   "properties": {
+    "addr:full":"362 Birch Ave Brighton CO 80601",
+    "addr:housenumber":"362",
+    "addr:postcode":"80601",
+    "addr:street":"Birch Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.827654,39.981126,-104.827654,39.981126",
     "geom:latitude":39.981126,
     "geom:longitude":-104.827654,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6qjkzUzcFwdlKozPQjGGbX_39.980718_-104.827580@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460627,
-    "wof:geomhash":"096cb5ce12e05e7ace2e90671e3ec39e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"89f3c28412e5f4bfc15f3058af720702",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":839985191
+        }
+    ],
     "wof:id":839985191,
-    "wof:lastmodified":1466417024,
+    "wof:lastmodified":1492112298,
     "wof:name":"Jedye Electrical",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

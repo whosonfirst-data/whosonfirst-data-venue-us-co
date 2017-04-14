@@ -2,9 +2,14 @@
   "id": 823640047,
   "type": "Feature",
   "properties": {
+    "addr:full":"12000 Pecos St Denver CO 80234",
+    "addr:housenumber":"12000",
+    "addr:postcode":"80234",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006111,39.914068,-105.006111,39.914068",
     "geom:latitude":39.914068,
     "geom:longitude":-105.006111,
@@ -28,19 +33,46 @@
         "programming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3uKDfc36jQTpdCMGaRxnjK_39.914068_-105.006111@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442857,
-    "wof:geomhash":"6fe6bffb4615ef5e3e2bdcaa666dbd03",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f57c5dd16ec2c56a94ce0e86f4ebb917",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823640047
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":823640047
+        }
+    ],
     "wof:id":823640047,
-    "wof:lastmodified":1466417882,
+    "wof:lastmodified":1492119374,
     "wof:name":"Energy Analyst International",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

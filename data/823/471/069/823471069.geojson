@@ -2,9 +2,14 @@
   "id": 823471069,
   "type": "Feature",
   "properties": {
+    "addr:full":"725 Orchard Ave Grand Junction CO 81501",
+    "addr:housenumber":"725",
+    "addr:postcode":"81501",
+    "addr:street":"Orchard Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.559701,39.084535,-108.559701,39.084535",
     "geom:latitude":39.084535,
     "geom:longitude":-108.559701,
@@ -28,19 +33,36 @@
         "silver"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420555005
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_77IfpqwB6BNtPkpvQSqOPc_39.084535_-108.559701@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438857,
-    "wof:geomhash":"cf54de71212ed93bf0121f200cb8070c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bae389f66ba59542c6868f8fa84f9d93",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555005,
+            "region_id":85688603,
+            "venue_id":823471069
+        }
+    ],
     "wof:id":823471069,
-    "wof:lastmodified":1466412449,
+    "wof:lastmodified":1492117648,
     "wof:name":"Nevada Silver Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555005,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

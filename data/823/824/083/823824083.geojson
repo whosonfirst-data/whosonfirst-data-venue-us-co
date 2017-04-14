@@ -2,9 +2,14 @@
   "id": 823824083,
   "type": "Feature",
   "properties": {
+    "addr:full":"10392 Owens Cir Broomfield CO 80021",
+    "addr:housenumber":"10392",
+    "addr:postcode":"80021",
+    "addr:street":"Owens Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.119597,39.886531,-105.119597,39.886531",
     "geom:latitude":39.886531,
     "geom:longitude":-105.119597,
@@ -27,19 +32,36 @@
         "billing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3S9ToSgVzOaVFni5YIp6lh_39.886531_-105.119597@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447419,
-    "wof:geomhash":"72409ed4f8689b66f35227b350aa5f92",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b120b668ad089990bfd72d46aa627b24",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823824083
+        }
+    ],
     "wof:id":823824083,
-    "wof:lastmodified":1466419547,
+    "wof:lastmodified":1492122988,
     "wof:name":"Professional Billing Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

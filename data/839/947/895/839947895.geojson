@@ -2,9 +2,14 @@
   "id": 839947895,
   "type": "Feature",
   "properties": {
+    "addr:full":"20200 Hwy 160 Durango CO 81303",
+    "addr:housenumber":"20200",
+    "addr:postcode":"co 81303",
+    "addr:street":"Hwy 160",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.913877,37.268546,-107.913877,37.268546",
     "geom:latitude":37.268546,
     "geom:longitude":-107.913877,
@@ -28,19 +33,28 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554609
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6z1RQxV8dyswJxu2EIFzjw_37.268546_-107.913877@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459036,
-    "wof:geomhash":"d6c98d79e0988c87d86d5b3a73e4efab",
-    "wof:hierarchy":[],
+    "wof:geomhash":"43021ca7cac16326df9fe5ca3ef1283a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554609,
+            "venue_id":839947895
+        }
+    ],
     "wof:id":839947895,
-    "wof:lastmodified":1466415264,
+    "wof:lastmodified":1492113007,
     "wof:name":"Dan's West",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554609,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

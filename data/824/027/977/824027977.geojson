@@ -2,9 +2,14 @@
   "id": 824027977,
   "type": "Feature",
   "properties": {
+    "addr:full":"2642 Pine St Boulder CO 80302",
+    "addr:housenumber":"2642",
+    "addr:postcode":"80302",
+    "addr:street":"Pine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260514,40.023947,-105.260514,40.023947",
     "geom:latitude":40.023947,
     "geom:longitude":-105.260514,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3l6G97lclXyos322RwOxTM_40.023947_-105.260514@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452618,
-    "wof:geomhash":"daf820e4269fecbff3f02e371883d929",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7b8a717396fd2769342c0f2d013a89b4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":824027977
+        }
+    ],
     "wof:id":824027977,
-    "wof:lastmodified":1466413995,
+    "wof:lastmodified":1492132406,
     "wof:name":"Aaron's Custom House Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

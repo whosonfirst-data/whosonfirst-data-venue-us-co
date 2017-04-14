@@ -2,9 +2,14 @@
   "id": 823583131,
   "type": "Feature",
   "properties": {
+    "addr:full":"2961 W 81st Ave Westminster CO 80031",
+    "addr:housenumber":"2961",
+    "addr:postcode":"80031",
+    "addr:street":"W 81St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024231,39.843663,-105.024231,39.843663",
     "geom:latitude":39.843663,
     "geom:longitude":-105.024231,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553589
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3AP19LZAngw2qJvJ6Lu7yX_39.843663_-105.024231@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441490,
-    "wof:geomhash":"bed5c0e25dfbc38e16e8dea579ff8784",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7b9ada59039b17e6aec02c125fa57d43",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553589,
+            "region_id":85688603,
+            "venue_id":823583131
+        }
+    ],
     "wof:id":823583131,
-    "wof:lastmodified":1466416719,
+    "wof:lastmodified":1492116960,
     "wof:name":"Systems West Computer Rsrcs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553589,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

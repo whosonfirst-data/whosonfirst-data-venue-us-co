@@ -2,9 +2,14 @@
   "id": 823795723,
   "type": "Feature",
   "properties": {
+    "addr:full":"13801 Co Rd 28 Dolores CO 81323",
+    "addr:housenumber":"13801;28",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.526877,37.410434,-108.526877,37.410434",
     "geom:latitude":37.410434,
     "geom:longitude":-108.526877,
@@ -28,19 +33,28 @@
         "home"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1FGmQlPykxfYb4QeEZ3IkF_37.410434_-108.526877@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446593,
-    "wof:geomhash":"c5cf0fd9bcef6aaf64711cb372b3d6fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"85b97fe68bbd4d0f8885011ea098c190",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823795723
+        }
+    ],
     "wof:id":823795723,
-    "wof:lastmodified":1466419319,
+    "wof:lastmodified":1492120445,
     "wof:name":"Lee Mobile Home Park",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824035533,
   "type": "Feature",
   "properties": {
+    "addr:full":"288 Co Rd 236 Durango CO 81301",
+    "addr:housenumber":"288;236",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.791819,37.258567,-107.791819,37.258567",
     "geom:latitude":37.258567,
     "geom:longitude":-107.791819,
@@ -29,19 +34,28 @@
         "instruction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6I8SuxBA8wgC2JjQS7ECJk_37.258567_-107.791819@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452798,
-    "wof:geomhash":"0dbd6d58a6745edc0dd13a2780c3fb11",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eba292f240ad17d6bbdfdd8722e387ab",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824035533
+        }
+    ],
     "wof:id":824035533,
-    "wof:lastmodified":1466413982,
+    "wof:lastmodified":1492130531,
     "wof:name":"Durango Ata Black Belt Academy",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

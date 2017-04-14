@@ -2,9 +2,14 @@
   "id": 823692445,
   "type": "Feature",
   "properties": {
+    "addr:full":"3423 S Ivanhoe Way Denver CO 80222",
+    "addr:housenumber":"3423",
+    "addr:postcode":"80222",
+    "addr:street":"S Ivanhoe Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.922537,39.653251,-104.922537,39.653251",
     "geom:latitude":39.653251,
     "geom:longitude":-104.922537,
@@ -28,19 +33,38 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85866869,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6JUXFGQBxrSXy1O7LMZ4iW_39.653251_-104.922537@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444073,
-    "wof:geomhash":"f5c2af62ac1a0559a829f08e9cadd594",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5f363b5ef2fdc69d5af37ef4f2786994",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85866869,
+            "region_id":85688603,
+            "venue_id":823692445
+        }
+    ],
     "wof:id":823692445,
-    "wof:lastmodified":1466418506,
+    "wof:lastmodified":1492119772,
     "wof:name":"Staples Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85866869,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

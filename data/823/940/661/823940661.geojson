@@ -2,9 +2,14 @@
   "id": 823940661,
   "type": "Feature",
   "properties": {
+    "addr:full":"5971 Scotswood Ct Boulder CO 80301",
+    "addr:housenumber":"5971",
+    "addr:postcode":"80301",
+    "addr:street":"Scotswood Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.213802,40.056247,-105.213802,40.056247",
     "geom:latitude":40.056247,
     "geom:longitude":-105.213802,
@@ -28,19 +33,36 @@
         "wine"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554005
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5NdLXxH0KrYo00fUe3jQgl_40.056247_-105.213802@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450539,
-    "wof:geomhash":"be43873e71c681f65d4ea2697c570e93",
-    "wof:hierarchy":[],
+    "wof:geomhash":"22a64d44499e359e08e031197369b68d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554005,
+            "region_id":85688603,
+            "venue_id":823940661
+        }
+    ],
     "wof:id":823940661,
-    "wof:lastmodified":1466420564,
+    "wof:lastmodified":1492126230,
     "wof:name":"Boulder Creek Winery LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554005,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823662191,
   "type": "Feature",
   "properties": {
+    "addr:full":"550 W 62nd Ave Denver CO 80216",
+    "addr:housenumber":"550",
+    "addr:postcode":"80216",
+    "addr:street":"W 62Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.990051,39.809008,-104.990051,39.809008",
     "geom:latitude":39.809008,
     "geom:longitude":-104.990051,
@@ -28,19 +33,36 @@
         "boat"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0xiGvebuuIMTuRauYWjldg_39.809008_-104.990051@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443393,
-    "wof:geomhash":"6bc6a9974751d71b7cb474d9451b9495",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab92e7d8581a7cd6740c90153a34edee",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":823662191
+        }
+    ],
     "wof:id":823662191,
-    "wof:lastmodified":1466418191,
+    "wof:lastmodified":1492123247,
     "wof:name":"Merc's & More Marine Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

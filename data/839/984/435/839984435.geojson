@@ -2,9 +2,14 @@
   "id": 839984435,
   "type": "Feature",
   "properties": {
+    "addr:full":"25300 E 168th Ave Brighton CO 80603",
+    "addr:housenumber":"25300",
+    "addr:postcode":"80603",
+    "addr:street":"E 168Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.687202,40.000518,-104.687202,40.000518",
     "geom:latitude":40.000518,
     "geom:longitude":-104.687202,
@@ -22,19 +27,34 @@
         "station"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929097,
+        102086117,
+        85846301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5t2emiMoVuX4yWzyCkhTd1_40.000518_-104.687202@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460596,
-    "wof:geomhash":"2298023d38dfb982edf930d971789f8c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1bba7e732f70c5b5cb0ef42c7ec1ddc8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929097,
+            "neighbourhood_id":85846301,
+            "region_id":85688603,
+            "venue_id":839984435
+        }
+    ],
     "wof:id":839984435,
-    "wof:lastmodified":1466417200,
+    "wof:lastmodified":1492111139,
     "wof:name":"OPW",
-    "wof:parent_id":-1,
+    "wof:parent_id":85846301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

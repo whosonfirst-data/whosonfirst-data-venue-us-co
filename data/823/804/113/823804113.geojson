@@ -2,9 +2,14 @@
   "id": 823804113,
   "type": "Feature",
   "properties": {
+    "addr:full":"7201 S Broadway Littleton CO 80122",
+    "addr:housenumber":"7201",
+    "addr:postcode":"80122",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.988308,39.589799,-104.988308,39.589799",
     "geom:latitude":39.589799,
     "geom:longitude":-104.988308,
@@ -35,17 +40,41 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929851,
+        102086877,
+        85929241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1TZ3dTicVsKSg7bnQucH4N_39.589799_-104.988308@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446823,
-    "wof:geomhash":"48380bfe4e4f1531ddc2018d4ce27d66",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eddb15ee9c9e3c852d4b594b76bbbb11",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929851,
+            "region_id":85688603,
+            "venue_id":823804113
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929241,
+            "region_id":85688603,
+            "venue_id":823804113
+        }
+    ],
     "wof:id":823804113,
-    "wof:lastmodified":1466419389,
+    "wof:lastmodified":1492126993,
     "wof:name":"Eclipse Automation Group Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

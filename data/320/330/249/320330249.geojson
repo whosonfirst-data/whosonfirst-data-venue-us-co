@@ -2,9 +2,14 @@
   "id": 320330249,
   "type": "Feature",
   "properties": {
+    "addr:full":"7035 E Colfax Avenue Denver CO 80220",
+    "addr:housenumber":"7035",
+    "addr:postcode":"80220",
+    "addr:street":"E Colfax Avenue",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.906261,39.740312,-104.906261,39.740312",
     "geom:latitude":39.740312,
     "geom:longitude":-104.906261,
@@ -30,11 +35,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750053,
+        85840547,
+        102191575,
+        1108750055,
         85633793,
         85928879,
         102086135,
-        85868405
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -44,19 +52,21 @@
     "wof:geomhash":"4bb000af41dc5419aae7cd99c0743f69",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85868405,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750053,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":320330249
         }
     ],
     "wof:id":320330249,
-    "wof:lastmodified":1466413073,
+    "wof:lastmodified":1486604471,
     "wof:name":"B & B Liquors",
-    "wof:parent_id":85868405,
+    "wof:parent_id":1108750053,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

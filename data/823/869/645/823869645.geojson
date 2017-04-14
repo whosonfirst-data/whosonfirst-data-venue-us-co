@@ -2,9 +2,14 @@
   "id": 823869645,
   "type": "Feature",
   "properties": {
+    "addr:full":"1234 S Prairie Ave Pueblo CO 81005",
+    "addr:housenumber":"1234",
+    "addr:postcode":"81005",
+    "addr:street":"S Prairie Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.643709,38.244664,-104.643709,38.244664",
     "geom:latitude":38.244664,
     "geom:longitude":-104.643709,
@@ -27,17 +32,32 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0PWrdtN9wHByDvytZj6TSS_38.244664_-104.643709@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448731,
-    "wof:geomhash":"6d1d845ed50da5bb2627126e64caa61a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5acaf127b9c376bfa5857e16255ddcac",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823869645
+        }
+    ],
     "wof:id":823869645,
-    "wof:lastmodified":1466419946,
+    "wof:lastmodified":1492116888,
     "wof:name":"Don Carlos Mexican Foods",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

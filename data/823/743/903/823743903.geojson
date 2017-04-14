@@ -2,9 +2,14 @@
   "id": 823743903,
   "type": "Feature",
   "properties": {
+    "addr:full":"9401 E Arapahoe Rd Englewood CO 80112",
+    "addr:housenumber":"9401",
+    "addr:postcode":"80112",
+    "addr:street":"E Arapahoe Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.879538,39.595113,-104.879538,39.595113",
     "geom:latitude":39.595113,
     "geom:longitude":-104.879538,
@@ -33,17 +38,32 @@
         "improvement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929817,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Sf7o9M23AXaHf9G6vmVOf_39.595113_-104.879538@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445239,
-    "wof:geomhash":"8055dcce934c7e9b51dede34b7a09417",
-    "wof:hierarchy":[],
+    "wof:geomhash":"05682ff67dff249ad1fdc0336247adbc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929817,
+            "region_id":85688603,
+            "venue_id":823743903
+        }
+    ],
     "wof:id":823743903,
-    "wof:lastmodified":1466418815,
+    "wof:lastmodified":1492120395,
     "wof:name":"Home Depot",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

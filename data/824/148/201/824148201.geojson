@@ -2,9 +2,14 @@
   "id": 824148201,
   "type": "Feature",
   "properties": {
+    "addr:full":"3421 Co Rd 31 Fort Lupton CO 80621",
+    "addr:housenumber":"3421;31",
+    "addr:postcode":"80621",
+    "addr:street":"Co Rd;Fort Lupton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.772839,40.058182,-104.772839,40.058182",
     "geom:latitude":40.058182,
     "geom:longitude":-104.772839,
@@ -28,19 +33,28 @@
         "dairy"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4RfhJsMqCcTMNvO3TXbz5X_40.058182_-104.772839@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455839,
-    "wof:geomhash":"b5ecba48d98b8a50d862683338bbefea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4dacfbffe8f741ea309d5fbb0c6b325c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":824148201
+        }
+    ],
     "wof:id":824148201,
-    "wof:lastmodified":1466416743,
+    "wof:lastmodified":1492130177,
     "wof:name":"Farm Management",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

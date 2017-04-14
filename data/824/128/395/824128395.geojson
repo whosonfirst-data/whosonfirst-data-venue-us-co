@@ -2,9 +2,14 @@
   "id": 824128395,
   "type": "Feature",
   "properties": {
+    "addr:full":"940 E 73rd Ave Denver CO 80229",
+    "addr:housenumber":"940",
+    "addr:postcode":"80229",
+    "addr:street":"E 73Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.973148,39.828979,-104.973148,39.828979",
     "geom:latitude":39.828979,
     "geom:longitude":-104.973148,
@@ -27,19 +32,36 @@
         "billing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Ln04pOKtokE56JdurbkZq_39.828979_-104.973148@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455082,
-    "wof:geomhash":"c02cf117a7bf8b272cd51a6e18b29c46",
-    "wof:hierarchy":[],
+    "wof:geomhash":"040d888e81ce29df41c266dc82931273",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":824128395
+        }
+    ],
     "wof:id":824128395,
-    "wof:lastmodified":1466415906,
+    "wof:lastmodified":1492131278,
     "wof:name":"Accelerated Billing Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

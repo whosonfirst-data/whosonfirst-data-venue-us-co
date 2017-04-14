@@ -2,9 +2,14 @@
   "id": 823903001,
   "type": "Feature",
   "properties": {
+    "addr:full":"2150 W 60th Ave Denver CO 80221",
+    "addr:housenumber":"2150",
+    "addr:postcode":"80221",
+    "addr:street":"W 60Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.016375,39.805528,-105.016375,39.805528",
     "geom:latitude":39.805528,
     "geom:longitude":-105.016375,
@@ -31,19 +36,36 @@
     ],
     "sg:website":"www.centralreadymix.net",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_23ljp7nSKtKsUi3Tha0OfM_39.805528_-105.016375@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449546,
-    "wof:geomhash":"c85a144e585ef3f13b307496a5c19583",
-    "wof:hierarchy":[],
+    "wof:geomhash":"56f8fca6263ceb529892007047784765",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553839,
+            "region_id":85688603,
+            "venue_id":823903001
+        }
+    ],
     "wof:id":823903001,
-    "wof:lastmodified":1466420476,
+    "wof:lastmodified":1492123745,
     "wof:name":"Central Ready Mix",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

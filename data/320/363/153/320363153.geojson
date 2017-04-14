@@ -2,9 +2,14 @@
   "id": 320363153,
   "type": "Feature",
   "properties": {
+    "addr:full":"2120 S Holly Street Suite 101 Denver CO 80222",
+    "addr:housenumber":"2120",
+    "addr:postcode":"80222",
+    "addr:street":"S Holly Street Suite 101",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.922384,39.678124,-104.922384,39.678124",
     "geom:latitude":39.678124,
     "geom:longitude":-104.922384,
@@ -29,11 +34,16 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        85871341,
+        102191575,
+        1108750035,
         85633793,
         85928879,
         102086135,
-        85871341
+        85688603,
+        85930653,
+        102086877,
+        420559699
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,19 +53,29 @@
     "wof:geomhash":"491c8676b2201aff7940e77e95af9af9",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
+            "macrohood_id":1108750035,
             "neighbourhood_id":85871341,
+            "region_id":85688603,
+            "venue_id":320363153
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930653,
+            "neighbourhood_id":420559699,
             "region_id":85688603,
             "venue_id":320363153
         }
     ],
     "wof:id":320363153,
-    "wof:lastmodified":1466413156,
+    "wof:lastmodified":1486590047,
     "wof:name":"Denver Tailors Ltd",
-    "wof:parent_id":85871341,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

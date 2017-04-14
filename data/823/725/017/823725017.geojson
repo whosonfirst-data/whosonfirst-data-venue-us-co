@@ -2,9 +2,14 @@
   "id": 823725017,
   "type": "Feature",
   "properties": {
+    "addr:full":"363 3rd St Silverthorne CO 80487",
+    "addr:housenumber":"363",
+    "addr:postcode":"80487",
+    "addr:street":"3Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.825401,40.486731,-106.825401,40.486731",
     "geom:latitude":40.486731,
     "geom:longitude":-106.825401,
@@ -29,19 +34,36 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555223
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4V75g7PgWi3sweb9UXjksB_40.486731_-106.825401@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444781,
-    "wof:geomhash":"9734b49d92a784b5209aa4298ff8e1b4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7c4e66fbfb05ab6a0baa59dd5938f20a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555223,
+            "region_id":85688603,
+            "venue_id":823725017
+        }
+    ],
     "wof:id":823725017,
-    "wof:lastmodified":1466418714,
+    "wof:lastmodified":1492121832,
     "wof:name":"Silverthorne Auto Body",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555223,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

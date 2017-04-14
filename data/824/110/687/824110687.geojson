@@ -2,9 +2,14 @@
   "id": 824110687,
   "type": "Feature",
   "properties": {
+    "addr:full":"6647 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"6647",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025338,39.817926,-105.025338,39.817926",
     "geom:latitude":39.817926,
     "geom:longitude":-105.025338,
@@ -28,19 +33,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7DZOH08ItBBPG0S8KWKIUT_39.817926_-105.025338@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454566,
-    "wof:geomhash":"7c574c2482de8e50380615d985fcc200",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28e5604c122e906d06febbe0d362f2b9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553739,
+            "region_id":85688603,
+            "venue_id":824110687
+        }
+    ],
     "wof:id":824110687,
-    "wof:lastmodified":1466415424,
+    "wof:lastmodified":1492131120,
     "wof:name":"Casa De Bonilla",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

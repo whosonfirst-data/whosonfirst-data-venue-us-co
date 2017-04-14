@@ -2,9 +2,14 @@
   "id": 824107075,
   "type": "Feature",
   "properties": {
+    "addr:full":"3350 Chisholm Trl Boulder CO 80301",
+    "addr:housenumber":"3350",
+    "addr:postcode":"80301",
+    "addr:street":"Chisholm Trl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.251939,40.035913,-105.251939,40.035913",
     "geom:latitude":40.035913,
     "geom:longitude":-105.251939,
@@ -32,19 +37,36 @@
         "condominium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3R91AzkcXg1dPdbet6mwQD_40.035913_-105.251939@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454487,
-    "wof:geomhash":"0b3572979ff56edb791768f3816ae229",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2f768cb09522637fe26d33a137978581",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":824107075
+        }
+    ],
     "wof:id":824107075,
-    "wof:lastmodified":1466415185,
+    "wof:lastmodified":1492130046,
     "wof:name":"Remington Post Homeowners Assn",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

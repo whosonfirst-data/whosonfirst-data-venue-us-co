@@ -2,9 +2,14 @@
   "id": 823477349,
   "type": "Feature",
   "properties": {
+    "addr:full":"695 Co Rd 233 Durango CO 81301",
+    "addr:housenumber":"695;233",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.810239,37.229474,-107.810239,37.229474",
     "geom:latitude":37.229474,
     "geom:longitude":-107.810239,
@@ -35,19 +40,28 @@
         "mail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554707
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7UPYZdgs6W6p8Fjiuj5cK1_37.229474_-107.810239@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439013,
-    "wof:geomhash":"8d141eede133a36ef5227fd764b6f7c6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"297baff7a87416dfbd752987b59a0493",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554707,
+            "venue_id":823477349
+        }
+    ],
     "wof:id":823477349,
-    "wof:lastmodified":1466413058,
+    "wof:lastmodified":1492124194,
     "wof:name":"Tom Wishon Golf Technology LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554707,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

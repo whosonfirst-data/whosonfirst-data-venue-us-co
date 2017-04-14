@@ -2,9 +2,14 @@
   "id": 823903419,
   "type": "Feature",
   "properties": {
+    "addr:full":"1800 Nueva Vista Dr Denver CO 80229",
+    "addr:housenumber":"1800",
+    "addr:postcode":"80229",
+    "addr:street":"Nueva Vista Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.966318,39.844971,-104.966318,39.844971",
     "geom:latitude":39.844971,
     "geom:longitude":-104.966318,
@@ -27,19 +32,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553893,
+        420553651
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7NyKcf56wlwyX29UByZ7lo_39.844971_-104.966318@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449557,
-    "wof:geomhash":"5253811c9d27458e1593f94ff6ed0123",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4e7e87f083e1d3d0339f219f426fe29",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553893,
+            "region_id":85688603,
+            "venue_id":823903419
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553651,
+            "region_id":85688603,
+            "venue_id":823903419
+        }
+    ],
     "wof:id":823903419,
-    "wof:lastmodified":1466420254,
+    "wof:lastmodified":1492123737,
     "wof:name":"Maximo Barros Masonry",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823525553,
   "type": "Feature",
   "properties": {
+    "addr:full":"1537 S Meade St Denver CO 80219",
+    "addr:housenumber":"1537",
+    "addr:postcode":"80219",
+    "addr:street":"S Meade St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03649,39.688093,-105.03649,39.688093",
     "geom:latitude":39.688093,
     "geom:longitude":-105.03649,
@@ -27,19 +32,38 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_45CZsMmRDd5KAdZIJlj1qj_39.688093_-105.036490@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440151,
-    "wof:geomhash":"007251f1ee6aeb06efe6db82a06666ee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ddda91cdf632ab62144ba3bf2221c8f5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":823525553
+        }
+    ],
     "wof:id":823525553,
-    "wof:lastmodified":1466415012,
+    "wof:lastmodified":1492119178,
     "wof:name":"Museum and Gallery Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

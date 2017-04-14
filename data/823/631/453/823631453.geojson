@@ -2,9 +2,14 @@
   "id": 823631453,
   "type": "Feature",
   "properties": {
+    "addr:full":"809 N 1st St Johnstown CO 80534",
+    "addr:housenumber":"809",
+    "addr:postcode":"80534",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.916057,40.33723,-104.916057,40.33723",
     "geom:latitude":40.33723,
     "geom:longitude":-104.916057,
@@ -29,19 +34,36 @@
         "power"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_46wKu71Jq190ZnxRCkiyGF_40.337230_-104.916057@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442658,
-    "wof:geomhash":"b653dbca15b4e81ab1babc21fdea6c38",
-    "wof:hierarchy":[],
+    "wof:geomhash":"80e83da06d23dbf9111179d7a8f2644f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823631453
+        }
+    ],
     "wof:id":823631453,
-    "wof:lastmodified":1466417555,
+    "wof:lastmodified":1492117166,
     "wof:name":"MJM Sales",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

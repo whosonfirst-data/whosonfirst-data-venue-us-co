@@ -2,9 +2,14 @@
   "id": 839931199,
   "type": "Feature",
   "properties": {
+    "addr:full":"965 W 101st Pl Denver CO 80260",
+    "addr:housenumber":"965",
+    "addr:postcode":"80260",
+    "addr:street":"W 101St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996725,39.879908,-104.996725,39.879908",
     "geom:latitude":39.879908,
     "geom:longitude":-104.996725,
@@ -28,19 +33,46 @@
         "local"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553869,
+        85838293
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1S3Uh4BJI5FqSB6k2GZWdh_39.879908_-104.996725@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458043,
-    "wof:geomhash":"ffeabab9cfd304c4d8313a8e9e8c93cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"57bfc0e68ad11990bb9d3ce4d342fe25",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553869,
+            "region_id":85688603,
+            "venue_id":839931199
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":85838293,
+            "region_id":85688603,
+            "venue_id":839931199
+        }
+    ],
     "wof:id":839931199,
-    "wof:lastmodified":1466414165,
+    "wof:lastmodified":1492111544,
     "wof:name":"Black Sand Home & Bath Cottage",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

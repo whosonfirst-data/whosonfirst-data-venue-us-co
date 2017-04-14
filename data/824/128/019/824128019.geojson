@@ -2,9 +2,14 @@
   "id": 824128019,
   "type": "Feature",
   "properties": {
+    "addr:full":"999 Hwy 172 Durango CO 81303",
+    "addr:housenumber":"999",
+    "addr:postcode":"co 81303",
+    "addr:street":"Hwy 172",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.795605,37.215139,-107.795605,37.215139",
     "geom:latitude":37.215139,
     "geom:longitude":-107.795605,
@@ -35,19 +40,40 @@
         "trimming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554645,
+        420554643,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2HG5cCL7QliCFnZ8KR1Hwu_37.215139_-107.795605@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455069,
-    "wof:geomhash":"2e19365bfde83a61be211c21c8210370",
-    "wof:hierarchy":[],
+    "wof:geomhash":"019c683c8ada51a77ab5c501ff88a3b4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554645,
+            "venue_id":824128019
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554643,
+            "venue_id":824128019
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824128019
+        }
+    ],
     "wof:id":824128019,
-    "wof:lastmodified":1466415798,
+    "wof:lastmodified":1492131250,
     "wof:name":"Valley T Shirt & Trophy",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

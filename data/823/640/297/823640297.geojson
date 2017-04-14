@@ -2,9 +2,14 @@
   "id": 823640297,
   "type": "Feature",
   "properties": {
+    "addr:full":"22100 Co Rd 16 Oak Creek CO 80467",
+    "addr:housenumber":"16",
+    "addr:postcode":"22100;80467",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.833409,40.255456,-106.833409,40.255456",
     "geom:latitude":40.255456,
     "geom:longitude":-106.833409,
@@ -27,19 +32,28 @@
         "veterinary"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555337
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7QqRC8IatTkey9vTQl1wQZ_40.255456_-106.833409@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442863,
-    "wof:geomhash":"64f8ac090d08924442d06a47c35d0f24",
-    "wof:hierarchy":[],
+    "wof:geomhash":"99a871b6c8a724e74a44ec22cdfb3de5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555337,
+            "venue_id":823640297
+        }
+    ],
     "wof:id":823640297,
-    "wof:lastmodified":1466417901,
+    "wof:lastmodified":1492119386,
     "wof:name":"Flying Horse Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555337,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

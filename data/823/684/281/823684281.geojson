@@ -2,9 +2,14 @@
   "id": 823684281,
   "type": "Feature",
   "properties": {
+    "addr:full":"8120 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"8120",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053309,39.844357,-105.053309,39.844357",
     "geom:latitude":39.844357,
     "geom:longitude":-105.053309,
@@ -29,19 +34,36 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ZOYZY4m4r60TEvlTW7o3M_39.844357_-105.053309@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443879,
-    "wof:geomhash":"6691dcf2625b704dca0f613edc1ff83c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7c39a4e98b466bc8733602ac3be87f95",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":823684281
+        }
+    ],
     "wof:id":823684281,
-    "wof:lastmodified":1466418398,
+    "wof:lastmodified":1492121347,
     "wof:name":"Peg Blackmore",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

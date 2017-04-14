@@ -2,9 +2,14 @@
   "id": 823618329,
   "type": "Feature",
   "properties": {
+    "addr:full":"2830 W 64th Ave Denver CO 80221",
+    "addr:housenumber":"2830",
+    "addr:postcode":"80221",
+    "addr:street":"W 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.022434,39.812749,-105.022434,39.812749",
     "geom:latitude":39.812749,
     "geom:longitude":-105.022434,
@@ -35,19 +40,36 @@
         "related"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2XoeM6tIvi15oIw0oXQEG3_39.812749_-105.022434@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442351,
-    "wof:geomhash":"e59a84e0faa179a29862dff9dea62794",
-    "wof:hierarchy":[],
+    "wof:geomhash":"14efe1c23253535c3f21dc742da5fea5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553657,
+            "region_id":85688603,
+            "venue_id":823618329
+        }
+    ],
     "wof:id":823618329,
-    "wof:lastmodified":1466417452,
+    "wof:lastmodified":1492127347,
     "wof:name":"Mile High Pressure Washers Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553657,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

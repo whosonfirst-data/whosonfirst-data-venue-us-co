@@ -2,9 +2,14 @@
   "id": 823507003,
   "type": "Feature",
   "properties": {
+    "addr:full":"285 E 88th Ave Denver CO 80229",
+    "addr:housenumber":"285",
+    "addr:postcode":"80229",
+    "addr:street":"E 88Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.983844,39.856331,-104.983844,39.856331",
     "geom:latitude":39.856331,
     "geom:longitude":-104.983844,
@@ -24,19 +29,47 @@
     "sg:postcode":"80229",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553763,
+        85930231,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ITIGTHBT2iCDxhnqjjgOF_39.856331_-104.983844@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439734,
-    "wof:geomhash":"2edf5076d40d80f5f6891246a798cb14",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4011dbcfb5a31cf0a28fba33b7f56af8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553763,
+            "region_id":85688603,
+            "venue_id":823507003
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823507003
+        }
+    ],
     "wof:id":823507003,
-    "wof:lastmodified":1466414364,
+    "wof:lastmodified":1492126539,
     "wof:name":"American Convenience Store",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

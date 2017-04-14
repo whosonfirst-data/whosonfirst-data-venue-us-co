@@ -2,9 +2,14 @@
   "id": 824127891,
   "type": "Feature",
   "properties": {
+    "addr:full":"793 S Wolcott Ct Denver CO 80219",
+    "addr:housenumber":"793",
+    "addr:postcode":"80219",
+    "addr:street":"S Wolcott Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.049526,39.704192,-105.049526,39.704192",
     "geom:latitude":39.704192,
     "geom:longitude":-105.049526,
@@ -28,7 +33,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_71LFKA0U7UGG0MTFkVLRIw_39.704192_-105.049526@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463455063,
     "wof:geomhash":"51b7801302ec5961cccf586adb2c3ec4",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":824127891
+        }
+    ],
     "wof:id":824127891,
-    "wof:lastmodified":1466416053,
+    "wof:lastmodified":1491876146,
     "wof:name":"Stan Douglas Excavating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

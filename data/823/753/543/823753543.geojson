@@ -2,9 +2,14 @@
   "id": 823753543,
   "type": "Feature",
   "properties": {
+    "addr:full":"8206 Sawtooth Dr Longmont CO 80503",
+    "addr:housenumber":"8206",
+    "addr:postcode":"80503",
+    "addr:street":"Sawtooth Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.160238,40.09934,-105.160238,40.09934",
     "geom:latitude":40.09934,
     "geom:longitude":-105.160238,
@@ -30,19 +35,36 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0et4RxlWWVz4cTAzHe55h0_40.099340_-105.160238@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445462,
-    "wof:geomhash":"0dff2c6aa0a64f1346af99c8750b43c7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8f56ca5a3e7e65aae1b1abb13a69b35d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554077,
+            "region_id":85688603,
+            "venue_id":823753543
+        }
+    ],
     "wof:id":823753543,
-    "wof:lastmodified":1466419022,
+    "wof:lastmodified":1492120218,
     "wof:name":"Designing Interiors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

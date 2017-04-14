@@ -2,9 +2,14 @@
   "id": 823520181,
   "type": "Feature",
   "properties": {
+    "addr:full":"3200 W 76th Ave Westminster CO 80030",
+    "addr:housenumber":"3200",
+    "addr:postcode":"80030",
+    "addr:street":"W 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.028774,39.834456,-105.028774,39.834456",
     "geom:latitude":39.834456,
     "geom:longitude":-105.028774,
@@ -27,19 +32,36 @@
         "mental"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_12gUQ95Km3MDOupEITmXs3_39.834456_-105.028774@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440032,
-    "wof:geomhash":"475927dc2b063cdbae8fc90940fd3de3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e8ef358b93c80a28608ebdec11fafef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":823520181
+        }
+    ],
     "wof:id":823520181,
-    "wof:lastmodified":1466414947,
+    "wof:lastmodified":1492127483,
     "wof:name":"Westminster Counseling Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

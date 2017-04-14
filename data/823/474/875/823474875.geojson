@@ -2,9 +2,14 @@
   "id": 823474875,
   "type": "Feature",
   "properties": {
+    "addr:full":"1930 S Lowell Blvd Denver CO 80219",
+    "addr:housenumber":"1930",
+    "addr:postcode":"80219",
+    "addr:street":"S Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034296,39.679143,-105.034296,39.679143",
     "geom:latitude":39.679143,
     "geom:longitude":-105.034296,
@@ -28,7 +33,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7c5nWgOM8rUO3RPm79PKmp_39.679143_-105.034296@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463438949,
     "wof:geomhash":"a939d078cb52be6d9922efaf045c317c",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":823474875
+        }
+    ],
     "wof:id":823474875,
-    "wof:lastmodified":1466412787,
+    "wof:lastmodified":1486593729,
     "wof:name":"HI Country Carpentry Cod",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

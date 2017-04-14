@@ -2,9 +2,14 @@
   "id": 824147875,
   "type": "Feature",
   "properties": {
+    "addr:full":"3647 S Santa Fe Dr Sheridan CO 80110",
+    "addr:housenumber":"3647",
+    "addr:postcode":"80110",
+    "addr:street":"S Santa Fe Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.003166,39.65005,-105.003166,39.65005",
     "geom:latitude":39.65005,
     "geom:longitude":-105.003166,
@@ -28,19 +33,36 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        420553955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2G3J2QiNsDksb1PRRd0iL7_39.650050_-105.003166@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455822,
-    "wof:geomhash":"f68f8d971fbe3e24863f2750282bba99",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c69832c1243160b74fdd3fa481739015",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
+            "region_id":85688603,
+            "venue_id":824147875
+        }
+    ],
     "wof:id":824147875,
-    "wof:lastmodified":1466416721,
+    "wof:lastmodified":1492131635,
     "wof:name":"A & B Sales Agency Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839973337,
   "type": "Feature",
   "properties": {
+    "addr:full":"3481 W 32nd Ave Denver CO 80211",
+    "addr:housenumber":"3481",
+    "addr:postcode":"80211",
+    "addr:street":"W 32Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03377,39.762207,-105.03377,39.762207",
     "geom:latitude":39.762207,
     "geom:longitude":-105.03377,
@@ -27,19 +32,38 @@
         "cleaners"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3GeWLL6O8FACic1RG2Cxa5_39.762207_-105.033770@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460153,
-    "wof:geomhash":"e4c71b2628a6dd8b7340c96bdd0e5d93",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4d3ab6af5700cb69181cec6dc0b9cebb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":839973337
+        }
+    ],
     "wof:id":839973337,
-    "wof:lastmodified":1466416440,
+    "wof:lastmodified":1492112857,
     "wof:name":"32nd Avenue Laundromat & Clnrs",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

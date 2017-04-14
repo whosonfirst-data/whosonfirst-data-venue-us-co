@@ -2,9 +2,14 @@
   "id": 823616321,
   "type": "Feature",
   "properties": {
+    "addr:full":"2841 Barnhart St Denver CO 80229",
+    "addr:housenumber":"2841",
+    "addr:postcode":"80229",
+    "addr:street":"Barnhart St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.953556,39.863044,-104.953556,39.863044",
     "geom:latitude":39.863044,
     "geom:longitude":-104.953556,
@@ -27,19 +32,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1aVW2mHRKmurS5lP3TlieV_39.863044_-104.953556@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442305,
-    "wof:geomhash":"16a6b71343203d5bd9f326a5bc646f2c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"49dc2a3557ee2471b2aefe0c42b0a7b0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":823616321
+        }
+    ],
     "wof:id":823616321,
-    "wof:lastmodified":1466417389,
+    "wof:lastmodified":1492116227,
     "wof:name":"BMC Secure",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

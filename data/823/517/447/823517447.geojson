@@ -2,9 +2,14 @@
   "id": 823517447,
   "type": "Feature",
   "properties": {
+    "addr:full":"628 W 5th St Cortez CO 81321",
+    "addr:housenumber":"628",
+    "addr:postcode":"81321",
+    "addr:street":"W 5Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.594226,37.343327,-108.594226,37.343327",
     "geom:latitude":37.343327,
     "geom:longitude":-108.594226,
@@ -29,19 +34,36 @@
         "marketing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555097
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3sCkphy6YPx4yrxGoyjedp_37.343327_-108.594226@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439963,
-    "wof:geomhash":"2bdee3ee5490f3e7b73012661cf884ec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c5e8cc021af68484dbc1988aa385bf59",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555097,
+            "region_id":85688603,
+            "venue_id":823517447
+        }
+    ],
     "wof:id":823517447,
-    "wof:lastmodified":1466414766,
+    "wof:lastmodified":1492124518,
     "wof:name":"Farm Service Agency",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555097,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

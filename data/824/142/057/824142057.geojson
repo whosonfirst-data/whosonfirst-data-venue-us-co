@@ -2,9 +2,14 @@
   "id": 824142057,
   "type": "Feature",
   "properties": {
+    "addr:full":"9605 Marion Way Denver CO 80229",
+    "addr:housenumber":"9605",
+    "addr:postcode":"80229",
+    "addr:street":"Marion Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971923,39.871793,-104.971923,39.871793",
     "geom:latitude":39.871793,
     "geom:longitude":-104.971923,
@@ -28,19 +33,36 @@
         "private"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1AhG4xbqbOVhhkCa2X7Axk_39.871793_-104.971923@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455583,
-    "wof:geomhash":"7e39e307d90666cf6bf22d6491652ad1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"174a2a05510e605821db66491886f2d5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":824142057
+        }
+    ],
     "wof:id":824142057,
-    "wof:lastmodified":1466416476,
+    "wof:lastmodified":1492129395,
     "wof:name":"Icg Communications Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

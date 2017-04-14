@@ -2,9 +2,14 @@
   "id": 839960121,
   "type": "Feature",
   "properties": {
+    "addr:full":"10587 W Robb Dr Broomfield CO 80021",
+    "addr:housenumber":"10587",
+    "addr:postcode":"80021",
+    "addr:street":"W Robb Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.125644,39.887371,-105.125644,39.887371",
     "geom:latitude":39.887371,
     "geom:longitude":-105.125644,
@@ -28,19 +33,36 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5VgRxWukpi199dfy57pDTT_39.887371_-105.125644@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459617,
-    "wof:geomhash":"005e719d42194a28c9992139be45aada",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f9d9f764c150fb3a1c757d47c140c74f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":839960121
+        }
+    ],
     "wof:id":839960121,
-    "wof:lastmodified":1466415627,
+    "wof:lastmodified":1492111675,
     "wof:name":"Azimuth Holding Co LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

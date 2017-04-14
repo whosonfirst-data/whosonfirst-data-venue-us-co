@@ -2,9 +2,14 @@
   "id": 823633887,
   "type": "Feature",
   "properties": {
+    "addr:full":"305 del Clair Rd Fort Collins CO 80525",
+    "addr:housenumber":"305",
+    "addr:postcode":"80525",
+    "addr:street":"Del Clair Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.074199,40.547553,-105.074199,40.547553",
     "geom:latitude":40.547553,
     "geom:longitude":-105.074199,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2OMvYdiVg2ZLjFcd8PCnsB_40.547553_-105.074199@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442711,
-    "wof:geomhash":"e518b502e280c3b82fa34b3c30244335",
-    "wof:hierarchy":[],
+    "wof:geomhash":"397f688a76398883a2feef825d878772",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":823633887
+        }
+    ],
     "wof:id":823633887,
-    "wof:lastmodified":1466417738,
+    "wof:lastmodified":1492121616,
     "wof:name":"Orlandos Painting Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554749,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

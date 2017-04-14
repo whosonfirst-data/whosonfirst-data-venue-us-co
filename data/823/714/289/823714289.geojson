@@ -2,9 +2,14 @@
   "id": 823714289,
   "type": "Feature",
   "properties": {
+    "addr:full":"55 W Bromley Ln Brighton CO 80601",
+    "addr:housenumber":"55",
+    "addr:postcode":"80601",
+    "addr:street":"W Bromley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.824318,39.972376,-104.824318,39.972376",
     "geom:latitude":39.972376,
     "geom:longitude":-104.824318,
@@ -27,19 +32,36 @@
         "paint"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ggtOP2Vu2vxENy7xM0RSE_39.972376_-104.824318@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444534,
-    "wof:geomhash":"b588a5365960d7a6e18fbffb7356023b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0181ee91eda5b50634915e88a40caf82",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823714289
+        }
+    ],
     "wof:id":823714289,
-    "wof:lastmodified":1466418652,
+    "wof:lastmodified":1492126357,
     "wof:name":"American Pride Ace Hardware",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

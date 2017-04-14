@@ -2,9 +2,14 @@
   "id": 823589403,
   "type": "Feature",
   "properties": {
+    "addr:full":"2501 Inland Ave Grand Junction CO 81505",
+    "addr:housenumber":"2501",
+    "addr:postcode":"81505",
+    "addr:street":"Inland Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586546,39.087019,-108.586546,39.087019",
     "geom:latitude":39.087019,
     "geom:longitude":-108.586546,
@@ -24,19 +29,46 @@
     "sg:postcode":"81505",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554951,
+        420554791
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1cdCgNORKkSvV11A2TTSE5_39.087019_-108.586546@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441634,
-    "wof:geomhash":"b8a2fbd8d23f54845e802dc9bf4a486e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e616752607207a3ed54c7af2388eb216",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554951,
+            "region_id":85688603,
+            "venue_id":823589403
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":823589403
+        }
+    ],
     "wof:id":823589403,
-    "wof:lastmodified":1466416836,
+    "wof:lastmodified":1492124255,
     "wof:name":"Grand Valley National Bank",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

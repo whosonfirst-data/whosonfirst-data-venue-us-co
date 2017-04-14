@@ -2,9 +2,14 @@
   "id": 839911539,
   "type": "Feature",
   "properties": {
+    "addr:full":"5702 W 60th Ave Arvada CO 80003",
+    "addr:housenumber":"5702",
+    "addr:postcode":"80003",
+    "addr:street":"W 60Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059611,39.805486,-105.059611,39.805486",
     "geom:latitude":39.805486,
     "geom:longitude":-105.059611,
@@ -27,19 +32,36 @@
         "towing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554591
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5kuYJHrHeQS39UcIAKHk9T_39.805486_-105.059611@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457166,
-    "wof:geomhash":"bcae120f73e1e3e4875e8083e9018f5d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b533d0e2dc2e4217d680f50ed4880b0f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554591,
+            "region_id":85688603,
+            "venue_id":839911539
+        }
+    ],
     "wof:id":839911539,
-    "wof:lastmodified":1466412253,
+    "wof:lastmodified":1492113118,
     "wof:name":"Griffs Towing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554591,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

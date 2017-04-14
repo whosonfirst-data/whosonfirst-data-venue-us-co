@@ -2,9 +2,14 @@
   "id": 839940707,
   "type": "Feature",
   "properties": {
+    "addr:full":"1455 Co Rd 858 Cimarron CO 81220",
+    "addr:housenumber":"1455;858",
+    "addr:postcode":"cimarron;81220",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.559727,38.289524,-107.559727,38.289524",
     "geom:latitude":38.289524,
     "geom:longitude":-107.559727,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554397
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_09DpeLHnIkONh3UBKaMvUk_38.289524_-107.559727@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458541,
-    "wof:geomhash":"82988a9e0fd7d41f49e933f54bfc64d6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"063c866044390619fc74831783960c24",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554397,
+            "venue_id":839940707
+        }
+    ],
     "wof:id":839940707,
-    "wof:lastmodified":1466414838,
+    "wof:lastmodified":1492114253,
     "wof:name":"Garden Valley Christian Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554397,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

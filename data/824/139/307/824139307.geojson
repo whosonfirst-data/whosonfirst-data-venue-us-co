@@ -2,9 +2,14 @@
   "id": 824139307,
   "type": "Feature",
   "properties": {
+    "addr:full":"1306 Sandstone Ct Boulder CO 80305",
+    "addr:housenumber":"1306",
+    "addr:postcode":"80305",
+    "addr:street":"Sandstone Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260894,39.975546,-105.260894,39.975546",
     "geom:latitude":39.975546,
     "geom:longitude":-105.260894,
@@ -27,19 +32,36 @@
         "painter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5HcR35j35pgKHV91VuUTqn_39.975546_-105.260894@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455483,
-    "wof:geomhash":"1f90bff2b464f24316959987c90101fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9e2b06af0991afb09867f6211817cd46",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":824139307
+        }
+    ],
     "wof:id":824139307,
-    "wof:lastmodified":1466416524,
+    "wof:lastmodified":1492128352,
     "wof:name":"Accentuate Home Improvements",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

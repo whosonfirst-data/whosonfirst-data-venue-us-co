@@ -2,9 +2,14 @@
   "id": 823747737,
   "type": "Feature",
   "properties": {
+    "addr:full":"830 20th St Boulder CO 80302",
+    "addr:housenumber":"830",
+    "addr:postcode":"80302",
+    "addr:street":"20Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.267707,40.003333,-105.267707,40.003333",
     "geom:latitude":40.003333,
     "geom:longitude":-105.267707,
@@ -27,7 +32,14 @@
         "condominium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1DON7gsralxi5xk4tCKR0M_40.003333_-105.267707@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463445319,
     "wof:geomhash":"a1992e08102d235629f61bd0798cf9e0",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":823747737
+        }
+    ],
     "wof:id":823747737,
-    "wof:lastmodified":1466418918,
+    "wof:lastmodified":1491890405,
     "wof:name":"San Marco South Superintendent",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

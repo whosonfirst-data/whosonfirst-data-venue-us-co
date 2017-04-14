@@ -2,9 +2,14 @@
   "id": 823752651,
   "type": "Feature",
   "properties": {
+    "addr:full":"301 Sheridan Blvd Denver CO 80226",
+    "addr:housenumber":"301",
+    "addr:postcode":"80226",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053189,39.722561,-105.053189,39.722561",
     "geom:latitude":39.722561,
     "geom:longitude":-105.053189,
@@ -29,7 +34,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7OnPz8PwDQpU1QCuWWS8Sj_39.722561_-105.053189@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463445444,
     "wof:geomhash":"d2824c945b82a054775d85f33311f4e1",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":823752651
+        }
+    ],
     "wof:id":823752651,
-    "wof:lastmodified":1466418974,
+    "wof:lastmodified":1486593770,
     "wof:name":"Sutton Insulating and Gutters",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

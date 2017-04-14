@@ -2,9 +2,14 @@
   "id": 824123537,
   "type": "Feature",
   "properties": {
+    "addr:full":"1345 Cortez St Denver CO 80221",
+    "addr:housenumber":"1345",
+    "addr:postcode":"80221",
+    "addr:street":"Cortez St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.004832,39.830983,-105.004832,39.830983",
     "geom:latitude":39.830983,
     "geom:longitude":-105.004832,
@@ -29,19 +34,36 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_75Xh6IX4Rwu0NnilXUelMf_39.830983_-105.004832@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454862,
-    "wof:geomhash":"8837e2df663b57e6136bdd5d676d2892",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6e00e9b652f81bfdbb9ab6e91fa39704",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":824123537
+        }
+    ],
     "wof:id":824123537,
-    "wof:lastmodified":1466415736,
+    "wof:lastmodified":1492128876,
     "wof:name":"Down Under Carpet Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

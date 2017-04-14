@@ -2,9 +2,14 @@
   "id": 823884171,
   "type": "Feature",
   "properties": {
+    "addr:full":"4916 Pearl St Boulder CO 80301",
+    "addr:housenumber":"4916",
+    "addr:postcode":"80301",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.237213,40.02566,-105.237213,40.02566",
     "geom:latitude":40.02566,
     "geom:longitude":-105.237213,
@@ -28,19 +33,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1CL0fux4cqnGcAseI2yaGz_40.025660_-105.237213@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449063,
-    "wof:geomhash":"adfbb07b240cc2064971456791991920",
-    "wof:hierarchy":[],
+    "wof:geomhash":"57878a0c3cac15718db4df085b7838e2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823884171
+        }
+    ],
     "wof:id":823884171,
-    "wof:lastmodified":1466420021,
+    "wof:lastmodified":1492122472,
     "wof:name":"Tempest Machine Works",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

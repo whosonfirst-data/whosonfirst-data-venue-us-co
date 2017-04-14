@@ -2,9 +2,14 @@
   "id": 823904643,
   "type": "Feature",
   "properties": {
+    "addr:full":"3446 W Gill Pl Denver CO 80219",
+    "addr:housenumber":"3446",
+    "addr:postcode":"80219",
+    "addr:street":"W Gill Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030824,39.704852,-105.030824,39.704852",
     "geom:latitude":39.704852,
     "geom:longitude":-105.030824,
@@ -29,7 +34,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6iIKXw77iA4yNyFWqKirVV_39.704852_-105.030824@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463449590,
     "wof:geomhash":"71346a59e7217fcab363d053694120b8",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":823904643
+        }
+    ],
     "wof:id":823904643,
-    "wof:lastmodified":1466420272,
+    "wof:lastmodified":1486593345,
     "wof:name":"South Plastering LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

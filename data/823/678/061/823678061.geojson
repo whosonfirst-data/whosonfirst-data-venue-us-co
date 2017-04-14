@@ -2,9 +2,14 @@
   "id": 823678061,
   "type": "Feature",
   "properties": {
+    "addr:full":"770 Co Rd 233 Durango CO 81301",
+    "addr:housenumber":"770;233",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.808147,37.22946,-107.808147,37.22946",
     "geom:latitude":37.22946,
     "geom:longitude":-107.808147,
@@ -29,19 +34,28 @@
         "producer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ckag3LYh1o9jZmiAIBgCL_37.229460_-107.808147@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443748,
-    "wof:geomhash":"fc088f764c6e2695e51ebda203a1e524",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d0431a4d0d758f76012fc724d2ad8d8c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823678061
+        }
+    ],
     "wof:id":823678061,
-    "wof:lastmodified":1466418415,
+    "wof:lastmodified":1492121413,
     "wof:name":"Hydrocarbon Gathering Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

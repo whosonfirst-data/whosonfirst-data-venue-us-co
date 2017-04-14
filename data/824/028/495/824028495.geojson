@@ -2,9 +2,14 @@
   "id": 824028495,
   "type": "Feature",
   "properties": {
+    "addr:full":"2790 D Rd Grand Junction CO 81501",
+    "addr:housenumber":"2790",
+    "addr:postcode":"81501",
+    "addr:street":"D Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.53597,39.063,-108.53597,39.063",
     "geom:latitude":39.063,
     "geom:longitude":-108.53597,
@@ -29,19 +34,36 @@
         "rail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554841
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4BvQUIJE9kgcxeHIqIWxpY_39.063000_-108.535970@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452627,
-    "wof:geomhash":"5b761a1e22b1c8ffe4fe764adc415a48",
-    "wof:hierarchy":[],
+    "wof:geomhash":"965fcd4bb9131388cc8afa76dede2126",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554841,
+            "region_id":85688603,
+            "venue_id":824028495
+        }
+    ],
     "wof:id":824028495,
-    "wof:lastmodified":1466413733,
+    "wof:lastmodified":1492129577,
     "wof:name":"Union Pacific Railroad Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554841,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

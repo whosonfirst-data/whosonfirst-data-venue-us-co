@@ -2,9 +2,14 @@
   "id": 823970903,
   "type": "Feature",
   "properties": {
+    "addr:full":"790 S 5th Ct Brighton CO 80601",
+    "addr:housenumber":"790",
+    "addr:postcode":"80601",
+    "addr:street":"S 5Th Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.815869,39.975748,-104.815869,39.975748",
     "geom:latitude":39.975748,
     "geom:longitude":-104.815869,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2AS3cmuZ7uXe2T1lTbcHXR_39.975748_-104.815869@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451274,
-    "wof:geomhash":"a5f977b9ab501e07641dc80bf223ad1f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fff17a17c59be5fdbeb15ffe17780b22",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823970903
+        }
+    ],
     "wof:id":823970903,
-    "wof:lastmodified":1466420866,
+    "wof:lastmodified":1492116695,
     "wof:name":"Rocky Mountain Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

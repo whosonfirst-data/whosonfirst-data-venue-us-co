@@ -2,9 +2,14 @@
   "id": 823521649,
   "type": "Feature",
   "properties": {
+    "addr:full":"4985 Noble Park Pl Boulder CO 80301",
+    "addr:housenumber":"4985",
+    "addr:postcode":"80301",
+    "addr:street":"Noble Park Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.238596,40.029638,-105.238596,40.029638",
     "geom:latitude":40.029638,
     "geom:longitude":-105.238596,
@@ -29,9 +34,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85853473,
-        102085251
+        85929877,
+        102085251,
+        85930751
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,17 +49,26 @@
     "wof:geomhash":"f5ba82a84fa6b8875360aaa5b16aa0f5",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102085251,
-            "neighbourhood_id":85853473,
+            "locality_id":85929877,
+            "region_id":85688603,
+            "venue_id":823521649
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930751,
             "region_id":85688603,
             "venue_id":823521649
         }
     ],
     "wof:id":823521649,
-    "wof:lastmodified":1466414834,
+    "wof:lastmodified":1491620054,
     "wof:name":"Edward Jones 22518",
-    "wof:parent_id":85853473,
+    "wof:parent_id":-1,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823861995,
   "type": "Feature",
   "properties": {
+    "addr:full":"3895 W 76th Ave Westminster CO 80030",
+    "addr:housenumber":"3895",
+    "addr:postcode":"80030",
+    "addr:street":"W 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.037831,39.834603,-105.037831,39.834603",
     "geom:latitude":39.834603,
     "geom:longitude":-105.037831,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553619
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2LXB50uDezRd0wP7NJh7ek_39.834603_-105.037831@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448545,
-    "wof:geomhash":"97cd26cd9a22baa2298a5a580ee2697b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5d67cebec23cb2e03f0dec679a20d765",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553619,
+            "region_id":85688603,
+            "venue_id":823861995
+        }
+    ],
     "wof:id":823861995,
-    "wof:lastmodified":1466419930,
+    "wof:lastmodified":1492122850,
     "wof:name":"Safe & Sound Property Insptn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553619,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

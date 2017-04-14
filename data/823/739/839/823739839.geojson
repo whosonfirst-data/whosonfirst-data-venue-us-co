@@ -2,9 +2,14 @@
   "id": 823739839,
   "type": "Feature",
   "properties": {
+    "addr:full":"11535 Potomac St Brighton CO 80603",
+    "addr:housenumber":"11535",
+    "addr:postcode":"80603",
+    "addr:street":"Potomac St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.827894,39.904632,-104.827894,39.904632",
     "geom:latitude":39.904632,
     "geom:longitude":-104.827894,
@@ -29,19 +34,36 @@
         "cattle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553583
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_169bJWJqbFUTym05E2bEGe_39.904632_-104.827894@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445156,
-    "wof:geomhash":"a7113ca7044d41e717f015b1ea459d13",
-    "wof:hierarchy":[],
+    "wof:geomhash":"97d2ad8c5f425b20aeeabb5c40e7eddd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553583,
+            "region_id":85688603,
+            "venue_id":823739839
+        }
+    ],
     "wof:id":823739839,
-    "wof:lastmodified":1466418848,
+    "wof:lastmodified":1492120338,
     "wof:name":"Reigle Farm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553583,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

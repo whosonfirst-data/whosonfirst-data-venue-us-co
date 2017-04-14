@@ -2,9 +2,14 @@
   "id": 839988691,
   "type": "Feature",
   "properties": {
+    "addr:full":"10376 Colorado Blvd Denver CO 80229",
+    "addr:housenumber":"10376",
+    "addr:postcode":"80229",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940165,39.88444,-104.940165,39.88444",
     "geom:latitude":39.88444,
     "geom:longitude":-104.940165,
@@ -29,19 +34,36 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3uO6f6KW7TB27NvTDYfFk2_39.884440_-104.940165@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460765,
-    "wof:geomhash":"e36f733ff9463c429c8b309370c755af",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d964fdab85cfa349923bccde715cb604",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553689,
+            "region_id":85688603,
+            "venue_id":839988691
+        }
+    ],
     "wof:id":839988691,
-    "wof:lastmodified":1466417425,
+    "wof:lastmodified":1492112812,
     "wof:name":"Subway",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

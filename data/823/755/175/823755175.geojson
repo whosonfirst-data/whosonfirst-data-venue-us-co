@@ -2,9 +2,14 @@
   "id": 823755175,
   "type": "Feature",
   "properties": {
+    "addr:full":"2727 Pine St Boulder CO 80302",
+    "addr:housenumber":"2727",
+    "addr:postcode":"80302",
+    "addr:street":"Pine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.25878,40.024473,-105.25878,40.024473",
     "geom:latitude":40.024473,
     "geom:longitude":-105.25878,
@@ -28,19 +33,36 @@
         "skin"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3nRPraZ5g7qDFYZ1qNrIhw_40.024473_-105.258780@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445512,
-    "wof:geomhash":"0241d7bbc9da5d97290d4c36718dae9d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"17d4f1c72a174c4e89c1e8af9fe739f7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":823755175
+        }
+    ],
     "wof:id":823755175,
-    "wof:lastmodified":1466418996,
+    "wof:lastmodified":1492122081,
     "wof:name":"Jamie Gordon Skin Care",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

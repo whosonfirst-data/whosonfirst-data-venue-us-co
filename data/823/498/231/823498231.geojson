@@ -2,9 +2,14 @@
   "id": 823498231,
   "type": "Feature",
   "properties": {
+    "addr:full":"5855 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"5855",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025468,39.803533,-105.025468,39.803533",
     "geom:latitude":39.803533,
     "geom:longitude":-105.025468,
@@ -32,19 +37,36 @@
         "scooter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_59O8nDjTAE00XLoERaWvH5_39.803533_-105.025468@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439535,
-    "wof:geomhash":"8f8e6432c72c9f2c2b2c6d3f8531cd84",
-    "wof:hierarchy":[],
+    "wof:geomhash":"65853673321b7692eab711a5d883d9ac",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553839,
+            "region_id":85688603,
+            "venue_id":823498231
+        }
+    ],
     "wof:id":823498231,
-    "wof:lastmodified":1466414133,
+    "wof:lastmodified":1492120328,
     "wof:name":"King's Custom Cycles",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

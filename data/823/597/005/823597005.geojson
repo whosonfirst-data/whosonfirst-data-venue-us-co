@@ -2,9 +2,14 @@
   "id": 823597005,
   "type": "Feature",
   "properties": {
+    "addr:full":"635 N 7th Ave Brighton CO 80601",
+    "addr:housenumber":"635",
+    "addr:postcode":"80601",
+    "addr:street":"N 7Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.813596,39.999102,-104.813596,39.999102",
     "geom:latitude":39.999102,
     "geom:longitude":-104.813596,
@@ -30,19 +35,36 @@
         "exploration"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Lb0VXpGPxiLqQyGXtA6Jo_39.999102_-104.813596@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441815,
-    "wof:geomhash":"e0f6c61d91a120947a682685b6202213",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d9b4dae7c0f245a394fbe835119e8017",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823597005
+        }
+    ],
     "wof:id":823597005,
-    "wof:lastmodified":1466417071,
+    "wof:lastmodified":1492116590,
     "wof:name":"KERR-Mc Gee Rocky Mountain",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

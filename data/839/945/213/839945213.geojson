@@ -2,9 +2,14 @@
   "id": 839945213,
   "type": "Feature",
   "properties": {
+    "addr:full":"3906 Promontory Ct Boulder CO 80304",
+    "addr:housenumber":"3906",
+    "addr:postcode":"80304",
+    "addr:street":"Promontory Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.293454,40.04669,-105.293454,40.04669",
     "geom:latitude":40.04669,
     "geom:longitude":-105.293454,
@@ -27,7 +32,14 @@
         "stone"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876397
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7VAzFYuzs9OYzWYH4I4j7X_40.046690_-105.293454@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463458863,
     "wof:geomhash":"72db80997f8e54f2eb1a95fbd0d44498",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876397,
+            "region_id":85688603,
+            "venue_id":839945213
+        }
+    ],
     "wof:id":839945213,
-    "wof:lastmodified":1466415139,
+    "wof:lastmodified":1491917819,
     "wof:name":"Amberly Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876397,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

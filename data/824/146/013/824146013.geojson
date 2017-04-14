@@ -2,9 +2,14 @@
   "id": 824146013,
   "type": "Feature",
   "properties": {
+    "addr:full":"999 Co Rd 207 Durango CO 81301",
+    "addr:housenumber":"999;207",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.938253,37.291273,-107.938253,37.291273",
     "geom:latitude":37.291273,
     "geom:longitude":-107.938253,
@@ -30,19 +35,34 @@
     ],
     "sg:website":"www.lightnercreekinn.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554653,
+        420554609
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2QTlqNEhuiA943HgEbX1Y3_37.291273_-107.938253@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455741,
-    "wof:geomhash":"ef7001d331965a316fde23d8b6f0036f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2acd285a210d6026a7ce06595c553419",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554653,
+            "venue_id":824146013
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554609,
+            "venue_id":824146013
+        }
+    ],
     "wof:id":824146013,
-    "wof:lastmodified":1466416390,
+    "wof:lastmodified":1492128007,
     "wof:name":"Lightner Creek Inn B & B",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

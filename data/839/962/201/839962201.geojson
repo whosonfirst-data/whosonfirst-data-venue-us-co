@@ -2,9 +2,14 @@
   "id": 839962201,
   "type": "Feature",
   "properties": {
+    "addr:full":"190 Arapahoe Ave Boulder CO 80302",
+    "addr:housenumber":"190",
+    "addr:postcode":"80302",
+    "addr:street":"Arapahoe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.294343,40.012783,-105.294343,40.012783",
     "geom:latitude":40.012783,
     "geom:longitude":-105.294343,
@@ -27,19 +32,36 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0XmRn47MVRwR7JsKexrJiq_40.012783_-105.294343@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459691,
-    "wof:geomhash":"771c101ef551e75132155560e2b24994",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3728d2045c8694e0fb3350db7341e4e4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":839962201
+        }
+    ],
     "wof:id":839962201,
-    "wof:lastmodified":1466415844,
+    "wof:lastmodified":1492112195,
     "wof:name":"Lirtzman Nehls & Hepner",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

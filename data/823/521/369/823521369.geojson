@@ -2,9 +2,14 @@
   "id": 823521369,
   "type": "Feature",
   "properties": {
+    "addr:full":"11980 Claude Ct Northglenn CO 80233",
+    "addr:housenumber":"11980",
+    "addr:postcode":"80233",
+    "addr:street":"Claude Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.960002,39.912626,-104.960002,39.912626",
     "geom:latitude":39.912626,
     "geom:longitude":-104.960002,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_32TRFHNLtHI8ZiZRxORBco_39.912626_-104.960002@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440057,
-    "wof:geomhash":"bcd7fdc0493fff40cceaec2490ec9ebe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3e1cb0f25d3df413ce5987f9c7383636",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823521369
+        }
+    ],
     "wof:id":823521369,
-    "wof:lastmodified":1466414892,
+    "wof:lastmodified":1492119617,
     "wof:name":"Trinity Christian Fellowship",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

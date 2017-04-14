@@ -2,9 +2,14 @@
   "id": 823954327,
   "type": "Feature",
   "properties": {
+    "addr:full":"1841 Columbine Ave Boulder CO 80302",
+    "addr:housenumber":"1841",
+    "addr:postcode":"80302",
+    "addr:street":"Columbine Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.269174,39.999207,-105.269174,39.999207",
     "geom:latitude":39.999207,
     "geom:longitude":-105.269174,
@@ -27,7 +32,14 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_74Xcs6KLgAQn17legXGjti_39.999207_-105.269174@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463450869,
     "wof:geomhash":"85ec609808ad95ba4d7b034b86b92de8",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":823954327
+        }
+    ],
     "wof:id":823954327,
-    "wof:lastmodified":1466420647,
+    "wof:lastmodified":1491890398,
     "wof:name":"Bioswat Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

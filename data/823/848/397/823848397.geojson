@@ -2,9 +2,14 @@
   "id": 823848397,
   "type": "Feature",
   "properties": {
+    "addr:full":"3400 Stanford Rd Fort Collins CO 80525",
+    "addr:housenumber":"3400",
+    "addr:postcode":"80525",
+    "addr:street":"Stanford Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.069956,40.541568,-105.069956,40.541568",
     "geom:latitude":40.541568,
     "geom:longitude":-105.069956,
@@ -27,19 +32,36 @@
         "communications"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Wa5FZtjYSzX2hq5TmFUKM_40.541568_-105.069956@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448180,
-    "wof:geomhash":"a1dddb83094fb17a217ece1d1db7055f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"73be468ac2ca1d3297134fa7ac3477dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":823848397
+        }
+    ],
     "wof:id":823848397,
-    "wof:lastmodified":1466419784,
+    "wof:lastmodified":1492127118,
     "wof:name":"Medialux  Net",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554749,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

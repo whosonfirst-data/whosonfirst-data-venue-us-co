@@ -2,9 +2,14 @@
   "id": 823899289,
   "type": "Feature",
   "properties": {
+    "addr:full":"2973 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"2973;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.841787,37.336468,-107.841787,37.336468",
     "geom:latitude":37.336468,
     "geom:longitude":-107.841787,
@@ -28,19 +33,28 @@
         "court"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5l3W5r6SuFzceYt9O9fqfL_37.336468_-107.841787@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449440,
-    "wof:geomhash":"624330327de1aa463d185848fd1aae62",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7c9f55b302dda182d790bc5a7f51fad8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823899289
+        }
+    ],
     "wof:id":823899289,
-    "wof:lastmodified":1466420188,
+    "wof:lastmodified":1492116069,
     "wof:name":"Durango Community Tennis Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

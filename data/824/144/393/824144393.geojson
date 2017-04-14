@@ -2,9 +2,14 @@
   "id": 824144393,
   "type": "Feature",
   "properties": {
+    "addr:full":"3188 Mesa Ave Grand Junction CO 81504",
+    "addr:housenumber":"3188",
+    "addr:postcode":"81504",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.462738,39.082622,-108.462738,39.082622",
     "geom:latitude":39.082622,
     "geom:longitude":-108.462738,
@@ -27,19 +32,36 @@
         "pump"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3uSBfP6SYpqkYMsx07tJzR_39.082622_-108.462738@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455668,
-    "wof:geomhash":"f42c5259a0d7454b8c6e07277b8917f5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"22ccde7aeff17c77344d8456c3aa864e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":824144393
+        }
+    ],
     "wof:id":824144393,
-    "wof:lastmodified":1466416583,
+    "wof:lastmodified":1492132287,
     "wof:name":"Pumps A Div Of Whc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

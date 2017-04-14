@@ -2,9 +2,14 @@
   "id": 823512485,
   "type": "Feature",
   "properties": {
+    "addr:full":"1102 Nevada Ave Trinidad CO 81082",
+    "addr:housenumber":"1102",
+    "addr:postcode":"81082",
+    "addr:street":"Nevada Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.510058,37.179039,-104.510058,37.179039",
     "geom:latitude":37.179039,
     "geom:longitude":-104.510058,
@@ -27,17 +32,32 @@
         "department"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929549,
+        102083357
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6cFpNZHd9zKySnfZTSLoeN_37.179039_-104.510058@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439845,
-    "wof:geomhash":"580456104ea15827ad62dc168624fd13",
-    "wof:hierarchy":[],
+    "wof:geomhash":"85920144db1146930c56afa36fd79d0f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083357,
+            "locality_id":85929549,
+            "region_id":85688603,
+            "venue_id":823512485
+        }
+    ],
     "wof:id":823512485,
-    "wof:lastmodified":1466414496,
+    "wof:lastmodified":1492117818,
     "wof:name":"Trinidad Fire Dept",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

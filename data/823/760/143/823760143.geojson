@@ -2,9 +2,14 @@
   "id": 823760143,
   "type": "Feature",
   "properties": {
+    "addr:full":"3282 75th St Boulder CO 80301",
+    "addr:housenumber":"3282",
+    "addr:postcode":"80301",
+    "addr:street":"75Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.178347,40.037725,-105.178347,40.037725",
     "geom:latitude":40.037725,
     "geom:longitude":-105.178347,
@@ -28,19 +33,28 @@
         "stair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554157
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1b1HCogJqxNBdNkR5iLrDo_40.037725_-105.178347@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445620,
-    "wof:geomhash":"b1fc8e1d518b5ffb333edf24f3d676ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"17c565dacd9dddd75e7980f7e6f4557f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554157,
+            "venue_id":823760143
+        }
+    ],
     "wof:id":823760143,
-    "wof:lastmodified":1466418988,
+    "wof:lastmodified":1492119797,
     "wof:name":"Concept Object Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554157,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

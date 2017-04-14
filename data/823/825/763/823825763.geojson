@@ -2,9 +2,14 @@
   "id": 823825763,
   "type": "Feature",
   "properties": {
+    "addr:full":"408 E 8th Ave Durango CO 81301",
+    "addr:housenumber":"408",
+    "addr:postcode":"co 81301",
+    "addr:street":"E 8Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.872719,37.266373,-107.872719,37.266373",
     "geom:latitude":37.266373,
     "geom:longitude":-107.872719,
@@ -30,19 +35,28 @@
         "plate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_781Rnpvqet4nM134JUoBb9_37.266373_-107.872719@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447471,
-    "wof:geomhash":"50e204df515af99b43a4670524d67cfb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"553fef750d3e98fdf263ed0bb04c9b43",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":823825763
+        }
+    ],
     "wof:id":823825763,
-    "wof:lastmodified":1466419619,
+    "wof:lastmodified":1492123471,
     "wof:name":"Durango Glass Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

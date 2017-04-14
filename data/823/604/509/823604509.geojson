@@ -2,9 +2,14 @@
   "id": 823604509,
   "type": "Feature",
   "properties": {
+    "addr:full":"2837 E 117th Way Denver CO 80233",
+    "addr:housenumber":"2837",
+    "addr:postcode":"80233",
+    "addr:street":"E 117Th Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.953128,39.909052,-104.953128,39.909052",
     "geom:latitude":39.909052,
     "geom:longitude":-104.953128,
@@ -27,19 +32,36 @@
         "handyman"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553911
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7OGoZfr0rPwgOk54vesCvP_39.909052_-104.953128@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442013,
-    "wof:geomhash":"2800031882b26bad6ca35780316f21cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ff9b5b2b140bb3ec3f3018881e3bba20",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553911,
+            "region_id":85688603,
+            "venue_id":823604509
+        }
+    ],
     "wof:id":823604509,
-    "wof:lastmodified":1466417225,
+    "wof:lastmodified":1492119004,
     "wof:name":"Handyman Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553911,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823735585,
   "type": "Feature",
   "properties": {
+    "addr:full":"3595 W 80th Ave Westminster CO 80030",
+    "addr:housenumber":"3595",
+    "addr:postcode":"80030",
+    "addr:street":"W 80Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033486,39.841879,-105.033486,39.841879",
     "geom:latitude":39.841879,
     "geom:longitude":-105.033486,
@@ -28,19 +33,36 @@
         "filing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553541
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_391Ssas6juoG9LCpO0SPeM_39.841879_-105.033486@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445055,
-    "wof:geomhash":"5639ab615688b191ccdf060abe404310",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dd814aa0c71dbce8594be0a39579b737",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553541,
+            "region_id":85688603,
+            "venue_id":823735585
+        }
+    ],
     "wof:id":823735585,
-    "wof:lastmodified":1466418712,
+    "wof:lastmodified":1492118692,
     "wof:name":"Grosso Income Tax Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553541,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

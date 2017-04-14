@@ -2,9 +2,14 @@
   "id": 823751283,
   "type": "Feature",
   "properties": {
+    "addr:full":"201 North Rd Durango CO 81303",
+    "addr:housenumber":"201",
+    "addr:postcode":"co 81303",
+    "addr:street":"North Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.959547,37.259117,-107.959547,37.259117",
     "geom:latitude":37.259117,
     "geom:longitude":-107.959547,
@@ -27,19 +32,28 @@
         "advisory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554719
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2jPR07NLHTamlkQlFRTKdG_37.259117_-107.959547@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445414,
-    "wof:geomhash":"1f30b0176ebf0afac2c0ed6e0924957e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d07be1c0ea86f176dd87f936e1e9f32",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554719,
+            "venue_id":823751283
+        }
+    ],
     "wof:id":823751283,
-    "wof:lastmodified":1466418940,
+    "wof:lastmodified":1492116474,
     "wof:name":"Cline Financial LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554719,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

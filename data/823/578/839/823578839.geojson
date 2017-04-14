@@ -2,9 +2,14 @@
   "id": 823578839,
   "type": "Feature",
   "properties": {
+    "addr:full":"255 St Andrews Cir Durango CO 81301",
+    "addr:housenumber":"255",
+    "addr:postcode":"co 81301",
+    "addr:street":"St Andrews Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.841272,37.396663,-107.841272,37.396663",
     "geom:latitude":37.396663,
     "geom:longitude":-107.841272,
@@ -28,19 +33,28 @@
         "operative"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554695
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4AgEXGnwUCFosZv8FdBJYo_37.396663_-107.841272@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441396,
-    "wof:geomhash":"32449cdb3657386b43cda04ffc4bbf5f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c5400f3eaa989502c3a3e5052f874809",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554695,
+            "venue_id":823578839
+        }
+    ],
     "wof:id":823578839,
-    "wof:lastmodified":1466416491,
+    "wof:lastmodified":1492122713,
     "wof:name":"Concordia Homes Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554695,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

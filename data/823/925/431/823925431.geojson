@@ -2,9 +2,14 @@
   "id": 823925431,
   "type": "Feature",
   "properties": {
+    "addr:full":"812 Cherry St Cortez CO 81321",
+    "addr:housenumber":"812",
+    "addr:postcode":"81321",
+    "addr:street":"Cherry St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.556068,37.359228,-108.556068,37.359228",
     "geom:latitude":37.359228,
     "geom:longitude":-108.556068,
@@ -28,19 +33,28 @@
         "locksmith"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_69Tsl1esqFRbXN3cdOTgLj_37.359228_-108.556068@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450135,
-    "wof:geomhash":"a04472207616a8a6e31a72e780131489",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f30158e6532302161df99d38b3043ced",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823925431
+        }
+    ],
     "wof:id":823925431,
-    "wof:lastmodified":1466420495,
+    "wof:lastmodified":1492126363,
     "wof:name":"A Key & Lock Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

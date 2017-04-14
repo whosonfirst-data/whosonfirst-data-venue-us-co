@@ -2,9 +2,14 @@
   "id": 823970841,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"500",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.993732,39.848864,-104.993732,39.848864",
     "geom:latitude":39.848864,
     "geom:longitude":-104.993732,
@@ -27,19 +32,36 @@
         "manicuring"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553867
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6XqEhPmo3QiOQjwM5i54ii_39.848864_-104.993732@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451273,
-    "wof:geomhash":"ac104d444774c5283ceafe311cccc5d2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bd6d2c91fefea87b8a4f73131f72dbe6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553867,
+            "region_id":85688603,
+            "venue_id":823970841
+        }
+    ],
     "wof:id":823970841,
-    "wof:lastmodified":1466420860,
+    "wof:lastmodified":1492116691,
     "wof:name":"Ocean Nails",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553867,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824081293,
   "type": "Feature",
   "properties": {
+    "addr:full":"624 Ox Bow Rd Grand Junction CO 81504",
+    "addr:housenumber":"624",
+    "addr:postcode":"81504",
+    "addr:street":"Ox Bow Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.502036,39.095392,-108.502036,39.095392",
     "geom:latitude":39.095392,
     "geom:longitude":-108.502036,
@@ -32,19 +37,42 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554815,
+        85688603,
+        102191575,
+        85929587,
+        102085221,
+        420554999
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5CYxjzfhbvcknMmLqUQMLW_39.095392_-108.502036@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453881,
-    "wof:geomhash":"31dd4bcf54fb1c6b132ae48e40815263",
-    "wof:hierarchy":[],
+    "wof:geomhash":"92503f6f911aa48269222925f84ff0be",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554815,
+            "venue_id":824081293
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554999,
+            "region_id":85688603,
+            "venue_id":824081293
+        }
+    ],
     "wof:id":824081293,
-    "wof:lastmodified":1466414708,
+    "wof:lastmodified":1492129201,
     "wof:name":"Mountain View Storage Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

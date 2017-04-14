@@ -2,9 +2,14 @@
   "id": 824061021,
   "type": "Feature",
   "properties": {
+    "addr:full":"1473 North St Boulder CO 80304",
+    "addr:housenumber":"1473",
+    "addr:postcode":"80304",
+    "addr:street":"North St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276889,40.024627,-105.276889,40.024627",
     "geom:latitude":40.024627,
     "geom:longitude":-105.276889,
@@ -27,7 +32,14 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_78Sxpp4V04AWKxpCSuNCLJ_40.024627_-105.276889@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463453412,
     "wof:geomhash":"cf208a6bf34524386b07784bf6085fa3",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":824061021
+        }
+    ],
     "wof:id":824061021,
-    "wof:lastmodified":1466414413,
+    "wof:lastmodified":1491888508,
     "wof:name":"Jim Bates Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

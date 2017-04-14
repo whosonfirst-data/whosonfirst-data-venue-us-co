@@ -2,9 +2,14 @@
   "id": 839949017,
   "type": "Feature",
   "properties": {
+    "addr:full":"1213 11th Ave Greeley CO 80631",
+    "addr:housenumber":"1213",
+    "addr:postcode":"80631",
+    "addr:street":"11Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.696362,40.419306,-104.696362,40.419306",
     "geom:latitude":40.419306,
     "geom:longitude":-104.696362,
@@ -30,12 +35,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,8 +48,16 @@
     },
     "wof:country":"US",
     "wof:created":1463459085,
-    "wof:geomhash":"51a127ab4abf8d483f609e734d5f5cd1",
+    "wof:geomhash":"01d564b2836c00329ea1c2bc8359207f",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":839949017
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -53,20 +66,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":839949017
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":839949017
         }
     ],
     "wof:id":839949017,
-    "wof:lastmodified":1466415036,
+    "wof:lastmodified":1492111708,
     "wof:name":"RENTER.NET",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

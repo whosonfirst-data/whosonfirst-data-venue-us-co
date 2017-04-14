@@ -2,9 +2,14 @@
   "id": 823971431,
   "type": "Feature",
   "properties": {
+    "addr:full":"592 N Commercial Dr Grand Junction CO 81505",
+    "addr:housenumber":"592",
+    "addr:postcode":"81505",
+    "addr:street":"N Commercial Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.585378,39.089031,-108.585378,39.089031",
     "geom:latitude":39.089031,
     "geom:longitude":-108.585378,
@@ -27,19 +32,36 @@
         "bird"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554951
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_34Jwo2xARO67jhOEKf8Cej_39.089031_-108.585378@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451283,
-    "wof:geomhash":"09f47e38675786db6e33d55906d9075b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f1f8da02c20897c8c8da7c0f2c607ef6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554951,
+            "region_id":85688603,
+            "venue_id":823971431
+        }
+    ],
     "wof:id":823971431,
-    "wof:lastmodified":1466420824,
+    "wof:lastmodified":1492116287,
     "wof:name":"Dancing Parrot",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554951,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

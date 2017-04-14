@@ -2,9 +2,14 @@
   "id": 823943851,
   "type": "Feature",
   "properties": {
+    "addr:full":"29 N Linden St Cortez CO 81321",
+    "addr:housenumber":"29",
+    "addr:postcode":"81321",
+    "addr:street":"N Linden St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.589231,37.349631,-108.589231,37.349631",
     "geom:latitude":37.349631,
     "geom:longitude":-108.589231,
@@ -27,19 +32,28 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3T32by9J2nvsBtWaTT8FUE_37.349631_-108.589231@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450612,
-    "wof:geomhash":"e0abd165c5a67128160cc016b8c63503",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fe5bef69f88f2d9ddf7491b9f982c7d1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823943851
+        }
+    ],
     "wof:id":823943851,
-    "wof:lastmodified":1466420670,
+    "wof:lastmodified":1492123090,
     "wof:name":"Michael Fletcher DDS",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

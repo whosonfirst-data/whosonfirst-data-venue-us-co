@@ -2,9 +2,14 @@
   "id": 823575985,
   "type": "Feature",
   "properties": {
+    "addr:full":"6996 Sweetwater Ct Boulder CO 80301",
+    "addr:housenumber":"6996",
+    "addr:postcode":"80301",
+    "addr:street":"Sweetwater Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.19126,40.056938,-105.19126,40.056938",
     "geom:latitude":40.056938,
     "geom:longitude":-105.19126,
@@ -27,19 +32,36 @@
         "agency"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554161
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3s8ENsfxVan9rKFInoPVnz_40.056938_-105.191260@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441323,
-    "wof:geomhash":"efe52942fad330165d43abcc9be1ace6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"da0de29997ee95db23699be39d71a1e6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554161,
+            "region_id":85688603,
+            "venue_id":823575985
+        }
+    ],
     "wof:id":823575985,
-    "wof:lastmodified":1466416507,
+    "wof:lastmodified":1492116403,
     "wof:name":"Flagstaff Travel Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554161,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

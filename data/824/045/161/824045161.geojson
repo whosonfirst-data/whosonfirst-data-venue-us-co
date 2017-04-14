@@ -2,9 +2,14 @@
   "id": 824045161,
   "type": "Feature",
   "properties": {
+    "addr:full":"8787 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"8787",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05318,39.854225,-105.05318,39.854225",
     "geom:latitude":39.854225,
     "geom:longitude":-105.05318,
@@ -27,19 +32,36 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7QY20zFCmxPjoip2FQI139_39.854225_-105.053180@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453042,
-    "wof:geomhash":"e648c63f268fa226c50e01de9142a41c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a7f3a696824dffea1863f98eec37ba6a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":824045161
+        }
+    ],
     "wof:id":824045161,
-    "wof:lastmodified":1466414256,
+    "wof:lastmodified":1492129559,
     "wof:name":"On Rox",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

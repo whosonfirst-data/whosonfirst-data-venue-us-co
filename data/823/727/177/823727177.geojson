@@ -2,9 +2,14 @@
   "id": 823727177,
   "type": "Feature",
   "properties": {
+    "addr:full":"2540 W Barberry Pl Denver CO 80204",
+    "addr:housenumber":"2540",
+    "addr:postcode":"80204",
+    "addr:street":"W Barberry Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018584,39.730221,-105.018584,39.730221",
     "geom:latitude":39.730221,
     "geom:longitude":-105.018584,
@@ -27,7 +32,15 @@
         "mover"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5HCH8QxS0GmoGp1dIIe8qr_39.730221_-105.018584@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463444829,
     "wof:geomhash":"e84bc70e378b1cefc4caf2c5093e4206",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":823727177
+        }
+    ],
     "wof:id":823727177,
-    "wof:lastmodified":1466418728,
+    "wof:lastmodified":1486589092,
     "wof:name":"Plycon Van Lines",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

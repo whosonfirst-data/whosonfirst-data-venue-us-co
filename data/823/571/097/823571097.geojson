@@ -2,9 +2,14 @@
   "id": 823571097,
   "type": "Feature",
   "properties": {
+    "addr:full":"28310 Co Rd 31 Oak Creek CO 80467",
+    "addr:housenumber":"28310;31",
+    "addr:postcode":"80467",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.045427,40.329902,-107.045427,40.329902",
     "geom:latitude":40.329902,
     "geom:longitude":-107.045427,
@@ -27,19 +32,28 @@
         "guide"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555311
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1rEC736fpEOixt8casQRcz_40.329902_-107.045427@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441210,
-    "wof:geomhash":"84e03d380316c45fd58a24f88fc4b43c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6f8d133dd959559fb526215f86ab7b7a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555311,
+            "venue_id":823571097
+        }
+    ],
     "wof:id":823571097,
-    "wof:lastmodified":1466416360,
+    "wof:lastmodified":1492125271,
     "wof:name":"Middle Creek Ranch Outfitters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

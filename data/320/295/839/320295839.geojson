@@ -2,9 +2,14 @@
   "id": 320295839,
   "type": "Feature",
   "properties": {
+    "addr:full":"1056 E 19th Ave Denver CO 80218",
+    "addr:housenumber":"1056",
+    "addr:postcode":"80218",
+    "addr:street":"E 19Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974536,39.746039,-104.974536,39.746039",
     "geom:latitude":39.746039,
     "geom:longitude":-104.974536,
@@ -39,11 +44,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750115,
+        85871289,
+        102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85871303
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -53,19 +61,21 @@
     "wof:geomhash":"cb73fc3bb21c5f56408c8c7d5ccd7700",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85871303,
+            "macrohood_id":1108750025,
+            "microhood_id":1108750115,
+            "neighbourhood_id":85871289,
             "region_id":85688603,
             "venue_id":320295839
         }
     ],
     "wof:id":320295839,
-    "wof:lastmodified":1466413025,
+    "wof:lastmodified":1486604498,
     "wof:name":"Anderson Marsha MD",
-    "wof:parent_id":85871303,
+    "wof:parent_id":1108750115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

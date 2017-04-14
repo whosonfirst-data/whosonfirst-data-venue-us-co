@@ -2,9 +2,14 @@
   "id": 839933563,
   "type": "Feature",
   "properties": {
+    "addr:full":"1000 Orange Pl Boulder CO 80304",
+    "addr:housenumber":"1000",
+    "addr:postcode":"80304",
+    "addr:street":"Orange Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.283908,40.044108,-105.283908,40.044108",
     "geom:latitude":40.044108,
     "geom:longitude":-105.283908,
@@ -27,7 +32,14 @@
         "educational"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876397
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_495Gd6zCaEKPZIsF2nElzO_40.044108_-105.283908@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463458163,
     "wof:geomhash":"10070494a0411d726e4590244d94563e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876397,
+            "region_id":85688603,
+            "venue_id":839933563
+        }
+    ],
     "wof:id":839933563,
-    "wof:lastmodified":1466414243,
+    "wof:lastmodified":1491917818,
     "wof:name":"Educational Discoveries",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876397,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823522795,
   "type": "Feature",
   "properties": {
+    "addr:full":"2395 W Evans Ave Denver CO 80223",
+    "addr:housenumber":"2395",
+    "addr:postcode":"80223",
+    "addr:street":"W Evans Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.013936,39.678742,-105.013936,39.678742",
     "geom:latitude":39.678742,
     "geom:longitude":-105.013936,
@@ -28,7 +33,15 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Gb4ds0naTz42kO1JKOhOz_39.678742_-105.013936@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463440086,
     "wof:geomhash":"4bc3c4c80687a6e172599d400ecc3677",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":823522795
+        }
+    ],
     "wof:id":823522795,
-    "wof:lastmodified":1466414956,
+    "wof:lastmodified":1491876087,
     "wof:name":"John's Auto Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

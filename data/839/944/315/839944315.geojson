@@ -2,9 +2,14 @@
   "id": 839944315,
   "type": "Feature",
   "properties": {
+    "addr:full":"10115 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"10115",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.869492,39.740282,-104.869492,39.740282",
     "geom:latitude":39.740282,
     "geom:longitude":-104.869492,
@@ -28,19 +33,36 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_53c5oGECDKUPFDtXuw4tvg_39.740282_-104.869492@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458825,
-    "wof:geomhash":"96a980fb2d89624feefe5e337caf9d9f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6eef3ea82f727f8d79300dea890e7568",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":839944315
+        }
+    ],
     "wof:id":839944315,
-    "wof:lastmodified":1466414980,
+    "wof:lastmodified":1492113961,
     "wof:name":"Carlottas Extended Ftwr LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

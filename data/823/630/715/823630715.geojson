@@ -2,9 +2,14 @@
   "id": 823630715,
   "type": "Feature",
   "properties": {
+    "addr:full":"10726 Kipling Way Broomfield CO 80021",
+    "addr:housenumber":"10726",
+    "addr:postcode":"80021",
+    "addr:street":"Kipling Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.108619,39.891444,-105.108619,39.891444",
     "geom:latitude":39.891444,
     "geom:longitude":-105.108619,
@@ -27,19 +32,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5RFncyfJImn0grTQNroQXq_39.891444_-105.108619@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442645,
-    "wof:geomhash":"1baddaf96647eb2df2d6482ab44e00c4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2f36a126f15d2eb72ae9a4841f92b424",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823630715
+        }
+    ],
     "wof:id":823630715,
-    "wof:lastmodified":1466417655,
+    "wof:lastmodified":1492123693,
     "wof:name":"B & B Glass Creations",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 320191019,
   "type": "Feature",
   "properties": {
+    "addr:full":"127 Broadway Denver CO 80209",
+    "addr:housenumber":"127",
+    "addr:postcode":"80209",
+    "addr:street":"Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.987556,39.714221,-104.987556,39.714221",
     "geom:latitude":39.714221,
     "geom:longitude":-104.987556,
@@ -28,11 +33,13 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        85871285,
+        102191575,
+        1108750033,
         85633793,
         85928879,
         102086135,
-        85871369
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +49,20 @@
     "wof:geomhash":"050a4649f3f0287d319d28ab6e6cac06",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85871369,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871285,
             "region_id":85688603,
             "venue_id":320191019
         }
     ],
     "wof:id":320191019,
-    "wof:lastmodified":1466413513,
+    "wof:lastmodified":1491876160,
     "wof:name":"Pleasures",
-    "wof:parent_id":85871369,
+    "wof:parent_id":85871285,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

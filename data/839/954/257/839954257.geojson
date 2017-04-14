@@ -2,9 +2,14 @@
   "id": 839954257,
   "type": "Feature",
   "properties": {
+    "addr:full":"1076 S Federal Blvd Denver CO 80219",
+    "addr:housenumber":"1076",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025006,39.698177,-105.025006,39.698177",
     "geom:latitude":39.698177,
     "geom:longitude":-105.025006,
@@ -28,7 +33,15 @@
         "bureau"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554317,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_37GhXUhHT7AvgpIPLwfdS7_39.698177_-105.025006@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463459360,
     "wof:geomhash":"3364e554b5655b3bde13126c4758ddc7",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554317,
+            "region_id":85688603,
+            "venue_id":839954257
+        }
+    ],
     "wof:id":839954257,
-    "wof:lastmodified":1466415402,
+    "wof:lastmodified":1491876152,
     "wof:name":"Mekong Travel",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

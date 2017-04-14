@@ -2,9 +2,14 @@
   "id": 823777535,
   "type": "Feature",
   "properties": {
+    "addr:full":"1220 Lynnwood Dr Fort Collins CO 80521",
+    "addr:housenumber":"1220",
+    "addr:postcode":"80521",
+    "addr:street":"Lynnwood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.102021,40.571445,-105.102021,40.571445",
     "geom:latitude":40.571445,
     "geom:longitude":-105.102021,
@@ -28,19 +33,36 @@
         "maintenance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_09KKi4KHvup8VmNQthtggg_40.571445_-105.102021@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446020,
-    "wof:geomhash":"407da7ba92564f33c9a6082902747296",
-    "wof:hierarchy":[],
+    "wof:geomhash":"df70d428b49b782eaa2f30a529ffdeb5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":823777535
+        }
+    ],
     "wof:id":823777535,
-    "wof:lastmodified":1466419139,
+    "wof:lastmodified":1492122221,
     "wof:name":"Delbert Duncan",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

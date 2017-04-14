@@ -2,9 +2,14 @@
   "id": 823824409,
   "type": "Feature",
   "properties": {
+    "addr:full":"400 S Cam del Rio Durango CO 81301",
+    "addr:housenumber":"400",
+    "addr:postcode":"co 81301",
+    "addr:street":"S Cam Del Rio",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.875066,37.249294,-107.875066,37.249294",
     "geom:latitude":37.249294,
     "geom:longitude":-107.875066,
@@ -27,19 +32,28 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4rEHfQKQ4nBHTQ2E3ywXVS_37.249294_-107.875066@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447427,
-    "wof:geomhash":"5009a6125c344f59b763928485e75194",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9ca7d925a32a4c6161fbc254d44c90ee",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":823824409
+        }
+    ],
     "wof:id":823824409,
-    "wof:lastmodified":1466419583,
+    "wof:lastmodified":1492123001,
     "wof:name":"Health Net Federal Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

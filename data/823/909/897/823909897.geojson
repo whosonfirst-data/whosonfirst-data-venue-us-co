@@ -2,9 +2,14 @@
   "id": 823909897,
   "type": "Feature",
   "properties": {
+    "addr:full":"448 N Main St Mancos CO 81328",
+    "addr:housenumber":"448",
+    "addr:postcode":"81328",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.28917,37.349319,-108.28917,37.349319",
     "geom:latitude":37.349319,
     "geom:longitude":-108.28917,
@@ -28,19 +33,36 @@
         "nursing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928921,
+        102084099,
+        420555101
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_47OxmDAGtMTaty3bS80Opr_37.349319_-108.289170@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449743,
-    "wof:geomhash":"7026b12f8762afec5e15912a6d51af99",
-    "wof:hierarchy":[],
+    "wof:geomhash":"26940137eb7d8779f89d6f18eb3fdd2a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928921,
+            "neighbourhood_id":420555101,
+            "region_id":85688603,
+            "venue_id":823909897
+        }
+    ],
     "wof:id":823909897,
-    "wof:lastmodified":1466420266,
+    "wof:lastmodified":1492122971,
     "wof:name":"C & G Health Care Management",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555101,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

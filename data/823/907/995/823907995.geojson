@@ -2,9 +2,14 @@
   "id": 823907995,
   "type": "Feature",
   "properties": {
+    "addr:full":"114 Co Rd 246 Durango CO 81301",
+    "addr:housenumber":"114;246",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.732005,37.331803,-107.732005,37.331803",
     "geom:latitude":37.331803,
     "geom:longitude":-107.732005,
@@ -28,19 +33,28 @@
         "architectural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4hwvU8ZT4MEQu46tHQSdBl_37.331803_-107.732005@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449670,
-    "wof:geomhash":"927db195ddfbe369fc7378517bf502fc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"72798bd229b22a7389da08588572988e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554717,
+            "venue_id":823907995
+        }
+    ],
     "wof:id":823907995,
-    "wof:lastmodified":1466420326,
+    "wof:lastmodified":1492126728,
     "wof:name":"TMA Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824150705,
   "type": "Feature",
   "properties": {
+    "addr:full":"8630 Pearl St Thornton CO 80229",
+    "addr:housenumber":"8630",
+    "addr:postcode":"80229",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979233,39.853885,-104.979233,39.853885",
     "geom:latitude":39.853885,
     "geom:longitude":-104.979233,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ULbOCkpxT0hcehuUiKpt0_39.853885_-104.979233@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455938,
-    "wof:geomhash":"0721096e33358b1c8809d5ded51bba34",
-    "wof:hierarchy":[],
+    "wof:geomhash":"46354326aecbc30835ede901572ca3fa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":824150705
+        }
+    ],
     "wof:id":824150705,
-    "wof:lastmodified":1466416948,
+    "wof:lastmodified":1492131989,
     "wof:name":"COS Systems Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

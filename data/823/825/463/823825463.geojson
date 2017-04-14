@@ -2,9 +2,14 @@
   "id": 823825463,
   "type": "Feature",
   "properties": {
+    "addr:full":"13225 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"13225;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.80289,37.45626,-107.80289,37.45626",
     "geom:latitude":37.45626,
     "geom:longitude":-107.80289,
@@ -27,19 +32,28 @@
         "veterinarian"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554647
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_10dGFKC3IYP5SOzXYRuRJu_37.456260_-107.802890@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447464,
-    "wof:geomhash":"648af72ca170754ea1c8674ef623b73d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"134d07c10e4f3fed7cd64a8e98ff202c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554647,
+            "venue_id":823825463
+        }
+    ],
     "wof:id":823825463,
-    "wof:lastmodified":1466419600,
+    "wof:lastmodified":1492123469,
     "wof:name":"Baker's Bridge Veterinary Clnc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554647,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

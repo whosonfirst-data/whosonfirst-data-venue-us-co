@@ -2,9 +2,14 @@
   "id": 823517261,
   "type": "Feature",
   "properties": {
+    "addr:full":"331 Sienna Ct Grand Junction CO 81503",
+    "addr:housenumber":"331",
+    "addr:postcode":"81503",
+    "addr:street":"Sienna Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.650604,39.056457,-108.650604,39.056457",
     "geom:latitude":39.056457,
     "geom:longitude":-108.650604,
@@ -28,19 +33,36 @@
         "gasoline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420555017
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Jd3ntvHpuh8PQ6VNCptCk_39.056457_-108.650604@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439958,
-    "wof:geomhash":"0a7f08f9cbf63a1a4f99060154078ada",
-    "wof:hierarchy":[],
+    "wof:geomhash":"750d2704b5f39041f4957754b8719ad8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555017,
+            "region_id":85688603,
+            "venue_id":823517261
+        }
+    ],
     "wof:id":823517261,
-    "wof:lastmodified":1466414635,
+    "wof:lastmodified":1492124513,
     "wof:name":"Canyon Convenience Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555017,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

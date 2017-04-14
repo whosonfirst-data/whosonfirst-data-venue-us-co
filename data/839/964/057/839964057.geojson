@@ -2,9 +2,14 @@
   "id": 839964057,
   "type": "Feature",
   "properties": {
+    "addr:full":"143 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"143;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.84847,37.29968,-107.84847,37.29968",
     "geom:latitude":37.29968,
     "geom:longitude":-107.84847,
@@ -27,19 +32,28 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6GDrcf5dvedp1SMPkJX13T_37.299680_-107.848470@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459776,
-    "wof:geomhash":"6b2088d3465cc7c24ae9935d9d02a8ec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d0dd1a9a20acba1df2c439297fe50991",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":839964057
+        }
+    ],
     "wof:id":839964057,
-    "wof:lastmodified":1466415919,
+    "wof:lastmodified":1492111292,
     "wof:name":"Kent T Haynes DDS",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

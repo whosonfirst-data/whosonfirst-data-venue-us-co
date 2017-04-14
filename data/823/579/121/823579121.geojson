@@ -2,9 +2,14 @@
   "id": 823579121,
   "type": "Feature",
   "properties": {
+    "addr:full":"4131 S Julian Way Denver CO 80236",
+    "addr:housenumber":"4131",
+    "addr:postcode":"80236",
+    "addr:street":"S Julian Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030811,39.641821,-105.030811,39.641821",
     "geom:latitude":39.641821,
     "geom:longitude":-105.030811,
@@ -28,19 +33,38 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85868407,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_65z4TfG4PLjoBIMI8UD1Sp_39.641821_-105.030811@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441403,
-    "wof:geomhash":"6716ee1f8f15ff9f2bdcd954f5dabcf7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d6eb2105874ff72afe42686df2e3a2b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85868407,
+            "region_id":85688603,
+            "venue_id":823579121
+        }
+    ],
     "wof:id":823579121,
-    "wof:lastmodified":1466416435,
+    "wof:lastmodified":1492121687,
     "wof:name":"Community Housing and Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":85868407,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

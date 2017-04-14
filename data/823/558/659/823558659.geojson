@@ -2,9 +2,14 @@
   "id": 823558659,
   "type": "Feature",
   "properties": {
+    "addr:full":"515 S Main St Gunnison CO 81230",
+    "addr:housenumber":"515",
+    "addr:postcode":"81230",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.926932,38.539359,-106.926932,38.539359",
     "geom:latitude":38.539359,
     "geom:longitude":-106.926932,
@@ -28,19 +33,36 @@
         "custom"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554465
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4n4TeYHSrubd81qV6dQKxA_38.539359_-106.926932@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440902,
-    "wof:geomhash":"3c496c592abd937910ae7691dc8d0b94",
-    "wof:hierarchy":[],
+    "wof:geomhash":"099d7d8f15516c9d311acf7cbccec3dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554465,
+            "region_id":85688603,
+            "venue_id":823558659
+        }
+    ],
     "wof:id":823558659,
-    "wof:lastmodified":1466416136,
+    "wof:lastmodified":1492117735,
     "wof:name":"Crazy Horse Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554465,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

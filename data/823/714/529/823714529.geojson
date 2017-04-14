@@ -2,9 +2,14 @@
   "id": 823714529,
   "type": "Feature",
   "properties": {
+    "addr:full":"2300 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"2300",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.958168,39.913807,-104.958168,39.913807",
     "geom:latitude":39.913807,
     "geom:longitude":-104.958168,
@@ -24,19 +29,47 @@
     "sg:postcode":"80233",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553653,
+        85929143,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3r9rf70PZWLX9ae6QzEd7D_39.913807_-104.958168@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444539,
-    "wof:geomhash":"07662bc10af37dbd68d8833cf32e2441",
-    "wof:hierarchy":[],
+    "wof:geomhash":"42d1f7eb13d2564a452a4f88ca786826",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553653,
+            "region_id":85688603,
+            "venue_id":823714529
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823714529
+        }
+    ],
     "wof:id":823714529,
-    "wof:lastmodified":1466418783,
+    "wof:lastmodified":1492126337,
     "wof:name":"Prudential",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

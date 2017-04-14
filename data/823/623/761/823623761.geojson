@@ -2,9 +2,14 @@
   "id": 823623761,
   "type": "Feature",
   "properties": {
+    "addr:full":"2261 Broadway Grand Junction CO 81503",
+    "addr:housenumber":"2261",
+    "addr:postcode":"81503",
+    "addr:street":"Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.63359,39.077448,-108.63359,39.077448",
     "geom:latitude":39.077448,
     "geom:longitude":-108.63359,
@@ -27,19 +32,36 @@
         "planner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554975
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5eCVulmnIYdN88yTGhUAuk_39.077448_-108.633590@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442488,
-    "wof:geomhash":"ad5c1c58e4a85c96e6a64637647070a3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"21d406a2323ad5870f0b8ea8f1346658",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554975,
+            "region_id":85688603,
+            "venue_id":823623761
+        }
+    ],
     "wof:id":823623761,
-    "wof:lastmodified":1466417508,
+    "wof:lastmodified":1492117860,
     "wof:name":"Edward Delduca & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554975,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

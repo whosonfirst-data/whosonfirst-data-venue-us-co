@@ -2,9 +2,14 @@
   "id": 823620679,
   "type": "Feature",
   "properties": {
+    "addr:full":"3175 18th St Boulder CO 80304",
+    "addr:housenumber":"3175",
+    "addr:postcode":"80304",
+    "addr:street":"18Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.274248,40.030383,-105.274248,40.030383",
     "geom:latitude":40.030383,
     "geom:longitude":-105.274248,
@@ -28,19 +33,36 @@
         "furnishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4O6M52zIy4F4N6okwCSeiA_40.030383_-105.274248@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442414,
-    "wof:geomhash":"1572a9736a370182c1e52f2fc8e1b155",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75f5d658463f361e74d3f827e8af885f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":823620679
+        }
+    ],
     "wof:id":823620679,
-    "wof:lastmodified":1466417488,
+    "wof:lastmodified":1492124006,
     "wof:name":"Netequestrian Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

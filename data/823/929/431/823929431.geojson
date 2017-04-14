@@ -2,9 +2,14 @@
   "id": 823929431,
   "type": "Feature",
   "properties": {
+    "addr:full":"2799 Winters Ave Grand Junction CO 81501",
+    "addr:housenumber":"2799",
+    "addr:postcode":"81501",
+    "addr:street":"Winters Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.533792,39.058378,-108.533792,39.058378",
     "geom:latitude":39.058378,
     "geom:longitude":-108.533792,
@@ -27,19 +32,36 @@
         "courier"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554841
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ORc2rQxhXS9HTTQJYiWDX_39.058378_-108.533792@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450231,
-    "wof:geomhash":"8d710e69df0399dcb5f66f125b0e5e0d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9df8038bee7941488e41ba90d45d6e32",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554841,
+            "region_id":85688603,
+            "venue_id":823929431
+        }
+    ],
     "wof:id":823929431,
-    "wof:lastmodified":1466420125,
+    "wof:lastmodified":1492123509,
     "wof:name":"Fedex Ground Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554841,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

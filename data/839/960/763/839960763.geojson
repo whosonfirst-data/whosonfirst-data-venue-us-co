@@ -2,9 +2,14 @@
   "id": 839960763,
   "type": "Feature",
   "properties": {
+    "addr:full":"19672 E 34th Dr Aurora CO 80011",
+    "addr:housenumber":"19672",
+    "addr:postcode":"80011",
+    "addr:street":"E 34Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.759095,39.761173,-104.759095,39.761173",
     "geom:latitude":39.761173,
     "geom:longitude":-104.759095,
@@ -27,19 +32,36 @@
         "plumbing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553297
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_26OMzlsLtkTgxaUL2UuQni_39.761173_-104.759095@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459640,
-    "wof:geomhash":"77a6fefba48116d9a35b3d7989ee47a3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e306d8f6e01bc743b82d675fc5504b67",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553297,
+            "region_id":85688603,
+            "venue_id":839960763
+        }
+    ],
     "wof:id":839960763,
-    "wof:lastmodified":1466415612,
+    "wof:lastmodified":1492111677,
     "wof:name":"Austin Power",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553297,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823663371,
   "type": "Feature",
   "properties": {
+    "addr:full":"1313 Nevada Ave Trinidad CO 81082",
+    "addr:housenumber":"1313",
+    "addr:postcode":"81082",
+    "addr:street":"Nevada Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.510191,37.181042,-104.510191,37.181042",
     "geom:latitude":37.181042,
     "geom:longitude":-104.510191,
@@ -27,17 +32,32 @@
         "concrete"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929549,
+        102083357
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_71Hs5L5zJg3s50owGPjMJZ_37.181042_-104.510191@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443418,
-    "wof:geomhash":"bfa0cc2db5c39c6e1a6cffe478709209",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0785f3d9cdf1272491cf5dec03cb9ed4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083357,
+            "locality_id":85929549,
+            "region_id":85688603,
+            "venue_id":823663371
+        }
+    ],
     "wof:id":823663371,
-    "wof:lastmodified":1466418204,
+    "wof:lastmodified":1492121784,
     "wof:name":"Concrete Contractor",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

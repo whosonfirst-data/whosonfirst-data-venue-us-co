@@ -2,9 +2,14 @@
   "id": 823952231,
   "type": "Feature",
   "properties": {
+    "addr:full":"535 S 5th St Grand Junction CO 81501",
+    "addr:housenumber":"535",
+    "addr:postcode":"81501",
+    "addr:street":"S 5Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.564541,39.06316,-108.564541,39.06316",
     "geom:latitude":39.06316,
     "geom:longitude":-108.564541,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2USl6VSVjwoHivoFjbTKot_39.063160_-108.564541@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450827,
-    "wof:geomhash":"3549d9ef3d45c8bba2a326fd50a54e2c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d625a2f1f1f1801539c51d4f01a9148f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554839,
+            "region_id":85688603,
+            "venue_id":823952231
+        }
+    ],
     "wof:id":823952231,
-    "wof:lastmodified":1466420710,
+    "wof:lastmodified":1492120716,
     "wof:name":"U W Freight Line Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

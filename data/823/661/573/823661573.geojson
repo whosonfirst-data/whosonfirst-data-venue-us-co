@@ -2,9 +2,14 @@
   "id": 823661573,
   "type": "Feature",
   "properties": {
+    "addr:full":"12228 Yates Ct Broomfield CO 80020",
+    "addr:housenumber":"12228",
+    "addr:postcode":"80020",
+    "addr:street":"Yates Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052403,39.918728,-105.052403,39.918728",
     "geom:latitude":39.918728,
     "geom:longitude":-105.052403,
@@ -28,19 +33,36 @@
         "animal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554247
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7MZPH9GNqzRN1JA5phc8nu_39.918728_-105.052403@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443370,
-    "wof:geomhash":"957ec2997d237ae452417c868259952c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a55b73511c848b4b3a05244775adf44f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554247,
+            "region_id":85688603,
+            "venue_id":823661573
+        }
+    ],
     "wof:id":823661573,
-    "wof:lastmodified":1466418205,
+    "wof:lastmodified":1492117058,
     "wof:name":"Privileged Pets",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554247,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

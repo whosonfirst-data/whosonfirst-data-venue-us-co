@@ -2,9 +2,14 @@
   "id": 839939485,
   "type": "Feature",
   "properties": {
+    "addr:full":"569 W 116th Way Denver CO 80234",
+    "addr:housenumber":"569",
+    "addr:postcode":"80234",
+    "addr:street":"W 116Th Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.992815,39.908832,-104.992815,39.908832",
     "geom:latitude":39.908832,
     "geom:longitude":-104.992815,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553905
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7SukQYfnx2VWYNyHlavkdi_39.908832_-104.992815@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458469,
-    "wof:geomhash":"0c868a0f6f633402a84f70198515a8a6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fd5a9045187ce1f21c57ee166a376a87",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553905,
+            "region_id":85688603,
+            "venue_id":839939485
+        }
+    ],
     "wof:id":839939485,
-    "wof:lastmodified":1466414812,
+    "wof:lastmodified":1492110401,
     "wof:name":"Inspector K LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553905,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

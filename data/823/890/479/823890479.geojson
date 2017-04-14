@@ -2,9 +2,14 @@
   "id": 823890479,
   "type": "Feature",
   "properties": {
+    "addr:full":"3224 Main St Clifton CO 81520",
+    "addr:housenumber":"3224",
+    "addr:postcode":"81520",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.456582,39.067267,-108.456582,39.067267",
     "geom:latitude":39.067267,
     "geom:longitude":-108.456582,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0pmW8vm2NCZ9g46pmQYpYP_39.067267_-108.456582@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449222,
-    "wof:geomhash":"6e251250f721e8ab1f70e237c02b4c4e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8273b9c5d187dd4bc7265c6a1da9b7e1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":823890479
+        }
+    ],
     "wof:id":823890479,
-    "wof:lastmodified":1466420458,
+    "wof:lastmodified":1492120837,
     "wof:name":"Commercial Construction Svcs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

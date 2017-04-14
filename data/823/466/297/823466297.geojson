@@ -2,9 +2,14 @@
   "id": 823466297,
   "type": "Feature",
   "properties": {
+    "addr:full":"2765 S Federal Blvd Denver CO 80236",
+    "addr:housenumber":"2765",
+    "addr:postcode":"80236",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02518,39.665833,-105.02518,39.665833",
     "geom:latitude":39.665833,
     "geom:longitude":-105.02518,
@@ -28,7 +33,15 @@
         "group"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2tR9nysfNSAMEVTZPTxdvt_39.665833_-105.025180@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463438752,
     "wof:geomhash":"9a48d39cf9e6565cdba40b96ccf1bc24",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":823466297
+        }
+    ],
     "wof:id":823466297,
-    "wof:lastmodified":1466411944,
+    "wof:lastmodified":1491876153,
     "wof:name":"Independence House",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

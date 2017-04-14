@@ -2,9 +2,14 @@
   "id": 823625627,
   "type": "Feature",
   "properties": {
+    "addr:full":"3701 E 91st Ave Denver CO 80229",
+    "addr:housenumber":"3701",
+    "addr:postcode":"80229",
+    "addr:street":"E 91St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.941548,39.860626,-104.941548,39.860626",
     "geom:latitude":39.860626,
     "geom:longitude":-104.941548,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553637
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4JONR26CdizNpJsFitVpwD_39.860626_-104.941548@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442526,
-    "wof:geomhash":"89225645b9c807b7c9745a27bd4b94e6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"831a3ea8bd9e35d578f6d6522db6a96f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553637,
+            "region_id":85688603,
+            "venue_id":823625627
+        }
+    ],
     "wof:id":823625627,
-    "wof:lastmodified":1466417585,
+    "wof:lastmodified":1492121380,
     "wof:name":"Chavez Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553637,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

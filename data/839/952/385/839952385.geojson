@@ -2,9 +2,14 @@
   "id": 839952385,
   "type": "Feature",
   "properties": {
+    "addr:full":"7005 E 46th Avenue Dr Denver CO 80216",
+    "addr:housenumber":"7005",
+    "addr:postcode":"80216",
+    "addr:street":"E 46Th Avenue Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.906132,39.780951,-104.906132,39.780951",
     "geom:latitude":39.780951,
     "geom:longitude":-104.906132,
@@ -24,7 +29,16 @@
     "sg:postcode":"80216",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750051,
+        85840547,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Irb3ixl6GwCjC3BSBRsoA_39.780951_-104.906132@1294083659"
@@ -32,11 +46,23 @@
     "wof:country":"US",
     "wof:created":1463459223,
     "wof:geomhash":"4e7a765999e8385c5039bdf72302eefa",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750051,
+            "neighbourhood_id":85840547,
+            "region_id":85688603,
+            "venue_id":839952385
+        }
+    ],
     "wof:id":839952385,
-    "wof:lastmodified":1466415422,
+    "wof:lastmodified":1486604417,
     "wof:name":"7-Eleven",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

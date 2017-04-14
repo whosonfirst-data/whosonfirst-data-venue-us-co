@@ -2,9 +2,14 @@
   "id": 823984189,
   "type": "Feature",
   "properties": {
+    "addr:full":"3130 Valmont Rd Boulder CO 80301",
+    "addr:housenumber":"3130",
+    "addr:postcode":"80301",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.251581,40.029125,-105.251581,40.029125",
     "geom:latitude":40.029125,
     "geom:longitude":-105.251581,
@@ -27,19 +32,36 @@
         "paint"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5BGxEtsPK6E6h4OCcQmDOR_40.029125_-105.251581@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451590,
-    "wof:geomhash":"6a857272391f09182ddc44b7ababa082",
-    "wof:hierarchy":[],
+    "wof:geomhash":"76e37dfd03370e8a15f54d1bdf12a16f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":823984189
+        }
+    ],
     "wof:id":823984189,
-    "wof:lastmodified":1466420911,
+    "wof:lastmodified":1492118180,
     "wof:name":"Kelly-Moore Paint Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

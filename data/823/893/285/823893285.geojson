@@ -2,9 +2,14 @@
   "id": 823893285,
   "type": "Feature",
   "properties": {
+    "addr:full":"5505 Valmont Rd Boulder CO 80301",
+    "addr:housenumber":"5505",
+    "addr:postcode":"80301",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.223455,40.02864,-105.223455,40.02864",
     "geom:latitude":40.02864,
     "geom:longitude":-105.223455,
@@ -27,19 +32,28 @@
         "inspection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553983
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4njFOuCv8M9wfu3XRzQKGR_40.028640_-105.223455@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449279,
-    "wof:geomhash":"9bf181adbfe442af4c91a28bf3db7407",
-    "wof:hierarchy":[],
+    "wof:geomhash":"af9d5bf3223c1e65484bf1aaa52e4fc3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553983,
+            "venue_id":823893285
+        }
+    ],
     "wof:id":823893285,
-    "wof:lastmodified":1466420142,
+    "wof:lastmodified":1492118210,
     "wof:name":"Aaron Home Inspection",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553983,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

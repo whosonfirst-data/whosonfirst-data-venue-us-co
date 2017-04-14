@@ -2,9 +2,14 @@
   "id": 824139703,
   "type": "Feature",
   "properties": {
+    "addr:full":"5555 W 69th Ave Arvada CO 80003",
+    "addr:housenumber":"5555",
+    "addr:postcode":"80003",
+    "addr:street":"W 69Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.058057,39.821939,-105.058057,39.821939",
     "geom:latitude":39.821939,
     "geom:longitude":-105.058057,
@@ -30,19 +35,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4dMOLIUysKSJZbENeTannR_39.821939_-105.058057@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455496,
-    "wof:geomhash":"a2f1d023c90bdfb301303f09875a1d13",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bcee7a04e60c81dd50f9099c1784f7b7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554603,
+            "venue_id":824139703
+        }
+    ],
     "wof:id":824139703,
-    "wof:lastmodified":1466416703,
+    "wof:lastmodified":1492128362,
     "wof:name":"Colorado Water Systems Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554603,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

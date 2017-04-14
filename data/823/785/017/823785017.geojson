@@ -2,9 +2,14 @@
   "id": 823785017,
   "type": "Feature",
   "properties": {
+    "addr:full":"505 Main St Ouray CO 81427",
+    "addr:housenumber":"505",
+    "addr:postcode":"81427",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.671426,38.022731,-107.671426,38.022731",
     "geom:latitude":38.022731,
     "geom:longitude":-107.671426,
@@ -27,17 +32,32 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929649,
+        102085219
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1jqeQrXPVOp5UDRZK7e0lc_38.022731_-107.671426@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446250,
-    "wof:geomhash":"10292d6270d2fed1614571bc7659f113",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bc7e8c1589a55e8e64a840fc48a293f3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085219,
+            "locality_id":85929649,
+            "region_id":85688603,
+            "venue_id":823785017
+        }
+    ],
     "wof:id":823785017,
-    "wof:lastmodified":1466419230,
+    "wof:lastmodified":1492125212,
     "wof:name":"Buckskin Booksellers",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

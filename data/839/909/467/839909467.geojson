@@ -2,9 +2,14 @@
   "id": 839909467,
   "type": "Feature",
   "properties": {
+    "addr:full":"7905 W 120th Ave Broomfield CO 80020",
+    "addr:housenumber":"7905",
+    "addr:postcode":"80020",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.088204,39.914357,-105.088204,39.914357",
     "geom:latitude":39.914357,
     "geom:longitude":-105.088204,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554279
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6xx6dDsN08552EbdEUNhn9_39.914357_-105.088204@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457095,
-    "wof:geomhash":"81ad6377add0a393459eb3c717c14502",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fcfec399c54e8869ed0b3fdbfb918d8f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554279,
+            "region_id":85688603,
+            "venue_id":839909467
+        }
+    ],
     "wof:id":839909467,
-    "wof:lastmodified":1466413543,
+    "wof:lastmodified":1492112722,
     "wof:name":"High Plains Building Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554279,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

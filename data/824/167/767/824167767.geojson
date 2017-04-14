@@ -2,9 +2,14 @@
   "id": 824167767,
   "type": "Feature",
   "properties": {
+    "addr:full":"145 Cody Ln Durango CO 81301",
+    "addr:housenumber":"145",
+    "addr:postcode":"co 81301",
+    "addr:street":"Cody Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.744252,37.264617,-107.744252,37.264617",
     "geom:latitude":37.264617,
     "geom:longitude":-107.744252,
@@ -28,19 +33,28 @@
         "field"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_14XYxVh3kROEDhUUM9wf3J_37.264617_-107.744252@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456596,
-    "wof:geomhash":"d8b29e9005501eeccfc05c7b0615c328",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a285c015b1c67883243abb377e828398",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824167767
+        }
+    ],
     "wof:id":824167767,
-    "wof:lastmodified":1466417887,
+    "wof:lastmodified":1492128210,
     "wof:name":"Production Optimization Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823917713,
   "type": "Feature",
   "properties": {
+    "addr:full":"13329 Grove Ct Broomfield CO 80020",
+    "addr:housenumber":"13329",
+    "addr:postcode":"80020",
+    "addr:street":"Grove Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.027011,39.938435,-105.027011,39.938435",
     "geom:latitude":39.938435,
     "geom:longitude":-105.027011,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554219
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2MbSJC1znZmiIfVaEo90zF_39.938435_-105.027011@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449946,
-    "wof:geomhash":"ff9566ea3faa58b2429ce6257f82ffed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"23ae5fe5a7abff6db55721611a8d5ced",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554219,
+            "region_id":85688603,
+            "venue_id":823917713
+        }
+    ],
     "wof:id":823917713,
-    "wof:lastmodified":1466420351,
+    "wof:lastmodified":1492117775,
     "wof:name":"Majewski Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554219,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

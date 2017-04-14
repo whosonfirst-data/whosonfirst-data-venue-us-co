@@ -2,9 +2,14 @@
   "id": 823892179,
   "type": "Feature",
   "properties": {
+    "addr:full":"1765 W 121st Ave Denver CO 80234",
+    "addr:housenumber":"1765",
+    "addr:postcode":"80234",
+    "addr:street":"W 121St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.007658,39.916184,-105.007658,39.916184",
     "geom:latitude":39.916184,
     "geom:longitude":-105.007658,
@@ -30,19 +35,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0IjxP8F7T6Z8XAuLyDergQ_39.916184_-105.007658@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449254,
-    "wof:geomhash":"fe8e2d15a8554ac02329219f9db1e8b1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2edfeb974021c19434178deb0e4b3434",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823892179
+        }
+    ],
     "wof:id":823892179,
-    "wof:lastmodified":1466420134,
+    "wof:lastmodified":1492119945,
     "wof:name":"Polycom Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823700071,
   "type": "Feature",
   "properties": {
+    "addr:full":"24500 Co Rd G Pleasant View CO 81321",
+    "addr:housenumber":"24500",
+    "addr:postcode":"81321",
+    "addr:street":"Co Rd G",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.598048,37.312425,-108.598048,37.312425",
     "geom:latitude":37.312425,
     "geom:longitude":-108.598048,
@@ -28,8 +33,9 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
         85633793,
+        420555031,
+        85688603,
         85896007,
         102084099
     ],
@@ -39,8 +45,13 @@
     },
     "wof:country":"US",
     "wof:created":1463444238,
-    "wof:geomhash":"568b5c6becf698c034c35be93d7f62d1",
+    "wof:geomhash":"bf26a1998a7ad1f0facf7665ef12aee4",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555031,
+            "venue_id":823700071
+        },
         {
             "country_id":85633793,
             "county_id":102084099,
@@ -50,9 +61,9 @@
         }
     ],
     "wof:id":823700071,
-    "wof:lastmodified":1466418545,
+    "wof:lastmodified":1492119137,
     "wof:name":"Herrmann Construction",
-    "wof:parent_id":85896007,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

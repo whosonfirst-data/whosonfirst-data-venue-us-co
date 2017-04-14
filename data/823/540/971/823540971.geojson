@@ -2,9 +2,14 @@
   "id": 823540971,
   "type": "Feature",
   "properties": {
+    "addr:full":"902 W Drake Rd Fort Collins CO 80526",
+    "addr:housenumber":"902",
+    "addr:postcode":"80526",
+    "addr:street":"W Drake Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.092119,40.552754,-105.092119,40.552754",
     "geom:latitude":40.552754,
     "geom:longitude":-105.092119,
@@ -27,19 +32,36 @@
         "financing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5eNt7rJHh2vKqgTr6Ldznt_40.552754_-105.092119@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440488,
-    "wof:geomhash":"470bcdf629b1d93b1328a5604c447e45",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2af25ea04a47dd0cd3299e27245ed1d5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823540971
+        }
+    ],
     "wof:id":823540971,
-    "wof:lastmodified":1466415714,
+    "wof:lastmodified":1492119142,
     "wof:name":"American General Finance Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

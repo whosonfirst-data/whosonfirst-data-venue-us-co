@@ -2,9 +2,14 @@
   "id": 823888655,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 Neighbors Ln Buena Vista CO 81211",
+    "addr:housenumber":"123",
+    "addr:postcode":"81211",
+    "addr:street":"Neighbors Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.140992,38.844113,-106.140992,38.844113",
     "geom:latitude":38.844113,
     "geom:longitude":-106.140992,
@@ -28,17 +33,32 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928795,
+        102085255
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_12ZH15wurbSjs8jmJdcpPW_38.844113_-106.140992@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449160,
-    "wof:geomhash":"8200b03cc8fd243b9c70e331460fcc23",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a15ca3bf2693bf1f36931e8c3bb42382",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085255,
+            "locality_id":85928795,
+            "region_id":85688603,
+            "venue_id":823888655
+        }
+    ],
     "wof:id":823888655,
-    "wof:lastmodified":1466420168,
+    "wof:lastmodified":1492117113,
     "wof:name":"Delta Storage",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 839942543,
   "type": "Feature",
   "properties": {
+    "addr:full":"6000 W 55th Pl Arvada CO 80002",
+    "addr:housenumber":"6000",
+    "addr:postcode":"80002",
+    "addr:street":"W 55Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.063988,39.797395,-105.063988,39.797395",
     "geom:latitude":39.797395,
     "geom:longitude":-105.063988,
@@ -29,19 +34,34 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_509G9s0PrX9PDAazFE3kGo_39.797395_-105.063988@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458720,
-    "wof:geomhash":"fbb8641ef87a75bca9512e790f5da0d5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f791f1872e3c86227ef0ff93846bb284",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":839942543
+        }
+    ],
     "wof:id":839942543,
-    "wof:lastmodified":1466414813,
+    "wof:lastmodified":1492110578,
     "wof:name":"Ralph's Specialty Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

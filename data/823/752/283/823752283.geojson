@@ -2,9 +2,14 @@
   "id": 823752283,
   "type": "Feature",
   "properties": {
+    "addr:full":"12225 E 39th Ave Denver CO 80239",
+    "addr:housenumber":"12225",
+    "addr:postcode":"80239",
+    "addr:street":"E 39Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.845494,39.771146,-104.845494,39.771146",
     "geom:latitude":39.771146,
     "geom:longitude":-104.845494,
@@ -27,19 +32,38 @@
         "parts"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871347,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2JPLgX4dc8m1RoRbkEsnJW_39.771146_-104.845494@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445437,
-    "wof:geomhash":"1387b0cf206b9efea0108b32c71e5431",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e152820830800e022c55e5ef15aa44cb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85871347,
+            "region_id":85688603,
+            "venue_id":823752283
+        }
+    ],
     "wof:id":823752283,
-    "wof:lastmodified":1466418924,
+    "wof:lastmodified":1492125236,
     "wof:name":"Denver Parts Depot",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871347,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

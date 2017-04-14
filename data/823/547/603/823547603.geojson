@@ -2,9 +2,14 @@
   "id": 823547603,
   "type": "Feature",
   "properties": {
+    "addr:full":"4515 Dillon St Denver CO 80239",
+    "addr:housenumber":"4515",
+    "addr:postcode":"80239",
+    "addr:street":"Dillon St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.829363,39.776959,-104.829363,39.776959",
     "geom:latitude":39.776959,
     "geom:longitude":-104.829363,
@@ -28,7 +33,15 @@
         "ecological"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ydMLx7Kt0ubC6hblr44Cl_39.776959_-104.829363@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463440644,
     "wof:geomhash":"cc7f57c28fd3ef60fc793a9da6ec7418",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823547603
+        }
+    ],
     "wof:id":823547603,
-    "wof:lastmodified":1466415625,
+    "wof:lastmodified":1491887448,
     "wof:name":"Premier Environmental Svc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

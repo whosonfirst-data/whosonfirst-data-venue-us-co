@@ -2,9 +2,14 @@
   "id": 823555783,
   "type": "Feature",
   "properties": {
+    "addr:full":"730 Burbank St Broomfield CO 80020",
+    "addr:housenumber":"730",
+    "addr:postcode":"80020",
+    "addr:street":"Burbank St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.094144,39.927838,-105.094144,39.927838",
     "geom:latitude":39.927838,
     "geom:longitude":-105.094144,
@@ -30,19 +35,36 @@
         "fitness"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Ab6FXyS5yg5ARTUoJPM6K_39.927838_-105.094144@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440835,
-    "wof:geomhash":"c955e5d526a68e3e68a238a08e550117",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28a4c32317710f77cb05554ac6663f50",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554251,
+            "region_id":85688603,
+            "venue_id":823555783
+        }
+    ],
     "wof:id":823555783,
-    "wof:lastmodified":1466415960,
+    "wof:lastmodified":1492125779,
     "wof:name":"Health Promotion Management",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

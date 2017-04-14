@@ -2,9 +2,14 @@
   "id": 823745807,
   "type": "Feature",
   "properties": {
+    "addr:full":"10913 Larson Dr Denver CO 80233",
+    "addr:housenumber":"10913",
+    "addr:postcode":"80233",
+    "addr:street":"Larson Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974003,39.894093,-104.974003,39.894093",
     "geom:latitude":39.894093,
     "geom:longitude":-104.974003,
@@ -28,19 +33,36 @@
         "refrigerating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_175h2aIdDonRZkMbkMzfq6_39.894093_-104.974003@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445282,
-    "wof:geomhash":"68f332fdb30177dc90314816a6f20b30",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6b8b2dc433957229b3435ca056df8c96",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823745807
+        }
+    ],
     "wof:id":823745807,
-    "wof:lastmodified":1466418916,
+    "wof:lastmodified":1492125434,
     "wof:name":"Front Range Refrigeration Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823575805,
   "type": "Feature",
   "properties": {
+    "addr:full":"312 Zuni Dr Grand Junction CO 81503",
+    "addr:housenumber":"312",
+    "addr:postcode":"81503",
+    "addr:street":"Zuni Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.535473,39.050141,-108.535473,39.050141",
     "geom:latitude":39.050141,
     "geom:longitude":-108.535473,
@@ -27,19 +32,28 @@
         "appraiser"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554917
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7DshycSz1gwEVZ8TBwSAB8_39.050141_-108.535473@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441320,
-    "wof:geomhash":"133f034d01845370dd5b28320469c47f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b1adfe732040dbb29ced60b45d7dcad8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554917,
+            "venue_id":823575805
+        }
+    ],
     "wof:id":823575805,
-    "wof:lastmodified":1466416489,
+    "wof:lastmodified":1492116400,
     "wof:name":"Aspen Appraisal Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554917,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

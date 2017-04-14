@@ -2,9 +2,14 @@
   "id": 824123059,
   "type": "Feature",
   "properties": {
+    "addr:full":"277 Co Rd 233 Durango CO 81301",
+    "addr:housenumber":"277;233",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.815669,37.229324,-107.815669,37.229324",
     "geom:latitude":37.229324,
     "geom:longitude":-107.815669,
@@ -29,19 +34,28 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554707
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5SU3RuPBnKoFUYP5ik6Bvm_37.229324_-107.815669@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454839,
-    "wof:geomhash":"a328a3aceb5889839b50c3fec77e06bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"88517e01c30d381bbcccedbc144d0658",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554707,
+            "venue_id":824123059
+        }
+    ],
     "wof:id":824123059,
-    "wof:lastmodified":1466415658,
+    "wof:lastmodified":1492128837,
     "wof:name":"John's Repair One Stop Auto",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554707,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

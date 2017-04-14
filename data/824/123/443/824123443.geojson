@@ -2,9 +2,14 @@
   "id": 824123443,
   "type": "Feature",
   "properties": {
+    "addr:full":"31 Park Dr Gunnison CO 81230",
+    "addr:housenumber":"31",
+    "addr:postcode":"81230",
+    "addr:street":"Park Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.951142,38.535098,-106.951142,38.535098",
     "geom:latitude":38.535098,
     "geom:longitude":-106.951142,
@@ -29,19 +34,34 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554461,
+        420554383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_51iJ5erYJl4Fa45SFXlK8Q_38.535098_-106.951142@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454859,
-    "wof:geomhash":"f3d2200478fe6da4fe09f09584729cc7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a573bb65de11a750274de930acf8c34",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554461,
+            "venue_id":824123443
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554383,
+            "venue_id":824123443
+        }
+    ],
     "wof:id":824123443,
-    "wof:lastmodified":1466415801,
+    "wof:lastmodified":1492128853,
     "wof:name":"Quick Draw Carpet Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

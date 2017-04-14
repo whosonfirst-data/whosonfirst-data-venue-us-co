@@ -2,9 +2,14 @@
   "id": 824119367,
   "type": "Feature",
   "properties": {
+    "addr:full":"569 S Westgate Dr Grand Junction CO 81505",
+    "addr:housenumber":"569",
+    "addr:postcode":"81505",
+    "addr:street":"S Westgate Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586535,39.087832,-108.586535,39.087832",
     "geom:latitude":39.087832,
     "geom:longitude":-108.586535,
@@ -27,19 +32,36 @@
         "drafting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554791
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1bHLukBPTyOtJuA4Vogkvx_39.087832_-108.586535@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454754,
-    "wof:geomhash":"08abab0b6ac49cab2dccbffd1fa9392d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7f13dc21b6f50b60ab39a19a676740b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":824119367
+        }
+    ],
     "wof:id":824119367,
-    "wof:lastmodified":1466415628,
+    "wof:lastmodified":1492130996,
     "wof:name":"Auto Draft",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554791,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823525989,
   "type": "Feature",
   "properties": {
+    "addr:full":"2149 Federal Blvd Denver CO 80211",
+    "addr:housenumber":"2149",
+    "addr:postcode":"80211",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025344,39.749404,-105.025344,39.749404",
     "geom:latitude":39.749404,
     "geom:longitude":-105.025344,
@@ -31,19 +36,38 @@
     ],
     "sg:website":"www.denvercac.org",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0N4QeDTCet5y9goeghI8ZB_39.749404_-105.025344@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440164,
-    "wof:geomhash":"387b3a76ec7767beba05b06e868756ea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"29cea8798a17a4a6f54a94a3de1094f3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":823525989
+        }
+    ],
     "wof:id":823525989,
-    "wof:lastmodified":1466415034,
+    "wof:lastmodified":1492119163,
     "wof:name":"Denver Children's Advocacy",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839977179,
   "type": "Feature",
   "properties": {
+    "addr:full":"900 N Main St Gunnison CO 81230",
+    "addr:housenumber":"900",
+    "addr:postcode":"81230",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.92683,38.553465,-106.92683,38.553465",
     "geom:latitude":38.553465,
     "geom:longitude":-106.92683,
@@ -30,19 +35,28 @@
     ],
     "sg:website":"www.walmart.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554413
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4SVhJh4DFxOQ5IbtK6jG7m_38.553465_-106.926830@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460311,
-    "wof:geomhash":"a530bc903525fe39137d37063e66a7ce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a0f2b82b628fdd09129dee15f5ece53c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554413,
+            "venue_id":839977179
+        }
+    ],
     "wof:id":839977179,
-    "wof:lastmodified":1466416765,
+    "wof:lastmodified":1492113808,
     "wof:name":"Wal-Mart",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554413,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

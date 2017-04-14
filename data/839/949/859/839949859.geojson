@@ -2,9 +2,14 @@
   "id": 839949859,
   "type": "Feature",
   "properties": {
+    "addr:full":"7300 W 120th Ave Broomfield CO 80020",
+    "addr:housenumber":"7300",
+    "addr:postcode":"80020",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.079498,39.914248,-105.079498,39.914248",
     "geom:latitude":39.914248,
     "geom:longitude":-105.079498,
@@ -28,19 +33,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554243
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3CjzeEiF4s0DZVVa97ic3l_39.914248_-105.079498@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459119,
-    "wof:geomhash":"892e6ca6bc3b3482a7213f239cfd0910",
-    "wof:hierarchy":[],
+    "wof:geomhash":"709bd72dd19a330869349db10a8af15e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554243,
+            "region_id":85688603,
+            "venue_id":839949859
+        }
+    ],
     "wof:id":839949859,
-    "wof:lastmodified":1466415096,
+    "wof:lastmodified":1492111744,
     "wof:name":"Elite Auto Svc Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554243,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

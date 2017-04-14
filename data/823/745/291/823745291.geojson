@@ -2,9 +2,14 @@
   "id": 823745291,
   "type": "Feature",
   "properties": {
+    "addr:full":"333 Red Lily Pl Evergreen CO 80439",
+    "addr:housenumber":"333",
+    "addr:postcode":"80439",
+    "addr:street":"Red Lily Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.39974,39.632612,-105.39974,39.632612",
     "geom:latitude":39.632612,
     "geom:longitude":-105.39974,
@@ -28,17 +33,32 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930395,
+        102085243
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0AZYC9ZIgRmXFPMNbTSMCm_39.632612_-105.399740@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445270,
-    "wof:geomhash":"63034bab437f07f03d4827653fd44780",
-    "wof:hierarchy":[],
+    "wof:geomhash":"84ae1eef9be96ae826a193f9f0bcd99d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085243,
+            "locality_id":85930395,
+            "region_id":85688603,
+            "venue_id":823745291
+        }
+    ],
     "wof:id":823745291,
-    "wof:lastmodified":1466418952,
+    "wof:lastmodified":1492125434,
     "wof:name":"Pyramid Computing Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

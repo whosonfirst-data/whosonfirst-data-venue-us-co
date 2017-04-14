@@ -2,9 +2,14 @@
   "id": 823665471,
   "type": "Feature",
   "properties": {
+    "addr:full":"3520 W Oxford Ave Denver CO 80236",
+    "addr:housenumber":"3520",
+    "addr:postcode":"80236",
+    "addr:street":"W Oxford Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034595,39.642196,-105.034595,39.642196",
     "geom:latitude":39.642196,
     "geom:longitude":-105.034595,
@@ -28,19 +33,38 @@
         "mental"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85868407,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_69tbdfmnNeJDEKb6nX8agp_39.642196_-105.034595@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443463,
-    "wof:geomhash":"2997b6dda0a63cce49a9a07d394a0f00",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a085fc523ebc27e4eafbac7c00ff9708",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85868407,
+            "region_id":85688603,
+            "venue_id":823665471
+        }
+    ],
     "wof:id":823665471,
-    "wof:lastmodified":1466418251,
+    "wof:lastmodified":1492123483,
     "wof:name":"Division of Mental Health",
-    "wof:parent_id":-1,
+    "wof:parent_id":85868407,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

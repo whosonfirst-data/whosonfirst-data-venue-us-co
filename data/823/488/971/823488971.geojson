@@ -2,9 +2,14 @@
   "id": 823488971,
   "type": "Feature",
   "properties": {
+    "addr:full":"8035 W 120th Ave Broomfield CO 80020",
+    "addr:housenumber":"8035",
+    "addr:postcode":"80020",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.087358,39.914359,-105.087358,39.914359",
     "geom:latitude":39.914359,
     "geom:longitude":-105.087358,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554279
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1XJxEn99cbHQ5J1WRzcP5b_39.914359_-105.087358@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439290,
-    "wof:geomhash":"cc81e2ba56de65debf3d7bcef778222c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"42efa211edda547c249e909092e23fb9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554279,
+            "region_id":85688603,
+            "venue_id":823488971
+        }
+    ],
     "wof:id":823488971,
-    "wof:lastmodified":1466413744,
+    "wof:lastmodified":1492122751,
     "wof:name":"Straight-Edge Woodworking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554279,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

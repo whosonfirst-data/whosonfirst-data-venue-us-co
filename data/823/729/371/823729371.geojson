@@ -2,9 +2,14 @@
   "id": 823729371,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 Big Thompson Ave Estes Park CO 80517",
+    "addr:housenumber":"500",
+    "addr:postcode":"80517",
+    "addr:street":"Big Thompson Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.516318,40.378309,-105.516318,40.378309",
     "geom:latitude":40.378309,
     "geom:longitude":-105.516318,
@@ -33,7 +38,9 @@
         85633793,
         85929681,
         102083353,
-        85805137
+        85805137,
+        102191575,
+        420554725
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,7 +48,7 @@
     },
     "wof:country":"US",
     "wof:created":1463444884,
-    "wof:geomhash":"9658c8d5b5cc6c2464e7a97ac79eb900",
+    "wof:geomhash":"91db879e6e127f3d4d0cc3574d698b54",
     "wof:hierarchy":[
         {
             "country_id":85633793,
@@ -50,12 +57,21 @@
             "neighbourhood_id":85805137,
             "region_id":85688603,
             "venue_id":823729371
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929681,
+            "neighbourhood_id":420554725,
+            "region_id":85688603,
+            "venue_id":823729371
         }
     ],
     "wof:id":823729371,
-    "wof:lastmodified":1466418476,
+    "wof:lastmodified":1492118305,
     "wof:name":"Estes Park Chamber Resort Assn",
-    "wof:parent_id":85805137,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

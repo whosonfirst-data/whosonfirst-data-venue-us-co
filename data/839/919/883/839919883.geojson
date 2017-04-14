@@ -2,9 +2,14 @@
   "id": 839919883,
   "type": "Feature",
   "properties": {
+    "addr:full":"3073 F Rd Grand Junction CO 81504",
+    "addr:housenumber":"3073",
+    "addr:postcode":"81504",
+    "addr:street":"F Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.47951,39.091784,-108.47951,39.091784",
     "geom:latitude":39.091784,
     "geom:longitude":-108.47951,
@@ -24,19 +29,55 @@
     "sg:postcode":"81504",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930467,
+        102085221,
+        420554809,
+        420554947,
+        85820799
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4nvr6iQ30rBLAI1fLABRhT_39.091784_-108.479510@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457484,
-    "wof:geomhash":"657dc7d494ef9c331efcf520b42e381a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"400b251e4eded1dbe818d8a6b7ec4f86",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930467,
+            "neighbourhood_id":420554809,
+            "region_id":85688603,
+            "venue_id":839919883
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930467,
+            "neighbourhood_id":420554947,
+            "region_id":85688603,
+            "venue_id":839919883
+        },
+        {
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930467,
+            "neighbourhood_id":85820799,
+            "region_id":85688603,
+            "venue_id":839919883
+        }
+    ],
     "wof:id":839919883,
-    "wof:lastmodified":1466413696,
+    "wof:lastmodified":1492111210,
     "wof:name":"Museum Of Western Colorado",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

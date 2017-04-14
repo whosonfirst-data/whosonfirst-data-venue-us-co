@@ -2,9 +2,14 @@
   "id": 823951523,
   "type": "Feature",
   "properties": {
+    "addr:full":"711 Independent Ave Grand Junction CO 81505",
+    "addr:housenumber":"711",
+    "addr:postcode":"81505",
+    "addr:street":"Independent Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.577909,39.08088,-108.577909,39.08088",
     "geom:latitude":39.08088,
     "geom:longitude":-108.577909,
@@ -29,19 +34,36 @@
         "preservation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554785
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4prvbkViqAKGbARH3FLqSJ_39.080880_-108.577909@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450809,
-    "wof:geomhash":"3d50e0d6c488ea0e2906f4bdbcdb62c8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6e251cbcde01416a292821bd409bd900",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554785,
+            "region_id":85688603,
+            "venue_id":823951523
+        }
+    ],
     "wof:id":823951523,
-    "wof:lastmodified":1466420637,
+    "wof:lastmodified":1492123831,
     "wof:name":"Division of Wildlife",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554785,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

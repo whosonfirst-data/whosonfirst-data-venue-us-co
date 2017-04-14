@@ -2,9 +2,14 @@
   "id": 823526275,
   "type": "Feature",
   "properties": {
+    "addr:full":"1795 W Mississippi Ave Denver CO 80219",
+    "addr:housenumber":"1795",
+    "addr:postcode":"80219",
+    "addr:street":"W Mississippi Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.009128,39.696804,-105.009128,39.696804",
     "geom:latitude":39.696804,
     "geom:longitude":-105.009128,
@@ -27,7 +32,15 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554317,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2QK3jmOIhBArnMDUpua2Xe_39.696804_-105.009128@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463440172,
     "wof:geomhash":"b8c25db8a84eaf70b7987e2f3d31e6fa",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554317,
+            "region_id":85688603,
+            "venue_id":823526275
+        }
+    ],
     "wof:id":823526275,
-    "wof:lastmodified":1466414964,
+    "wof:lastmodified":1486589674,
     "wof:name":"Sub Best Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

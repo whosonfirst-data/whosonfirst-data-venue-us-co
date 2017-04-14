@@ -2,9 +2,14 @@
   "id": 337422487,
   "type": "Feature",
   "properties": {
+    "addr:full":"6803 E 47th Avenue Drive Denver CO 80216",
+    "addr:housenumber":"6803",
+    "addr:postcode":"80216",
+    "addr:street":"E 47Th Avenue Drive",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.909534,39.782404,-104.909534,39.782404",
     "geom:latitude":39.782404,
     "geom:longitude":-104.909534,
@@ -29,10 +34,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750051,
+        85840547,
+        102191575,
+        1108750055,
         85633793,
         85928879,
-        102086135
+        102086135,
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +51,21 @@
     "wof:geomhash":"358670e3174063071168c8d1b9027b8e",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":-1,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750051,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":337422487
         }
     ],
     "wof:id":337422487,
-    "wof:lastmodified":1466411986,
+    "wof:lastmodified":1486604447,
     "wof:name":"Coast of Colorado Speciality Foods",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

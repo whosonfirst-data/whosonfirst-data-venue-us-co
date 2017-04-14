@@ -2,9 +2,14 @@
   "id": 823906425,
   "type": "Feature",
   "properties": {
+    "addr:full":"1744 Boston St Aurora CO 80010",
+    "addr:housenumber":"1744",
+    "addr:postcode":"80010",
+    "addr:street":"Boston St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.879839,39.745194,-104.879839,39.745194",
     "geom:latitude":39.745194,
     "geom:longitude":-104.879839,
@@ -29,17 +34,32 @@
         "community"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0m8y0W3pdJpmpfmpp0JqQk_39.745194_-104.879839@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449633,
-    "wof:geomhash":"eeb1ea7f1c8d751ab92229e64543c770",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9d820aa2207d43d6633eabff40eebb46",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823906425
+        }
+    ],
     "wof:id":823906425,
-    "wof:lastmodified":1466420478,
+    "wof:lastmodified":1492118200,
     "wof:name":"Boston House",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

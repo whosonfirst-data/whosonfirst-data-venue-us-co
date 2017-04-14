@@ -2,9 +2,14 @@
   "id": 823608511,
   "type": "Feature",
   "properties": {
+    "addr:full":"7436 Clayton St Denver CO 80229",
+    "addr:housenumber":"7436",
+    "addr:postcode":"80229",
+    "addr:street":"Clayton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.954358,39.830751,-104.954358,39.830751",
     "geom:latitude":39.830751,
     "geom:longitude":-104.954358,
@@ -28,19 +33,36 @@
         "ornamental"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553889
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0SK57i0k3oL6F2Ckc87xFM_39.830751_-104.954358@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442097,
-    "wof:geomhash":"62f4a93355150b24adef7c8c939138b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"39acc52804652ed0250d67077727284f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553889,
+            "region_id":85688603,
+            "venue_id":823608511
+        }
+    ],
     "wof:id":823608511,
-    "wof:lastmodified":1466417278,
+    "wof:lastmodified":1492124278,
     "wof:name":"Welby Gardens Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553889,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

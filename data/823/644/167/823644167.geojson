@@ -2,9 +2,14 @@
   "id": 823644167,
   "type": "Feature",
   "properties": {
+    "addr:full":"2010 Mesa Ave Grand Junction CO 81501",
+    "addr:housenumber":"2010",
+    "addr:postcode":"81501",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.540875,39.082384,-108.540875,39.082384",
     "geom:latitude":39.082384,
     "geom:longitude":-108.540875,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5lllNFk2zj7qMQc32dbjXs_39.082384_-108.540875@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442950,
-    "wof:geomhash":"524c25320517b7e374d71ca95fe0752f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"355fc6ed8fb7006deca4924a52c388ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":823644167
+        }
+    ],
     "wof:id":823644167,
-    "wof:lastmodified":1466418055,
+    "wof:lastmodified":1492118277,
     "wof:name":"Brovo Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

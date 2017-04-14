@@ -2,9 +2,14 @@
   "id": 823725885,
   "type": "Feature",
   "properties": {
+    "addr:full":"2894 Orchard Ave Grand Junction CO 81501",
+    "addr:housenumber":"2894",
+    "addr:postcode":"81501",
+    "addr:street":"Orchard Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.517503,39.084607,-108.517503,39.084607",
     "geom:latitude":39.084607,
     "geom:longitude":-108.517503,
@@ -27,19 +32,52 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554993,
+        420554845,
+        420554879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_08ds7LshH6U1CQ04ojk8TR_39.084607_-108.517503@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444803,
-    "wof:geomhash":"ca3c93fd857812d08a966e0cd7d5bb43",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0cd11d72a936182bac685fdfed4311f4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554993,
+            "region_id":85688603,
+            "venue_id":823725885
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554845,
+            "venue_id":823725885
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554879,
+            "region_id":85688603,
+            "venue_id":823725885
+        }
+    ],
     "wof:id":823725885,
-    "wof:lastmodified":1466418819,
+    "wof:lastmodified":1492121833,
     "wof:name":"Flying W Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

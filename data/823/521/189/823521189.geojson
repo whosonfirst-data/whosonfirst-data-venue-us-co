@@ -2,9 +2,14 @@
   "id": 823521189,
   "type": "Feature",
   "properties": {
+    "addr:full":"2545 Haskell Pl Watkins CO 80137",
+    "addr:housenumber":"2545",
+    "addr:postcode":"80137",
+    "addr:street":"Haskell Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.585061,39.752243,-104.585061,39.752243",
     "geom:latitude":39.752243,
     "geom:longitude":-104.585061,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553949
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2HW2oua7S3YkM5Rz7LzHil_39.752243_-104.585061@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440054,
-    "wof:geomhash":"5b9c883eb2be2bf6471693c701516dfc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d7487f5137820c9b77b1b1f825c8579",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553949,
+            "region_id":85688603,
+            "venue_id":823521189
+        }
+    ],
     "wof:id":823521189,
-    "wof:lastmodified":1466414884,
+    "wof:lastmodified":1492119611,
     "wof:name":"Tymanike Properties LLP",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553949,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

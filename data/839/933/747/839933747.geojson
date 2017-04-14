@@ -2,9 +2,14 @@
   "id": 839933747,
   "type": "Feature",
   "properties": {
+    "addr:full":"20808 Co Rd 21.5 Lewis CO 81327",
+    "addr:housenumber":"20808",
+    "addr:postcode":"81327",
+    "addr:street":"Co Rd 21.5",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.655762,37.506328,-108.655762,37.506328",
     "geom:latitude":37.506328,
     "geom:longitude":-108.655762,
@@ -28,19 +33,28 @@
         "equipment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555049
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5AYNtpzE84UTju13aM4JiA_37.506328_-108.655762@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458171,
-    "wof:geomhash":"b4b4d9c32268ff5aaf3a28ef615a75b6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"17507ff90414382f2d2106a9b161b283",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555049,
+            "venue_id":839933747
+        }
+    ],
     "wof:id":839933747,
-    "wof:lastmodified":1466414319,
+    "wof:lastmodified":1492111457,
     "wof:name":"Brubaker Equipment",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555049,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

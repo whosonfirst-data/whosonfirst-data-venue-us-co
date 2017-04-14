@@ -2,9 +2,14 @@
   "id": 824047223,
   "type": "Feature",
   "properties": {
+    "addr:full":"5830 Downing St Denver CO 80216",
+    "addr:housenumber":"5830",
+    "addr:postcode":"80216",
+    "addr:street":"Downing St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97335,39.802715,-104.97335,39.802715",
     "geom:latitude":39.802715,
     "geom:longitude":-104.97335,
@@ -33,19 +38,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2DRtUxz5H9NjLZrE4bO3C6_39.802715_-104.973350@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453086,
-    "wof:geomhash":"2a27260087ba21bccd44714faa450089",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d865bbfc7606f5d9992e87a026a25d6e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":824047223
+        }
+    ],
     "wof:id":824047223,
-    "wof:lastmodified":1466414197,
+    "wof:lastmodified":1492130566,
     "wof:name":"Appliance Removal & Met Recycl",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

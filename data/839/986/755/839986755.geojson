@@ -2,9 +2,14 @@
   "id": 839986755,
   "type": "Feature",
   "properties": {
+    "addr:full":"1275 E 1st Ave Broomfield CO 80020",
+    "addr:housenumber":"1275",
+    "addr:postcode":"80020",
+    "addr:street":"E 1St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.054791,39.915323,-105.054791,39.915323",
     "geom:latitude":39.915323,
     "geom:longitude":-105.054791,
@@ -37,19 +42,36 @@
         "salad"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554229
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2BCr9dPzdWkPTd4oaVzxW1_39.915323_-105.054791@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460684,
-    "wof:geomhash":"8a6a72e2d40b10acd592b4e78eedfcc4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7056863eedd0eabe819e2a80b7281d41",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554229,
+            "region_id":85688603,
+            "venue_id":839986755
+        }
+    ],
     "wof:id":839986755,
-    "wof:lastmodified":1466417252,
+    "wof:lastmodified":1492111373,
     "wof:name":"Bruegger's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554229,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

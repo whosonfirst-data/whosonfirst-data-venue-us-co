@@ -2,9 +2,14 @@
   "id": 823514503,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 Ridge Top Dr Divide CO 80814",
+    "addr:housenumber":"123",
+    "addr:postcode":"80814",
+    "addr:street":"Ridge Top Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.161195,38.944451,-105.161195,38.944451",
     "geom:latitude":38.944451,
     "geom:longitude":-105.161195,
@@ -27,17 +32,32 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929963,
+        102085249
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4YGFfNXB7h74MRrBOdRKAG_38.944451_-105.161195@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439896,
-    "wof:geomhash":"0f02059c939373f357b13ef2d4f0774b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7a5ccfca152b131277ae04acb6ea611a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085249,
+            "locality_id":85929963,
+            "region_id":85688603,
+            "venue_id":823514503
+        }
+    ],
     "wof:id":823514503,
-    "wof:lastmodified":1466414642,
+    "wof:lastmodified":1492124898,
     "wof:name":"Rocky Mountain Glass Blowing",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

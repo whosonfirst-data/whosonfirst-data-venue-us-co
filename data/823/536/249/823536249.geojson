@@ -2,9 +2,14 @@
   "id": 823536249,
   "type": "Feature",
   "properties": {
+    "addr:full":"1303 W Main St Sterling CO 80751",
+    "addr:housenumber":"1303",
+    "addr:postcode":"80751",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.230765,40.625057,-103.230765,40.625057",
     "geom:latitude":40.625057,
     "geom:longitude":-103.230765,
@@ -27,17 +32,32 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929371,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Nmb9yA6PjIfaRoTtz9Sl8_40.625057_-103.230765@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440388,
-    "wof:geomhash":"40600a3575cef6c1ca1b437b47db16ca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"df8655aa9d0ddace389e324f8f9af2a7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929371,
+            "region_id":85688603,
+            "venue_id":823536249
+        }
+    ],
     "wof:id":823536249,
-    "wof:lastmodified":1466415263,
+    "wof:lastmodified":1492127072,
     "wof:name":"Cost Cutters",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

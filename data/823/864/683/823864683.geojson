@@ -2,9 +2,14 @@
   "id": 823864683,
   "type": "Feature",
   "properties": {
+    "addr:full":"11231 E 96th Pl Commerce City CO 80022",
+    "addr:housenumber":"11231",
+    "addr:postcode":"80022",
+    "addr:street":"E 96Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.860761,39.871222,-104.860761,39.871222",
     "geom:latitude":39.871222,
     "geom:longitude":-104.860761,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553497
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0cFnwkrWfu3BSfWx8Ki4Tg_39.871222_-104.860761@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448619,
-    "wof:geomhash":"bcab97913ef6aff01f20fbd77539276e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ac4dab5bc72deb558305c6f59eef5155",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553497,
+            "venue_id":823864683
+        }
+    ],
     "wof:id":823864683,
-    "wof:lastmodified":1466419982,
+    "wof:lastmodified":1492126023,
     "wof:name":"Fox Framing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553497,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

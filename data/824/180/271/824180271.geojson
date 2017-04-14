@@ -2,9 +2,14 @@
   "id": 824180271,
   "type": "Feature",
   "properties": {
+    "addr:full":"60 Cactus St Cortez CO 81321",
+    "addr:housenumber":"60",
+    "addr:postcode":"81321",
+    "addr:street":"Cactus St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.560481,37.348305,-108.560481,37.348305",
     "geom:latitude":37.348305,
     "geom:longitude":-108.560481,
@@ -27,19 +32,36 @@
         "federal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555127
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5TR5pcP5Tj3E1xREECGeKN_37.348305_-108.560481@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457076,
-    "wof:geomhash":"8643fa27502d26e0435278c8f77ee446",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a56d12cf1f393412dcaa24a6c72cd74",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555127,
+            "region_id":85688603,
+            "venue_id":824180271
+        }
+    ],
     "wof:id":824180271,
-    "wof:lastmodified":1466418180,
+    "wof:lastmodified":1492128599,
     "wof:name":"US Reclamation Bureau",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555127,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

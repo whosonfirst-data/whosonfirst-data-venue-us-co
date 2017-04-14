@@ -2,9 +2,14 @@
   "id": 823741069,
   "type": "Feature",
   "properties": {
+    "addr:full":"333 S Lincoln Ave Steamboat Springs CO 80487",
+    "addr:housenumber":"333",
+    "addr:postcode":"80487",
+    "addr:street":"S Lincoln Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.826531,40.478054,-106.826531,40.478054",
     "geom:latitude":40.478054,
     "geom:longitude":-106.826531,
@@ -27,19 +32,36 @@
         "operation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555185
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0JTkIWtBqFvKk6Zb3ADjJb_40.478054_-106.826531@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445177,
-    "wof:geomhash":"9f1a126b5318d3870794a92326a3324a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6791ad3a75f55190d03b8b052b4227db",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555185,
+            "region_id":85688603,
+            "venue_id":823741069
+        }
+    ],
     "wof:id":823741069,
-    "wof:lastmodified":1466418853,
+    "wof:lastmodified":1492125823,
     "wof:name":"Iron Horse Inn & Steamboat",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555185,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

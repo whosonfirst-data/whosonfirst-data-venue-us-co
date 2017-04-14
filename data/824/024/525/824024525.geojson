@@ -2,9 +2,14 @@
   "id": 824024525,
   "type": "Feature",
   "properties": {
+    "addr:full":"4900 W 38th Ave Denver CO 80212",
+    "addr:housenumber":"4900",
+    "addr:postcode":"80212",
+    "addr:street":"W 38Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.050561,39.769282,-105.050561,39.769282",
     "geom:latitude":39.769282,
     "geom:longitude":-105.050561,
@@ -29,19 +34,38 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1vfONkcRSvpKUyATtiYZBm_39.769282_-105.050561@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452528,
-    "wof:geomhash":"62525ca1767186f77e92e2ee5145abc7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"43cd131b4f890c0dd91535385b3cba0e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":824024525
+        }
+    ],
     "wof:id":824024525,
-    "wof:lastmodified":1466413761,
+    "wof:lastmodified":1492133180,
     "wof:name":"Superior Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

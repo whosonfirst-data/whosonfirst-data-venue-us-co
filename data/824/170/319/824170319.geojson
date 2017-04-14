@@ -2,9 +2,14 @@
   "id": 824170319,
   "type": "Feature",
   "properties": {
+    "addr:full":"5555 Valmont Rd Boulder CO 80301",
+    "addr:housenumber":"5555",
+    "addr:postcode":"80301",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.223409,40.028662,-105.223409,40.028662",
     "geom:latitude":40.028662,
     "geom:longitude":-105.223409,
@@ -27,19 +32,28 @@
         "fish"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553983
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_24aAvX6tcsiFCsLFnAuQFA_40.028662_-105.223409@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456691,
-    "wof:geomhash":"7a334f58f3af32beb250e59b6db8108d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"39c382bc0ef174149b5f9dcd763be732",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553983,
+            "venue_id":824170319
+        }
+    ],
     "wof:id":824170319,
-    "wof:lastmodified":1466417855,
+    "wof:lastmodified":1492128796,
     "wof:name":"Cline Trout Farms",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553983,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

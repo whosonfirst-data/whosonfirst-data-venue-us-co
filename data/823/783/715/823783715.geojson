@@ -2,9 +2,14 @@
   "id": 823783715,
   "type": "Feature",
   "properties": {
+    "addr:full":"12195 Mariposa St Denver CO 80234",
+    "addr:housenumber":"12195",
+    "addr:postcode":"80234",
+    "addr:street":"Mariposa St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001488,39.917774,-105.001488,39.917774",
     "geom:latitude":39.917774,
     "geom:longitude":-105.001488,
@@ -28,19 +33,36 @@
     ],
     "sg:website":"www.jrengineering.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2tx8XLlejbyuoz2FhpeeBf_39.917774_-105.001488@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446195,
-    "wof:geomhash":"648c417eaab8f7f3aeef0e510d36fada",
-    "wof:hierarchy":[],
+    "wof:geomhash":"71c25a0cda75d3b8e669066f2785141f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823783715
+        }
+    ],
     "wof:id":823783715,
-    "wof:lastmodified":1466419173,
+    "wof:lastmodified":1492125172,
     "wof:name":"J R Engineering LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

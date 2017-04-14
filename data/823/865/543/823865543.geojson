@@ -2,9 +2,14 @@
   "id": 823865543,
   "type": "Feature",
   "properties": {
+    "addr:full":"12245 E Harvard Dr Aurora CO 80014",
+    "addr:housenumber":"12245",
+    "addr:postcode":"80014",
+    "addr:street":"E Harvard Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.842538,39.670497,-104.842538,39.670497",
     "geom:latitude":39.670497,
     "geom:longitude":-104.842538,
@@ -27,17 +32,32 @@
         "household"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4PTKAEg7yLaYLSYEMlqxpK_39.670497_-104.842538@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448637,
-    "wof:geomhash":"a877a6a8455c4de7f7bce34d00e83e22",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7353fb1df456f4e2f6195d04168d740b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823865543
+        }
+    ],
     "wof:id":823865543,
-    "wof:lastmodified":1466419919,
+    "wof:lastmodified":1492121206,
     "wof:name":"Best Interiors",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

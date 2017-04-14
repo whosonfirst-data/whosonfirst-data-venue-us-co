@@ -2,9 +2,14 @@
   "id": 823573223,
   "type": "Feature",
   "properties": {
+    "addr:full":"736 Main St Longmont CO 80501",
+    "addr:housenumber":"736",
+    "addr:postcode":"80501",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.102424,40.171709,-105.102424,40.171709",
     "geom:latitude":40.171709,
     "geom:longitude":-105.102424,
@@ -27,17 +32,32 @@
         "cafe"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3FqZfinqm5KAyY0UYViVCA_40.171709_-105.102424@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441257,
-    "wof:geomhash":"7d0d41089c2bb7bae48bf4a8d29259b0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"89b64ecd1d11de48d75c06f9382c8183",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823573223
+        }
+    ],
     "wof:id":823573223,
-    "wof:lastmodified":1466416396,
+    "wof:lastmodified":1492125292,
     "wof:name":"Fortune Cafe",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

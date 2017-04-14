@@ -2,9 +2,14 @@
   "id": 823604487,
   "type": "Feature",
   "properties": {
+    "addr:full":"6590 E 56th Ave Commerce City CO 80022",
+    "addr:housenumber":"6590",
+    "addr:postcode":"80022",
+    "addr:street":"E 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.912889,39.798367,-104.912889,39.798367",
     "geom:latitude":39.798367,
     "geom:longitude":-104.912889,
@@ -28,19 +33,36 @@
         "fabricating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_35D7VLh6BBclihnSM174j5_39.798367_-104.912889@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442013,
-    "wof:geomhash":"73d152a03b6839c090f244f5b1bd6789",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e7888add7fae94b962e444742ec32b35",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553923,
+            "region_id":85688603,
+            "venue_id":823604487
+        }
+    ],
     "wof:id":823604487,
-    "wof:lastmodified":1466417222,
+    "wof:lastmodified":1492118994,
     "wof:name":"Tubes & Bends Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

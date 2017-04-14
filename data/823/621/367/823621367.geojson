@@ -2,9 +2,14 @@
   "id": 823621367,
   "type": "Feature",
   "properties": {
+    "addr:full":"1600 Pine Grove Rd Steamboat Springs CO 80487",
+    "addr:housenumber":"1600",
+    "addr:postcode":"80487",
+    "addr:street":"Pine Grove Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.821746,40.464723,-106.821746,40.464723",
     "geom:latitude":40.464723,
     "geom:longitude":-106.821746,
@@ -27,19 +32,36 @@
         "medical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555173
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1trrzLw6gaRCw6yzyyH3eW_40.464723_-106.821746@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442430,
-    "wof:geomhash":"ce6bd13d4d921005f19dc593276af26a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4f5b8d192fd04fd0493e6e7d69c82bbc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555173,
+            "region_id":85688603,
+            "venue_id":823621367
+        }
+    ],
     "wof:id":823621367,
-    "wof:lastmodified":1466417480,
+    "wof:lastmodified":1492124866,
     "wof:name":"Leslie A Ahlmeter MD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555173,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

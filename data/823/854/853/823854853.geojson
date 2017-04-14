@@ -2,9 +2,14 @@
   "id": 823854853,
   "type": "Feature",
   "properties": {
+    "addr:full":"1319 Manitou Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"1319",
+    "addr:postcode":"80487",
+    "addr:street":"Manitou Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.846775,40.486068,-106.846775,40.486068",
     "geom:latitude":40.486068,
     "geom:longitude":-106.846775,
@@ -27,19 +32,36 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555147
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ozxbV4ArgQO016OVvAmFT_40.486068_-106.846775@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448356,
-    "wof:geomhash":"edac96b05d66abd064ed885300815b7d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e6c445828ff264a9ce61e00b031c3935",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555147,
+            "region_id":85688603,
+            "venue_id":823854853
+        }
+    ],
     "wof:id":823854853,
-    "wof:lastmodified":1466419891,
+    "wof:lastmodified":1492125022,
     "wof:name":"Appliance Service Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555147,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823507381,
   "type": "Feature",
   "properties": {
+    "addr:full":"230 Park Ave Fort Lupton CO 80621",
+    "addr:housenumber":"230",
+    "addr:postcode":"80621",
+    "addr:street":"Park Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.811646,40.082064,-104.811646,40.082064",
     "geom:latitude":40.082064,
     "geom:longitude":-104.811646,
@@ -27,19 +32,28 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3cwSNTwHUEWRTQV6Oqh6mv_40.082064_-104.811646@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439741,
-    "wof:geomhash":"6a0a318ce0afef6f6fb7f0366009d971",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e0be17bd40b790f7ccb9867efb8be599",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823507381
+        }
+    ],
     "wof:id":823507381,
-    "wof:lastmodified":1466414450,
+    "wof:lastmodified":1492126540,
     "wof:name":"Park Ave Dental Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

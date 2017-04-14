@@ -2,9 +2,14 @@
   "id": 839953001,
   "type": "Feature",
   "properties": {
+    "addr:full":"3194 Mesa Ave Grand Junction CO 81504",
+    "addr:housenumber":"3194",
+    "addr:postcode":"81504",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.463014,39.082632,-108.463014,39.082632",
     "geom:latitude":39.082632,
     "geom:longitude":-108.463014,
@@ -29,19 +34,36 @@
         "plate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Na5Bu11BEDs9Bce77KNGf_39.082632_-108.463014@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459280,
-    "wof:geomhash":"fdc8172c04a238f3769d833624729d82",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b127b5d272c9ae0bda335cc077b6e5ca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":839953001
+        }
+    ],
     "wof:id":839953001,
-    "wof:lastmodified":1466415555,
+    "wof:lastmodified":1492111616,
     "wof:name":"Maverick Glass & Shower Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

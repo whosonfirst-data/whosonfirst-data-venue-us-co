@@ -2,9 +2,14 @@
   "id": 823686607,
   "type": "Feature",
   "properties": {
+    "addr:full":"1223 W 100th Pl Denver CO 80260",
+    "addr:housenumber":"1223",
+    "addr:postcode":"80260",
+    "addr:street":"W 100Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005414,39.879431,-105.005414,39.879431",
     "geom:latitude":39.879431,
     "geom:longitude":-105.005414,
@@ -24,19 +29,36 @@
     "sg:postcode":"80260",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553869
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0gxxWbd6aUSt8q4G9WjuRH_39.879431_-105.005414@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443936,
-    "wof:geomhash":"a730d991bd3a6d8691b79b43aac9c0e3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0e155f91051309a637e1a0332da1e919",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553869,
+            "region_id":85688603,
+            "venue_id":823686607
+        }
+    ],
     "wof:id":823686607,
-    "wof:lastmodified":1466418411,
+    "wof:lastmodified":1492116629,
     "wof:name":"Jrb Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553869,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

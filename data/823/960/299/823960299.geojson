@@ -2,9 +2,14 @@
   "id": 823960299,
   "type": "Feature",
   "properties": {
+    "addr:full":"3334 Sheridan Blvd Denver CO 80212",
+    "addr:housenumber":"3334",
+    "addr:postcode":"80212",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053167,39.764498,-105.053167,39.764498",
     "geom:latitude":39.764498,
     "geom:longitude":-105.053167,
@@ -28,19 +33,38 @@
         "trimming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ZqlMsawUJneHPGtttlebp_39.764498_-105.053167@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451038,
-    "wof:geomhash":"349a2c0a13bd3608bfd4ea1d58ee43a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c9e3b4e3c16980b37aa15d06814a914f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823960299
+        }
+    ],
     "wof:id":823960299,
-    "wof:lastmodified":1466420761,
+    "wof:lastmodified":1492119684,
     "wof:name":"C & C Tree Service Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

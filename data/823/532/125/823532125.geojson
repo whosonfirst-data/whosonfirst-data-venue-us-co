@@ -2,9 +2,14 @@
   "id": 823532125,
   "type": "Feature",
   "properties": {
+    "addr:full":"4689 E 109th Pl Denver CO 80233",
+    "addr:housenumber":"4689",
+    "addr:postcode":"80233",
+    "addr:street":"E 109Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931268,39.894228,-104.931268,39.894228",
     "geom:latitude":39.894228,
     "geom:longitude":-104.931268,
@@ -30,19 +35,36 @@
         "furnishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553691
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Ntxf2dnwe0HVhoCAaKKXc_39.894228_-104.931268@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440293,
-    "wof:geomhash":"dd5ed04cdbca6b9c2f53d3373544db13",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f5e7a368f1c58020a5bc0fe6ab656855",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553691,
+            "region_id":85688603,
+            "venue_id":823532125
+        }
+    ],
     "wof:id":823532125,
-    "wof:lastmodified":1466415280,
+    "wof:lastmodified":1492122846,
     "wof:name":"Pastimes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553691,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

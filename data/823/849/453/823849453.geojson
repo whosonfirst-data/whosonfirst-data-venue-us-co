@@ -2,9 +2,14 @@
   "id": 823849453,
   "type": "Feature",
   "properties": {
+    "addr:full":"3000 E 112th Ave Denver CO 80233",
+    "addr:housenumber":"3000",
+    "addr:postcode":"80233",
+    "addr:street":"E 112Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.951739,39.899412,-104.951739,39.899412",
     "geom:latitude":39.899412,
     "geom:longitude":-104.951739,
@@ -32,19 +37,36 @@
         "townhouses"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553673
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Qf1M3RsibF6wMsKPA81LE_39.899412_-104.951739@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448207,
-    "wof:geomhash":"dfaf72882e458c26508c8f67aa44bacf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"899cd8323b29e0d274e9d73b55501a86",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553673,
+            "region_id":85688603,
+            "venue_id":823849453
+        }
+    ],
     "wof:id":823849453,
-    "wof:lastmodified":1466419775,
+    "wof:lastmodified":1492127025,
     "wof:name":"Homestead Townhomes LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553673,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

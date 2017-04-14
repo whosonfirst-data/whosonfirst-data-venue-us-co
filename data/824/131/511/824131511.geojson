@@ -2,9 +2,14 @@
   "id": 824131511,
   "type": "Feature",
   "properties": {
+    "addr:full":"3101 E 5th Ave Durango CO 81301",
+    "addr:housenumber":"3101",
+    "addr:postcode":"co 81301",
+    "addr:street":"E 5Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.865777,37.298529,-107.865777,37.298529",
     "geom:latitude":37.298529,
     "geom:longitude":-107.865777,
@@ -27,19 +32,28 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7GFNI1wGjMUtniK8AQMvC7_37.298529_-107.865777@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455201,
-    "wof:geomhash":"7b6c09ce9f346b67096b5abe17cda15b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9354accc2511cb58d3d4306f244e396b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":824131511
+        }
+    ],
     "wof:id":824131511,
-    "wof:lastmodified":1466416114,
+    "wof:lastmodified":1492130417,
     "wof:name":"Nut Shack",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824169649,
   "type": "Feature",
   "properties": {
+    "addr:full":"14500 E 39th Ave Aurora CO 80011",
+    "addr:housenumber":"14500",
+    "addr:postcode":"80011",
+    "addr:street":"E 39Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.812478,39.770396,-104.812478,39.770396",
     "geom:latitude":39.770396,
     "geom:longitude":-104.812478,
@@ -28,19 +33,36 @@
         "drug"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3gA27vgm1MT1La9sotEEwC_39.770396_-104.812478@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456663,
-    "wof:geomhash":"1dbc79bc44658e5b5b471588744ff3b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a3d649dd9e993ba54c9e8aa255f8e1b1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553641,
+            "region_id":85688603,
+            "venue_id":824169649
+        }
+    ],
     "wof:id":824169649,
-    "wof:lastmodified":1466417883,
+    "wof:lastmodified":1492128698,
     "wof:name":"Mc Kesson Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

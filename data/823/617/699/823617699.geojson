@@ -2,9 +2,14 @@
   "id": 823617699,
   "type": "Feature",
   "properties": {
+    "addr:full":"315 N 1st Ave Holly CO 81047",
+    "addr:housenumber":"315",
+    "addr:postcode":"81047",
+    "addr:street":"N 1St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.118625,38.0544,-102.118625,38.0544",
     "geom:latitude":38.0544,
     "geom:longitude":-102.118625,
@@ -28,17 +33,32 @@
         "swimming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928849,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0wICGQmRDlvrScElvSkaHT_38.054400_-102.118625@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442338,
-    "wof:geomhash":"dbad7e8fe9bc805b9b44e68338ae37ed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"be9647b121db05735030af105c38f97f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928849,
+            "region_id":85688603,
+            "venue_id":823617699
+        }
+    ],
     "wof:id":823617699,
-    "wof:lastmodified":1466417495,
+    "wof:lastmodified":1492122631,
     "wof:name":"Holly Swimming Pool",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

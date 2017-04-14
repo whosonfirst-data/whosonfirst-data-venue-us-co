@@ -2,9 +2,14 @@
   "id": 823615795,
   "type": "Feature",
   "properties": {
+    "addr:full":"575 E Drake Rd Fort Collins CO 80525",
+    "addr:housenumber":"575",
+    "addr:postcode":"80525",
+    "addr:street":"E Drake Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067945,40.552471,-105.067945,40.552471",
     "geom:latitude":40.552471,
     "geom:longitude":-105.067945,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554723
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2UK8TUwHm1e8wxwIfHr1CE_40.552471_-105.067945@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442294,
-    "wof:geomhash":"c754724cca4e99e9f8a5b4b0d15179ec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"598c9c66f80337ae9fc3e15115633cd1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554723,
+            "region_id":85688603,
+            "venue_id":823615795
+        }
+    ],
     "wof:id":823615795,
-    "wof:lastmodified":1466417390,
+    "wof:lastmodified":1492120778,
     "wof:name":"Low Cost Heating & Air",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554723,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

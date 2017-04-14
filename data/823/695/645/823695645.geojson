@@ -2,9 +2,14 @@
   "id": 823695645,
   "type": "Feature",
   "properties": {
+    "addr:full":"2390 Ranch Dr Denver CO 80234",
+    "addr:housenumber":"2390",
+    "addr:postcode":"80234",
+    "addr:street":"Ranch Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.014797,39.901243,-105.014797,39.901243",
     "geom:latitude":39.901243,
     "geom:longitude":-105.014797,
@@ -27,19 +32,36 @@
         "ranch"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553847
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5pRWVv1BliRxQlzSQIP133_39.901243_-105.014797@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444147,
-    "wof:geomhash":"1c2c72b609c9a1dcc2cba437361c4685",
-    "wof:hierarchy":[],
+    "wof:geomhash":"32cde053a94212d8cd0b9e76a383a5e3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553847,
+            "region_id":85688603,
+            "venue_id":823695645
+        }
+    ],
     "wof:id":823695645,
-    "wof:lastmodified":1466418510,
+    "wof:lastmodified":1492126568,
     "wof:name":"Ranch Reserve",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553847,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823603525,
   "type": "Feature",
   "properties": {
+    "addr:full":"256 S 2nd Ave Brighton CO 80601",
+    "addr:housenumber":"256",
+    "addr:postcode":"80601",
+    "addr:street":"S 2Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.820826,39.983009,-104.820826,39.983009",
     "geom:latitude":39.983009,
     "geom:longitude":-104.820826,
@@ -27,19 +32,36 @@
         "appliance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7WPSg737Xwp75kNoGIjg7R_39.983009_-104.820826@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441990,
-    "wof:geomhash":"59c6201cc5c1cde22e5f246c0a132e5c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"22bca2560ca084434d4a40354d56d594",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823603525
+        }
+    ],
     "wof:id":823603525,
-    "wof:lastmodified":1466417220,
+    "wof:lastmodified":1492126129,
     "wof:name":"Appliance Xtreme Svc & Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

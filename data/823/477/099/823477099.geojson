@@ -2,9 +2,14 @@
   "id": 823477099,
   "type": "Feature",
   "properties": {
+    "addr:full":"1842 Truda Dr Denver CO 80233",
+    "addr:housenumber":"1842",
+    "addr:postcode":"80233",
+    "addr:street":"Truda Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.96532,39.910015,-104.96532,39.910015",
     "geom:latitude":39.910015,
     "geom:longitude":-104.96532,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553653
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6clRaVxjg5hZFeBLOMwuZr_39.910015_-104.965320@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439008,
-    "wof:geomhash":"cce4bb811ca7c4eb21d8cb517b534e82",
-    "wof:hierarchy":[],
+    "wof:geomhash":"93a599c5a4fd4a41b5f025cbd8b42944",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553653,
+            "region_id":85688603,
+            "venue_id":823477099
+        }
+    ],
     "wof:id":823477099,
-    "wof:lastmodified":1466413033,
+    "wof:lastmodified":1492124199,
     "wof:name":"Hodgman Tile",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553653,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

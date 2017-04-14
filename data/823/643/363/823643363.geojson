@@ -2,9 +2,14 @@
   "id": 823643363,
   "type": "Feature",
   "properties": {
+    "addr:full":"4879 W Tennessee Ave Denver CO 80219",
+    "addr:housenumber":"4879",
+    "addr:postcode":"80219",
+    "addr:street":"W Tennessee Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.049393,39.697658,-105.049393,39.697658",
     "geom:latitude":39.697658,
     "geom:longitude":-105.049393,
@@ -27,19 +32,38 @@
         "door"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4DoYViT5XAagImS2P9tiGJ_39.697658_-105.049393@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442929,
-    "wof:geomhash":"91b4198e027dfd4756028025f5472d04",
-    "wof:hierarchy":[],
+    "wof:geomhash":"20abd8598ccb998da1265cf2d6378af1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":823643363
+        }
+    ],
     "wof:id":823643363,
-    "wof:lastmodified":1466417969,
+    "wof:lastmodified":1492121231,
     "wof:name":"Overhead Door Alert Svc Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

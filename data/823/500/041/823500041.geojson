@@ -2,9 +2,14 @@
   "id": 823500041,
   "type": "Feature",
   "properties": {
+    "addr:full":"2712 S College Ave Fort Collins CO 80525",
+    "addr:housenumber":"2712",
+    "addr:postcode":"80525",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076966,40.549134,-105.076966,40.549134",
     "geom:latitude":40.549134,
     "geom:longitude":-105.076966,
@@ -28,19 +33,36 @@
         "rug"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554753
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_48DuIik2wXzBDcHOAcNqMq_40.549134_-105.076966@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439575,
-    "wof:geomhash":"c8ada3eb63a99c53006d6dd8dd196909",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2720d99e2ae1dd0a527b91c176141bd2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554753,
+            "region_id":85688603,
+            "venue_id":823500041
+        }
+    ],
     "wof:id":823500041,
-    "wof:lastmodified":1466414237,
+    "wof:lastmodified":1492125566,
     "wof:name":"New Creation Interiors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554753,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

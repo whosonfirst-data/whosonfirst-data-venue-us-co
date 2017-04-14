@@ -2,9 +2,14 @@
   "id": 824147679,
   "type": "Feature",
   "properties": {
+    "addr:full":"5445 Harlan St Arvada CO 80002",
+    "addr:housenumber":"5445",
+    "addr:postcode":"80002",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062675,39.796114,-105.062675,39.796114",
     "geom:latitude":39.796114,
     "geom:longitude":-105.062675,
@@ -29,19 +34,34 @@
         "plate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_38D2tltbGMGsLTJ7Url8XA_39.796114_-105.062675@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455815,
-    "wof:geomhash":"b33e70c402348a7cbbc730ad73265ff3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a22e27cd41c0d9c5f174746910134bbc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824147679
+        }
+    ],
     "wof:id":824147679,
-    "wof:lastmodified":1466416627,
+    "wof:lastmodified":1492131635,
     "wof:name":"Arvada Screen & Glass",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

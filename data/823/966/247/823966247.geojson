@@ -2,9 +2,14 @@
   "id": 823966247,
   "type": "Feature",
   "properties": {
+    "addr:full":"12340 E 116th Cir Henderson CO 80640",
+    "addr:housenumber":"12340",
+    "addr:postcode":"80640",
+    "addr:street":"E 116Th Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.845321,39.907802,-104.845321,39.907802",
     "geom:latitude":39.907802,
     "geom:longitude":-104.845321,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Zg3o5j6ea662DSQX4iXYg_39.907802_-104.845321@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451176,
-    "wof:geomhash":"51329adf18766ce5b89cc1ee422d7b4c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b6ed9f5fde73191ba3a4628d404ba888",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553367,
+            "region_id":85688603,
+            "venue_id":823966247
+        }
+    ],
     "wof:id":823966247,
-    "wof:lastmodified":1466420770,
+    "wof:lastmodified":1492118827,
     "wof:name":"Ken's Mechanical Htg & AC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

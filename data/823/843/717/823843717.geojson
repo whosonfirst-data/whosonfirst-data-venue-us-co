@@ -2,9 +2,14 @@
   "id": 823843717,
   "type": "Feature",
   "properties": {
+    "addr:full":"1201 W Ohio Ave Gunnison CO 81230",
+    "addr:housenumber":"1201",
+    "addr:postcode":"81230",
+    "addr:street":"W Ohio Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.940147,38.547712,-106.940147,38.547712",
     "geom:latitude":38.547712,
     "geom:longitude":-106.940147,
@@ -28,19 +33,42 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453,
+        420554387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4xNe8UJyARGpCUcAe8YVtt_38.547712_-106.940147@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448045,
-    "wof:geomhash":"185c8b9b9a49f7ef0cadaec0fa99aa0d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"461b062cc1e4391bede24fab29826ee6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":823843717
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554387,
+            "venue_id":823843717
+        }
+    ],
     "wof:id":823843717,
-    "wof:lastmodified":1466419571,
+    "wof:lastmodified":1492116928,
     "wof:name":"Winding Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

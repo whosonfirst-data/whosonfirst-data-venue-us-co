@@ -2,9 +2,14 @@
   "id": 823844851,
   "type": "Feature",
   "properties": {
+    "addr:full":"1352 Monroe St Strasburg CO 80136",
+    "addr:housenumber":"1352",
+    "addr:postcode":"80136",
+    "addr:street":"Monroe St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.321396,39.735489,-104.321396,39.735489",
     "geom:latitude":39.735489,
     "geom:longitude":-104.321396,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7CO9yoJlPfvKo0eYf5MBj5_39.735489_-104.321396@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448074,
-    "wof:geomhash":"642ca4ad17e53d69d284329b9488ad7a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6bcbdfaefab6f1d45102e1b7394ff6fb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823844851
+        }
+    ],
     "wof:id":823844851,
-    "wof:lastmodified":1466419759,
+    "wof:lastmodified":1492118144,
     "wof:name":"Chucks Bunkhouse Barbecue",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

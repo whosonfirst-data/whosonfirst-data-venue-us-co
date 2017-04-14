@@ -2,9 +2,14 @@
   "id": 824170949,
   "type": "Feature",
   "properties": {
+    "addr:full":"208 4th Ave Severance CO 80544",
+    "addr:housenumber":"208",
+    "addr:postcode":"80544",
+    "addr:street":"4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.169178,40.103822,-105.169178,40.103822",
     "geom:latitude":40.103822,
     "geom:longitude":-105.169178,
@@ -28,19 +33,36 @@
         "bed"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3SdGbGYX4OKGLa9KgUrNpw_40.103822_-105.169178@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456721,
-    "wof:geomhash":"c886c64658838636e633fb4bf11f5100",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eeda585f0cf9fd8581a6e33af28435cb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554063,
+            "region_id":85688603,
+            "venue_id":824170949
+        }
+    ],
     "wof:id":824170949,
-    "wof:lastmodified":1466418029,
+    "wof:lastmodified":1492128804,
     "wof:name":"Country Water Bed Store",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

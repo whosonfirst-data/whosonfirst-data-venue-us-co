@@ -2,9 +2,14 @@
   "id": 823856907,
   "type": "Feature",
   "properties": {
+    "addr:full":"13434 Cherry Way Denver CO 80241",
+    "addr:housenumber":"13434",
+    "addr:postcode":"80241",
+    "addr:street":"Cherry Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.933149,39.937848,-104.933149,39.937848",
     "geom:latitude":39.937848,
     "geom:longitude":-104.933149,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553833
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1CkbkXMbk6yI5TNd7eOEUv_39.937848_-104.933149@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448412,
-    "wof:geomhash":"f33e12725af4cf11a24912a64abec10c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2386fb35037c8ea3d56ac14d6a72d477",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553833,
+            "region_id":85688603,
+            "venue_id":823856907
+        }
+    ],
     "wof:id":823856907,
-    "wof:lastmodified":1466419803,
+    "wof:lastmodified":1492124107,
     "wof:name":"Cas Drywall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

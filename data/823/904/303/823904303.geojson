@@ -2,9 +2,14 @@
   "id": 823904303,
   "type": "Feature",
   "properties": {
+    "addr:full":"2120 S Federal Blvd Denver CO 80219",
+    "addr:housenumber":"2120",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024971,39.677147,-105.024971,39.677147",
     "geom:latitude":39.677147,
     "geom:longitude":-105.024971,
@@ -28,19 +33,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7loy9TQKSafkjpxcMoj1Uu_39.677147_-105.024971@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449578,
-    "wof:geomhash":"76e70dd50f1a6a8b6e3022e45a551d72",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f1608f3f8714ab8d8a864b0a7ec2ed2b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":823904303
+        }
+    ],
     "wof:id":823904303,
-    "wof:lastmodified":1466420246,
+    "wof:lastmodified":1492116180,
     "wof:name":"Westec Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

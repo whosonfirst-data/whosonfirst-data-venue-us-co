@@ -2,9 +2,14 @@
   "id": 823652483,
   "type": "Feature",
   "properties": {
+    "addr:full":"258 Stewart St Durango CO 81303",
+    "addr:housenumber":"258",
+    "addr:postcode":"co 81303",
+    "addr:street":"Stewart St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.877913,37.243964,-107.877913,37.243964",
     "geom:latitude":37.243964,
     "geom:longitude":-107.877913,
@@ -37,19 +42,28 @@
         "local"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5zV1hQVvMeAHyOBtH8IGID_37.243964_-107.877913@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443131,
-    "wof:geomhash":"6619eb0146f0ae66b64619716251d569",
-    "wof:hierarchy":[],
+    "wof:geomhash":"78e050ea22cc2e4b13461d9dcc8620a1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":823652483
+        }
+    ],
     "wof:id":823652483,
-    "wof:lastmodified":1466418262,
+    "wof:lastmodified":1492121152,
     "wof:name":"Waste Management Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

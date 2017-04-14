@@ -2,9 +2,14 @@
   "id": 823936403,
   "type": "Feature",
   "properties": {
+    "addr:full":"311 N Main St Brighton CO 80601",
+    "addr:housenumber":"311",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.819823,39.992117,-104.819823,39.992117",
     "geom:latitude":39.992117,
     "geom:longitude":-104.819823,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1llD9GUn4JlGOpV0y669EW_39.992117_-104.819823@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450442,
-    "wof:geomhash":"6571267d6510de4d618aff1373015d11",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f89ab9e4cb1f560102f691f4724d4d56",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823936403
+        }
+    ],
     "wof:id":823936403,
-    "wof:lastmodified":1466420533,
+    "wof:lastmodified":1492117072,
     "wof:name":"Tortilleria Cuauhtemoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

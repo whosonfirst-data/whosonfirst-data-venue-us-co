@@ -2,9 +2,14 @@
   "id": 823583721,
   "type": "Feature",
   "properties": {
+    "addr:full":"5680 Emerson St Denver CO 80216",
+    "addr:housenumber":"5680",
+    "addr:postcode":"80216",
+    "addr:street":"Emerson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.975765,39.801237,-104.975765,39.801237",
     "geom:latitude":39.801237,
     "geom:longitude":-104.975765,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3pQziZvCDif3W9N0szJnOt_39.801237_-104.975765@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441510,
-    "wof:geomhash":"a3105353cc87086e0d07af8a4a1169b3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2615f2fa0f4a0ce7b71d550bf7bdb678",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":823583721
+        }
+    ],
     "wof:id":823583721,
-    "wof:lastmodified":1466416746,
+    "wof:lastmodified":1492116961,
     "wof:name":"Brennan & Kammerzall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

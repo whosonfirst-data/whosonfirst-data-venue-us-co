@@ -2,9 +2,14 @@
   "id": 823795035,
   "type": "Feature",
   "properties": {
+    "addr:full":"3292 Stuart St Denver CO 80212",
+    "addr:housenumber":"3292",
+    "addr:postcode":"80212",
+    "addr:street":"Stuart St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.04276,39.762225,-105.04276,39.762225",
     "geom:latitude":39.762225,
     "geom:longitude":-105.04276,
@@ -28,19 +33,38 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0pqaXzH5i3uFNA6zUSfYcm_39.762225_-105.042760@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446575,
-    "wof:geomhash":"ea6078e55c4ef9b32fe24eead5bd944a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ed66fbe07013863ce100c9334a48749d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823795035
+        }
+    ],
     "wof:id":823795035,
-    "wof:lastmodified":1466419249,
+    "wof:lastmodified":1492120441,
     "wof:name":"Lavon Apts",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

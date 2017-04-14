@@ -2,9 +2,14 @@
   "id": 823559539,
   "type": "Feature",
   "properties": {
+    "addr:full":"2000 Co Rd 308 Durango CO 81303",
+    "addr:housenumber":"2000;308",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.768576,37.169302,-107.768576,37.169302",
     "geom:latitude":37.169302,
     "geom:longitude":-107.768576,
@@ -29,19 +34,28 @@
         "drilling"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0XxtkXNPRblXQZ6NxJd5ne_37.169302_-107.768576@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440920,
-    "wof:geomhash":"8f32806b6a25cb4e1be1795de72d9725",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c3d21780f1069229ebcd2578f693c8b9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823559539
+        }
+    ],
     "wof:id":823559539,
-    "wof:lastmodified":1466416060,
+    "wof:lastmodified":1492127458,
     "wof:name":"DAK Water-Well Drilling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

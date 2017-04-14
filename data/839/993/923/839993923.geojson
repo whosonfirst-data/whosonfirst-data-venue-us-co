@@ -2,9 +2,14 @@
   "id": 839993923,
   "type": "Feature",
   "properties": {
+    "addr:full":"1877 Broadway Suite 200 Boulder CO 80302",
+    "addr:housenumber":"1877;suite 200",
+    "addr:postcode":"80302",
+    "addr:street":"Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.279471,40.016117,-105.279471,40.016117",
     "geom:latitude":40.016117,
     "geom:longitude":-105.279471,
@@ -28,7 +33,14 @@
     ],
     "sg:website":"http://www.sendgrid.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5lPxov1mgcCzIXAZgEuH81_40.016117_-105.279471@1308186498"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463460982,
     "wof:geomhash":"5dd3ad37c0bbe4d6a0dbae6aeca9655e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":839993923
+        }
+    ],
     "wof:id":839993923,
-    "wof:lastmodified":1466417745,
+    "wof:lastmodified":1491897928,
     "wof:name":"SendGrid",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823587625,
   "type": "Feature",
   "properties": {
+    "addr:full":"2432 Lincoln Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"2432",
+    "addr:postcode":"80487",
+    "addr:street":"Lincoln Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.862346,40.502995,-106.862346,40.502995",
     "geom:latitude":40.502995,
     "geom:longitude":-106.862346,
@@ -27,19 +32,36 @@
         "yard"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555187
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_17G2LxC6usI4EYk783tVfp_40.502995_-106.862346@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441591,
-    "wof:geomhash":"ac99351eb99bb2076251a2dbad5da020",
-    "wof:hierarchy":[],
+    "wof:geomhash":"26d2f75d345c0e4ef1e5266fb6324405",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555187,
+            "region_id":85688603,
+            "venue_id":823587625
+        }
+    ],
     "wof:id":823587625,
-    "wof:lastmodified":1466416816,
+    "wof:lastmodified":1492126217,
     "wof:name":"Valley Rentals Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555187,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

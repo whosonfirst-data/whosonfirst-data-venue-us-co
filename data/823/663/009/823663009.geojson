@@ -2,9 +2,14 @@
   "id": 823663009,
   "type": "Feature",
   "properties": {
+    "addr:full":"150 Pine Ridge Rd Durango CO 81301",
+    "addr:housenumber":"150",
+    "addr:postcode":"co 81301",
+    "addr:street":"Pine Ridge Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.774946,37.261744,-107.774946,37.261744",
     "geom:latitude":37.261744,
     "geom:longitude":-107.774946,
@@ -29,19 +34,28 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554607
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1JHpj5FceGE3YlxIKLREzo_37.261744_-107.774946@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443409,
-    "wof:geomhash":"cc9be0d7884457fd91a511c6bcbac3ec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0bdc5f9c14d2e0df45526dcf037a950",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554607,
+            "venue_id":823663009
+        }
+    ],
     "wof:id":823663009,
-    "wof:lastmodified":1466418068,
+    "wof:lastmodified":1492121787,
     "wof:name":"Summers Tileworks",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554607,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

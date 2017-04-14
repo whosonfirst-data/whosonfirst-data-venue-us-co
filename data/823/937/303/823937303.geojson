@@ -2,9 +2,14 @@
   "id": 823937303,
   "type": "Feature",
   "properties": {
+    "addr:full":"70 Marble St Broomfield CO 80020",
+    "addr:housenumber":"70",
+    "addr:postcode":"80020",
+    "addr:street":"Marble St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.086535,39.917455,-105.086535,39.917455",
     "geom:latitude":39.917455,
     "geom:longitude":-105.086535,
@@ -27,19 +32,36 @@
         "grooming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554257
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ta0C0JDsT67wYNM1dyn9v_39.917455_-105.086535@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450461,
-    "wof:geomhash":"174d1c98239ac8a70a011afafa012076",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a265ff3818e5f06bfc69d714520c6f02",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554257,
+            "region_id":85688603,
+            "venue_id":823937303
+        }
+    ],
     "wof:id":823937303,
-    "wof:lastmodified":1466420664,
+    "wof:lastmodified":1492120093,
     "wof:name":"Groom Closet",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

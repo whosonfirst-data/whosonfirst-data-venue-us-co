@@ -2,9 +2,14 @@
   "id": 823696925,
   "type": "Feature",
   "properties": {
+    "addr:full":"1184 W 111th Pl Northglenn CO 80234",
+    "addr:housenumber":"1184",
+    "addr:postcode":"80234",
+    "addr:street":"W 111Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.003062,39.89908,-105.003062,39.89908",
     "geom:latitude":39.89908,
     "geom:longitude":-105.003062,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553705
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6z8e5gCb8MMkPxTSp93Bff_39.899080_-105.003062@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444176,
-    "wof:geomhash":"0f8c7d8bba187904ad34107d74d0a67c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"255446bc6a3d82814b0339032b0c83fc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553705,
+            "region_id":85688603,
+            "venue_id":823696925
+        }
+    ],
     "wof:id":823696925,
-    "wof:lastmodified":1466418768,
+    "wof:lastmodified":1492126290,
     "wof:name":"Christopher Hoy Design Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553705,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824089849,
   "type": "Feature",
   "properties": {
+    "addr:full":"10620 Washington St Denver CO 80233",
+    "addr:housenumber":"10620",
+    "addr:postcode":"80233",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977541,39.889535,-104.977541,39.889535",
     "geom:latitude":39.889535,
     "geom:longitude":-104.977541,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553797
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2HjBdDt9oR5kBmnEE1753H_39.889535_-104.977541@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454085,
-    "wof:geomhash":"a8b17654674a03ff50179c56c23149ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"90bc4b9d40603c989d66f0efdba7cfda",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553797,
+            "region_id":85688603,
+            "venue_id":824089849
+        }
+    ],
     "wof:id":824089849,
-    "wof:lastmodified":1466415032,
+    "wof:lastmodified":1492130147,
     "wof:name":"First Southern Baptist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553797,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

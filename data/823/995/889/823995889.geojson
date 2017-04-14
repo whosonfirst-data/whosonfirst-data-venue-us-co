@@ -2,9 +2,14 @@
   "id": 823995889,
   "type": "Feature",
   "properties": {
+    "addr:full":"6475 Huron St Denver CO 80221",
+    "addr:housenumber":"6475",
+    "addr:postcode":"80221",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996889,39.813967,-104.996889,39.813967",
     "geom:latitude":39.813967,
     "geom:longitude":-104.996889,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553793
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1txMniSOWrfD5GImJWFYCV_39.813967_-104.996889@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451886,
-    "wof:geomhash":"2d47d59bdb44a6af11182a391d06ac51",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ded0a5b1b5fd08cceaed3f625d304fca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553793,
+            "region_id":85688603,
+            "venue_id":823995889
+        }
+    ],
     "wof:id":823995889,
-    "wof:lastmodified":1466421021,
+    "wof:lastmodified":1492117207,
     "wof:name":"Calabrese Trucking Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553793,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

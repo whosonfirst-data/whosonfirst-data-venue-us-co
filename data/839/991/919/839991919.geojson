@@ -2,9 +2,14 @@
   "id": 839991919,
   "type": "Feature",
   "properties": {
+    "addr:full":"421 Brach Dr Grand Junction CO 81503",
+    "addr:housenumber":"421",
+    "addr:postcode":"81503",
+    "addr:street":"Brach Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586152,39.064511,-108.586152,39.064511",
     "geom:latitude":39.064511,
     "geom:longitude":-108.586152,
@@ -28,19 +33,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554767
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06C80xu9RfuqXs0x069usF_39.064511_-108.586152@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460881,
-    "wof:geomhash":"e69017b3016a0a729b0f361d862b6785",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1cdf249bc6b12d99b58e592cf49b4571",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554767,
+            "region_id":85688603,
+            "venue_id":839991919
+        }
+    ],
     "wof:id":839991919,
-    "wof:lastmodified":1466417480,
+    "wof:lastmodified":1492110968,
     "wof:name":"Dos Hombres",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554767,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

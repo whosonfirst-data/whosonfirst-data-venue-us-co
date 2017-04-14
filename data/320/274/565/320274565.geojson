@@ -2,9 +2,14 @@
   "id": 320274565,
   "type": "Feature",
   "properties": {
+    "addr:full":"4475 E 50th Avenue Denver CO 80216",
+    "addr:housenumber":"4475",
+    "addr:postcode":"80216",
+    "addr:street":"E 50Th Avenue",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.93563,39.78714,-104.93563,39.78714",
     "geom:latitude":39.78714,
     "geom:longitude":-104.93563,
@@ -28,10 +33,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750051,
+        85840547,
+        102191575,
+        1108750055,
         85633793,
         85928879,
-        102086135
+        102086135,
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,19 +50,21 @@
     "wof:geomhash":"a4924b0bd5e6c104cae2056e88d2995f",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":-1,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750051,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":320274565
         }
     ],
     "wof:id":320274565,
-    "wof:lastmodified":1466412973,
+    "wof:lastmodified":1486604444,
     "wof:name":"Harvest Meat Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

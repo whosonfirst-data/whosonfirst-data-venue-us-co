@@ -2,9 +2,14 @@
   "id": 824054591,
   "type": "Feature",
   "properties": {
+    "addr:full":"23 W 7th St Cortez CO 81321",
+    "addr:housenumber":"23",
+    "addr:postcode":"81321",
+    "addr:street":"W 7Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.585716,37.341529,-108.585716,37.341529",
     "geom:latitude":37.341529,
     "geom:longitude":-108.585716,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2PsnHSskjJ8D2tkwxPJfsc_37.341529_-108.585716@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453273,
-    "wof:geomhash":"007e2afd3adcd73c895ebaffaca63c03",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6ab976808e914bb946194be964628f60",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":824054591
+        }
+    ],
     "wof:id":824054591,
-    "wof:lastmodified":1466414393,
+    "wof:lastmodified":1492129838,
     "wof:name":"Cortez Park Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

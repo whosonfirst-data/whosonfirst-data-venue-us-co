@@ -2,9 +2,14 @@
   "id": 823876745,
   "type": "Feature",
   "properties": {
+    "addr:full":"5950 W 56th Ave Arvada CO 80002",
+    "addr:housenumber":"5950",
+    "addr:postcode":"80002",
+    "addr:street":"W 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062144,39.798254,-105.062144,39.798254",
     "geom:latitude":39.798254,
     "geom:longitude":-105.062144,
@@ -30,19 +35,34 @@
     ],
     "sg:website":"www.procartinc.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_67Llw4K7pbQh7WR9R3yegh_39.798254_-105.062144@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448895,
-    "wof:geomhash":"33961c9c874b98c5876f1394bb4ed224",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fc5191ead42bce11bb39fee68bd45092",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823876745
+        }
+    ],
     "wof:id":823876745,
-    "wof:lastmodified":1466420060,
+    "wof:lastmodified":1492121472,
     "wof:name":"Professional Cartridges Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

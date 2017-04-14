@@ -2,9 +2,14 @@
   "id": 823475879,
   "type": "Feature",
   "properties": {
+    "addr:full":"3101 Industrial Ln Broomfield CO 80020",
+    "addr:housenumber":"3101",
+    "addr:postcode":"80020",
+    "addr:street":"Industrial Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.106042,39.922886,-105.106042,39.922886",
     "geom:latitude":39.922886,
     "geom:longitude":-105.106042,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554215
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_259gKsBKQllnnMIhECgJIH_39.922886_-105.106042@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438974,
-    "wof:geomhash":"7918d6225bf34d6cf9ca9808c3d9bfe9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f793fc0c9e860cd46d82cbea0c3b155d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554215,
+            "region_id":85688603,
+            "venue_id":823475879
+        }
+    ],
     "wof:id":823475879,
-    "wof:lastmodified":1466412895,
+    "wof:lastmodified":1492122780,
     "wof:name":"Classic Cabinets & Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554215,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

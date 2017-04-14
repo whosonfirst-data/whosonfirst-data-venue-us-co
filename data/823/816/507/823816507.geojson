@@ -2,9 +2,14 @@
   "id": 823816507,
   "type": "Feature",
   "properties": {
+    "addr:full":"4325 Morrison Rd Denver CO 80219",
+    "addr:housenumber":"4325",
+    "addr:postcode":"80219",
+    "addr:street":"Morrison Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.045395,39.702467,-105.045395,39.702467",
     "geom:latitude":39.702467,
     "geom:longitude":-105.045395,
@@ -29,7 +34,15 @@
         "site"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1rm30KJHFoxi7gB8BmLel8_39.702467_-105.045395@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463447196,
     "wof:geomhash":"7def748fa42b3dd601813f11495c56b6",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":823816507
+        }
+    ],
     "wof:id":823816507,
-    "wof:lastmodified":1466419503,
+    "wof:lastmodified":1486589782,
     "wof:name":"Shady Nook Mobile Home Park",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

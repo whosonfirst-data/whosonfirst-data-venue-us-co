@@ -2,9 +2,14 @@
   "id": 823524067,
   "type": "Feature",
   "properties": {
+    "addr:full":"4890 Riverbend Rd Boulder CO 80301",
+    "addr:housenumber":"4890",
+    "addr:postcode":"80301",
+    "addr:street":"Riverbend Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.233786,40.015579,-105.233786,40.015579",
     "geom:latitude":40.015579,
     "geom:longitude":-105.233786,
@@ -28,19 +33,36 @@
         "practitioner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1yRD0xUJ96CBtZYTfz5Oob_40.015579_-105.233786@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440118,
-    "wof:geomhash":"b72b500ed0eaba640712e62932123024",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c3a860726650a6e6b154a091066b6353",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":823524067
+        }
+    ],
     "wof:id":823524067,
-    "wof:lastmodified":1466415049,
+    "wof:lastmodified":1492121591,
     "wof:name":"Stephen Oakley",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

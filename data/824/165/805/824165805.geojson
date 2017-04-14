@@ -2,9 +2,14 @@
   "id": 824165805,
   "type": "Feature",
   "properties": {
+    "addr:full":"5185 Newton St Denver CO 80221",
+    "addr:housenumber":"5185",
+    "addr:postcode":"80221",
+    "addr:street":"Newton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.037015,39.789513,-105.037015,39.789513",
     "geom:latitude":39.789513,
     "geom:longitude":-105.037015,
@@ -28,19 +33,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871251,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6WDt8SW6G1pZBv62WLOHS8_39.789513_-105.037015@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456525,
-    "wof:geomhash":"ce4eadbe7771701db457c6e5d42e24fe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cb26bcf633b9d5f03581288b2739f1f8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871251,
+            "region_id":85688603,
+            "venue_id":824165805
+        }
+    ],
     "wof:id":824165805,
-    "wof:lastmodified":1466417678,
+    "wof:lastmodified":1492129876,
     "wof:name":"Silva Paints",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

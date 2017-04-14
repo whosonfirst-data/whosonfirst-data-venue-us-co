@@ -2,9 +2,14 @@
   "id": 824123047,
   "type": "Feature",
   "properties": {
+    "addr:full":"7175 Co Rd 501 Bayfield CO 81122",
+    "addr:housenumber":"7175",
+    "addr:postcode":"81122",
+    "addr:street":"Co Rd 501",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.612482,37.325272,-107.612482,37.325272",
     "geom:latitude":37.325272,
     "geom:longitude":-107.612482,
@@ -27,19 +32,28 @@
         "guide"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Mb8vMvDETWqXOytnJLxYo_37.325272_-107.612482@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454838,
-    "wof:geomhash":"6bd687fbc1e9fc929c159680204a62e8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"acec5c6ade6a5d60039a767beea79d35",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554689,
+            "venue_id":824123047
+        }
+    ],
     "wof:id":824123047,
-    "wof:lastmodified":1466415655,
+    "wof:lastmodified":1492128855,
     "wof:name":"Rocky Mountain Outfitters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

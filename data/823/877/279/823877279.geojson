@@ -2,9 +2,14 @@
   "id": 823877279,
   "type": "Feature",
   "properties": {
+    "addr:full":"1099 S Gaylord St Denver CO 80209",
+    "addr:housenumber":"1099",
+    "addr:postcode":"80209",
+    "addr:street":"S Gaylord St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.96173,39.698398,-104.96173,39.698398",
     "geom:latitude":39.698398,
     "geom:longitude":-104.96173,
@@ -24,7 +29,15 @@
     "sg:postcode":"80209",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554305,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0kSwXqkVU2TXOwojEZPD6Z_39.698398_-104.961730@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463448913,
     "wof:geomhash":"9ed3fd25d77006fac0ecdad0f14cbd57",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":420554305,
+            "region_id":85688603,
+            "venue_id":823877279
+        }
+    ],
     "wof:id":823877279,
-    "wof:lastmodified":1466420014,
+    "wof:lastmodified":1491865742,
     "wof:name":"Iris Fields",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

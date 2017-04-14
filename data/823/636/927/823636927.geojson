@@ -2,9 +2,14 @@
   "id": 823636927,
   "type": "Feature",
   "properties": {
+    "addr:full":"707 12th St Greeley CO 80631",
+    "addr:housenumber":"707",
+    "addr:postcode":"80631",
+    "addr:street":"12Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.690791,40.419863,-104.690791,40.419863",
     "geom:latitude":40.419863,
     "geom:longitude":-104.690791,
@@ -31,12 +36,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -44,8 +49,16 @@
     },
     "wof:country":"US",
     "wof:created":1463442781,
-    "wof:geomhash":"a17f9833b79ee341bb9bfa0ccc325b77",
+    "wof:geomhash":"524c8b48da42ad7dd69a09bd50e9760a",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823636927
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,20 +67,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823636927
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823636927
         }
     ],
     "wof:id":823636927,
-    "wof:lastmodified":1466417713,
+    "wof:lastmodified":1492126894,
     "wof:name":"Rogers Automotive Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

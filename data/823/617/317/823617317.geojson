@@ -2,9 +2,14 @@
   "id": 823617317,
   "type": "Feature",
   "properties": {
+    "addr:full":"1127 Barberry Ct Boulder CO 80305",
+    "addr:housenumber":"1127",
+    "addr:postcode":"80305",
+    "addr:street":"Barberry Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.265283,39.977935,-105.265283,39.977935",
     "geom:latitude":39.977935,
     "geom:longitude":-105.265283,
@@ -33,19 +38,36 @@
         "developer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876377
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5FETS3q8tQt5ZTnoC2Y67x_39.977935_-105.265283@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442330,
-    "wof:geomhash":"9096fec6ecfbe55ed649d864bb0a2b50",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dea8819ca0912db400319ba8a4c7f89c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876377,
+            "region_id":85688603,
+            "venue_id":823617317
+        }
+    ],
     "wof:id":823617317,
-    "wof:lastmodified":1466417450,
+    "wof:lastmodified":1492122635,
     "wof:name":"Windward Studios Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876377,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

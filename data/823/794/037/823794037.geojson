@@ -2,9 +2,14 @@
   "id": 823794037,
   "type": "Feature",
   "properties": {
+    "addr:full":"9 S Parish Ave Johnstown CO 80534",
+    "addr:housenumber":"9",
+    "addr:postcode":"80534",
+    "addr:street":"S Parish Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.906095,40.335781,-104.906095,40.335781",
     "geom:latitude":40.335781,
     "geom:longitude":-104.906095,
@@ -30,19 +35,36 @@
         "wash"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0omPmywEyjfbBQIxbMyR91_40.335781_-104.906095@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446545,
-    "wof:geomhash":"5b47a2be7caebce590e39544ff4161ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1065a36b29a12b57581a032cb929aa19",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823794037
+        }
+    ],
     "wof:id":823794037,
-    "wof:lastmodified":1466419245,
+    "wof:lastmodified":1492126864,
     "wof:name":"Ace Hardware",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

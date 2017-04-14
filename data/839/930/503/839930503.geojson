@@ -2,9 +2,14 @@
   "id": 839930503,
   "type": "Feature",
   "properties": {
+    "addr:full":"712 Country Acres Dr Johnstown CO 80534",
+    "addr:housenumber":"712",
+    "addr:postcode":"80534",
+    "addr:street":"Country Acres Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.913532,40.33344,-104.913532,40.33344",
     "geom:latitude":40.33344,
     "geom:longitude":-104.913532,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ibwCLAlmlNv1Cqvx1hePS_40.333440_-104.913532@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458000,
-    "wof:geomhash":"2654f67b675fbd0ad7804190753f5687",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6369a7da91b29ff336909b931ab9cea0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":839930503
+        }
+    ],
     "wof:id":839930503,
-    "wof:lastmodified":1466414107,
+    "wof:lastmodified":1492112224,
     "wof:name":"Master Roofing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

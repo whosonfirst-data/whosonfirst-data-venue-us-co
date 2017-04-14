@@ -2,9 +2,14 @@
   "id": 823939779,
   "type": "Feature",
   "properties": {
+    "addr:full":"9822 Alamo Dr Denver CO 80260",
+    "addr:housenumber":"9822",
+    "addr:postcode":"80260",
+    "addr:street":"Alamo Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.990486,39.87491,-104.990486,39.87491",
     "geom:latitude":39.87491,
     "geom:longitude":-104.990486,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2zuAGjKyxJLsI9HtJKwJQp_39.874910_-104.990486@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450514,
-    "wof:geomhash":"700914b5064fe82195383b3755b9dd10",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d35c60ad8a129e99178797343d53e856",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553659,
+            "region_id":85688603,
+            "venue_id":823939779
+        }
+    ],
     "wof:id":823939779,
-    "wof:lastmodified":1466420564,
+    "wof:lastmodified":1492116038,
     "wof:name":"Lucero Drywall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

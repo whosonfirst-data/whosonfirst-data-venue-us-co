@@ -2,9 +2,14 @@
   "id": 824066601,
   "type": "Feature",
   "properties": {
+    "addr:full":"40882 Co Rd 153 Agate CO 80101",
+    "addr:housenumber":"153",
+    "addr:postcode":"40882;80101",
+    "addr:street":"Co Rd;Agate",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.940762,39.455068,-103.940762,39.455068",
     "geom:latitude":39.455068,
     "geom:longitude":-103.940762,
@@ -27,17 +32,30 @@
         "feed"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102084059
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7SzzWeIVUfll2wGtMLTsQL_39.455068_-103.940762@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453537,
-    "wof:geomhash":"e1b4d434ec0e816dc989d9e7f449c917",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75ed07cd1747082340ef0c49c1f817b3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084059,
+            "region_id":85688603,
+            "venue_id":824066601
+        }
+    ],
     "wof:id":824066601,
-    "wof:lastmodified":1466414539,
+    "wof:lastmodified":1492132459,
     "wof:name":"Agate Elevator",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

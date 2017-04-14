@@ -2,9 +2,14 @@
   "id": 823809209,
   "type": "Feature",
   "properties": {
+    "addr:full":"1234 S King St Denver CO 80219",
+    "addr:housenumber":"1234",
+    "addr:postcode":"80219",
+    "addr:street":"S King St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.033155,39.694074,-105.033155,39.694074",
     "geom:latitude":39.694074,
     "geom:longitude":-105.033155,
@@ -30,19 +35,38 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5hF02KVWCu351V0uip2y40_39.694074_-105.033155@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446976,
-    "wof:geomhash":"f38997cecca2fb929f7f3b81236dd5a4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"194278724522fe8ca8f892f83058a205",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":823809209
+        }
+    ],
     "wof:id":823809209,
-    "wof:lastmodified":1466419425,
+    "wof:lastmodified":1492122905,
     "wof:name":"C Hughes & Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

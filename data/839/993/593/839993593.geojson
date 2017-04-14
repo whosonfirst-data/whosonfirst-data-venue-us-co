@@ -2,9 +2,14 @@
   "id": 839993593,
   "type": "Feature",
   "properties": {
+    "addr:full":"1122 N 12th St Grand Junction CO 81501",
+    "addr:housenumber":"1122",
+    "addr:postcode":"81501",
+    "addr:street":"N 12Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.552294,39.077646,-108.552294,39.077646",
     "geom:latitude":39.077646,
     "geom:longitude":-108.552294,
@@ -29,19 +34,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2GXtiyvd6ssZuymGdweBsf_39.078128_-108.552304@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460953,
-    "wof:geomhash":"0be7c01d968bcf8eea368a6a87a2046a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4aaef452abf22ff7668c7de609c3487f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":839993593
+        }
+    ],
     "wof:id":839993593,
-    "wof:lastmodified":1466417726,
+    "wof:lastmodified":1492110938,
     "wof:name":"Taco John's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

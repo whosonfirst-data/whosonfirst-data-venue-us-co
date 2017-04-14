@@ -2,9 +2,14 @@
   "id": 823533395,
   "type": "Feature",
   "properties": {
+    "addr:full":"5200 E 123rd Ave Denver CO 80241",
+    "addr:housenumber":"5200",
+    "addr:postcode":"80241",
+    "addr:street":"E 123Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.925911,39.918718,-104.925911,39.918718",
     "geom:latitude":39.918718,
     "geom:longitude":-104.925911,
@@ -24,19 +29,36 @@
     "sg:postcode":"80241",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553649
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0maCOAlxbqHLd9pXUoVmUK_39.918718_-104.925911@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440321,
-    "wof:geomhash":"78fe09c5580c4aaf210581b910ec1aea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cdb1c660f86be69680f8fc7a8219c691",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553649,
+            "region_id":85688603,
+            "venue_id":823533395
+        }
+    ],
     "wof:id":823533395,
-    "wof:lastmodified":1466415058,
+    "wof:lastmodified":1492120898,
     "wof:name":"Expressions Gift Baskets",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553649,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

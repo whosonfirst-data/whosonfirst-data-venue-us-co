@@ -2,9 +2,14 @@
   "id": 823691363,
   "type": "Feature",
   "properties": {
+    "addr:full":"6708 E 123rd Pl Brighton CO 80602",
+    "addr:housenumber":"6708",
+    "addr:postcode":"80602",
+    "addr:street":"E 123Rd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.9083,39.919691,-104.9083,39.919691",
     "geom:latitude":39.919691,
     "geom:longitude":-104.9083,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1MqzAaQrpa2DvK5cuvs0sQ_39.919691_-104.908300@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444048,
-    "wof:geomhash":"0f9194ae1c51de02eb06598ee791753d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2995e65064103ae652ee221479a9de85",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":823691363
+        }
+    ],
     "wof:id":823691363,
-    "wof:lastmodified":1466418510,
+    "wof:lastmodified":1492123261,
     "wof:name":"H & C Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

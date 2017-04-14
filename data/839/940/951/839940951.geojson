@@ -2,9 +2,14 @@
   "id": 839940951,
   "type": "Feature",
   "properties": {
+    "addr:full":"1503 9th Ave Greeley CO 80631",
+    "addr:housenumber":"1503",
+    "addr:postcode":"80631",
+    "addr:street":"9Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.692812,40.414179,-104.692812,40.414179",
     "geom:latitude":40.414179,
     "geom:longitude":-104.692812,
@@ -30,12 +35,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,8 +48,16 @@
     },
     "wof:country":"US",
     "wof:created":1463458561,
-    "wof:geomhash":"0730920baa12aa0ec0d51f9fe1825ba0",
+    "wof:geomhash":"9d59bde83db139cf3ce196378518a614",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":839940951
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -53,20 +66,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":839940951
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":839940951
         }
     ],
     "wof:id":839940951,
-    "wof:lastmodified":1466414862,
+    "wof:lastmodified":1492114261,
     "wof:name":"Vectra Bank Colorado NA",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

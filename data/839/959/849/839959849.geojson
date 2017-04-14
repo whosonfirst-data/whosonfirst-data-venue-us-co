@@ -2,9 +2,14 @@
   "id": 839959849,
   "type": "Feature",
   "properties": {
+    "addr:full":"1750 Shasta Dr Colorado Springs CO 80910",
+    "addr:housenumber":"1750",
+    "addr:postcode":"80910",
+    "addr:street":"Shasta Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.777356,38.806929,-104.777356,38.806929",
     "geom:latitude":38.806929,
     "geom:longitude":-104.777356,
@@ -27,19 +32,36 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1UJ8WqcDZI4NtxRVvsXp7U_38.806929_-104.777356@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459607,
-    "wof:geomhash":"29632cf9292de274e6b39e08305c9be3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"169076c508304de8293b042fb9a8c847",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":839959849
+        }
+    ],
     "wof:id":839959849,
-    "wof:lastmodified":1466415728,
+    "wof:lastmodified":1492113175,
     "wof:name":"Monterey",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

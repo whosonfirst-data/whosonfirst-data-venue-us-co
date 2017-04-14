@@ -2,9 +2,14 @@
   "id": 823599691,
   "type": "Feature",
   "properties": {
+    "addr:full":"2853 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2853",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.52127,39.077275,-108.52127,39.077275",
     "geom:latitude":39.077275,
     "geom:longitude":-108.52127,
@@ -28,19 +33,36 @@
         "homeless"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3zjgPyfgbVQjMv8QeTG6b2_39.077275_-108.521270@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441881,
-    "wof:geomhash":"ad696e0e6cbe1b4eff57820a64fdb300",
-    "wof:hierarchy":[],
+    "wof:geomhash":"739157cd286d90712e5a245e7add88ca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554929,
+            "region_id":85688603,
+            "venue_id":823599691
+        }
+    ],
     "wof:id":823599691,
-    "wof:lastmodified":1466417117,
+    "wof:lastmodified":1492117766,
     "wof:name":"Grand Junction Comm Homeless",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

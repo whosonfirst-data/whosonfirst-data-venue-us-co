@@ -2,9 +2,14 @@
   "id": 823729109,
   "type": "Feature",
   "properties": {
+    "addr:full":"7398 Dakin St Denver CO 80221",
+    "addr:housenumber":"7398",
+    "addr:postcode":"80221",
+    "addr:street":"Dakin St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001093,39.833285,-105.001093,39.833285",
     "geom:latitude":39.833285,
     "geom:longitude":-105.001093,
@@ -28,19 +33,47 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553867,
+        85930235,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_269X47QuzHp1u1NxZiZalg_39.833285_-105.001093@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444875,
-    "wof:geomhash":"11f2805660086188c7ecc19be0eccde2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fd83eefdce15b27977da0a887d5060af",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553867,
+            "region_id":85688603,
+            "venue_id":823729109
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":823729109
+        }
+    ],
     "wof:id":823729109,
-    "wof:lastmodified":1466418757,
+    "wof:lastmodified":1492118317,
     "wof:name":"Briarwood North Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

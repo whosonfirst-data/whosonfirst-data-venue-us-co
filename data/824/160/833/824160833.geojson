@@ -2,9 +2,14 @@
   "id": 824160833,
   "type": "Feature",
   "properties": {
+    "addr:full":"1521 Lowell Ln Grand Junction CO 81506",
+    "addr:housenumber":"1521",
+    "addr:postcode":"81506",
+    "addr:street":"Lowell Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.546883,39.09267,-108.546883,39.09267",
     "geom:latitude":39.09267,
     "geom:longitude":-108.546883,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554843
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_41Xpd3FIrE3fdSOkZMeBbM_39.092670_-108.546883@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456330,
-    "wof:geomhash":"462da84fc2de7820ade78467e55476e1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3ad5b99ee96ecd93bd5bc77eb776dec6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554843,
+            "region_id":85688603,
+            "venue_id":824160833
+        }
+    ],
     "wof:id":824160833,
-    "wof:lastmodified":1466417673,
+    "wof:lastmodified":1492133059,
     "wof:name":"G Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554843,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

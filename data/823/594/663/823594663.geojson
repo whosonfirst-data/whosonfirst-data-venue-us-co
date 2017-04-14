@@ -2,9 +2,14 @@
   "id": 823594663,
   "type": "Feature",
   "properties": {
+    "addr:full":"3000 S College Ave Fort Collins CO 80525",
+    "addr:housenumber":"3000",
+    "addr:postcode":"80525",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.07707,40.545791,-105.07707,40.545791",
     "geom:latitude":40.545791,
     "geom:longitude":-105.07707,
@@ -28,19 +33,46 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749,
+        420554753
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1xNFXKoXJICimvQcIe9PTD_40.545791_-105.077070@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441753,
-    "wof:geomhash":"ae6ba14d2f5755eeb4a1856351259310",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d8113c138848741c64e944e15ff5a781",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":823594663
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554753,
+            "region_id":85688603,
+            "venue_id":823594663
+        }
+    ],
     "wof:id":823594663,
-    "wof:lastmodified":1466417055,
+    "wof:lastmodified":1492125349,
     "wof:name":"Excel Financial Group LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

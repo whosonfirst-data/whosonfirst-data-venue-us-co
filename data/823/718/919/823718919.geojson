@@ -2,9 +2,14 @@
   "id": 823718919,
   "type": "Feature",
   "properties": {
+    "addr:full":"7550 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"7550",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053262,39.833174,-105.053262,39.833174",
     "geom:latitude":39.833174,
     "geom:longitude":-105.053262,
@@ -27,19 +32,36 @@
         "packaged"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2YaI1KX8PKX2cvDv23yRii_39.833174_-105.053262@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444623,
-    "wof:geomhash":"3ddf7574cf6bbce0c1aa05623aadb204",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7aff4920011f20d1f345ed3a51427e72",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554605,
+            "region_id":85688603,
+            "venue_id":823718919
+        }
+    ],
     "wof:id":823718919,
-    "wof:lastmodified":1466418807,
+    "wof:lastmodified":1492126604,
     "wof:name":"Country Meadow Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

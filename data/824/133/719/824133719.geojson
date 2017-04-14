@@ -2,9 +2,14 @@
   "id": 824133719,
   "type": "Feature",
   "properties": {
+    "addr:full":"7151 Quebec St Commerce City CO 80022",
+    "addr:housenumber":"7151",
+    "addr:postcode":"80022",
+    "addr:street":"Quebec St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.903376,39.825878,-104.903376,39.825878",
     "geom:latitude":39.825878,
     "geom:longitude":-104.903376,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553537
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ufuM8JJjvEdmeM3XIMd9S_39.825878_-104.903376@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455277,
-    "wof:geomhash":"2403905ec51b9f90a9db676a187c82ff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"812847d05c4511414b0ec8cad8911ddd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553537,
+            "region_id":85688603,
+            "venue_id":824133719
+        }
+    ],
     "wof:id":824133719,
-    "wof:lastmodified":1466416215,
+    "wof:lastmodified":1492129302,
     "wof:name":"Eagle Cliff Apts & Townhomes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553537,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

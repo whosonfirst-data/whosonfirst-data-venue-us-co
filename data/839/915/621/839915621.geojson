@@ -2,9 +2,14 @@
   "id": 839915621,
   "type": "Feature",
   "properties": {
+    "addr:full":"3000 Valmont Rd Boulder CO 80301",
+    "addr:housenumber":"3000",
+    "addr:postcode":"80301",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.253125,40.029193,-105.253125,40.029193",
     "geom:latitude":40.029193,
     "geom:longitude":-105.253125,
@@ -30,19 +35,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1iw4o5mfxPGblAp0vyCiFx_40.029193_-105.253125@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457325,
-    "wof:geomhash":"995157483aae03226687121dcfc89538",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0877d04186f860035270c0c91931e14",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":839915621
+        }
+    ],
     "wof:id":839915621,
-    "wof:lastmodified":1466413076,
+    "wof:lastmodified":1492113867,
     "wof:name":"Big O Tires",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

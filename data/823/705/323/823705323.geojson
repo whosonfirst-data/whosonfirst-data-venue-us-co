@@ -2,9 +2,14 @@
   "id": 823705323,
   "type": "Feature",
   "properties": {
+    "addr:full":"111 Longs Peak Ave Longmont CO 80501",
+    "addr:housenumber":"111",
+    "addr:postcode":"80501",
+    "addr:street":"Longs Peak Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.095649,40.170587,-105.095649,40.170587",
     "geom:latitude":40.170587,
     "geom:longitude":-105.095649,
@@ -27,17 +32,32 @@
         "elementary"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DDBTqo3uOqOuK6A0VWW4z_40.170587_-105.095649@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444343,
-    "wof:geomhash":"fff70126ad9b487df89c9be81ed0e311",
-    "wof:hierarchy":[],
+    "wof:geomhash":"73ce12dbd067b550e24ee6ff8c1dbc9a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823705323
+        }
+    ],
     "wof:id":823705323,
-    "wof:lastmodified":1466418564,
+    "wof:lastmodified":1492116921,
     "wof:name":"Columbine Elementary School",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

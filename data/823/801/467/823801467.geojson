@@ -2,9 +2,14 @@
   "id": 823801467,
   "type": "Feature",
   "properties": {
+    "addr:full":"408 Miller Ave Brighton CO 80601",
+    "addr:housenumber":"408",
+    "addr:postcode":"80601",
+    "addr:street":"Miller Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.831242,39.980751,-104.831242,39.980751",
     "geom:latitude":39.980751,
     "geom:longitude":-104.831242,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Sg5tlDqc9NRPG8b22Hcp7_39.980751_-104.831242@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446745,
-    "wof:geomhash":"dff287e62aea425b63c8014595574033",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c48437aae4810bd9eda548d9830cd21a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823801467
+        }
+    ],
     "wof:id":823801467,
-    "wof:lastmodified":1466419411,
+    "wof:lastmodified":1492123203,
     "wof:name":"SM Concrete",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

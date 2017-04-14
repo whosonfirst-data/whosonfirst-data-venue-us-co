@@ -2,9 +2,14 @@
   "id": 839972037,
   "type": "Feature",
   "properties": {
+    "addr:full":"12209 Elken Ct Broomfield CO 80020",
+    "addr:housenumber":"",
+    "addr:postcode":"12209;80020",
+    "addr:street":"Elken Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.035431,39.92003,-105.035431,39.92003",
     "geom:latitude":39.92003,
     "geom:longitude":-105.035431,
@@ -27,19 +32,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420553613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5OyRqRgeE46rveQkcxye7J_39.920030_-105.035431@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460104,
-    "wof:geomhash":"968b495d7ff6c0f24902f35cab310147",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b3b0c04d0150e6b7fed30057aa6eb7b4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420553613,
+            "region_id":85688603,
+            "venue_id":839972037
+        }
+    ],
     "wof:id":839972037,
-    "wof:lastmodified":1466416417,
+    "wof:lastmodified":1492112581,
     "wof:name":"Abecedario Communications",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823476293,
   "type": "Feature",
   "properties": {
+    "addr:full":"2545 Westen Rd Colorado Springs CO 80910",
+    "addr:housenumber":"2545",
+    "addr:postcode":"80910",
+    "addr:street":"Westen Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.778319,38.795004,-104.778319,38.795004",
     "geom:latitude":38.795004,
     "geom:longitude":-104.778319,
@@ -27,19 +32,36 @@
         "wrecker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6cb4rtS9GYww4vqPPOByYq_38.795004_-104.778319@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438983,
-    "wof:geomhash":"419547ba0dbf41b3aa6e8f412df803d5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58a97020adf7edac8230a653382dc2e6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823476293
+        }
+    ],
     "wof:id":823476293,
-    "wof:lastmodified":1466412948,
+    "wof:lastmodified":1492127506,
     "wof:name":"Crocodile Towing & Recovery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

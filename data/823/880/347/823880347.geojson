@@ -2,9 +2,14 @@
   "id": 823880347,
   "type": "Feature",
   "properties": {
+    "addr:full":"1236 N 7th St Grand Junction CO 81501",
+    "addr:housenumber":"1236",
+    "addr:postcode":"81501",
+    "addr:street":"N 7Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.560963,39.078884,-108.560963,39.078884",
     "geom:latitude":39.078884,
     "geom:longitude":-108.560963,
@@ -34,19 +39,36 @@
         "drug"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_23gzw3ee9vIgtii7TKQPHv_39.078884_-108.560963@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448977,
-    "wof:geomhash":"2e8d5eb9f7ec6b082224cfc543e7b048",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab4fea01a5aa5164c8b388c0de48a4c7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554887,
+            "region_id":85688603,
+            "venue_id":823880347
+        }
+    ],
     "wof:id":823880347,
-    "wof:lastmodified":1466420100,
+    "wof:lastmodified":1492116345,
     "wof:name":"McC Drug & Alcohol Screening I",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823668001,
   "type": "Feature",
   "properties": {
+    "addr:full":"3743 Nelson Rd Longmont CO 80503",
+    "addr:housenumber":"3743",
+    "addr:postcode":"80503",
+    "addr:street":"Nelson Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.265806,40.145348,-105.265806,40.145348",
     "geom:latitude":40.145348,
     "geom:longitude":-105.265806,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553967
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4n4mY18s5CjwPQ5JO39Oil_40.145348_-105.265806@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443523,
-    "wof:geomhash":"6e9a318a3425e2dd24a52c84b29f2616",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b72f608bd0f8442581fa9291ffb4664d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553967,
+            "venue_id":823668001
+        }
+    ],
     "wof:id":823668001,
-    "wof:lastmodified":1466418306,
+    "wof:lastmodified":1492124365,
     "wof:name":"Pauls Carpentry Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553967,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

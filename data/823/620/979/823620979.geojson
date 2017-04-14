@@ -2,9 +2,14 @@
   "id": 823620979,
   "type": "Feature",
   "properties": {
+    "addr:full":"537 Quitman St Denver CO 80204",
+    "addr:housenumber":"537",
+    "addr:postcode":"80204",
+    "addr:street":"Quitman St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040611,39.725155,-105.040611,39.725155",
     "geom:latitude":39.725155,
     "geom:longitude":-105.040611,
@@ -27,7 +32,15 @@
         "repair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2rKvIs61AJ6XehFNBURU4k_39.725155_-105.040611@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463442419,
     "wof:geomhash":"2fdf5aa0e849b672f190ea06e07b9792",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":823620979
+        }
+    ],
     "wof:id":823620979,
-    "wof:lastmodified":1466417509,
+    "wof:lastmodified":1486593764,
     "wof:name":"All American Motorcycle Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

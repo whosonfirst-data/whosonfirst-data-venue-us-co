@@ -2,9 +2,14 @@
   "id": 839990473,
   "type": "Feature",
   "properties": {
+    "addr:full":"4880 E Bromley Ln Brighton CO 80601",
+    "addr:housenumber":"4880",
+    "addr:postcode":"80601",
+    "addr:street":"E Bromley Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.755998,39.972358,-104.755998,39.972358",
     "geom:latitude":39.972358,
     "geom:longitude":-104.755998,
@@ -30,19 +35,36 @@
         "soup"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553455
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4eUkb2Lc7brMeBMnrrvGQ6_39.972358_-104.755998@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460827,
-    "wof:geomhash":"b2543d290bcccf7a2cde675124928534",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3ed72c5c3d4086e3417f37d267022845",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553455,
+            "region_id":85688603,
+            "venue_id":839990473
+        }
+    ],
     "wof:id":839990473,
-    "wof:lastmodified":1466417647,
+    "wof:lastmodified":1492110542,
     "wof:name":"Wendy's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553455,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823597701,
   "type": "Feature",
   "properties": {
+    "addr:full":"3060 Sterling Cir Boulder CO 80301",
+    "addr:housenumber":"3060",
+    "addr:postcode":"80301",
+    "addr:street":"Sterling Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.227078,40.032204,-105.227078,40.032204",
     "geom:latitude":40.032204,
     "geom:longitude":-105.227078,
@@ -27,19 +32,36 @@
         "printer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ps9CAYlbrg0x6o9z61C65_40.032204_-105.227078@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441830,
-    "wof:geomhash":"1f8dfeef0733605722ea6318db761298",
-    "wof:hierarchy":[],
+    "wof:geomhash":"de3b3aa29f9c3a7771afe7186e326743",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876385,
+            "region_id":85688603,
+            "venue_id":823597701
+        }
+    ],
     "wof:id":823597701,
-    "wof:lastmodified":1466417136,
+    "wof:lastmodified":1492116604,
     "wof:name":"Sienna Press",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

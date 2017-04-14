@@ -2,9 +2,14 @@
   "id": 839973405,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"101",
+    "addr:postcode":"80621",
+    "addr:street":"Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810503,40.081444,-104.810503,40.081444",
     "geom:latitude":40.081444,
     "geom:longitude":-104.810503,
@@ -29,19 +34,28 @@
         "gasoline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5n0QBI5luTmdzgvKNWHwrE_40.081444_-104.810503@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460156,
-    "wof:geomhash":"5d2b77f6d1e7e31bca4956cfc9a17360",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4c13cdde2b3307fdc46042a2cba3f6c4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":839973405
+        }
+    ],
     "wof:id":839973405,
-    "wof:lastmodified":1466416447,
+    "wof:lastmodified":1492112830,
     "wof:name":"Diamond Shamrock",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824069749,
   "type": "Feature",
   "properties": {
+    "addr:full":"5670 Washington St Denver CO 80216",
+    "addr:housenumber":"5670",
+    "addr:postcode":"80216",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978136,39.799093,-104.978136,39.799093",
     "geom:latitude":39.799093,
     "geom:longitude":-104.978136,
@@ -31,19 +36,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6SspKzW1IOx9T6XQIm6u0B_39.799093_-104.978136@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453603,
-    "wof:geomhash":"a260be3c8fe4e1dfb456cca2df32f972",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f629198ebf0e7157e2ac7ba06c1b79b8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":824069749
+        }
+    ],
     "wof:id":824069749,
-    "wof:lastmodified":1466414585,
+    "wof:lastmodified":1492130783,
     "wof:name":"Jack Southard Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

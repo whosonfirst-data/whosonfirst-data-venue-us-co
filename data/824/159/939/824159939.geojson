@@ -2,9 +2,14 @@
   "id": 824159939,
   "type": "Feature",
   "properties": {
+    "addr:full":"2151 F Rd Grand Junction CO 81503",
+    "addr:housenumber":"2151",
+    "addr:postcode":"81503",
+    "addr:street":"F Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.649907,39.092023,-108.649907,39.092023",
     "geom:latitude":39.092023,
     "geom:longitude":-108.649907,
@@ -27,19 +32,36 @@
         "component"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554935
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0PpAxdIosEK15XWv79duWu_39.092023_-108.649907@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456294,
-    "wof:geomhash":"ebc285ffe91cdf43ff15e171a40974be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a94c5a74e6b278d39d3efabd82fa0ef9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554935,
+            "region_id":85688603,
+            "venue_id":824159939
+        }
+    ],
     "wof:id":824159939,
-    "wof:lastmodified":1466417509,
+    "wof:lastmodified":1492128617,
     "wof:name":"Capacitor Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554935,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

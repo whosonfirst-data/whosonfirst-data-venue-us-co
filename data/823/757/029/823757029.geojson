@@ -2,9 +2,14 @@
   "id": 823757029,
   "type": "Feature",
   "properties": {
+    "addr:full":"6280 Quay St Arvada CO 80003",
+    "addr:housenumber":"6280",
+    "addr:postcode":"80003",
+    "addr:street":"Quay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.072768,39.810248,-105.072768,39.810248",
     "geom:latitude":39.810248,
     "geom:longitude":-105.072768,
@@ -30,19 +35,36 @@
         "removal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554587
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5vS3JgvI6UsbsfByg6ZNk6_39.810248_-105.072768@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445560,
-    "wof:geomhash":"feb5c336133511428cad47321ab19599",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d05ccaf4ce307969c24a438dda3e6d5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554587,
+            "region_id":85688603,
+            "venue_id":823757029
+        }
+    ],
     "wof:id":823757029,
-    "wof:lastmodified":1466418978,
+    "wof:lastmodified":1492124652,
     "wof:name":"Dubois Tree Sevice Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554587,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

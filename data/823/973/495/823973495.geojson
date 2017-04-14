@@ -2,9 +2,14 @@
   "id": 823973495,
   "type": "Feature",
   "properties": {
+    "addr:full":"607 S 3rd Ave Sterling CO 80751",
+    "addr:housenumber":"607",
+    "addr:postcode":"80751",
+    "addr:street":"S 3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.214747,40.620527,-103.214747,40.620527",
     "geom:latitude":40.620527,
     "geom:longitude":-103.214747,
@@ -30,17 +35,32 @@
         "dev"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929371,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4tnK4rFs11bfcG7Oft8Ckv_40.620527_-103.214747@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451324,
-    "wof:geomhash":"f8938cc483350861df7d2af5b364b653",
-    "wof:hierarchy":[],
+    "wof:geomhash":"20bc0a7dce5fb78fb68f396db7bf08c3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929371,
+            "region_id":85688603,
+            "venue_id":823973495
+        }
+    ],
     "wof:id":823973495,
-    "wof:lastmodified":1466420839,
+    "wof:lastmodified":1492123127,
     "wof:name":"Third Ave Residence",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

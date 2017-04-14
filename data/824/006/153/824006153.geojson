@@ -2,9 +2,14 @@
   "id": 824006153,
   "type": "Feature",
   "properties": {
+    "addr:full":"11725 Rd 27.3 Dolores CO 81323",
+    "addr:housenumber":"11725;27.3",
+    "addr:postcode":"81323",
+    "addr:street":"Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.547763,37.38182,-108.547763,37.38182",
     "geom:latitude":37.38182,
     "geom:longitude":-108.547763,
@@ -28,19 +33,28 @@
         "coffee"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1e7z9fjCYai6sLZJOfnozV_37.381820_-108.547763@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452122,
-    "wof:geomhash":"ff9d7d0d1f002a7f7441da23130c9947",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53ec7af62fedec04cc7b03d95fbae432",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":824006153
+        }
+    ],
     "wof:id":824006153,
-    "wof:lastmodified":1466412553,
+    "wof:lastmodified":1492129807,
     "wof:name":"Magpie Coffeehouse",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

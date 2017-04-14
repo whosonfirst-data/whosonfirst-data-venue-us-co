@@ -2,9 +2,14 @@
   "id": 823557097,
   "type": "Feature",
   "properties": {
+    "addr:full":"1230 Wildwood Rd Boulder CO 80305",
+    "addr:housenumber":"1230",
+    "addr:postcode":"80305",
+    "addr:street":"Wildwood Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.265297,39.977865,-105.265297,39.977865",
     "geom:latitude":39.977865,
     "geom:longitude":-105.265297,
@@ -27,19 +32,36 @@
         "musician"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876377
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3grFxbKa6ocjFKIgxL73ED_39.977865_-105.265297@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440870,
-    "wof:geomhash":"ba06c9525e3c3c974c00ea6c83c930e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dc6d1e99b9261fcd9200f5afc50749c1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876377,
+            "region_id":85688603,
+            "venue_id":823557097
+        }
+    ],
     "wof:id":823557097,
-    "wof:lastmodified":1466416110,
+    "wof:lastmodified":1492124789,
     "wof:name":"Celtic Harp-Polly Mahoney",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876377,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

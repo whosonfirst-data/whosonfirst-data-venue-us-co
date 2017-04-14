@@ -2,9 +2,14 @@
   "id": 823958075,
   "type": "Feature",
   "properties": {
+    "addr:full":"5628 Kendall Ct Arvada CO 80002",
+    "addr:housenumber":"5628",
+    "addr:postcode":"80002",
+    "addr:street":"Kendall Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.065917,39.799299,-105.065917,39.799299",
     "geom:latitude":39.799299,
     "geom:longitude":-105.065917,
@@ -29,19 +34,34 @@
         "sanitation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2jvYG7UpnkzwPi1chGsUcq_39.799299_-105.065917@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450974,
-    "wof:geomhash":"8432f5a2db905af6f9cfc75e8bd5201b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"feadcd6247076d30be05f806938b8b2a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823958075
+        }
+    ],
     "wof:id":823958075,
-    "wof:lastmodified":1466420734,
+    "wof:lastmodified":1492124235,
     "wof:name":"Fikes Denver",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823721015,
   "type": "Feature",
   "properties": {
+    "addr:full":"8181 E 123rd Ave Brighton CO 80602",
+    "addr:housenumber":"8181",
+    "addr:postcode":"80602",
+    "addr:street":"E 123Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.890558,39.919157,-104.890558,39.919157",
     "geom:latitude":39.919157,
     "geom:longitude":-104.890558,
@@ -28,19 +33,28 @@
         "freezer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553419
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6QACbs4j8mM5gYuDveMiHj_39.919157_-104.890558@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444670,
-    "wof:geomhash":"bd37b405aec90719db9c05d5594ed27b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d18f0f3bc2016ff57ba37497d1f0f711",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553419,
+            "venue_id":823721015
+        }
+    ],
     "wof:id":823721015,
-    "wof:lastmodified":1466418788,
+    "wof:lastmodified":1492121559,
     "wof:name":"G M & At",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553419,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

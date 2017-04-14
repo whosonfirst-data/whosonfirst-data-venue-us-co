@@ -2,9 +2,14 @@
   "id": 824177829,
   "type": "Feature",
   "properties": {
+    "addr:full":"6890 Avrum Dr Denver CO 80221",
+    "addr:housenumber":"6890",
+    "addr:postcode":"80221",
+    "addr:street":"Avrum Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.009611,39.821789,-105.009611,39.821789",
     "geom:latitude":39.821789,
     "geom:longitude":-105.009611,
@@ -28,19 +33,36 @@
         "training"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5H1lQFlmksr42nORfv53Zv_39.821789_-105.009611@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456984,
-    "wof:geomhash":"d5a39e098e2e524bad6af95def1644dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7a07e393e4b499afda8f8acf5c92ccee",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":824177829
+        }
+    ],
     "wof:id":824177829,
-    "wof:lastmodified":1466418240,
+    "wof:lastmodified":1492129998,
     "wof:name":"Dynamic Image",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

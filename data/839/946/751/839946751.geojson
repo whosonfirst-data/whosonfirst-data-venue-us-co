@@ -2,9 +2,14 @@
   "id": 839946751,
   "type": "Feature",
   "properties": {
+    "addr:full":"1520 Big Thompson Rd Loveland CO 80537",
+    "addr:housenumber":"1520",
+    "addr:postcode":"80537",
+    "addr:street":"Big Thompson Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.321205,40.429635,-105.321205,40.429635",
     "geom:latitude":40.429635,
     "geom:longitude":-105.321205,
@@ -26,9 +31,13 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
+        85929679,
+        102083353,
         85877467,
-        102083353
+        85929681,
+        85805137
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -36,20 +45,30 @@
     },
     "wof:country":"US",
     "wof:created":1463458951,
-    "wof:geomhash":"970f8c7a4378a99d4e140c5fd7c72810",
+    "wof:geomhash":"9e2a984bd03ee1846f6b9e633a199b8f",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877467,
+            "region_id":85688603,
+            "venue_id":839946751
+        },
         {
             "country_id":85633793,
             "county_id":102083353,
-            "neighbourhood_id":85877467,
+            "locality_id":85929681,
+            "neighbourhood_id":85805137,
             "region_id":85688603,
             "venue_id":839946751
         }
     ],
     "wof:id":839946751,
-    "wof:lastmodified":1466415233,
+    "wof:lastmodified":1492112677,
     "wof:name":"Riverbend Store & Campground",
-    "wof:parent_id":85877467,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

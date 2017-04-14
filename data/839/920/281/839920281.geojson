@@ -2,9 +2,14 @@
   "id": 839920281,
   "type": "Feature",
   "properties": {
+    "addr:full":"4605 E 74th Ave Commerce City CO 80022",
+    "addr:housenumber":"4605",
+    "addr:postcode":"80022",
+    "addr:street":"E 74Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.933938,39.83095,-104.933938,39.83095",
     "geom:latitude":39.83095,
     "geom:longitude":-104.933938,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930259,
+        102084053,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7gq8ldvyXuokmXJdEnjzGR_39.830950_-104.933938@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457503,
-    "wof:geomhash":"a2e4ee08046914b3e8cba76188120806",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5a92cfe00c59b22cce80ec86dfc0b844",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":839920281
+        }
+    ],
     "wof:id":839920281,
-    "wof:lastmodified":1466413583,
+    "wof:lastmodified":1492112340,
     "wof:name":"Butcher Block Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553481,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

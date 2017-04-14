@@ -2,9 +2,14 @@
   "id": 823494297,
   "type": "Feature",
   "properties": {
+    "addr:full":"1105 N 1st St Grand Junction CO 81501",
+    "addr:housenumber":"1105",
+    "addr:postcode":"81501",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570974,39.078704,-108.570974,39.078704",
     "geom:latitude":39.078704,
     "geom:longitude":-108.570974,
@@ -28,19 +33,36 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554989
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3R0afWyirPi886nzds2zbX_39.078704_-108.570974@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439408,
-    "wof:geomhash":"a50927a54b650ac059370187e10ef61c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1f619ef0d61125eb23c7523374501aef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554989,
+            "region_id":85688603,
+            "venue_id":823494297
+        }
+    ],
     "wof:id":823494297,
-    "wof:lastmodified":1466414125,
+    "wof:lastmodified":1492119979,
     "wof:name":"Car-Tunes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554989,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

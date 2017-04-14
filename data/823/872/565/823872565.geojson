@@ -2,9 +2,14 @@
   "id": 823872565,
   "type": "Feature",
   "properties": {
+    "addr:full":"5660 W Alameda Ave Denver CO 80226",
+    "addr:housenumber":"5660",
+    "addr:postcode":"80226",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.058579,39.711105,-105.058579,39.711105",
     "geom:latitude":39.711105,
     "geom:longitude":-105.058579,
@@ -28,19 +33,36 @@
         "dancing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4U20UK2M9kHiiVa1wva442_39.711105_-105.058579@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448797,
-    "wof:geomhash":"308013fa86111c50b7511bd08a8e85cc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e59887316511565a68ad6e023324bbd8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823872565
+        }
+    ],
     "wof:id":823872565,
-    "wof:lastmodified":1466420094,
+    "wof:lastmodified":1492120176,
     "wof:name":"One Step Ahead Dance Studio",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

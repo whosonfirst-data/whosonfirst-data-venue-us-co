@@ -2,9 +2,14 @@
   "id": 824078191,
   "type": "Feature",
   "properties": {
+    "addr:full":"665 S Broadway St Boulder CO 80305",
+    "addr:housenumber":"665",
+    "addr:postcode":"80305",
+    "addr:street":"S Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.243197,39.97792,-105.243197,39.97792",
     "geom:latitude":39.97792,
     "geom:longitude":-105.243197,
@@ -29,19 +34,36 @@
         "meat"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_04dYHIwbNuarGLvvloiDHv_39.977920_-105.243197@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453816,
-    "wof:geomhash":"ba63d88107e12918c751562990e6700b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"06283d1595aa111a564615871a91a954",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":824078191
+        }
+    ],
     "wof:id":824078191,
-    "wof:lastmodified":1466414664,
+    "wof:lastmodified":1492131486,
     "wof:name":"Food Safety & Inspection Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

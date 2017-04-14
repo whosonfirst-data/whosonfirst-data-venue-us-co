@@ -2,9 +2,14 @@
   "id": 823951705,
   "type": "Feature",
   "properties": {
+    "addr:full":"10074 Williams St Denver CO 80229",
+    "addr:housenumber":"10074",
+    "addr:postcode":"80229",
+    "addr:street":"Williams St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.965542,39.880652,-104.965542,39.880652",
     "geom:latitude":39.880652,
     "geom:longitude":-104.965542,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_36QkDHhU9y21QsTujMbxFU_39.880652_-104.965542@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450815,
-    "wof:geomhash":"6cb3326d63d7dd2bb1d20fa3b532ced3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5e92b3c9d9140e6b10379f0a887b970f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823951705
+        }
+    ],
     "wof:id":823951705,
-    "wof:lastmodified":1466420640,
+    "wof:lastmodified":1492123815,
     "wof:name":"Tonys Auto Transport Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

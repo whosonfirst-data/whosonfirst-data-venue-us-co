@@ -2,9 +2,14 @@
   "id": 823796077,
   "type": "Feature",
   "properties": {
+    "addr:full":"3500 S Gun Club Rd Aurora CO 80018",
+    "addr:housenumber":"3500",
+    "addr:postcode":"80018",
+    "addr:street":"S Gun Club Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.716284,39.642997,-104.716284,39.642997",
     "geom:latitude":39.642997,
     "geom:longitude":-104.716284,
@@ -30,10 +35,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
-        85929235,
+        85872965,
         102086877,
+        102191575,
+        85929235,
         85872975
     ],
     "wof:breaches":[],
@@ -42,8 +48,15 @@
     },
     "wof:country":"US",
     "wof:created":1463446603,
-    "wof:geomhash":"b84c860e85b22ff615e3e5dd54fe2555",
+    "wof:geomhash":"60788ade6802c77fb0fcb980c9b21a65",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086877,
+            "neighbourhood_id":85872965,
+            "region_id":85688603,
+            "venue_id":823796077
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -55,9 +68,9 @@
         }
     ],
     "wof:id":823796077,
-    "wof:lastmodified":1466419306,
+    "wof:lastmodified":1492127176,
     "wof:name":"Waste Management Inc",
-    "wof:parent_id":85872975,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

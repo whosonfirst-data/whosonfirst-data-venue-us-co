@@ -2,9 +2,14 @@
   "id": 823763049,
   "type": "Feature",
   "properties": {
+    "addr:full":"400 W 4th Ave Denver CO 80223",
+    "addr:housenumber":"400",
+    "addr:postcode":"80223",
+    "addr:street":"W 4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994003,39.722532,-104.994003,39.722532",
     "geom:latitude":39.722532,
     "geom:longitude":-104.994003,
@@ -28,7 +33,15 @@
         "membership"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871285,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Wch5L5kIYA45Gx8B8Fw15_39.722532_-104.994003@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463445678,
     "wof:geomhash":"95df009d0429fe038494787841b2a344",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871285,
+            "region_id":85688603,
+            "venue_id":823763049
+        }
+    ],
     "wof:id":823763049,
-    "wof:lastmodified":1466419032,
+    "wof:lastmodified":1491876154,
     "wof:name":"Denver Tennis Club",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871285,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

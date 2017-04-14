@@ -2,9 +2,14 @@
   "id": 823577033,
   "type": "Feature",
   "properties": {
+    "addr:full":"1600 W 13th Ave Denver CO 80204",
+    "addr:housenumber":"1600",
+    "addr:postcode":"80204",
+    "addr:street":"W 13Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.010387,39.736893,-105.010387,39.736893",
     "geom:latitude":39.736893,
     "geom:longitude":-105.010387,
@@ -30,19 +35,38 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554319,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6KgZUPnHTqWUzI8dYLyBIO_39.736893_-105.010387@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441346,
-    "wof:geomhash":"37be729954baa06c0bdd25794824b5d8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c65a616dbff67066597c3d4433f50f56",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554319,
+            "region_id":85688603,
+            "venue_id":823577033
+        }
+    ],
     "wof:id":823577033,
-    "wof:lastmodified":1466416430,
+    "wof:lastmodified":1492119548,
     "wof:name":"Denver Bullets & Ammunition",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554319,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823596035,
   "type": "Feature",
   "properties": {
+    "addr:full":"1551 Cortez St Denver CO 80221",
+    "addr:housenumber":"1551",
+    "addr:postcode":"80221",
+    "addr:street":"Cortez St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.002839,39.830162,-105.002839,39.830162",
     "geom:latitude":39.830162,
     "geom:longitude":-105.002839,
@@ -28,19 +33,36 @@
         "main"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6DHw8EqMHeJZ34h7n4WJpD_39.830162_-105.002839@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441794,
-    "wof:geomhash":"89fa6be7d53d77b45a99f409a80b0348",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aa19ff28e091e04bae4c8a5f668d2aff",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":823596035
+        }
+    ],
     "wof:id":823596035,
-    "wof:lastmodified":1466416974,
+    "wof:lastmodified":1492123405,
     "wof:name":"Great Scotts Eatery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

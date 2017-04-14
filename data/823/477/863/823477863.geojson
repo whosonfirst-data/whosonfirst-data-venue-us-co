@@ -2,9 +2,14 @@
   "id": 823477863,
   "type": "Feature",
   "properties": {
+    "addr:full":"1713 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"1713;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.852552,37.323848,-107.852552,37.323848",
     "geom:latitude":37.323848,
     "geom:longitude":-107.852552,
@@ -27,19 +32,28 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_270Oi9eX1irADtac7AGal0_37.323848_-107.852552@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439035,
-    "wof:geomhash":"dd20f684e31772180f24c9259634ab46",
-    "wof:hierarchy":[],
+    "wof:geomhash":"745bc9aec70cb8ac2db9833e399f3184",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823477863
+        }
+    ],
     "wof:id":823477863,
-    "wof:lastmodified":1466413115,
+    "wof:lastmodified":1492124194,
     "wof:name":"Pennington Studio",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839976243,
   "type": "Feature",
   "properties": {
+    "addr:full":"1945 Vassar Cir Boulder CO 80305",
+    "addr:housenumber":"1945",
+    "addr:postcode":"80305",
+    "addr:street":"Vassar Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.266609,39.985103,-105.266609,39.985103",
     "geom:latitude":39.985103,
     "geom:longitude":-105.266609,
@@ -27,19 +32,36 @@
         "radar"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_51jZeAjvJ2YpCwbQJvmCtq_39.985103_-105.266609@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460269,
-    "wof:geomhash":"74f238f3227678770036d9a3924ccdf6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf73d5e1ea2a45e6074897b8675c117a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":839976243
+        }
+    ],
     "wof:id":839976243,
-    "wof:lastmodified":1466416609,
+    "wof:lastmodified":1492112508,
     "wof:name":"Binet Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

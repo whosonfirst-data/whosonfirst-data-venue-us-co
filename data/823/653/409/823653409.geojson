@@ -2,9 +2,14 @@
   "id": 823653409,
   "type": "Feature",
   "properties": {
+    "addr:full":"2650 E 49th Ave Denver CO 80216",
+    "addr:housenumber":"2650",
+    "addr:postcode":"80216",
+    "addr:street":"E 49Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.954174,39.784878,-104.954174,39.784878",
     "geom:latitude":39.784878,
     "geom:longitude":-104.954174,
@@ -27,19 +32,38 @@
         "conservation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3clIIFFpzfVS260IZTIhQK_39.784878_-104.954174@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443155,
-    "wof:geomhash":"dc561898344e194399111d74c4f07fb8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2dd1005705f633a8c42e128bd7da98cc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":823653409
+        }
+    ],
     "wof:id":823653409,
-    "wof:lastmodified":1466418117,
+    "wof:lastmodified":1492122364,
     "wof:name":"Parks & Recreation Dept",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

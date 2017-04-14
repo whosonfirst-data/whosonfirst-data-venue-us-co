@@ -2,9 +2,14 @@
   "id": 823790975,
   "type": "Feature",
   "properties": {
+    "addr:full":"129 N Main St Mancos CO 81328",
+    "addr:housenumber":"129",
+    "addr:postcode":"81328",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.28901,37.345446,-108.28901,37.345446",
     "geom:latitude":37.345446,
     "geom:longitude":-108.28901,
@@ -28,19 +33,28 @@
         "frame"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3kX4h6hInvNdSBiHEcttVS_37.345446_-108.289010@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446450,
-    "wof:geomhash":"16d63f0dc3b05d9c717a63f286c91b40",
-    "wof:hierarchy":[],
+    "wof:geomhash":"94b220c5ffb83372d7a9494051c72ced",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823790975
+        }
+    ],
     "wof:id":823790975,
-    "wof:lastmodified":1466419334,
+    "wof:lastmodified":1492127744,
     "wof:name":"Custom Calligraphy & Frame",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

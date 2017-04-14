@@ -2,9 +2,14 @@
   "id": 824009837,
   "type": "Feature",
   "properties": {
+    "addr:full":"2804 Ridge Rd Nederland CO 80466",
+    "addr:housenumber":"2804",
+    "addr:postcode":"80466",
+    "addr:street":"Ridge Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.463575,39.982062,-105.463575,39.982062",
     "geom:latitude":39.982062,
     "geom:longitude":-105.463575,
@@ -29,19 +34,42 @@
     ],
     "sg:website":"www.pluginsystems.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930763,
+        102085251,
+        420554109,
+        420554103
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NNfYto0I3JC0i9w58WBHU_39.982062_-105.463575@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452194,
-    "wof:geomhash":"fa8a380236f331ecf6d937687c5cd422",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0da11c912eed7db02075f34b3451d3c2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930763,
+            "neighbourhood_id":420554109,
+            "region_id":85688603,
+            "venue_id":824009837
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554103,
+            "venue_id":824009837
+        }
+    ],
     "wof:id":824009837,
-    "wof:lastmodified":1466412884,
+    "wof:lastmodified":1492129707,
     "wof:name":"Plugin Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

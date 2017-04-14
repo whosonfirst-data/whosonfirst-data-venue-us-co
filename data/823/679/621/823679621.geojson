@@ -2,9 +2,14 @@
   "id": 823679621,
   "type": "Feature",
   "properties": {
+    "addr:full":"3800 E 64th Ave Commerce City CO 80022",
+    "addr:housenumber":"3800",
+    "addr:postcode":"80022",
+    "addr:street":"E 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940449,39.812648,-104.940449,39.812648",
     "geom:latitude":39.812648,
     "geom:longitude":-104.940449,
@@ -35,19 +40,36 @@
         "sign"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553321
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Ug2t5gmYSg29kbXxr6HYM_39.812648_-104.940449@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443779,
-    "wof:geomhash":"b809c5f95c72488a8ac9a3df32946b44",
-    "wof:hierarchy":[],
+    "wof:geomhash":"54665f6949445ca5a97c7297208cd45f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553321,
+            "region_id":85688603,
+            "venue_id":823679621
+        }
+    ],
     "wof:id":823679621,
-    "wof:lastmodified":1466418338,
+    "wof:lastmodified":1492119880,
     "wof:name":"Colorado Signal Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553321,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

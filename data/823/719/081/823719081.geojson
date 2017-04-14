@@ -2,9 +2,14 @@
   "id": 823719081,
   "type": "Feature",
   "properties": {
+    "addr:full":"461 E Wonderview Ave Estes Park CO 80517",
+    "addr:housenumber":"461",
+    "addr:postcode":"80517",
+    "addr:street":"E Wonderview Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.517283,40.378776,-105.517283,40.378776",
     "geom:latitude":40.378776,
     "geom:longitude":-105.517283,
@@ -27,19 +32,36 @@
         "craft"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929681,
+        102083353,
+        420554725
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5yE5qRAkwU4aPGCTmJVF5I_40.378776_-105.517283@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444626,
-    "wof:geomhash":"b7c61bee0ff975d77df64612470b276e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9a02917ae5a79f4c45f9856f485b62f9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929681,
+            "neighbourhood_id":420554725,
+            "region_id":85688603,
+            "venue_id":823719081
+        }
+    ],
     "wof:id":823719081,
-    "wof:lastmodified":1466418684,
+    "wof:lastmodified":1492126046,
     "wof:name":"True Value Hardware",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554725,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

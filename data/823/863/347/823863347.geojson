@@ -2,9 +2,14 @@
   "id": 823863347,
   "type": "Feature",
   "properties": {
+    "addr:full":"6669 Brighton Blvd Commerce City CO 80022",
+    "addr:housenumber":"6669",
+    "addr:postcode":"80022",
+    "addr:street":"Brighton Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.934243,39.81716,-104.934243,39.81716",
     "geom:latitude":39.81716,
     "geom:longitude":-104.934243,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553475
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2DqELdOTMKzPHMsc7rqJKA_39.817160_-104.934243@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448582,
-    "wof:geomhash":"8735c691fba6f3356e488d42d773971c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8bc23f4a8b3d666043217e1d19a32601",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553475,
+            "region_id":85688603,
+            "venue_id":823863347
+        }
+    ],
     "wof:id":823863347,
-    "wof:lastmodified":1466419818,
+    "wof:lastmodified":1492124478,
     "wof:name":"Hill Masonry Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553475,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

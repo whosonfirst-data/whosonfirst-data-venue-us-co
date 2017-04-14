@@ -2,9 +2,14 @@
   "id": 824114767,
   "type": "Feature",
   "properties": {
+    "addr:full":"12596 Maria Cir Broomfield CO 80020",
+    "addr:housenumber":"12596",
+    "addr:postcode":"80020",
+    "addr:street":"Maria Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.0381,39.922605,-105.0381,39.922605",
     "geom:latitude":39.922605,
     "geom:longitude":-105.0381,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554245
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_484KAfj9JPUzK1Os2cCKiQ_39.922605_-105.038100@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454653,
-    "wof:geomhash":"975fa4b42e067e9d6900d38564714fdd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"739f2e3d63c0d34fa74afe47e7aca549",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554245,
+            "region_id":85688603,
+            "venue_id":824114767
+        }
+    ],
     "wof:id":824114767,
-    "wof:lastmodified":1466415523,
+    "wof:lastmodified":1492132639,
     "wof:name":"Whats For Dinner LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554245,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

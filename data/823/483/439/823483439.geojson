@@ -2,9 +2,14 @@
   "id": 823483439,
   "type": "Feature",
   "properties": {
+    "addr:full":"3785 Federal Blvd Denver CO 80211",
+    "addr:housenumber":"3785",
+    "addr:postcode":"80211",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02532,39.768549,-105.02532,39.768549",
     "geom:latitude":39.768549,
     "geom:longitude":-105.02532,
@@ -28,19 +33,38 @@
         "filing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2uFo5GMzhzgz5Gj1cO4jva_39.768549_-105.025320@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439153,
-    "wof:geomhash":"87af6ad9154c276e09c9e0fb98b5ef6f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"37a2ee539ed555d893aad3423b9ec3a3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823483439
+        }
+    ],
     "wof:id":823483439,
-    "wof:lastmodified":1466413557,
+    "wof:lastmodified":1492125700,
     "wof:name":"Jackson Hewitt Tax Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823493807,
   "type": "Feature",
   "properties": {
+    "addr:full":"845 Mohawk Dr Boulder CO 80303",
+    "addr:housenumber":"845",
+    "addr:postcode":"80303",
+    "addr:street":"Mohawk Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.239244,40.003566,-105.239244,40.003566",
     "geom:latitude":40.003566,
     "geom:longitude":-105.239244,
@@ -27,19 +32,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1NXTjqGXOGf1Tqj4UXhDnU_40.003566_-105.239244@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439393,
-    "wof:geomhash":"19863fed0053b8b1eea17db1c0a796dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"135e1eac92f9def8abe557569c73fe1a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":823493807
+        }
+    ],
     "wof:id":823493807,
-    "wof:lastmodified":1466413974,
+    "wof:lastmodified":1492116545,
     "wof:name":"Woodsongs Suzuki Violins",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

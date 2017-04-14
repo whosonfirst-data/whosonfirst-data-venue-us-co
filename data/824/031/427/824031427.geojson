@@ -2,9 +2,14 @@
   "id": 824031427,
   "type": "Feature",
   "properties": {
+    "addr:full":"312 Meyers St Oak Creek CO 80467",
+    "addr:housenumber":"312",
+    "addr:postcode":"80467",
+    "addr:street":"Meyers St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.954508,40.276034,-106.954508,40.276034",
     "geom:latitude":40.276034,
     "geom:longitude":-106.954508,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929271,
+        102086129,
+        420555335
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3x1UkeOAkwaeGs4MVAIMbZ_40.276034_-106.954508@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452704,
-    "wof:geomhash":"06661f03743ac4cf91c887063c9b3d55",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2bfe172b1ded2e0dd20430c5a47a6a67",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929271,
+            "neighbourhood_id":420555335,
+            "region_id":85688603,
+            "venue_id":824031427
+        }
+    ],
     "wof:id":824031427,
-    "wof:lastmodified":1466413881,
+    "wof:lastmodified":1492131032,
     "wof:name":"Material Guys",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555335,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

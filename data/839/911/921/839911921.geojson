@@ -2,9 +2,14 @@
   "id": 839911921,
   "type": "Feature",
   "properties": {
+    "addr:full":"416 US Hwy 85 Walsenburg CO 81089",
+    "addr:housenumber":"416",
+    "addr:postcode":"81089",
+    "addr:street":"Us Hwy 85 Walsenburg",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.78177,37.625457,-104.78177,37.625457",
     "geom:latitude":37.625457,
     "geom:longitude":-104.78177,
@@ -30,17 +35,32 @@
         "drinking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929523,
+        102086879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3hqktefGfgHVEZQPRshS7z_37.625457_-104.781770@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457179,
-    "wof:geomhash":"18e7d81c4b611914f54995b586e053e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"68e13beb07bb59aff9ea57f258c16eb2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086879,
+            "locality_id":85929523,
+            "region_id":85688603,
+            "venue_id":839911921
+        }
+    ],
     "wof:id":839911921,
-    "wof:lastmodified":1466412332,
+    "wof:lastmodified":1492113119,
     "wof:name":"Western Gas & Convenience Str",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

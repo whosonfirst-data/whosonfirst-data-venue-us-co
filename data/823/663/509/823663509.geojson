@@ -2,9 +2,14 @@
   "id": 823663509,
   "type": "Feature",
   "properties": {
+    "addr:full":"9632 Franklin St Denver CO 80229",
+    "addr:housenumber":"9632",
+    "addr:postcode":"80229",
+    "addr:street":"Franklin St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.968716,39.871761,-104.968716,39.871761",
     "geom:latitude":39.871761,
     "geom:longitude":-104.968716,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1XdIGfdxrxTRCWE7uy9eLe_39.871761_-104.968716@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443420,
-    "wof:geomhash":"cf994ab8d614aff36b4af6bb4a8a3c38",
-    "wof:hierarchy":[],
+    "wof:geomhash":"17ff7bb5a532ef2bb0c33d1163d8cf2a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823663509
+        }
+    ],
     "wof:id":823663509,
-    "wof:lastmodified":1466418079,
+    "wof:lastmodified":1492121802,
     "wof:name":"Mariscal Trucking LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

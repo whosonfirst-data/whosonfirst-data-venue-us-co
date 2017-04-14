@@ -2,9 +2,14 @@
   "id": 839942201,
   "type": "Feature",
   "properties": {
+    "addr:full":"2900 Worthington Ave Fort Collins CO 80526",
+    "addr:housenumber":"2900",
+    "addr:postcode":"80526",
+    "addr:street":"Worthington Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.091265,40.546154,-105.091265,40.546154",
     "geom:latitude":40.546154,
     "geom:longitude":-105.091265,
@@ -28,19 +33,46 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        85877479,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5nWJbUw4k3iEng6sFWLQn4_40.546154_-105.091265@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458692,
-    "wof:geomhash":"15b895476182ac32f1737a41aeb06a6e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"68ee069d1d1857acbfb63a825d9fd8c0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877479,
+            "region_id":85688603,
+            "venue_id":839942201
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":839942201
+        }
+    ],
     "wof:id":839942201,
-    "wof:lastmodified":1466414866,
+    "wof:lastmodified":1492110597,
     "wof:name":"Urban Ecology Studio Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

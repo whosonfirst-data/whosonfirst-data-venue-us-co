@@ -2,9 +2,14 @@
   "id": 823746889,
   "type": "Feature",
   "properties": {
+    "addr:full":"1091 Russell Blvd Denver CO 80229",
+    "addr:housenumber":"1091",
+    "addr:postcode":"80229",
+    "addr:street":"Russell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974087,39.860292,-104.974087,39.860292",
     "geom:latitude":39.860292,
     "geom:longitude":-104.974087,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420559961
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1CxD1qe2SQCCiCKt2JESet_39.860292_-104.974087@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445302,
-    "wof:geomhash":"ae55c323ce49ce1fa333d5a0cd5d8eb5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"26155d32bd8fb491dacceb5a6e35b3e2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420559961,
+            "region_id":85688603,
+            "venue_id":823746889
+        }
+    ],
     "wof:id":823746889,
-    "wof:lastmodified":1466418967,
+    "wof:lastmodified":1492119475,
     "wof:name":"Caliban Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559961,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

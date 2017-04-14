@@ -2,9 +2,14 @@
   "id": 823948745,
   "type": "Feature",
   "properties": {
+    "addr:full":"8199 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"8199;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.838427,37.414764,-107.838427,37.414764",
     "geom:latitude":37.414764,
     "geom:longitude":-107.838427,
@@ -29,19 +34,28 @@
     ],
     "sg:website":"www.paulfolwell.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4czWds4HtZbuD7QoDK4uWX_37.414764_-107.838427@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450753,
-    "wof:geomhash":"bd6da01cc542ecbf8826a6460f617ff5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"401cd8050be37315d21fcdb7823269fa",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554631,
+            "venue_id":823948745
+        }
+    ],
     "wof:id":823948745,
-    "wof:lastmodified":1466420636,
+    "wof:lastmodified":1492125958,
     "wof:name":"Paul Folwell",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

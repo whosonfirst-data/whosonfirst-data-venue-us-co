@@ -2,9 +2,14 @@
   "id": 824117215,
   "type": "Feature",
   "properties": {
+    "addr:full":"1480 Pine Grove Rd Steamboat Springs CO 80487",
+    "addr:housenumber":"1480",
+    "addr:postcode":"80487",
+    "addr:street":"Pine Grove Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.823711,40.465307,-106.823711,40.465307",
     "geom:latitude":40.465307,
     "geom:longitude":-106.823711,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555169
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ErPfxnHMnoupPHsBabj1v_40.465307_-106.823711@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454708,
-    "wof:geomhash":"640a8f050c4cea1b225ea03e326501e4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9cb33f75e27a92c1df5970711a1fab20",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555169,
+            "region_id":85688603,
+            "venue_id":824117215
+        }
+    ],
     "wof:id":824117215,
-    "wof:lastmodified":1466415584,
+    "wof:lastmodified":1492131345,
     "wof:name":"Rollingstone Art Gallery Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555169,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

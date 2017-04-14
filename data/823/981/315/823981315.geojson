@@ -2,9 +2,14 @@
   "id": 823981315,
   "type": "Feature",
   "properties": {
+    "addr:full":"5286 E 130th Way Thornton CO 80241",
+    "addr:housenumber":"5286",
+    "addr:postcode":"80241",
+    "addr:street":"E 130Th Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.928125,39.93347,-104.928125,39.93347",
     "geom:latitude":39.93347,
     "geom:longitude":-104.928125,
@@ -28,19 +33,36 @@
         "frame"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553903
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3fL65gVM8sFBZ18y3DYYHb_39.933470_-104.928125@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451516,
-    "wof:geomhash":"4b7966c1c8c531aa7cad9b6e4f6c8f43",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a1993dad28dcf25848995ad893a5fe29",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553903,
+            "region_id":85688603,
+            "venue_id":823981315
+        }
+    ],
     "wof:id":823981315,
-    "wof:lastmodified":1466420893,
+    "wof:lastmodified":1492126586,
     "wof:name":"Art Stop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553903,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

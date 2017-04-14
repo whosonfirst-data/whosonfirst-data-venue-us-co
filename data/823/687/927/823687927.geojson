@@ -2,9 +2,14 @@
   "id": 823687927,
   "type": "Feature",
   "properties": {
+    "addr:full":"1300 Jamaica St Aurora CO 80010",
+    "addr:housenumber":"1300",
+    "addr:postcode":"80010",
+    "addr:street":"Jamaica St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.862302,39.738289,-104.862302,39.738289",
     "geom:latitude":39.738289,
     "geom:longitude":-104.862302,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553943
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5l6tw8UtS38CWVZMNaqn9w_39.738289_-104.862302@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443970,
-    "wof:geomhash":"292b3f10fe5282a0d204b393c1f17a0c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5171cf62b01f6c0ee4c24e145a277326",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553943,
+            "region_id":85688603,
+            "venue_id":823687927
+        }
+    ],
     "wof:id":823687927,
-    "wof:lastmodified":1466418376,
+    "wof:lastmodified":1492121516,
     "wof:name":"Greater Faith Christian Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553943,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

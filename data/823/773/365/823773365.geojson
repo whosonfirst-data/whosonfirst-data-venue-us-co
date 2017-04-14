@@ -2,9 +2,14 @@
   "id": 823773365,
   "type": "Feature",
   "properties": {
+    "addr:full":"2357 Rana Rd Grand Junction CO 81503",
+    "addr:housenumber":"2357",
+    "addr:postcode":"81503",
+    "addr:street":"Rana Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.613039,39.063739,-108.613039,39.063739",
     "geom:latitude":39.063739,
     "geom:longitude":-108.613039,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554779
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6k3df49cH9zUy1CoKRyQgb_39.063739_-108.613039@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445911,
-    "wof:geomhash":"f3897e05f629f0ee5fff93880e5e74ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6e7b5384d758cc66bb1dc40275ae0cf4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554779,
+            "region_id":85688603,
+            "venue_id":823773365
+        }
+    ],
     "wof:id":823773365,
-    "wof:lastmodified":1466419123,
+    "wof:lastmodified":1492115989,
     "wof:name":"Rocky Mountain Ind Equipment",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554779,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

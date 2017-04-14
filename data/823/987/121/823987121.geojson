@@ -2,9 +2,14 @@
   "id": 823987121,
   "type": "Feature",
   "properties": {
+    "addr:full":"620 Lakeshore Dr Grand Junction CO 81505",
+    "addr:housenumber":"620",
+    "addr:postcode":"81505",
+    "addr:street":"Lakeshore Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.57884,39.08376,-108.57884,39.08376",
     "geom:latitude":39.08376,
     "geom:longitude":-108.57884,
@@ -27,19 +32,36 @@
         "executive"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554951
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4qc0V8j9xJIQiK935Rtl17_39.083760_-108.578840@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451654,
-    "wof:geomhash":"93216420e940919e1ce192a084b21d50",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aa753bdd5e6b60a31bc3b4cc994273d6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554951,
+            "region_id":85688603,
+            "venue_id":823987121
+        }
+    ],
     "wof:id":823987121,
-    "wof:lastmodified":1466420953,
+    "wof:lastmodified":1492125394,
     "wof:name":"Colorado State Grange Pat",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554951,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

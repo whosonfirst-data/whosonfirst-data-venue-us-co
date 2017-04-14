@@ -2,9 +2,14 @@
   "id": 823732991,
   "type": "Feature",
   "properties": {
+    "addr:full":"1301 Eppinger Blvd Denver CO 80229",
+    "addr:housenumber":"1301",
+    "addr:postcode":"80229",
+    "addr:street":"Eppinger Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.969783,39.864847,-104.969783,39.864847",
     "geom:latitude":39.864847,
     "geom:longitude":-104.969783,
@@ -27,19 +32,36 @@
         "guard"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420559961
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28qFdqErVmsC2RTNqqlRw2_39.864847_-104.969783@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444991,
-    "wof:geomhash":"6cbb61b1d4f661a40dc90e33be2546ba",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53e87be220fbbf59170c287978c5384e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420559961,
+            "region_id":85688603,
+            "venue_id":823732991
+        }
+    ],
     "wof:id":823732991,
-    "wof:lastmodified":1466418858,
+    "wof:lastmodified":1492126295,
     "wof:name":"Twin City Security Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559961,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

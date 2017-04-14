@@ -2,9 +2,14 @@
   "id": 824007473,
   "type": "Feature",
   "properties": {
+    "addr:full":"10066 Hooker St Westminster CO 80031",
+    "addr:housenumber":"",
+    "addr:postcode":"10066;80031",
+    "addr:street":"Hooker St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.028419,39.879282,-105.028419,39.879282",
     "geom:latitude":39.879282,
     "geom:longitude":-105.028419,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553551
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_37XUiVe2JheKgDzlr76kcW_39.879282_-105.028419@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452148,
-    "wof:geomhash":"5cd60e3ee833c6fb44a3d1332ba3df85",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b2d5837cb54b5c27f200ec0f1120653d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553551,
+            "region_id":85688603,
+            "venue_id":824007473
+        }
+    ],
     "wof:id":824007473,
-    "wof:lastmodified":1466412673,
+    "wof:lastmodified":1492128440,
     "wof:name":"Team Mechanical Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553551,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839961853,
   "type": "Feature",
   "properties": {
+    "addr:full":"205 Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"205",
+    "addr:postcode":"80621",
+    "addr:street":"Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81058,40.082304,-104.81058,40.082304",
     "geom:latitude":40.082304,
     "geom:longitude":-104.81058,
@@ -28,19 +33,28 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3vzfIteeTUIsmGgcMeS2RC_40.082304_-104.810580@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459680,
-    "wof:geomhash":"f36a043850bedf9d214f5452bfb3d2d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"efc9151a1eef62ebb946ddb1e2f7def3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":839961853
+        }
+    ],
     "wof:id":839961853,
-    "wof:lastmodified":1466415754,
+    "wof:lastmodified":1492111577,
     "wof:name":"Country Truck & Auto",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823692589,
   "type": "Feature",
   "properties": {
+    "addr:full":"1565 Kendall Dr Boulder CO 80305",
+    "addr:housenumber":"1565",
+    "addr:postcode":"80305",
+    "addr:street":"Kendall Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258431,39.974466,-105.258431,39.974466",
     "geom:latitude":39.974466,
     "geom:longitude":-105.258431,
@@ -28,19 +33,36 @@
         "luggage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1v7CFIWzAzVJeSBiqIg20s_39.974466_-105.258431@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444076,
-    "wof:geomhash":"983de43e32a46f25930eff093cfc2ec2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6e336fa8dd17ff842cacadb205629160",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":823692589
+        }
+    ],
     "wof:id":823692589,
-    "wof:lastmodified":1466418521,
+    "wof:lastmodified":1492119780,
     "wof:name":"Phidlon LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

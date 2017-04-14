@@ -2,9 +2,14 @@
   "id": 823926239,
   "type": "Feature",
   "properties": {
+    "addr:full":"201 Johnstown Center Dr Johnstown CO 80534",
+    "addr:housenumber":"201",
+    "addr:postcode":"80534",
+    "addr:street":"Johnstown Center Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.907303,40.333109,-104.907303,40.333109",
     "geom:latitude":40.333109,
     "geom:longitude":-104.907303,
@@ -27,19 +32,36 @@
         "grocer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4d5doVLztkNPK7wqMff8f9_40.333109_-104.907303@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450155,
-    "wof:geomhash":"fbed7d3e526a0c9149e87185333b2126",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d42ae5054b3c9e193c84942f2bcb7f09",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823926239
+        }
+    ],
     "wof:id":823926239,
-    "wof:lastmodified":1466420401,
+    "wof:lastmodified":1492124917,
     "wof:name":"Hays Market",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823488787,
   "type": "Feature",
   "properties": {
+    "addr:full":"5004 Co Rd 228 Durango CO 81301",
+    "addr:housenumber":"5004;228",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.739492,37.278652,-107.739492,37.278652",
     "geom:latitude":37.278652,
     "geom:longitude":-107.739492,
@@ -27,19 +32,28 @@
         "internet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5aXn81ipBLLzP0OHtucAfc_37.278652_-107.739492@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439286,
-    "wof:geomhash":"237999454a8aa9a48cbc351f933b7e23",
-    "wof:hierarchy":[],
+    "wof:geomhash":"be85c01db47a5da06840d5e92d740b98",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554671,
+            "venue_id":823488787
+        }
+    ],
     "wof:id":823488787,
-    "wof:lastmodified":1466413990,
+    "wof:lastmodified":1492122754,
     "wof:name":"Douglas Satellite Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839966603,
   "type": "Feature",
   "properties": {
+    "addr:full":"1428 Grand Ave Grand Junction CO 81501",
+    "addr:housenumber":"1428",
+    "addr:postcode":"81501",
+    "addr:street":"Grand Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.548053,39.070376,-108.548053,39.070376",
     "geom:latitude":39.070376,
     "geom:longitude":-108.548053,
@@ -27,19 +32,36 @@
         "painter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554867
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2GCWUS2fklLra39vXmRcZy_39.070376_-108.548053@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459877,
-    "wof:geomhash":"4ee172e39932c6fe924c51051d02f02e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d1179c63a1e401209a3f8827dc5ff3a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554867,
+            "region_id":85688603,
+            "venue_id":839966603
+        }
+    ],
     "wof:id":839966603,
-    "wof:lastmodified":1466415983,
+    "wof:lastmodified":1492111333,
     "wof:name":"B & K Home Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554867,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

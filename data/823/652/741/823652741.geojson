@@ -2,9 +2,14 @@
   "id": 823652741,
   "type": "Feature",
   "properties": {
+    "addr:full":"5545 E Hampden Ave Denver CO 80222",
+    "addr:housenumber":"5545",
+    "addr:postcode":"80222",
+    "addr:street":"E Hampden Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.924172,39.653134,-104.924172,39.653134",
     "geom:latitude":39.653134,
     "geom:longitude":-104.924172,
@@ -27,19 +32,38 @@
         "communications"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85866869,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_72VFlm0TMX3aOwD99b4PJR_39.653134_-104.924172@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443135,
-    "wof:geomhash":"1625a7b8ebd30cce3ee8c42f9ba5e67d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"93ea286a06d6827f0202c24158c583ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85866869,
+            "region_id":85688603,
+            "venue_id":823652741
+        }
+    ],
     "wof:id":823652741,
-    "wof:lastmodified":1466418141,
+    "wof:lastmodified":1492121152,
     "wof:name":"Hack Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":85866869,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

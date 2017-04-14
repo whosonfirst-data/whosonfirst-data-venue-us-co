@@ -2,9 +2,14 @@
   "id": 824140609,
   "type": "Feature",
   "properties": {
+    "addr:full":"5648 Wadsworth Blvd Arvada CO 80002",
+    "addr:housenumber":"5648",
+    "addr:postcode":"80002",
+    "addr:street":"Wadsworth Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076456,39.798882,-105.076456,39.798882",
     "geom:latitude":39.798882,
     "geom:longitude":-105.076456,
@@ -28,19 +33,34 @@
         "lamination"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1xwZJdhWCngBSqexRBMUvo_39.798882_-105.076456@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455532,
-    "wof:geomhash":"f1861bddaa75cd23f75bca09e592f5cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a7c68a120ffb58c4f4b6733da045a91",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824140609
+        }
+    ],
     "wof:id":824140609,
-    "wof:lastmodified":1466416583,
+    "wof:lastmodified":1492131789,
     "wof:name":"Johnney Lammo",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839931027,
   "type": "Feature",
   "properties": {
+    "addr:full":"321 S Broadway Cortez CO 81321",
+    "addr:housenumber":"321",
+    "addr:postcode":"81321",
+    "addr:street":"S Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.595862,37.34512,-108.595862,37.34512",
     "geom:latitude":37.34512,
     "geom:longitude":-108.595862,
@@ -30,19 +35,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3TGVJokIDYfFIFMj54vvf3_37.345120_-108.595862@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458028,
-    "wof:geomhash":"e20cfd7291ea17e65d4a5930211b3236",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8cebcc90f0e87d4abb5843cfc9e3ac23",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555135,
+            "region_id":85688603,
+            "venue_id":839931027
+        }
+    ],
     "wof:id":839931027,
-    "wof:lastmodified":1466414260,
+    "wof:lastmodified":1492111540,
     "wof:name":"Hintons Service Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

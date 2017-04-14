@@ -2,9 +2,14 @@
   "id": 823995425,
   "type": "Feature",
   "properties": {
+    "addr:full":"14891 E Colfax Ave Aurora CO 80011",
+    "addr:housenumber":"14891",
+    "addr:postcode":"80011",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.816473,39.740261,-104.816473,39.740261",
     "geom:latitude":39.740261,
     "geom:longitude":-104.816473,
@@ -28,19 +33,36 @@
         "lubrication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_632k8KLmuK5DMHBbgdZFLo_39.740261_-104.816473@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451873,
-    "wof:geomhash":"941c6cc6d9d06c21d548d556972cb7c2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"875e82680340b989651de1b6dabac96e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":823995425
+        }
+    ],
     "wof:id":823995425,
-    "wof:lastmodified":1466421007,
+    "wof:lastmodified":1492117198,
     "wof:name":"Econo Lube N' Tune",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

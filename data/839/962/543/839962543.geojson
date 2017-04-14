@@ -2,9 +2,14 @@
   "id": 839962543,
   "type": "Feature",
   "properties": {
+    "addr:full":"140 S College Ave Fort Collins CO 80524",
+    "addr:housenumber":"140",
+    "addr:postcode":"80524",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076956,40.586486,-105.076956,40.586486",
     "geom:latitude":40.586486,
     "geom:longitude":-105.076956,
@@ -29,19 +34,36 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554751
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0mRtJ1IkHB9ffvy3Z4qNGf_40.586486_-105.076956@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459706,
-    "wof:geomhash":"b838b538bbd8a95c7910a5f1e4e6a0d6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"85ed161b6f2af1b425ff6664471feae0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554751,
+            "region_id":85688603,
+            "venue_id":839962543
+        }
+    ],
     "wof:id":839962543,
-    "wof:lastmodified":1466415866,
+    "wof:lastmodified":1492112176,
     "wof:name":"Wear It Again Sam",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554751,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 319898239,
   "type": "Feature",
   "properties": {
+    "addr:full":"15355 E Colfax Ave Ste E3 Aurora CO 80011",
+    "addr:housenumber":"15355",
+    "addr:postcode":"80011",
+    "addr:street":"E Colfax Ave Ste E3",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.809359,39.740154,-104.809359,39.740154",
     "geom:latitude":39.740154,
     "geom:longitude":-104.809359,
@@ -36,32 +41,43 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929235,
         102086877,
-        85802959
+        85802959,
+        420559493
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1GRndYDZqIikFBA55gCNQl_39.740154_-104.809359@1303263079"
     },
     "wof:country":"US",
-    "wof:geomhash":"87f729961d2d12fd4358a68bd10a85c3",
+    "wof:geomhash":"52fa0d8790c445918690dfa477d44b21",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086877,
             "locality_id":85929235,
             "neighbourhood_id":85802959,
             "region_id":85688603,
             "venue_id":319898239
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420559493,
+            "region_id":85688603,
+            "venue_id":319898239
         }
     ],
     "wof:id":319898239,
-    "wof:lastmodified":1466412124,
+    "wof:lastmodified":1492110074,
     "wof:name":"Just Bill's",
-    "wof:parent_id":85802959,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

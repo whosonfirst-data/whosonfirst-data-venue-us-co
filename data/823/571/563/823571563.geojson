@@ -2,9 +2,14 @@
   "id": 823571563,
   "type": "Feature",
   "properties": {
+    "addr:full":"399 Co Rd 221 Durango CO 81303",
+    "addr:housenumber":"399;221",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.786244,37.215023,-107.786244,37.215023",
     "geom:latitude":37.215023,
     "geom:longitude":-107.786244,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554645
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6MLEnbweFhKoVWwtAuT31O_37.215023_-107.786244@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441224,
-    "wof:geomhash":"1dacfd32f52a19fd4226d8f02a4821da",
-    "wof:hierarchy":[],
+    "wof:geomhash":"759b5014a89cceacede3ace2ecc290ba",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554645,
+            "venue_id":823571563
+        }
+    ],
     "wof:id":823571563,
-    "wof:lastmodified":1466416441,
+    "wof:lastmodified":1492125268,
     "wof:name":"Durango Precast Concrete",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554645,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

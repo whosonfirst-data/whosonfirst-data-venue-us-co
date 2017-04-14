@@ -2,9 +2,14 @@
   "id": 823899513,
   "type": "Feature",
   "properties": {
+    "addr:full":"1000 Airport Rd Durango CO 81303",
+    "addr:housenumber":"1000",
+    "addr:postcode":"co 81303",
+    "addr:street":"Airport Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.751114,37.160922,-107.751114,37.160922",
     "geom:latitude":37.160922,
     "geom:longitude":-107.751114,
@@ -24,19 +29,28 @@
     "sg:postcode":"81303",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3sOgR8Jkr8voosaOC1nBGT_37.160922_-107.751114@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449446,
-    "wof:geomhash":"2535aab3ffa841e4035e39fce288fab4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e6889688dc59faa07aa0304b2fc66d6c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823899513
+        }
+    ],
     "wof:id":823899513,
-    "wof:lastmodified":1466420208,
+    "wof:lastmodified":1492116064,
     "wof:name":"LA Plata County Airport",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

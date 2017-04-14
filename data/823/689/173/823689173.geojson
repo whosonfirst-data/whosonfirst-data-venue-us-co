@@ -2,9 +2,14 @@
   "id": 823689173,
   "type": "Feature",
   "properties": {
+    "addr:full":"4844 W 30th Ave Denver CO 80212",
+    "addr:housenumber":"4844",
+    "addr:postcode":"80212",
+    "addr:street":"W 30Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05043,39.760219,-105.05043,39.760219",
     "geom:latitude":39.760219,
     "geom:longitude":-105.05043,
@@ -29,19 +34,38 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Gt4y9qUoNS0Xs0sbrmaeq_39.760219_-105.050430@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443994,
-    "wof:geomhash":"40ad3f979feb6b89823c684569efbb97",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9a72b20d5e9d4f43fd733517d93eed99",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823689173
+        }
+    ],
     "wof:id":823689173,
-    "wof:lastmodified":1466418475,
+    "wof:lastmodified":1492118401,
     "wof:name":"R&R Woodworks Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

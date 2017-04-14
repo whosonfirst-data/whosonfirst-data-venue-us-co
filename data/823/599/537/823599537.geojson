@@ -2,9 +2,14 @@
   "id": 823599537,
   "type": "Feature",
   "properties": {
+    "addr:full":"135 Poorman Rd Boulder CO 80302",
+    "addr:housenumber":"135",
+    "addr:postcode":"80302",
+    "addr:street":"Poorman Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.325046,40.035645,-105.325046,40.035645",
     "geom:latitude":40.035645,
     "geom:longitude":-105.325046,
@@ -27,19 +32,28 @@
         "aquarium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553993
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Z3W3mVjT2uIv0i9L2NMZU_40.035645_-105.325046@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441876,
-    "wof:geomhash":"de0cf0f539f2f4302c8c1dd462aedd88",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c65f031a4328952f85aa0dbd45da710d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553993,
+            "venue_id":823599537
+        }
+    ],
     "wof:id":823599537,
-    "wof:lastmodified":1466417104,
+    "wof:lastmodified":1492117772,
     "wof:name":"Aqua Texture",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553993,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

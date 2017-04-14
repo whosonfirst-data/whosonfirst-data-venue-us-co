@@ -2,9 +2,14 @@
   "id": 839988815,
   "type": "Feature",
   "properties": {
+    "addr:full":"950 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"950",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.975225,39.913943,-104.975225,39.913943",
     "geom:latitude":39.913943,
     "geom:longitude":-104.975225,
@@ -29,19 +34,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4QUe5QkTWQclwDHDqjcyjH_39.913943_-104.975225@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460768,
-    "wof:geomhash":"20b2cc42a225e2a8ead934989ada059d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8f06b5ef5ec8f45babff58e0e296e327",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553879,
+            "region_id":85688603,
+            "venue_id":839988815
+        }
+    ],
     "wof:id":839988815,
-    "wof:lastmodified":1466417449,
+    "wof:lastmodified":1492112810,
     "wof:name":"Sonic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823568783,
   "type": "Feature",
   "properties": {
+    "addr:full":"2310 Lincoln Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"2310",
+    "addr:postcode":"80487",
+    "addr:street":"Lincoln Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.861067,40.502964,-106.861067,40.502964",
     "geom:latitude":40.502964,
     "geom:longitude":-106.861067,
@@ -29,19 +34,36 @@
     ],
     "sg:website":"www.steamboatmotors.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555365
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_10SkZqcXde4J4nmsmylIIM_40.502964_-106.861067@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441160,
-    "wof:geomhash":"4960b903a7d06d579475f3c50d4b95eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6f95123985edf92a396ea9ea55d1cdfe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555365,
+            "region_id":85688603,
+            "venue_id":823568783
+        }
+    ],
     "wof:id":823568783,
-    "wof:lastmodified":1466416374,
+    "wof:lastmodified":1492124979,
     "wof:name":"Steamboat Motors LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

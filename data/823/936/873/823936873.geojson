@@ -2,9 +2,14 @@
   "id": 823936873,
   "type": "Feature",
   "properties": {
+    "addr:full":"2698 S Zurich Ct Denver CO 80219",
+    "addr:housenumber":"2698",
+    "addr:postcode":"80219",
+    "addr:street":"S Zurich Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.051768,39.669746,-105.051768,39.669746",
     "geom:latitude":39.669746,
     "geom:longitude":-105.051768,
@@ -27,7 +32,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ETzgBpQafLZKm0zyifiq2_39.669746_-105.051768@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463450453,
     "wof:geomhash":"092b0200be630060a485094508be4b85",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":823936873
+        }
+    ],
     "wof:id":823936873,
-    "wof:lastmodified":1466420594,
+    "wof:lastmodified":1486593729,
     "wof:name":"Colorado Door & Trim Supply",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

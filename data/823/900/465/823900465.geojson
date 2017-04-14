@@ -2,9 +2,14 @@
   "id": 823900465,
   "type": "Feature",
   "properties": {
+    "addr:full":"7777 Brighton Rd Commerce City CO 80022",
+    "addr:housenumber":"7777",
+    "addr:postcode":"80022",
+    "addr:street":"Brighton Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.92346,39.83785,-104.92346,39.83785",
     "geom:latitude":39.83785,
     "geom:longitude":-104.92346,
@@ -29,19 +34,36 @@
         "mower"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930259,
+        102084053,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4G0llMR87qIkpVJ35Zjc8I_39.837850_-104.923460@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449464,
-    "wof:geomhash":"aff3e2073e0ca939064faae72fe43cf7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dade7b49e72b9b3b631d50608dd17cc5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":823900465
+        }
+    ],
     "wof:id":823900465,
-    "wof:lastmodified":1466420214,
+    "wof:lastmodified":1492121764,
     "wof:name":"Affordable Lawn Mower Repairs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553481,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

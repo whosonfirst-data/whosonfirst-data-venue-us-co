@@ -2,9 +2,14 @@
   "id": 320141309,
   "type": "Feature",
   "properties": {
+    "addr:full":"3377 Blake St Ste 113 Denver CO 80205",
+    "addr:housenumber":"3377",
+    "addr:postcode":"80205",
+    "addr:street":"Blake St Ste 113",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977868,39.767415,-104.977868,39.767415",
     "geom:latitude":39.767415,
     "geom:longitude":-104.977868,
@@ -37,11 +42,14 @@
     "sg:website":"www.dug.org/",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750115,
+        85871289,
+        102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85888337
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -51,19 +59,21 @@
     "wof:geomhash":"0ce0045aa9574e60751a8a9a4e9e307c",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85888337,
+            "macrohood_id":1108750025,
+            "microhood_id":1108750115,
+            "neighbourhood_id":85871289,
             "region_id":85688603,
             "venue_id":320141309
         }
     ],
     "wof:id":320141309,
-    "wof:lastmodified":1466412661,
+    "wof:lastmodified":1486604513,
     "wof:name":"Denver Urban Gardens",
-    "wof:parent_id":85888337,
+    "wof:parent_id":1108750115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

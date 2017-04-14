@@ -2,9 +2,14 @@
   "id": 824111867,
   "type": "Feature",
   "properties": {
+    "addr:full":"3015 Forrest Way Grand Junction CO 81504",
+    "addr:housenumber":"3015",
+    "addr:postcode":"81504",
+    "addr:street":"Forrest Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.468047,39.085756,-108.468047,39.085756",
     "geom:latitude":39.085756,
     "geom:longitude":-108.468047,
@@ -27,19 +32,36 @@
         "repair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930467,
+        102085221,
+        420555013
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1glmhPPpcXOMGh6DyFIkZa_39.085756_-108.468047@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454590,
-    "wof:geomhash":"ad6291d0957deeef15a39e42a62c0784",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f2893083608a2d9b6d859d748d510226",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930467,
+            "neighbourhood_id":420555013,
+            "region_id":85688603,
+            "venue_id":824111867
+        }
+    ],
     "wof:id":824111867,
-    "wof:lastmodified":1466415440,
+    "wof:lastmodified":1492132760,
     "wof:name":"Glen Harts Piano Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555013,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

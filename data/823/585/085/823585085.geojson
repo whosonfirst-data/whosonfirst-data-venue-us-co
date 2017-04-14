@@ -2,9 +2,14 @@
   "id": 823585085,
   "type": "Feature",
   "properties": {
+    "addr:full":"514 Moffat Ave Oak Creek CO 80467",
+    "addr:housenumber":"514",
+    "addr:postcode":"80467",
+    "addr:street":"Moffat Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.9568,40.27484,-106.9568,40.27484",
     "geom:latitude":40.27484,
     "geom:longitude":-106.9568,
@@ -27,19 +32,36 @@
         "caterer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929271,
+        102086129,
+        420555335
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7GQOz39ziDD9G0SNktVBfH_40.274840_-106.956800@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441538,
-    "wof:geomhash":"519caa0573643b5d3f490fdf74365c74",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5ffe98a69a608388fe8ede1cfcf0f462",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929271,
+            "neighbourhood_id":420555335,
+            "region_id":85688603,
+            "venue_id":823585085
+        }
+    ],
     "wof:id":823585085,
-    "wof:lastmodified":1466416757,
+    "wof:lastmodified":1492127379,
     "wof:name":"Beth The Chef",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555335,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

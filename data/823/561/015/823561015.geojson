@@ -2,9 +2,14 @@
   "id": 823561015,
   "type": "Feature",
   "properties": {
+    "addr:full":"1362 W 133rd Way Denver CO 80234",
+    "addr:housenumber":"1362",
+    "addr:postcode":"80234",
+    "addr:street":"W 133Rd Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.004121,39.93756,-105.004121,39.93756",
     "geom:latitude":39.93756,
     "geom:longitude":-105.004121,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3z4MUVYxExKydgH6mwZWok_39.937560_-105.004121@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440964,
-    "wof:geomhash":"f4163c44ea8d9aed6fc5ab46fd341fda",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a1f9c533ea2a37048a6c1740bad9eaf0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":823561015
+        }
+    ],
     "wof:id":823561015,
-    "wof:lastmodified":1466416173,
+    "wof:lastmodified":1492126146,
     "wof:name":"Hessek Engineering",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

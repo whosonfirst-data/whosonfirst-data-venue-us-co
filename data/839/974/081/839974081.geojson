@@ -2,9 +2,14 @@
   "id": 839974081,
   "type": "Feature",
   "properties": {
+    "addr:full":"5627 Kendall Ct Arvada CO 80002",
+    "addr:housenumber":"5627",
+    "addr:postcode":"80002",
+    "addr:street":"Kendall Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.066066,39.799327,-105.066066,39.799327",
     "geom:latitude":39.799327,
     "geom:longitude":-105.066066,
@@ -28,19 +33,34 @@
         "custom"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3owHY4FNXtlYXsa23ZcChF_39.799327_-105.066066@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460179,
-    "wof:geomhash":"587438296fdf8ca55fdfad33a80824d5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e30e49317c097397d76595eb5ebd9d44",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":839974081
+        }
+    ],
     "wof:id":839974081,
-    "wof:lastmodified":1466416713,
+    "wof:lastmodified":1492110879,
     "wof:name":"Woodline Designs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823557723,
   "type": "Feature",
   "properties": {
+    "addr:full":"701 W 64th Ave Denver CO 80221",
+    "addr:housenumber":"701",
+    "addr:postcode":"80221",
+    "addr:street":"W 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994883,39.812817,-104.994883,39.812817",
     "geom:latitude":39.812817,
     "geom:longitude":-104.994883,
@@ -35,19 +40,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553727
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_40bOxLQ5W4qMYkoGZrUher_39.812817_-104.994883@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440884,
-    "wof:geomhash":"c9ec280481c79807bc1faf9f69f088f6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5db0ecf04904784d16560e9c184c17d6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553727,
+            "region_id":85688603,
+            "venue_id":823557723
+        }
+    ],
     "wof:id":823557723,
-    "wof:lastmodified":1466416142,
+    "wof:lastmodified":1492124783,
     "wof:name":"Mendoza Used Brick Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553727,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

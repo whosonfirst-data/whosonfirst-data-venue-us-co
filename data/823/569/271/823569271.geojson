@@ -2,9 +2,14 @@
   "id": 823569271,
   "type": "Feature",
   "properties": {
+    "addr:full":"1603 E Euclid Ave Littleton CO 80121",
+    "addr:housenumber":"1603",
+    "addr:postcode":"80121",
+    "addr:street":"E Euclid Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.967961,39.599365,-104.967961,39.599365",
     "geom:latitude":39.599365,
     "geom:longitude":-104.967961,
@@ -27,17 +32,32 @@
         "elementary"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929851,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0VyR5qMNd2BceGAsbYgOqH_39.599365_-104.967961@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441172,
-    "wof:geomhash":"6adab9def3adee67e8291a794779f098",
-    "wof:hierarchy":[],
+    "wof:geomhash":"56ee6f7541f2c7a1fe70a3ba91723051",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929851,
+            "region_id":85688603,
+            "venue_id":823569271
+        }
+    ],
     "wof:id":823569271,
-    "wof:lastmodified":1466416161,
+    "wof:lastmodified":1492117402,
     "wof:name":"Littleton Public Schools",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

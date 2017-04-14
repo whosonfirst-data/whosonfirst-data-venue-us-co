@@ -2,9 +2,14 @@
   "id": 824025921,
   "type": "Feature",
   "properties": {
+    "addr:full":"820 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"820",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.558024,39.077476,-108.558024,39.077476",
     "geom:latitude":39.077476,
     "geom:longitude":-108.558024,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Lnq10oEjugWwh4dB8cBAt_39.077476_-108.558024@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452561,
-    "wof:geomhash":"0587631d7c27741c83122c2001e2dcdc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"22a69ac62d0315d3844aab56a65fe64d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554823,
+            "region_id":85688603,
+            "venue_id":824025921
+        }
+    ],
     "wof:id":824025921,
-    "wof:lastmodified":1466413772,
+    "wof:lastmodified":1492131079,
     "wof:name":"Family Advantage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824178467,
   "type": "Feature",
   "properties": {
+    "addr:full":"12003 Monaco Dr Brighton CO 80602",
+    "addr:housenumber":"12003",
+    "addr:postcode":"80602",
+    "addr:street":"Monaco Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.910403,39.914601,-104.910403,39.914601",
     "geom:latitude":39.914601,
     "geom:longitude":-104.910403,
@@ -27,19 +32,28 @@
         "janitor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553389
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3CDnuyOtUgop103LS5g4Mz_39.914601_-104.910403@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457005,
-    "wof:geomhash":"c3c04408638edf0ff81d56d2bbc4b1ea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c8cf098d81b0e081424548085a861d8c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553389,
+            "venue_id":824178467
+        }
+    ],
     "wof:id":824178467,
-    "wof:lastmodified":1466418193,
+    "wof:lastmodified":1492129312,
     "wof:name":"Dot Com Janitorial",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553389,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

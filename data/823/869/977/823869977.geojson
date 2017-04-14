@@ -2,9 +2,14 @@
   "id": 823869977,
   "type": "Feature",
   "properties": {
+    "addr:full":"3299 W Colorado Ave Denver CO 80219",
+    "addr:housenumber":"3299",
+    "addr:postcode":"80219",
+    "addr:street":"W Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025044,39.684971,-105.025044,39.684971",
     "geom:latitude":39.684971,
     "geom:longitude":-105.025044,
@@ -29,7 +34,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871275,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_75RpNiU6T2OIpC3mOFFNan_39.684971_-105.025044@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463448737,
     "wof:geomhash":"57150064ecaec9cb5970e7f9e9fb613a",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871275,
+            "region_id":85688603,
+            "venue_id":823869977
+        }
+    ],
     "wof:id":823869977,
-    "wof:lastmodified":1466419902,
+    "wof:lastmodified":1491876116,
     "wof:name":"Nelson's Remodeling Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839952685,
   "type": "Feature",
   "properties": {
+    "addr:full":"3573 S Jason St Englewood CO 80110",
+    "addr:housenumber":"3573",
+    "addr:postcode":"80110",
+    "addr:street":"S Jason St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.999462,39.650776,-104.999462,39.650776",
     "geom:latitude":39.650776,
     "geom:longitude":-104.999462,
@@ -29,19 +34,36 @@
         "tub"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        420553955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6uFHSUpT1SJKwy80eBJX6L_39.650776_-104.999462@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459251,
-    "wof:geomhash":"6250a0dc319351474ac28f9fc4bc52c9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cce264da73765a81dae33fb482e77b51",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
+            "region_id":85688603,
+            "venue_id":839952685
+        }
+    ],
     "wof:id":839952685,
-    "wof:lastmodified":1466415566,
+    "wof:lastmodified":1492111954,
     "wof:name":"Coleman Spas of Denver",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

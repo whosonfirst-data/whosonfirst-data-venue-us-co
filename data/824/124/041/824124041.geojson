@@ -2,9 +2,14 @@
   "id": 824124041,
   "type": "Feature",
   "properties": {
+    "addr:full":"925 W 97th Ave Denver CO 80260",
+    "addr:housenumber":"925",
+    "addr:postcode":"80260",
+    "addr:street":"W 97Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996713,39.872657,-104.996713,39.872657",
     "geom:latitude":39.872657,
     "geom:longitude":-104.996713,
@@ -28,19 +33,57 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553869,
+        420553659,
+        85929143,
+        420553703
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4pF5axxdAXTER36gm6taIL_39.872657_-104.996713@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454880,
-    "wof:geomhash":"3119e1fcfbc70b86de894e308fcd820f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1cdab179cf572d11880f523906a81ca1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553869,
+            "region_id":85688603,
+            "venue_id":824124041
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553659,
+            "region_id":85688603,
+            "venue_id":824124041
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553703,
+            "region_id":85688603,
+            "venue_id":824124041
+        }
+    ],
     "wof:id":824124041,
-    "wof:lastmodified":1466415566,
+    "wof:lastmodified":1492130848,
     "wof:name":"Rmt Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

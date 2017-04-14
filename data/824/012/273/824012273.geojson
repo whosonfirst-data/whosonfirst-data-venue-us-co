@@ -2,9 +2,14 @@
   "id": 824012273,
   "type": "Feature",
   "properties": {
+    "addr:full":"1031 E 88th Ave Thornton CO 80229",
+    "addr:housenumber":"1031",
+    "addr:postcode":"80229",
+    "addr:street":"E 88Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.972478,39.856356,-104.972478,39.856356",
     "geom:latitude":39.856356,
     "geom:longitude":-104.972478,
@@ -27,19 +32,36 @@
         "wrecker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0GvMMyob2IoGVenOye2Vaf_39.856356_-104.972478@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452242,
-    "wof:geomhash":"f0e336406e5c5c5f49e1ebf48893d014",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0e5ea7c1511c14151db2243e2d08e1ea",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":824012273
+        }
+    ],
     "wof:id":824012273,
-    "wof:lastmodified":1466413117,
+    "wof:lastmodified":1492130117,
     "wof:name":"Payless Towing & Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

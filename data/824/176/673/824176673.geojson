@@ -2,9 +2,14 @@
   "id": 824176673,
   "type": "Feature",
   "properties": {
+    "addr:full":"4008 Mesa Verde St Fort Collins CO 80525",
+    "addr:housenumber":"4008",
+    "addr:postcode":"80525",
+    "addr:street":"Mesa Verde St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.01811,40.532887,-105.01811,40.532887",
     "geom:latitude":40.532887,
     "geom:longitude":-105.01811,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4p2vnp9Hv2eCfYOQn9Y2F9_40.532887_-105.018110@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456939,
-    "wof:geomhash":"1b0a8af156a784452dbaf94e03766f7b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"85c9c3d959d3200de4e873cb8e1ba748",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":824176673
+        }
+    ],
     "wof:id":824176673,
-    "wof:lastmodified":1466418093,
+    "wof:lastmodified":1492128416,
     "wof:name":"Bonanza Aero Group Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

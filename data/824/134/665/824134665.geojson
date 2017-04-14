@@ -2,9 +2,14 @@
   "id": 824134665,
   "type": "Feature",
   "properties": {
+    "addr:full":"5930 W 56th Ave Arvada CO 80002",
+    "addr:housenumber":"5930",
+    "addr:postcode":"80002",
+    "addr:street":"W 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062316,39.798256,-105.062316,39.798256",
     "geom:latitude":39.798256,
     "geom:longitude":-105.062316,
@@ -28,19 +33,34 @@
         "stair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0qK3lb0WAdj9Pd8ssWq64g_39.798256_-105.062316@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455320,
-    "wof:geomhash":"9e5817b1bbc0d908852f6d7373e048ce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0322d9b85c90166bfa1f7860a4cf2a10",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824134665
+        }
+    ],
     "wof:id":824134665,
-    "wof:lastmodified":1466416329,
+    "wof:lastmodified":1492129037,
     "wof:name":"Reed Stair & Hand Rails Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

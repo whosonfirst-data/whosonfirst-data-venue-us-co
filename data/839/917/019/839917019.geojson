@@ -2,9 +2,14 @@
   "id": 839917019,
   "type": "Feature",
   "properties": {
+    "addr:full":"1234 N 12th St Grand Junction CO 81501",
+    "addr:housenumber":"1234",
+    "addr:postcode":"81501",
+    "addr:street":"N 12Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.552303,39.078919,-108.552303,39.078919",
     "geom:latitude":39.078919,
     "geom:longitude":-108.552303,
@@ -24,19 +29,36 @@
     "sg:postcode":"81501",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Od1Nrno0ZxPGeaXIM0Hrk_39.078919_-108.552303@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457372,
-    "wof:geomhash":"d6a9582dc2c2e412f3d8fd98214b4296",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c51ab7b4bab42d1959c5499cf7628c19",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554945,
+            "region_id":85688603,
+            "venue_id":839917019
+        }
+    ],
     "wof:id":839917019,
-    "wof:lastmodified":1466413361,
+    "wof:lastmodified":1492111100,
     "wof:name":"Papa Kelsey's & Fred",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

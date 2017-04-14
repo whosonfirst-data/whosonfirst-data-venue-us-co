@@ -2,9 +2,14 @@
   "id": 823860845,
   "type": "Feature",
   "properties": {
+    "addr:full":"19150 E 160th Ave Brighton CO 80601",
+    "addr:housenumber":"19150",
+    "addr:postcode":"80601",
+    "addr:street":"E 160Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.762548,39.986793,-104.762548,39.986793",
     "geom:latitude":39.986793,
     "geom:longitude":-104.762548,
@@ -28,19 +33,36 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553455
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6yqowBy8T4aguWURS7E6NQ_39.986793_-104.762548@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448515,
-    "wof:geomhash":"e59e2fd61e32843dabd11b3f0e867c4f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"86efecdc355bc6af420543959f7fd35d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553455,
+            "region_id":85688603,
+            "venue_id":823860845
+        }
+    ],
     "wof:id":823860845,
-    "wof:lastmodified":1466419917,
+    "wof:lastmodified":1492123716,
     "wof:name":"Brighton Housing Authority",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553455,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

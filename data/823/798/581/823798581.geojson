@@ -2,9 +2,14 @@
   "id": 823798581,
   "type": "Feature",
   "properties": {
+    "addr:full":"4321 E 109th Ave Denver CO 80233",
+    "addr:housenumber":"4321",
+    "addr:postcode":"80233",
+    "addr:street":"E 109Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.935564,39.893577,-104.935564,39.893577",
     "geom:latitude":39.893577,
     "geom:longitude":-104.935564,
@@ -27,19 +32,36 @@
         "passenger"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553691
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1azzmiU2esQoz9g042ejZ8_39.893577_-104.935564@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446675,
-    "wof:geomhash":"0791c6b88f1308d4aad4f4c51c1cb82d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"15dfcde331ec9c61143f0d37c81f21e5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553691,
+            "region_id":85688603,
+            "venue_id":823798581
+        }
+    ],
     "wof:id":823798581,
-    "wof:lastmodified":1466419272,
+    "wof:lastmodified":1492118632,
     "wof:name":"Absolute Luxury Limousine LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553691,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

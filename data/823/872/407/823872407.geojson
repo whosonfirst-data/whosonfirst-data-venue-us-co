@@ -2,9 +2,14 @@
   "id": 823872407,
   "type": "Feature",
   "properties": {
+    "addr:full":"1445 N 7th St Grand Junction CO 81501",
+    "addr:housenumber":"1445",
+    "addr:postcode":"81501",
+    "addr:street":"N 7Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.561101,39.080665,-108.561101,39.080665",
     "geom:latitude":39.080665,
     "geom:longitude":-108.561101,
@@ -27,19 +32,36 @@
         "loan"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420555005
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5lrWkNQvgpt1fTsqQkbgOv_39.080665_-108.561101@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448794,
-    "wof:geomhash":"7100fbb36ea5bee454b5609e889612e3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9dbcbbb5de7a4d617cbe5f1a27a64ac4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420555005,
+            "region_id":85688603,
+            "venue_id":823872407
+        }
+    ],
     "wof:id":823872407,
-    "wof:lastmodified":1466419975,
+    "wof:lastmodified":1492120181,
     "wof:name":"Valley Mortgage Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555005,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

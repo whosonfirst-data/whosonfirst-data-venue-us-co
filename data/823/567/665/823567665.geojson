@@ -2,9 +2,14 @@
   "id": 823567665,
   "type": "Feature",
   "properties": {
+    "addr:full":"555 Co Rd 103 Durango CO 81326",
+    "addr:housenumber":"555;103",
+    "addr:postcode":"co 81326",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.169298,37.098115,-108.169298,37.098115",
     "geom:latitude":37.098115,
     "geom:longitude":-108.169298,
@@ -24,19 +29,28 @@
     "sg:postcode":"81326",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_20ZU9UpnAQF0LtWoWwUyM9_37.098115_-108.169298@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441128,
-    "wof:geomhash":"b5479c48faf938d5e856612f2e04b81f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d4948c57805d65b5bea29f8d7335495",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554617,
+            "venue_id":823567665
+        }
+    ],
     "wof:id":823567665,
-    "wof:lastmodified":1466416210,
+    "wof:lastmodified":1492126509,
     "wof:name":"Tangle's Design Team",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

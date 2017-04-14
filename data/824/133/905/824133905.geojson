@@ -2,9 +2,14 @@
   "id": 824133905,
   "type": "Feature",
   "properties": {
+    "addr:full":"5197 Gallatin Pl Boulder CO 80303",
+    "addr:housenumber":"5197",
+    "addr:postcode":"80303",
+    "addr:street":"Gallatin Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.232045,40.009378,-105.232045,40.009378",
     "geom:latitude":40.009378,
     "geom:longitude":-105.232045,
@@ -28,19 +33,36 @@
         "estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2oTACDPT0acT61lpUNiSb9_40.009378_-105.232045@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455284,
-    "wof:geomhash":"ee42b090e4381b54d959e159e5ca5264",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fd113a425e90b40f117561b0a714052c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":824133905
+        }
+    ],
     "wof:id":824133905,
-    "wof:lastmodified":1466416149,
+    "wof:lastmodified":1492129287,
     "wof:name":"Flora L Miller Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823671447,
   "type": "Feature",
   "properties": {
+    "addr:full":"7326 Washington St Denver CO 80229",
+    "addr:housenumber":"7326",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977834,39.830399,-104.977834,39.830399",
     "geom:latitude":39.830399,
     "geom:longitude":-104.977834,
@@ -27,19 +32,36 @@
         "sausage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1PFBFOAoXyozW4PECMUVUL_39.830399_-104.977834@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443607,
-    "wof:geomhash":"73702a270bd464c4f02afcec15e700af",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3631959a46d125cca0d9575b9d183c39",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823671447
+        }
+    ],
     "wof:id":823671447,
-    "wof:lastmodified":1466418376,
+    "wof:lastmodified":1492116083,
     "wof:name":"Paisano Sausage Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

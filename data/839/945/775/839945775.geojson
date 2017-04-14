@@ -2,9 +2,14 @@
   "id": 839945775,
   "type": "Feature",
   "properties": {
+    "addr:full":"4966 Dakota Blvd Boulder CO 80304",
+    "addr:housenumber":"4966",
+    "addr:postcode":"80304",
+    "addr:street":"Dakota Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.285567,40.063039,-105.285567,40.063039",
     "geom:latitude":40.063039,
     "geom:longitude":-105.285567,
@@ -24,19 +29,34 @@
     "sg:postcode":"80304",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Ppc1Jpy0jG3zQEUfkLlg1_40.063039_-105.285567@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458906,
-    "wof:geomhash":"11c5502e53076259c82b902cce1eec84",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aceb382158312344107121d425f30c3b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":839945775
+        }
+    ],
     "wof:id":839945775,
-    "wof:lastmodified":1466415248,
+    "wof:lastmodified":1492114020,
     "wof:name":"Brant Seibert",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

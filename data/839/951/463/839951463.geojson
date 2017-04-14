@@ -2,9 +2,14 @@
   "id": 839951463,
   "type": "Feature",
   "properties": {
+    "addr:full":"6540 Washington St Denver CO 80229",
+    "addr:housenumber":"6540",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977975,39.81382,-104.977975,39.81382",
     "geom:latitude":39.81382,
     "geom:longitude":-104.977975,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_53Y1Rs3UgDaWwOHwt0yhpe_39.813820_-104.977975@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459173,
-    "wof:geomhash":"5827e9e27c0505ea48b6ecc4239e15d7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c2cad6d2df945ff23de3d31e5eefd0dd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":839951463
+        }
+    ],
     "wof:id":839951463,
-    "wof:lastmodified":1466415200,
+    "wof:lastmodified":1492113073,
     "wof:name":"Brown Transfer Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

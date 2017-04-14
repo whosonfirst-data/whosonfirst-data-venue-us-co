@@ -2,9 +2,14 @@
   "id": 823741265,
   "type": "Feature",
   "properties": {
+    "addr:full":"412 Flicker Dr Fort Collins CO 80526",
+    "addr:housenumber":"412",
+    "addr:postcode":"80526",
+    "addr:street":"Flicker Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.08309,40.550229,-105.08309,40.550229",
     "geom:latitude":40.550229,
     "geom:longitude":-105.08309,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5NrsLJrtmXusTtqqHL3Hry_40.550229_-105.083090@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445180,
-    "wof:geomhash":"6b63b7db8b1ea671b83b3ab39dc3357b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6ff68fe49946f7b582baa152cf974815",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823741265
+        }
+    ],
     "wof:id":823741265,
-    "wof:lastmodified":1466418934,
+    "wof:lastmodified":1492125826,
     "wof:name":"Bear Paw Pottery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

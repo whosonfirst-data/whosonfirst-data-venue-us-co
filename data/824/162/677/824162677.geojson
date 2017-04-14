@@ -2,9 +2,14 @@
   "id": 824162677,
   "type": "Feature",
   "properties": {
+    "addr:full":"2260 Baseline Rd Boulder CO 80302",
+    "addr:housenumber":"2260",
+    "addr:postcode":"80302",
+    "addr:street":"Baseline Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.263849,40.000009,-105.263849,40.000009",
     "geom:latitude":40.000009,
     "geom:longitude":-105.263849,
@@ -27,7 +32,14 @@
         "county"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2765L1cn1meq27tqGna4gH_40.000009_-105.263849@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463456398,
     "wof:geomhash":"12ade66c7305aae863edfdb5b54b4348",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":824162677
+        }
+    ],
     "wof:id":824162677,
-    "wof:lastmodified":1466417561,
+    "wof:lastmodified":1491890399,
     "wof:name":"Conservation Resource",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

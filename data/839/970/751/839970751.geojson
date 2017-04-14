@@ -2,9 +2,14 @@
   "id": 839970751,
   "type": "Feature",
   "properties": {
+    "addr:full":"249 Co Rd 233 Durango CO 81301",
+    "addr:housenumber":"249;233",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.819089,37.228691,-107.819089,37.228691",
     "geom:latitude":37.228691,
     "geom:longitude":-107.819089,
@@ -28,19 +33,28 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554707
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_55CR6JCX5UJzF5ndqSuQ0E_37.228691_-107.819089@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460041,
-    "wof:geomhash":"8645446619f8a7e2422b50b905134420",
-    "wof:hierarchy":[],
+    "wof:geomhash":"35dc8ccca1995e25ab01d8b2f1d535a4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554707,
+            "venue_id":839970751
+        }
+    ],
     "wof:id":839970751,
-    "wof:lastmodified":1466416198,
+    "wof:lastmodified":1492110673,
     "wof:name":"LA Plata Boat & Rv Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554707,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

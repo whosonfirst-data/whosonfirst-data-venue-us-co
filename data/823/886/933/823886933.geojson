@@ -2,9 +2,14 @@
   "id": 823886933,
   "type": "Feature",
   "properties": {
+    "addr:full":"12011 Tejon St Denver CO 80234",
+    "addr:housenumber":"12011",
+    "addr:postcode":"80234",
+    "addr:street":"Tejon St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.010714,39.915258,-105.010714,39.915258",
     "geom:latitude":39.915258,
     "geom:longitude":-105.010714,
@@ -28,19 +33,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Xc4zrmY14I10xFV8eju7f_39.915258_-105.010714@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449124,
-    "wof:geomhash":"6e123d53f6a0752a9b30f16165d4c7c1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3594c4eb5e98242dbd54bf7fd0efcdae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823886933
+        }
+    ],
     "wof:id":823886933,
-    "wof:lastmodified":1466420098,
+    "wof:lastmodified":1492125662,
     "wof:name":"Transmagic Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

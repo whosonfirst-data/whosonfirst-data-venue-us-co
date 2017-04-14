@@ -2,9 +2,14 @@
   "id": 824092327,
   "type": "Feature",
   "properties": {
+    "addr:full":"4017 W Colfax Ave Denver CO 80204",
+    "addr:housenumber":"4017",
+    "addr:postcode":"80204",
+    "addr:street":"W Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040339,39.740417,-105.040339,39.740417",
     "geom:latitude":39.740417,
     "geom:longitude":-105.040339,
@@ -28,19 +33,38 @@
         "filing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871267,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2vPXRibuof4pslTkmoe2CJ_39.740417_-105.040339@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454136,
-    "wof:geomhash":"dfd3200fde06bf61eb3c0bf8ee932052",
-    "wof:hierarchy":[],
+    "wof:geomhash":"421b378e8b7d4f879351691860b09878",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871267,
+            "region_id":85688603,
+            "venue_id":824092327
+        }
+    ],
     "wof:id":824092327,
-    "wof:lastmodified":1466414972,
+    "wof:lastmodified":1492129003,
     "wof:name":"Jackson Hewitt Tax Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871267,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

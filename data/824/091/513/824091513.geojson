@@ -2,9 +2,14 @@
   "id": 824091513,
   "type": "Feature",
   "properties": {
+    "addr:full":"2781 S Hooker St Denver CO 80236",
+    "addr:housenumber":"2781",
+    "addr:postcode":"80236",
+    "addr:street":"S Hooker St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02895,39.667217,-105.02895,39.667217",
     "geom:latitude":39.667217,
     "geom:longitude":-105.02895,
@@ -27,7 +32,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_13FjtpkFhoPPT9QeQ6hZ01_39.667217_-105.028950@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463454119,
     "wof:geomhash":"8e94ce3ccd1653820ba3e310906ffad3",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":824091513
+        }
+    ],
     "wof:id":824091513,
-    "wof:lastmodified":1466414873,
+    "wof:lastmodified":1491876245,
     "wof:name":"Fence Cowboys",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

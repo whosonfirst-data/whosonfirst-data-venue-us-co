@@ -2,9 +2,14 @@
   "id": 320387699,
   "type": "Feature",
   "properties": {
+    "addr:full":"2680 S Platte River Dr Denver CO 80223",
+    "addr:housenumber":"2680",
+    "addr:postcode":"80223",
+    "addr:street":"S Platte River Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.999443,39.669086,-104.999443,39.669086",
     "geom:latitude":39.669086,
     "geom:longitude":-104.999443,
@@ -29,10 +34,16 @@
     "sg:website":"www.theusedcarwarehouse.com",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        85811833,
+        102191575,
+        1108750033,
         85633793,
         85928879,
-        102086135
+        102086135,
+        85688603,
+        85929829,
+        102086877,
+        420553955
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +53,29 @@
     "wof:geomhash":"1f6c6643044ef217aae924f63cee4c1e",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":-1,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":320387699
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
             "region_id":85688603,
             "venue_id":320387699
         }
     ],
     "wof:id":320387699,
-    "wof:lastmodified":1466413223,
+    "wof:lastmodified":1491876181,
     "wof:name":"Used Car Warehouse",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

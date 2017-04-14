@@ -2,9 +2,14 @@
   "id": 823546329,
   "type": "Feature",
   "properties": {
+    "addr:full":"3032 Stanford Rd Fort Collins CO 80525",
+    "addr:housenumber":"3032",
+    "addr:postcode":"80525",
+    "addr:street":"Stanford Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.069935,40.547759,-105.069935,40.547759",
     "geom:latitude":40.547759,
     "geom:longitude":-105.069935,
@@ -27,19 +32,36 @@
         "watch"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NXYILRBWvfKgGlcDKl4e3_40.547759_-105.069935@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440612,
-    "wof:geomhash":"a76b3be3dbbac18332cce49eed2ffd41",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1391f9b3af31cb75adcca49e75b17b7a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":823546329
+        }
+    ],
     "wof:id":823546329,
-    "wof:lastmodified":1466415811,
+    "wof:lastmodified":1492118164,
     "wof:name":"Joe's Time Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554749,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823480427,
   "type": "Feature",
   "properties": {
+    "addr:full":"4413 Pali Way Boulder CO 80301",
+    "addr:housenumber":"4413",
+    "addr:postcode":"80301",
+    "addr:street":"Pali Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.183747,40.055014,-105.183747,40.055014",
     "geom:latitude":40.055014,
     "geom:longitude":-105.183747,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554161
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6sGYLAuvUMc3aTYjGCZhkH_40.055014_-105.183747@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439087,
-    "wof:geomhash":"aac64639c2130ecb80a8cbd1ff754e7d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4ff64614e48599ee815cbf937bd06288",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554161,
+            "region_id":85688603,
+            "venue_id":823480427
+        }
+    ],
     "wof:id":823480427,
-    "wof:lastmodified":1466413397,
+    "wof:lastmodified":1492127193,
     "wof:name":"Mythic Properties LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554161,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

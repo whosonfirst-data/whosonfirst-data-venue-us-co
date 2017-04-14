@@ -2,9 +2,14 @@
   "id": 824134145,
   "type": "Feature",
   "properties": {
+    "addr:full":"1505 University Ave Boulder CO 80302",
+    "addr:housenumber":"1505",
+    "addr:postcode":"80302",
+    "addr:street":"University Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.273671,40.010592,-105.273671,40.010592",
     "geom:latitude":40.010592,
     "geom:longitude":-105.273671,
@@ -29,19 +34,36 @@
     ],
     "sg:website":"www.buffacademics.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6I5hF7s4FxJJ4pnptUjJmT_40.010592_-105.273671@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455292,
-    "wof:geomhash":"dfaeb81960807372be43ece7ea10bfa6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bb52e3dfb131fa17af54b4a54a0842d5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":824134145
+        }
+    ],
     "wof:id":824134145,
-    "wof:lastmodified":1466416259,
+    "wof:lastmodified":1492129051,
     "wof:name":"University Of Colorado",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

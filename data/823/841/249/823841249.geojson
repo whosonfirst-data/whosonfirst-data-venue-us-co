@@ -2,9 +2,14 @@
   "id": 823841249,
   "type": "Feature",
   "properties": {
+    "addr:full":"4780 Pearl East Cir Boulder CO 80301",
+    "addr:housenumber":"4780",
+    "addr:postcode":"80301",
+    "addr:street":"Pearl East Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.238883,40.02108,-105.238883,40.02108",
     "geom:latitude":40.02108,
     "geom:longitude":-105.238883,
@@ -27,19 +32,36 @@
         "datum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2GZN3k793xoACO8CCMpW8t_40.021080_-105.238883@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447971,
-    "wof:geomhash":"6999760ef04e18b009abd23ad72477e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae39aa33cd70eb0d8a8c34737207977c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823841249
+        }
+    ],
     "wof:id":823841249,
-    "wof:lastmodified":1466419676,
+    "wof:lastmodified":1492121723,
     "wof:name":"Univ Co/Univ MGT Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823826777,
   "type": "Feature",
   "properties": {
+    "addr:full":"11236 Co Rd 213 Durango CO 81303",
+    "addr:housenumber":"11236;213",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.858236,37.212906,-107.858236,37.212906",
     "geom:latitude":37.212906,
     "geom:longitude":-107.858236,
@@ -27,19 +32,28 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7VbXzYMTBt0DhY8ngYKYGv_37.212906_-107.858236@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447509,
-    "wof:geomhash":"33a0ec2dcec494cde1e49e3eac9e7b75",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d43ae3d9b5833daf69500bd8511ccfe",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823826777
+        }
+    ],
     "wof:id":823826777,
-    "wof:lastmodified":1466419620,
+    "wof:lastmodified":1492124409,
     "wof:name":"Tri-State Generation & Trans",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

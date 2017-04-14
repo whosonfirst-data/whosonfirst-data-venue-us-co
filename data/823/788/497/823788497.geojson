@@ -2,9 +2,14 @@
   "id": 823788497,
   "type": "Feature",
   "properties": {
+    "addr:full":"5700 Valmont Rd Boulder CO 80301",
+    "addr:housenumber":"5700",
+    "addr:postcode":"80301",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.218466,40.029256,-105.218466,40.029256",
     "geom:latitude":40.029256,
     "geom:longitude":-105.218466,
@@ -27,7 +32,14 @@
         "sprinkler"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1aTcp4dP7UetIL11aPy3yW_40.029256_-105.218466@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463446378,
     "wof:geomhash":"a884dcd9f8920837954efbc1f6182f8c",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823788497
+        }
+    ],
     "wof:id":823788497,
-    "wof:lastmodified":1466419272,
+    "wof:lastmodified":1491620030,
     "wof:name":"CPS Distributors Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

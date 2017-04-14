@@ -2,9 +2,14 @@
   "id": 823479703,
   "type": "Feature",
   "properties": {
+    "addr:full":"1096 Toedtli Dr Boulder CO 80305",
+    "addr:housenumber":"1096",
+    "addr:postcode":"80305",
+    "addr:street":"Toedtli Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.246248,39.979846,-105.246248,39.979846",
     "geom:latitude":39.979846,
     "geom:longitude":-105.246248,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7LzbknXG1ztgCIsGch8M1M_39.979846_-105.246248@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439074,
-    "wof:geomhash":"4256b9638038363dced26f677e2e5d88",
-    "wof:hierarchy":[],
+    "wof:geomhash":"06fd87ed064fcb2f30e2616b1d02ead0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":823479703
+        }
+    ],
     "wof:id":823479703,
-    "wof:lastmodified":1466413324,
+    "wof:lastmodified":1492117147,
     "wof:name":"Liscom Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

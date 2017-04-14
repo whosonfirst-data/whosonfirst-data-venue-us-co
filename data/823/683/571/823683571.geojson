@@ -2,9 +2,14 @@
   "id": 823683571,
   "type": "Feature",
   "properties": {
+    "addr:full":"3351 W 95th Ave Westminster CO 80031",
+    "addr:housenumber":"3351",
+    "addr:postcode":"80031",
+    "addr:street":"W 95Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.031299,39.87011,-105.031299,39.87011",
     "geom:latitude":39.87011,
     "geom:longitude":-105.031299,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ZI9hH7gVCuhmpv7vMp3i5_39.870110_-105.031299@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443864,
-    "wof:geomhash":"f79cc89df63c550566d02bc27ac602e7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e5c1f8af4a7986b7e8f91044c08e6ce8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823683571
+        }
+    ],
     "wof:id":823683571,
-    "wof:lastmodified":1466418361,
+    "wof:lastmodified":1492117428,
     "wof:name":"Norton Mark Trucking & Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

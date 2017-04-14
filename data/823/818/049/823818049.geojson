@@ -2,9 +2,14 @@
   "id": 823818049,
   "type": "Feature",
   "properties": {
+    "addr:full":"200 Vail Rd Vail CO 81657",
+    "addr:housenumber":"200",
+    "addr:postcode":"81657",
+    "addr:street":"Vail Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.37607,39.639739,-106.37607,39.639739",
     "geom:latitude":39.639739,
     "geom:longitude":-106.37607,
@@ -32,8 +37,10 @@
     "wof:belongsto":[
         85688603,
         85633793,
-        85815779,
-        102083397
+        85929223,
+        102083397,
+        85833957,
+        85815779
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,8 +48,16 @@
     },
     "wof:country":"US",
     "wof:created":1463447230,
-    "wof:geomhash":"593661589041361bce922e740f87f7d0",
+    "wof:geomhash":"65f6e74b0d18610f2956e4594c226d7f",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102083397,
+            "locality_id":85929223,
+            "neighbourhood_id":85833957,
+            "region_id":85688603,
+            "venue_id":823818049
+        },
         {
             "country_id":85633793,
             "county_id":102083397,
@@ -52,9 +67,9 @@
         }
     ],
     "wof:id":823818049,
-    "wof:lastmodified":1466419357,
+    "wof:lastmodified":1492127857,
     "wof:name":"Lodge Tower Association Ltd",
-    "wof:parent_id":85815779,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

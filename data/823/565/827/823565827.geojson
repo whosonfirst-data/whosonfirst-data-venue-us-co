@@ -2,9 +2,14 @@
   "id": 823565827,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 Miller Ave Brighton CO 80601",
+    "addr:housenumber":"100",
+    "addr:postcode":"80601",
+    "addr:street":"Miller Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.827799,39.984798,-104.827799,39.984798",
     "geom:latitude":39.984798,
     "geom:longitude":-104.827799,
@@ -24,19 +29,36 @@
     "sg:postcode":"80601",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3s95W16v3ZLB0DD68I7GzC_39.984798_-104.827799@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441077,
-    "wof:geomhash":"93391a6616890ee0de2e52a9bcd8e155",
-    "wof:hierarchy":[],
+    "wof:geomhash":"acf83a270d38577a3949b762339be83c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823565827
+        }
+    ],
     "wof:id":823565827,
-    "wof:lastmodified":1466416172,
+    "wof:lastmodified":1492119236,
     "wof:name":"Cornerstone Mngt System",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

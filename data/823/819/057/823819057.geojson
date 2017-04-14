@@ -2,9 +2,14 @@
   "id": 823819057,
   "type": "Feature",
   "properties": {
+    "addr:full":"10401 E Idaho Pl Denver CO 80247",
+    "addr:housenumber":"10401",
+    "addr:postcode":"80247",
+    "addr:street":"E Idaho Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.86904,39.69171,-104.86904,39.69171",
     "geom:latitude":39.69171,
     "geom:longitude":-104.86904,
@@ -28,17 +33,32 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6w1wuvFgyCITr0oOP1DAXf_39.691710_-104.869040@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447260,
-    "wof:geomhash":"421bdc426b0549657d35b595a1b88adb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"90798eb31c21c158d880aee2275f7040",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823819057
+        }
+    ],
     "wof:id":823819057,
-    "wof:lastmodified":1466419508,
+    "wof:lastmodified":1492116326,
     "wof:name":"Car Shop",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

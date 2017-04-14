@@ -2,9 +2,14 @@
   "id": 823917173,
   "type": "Feature",
   "properties": {
+    "addr:full":"5827 W 116th Pl Broomfield CO 80020",
+    "addr:housenumber":"5827",
+    "addr:postcode":"80020",
+    "addr:street":"W 116Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.057733,39.908472,-105.057733,39.908472",
     "geom:latitude":39.908472,
     "geom:longitude":-105.057733,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3q2WeT68NKnGrK2mkdqsct_39.908472_-105.057733@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449932,
-    "wof:geomhash":"ddef4a66bb1fdc9561a036ce95066605",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f397b1c4b8cb145ba6f1ddc0f7f36666",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":823917173
+        }
+    ],
     "wof:id":823917173,
-    "wof:lastmodified":1466420315,
+    "wof:lastmodified":1492117785,
     "wof:name":"R J Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823866045,
   "type": "Feature",
   "properties": {
+    "addr:full":"7164 Washington St Denver CO 80229",
+    "addr:housenumber":"7164",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977879,39.826247,-104.977879,39.826247",
     "geom:latitude":39.826247,
     "geom:longitude":-104.977879,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6g445mpzdd50qeDHX0PQk1_39.826247_-104.977879@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448646,
-    "wof:geomhash":"b6987f5a768faef27e2e3617d5752716",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c650767fe7905faa54cba483e1d1861c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823866045
+        }
+    ],
     "wof:id":823866045,
-    "wof:lastmodified":1466420023,
+    "wof:lastmodified":1492118521,
     "wof:name":"M D Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

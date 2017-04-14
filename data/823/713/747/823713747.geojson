@@ -2,9 +2,14 @@
   "id": 823713747,
   "type": "Feature",
   "properties": {
+    "addr:full":"160 1st St Yampa CO 80483",
+    "addr:housenumber":"160",
+    "addr:postcode":"80483",
+    "addr:street":"1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.906644,40.151354,-106.906644,40.151354",
     "geom:latitude":40.151354,
     "geom:longitude":-106.906644,
@@ -29,19 +34,28 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555323
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2GdeYtgi4WL9r953LsTuby_40.151354_-106.906644@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444525,
-    "wof:geomhash":"76a461f9599cce9c549a7ec06aa7db02",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f75671113c62ac28e8492ce0eb683269",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555323,
+            "venue_id":823713747
+        }
+    ],
     "wof:id":823713747,
-    "wof:lastmodified":1466418674,
+    "wof:lastmodified":1492116818,
     "wof:name":"Tomcat Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555323,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

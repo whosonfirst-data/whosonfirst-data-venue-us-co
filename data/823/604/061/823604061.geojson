@@ -2,9 +2,14 @@
   "id": 823604061,
   "type": "Feature",
   "properties": {
+    "addr:full":"7911 York St Denver CO 80229",
+    "addr:housenumber":"7911",
+    "addr:postcode":"80229",
+    "addr:street":"York St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959128,39.84117,-104.959128,39.84117",
     "geom:latitude":39.84117,
     "geom:longitude":-104.959128,
@@ -27,19 +32,36 @@
         "crop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1hx8DQopnw6A10TwjQypmj_39.841170_-104.959128@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442000,
-    "wof:geomhash":"ac65517637148414961b6847b948a4d1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a71c8e58e45980eab79c6a040bb211bd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553893,
+            "region_id":85688603,
+            "venue_id":823604061
+        }
+    ],
     "wof:id":823604061,
-    "wof:lastmodified":1466417177,
+    "wof:lastmodified":1492118983,
     "wof:name":"Galaica Farms",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

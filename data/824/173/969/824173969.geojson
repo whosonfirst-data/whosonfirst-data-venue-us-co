@@ -2,9 +2,14 @@
   "id": 824173969,
   "type": "Feature",
   "properties": {
+    "addr:full":"2323 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"2323;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.855018,37.334554,-107.855018,37.334554",
     "geom:latitude":37.334554,
     "geom:longitude":-107.855018,
@@ -29,19 +34,28 @@
         "treatment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7CEgcpQAaEb8PtkKqWBZ4r_37.334554_-107.855018@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456839,
-    "wof:geomhash":"1a73189d206a79dece4ea845d7498997",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a584e27ace483e81e8d3e5739be2f966",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":824173969
+        }
+    ],
     "wof:id":824173969,
-    "wof:lastmodified":1466418047,
+    "wof:lastmodified":1492131503,
     "wof:name":"T-Aqua Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

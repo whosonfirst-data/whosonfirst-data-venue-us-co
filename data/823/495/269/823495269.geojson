@@ -2,9 +2,14 @@
   "id": 823495269,
   "type": "Feature",
   "properties": {
+    "addr:full":"11680 Paris St Henderson CO 80640",
+    "addr:housenumber":"",
+    "addr:postcode":"11680;80640",
+    "addr:street":"St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.847641,39.905993,-104.847641,39.905993",
     "geom:latitude":39.905993,
     "geom:longitude":-104.847641,
@@ -29,19 +34,36 @@
         "install"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2mPfuIAHYtl9sLkQlgCyUB_39.905993_-104.847641@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439439,
-    "wof:geomhash":"60ac0b6817bdd0ab6f2adc1ddd2d4596",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c64dab2911cf6edf3097ef3006e7298",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553367,
+            "region_id":85688603,
+            "venue_id":823495269
+        }
+    ],
     "wof:id":823495269,
-    "wof:lastmodified":1466414062,
+    "wof:lastmodified":1492120568,
     "wof:name":"A Better Garage Door LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

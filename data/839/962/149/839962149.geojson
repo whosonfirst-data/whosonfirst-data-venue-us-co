@@ -2,9 +2,14 @@
   "id": 839962149,
   "type": "Feature",
   "properties": {
+    "addr:full":"5900 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"5900",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025204,39.803832,-105.025204,39.803832",
     "geom:latitude":39.803832,
     "geom:longitude":-105.025204,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4HOYqRjx6FbyYCYjp2sCZM_39.803832_-105.025204@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459689,
-    "wof:geomhash":"81d132a7ea3d19afc80299a956896a71",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d14e7c32086dcdbfa9fde603740564fa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553839,
+            "region_id":85688603,
+            "venue_id":839962149
+        }
+    ],
     "wof:id":839962149,
-    "wof:lastmodified":1466415779,
+    "wof:lastmodified":1492112208,
     "wof:name":"Total Flooring Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

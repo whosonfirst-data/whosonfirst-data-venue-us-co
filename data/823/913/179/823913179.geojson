@@ -2,9 +2,14 @@
   "id": 823913179,
   "type": "Feature",
   "properties": {
+    "addr:full":"5612 Kendall Ct Arvada CO 80002",
+    "addr:housenumber":"5612",
+    "addr:postcode":"80002",
+    "addr:street":"Kendall Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.065914,39.799515,-105.065914,39.799515",
     "geom:latitude":39.799515,
     "geom:longitude":-105.065914,
@@ -37,19 +42,34 @@
         "conductive"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Rp6PvDXS6ILca3liiruaF_39.799515_-105.065914@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449834,
-    "wof:geomhash":"7150580b21fdb7159ebea36963152313",
-    "wof:hierarchy":[],
+    "wof:geomhash":"29923e9c6ce815705ce686a47749ac2d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823913179
+        }
+    ],
     "wof:id":823913179,
-    "wof:lastmodified":1466420316,
+    "wof:lastmodified":1492125066,
     "wof:name":"Optimum Systems International",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

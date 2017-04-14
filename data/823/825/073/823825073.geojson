@@ -2,9 +2,14 @@
   "id": 823825073,
   "type": "Feature",
   "properties": {
+    "addr:full":"2037 Overland Dr Johnstown CO 80534",
+    "addr:housenumber":"2037",
+    "addr:postcode":"80534",
+    "addr:street":"Overland Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931437,40.338048,-104.931437,40.338048",
     "geom:latitude":40.338048,
     "geom:longitude":-104.931437,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Bq94rI0xZ7VNz64vdyvAg_40.338048_-104.931437@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447447,
-    "wof:geomhash":"8f4cde0ee373aefdd39f1407f8dbaba7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ec905d1ee1a52f3ac707b6b8078b4ff2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823825073
+        }
+    ],
     "wof:id":823825073,
-    "wof:lastmodified":1466419560,
+    "wof:lastmodified":1492123476,
     "wof:name":"Sunwest Developers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

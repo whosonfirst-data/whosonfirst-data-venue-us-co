@@ -2,9 +2,14 @@
   "id": 823515839,
   "type": "Feature",
   "properties": {
+    "addr:full":"1505 Chipeta Ave Grand Junction CO 81501",
+    "addr:housenumber":"1505",
+    "addr:postcode":"81501",
+    "addr:street":"Chipeta Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.546614,39.072263,-108.546614,39.072263",
     "geom:latitude":39.072263,
     "geom:longitude":-108.546614,
@@ -27,19 +32,36 @@
         "club"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1yY4toUfNp337Fg2w0O6rn_39.072263_-108.546614@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439923,
-    "wof:geomhash":"ce939a36e826fe13c740387ea0ea0a60",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4552a78e323d3a5c658ce34597938050",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":823515839
+        }
+    ],
     "wof:id":823515839,
-    "wof:lastmodified":1466414823,
+    "wof:lastmodified":1492122667,
     "wof:name":"Grand Junction Jaycees",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

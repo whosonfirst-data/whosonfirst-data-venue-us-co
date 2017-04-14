@@ -2,9 +2,14 @@
   "id": 823791037,
   "type": "Feature",
   "properties": {
+    "addr:full":"5005 W 80th Ave Westminster CO 80030",
+    "addr:housenumber":"5005",
+    "addr:postcode":"80030",
+    "addr:street":"W 80Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.051878,39.841861,-105.051878,39.841861",
     "geom:latitude":39.841861,
     "geom:longitude":-105.051878,
@@ -29,19 +34,36 @@
         "public"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6mEdQS8d0p61wG22v1r9EG_39.841861_-105.051878@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446453,
-    "wof:geomhash":"e4493ae918c5e412030a3d46ebccbe31",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a88e8e9202c3be97eb34f52092832d5d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":823791037
+        }
+    ],
     "wof:id":823791037,
-    "wof:lastmodified":1466419249,
+    "wof:lastmodified":1492122571,
     "wof:name":"Public Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

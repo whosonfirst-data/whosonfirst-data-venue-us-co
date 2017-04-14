@@ -2,9 +2,14 @@
   "id": 823853263,
   "type": "Feature",
   "properties": {
+    "addr:full":"10522 Sperry St Denver CO 80234",
+    "addr:housenumber":"10522",
+    "addr:postcode":"80234",
+    "addr:street":"Sperry St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.010171,39.887073,-105.010171,39.887073",
     "geom:latitude":39.887073,
     "geom:longitude":-105.010171,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2kASM60yy15NqItfQPt80x_39.887073_-105.010171@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448309,
-    "wof:geomhash":"32b57f92219fdabda6dced70d2a99208",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cb2bfc3dc31e6b04d1c16aaed555f81a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":823853263
+        }
+    ],
     "wof:id":823853263,
-    "wof:lastmodified":1466419877,
+    "wof:lastmodified":1492123445,
     "wof:name":"D & H Exterior Contractors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

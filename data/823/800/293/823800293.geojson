@@ -2,9 +2,14 @@
   "id": 823800293,
   "type": "Feature",
   "properties": {
+    "addr:full":"2131 Arapahoe Ave Boulder CO 80302",
+    "addr:housenumber":"2131",
+    "addr:postcode":"80302",
+    "addr:street":"Arapahoe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.266605,40.014561,-105.266605,40.014561",
     "geom:latitude":40.014561,
     "geom:longitude":-105.266605,
@@ -27,19 +32,36 @@
         "theatrical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876399
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2uutxnwr30jg8glBmFyTFX_40.014561_-105.266605@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446718,
-    "wof:geomhash":"4d5880c6394b5822b462499b68a81c9b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c79964696ff05ce539004d0aa20c3c10",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876399,
+            "region_id":85688603,
+            "venue_id":823800293
+        }
+    ],
     "wof:id":823800293,
-    "wof:lastmodified":1466419716,
+    "wof:lastmodified":1492119314,
     "wof:name":"Upstart Crow Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876399,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

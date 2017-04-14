@@ -2,9 +2,14 @@
   "id": 824140649,
   "type": "Feature",
   "properties": {
+    "addr:full":"11205 Quivas Loop Denver CO 80234",
+    "addr:housenumber":"11205",
+    "addr:postcode":"80234",
+    "addr:street":"Quivas Loop",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.007138,39.901845,-105.007138,39.901845",
     "geom:latitude":39.901845,
     "geom:longitude":-105.007138,
@@ -28,19 +33,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553705
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_09lSFQuaVtZzHf4EOQu2ct_39.901845_-105.007138@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455534,
-    "wof:geomhash":"6ef4c23c920223d72bbe684a27fd05e2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a57881dd09b39b1fea42a998c8606ef7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553705,
+            "region_id":85688603,
+            "venue_id":824140649
+        }
+    ],
     "wof:id":824140649,
-    "wof:lastmodified":1466416590,
+    "wof:lastmodified":1492131783,
     "wof:name":"G & P Trading Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553705,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

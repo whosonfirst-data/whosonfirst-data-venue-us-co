@@ -2,9 +2,14 @@
   "id": 823706589,
   "type": "Feature",
   "properties": {
+    "addr:full":"903 E 130th Dr Denver CO 80241",
+    "addr:housenumber":"903",
+    "addr:postcode":"80241",
+    "addr:street":"E 130Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.973662,39.933954,-104.973662,39.933954",
     "geom:latitude":39.933954,
     "geom:longitude":-104.973662,
@@ -34,19 +39,36 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2QfItU03Nm0g3zZueSdyEj_39.933954_-104.973662@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444370,
-    "wof:geomhash":"5263345370a8f97006629be5fc4b52b8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"015a8609763a8ee111e4c6ececa775e4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":823706589
+        }
+    ],
     "wof:id":823706589,
-    "wof:lastmodified":1466418631,
+    "wof:lastmodified":1492126765,
     "wof:name":"Big Kahuna Enterprises LL",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

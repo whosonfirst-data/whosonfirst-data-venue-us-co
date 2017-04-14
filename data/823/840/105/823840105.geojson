@@ -2,9 +2,14 @@
   "id": 823840105,
   "type": "Feature",
   "properties": {
+    "addr:full":"2661 G Rd Grand Junction CO 81506",
+    "addr:housenumber":"2661",
+    "addr:postcode":"81506",
+    "addr:street":"G Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.560292,39.106247,-108.560292,39.106247",
     "geom:latitude":39.106247,
     "geom:longitude":-108.560292,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554857
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0wz4xda5Dkl28TuYSfxdZG_39.106247_-108.560292@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447938,
-    "wof:geomhash":"3cb6b0724225afd51338e4ed32f3a4d6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e27f96dd02f92ce19df208f090db1643",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554857,
+            "region_id":85688603,
+            "venue_id":823840105
+        }
+    ],
     "wof:id":823840105,
-    "wof:lastmodified":1466419655,
+    "wof:lastmodified":1492123839,
     "wof:name":"Stamour Plumbing & Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554857,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824133945,
   "type": "Feature",
   "properties": {
+    "addr:full":"202 S 12th Ave Brighton CO 80601",
+    "addr:housenumber":"202",
+    "addr:postcode":"80601",
+    "addr:street":"S 12Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.806843,39.982098,-104.806843,39.982098",
     "geom:latitude":39.982098,
     "geom:longitude":-104.806843,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6rU0DBzV5Zu2nhceseKuXE_39.982098_-104.806843@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455285,
-    "wof:geomhash":"6526a5cd69aaebede5be8e423969d086",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4addeef5ea4532d1cabd536fa6f17cd7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553423,
+            "venue_id":824133945
+        }
+    ],
     "wof:id":824133945,
-    "wof:lastmodified":1466416232,
+    "wof:lastmodified":1492129302,
     "wof:name":"Kilgore Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

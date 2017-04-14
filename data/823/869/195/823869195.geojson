@@ -2,9 +2,14 @@
   "id": 823869195,
   "type": "Feature",
   "properties": {
+    "addr:full":"4941 W 81st Pl Westminster CO 80031",
+    "addr:housenumber":"4941",
+    "addr:postcode":"80031",
+    "addr:street":"W 81St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.049804,39.844045,-105.049804,39.844045",
     "geom:latitude":39.844045,
     "geom:longitude":-105.049804,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ZXxQtiV9hDYUEmHhu8XNE_39.844045_-105.049804@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448723,
-    "wof:geomhash":"4c413c68d997a23943dc6b84bdefc1eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6e0a4c9f0a5d4a890201ce4ec6d4a9c5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":823869195
+        }
+    ],
     "wof:id":823869195,
-    "wof:lastmodified":1466419941,
+    "wof:lastmodified":1492116898,
     "wof:name":"Woodstone Village Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

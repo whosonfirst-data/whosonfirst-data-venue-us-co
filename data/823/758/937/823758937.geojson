@@ -2,9 +2,14 @@
   "id": 823758937,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 E Main St Naturita CO 81422",
+    "addr:housenumber":"123",
+    "addr:postcode":"81422",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.567854,38.216944,-108.567854,38.216944",
     "geom:latitude":38.216944,
     "geom:longitude":-108.567854,
@@ -28,17 +33,32 @@
         "tourist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929405,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3YAIz7nOOwxQlIemu8JrdU_38.216944_-108.567854@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445594,
-    "wof:geomhash":"ab68e943c54be3944176fa913c024fdb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ec407b8df7c5b4927ecf4ac11bf57b6f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929405,
+            "region_id":85688603,
+            "venue_id":823758937
+        }
+    ],
     "wof:id":823758937,
-    "wof:lastmodified":1466419052,
+    "wof:lastmodified":1492125843,
     "wof:name":"Chamber Visitor Ctr",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

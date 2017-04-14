@@ -2,9 +2,14 @@
   "id": 823771147,
   "type": "Feature",
   "properties": {
+    "addr:full":"964 Main St Springfield CO 81073",
+    "addr:housenumber":"964",
+    "addr:postcode":"81073",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.616447,37.404436,-102.616447,37.404436",
     "geom:latitude":37.404436,
     "geom:longitude":-102.616447,
@@ -27,17 +32,32 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929173,
+        102085237
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5G1IUkBDZUwjNQy7Mq1w68_37.404436_-102.616447@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445848,
-    "wof:geomhash":"30afc79ab1a7761ff8983ac3e3167150",
-    "wof:hierarchy":[],
+    "wof:geomhash":"90b947b86de4460595457c96114c5a8c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085237,
+            "locality_id":85929173,
+            "region_id":85688603,
+            "venue_id":823771147
+        }
+    ],
     "wof:id":823771147,
-    "wof:lastmodified":1466419076,
+    "wof:lastmodified":1492119045,
     "wof:name":"Trails End",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

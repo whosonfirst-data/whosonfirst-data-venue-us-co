@@ -2,9 +2,14 @@
   "id": 823817769,
   "type": "Feature",
   "properties": {
+    "addr:full":"4724 E 127th Dr Denver CO 80241",
+    "addr:housenumber":"4724",
+    "addr:postcode":"80241",
+    "addr:street":"E 127Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931741,39.926411,-104.931741,39.926411",
     "geom:latitude":39.926411,
     "geom:longitude":-104.931741,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553661
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1QFK4loqKYYDlX6S5fcUM6_39.926411_-104.931741@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447224,
-    "wof:geomhash":"3f6d102efe020375276947868f2f6a77",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6b7be2fd5593cd2e4dc4144c50362c01",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553661,
+            "region_id":85688603,
+            "venue_id":823817769
+        }
+    ],
     "wof:id":823817769,
-    "wof:lastmodified":1466419538,
+    "wof:lastmodified":1492126003,
     "wof:name":"CBT Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553661,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

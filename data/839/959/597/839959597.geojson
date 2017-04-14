@@ -2,9 +2,14 @@
   "id": 839959597,
   "type": "Feature",
   "properties": {
+    "addr:full":"8813 N 119th St Longmont CO 80504",
+    "addr:housenumber":"8813",
+    "addr:postcode":"80504",
+    "addr:street":"N 119Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.074244,40.139845,-105.074244,40.139845",
     "geom:latitude":40.139845,
     "geom:longitude":-105.074244,
@@ -31,8 +36,9 @@
     "wof:belongsto":[
         85688603,
         85633793,
-        85896039,
-        102085251
+        85896041,
+        102085251,
+        85896039
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -40,8 +46,15 @@
     },
     "wof:country":"US",
     "wof:created":1463459599,
-    "wof:geomhash":"d8839a8c331a5f24014625851b3c1e09",
+    "wof:geomhash":"6b92ec11195d8dc3104a27ce92a407bf",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85896041,
+            "region_id":85688603,
+            "venue_id":839959597
+        },
         {
             "country_id":85633793,
             "county_id":102085251,
@@ -51,9 +64,9 @@
         }
     ],
     "wof:id":839959597,
-    "wof:lastmodified":1466415695,
+    "wof:lastmodified":1492113137,
     "wof:name":"S C Holley Construction Inc",
-    "wof:parent_id":85896039,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

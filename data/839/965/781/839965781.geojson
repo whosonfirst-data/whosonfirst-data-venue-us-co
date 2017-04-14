@@ -2,9 +2,14 @@
   "id": 839965781,
   "type": "Feature",
   "properties": {
+    "addr:full":"364 Ridges Blvd Grand Junction CO 81503",
+    "addr:housenumber":"364",
+    "addr:postcode":"81503",
+    "addr:street":"Ridges Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.605909,39.065854,-108.605909,39.065854",
     "geom:latitude":39.065854,
     "geom:longitude":-108.605909,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554807
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6sLyucAKS0tRmAZUMe9mSV_39.065854_-108.605909@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459841,
-    "wof:geomhash":"bdedba65f76f26f8fa285f382d45132d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ce27a5add54b96d34c272c6ac74f3feb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554807,
+            "region_id":85688603,
+            "venue_id":839965781
+        }
+    ],
     "wof:id":839965781,
-    "wof:lastmodified":1466416000,
+    "wof:lastmodified":1492114189,
     "wof:name":"Norris Homes LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554807,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

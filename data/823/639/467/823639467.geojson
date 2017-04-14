@@ -2,9 +2,14 @@
   "id": 823639467,
   "type": "Feature",
   "properties": {
+    "addr:full":"15 3rd Ave Longmont CO 80501",
+    "addr:housenumber":"15",
+    "addr:postcode":"80501",
+    "addr:street":"3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.094627,40.163852,-105.094627,40.163852",
     "geom:latitude":40.163852,
     "geom:longitude":-105.094627,
@@ -28,17 +33,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1dTMNdaj5IfgBbGE4SbPfA_40.163852_-105.094627@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442842,
-    "wof:geomhash":"c05f4c956b6b101f044fc5a3044bd0b4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ca0cc1ae9974a95889270c2971467f67",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823639467
+        }
+    ],
     "wof:id":823639467,
-    "wof:lastmodified":1466417867,
+    "wof:lastmodified":1492125465,
     "wof:name":"Cannery",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

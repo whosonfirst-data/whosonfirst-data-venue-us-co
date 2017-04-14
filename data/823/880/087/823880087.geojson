@@ -2,9 +2,14 @@
   "id": 823880087,
   "type": "Feature",
   "properties": {
+    "addr:full":"24 Co Rd 218 Durango CO 81303",
+    "addr:housenumber":"24;218",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.864321,37.121905,-107.864321,37.121905",
     "geom:latitude":37.121905,
     "geom:longitude":-107.864321,
@@ -27,19 +32,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1na7M3gDsqRMs6xZT2HADM_37.121905_-107.864321@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448972,
-    "wof:geomhash":"57f26d831f41f23c71edf5eece69386e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"adcc4bcc8245b81042ab347d10100703",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823880087
+        }
+    ],
     "wof:id":823880087,
-    "wof:lastmodified":1466419998,
+    "wof:lastmodified":1492116328,
     "wof:name":"Priority Plumbing & Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

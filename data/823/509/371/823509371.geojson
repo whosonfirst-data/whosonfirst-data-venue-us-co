@@ -2,9 +2,14 @@
   "id": 823509371,
   "type": "Feature",
   "properties": {
+    "addr:full":"2541 Mesa Ave Grand Junction CO 81501",
+    "addr:housenumber":"2541",
+    "addr:postcode":"81501",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.535452,39.082729,-108.535452,39.082729",
     "geom:latitude":39.082729,
     "geom:longitude":-108.535452,
@@ -24,19 +29,36 @@
     "sg:postcode":"81501",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5MSMyj8RJLR4ks777pGJzm_39.082729_-108.535452@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439783,
-    "wof:geomhash":"5c1d10431289b1c39aab0d2a771d2445",
-    "wof:hierarchy":[],
+    "wof:geomhash":"111afa99ef5db23acf457afd2b2bab0e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":823509371
+        }
+    ],
     "wof:id":823509371,
-    "wof:lastmodified":1466414484,
+    "wof:lastmodified":1492126942,
     "wof:name":"Panda Stores",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

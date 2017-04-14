@@ -2,9 +2,14 @@
   "id": 823748569,
   "type": "Feature",
   "properties": {
+    "addr:full":"1280 Yellow Pine Ave Boulder CO 80304",
+    "addr:housenumber":"1280",
+    "addr:postcode":"80304",
+    "addr:street":"Yellow Pine Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.284909,40.059935,-105.284909,40.059935",
     "geom:latitude":40.059935,
     "geom:longitude":-105.284909,
@@ -24,19 +29,34 @@
     "sg:postcode":"80304",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0vOBEENTfv3rS4WtqixX5F_40.059935_-105.284909@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445341,
-    "wof:geomhash":"44da769053e77c96776ad60dc8aec457",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b6c78e112dee02364e40321d2bf1af1d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823748569
+        }
+    ],
     "wof:id":823748569,
-    "wof:lastmodified":1466418881,
+    "wof:lastmodified":1492125075,
     "wof:name":"North Boulder Chiropractic",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

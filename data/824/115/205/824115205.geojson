@@ -2,9 +2,14 @@
   "id": 824115205,
   "type": "Feature",
   "properties": {
+    "addr:full":"520 Murray St Niwot CO 80544",
+    "addr:housenumber":"520",
+    "addr:postcode":"80544",
+    "addr:street":"Murray St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.169738,40.106449,-105.169738,40.106449",
     "geom:latitude":40.106449,
     "geom:longitude":-105.169738,
@@ -28,19 +33,36 @@
         "chimney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1NFqdmK9wLSO5npEqr6fc4_40.106449_-105.169738@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454661,
-    "wof:geomhash":"4783722946bbbdb824d63bf92b71c84d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"90fee75ce0557d03301265d99bfb2907",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554063,
+            "region_id":85688603,
+            "venue_id":824115205
+        }
+    ],
     "wof:id":824115205,
-    "wof:lastmodified":1466415536,
+    "wof:lastmodified":1492129110,
     "wof:name":"Niwot Sweeps",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

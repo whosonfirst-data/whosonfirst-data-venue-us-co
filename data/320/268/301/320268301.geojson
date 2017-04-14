@@ -2,9 +2,14 @@
   "id": 320268301,
   "type": "Feature",
   "properties": {
+    "addr:full":"4545 E 51st Avenue Denver CO 80216",
+    "addr:housenumber":"4545",
+    "addr:postcode":"80216",
+    "addr:street":"E 51St Avenue",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.934827,39.789046,-104.934827,39.789046",
     "geom:latitude":39.789046,
     "geom:longitude":-104.934827,
@@ -30,10 +35,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750051,
+        85840547,
+        102191575,
+        1108750055,
         85633793,
         85928879,
-        102086135
+        102086135,
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,19 +52,21 @@
     "wof:geomhash":"eed18a5c78d55bb406c5f7528f7a95cc",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":-1,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750051,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":320268301
         }
     ],
     "wof:id":320268301,
-    "wof:lastmodified":1466412951,
+    "wof:lastmodified":1486604412,
     "wof:name":"Zulanas Distributors Orders",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

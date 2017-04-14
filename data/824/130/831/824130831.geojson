@@ -2,9 +2,14 @@
   "id": 824130831,
   "type": "Feature",
   "properties": {
+    "addr:full":"2552 W 65th Pl Denver CO 80221",
+    "addr:housenumber":"2552",
+    "addr:postcode":"80221",
+    "addr:street":"W 65Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018568,39.81566,-105.018568,39.81566",
     "geom:latitude":39.81566,
     "geom:longitude":-105.018568,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_138dfOcE79MDuJoaWkKoEH_39.815660_-105.018568@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455172,
-    "wof:geomhash":"d4938b193a67308f93ae049217000011",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8def1daf72324d61e4c3af5ecd84a77c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553657,
+            "region_id":85688603,
+            "venue_id":824130831
+        }
+    ],
     "wof:id":824130831,
-    "wof:lastmodified":1466416066,
+    "wof:lastmodified":1492128748,
     "wof:name":"North Denver Apostolic Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553657,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

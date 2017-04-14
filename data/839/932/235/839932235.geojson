@@ -2,9 +2,14 @@
   "id": 839932235,
   "type": "Feature",
   "properties": {
+    "addr:full":"490 E 76th Ave Denver CO 80229",
+    "addr:housenumber":"490",
+    "addr:postcode":"80229",
+    "addr:street":"E 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.980044,39.834217,-104.980044,39.834217",
     "geom:latitude":39.834217,
     "geom:longitude":-104.980044,
@@ -31,19 +36,36 @@
         "air"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553621
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7LiIgDB6DbVJerF15RUNnk_39.834217_-104.980044@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458103,
-    "wof:geomhash":"641b34d72057a8fd60b34bb385dfdf23",
-    "wof:hierarchy":[],
+    "wof:geomhash":"287cd07a77a33d104dbfea687b46e43f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553621,
+            "region_id":85688603,
+            "venue_id":839932235
+        }
+    ],
     "wof:id":839932235,
-    "wof:lastmodified":1466414172,
+    "wof:lastmodified":1492112673,
     "wof:name":"North Denver Winair Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553621,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

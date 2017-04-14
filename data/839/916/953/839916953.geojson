@@ -2,9 +2,14 @@
   "id": 839916953,
   "type": "Feature",
   "properties": {
+    "addr:full":"8720 Santa Fe Dr Denver CO 80260",
+    "addr:housenumber":"8720",
+    "addr:postcode":"80260",
+    "addr:street":"Santa Fe Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.998734,39.853209,-104.998734,39.853209",
     "geom:latitude":39.853209,
     "geom:longitude":-104.998734,
@@ -28,19 +33,36 @@
         "vehicle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553771
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_12ME5cDl0aSxeOOxsYlq7N_39.853209_-104.998734@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457370,
-    "wof:geomhash":"c3a5b0840dd5b848ad4bab55585383c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c7997091b19625e3526268df1c7689a9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553771,
+            "region_id":85688603,
+            "venue_id":839916953
+        }
+    ],
     "wof:id":839916953,
-    "wof:lastmodified":1466413348,
+    "wof:lastmodified":1492112130,
     "wof:name":"Highlands Ranch RV & Boat",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553771,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

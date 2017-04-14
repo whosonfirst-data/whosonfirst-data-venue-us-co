@@ -2,9 +2,14 @@
   "id": 839989231,
   "type": "Feature",
   "properties": {
+    "addr:full":"3267 28th St Boulder CO 80301",
+    "addr:housenumber":"3267",
+    "addr:postcode":"80301",
+    "addr:street":"28Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258436,40.033884,-105.258436,40.033884",
     "geom:latitude":40.033884,
     "geom:longitude":-105.258436,
@@ -29,19 +34,36 @@
         "pastry"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6pGBCR00uO6YQG0u45hDIK_40.033884_-105.258436@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460781,
-    "wof:geomhash":"78dd7c9e4ff318d9bdcb97e09fa8d999",
-    "wof:hierarchy":[],
+    "wof:geomhash":"21f5098c6ca797ff7cac5f5c492a4e42",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":839989231
+        }
+    ],
     "wof:id":839989231,
-    "wof:lastmodified":1466417364,
+    "wof:lastmodified":1492111085,
     "wof:name":"Belgian Bakery",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

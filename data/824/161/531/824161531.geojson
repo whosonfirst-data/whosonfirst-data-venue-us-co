@@ -2,9 +2,14 @@
   "id": 824161531,
   "type": "Feature",
   "properties": {
+    "addr:full":"5010 Cook St Denver CO 80216",
+    "addr:housenumber":"5010",
+    "addr:postcode":"80216",
+    "addr:street":"Cook St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.947484,39.788994,-104.947484,39.788994",
     "geom:latitude":39.788994,
     "geom:longitude":-104.947484,
@@ -30,19 +35,38 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4mQVdlY1ZJFPvPDmuJQrGF_39.788994_-104.947484@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456354,
-    "wof:geomhash":"e17dfc0fffbd2a47d09ea047c2bda75f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"377a29642abf09185c2e0cbc865652f0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":824161531
+        }
+    ],
     "wof:id":824161531,
-    "wof:lastmodified":1466417397,
+    "wof:lastmodified":1492130470,
     "wof:name":"Custom Metal Manufacturing",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823847081,
   "type": "Feature",
   "properties": {
+    "addr:full":"5900 Greenridge Cir Fort Collins CO 80525",
+    "addr:housenumber":"5900",
+    "addr:postcode":"80525",
+    "addr:street":"Greenridge Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.051004,40.503065,-105.051004,40.503065",
     "geom:latitude":40.503065,
     "geom:longitude":-105.051004,
@@ -30,10 +35,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929679,
         102083353,
-        85877441
+        85877441,
+        85877481
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,21 +48,31 @@
     },
     "wof:country":"US",
     "wof:created":1463448137,
-    "wof:geomhash":"56b7bd5c99f69ee24539de8149bbc0f4",
+    "wof:geomhash":"81b2838ba2a56dc3bd50e396bed382bf",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102083353,
             "locality_id":85929679,
             "neighbourhood_id":85877441,
             "region_id":85688603,
             "venue_id":823847081
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877481,
+            "region_id":85688603,
+            "venue_id":823847081
         }
     ],
     "wof:id":823847081,
-    "wof:lastmodified":1466419695,
+    "wof:lastmodified":1492124322,
     "wof:name":"Aztec Financial Svc",
-    "wof:parent_id":85877441,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

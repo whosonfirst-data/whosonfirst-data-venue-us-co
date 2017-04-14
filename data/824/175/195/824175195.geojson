@@ -2,9 +2,14 @@
   "id": 824175195,
   "type": "Feature",
   "properties": {
+    "addr:full":"1255 Bush St Brighton CO 80601",
+    "addr:housenumber":"1255",
+    "addr:postcode":"80601",
+    "addr:street":"Bush St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.806106,39.985291,-104.806106,39.985291",
     "geom:latitude":39.985291,
     "geom:longitude":-104.806106,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4b49L4k34URZierThzcrYe_39.985291_-104.806106@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456886,
-    "wof:geomhash":"93f867ef59a0792f1b7b4c00e2044846",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c5012bca3258314886cde5d489f07105",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":824175195
+        }
+    ],
     "wof:id":824175195,
-    "wof:lastmodified":1466417944,
+    "wof:lastmodified":1492130950,
     "wof:name":"Church Of The Nazarene",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

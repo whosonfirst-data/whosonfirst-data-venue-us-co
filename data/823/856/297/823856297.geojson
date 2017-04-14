@@ -2,9 +2,14 @@
   "id": 823856297,
   "type": "Feature",
   "properties": {
+    "addr:full":"1231 N 23rd St Grand Junction CO 81501",
+    "addr:housenumber":"1231",
+    "addr:postcode":"81501",
+    "addr:street":"N 23Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.538486,39.077851,-108.538486,39.077851",
     "geom:latitude":39.077851,
     "geom:longitude":-108.538486,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2WFoHVKmiIF2PzlagKuXJN_39.077851_-108.538486@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448392,
-    "wof:geomhash":"770d3bb9f56ad911311f0bbb65807940",
-    "wof:hierarchy":[],
+    "wof:geomhash":"351b031d99dd2cd99b4f82d71ebd3e3d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554811,
+            "region_id":85688603,
+            "venue_id":823856297
+        }
+    ],
     "wof:id":823856297,
-    "wof:lastmodified":1466419787,
+    "wof:lastmodified":1492124107,
     "wof:name":"Colorado Civil Technologies",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

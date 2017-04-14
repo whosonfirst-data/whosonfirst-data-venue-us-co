@@ -2,9 +2,14 @@
   "id": 823612415,
   "type": "Feature",
   "properties": {
+    "addr:full":"600 S Washington St Cortez CO 81321",
+    "addr:housenumber":"600",
+    "addr:postcode":"81321",
+    "addr:street":"S Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.581067,37.342403,-108.581067,37.342403",
     "geom:latitude":37.342403,
     "geom:longitude":-108.581067,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1mfFj7WmlH1ZrjZIKqOesy_37.342403_-108.581067@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442209,
-    "wof:geomhash":"ac39b909ddcba9b5eb92288c2c141a31",
-    "wof:hierarchy":[],
+    "wof:geomhash":"df8ae93aa6d6330d9cc7c7dc028fca9f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823612415
+        }
+    ],
     "wof:id":823612415,
-    "wof:lastmodified":1466417293,
+    "wof:lastmodified":1492116737,
     "wof:name":"Bennick's Roofing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

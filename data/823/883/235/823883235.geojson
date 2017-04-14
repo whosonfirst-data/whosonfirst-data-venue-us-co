@@ -2,9 +2,14 @@
   "id": 823883235,
   "type": "Feature",
   "properties": {
+    "addr:full":"615 Linda St Fort Morgan CO 80701",
+    "addr:housenumber":"615",
+    "addr:postcode":"morgan;80701",
+    "addr:street":"Linda St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.787313,40.255166,-103.787313,40.255166",
     "geom:latitude":40.255166,
     "geom:longitude":-103.787313,
@@ -28,17 +33,32 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DvBzIxKuU6Yjg85mgG7mb_40.255166_-103.787313@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449042,
-    "wof:geomhash":"0d213c66a586c5628dd8f963ec244c4b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"65b98275c8e6d8e7adc871ccad27bbbe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":823883235
+        }
+    ],
     "wof:id":823883235,
-    "wof:lastmodified":1466420012,
+    "wof:lastmodified":1492119905,
     "wof:name":"Morgan Anesthesia Assoc Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

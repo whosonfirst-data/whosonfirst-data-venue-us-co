@@ -2,9 +2,14 @@
   "id": 824048329,
   "type": "Feature",
   "properties": {
+    "addr:full":"13125 Summit Grove Pkwy Denver CO 80241",
+    "addr:housenumber":"13125",
+    "addr:postcode":"80241",
+    "addr:street":"Summit Grove Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927722,39.933995,-104.927722,39.933995",
     "geom:latitude":39.933995,
     "geom:longitude":-104.927722,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553903
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3sdutY5RSfyW5DGaxlTJxp_39.933995_-104.927722@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453129,
-    "wof:geomhash":"ecc0cb10f3a69ef53a028c5aa8a86bda",
-    "wof:hierarchy":[],
+    "wof:geomhash":"240005e3fa0fd3fd0b0ac8397fcf82ab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553903,
+            "region_id":85688603,
+            "venue_id":824048329
+        }
+    ],
     "wof:id":824048329,
-    "wof:lastmodified":1466414191,
+    "wof:lastmodified":1492132191,
     "wof:name":"A Plus Hardwood Floors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553903,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

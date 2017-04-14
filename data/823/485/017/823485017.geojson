@@ -2,9 +2,14 @@
   "id": 823485017,
   "type": "Feature",
   "properties": {
+    "addr:full":"192 S Main St Mancos CO 81328",
+    "addr:housenumber":"192",
+    "addr:postcode":"81328",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.288982,37.343949,-108.288982,37.343949",
     "geom:latitude":37.343949,
     "geom:longitude":-108.288982,
@@ -24,19 +29,28 @@
     "sg:postcode":"81328",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555077
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2EOcXeHLgbTDMGn6iz6I4t_37.343949_-108.288982@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439186,
-    "wof:geomhash":"f5d696c6e4b1b78f41ce36fb7d28dbf6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9a4d3ea98147c0834d4857f6dce987c8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555077,
+            "venue_id":823485017
+        }
+    ],
     "wof:id":823485017,
-    "wof:lastmodified":1466413602,
+    "wof:lastmodified":1492117213,
     "wof:name":"Mancos Valley Hardware LTD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555077,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

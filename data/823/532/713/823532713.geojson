@@ -2,9 +2,14 @@
   "id": 823532713,
   "type": "Feature",
   "properties": {
+    "addr:full":"3021 Cortez St Fort Collins CO 80525",
+    "addr:housenumber":"3021",
+    "addr:postcode":"80525",
+    "addr:street":"Cortez St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.068105,40.5469,-105.068105,40.5469",
     "geom:latitude":40.5469,
     "geom:longitude":-105.068105,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7CbYtmffv5OBZhcKU3H3Sm_40.546900_-105.068105@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440306,
-    "wof:geomhash":"394c1d8c23f2dbe3991bc1b3fc0ca61b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"045d25c4d78112c3bb238755d7395f39",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":823532713
+        }
+    ],
     "wof:id":823532713,
-    "wof:lastmodified":1466415494,
+    "wof:lastmodified":1492122825,
     "wof:name":"Engineering Support Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554749,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

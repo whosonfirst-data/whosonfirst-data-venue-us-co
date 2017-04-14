@@ -2,9 +2,14 @@
   "id": 839967609,
   "type": "Feature",
   "properties": {
+    "addr:full":"580 N Commercial Dr Grand Junction CO 81505",
+    "addr:housenumber":"580",
+    "addr:postcode":"81505",
+    "addr:street":"N Commercial Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.58538,39.089362,-108.58538,39.089362",
     "geom:latitude":39.089362,
     "geom:longitude":-108.58538,
@@ -29,19 +34,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554951
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6yNpfjjHhgJLPGoGPvyDYi_39.089362_-108.585380@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459911,
-    "wof:geomhash":"b40b75df4d20dd70c12cd1f435868908",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2c406cfaa16704916a72fbd9669b92b4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554951,
+            "region_id":85688603,
+            "venue_id":839967609
+        }
+    ],
     "wof:id":839967609,
-    "wof:lastmodified":1466416006,
+    "wof:lastmodified":1492112415,
     "wof:name":"Sub-Technical Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554951,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

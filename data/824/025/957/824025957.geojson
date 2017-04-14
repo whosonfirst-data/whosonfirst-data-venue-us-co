@@ -2,9 +2,14 @@
   "id": 824025957,
   "type": "Feature",
   "properties": {
+    "addr:full":"2275 Forest Ave Boulder CO 80304",
+    "addr:housenumber":"2275",
+    "addr:postcode":"80304",
+    "addr:street":"Forest Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.267488,40.032457,-105.267488,40.032457",
     "geom:latitude":40.032457,
     "geom:longitude":-105.267488,
@@ -27,19 +32,36 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_24Zw7fTwFUz5iAuGzvacii_40.032457_-105.267488@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452563,
-    "wof:geomhash":"6db3596b2c980b2832275cbaa2caaa8c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bcacd60cdd255cc1cfc3c307539a91a7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":824025957
+        }
+    ],
     "wof:id":824025957,
-    "wof:lastmodified":1466413704,
+    "wof:lastmodified":1492131076,
     "wof:name":"Flatiron Flagstone",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

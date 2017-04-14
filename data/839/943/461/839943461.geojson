@@ -2,9 +2,14 @@
   "id": 839943461,
   "type": "Feature",
   "properties": {
+    "addr:full":"12340 Josephine Ct Denver CO 80241",
+    "addr:housenumber":"12340",
+    "addr:postcode":"80241",
+    "addr:street":"Josephine Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.957709,39.920344,-104.957709,39.920344",
     "geom:latitude":39.920344,
     "geom:longitude":-104.957709,
@@ -27,19 +32,36 @@
         "operator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5LDkoqjOUFmQbfDNppTy31_39.920344_-104.957709@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458768,
-    "wof:geomhash":"4f3e8fbd6cbca8c7e29c641dddaaf623",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6fe96045f72c69b16cf54482a21e90e6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":839943461
+        }
+    ],
     "wof:id":839943461,
-    "wof:lastmodified":1466414968,
+    "wof:lastmodified":1492112779,
     "wof:name":"Soda Pop Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

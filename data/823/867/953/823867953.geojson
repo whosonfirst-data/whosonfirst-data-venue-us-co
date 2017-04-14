@@ -2,9 +2,14 @@
   "id": 823867953,
   "type": "Feature",
   "properties": {
+    "addr:full":"8550 Hope Ct Denver CO 80229",
+    "addr:housenumber":"8550",
+    "addr:postcode":"80229",
+    "addr:street":"Hope Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.958023,39.852474,-104.958023,39.852474",
     "geom:latitude":39.852474,
     "geom:longitude":-104.958023,
@@ -28,19 +33,47 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789,
+        85930231,
+        420553889
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ndGmEdeXbY3ZHw35uiDQb_39.852474_-104.958023@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448692,
-    "wof:geomhash":"4ae952abf099c82a8ab4a72279add798",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7859dc51e4cef05ae037b373c549ddb1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":823867953
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553889,
+            "region_id":85688603,
+            "venue_id":823867953
+        }
+    ],
     "wof:id":823867953,
-    "wof:lastmodified":1466419953,
+    "wof:lastmodified":1492123605,
     "wof:name":"Cumings Masonry Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

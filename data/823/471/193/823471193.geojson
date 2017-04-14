@@ -2,9 +2,14 @@
   "id": 823471193,
   "type": "Feature",
   "properties": {
+    "addr:full":"5291 E 60th Ave Commerce City CO 80022",
+    "addr:housenumber":"5291",
+    "addr:postcode":"80022",
+    "addr:street":"E 60Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.928072,39.805624,-104.928072,39.805624",
     "geom:latitude":39.805624,
     "geom:longitude":-104.928072,
@@ -27,19 +32,36 @@
         "department"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2KIYucF3RQcGnlmrry7g53_39.805624_-104.928072@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438859,
-    "wof:geomhash":"dad80f89b66538803494d7bad84619b6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0480a77ac7f9b3eec97b5bd3b93294b1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":823471193
+        }
+    ],
     "wof:id":823471193,
-    "wof:lastmodified":1466412462,
+    "wof:lastmodified":1492117644,
     "wof:name":"Commerce City Police Chief",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

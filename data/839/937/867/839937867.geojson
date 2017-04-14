@@ -2,9 +2,14 @@
   "id": 839937867,
   "type": "Feature",
   "properties": {
+    "addr:full":"3130 Repplier St Boulder CO 80304",
+    "addr:housenumber":"3130",
+    "addr:postcode":"80304",
+    "addr:street":"Repplier St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.270643,40.032215,-105.270643,40.032215",
     "geom:latitude":40.032215,
     "geom:longitude":-105.270643,
@@ -27,19 +32,36 @@
         "elementary"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Nr6Dh0snCFqK4KmkOjpfX_40.032215_-105.270643@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458380,
-    "wof:geomhash":"0620ee3b65bf38179b4d93fb6a2d50a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7512ee26c914f8c7f18793490fc740ed",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":839937867
+        }
+    ],
     "wof:id":839937867,
-    "wof:lastmodified":1466414521,
+    "wof:lastmodified":1492111880,
     "wof:name":"Columbine Elementary School",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

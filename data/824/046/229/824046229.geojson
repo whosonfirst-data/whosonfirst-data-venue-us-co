@@ -2,9 +2,14 @@
   "id": 824046229,
   "type": "Feature",
   "properties": {
+    "addr:full":"1244 Stuart St Denver CO 80204",
+    "addr:housenumber":"1244",
+    "addr:postcode":"80204",
+    "addr:street":"Stuart St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042737,39.735453,-105.042737,39.735453",
     "geom:latitude":39.735453,
     "geom:longitude":-105.042737,
@@ -27,19 +32,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871267,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_14cdETxjblV5NkJPzOktuF_39.735453_-105.042737@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453066,
-    "wof:geomhash":"66dbc4cfa86714d3cf2c159d311dfa73",
-    "wof:hierarchy":[],
+    "wof:geomhash":"844e9e6559c6e90541fe1ea3fb566147",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871267,
+            "region_id":85688603,
+            "venue_id":824046229
+        }
+    ],
     "wof:id":824046229,
-    "wof:lastmodified":1466414141,
+    "wof:lastmodified":1492128885,
     "wof:name":"Quality Madness Stucco",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871267,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

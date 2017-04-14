@@ -2,9 +2,14 @@
   "id": 823605715,
   "type": "Feature",
   "properties": {
+    "addr:full":"9995 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"9995",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.872581,39.740284,-104.872581,39.740284",
     "geom:latitude":39.740284,
     "geom:longitude":-104.872581,
@@ -28,19 +33,36 @@
         "furniture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7A57LJoSQ3HdJLNBM3Fo0W_39.740284_-104.872581@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442041,
-    "wof:geomhash":"594304d7c76b1a6232a50c02176f3dad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9e09235dd4752b77aafb4b4f9dde1b64",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":823605715
+        }
+    ],
     "wof:id":823605715,
-    "wof:lastmodified":1466417258,
+    "wof:lastmodified":1492121700,
     "wof:name":"People's Rent To Own",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

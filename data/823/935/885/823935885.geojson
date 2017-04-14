@@ -2,9 +2,14 @@
   "id": 823935885,
   "type": "Feature",
   "properties": {
+    "addr:full":"297 E Parkview Dr Grand Junction CO 81503",
+    "addr:housenumber":"297",
+    "addr:postcode":"81503",
+    "addr:street":"E Parkview Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.543749,39.047422,-108.543749,39.047422",
     "geom:latitude":39.047422,
     "geom:longitude":-108.543749,
@@ -29,19 +34,36 @@
         "grounds"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554971
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1H9GKVD2vBJDaaAiJp2vf8_39.047422_-108.543749@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450429,
-    "wof:geomhash":"22a3af078fe95974c243aefe41797a79",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dd171e3cbe2bfb778ca9c6c14ce2bbd6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554971,
+            "region_id":85688603,
+            "venue_id":823935885
+        }
+    ],
     "wof:id":823935885,
-    "wof:lastmodified":1466420601,
+    "wof:lastmodified":1492124205,
     "wof:name":"Lawnsmith",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554971,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823697743,
   "type": "Feature",
   "properties": {
+    "addr:full":"5524 Baseline Rd Boulder CO 80303",
+    "addr:housenumber":"5524",
+    "addr:postcode":"80303",
+    "addr:street":"Baseline Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.222567,40.000111,-105.222567,40.000111",
     "geom:latitude":40.000111,
     "geom:longitude":-105.222567,
@@ -29,9 +34,13 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85876413,
-        102085251
+        85929877,
+        102085251,
+        85876447,
+        420554141,
+        85876413
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,6 +51,24 @@
     "wof:geomhash":"fce328af25824954e40c217301e616c6",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876447,
+            "region_id":85688603,
+            "venue_id":823697743
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554141,
+            "region_id":85688603,
+            "venue_id":823697743
+        },
+        {
             "country_id":85633793,
             "county_id":102085251,
             "neighbourhood_id":85876413,
@@ -50,9 +77,9 @@
         }
     ],
     "wof:id":823697743,
-    "wof:lastmodified":1466418541,
+    "wof:lastmodified":1491923046,
     "wof:name":"Countryside Mntessori Pre Schl",
-    "wof:parent_id":85876413,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

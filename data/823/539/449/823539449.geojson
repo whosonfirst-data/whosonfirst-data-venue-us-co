@@ -2,9 +2,14 @@
   "id": 823539449,
   "type": "Feature",
   "properties": {
+    "addr:full":"2500 W 96th Ave Denver CO 80260",
+    "addr:housenumber":"2500",
+    "addr:postcode":"80260",
+    "addr:street":"W 96Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.016517,39.870733,-105.016517,39.870733",
     "geom:latitude":39.870733,
     "geom:longitude":-105.016517,
@@ -27,19 +32,36 @@
         "elementary"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1QwjxqJcGuzcavEoB4rSvP_39.870733_-105.016517@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440457,
-    "wof:geomhash":"ea9bc39f6b80d951f02a7257d49c85cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c8f1c2d0f16c0fb062f152f234d68271",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823539449
+        }
+    ],
     "wof:id":823539449,
-    "wof:lastmodified":1466415583,
+    "wof:lastmodified":1492123369,
     "wof:name":"Federal Hts Elementary Schl",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

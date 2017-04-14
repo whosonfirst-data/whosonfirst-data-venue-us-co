@@ -2,9 +2,14 @@
   "id": 824165121,
   "type": "Feature",
   "properties": {
+    "addr:full":"360 Main St Longmont CO 80501",
+    "addr:housenumber":"360",
+    "addr:postcode":"80501",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.10244,40.164633,-105.10244,40.164633",
     "geom:latitude":40.164633,
     "geom:longitude":-105.10244,
@@ -27,17 +32,32 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2j4EFXnpQhlmZq9GsAphoj_40.164633_-105.102440@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456495,
-    "wof:geomhash":"419b6fadd466399c1819c2d949503e4f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5b0e7e90cd6ac50d830f00f5821369a4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":824165121
+        }
+    ],
     "wof:id":824165121,
-    "wof:lastmodified":1466417606,
+    "wof:lastmodified":1492129895,
     "wof:name":"Creative Bytes Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

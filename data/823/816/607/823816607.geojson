@@ -2,9 +2,14 @@
   "id": 823816607,
   "type": "Feature",
   "properties": {
+    "addr:full":"1470 S Quebec Way Denver CO 80231",
+    "addr:housenumber":"1470",
+    "addr:postcode":"80231",
+    "addr:street":"S Quebec Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.898525,39.691412,-104.898525,39.691412",
     "geom:latitude":39.691412,
     "geom:longitude":-104.898525,
@@ -28,7 +33,15 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871361,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0w6LinQgNAZuK8ACMkMqo2_39.691412_-104.898525@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463447199,
     "wof:geomhash":"f3d4cf5776efd84b05aeb854930cd5fa",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871361,
+            "region_id":85688603,
+            "venue_id":823816607
+        }
+    ],
     "wof:id":823816607,
-    "wof:lastmodified":1466419513,
+    "wof:lastmodified":1491865542,
     "wof:name":"Burton Industries LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823516889,
   "type": "Feature",
   "properties": {
+    "addr:full":"7270 Monaco St Commerce City CO 80022",
+    "addr:housenumber":"7270",
+    "addr:postcode":"80022",
+    "addr:street":"Monaco St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.911962,39.828861,-104.911962,39.828861",
     "geom:latitude":39.828861,
     "geom:longitude":-104.911962,
@@ -28,19 +33,36 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553491
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_46NIWiDT1vh5uEitvaEQJX_39.828861_-104.911962@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439949,
-    "wof:geomhash":"ffb8a5152548a6190c0c7ff20fa45eae",
-    "wof:hierarchy":[],
+    "wof:geomhash":"76151a51cb0e9fb8991f810b0a10dcdb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553491,
+            "region_id":85688603,
+            "venue_id":823516889
+        }
+    ],
     "wof:id":823516889,
-    "wof:lastmodified":1466414625,
+    "wof:lastmodified":1492123902,
     "wof:name":"Kens Commerce City Drug Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553491,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

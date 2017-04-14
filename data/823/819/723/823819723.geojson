@@ -2,9 +2,14 @@
   "id": 823819723,
   "type": "Feature",
   "properties": {
+    "addr:full":"1386 Glen Ct Boulder CO 80305",
+    "addr:housenumber":"1386",
+    "addr:postcode":"80305",
+    "addr:street":"Glen Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.264364,39.975741,-105.264364,39.975741",
     "geom:latitude":39.975741,
     "geom:longitude":-105.264364,
@@ -27,19 +32,36 @@
         "investor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1RFASp7Jaj7Oedck1ljjxK_39.975741_-105.264364@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447284,
-    "wof:geomhash":"67479e02c750774356dcd8e90ddb8d04",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fa86b700b5d44198d74289e579e6c0f4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":823819723
+        }
+    ],
     "wof:id":823819723,
-    "wof:lastmodified":1466419579,
+    "wof:lastmodified":1492116318,
     "wof:name":"Class V Investments LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

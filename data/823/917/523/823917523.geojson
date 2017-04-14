@@ -2,9 +2,14 @@
   "id": 823917523,
   "type": "Feature",
   "properties": {
+    "addr:full":"1123 Plum Ave Brighton CO 80603",
+    "addr:housenumber":"1123",
+    "addr:postcode":"80603",
+    "addr:street":"Plum Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.715587,40.008331,-104.715587,40.008331",
     "geom:latitude":40.008331,
     "geom:longitude":-104.715587,
@@ -27,19 +32,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1kbHsoytMhBocfozJFcZtb_40.008331_-104.715587@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449942,
-    "wof:geomhash":"9c8715a8e88cff92ab2bb0e1e2f2df55",
-    "wof:hierarchy":[],
+    "wof:geomhash":"321c4f76ad29429ca7fcb1bbf39cfdfe",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555425,
+            "venue_id":823917523
+        }
+    ],
     "wof:id":823917523,
-    "wof:lastmodified":1466420336,
+    "wof:lastmodified":1492117786,
     "wof:name":"Russ Schlabach & Kimberly Farm",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

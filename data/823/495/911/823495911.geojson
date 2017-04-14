@@ -2,9 +2,14 @@
   "id": 823495911,
   "type": "Feature",
   "properties": {
+    "addr:full":"6765 Franklin St Denver CO 80229",
+    "addr:housenumber":"6765",
+    "addr:postcode":"80229",
+    "addr:street":"Franklin St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.968681,39.819476,-104.968681,39.819476",
     "geom:latitude":39.819476,
     "geom:longitude":-104.968681,
@@ -29,19 +34,36 @@
     ],
     "sg:website":"www.fanningdenver.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_01q532TvAF4q4VQWVyQcLd_39.819476_-104.968681@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439454,
-    "wof:geomhash":"251ce9112e0b3263fb7877a5e30c2a47",
-    "wof:hierarchy":[],
+    "wof:geomhash":"90f5e5c853e459f6597981c272a3fff4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823495911
+        }
+    ],
     "wof:id":823495911,
-    "wof:lastmodified":1466414012,
+    "wof:lastmodified":1492120573,
     "wof:name":"Fanning & Assoc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

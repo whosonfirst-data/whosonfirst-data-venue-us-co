@@ -2,9 +2,14 @@
   "id": 823950761,
   "type": "Feature",
   "properties": {
+    "addr:full":"3331 W 71st Ave Westminster CO 80030",
+    "addr:housenumber":"3331",
+    "addr:postcode":"80030",
+    "addr:street":"W 71St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030406,39.824716,-105.030406,39.824716",
     "geom:latitude":39.824716,
     "geom:longitude":-105.030406,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553527
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3wmAL9Wz0tYZMPO3iXZrV7_39.824716_-105.030406@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450794,
-    "wof:geomhash":"a6136544aa10c91b8121ef3fc74a2768",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f3b5de8162c0da337b7025fb09859bb9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553527,
+            "region_id":85688603,
+            "venue_id":823950761
+        }
+    ],
     "wof:id":823950761,
-    "wof:lastmodified":1466420701,
+    "wof:lastmodified":1492125136,
     "wof:name":"Summit Glass",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553527,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

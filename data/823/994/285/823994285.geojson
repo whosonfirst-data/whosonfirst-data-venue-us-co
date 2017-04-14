@@ -2,9 +2,14 @@
   "id": 823994285,
   "type": "Feature",
   "properties": {
+    "addr:full":"301 Martin St Longmont CO 80501",
+    "addr:housenumber":"301",
+    "addr:postcode":"80501",
+    "addr:street":"Martin St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.093126,40.165161,-105.093126,40.165161",
     "geom:latitude":40.165161,
     "geom:longitude":-105.093126,
@@ -28,17 +33,32 @@
         "gasoline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1jy3kX0wpOt7mrVGj70jdu_40.165161_-105.093126@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451837,
-    "wof:geomhash":"7d3780d4142b1e1633a7c28931918643",
-    "wof:hierarchy":[],
+    "wof:geomhash":"12b55e3527ebcef646fa68e511d37eed",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823994285
+        }
+    ],
     "wof:id":823994285,
-    "wof:lastmodified":1466420990,
+    "wof:lastmodified":1492120810,
     "wof:name":"Station 520",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

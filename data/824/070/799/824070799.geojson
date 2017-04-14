@@ -2,9 +2,14 @@
   "id": 824070799,
   "type": "Feature",
   "properties": {
+    "addr:full":"150 Co Rd 300 Durango CO 81303",
+    "addr:housenumber":"150;300",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.838111,37.154748,-107.838111,37.154748",
     "geom:latitude":37.154748,
     "geom:longitude":-107.838111,
@@ -28,19 +33,28 @@
     ],
     "sg:website":"www.brownwheeldon.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2t2kRORV3B3crql5v61ywJ_37.154748_-107.838111@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453634,
-    "wof:geomhash":"425017c0deab02f01f0c1b92073924ff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"20b6e1c422f35925dc60ad9b26098bdf",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554633,
+            "venue_id":824070799
+        }
+    ],
     "wof:id":824070799,
-    "wof:lastmodified":1466414496,
+    "wof:lastmodified":1492132463,
     "wof:name":"Brown Wheeldon Tafoya Barrett",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

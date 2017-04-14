@@ -2,9 +2,14 @@
   "id": 823527875,
   "type": "Feature",
   "properties": {
+    "addr:full":"215 W Park St Carbondale CO 81623",
+    "addr:housenumber":"215",
+    "addr:postcode":"81623",
+    "addr:street":"W Park St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.189819,39.070329,-107.189819,39.070329",
     "geom:latitude":39.070329,
     "geom:longitude":-107.189819,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929663,
+        102083377,
+        420554357
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4PfNFu7FAzJ9CujMKRmzkR_39.070329_-107.189819@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440212,
-    "wof:geomhash":"01d68843141d0cc15c84345ed92ae1bc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a550b4e85dee0992c393e6bbfbb46769",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929663,
+            "neighbourhood_id":420554357,
+            "region_id":85688603,
+            "venue_id":823527875
+        }
+    ],
     "wof:id":823527875,
-    "wof:lastmodified":1466415167,
+    "wof:lastmodified":1492120412,
     "wof:name":"Marble General Store",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

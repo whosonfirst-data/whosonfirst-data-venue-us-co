@@ -2,9 +2,14 @@
   "id": 823767909,
   "type": "Feature",
   "properties": {
+    "addr:full":"2536 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"2536;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.855158,37.337312,-107.855158,37.337312",
     "geom:latitude":37.337312,
     "geom:longitude":-107.855158,
@@ -27,19 +32,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0nv7WpIgs80yXFQkThhNUB_37.337312_-107.855158@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445778,
-    "wof:geomhash":"23afc11a1ea0d30f764c74d3bdb3c685",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d3d300116f32c31d62a35df30094cd08",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823767909
+        }
+    ],
     "wof:id":823767909,
-    "wof:lastmodified":1466419139,
+    "wof:lastmodified":1492120205,
     "wof:name":"List Design Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

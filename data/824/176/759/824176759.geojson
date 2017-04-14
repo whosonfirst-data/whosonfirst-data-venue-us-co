@@ -2,9 +2,14 @@
   "id": 824176759,
   "type": "Feature",
   "properties": {
+    "addr:full":"4303 S Atchison Cir Aurora CO 80015",
+    "addr:housenumber":"4303",
+    "addr:postcode":"80015",
+    "addr:street":"S Atchison Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.82609,39.637997,-104.82609,39.637997",
     "geom:latitude":39.637997,
     "geom:longitude":-104.82609,
@@ -28,19 +33,36 @@
         "rental"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        85872975
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7E2LREsppsg6sPrpJfSIT0_39.637997_-104.826090@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456947,
-    "wof:geomhash":"e828ee7e3504ed2914db34dd70120050",
-    "wof:hierarchy":[],
+    "wof:geomhash":"32a8427819a1dc8b74dd4555e3d63933",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":85872975,
+            "region_id":85688603,
+            "venue_id":824176759
+        }
+    ],
     "wof:id":824176759,
-    "wof:lastmodified":1466418051,
+    "wof:lastmodified":1492128407,
     "wof:name":"Hillcrest Helicopter Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85872975,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

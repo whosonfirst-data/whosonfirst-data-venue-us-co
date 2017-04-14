@@ -2,9 +2,14 @@
   "id": 839978529,
   "type": "Feature",
   "properties": {
+    "addr:full":"7660 Washington St Denver CO 80229",
+    "addr:housenumber":"7660",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977829,39.835609,-104.977829,39.835609",
     "geom:latitude":39.835609,
     "geom:longitude":-104.977829,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553621
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Gnd4LVexFG8iKIpvx32tR_39.835609_-104.977829@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460364,
-    "wof:geomhash":"9aded803beaf1453d20a1cf2610d480f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4525411567070ea62fdc131a4a9a2a51",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553621,
+            "region_id":85688603,
+            "venue_id":839978529
+        }
+    ],
     "wof:id":839978529,
-    "wof:lastmodified":1466416961,
+    "wof:lastmodified":1492112000,
     "wof:name":"Loft House",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553621,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

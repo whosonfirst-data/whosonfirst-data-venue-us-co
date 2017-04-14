@@ -2,9 +2,14 @@
   "id": 839934031,
   "type": "Feature",
   "properties": {
+    "addr:full":"302 W Montezuma Ave Cortez CO 81321",
+    "addr:housenumber":"302",
+    "addr:postcode":"81321",
+    "addr:street":"W Montezuma Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590857,37.35087,-108.590857,37.35087",
     "geom:latitude":37.35087,
     "geom:longitude":-108.590857,
@@ -27,19 +32,28 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5viBw9GwPYv3cUblPbRXkw_37.350870_-108.590857@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458187,
-    "wof:geomhash":"3961f0803aea9123b8fdb9bc8cdd5718",
-    "wof:hierarchy":[],
+    "wof:geomhash":"775b172e39dcc39d178d6e34e36c4d82",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":839934031
+        }
+    ],
     "wof:id":839934031,
-    "wof:lastmodified":1466414346,
+    "wof:lastmodified":1492112608,
     "wof:name":"John A Vestal DDS PC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

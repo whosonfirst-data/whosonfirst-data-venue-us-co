@@ -2,9 +2,14 @@
   "id": 823695439,
   "type": "Feature",
   "properties": {
+    "addr:full":"1941 E 119th Pl Northglenn CO 80233",
+    "addr:housenumber":"1941",
+    "addr:postcode":"80233",
+    "addr:street":"E 119Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.965864,39.913273,-104.965864,39.913273",
     "geom:latitude":39.913273,
     "geom:longitude":-104.965864,
@@ -29,19 +34,47 @@
         "alignment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553877,
+        85929127,
+        420553653
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2YG9Se0eHfHV0D3uCTgwdI_39.913273_-104.965864@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444143,
-    "wof:geomhash":"886c926f6ddec10ee24f2af0ea92018d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"496d20d7913862ce37d3a089b022f196",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553877,
+            "region_id":85688603,
+            "venue_id":823695439
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553653,
+            "region_id":85688603,
+            "venue_id":823695439
+        }
+    ],
     "wof:id":823695439,
-    "wof:lastmodified":1466418489,
+    "wof:lastmodified":1492126578,
     "wof:name":"Automotive Alignment",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

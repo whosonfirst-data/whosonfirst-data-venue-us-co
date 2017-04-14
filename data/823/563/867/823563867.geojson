@@ -2,9 +2,14 @@
   "id": 823563867,
   "type": "Feature",
   "properties": {
+    "addr:full":"34753 E 120th Ave Hudson CO 80642",
+    "addr:housenumber":"34753",
+    "addr:postcode":"80642",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.581074,39.913378,-104.581074,39.913378",
     "geom:latitude":39.913378,
     "geom:longitude":-104.581074,
@@ -27,19 +32,28 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553299
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1GBKAVIZH2qB5szCPTdKdY_39.913378_-104.581074@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441034,
-    "wof:geomhash":"e169c963b90bfffe011b0ca512c3cfca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0acd914bcafa0272a7a1231c65f26187",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553299,
+            "venue_id":823563867
+        }
+    ],
     "wof:id":823563867,
-    "wof:lastmodified":1466416189,
+    "wof:lastmodified":1492125040,
     "wof:name":"Simons Farm Service Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553299,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

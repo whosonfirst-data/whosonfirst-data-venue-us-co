@@ -2,9 +2,14 @@
   "id": 823935523,
   "type": "Feature",
   "properties": {
+    "addr:full":"12250 Steele St Denver CO 80241",
+    "addr:housenumber":"12250",
+    "addr:postcode":"80241",
+    "addr:street":"Steele St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.953298,39.91391,-104.953298,39.91391",
     "geom:latitude":39.91391,
     "geom:longitude":-104.953298,
@@ -27,19 +32,46 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553911,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5oIjAZMk8Fe4Bf3Eu8JzCr_39.913910_-104.953298@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450419,
-    "wof:geomhash":"a7b519880e607ec06c5b55f2a517ff22",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0e4ee6297014eb12f7b3b90e87e4b52",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553911,
+            "region_id":85688603,
+            "venue_id":823935523
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823935523
+        }
+    ],
     "wof:id":823935523,
-    "wof:lastmodified":1466420559,
+    "wof:lastmodified":1492124216,
     "wof:name":"Roadtin Auto Sales",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823915891,
   "type": "Feature",
   "properties": {
+    "addr:full":"1700 W 100th Ave Denver CO 80260",
+    "addr:housenumber":"1700",
+    "addr:postcode":"80260",
+    "addr:street":"W 100Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00612,39.878534,-105.00612,39.878534",
     "geom:latitude":39.878534,
     "geom:longitude":-105.00612,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4J1SjsRbNj5idipZf2vJwC_39.878534_-105.006120@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449898,
-    "wof:geomhash":"ae186a1e8956164325505a4ba1572289",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f270cfba603524c311699b4f258e559b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":823915891
+        }
+    ],
     "wof:id":823915891,
-    "wof:lastmodified":1466420390,
+    "wof:lastmodified":1492125569,
     "wof:name":"Meadow Homes Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

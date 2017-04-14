@@ -2,9 +2,14 @@
   "id": 839958563,
   "type": "Feature",
   "properties": {
+    "addr:full":"1717 Lincoln Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"1717",
+    "addr:postcode":"80487",
+    "addr:street":"Lincoln Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.848886,40.49395,-106.848886,40.49395",
     "geom:latitude":40.49395,
     "geom:longitude":-106.848886,
@@ -27,19 +32,36 @@
         "yard"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555277
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3faOBo8kFQH6kpVpviZmaf_40.493950_-106.848886@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459554,
-    "wof:geomhash":"916969c06df525e0be82ea85226478a1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a8555bbd05a5fe1cd54ecb157f6c3da",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555277,
+            "region_id":85688603,
+            "venue_id":839958563
+        }
+    ],
     "wof:id":839958563,
-    "wof:lastmodified":1466415695,
+    "wof:lastmodified":1492113260,
     "wof:name":"Steamboat Rentals",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555277,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

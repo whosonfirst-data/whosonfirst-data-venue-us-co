@@ -2,9 +2,14 @@
   "id": 839987473,
   "type": "Feature",
   "properties": {
+    "addr:full":"8601 W Cross Dr Littleton CO 80123",
+    "addr:housenumber":"8601",
+    "addr:postcode":"80123",
+    "addr:street":"W Cross Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.094357,39.615828,-105.094357,39.615828",
     "geom:latitude":39.615828,
     "geom:longitude":-105.094357,
@@ -29,19 +34,38 @@
         "steakhouse"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871357,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2URG2Mn1EJyaSKQFebdoAB_39.615828_-105.094357@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460724,
-    "wof:geomhash":"f8523cbce9f896e1300a95b5d43b2cd3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0ec7b8c77709de1091f626c49e2354cf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871357,
+            "region_id":85688603,
+            "venue_id":839987473
+        }
+    ],
     "wof:id":839987473,
-    "wof:lastmodified":1466417554,
+    "wof:lastmodified":1492113656,
     "wof:name":"Outback Steakhouse",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871357,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823495227,
   "type": "Feature",
   "properties": {
+    "addr:full":"5001 S College Ave Fort Collins CO 80525",
+    "addr:housenumber":"5001",
+    "addr:postcode":"80525",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.077263,40.514618,-105.077263,40.514618",
     "geom:latitude":40.514618,
     "geom:longitude":-105.077263,
@@ -26,9 +31,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929679,
         102083353,
+        85833121,
         85877441
     ],
     "wof:breaches":[],
@@ -37,9 +44,19 @@
     },
     "wof:country":"US",
     "wof:created":1463439439,
-    "wof:geomhash":"dcc74aa53ebd40d122213b613f13f095",
+    "wof:geomhash":"603907d2adbd3e2b2b45e246414cd0f2",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85833121,
+            "region_id":85688603,
+            "venue_id":823495227
+        },
+        {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102083353,
             "locality_id":85929679,
@@ -49,9 +66,9 @@
         }
     ],
     "wof:id":823495227,
-    "wof:lastmodified":1466414061,
+    "wof:lastmodified":1492120560,
     "wof:name":"Woodley's Fine Furniture",
-    "wof:parent_id":85877441,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

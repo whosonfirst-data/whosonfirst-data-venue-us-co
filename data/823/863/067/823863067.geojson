@@ -2,9 +2,14 @@
   "id": 823863067,
   "type": "Feature",
   "properties": {
+    "addr:full":"20 S Newland St Denver CO 80226",
+    "addr:housenumber":"20",
+    "addr:postcode":"80226",
+    "addr:street":"S Newland St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.069779,39.715275,-105.069779,39.715275",
     "geom:latitude":39.715275,
     "geom:longitude":-105.069779,
@@ -29,19 +34,36 @@
         "install"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5uZViU9ut2tFYz5ccfoNjt_39.715275_-105.069779@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448574,
-    "wof:geomhash":"d5f67f180dc186e0fd38c8dd98dd1a28",
-    "wof:hierarchy":[],
+    "wof:geomhash":"95d348383907fce629d2e002093bc863",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823863067
+        }
+    ],
     "wof:id":823863067,
-    "wof:lastmodified":1466419796,
+    "wof:lastmodified":1492124472,
     "wof:name":"Rrare Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

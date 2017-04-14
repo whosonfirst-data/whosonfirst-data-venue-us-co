@@ -2,9 +2,14 @@
   "id": 823494019,
   "type": "Feature",
   "properties": {
+    "addr:full":"30611 Co Rd 16 Rocky Ford CO 81067",
+    "addr:housenumber":"30611;16",
+    "addr:postcode":"81067",
+    "addr:street":"Co Rd;Rocky Ford",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.784412,38.077234,-103.784412,38.077234",
     "geom:latitude":38.077234,
     "geom:longitude":-103.784412,
@@ -27,17 +32,30 @@
         "feeding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102084015
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2rm8cSevFvwdhA1bdk9G5T_38.077234_-103.784412@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439397,
-    "wof:geomhash":"1e7f6d1440e17096bedf9b946348e533",
-    "wof:hierarchy":[],
+    "wof:geomhash":"801b3599e784d87233ccd7e95b1f53a3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084015,
+            "region_id":85688603,
+            "venue_id":823494019
+        }
+    ],
     "wof:id":823494019,
-    "wof:lastmodified":1466414113,
+    "wof:lastmodified":1492119957,
     "wof:name":"Rocky Ford Feed Yard",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

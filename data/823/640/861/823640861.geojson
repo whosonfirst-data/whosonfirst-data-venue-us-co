@@ -2,9 +2,14 @@
   "id": 823640861,
   "type": "Feature",
   "properties": {
+    "addr:full":"2310 S Circle Dr Colorado Springs CO 80910",
+    "addr:housenumber":"2310",
+    "addr:postcode":"80910",
+    "addr:street":"S Circle Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.78261,38.79903,-104.78261,38.79903",
     "geom:latitude":38.79903,
     "geom:longitude":-104.78261,
@@ -27,19 +32,36 @@
         "special"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2L6TXTUaLu9EukmhXCa7rv_38.799030_-104.782610@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442874,
-    "wof:geomhash":"df81dd44e41838f3051a58762e47f344",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d6c718a751bfcb4c4f8f6dfa4ffa2f86",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823640861
+        }
+    ],
     "wof:id":823640861,
-    "wof:lastmodified":1466417931,
+    "wof:lastmodified":1492119377,
     "wof:name":"U Store",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

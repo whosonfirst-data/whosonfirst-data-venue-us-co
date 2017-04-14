@@ -2,9 +2,14 @@
   "id": 839960661,
   "type": "Feature",
   "properties": {
+    "addr:full":"10100 State Hwy 2 Commerce City CO 80022",
+    "addr:housenumber":"10100",
+    "addr:postcode":"80022",
+    "addr:street":"State Hwy 2",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.854742,39.879188,-104.854742,39.879188",
     "geom:latitude":39.879188,
     "geom:longitude":-104.854742,
@@ -28,19 +33,36 @@
         "accessory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553285
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5j9QJx7GkIUP2OXxkCgKl7_39.879188_-104.854742@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459635,
-    "wof:geomhash":"bb2e74e6f1c0b49e1a9d76bb80df9ab0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"13b757c55628f12a9b0a9afb32143f33",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553285,
+            "region_id":85688603,
+            "venue_id":839960661
+        }
+    ],
     "wof:id":839960661,
-    "wof:lastmodified":1466415602,
+    "wof:lastmodified":1492111651,
     "wof:name":"Denver Trux R Us Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553285,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823568201,
   "type": "Feature",
   "properties": {
+    "addr:full":"3703 Timberline Rd Fort Collins CO 80525",
+    "addr:housenumber":"3703",
+    "addr:postcode":"80525",
+    "addr:street":"Timberline Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039362,40.537549,-105.039362,40.537549",
     "geom:latitude":40.537549,
     "geom:longitude":-105.039362,
@@ -28,19 +33,36 @@
         "lubrication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4CQ7qjC5XY0O75Tqwrdarb_40.537549_-105.039362@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441140,
-    "wof:geomhash":"32a7239f4bff506bc9535406cfda5074",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c58e89b4a1857c302b09cc8848f7ca94",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":823568201
+        }
+    ],
     "wof:id":823568201,
-    "wof:lastmodified":1466416243,
+    "wof:lastmodified":1492124976,
     "wof:name":"Jiffy Lube",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

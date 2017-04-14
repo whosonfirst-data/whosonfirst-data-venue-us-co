@@ -2,9 +2,14 @@
   "id": 823645461,
   "type": "Feature",
   "properties": {
+    "addr:full":"16700 Co Rd 12 Fort Lupton CO 80621",
+    "addr:housenumber":"16700;12",
+    "addr:postcode":"80621",
+    "addr:street":"Co Rd;Fort Lupton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.74028,40.07311,-104.74028,40.07311",
     "geom:latitude":40.07311,
     "geom:longitude":-104.74028,
@@ -27,19 +32,28 @@
         "composite"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0o1PKeBg8xU0JWnS0vEYGb_40.073110_-104.740280@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442974,
-    "wof:geomhash":"94580385af1105dba9e302ccb435344a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"108dd31c9525905c6c5465a67aad5bfa",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823645461
+        }
+    ],
     "wof:id":823645461,
-    "wof:lastmodified":1466417970,
+    "wof:lastmodified":1492120134,
     "wof:name":"Boss Compost Of Brighton",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

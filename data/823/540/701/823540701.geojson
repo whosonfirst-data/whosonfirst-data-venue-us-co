@@ -2,9 +2,14 @@
   "id": 823540701,
   "type": "Feature",
   "properties": {
+    "addr:full":"1350 Lehigh St Boulder CO 80305",
+    "addr:housenumber":"1350",
+    "addr:postcode":"80305",
+    "addr:street":"Lehigh St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260027,39.975486,-105.260027,39.975486",
     "geom:latitude":39.975486,
     "geom:longitude":-105.260027,
@@ -27,19 +32,36 @@
         "painter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7UV0NTrRAVUIufumPJz1fs_39.975486_-105.260027@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440483,
-    "wof:geomhash":"bcc733549df2984b1b5c176f7c2eab85",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab55fde3a4d48cc7665632f89dd0bbe2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":823540701
+        }
+    ],
     "wof:id":823540701,
-    "wof:lastmodified":1466415691,
+    "wof:lastmodified":1492119158,
     "wof:name":"Boulder Valley Painters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

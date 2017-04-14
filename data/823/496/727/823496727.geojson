@@ -2,9 +2,14 @@
   "id": 823496727,
   "type": "Feature",
   "properties": {
+    "addr:full":"7740 State Hwy 2 Commerce City CO 80022",
+    "addr:housenumber":"7740",
+    "addr:postcode":"80022",
+    "addr:street":"State Hwy 2",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.903819,39.837227,-104.903819,39.837227",
     "geom:latitude":39.837227,
     "geom:longitude":-104.903819,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553491
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3iWimY4TKu2OsMf4MYqksJ_39.837227_-104.903819@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439479,
-    "wof:geomhash":"b1101ca54454a90a242ad2cd8938296b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d55a900f131f96874b31b14f706cf8ef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553491,
+            "region_id":85688603,
+            "venue_id":823496727
+        }
+    ],
     "wof:id":823496727,
-    "wof:lastmodified":1466414119,
+    "wof:lastmodified":1492119425,
     "wof:name":"Grace Baptist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553491,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

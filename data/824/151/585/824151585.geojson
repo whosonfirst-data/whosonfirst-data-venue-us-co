@@ -2,9 +2,14 @@
   "id": 824151585,
   "type": "Feature",
   "properties": {
+    "addr:full":"310 N 14th St Gunnison CO 81230",
+    "addr:housenumber":"310",
+    "addr:postcode":"81230",
+    "addr:street":"N 14Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.932032,38.547628,-106.932032,38.547628",
     "geom:latitude":38.547628,
     "geom:longitude":-106.932032,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5zdxeMcD69X3d6zEkLsdyV_38.547628_-106.932032@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455969,
-    "wof:geomhash":"d9fab604aa7885cf11bb3fc057b7a5c6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"93ed218ddfbc70ef16efd78bcceb36e9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":824151585
+        }
+    ],
     "wof:id":824151585,
-    "wof:lastmodified":1466416774,
+    "wof:lastmodified":1492129164,
     "wof:name":"S & D Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839976041,
   "type": "Feature",
   "properties": {
+    "addr:full":"1507 Pine St Boulder CO 80302",
+    "addr:housenumber":"1507",
+    "addr:postcode":"80302",
+    "addr:street":"Pine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275521,40.021042,-105.275521,40.021042",
     "geom:latitude":40.021042,
     "geom:longitude":-105.275521,
@@ -27,7 +32,14 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4jYUDvvuU5ThAdBR4kYDVF_40.021042_-105.275521@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463460263,
     "wof:geomhash":"bab6ed2aa39c4dc01bc47c4c7aca07ed",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":839976041
+        }
+    ],
     "wof:id":839976041,
-    "wof:lastmodified":1466416574,
+    "wof:lastmodified":1491888489,
     "wof:name":"Clifford L Neuman Law Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

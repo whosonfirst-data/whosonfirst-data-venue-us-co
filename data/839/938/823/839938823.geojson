@@ -2,9 +2,14 @@
   "id": 839938823,
   "type": "Feature",
   "properties": {
+    "addr:full":"4840 E 120th Pl Thornton CO 80241",
+    "addr:housenumber":"4840",
+    "addr:postcode":"80241",
+    "addr:street":"E 120Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.930134,39.914387,-104.930134,39.914387",
     "geom:latitude":39.914387,
     "geom:longitude":-104.930134,
@@ -27,19 +32,36 @@
         "elevator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5zCsbMdjpnvQiWLqAnmAcz_39.914387_-104.930134@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458427,
-    "wof:geomhash":"7d37af12b96729e62e5726921f04fcd2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0eb16e9d406b84b2bb1edf871a5aa79d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":839938823
+        }
+    ],
     "wof:id":839938823,
-    "wof:lastmodified":1466414754,
+    "wof:lastmodified":1492110512,
     "wof:name":"Advanced Elevator Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

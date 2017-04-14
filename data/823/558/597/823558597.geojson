@@ -2,9 +2,14 @@
   "id": 823558597,
   "type": "Feature",
   "properties": {
+    "addr:full":"11195 Huron St Northglenn CO 80234",
+    "addr:housenumber":"11195",
+    "addr:postcode":"80234",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996758,39.898025,-104.996758,39.898025",
     "geom:latitude":39.898025,
     "geom:longitude":-104.996758,
@@ -27,19 +32,56 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553697,
+        420553705,
+        85838293
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7095j5aUUn6J8EoYFHFXHw_39.898025_-104.996758@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440900,
-    "wof:geomhash":"a4e7a6322805d5f563d726225e61997e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae83155785cd8675a6bf229e0789bd9f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553697,
+            "region_id":85688603,
+            "venue_id":823558597
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553705,
+            "region_id":85688603,
+            "venue_id":823558597
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":85838293,
+            "region_id":85688603,
+            "venue_id":823558597
+        }
+    ],
     "wof:id":823558597,
-    "wof:lastmodified":1466416135,
+    "wof:lastmodified":1492117731,
     "wof:name":"Diamond Shamrock",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

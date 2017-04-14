@@ -2,9 +2,14 @@
   "id": 823679353,
   "type": "Feature",
   "properties": {
+    "addr:full":"10929 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"10929",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.860471,39.740283,-104.860471,39.740283",
     "geom:latitude":39.740283,
     "geom:longitude":-104.860471,
@@ -28,19 +33,36 @@
         "electric"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553943
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6q8VBuFV62PaivUBJ2D8l9_39.740283_-104.860471@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443775,
-    "wof:geomhash":"dca183b07b256489a05cc043b791a529",
-    "wof:hierarchy":[],
+    "wof:geomhash":"39c96d3fdb7505d6c6c72765c5b050c1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553943,
+            "region_id":85688603,
+            "venue_id":823679353
+        }
+    ],
     "wof:id":823679353,
-    "wof:lastmodified":1466418281,
+    "wof:lastmodified":1492119864,
     "wof:name":"Rogelio Herrera Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553943,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

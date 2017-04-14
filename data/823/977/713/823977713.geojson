@@ -2,9 +2,14 @@
   "id": 823977713,
   "type": "Feature",
   "properties": {
+    "addr:full":"227 Main St Ordway CO 81063",
+    "addr:housenumber":"227",
+    "addr:postcode":"81063",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.756493,38.21731,-103.756493,38.21731",
     "geom:latitude":38.21731,
     "geom:longitude":-103.756493,
@@ -33,17 +38,32 @@
         "rail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929725,
+        102084041
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Yv7SU2yhR88LpmS2jTiLY_38.217310_-103.756493@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451421,
-    "wof:geomhash":"5967c0d9c5cd648856852d3b2194dd8b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1c01465ed66de3fc136b3adf60bc8036",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084041,
+            "locality_id":85929725,
+            "region_id":85688603,
+            "venue_id":823977713
+        }
+    ],
     "wof:id":823977713,
-    "wof:lastmodified":1466420905,
+    "wof:lastmodified":1492125484,
     "wof:name":"Colorado Kansas & Pacific Rail",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

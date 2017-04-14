@@ -2,9 +2,14 @@
   "id": 824086501,
   "type": "Feature",
   "properties": {
+    "addr:full":"1741 W 112th Ave Denver CO 80234",
+    "addr:housenumber":"1741",
+    "addr:postcode":"80234",
+    "addr:street":"W 112Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.009201,39.899786,-105.009201,39.899786",
     "geom:latitude":39.899786,
     "geom:longitude":-105.009201,
@@ -27,19 +32,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553705
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6jUhcvoecrVaKoLyqsSJvX_39.899786_-105.009201@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454008,
-    "wof:geomhash":"de95a5d04a71331bab9d08342fbfeb00",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9331cd05aa553ae7753a3a0950482eb7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553705,
+            "region_id":85688603,
+            "venue_id":824086501
+        }
+    ],
     "wof:id":824086501,
-    "wof:lastmodified":1466414845,
+    "wof:lastmodified":1492131596,
     "wof:name":"Sig Patzer Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553705,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

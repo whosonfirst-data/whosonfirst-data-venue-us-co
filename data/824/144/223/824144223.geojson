@@ -2,9 +2,14 @@
   "id": 824144223,
   "type": "Feature",
   "properties": {
+    "addr:full":"2447 Briarwood Dr Boulder CO 80305",
+    "addr:housenumber":"2447",
+    "addr:postcode":"80305",
+    "addr:street":"Briarwood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.261033,39.970376,-105.261033,39.970376",
     "geom:latitude":39.970376,
     "geom:longitude":-105.261033,
@@ -29,19 +34,36 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1pm9bATz44XzhmAMwXcwAF_39.970376_-105.261033@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455662,
-    "wof:geomhash":"108b54aed4087734a089e2a74df8e434",
-    "wof:hierarchy":[],
+    "wof:geomhash":"80fababcd1286f792673a0b8a43ef339",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":824144223
+        }
+    ],
     "wof:id":824144223,
-    "wof:lastmodified":1466416552,
+    "wof:lastmodified":1492132299,
     "wof:name":"Hickey & Hickey Holdings LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

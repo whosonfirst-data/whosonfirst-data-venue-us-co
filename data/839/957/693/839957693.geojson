@@ -2,9 +2,14 @@
   "id": 839957693,
   "type": "Feature",
   "properties": {
+    "addr:full":"7855 York St Denver CO 80229",
+    "addr:housenumber":"7855",
+    "addr:postcode":"80229",
+    "addr:street":"York St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959091,39.838485,-104.959091,39.838485",
     "geom:latitude":39.838485,
     "geom:longitude":-104.959091,
@@ -28,19 +33,46 @@
         "laundry"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553889,
+        420553893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7JxSsazmb2LeBUTlSn2ZQJ_39.838485_-104.959091@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459525,
-    "wof:geomhash":"8820e2587df1ef31ae59551bdf78c894",
-    "wof:hierarchy":[],
+    "wof:geomhash":"409db4d0da4ae34ecd064e7c758604f4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553889,
+            "region_id":85688603,
+            "venue_id":839957693
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553893,
+            "region_id":85688603,
+            "venue_id":839957693
+        }
+    ],
     "wof:id":839957693,
-    "wof:lastmodified":1466415508,
+    "wof:lastmodified":1492112454,
     "wof:name":"Yorktown Food Mart",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

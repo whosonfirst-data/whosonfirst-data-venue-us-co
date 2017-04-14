@@ -2,9 +2,14 @@
   "id": 824140559,
   "type": "Feature",
   "properties": {
+    "addr:full":"5321 Magnolia St Commerce City CO 80022",
+    "addr:housenumber":"5321",
+    "addr:postcode":"80022",
+    "addr:street":"Magnolia St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.912353,39.796948,-104.912353,39.796948",
     "geom:latitude":39.796948,
     "geom:longitude":-104.912353,
@@ -31,19 +36,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Dt30iiwrTSaPxyiE5Bszu_39.796948_-104.912353@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455531,
-    "wof:geomhash":"f415bc2fcb8630d77f4277eca8a2e39e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"69243a5739020dbffb4f1b19c801ce11",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553923,
+            "region_id":85688603,
+            "venue_id":824140559
+        }
+    ],
     "wof:id":824140559,
-    "wof:lastmodified":1466416699,
+    "wof:lastmodified":1492131820,
     "wof:name":"Martinez Mechanical",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

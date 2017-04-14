@@ -2,9 +2,14 @@
   "id": 823671413,
   "type": "Feature",
   "properties": {
+    "addr:full":"12711 Colorado Blvd Denver CO 80241",
+    "addr:housenumber":"12711",
+    "addr:postcode":"80241",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940416,39.928085,-104.940416,39.928085",
     "geom:latitude":39.928085,
     "geom:longitude":-104.940416,
@@ -28,19 +33,36 @@
         "estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4NFEZQsLwuJHG0BbPM2Dxc_39.928085_-104.940416@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443607,
-    "wof:geomhash":"ebd59525b67eb00d0317991e09af4e04",
-    "wof:hierarchy":[],
+    "wof:geomhash":"12b1384017462fd7644011427902cb9b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823671413
+        }
+    ],
     "wof:id":823671413,
-    "wof:lastmodified":1466418375,
+    "wof:lastmodified":1492116084,
     "wof:name":"Emerald Estates LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

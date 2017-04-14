@@ -2,9 +2,14 @@
   "id": 824062771,
   "type": "Feature",
   "properties": {
+    "addr:full":"12309 Deerfield Way Broomfield CO 80020",
+    "addr:housenumber":"12309",
+    "addr:postcode":"80020",
+    "addr:street":"Deerfield Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.037123,39.92084,-105.037123,39.92084",
     "geom:latitude":39.92084,
     "geom:longitude":-105.037123,
@@ -28,19 +33,36 @@
         "industrial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420553613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0jmNKctYPTZZrUo6qVyv9c_39.920840_-105.037123@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453446,
-    "wof:geomhash":"abe6e838c313a7b8cc99fb21ad3c1614",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d4d389916a77f2cc3bbcb67d5f1e4180",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420553613,
+            "region_id":85688603,
+            "venue_id":824062771
+        }
+    ],
     "wof:id":824062771,
-    "wof:lastmodified":1466414375,
+    "wof:lastmodified":1492132245,
     "wof:name":"Industrial Fumigate Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

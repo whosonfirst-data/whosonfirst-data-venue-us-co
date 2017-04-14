@@ -2,9 +2,14 @@
   "id": 823982729,
   "type": "Feature",
   "properties": {
+    "addr:full":"3709 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"3709;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.843706,37.347502,-107.843706,37.347502",
     "geom:latitude":37.347502,
     "geom:longitude":-107.843706,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1TnMY5O6vu8wX95aNE8wuf_37.347502_-107.843706@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451556,
-    "wof:geomhash":"f0c324ad88cae5532a62b1807554b6ae",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b4fdf92ac21926d38e1a787e331bd536",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823982729
+        }
+    ],
     "wof:id":823982729,
-    "wof:lastmodified":1466420963,
+    "wof:lastmodified":1492126873,
     "wof:name":"Lucas Landscaping & Stonework",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

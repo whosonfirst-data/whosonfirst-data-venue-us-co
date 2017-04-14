@@ -2,9 +2,14 @@
   "id": 824104801,
   "type": "Feature",
   "properties": {
+    "addr:full":"105 1st St Fort Lupton CO 80621",
+    "addr:housenumber":"105",
+    "addr:postcode":"80621",
+    "addr:street":"1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.818312,40.080217,-104.818312,40.080217",
     "geom:latitude":40.080217,
     "geom:longitude":-104.818312,
@@ -28,19 +33,28 @@
         "gas"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Nf5LobYuLuaPABIU8a2oL_40.080217_-104.818312@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454441,
-    "wof:geomhash":"56c48dfab0559cfa326a2fc774445ed8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3763b2ce87614b2852e20fde7f52242b",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":824104801
+        }
+    ],
     "wof:id":824104801,
-    "wof:lastmodified":1466415247,
+    "wof:lastmodified":1492128554,
     "wof:name":"U Pump It",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

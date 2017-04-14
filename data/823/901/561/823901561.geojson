@@ -2,9 +2,14 @@
   "id": 823901561,
   "type": "Feature",
   "properties": {
+    "addr:full":"2882 Eliot Cir Westminster CO 80030",
+    "addr:housenumber":"2882",
+    "addr:postcode":"80030",
+    "addr:street":"Eliot Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.022791,39.827396,-105.022791,39.827396",
     "geom:latitude":39.827396,
     "geom:longitude":-105.022791,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1i0HJJ3z2UBwbCjMCvNess_39.827396_-105.022791@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449503,
-    "wof:geomhash":"261be16f50dc28d31efad62b51e19e87",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b16de9199f43b45a50f668522fbfbb4d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":823901561
+        }
+    ],
     "wof:id":823901561,
-    "wof:lastmodified":1466420265,
+    "wof:lastmodified":1492120673,
     "wof:name":"Sunlight Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

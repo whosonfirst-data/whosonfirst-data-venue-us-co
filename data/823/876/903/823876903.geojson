@@ -2,9 +2,14 @@
   "id": 823876903,
   "type": "Feature",
   "properties": {
+    "addr:full":"102 Riverside Dr Olathe CO 81425",
+    "addr:housenumber":"102",
+    "addr:postcode":"81425",
+    "addr:street":"Riverside Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.985694,38.602855,-107.985694,38.602855",
     "geom:latitude":38.602855,
     "geom:longitude":-107.985694,
@@ -27,17 +32,32 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929413,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1DZCmVUZk0FHQ4rJYshrhK_38.602855_-107.985694@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448898,
-    "wof:geomhash":"4d8ef125c51ae3c83f399d2347540e6b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e73ba143dd0ea57fd39c864975809945",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929413,
+            "region_id":85688603,
+            "venue_id":823876903
+        }
+    ],
     "wof:id":823876903,
-    "wof:lastmodified":1466420114,
+    "wof:lastmodified":1492121469,
     "wof:name":"Bear Pen Construction",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

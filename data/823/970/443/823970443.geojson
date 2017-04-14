@@ -2,9 +2,14 @@
   "id": 823970443,
   "type": "Feature",
   "properties": {
+    "addr:full":"786 Industrial Ave Craig CO 81625",
+    "addr:housenumber":"786",
+    "addr:postcode":"81625",
+    "addr:street":"Industrial Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.556437,40.511455,-107.556437,40.511455",
     "geom:latitude":40.511455,
     "geom:longitude":-107.556437,
@@ -28,17 +33,32 @@
         "agricultural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928901,
+        102085247
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2t9h9F3mcAyW02dOp34ZEg_40.511455_-107.556437@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451266,
-    "wof:geomhash":"03fcbe3f3076ab9fb4844c48bce04b7e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f7fd41fbbef4214ec4e87f0ec2038d52",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085247,
+            "locality_id":85928901,
+            "region_id":85688603,
+            "venue_id":823970443
+        }
+    ],
     "wof:id":823970443,
-    "wof:lastmodified":1466420820,
+    "wof:lastmodified":1492116689,
     "wof:name":"Craig Grain Co",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

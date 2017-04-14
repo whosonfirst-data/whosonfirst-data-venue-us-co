@@ -2,9 +2,14 @@
   "id": 823807069,
   "type": "Feature",
   "properties": {
+    "addr:full":"3900 Nome St Denver CO 80239",
+    "addr:housenumber":"3900",
+    "addr:postcode":"80239",
+    "addr:street":"Nome St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.851642,39.769835,-104.851642,39.769835",
     "geom:latitude":39.769835,
     "geom:longitude":-104.851642,
@@ -28,19 +33,38 @@
         "document"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871347,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0mnr0BSzgpmYgZaFG8o1Ow_39.769835_-104.851642@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446905,
-    "wof:geomhash":"cfcc0d65ea4044d84dab1cec2737c106",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0794f5ba11bd186fd9ddba083f3da7d8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85871347,
+            "region_id":85688603,
+            "venue_id":823807069
+        }
+    ],
     "wof:id":823807069,
-    "wof:lastmodified":1466419405,
+    "wof:lastmodified":1492121817,
     "wof:name":"Pierce Leahy Archives",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871347,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

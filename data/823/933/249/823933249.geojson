@@ -2,9 +2,14 @@
   "id": 823933249,
   "type": "Feature",
   "properties": {
+    "addr:full":"4410 W Exposition Ave Denver CO 80219",
+    "addr:housenumber":"4410",
+    "addr:postcode":"80219",
+    "addr:street":"W Exposition Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.044703,39.704221,-105.044703,39.704221",
     "geom:latitude":39.704221,
     "geom:longitude":-105.044703,
@@ -27,7 +32,15 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0vqPnWa3vJPC3OupXMj6am_39.704221_-105.044703@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463450340,
     "wof:geomhash":"7f9ae23ef5863411b8361f51e0834187",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":823933249
+        }
+    ],
     "wof:id":823933249,
-    "wof:lastmodified":1466420491,
+    "wof:lastmodified":1486589666,
     "wof:name":"Olivas Landscaping",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

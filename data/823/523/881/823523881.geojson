@@ -2,9 +2,14 @@
   "id": 823523881,
   "type": "Feature",
   "properties": {
+    "addr:full":"5601 Gray St Arvada CO 80002",
+    "addr:housenumber":"5601",
+    "addr:postcode":"80002",
+    "addr:street":"Gray St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.061443,39.800086,-105.061443,39.800086",
     "geom:latitude":39.800086,
     "geom:longitude":-105.061443,
@@ -30,19 +35,34 @@
         "equipment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0T78258OPG7ol992ptxPeH_39.800086_-105.061443@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440112,
-    "wof:geomhash":"d8f7eb7dfc73fc53510ff11a4db68cfc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d6d28cc65c0f70e62a9be4a47e80b025",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823523881
+        }
+    ],
     "wof:id":823523881,
-    "wof:lastmodified":1466415071,
+    "wof:lastmodified":1492124495,
     "wof:name":"Medone",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

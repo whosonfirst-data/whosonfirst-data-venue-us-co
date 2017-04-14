@@ -2,9 +2,14 @@
   "id": 823649541,
   "type": "Feature",
   "properties": {
+    "addr:full":"7951 Robin Ln Denver CO 80221",
+    "addr:housenumber":"7951",
+    "addr:postcode":"80221",
+    "addr:street":"Robin Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.023525,39.83991,-105.023525,39.83991",
     "geom:latitude":39.83991,
     "geom:longitude":-105.023525,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553515
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3YvsmCLZKbeUD0ixeCrFI9_39.839910_-105.023525@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443072,
-    "wof:geomhash":"ebd689b66206c3138d88f0ad584b082d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e1b939f3d989f33d51e579f5078e974f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553515,
+            "region_id":85688603,
+            "venue_id":823649541
+        }
+    ],
     "wof:id":823649541,
-    "wof:lastmodified":1466418018,
+    "wof:lastmodified":1492117635,
     "wof:name":"Vns Delivery Service LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553515,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

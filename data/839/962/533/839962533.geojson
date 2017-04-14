@@ -2,9 +2,14 @@
   "id": 839962533,
   "type": "Feature",
   "properties": {
+    "addr:full":"955 S Havana St Denver CO 80012",
+    "addr:housenumber":"955",
+    "addr:postcode":"80012",
+    "addr:street":"S Havana St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.866039,39.699201,-104.866039,39.699201",
     "geom:latitude":39.699201,
     "geom:longitude":-104.866039,
@@ -27,19 +32,38 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871353,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6lpv6vUVhT8QiU7V9F1X59_39.699201_-104.866039@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459705,
-    "wof:geomhash":"2dd8e475640a2e4f2546e94ca9953229",
-    "wof:hierarchy":[],
+    "wof:geomhash":"50a949b3213bc4c596c836eddf93e2be",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871353,
+            "region_id":85688603,
+            "venue_id":839962533
+        }
+    ],
     "wof:id":839962533,
-    "wof:lastmodified":1466415800,
+    "wof:lastmodified":1492112185,
     "wof:name":"Knight Bridge Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871353,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

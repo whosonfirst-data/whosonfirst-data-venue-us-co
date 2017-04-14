@@ -2,9 +2,14 @@
   "id": 823926857,
   "type": "Feature",
   "properties": {
+    "addr:full":"2597 S Xavier St Denver CO 80219",
+    "addr:housenumber":"2597",
+    "addr:postcode":"80219",
+    "addr:street":"S Xavier St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.049029,39.674233,-105.049029,39.674233",
     "geom:latitude":39.674233,
     "geom:longitude":-105.049029,
@@ -27,7 +32,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1zmdqIfycnM1GrZgHbofdM_39.674233_-105.049029@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463450175,
     "wof:geomhash":"73661c0bbdf84044dc03859828fe6d91",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":823926857
+        }
+    ],
     "wof:id":823926857,
-    "wof:lastmodified":1466420459,
+    "wof:lastmodified":1486593728,
     "wof:name":"Herminios Masonry Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

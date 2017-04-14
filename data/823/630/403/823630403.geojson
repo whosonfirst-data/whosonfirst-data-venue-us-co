@@ -2,9 +2,14 @@
   "id": 823630403,
   "type": "Feature",
   "properties": {
+    "addr:full":"221 S Wisconsin St Gunnison CO 81230",
+    "addr:housenumber":"221",
+    "addr:postcode":"81230",
+    "addr:street":"S Wisconsin St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.928295,38.543064,-106.928295,38.543064",
     "geom:latitude":38.543064,
     "geom:longitude":-106.928295,
@@ -28,19 +33,36 @@
         "telephone"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554465
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5pUsGzn8rfwFb8FTKA02Jj_38.543064_-106.928295@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442639,
-    "wof:geomhash":"5987bd32493a656e9f2f450c9699c04d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"213bba4960fb406c6589fe89c969a1e6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554465,
+            "region_id":85688603,
+            "venue_id":823630403
+        }
+    ],
     "wof:id":823630403,
-    "wof:lastmodified":1466417639,
+    "wof:lastmodified":1492123699,
     "wof:name":"Gunnison Valley Bakery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554465,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

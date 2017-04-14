@@ -2,9 +2,14 @@
   "id": 824043259,
   "type": "Feature",
   "properties": {
+    "addr:full":"213 W Tomichi Ave Gunnison CO 81230",
+    "addr:housenumber":"213",
+    "addr:postcode":"81230",
+    "addr:street":"W Tomichi Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.928717,38.544321,-106.928717,38.544321",
     "geom:latitude":38.544321,
     "geom:longitude":-106.928717,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6TDcA7QqMyUoqScl7UHM3V_38.544321_-106.928717@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453008,
-    "wof:geomhash":"60a148cfeb1412a489af9e62c4441cfd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1d3bb03e6cfe1e64756708c52ef730fd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":824043259
+        }
+    ],
     "wof:id":824043259,
-    "wof:lastmodified":1466414250,
+    "wof:lastmodified":1492133278,
     "wof:name":"Marios Pizzeria",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

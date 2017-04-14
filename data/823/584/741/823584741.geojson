@@ -2,9 +2,14 @@
   "id": 823584741,
   "type": "Feature",
   "properties": {
+    "addr:full":"2125 Bear Dr Steamboat Spgs CO 80487",
+    "addr:housenumber":"2125",
+    "addr:postcode":"80487",
+    "addr:street":"Bear Dr;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.79807,40.444711,-106.79807,40.444711",
     "geom:latitude":40.444711,
     "geom:longitude":-106.79807,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555205
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_03LSnb9RNywOk8rxqZpCQZ_40.444711_-106.798070@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441532,
-    "wof:geomhash":"cad91849b355568a9eedbfa49747d0a8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"99a08009787cfeda32a85d8ff9ced252",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555205,
+            "region_id":85688603,
+            "venue_id":823584741
+        }
+    ],
     "wof:id":823584741,
-    "wof:lastmodified":1466416875,
+    "wof:lastmodified":1492122393,
     "wof:name":"Townsend Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555205,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

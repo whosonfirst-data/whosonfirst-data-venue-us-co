@@ -2,9 +2,14 @@
   "id": 823727111,
   "type": "Feature",
   "properties": {
+    "addr:full":"8875 Washington St Denver CO 80229",
+    "addr:housenumber":"8875",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97803,39.858887,-104.97803,39.858887",
     "geom:latitude":39.858887,
     "geom:longitude":-104.97803,
@@ -29,19 +34,36 @@
         "gasoline"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_75wSQUz50C7aesJ2T7cFNU_39.858887_-104.978030@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444828,
-    "wof:geomhash":"622dfe7cdd503822b7f64f5492359563",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9834702960be0fcb32f4126c3a3b22ec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823727111
+        }
+    ],
     "wof:id":823727111,
-    "wof:lastmodified":1466418723,
+    "wof:lastmodified":1492124765,
     "wof:name":"Bradley Petroleum Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

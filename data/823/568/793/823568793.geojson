@@ -2,9 +2,14 @@
   "id": 823568793,
   "type": "Feature",
   "properties": {
+    "addr:full":"9626 Pelon Dr Denver CO 80260",
+    "addr:housenumber":"9626",
+    "addr:postcode":"80260",
+    "addr:street":"Pelon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.992919,39.869708,-104.992919,39.869708",
     "geom:latitude":39.869708,
     "geom:longitude":-104.992919,
@@ -28,19 +33,36 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1YFp7SnXQsT1r4cUAM7ujX_39.869708_-104.992919@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441160,
-    "wof:geomhash":"e07ce9e87f174b35ca14fc1212ba4e00",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d40a4742a1eeebcd3928de3799146216",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553659,
+            "region_id":85688603,
+            "venue_id":823568793
+        }
+    ],
     "wof:id":823568793,
-    "wof:lastmodified":1466416292,
+    "wof:lastmodified":1492124974,
     "wof:name":"Were Contractors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

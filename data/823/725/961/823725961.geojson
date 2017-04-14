@@ -2,9 +2,14 @@
   "id": 823725961,
   "type": "Feature",
   "properties": {
+    "addr:full":"2750 Glenwood Dr Boulder CO 80301",
+    "addr:housenumber":"2750",
+    "addr:postcode":"80301",
+    "addr:street":"Glenwood Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.25851,40.032746,-105.25851,40.032746",
     "geom:latitude":40.032746,
     "geom:longitude":-105.25851,
@@ -27,19 +32,36 @@
         "korean"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_01mKEnALPWcywOUZW4xZKv_40.032746_-105.258510@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444804,
-    "wof:geomhash":"47cf3699d10df808f763eb1bbed77c42",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9d4558289d34107de08d3f98f09a750e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":823725961
+        }
+    ],
     "wof:id":823725961,
-    "wof:lastmodified":1466418820,
+    "wof:lastmodified":1492121834,
     "wof:name":"Korea House",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823937675,
   "type": "Feature",
   "properties": {
+    "addr:full":"9882 Downing St Denver CO 80229",
+    "addr:housenumber":"9882",
+    "addr:postcode":"80229",
+    "addr:street":"Downing St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.972831,39.876832,-104.972831,39.876832",
     "geom:latitude":39.876832,
     "geom:longitude":-104.972831,
@@ -34,19 +39,36 @@
         "solar"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7DDzUuhjovDMABQVfq66qa_39.876832_-104.972831@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450470,
-    "wof:geomhash":"b28a72b98ea7de9c2ea75ce0d7ff5a94",
-    "wof:hierarchy":[],
+    "wof:geomhash":"38d8dfbb7fc43999ac6720adeaf4a635",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823937675
+        }
+    ],
     "wof:id":823937675,
-    "wof:lastmodified":1466420583,
+    "wof:lastmodified":1492120098,
     "wof:name":"Sunland Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

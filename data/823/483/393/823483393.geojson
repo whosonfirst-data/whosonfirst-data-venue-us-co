@@ -2,9 +2,14 @@
   "id": 823483393,
   "type": "Feature",
   "properties": {
+    "addr:full":"4460 W 29th Ave Denver CO 80212",
+    "addr:housenumber":"4460",
+    "addr:postcode":"80212",
+    "addr:street":"W 29Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.044705,39.75842,-105.044705,39.75842",
     "geom:latitude":39.75842,
     "geom:longitude":-105.044705,
@@ -29,19 +34,38 @@
         "leasing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871255,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_52tPVfjxiOIJ8z8EMnF8wW_39.758420_-105.044705@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439152,
-    "wof:geomhash":"bec6230bd87e77cc7b1248e6c8fcdfc2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5abcc4b11d0a59b02ccbe64e1fc2197b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871255,
+            "region_id":85688603,
+            "venue_id":823483393
+        }
+    ],
     "wof:id":823483393,
-    "wof:lastmodified":1466413703,
+    "wof:lastmodified":1492125691,
     "wof:name":"U-Haul Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871255,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

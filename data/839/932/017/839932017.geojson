@@ -2,9 +2,14 @@
   "id": 839932017,
   "type": "Feature",
   "properties": {
+    "addr:full":"785 Hartford Dr Boulder CO 80305",
+    "addr:housenumber":"785",
+    "addr:postcode":"80305",
+    "addr:street":"Hartford Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.259829,39.984485,-105.259829,39.984485",
     "geom:latitude":39.984485,
     "geom:longitude":-105.259829,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_400kHqz7fwvsOeN3eCGwbQ_39.984485_-105.259829@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458091,
-    "wof:geomhash":"5c6317a9a83d72ad245b92042554842a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7c4072eb3d966168cf1954b72d538b52",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":839932017
+        }
+    ],
     "wof:id":839932017,
-    "wof:lastmodified":1466414083,
+    "wof:lastmodified":1492112641,
     "wof:name":"Demeyer Construction Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

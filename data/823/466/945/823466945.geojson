@@ -2,9 +2,14 @@
   "id": 823466945,
   "type": "Feature",
   "properties": {
+    "addr:full":"1111 Broadway St Boulder CO 80302",
+    "addr:housenumber":"1111",
+    "addr:postcode":"80302",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275829,40.008647,-105.275829,40.008647",
     "geom:latitude":40.008647,
     "geom:longitude":-105.275829,
@@ -28,19 +33,36 @@
     ],
     "sg:website":"www.colorado.bkstre.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6rK46PGFDalCv7FomQhM5S_40.008647_-105.275829@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438766,
-    "wof:geomhash":"c489ed947fd27153484bfceeb9083f76",
-    "wof:hierarchy":[],
+    "wof:geomhash":"29ebc5b4d1d4eb03cbeb43f94225a500",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":823466945
+        }
+    ],
     "wof:id":823466945,
-    "wof:lastmodified":1466412023,
+    "wof:lastmodified":1492122659,
     "wof:name":"Colorado Book Store",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

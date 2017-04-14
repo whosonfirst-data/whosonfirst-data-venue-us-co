@@ -2,9 +2,14 @@
   "id": 839988671,
   "type": "Feature",
   "properties": {
+    "addr:full":"8711 Washington St Denver CO 80229",
+    "addr:housenumber":"8711",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978638,39.854725,-104.978638,39.854725",
     "geom:latitude":39.854725,
     "geom:longitude":-104.978638,
@@ -29,19 +34,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0BaIjVTYVX4K8fCuCTulCF_39.854725_-104.978638@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460764,
-    "wof:geomhash":"c1cbeb64e270f744b4c171e9433f2dfc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f6ec7b85cefaf30b3000d3e8273d0eb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":839988671
+        }
+    ],
     "wof:id":839988671,
-    "wof:lastmodified":1466417420,
+    "wof:lastmodified":1492112794,
     "wof:name":"Sonic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

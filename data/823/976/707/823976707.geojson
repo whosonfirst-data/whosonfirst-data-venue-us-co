@@ -2,9 +2,14 @@
   "id": 823976707,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 Pine St Trinidad CO 81082",
+    "addr:housenumber":"123",
+    "addr:postcode":"81082",
+    "addr:street":"Pine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.509875,37.172981,-104.509875,37.172981",
     "geom:latitude":37.172981,
     "geom:longitude":-104.509875,
@@ -27,17 +32,32 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929549,
+        102083357
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2R09MfEuZWjUspe2kzCqTj_37.172981_-104.509875@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451391,
-    "wof:geomhash":"17201cdad013297b0bf9392db3d82c3c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"27ad6c603b71528dfeb353543802998b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083357,
+            "locality_id":85929549,
+            "region_id":85688603,
+            "venue_id":823976707
+        }
+    ],
     "wof:id":823976707,
-    "wof:lastmodified":1466420901,
+    "wof:lastmodified":1492121863,
     "wof:name":"Little Depot Diner",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

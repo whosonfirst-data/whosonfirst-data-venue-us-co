@@ -2,9 +2,14 @@
   "id": 823478791,
   "type": "Feature",
   "properties": {
+    "addr:full":"4525 E 122nd Ave Denver CO 80241",
+    "addr:housenumber":"4525",
+    "addr:postcode":"80241",
+    "addr:street":"E 122Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931937,39.918825,-104.931937,39.918825",
     "geom:latitude":39.918825,
     "geom:longitude":-104.931937,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553765
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0XMjW84LzGxOnD7lGC9Uz2_39.918825_-104.931937@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439053,
-    "wof:geomhash":"313c25af98cd0877df4f193d58bb03a5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2e6d7e7cb4003b530685f9470f467cf0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553765,
+            "region_id":85688603,
+            "venue_id":823478791
+        }
+    ],
     "wof:id":823478791,
-    "wof:lastmodified":1466413220,
+    "wof:lastmodified":1492123989,
     "wof:name":"Jeff Craft Electric Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553765,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

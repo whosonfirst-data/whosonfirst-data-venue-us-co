@@ -2,9 +2,14 @@
   "id": 839917909,
   "type": "Feature",
   "properties": {
+    "addr:full":"4854 Brandon Creek Dr Boulder CO 80301",
+    "addr:housenumber":"4854",
+    "addr:postcode":"80301",
+    "addr:street":"Brandon Creek Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.195011,40.063643,-105.195011,40.063643",
     "geom:latitude":40.063643,
     "geom:longitude":-105.195011,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420559267
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2jOOFFCxKDISdWkMGwPmXd_40.063643_-105.195011@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457406,
-    "wof:geomhash":"a07161dca628eb4faa3a4ce401b2cfa3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6593629c67906fa0a9a6fcc141edf133",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420559267,
+            "region_id":85688603,
+            "venue_id":839917909
+        }
+    ],
     "wof:id":839917909,
-    "wof:lastmodified":1466413493,
+    "wof:lastmodified":1492111120,
     "wof:name":"Home Design Gallery Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559267,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

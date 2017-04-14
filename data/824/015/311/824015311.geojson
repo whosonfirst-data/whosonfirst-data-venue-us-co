@@ -2,9 +2,14 @@
   "id": 824015311,
   "type": "Feature",
   "properties": {
+    "addr:full":"4688 W Alameda Ave Denver CO 80219",
+    "addr:housenumber":"4688",
+    "addr:postcode":"80219",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.0492,39.711242,-105.0492,39.711242",
     "geom:latitude":39.711242,
     "geom:longitude":-105.0492,
@@ -27,7 +32,15 @@
         "fraternal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1h2nXDPGL8iBYxjjgWLOBS_39.711242_-105.049200@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463452323,
     "wof:geomhash":"6e07a471eece29f9406665764fd23034",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":824015311
+        }
+    ],
     "wof:id":824015311,
-    "wof:lastmodified":1466413428,
+    "wof:lastmodified":1491876165,
     "wof:name":"Moose Lodge 21",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

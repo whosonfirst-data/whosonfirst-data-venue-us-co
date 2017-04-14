@@ -2,9 +2,14 @@
   "id": 823825651,
   "type": "Feature",
   "properties": {
+    "addr:full":"1505 Mariposa Ave Boulder CO 80302",
+    "addr:housenumber":"1505",
+    "addr:postcode":"80302",
+    "addr:street":"Mariposa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.272523,39.998255,-105.272523,39.998255",
     "geom:latitude":39.998255,
     "geom:longitude":-105.272523,
@@ -27,19 +32,36 @@
         "taping"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6TINyOzZYRO8WXzejLOe6H_39.998255_-105.272523@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447468,
-    "wof:geomhash":"cf19757db9e77e311e027a92605c1c7e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ad37e5047df14eee5f06557892e936d2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554117,
+            "region_id":85688603,
+            "venue_id":823825651
+        }
+    ],
     "wof:id":823825651,
-    "wof:lastmodified":1466419609,
+    "wof:lastmodified":1492123459,
     "wof:name":"Landlocked Films",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554117,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

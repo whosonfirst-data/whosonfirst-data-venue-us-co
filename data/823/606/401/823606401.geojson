@@ -2,9 +2,14 @@
   "id": 823606401,
   "type": "Feature",
   "properties": {
+    "addr:full":"12760 Colorado Blvd Denver CO 80241",
+    "addr:housenumber":"12760",
+    "addr:postcode":"80241",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940136,39.927236,-104.940136,39.927236",
     "geom:latitude":39.927236,
     "geom:longitude":-104.940136,
@@ -28,19 +33,36 @@
         "parts"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553843
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3GwvSASJR8eQA0SZOgvm5y_39.927236_-104.940136@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442053,
-    "wof:geomhash":"12965a93d62ec0a8c8619f039cc289dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"861f97992f40920c95791b68b5847b91",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553843,
+            "region_id":85688603,
+            "venue_id":823606401
+        }
+    ],
     "wof:id":823606401,
-    "wof:lastmodified":1466417220,
+    "wof:lastmodified":1492121320,
     "wof:name":"Autozone",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553843,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823616565,
   "type": "Feature",
   "properties": {
+    "addr:full":"27458 Brandon Cir Steamboat Springs CO 80487",
+    "addr:housenumber":"27458",
+    "addr:postcode":"80487",
+    "addr:street":"Brandon Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.904671,40.505707,-106.904671,40.505707",
     "geom:latitude":40.505707,
     "geom:longitude":-106.904671,
@@ -31,19 +36,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555227,
+        420555225
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Ur6IKEb4L5F9UEv1FkuuS_40.505707_-106.904671@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442310,
-    "wof:geomhash":"9299ab55e7b6e718253c41dc1582f6a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"444d67a153b206653ccd895695929c95",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555227,
+            "venue_id":823616565
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555225,
+            "venue_id":823616565
+        }
+    ],
     "wof:id":823616565,
-    "wof:lastmodified":1466417400,
+    "wof:lastmodified":1492116232,
     "wof:name":"Northern Colo Plbg & Htg LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

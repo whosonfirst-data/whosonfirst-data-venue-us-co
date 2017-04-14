@@ -2,9 +2,14 @@
   "id": 823956281,
   "type": "Feature",
   "properties": {
+    "addr:full":"1420 Jamaica St Aurora CO 80010",
+    "addr:housenumber":"1420",
+    "addr:postcode":"80010",
+    "addr:street":"Jamaica St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.862216,39.739818,-104.862216,39.739818",
     "geom:latitude":39.739818,
     "geom:longitude":-104.862216,
@@ -27,19 +32,36 @@
         "accountant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553943
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1EQKWpB4mRTwNdSmyWtOoa_39.739818_-104.862216@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450909,
-    "wof:geomhash":"b0a647e8776e8ebf10b651df8f3bd5ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e9534c4cdd6199d5bc1f41825dfa0f98",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553943,
+            "region_id":85688603,
+            "venue_id":823956281
+        }
+    ],
     "wof:id":823956281,
-    "wof:lastmodified":1466420739,
+    "wof:lastmodified":1492119997,
     "wof:name":"Gerald S Jones Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553943,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824051415,
   "type": "Feature",
   "properties": {
+    "addr:full":"870 Zenobia St Denver CO 80204",
+    "addr:housenumber":"870",
+    "addr:postcode":"80204",
+    "addr:street":"Zenobia St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052025,39.730008,-105.052025,39.730008",
     "geom:latitude":39.730008,
     "geom:longitude":-105.052025,
@@ -24,7 +29,15 @@
     "sg:postcode":"80204",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750097,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1vFVJNgjaFnUAFZ9m3MKcS_39.730008_-105.052025@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463453198,
     "wof:geomhash":"82a7dbc284d5bd607177f7acc2d5566c",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750097,
+            "region_id":85688603,
+            "venue_id":824051415
+        }
+    ],
     "wof:id":824051415,
-    "wof:lastmodified":1466414192,
+    "wof:lastmodified":1486593774,
     "wof:name":"Freddies Landscaping",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750097,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

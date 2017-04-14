@@ -2,9 +2,14 @@
   "id": 824142797,
   "type": "Feature",
   "properties": {
+    "addr:full":"583 S Lowell Blvd Denver CO 80219",
+    "addr:housenumber":"583",
+    "addr:postcode":"80219",
+    "addr:street":"S Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.035113,39.706652,-105.035113,39.706652",
     "geom:latitude":39.706652,
     "geom:longitude":-105.035113,
@@ -28,7 +33,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0dVXz6k8Y4e6fwDRbc2AVY_39.706652_-105.035113@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463455610,
     "wof:geomhash":"b95fed62ee8c132f0e88437ded4adf14",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":824142797
+        }
+    ],
     "wof:id":824142797,
-    "wof:lastmodified":1466416611,
+    "wof:lastmodified":1486589648,
     "wof:name":"R & D Asphalt",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

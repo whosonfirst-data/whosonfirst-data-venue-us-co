@@ -2,9 +2,14 @@
   "id": 824165857,
   "type": "Feature",
   "properties": {
+    "addr:full":"1200 Florida Rd Durango CO 81301",
+    "addr:housenumber":"1200",
+    "addr:postcode":"co 81301",
+    "addr:street":"Florida Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.854197,37.295729,-107.854197,37.295729",
     "geom:latitude":37.295729,
     "geom:longitude":-107.854197,
@@ -28,19 +33,28 @@
         "metal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2mtcrlf3vSGaJ0Cn3NkKbT_37.295729_-107.854197@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456526,
-    "wof:geomhash":"d035f3158e3aa5ba19b68e0669ad6bbe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"61f087e193c4173a541f165321a153c0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":824165857
+        }
+    ],
     "wof:id":824165857,
-    "wof:lastmodified":1466417682,
+    "wof:lastmodified":1492129892,
     "wof:name":"Conemporary Metal",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

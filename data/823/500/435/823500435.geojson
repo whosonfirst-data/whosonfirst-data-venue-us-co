@@ -2,9 +2,14 @@
   "id": 823500435,
   "type": "Feature",
   "properties": {
+    "addr:full":"56000 E Colfax Ave Strasburg CO 80136",
+    "addr:housenumber":"56000",
+    "addr:postcode":"80136",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.332244,39.738392,-104.332244,39.738392",
     "geom:latitude":39.738392,
     "geom:longitude":-104.332244,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6VT8l6rbzC0u2XfMQXsWKr_39.738392_-104.332244@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439585,
-    "wof:geomhash":"c24e7cb5e10c02d954e6ec6359c7ac74",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c1c58b3c42855edf45f9ad4c6f861be",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823500435
+        }
+    ],
     "wof:id":823500435,
-    "wof:lastmodified":1466414266,
+    "wof:lastmodified":1492125547,
     "wof:name":"High Plains Christian Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

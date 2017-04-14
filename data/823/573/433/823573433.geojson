@@ -2,9 +2,14 @@
   "id": 823573433,
   "type": "Feature",
   "properties": {
+    "addr:full":"56441 E Colfax Ave Strasburg CO 80136",
+    "addr:housenumber":"56441",
+    "addr:postcode":"80136",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.326883,39.73842,-104.326883,39.73842",
     "geom:latitude":39.73842,
     "geom:longitude":-104.326883,
@@ -27,19 +32,36 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6IQnneEcQyEOryUvSmoHm8_39.738420_-104.326883@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441262,
-    "wof:geomhash":"4cc25357d87565b9e6d7381b47820166",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9e543d17b045342b12faa0a71f0186b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823573433
+        }
+    ],
     "wof:id":823573433,
-    "wof:lastmodified":1466416406,
+    "wof:lastmodified":1492125275,
     "wof:name":"Rocky Mountain Internal Mdcn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

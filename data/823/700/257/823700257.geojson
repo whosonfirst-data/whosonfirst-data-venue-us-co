@@ -2,9 +2,14 @@
   "id": 823700257,
   "type": "Feature",
   "properties": {
+    "addr:full":"295 N 12th Ave Brighton CO 80601",
+    "addr:housenumber":"295",
+    "addr:postcode":"80601",
+    "addr:street":"N 12Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.807054,39.99039,-104.807054,39.99039",
     "geom:latitude":39.99039,
     "geom:longitude":-104.807054,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5K9PAuB97X2Ysw7eBusUX5_39.990390_-104.807054@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444241,
-    "wof:geomhash":"c433025b129736d2b603c86bef0f857c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"621813f9173cfde7a51b392bc0f2235b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":823700257
+        }
+    ],
     "wof:id":823700257,
-    "wof:lastmodified":1466418552,
+    "wof:lastmodified":1492119137,
     "wof:name":"Longs Peak Church Of God",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

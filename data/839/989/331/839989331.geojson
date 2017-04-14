@@ -2,9 +2,14 @@
   "id": 839989331,
   "type": "Feature",
   "properties": {
+    "addr:full":"1805 9th St Boulder CO 80302",
+    "addr:housenumber":"1805",
+    "addr:postcode":"80302",
+    "addr:street":"9Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.28344,40.015234,-105.28344,40.015234",
     "geom:latitude":40.015234,
     "geom:longitude":-105.28344,
@@ -28,7 +33,14 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6bXSAj5FL3ZGlXbq1j74iN_40.015234_-105.283440@1299784598"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463460784,
     "wof:geomhash":"3221b0180da4e973625316553243566b",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":839989331
+        }
+    ],
     "wof:id":839989331,
-    "wof:lastmodified":1466417377,
+    "wof:lastmodified":1491897916,
     "wof:name":"Mad Greens",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

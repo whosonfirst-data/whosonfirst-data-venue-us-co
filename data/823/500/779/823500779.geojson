@@ -2,9 +2,14 @@
   "id": 823500779,
   "type": "Feature",
   "properties": {
+    "addr:full":"50 W 70th Ave Denver CO 80221",
+    "addr:housenumber":"50",
+    "addr:postcode":"80221",
+    "addr:street":"W 70Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98743,39.823572,-104.98743,39.823572",
     "geom:latitude":39.823572,
     "geom:longitude":-104.98743,
@@ -29,19 +34,47 @@
         "plate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553727,
+        85930251,
+        420553625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0iaKXIwClfLXYNXn8IEslp_39.823572_-104.987430@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439591,
-    "wof:geomhash":"962a40d25000e5339e1a0b01bcf0392e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"48b0f7ed84bea141a5eda342d79e5d7e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553727,
+            "region_id":85688603,
+            "venue_id":823500779
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553625,
+            "region_id":85688603,
+            "venue_id":823500779
+        }
+    ],
     "wof:id":823500779,
-    "wof:lastmodified":1466414278,
+    "wof:lastmodified":1492125560,
     "wof:name":"Superior Auto Glass",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

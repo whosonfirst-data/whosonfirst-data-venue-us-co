@@ -2,9 +2,14 @@
   "id": 823747143,
   "type": "Feature",
   "properties": {
+    "addr:full":"815 Co Rd 252 Durango CO 81301",
+    "addr:housenumber":"815;252",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.837006,37.385449,-107.837006,37.385449",
     "geom:latitude":37.385449,
     "geom:longitude":-107.837006,
@@ -28,19 +33,28 @@
         "concrete"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_43cI9RDtgYqB6ODcCiLXQj_37.385449_-107.837006@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445308,
-    "wof:geomhash":"12fe31b5c6223e250fc49614f13c3b08",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e7e5da937b8553469201a6df57a3ed3a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554631,
+            "venue_id":823747143
+        }
+    ],
     "wof:id":823747143,
-    "wof:lastmodified":1466418877,
+    "wof:lastmodified":1492117979,
     "wof:name":"Four Corners Materials",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554631,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

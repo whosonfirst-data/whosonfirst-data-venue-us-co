@@ -2,9 +2,14 @@
   "id": 824075299,
   "type": "Feature",
   "properties": {
+    "addr:full":"8778 Osage St Denver CO 80260",
+    "addr:housenumber":"8778",
+    "addr:postcode":"80260",
+    "addr:street":"Osage St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.004955,39.855889,-105.004955,39.855889",
     "geom:latitude":39.855889,
     "geom:longitude":-105.004955,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553825
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3wRwKC6Ha9HoIA9gHo0L9k_39.855889_-105.004955@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453747,
-    "wof:geomhash":"f4a28b6df66f8c4f27b34b280ac471ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a3acbbd704d54004eee4a76a9c340fa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553825,
+            "region_id":85688603,
+            "venue_id":824075299
+        }
+    ],
     "wof:id":824075299,
-    "wof:lastmodified":1466414673,
+    "wof:lastmodified":1492131135,
     "wof:name":"Nicolas Carpentry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553825,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

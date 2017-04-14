@@ -2,9 +2,14 @@
   "id": 839961363,
   "type": "Feature",
   "properties": {
+    "addr:full":"5600 Washington St Denver CO 80216",
+    "addr:housenumber":"5600",
+    "addr:postcode":"80216",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978121,39.800376,-104.978121,39.800376",
     "geom:latitude":39.800376,
     "geom:longitude":-104.978121,
@@ -27,19 +32,36 @@
         "producer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Z9iFETeOxMnV1vrYu38MR_39.800376_-104.978121@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459661,
-    "wof:geomhash":"d43aa1e7c154bb1e45404ebceca89133",
-    "wof:hierarchy":[],
+    "wof:geomhash":"374cd123f54f9c72cefae76f1e96c403",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":839961363
+        }
+    ],
     "wof:id":839961363,
-    "wof:lastmodified":1466415691,
+    "wof:lastmodified":1492111561,
     "wof:name":"Cowchips LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

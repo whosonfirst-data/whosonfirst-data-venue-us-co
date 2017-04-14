@@ -2,9 +2,14 @@
   "id": 839989417,
   "type": "Feature",
   "properties": {
+    "addr:full":"1326 College Ave Boulder CO 80302",
+    "addr:housenumber":"1326",
+    "addr:postcode":"80302",
+    "addr:street":"College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275874,40.007308,-105.275874,40.007308",
     "geom:latitude":40.007308,
     "geom:longitude":-105.275874,
@@ -28,19 +33,36 @@
         "french"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5T1cPHnbc3halooIBZkowa_40.007308_-105.275874@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460787,
-    "wof:geomhash":"2c5d129fb1cf8ece38c151f37456611d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a515dd34f667fc5f52ddf8d627b7ad32",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839989417
+        }
+    ],
     "wof:id":839989417,
-    "wof:lastmodified":1466417387,
+    "wof:lastmodified":1492111058,
     "wof:name":"Crepes To Go Go",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839947217,
   "type": "Feature",
   "properties": {
+    "addr:full":"12563 Co Rd 6 Brighton CO 80603",
+    "addr:housenumber":"12563",
+    "addr:postcode":"80603",
+    "addr:street":"Co Rd 6",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.824712,40.029425,-104.824712,40.029425",
     "geom:latitude":40.029425,
     "geom:longitude":-104.824712,
@@ -28,19 +33,28 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5fO2BuWWYZDodIypVruvAb_40.029425_-104.824712@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459000,
-    "wof:geomhash":"8b784299bafb8a8047522b77a8bdeab0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d7e7a5bec542406561898e214d484c4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":839947217
+        }
+    ],
     "wof:id":839947217,
-    "wof:lastmodified":1466415139,
+    "wof:lastmodified":1492113039,
     "wof:name":"DJR Well Svc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

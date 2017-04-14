@@ -2,9 +2,14 @@
   "id": 823822913,
   "type": "Feature",
   "properties": {
+    "addr:full":"344 Main St Longmont CO 80501",
+    "addr:housenumber":"344",
+    "addr:postcode":"80501",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.10244,40.164925,-105.10244,40.164925",
     "geom:latitude":40.164925,
     "geom:longitude":-105.10244,
@@ -27,17 +32,32 @@
         "concrete"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2iOb5RXoZNMzAojjuvW5s4_40.164925_-105.102440@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447380,
-    "wof:geomhash":"c1ad3f0c1aa6bcb444f17a0ec75afdba",
-    "wof:hierarchy":[],
+    "wof:geomhash":"94e17171ee388b79a56d1a4e63996d84",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823822913
+        }
+    ],
     "wof:id":823822913,
-    "wof:lastmodified":1466419588,
+    "wof:lastmodified":1492116369,
     "wof:name":"Viking Construction",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

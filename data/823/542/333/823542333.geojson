@@ -2,9 +2,14 @@
   "id": 823542333,
   "type": "Feature",
   "properties": {
+    "addr:full":"5955 E 56th Ave Commerce City CO 80022",
+    "addr:housenumber":"5955",
+    "addr:postcode":"80022",
+    "addr:street":"E 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.920085,39.798415,-104.920085,39.798415",
     "geom:latitude":39.798415,
     "geom:longitude":-104.920085,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5kp8197tDSr1BvnGyByguL_39.798415_-104.920085@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440516,
-    "wof:geomhash":"16133f8912a0b7c7b14da8d5300d06e5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d04da9409fe9ee9adfdf0d335ea30623",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553923,
+            "region_id":85688603,
+            "venue_id":823542333
+        }
+    ],
     "wof:id":823542333,
-    "wof:lastmodified":1466415471,
+    "wof:lastmodified":1492124575,
     "wof:name":"Intermountain Door Svc & Sup",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824106917,
   "type": "Feature",
   "properties": {
+    "addr:full":"11001 E 53rd Ave Denver CO 80239",
+    "addr:housenumber":"11001",
+    "addr:postcode":"80239",
+    "addr:street":"E 53Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.859773,39.79319,-104.859773,39.79319",
     "geom:latitude":39.79319,
     "geom:longitude":-104.859773,
@@ -34,7 +39,15 @@
     ],
     "sg:website":"www.tmsalesinc.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Kr3gsu5N6YzKUHizIqIOi_39.793190_-104.859773@1294083659"
@@ -42,11 +55,22 @@
     "wof:country":"US",
     "wof:created":1463454484,
     "wof:geomhash":"fd577532d6db9fa08b0fb3069465e2b6",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":824106917
+        }
+    ],
     "wof:id":824106917,
-    "wof:lastmodified":1466415338,
+    "wof:lastmodified":1491887424,
     "wof:name":"T M Sales Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

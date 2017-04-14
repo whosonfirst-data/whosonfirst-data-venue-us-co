@@ -2,9 +2,14 @@
   "id": 823494093,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 Park Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"100",
+    "addr:postcode":"80487",
+    "addr:street":"Park Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.827292,40.491498,-106.827292,40.491498",
     "geom:latitude":40.491498,
     "geom:longitude":-106.827292,
@@ -24,19 +29,36 @@
     "sg:postcode":"80487",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555165
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_47VmpY5akOplMskWmZp2L9_40.491498_-106.827292@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439400,
-    "wof:geomhash":"11a049c0be7a091baff23edd86157a9a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"75e6c78c58c3f8d9f70ead165098481f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555165,
+            "region_id":85688603,
+            "venue_id":823494093
+        }
+    ],
     "wof:id":823494093,
-    "wof:lastmodified":1466414116,
+    "wof:lastmodified":1492119978,
     "wof:name":"Eyecare Specialties",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555165,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

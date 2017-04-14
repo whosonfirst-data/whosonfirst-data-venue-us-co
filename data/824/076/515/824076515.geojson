@@ -2,9 +2,14 @@
   "id": 824076515,
   "type": "Feature",
   "properties": {
+    "addr:full":"6671 E 120th Pl Brighton CO 80602",
+    "addr:housenumber":"6671",
+    "addr:postcode":"80602",
+    "addr:street":"E 120Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.910428,39.915248,-104.910428,39.915248",
     "geom:latitude":39.915248,
     "geom:longitude":-104.910428,
@@ -27,19 +32,36 @@
         "passenger"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7hqnYhdCfbfcLS5HCdBh7r_39.915248_-104.910428@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453774,
-    "wof:geomhash":"887e8e619d3bef1abd333497c848a5fa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a5d834c070223de72bd073c829784260",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":824076515
+        }
+    ],
     "wof:id":824076515,
-    "wof:lastmodified":1466414689,
+    "wof:lastmodified":1492131211,
     "wof:name":"Cross Limousine Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

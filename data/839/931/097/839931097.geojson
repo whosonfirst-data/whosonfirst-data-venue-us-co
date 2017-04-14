@@ -2,9 +2,14 @@
   "id": 839931097,
   "type": "Feature",
   "properties": {
+    "addr:full":"1025 S Gaylord St Denver CO 80209",
+    "addr:housenumber":"1025",
+    "addr:postcode":"80209",
+    "addr:street":"S Gaylord St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961816,39.697028,-104.961816,39.697028",
     "geom:latitude":39.697028,
     "geom:longitude":-104.961816,
@@ -32,7 +37,15 @@
         "class"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554305,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_17CJ3Mr112O6gHXuEYBnk4_39.697028_-104.961816@1294083659"
@@ -40,11 +53,22 @@
     "wof:country":"US",
     "wof:created":1463458038,
     "wof:geomhash":"1ce8c29c8587b6093457c4dc8594d135",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":420554305,
+            "region_id":85688603,
+            "venue_id":839931097
+        }
+    ],
     "wof:id":839931097,
-    "wof:lastmodified":1466414264,
+    "wof:lastmodified":1491866091,
     "wof:name":"Quilts In The Attic Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

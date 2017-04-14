@@ -2,9 +2,14 @@
   "id": 824166047,
   "type": "Feature",
   "properties": {
+    "addr:full":"3669 W Co Rd 80 Wellington CO 80549",
+    "addr:housenumber":"3669;80",
+    "addr:postcode":"80549",
+    "addr:street":"W Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.14964,40.832387,-105.14964,40.832387",
     "geom:latitude":40.832387,
     "geom:longitude":-105.14964,
@@ -29,19 +34,36 @@
         "cattle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        85877453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1c5fFuk20m6dURWqMVZyE2_40.832387_-105.149640@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456533,
-    "wof:geomhash":"95e30f140125283d4e379f2c160c37c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f9a8b01ac37b2478bd1f12e312df1eb6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877453,
+            "region_id":85688603,
+            "venue_id":824166047
+        }
+    ],
     "wof:id":824166047,
-    "wof:lastmodified":1466417829,
+    "wof:lastmodified":1492128128,
     "wof:name":"Sunnybrook Cattle Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":85877453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839918427,
   "type": "Feature",
   "properties": {
+    "addr:full":"3137 W Kentucky Ave Denver CO 80219",
+    "addr:housenumber":"3137",
+    "addr:postcode":"80219",
+    "addr:street":"W Kentucky Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025369,39.700483,-105.025369,39.700483",
     "geom:latitude":39.700483,
     "geom:longitude":-105.025369,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1UDWw2J5ddTG9RMJXruLAP_39.700483_-105.025369@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463457423,
     "wof:geomhash":"659469556fd115c4bcd7850826d0b52a",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":839918427
+        }
+    ],
     "wof:id":839918427,
-    "wof:lastmodified":1466413606,
+    "wof:lastmodified":1486589755,
     "wof:name":"Angela's Beauty Salon",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823821257,
   "type": "Feature",
   "properties": {
+    "addr:full":"155 N Main St Brighton CO 80601",
+    "addr:housenumber":"155",
+    "addr:postcode":"80601",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.820903,39.988956,-104.820903,39.988956",
     "geom:latitude":39.988956,
     "geom:longitude":-104.820903,
@@ -24,19 +29,36 @@
     "sg:postcode":"80601",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4CBpe6Noyvye7vRYyu2CWV_39.988956_-104.820903@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447328,
-    "wof:geomhash":"19c66b00a8e938859f2eacd74155ee54",
-    "wof:hierarchy":[],
+    "wof:geomhash":"be0b21c0d2e074e769bc79aeb12deb19",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823821257
+        }
+    ],
     "wof:id":823821257,
-    "wof:lastmodified":1466419528,
+    "wof:lastmodified":1492124536,
     "wof:name":"Brighton's Service Laundry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

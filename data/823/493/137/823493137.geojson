@@ -2,9 +2,14 @@
   "id": 823493137,
   "type": "Feature",
   "properties": {
+    "addr:full":"4122 Amber St Boulder CO 80304",
+    "addr:housenumber":"4122",
+    "addr:postcode":"80304",
+    "addr:street":"Amber St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260956,40.049318,-105.260956,40.049318",
     "geom:latitude":40.049318,
     "geom:longitude":-105.260956,
@@ -27,19 +32,28 @@
         "proofreading"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553975
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4muJaxCKxQLXD50JrDMxAf_40.049318_-105.260956@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439378,
-    "wof:geomhash":"ae0b2da8d52a6e174b59625805db42bc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f92581b94f6b0e55d4c8998bd685511e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553975,
+            "venue_id":823493137
+        }
+    ],
     "wof:id":823493137,
-    "wof:lastmodified":1466413898,
+    "wof:lastmodified":1492116541,
     "wof:name":"Write Proof",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553975,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

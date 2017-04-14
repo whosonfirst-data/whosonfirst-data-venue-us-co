@@ -2,9 +2,14 @@
   "id": 823640513,
   "type": "Feature",
   "properties": {
+    "addr:full":"7293 Monaco St Commerce City CO 80022",
+    "addr:housenumber":"7293",
+    "addr:postcode":"80022",
+    "addr:street":"Monaco St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.912115,39.828385,-104.912115,39.828385",
     "geom:latitude":39.828385,
     "geom:longitude":-104.912115,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553491
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_02v9L0KWVfp072VYM9NmbA_39.828385_-104.912115@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442867,
-    "wof:geomhash":"8b9f740395075274ff2b3ada1ddcebbb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"efaf3f6b5bd3f3a852ec8d5ccc53c05b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553491,
+            "region_id":85688603,
+            "venue_id":823640513
+        }
+    ],
     "wof:id":823640513,
-    "wof:lastmodified":1466417912,
+    "wof:lastmodified":1492119381,
     "wof:name":"Ben Martinez Sr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553491,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823847537,
   "type": "Feature",
   "properties": {
+    "addr:full":"3000 Colorado Ave Boulder CO 80303",
+    "addr:housenumber":"3000",
+    "addr:postcode":"80303",
+    "addr:street":"Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.252459,40.007431,-105.252459,40.007431",
     "geom:latitude":40.007431,
     "geom:longitude":-105.252459,
@@ -28,19 +33,46 @@
         "publishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0UuABSVyIK3MDehlfxaFFh_40.007431_-105.252459@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448159,
-    "wof:geomhash":"2a5437c4655535bc197ec93748eddf58",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8f1b584a7bfccaa923e5d3fe6a8afcd3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":823847537
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":823847537
+        }
+    ],
     "wof:id":823847537,
-    "wof:lastmodified":1466419764,
+    "wof:lastmodified":1492124336,
     "wof:name":"Prosperos Press",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

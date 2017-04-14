@@ -2,9 +2,14 @@
   "id": 823567055,
   "type": "Feature",
   "properties": {
+    "addr:full":"603 S Hancock Ave Colorado Springs CO 80903",
+    "addr:housenumber":"603",
+    "addr:postcode":"80903",
+    "addr:street":"S Hancock Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.804155,38.824391,-104.804155,38.824391",
     "geom:latitude":38.824391,
     "geom:longitude":-104.804155,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554343
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_35GiVfkSv53XDNClkS0wUx_38.824391_-104.804155@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441115,
-    "wof:geomhash":"ccbb61a43e920d5f0dc9ca288094f9ff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ca95fbe95dbe02a00f849fd6e989264d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554343,
+            "region_id":85688603,
+            "venue_id":823567055
+        }
+    ],
     "wof:id":823567055,
-    "wof:lastmodified":1466416177,
+    "wof:lastmodified":1492126512,
     "wof:name":"Church Of Christ",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554343,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

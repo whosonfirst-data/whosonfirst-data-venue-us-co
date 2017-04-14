@@ -2,9 +2,14 @@
   "id": 824167795,
   "type": "Feature",
   "properties": {
+    "addr:full":"1002 E Main St Cortez CO 81321",
+    "addr:housenumber":"1002",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572682,37.3489,-108.572682,37.3489",
     "geom:latitude":37.3489,
     "geom:longitude":-108.572682,
@@ -27,19 +32,36 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555047
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2aiqT6c3kt5b90fuCu3fn9_37.348900_-108.572682@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456597,
-    "wof:geomhash":"d8692ead63862581d3dd005119605281",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5aaf2ad9f77ac7b0e319a31c39e50a13",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555047,
+            "region_id":85688603,
+            "venue_id":824167795
+        }
+    ],
     "wof:id":824167795,
-    "wof:lastmodified":1466417889,
+    "wof:lastmodified":1492128211,
     "wof:name":"Atmos Energy Colorado Div",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555047,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

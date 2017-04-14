@@ -2,9 +2,14 @@
   "id": 823787333,
   "type": "Feature",
   "properties": {
+    "addr:full":"335 S Lincoln Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"335",
+    "addr:postcode":"80487",
+    "addr:street":"S Lincoln Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.826529,40.478034,-106.826529,40.478034",
     "geom:latitude":40.478034,
     "geom:longitude":-106.826529,
@@ -29,19 +34,36 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555185
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_059Ce6CLiCLmpjND2aCdQc_40.478034_-106.826529@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446325,
-    "wof:geomhash":"8392ed72e3af63aa2410dd02f4a743fe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"50edf1d5b518de0d4e0feb97e835588b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555185,
+            "region_id":85688603,
+            "venue_id":823787333
+        }
+    ],
     "wof:id":823787333,
-    "wof:lastmodified":1466419254,
+    "wof:lastmodified":1492117677,
     "wof:name":"Young Life Ministry",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555185,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

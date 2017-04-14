@@ -2,9 +2,14 @@
   "id": 824072273,
   "type": "Feature",
   "properties": {
+    "addr:full":"8853 Fox Dr Denver CO 80260",
+    "addr:housenumber":"8853",
+    "addr:postcode":"80260",
+    "addr:street":"Fox Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994168,39.857273,-104.994168,39.857273",
     "geom:latitude":39.857273,
     "geom:longitude":-104.994168,
@@ -28,19 +33,36 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553733
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6srg5gMrW6ZC9n9BK4BOBD_39.857273_-104.994168@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453671,
-    "wof:geomhash":"206655d80693b4676a14b9790bbd60d1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cbeafb508ff79d0ac38d3a27dcc7d2a2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553733,
+            "region_id":85688603,
+            "venue_id":824072273
+        }
+    ],
     "wof:id":824072273,
-    "wof:lastmodified":1466414612,
+    "wof:lastmodified":1492129853,
     "wof:name":"Northern Hematology-Oncology",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553733,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

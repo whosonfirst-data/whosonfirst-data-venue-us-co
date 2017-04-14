@@ -2,9 +2,14 @@
   "id": 823981179,
   "type": "Feature",
   "properties": {
+    "addr:full":"261 S 21st Pl Brighton CO 80601",
+    "addr:housenumber":"261",
+    "addr:postcode":"80601",
+    "addr:street":"S 21St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.795511,39.982725,-104.795511,39.982725",
     "geom:latitude":39.982725,
     "geom:longitude":-104.795511,
@@ -29,19 +34,36 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3aR7kiOfkLajPq0GTrRgQ5_39.982725_-104.795511@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451514,
-    "wof:geomhash":"421137a789797ddf5081d3041a6acbd2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9ce1077db0c9810c3702d151a77e6bc9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":823981179
+        }
+    ],
     "wof:id":823981179,
-    "wof:lastmodified":1466420879,
+    "wof:lastmodified":1492126596,
     "wof:name":"Platte Valley Communications",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

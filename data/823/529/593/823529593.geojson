@@ -2,9 +2,14 @@
   "id": 823529593,
   "type": "Feature",
   "properties": {
+    "addr:full":"860 E 68th Ave Denver CO 80229",
+    "addr:housenumber":"860",
+    "addr:postcode":"80229",
+    "addr:street":"E 68Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974765,39.819905,-104.974765,39.819905",
     "geom:latitude":39.819905,
     "geom:longitude":-104.974765,
@@ -36,19 +41,36 @@
         "animal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1YoFHgkQ1FIGVkJQFfhmWo_39.819905_-104.974765@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440245,
-    "wof:geomhash":"1b68cdb7c261ef431a6dfab7be989aca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"280ae856609c09eebfd10728d69bd736",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":823529593
+        }
+    ],
     "wof:id":823529593,
-    "wof:lastmodified":1466415240,
+    "wof:lastmodified":1492117338,
     "wof:name":"North Washington St Kennels",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

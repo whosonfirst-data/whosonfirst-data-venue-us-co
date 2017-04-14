@@ -2,9 +2,14 @@
   "id": 823906465,
   "type": "Feature",
   "properties": {
+    "addr:full":"1800 Potomac St Aurora CO 80011",
+    "addr:housenumber":"1800",
+    "addr:postcode":"80011",
+    "addr:street":"Potomac St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.826268,39.747425,-104.826268,39.747425",
     "geom:latitude":39.747425,
     "geom:longitude":-104.826268,
@@ -29,19 +34,46 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553277,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4vKyygTVcTWIPV3qkdZT82_39.747425_-104.826268@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449633,
-    "wof:geomhash":"2c3c69607ed47cc61d5171a2292c8fcf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d5b2914a7d797ae952a2a45e9535763",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553277,
+            "region_id":85688603,
+            "venue_id":823906465
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":823906465
+        }
+    ],
     "wof:id":823906465,
-    "wof:lastmodified":1466420250,
+    "wof:lastmodified":1492118194,
     "wof:name":"Brr Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

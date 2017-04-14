@@ -2,9 +2,14 @@
   "id": 823538955,
   "type": "Feature",
   "properties": {
+    "addr:full":"2010 W 120th Ave Denver CO 80234",
+    "addr:housenumber":"2010",
+    "addr:postcode":"80234",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.014377,39.913846,-105.014377,39.913846",
     "geom:latitude":39.913846,
     "geom:longitude":-105.014377,
@@ -28,19 +33,36 @@
         "massage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4GUlcG1hKMrvaknaln60V0_39.913846_-105.014377@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440447,
-    "wof:geomhash":"b7447a11b418491e8ef97533a47b8c55",
-    "wof:hierarchy":[],
+    "wof:geomhash":"827e2ae53d274d4e1dbf0e83c4e8bd32",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823538955
+        }
+    ],
     "wof:id":823538955,
-    "wof:lastmodified":1466415615,
+    "wof:lastmodified":1492116453,
     "wof:name":"Rejuvenate With Therapeutic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

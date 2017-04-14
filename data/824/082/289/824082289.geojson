@@ -2,9 +2,14 @@
   "id": 824082289,
   "type": "Feature",
   "properties": {
+    "addr:full":"3250 E 105th Pl Northglenn CO 80233",
+    "addr:housenumber":"3250",
+    "addr:postcode":"80233",
+    "addr:street":"E 105Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.948086,39.887053,-104.948086,39.887053",
     "geom:latitude":39.887053,
     "geom:longitude":-104.948086,
@@ -28,19 +33,36 @@
         "gutter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5sLLY95dLCu2mT1DKIzv3v_39.887053_-104.948086@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453901,
-    "wof:geomhash":"ebdc0fd991e6432771b2af9e747836d8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4fc1d616f6daf4853af74e66f718a99f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":824082289
+        }
+    ],
     "wof:id":824082289,
-    "wof:lastmodified":1466414638,
+    "wof:lastmodified":1492128328,
     "wof:name":"Absolute Gutters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

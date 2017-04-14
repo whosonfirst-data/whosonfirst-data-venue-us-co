@@ -2,9 +2,14 @@
   "id": 839988399,
   "type": "Feature",
   "properties": {
+    "addr:full":"555 S Federal Blvd  Denver CO 80219",
+    "addr:housenumber":"555",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025485,39.706526,-105.025485,39.706526",
     "geom:latitude":39.706526,
     "geom:longitude":-105.025485,
@@ -29,7 +34,15 @@
         "vietnamese"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0iHyBr0yphyoDxprbugLCv_39.706526_-105.025485@1299784598"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463460755,
     "wof:geomhash":"6289dd5b3f457ba0f62961d294d4138b",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":839988399
+        }
+    ],
     "wof:id":839988399,
-    "wof:lastmodified":1466417550,
+    "wof:lastmodified":1486589691,
     "wof:name":"T-WA Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

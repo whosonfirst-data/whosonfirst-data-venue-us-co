@@ -2,9 +2,14 @@
   "id": 823887139,
   "type": "Feature",
   "properties": {
+    "addr:full":"13615 Co Rd 240 Durango CO 81301",
+    "addr:housenumber":"13615;240",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.678485,37.357391,-107.678485,37.357391",
     "geom:latitude":37.357391,
     "geom:longitude":-107.678485,
@@ -27,19 +32,28 @@
         "musician"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554607
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2JIl8EhnM4VNBG1cWOw6gj_37.357391_-107.678485@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449128,
-    "wof:geomhash":"4cd018ae66cd542e327ab89699b5f24b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"afd5ed03c205edba993344e326124b3a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554607,
+            "venue_id":823887139
+        }
+    ],
     "wof:id":823887139,
-    "wof:lastmodified":1466420008,
+    "wof:lastmodified":1492122487,
     "wof:name":"Durango Blues Society",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554607,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

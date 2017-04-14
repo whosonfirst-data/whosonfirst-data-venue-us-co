@@ -2,9 +2,14 @@
   "id": 823828233,
   "type": "Feature",
   "properties": {
+    "addr:full":"11716 Decatur Dr Denver CO 80234",
+    "addr:housenumber":"11716",
+    "addr:postcode":"80234",
+    "addr:street":"Decatur Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.019705,39.908399,-105.019705,39.908399",
     "geom:latitude":39.908399,
     "geom:longitude":-105.019705,
@@ -27,19 +32,36 @@
         "investor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553847
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_56UKYwqjpKocxAF6RTr1Zc_39.908399_-105.019705@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447558,
-    "wof:geomhash":"5f1594af64be288ca1426523b29b58d4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5255831e9740f4c46a8b67f88d204b6e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553847,
+            "region_id":85688603,
+            "venue_id":823828233
+        }
+    ],
     "wof:id":823828233,
-    "wof:lastmodified":1466419587,
+    "wof:lastmodified":1492119203,
     "wof:name":"Rivinius Investments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553847,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

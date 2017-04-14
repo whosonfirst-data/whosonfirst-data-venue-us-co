@@ -2,9 +2,14 @@
   "id": 823929533,
   "type": "Feature",
   "properties": {
+    "addr:full":"820 13th St Greeley CO 80631",
+    "addr:housenumber":"820",
+    "addr:postcode":"80631",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.692403,40.418346,-104.692403,40.418346",
     "geom:latitude":40.418346,
     "geom:longitude":-104.692403,
@@ -29,12 +34,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,8 +47,16 @@
     },
     "wof:country":"US",
     "wof:created":1463450233,
-    "wof:geomhash":"02e0d2acc05587cb6ace0bf4ae40e4dc",
+    "wof:geomhash":"12050a9f47368549f88f775b29efc490",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823929533
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -52,20 +65,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823929533
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823929533
         }
     ],
     "wof:id":823929533,
-    "wof:lastmodified":1466420133,
+    "wof:lastmodified":1492123512,
     "wof:name":"R Russell Anson Law Office",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

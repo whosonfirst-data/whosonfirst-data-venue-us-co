@@ -2,9 +2,14 @@
   "id": 824155937,
   "type": "Feature",
   "properties": {
+    "addr:full":"10240 E 148th Pl Brighton CO 80602",
+    "addr:housenumber":"10240",
+    "addr:postcode":"80602",
+    "addr:street":"E 148Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.873512,39.965649,-104.873512,39.965649",
     "geom:latitude":39.965649,
     "geom:longitude":-104.873512,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2a0ru3ZBmoqsCZgZlmIawg_39.965649_-104.873512@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456149,
-    "wof:geomhash":"69941a75611a96770e9d8aa99fc204fd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"79d5086838c05f09587b16bddf8c1ab5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553381,
+            "region_id":85688603,
+            "venue_id":824155937
+        }
+    ],
     "wof:id":824155937,
-    "wof:lastmodified":1466417220,
+    "wof:lastmodified":1492132070,
     "wof:name":"Sierra Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

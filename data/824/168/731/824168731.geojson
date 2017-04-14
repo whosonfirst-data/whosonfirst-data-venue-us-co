@@ -2,9 +2,14 @@
   "id": 824168731,
   "type": "Feature",
   "properties": {
+    "addr:full":"2061 S Federal Blvd Denver CO 80219",
+    "addr:housenumber":"2061",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025121,39.67949,-105.025121,39.67949",
     "geom:latitude":39.67949,
     "geom:longitude":-105.025121,
@@ -28,7 +33,15 @@
         "check"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3RkfqN8r5fE6AuDINK0NSd_39.679490_-105.025121@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463456629,
     "wof:geomhash":"91e9683d479c51a569f364af12eff51e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":824168731
+        }
+    ],
     "wof:id":824168731,
-    "wof:lastmodified":1466417818,
+    "wof:lastmodified":1486593726,
     "wof:name":"ACE Cash Express",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

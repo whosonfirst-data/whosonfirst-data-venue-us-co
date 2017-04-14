@@ -2,9 +2,14 @@
   "id": 839921181,
   "type": "Feature",
   "properties": {
+    "addr:full":"5165 Vasquez Blvd Denver CO 80216",
+    "addr:housenumber":"5165",
+    "addr:postcode":"80216",
+    "addr:street":"Vasquez Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.944307,39.787985,-104.944307,39.787985",
     "geom:latitude":39.787985,
     "geom:longitude":-104.944307,
@@ -29,19 +34,38 @@
         "truck"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3uP58kJADi5AjZflGvzNdO_39.787985_-104.944307@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457540,
-    "wof:geomhash":"55003a98b0e6e678cdfb2bc90c8aa0b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d56e8944c639a4f0cba80cfc1999d166",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":839921181
+        }
+    ],
     "wof:id":839921181,
-    "wof:lastmodified":1466413992,
+    "wof:lastmodified":1492112993,
     "wof:name":"Rush Ptrbilt Trck Cntrs-Denver",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

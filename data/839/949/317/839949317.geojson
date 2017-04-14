@@ -2,9 +2,14 @@
   "id": 839949317,
   "type": "Feature",
   "properties": {
+    "addr:full":"90 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"90",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.990215,39.848863,-104.990215,39.848863",
     "geom:latitude":39.848863,
     "geom:longitude":-104.990215,
@@ -27,19 +32,36 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553871
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6EDIawcWULfZELITT2I3Jt_39.848863_-104.990215@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459095,
-    "wof:geomhash":"007c8e1f6414266376dc7c9dbd74a2bd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a3d5535fc3b1b240ea25f3a529a7f46a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553871,
+            "region_id":85688603,
+            "venue_id":839949317
+        }
+    ],
     "wof:id":839949317,
-    "wof:lastmodified":1466415179,
+    "wof:lastmodified":1492111733,
     "wof:name":"Cambridge Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553871,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

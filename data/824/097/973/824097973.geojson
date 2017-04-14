@@ -2,9 +2,14 @@
   "id": 824097973,
   "type": "Feature",
   "properties": {
+    "addr:full":"602 N Boulevard St Gunnison CO 81230",
+    "addr:housenumber":"602",
+    "addr:postcode":"81230",
+    "addr:street":"N Boulevard St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.933275,38.550999,-106.933275,38.550999",
     "geom:latitude":38.550999,
     "geom:longitude":-106.933275,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ZVuHYkUop03h1jEIuC3P6_38.550999_-106.933275@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454289,
-    "wof:geomhash":"a19face7f469af29eb2cddd908897e5f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab1969e143fafed3cf80debf36feb929",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":824097973
+        }
+    ],
     "wof:id":824097973,
-    "wof:lastmodified":1466415303,
+    "wof:lastmodified":1492132670,
     "wof:name":"Morrison Tile & Stone Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

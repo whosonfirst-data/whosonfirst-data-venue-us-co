@@ -2,9 +2,14 @@
   "id": 823547643,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 Gunnison Cir Buena Vista CO 81211",
+    "addr:housenumber":"123",
+    "addr:postcode":"81211",
+    "addr:street":"Gunnison Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.130197,38.834064,-106.130197,38.834064",
     "geom:latitude":38.834064,
     "geom:longitude":-106.130197,
@@ -28,17 +33,32 @@
         "group"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928795,
+        102085255
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_02HMnIIm405OR6nESwUjxC_38.834064_-106.130197@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440645,
-    "wof:geomhash":"527491b1abf8206919b5310d5c444fb1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53fab9ee215504ddac1082d6f62b84c6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085255,
+            "locality_id":85928795,
+            "region_id":85688603,
+            "venue_id":823547643
+        }
+    ],
     "wof:id":823547643,
-    "wof:lastmodified":1466415759,
+    "wof:lastmodified":1492116122,
     "wof:name":"Arkansas Valley Low Vision Ctr",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

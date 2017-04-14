@@ -2,9 +2,14 @@
   "id": 824012465,
   "type": "Feature",
   "properties": {
+    "addr:full":"4615 Broadway St Boulder CO 80304",
+    "addr:housenumber":"4615",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.282129,40.06002,-105.282129,40.06002",
     "geom:latitude":40.06002,
     "geom:longitude":-105.282129,
@@ -24,19 +29,34 @@
     "sg:postcode":"80304",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_38XExmIsy8fh4zdeA98TtF_40.060020_-105.282129@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452247,
-    "wof:geomhash":"44e1c88ec975570115c6973b9606d0ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"66c686fe3e03b07cdfc30bf6da311369",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":824012465
+        }
+    ],
     "wof:id":824012465,
-    "wof:lastmodified":1466413136,
+    "wof:lastmodified":1492130114,
     "wof:name":"Indian Peaks Springwater",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

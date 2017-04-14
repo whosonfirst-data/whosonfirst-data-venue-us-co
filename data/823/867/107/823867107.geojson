@@ -2,9 +2,14 @@
   "id": 823867107,
   "type": "Feature",
   "properties": {
+    "addr:full":"9150 Washington St Denver CO 80229",
+    "addr:housenumber":"9150",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.9777,39.861761,-104.9777,39.861761",
     "geom:latitude":39.861761,
     "geom:longitude":-104.9777,
@@ -28,19 +33,36 @@
         "parts"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4HR9ivy5YWVM2plgrMjV18_39.861761_-104.977700@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448674,
-    "wof:geomhash":"89b66242b1d02da3ee7c66a7f8be74a2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d5693f169e0d76716d1d6a0ddcd1f8ce",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823867107
+        }
+    ],
     "wof:id":823867107,
-    "wof:lastmodified":1466420029,
+    "wof:lastmodified":1492123608,
     "wof:name":"Carquest Auto Parts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823754543,
   "type": "Feature",
   "properties": {
+    "addr:full":"4565 Fontana Way Denver CO 80239",
+    "addr:housenumber":"4565",
+    "addr:postcode":"80239",
+    "addr:street":"Fontana Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.815553,39.776341,-104.815553,39.776341",
     "geom:latitude":39.776341,
     "geom:longitude":-104.815553,
@@ -27,7 +32,15 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06Cm9qe4tSvn4je2u4JVDu_39.776341_-104.815553@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463445498,
     "wof:geomhash":"947025ff899d77791798ac42d5ef900b",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":823754543
+        }
+    ],
     "wof:id":823754543,
-    "wof:lastmodified":1466419024,
+    "wof:lastmodified":1491887464,
     "wof:name":"J&J Chavez Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

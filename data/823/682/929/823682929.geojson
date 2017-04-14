@@ -2,9 +2,14 @@
   "id": 823682929,
   "type": "Feature",
   "properties": {
+    "addr:full":"1208 Commerce Ct Lafayette CO 80026",
+    "addr:housenumber":"1208",
+    "addr:postcode":"80026",
+    "addr:street":"Commerce Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.074227,39.980097,-105.074227,39.980097",
     "geom:latitude":39.980097,
     "geom:longitude":-105.074227,
@@ -27,19 +32,36 @@
         "screen"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251,
+        420554039
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6HHHnmNWsj2mouEGKr69TV_39.980097_-105.074227@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443850,
-    "wof:geomhash":"d76efff3d6247135f201834bc5895fce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dccede015114ec128d38dd0cd37e2ada",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "neighbourhood_id":420554039,
+            "region_id":85688603,
+            "venue_id":823682929
+        }
+    ],
     "wof:id":823682929,
-    "wof:lastmodified":1466418452,
+    "wof:lastmodified":1492116762,
     "wof:name":"Big Screen Printing & T-Shirts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554039,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

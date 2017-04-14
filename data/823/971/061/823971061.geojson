@@ -2,9 +2,14 @@
   "id": 823971061,
   "type": "Feature",
   "properties": {
+    "addr:full":"1666 Elmira St Aurora CO 80010",
+    "addr:housenumber":"1666",
+    "addr:postcode":"80010",
+    "addr:street":"Elmira St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.872803,39.74319,-104.872803,39.74319",
     "geom:latitude":39.74319,
     "geom:longitude":-104.872803,
@@ -27,19 +32,36 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_33zYouODls5es5VCPrx1om_39.743190_-104.872803@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451276,
-    "wof:geomhash":"374dbf3a01a6bbe58349a078dafe29da",
-    "wof:hierarchy":[],
+    "wof:geomhash":"33e85f631b363656567593f11e11da5c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":823971061
+        }
+    ],
     "wof:id":823971061,
-    "wof:lastmodified":1466420790,
+    "wof:lastmodified":1492116278,
     "wof:name":"MCPN Elmira Clinic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553933,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

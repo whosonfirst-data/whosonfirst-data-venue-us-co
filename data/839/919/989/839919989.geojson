@@ -2,9 +2,14 @@
   "id": 839919989,
   "type": "Feature",
   "properties": {
+    "addr:full":"28680 Co Rd N Dolores CO 81323",
+    "addr:housenumber":"28680",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd N",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.595316,37.312432,-108.595316,37.312432",
     "geom:latitude":37.312432,
     "geom:longitude":-108.595316,
@@ -30,8 +35,9 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
         85633793,
+        420555031,
+        85688603,
         85896007,
         102084099
     ],
@@ -41,8 +47,13 @@
     },
     "wof:country":"US",
     "wof:created":1463457487,
-    "wof:geomhash":"fbe103ebaeb7a8a8282dfc51fc0ee7bf",
+    "wof:geomhash":"d057b9ae31bd1cb0b96d5cdc6e9a5581",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555031,
+            "venue_id":839919989
+        },
         {
             "country_id":85633793,
             "county_id":102084099,
@@ -52,9 +63,9 @@
         }
     ],
     "wof:id":839919989,
-    "wof:lastmodified":1466413779,
+    "wof:lastmodified":1492111202,
     "wof:name":"Hindmarsh Trucking",
-    "wof:parent_id":85896007,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

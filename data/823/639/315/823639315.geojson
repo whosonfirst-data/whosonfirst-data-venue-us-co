@@ -2,9 +2,14 @@
   "id": 823639315,
   "type": "Feature",
   "properties": {
+    "addr:full":"195 S 12th Ave Brighton CO 80601",
+    "addr:housenumber":"195",
+    "addr:postcode":"80601",
+    "addr:street":"S 12Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.806998,39.985152,-104.806998,39.985152",
     "geom:latitude":39.985152,
     "geom:longitude":-104.806998,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1pqn3V5I3ECsEHle0cwTq0_39.985152_-104.806998@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442839,
-    "wof:geomhash":"fa291f66f98ceced0cfb5844b62e5ca9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9cda9a6a51586a234ef5d091f5959926",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":823639315
+        }
+    ],
     "wof:id":823639315,
-    "wof:lastmodified":1466417863,
+    "wof:lastmodified":1492125470,
     "wof:name":"JP Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

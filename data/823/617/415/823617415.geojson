@@ -2,9 +2,14 @@
   "id": 823617415,
   "type": "Feature",
   "properties": {
+    "addr:full":"3002 Country Rd Grand Junction CO 81504",
+    "addr:housenumber":"3002",
+    "addr:postcode":"81504",
+    "addr:street":"Country Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.496585,39.097408,-108.496585,39.097408",
     "geom:latitude":39.097408,
     "geom:longitude":-108.496585,
@@ -25,8 +30,9 @@
     "sg:province":"CO",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
         85633793,
+        420554815,
+        85688603,
         85930467,
         102085221,
         85820799
@@ -37,8 +43,13 @@
     },
     "wof:country":"US",
     "wof:created":1463442332,
-    "wof:geomhash":"f741fc18de839eb1b6499a03c6d7c85d",
+    "wof:geomhash":"364e24d748c7392ac63eebd28ab2d574",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554815,
+            "venue_id":823617415
+        },
         {
             "country_id":85633793,
             "county_id":102085221,
@@ -49,9 +60,9 @@
         }
     ],
     "wof:id":823617415,
-    "wof:lastmodified":1466417460,
+    "wof:lastmodified":1492122633,
     "wof:name":"King Insurance Svc",
-    "wof:parent_id":85820799,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

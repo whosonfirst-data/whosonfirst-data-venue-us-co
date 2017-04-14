@@ -2,9 +2,14 @@
   "id": 823498043,
   "type": "Feature",
   "properties": {
+    "addr:full":"6412 S Parker Rd Aurora CO 80016",
+    "addr:housenumber":"6412",
+    "addr:postcode":"80016",
+    "addr:street":"S Parker Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.805518,39.600916,-104.805518,39.600916",
     "geom:latitude":39.600916,
     "geom:longitude":-104.805518,
@@ -28,17 +33,41 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        85929851
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Ikht3H2UbQx33zJlUejqt_39.600916_-104.805518@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439526,
-    "wof:geomhash":"76b0f29ba21dbccd1b6b1966410542dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fb72e1f446aa8b87478894932fff5671",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823498043
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929851,
+            "region_id":85688603,
+            "venue_id":823498043
+        }
+    ],
     "wof:id":823498043,
-    "wof:lastmodified":1466414124,
+    "wof:lastmodified":1492120332,
     "wof:name":"US Bank",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

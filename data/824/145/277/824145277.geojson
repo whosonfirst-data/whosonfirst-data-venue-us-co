@@ -2,9 +2,14 @@
   "id": 824145277,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 Malley Dr Denver CO 80233",
+    "addr:housenumber":"100",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.984682,39.903634,-104.984682,39.903634",
     "geom:latitude":39.903634,
     "geom:longitude":-104.984682,
@@ -29,19 +34,36 @@
         "custom"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6XabgpKrIVeNX8lr7pTw72_39.903634_-104.984682@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455705,
-    "wof:geomhash":"f747fa6df858d62772543c86d99a851d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"133e17bd699e0cfa9ee8c6e4294d7c38",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":824145277
+        }
+    ],
     "wof:id":824145277,
-    "wof:lastmodified":1466416568,
+    "wof:lastmodified":1492133030,
     "wof:name":"King Kolor",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

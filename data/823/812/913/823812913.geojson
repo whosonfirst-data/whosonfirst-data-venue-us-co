@@ -2,9 +2,14 @@
   "id": 823812913,
   "type": "Feature",
   "properties": {
+    "addr:full":"230 Golden Rod Ct Longmont CO 80501",
+    "addr:housenumber":"230",
+    "addr:postcode":"80501",
+    "addr:street":"Golden Rod Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.080348,40.162557,-105.080348,40.162557",
     "geom:latitude":40.162557,
     "geom:longitude":-105.080348,
@@ -28,17 +33,32 @@
         "parcel"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5PDqefAInKJeR5QTDCZPbZ_40.162557_-105.080348@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447092,
-    "wof:geomhash":"3281db4718def7c98478e9212bf9bbf7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"57c54680657a5dd7c6c797ea85c63ad9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823812913
+        }
+    ],
     "wof:id":823812913,
-    "wof:lastmodified":1466419557,
+    "wof:lastmodified":1492119073,
     "wof:name":"UPS",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

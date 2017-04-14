@@ -2,9 +2,14 @@
   "id": 839925229,
   "type": "Feature",
   "properties": {
+    "addr:full":"2481 Broadway Grand Junction CO 81503",
+    "addr:housenumber":"2481",
+    "addr:postcode":"81503",
+    "addr:street":"Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.593851,39.064112,-108.593851,39.064112",
     "geom:latitude":39.064112,
     "geom:longitude":-108.593851,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554985
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4h0i5riYaL7K8OFPzTRyUn_39.064112_-108.593851@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457740,
-    "wof:geomhash":"64ebbf0441df29ad685a44f0aec8b532",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2602c636a0a277e0b04a273703891e1b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554985,
+            "region_id":85688603,
+            "venue_id":839925229
+        }
+    ],
     "wof:id":839925229,
-    "wof:lastmodified":1466413829,
+    "wof:lastmodified":1492114288,
     "wof:name":"Acme Stucco",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554985,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

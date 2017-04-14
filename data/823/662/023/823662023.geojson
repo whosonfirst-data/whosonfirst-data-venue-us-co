@@ -2,9 +2,14 @@
   "id": 823662023,
   "type": "Feature",
   "properties": {
+    "addr:full":"10075 N 75th St Longmont CO 80503",
+    "addr:housenumber":"10075",
+    "addr:postcode":"80503",
+    "addr:street":"N 75Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.178372,40.156459,-105.178372,40.156459",
     "geom:latitude":40.156459,
     "geom:longitude":-105.178372,
@@ -27,19 +32,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554085
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3IQTq3YDw0PTtcI45fGy0F_40.156459_-105.178372@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443383,
-    "wof:geomhash":"fe441dc51537940f5f65215716dfe7e7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d87b035eccb3fb6489bf114a306b91e7",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554085,
+            "venue_id":823662023
+        }
+    ],
     "wof:id":823662023,
-    "wof:lastmodified":1466418270,
+    "wof:lastmodified":1492123239,
     "wof:name":"BAC Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554085,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

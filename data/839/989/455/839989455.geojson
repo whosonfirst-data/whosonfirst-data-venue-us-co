@@ -2,9 +2,14 @@
   "id": 839989455,
   "type": "Feature",
   "properties": {
+    "addr:full":"2770 Pearl St Boulder CO 80302",
+    "addr:housenumber":"2770",
+    "addr:postcode":"80302",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.259803,40.022037,-105.259803,40.022037",
     "geom:latitude":40.022037,
     "geom:longitude":-105.259803,
@@ -30,19 +35,36 @@
         "asian"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_22gLeaVGWay52c3UlNXzA6_40.022037_-105.259803@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460793,
-    "wof:geomhash":"7518c8e1071e594dbe65a2ed47f79ae8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d426c3b515a01d01eb53a9863a4549c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":839989455
+        }
+    ],
     "wof:id":839989455,
-    "wof:lastmodified":1466417321,
+    "wof:lastmodified":1492111062,
     "wof:name":"Noodles",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

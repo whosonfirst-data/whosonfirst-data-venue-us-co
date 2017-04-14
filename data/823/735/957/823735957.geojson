@@ -2,9 +2,14 @@
   "id": 823735957,
   "type": "Feature",
   "properties": {
+    "addr:full":"20591 Hwy 160 Durango CO 81301",
+    "addr:housenumber":"20591",
+    "addr:postcode":"co 81301",
+    "addr:street":"Hwy 160",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.912995,37.268934,-107.912995,37.268934",
     "geom:latitude":37.268934,
     "geom:longitude":-107.912995,
@@ -27,19 +32,28 @@
         "state"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554609
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2F6Q7a1hAIaDOCvqpzptYZ_37.268934_-107.912995@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445065,
-    "wof:geomhash":"1c8982fcef3d23b78fd59186685b3107",
-    "wof:hierarchy":[],
+    "wof:geomhash":"797fa91e1577702ade79ec8becefbaf4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554609,
+            "venue_id":823735957
+        }
+    ],
     "wof:id":823735957,
-    "wof:lastmodified":1466418803,
+    "wof:lastmodified":1492118681,
     "wof:name":"State Patrol",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554609,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

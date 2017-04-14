@@ -2,9 +2,14 @@
   "id": 823679255,
   "type": "Feature",
   "properties": {
+    "addr:full":"2185 E 116th Dr Northglenn CO 80233",
+    "addr:housenumber":"2185",
+    "addr:postcode":"80233",
+    "addr:street":"E 116Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.960299,39.907787,-104.960299,39.907787",
     "geom:latitude":39.907787,
     "geom:longitude":-104.960299,
@@ -30,19 +35,36 @@
         "sewer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2fjmwJ7tICT0IUkwnSqzfe_39.907787_-104.960299@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443773,
-    "wof:geomhash":"02e06fa826d6a25691e5af3286d1688b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"19e3574e8bb9e233bf04cbd324db1360",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823679255
+        }
+    ],
     "wof:id":823679255,
-    "wof:lastmodified":1466418333,
+    "wof:lastmodified":1492119887,
     "wof:name":"Power Rooter Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

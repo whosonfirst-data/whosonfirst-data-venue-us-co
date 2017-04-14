@@ -2,9 +2,14 @@
   "id": 823472691,
   "type": "Feature",
   "properties": {
+    "addr:full":"10456 Dale Cir Denver CO 80234",
+    "addr:housenumber":"10456",
+    "addr:postcode":"80234",
+    "addr:street":"Dale Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.019609,39.885779,-105.019609,39.885779",
     "geom:latitude":39.885779,
     "geom:longitude":-105.019609,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553931
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1tg8yaWMF1Awfa99rAaQ67_39.885779_-105.019609@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438890,
-    "wof:geomhash":"16871fc2d5b00cf2ab414573c13c5f84",
-    "wof:hierarchy":[],
+    "wof:geomhash":"aebcf546b20e8309b836cb5c2730c3d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553931,
+            "region_id":85688603,
+            "venue_id":823472691
+        }
+    ],
     "wof:id":823472691,
-    "wof:lastmodified":1466412610,
+    "wof:lastmodified":1492120298,
     "wof:name":"Sewald Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553931,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

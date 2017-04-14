@@ -2,9 +2,14 @@
   "id": 823894793,
   "type": "Feature",
   "properties": {
+    "addr:full":"9880 E 155th Pl Brighton CO 80602",
+    "addr:housenumber":"9880",
+    "addr:postcode":"80602",
+    "addr:street":"E 155Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.870136,39.977887,-104.870136,39.977887",
     "geom:latitude":39.977887,
     "geom:longitude":-104.870136,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5l7HXlROQYJfZVqTpCUyLr_39.977887_-104.870136@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449312,
-    "wof:geomhash":"6226da11b0994990b3d04cb293b24cfd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"74d642ed6838c058f6bbd83dbb33d008",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553385,
+            "region_id":85688603,
+            "venue_id":823894793
+        }
+    ],
     "wof:id":823894793,
-    "wof:lastmodified":1466420198,
+    "wof:lastmodified":1492127594,
     "wof:name":"Bs Interior Trim",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

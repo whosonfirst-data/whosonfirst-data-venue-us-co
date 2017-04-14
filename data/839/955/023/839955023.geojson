@@ -2,9 +2,14 @@
   "id": 839955023,
   "type": "Feature",
   "properties": {
+    "addr:full":"212 5th St Fort Lupton CO 80621",
+    "addr:housenumber":"212",
+    "addr:postcode":"80621",
+    "addr:street":"5Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.816644,40.084035,-104.816644,40.084035",
     "geom:latitude":40.084035,
     "geom:longitude":-104.816644,
@@ -27,19 +32,28 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ND3Mpx7DjG0w9nBzRzmjS_40.084035_-104.816644@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459392,
-    "wof:geomhash":"724384c2a29321d181423e70ad59a94d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"25c12c81454d8c3c451ff2e3892a0953",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":839955023
+        }
+    ],
     "wof:id":839955023,
-    "wof:lastmodified":1466415354,
+    "wof:lastmodified":1492112065,
     "wof:name":"Jr Seasonal Harvest",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

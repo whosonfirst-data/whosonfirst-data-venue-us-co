@@ -2,9 +2,14 @@
   "id": 824090547,
   "type": "Feature",
   "properties": {
+    "addr:full":"1552 W 70th Ave Denver CO 80221",
+    "addr:housenumber":"1552",
+    "addr:postcode":"80221",
+    "addr:street":"W 70Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005538,39.823566,-105.005538,39.823566",
     "geom:latitude":39.823566,
     "geom:longitude":-105.005538,
@@ -27,19 +32,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5FfOfy0LatlObkZOC8NhWc_39.823566_-105.005538@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454098,
-    "wof:geomhash":"197da87ff853fda1beb6e881feb5d966",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c5371f5621c90419a3bb8dacd7e17c98",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":824090547
+        }
+    ],
     "wof:id":824090547,
-    "wof:lastmodified":1466415026,
+    "wof:lastmodified":1492130195,
     "wof:name":"Novdaldes LA Comarca Lajunera",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823497215,
   "type": "Feature",
   "properties": {
+    "addr:full":"1850 Bassett St Denver CO 80202",
+    "addr:housenumber":"1850",
+    "addr:postcode":"80202",
+    "addr:street":"Bassett St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001722,39.757883,-105.001722,39.757883",
     "geom:latitude":39.757883,
     "geom:longitude":-105.001722,
@@ -27,7 +32,16 @@
         "taping"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108748667,
+        85871287,
+        102191575,
+        1108750057,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0K4XHAUxctLcn8ngySXlCN_39.757883_-105.001722@1294083659"
@@ -35,11 +49,23 @@
     "wof:country":"US",
     "wof:created":1463439494,
     "wof:geomhash":"1f1bc3254e50f9105e0aeeb8a388f7eb",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750057,
+            "microhood_id":1108748667,
+            "neighbourhood_id":85871287,
+            "region_id":85688603,
+            "venue_id":823497215
+        }
+    ],
     "wof:id":823497215,
-    "wof:lastmodified":1466414036,
+    "wof:lastmodified":1486604321,
     "wof:name":"Millenium Media Productions",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108748667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

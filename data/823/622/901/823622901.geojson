@@ -2,9 +2,14 @@
   "id": 823622901,
   "type": "Feature",
   "properties": {
+    "addr:full":"512 Main St Pitkin CO 81241",
+    "addr:housenumber":"512",
+    "addr:postcode":"81241",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.517204,38.609417,-106.517204,38.609417",
     "geom:latitude":38.609417,
     "geom:longitude":-106.517204,
@@ -27,19 +32,28 @@
         "government"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554463
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_215VULwA5TC0F8ur3WsLW2_38.609417_-106.517204@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442468,
-    "wof:geomhash":"5549200cc5b64e3f0352d5132f78ae63",
-    "wof:hierarchy":[],
+    "wof:geomhash":"41c680a0ea738ef6802925bc58510dea",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554463,
+            "venue_id":823622901
+        }
+    ],
     "wof:id":823622901,
-    "wof:lastmodified":1466417508,
+    "wof:lastmodified":1492122517,
     "wof:name":"US Forest Svc Guard Station",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554463,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

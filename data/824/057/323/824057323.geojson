@@ -2,9 +2,14 @@
   "id": 824057323,
   "type": "Feature",
   "properties": {
+    "addr:full":"9682 Adams St Denver CO 80229",
+    "addr:housenumber":"9682",
+    "addr:postcode":"80229",
+    "addr:street":"Adams St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.948402,39.872789,-104.948402,39.872789",
     "geom:latitude":39.872789,
     "geom:longitude":-104.948402,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6uzddn3zxdxCDNJF0YaYgT_39.872789_-104.948402@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453336,
-    "wof:geomhash":"7e47b5df56161223f61b27ce81e21996",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8576eb28c4a09db033ed1a690721587b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553689,
+            "region_id":85688603,
+            "venue_id":824057323
+        }
+    ],
     "wof:id":824057323,
-    "wof:lastmodified":1466414386,
+    "wof:lastmodified":1492132987,
     "wof:name":"Wallace Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

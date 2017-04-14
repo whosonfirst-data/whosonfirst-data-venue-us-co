@@ -2,9 +2,14 @@
   "id": 824174503,
   "type": "Feature",
   "properties": {
+    "addr:full":"10695 E 96th Pl Commerce City CO 80022",
+    "addr:housenumber":"10695",
+    "addr:postcode":"80022",
+    "addr:street":"E 96Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.863269,39.871235,-104.863269,39.871235",
     "geom:latitude":39.871235,
     "geom:longitude":-104.863269,
@@ -27,19 +32,28 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553497
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4C68tVGxfIck3EjIQ92dX2_39.871235_-104.863269@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456858,
-    "wof:geomhash":"bd3a5ea65191394752b42879d501417f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5bd0c2b0ab2d2bb34551e281e1ade678",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553497,
+            "venue_id":824174503
+        }
+    ],
     "wof:id":824174503,
-    "wof:lastmodified":1466417983,
+    "wof:lastmodified":1492133209,
     "wof:name":"KFC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553497,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823742489,
   "type": "Feature",
   "properties": {
+    "addr:full":"1280 N Mildred Rd Cortez CO 81321",
+    "addr:housenumber":"1280",
+    "addr:postcode":"81321",
+    "addr:street":"N Mildred Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572643,37.361067,-108.572643,37.361067",
     "geom:latitude":37.361067,
     "geom:longitude":-108.572643,
@@ -27,19 +32,36 @@
         "medical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555059
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_22Y1e4Lz0Z1kxigfOTDn6W_37.361067_-108.572643@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445207,
-    "wof:geomhash":"748e01920729786fab086244d1ddc946",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d22ff95a7db09575c35b78c02389d65",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555059,
+            "region_id":85688603,
+            "venue_id":823742489
+        }
+    ],
     "wof:id":823742489,
-    "wof:lastmodified":1466418877,
+    "wof:lastmodified":1492125104,
     "wof:name":"Wyman Mac MD",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555059,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823969037,
   "type": "Feature",
   "properties": {
+    "addr:full":"1123 S Federal Blvd Denver CO 80219",
+    "addr:housenumber":"1123",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.02514,39.695329,-105.02514,39.695329",
     "geom:latitude":39.695329,
     "geom:longitude":-105.02514,
@@ -28,19 +33,38 @@
         "radiotelephone"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_34DWjJXqFEIkahs43WOh8O_39.695329_-105.025140@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451235,
-    "wof:geomhash":"d90e2181a1b8663fd7aa337158998eb9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"57d84ba66f8cca42a1002dd799c6039c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":823969037
+        }
+    ],
     "wof:id":823969037,
-    "wof:lastmodified":1466420790,
+    "wof:lastmodified":1492119101,
     "wof:name":"Page West",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823762313,
   "type": "Feature",
   "properties": {
+    "addr:full":"3980 Cambridge Ave Broomfield CO 80020",
+    "addr:housenumber":"3980",
+    "addr:postcode":"80020",
+    "addr:street":"Cambridge Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039291,39.927583,-105.039291,39.927583",
     "geom:latitude":39.927583,
     "geom:longitude":-105.039291,
@@ -27,19 +32,46 @@
         "multimedia"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554245,
+        420554217
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6vnXfnZ1iQylqr53oq2LDK_39.927583_-105.039291@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445664,
-    "wof:geomhash":"473a625a6b15f4a237659e55ab4043aa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"154f20cce93e124b991eefb6f1657c9a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554245,
+            "region_id":85688603,
+            "venue_id":823762313
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554217,
+            "region_id":85688603,
+            "venue_id":823762313
+        }
+    ],
     "wof:id":823762313,
-    "wof:lastmodified":1466418998,
+    "wof:lastmodified":1492118474,
     "wof:name":"A C Nielsen Media Research",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

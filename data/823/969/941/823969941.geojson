@@ -2,9 +2,14 @@
   "id": 823969941,
   "type": "Feature",
   "properties": {
+    "addr:full":"1700 S 120th St Lafayette CO 80026",
+    "addr:housenumber":"1700",
+    "addr:postcode":"80026",
+    "addr:street":"S 120Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.071937,39.957938,-105.071937,39.957938",
     "geom:latitude":39.957938,
     "geom:longitude":-105.071937,
@@ -27,17 +32,32 @@
         "transmission"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5NXtHVm2ni68WkdUMGGPjQ_39.957938_-105.071937@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451258,
-    "wof:geomhash":"eb6178de1b15f3efff34bf950c8da3f6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"896c2ec127f53a8e50ce8b37081f90f3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "region_id":85688603,
+            "venue_id":823969941
+        }
+    ],
     "wof:id":823969941,
-    "wof:lastmodified":1466420883,
+    "wof:lastmodified":1492119097,
     "wof:name":"A-All Area Transmission",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

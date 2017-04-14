@@ -2,9 +2,14 @@
   "id": 823496361,
   "type": "Feature",
   "properties": {
+    "addr:full":"9951 Co Rd 213 Durango CO 81303",
+    "addr:housenumber":"9951;213",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.879036,37.176246,-107.879036,37.176246",
     "geom:latitude":37.176246,
     "geom:longitude":-107.879036,
@@ -28,19 +33,28 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2DyW2cUDyqz6sepUmyN6VQ_37.176246_-107.879036@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439469,
-    "wof:geomhash":"365f6ed8b73499d3b2e34c8f9702750d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"81a1972ad752fa298672d4b631aa1242",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823496361
+        }
+    ],
     "wof:id":823496361,
-    "wof:lastmodified":1466414185,
+    "wof:lastmodified":1492119421,
     "wof:name":"Adobe Designs & Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

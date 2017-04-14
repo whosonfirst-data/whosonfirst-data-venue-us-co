@@ -2,9 +2,14 @@
   "id": 823968915,
   "type": "Feature",
   "properties": {
+    "addr:full":"4450 Arapahoe Ave Boulder CO 80303",
+    "addr:housenumber":"4450",
+    "addr:postcode":"80303",
+    "addr:street":"Arapahoe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.244851,40.014499,-105.244851,40.014499",
     "geom:latitude":40.014499,
     "geom:longitude":-105.244851,
@@ -27,19 +32,36 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Fuhsg29rJA18t4X69dAGg_40.014499_-105.244851@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451231,
-    "wof:geomhash":"0f81032a95018b9c40bf11fe9e8a2d06",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0050385b5473c02344751a4e5e5adcc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":823968915
+        }
+    ],
     "wof:id":823968915,
-    "wof:lastmodified":1466420863,
+    "wof:lastmodified":1492127768,
     "wof:name":"Klein Law Firm",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

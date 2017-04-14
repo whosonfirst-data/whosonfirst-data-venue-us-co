@@ -2,9 +2,14 @@
   "id": 823964889,
   "type": "Feature",
   "properties": {
+    "addr:full":"12951 Monarch Ct Broomfield CO 80020",
+    "addr:housenumber":"12951",
+    "addr:postcode":"80020",
+    "addr:street":"Monarch Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.026217,39.930916,-105.026217,39.930916",
     "geom:latitude":39.930916,
     "geom:longitude":-105.026217,
@@ -32,19 +37,36 @@
         "starter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554245
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5t9FtlQex5JWMQYlCmaT66_39.930916_-105.026217@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451132,
-    "wof:geomhash":"19293a409b195569672c4e493b6e1a80",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1ad05ce64275c99a3598126ba01fb82c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554245,
+            "region_id":85688603,
+            "venue_id":823964889
+        }
+    ],
     "wof:id":823964889,
-    "wof:lastmodified":1466420799,
+    "wof:lastmodified":1492118455,
     "wof:name":"Benshaw Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554245,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

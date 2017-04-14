@@ -2,9 +2,14 @@
   "id": 823495799,
   "type": "Feature",
   "properties": {
+    "addr:full":"3012 W Yarrow Cir Louisville CO 80027",
+    "addr:housenumber":"3012",
+    "addr:postcode":"80027",
+    "addr:street":"W Yarrow Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.150569,39.925781,-105.150569,39.925781",
     "geom:latitude":39.925781,
     "geom:longitude":-105.150569,
@@ -30,10 +35,14 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
+        85929855,
+        102086123,
+        85876579,
         85929773,
         102085251,
-        85876579
+        85876593
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,21 +50,31 @@
     },
     "wof:country":"US",
     "wof:created":1463439452,
-    "wof:geomhash":"d4037e3e2288921971f769323174b971",
+    "wof:geomhash":"d24fa2f7fc08aa7dd01cc1fd7b8c3cf4",
     "wof:hierarchy":[
         {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":85876579,
+            "region_id":85688603,
+            "venue_id":823495799
+        },
+        {
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102085251,
             "locality_id":85929773,
-            "neighbourhood_id":85876579,
+            "neighbourhood_id":85876593,
             "region_id":85688603,
             "venue_id":823495799
         }
     ],
     "wof:id":823495799,
-    "wof:lastmodified":1466414008,
+    "wof:lastmodified":1492120561,
     "wof:name":"Acuity Financial Inc",
-    "wof:parent_id":85876579,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

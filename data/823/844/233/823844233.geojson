@@ -2,9 +2,14 @@
   "id": 823844233,
   "type": "Feature",
   "properties": {
+    "addr:full":"3738 W 85th Ave Westminster CO 80031",
+    "addr:housenumber":"3738",
+    "addr:postcode":"80031",
+    "addr:street":"W 85Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039212,39.849923,-105.039212,39.849923",
     "geom:latitude":39.849923,
     "geom:longitude":-105.039212,
@@ -33,8 +38,11 @@
         102191575,
         85633793,
         85929351,
+        102084053,
+        85888481,
+        420553605,
         102084113,
-        85888481
+        85888489
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,22 +50,40 @@
     },
     "wof:country":"US",
     "wof:created":1463448057,
-    "wof:geomhash":"2288bc85350f03a882905c155bbf8a7c",
+    "wof:geomhash":"5e218bc8c790cd3acc0f40cc498bde37",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":85888481,
+            "region_id":85688603,
+            "venue_id":823844233
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553605,
+            "region_id":85688603,
+            "venue_id":823844233
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
             "county_id":102084113,
             "locality_id":85929351,
-            "neighbourhood_id":85888481,
+            "neighbourhood_id":85888489,
             "region_id":85688603,
             "venue_id":823844233
         }
     ],
     "wof:id":823844233,
-    "wof:lastmodified":1466419808,
+    "wof:lastmodified":1492118124,
     "wof:name":"CPR Roofing",
-    "wof:parent_id":85888481,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

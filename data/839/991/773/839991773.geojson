@@ -2,9 +2,14 @@
   "id": 839991773,
   "type": "Feature",
   "properties": {
+    "addr:full":"3677 Main Ave Durango CO 81301",
+    "addr:housenumber":"3677",
+    "addr:postcode":"co 81301",
+    "addr:street":"Main Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.866716,37.305466,-107.866716,37.305466",
     "geom:latitude":37.305466,
     "geom:longitude":-107.866716,
@@ -29,19 +34,28 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1aJugdVMvI2dA5fazL8yv3_37.305466_-107.866716@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460876,
-    "wof:geomhash":"cee829939e546b54422fd234f68ce103",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cd6087c046f2b4a55d73d3bd068dd2bb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":839991773
+        }
+    ],
     "wof:id":839991773,
-    "wof:lastmodified":1466417449,
+    "wof:lastmodified":1492110959,
     "wof:name":"Pizza Hut",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

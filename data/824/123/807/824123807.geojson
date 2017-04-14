@@ -2,9 +2,14 @@
   "id": 824123807,
   "type": "Feature",
   "properties": {
+    "addr:full":"590 N Westgate Dr Grand Junction CO 81505",
+    "addr:housenumber":"590",
+    "addr:postcode":"81505",
+    "addr:street":"N Westgate Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586515,39.088917,-108.586515,39.088917",
     "geom:latitude":39.088917,
     "geom:longitude":-108.586515,
@@ -29,19 +34,36 @@
         "instruction"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554791
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1rmd0U30KQIKdQR1BUxoBC_39.088917_-108.586515@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454872,
-    "wof:geomhash":"e67fb53ae5dc7736b49caa15d448c155",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cd1c476e034ea076dea7b1c054b33480",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":824123807
+        }
+    ],
     "wof:id":824123807,
-    "wof:lastmodified":1466415763,
+    "wof:lastmodified":1492128856,
     "wof:name":"Authentic Zenryokan Karate-Do",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554791,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

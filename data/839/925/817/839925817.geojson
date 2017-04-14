@@ -2,9 +2,14 @@
   "id": 839925817,
   "type": "Feature",
   "properties": {
+    "addr:full":"482 Adams Ave Akron CO 80720",
+    "addr:housenumber":"482",
+    "addr:postcode":"80720",
+    "addr:street":"Adams Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.214161,40.162344,-103.214161,40.162344",
     "geom:latitude":40.162344,
     "geom:longitude":-103.214161,
@@ -27,17 +32,32 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929155,
+        102086125
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1VL587iY5iyWES88Kc20DC_40.162344_-103.214161@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457761,
-    "wof:geomhash":"fabc57b5c8a760281834f73d975a84b0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6be7504c758ca2ff0df0fdb76386e15f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086125,
+            "locality_id":85929155,
+            "region_id":85688603,
+            "venue_id":839925817
+        }
+    ],
     "wof:id":839925817,
-    "wof:lastmodified":1466413947,
+    "wof:lastmodified":1492114311,
     "wof:name":"Washington County Clinic",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

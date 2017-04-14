@@ -2,9 +2,14 @@
   "id": 823884679,
   "type": "Feature",
   "properties": {
+    "addr:full":"2000 S Co Rd 181 Byers CO 80103",
+    "addr:housenumber":"2000;181",
+    "addr:postcode":"80103",
+    "addr:street":"S Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.209845,39.679296,-104.209845,39.679296",
     "geom:latitude":39.679296,
     "geom:longitude":-104.209845,
@@ -34,17 +39,30 @@
         "highway"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_152K3UwlrUip0NXAShH2B1_39.679296_-104.209845@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449073,
-    "wof:geomhash":"55cde4d58420955ae9f55ca7a8b190eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b1cd75f5b2b25f2875338bedb1fca4c3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "region_id":85688603,
+            "venue_id":823884679
+        }
+    ],
     "wof:id":823884679,
-    "wof:lastmodified":1466420065,
+    "wof:lastmodified":1492122470,
     "wof:name":"Jay Hawk Grading Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

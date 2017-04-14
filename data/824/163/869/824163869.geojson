@@ -2,9 +2,14 @@
   "id": 824163869,
   "type": "Feature",
   "properties": {
+    "addr:full":"2250 Dartmouth Ave Boulder CO 80305",
+    "addr:housenumber":"2250",
+    "addr:postcode":"80305",
+    "addr:street":"Dartmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.268001,39.988862,-105.268001,39.988862",
     "geom:latitude":39.988862,
     "geom:longitude":-105.268001,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0XldFA4tRobn8tug338jkx_39.988862_-105.268001@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456450,
-    "wof:geomhash":"1226be59be3729c930180c32234f6cfb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a7bab3cd5ffc7e501dca9eb2b43f6ecf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":824163869
+        }
+    ],
     "wof:id":824163869,
-    "wof:lastmodified":1466417802,
+    "wof:lastmodified":1492129916,
     "wof:name":"Gary Smith Plumbing & Htg LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

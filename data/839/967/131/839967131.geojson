@@ -2,9 +2,14 @@
   "id": 839967131,
   "type": "Feature",
   "properties": {
+    "addr:full":"3837 E 94th Ave Denver CO 80229",
+    "addr:housenumber":"3837",
+    "addr:postcode":"80229",
+    "addr:street":"E 94Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.941748,39.866606,-104.941748,39.866606",
     "geom:latitude":39.866606,
     "geom:longitude":-104.941748,
@@ -27,19 +32,36 @@
         "janitor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553873
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3KHxSEecI76EfJqhsNgMz9_39.866606_-104.941748@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459895,
-    "wof:geomhash":"0867cf5765398fabe84692add371d937",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c2c3a2127012a2046d435045de98dd7a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553873,
+            "region_id":85688603,
+            "venue_id":839967131
+        }
+    ],
     "wof:id":839967131,
-    "wof:lastmodified":1466415943,
+    "wof:lastmodified":1492112424,
     "wof:name":"A Clean Solution LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553873,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

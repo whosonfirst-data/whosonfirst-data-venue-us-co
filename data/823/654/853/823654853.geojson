@@ -2,9 +2,14 @@
   "id": 823654853,
   "type": "Feature",
   "properties": {
+    "addr:full":"1230 Decatur St Denver CO 80204",
+    "addr:housenumber":"1230",
+    "addr:postcode":"80204",
+    "addr:street":"Decatur St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.021682,39.7349,-105.021682,39.7349",
     "geom:latitude":39.7349,
     "geom:longitude":-105.021682,
@@ -29,7 +34,15 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5EcKETzY0yLaitLrmXJmUA_39.734900_-105.021682@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463443190,
     "wof:geomhash":"f4f4209a9de9f79946455bef136b91ae",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":823654853
+        }
+    ],
     "wof:id":823654853,
-    "wof:lastmodified":1466418184,
+    "wof:lastmodified":1486588736,
     "wof:name":"Sun Valley Youth Center Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

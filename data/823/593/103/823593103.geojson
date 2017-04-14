@@ -2,9 +2,14 @@
   "id": 823593103,
   "type": "Feature",
   "properties": {
+    "addr:full":"3240 W 71st Ave Westminster CO 80030",
+    "addr:housenumber":"3240",
+    "addr:postcode":"80030",
+    "addr:street":"W 71St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.030368,39.824566,-105.030368,39.824566",
     "geom:latitude":39.824566,
     "geom:longitude":-105.030368,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553527
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2cwFY1UgY3PEhr99puZ1qo_39.824566_-105.030368@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441721,
-    "wof:geomhash":"89a30e5a19095bf94d2b0e10c4c30804",
-    "wof:hierarchy":[],
+    "wof:geomhash":"49c72ceca65a8114005c69cd246075ef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553527,
+            "region_id":85688603,
+            "venue_id":823593103
+        }
+    ],
     "wof:id":823593103,
-    "wof:lastmodified":1466416998,
+    "wof:lastmodified":1492121935,
     "wof:name":"Iglesia Vida Nueva",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553527,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

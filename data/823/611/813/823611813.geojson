@@ -2,9 +2,14 @@
   "id": 823611813,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 Palmer St Kit Carson CO 80825",
+    "addr:housenumber":"101",
+    "addr:postcode":"80825",
+    "addr:street":"Palmer St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.797049,38.763078,-102.797049,38.763078",
     "geom:latitude":38.763078,
     "geom:longitude":-102.797049,
@@ -28,17 +33,32 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929535,
+        102084045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6JAjliru2igYCUOyDYetHD_38.763078_-102.797049@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442192,
-    "wof:geomhash":"56e64c57e8b191d20c9fd1aea2df93c7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b9e9e6eea8d3545aab9533d8084698c2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084045,
+            "locality_id":85929535,
+            "region_id":85688603,
+            "venue_id":823611813
+        }
+    ],
     "wof:id":823611813,
-    "wof:lastmodified":1466417244,
+    "wof:lastmodified":1492116103,
     "wof:name":"Transportation Dept",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

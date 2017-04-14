@@ -2,9 +2,14 @@
   "id": 839928165,
   "type": "Feature",
   "properties": {
+    "addr:full":"175 Co Rd 500 Bayfield CO 81122",
+    "addr:housenumber":"175;500",
+    "addr:postcode":"bayfield;81122",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.557151,37.446255,-107.557151,37.446255",
     "geom:latitude":37.446255,
     "geom:longitude":-107.557151,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554669
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1EBsHYCH7DOylp0awEwX5v_37.446255_-107.557151@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457874,
-    "wof:geomhash":"fedcfc37898c450daedd8c7df5923454",
-    "wof:hierarchy":[],
+    "wof:geomhash":"21caf7e5ded64f70930b42e82c1e3b3d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554669,
+            "venue_id":839928165
+        }
+    ],
     "wof:id":839928165,
-    "wof:lastmodified":1466413980,
+    "wof:lastmodified":1492111913,
     "wof:name":"Leonard & Sons Excavation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554669,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

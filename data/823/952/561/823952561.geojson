@@ -2,9 +2,14 @@
   "id": 823952561,
   "type": "Feature",
   "properties": {
+    "addr:full":"2530 W Evans Ave Denver CO 80219",
+    "addr:housenumber":"2530",
+    "addr:postcode":"80219",
+    "addr:street":"W Evans Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.016739,39.678604,-105.016739,39.678604",
     "geom:latitude":39.678604,
     "geom:longitude":-105.016739,
@@ -29,19 +34,38 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5JLfYPWGhimw2oXg4C0fpz_39.678604_-105.016739@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450833,
-    "wof:geomhash":"6713a08f508daf3ff9b924c88592793d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53e4057dac70016934013b4e532c8b01",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":823952561
+        }
+    ],
     "wof:id":823952561,
-    "wof:lastmodified":1466420722,
+    "wof:lastmodified":1492120717,
     "wof:name":"Pomeroy Auto Sales LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

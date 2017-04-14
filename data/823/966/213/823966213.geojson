@@ -2,9 +2,14 @@
   "id": 823966213,
   "type": "Feature",
   "properties": {
+    "addr:full":"220 E Beaver Ave Fort Morgan CO 80701",
+    "addr:housenumber":"220",
+    "addr:postcode":"80701",
+    "addr:street":"E Beaver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.799954,40.251167,-103.799954,40.251167",
     "geom:latitude":40.251167,
     "geom:longitude":-103.799954,
@@ -27,17 +32,32 @@
         "medical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_17NFJ5x6aWZKrgEprMs2Mm_40.251167_-103.799954@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451174,
-    "wof:geomhash":"844c46fe1c285e222c120bff00a37d12",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8681ddf5726042243522da44b3b0e866",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":823966213
+        }
+    ],
     "wof:id":823966213,
-    "wof:lastmodified":1466420767,
+    "wof:lastmodified":1492118824,
     "wof:name":"Family Practice Clinic",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

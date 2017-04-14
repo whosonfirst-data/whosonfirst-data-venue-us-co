@@ -2,9 +2,14 @@
   "id": 824131623,
   "type": "Feature",
   "properties": {
+    "addr:full":"4895 Riverbend Rd Boulder CO 80301",
+    "addr:housenumber":"4895",
+    "addr:postcode":"80301",
+    "addr:street":"Riverbend Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.233728,40.01545,-105.233728,40.01545",
     "geom:latitude":40.01545,
     "geom:longitude":-105.233728,
@@ -27,19 +32,36 @@
         "printer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_71gQj13zNC9QDchVnVIirC_40.015450_-105.233728@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455205,
-    "wof:geomhash":"19029420ea258ff55e2847c5a1ea96cc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e46422a7565f401fcacb59c1acf721c8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":824131623
+        }
+    ],
     "wof:id":824131623,
-    "wof:lastmodified":1466416058,
+    "wof:lastmodified":1492130403,
     "wof:name":"Image Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

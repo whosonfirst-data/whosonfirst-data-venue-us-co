@@ -2,9 +2,14 @@
   "id": 839988361,
   "type": "Feature",
   "properties": {
+    "addr:full":"3460 Park Ave W Denver CO 80216",
+    "addr:housenumber":"3460",
+    "addr:postcode":"80216",
+    "addr:street":"Park Ave W",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994865,39.765678,-104.994865,39.765678",
     "geom:latitude":39.765678,
     "geom:longitude":-104.994865,
@@ -30,19 +35,38 @@
         "sandwich"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871297,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5LUlTUdQS3piUXgpCOPLS2_39.765678_-104.994865@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460754,
-    "wof:geomhash":"6598bb4739c22eea48f896160cf30f07",
-    "wof:hierarchy":[],
+    "wof:geomhash":"23f67b0dc1e2de0d313971a6a1b303dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871297,
+            "region_id":85688603,
+            "venue_id":839988361
+        }
+    ],
     "wof:id":839988361,
-    "wof:lastmodified":1466417546,
+    "wof:lastmodified":1492112811,
     "wof:name":"Quiznos Sub",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871297,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824012339,
   "type": "Feature",
   "properties": {
+    "addr:full":"198 Lincoln Ave Hayden CO 81639",
+    "addr:housenumber":"198",
+    "addr:postcode":"81639",
+    "addr:street":"Lincoln Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.264076,40.495332,-107.264076,40.495332",
     "geom:latitude":40.495332,
     "geom:longitude":-107.264076,
@@ -27,19 +32,28 @@
         "feed"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555315
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1qDA4NfVddq7q57x4EeObs_40.495332_-107.264076@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452244,
-    "wof:geomhash":"4e52284a439a768a0362eb7e00c2d7ec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fa9f86dd7fe3c383b2fe79e00941193a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555315,
+            "venue_id":824012339
+        }
+    ],
     "wof:id":824012339,
-    "wof:lastmodified":1466413123,
+    "wof:lastmodified":1492130119,
     "wof:name":"Yampa Valley Feeds",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

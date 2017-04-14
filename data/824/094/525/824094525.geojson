@@ -2,9 +2,14 @@
   "id": 824094525,
   "type": "Feature",
   "properties": {
+    "addr:full":"2775 Valmont Rd Boulder CO 80304",
+    "addr:housenumber":"2775",
+    "addr:postcode":"80304",
+    "addr:street":"Valmont Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.26042,40.029249,-105.26042,40.029249",
     "geom:latitude":40.029249,
     "geom:longitude":-105.26042,
@@ -29,19 +34,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2PYAnKBwFEIGGanXob6Lfn_40.029249_-105.260420@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454208,
-    "wof:geomhash":"9f83c79a402800ca5f6d5c82c2d22982",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3145c8712e350e6b01185d2354d2d3c8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":824094525
+        }
+    ],
     "wof:id":824094525,
-    "wof:lastmodified":1466415052,
+    "wof:lastmodified":1492128462,
     "wof:name":"RPS Supply",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

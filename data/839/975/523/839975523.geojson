@@ -2,9 +2,14 @@
   "id": 839975523,
   "type": "Feature",
   "properties": {
+    "addr:full":"418 Belleview Ave Crested Butte CO 81224",
+    "addr:housenumber":"418",
+    "addr:postcode":"81224",
+    "addr:street":"Belleview Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.982778,38.86697,-106.982778,38.86697",
     "geom:latitude":38.86697,
     "geom:longitude":-106.982778,
@@ -27,19 +32,36 @@
         "veterinarian"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929655,
+        102083377,
+        420554485
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0jNgmxMNciAbVD9yHkYOdd_38.866970_-106.982778@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460237,
-    "wof:geomhash":"14c96df6752517408ee98b79c968d2b6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3c343869ba8520f8dc9ac64b1092e062",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554485,
+            "region_id":85688603,
+            "venue_id":839975523
+        }
+    ],
     "wof:id":839975523,
-    "wof:lastmodified":1466416475,
+    "wof:lastmodified":1492113750,
     "wof:name":"Animal Hospital-Crested Butte",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554485,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823968245,
   "type": "Feature",
   "properties": {
+    "addr:full":"4641 W 109th Pl Westminster CO 80031",
+    "addr:housenumber":"4641",
+    "addr:postcode":"80031",
+    "addr:street":"W 109Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.047654,39.895192,-105.047654,39.895192",
     "geom:latitude":39.895192,
     "geom:longitude":-105.047654,
@@ -28,19 +33,36 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554575
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7eNwni4CVOjNS3nhoe2wGh_39.895192_-105.047654@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451217,
-    "wof:geomhash":"51a50dc96944ee296f081adecf447163",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d597fce2fa7d1dd5d1f3a4466c43b34",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554575,
+            "region_id":85688603,
+            "venue_id":823968245
+        }
+    ],
     "wof:id":823968245,
-    "wof:lastmodified":1466420804,
+    "wof:lastmodified":1492127756,
     "wof:name":"Clarion Mortgage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554575,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

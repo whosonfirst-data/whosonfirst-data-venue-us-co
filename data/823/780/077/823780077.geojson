@@ -2,9 +2,14 @@
   "id": 823780077,
   "type": "Feature",
   "properties": {
+    "addr:full":"4865 Riverbend Rd Boulder CO 80301",
+    "addr:housenumber":"4865",
+    "addr:postcode":"80301",
+    "addr:street":"Riverbend Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.233566,40.015602,-105.233566,40.015602",
     "geom:latitude":40.015602,
     "geom:longitude":-105.233566,
@@ -27,19 +32,36 @@
         "accountant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5aJyqdsZlh1yoRpEqLQHNV_40.015602_-105.233566@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446091,
-    "wof:geomhash":"f4019d6d3f80b38a8e134cf1e715163c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e78405dcdbef0d81a9cbd0c81912b7cf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":823780077
+        }
+    ],
     "wof:id":823780077,
-    "wof:lastmodified":1466419322,
+    "wof:lastmodified":1492118709,
     "wof:name":"Cahill O'Kelly & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

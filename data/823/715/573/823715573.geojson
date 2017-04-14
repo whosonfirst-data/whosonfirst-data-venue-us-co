@@ -2,9 +2,14 @@
   "id": 823715573,
   "type": "Feature",
   "properties": {
+    "addr:full":"555 Bentwood St Grand Junction CO 81504",
+    "addr:housenumber":"555",
+    "addr:postcode":"81504",
+    "addr:street":"Bentwood St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.470085,39.086444,-108.470085,39.086444",
     "geom:latitude":39.086444,
     "geom:longitude":-108.470085,
@@ -34,19 +39,36 @@
         "safety"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930467,
+        102085221,
+        420554947
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6KH5wLHHNk7ycXLUGHVU87_39.086444_-108.470085@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444557,
-    "wof:geomhash":"dcc61d4e9ca9f2e1920c32338af14fce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b7e55c1b44bb0f8853ea7a3873dd343b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930467,
+            "neighbourhood_id":420554947,
+            "region_id":85688603,
+            "venue_id":823715573
+        }
+    ],
     "wof:id":823715573,
-    "wof:lastmodified":1466418687,
+    "wof:lastmodified":1492117919,
     "wof:name":"B & F Distributing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554947,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

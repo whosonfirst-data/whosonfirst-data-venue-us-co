@@ -2,9 +2,14 @@
   "id": 823628621,
   "type": "Feature",
   "properties": {
+    "addr:full":"4050 E 131st Ct Denver CO 80241",
+    "addr:housenumber":"4050",
+    "addr:postcode":"80241",
+    "addr:street":"E 131St Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.939024,39.934464,-104.939024,39.934464",
     "geom:latitude":39.934464,
     "geom:longitude":-104.939024,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553757
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ABkDVQI19tR04GUH6H47y_39.934464_-104.939024@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442601,
-    "wof:geomhash":"37d25e3fc26e03ef3467c8adbbd2c78e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ce4bf883ff5ec65ac58f5da46699466f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553757,
+            "region_id":85688603,
+            "venue_id":823628621
+        }
+    ],
     "wof:id":823628621,
-    "wof:lastmodified":1466417638,
+    "wof:lastmodified":1492116992,
     "wof:name":"Lbp Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553757,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

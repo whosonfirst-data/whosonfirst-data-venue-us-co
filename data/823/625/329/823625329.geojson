@@ -2,9 +2,14 @@
   "id": 823625329,
   "type": "Feature",
   "properties": {
+    "addr:full":"8815 Oakwood St Westminster CO 80031",
+    "addr:housenumber":"8815",
+    "addr:postcode":"80031",
+    "addr:street":"Oakwood St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040617,39.858536,-105.040617,39.858536",
     "geom:latitude":39.858536,
     "geom:longitude":-105.040617,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553597
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Q9AtmH8fMK4aLFr8svNbA_39.858536_-105.040617@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442521,
-    "wof:geomhash":"0a8f802221a8fb621f37a8e20651b693",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09efb3f2f7b63864c7e91e1f959ff7ff",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553597,
+            "region_id":85688603,
+            "venue_id":823625329
+        }
+    ],
     "wof:id":823625329,
-    "wof:lastmodified":1466417566,
+    "wof:lastmodified":1492121393,
     "wof:name":"North Metro Svc Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553597,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

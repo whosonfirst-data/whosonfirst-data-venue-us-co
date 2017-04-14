@@ -2,9 +2,14 @@
   "id": 824177267,
   "type": "Feature",
   "properties": {
+    "addr:full":"2553 River Rd Grand Junction CO 81501",
+    "addr:housenumber":"2553",
+    "addr:postcode":"81501",
+    "addr:street":"River Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.585547,39.076806,-108.585547,39.076806",
     "geom:latitude":39.076806,
     "geom:longitude":-108.585547,
@@ -27,19 +32,36 @@
         "village"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554785
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Ocu56JerptE12J1eAGV3i_39.076806_-108.585547@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456964,
-    "wof:geomhash":"1f80268cfb53cfabcc01ca3bb0ac6a02",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b7b955b517e6d620fa77cfa5acecf4c8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554785,
+            "region_id":85688603,
+            "venue_id":824177267
+        }
+    ],
     "wof:id":824177267,
-    "wof:lastmodified":1466418154,
+    "wof:lastmodified":1492130005,
     "wof:name":"Grand Junction Street Mntnc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554785,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

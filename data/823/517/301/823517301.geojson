@@ -2,9 +2,14 @@
   "id": 823517301,
   "type": "Feature",
   "properties": {
+    "addr:full":"2001 Co Rd 31 Florissant CO 80816",
+    "addr:housenumber":"2001;31",
+    "addr:postcode":"80816",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.293791,38.947807,-105.293791,38.947807",
     "geom:latitude":38.947807,
     "geom:longitude":-105.293791,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929959,
+        102085249
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6GZ50BbdPfr3fGlr83F7YA_38.947807_-105.293791@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439959,
-    "wof:geomhash":"8e709012a99e3e7bf3b027acf10c5497",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eae7113dfa12f554aec020b54669405c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085249,
+            "locality_id":85929959,
+            "region_id":85688603,
+            "venue_id":823517301
+        }
+    ],
     "wof:id":823517301,
-    "wof:lastmodified":1466414637,
+    "wof:lastmodified":1492124522,
     "wof:name":"Peak View Baptist Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

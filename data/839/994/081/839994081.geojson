@@ -2,9 +2,14 @@
   "id": 839994081,
   "type": "Feature",
   "properties": {
+    "addr:full":"1050 Walnut Street Suite 210 Boulder CO 80302",
+    "addr:housenumber":"1050",
+    "addr:postcode":"80302",
+    "addr:street":"Walnut Street Suite 210",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.28134,40.016419,-105.28134,40.016419",
     "geom:latitude":40.016419,
     "geom:longitude":-105.28134,
@@ -24,7 +29,14 @@
     "sg:province":"CO",
     "sg:website":"http://www.themandelbrotproject.com/",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5xqCLOlVFezjCOWQz4pFtq_40.016419_-105.281340@1308186498"
@@ -32,11 +44,21 @@
     "wof:country":"US",
     "wof:created":1463460993,
     "wof:geomhash":"c40c9cf182b2da913b5e494f94898834",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":839994081
+        }
+    ],
     "wof:id":839994081,
-    "wof:lastmodified":1466417759,
+    "wof:lastmodified":1491897928,
     "wof:name":"Mandelbrot Project",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

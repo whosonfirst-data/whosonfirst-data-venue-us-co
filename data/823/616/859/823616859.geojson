@@ -2,9 +2,14 @@
   "id": 823616859,
   "type": "Feature",
   "properties": {
+    "addr:full":"2415 Ridge Dr Grand Junction CO 81506",
+    "addr:housenumber":"2415",
+    "addr:postcode":"81506",
+    "addr:street":"Ridge Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.534534,39.098967,-108.534534,39.098967",
     "geom:latitude":39.098967,
     "geom:longitude":-108.534534,
@@ -28,19 +33,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554859
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1wu4KgaXB1BYIQQJNM02yL_39.098967_-108.534534@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442315,
-    "wof:geomhash":"b68e23a417786031af1d2e34ae29b926",
-    "wof:hierarchy":[],
+    "wof:geomhash":"37eb9209c6f616aabdf579011f83712c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554859,
+            "region_id":85688603,
+            "venue_id":823616859
+        }
+    ],
     "wof:id":823616859,
-    "wof:lastmodified":1466417413,
+    "wof:lastmodified":1492116253,
     "wof:name":"Spears Art & Screen Print",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554859,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

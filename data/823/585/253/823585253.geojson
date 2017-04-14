@@ -2,9 +2,14 @@
   "id": 823585253,
   "type": "Feature",
   "properties": {
+    "addr:full":"304 Main St Wiley CO 81092",
+    "addr:housenumber":"304",
+    "addr:postcode":"81092",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.71969,38.154575,-102.71969,38.154575",
     "geom:latitude":38.154575,
     "geom:longitude":-102.71969,
@@ -27,17 +32,32 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928861,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_40ieeYnieNSG6aYX7pX5AK_38.154575_-102.719690@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441541,
-    "wof:geomhash":"11ec2303309224fa1fffe2049d081d0f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4a79753f654f91c67459a30b449d1dd5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928861,
+            "region_id":85688603,
+            "venue_id":823585253
+        }
+    ],
     "wof:id":823585253,
-    "wof:lastmodified":1466416707,
+    "wof:lastmodified":1492127384,
     "wof:name":"Water Supply of Town",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

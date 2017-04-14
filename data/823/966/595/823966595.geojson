@@ -2,9 +2,14 @@
   "id": 823966595,
   "type": "Feature",
   "properties": {
+    "addr:full":"10668 Gold Hill Rd Boulder CO 80302",
+    "addr:housenumber":"10668",
+    "addr:postcode":"80302",
+    "addr:street":"Gold Hill Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.455644,40.054069,-105.455644,40.054069",
     "geom:latitude":40.054069,
     "geom:longitude":-105.455644,
@@ -27,19 +32,36 @@
         "ashram"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930693,
+        102085251,
+        85822117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5KHYqx0v5KkCUkDnOlYSF6_40.054069_-105.455644@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451186,
-    "wof:geomhash":"a00e9cdc351dd68878484b24db743489",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e829dc518e93a94f65dad063e8a6eb96",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930693,
+            "neighbourhood_id":85822117,
+            "region_id":85688603,
+            "venue_id":823966595
+        }
+    ],
     "wof:id":823966595,
-    "wof:lastmodified":1466420812,
+    "wof:lastmodified":1492118834,
     "wof:name":"Sacred Mountain Ashram",
-    "wof:parent_id":-1,
+    "wof:parent_id":85822117,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

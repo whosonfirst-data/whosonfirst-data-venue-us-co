@@ -2,9 +2,14 @@
   "id": 823988257,
   "type": "Feature",
   "properties": {
+    "addr:full":"200 Caribou Ln Steamboat Spgs CO 80487",
+    "addr:housenumber":"200",
+    "addr:postcode":"80487",
+    "addr:street":"Caribou Ln;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.814987,40.481673,-106.814987,40.481673",
     "geom:latitude":40.481673,
     "geom:longitude":-106.814987,
@@ -27,19 +32,36 @@
         "electrolysis"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6MT2Mz5F2XpxkvQt4vsjKp_40.481673_-106.814987@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451679,
-    "wof:geomhash":"e690a57732ae8e464fcc965bf0b0b897",
-    "wof:hierarchy":[],
+    "wof:geomhash":"009c622fff91ca96d68909875a3da6c9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555395,
+            "region_id":85688603,
+            "venue_id":823988257
+        }
+    ],
     "wof:id":823988257,
-    "wof:lastmodified":1466420967,
+    "wof:lastmodified":1492123108,
     "wof:name":"Professional Electrology",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

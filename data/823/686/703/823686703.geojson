@@ -2,9 +2,14 @@
   "id": 823686703,
   "type": "Feature",
   "properties": {
+    "addr:full":"980 Co Rd 314 Idaho Springs CO 80452",
+    "addr:housenumber":"980;314",
+    "addr:postcode":"80452",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.466264,39.745203,-105.466264,39.745203",
     "geom:latitude":39.745203,
     "geom:longitude":-105.466264,
@@ -27,17 +32,32 @@
         "village"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929529,
+        102085243
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2LqaKA89NO06wE0C36RXMQ_39.745203_-105.466264@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443939,
-    "wof:geomhash":"07dccfe379b20633552eb6c0e4e232ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2a171fcbf43ce4714cabd249dc9b8694",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085243,
+            "locality_id":85929529,
+            "region_id":85688603,
+            "venue_id":823686703
+        }
+    ],
     "wof:id":823686703,
-    "wof:lastmodified":1466418414,
+    "wof:lastmodified":1492116614,
     "wof:name":"Sewer Plant",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 823893511,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 Commercial St Lamar CO 81052",
+    "addr:housenumber":"500",
+    "addr:postcode":"81052",
+    "addr:street":"Commercial St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.612962,38.09641,-102.612962,38.09641",
     "geom:latitude":38.09641,
     "geom:longitude":-102.612962,
@@ -28,17 +33,32 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928855,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3EBjEYQVhRuQaycf5KfHNN_38.096410_-102.612962@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449285,
-    "wof:geomhash":"3f705b6d444748fc1d04828a8280bc1c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6e76eb10202b15a13ca01bd4f3df0b3f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928855,
+            "region_id":85688603,
+            "venue_id":823893511
+        }
+    ],
     "wof:id":823893511,
-    "wof:lastmodified":1466420161,
+    "wof:lastmodified":1492118221,
     "wof:name":"C & C Storage",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

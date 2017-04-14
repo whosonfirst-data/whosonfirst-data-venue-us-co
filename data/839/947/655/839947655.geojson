@@ -2,9 +2,14 @@
   "id": 839947655,
   "type": "Feature",
   "properties": {
+    "addr:full":"9517 Ralston Rd Arvada CO 80002",
+    "addr:housenumber":"9517",
+    "addr:postcode":"80002",
+    "addr:street":"Ralston Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.102782,39.802039,-105.102782,39.802039",
     "geom:latitude":39.802039,
     "geom:longitude":-105.102782,
@@ -24,19 +29,34 @@
     "sg:postcode":"80002",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85930615,
+        102084113,
+        85865183
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4FaXgCJQbgwdq63mreMw3V_39.802039_-105.102782@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459025,
-    "wof:geomhash":"fce77bdbb4a7be1df41b50a56c3026c2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"49495a633a7befbbe6a2e2564b2ceacb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85930615,
+            "neighbourhood_id":85865183,
+            "region_id":85688603,
+            "venue_id":839947655
+        }
+    ],
     "wof:id":839947655,
-    "wof:lastmodified":1466415215,
+    "wof:lastmodified":1492113047,
     "wof:name":"Safeway",
-    "wof:parent_id":-1,
+    "wof:parent_id":85865183,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823655461,
   "type": "Feature",
   "properties": {
+    "addr:full":"1579 Vista Ln Strasburg CO 80136",
+    "addr:housenumber":"1579",
+    "addr:postcode":"80136",
+    "addr:street":"Vista Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.331302,39.740883,-104.331302,39.740883",
     "geom:latitude":39.740883,
     "geom:longitude":-104.331302,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930247,
+        102086877,
+        420553945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1vMulw8P0bCuImc4cI89PR_39.740883_-104.331302@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443207,
-    "wof:geomhash":"dc81bc5ca86c0d2da17a1b3dce56ec2b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"216501e49c5c78358b1ab5799e8c402a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930247,
+            "neighbourhood_id":420553945,
+            "region_id":85688603,
+            "venue_id":823655461
+        }
+    ],
     "wof:id":823655461,
-    "wof:lastmodified":1466418144,
+    "wof:lastmodified":1492127911,
     "wof:name":"Adams Heating & Air",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824086599,
   "type": "Feature",
   "properties": {
+    "addr:full":"21420 E 46th Ave Denver CO 80249",
+    "addr:housenumber":"21420",
+    "addr:postcode":"80249",
+    "addr:street":"E 46Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.737433,39.779915,-104.737433,39.779915",
     "geom:latitude":39.779915,
     "geom:longitude":-104.737433,
@@ -30,7 +35,16 @@
         "floor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750019,
+        420781629,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6YIVwW3VCAizP4kzJ3pww3_39.779915_-104.737433@1294083659"
@@ -38,11 +52,23 @@
     "wof:country":"US",
     "wof:created":1463454009,
     "wof:geomhash":"467af2ef37930adbb73abc90a4cba584",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750019,
+            "neighbourhood_id":420781629,
+            "region_id":85688603,
+            "venue_id":824086599
+        }
+    ],
     "wof:id":824086599,
-    "wof:lastmodified":1466414852,
+    "wof:lastmodified":1486593997,
     "wof:name":"Kennis Floor Covering",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750019,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

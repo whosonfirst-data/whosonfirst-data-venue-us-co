@@ -2,9 +2,14 @@
   "id": 320179197,
   "type": "Feature",
   "properties": {
+    "addr:full":"675 S University Blvd # 204 Denver CO 80209",
+    "addr:housenumber":"675",
+    "addr:postcode":"80209",
+    "addr:street":"S University Blvd # 204",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959345,39.703993,-104.959345,39.703993",
     "geom:latitude":39.703993,
     "geom:longitude":-104.959345,
@@ -25,10 +30,14 @@
     "sg:province":"CO",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750021,
+        85871327,
+        102191575,
+        1108750035,
         85633793,
         85928879,
-        102086135
+        102086135,
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -38,19 +47,21 @@
     "wof:geomhash":"e325383d671f1c9ad802838ff99c2eba",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":-1,
+            "macrohood_id":1108750035,
+            "microhood_id":1108750021,
+            "neighbourhood_id":85871327,
             "region_id":85688603,
             "venue_id":320179197
         }
     ],
     "wof:id":320179197,
-    "wof:lastmodified":1466412759,
+    "wof:lastmodified":1486593999,
     "wof:name":"Campbell Research Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750021,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

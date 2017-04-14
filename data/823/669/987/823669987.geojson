@@ -2,9 +2,14 @@
   "id": 823669987,
   "type": "Feature",
   "properties": {
+    "addr:full":"101 N Broadway Cortez CO 81321",
+    "addr:housenumber":"101",
+    "addr:postcode":"81321",
+    "addr:street":"N Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.591105,37.351806,-108.591105,37.351806",
     "geom:latitude":37.351806,
     "geom:longitude":-108.591105,
@@ -27,19 +32,28 @@
         "snowmobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1dpWN7J79NIcT7pxsQkXlJ_37.351806_-108.591105@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443573,
-    "wof:geomhash":"cd4ededa593db3d0bd08d1ba7bb75ba3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fb52fdca480047a97dc3863ea66288ca",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":823669987
+        }
+    ],
     "wof:id":823669987,
-    "wof:lastmodified":1466418171,
+    "wof:lastmodified":1492121758,
     "wof:name":"Outdoor Connection",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

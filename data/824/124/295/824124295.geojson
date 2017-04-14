@@ -2,9 +2,14 @@
   "id": 824124295,
   "type": "Feature",
   "properties": {
+    "addr:full":"8323 W Fork Rd Boulder CO 80302",
+    "addr:housenumber":"8323",
+    "addr:postcode":"80302",
+    "addr:street":"W Fork Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.294049,40.124672,-105.294049,40.124672",
     "geom:latitude":40.124672,
     "geom:longitude":-105.294049,
@@ -29,19 +34,36 @@
         "bath"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930741,
+        102085251,
+        420554155
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3lynGYOu5mUegbnAFCpMqO_40.124672_-105.294049@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454894,
-    "wof:geomhash":"4c8641e8407981465b9c4f2b6bc1e4ed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b58b43a0ab9b54cb2f74b5c7b270671e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930741,
+            "neighbourhood_id":420554155,
+            "region_id":85688603,
+            "venue_id":824124295
+        }
+    ],
     "wof:id":824124295,
-    "wof:lastmodified":1466415720,
+    "wof:lastmodified":1492130836,
     "wof:name":"Boulder Kitchen & Bath Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554155,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

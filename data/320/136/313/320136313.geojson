@@ -2,9 +2,14 @@
   "id": 320136313,
   "type": "Feature",
   "properties": {
+    "addr:full":"2444 Washington Street Denver CO 80205",
+    "addr:housenumber":"2444",
+    "addr:postcode":"80205",
+    "addr:street":"Washington Street",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978117,39.752553,-104.978117,39.752553",
     "geom:latitude":39.752553,
     "geom:longitude":-104.978117,
@@ -29,11 +34,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750115,
+        85871289,
+        102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85871303
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,19 +51,21 @@
     "wof:geomhash":"c9fe0e53d6c2e979eb0557ef7ef42daa",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85871303,
+            "macrohood_id":1108750025,
+            "microhood_id":1108750115,
+            "neighbourhood_id":85871289,
             "region_id":85688603,
             "venue_id":320136313
         }
     ],
     "wof:id":320136313,
-    "wof:lastmodified":1466412640,
+    "wof:lastmodified":1486604501,
     "wof:name":"African American Voter Information Project",
-    "wof:parent_id":85871303,
+    "wof:parent_id":1108750115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

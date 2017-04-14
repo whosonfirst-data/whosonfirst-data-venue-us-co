@@ -2,9 +2,14 @@
   "id": 839918005,
   "type": "Feature",
   "properties": {
+    "addr:full":"4923 Dakota Blvd Boulder CO 80304",
+    "addr:housenumber":"4923",
+    "addr:postcode":"80304",
+    "addr:street":"Dakota Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.285826,40.063513,-105.285826,40.063513",
     "geom:latitude":40.063513,
     "geom:longitude":-105.285826,
@@ -29,19 +34,34 @@
         "executive"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3mmD07p5vWAyFplSI9XxM4_40.063513_-105.285826@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457409,
-    "wof:geomhash":"52c23636ab0b69a22bb06131e13441c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3569814c720c2089cb2ab08fda7b517d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":839918005
+        }
+    ],
     "wof:id":839918005,
-    "wof:lastmodified":1466413707,
+    "wof:lastmodified":1492112372,
     "wof:name":"Executive Search Placements",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

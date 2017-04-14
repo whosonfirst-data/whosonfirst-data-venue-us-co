@@ -2,9 +2,14 @@
   "id": 824143979,
   "type": "Feature",
   "properties": {
+    "addr:full":"877 E 3rd St Durango CO 81301",
+    "addr:housenumber":"877",
+    "addr:postcode":"co 81301",
+    "addr:street":"E 3Rd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.872637,37.264839,-107.872637,37.264839",
     "geom:latitude":37.264839,
     "geom:longitude":-107.872637,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554641
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4t9UOW4GAxin7x3LwcQQmg_37.264839_-107.872637@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455654,
-    "wof:geomhash":"708b8e657500c1de534a8ecd1dba3c23",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f0e691a90d6aa714d1ad03c4b344237f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554641,
+            "venue_id":824143979
+        }
+    ],
     "wof:id":824143979,
-    "wof:lastmodified":1466416725,
+    "wof:lastmodified":1492130679,
     "wof:name":"Durango Electrical Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554641,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

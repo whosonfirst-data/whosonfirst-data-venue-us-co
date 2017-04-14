@@ -2,9 +2,14 @@
   "id": 823772243,
   "type": "Feature",
   "properties": {
+    "addr:full":"955 Decatur St Denver CO 80204",
+    "addr:housenumber":"955",
+    "addr:postcode":"80204",
+    "addr:street":"Decatur St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.021813,39.732003,-105.021813,39.732003",
     "geom:latitude":39.732003,
     "geom:longitude":-105.021813,
@@ -30,7 +35,15 @@
         "bar"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554311,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2USlwvmpuEws6PW5DU16oo_39.732003_-105.021813@1294083659"
@@ -38,11 +51,22 @@
     "wof:country":"US",
     "wof:created":1463445876,
     "wof:geomhash":"709a5a14b0ccb9d21d54d5a8f515f209",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420554311,
+            "region_id":85688603,
+            "venue_id":823772243
+        }
+    ],
     "wof:id":823772243,
-    "wof:lastmodified":1466419204,
+    "wof:lastmodified":1486589108,
     "wof:name":"Foxx Equipment Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554311,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

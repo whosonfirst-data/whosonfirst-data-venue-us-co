@@ -2,9 +2,14 @@
   "id": 824124187,
   "type": "Feature",
   "properties": {
+    "addr:full":"2221 Columbine Ave Boulder CO 80302",
+    "addr:housenumber":"2221",
+    "addr:postcode":"80302",
+    "addr:street":"Columbine Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.263543,39.999216,-105.263543,39.999216",
     "geom:latitude":39.999216,
     "geom:longitude":-105.263543,
@@ -28,7 +33,14 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06N9JrdmU2N1Xj4M1WjY3J_39.999216_-105.263543@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463454890,
     "wof:geomhash":"717fc5f0e49a8561eb44356821d49a8d",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":824124187
+        }
+    ],
     "wof:id":824124187,
-    "wof:lastmodified":1466415698,
+    "wof:lastmodified":1491890404,
     "wof:name":"Borzym Acoustics Consulting",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

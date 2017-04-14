@@ -2,9 +2,14 @@
   "id": 823623481,
   "type": "Feature",
   "properties": {
+    "addr:full":"113 E Alcove Dr Grand Junction CO 81503",
+    "addr:housenumber":"113",
+    "addr:postcode":"81503",
+    "addr:street":"E Alcove Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.619662,39.074685,-108.619662,39.074685",
     "geom:latitude":39.074685,
     "geom:longitude":-108.619662,
@@ -29,19 +34,36 @@
         "structural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7cNnHn4o4GGPXVc9UPt9he_39.074685_-108.619662@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442481,
-    "wof:geomhash":"248bbf7c185540a754fb4aff9ec11402",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cafc831df9dc02e57739d16b16b31cee",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554787,
+            "region_id":85688603,
+            "venue_id":823623481
+        }
+    ],
     "wof:id":823623481,
-    "wof:lastmodified":1466417474,
+    "wof:lastmodified":1492117848,
     "wof:name":"Rocky Mountain Erectors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

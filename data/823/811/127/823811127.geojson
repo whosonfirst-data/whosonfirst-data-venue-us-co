@@ -2,9 +2,14 @@
   "id": 823811127,
   "type": "Feature",
   "properties": {
+    "addr:full":"2224 E Main St Cortez CO 81321",
+    "addr:housenumber":"2224",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.556003,37.350498,-108.556003,37.350498",
     "geom:latitude":37.350498,
     "geom:longitude":-108.556003,
@@ -27,19 +32,28 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_76J277DHimoyVeWrXHsIgy_37.350498_-108.556003@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447042,
-    "wof:geomhash":"8cea00fb23ddad8c2c79c309ea2d82e1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"075242d8c22bd6f09603a0b32d16a897",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":823811127
+        }
+    ],
     "wof:id":823811127,
-    "wof:lastmodified":1466419410,
+    "wof:lastmodified":1492121006,
     "wof:name":"Subway",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

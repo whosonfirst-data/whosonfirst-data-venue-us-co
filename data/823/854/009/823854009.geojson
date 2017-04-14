@@ -2,9 +2,14 @@
   "id": 823854009,
   "type": "Feature",
   "properties": {
+    "addr:full":"12161 Co Rd 240 Durango CO 81301",
+    "addr:housenumber":"12161;240",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.693703,37.350953,-107.693703,37.350953",
     "geom:latitude":37.350953,
     "geom:longitude":-107.693703,
@@ -30,8 +35,9 @@
     "sg:website":"www.coloradotrailsflyfish.com",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
         85633793,
+        420554607,
+        85688603,
         85888397,
         102084019
     ],
@@ -41,8 +47,13 @@
     },
     "wof:country":"US",
     "wof:created":1463448335,
-    "wof:geomhash":"e6f879ff162a04e4f842849c108615fb",
+    "wof:geomhash":"766af6cc4adcf135d2c8dbb7a0df3b68",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554607,
+            "venue_id":823854009
+        },
         {
             "country_id":85633793,
             "county_id":102084019,
@@ -52,9 +63,9 @@
         }
     ],
     "wof:id":823854009,
-    "wof:lastmodified":1466419781,
+    "wof:lastmodified":1492125016,
     "wof:name":"Colorado Trails Ranch",
-    "wof:parent_id":85888397,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

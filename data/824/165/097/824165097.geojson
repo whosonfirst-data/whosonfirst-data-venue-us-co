@@ -2,9 +2,14 @@
   "id": 824165097,
   "type": "Feature",
   "properties": {
+    "addr:full":"3155 Bluff St Boulder CO 80301",
+    "addr:housenumber":"3155",
+    "addr:postcode":"80301",
+    "addr:street":"Bluff St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.251642,40.027643,-105.251642,40.027643",
     "geom:latitude":40.027643,
     "geom:longitude":-105.251642,
@@ -27,19 +32,36 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ak0rEnw1i0FfiiBbMMI1X_40.027643_-105.251642@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456495,
-    "wof:geomhash":"38113f054a231cf10e6f28a1cb4c3d7d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5f03e9697e162c33f5672a7ad72c78c9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":824165097
+        }
+    ],
     "wof:id":824165097,
-    "wof:lastmodified":1466417604,
+    "wof:lastmodified":1492129908,
     "wof:name":"V & P Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

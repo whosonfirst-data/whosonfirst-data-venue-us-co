@@ -2,9 +2,14 @@
   "id": 839993543,
   "type": "Feature",
   "properties": {
+    "addr:full":"1119 E Main St Cortez CO 81321",
+    "addr:housenumber":"1119",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570267,37.348861,-108.570267,37.348861",
     "geom:latitude":37.348861,
     "geom:longitude":-108.570267,
@@ -29,19 +34,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555047
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Qz2PCPtdD1iP2akt60B1z_37.348776_-108.570872@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460952,
-    "wof:geomhash":"d42477a2d49f8870b83e2048466f1c02",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8ddefbb5c5e150424897211691cc942a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555047,
+            "region_id":85688603,
+            "venue_id":839993543
+        }
+    ],
     "wof:id":839993543,
-    "wof:lastmodified":1466417723,
+    "wof:lastmodified":1492110928,
     "wof:name":"Pizza Hut",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555047,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

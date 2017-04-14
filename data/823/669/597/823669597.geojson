@@ -2,9 +2,14 @@
   "id": 823669597,
   "type": "Feature",
   "properties": {
+    "addr:full":"5387 Manhattan Cir Boulder CO 80303",
+    "addr:housenumber":"5387",
+    "addr:postcode":"80303",
+    "addr:street":"Manhattan Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.229022,39.985708,-105.229022,39.985708",
     "geom:latitude":39.985708,
     "geom:longitude":-105.229022,
@@ -27,19 +32,36 @@
         "accountant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1nEKPdUYJJMEzBtFf40Hxq_39.985708_-105.229022@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443563,
-    "wof:geomhash":"6083cb48ec0d1b1d9f7e117e678d7c90",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8ad346fc07f7ff20036d18eae56a24bf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":823669597
+        }
+    ],
     "wof:id":823669597,
-    "wof:lastmodified":1466418142,
+    "wof:lastmodified":1492121746,
     "wof:name":"Bolder Business Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

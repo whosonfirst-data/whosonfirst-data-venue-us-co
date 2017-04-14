@@ -2,9 +2,14 @@
   "id": 823848107,
   "type": "Feature",
   "properties": {
+    "addr:full":"2701 W 101st Pl Denver CO 80260",
+    "addr:housenumber":"2701",
+    "addr:postcode":"80260",
+    "addr:street":"W 101St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.020732,39.880696,-105.020732,39.880696",
     "geom:latitude":39.880696,
     "geom:longitude":-105.020732,
@@ -28,19 +33,36 @@
         "computer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553931
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4K0rhSqEV3TDAAu8hAiNhF_39.880696_-105.020732@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448172,
-    "wof:geomhash":"ddae447228c0e35c3cd04466043a32fb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"919b602ff4dd057cca959290ec65df2c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553931,
+            "region_id":85688603,
+            "venue_id":823848107
+        }
+    ],
     "wof:id":823848107,
-    "wof:lastmodified":1466419858,
+    "wof:lastmodified":1492127111,
     "wof:name":"Rapid Laser Printer Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553931,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

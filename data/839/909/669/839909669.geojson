@@ -2,9 +2,14 @@
   "id": 839909669,
   "type": "Feature",
   "properties": {
+    "addr:full":"3481 S Fenton St Denver CO 80227",
+    "addr:housenumber":"3481",
+    "addr:postcode":"80227",
+    "addr:street":"S Fenton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.058698,39.654723,-105.058698,39.654723",
     "geom:latitude":39.654723,
     "geom:longitude":-105.058698,
@@ -28,19 +33,38 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871249,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6GJDS6TLu4B7fjEJ0XO9V2_39.654723_-105.058698@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457101,
-    "wof:geomhash":"a5ae84c672b65a9a50ba65475bc075b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4c7f50a16a4df345d2e40336cc8ae565",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871249,
+            "region_id":85688603,
+            "venue_id":839909669
+        }
+    ],
     "wof:id":839909669,
-    "wof:lastmodified":1466413560,
+    "wof:lastmodified":1492112733,
     "wof:name":"Hunters Ridge Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

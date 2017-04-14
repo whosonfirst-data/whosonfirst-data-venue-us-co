@@ -2,9 +2,14 @@
   "id": 839965025,
   "type": "Feature",
   "properties": {
+    "addr:full":"934 S Euclid Way Denver CO 80209",
+    "addr:housenumber":"934",
+    "addr:postcode":"80209",
+    "addr:street":"S Euclid Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.955668,39.699412,-104.955668,39.699412",
     "geom:latitude":39.699412,
     "geom:longitude":-104.955668,
@@ -28,7 +33,16 @@
         "consultant"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108749009,
+        85871327,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3u21Zj8o9xrlZk1aVP5yhy_39.699412_-104.955668@1294083659"
@@ -36,11 +50,23 @@
     "wof:country":"US",
     "wof:created":1463459814,
     "wof:geomhash":"0756d9438faa57c5399af34853b0998e",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "microhood_id":1108749009,
+            "neighbourhood_id":85871327,
+            "region_id":85688603,
+            "venue_id":839965025
+        }
+    ],
     "wof:id":839965025,
-    "wof:lastmodified":1466415914,
+    "wof:lastmodified":1486604346,
     "wof:name":"Gasparilla Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108749009,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

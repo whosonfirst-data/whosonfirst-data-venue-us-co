@@ -2,9 +2,14 @@
   "id": 824015009,
   "type": "Feature",
   "properties": {
+    "addr:full":"1980 Hwy 325 Rifle CO 81650",
+    "addr:housenumber":"1980",
+    "addr:postcode":"81650",
+    "addr:street":"Hwy 325",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.768327,39.597048,-107.768327,39.597048",
     "geom:latitude":39.597048,
     "geom:longitude":-107.768327,
@@ -28,19 +33,32 @@
         "fiber"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85853011,
+        102084085
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4mtWb4NjuWqYVoJzJ1kIFu_39.597048_-107.768327@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452317,
-    "wof:geomhash":"f7764222ec0d91389915196c51f95555",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f876646dd0c0f4cecc1c8ee8708c0a0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084085,
+            "neighbourhood_id":85853011,
+            "region_id":85688603,
+            "venue_id":824015009
+        }
+    ],
     "wof:id":824015009,
-    "wof:lastmodified":1466413397,
+    "wof:lastmodified":1492127948,
     "wof:name":"Millennium Brokers Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85853011,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823876961,
   "type": "Feature",
   "properties": {
+    "addr:full":"1401 Walnut St Boulder CO 80302",
+    "addr:housenumber":"1401",
+    "addr:postcode":"80302",
+    "addr:street":"Walnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275691,40.017686,-105.275691,40.017686",
     "geom:latitude":40.017686,
     "geom:longitude":-105.275691,
@@ -28,7 +33,14 @@
         "milk"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Nh2bzUnssXMHIQwQHzgQn_40.017686_-105.275691@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463448899,
     "wof:geomhash":"b27cf60218999a6c97ad399bac58f35c",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823876961
+        }
+    ],
     "wof:id":823876961,
-    "wof:lastmodified":1466420115,
+    "wof:lastmodified":1491888500,
     "wof:name":"Aurora Dairy Corporation",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823572429,
   "type": "Feature",
   "properties": {
+    "addr:full":"1925 Harmony Dr Fort Collins CO 80525",
+    "addr:housenumber":"1925",
+    "addr:postcode":"80525",
+    "addr:street":"Harmony Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040801,40.526771,-105.040801,40.526771",
     "geom:latitude":40.526771,
     "geom:longitude":-105.040801,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554731
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0nanp4fhvNWN4A5Zp0Zjoq_40.526771_-105.040801@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441239,
-    "wof:geomhash":"d2072116e09c3afa5039690f2d8c0e40",
-    "wof:hierarchy":[],
+    "wof:geomhash":"42f545a25cc4d8b401561a89bd5f9c40",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554731,
+            "region_id":85688603,
+            "venue_id":823572429
+        }
+    ],
     "wof:id":823572429,
-    "wof:lastmodified":1466416289,
+    "wof:lastmodified":1492121981,
     "wof:name":"Phil Millard Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554731,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823715641,
   "type": "Feature",
   "properties": {
+    "addr:full":"918 W San Juan Ave Gunnison CO 81230",
+    "addr:housenumber":"918",
+    "addr:postcode":"81230",
+    "addr:street":"W San Juan Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.937569,38.541173,-106.937569,38.541173",
     "geom:latitude":38.541173,
     "geom:longitude":-106.937569,
@@ -28,19 +33,36 @@
         "parcel"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554361
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2BKJH3bRgCAqM80kBY53O7_38.541173_-106.937569@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444558,
-    "wof:geomhash":"ad6374194b3e29a306d5c70f04ce1ce5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"33a5ad16a7f7d4d3b2012826c80e4c67",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554361,
+            "region_id":85688603,
+            "venue_id":823715641
+        }
+    ],
     "wof:id":823715641,
-    "wof:lastmodified":1466418693,
+    "wof:lastmodified":1492117915,
     "wof:name":"UPS",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

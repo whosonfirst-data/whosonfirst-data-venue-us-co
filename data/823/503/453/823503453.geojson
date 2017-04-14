@@ -2,9 +2,14 @@
   "id": 823503453,
   "type": "Feature",
   "properties": {
+    "addr:full":"2777 Crossroads Blvd Grand Junction CO 81506",
+    "addr:housenumber":"2777",
+    "addr:postcode":"81506",
+    "addr:street":"Crossroads Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.535632,39.114381,-108.535632,39.114381",
     "geom:latitude":39.114381,
     "geom:longitude":-108.535632,
@@ -28,19 +33,36 @@
         "vacuum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554859
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1wfr1gWbL0unGMTozAVlJV_39.114381_-108.535632@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439653,
-    "wof:geomhash":"ef4f6113963f9c8867779fce31a7b056",
-    "wof:hierarchy":[],
+    "wof:geomhash":"913bde4a15e840dbc3745daf03658999",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554859,
+            "region_id":85688603,
+            "venue_id":823503453
+        }
+    ],
     "wof:id":823503453,
-    "wof:lastmodified":1466414334,
+    "wof:lastmodified":1492118916,
     "wof:name":"Rainbow Vacuum Cleaners",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554859,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

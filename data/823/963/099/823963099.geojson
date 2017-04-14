@@ -2,9 +2,14 @@
   "id": 823963099,
   "type": "Feature",
   "properties": {
+    "addr:full":"29855 Rock Point Trl Oak Creek CO 80477",
+    "addr:housenumber":"29855",
+    "addr:postcode":"80477",
+    "addr:street":"Rock Point Trl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.867309,40.259456,-106.867309,40.259456",
     "geom:latitude":40.259456,
     "geom:longitude":-106.867309,
@@ -27,19 +32,34 @@
         "retail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555327,
+        420555337
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5q52i3gFNdQIZ8qaboRFpv_40.259456_-106.867309@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451093,
-    "wof:geomhash":"f2e7ad2c2f1bf7025eab7134d7efa5ee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7b579a4b72e5c64a3618a1980a53c4d5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555327,
+            "venue_id":823963099
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555337,
+            "venue_id":823963099
+        }
+    ],
     "wof:id":823963099,
-    "wof:lastmodified":1466420759,
+    "wof:lastmodified":1492119860,
     "wof:name":"Firearms Exchange",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839932271,
   "type": "Feature",
   "properties": {
+    "addr:full":"3133 Indian Rd Boulder CO 80301",
+    "addr:housenumber":"3133",
+    "addr:postcode":"80301",
+    "addr:street":"Indian Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.215055,40.031268,-105.215055,40.031268",
     "geom:latitude":40.031268,
     "geom:longitude":-105.215055,
@@ -27,7 +32,14 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4i4CxCRVkrCFWXNcBxrlpi_40.031268_-105.215055@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463458104,
     "wof:geomhash":"cde0d45f336e1d4c5ce2cd27c680c649",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":839932271
+        }
+    ],
     "wof:id":839932271,
-    "wof:lastmodified":1466414174,
+    "wof:lastmodified":1491620031,
     "wof:name":"Non Pub",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

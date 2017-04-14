@@ -2,9 +2,14 @@
   "id": 823475449,
   "type": "Feature",
   "properties": {
+    "addr:full":"21885 Co Rd 50 Eads CO 81036",
+    "addr:housenumber":"21885;50",
+    "addr:postcode":"81036",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.611121,38.613245,-102.611121,38.613245",
     "geom:latitude":38.613245,
     "geom:longitude":-102.611121,
@@ -27,17 +32,38 @@
         "ranch"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        102191575,
+        85633793,
+        85688603,
+        102084045,
+        102085253
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7NJuPxrmtte2pvyDauzwug_38.613245_-102.611121@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438963,
-    "wof:geomhash":"b3b10185526bf5e0b8274e973845ec83",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c9fe133aaf54887dc6d4049405c3bc42",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084045,
+            "region_id":85688603,
+            "venue_id":823475449
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085253,
+            "region_id":85688603,
+            "venue_id":823475449
+        }
+    ],
     "wof:id":823475449,
-    "wof:lastmodified":1466412832,
+    "wof:lastmodified":1492122800,
     "wof:name":"Double T Ranch",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

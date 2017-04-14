@@ -2,9 +2,14 @@
   "id": 823520073,
   "type": "Feature",
   "properties": {
+    "addr:full":"1202 Rushmore Dr Colorado Springs CO 80910",
+    "addr:housenumber":"1202",
+    "addr:postcode":"80910",
+    "addr:street":"Rushmore Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.772941,38.813036,-104.772941,38.813036",
     "geom:latitude":38.813036,
     "geom:longitude":-104.772941,
@@ -34,19 +39,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554341
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06BVgs4M36LVPYu4sIOsp4_38.813036_-104.772941@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440029,
-    "wof:geomhash":"499b7fef22229c3632a4caf3d5c97016",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b3a6e5646260a44b1bc7ed3aa6b85432",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":823520073
+        }
+    ],
     "wof:id":823520073,
-    "wof:lastmodified":1466414942,
+    "wof:lastmodified":1492127487,
     "wof:name":"J & P Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554341,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

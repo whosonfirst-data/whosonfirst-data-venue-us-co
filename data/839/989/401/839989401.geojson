@@ -2,9 +2,14 @@
   "id": 839989401,
   "type": "Feature",
   "properties": {
+    "addr:full":"2770 Pearl St Boulder CO 80302",
+    "addr:housenumber":"2770",
+    "addr:postcode":"80302",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.258907,40.021823,-105.258907,40.021823",
     "geom:latitude":40.021823,
     "geom:longitude":-105.258907,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2da8dyYiTdaoXMHF6sb7og_40.021823_-105.258907@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460786,
-    "wof:geomhash":"66566d120d567914673b81c2f9f7aa3b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ee7171e7640de064f018d9724aea26f7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":839989401
+        }
+    ],
     "wof:id":839989401,
-    "wof:lastmodified":1466417386,
+    "wof:lastmodified":1492111062,
     "wof:name":"Starbucks Coffee",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

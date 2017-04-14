@@ -2,9 +2,14 @@
   "id": 824010983,
   "type": "Feature",
   "properties": {
+    "addr:full":"10005 Grant St Denver CO 80229",
+    "addr:housenumber":"10005",
+    "addr:postcode":"80229",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.983899,39.878381,-104.983899,39.878381",
     "geom:latitude":39.878381,
     "geom:longitude":-104.983899,
@@ -28,19 +33,36 @@
         "cellular"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553851
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1J9dvTan1jHK3KzKxnKnjG_39.878381_-104.983899@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452219,
-    "wof:geomhash":"e0d56fa426c56a6dab19148702485012",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5a45d88195809cb973810893e9a6f58b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553851,
+            "region_id":85688603,
+            "venue_id":824010983
+        }
+    ],
     "wof:id":824010983,
-    "wof:lastmodified":1466412986,
+    "wof:lastmodified":1492129054,
     "wof:name":"T Mobile",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553851,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

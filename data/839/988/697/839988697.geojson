@@ -2,9 +2,14 @@
   "id": 839988697,
   "type": "Feature",
   "properties": {
+    "addr:full":"8775 Washington St Denver CO 80229",
+    "addr:housenumber":"8775",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978639,39.855205,-104.978639,39.855205",
     "geom:latitude":39.855205,
     "geom:longitude":-104.978639,
@@ -32,19 +37,36 @@
         "hot"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553811
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_57du1TIbjwpQgHkuQfqnic_39.855205_-104.978639@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460765,
-    "wof:geomhash":"8eb485c231b01db3112bc29411e06948",
-    "wof:hierarchy":[],
+    "wof:geomhash":"571550cc9030c468da9dea1d4e1054fb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553811,
+            "region_id":85688603,
+            "venue_id":839988697
+        }
+    ],
     "wof:id":839988697,
-    "wof:lastmodified":1466417426,
+    "wof:lastmodified":1492112817,
     "wof:name":"A&W Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553811,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

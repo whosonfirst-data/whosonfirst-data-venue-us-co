@@ -2,9 +2,14 @@
   "id": 839945293,
   "type": "Feature",
   "properties": {
+    "addr:full":"7172 Washington St Denver CO 80229",
+    "addr:housenumber":"7172",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977879,39.8261,-104.977879,39.8261",
     "geom:latitude":39.8261,
     "geom:longitude":-104.977879,
@@ -28,19 +33,36 @@
         "furniture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1htPQBppkMNpESl60bTSba_39.826100_-104.977879@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458865,
-    "wof:geomhash":"4c8ee741dab932a3a4a08ca094f95cf3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"db63b1442322ae548bc6bbc5be119ef0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":839945293
+        }
+    ],
     "wof:id":839945293,
-    "wof:lastmodified":1466415154,
+    "wof:lastmodified":1492114035,
     "wof:name":"J & M Custom Cabinet Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

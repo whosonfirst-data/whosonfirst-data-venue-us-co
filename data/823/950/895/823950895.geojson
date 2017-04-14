@@ -2,9 +2,14 @@
   "id": 823950895,
   "type": "Feature",
   "properties": {
+    "addr:full":"330 W Kellogg St Holyoke CO 80734",
+    "addr:housenumber":"330",
+    "addr:postcode":"80734",
+    "addr:street":"W Kellogg St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.305312,40.579515,-102.305312,40.579515",
     "geom:latitude":40.579515,
     "geom:longitude":-102.305312,
@@ -28,17 +33,32 @@
         "housing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929161,
+        102085217
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7cz3kT7sNUh0USK9HYBwO1_40.579515_-102.305312@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450796,
-    "wof:geomhash":"5834ff966522b9ace3b84f9e02342c22",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a84d59d027a7a1001f136cec184d4264",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085217,
+            "locality_id":85929161,
+            "region_id":85688603,
+            "venue_id":823950895
+        }
+    ],
     "wof:id":823950895,
-    "wof:lastmodified":1466420704,
+    "wof:lastmodified":1492125117,
     "wof:name":"Holyoke Housing Authority",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

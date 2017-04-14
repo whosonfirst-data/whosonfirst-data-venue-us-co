@@ -2,9 +2,14 @@
   "id": 823739707,
   "type": "Feature",
   "properties": {
+    "addr:full":"2275 Bluebell Ave Boulder CO 80302",
+    "addr:housenumber":"2275",
+    "addr:postcode":"80302",
+    "addr:street":"Bluebell Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.263471,39.997316,-105.263471,39.997316",
     "geom:latitude":39.997316,
     "geom:longitude":-105.263471,
@@ -28,7 +33,14 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1qsA5RRnSl5L1Kueb3zPtz_39.997316_-105.263471@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463445152,
     "wof:geomhash":"5d4c884063c6b45a9e308818f13480b4",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":823739707
+        }
+    ],
     "wof:id":823739707,
-    "wof:lastmodified":1466418920,
+    "wof:lastmodified":1491890400,
     "wof:name":"Money Management Partners",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

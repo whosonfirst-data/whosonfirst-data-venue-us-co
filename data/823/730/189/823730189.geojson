@@ -2,9 +2,14 @@
   "id": 823730189,
   "type": "Feature",
   "properties": {
+    "addr:full":"2880 Blue Jay Way Lafayette CO 80026",
+    "addr:housenumber":"2880",
+    "addr:postcode":"80026",
+    "addr:street":"Blue Jay Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.094884,39.965991,-105.094884,39.965991",
     "geom:latitude":39.965991,
     "geom:longitude":-105.094884,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929889,
+        102085251,
+        420554039
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6bpdyAnNu2a6wfEESITmGH_39.965991_-105.094884@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444905,
-    "wof:geomhash":"149fd1ee6b23f96c013ce13471fe20c5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bd2d1bbe5ab53a916d3133d2962df993",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929889,
+            "neighbourhood_id":420554039,
+            "region_id":85688603,
+            "venue_id":823730189
+        }
+    ],
     "wof:id":823730189,
-    "wof:lastmodified":1466418765,
+    "wof:lastmodified":1492119487,
     "wof:name":"American Wood Care Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554039,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

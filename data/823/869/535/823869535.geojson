@@ -2,9 +2,14 @@
   "id": 823869535,
   "type": "Feature",
   "properties": {
+    "addr:full":"10556 Ura Ln Denver CO 80234",
+    "addr:housenumber":"10556",
+    "addr:postcode":"80234",
+    "addr:street":"Ura Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.013713,39.88874,-105.013713,39.88874",
     "geom:latitude":39.88874,
     "geom:longitude":-105.013713,
@@ -27,19 +32,36 @@
         "operator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6vITJqtMNpQqvnVoM6xO2X_39.888740_-105.013713@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448729,
-    "wof:geomhash":"00aa4f38df8cc9e5ac3fbba2521e9f1c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9c375fc6b56ac0540bde76c07ce0fa68",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553787,
+            "region_id":85688603,
+            "venue_id":823869535
+        }
+    ],
     "wof:id":823869535,
-    "wof:lastmodified":1466419945,
+    "wof:lastmodified":1492116903,
     "wof:name":"Mountain Vending",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

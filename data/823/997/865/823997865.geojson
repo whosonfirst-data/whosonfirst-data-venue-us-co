@@ -2,9 +2,14 @@
   "id": 823997865,
   "type": "Feature",
   "properties": {
+    "addr:full":"2696 Co Rd 234 Durango CO 81301",
+    "addr:housenumber":"2696;234",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.795623,37.260093,-107.795623,37.260093",
     "geom:latitude":37.260093,
     "geom:longitude":-107.795623,
@@ -28,19 +33,40 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85928939,
+        102084019,
+        85888407,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0KgOc5n6qodCG2rqe91miy_37.260093_-107.795623@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451939,
-    "wof:geomhash":"22e241ce5b722c59b196573b87278a72",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b9b3f8d14883236b62b6b3b71ed574f5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084019,
+            "locality_id":85928939,
+            "neighbourhood_id":85888407,
+            "region_id":85688603,
+            "venue_id":823997865
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823997865
+        }
+    ],
     "wof:id":823997865,
-    "wof:lastmodified":1466420822,
+    "wof:lastmodified":1492123799,
     "wof:name":"Gary Russell Builder",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

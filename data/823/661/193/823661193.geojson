@@ -2,9 +2,14 @@
   "id": 823661193,
   "type": "Feature",
   "properties": {
+    "addr:full":"3073 Gunnison Ave Grand Junction CO 81504",
+    "addr:housenumber":"3073",
+    "addr:postcode":"81504",
+    "addr:street":"Gunnison Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.481998,39.074014,-108.481998,39.074014",
     "geom:latitude":39.074014,
     "geom:longitude":-108.481998,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0VKc6afh6Nrbxo0CPTf4ym_39.074014_-108.481998@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443364,
-    "wof:geomhash":"75c1681cb0a50086cff4b767e72941ee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0ec289a9725539c4a9300a8336c61ed4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823661193
+        }
+    ],
     "wof:id":823661193,
-    "wof:lastmodified":1466418177,
+    "wof:lastmodified":1492117048,
     "wof:name":"Bg Fence",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823666339,
   "type": "Feature",
   "properties": {
+    "addr:full":"1205 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"1205",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.805535,39.986864,-104.805535,39.986864",
     "geom:latitude":39.986864,
     "geom:longitude":-104.805535,
@@ -24,19 +29,36 @@
     "sg:postcode":"80601",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6yk5BUW67t4FoqBPajGLkF_39.986864_-104.805535@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443486,
-    "wof:geomhash":"a916b70f652e771f45beb63fed4111fd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"441f90243813cde9237f2c1a8b9eb906",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":823666339
+        }
+    ],
     "wof:id":823666339,
-    "wof:lastmodified":1466418232,
+    "wof:lastmodified":1492127718,
     "wof:name":"Bridge Street Liquor",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

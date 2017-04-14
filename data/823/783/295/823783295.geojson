@@ -2,9 +2,14 @@
   "id": 823783295,
   "type": "Feature",
   "properties": {
+    "addr:full":"6990 State Hwy 2 Commerce City CO 80022",
+    "addr:housenumber":"6990",
+    "addr:postcode":"80022",
+    "addr:street":"State Hwy 2",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.91898,39.823818,-104.91898,39.823818",
     "geom:latitude":39.823818,
     "geom:longitude":-104.91898,
@@ -28,19 +33,36 @@
         "boat"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553569
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3fHQVvIqa53oKRgoOfx7xJ_39.823818_-104.918980@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446180,
-    "wof:geomhash":"25528022c96edc81c33c9a9e24541277",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e359ed9470a2647d29f92f8df0691915",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553569,
+            "region_id":85688603,
+            "venue_id":823783295
+        }
+    ],
     "wof:id":823783295,
-    "wof:lastmodified":1466419160,
+    "wof:lastmodified":1492125182,
     "wof:name":"Boat Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553569,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823744735,
   "type": "Feature",
   "properties": {
+    "addr:full":"25 E Main St Cortez CO 81321",
+    "addr:housenumber":"25",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.584157,37.348563,-108.584157,37.348563",
     "geom:latitude":37.348563,
     "geom:longitude":-108.584157,
@@ -27,19 +32,28 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2bt337hAU1a65Nes5dOKPi_37.348563_-108.584157@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445260,
-    "wof:geomhash":"de525def0c2af2990646e22abbfc5e3b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"080fa1f257ee88647f745593d443a6d1",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823744735
+        }
+    ],
     "wof:id":823744735,
-    "wof:lastmodified":1466418917,
+    "wof:lastmodified":1492122141,
     "wof:name":"Crossroads Trading Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

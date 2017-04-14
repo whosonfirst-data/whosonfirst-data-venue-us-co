@@ -2,9 +2,14 @@
   "id": 823827111,
   "type": "Feature",
   "properties": {
+    "addr:full":"15443 E Princeton Ave Aurora CO 80013",
+    "addr:housenumber":"15443",
+    "addr:postcode":"80013",
+    "addr:street":"E Princeton Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.808219,39.641061,-104.808219,39.641061",
     "geom:latitude":39.641061,
     "geom:longitude":-104.808219,
@@ -30,17 +35,32 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Jxqbe2zjvkLDS9z2hqUfR_39.641061_-104.808219@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447524,
-    "wof:geomhash":"5c9835becab334774091ca19e6512a5b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"86eb514ba1791f48d74efe2ebbed90d5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823827111
+        }
+    ],
     "wof:id":823827111,
-    "wof:lastmodified":1466419564,
+    "wof:lastmodified":1492126725,
     "wof:name":"Aurora Industrial Supply Co",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

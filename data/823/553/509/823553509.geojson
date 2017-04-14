@@ -2,9 +2,14 @@
   "id": 823553509,
   "type": "Feature",
   "properties": {
+    "addr:full":"5908 E 64th Ave Commerce City CO 80022",
+    "addr:housenumber":"5908",
+    "addr:postcode":"80022",
+    "addr:street":"E 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.918399,39.812774,-104.918399,39.812774",
     "geom:latitude":39.812774,
     "geom:longitude":-104.918399,
@@ -27,19 +32,36 @@
         "paint"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0QFNt7lsckDzLWB97wfSph_39.812774_-104.918399@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440786,
-    "wof:geomhash":"94a9c78517e9b21d5f6c35607fd48a01",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a0aa67a5e2f9741d985c469639a1df13",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":823553509
+        }
+    ],
     "wof:id":823553509,
-    "wof:lastmodified":1466415887,
+    "wof:lastmodified":1492126639,
     "wof:name":"Debs Auto Paint Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823524393,
   "type": "Feature",
   "properties": {
+    "addr:full":"27535 Running Elk Dr Clark CO 80428",
+    "addr:housenumber":"27535",
+    "addr:postcode":"80428",
+    "addr:street":"Running Elk Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.902765,40.72087,-106.902765,40.72087",
     "geom:latitude":40.72087,
     "geom:longitude":-106.902765,
@@ -28,19 +33,34 @@
         "wood"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555269,
+        420555289
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0SONOwmNKZc7aE1Fctxebr_40.720870_-106.902765@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440124,
-    "wof:geomhash":"20f0be80e68cda3712e4129b5cac823b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5ed99397efa700f83e4a8d1d1b53c720",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555269,
+            "venue_id":823524393
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555289,
+            "venue_id":823524393
+        }
+    ],
     "wof:id":823524393,
-    "wof:lastmodified":1466414989,
+    "wof:lastmodified":1492121593,
     "wof:name":"Bison Wood Products LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

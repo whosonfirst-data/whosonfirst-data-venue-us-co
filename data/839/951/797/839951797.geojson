@@ -2,9 +2,14 @@
   "id": 839951797,
   "type": "Feature",
   "properties": {
+    "addr:full":"11455 Pearl St Denver CO 80233",
+    "addr:housenumber":"11455",
+    "addr:postcode":"80233",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979129,39.90504,-104.979129,39.90504",
     "geom:latitude":39.90504,
     "geom:longitude":-104.979129,
@@ -29,19 +34,36 @@
         "broker"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7D5BRULWMnrcO0JZW7RI3G_39.905040_-104.979129@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459199,
-    "wof:geomhash":"7f9553e7bcdf4ebd1fb18615d25d9d9f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a2e90a3d5ef3c8b0aa80fecfec23682",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":839951797
+        }
+    ],
     "wof:id":839951797,
-    "wof:lastmodified":1466415267,
+    "wof:lastmodified":1492113072,
     "wof:name":"Horizons North Credit Union",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

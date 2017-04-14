@@ -2,9 +2,14 @@
   "id": 823735979,
   "type": "Feature",
   "properties": {
+    "addr:full":"4909 Pearl East Cir Boulder CO 80301",
+    "addr:housenumber":"4909",
+    "addr:postcode":"80301",
+    "addr:street":"Pearl East Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.240796,40.021594,-105.240796,40.021594",
     "geom:latitude":40.021594,
     "geom:longitude":-105.240796,
@@ -28,19 +33,36 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_03CuiioYzqYr587olM5sIe_40.021594_-105.240796@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445065,
-    "wof:geomhash":"760446849fe2a3083eac99d8e1bd0016",
-    "wof:hierarchy":[],
+    "wof:geomhash":"38208f856cd6c4ad94f129cd77a0e819",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823735979
+        }
+    ],
     "wof:id":823735979,
-    "wof:lastmodified":1466418736,
+    "wof:lastmodified":1492118688,
     "wof:name":"Greenberg & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

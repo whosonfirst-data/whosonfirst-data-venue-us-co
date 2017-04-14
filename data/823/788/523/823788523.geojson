@@ -2,9 +2,14 @@
   "id": 823788523,
   "type": "Feature",
   "properties": {
+    "addr:full":"303 Rich Ave Yampa CO 80483",
+    "addr:housenumber":"303",
+    "addr:postcode":"80483",
+    "addr:street":"Rich Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.905985,40.151428,-106.905985,40.151428",
     "geom:latitude":40.151428,
     "geom:longitude":-106.905985,
@@ -24,19 +29,28 @@
     "sg:postcode":"80483",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555323
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1762wY9lj1nYQ8tr42G2q3_40.151428_-106.905985@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446380,
-    "wof:geomhash":"d4a59f5e1f4c3612a60b5fa80ffa975b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6cbabc1c3f61ec4a67580fbccf8b8705",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555323,
+            "venue_id":823788523
+        }
+    ],
     "wof:id":823788523,
-    "wof:lastmodified":1466419275,
+    "wof:lastmodified":1492117590,
     "wof:name":"Van Camp Cabins",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555323,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

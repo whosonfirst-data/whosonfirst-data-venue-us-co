@@ -2,9 +2,14 @@
   "id": 823719269,
   "type": "Feature",
   "properties": {
+    "addr:full":"1100 E 64th Ave Denver CO 80229",
+    "addr:housenumber":"1100",
+    "addr:postcode":"80229",
+    "addr:street":"E 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.976746,39.812669,-104.976746,39.812669",
     "geom:latitude":39.812669,
     "geom:longitude":-104.976746,
@@ -28,19 +33,36 @@
         "cellular"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5LTlvwa7e3cLRSW3gFmm6A_39.812669_-104.976746@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444629,
-    "wof:geomhash":"05b20190f75c1f5deb990518528df7c1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a16185c5cab8de99b961982de4b523f4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":823719269
+        }
+    ],
     "wof:id":823719269,
-    "wof:lastmodified":1466418699,
+    "wof:lastmodified":1492126050,
     "wof:name":"General Fiber Communications",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

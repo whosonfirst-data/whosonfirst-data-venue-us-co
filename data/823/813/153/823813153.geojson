@@ -2,9 +2,14 @@
   "id": 823813153,
   "type": "Feature",
   "properties": {
+    "addr:full":"461 Co Rd 219 Durango CO 81303",
+    "addr:housenumber":"461;219",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.853297,37.190487,-107.853297,37.190487",
     "geom:latitude":37.190487,
     "geom:longitude":-107.853297,
@@ -27,19 +32,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5hpNEpVr3aiX5axSMbZS9j_37.190487_-107.853297@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447098,
-    "wof:geomhash":"7801bf72db5c4218b53b96fa7ae9e79f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2bde0e7d5314a69b1549c0f52d94d806",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823813153
+        }
+    ],
     "wof:id":823813153,
-    "wof:lastmodified":1466419481,
+    "wof:lastmodified":1492123905,
     "wof:name":"McMahons Heating & Air Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839988821,
   "type": "Feature",
   "properties": {
+    "addr:full":"3840 E 104th Ave Denver CO 80233",
+    "addr:housenumber":"3840",
+    "addr:postcode":"80233",
+    "addr:street":"E 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.94194,39.883662,-104.94194,39.883662",
     "geom:latitude":39.883662,
     "geom:longitude":-104.94194,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553821
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6XDy6lBc6cYnBF7rPtxRy0_39.883662_-104.941940@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460768,
-    "wof:geomhash":"166ecfbd1caeef3e31a60283384f7c0b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a1a27fa96de74a19ea778951a196393",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553821,
+            "region_id":85688603,
+            "venue_id":839988821
+        }
+    ],
     "wof:id":839988821,
-    "wof:lastmodified":1466417450,
+    "wof:lastmodified":1492112815,
     "wof:name":"Starbucks Coffee",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553821,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

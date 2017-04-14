@@ -2,9 +2,14 @@
   "id": 823715801,
   "type": "Feature",
   "properties": {
+    "addr:full":"2010 Lincoln Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"2010",
+    "addr:postcode":"80487",
+    "addr:street":"Lincoln Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.856361,40.502165,-106.856361,40.502165",
     "geom:latitude":40.502165,
     "geom:longitude":-106.856361,
@@ -28,19 +33,36 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555365
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1K7PtHeBkKHHWEk2IrjWWL_40.502165_-106.856361@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444561,
-    "wof:geomhash":"83b3746864f295cab49e3c525d4715de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"852f00d467feadf636e1c897f6bce470",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555365,
+            "region_id":85688603,
+            "venue_id":823715801
+        }
+    ],
     "wof:id":823715801,
-    "wof:lastmodified":1466418797,
+    "wof:lastmodified":1492117917,
     "wof:name":"Transportation-Maintenance",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

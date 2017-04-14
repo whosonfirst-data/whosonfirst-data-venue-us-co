@@ -2,9 +2,14 @@
   "id": 823841243,
   "type": "Feature",
   "properties": {
+    "addr:full":"9450 E Mississippi Ave Denver CO 80247",
+    "addr:housenumber":"9450",
+    "addr:postcode":"80247",
+    "addr:street":"E Mississippi Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.882313,39.696573,-104.882313,39.696573",
     "geom:latitude":39.696573,
     "geom:longitude":-104.882313,
@@ -28,7 +33,15 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871353,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ABr2aV8WzR8gN30TlGwHJ_39.696573_-104.882313@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463447970,
     "wof:geomhash":"66346b3b055566c8dc67d994429713c9",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871353,
+            "region_id":85688603,
+            "venue_id":823841243
+        }
+    ],
     "wof:id":823841243,
-    "wof:lastmodified":1466419675,
+    "wof:lastmodified":1486590078,
     "wof:name":"Elena Chebanova MD",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871353,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

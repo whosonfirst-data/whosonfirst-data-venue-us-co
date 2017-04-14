@@ -2,9 +2,14 @@
   "id": 823798929,
   "type": "Feature",
   "properties": {
+    "addr:full":"1000 E 73rd Ave Denver CO 80229",
+    "addr:housenumber":"1000",
+    "addr:postcode":"80229",
+    "addr:street":"E 73Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97361,39.828979,-104.97361,39.828979",
     "geom:latitude":39.828979,
     "geom:longitude":-104.97361,
@@ -24,19 +29,36 @@
     "sg:postcode":"80229",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Hp9ZrdVrnSEX1tbvXDbFZ_39.828979_-104.973610@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446682,
-    "wof:geomhash":"43d92a1f0f297ce8fc0ea27d78cf05a0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"107801c133f5e2cede9219e6d8ba0edd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823798929
+        }
+    ],
     "wof:id":823798929,
-    "wof:lastmodified":1466419366,
+    "wof:lastmodified":1492118639,
     "wof:name":"Distribuidora Del Norte",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

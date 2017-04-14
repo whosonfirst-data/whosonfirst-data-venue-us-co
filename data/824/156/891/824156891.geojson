@@ -2,9 +2,14 @@
   "id": 824156891,
   "type": "Feature",
   "properties": {
+    "addr:full":"3860 Carlock Dr Boulder CO 80305",
+    "addr:housenumber":"",
+    "addr:postcode":"3860;80305",
+    "addr:street":"Carlock Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.248713,39.980234,-105.248713,39.980234",
     "geom:latitude":39.980234,
     "geom:longitude":-105.248713,
@@ -29,19 +34,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7lHs31hWLDTCabUA8g818M_39.980234_-105.248713@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456184,
-    "wof:geomhash":"645057fc688200011cea33989d4fb1fd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b78fdee725225802d32a0d379b4f1feb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":824156891
+        }
+    ],
     "wof:id":824156891,
-    "wof:lastmodified":1466417213,
+    "wof:lastmodified":1492130575,
     "wof:name":"High Plains Petroleum Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554045,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

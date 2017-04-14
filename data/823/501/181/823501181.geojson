@@ -2,9 +2,14 @@
   "id": 823501181,
   "type": "Feature",
   "properties": {
+    "addr:full":"5863 Marion Dr Denver CO 80216",
+    "addr:housenumber":"5863",
+    "addr:postcode":"80216",
+    "addr:street":"Marion Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971715,39.804332,-104.971715,39.804332",
     "geom:latitude":39.804332,
     "geom:longitude":-104.971715,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4t7ve76mngf0tyL2mhfoWe_39.804332_-104.971715@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439601,
-    "wof:geomhash":"5560b81f3e2fc019f7e71e8932371b84",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0bb0d18f7506e5f44ce4d9b377c208aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":823501181
+        }
+    ],
     "wof:id":823501181,
-    "wof:lastmodified":1466414252,
+    "wof:lastmodified":1492125758,
     "wof:name":"Ozark Fence",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553681,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

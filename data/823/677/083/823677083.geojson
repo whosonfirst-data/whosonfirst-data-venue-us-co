@@ -2,9 +2,14 @@
   "id": 823677083,
   "type": "Feature",
   "properties": {
+    "addr:full":"12450 Hwy 666 Cortez CO 81321",
+    "addr:housenumber":"12450",
+    "addr:postcode":"81321",
+    "addr:street":"Hwy 666",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.615686,37.391972,-108.615686,37.391972",
     "geom:latitude":37.391972,
     "geom:longitude":-108.615686,
@@ -29,19 +34,28 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555117
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2sXKbNkC4Zzj6C7APpqZej_37.391972_-108.615686@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443725,
-    "wof:geomhash":"b0fdac6e0d5e4760fe2ccb42f4bbca9c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ab848134414c2cdd6df966c88bdea629",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555117,
+            "venue_id":823677083
+        }
+    ],
     "wof:id":823677083,
-    "wof:lastmodified":1466418417,
+    "wof:lastmodified":1492126473,
     "wof:name":"Triple-Six Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555117,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

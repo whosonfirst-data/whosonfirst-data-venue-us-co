@@ -2,9 +2,14 @@
   "id": 839977835,
   "type": "Feature",
   "properties": {
+    "addr:full":"600 S Mason St Fort Collins CO 80524",
+    "addr:housenumber":"600",
+    "addr:postcode":"80524",
+    "addr:street":"S Mason St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.078981,40.579433,-105.078981,40.579433",
     "geom:latitude":40.579433,
     "geom:longitude":-105.078981,
@@ -33,7 +38,9 @@
         85633793,
         85929679,
         102083353,
-        85877461
+        85877425,
+        85877461,
+        85877459
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,8 +48,17 @@
     },
     "wof:country":"US",
     "wof:created":1463460340,
-    "wof:geomhash":"d6108b724db432baec365e49dccc7ee6",
+    "wof:geomhash":"fe7a5f5cc8367908829807c1a15592d4",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877425,
+            "region_id":85688603,
+            "venue_id":839977835
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -51,12 +67,21 @@
             "neighbourhood_id":85877461,
             "region_id":85688603,
             "venue_id":839977835
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877459,
+            "region_id":85688603,
+            "venue_id":839977835
         }
     ],
     "wof:id":839977835,
-    "wof:lastmodified":1466416746,
+    "wof:lastmodified":1492113772,
     "wof:name":"Headturners Salon",
-    "wof:parent_id":85877461,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

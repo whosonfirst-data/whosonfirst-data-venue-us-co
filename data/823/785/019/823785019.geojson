@@ -2,9 +2,14 @@
   "id": 823785019,
   "type": "Feature",
   "properties": {
+    "addr:full":"14595 Brighton Rd Brighton CO 80601",
+    "addr:housenumber":"14595",
+    "addr:postcode":"80601",
+    "addr:street":"Brighton Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.836275,39.961416,-104.836275,39.961416",
     "geom:latitude":39.961416,
     "geom:longitude":-104.836275,
@@ -28,19 +33,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0fcEh3Co9zQbmuYuGlT9lW_39.961416_-104.836275@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446250,
-    "wof:geomhash":"6569ee778033955d996f60023f9646b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4539621b8d1f672de7358c5fab719144",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553375,
+            "region_id":85688603,
+            "venue_id":823785019
+        }
+    ],
     "wof:id":823785019,
-    "wof:lastmodified":1466419359,
+    "wof:lastmodified":1492125212,
     "wof:name":"Chrisco Transport",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

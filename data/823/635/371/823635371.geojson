@@ -2,9 +2,14 @@
   "id": 823635371,
   "type": "Feature",
   "properties": {
+    "addr:full":"1303 Gunnison Ave Grand Junction CO 81501",
+    "addr:housenumber":"1303",
+    "addr:postcode":"81501",
+    "addr:street":"Gunnison Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.549054,39.073326,-108.549054,39.073326",
     "geom:latitude":39.073326,
     "geom:longitude":-108.549054,
@@ -30,19 +35,36 @@
         "lodging"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554969
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6TKuwhk3iDQCV9AJwr8xsG_39.073326_-108.549054@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442742,
-    "wof:geomhash":"df303493b7581e0da78f8012e023af34",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bc078071ad8125905137ca3c8d9af3eb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554969,
+            "region_id":85688603,
+            "venue_id":823635371
+        }
+    ],
     "wof:id":823635371,
-    "wof:lastmodified":1466417821,
+    "wof:lastmodified":1492120512,
     "wof:name":"Tau Kappa Sigma LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554969,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

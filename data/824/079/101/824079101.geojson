@@ -2,9 +2,14 @@
   "id": 824079101,
   "type": "Feature",
   "properties": {
+    "addr:full":"12927 Albrook Dr Denver CO 80239",
+    "addr:housenumber":"12927",
+    "addr:postcode":"80239",
+    "addr:street":"Albrook Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.840899,39.780294,-104.840899,39.780294",
     "geom:latitude":39.780294,
     "geom:longitude":-104.840899,
@@ -27,7 +32,15 @@
         "protection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85834893,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7EfXz2xEpxu9WQdZbDXGJ9_39.780294_-104.840899@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463453833,
     "wof:geomhash":"5fa7be7556c551a91c736e59a2b7eff5",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "neighbourhood_id":85834893,
+            "region_id":85688603,
+            "venue_id":824079101
+        }
+    ],
     "wof:id":824079101,
-    "wof:lastmodified":1466414656,
+    "wof:lastmodified":1491887433,
     "wof:name":"Fire Dept-Dist 5",
-    "wof:parent_id":-1,
+    "wof:parent_id":85834893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824146001,
   "type": "Feature",
   "properties": {
+    "addr:full":"3567 S Pennsylvania St Englewood CO 80113",
+    "addr:housenumber":"3567",
+    "addr:postcode":"80113",
+    "addr:street":"S Pennsylvania St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.981777,39.652523,-104.981777,39.652523",
     "geom:latitude":39.652523,
     "geom:longitude":-104.981777,
@@ -29,17 +34,32 @@
         "relations"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6GVXkiwZ01UvxgnYLlZzRR_39.652523_-104.981777@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455741,
-    "wof:geomhash":"830b8432bb9b9293b2b51bc795ffebaf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3a40e81c3071b6ddfd9682600df264ef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "region_id":85688603,
+            "venue_id":824146001
+        }
+    ],
     "wof:id":824146001,
-    "wof:lastmodified":1466416388,
+    "wof:lastmodified":1492128006,
     "wof:name":"Financial Communications Assoc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

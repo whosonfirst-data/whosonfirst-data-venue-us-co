@@ -2,9 +2,14 @@
   "id": 824103745,
   "type": "Feature",
   "properties": {
+    "addr:full":"8201 Auburn Ln Westminster CO 80031",
+    "addr:housenumber":"8201",
+    "addr:postcode":"80031",
+    "addr:street":"Auburn Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039682,39.847642,-105.039682,39.847642",
     "geom:latitude":39.847642,
     "geom:longitude":-105.039682,
@@ -27,19 +32,36 @@
         "painter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4nMO103f6ZZ4GP35pQCl0P_39.847642_-105.039682@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454417,
-    "wof:geomhash":"2d3b0b9ce68617aaba98d1cd9f76d6bc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c0bd9032672870bc1841de6082e6fd2e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553605,
+            "region_id":85688603,
+            "venue_id":824103745
+        }
+    ],
     "wof:id":824103745,
-    "wof:lastmodified":1466415138,
+    "wof:lastmodified":1492131022,
     "wof:name":"Lucero's Painting & Decor Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

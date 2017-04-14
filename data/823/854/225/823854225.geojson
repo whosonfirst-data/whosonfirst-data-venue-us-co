@@ -2,9 +2,14 @@
   "id": 823854225,
   "type": "Feature",
   "properties": {
+    "addr:full":"1960 S Bryant St Denver CO 80219",
+    "addr:housenumber":"1960",
+    "addr:postcode":"80219",
+    "addr:street":"S Bryant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.017947,39.681626,-105.017947,39.681626",
     "geom:latitude":39.681626,
     "geom:longitude":-105.017947,
@@ -28,7 +33,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3osR2TRa7qZ9o9gmJNILOK_39.681626_-105.017947@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463448340,
     "wof:geomhash":"342d32ca7e49ec2bdebee5841420303f",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":823854225
+        }
+    ],
     "wof:id":823854225,
-    "wof:lastmodified":1466419795,
+    "wof:lastmodified":1491876200,
     "wof:name":"All Pro Cement Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

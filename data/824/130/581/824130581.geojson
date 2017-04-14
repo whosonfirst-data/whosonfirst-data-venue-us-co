@@ -2,9 +2,14 @@
   "id": 824130581,
   "type": "Feature",
   "properties": {
+    "addr:full":"1301 Columbine Ave Boulder CO 80302",
+    "addr:housenumber":"1301",
+    "addr:postcode":"80302",
+    "addr:street":"Columbine Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.274938,39.999103,-105.274938,39.999103",
     "geom:latitude":39.999103,
     "geom:longitude":-105.274938,
@@ -27,19 +32,32 @@
         "amusement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876365,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4TSYtSlYRhnmtxJOYPHWvF_39.999103_-105.274938@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455163,
-    "wof:geomhash":"dfd75a40f60fee2105848a110b3d15ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"016b129b4ca33681a1c5a8445ecd06ee",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876365,
+            "region_id":85688603,
+            "venue_id":824130581
+        }
+    ],
     "wof:id":824130581,
-    "wof:lastmodified":1466415954,
+    "wof:lastmodified":1492128758,
     "wof:name":"BMS Consultants Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876365,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

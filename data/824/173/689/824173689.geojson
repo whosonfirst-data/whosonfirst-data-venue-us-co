@@ -2,9 +2,14 @@
   "id": 824173689,
   "type": "Feature",
   "properties": {
+    "addr:full":"328 W Montezuma Ave Cortez CO 81321",
+    "addr:housenumber":"328",
+    "addr:postcode":"81321",
+    "addr:street":"W Montezuma Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590428,37.350882,-108.590428,37.350882",
     "geom:latitude":37.350882,
     "geom:longitude":-108.590428,
@@ -31,19 +36,28 @@
         "glass"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0U2R8oqiaQe1AHz0OFqLBi_37.350882_-108.590428@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456829,
-    "wof:geomhash":"00e8591abd7a2e931354a669ea461ae4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7b3142b80db5df92bb26d7603fa242e2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":824173689
+        }
+    ],
     "wof:id":824173689,
-    "wof:lastmodified":1466418014,
+    "wof:lastmodified":1492131500,
     "wof:name":"Cortez Glass Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823933151,
   "type": "Feature",
   "properties": {
+    "addr:full":"5660 Wadsworth Blvd Arvada CO 80002",
+    "addr:housenumber":"5660",
+    "addr:postcode":"80002",
+    "addr:street":"Wadsworth Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076475,39.798627,-105.076475,39.798627",
     "geom:latitude":39.798627,
     "geom:longitude":-105.076475,
@@ -30,19 +35,34 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3t5zT431CZQSrIjmkWPiWC_39.798627_-105.076475@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450336,
-    "wof:geomhash":"043be6f74425afb265cd409a104604ec",
-    "wof:hierarchy":[],
+    "wof:geomhash":"395a5170cb2d5992d8475508366ce1a4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823933151
+        }
+    ],
     "wof:id":823933151,
-    "wof:lastmodified":1466420489,
+    "wof:lastmodified":1492119345,
     "wof:name":"Mrs Mayo's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823938987,
   "type": "Feature",
   "properties": {
+    "addr:full":"1704 S Main St Lamar CO 81052",
+    "addr:housenumber":"1704",
+    "addr:postcode":"81052",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.617811,38.074324,-102.617811,38.074324",
     "geom:latitude":38.074324,
     "geom:longitude":-102.617811,
@@ -27,17 +32,32 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928855,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_279YPEB5sF29xuLkNq9kMS_38.074324_-102.617811@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450494,
-    "wof:geomhash":"abeb9c77ee7d4871112d06436c1872f5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"525d9e290b883c86a7377dde6f375bcf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928855,
+            "region_id":85688603,
+            "venue_id":823938987
+        }
+    ],
     "wof:id":823938987,
-    "wof:lastmodified":1466420597,
+    "wof:lastmodified":1492116505,
     "wof:name":"Lamar Lanes",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

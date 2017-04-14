@@ -2,9 +2,14 @@
   "id": 823472911,
   "type": "Feature",
   "properties": {
+    "addr:full":"3705 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"3705;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.843714,37.347542,-107.843714,37.347542",
     "geom:latitude":37.347542,
     "geom:longitude":-107.843714,
@@ -29,19 +34,28 @@
         "bed"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0zVeN38Axf0Kmlcb44tYEX_37.347542_-107.843714@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438894,
-    "wof:geomhash":"30c0a2e88fe02be398faaee6b134e7bb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0ef724922adbebfd63fb2255f13effad",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823472911
+        }
+    ],
     "wof:id":823472911,
-    "wof:lastmodified":1466412632,
+    "wof:lastmodified":1492120300,
     "wof:name":"Akunow House Getaway",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

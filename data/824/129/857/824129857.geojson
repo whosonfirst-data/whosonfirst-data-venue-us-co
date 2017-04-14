@@ -2,9 +2,14 @@
   "id": 824129857,
   "type": "Feature",
   "properties": {
+    "addr:full":"1220 Rainier Dr Colorado Springs CO 80910",
+    "addr:housenumber":"1220",
+    "addr:postcode":"80910",
+    "addr:street":"Rainier Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.777305,38.81311,-104.777305,38.81311",
     "geom:latitude":38.81311,
     "geom:longitude":-104.777305,
@@ -28,19 +33,36 @@
         "grounds"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554341
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Bi8xqOv7UVc89bv3lK4fg_38.813110_-104.777305@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455133,
-    "wof:geomhash":"2e47730ed1bac7fee195c0d98aa8689e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"654130248223efc075efc10dba7500e9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":824129857
+        }
+    ],
     "wof:id":824129857,
-    "wof:lastmodified":1466416130,
+    "wof:lastmodified":1492131734,
     "wof:name":"All Wayz Green Grounds Maint",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554341,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824027099,
   "type": "Feature",
   "properties": {
+    "addr:full":"7001 Colorado Blvd Commerce City CO 80022",
+    "addr:housenumber":"7001",
+    "addr:postcode":"80022",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940382,39.824309,-104.940382,39.824309",
     "geom:latitude":39.824309,
     "geom:longitude":-104.940382,
@@ -34,19 +39,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553889
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_08fPdxUJCYMJ9DrR1WkKyQ_39.824309_-104.940382@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452592,
-    "wof:geomhash":"0df8f0a2b1ffb9001f0e7afcd12182be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"559db753a1c8b554e642982313892b91",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553889,
+            "region_id":85688603,
+            "venue_id":824027099
+        }
+    ],
     "wof:id":824027099,
-    "wof:lastmodified":1466413718,
+    "wof:lastmodified":1492132410,
     "wof:name":"Richdell Construction  Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553889,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823953815,
   "type": "Feature",
   "properties": {
+    "addr:full":"390 Mountain View Dr Berthoud CO 80513",
+    "addr:housenumber":"390",
+    "addr:postcode":"80513",
+    "addr:street":"Mountain View Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.985799,40.337228,-104.985799,40.337228",
     "geom:latitude":40.337228,
     "geom:longitude":-104.985799,
@@ -27,19 +32,36 @@
         "modular"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1pvQklkBKH26c0NexW60VN_40.337228_-104.985799@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450861,
-    "wof:geomhash":"cc0eb5e9765a803ee3e2425e2de58d35",
-    "wof:hierarchy":[],
+    "wof:geomhash":"236d1aaff492dfdd6b886251a489d04e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823953815
+        }
+    ],
     "wof:id":823953815,
-    "wof:lastmodified":1466420720,
+    "wof:lastmodified":1492119563,
     "wof:name":"Barvista Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

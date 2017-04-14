@@ -2,9 +2,14 @@
   "id": 823506959,
   "type": "Feature",
   "properties": {
+    "addr:full":"16115 Lomand Cir Brighton CO 80602",
+    "addr:housenumber":"",
+    "addr:postcode":"16115;80602",
+    "addr:street":"Lomand Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.878302,39.987596,-104.878302,39.987596",
     "geom:latitude":39.987596,
     "geom:longitude":-104.878302,
@@ -27,19 +32,36 @@
         "cemetery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_40fX6B7AZ2DZLEWJ7NryA1_39.987596_-104.878302@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439733,
-    "wof:geomhash":"b5afc02d565cd71d456d3b48c64dfb17",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f73931862b8a39bec5f742dd70409fee",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553387,
+            "region_id":85688603,
+            "venue_id":823506959
+        }
+    ],
     "wof:id":823506959,
-    "wof:lastmodified":1466414362,
+    "wof:lastmodified":1492119295,
     "wof:name":"Richard and Jacqueline Hall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 320170171,
   "type": "Feature",
   "properties": {
+    "addr:full":"2200 Oneida St Denver CO 80207",
+    "addr:housenumber":"2200",
+    "addr:postcode":"80207",
+    "addr:street":"Oneida St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.907793,39.750008,-104.907793,39.750008",
     "geom:latitude":39.750008,
     "geom:longitude":-104.907793,
@@ -35,11 +40,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750053,
+        85840547,
+        102191575,
+        1108750055,
         85633793,
         85928879,
         102086135,
-        85871351
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -49,19 +57,21 @@
     "wof:geomhash":"ae57cb5dcd4d89d388314ab66059bf7e",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85871351,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750053,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":320170171
         }
     ],
     "wof:id":320170171,
-    "wof:lastmodified":1466412731,
+    "wof:lastmodified":1486604470,
     "wof:name":"South Philly Cheesesteaks",
-    "wof:parent_id":85871351,
+    "wof:parent_id":1108750053,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839988427,
   "type": "Feature",
   "properties": {
+    "addr:full":"7171 Pecos St Denver CO 80221",
+    "addr:housenumber":"7171",
+    "addr:postcode":"80221",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006173,39.825767,-105.006173,39.825767",
     "geom:latitude":39.825767,
     "geom:longitude":-105.006173,
@@ -29,19 +34,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1F7W44fNxY6qHHgQlgdrBN_39.825767_-105.006173@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460756,
-    "wof:geomhash":"d13f913cd6b04e2f2d96ab0667986a53",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0a856db63daa23111d2ee32d4af0203f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":839988427
+        }
+    ],
     "wof:id":839988427,
-    "wof:lastmodified":1466417551,
+    "wof:lastmodified":1492112804,
     "wof:name":"Pizza Hut",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

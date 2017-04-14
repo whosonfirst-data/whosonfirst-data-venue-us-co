@@ -2,9 +2,14 @@
   "id": 823811857,
   "type": "Feature",
   "properties": {
+    "addr:full":"9700 Emporia St Henderson CO 80640",
+    "addr:housenumber":"9700",
+    "addr:postcode":"80640",
+    "addr:street":"Emporia St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.873111,39.873951,-104.873111,39.873951",
     "geom:latitude":39.873951,
     "geom:longitude":-104.873111,
@@ -28,19 +33,28 @@
         "transport"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553497
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4UQiGZcbotpyFjJb5yQ2l7_39.873951_-104.873111@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447059,
-    "wof:geomhash":"0bbdf19aeca5b4ea5bef620354a894a0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"07c7d4b49c7c90e534e8e115f8d096d5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553497,
+            "venue_id":823811857
+        }
+    ],
     "wof:id":823811857,
-    "wof:lastmodified":1466419459,
+    "wof:lastmodified":1492121001,
     "wof:name":"Iowa Tanklines Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553497,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

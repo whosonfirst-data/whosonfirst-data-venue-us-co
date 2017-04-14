@@ -2,9 +2,14 @@
   "id": 824055455,
   "type": "Feature",
   "properties": {
+    "addr:full":"3890 E 104th Ave Denver CO 80233",
+    "addr:housenumber":"3890",
+    "addr:postcode":"80233",
+    "addr:street":"E 104Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.944579,39.884791,-104.944579,39.884791",
     "geom:latitude":39.884791,
     "geom:longitude":-104.944579,
@@ -30,19 +35,46 @@
         "tape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553783,
+        420553821
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7eCbDjAz3axpBr8tt1FbLw_39.884791_-104.944579@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453296,
-    "wof:geomhash":"bcdf875fd8bcb3b8e2faf95658970e77",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7146f9c2b27307197a7dd1b76db3a8f1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":824055455
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553821,
+            "region_id":85688603,
+            "venue_id":824055455
+        }
+    ],
     "wof:id":824055455,
-    "wof:lastmodified":1466414322,
+    "wof:lastmodified":1492131873,
     "wof:name":"Blockbuster Video",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823522211,
   "type": "Feature",
   "properties": {
+    "addr:full":"3363 Oneal Pkwy Boulder CO 80301",
+    "addr:housenumber":"3363",
+    "addr:postcode":"80301",
+    "addr:street":"Oneal Pkwy",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.250147,40.033818,-105.250147,40.033818",
     "geom:latitude":40.033818,
     "geom:longitude":-105.250147,
@@ -29,19 +34,36 @@
         "maintenance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554149
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1rHW9ruxH3tjZmG8zXGgRZ_40.033818_-105.250147@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440072,
-    "wof:geomhash":"555d3bac096da00bffffcb48b66254aa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"17d8b19708f69b76b5b81b3f33d6c08d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554149,
+            "region_id":85688603,
+            "venue_id":823522211
+        }
+    ],
     "wof:id":823522211,
-    "wof:lastmodified":1466414867,
+    "wof:lastmodified":1492122574,
     "wof:name":"Aspen Innerscapes",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554149,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824082385,
   "type": "Feature",
   "properties": {
+    "addr:full":"2206 E 144th Pl Brighton CO 80602",
+    "addr:housenumber":"2206",
+    "addr:postcode":"80602",
+    "addr:street":"E 144Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.962104,39.95808,-104.962104,39.95808",
     "geom:latitude":39.95808,
     "geom:longitude":-104.962104,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553415
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2PvJmBe8eEAdHHnjg5fTyh_39.958080_-104.962104@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453903,
-    "wof:geomhash":"cb133e950ce43b5dfa7fc9b962d5a275",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8f56316104561bc407a2f9802b94e0e2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553415,
+            "region_id":85688603,
+            "venue_id":824082385
+        }
+    ],
     "wof:id":824082385,
-    "wof:lastmodified":1466414763,
+    "wof:lastmodified":1492128317,
     "wof:name":"Jacobson & McKernan Cnstr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553415,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

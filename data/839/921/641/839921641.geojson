@@ -2,9 +2,14 @@
   "id": 839921641,
   "type": "Feature",
   "properties": {
+    "addr:full":"6401 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"6401",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025364,39.813722,-105.025364,39.813722",
     "geom:latitude":39.813722,
     "geom:longitude":-105.025364,
@@ -27,19 +32,46 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553657,
+        85888335
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3v0xhE12jLKoky7utykH92_39.813722_-105.025364@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457557,
-    "wof:geomhash":"f9dd8e178995bd394d2271a55cf9dd97",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1f6a1561ab22f5d92a0792ff5ecd09d2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553657,
+            "region_id":85688603,
+            "venue_id":839921641
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":85888335,
+            "region_id":85688603,
+            "venue_id":839921641
+        }
+    ],
     "wof:id":839921641,
-    "wof:lastmodified":1466413774,
+    "wof:lastmodified":1492112987,
     "wof:name":"M G M Auto Company Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823665475,
   "type": "Feature",
   "properties": {
+    "addr:full":"4900 W 1st Ave Denver CO 80219",
+    "addr:housenumber":"4900",
+    "addr:postcode":"80219",
+    "addr:street":"W 1St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.050348,39.718204,-105.050348,39.718204",
     "geom:latitude":39.718204,
     "geom:longitude":-105.050348,
@@ -32,7 +37,15 @@
         "scooter"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750089,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_783nxSim3tu9EyStIAGAC6_39.718204_-105.050348@1294083659"
@@ -40,11 +53,22 @@
     "wof:country":"US",
     "wof:created":1463443463,
     "wof:geomhash":"531b771430d88993d11a6d639c5cd1ca",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750089,
+            "region_id":85688603,
+            "venue_id":823665475
+        }
+    ],
     "wof:id":823665475,
-    "wof:lastmodified":1466418302,
+    "wof:lastmodified":1486593767,
     "wof:name":"Hawg Daddys Hawg Parts Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750089,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

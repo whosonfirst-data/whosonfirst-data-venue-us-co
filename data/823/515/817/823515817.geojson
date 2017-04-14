@@ -2,9 +2,14 @@
   "id": 823515817,
   "type": "Feature",
   "properties": {
+    "addr:full":"3125 E Fountain Blvd Colorado Springs CO 80910",
+    "addr:housenumber":"3125",
+    "addr:postcode":"80910",
+    "addr:street":"E Fountain Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.769186,38.815199,-104.769186,38.815199",
     "geom:latitude":38.815199,
     "geom:longitude":-104.769186,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554341
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5X13RiPZyO2cTFL3dCWsmu_38.815199_-104.769186@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439922,
-    "wof:geomhash":"41395c5ee7ecb7e8f22f801c20de6ecf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"be041785ef3b60ee4703fdd4ba1471db",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554341,
+            "region_id":85688603,
+            "venue_id":823515817
+        }
+    ],
     "wof:id":823515817,
-    "wof:lastmodified":1466414822,
+    "wof:lastmodified":1492122682,
     "wof:name":"Townhouse Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554341,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

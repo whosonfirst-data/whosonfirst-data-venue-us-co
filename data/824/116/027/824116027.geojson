@@ -2,9 +2,14 @@
   "id": 824116027,
   "type": "Feature",
   "properties": {
+    "addr:full":"1084 S Gaylord St Denver CO 80209",
+    "addr:housenumber":"1084",
+    "addr:postcode":"80209",
+    "addr:street":"S Gaylord St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.96168,39.698144,-104.96168,39.698144",
     "geom:latitude":39.698144,
     "geom:longitude":-104.96168,
@@ -29,7 +34,15 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554305,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0UoDaNc2Viiio67TvyVydp_39.698144_-104.961680@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463454677,
     "wof:geomhash":"7a02d79686445ef82f3381e7a6d37f8c",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":420554305,
+            "region_id":85688603,
+            "venue_id":824116027
+        }
+    ],
     "wof:id":824116027,
-    "wof:lastmodified":1466415362,
+    "wof:lastmodified":1491866132,
     "wof:name":"South Dealer Wine Etc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824133397,
   "type": "Feature",
   "properties": {
+    "addr:full":"1221 N Mildred Rd Cortez CO 81321",
+    "addr:housenumber":"1221",
+    "addr:postcode":"81321",
+    "addr:street":"N Mildred Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572798,37.36186,-108.572798,37.36186",
     "geom:latitude":37.36186,
     "geom:longitude":-108.572798,
@@ -28,19 +33,36 @@
         "convalescent"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555059
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1A3qZToTqTEnqHpFe1cIwx_37.361860_-108.572798@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455266,
-    "wof:geomhash":"86559916c64d4589c6c87884bbc660d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d129ad38cca7539a00e05f20cab748d9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555059,
+            "region_id":85688603,
+            "venue_id":824133397
+        }
+    ],
     "wof:id":824133397,
-    "wof:lastmodified":1466416191,
+    "wof:lastmodified":1492129296,
     "wof:name":"Vista Grande",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555059,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

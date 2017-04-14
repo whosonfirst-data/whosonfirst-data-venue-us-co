@@ -2,9 +2,14 @@
   "id": 823542007,
   "type": "Feature",
   "properties": {
+    "addr:full":"5350 W 52nd Ave Denver CO 80212",
+    "addr:housenumber":"5350",
+    "addr:postcode":"80212",
+    "addr:street":"W 52Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053936,39.791138,-105.053936,39.791138",
     "geom:latitude":39.791138,
     "geom:longitude":-105.053936,
@@ -30,19 +35,34 @@
         "cleaning"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5L8nZ6FFm30MgaYebRojx1_39.791138_-105.053936@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440509,
-    "wof:geomhash":"5d02f1feffd679cc7702deab4c29c637",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0cc08e79051d05ffad5571109e455595",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823542007
+        }
+    ],
     "wof:id":823542007,
-    "wof:lastmodified":1466415431,
+    "wof:lastmodified":1492124563,
     "wof:name":"Allbright Tile & Grout",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839964071,
   "type": "Feature",
   "properties": {
+    "addr:full":"4919 Broadway St Boulder CO 80304",
+    "addr:housenumber":"4919",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281897,40.064891,-105.281897,40.064891",
     "geom:latitude":40.064891,
     "geom:longitude":-105.281897,
@@ -27,19 +32,34 @@
         "antique"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3bSXBCkA1KN79MY3p8boxj_40.064891_-105.281897@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459776,
-    "wof:geomhash":"c769881aebd1eb36eb5046ed8d877edb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"241289c4cb781845fc909c93580c735d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":839964071
+        }
+    ],
     "wof:id":839964071,
-    "wof:lastmodified":1466415921,
+    "wof:lastmodified":1492111279,
     "wof:name":"Amazing Garage Sale",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823678183,
   "type": "Feature",
   "properties": {
+    "addr:full":"955 Klondike Ave Nederland CO 80466",
+    "addr:housenumber":"955",
+    "addr:postcode":"80466",
+    "addr:street":"Klondike Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.577539,39.950328,-105.577539,39.950328",
     "geom:latitude":39.950328,
     "geom:longitude":-105.577539,
@@ -28,19 +33,34 @@
         "orchestra"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85930685,
+        102085251,
+        85817739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Z22kiWCZZMUhmYSBq87SY_39.950328_-105.577539@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443749,
-    "wof:geomhash":"778933262a3602381bd6d3ecbb6e4f68",
-    "wof:hierarchy":[],
+    "wof:geomhash":"463d3a9cc523195edff6a062c13c7ce9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930685,
+            "neighbourhood_id":85817739,
+            "region_id":85688603,
+            "venue_id":823678183
+        }
+    ],
     "wof:id":823678183,
-    "wof:lastmodified":1466418419,
+    "wof:lastmodified":1492121425,
     "wof:name":"Leftover Salmon",
-    "wof:parent_id":-1,
+    "wof:parent_id":85817739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

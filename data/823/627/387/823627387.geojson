@@ -2,9 +2,14 @@
   "id": 823627387,
   "type": "Feature",
   "properties": {
+    "addr:full":"2748 S Hazel Ct Denver CO 80236",
+    "addr:housenumber":"2748",
+    "addr:postcode":"80236",
+    "addr:street":"S Hazel Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.027885,39.666343,-105.027885,39.666343",
     "geom:latitude":39.666343,
     "geom:longitude":-105.027885,
@@ -27,19 +32,38 @@
         "cemetery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2BS1oTFQJ2kVN1aSEFTxKS_39.666343_-105.027885@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442562,
-    "wof:geomhash":"a455dbeffbf1551826145aba0554dec3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e03795368d4ad20f11d75e62728562ef",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":823627387
+        }
+    ],
     "wof:id":823627387,
-    "wof:lastmodified":1466417589,
+    "wof:lastmodified":1492118725,
     "wof:name":"Med Hill Gardens",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

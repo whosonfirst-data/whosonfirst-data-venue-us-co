@@ -2,9 +2,14 @@
   "id": 824035561,
   "type": "Feature",
   "properties": {
+    "addr:full":"5570 Harlan St Arvada CO 80002",
+    "addr:housenumber":"5570",
+    "addr:postcode":"80002",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062501,39.797993,-105.062501,39.797993",
     "geom:latitude":39.797993,
     "geom:longitude":-105.062501,
@@ -30,19 +35,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Xy25E5oLrdqUbUI9Mowr7_39.797993_-105.062501@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452799,
-    "wof:geomhash":"009d82d148999d52a7580886f8f77de2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"acd200b587bfb6cebc7e9258dd667fdd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824035561
+        }
+    ],
     "wof:id":824035561,
-    "wof:lastmodified":1466413985,
+    "wof:lastmodified":1492130540,
     "wof:name":"Allens Heating AC & Shtmtl",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

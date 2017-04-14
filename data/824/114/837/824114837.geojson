@@ -2,9 +2,14 @@
   "id": 824114837,
   "type": "Feature",
   "properties": {
+    "addr:full":"1860 W 92nd Ave Denver CO 80260",
+    "addr:housenumber":"1860",
+    "addr:postcode":"80260",
+    "addr:street":"W 92Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.010537,39.863407,-105.010537,39.863407",
     "geom:latitude":39.863407,
     "geom:longitude":-105.010537,
@@ -27,19 +32,36 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553861
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ddY9BxqDI9qfbgSOk4IGt_39.863407_-105.010537@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454654,
-    "wof:geomhash":"485e80487e7d1fe4e0d3f39e1cb2356a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9d6d5bb19c149f84bde022aab51c795a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553861,
+            "region_id":85688603,
+            "venue_id":824114837
+        }
+    ],
     "wof:id":824114837,
-    "wof:lastmodified":1466415526,
+    "wof:lastmodified":1492132643,
     "wof:name":"Scissor Scene",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553861,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

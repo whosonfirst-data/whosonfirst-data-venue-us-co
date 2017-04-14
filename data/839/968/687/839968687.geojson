@@ -2,9 +2,14 @@
   "id": 839968687,
   "type": "Feature",
   "properties": {
+    "addr:full":"240 Mohawk Dr Boulder CO 80303",
+    "addr:housenumber":"240",
+    "addr:postcode":"80303",
+    "addr:street":"Mohawk Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.238455,39.992028,-105.238455,39.992028",
     "geom:latitude":39.992028,
     "geom:longitude":-105.238455,
@@ -30,19 +35,36 @@
         "f"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554127
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6uKxXbfuhXdoWGxyxpMRVY_39.992028_-105.238455@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459964,
-    "wof:geomhash":"2522fdeec8e29e4af8a64fc90574e968",
-    "wof:hierarchy":[],
+    "wof:geomhash":"999a6b98d93b497c96493c757bb2e4a1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554127,
+            "region_id":85688603,
+            "venue_id":839968687
+        }
+    ],
     "wof:id":839968687,
-    "wof:lastmodified":1466416170,
+    "wof:lastmodified":1492114481,
     "wof:name":"Redwood Home Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554127,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

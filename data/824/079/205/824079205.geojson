@@ -2,9 +2,14 @@
   "id": 824079205,
   "type": "Feature",
   "properties": {
+    "addr:full":"734 Co Rd 228 Durango CO 81301",
+    "addr:housenumber":"734;228",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.783579,37.244137,-107.783579,37.244137",
     "geom:latitude":37.244137,
     "geom:longitude":-107.783579,
@@ -38,19 +43,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3KKFbWGw1AfuWmfaVHVrRO_37.244137_-107.783579@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453835,
-    "wof:geomhash":"3b02ea7dbcbab659f05c528eda145dc2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a50920fc52a49a3c9e5e632119f612b8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":824079205
+        }
+    ],
     "wof:id":824079205,
-    "wof:lastmodified":1466414664,
+    "wof:lastmodified":1492128912,
     "wof:name":"Double Diamond Construction Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

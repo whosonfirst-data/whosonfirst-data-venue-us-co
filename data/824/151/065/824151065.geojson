@@ -2,9 +2,14 @@
   "id": 824151065,
   "type": "Feature",
   "properties": {
+    "addr:full":"1002 Walnut St Boulder CO 80302",
+    "addr:housenumber":"1002",
+    "addr:postcode":"80302",
+    "addr:street":"Walnut St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.283167,40.016011,-105.283167,40.016011",
     "geom:latitude":40.016011,
     "geom:longitude":-105.283167,
@@ -27,7 +32,14 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5pQxRUSFUO8dWIDn9JFEf9_40.016011_-105.283167@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463455951,
     "wof:geomhash":"301c8fb9f4d23db91df561a28c0aa9a1",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":824151065
+        }
+    ],
     "wof:id":824151065,
-    "wof:lastmodified":1466416802,
+    "wof:lastmodified":1491897935,
     "wof:name":"Moses Wittemyer Harrison",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

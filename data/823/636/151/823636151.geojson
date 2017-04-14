@@ -2,9 +2,14 @@
   "id": 823636151,
   "type": "Feature",
   "properties": {
+    "addr:full":"800 E 64th Ave Denver CO 80229",
+    "addr:housenumber":"800",
+    "addr:postcode":"80229",
+    "addr:street":"E 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974082,39.812657,-104.974082,39.812657",
     "geom:latitude":39.812657,
     "geom:longitude":-104.974082,
@@ -27,19 +32,36 @@
         "gates"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6azoCvwijChRtknLX2qde7_39.812657_-104.974082@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442765,
-    "wof:geomhash":"3660c0de8db946eec29d2796141ecff4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e0d3a2b41c2306b549905d0d015b373",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":823636151
+        }
+    ],
     "wof:id":823636151,
-    "wof:lastmodified":1466417682,
+    "wof:lastmodified":1492126898,
     "wof:name":"Vortex Doors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

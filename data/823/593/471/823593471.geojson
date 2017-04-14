@@ -2,9 +2,14 @@
   "id": 823593471,
   "type": "Feature",
   "properties": {
+    "addr:full":"10776 Bryant Ct Denver CO 80234",
+    "addr:housenumber":"10776",
+    "addr:postcode":"80234",
+    "addr:street":"Bryant Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018803,39.891631,-105.018803,39.891631",
     "geom:latitude":39.891631,
     "geom:longitude":-105.018803,
@@ -24,19 +29,36 @@
     "sg:postcode":"80234",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553639
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4r7lixoZ86K8IgvzbhatVs_39.891631_-105.018803@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441732,
-    "wof:geomhash":"33a4362259aaa2af28955f12b31c3d82",
-    "wof:hierarchy":[],
+    "wof:geomhash":"013cb1c7ab0d045fc21039b527948deb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553639,
+            "region_id":85688603,
+            "venue_id":823593471
+        }
+    ],
     "wof:id":823593471,
-    "wof:lastmodified":1466416954,
+    "wof:lastmodified":1492121926,
     "wof:name":"Tennis Wrap Its",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

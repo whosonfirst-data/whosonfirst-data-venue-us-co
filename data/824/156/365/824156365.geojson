@@ -2,9 +2,14 @@
   "id": 824156365,
   "type": "Feature",
   "properties": {
+    "addr:full":"3400 Table Mesa Dr Boulder CO 80305",
+    "addr:housenumber":"3400",
+    "addr:postcode":"80305",
+    "addr:street":"Table Mesa Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.251925,39.984169,-105.251925,39.984169",
     "geom:latitude":39.984169,
     "geom:longitude":-105.251925,
@@ -24,7 +29,15 @@
     "sg:postcode":"80305",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554045,
+        85876445
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3N6wx9cZW2RYrHs6D4NB1e_39.984169_-105.251925@1294083659"
@@ -32,11 +45,30 @@
     "wof:country":"US",
     "wof:created":1463456165,
     "wof:geomhash":"68871512e847ffd87f58aa5143638cdc",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554045,
+            "region_id":85688603,
+            "venue_id":824156365
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876445,
+            "region_id":85688603,
+            "venue_id":824156365
+        }
+    ],
     "wof:id":824156365,
-    "wof:lastmodified":1466417117,
+    "wof:lastmodified":1491934937,
     "wof:name":"Mark A Saggio",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

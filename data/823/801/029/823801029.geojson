@@ -2,9 +2,14 @@
   "id": 823801029,
   "type": "Feature",
   "properties": {
+    "addr:full":"275 S Sheridan Blvd Denver CO 80226",
+    "addr:housenumber":"275",
+    "addr:postcode":"80226",
+    "addr:street":"S Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053334,39.71273,-105.053334,39.71273",
     "geom:latitude":39.71273,
     "geom:longitude":-105.053334,
@@ -27,19 +32,36 @@
         "yard"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3rNtSEiN3dcBk67NhdwY7U_39.712730_-105.053334@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446735,
-    "wof:geomhash":"5d15fcbcaf7065789f7d1d1a090568cf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"897bb42651409750fea02f291f6d5ccf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823801029
+        }
+    ],
     "wof:id":823801029,
-    "wof:lastmodified":1466419382,
+    "wof:lastmodified":1492123222,
     "wof:name":"Rent-A-Center",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

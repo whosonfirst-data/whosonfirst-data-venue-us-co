@@ -2,9 +2,14 @@
   "id": 823755181,
   "type": "Feature",
   "properties": {
+    "addr:full":"2836 Elm Ave Boulder CO 80305",
+    "addr:housenumber":"2836",
+    "addr:postcode":"80305",
+    "addr:street":"Elm Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.257486,39.998016,-105.257486,39.998016",
     "geom:latitude":39.998016,
     "geom:longitude":-105.257486,
@@ -24,7 +29,14 @@
     "sg:postcode":"80305",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876367
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28GiCSfI9Q5oPK9ASYbsF5_39.998016_-105.257486@1294083659"
@@ -32,11 +44,21 @@
     "wof:country":"US",
     "wof:created":1463445512,
     "wof:geomhash":"ad8c10bd2f4f4ba665fde55aced9dd43",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876367,
+            "region_id":85688603,
+            "venue_id":823755181
+        }
+    ],
     "wof:id":823755181,
-    "wof:lastmodified":1466418997,
+    "wof:lastmodified":1491890400,
     "wof:name":"Ron Flax",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876367,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823724993,
   "type": "Feature",
   "properties": {
+    "addr:full":"3223 Howard Ct Clifton CO 81520",
+    "addr:housenumber":"3223",
+    "addr:postcode":"81520",
+    "addr:street":"Howard Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.455654,39.09668,-108.455654,39.09668",
     "geom:latitude":39.09668,
     "geom:longitude":-108.455654,
@@ -29,19 +34,36 @@
         "dump"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554851
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0TMHzqJq77g6dNCV4BnAKx_39.096680_-108.455654@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444780,
-    "wof:geomhash":"c59bba0180687490126dcea6c5e805ed",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c59216d251c570c9fd97fd4740183e94",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554851,
+            "region_id":85688603,
+            "venue_id":823724993
+        }
+    ],
     "wof:id":823724993,
-    "wof:lastmodified":1466418816,
+    "wof:lastmodified":1492117435,
     "wof:name":"B & P Trucking Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554851,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

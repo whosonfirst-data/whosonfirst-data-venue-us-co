@@ -2,9 +2,14 @@
   "id": 823682171,
   "type": "Feature",
   "properties": {
+    "addr:full":"11423 Washington St Denver CO 80233",
+    "addr:housenumber":"11423",
+    "addr:postcode":"80233",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977863,39.904537,-104.977863,39.904537",
     "geom:latitude":39.904537,
     "geom:longitude":-104.977863,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553887
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5v841f0Zj7vZECHlyDB5sU_39.904537_-104.977863@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443834,
-    "wof:geomhash":"434b993d422d85498203bcd32bb48c40",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e201412db51043a2f1c64c6fea86cd49",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553887,
+            "region_id":85688603,
+            "venue_id":823682171
+        }
+    ],
     "wof:id":823682171,
-    "wof:lastmodified":1466418428,
+    "wof:lastmodified":1492116756,
     "wof:name":"D L Discount Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553887,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

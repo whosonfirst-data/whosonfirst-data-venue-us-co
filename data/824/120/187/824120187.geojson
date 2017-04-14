@@ -2,9 +2,14 @@
   "id": 824120187,
   "type": "Feature",
   "properties": {
+    "addr:full":"3186 Hill Ave Grand Junction CO 81504",
+    "addr:housenumber":"3186",
+    "addr:postcode":"81504",
+    "addr:street":"Hill Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.462019,39.075051,-108.462019,39.075051",
     "geom:latitude":39.075051,
     "geom:longitude":-108.462019,
@@ -27,19 +32,36 @@
         "heavy"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554965
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2kA8nSAvS8sEWOwuD2I4RW_39.075051_-108.462019@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454768,
-    "wof:geomhash":"9f80b78b10e13d05e53b11cd5daf787b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"578738ca3c96d06481bae9c4aecd152c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554965,
+            "region_id":85688603,
+            "venue_id":824120187
+        }
+    ],
     "wof:id":824120187,
-    "wof:lastmodified":1466415615,
+    "wof:lastmodified":1492128049,
     "wof:name":"Kellogg Brown & Root Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554965,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

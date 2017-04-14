@@ -2,9 +2,14 @@
   "id": 823897331,
   "type": "Feature",
   "properties": {
+    "addr:full":"3701 Woodglen Blvd Northglenn CO 80233",
+    "addr:housenumber":"3701",
+    "addr:postcode":"80233",
+    "addr:street":"Woodglen Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.942125,39.907482,-104.942125,39.907482",
     "geom:latitude":39.907482,
     "geom:longitude":-104.942125,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553907
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_599S7GjFK8MO802iUCmNjK_39.907482_-104.942125@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449377,
-    "wof:geomhash":"c33d346a20f0fcd69cd256d6bdcb1780",
-    "wof:hierarchy":[],
+    "wof:geomhash":"617fed25d7c34daf50b1ba4fb1b3444b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":823897331
+        }
+    ],
     "wof:id":823897331,
-    "wof:lastmodified":1466420192,
+    "wof:lastmodified":1492120554,
     "wof:name":"C W Dillon Engineering",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553907,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

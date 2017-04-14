@@ -2,9 +2,14 @@
   "id": 823548803,
   "type": "Feature",
   "properties": {
+    "addr:full":"2300 Cavanaugh Rd Watkins CO 80137",
+    "addr:housenumber":"2300",
+    "addr:postcode":"80137",
+    "addr:street":"Cavanaugh Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.545793,39.753246,-104.545793,39.753246",
     "geom:latitude":39.753246,
     "geom:longitude":-104.545793,
@@ -27,19 +32,42 @@
         "firewood"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553959,
+        85688603,
+        102191575,
+        85929235,
+        102086877,
+        420553949
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_075cK3zYtMbn1l6lplYo3e_39.753246_-104.545793@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440669,
-    "wof:geomhash":"f09385de68e8ab2371ddd9dcec6e5a40",
-    "wof:hierarchy":[],
+    "wof:geomhash":"880ac4367b2cbeb2212c2fe83a6c2231",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553959,
+            "venue_id":823548803
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553949,
+            "region_id":85688603,
+            "venue_id":823548803
+        }
+    ],
     "wof:id":823548803,
-    "wof:lastmodified":1466415729,
+    "wof:lastmodified":1492126423,
     "wof:name":"Jonesy's Woodyard",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

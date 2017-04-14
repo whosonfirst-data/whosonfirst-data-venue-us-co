@@ -2,9 +2,14 @@
   "id": 823907107,
   "type": "Feature",
   "properties": {
+    "addr:full":"1205 W Elizabeth St Fort Collins CO 80521",
+    "addr:housenumber":"1205",
+    "addr:postcode":"80521",
+    "addr:street":"W Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.099077,40.574549,-105.099077,40.574549",
     "geom:latitude":40.574549,
     "geom:longitude":-105.099077,
@@ -27,19 +32,36 @@
         "bicycle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6aM5ld7HriivSl1V5OfgoD_40.574549_-105.099077@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449648,
-    "wof:geomhash":"d65e7b9492710af02392d487bce6f643",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c612cb7f50bfa2fa60e11f373543d06d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":823907107
+        }
+    ],
     "wof:id":823907107,
-    "wof:lastmodified":1466420229,
+    "wof:lastmodified":1492126735,
     "wof:name":"Road 34 Bike Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

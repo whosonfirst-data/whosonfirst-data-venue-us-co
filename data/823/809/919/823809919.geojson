@@ -2,9 +2,14 @@
   "id": 823809919,
   "type": "Feature",
   "properties": {
+    "addr:full":"130 S Poplar St Hayden CO 81639",
+    "addr:housenumber":"130",
+    "addr:postcode":"81639",
+    "addr:street":"S Poplar St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.259935,40.49449,-107.259935,40.49449",
     "geom:latitude":40.49449,
     "geom:longitude":-107.259935,
@@ -28,19 +33,28 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555315
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42iY9BH52YG5xIx8TnzaQR_40.494490_-107.259935@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446995,
-    "wof:geomhash":"7dd7f6606be8dafad3d4f83b39bff343",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dcb921700d9b5a8efc8cbf35b4db7335",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555315,
+            "venue_id":823809919
+        }
+    ],
     "wof:id":823809919,
-    "wof:lastmodified":1466419482,
+    "wof:lastmodified":1492122900,
     "wof:name":"Moon Shots",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

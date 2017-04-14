@@ -2,9 +2,14 @@
   "id": 823905269,
   "type": "Feature",
   "properties": {
+    "addr:full":"7898 Linda Cir Denver CO 80221",
+    "addr:housenumber":"7898",
+    "addr:postcode":"80221",
+    "addr:street":"Linda Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.995854,39.839825,-104.995854,39.839825",
     "geom:latitude":39.839825,
     "geom:longitude":-104.995854,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553867
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0eCoZlRIsAocmc9EX5urXd_39.839825_-104.995854@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449606,
-    "wof:geomhash":"1014550b03a90992df68635c1717f371",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91ac3024dda0c8b5a475635c4f44cc3d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553867,
+            "region_id":85688603,
+            "venue_id":823905269
+        }
+    ],
     "wof:id":823905269,
-    "wof:lastmodified":1466420245,
+    "wof:lastmodified":1492121887,
     "wof:name":"Marty Martinez Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553867,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823520623,
   "type": "Feature",
   "properties": {
+    "addr:full":"235 S Fenton St Denver CO 80226",
+    "addr:housenumber":"235",
+    "addr:postcode":"80226",
+    "addr:street":"S Fenton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060368,39.712192,-105.060368,39.712192",
     "geom:latitude":39.712192,
     "geom:longitude":-105.060368,
@@ -24,19 +29,36 @@
     "sg:postcode":"80226",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5LXqmgGRfRPQEli9zOjixB_39.712192_-105.060368@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440041,
-    "wof:geomhash":"f11fe0238b0dfac2ede829c57974b885",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c75693668bbcca0bf5cb699e82fc82f1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823520623
+        }
+    ],
     "wof:id":823520623,
-    "wof:lastmodified":1466414904,
+    "wof:lastmodified":1492127470,
     "wof:name":"Dallas Farruggia",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

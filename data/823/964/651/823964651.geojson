@@ -2,9 +2,14 @@
   "id": 823964651,
   "type": "Feature",
   "properties": {
+    "addr:full":"1865 W Beekman Pl Denver CO 80221",
+    "addr:housenumber":"1865",
+    "addr:postcode":"80221",
+    "addr:street":"W Beekman Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.007098,39.787946,-105.007098,39.787946",
     "geom:latitude":39.787946,
     "geom:longitude":-105.007098,
@@ -29,7 +34,15 @@
         "carpet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420781639,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0njYsp73Nuee8b8fjjNYBu_39.787946_-105.007098@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463451127,
     "wof:geomhash":"06116b7623d52e74536466dd66349a0b",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420781639,
+            "region_id":85688603,
+            "venue_id":823964651
+        }
+    ],
     "wof:id":823964651,
-    "wof:lastmodified":1466420780,
+    "wof:lastmodified":1486593525,
     "wof:name":"Marquez Carpet Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":420781639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

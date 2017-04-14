@@ -2,9 +2,14 @@
   "id": 823848267,
   "type": "Feature",
   "properties": {
+    "addr:full":"18091 E 22nd Ave Aurora CO 80011",
+    "addr:housenumber":"18091",
+    "addr:postcode":"80011",
+    "addr:street":"E 22Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.784831,39.74943,-104.784831,39.74943",
     "geom:latitude":39.74943,
     "geom:longitude":-104.784831,
@@ -28,19 +33,36 @@
         "industrial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553315
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6W6pm2aHYLxC5aQqtKXP9w_39.749430_-104.784831@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448176,
-    "wof:geomhash":"32bada0188f10e0f8cae9d531f5f0743",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b40f16381e27fda1ef1b9b6296853244",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553315,
+            "region_id":85688603,
+            "venue_id":823848267
+        }
+    ],
     "wof:id":823848267,
-    "wof:lastmodified":1466419865,
+    "wof:lastmodified":1492127113,
     "wof:name":"Wagner Power Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824081347,
   "type": "Feature",
   "properties": {
+    "addr:full":"123 Main St Breckenridge CO 80424",
+    "addr:housenumber":"123",
+    "addr:postcode":"80424",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.046178,39.480624,-106.046178,39.480624",
     "geom:latitude":39.480624,
     "geom:longitude":-106.046178,
@@ -27,17 +32,32 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929295,
+        102084025
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5HNzXadpJTibGpHVWJDDOl_39.480624_-106.046178@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453882,
-    "wof:geomhash":"3bb133dea39b929661b3f6f19f1e20e7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f4b6ba734572c08b730c60f7f4a20e0d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084025,
+            "locality_id":85929295,
+            "region_id":85688603,
+            "venue_id":824081347
+        }
+    ],
     "wof:id":824081347,
-    "wof:lastmodified":1466414717,
+    "wof:lastmodified":1492129206,
     "wof:name":"Skinny Winter",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

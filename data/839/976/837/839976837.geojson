@@ -2,9 +2,14 @@
   "id": 839976837,
   "type": "Feature",
   "properties": {
+    "addr:full":"767 Meadow Glen Dr Boulder CO 80303",
+    "addr:housenumber":"767",
+    "addr:postcode":"80303",
+    "addr:street":"Meadow Glen Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.222333,40.000892,-105.222333,40.000892",
     "geom:latitude":40.000892,
     "geom:longitude":-105.222333,
@@ -28,19 +33,36 @@
         "parts"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554141
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Ik0HoggeKaF2Ry4P58B5W_40.000892_-105.222333@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460295,
-    "wof:geomhash":"e1587dbeb9ef784e12f414ed88f40a97",
-    "wof:hierarchy":[],
+    "wof:geomhash":"51801f211b9db566df57ad67cdffc638",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554141,
+            "region_id":85688603,
+            "venue_id":839976837
+        }
+    ],
     "wof:id":839976837,
-    "wof:lastmodified":1466416743,
+    "wof:lastmodified":1492112514,
     "wof:name":"Napa Valley Cast Stone",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554141,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

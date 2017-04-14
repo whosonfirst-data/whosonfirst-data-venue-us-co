@@ -2,9 +2,14 @@
   "id": 823982141,
   "type": "Feature",
   "properties": {
+    "addr:full":"320 S 1st St Grand Junction CO 81501",
+    "addr:housenumber":"320",
+    "addr:postcode":"81501",
+    "addr:street":"S 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570132,39.064797,-108.570132,39.064797",
     "geom:latitude":39.064797,
     "geom:longitude":-108.570132,
@@ -28,19 +33,36 @@
         "computer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3rwr8LQZMXdglP4l6v50Pm_39.064797_-108.570132@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451536,
-    "wof:geomhash":"16ab2b2e9bedfa2cfc073ba4df7c18d9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"28bef8961014cd40ab35823c86c7d718",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554839,
+            "region_id":85688603,
+            "venue_id":823982141
+        }
+    ],
     "wof:id":823982141,
-    "wof:lastmodified":1466420895,
+    "wof:lastmodified":1492126886,
     "wof:name":"Computertutor",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

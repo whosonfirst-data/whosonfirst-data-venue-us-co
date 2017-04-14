@@ -2,9 +2,14 @@
   "id": 824170925,
   "type": "Feature",
   "properties": {
+    "addr:full":"1124 W Elizabeth St Fort Collins CO 80521",
+    "addr:housenumber":"1124",
+    "addr:postcode":"80521",
+    "addr:street":"W Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.100418,40.574636,-105.100418,40.574636",
     "geom:latitude":40.574636,
     "geom:longitude":-105.100418,
@@ -28,19 +33,36 @@
         "driving"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7mkwU4zSQf1T827bRZKmab_40.574636_-105.100418@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456721,
-    "wof:geomhash":"835e158a02c359b455b63c63554a1c3b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"44741be325ae22f4fe3a47ce4b6bd704",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":824170925
+        }
+    ],
     "wof:id":824170925,
-    "wof:lastmodified":1466418026,
+    "wof:lastmodified":1492128828,
     "wof:name":"Choice Drivers Education",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

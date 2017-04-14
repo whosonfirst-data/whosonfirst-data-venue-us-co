@@ -2,9 +2,14 @@
   "id": 824142479,
   "type": "Feature",
   "properties": {
+    "addr:full":"921 Delta St Denver CO 80221",
+    "addr:housenumber":"921",
+    "addr:postcode":"80221",
+    "addr:street":"Delta St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.998012,39.833186,-104.998012,39.833186",
     "geom:latitude":39.833186,
     "geom:longitude":-104.998012,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553867
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0xLFKPTSoE6ljJLp7sbzwB_39.833186_-104.998012@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455599,
-    "wof:geomhash":"168e6efa93cabb203b69904bd6cc08fb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2a30ecc5c30a10782e346a3526dd815f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553867,
+            "region_id":85688603,
+            "venue_id":824142479
+        }
+    ],
     "wof:id":824142479,
-    "wof:lastmodified":1466416557,
+    "wof:lastmodified":1492129355,
     "wof:name":"APF Plumbing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553867,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823880909,
   "type": "Feature",
   "properties": {
+    "addr:full":"2305 Vassar Dr Boulder CO 80305",
+    "addr:housenumber":"2305",
+    "addr:postcode":"80305",
+    "addr:street":"Vassar Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.26594,39.985236,-105.26594,39.985236",
     "geom:latitude":39.985236,
     "geom:longitude":-105.26594,
@@ -28,19 +33,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876393
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2FwamxwRTtPuArTOBb340a_39.985236_-105.265940@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448993,
-    "wof:geomhash":"ebf7b490b38c5c24b0c2a3d244aa5f4a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1f7a3e0702d16776c2386afedee87d15",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876393,
+            "region_id":85688603,
+            "venue_id":823880909
+        }
+    ],
     "wof:id":823880909,
-    "wof:lastmodified":1466420062,
+    "wof:lastmodified":1492116342,
     "wof:name":"Newell Near-Field Consultants",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876393,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

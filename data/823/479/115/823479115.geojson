@@ -2,9 +2,14 @@
   "id": 823479115,
   "type": "Feature",
   "properties": {
+    "addr:full":"4009 W 29th Ave Denver CO 80212",
+    "addr:housenumber":"4009",
+    "addr:postcode":"80212",
+    "addr:street":"W 29Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040419,39.75857,-105.040419,39.75857",
     "geom:latitude":39.75857,
     "geom:longitude":-105.040419,
@@ -28,19 +33,38 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2FrRggrDseuVYNYPGn0QTa_39.758570_-105.040419@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439061,
-    "wof:geomhash":"d2f0ad3c37f05b9549b543aae4473841",
-    "wof:hierarchy":[],
+    "wof:geomhash":"14da0979486333aaa6f733f66972cf13",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823479115
+        }
+    ],
     "wof:id":823479115,
-    "wof:lastmodified":1466413260,
+    "wof:lastmodified":1492117144,
     "wof:name":"R J Reynolds Tobacco Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

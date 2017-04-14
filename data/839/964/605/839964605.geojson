@@ -2,9 +2,14 @@
   "id": 839964605,
   "type": "Feature",
   "properties": {
+    "addr:full":"1660 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"1660",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.544551,39.077464,-108.544551,39.077464",
     "geom:latitude":39.077464,
     "geom:longitude":-108.544551,
@@ -27,19 +32,36 @@
         "veterinarian"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554923
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_573CtAXU1sg7dgteoW82It_39.077464_-108.544551@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459799,
-    "wof:geomhash":"588bb0b3cb18188ecaa61ddbea17cab8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"826d8abcc99fa254c00cc4d6a15785cd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554923,
+            "region_id":85688603,
+            "venue_id":839964605
+        }
+    ],
     "wof:id":839964605,
-    "wof:lastmodified":1466415989,
+    "wof:lastmodified":1492111269,
     "wof:name":"Grand Valley Veterinary Clinic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554923,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824004235,
   "type": "Feature",
   "properties": {
+    "addr:full":"2835 W 72nd Ave Westminster CO 80030",
+    "addr:housenumber":"2835",
+    "addr:postcode":"80030",
+    "addr:street":"W 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.022149,39.827361,-105.022149,39.827361",
     "geom:latitude":39.827361,
     "geom:longitude":-105.022149,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553543
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2o7L4hq3QNp4J81OS3BxRn_39.827361_-105.022149@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452081,
-    "wof:geomhash":"baf31703db30381b8415d8b43caa7e64",
-    "wof:hierarchy":[],
+    "wof:geomhash":"84fdca6689da76547a00ff759f4a26b3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553543,
+            "region_id":85688603,
+            "venue_id":824004235
+        }
+    ],
     "wof:id":824004235,
-    "wof:lastmodified":1466412380,
+    "wof:lastmodified":1492132372,
     "wof:name":"Guadalajara Mexican Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553543,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

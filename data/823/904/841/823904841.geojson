@@ -2,9 +2,14 @@
   "id": 823904841,
   "type": "Feature",
   "properties": {
+    "addr:full":"2124 Broadway St Boulder CO 80304",
+    "addr:housenumber":"2124",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.280534,40.019682,-105.280534,40.019682",
     "geom:latitude":40.019682,
     "geom:longitude":-105.280534,
@@ -27,7 +32,14 @@
         "consulting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6z45hCn1FQhD1q9VDcAWY0_40.019682_-105.280534@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463449594,
     "wof:geomhash":"f3bd434c99975f05277e5737b250a063",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823904841
+        }
+    ],
     "wof:id":823904841,
-    "wof:lastmodified":1466420292,
+    "wof:lastmodified":1491888495,
     "wof:name":"I Q Computer",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

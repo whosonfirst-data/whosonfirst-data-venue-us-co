@@ -2,9 +2,14 @@
   "id": 823790915,
   "type": "Feature",
   "properties": {
+    "addr:full":"860 Denver Pl Brighton CO 80601",
+    "addr:housenumber":"860",
+    "addr:postcode":"80601",
+    "addr:street":"Denver Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.812615,39.994402,-104.812615,39.994402",
     "geom:latitude":39.994402,
     "geom:longitude":-104.812615,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6xFAsTPWIcMGbyVRfQ3JJ1_39.994402_-104.812615@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446449,
-    "wof:geomhash":"ad4a8c2ba85f5d8766934ae36f631f08",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c8021617d1ab227d2b625b0ce1adfd89",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823790915
+        }
+    ],
     "wof:id":823790915,
-    "wof:lastmodified":1466419375,
+    "wof:lastmodified":1492127744,
     "wof:name":"Lm Remodeling LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

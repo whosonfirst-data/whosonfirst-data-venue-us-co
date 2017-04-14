@@ -2,9 +2,14 @@
   "id": 823968007,
   "type": "Feature",
   "properties": {
+    "addr:full":"10552 Julian St Westminster CO 80031",
+    "addr:housenumber":"10552",
+    "addr:postcode":"80031",
+    "addr:street":"Julian St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.0317,39.887945,-105.0317,39.887945",
     "geom:latitude":39.887945,
     "geom:longitude":-105.0317,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553837
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6X5t45LRbO4XrhBstneuCK_39.887945_-105.031700@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451213,
-    "wof:geomhash":"83f1e9362fa640bd2b1df5a9e01629f1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"163a14466931fb785a61586102497470",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553837,
+            "region_id":85688603,
+            "venue_id":823968007
+        }
+    ],
     "wof:id":823968007,
-    "wof:lastmodified":1466420783,
+    "wof:lastmodified":1492127751,
     "wof:name":"Arapahoe Plumbing Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553837,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

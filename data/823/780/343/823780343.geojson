@@ -2,9 +2,14 @@
   "id": 823780343,
   "type": "Feature",
   "properties": {
+    "addr:full":"509 E Main St Montrose CO 81401",
+    "addr:housenumber":"509",
+    "addr:postcode":"81401",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.874693,38.480902,-107.874693,38.480902",
     "geom:latitude":38.480902,
     "geom:longitude":-107.874693,
@@ -28,17 +33,32 @@
         "vacuum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929385,
+        102086121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2YDRVtc65q4OYGMfWjmaCN_38.480902_-107.874693@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446098,
-    "wof:geomhash":"2075ff32f5c3a5fa10fd90d36e1b99dd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8c386972bff07d9cad854b0c0eaeb900",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086121,
+            "locality_id":85929385,
+            "region_id":85688603,
+            "venue_id":823780343
+        }
+    ],
     "wof:id":823780343,
-    "wof:lastmodified":1466419335,
+    "wof:lastmodified":1492118699,
     "wof:name":"Montrose Sewing Ctr",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

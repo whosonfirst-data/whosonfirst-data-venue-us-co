@@ -2,9 +2,14 @@
   "id": 823792991,
   "type": "Feature",
   "properties": {
+    "addr:full":"9700 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"9700",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.874071,39.740215,-104.874071,39.740215",
     "geom:latitude":39.740215,
     "geom:longitude":-104.874071,
@@ -29,19 +34,46 @@
         "pawn"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553933,
+        85872957
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6gOc5xf9Qzp0w1Qi6qAu46_39.740215_-104.874071@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446513,
-    "wof:geomhash":"3f83cfbf3e3d86ebd15ffddfb8ce2d40",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6930c130b5226581346274240959fc02",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":823792991
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":85872957,
+            "region_id":85688603,
+            "venue_id":823792991
+        }
+    ],
     "wof:id":823792991,
-    "wof:lastmodified":1466419374,
+    "wof:lastmodified":1492120789,
     "wof:name":"Pacific Jewelry & Loan Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

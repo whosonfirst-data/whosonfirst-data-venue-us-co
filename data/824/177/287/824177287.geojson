@@ -2,9 +2,14 @@
   "id": 824177287,
   "type": "Feature",
   "properties": {
+    "addr:full":"1715 38th St Boulder CO 80301",
+    "addr:housenumber":"1715",
+    "addr:postcode":"80301",
+    "addr:street":"38Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.244021,40.017066,-105.244021,40.017066",
     "geom:latitude":40.017066,
     "geom:longitude":-105.244021,
@@ -28,19 +33,36 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3o5DSLxzTFBr9itLUDHA2d_40.017066_-105.244021@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456964,
-    "wof:geomhash":"417cbb3c17cce496879d5c7d8705c0ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"592ece304f710b333cb8a8eafec7751e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":824177287
+        }
+    ],
     "wof:id":824177287,
-    "wof:lastmodified":1466418158,
+    "wof:lastmodified":1492130027,
     "wof:name":"Sandcherry  Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

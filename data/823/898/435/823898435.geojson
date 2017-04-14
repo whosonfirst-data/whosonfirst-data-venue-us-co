@@ -2,9 +2,14 @@
   "id": 823898435,
   "type": "Feature",
   "properties": {
+    "addr:full":"16900 Co Rd 20 Cortez CO 81321",
+    "addr:housenumber":"16900;20",
+    "addr:postcode":"81321",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.68285,37.465409,-108.68285,37.465409",
     "geom:latitude":37.465409,
     "geom:longitude":-108.68285,
@@ -27,19 +32,28 @@
         "stable"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555125
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5UtJoBVcMZ62W8Pk6dQ6cX_37.465409_-108.682850@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449405,
-    "wof:geomhash":"cbb7baa3080a5e29b595d5befb5c5671",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d6da9c6c8339808b6f5d0dbc692df20d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555125,
+            "venue_id":823898435
+        }
+    ],
     "wof:id":823898435,
-    "wof:lastmodified":1466420203,
+    "wof:lastmodified":1492123525,
     "wof:name":"T 2 Bar Stables",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555125,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

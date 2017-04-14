@@ -2,9 +2,14 @@
   "id": 823583743,
   "type": "Feature",
   "properties": {
+    "addr:full":"1212 Maine St Eads CO 81036",
+    "addr:housenumber":"1212",
+    "addr:postcode":"81036",
+    "addr:street":"Maine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.781755,38.480873,-102.781755,38.480873",
     "geom:latitude":38.480873,
     "geom:longitude":-102.781755,
@@ -28,17 +33,32 @@
         "applicator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929059,
+        102085253
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ui2RxuLSHAvjQZRYRwd1s_38.480873_-102.781755@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441511,
-    "wof:geomhash":"ad84c88f306a83258d6a7edc38fe7795",
-    "wof:hierarchy":[],
+    "wof:geomhash":"01d9a912d12d70565ed72bccedceaacd",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085253,
+            "locality_id":85929059,
+            "region_id":85688603,
+            "venue_id":823583743
+        }
+    ],
     "wof:id":823583743,
-    "wof:lastmodified":1466416692,
+    "wof:lastmodified":1492116958,
     "wof:name":"Saffer Spray Svc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

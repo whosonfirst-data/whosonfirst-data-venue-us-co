@@ -2,9 +2,14 @@
   "id": 824073863,
   "type": "Feature",
   "properties": {
+    "addr:full":"3792 S Lipan St Englewood CO 80110",
+    "addr:housenumber":"3792",
+    "addr:postcode":"80110",
+    "addr:street":"S Lipan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001645,39.649313,-105.001645,39.649313",
     "geom:latitude":39.649313,
     "geom:longitude":-105.001645,
@@ -32,19 +37,36 @@
         "locating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929829,
+        102086877,
+        420553955
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3JPgXWmfdo1tqlvqVkObAh_39.649313_-105.001645@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453716,
-    "wof:geomhash":"027b68c054373258684dd8e87719b9c0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0942fd2e1248d3b84e754f9d8200fd14",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929829,
+            "neighbourhood_id":420553955,
+            "region_id":85688603,
+            "venue_id":824073863
+        }
+    ],
     "wof:id":824073863,
-    "wof:lastmodified":1466414659,
+    "wof:lastmodified":1492132503,
     "wof:name":"Intermountain Sales",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553955,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

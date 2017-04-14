@@ -2,9 +2,14 @@
   "id": 824161331,
   "type": "Feature",
   "properties": {
+    "addr:full":"3623 E 89th Ave Denver CO 80229",
+    "addr:housenumber":"3623",
+    "addr:postcode":"80229",
+    "addr:street":"E 89Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.943234,39.857983,-104.943234,39.857983",
     "geom:latitude":39.857983,
     "geom:longitude":-104.943234,
@@ -27,19 +32,36 @@
         "household"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553637
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0KoYQsv40VDyGS9c0L8ihk_39.857983_-104.943234@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456347,
-    "wof:geomhash":"e20deca0a878d341ce48e24c0fac8a72",
-    "wof:hierarchy":[],
+    "wof:geomhash":"853e381309db27ea5b0323e9c0dbe802",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553637,
+            "region_id":85688603,
+            "venue_id":824161331
+        }
+    ],
     "wof:id":824161331,
-    "wof:lastmodified":1466417373,
+    "wof:lastmodified":1492130487,
     "wof:name":"American Furniture Whse Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553637,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

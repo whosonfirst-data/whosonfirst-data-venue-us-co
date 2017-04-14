@@ -2,9 +2,14 @@
   "id": 839962823,
   "type": "Feature",
   "properties": {
+    "addr:full":"13676 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"13676;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.803253,37.454243,-107.803253,37.454243",
     "geom:latitude":37.454243,
     "geom:longitude":-107.803253,
@@ -28,19 +33,28 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554715
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5KddzPs3GVHvEi1HbNBOBF_37.454243_-107.803253@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459720,
-    "wof:geomhash":"e527cdb32be849c5aa572ccf5ddcf434",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b55f79f8e744948772db1c1550cdd225",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554715,
+            "venue_id":839962823
+        }
+    ],
     "wof:id":839962823,
-    "wof:lastmodified":1466415886,
+    "wof:lastmodified":1492112190,
     "wof:name":"Davies Apts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554715,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

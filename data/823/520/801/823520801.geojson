@@ -2,9 +2,14 @@
   "id": 823520801,
   "type": "Feature",
   "properties": {
+    "addr:full":"500 N Chester Ave Pueblo CO 81003",
+    "addr:housenumber":"500",
+    "addr:postcode":"81003",
+    "addr:street":"N Chester Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.602659,38.271248,-104.602659,38.271248",
     "geom:latitude":38.271248,
     "geom:longitude":-104.602659,
@@ -27,17 +32,32 @@
         "transmission"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2t6mt5LigPycNlMURaFL3b_38.271248_-104.602659@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440044,
-    "wof:geomhash":"b6c6d988dbbf60180121dd214ff49e5f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c923df63b00048c40170e0f56033a00b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":823520801
+        }
+    ],
     "wof:id":823520801,
-    "wof:lastmodified":1466414995,
+    "wof:lastmodified":1492127480,
     "wof:name":"Better Rate Transmissions",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

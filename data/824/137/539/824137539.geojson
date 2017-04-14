@@ -2,9 +2,14 @@
   "id": 824137539,
   "type": "Feature",
   "properties": {
+    "addr:full":"924 Malley Dr Denver CO 80233",
+    "addr:housenumber":"924",
+    "addr:postcode":"80233",
+    "addr:street":"Malley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.975269,39.90298,-104.975269,39.90298",
     "geom:latitude":39.90298,
     "geom:longitude":-104.975269,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3EIeBw0IyVeVWtM3Ik7pFc_39.902980_-104.975269@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455421,
-    "wof:geomhash":"f881b7f56b8bebef28b6464c25125c91",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b1f0fe017a2caf08de8db929a49fd6ae",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":824137539
+        }
+    ],
     "wof:id":824137539,
-    "wof:lastmodified":1466416323,
+    "wof:lastmodified":1492129785,
     "wof:name":"Haygre Tile",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

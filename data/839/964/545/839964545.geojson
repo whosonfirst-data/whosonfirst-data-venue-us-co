@@ -2,9 +2,14 @@
   "id": 839964545,
   "type": "Feature",
   "properties": {
+    "addr:full":"100 N 1st Ave Holly CO 81047",
+    "addr:housenumber":"100",
+    "addr:postcode":"81047",
+    "addr:street":"N 1St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.118597,38.057069,-102.118597,38.057069",
     "geom:latitude":38.057069,
     "geom:longitude":-102.118597,
@@ -29,17 +34,32 @@
         "income"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928849,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0x3aafMGTsoLkrj7UIII4I_38.057069_-102.118597@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459797,
-    "wof:geomhash":"d76f85842c4f4b73e37e7e0a42894d5a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"48eef99776e9fda5dc1f45b8a3f47a5c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928849,
+            "region_id":85688603,
+            "venue_id":839964545
+        }
+    ],
     "wof:id":839964545,
-    "wof:lastmodified":1466415981,
+    "wof:lastmodified":1492111275,
     "wof:name":"Holly Housing Authority",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

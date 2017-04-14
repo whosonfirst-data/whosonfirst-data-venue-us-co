@@ -2,9 +2,14 @@
   "id": 839931241,
   "type": "Feature",
   "properties": {
+    "addr:full":"9804 Cook St Denver CO 80229",
+    "addr:housenumber":"9804",
+    "addr:postcode":"80229",
+    "addr:street":"Cook St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.947251,39.87444,-104.947251,39.87444",
     "geom:latitude":39.87444,
     "geom:longitude":-104.947251,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0iWpaoUGxMnA6IkqT1DnAn_39.874440_-104.947251@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458046,
-    "wof:geomhash":"4ff9a4f4cd0e7718291b78af4392f073",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8226ee7c74ce0f9698ebf35408493e37",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553689,
+            "region_id":85688603,
+            "venue_id":839931241
+        }
+    ],
     "wof:id":839931241,
-    "wof:lastmodified":1466414169,
+    "wof:lastmodified":1492111509,
     "wof:name":"Yoshida Hvac Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

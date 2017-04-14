@@ -2,9 +2,14 @@
   "id": 823898109,
   "type": "Feature",
   "properties": {
+    "addr:full":"9240 Russell Way Denver CO 80229",
+    "addr:housenumber":"9240",
+    "addr:postcode":"80229",
+    "addr:street":"Russell Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.965278,39.865418,-104.965278,39.865418",
     "geom:latitude":39.865418,
     "geom:longitude":-104.965278,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420559961
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5gW84UwZvxGaFxxuspx8zf_39.865418_-104.965278@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449393,
-    "wof:geomhash":"55e2c85c46480238a0409250b1cabc0b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bbe74489a5916ef6e9537b98e24eba3e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420559961,
+            "region_id":85688603,
+            "venue_id":823898109
+        }
+    ],
     "wof:id":823898109,
-    "wof:lastmodified":1466420170,
+    "wof:lastmodified":1492123551,
     "wof:name":"Engles & Engles",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559961,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

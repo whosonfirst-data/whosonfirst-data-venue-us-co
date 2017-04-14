@@ -2,9 +2,14 @@
   "id": 823583363,
   "type": "Feature",
   "properties": {
+    "addr:full":"2965 17th St Boulder CO 80304",
+    "addr:housenumber":"2965",
+    "addr:postcode":"80304",
+    "addr:street":"17Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275208,40.029885,-105.275208,40.029885",
     "geom:latitude":40.029885,
     "geom:longitude":-105.275208,
@@ -27,19 +32,36 @@
         "printer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876391
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2rF9bIiehTFxqbTq6A946V_40.029885_-105.275208@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441495,
-    "wof:geomhash":"14c4666881c77c26efbfe136c72babca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"387d3c98ba0af92491ec31d0a53c49ba",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876391,
+            "region_id":85688603,
+            "venue_id":823583363
+        }
+    ],
     "wof:id":823583363,
-    "wof:lastmodified":1466416729,
+    "wof:lastmodified":1492116956,
     "wof:name":"Colorado Imaging Productions",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876391,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

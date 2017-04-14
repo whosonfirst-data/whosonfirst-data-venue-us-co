@@ -2,9 +2,14 @@
   "id": 823661445,
   "type": "Feature",
   "properties": {
+    "addr:full":"1313 W 121st Ave Denver CO 80234",
+    "addr:housenumber":"1313",
+    "addr:postcode":"80234",
+    "addr:street":"W 121St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.002832,39.916059,-105.002832,39.916059",
     "geom:latitude":39.916059,
     "geom:longitude":-105.002832,
@@ -27,19 +32,36 @@
         "management"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0RY5Z84WFRemKRsKlJyY6V_39.916059_-105.002832@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443368,
-    "wof:geomhash":"e6300848146b00f5bda860d927973c7c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2d10742c206a89857c9915d4efd6c138",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823661445
+        }
+    ],
     "wof:id":823661445,
-    "wof:lastmodified":1466418198,
+    "wof:lastmodified":1492117049,
     "wof:name":"Colorado Management & Assoc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

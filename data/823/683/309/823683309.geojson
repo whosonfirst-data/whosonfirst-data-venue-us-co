@@ -2,9 +2,14 @@
   "id": 823683309,
   "type": "Feature",
   "properties": {
+    "addr:full":"2255 E Las Vegas St Colorado Springs CO 80906",
+    "addr:housenumber":"2255",
+    "addr:postcode":"80906",
+    "addr:street":"E Las Vegas St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.786975,38.800895,-104.786975,38.800895",
     "geom:latitude":38.800895,
     "geom:longitude":-104.786975,
@@ -28,19 +33,36 @@
         "gravel"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2z4W1lujmmSk9fsiD5dOdp_38.800895_-104.786975@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443859,
-    "wof:geomhash":"a72ef157f6be183186f809d79f10b4d4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"050c10cc712232973e3796ed6451b4ad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823683309
+        }
+    ],
     "wof:id":823683309,
-    "wof:lastmodified":1466418355,
+    "wof:lastmodified":1492117420,
     "wof:name":"Recycled Aggregate Products Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

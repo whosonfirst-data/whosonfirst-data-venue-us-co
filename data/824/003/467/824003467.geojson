@@ -2,9 +2,14 @@
   "id": 824003467,
   "type": "Feature",
   "properties": {
+    "addr:full":"1082 Co Rd 311 Ignacio CO 81137",
+    "addr:housenumber":"1082;311",
+    "addr:postcode":"81137",
+    "addr:street":"Co Rd;Ignacio",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.731824,37.111895,-107.731824,37.111895",
     "geom:latitude":37.111895,
     "geom:longitude":-107.731824,
@@ -27,19 +32,28 @@
         "ranch"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_76Inmd6he0Ie4YgHI2hTFP_37.111895_-107.731824@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452066,
-    "wof:geomhash":"163b5a44408833f3d2b3a72ae7ad6786",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8afeb3bcd86bb50216e7a8a0be168772",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":824003467
+        }
+    ],
     "wof:id":824003467,
-    "wof:lastmodified":1466412289,
+    "wof:lastmodified":1492132608,
     "wof:name":"K 9 Ranch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

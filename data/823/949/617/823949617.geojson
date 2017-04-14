@@ -2,9 +2,14 @@
   "id": 823949617,
   "type": "Feature",
   "properties": {
+    "addr:full":"127 N 8th Ave Brighton CO 80601",
+    "addr:housenumber":"127",
+    "addr:postcode":"80601",
+    "addr:street":"N 8Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81283,39.989934,-104.81283,39.989934",
     "geom:latitude":39.989934,
     "geom:longitude":-104.81283,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1P76cvCcxQrlKbf0jxL6n9_39.989934_-104.812830@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450770,
-    "wof:geomhash":"b4824c44916820caff2e7e07eeffd2b1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dca10a35fd40def13494037d02bab14f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823949617
+        }
+    ],
     "wof:id":823949617,
-    "wof:lastmodified":1466420646,
+    "wof:lastmodified":1492119737,
     "wof:name":"Browns Drywall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

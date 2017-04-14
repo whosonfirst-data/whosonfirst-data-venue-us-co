@@ -2,9 +2,14 @@
   "id": 824168355,
   "type": "Feature",
   "properties": {
+    "addr:full":"6246 S High Dr Morrison CO 80465",
+    "addr:housenumber":"6246",
+    "addr:postcode":"80465",
+    "addr:street":"S High Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260844,39.606269,-105.260844,39.606269",
     "geom:latitude":39.606269,
     "geom:longitude":-105.260844,
@@ -28,19 +33,34 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929751,
+        102084113,
+        85878619
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4m4KtJ7XQx6aSXGejkuuAD_39.606269_-105.260844@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456616,
-    "wof:geomhash":"5015aa50a2a038e2b2f2e1de57c72195",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0da67c37964043c1fb1c0d822196c45",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":85878619,
+            "region_id":85688603,
+            "venue_id":824168355
+        }
+    ],
     "wof:id":824168355,
-    "wof:lastmodified":1466417720,
+    "wof:lastmodified":1492132204,
     "wof:name":"Dr BF Bolton",
-    "wof:parent_id":-1,
+    "wof:parent_id":85878619,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

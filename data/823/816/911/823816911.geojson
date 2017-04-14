@@ -2,9 +2,14 @@
   "id": 823816911,
   "type": "Feature",
   "properties": {
+    "addr:full":"560 Teller Ave Grand Junction CO 81501",
+    "addr:housenumber":"560",
+    "addr:postcode":"81501",
+    "addr:street":"Teller Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.563655,39.0755,-108.563655,39.0755",
     "geom:latitude":39.0755,
     "geom:longitude":-108.563655,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5t8RzqgIWgol4CzgqMqWbO_39.075500_-108.563655@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447205,
-    "wof:geomhash":"7e5c20a10005bae2a6f8e2f42d989c70",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f60d56350c9d266915ac2616fbe0f980",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823816911
+        }
+    ],
     "wof:id":823816911,
-    "wof:lastmodified":1466419543,
+    "wof:lastmodified":1492127637,
     "wof:name":"Patchman/Drywall Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

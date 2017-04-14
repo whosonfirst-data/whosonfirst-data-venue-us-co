@@ -2,9 +2,14 @@
   "id": 823918969,
   "type": "Feature",
   "properties": {
+    "addr:full":"2430 N Murray Blvd Colorado Springs CO 80915",
+    "addr:housenumber":"2430",
+    "addr:postcode":"80915",
+    "addr:street":"N Murray Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.747848,38.866633,-104.747848,38.866633",
     "geom:latitude":38.866633,
     "geom:longitude":-104.747848,
@@ -28,8 +33,10 @@
         85688603,
         102191575,
         85633793,
-        85930321,
+        85929457,
         102086875,
+        85828669,
+        85930321,
         85872745
     ],
     "wof:breaches":[],
@@ -38,8 +45,17 @@
     },
     "wof:country":"US",
     "wof:created":1463449977,
-    "wof:geomhash":"cb45123da309e2a681a0e0005973efe6",
+    "wof:geomhash":"089ecbe44a920916d1133f49565c7bf4",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":85828669,
+            "region_id":85688603,
+            "venue_id":823918969
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -51,9 +67,9 @@
         }
     ],
     "wof:id":823918969,
-    "wof:lastmodified":1466420382,
+    "wof:lastmodified":1492121257,
     "wof:name":"Benedictine Sisters of Denver",
-    "wof:parent_id":85872745,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

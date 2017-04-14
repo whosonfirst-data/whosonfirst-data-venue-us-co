@@ -2,9 +2,14 @@
   "id": 823622439,
   "type": "Feature",
   "properties": {
+    "addr:full":"402 W Ruby Ave Gunnison CO 81230",
+    "addr:housenumber":"402",
+    "addr:postcode":"81230",
+    "addr:street":"W Ruby Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.931434,38.550003,-106.931434,38.550003",
     "geom:latitude":38.550003,
     "geom:longitude":-106.931434,
@@ -28,19 +33,36 @@
         "nonresidential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_28NEZIrFXhpCgehRXRBkfd_38.550003_-106.931434@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442460,
-    "wof:geomhash":"a7cf1b3639e82b5dc9f9e0e3be37f4ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5db5d0c83c90b21ab21b803c13190cc0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":823622439
+        }
+    ],
     "wof:id":823622439,
-    "wof:lastmodified":1466417468,
+    "wof:lastmodified":1492122530,
     "wof:name":"Tom Gotsch",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

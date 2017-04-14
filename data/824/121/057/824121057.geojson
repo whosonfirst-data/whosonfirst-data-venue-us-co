@@ -2,9 +2,14 @@
   "id": 824121057,
   "type": "Feature",
   "properties": {
+    "addr:full":"7334 Washington St Denver CO 80229",
+    "addr:housenumber":"7334",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977836,39.830253,-104.977836,39.830253",
     "geom:latitude":39.830253,
     "geom:longitude":-104.977836,
@@ -28,19 +33,36 @@
         "medium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4MTZA7HJtDVXmOa80xqMaM_39.830253_-104.977836@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454784,
-    "wof:geomhash":"73316a516905adafd4d1b3e725ab9018",
-    "wof:hierarchy":[],
+    "wof:geomhash":"51a51857e809e07ec8737844ff495a36",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":824121057
+        }
+    ],
     "wof:id":824121057,
-    "wof:lastmodified":1466415652,
+    "wof:lastmodified":1492131108,
     "wof:name":"Sphere Encounters Psychic Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

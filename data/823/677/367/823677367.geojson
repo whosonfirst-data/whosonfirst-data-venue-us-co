@@ -2,9 +2,14 @@
   "id": 823677367,
   "type": "Feature",
   "properties": {
+    "addr:full":"1240 S Irving St Denver CO 80219",
+    "addr:housenumber":"1240",
+    "addr:postcode":"80219",
+    "addr:street":"S Irving St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.029649,39.693842,-105.029649,39.693842",
     "geom:latitude":39.693842,
     "geom:longitude":-105.029649,
@@ -29,19 +34,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5AdHhqHoq2OnKZ0Nc9GNfD_39.693842_-105.029649@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443733,
-    "wof:geomhash":"03072b5adac5dc4893872eeea7496215",
-    "wof:hierarchy":[],
+    "wof:geomhash":"322b0b8675e269e269f866e86be94940",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":823677367
+        }
+    ],
     "wof:id":823677367,
-    "wof:lastmodified":1466418358,
+    "wof:lastmodified":1492126480,
     "wof:name":"Bobians Flooring",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

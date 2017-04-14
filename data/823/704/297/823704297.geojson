@@ -2,9 +2,14 @@
   "id": 823704297,
   "type": "Feature",
   "properties": {
+    "addr:full":"9675 W US Hwy 24 Cascade CO 80809",
+    "addr:housenumber":"9675",
+    "addr:postcode":"80809",
+    "addr:street":"W Us Hwy 24 Cascade",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.991091,38.922315,-104.991091,38.922315",
     "geom:latitude":38.922315,
     "geom:longitude":-104.991091,
@@ -28,19 +33,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929457,
+        102086875,
+        85872795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4wjzXmhvSd3MnfhyfhyqH5_38.922315_-104.991091@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444324,
-    "wof:geomhash":"461b01012ad0832547e1058cdc6d6761",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d42cf1a1e68f452697ca22b5d0105a7e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":85872795,
+            "region_id":85688603,
+            "venue_id":823704297
+        }
+    ],
     "wof:id":823704297,
-    "wof:lastmodified":1466418577,
+    "wof:lastmodified":1492124173,
     "wof:name":"Penman Construction & Prprts",
-    "wof:parent_id":-1,
+    "wof:parent_id":85872795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

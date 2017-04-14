@@ -2,9 +2,14 @@
   "id": 839955497,
   "type": "Feature",
   "properties": {
+    "addr:full":"2509 Weslo Ave Grand Junction CO 81505",
+    "addr:housenumber":"2509",
+    "addr:postcode":"81505",
+    "addr:street":"Weslo Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.586772,39.088603,-108.586772,39.088603",
     "geom:latitude":39.088603,
     "geom:longitude":-108.586772,
@@ -30,19 +35,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554791
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4tMsNxrritQ53X8wOJ5uc6_39.088603_-108.586772@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459432,
-    "wof:geomhash":"c765a6b31c897ac6a810af35e283dbfb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c5f9aa5ca329687000488d400cabe40a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554791,
+            "region_id":85688603,
+            "venue_id":839955497
+        }
+    ],
     "wof:id":839955497,
-    "wof:lastmodified":1466415450,
+    "wof:lastmodified":1492112046,
     "wof:name":"Precision Medical Technology",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554791,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

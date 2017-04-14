@@ -2,9 +2,14 @@
   "id": 823663213,
   "type": "Feature",
   "properties": {
+    "addr:full":"7732 Osage St Denver CO 80221",
+    "addr:housenumber":"7732",
+    "addr:postcode":"80221",
+    "addr:street":"Osage St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005028,39.835713,-105.005028,39.835713",
     "geom:latitude":39.835713,
     "geom:longitude":-105.005028,
@@ -28,19 +33,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553669
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3Lq8LOFBbwRxiHUho2wCnZ_39.835713_-105.005028@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443413,
-    "wof:geomhash":"d3440e8a50b7ff50dcec2b85c6f46bfb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"17eb21d299c004e51c333296bb3e239d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553669,
+            "region_id":85688603,
+            "venue_id":823663213
+        }
+    ],
     "wof:id":823663213,
-    "wof:lastmodified":1466418072,
+    "wof:lastmodified":1492121786,
     "wof:name":"Kline Consulting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553669,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823960117,
   "type": "Feature",
   "properties": {
+    "addr:full":"5622 W 64th Ave Arvada CO 80003",
+    "addr:housenumber":"5622",
+    "addr:postcode":"80003",
+    "addr:street":"W 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.058743,39.812732,-105.058743,39.812732",
     "geom:latitude":39.812732,
     "geom:longitude":-105.058743,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554591
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2bVWLVnEbBSjMr2ftPsr8v_39.812732_-105.058743@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451034,
-    "wof:geomhash":"78fdb43ae4d87f3bb876789541abeca6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0101a8d470c7634228fa7f32bdfbaf5c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554591,
+            "region_id":85688603,
+            "venue_id":823960117
+        }
+    ],
     "wof:id":823960117,
-    "wof:lastmodified":1466420759,
+    "wof:lastmodified":1492119693,
     "wof:name":"Maurer Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554591,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

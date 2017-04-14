@@ -2,9 +2,14 @@
   "id": 823894361,
   "type": "Feature",
   "properties": {
+    "addr:full":"1521 4th Ave Greeley CO 80631",
+    "addr:housenumber":"1521",
+    "addr:postcode":"80631",
+    "addr:street":"4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.683806,40.414113,-104.683806,40.414113",
     "geom:latitude":40.414113,
     "geom:longitude":-104.683806,
@@ -30,12 +35,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -43,8 +48,16 @@
     },
     "wof:country":"US",
     "wof:created":1463449301,
-    "wof:geomhash":"c86ff7e30f0123f4ce9a976bb9a0e437",
+    "wof:geomhash":"0f8dd49e00add0ef773a8e6a87518411",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823894361
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -53,20 +66,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823894361
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823894361
         }
     ],
     "wof:id":823894361,
-    "wof:lastmodified":1466420144,
+    "wof:lastmodified":1492127596,
     "wof:name":"Wholesale Plywood & Lumber",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823485895,
   "type": "Feature",
   "properties": {
+    "addr:full":"8107 Washington St Denver CO 80229",
+    "addr:housenumber":"8107",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97795,39.843071,-104.97795,39.843071",
     "geom:latitude":39.843071,
     "geom:longitude":-104.97795,
@@ -29,19 +34,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553819
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1pbhL3n2li4r0gflWsqz2B_39.843071_-104.977950@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439201,
-    "wof:geomhash":"964276f3cf44557137551e53b0ee6af4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"64b84ed1ba1262ff95f53114c5ada3f7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553819,
+            "region_id":85688603,
+            "venue_id":823485895
+        }
+    ],
     "wof:id":823485895,
-    "wof:lastmodified":1466413677,
+    "wof:lastmodified":1492117208,
     "wof:name":"Michael's Custom Painting Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553819,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

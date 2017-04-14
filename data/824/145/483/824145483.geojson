@@ -2,9 +2,14 @@
   "id": 824145483,
   "type": "Feature",
   "properties": {
+    "addr:full":"410 Mariposa Dr Durango CO 81301",
+    "addr:housenumber":"410",
+    "addr:postcode":"co 81301",
+    "addr:street":"Mariposa Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.809191,37.242404,-107.809191,37.242404",
     "geom:latitude":37.242404,
     "geom:longitude":-107.809191,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554707
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_361r3DWfOJiD5bWHBBqfe4_37.242404_-107.809191@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455718,
-    "wof:geomhash":"621bcf7d14c21c9df953bbd71af21814",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f64fe20db938a752444788307ad8fc3c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554707,
+            "venue_id":824145483
+        }
+    ],
     "wof:id":824145483,
-    "wof:lastmodified":1466416602,
+    "wof:lastmodified":1492133045,
     "wof:name":"Mountain Lyon Enterprises Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554707,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

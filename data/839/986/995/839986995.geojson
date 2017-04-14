@@ -2,9 +2,14 @@
   "id": 839986995,
   "type": "Feature",
   "properties": {
+    "addr:full":"8911 Yates St Westminster CO 80031",
+    "addr:housenumber":"8911",
+    "addr:postcode":"80031",
+    "addr:street":"Yates St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.051325,39.859398,-105.051325,39.859398",
     "geom:latitude":39.859398,
     "geom:longitude":-105.051325,
@@ -29,19 +34,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420554573
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1XGjshekylU7l9ITf9dhEP_39.859398_-105.051325@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460695,
-    "wof:geomhash":"24c0ba2b74a9ef88815b44a38444de37",
-    "wof:hierarchy":[],
+    "wof:geomhash":"add135a747b6e8795ee6d3471e140ade",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420554573,
+            "region_id":85688603,
+            "venue_id":839986995
+        }
+    ],
     "wof:id":839986995,
-    "wof:lastmodified":1466417291,
+    "wof:lastmodified":1492111346,
     "wof:name":"Joe's Crab Shack",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554573,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

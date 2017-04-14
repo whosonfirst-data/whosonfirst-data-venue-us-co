@@ -2,9 +2,14 @@
   "id": 824097283,
   "type": "Feature",
   "properties": {
+    "addr:full":"6893 Co Rd 501 Bayfield CO 81122",
+    "addr:housenumber":"6893",
+    "addr:postcode":"81122",
+    "addr:street":"Co Rd 501",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.611926,37.324651,-107.611926,37.324651",
     "geom:latitude":37.324651,
     "geom:longitude":-107.611926,
@@ -28,19 +33,28 @@
         "sewage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_310GOHxJkttgt76WZgOaI1_37.324651_-107.611926@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454274,
-    "wof:geomhash":"87f36e295a53140570beb2c90136198b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"24f53b73d45658a8eebcc2d45d7e67ec",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554689,
+            "venue_id":824097283
+        }
+    ],
     "wof:id":824097283,
-    "wof:lastmodified":1466415179,
+    "wof:lastmodified":1492132663,
     "wof:name":"Forest Lakes Maintenance",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

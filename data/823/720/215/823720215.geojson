@@ -2,9 +2,14 @@
   "id": 823720215,
   "type": "Feature",
   "properties": {
+    "addr:full":"12497 Lipan Ct Denver CO 80234",
+    "addr:housenumber":"12497",
+    "addr:postcode":"80234",
+    "addr:street":"Lipan Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00226,39.924157,-105.00226,39.924157",
     "geom:latitude":39.924157,
     "geom:longitude":-105.00226,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5CeS0r9Si8mRBq1C2wjuTs_39.924157_-105.002260@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444656,
-    "wof:geomhash":"94ef607a6deff7adec6b2efbf69827c0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"96320e7019a4fef418345b4bb1ce7bb6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823720215
+        }
+    ],
     "wof:id":823720215,
-    "wof:lastmodified":1466418690,
+    "wof:lastmodified":1492121958,
     "wof:name":"Bruce K Chain Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839986745,
   "type": "Feature",
   "properties": {
+    "addr:full":"4880 W 120th Ave Broomfield CO 80020",
+    "addr:housenumber":"4880",
+    "addr:postcode":"80020",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.055101,39.914067,-105.055101,39.914067",
     "geom:latitude":39.914067,
     "geom:longitude":-105.055101,
@@ -29,19 +34,36 @@
         "japanese"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554229
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1IpJtoAqf4oRo4OYOnVEEg_39.914067_-105.055101@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460684,
-    "wof:geomhash":"1b632817763814d998367131dc52112f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"574e81e03e93715d09160af139325114",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554229,
+            "region_id":85688603,
+            "venue_id":839986745
+        }
+    ],
     "wof:id":839986745,
-    "wof:lastmodified":1466417250,
+    "wof:lastmodified":1492111389,
     "wof:name":"Taru Sushi",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554229,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

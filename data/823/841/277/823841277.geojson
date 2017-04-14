@@ -2,9 +2,14 @@
   "id": 823841277,
   "type": "Feature",
   "properties": {
+    "addr:full":"1020 US Hwy 287 Broomfield CO 80020",
+    "addr:housenumber":"1020",
+    "addr:postcode":"80020",
+    "addr:street":"Us Hwy 287",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.09095,39.930143,-105.09095,39.930143",
     "geom:latitude":39.930143,
     "geom:longitude":-105.09095,
@@ -30,19 +35,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554249
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5XU0ifFCEMNCNoCDTWuQ9d_39.930143_-105.090950@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447972,
-    "wof:geomhash":"64d58b75db92004ed0e4075d94e5f369",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fbd66c00a6aeea62e6fd6f95bbfef3b8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554249,
+            "region_id":85688603,
+            "venue_id":823841277
+        }
+    ],
     "wof:id":823841277,
-    "wof:lastmodified":1466419682,
+    "wof:lastmodified":1492121735,
     "wof:name":"Econo Lube N Tune",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

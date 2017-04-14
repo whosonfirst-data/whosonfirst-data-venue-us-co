@@ -2,9 +2,14 @@
   "id": 823716689,
   "type": "Feature",
   "properties": {
+    "addr:full":"1508 4th Ave Greeley CO 80631",
+    "addr:housenumber":"1508",
+    "addr:postcode":"80631",
+    "addr:street":"4Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.683659,40.413881,-104.683659,40.413881",
     "geom:latitude":40.413881,
     "geom:longitude":-104.683659,
@@ -31,12 +36,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -44,8 +49,16 @@
     },
     "wof:country":"US",
     "wof:created":1463444579,
-    "wof:geomhash":"40fcb52c11e8222298f70df724603584",
+    "wof:geomhash":"3a9e7e5e50d650f14fff065bcd1376e8",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823716689
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,20 +67,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823716689
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823716689
         }
     ],
     "wof:id":823716689,
-    "wof:lastmodified":1466418698,
+    "wof:lastmodified":1492120031,
     "wof:name":"P & H Steel Erection Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

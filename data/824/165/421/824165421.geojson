@@ -2,9 +2,14 @@
   "id": 824165421,
   "type": "Feature",
   "properties": {
+    "addr:full":"5390 Manhattan Cir Boulder CO 80303",
+    "addr:housenumber":"5390",
+    "addr:postcode":"80303",
+    "addr:street":"Manhattan Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.229091,39.985788,-105.229091,39.985788",
     "geom:latitude":39.985788,
     "geom:longitude":-105.229091,
@@ -27,19 +32,36 @@
         "attorney"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2c9yS1w79KVmvdIfoPuNvR_39.985788_-105.229091@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456506,
-    "wof:geomhash":"bbf23ce1857fda5f9a7346be802bca9a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8da526006b3db1d542c35ab0822483b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":824165421
+        }
+    ],
     "wof:id":824165421,
-    "wof:lastmodified":1466417705,
+    "wof:lastmodified":1492129899,
     "wof:name":"Cook & Jeffress PC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

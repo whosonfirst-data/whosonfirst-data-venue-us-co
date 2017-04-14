@@ -2,9 +2,14 @@
   "id": 823881281,
   "type": "Feature",
   "properties": {
+    "addr:full":"2018 Overland Dr Johnstown CO 80534",
+    "addr:housenumber":"2018",
+    "addr:postcode":"80534",
+    "addr:street":"Overland Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.931452,40.337665,-104.931452,40.337665",
     "geom:latitude":40.337665,
     "geom:longitude":-104.931452,
@@ -35,19 +40,36 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5nEqZtTBzecbzhzEWE19N1_40.337665_-104.931452@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449000,
-    "wof:geomhash":"2c02b973acf612a1ce5bd9998c0a6738",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dcf4ce81f86c0d15c368a81ac45e0610",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823881281
+        }
+    ],
     "wof:id":823881281,
-    "wof:lastmodified":1466420099,
+    "wof:lastmodified":1492122190,
     "wof:name":"Bob Finger Automotive LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

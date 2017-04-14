@@ -2,9 +2,14 @@
   "id": 823893549,
   "type": "Feature",
   "properties": {
+    "addr:full":"6464 Downing St Denver CO 80229",
+    "addr:housenumber":"6464",
+    "addr:postcode":"80229",
+    "addr:street":"Downing St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.973274,39.813433,-104.973274,39.813433",
     "geom:latitude":39.813433,
     "geom:longitude":-104.973274,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6LzNTXI0zyfO8oAYphiRzR_39.813433_-104.973274@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449286,
-    "wof:geomhash":"b66a3593591fe90bb1cabdd8578ea758",
-    "wof:hierarchy":[],
+    "wof:geomhash":"271cad49caf0f8603f087313a23f6073",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":823893549
+        }
+    ],
     "wof:id":823893549,
-    "wof:lastmodified":1466420169,
+    "wof:lastmodified":1492118215,
     "wof:name":"Copart Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

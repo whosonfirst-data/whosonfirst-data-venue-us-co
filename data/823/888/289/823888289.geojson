@@ -2,9 +2,14 @@
   "id": 823888289,
   "type": "Feature",
   "properties": {
+    "addr:full":"1030 S Market St Cortez CO 81321",
+    "addr:housenumber":"1030",
+    "addr:postcode":"81321",
+    "addr:street":"S Market St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.584545,37.338796,-108.584545,37.338796",
     "geom:latitude":37.338796,
     "geom:longitude":-108.584545,
@@ -27,19 +32,36 @@
         "janitor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3wK7ziNKCDyp85DZsfc8Bl_37.338796_-108.584545@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449152,
-    "wof:geomhash":"b68576c291f4e73e17470d99c09c1856",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a97c67cb118ca5515ba6980baec96616",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823888289
+        }
+    ],
     "wof:id":823888289,
-    "wof:lastmodified":1466420135,
+    "wof:lastmodified":1492117113,
     "wof:name":"KERR Janitorial",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

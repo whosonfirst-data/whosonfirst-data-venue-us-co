@@ -2,9 +2,14 @@
   "id": 823643169,
   "type": "Feature",
   "properties": {
+    "addr:full":"19 N Maple St Cortez CO 81321",
+    "addr:housenumber":"19",
+    "addr:postcode":"81321",
+    "addr:street":"N Maple St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590506,37.349438,-108.590506,37.349438",
     "geom:latitude":37.349438,
     "geom:longitude":-108.590506,
@@ -27,19 +32,36 @@
         "internet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555131
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3QI11OrLQnTTHqPMigIzeS_37.349438_-108.590506@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442924,
-    "wof:geomhash":"02a7077752e0167609924291363c2896",
-    "wof:hierarchy":[],
+    "wof:geomhash":"df9c36307630d27c9ee8ff19fe061f7c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555131,
+            "region_id":85688603,
+            "venue_id":823643169
+        }
+    ],
     "wof:id":823643169,
-    "wof:lastmodified":1466418057,
+    "wof:lastmodified":1492121225,
     "wof:name":"Live Fire Lan Games",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555131,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

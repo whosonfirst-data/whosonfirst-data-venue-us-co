@@ -2,9 +2,14 @@
   "id": 824056475,
   "type": "Feature",
   "properties": {
+    "addr:full":"817 16th St Greeley CO 80631",
+    "addr:housenumber":"817",
+    "addr:postcode":"80631",
+    "addr:street":"16Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.691507,40.413825,-104.691507,40.413825",
     "geom:latitude":40.413825,
     "geom:longitude":-104.691507,
@@ -26,12 +31,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -39,8 +44,16 @@
     },
     "wof:country":"US",
     "wof:created":1463453318,
-    "wof:geomhash":"c3bf5809dc76597bdb3833eed1ca883e",
+    "wof:geomhash":"cc7765e1b450456c919c0b55f9fd9609",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":824056475
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -49,20 +62,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":824056475
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":824056475
         }
     ],
     "wof:id":824056475,
-    "wof:lastmodified":1466414355,
+    "wof:lastmodified":1492132426,
     "wof:name":"Linda's Barber Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

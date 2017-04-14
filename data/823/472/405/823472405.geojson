@@ -2,9 +2,14 @@
   "id": 823472405,
   "type": "Feature",
   "properties": {
+    "addr:full":"1297 E 96th Pl Denver CO 80229",
+    "addr:housenumber":"1297",
+    "addr:postcode":"80229",
+    "addr:street":"E 96Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.9727,39.87312,-104.9727,39.87312",
     "geom:latitude":39.87312,
     "geom:longitude":-104.9727,
@@ -27,19 +32,36 @@
         "packaging"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2iDZuK0UU5EUkVFdIxVOrD_39.873120_-104.972700@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438884,
-    "wof:geomhash":"ff0b5bc808226fa7a21c4f293f672495",
-    "wof:hierarchy":[],
+    "wof:geomhash":"56cc19d1c543328f8a16a78e29083c9b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":823472405
+        }
+    ],
     "wof:id":823472405,
-    "wof:lastmodified":1466412581,
+    "wof:lastmodified":1492120289,
     "wof:name":"A & G Packaging",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

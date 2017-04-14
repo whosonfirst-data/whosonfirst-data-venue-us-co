@@ -2,9 +2,14 @@
   "id": 823537763,
   "type": "Feature",
   "properties": {
+    "addr:full":"851 E Hwy 224 Denver CO 80229",
+    "addr:housenumber":"851",
+    "addr:postcode":"80229",
+    "addr:street":"E Hwy 224",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.971224,39.82529,-104.971224,39.82529",
     "geom:latitude":39.82529,
     "geom:longitude":-104.971224,
@@ -29,19 +34,36 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5EDvQlhij8Y6IghuUhZ6GO_39.825290_-104.971224@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440417,
-    "wof:geomhash":"061c4141f5a2cbe7f29296453193f346",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a79a292e5d803ad93838b2ce93e48a4e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":823537763
+        }
+    ],
     "wof:id":823537763,
-    "wof:lastmodified":1466415337,
+    "wof:lastmodified":1492127222,
     "wof:name":"United Paint & Body",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

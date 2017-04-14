@@ -2,9 +2,14 @@
   "id": 824156989,
   "type": "Feature",
   "properties": {
+    "addr:full":"10667 Steele St Denver CO 80233",
+    "addr:housenumber":"10667",
+    "addr:postcode":"80233",
+    "addr:street":"Steele St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.950842,39.890995,-104.950842,39.890995",
     "geom:latitude":39.890995,
     "geom:longitude":-104.950842,
@@ -28,19 +33,36 @@
         "trimming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5EBfHkmVBzI6WuwPjQMfEh_39.890995_-104.950842@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456189,
-    "wof:geomhash":"a742531d265eab3907296a0522c2608c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d20f6b3e833919b53fba0c0443df8ac2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":824156989
+        }
+    ],
     "wof:id":824156989,
-    "wof:lastmodified":1466417233,
+    "wof:lastmodified":1492130575,
     "wof:name":"Alacrity Trimco",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

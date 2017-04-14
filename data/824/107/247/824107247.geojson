@@ -2,9 +2,14 @@
   "id": 824107247,
   "type": "Feature",
   "properties": {
+    "addr:full":"1368 S Umatilla St Denver CO 80223",
+    "addr:housenumber":"1368",
+    "addr:postcode":"80223",
+    "addr:street":"S Umatilla St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.012617,39.692434,-105.012617,39.692434",
     "geom:latitude":39.692434,
     "geom:longitude":-105.012617,
@@ -29,7 +34,15 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871275,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3mfZJo7fEr5T9W4JCoLOS3_39.692434_-105.012617@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463454491,
     "wof:geomhash":"df4fb020d970c2380db81058069f48c8",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871275,
+            "region_id":85688603,
+            "venue_id":824107247
+        }
+    ],
     "wof:id":824107247,
-    "wof:lastmodified":1466415202,
+    "wof:lastmodified":1491876134,
     "wof:name":"J & J Gourmet Salsa",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

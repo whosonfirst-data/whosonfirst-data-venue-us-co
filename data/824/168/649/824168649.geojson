@@ -2,9 +2,14 @@
   "id": 824168649,
   "type": "Feature",
   "properties": {
+    "addr:full":"1860 S Federal Blvd Denver CO 80219",
+    "addr:housenumber":"1860",
+    "addr:postcode":"80219",
+    "addr:street":"S Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024965,39.683376,-105.024965,39.683376",
     "geom:latitude":39.683376,
     "geom:longitude":-105.024965,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871275,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6bXeS6SzrDNozvQaiCPgsn_39.683376_-105.024965@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463456626,
     "wof:geomhash":"026e58a82f3559273682191e2a19b2b0",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871275,
+            "region_id":85688603,
+            "venue_id":824168649
+        }
+    ],
     "wof:id":824168649,
-    "wof:lastmodified":1466417815,
+    "wof:lastmodified":1491876221,
     "wof:name":"Barrys Bingo",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871275,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

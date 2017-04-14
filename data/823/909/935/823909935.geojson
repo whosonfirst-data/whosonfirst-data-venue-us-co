@@ -2,9 +2,14 @@
   "id": 823909935,
   "type": "Feature",
   "properties": {
+    "addr:full":"1425 Jamaica St Aurora CO 80010",
+    "addr:housenumber":"1425",
+    "addr:postcode":"80010",
+    "addr:street":"Jamaica St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.862366,39.73974,-104.862366,39.73974",
     "geom:latitude":39.73974,
     "geom:longitude":-104.862366,
@@ -28,19 +33,36 @@
         "rebuilt"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553943
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5wNKsWOeiibNWI2wE7b3SH_39.739740_-104.862366@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449744,
-    "wof:geomhash":"a2af6147094bf79a4ef32986c47d33a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"281d60d38be3f4c1efbe5e41e461c325",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553943,
+            "region_id":85688603,
+            "venue_id":823909935
+        }
+    ],
     "wof:id":823909935,
-    "wof:lastmodified":1466420105,
+    "wof:lastmodified":1492122975,
     "wof:name":"Spector Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553943,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

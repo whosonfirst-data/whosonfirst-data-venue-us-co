@@ -2,9 +2,14 @@
   "id": 823661475,
   "type": "Feature",
   "properties": {
+    "addr:full":"908 N 1st St Grand Junction CO 81501",
+    "addr:housenumber":"908",
+    "addr:postcode":"81501",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570788,39.076317,-108.570788,39.076317",
     "geom:latitude":39.076317,
     "geom:longitude":-108.570788,
@@ -27,19 +32,36 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7LOGrVqoR4oCpkL6qm0eGt_39.076317_-108.570788@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443369,
-    "wof:geomhash":"68430190928d2771572f354f77297b35",
-    "wof:hierarchy":[],
+    "wof:geomhash":"233ee67e45a7eb7e1036dc49de72bb1c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823661475
+        }
+    ],
     "wof:id":823661475,
-    "wof:lastmodified":1466418277,
+    "wof:lastmodified":1492117053,
     "wof:name":"Star Auto Sales",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

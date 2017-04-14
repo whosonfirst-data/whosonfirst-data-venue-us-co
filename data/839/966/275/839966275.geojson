@@ -2,9 +2,14 @@
   "id": 839966275,
   "type": "Feature",
   "properties": {
+    "addr:full":"201 Murray St Niwot CO 80544",
+    "addr:housenumber":"201",
+    "addr:postcode":"80544",
+    "addr:street":"Murray St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.171996,40.104365,-105.171996,40.104365",
     "geom:latitude":40.104365,
     "geom:longitude":-105.171996,
@@ -28,19 +33,36 @@
         "sewage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930703,
+        102085251,
+        420554063
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6VNCcgU3loAAV10IB3pn0P_40.104365_-105.171996@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459866,
-    "wof:geomhash":"17e9458226e67f823b6d53765b494379",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7ff530d5585ccb5f7155853c29e3d79a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930703,
+            "neighbourhood_id":420554063,
+            "region_id":85688603,
+            "venue_id":839966275
+        }
+    ],
     "wof:id":839966275,
-    "wof:lastmodified":1466415950,
+    "wof:lastmodified":1492111300,
     "wof:name":"Lefthand Ditch Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554063,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823972133,
   "type": "Feature",
   "properties": {
+    "addr:full":"10647 E 96th Pl Commerce City CO 80022",
+    "addr:housenumber":"10647",
+    "addr:postcode":"80022",
+    "addr:street":"E 96Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.863599,39.871235,-104.863599,39.871235",
     "geom:latitude":39.871235,
     "geom:longitude":-104.863599,
@@ -27,19 +32,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553497
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_41YgFoyDTYlNkgKldnWxIy_39.871235_-104.863599@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451298,
-    "wof:geomhash":"3afed3e3a737fdc0cc831799286c25f6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"35d7a582c62181cfff1865b35ddac55f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553497,
+            "venue_id":823972133
+        }
+    ],
     "wof:id":823972133,
-    "wof:lastmodified":1466420796,
+    "wof:lastmodified":1492121905,
     "wof:name":"Norma's Cleaning Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553497,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

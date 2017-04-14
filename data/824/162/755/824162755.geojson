@@ -2,9 +2,14 @@
   "id": 824162755,
   "type": "Feature",
   "properties": {
+    "addr:full":"850 E 50th Ave Denver CO 80216",
+    "addr:housenumber":"850",
+    "addr:postcode":"80216",
+    "addr:street":"E 50Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.974212,39.787973,-104.974212,39.787973",
     "geom:latitude":39.787973,
     "geom:longitude":-104.974212,
@@ -30,19 +35,50 @@
         "core"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553681,
+        85871297,
+        1108750025,
+        85928879,
+        102086135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5920vypJ0HFcouKW4kHhRS_39.787973_-104.974212@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456406,
-    "wof:geomhash":"c6ec2b90267267e9f9906b56da775f86",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b0c99d50226322253f893ce6c4c18b6a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553681,
+            "region_id":85688603,
+            "venue_id":824162755
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871297,
+            "region_id":85688603,
+            "venue_id":824162755
+        }
+    ],
     "wof:id":824162755,
-    "wof:lastmodified":1466417568,
+    "wof:lastmodified":1492132897,
     "wof:name":"Go/Dan Industries Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

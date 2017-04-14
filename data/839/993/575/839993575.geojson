@@ -2,9 +2,14 @@
   "id": 839993575,
   "type": "Feature",
   "properties": {
+    "addr:full":"120 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"120",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570507,39.077469,-108.570507,39.077469",
     "geom:latitude":39.077469,
     "geom:longitude":-108.570507,
@@ -29,19 +34,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6IqX5tOaLv11Pq5gb1qrzU_39.077487_-108.569816@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460953,
-    "wof:geomhash":"736253f49bd78869827e75f6ad21ff02",
-    "wof:hierarchy":[],
+    "wof:geomhash":"49c4125b241893bc8b93d868679892a1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":839993575
+        }
+    ],
     "wof:id":839993575,
-    "wof:lastmodified":1466417725,
+    "wof:lastmodified":1492110920,
     "wof:name":"Old Chicago",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

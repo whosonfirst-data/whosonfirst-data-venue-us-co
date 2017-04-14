@@ -2,9 +2,14 @@
   "id": 839978747,
   "type": "Feature",
   "properties": {
+    "addr:full":"2730 29th St Boulder CO 80301",
+    "addr:housenumber":"2730",
+    "addr:postcode":"80301",
+    "addr:street":"29Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.255957,40.028536,-105.255957,40.028536",
     "geom:latitude":40.028536,
     "geom:longitude":-105.255957,
@@ -27,19 +32,36 @@
         "acupuncture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876373
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0jx18XPO6u06d3eNfpWYkU_40.028536_-105.255957@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460371,
-    "wof:geomhash":"8e58379741729ed70455fd789f13ebeb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cc5985bd409dd242a1abbdc7f9c1bac1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876373,
+            "region_id":85688603,
+            "venue_id":839978747
+        }
+    ],
     "wof:id":839978747,
-    "wof:lastmodified":1466416979,
+    "wof:lastmodified":1492112003,
     "wof:name":"Acupuncture Center Of Boulder",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876373,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

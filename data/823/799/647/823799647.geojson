@@ -2,9 +2,14 @@
   "id": 823799647,
   "type": "Feature",
   "properties": {
+    "addr:full":"4977 Idylwild Trl Boulder CO 80301",
+    "addr:housenumber":"4977",
+    "addr:postcode":"80301",
+    "addr:street":"Idylwild Trl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.191696,40.06521,-105.191696,40.06521",
     "geom:latitude":40.06521,
     "geom:longitude":-105.191696,
@@ -33,7 +38,10 @@
         85633793,
         85929877,
         102085251,
-        85865179
+        85865179,
+        85930699,
+        420554161,
+        420559267
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -41,7 +49,7 @@
     },
     "wof:country":"US",
     "wof:created":1463446704,
-    "wof:geomhash":"2ce97bf99cb56df4ed3a8f7fc3cbfa44",
+    "wof:geomhash":"f1c38070ddb818854de1a1d4ae75163f",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -51,12 +59,30 @@
             "neighbourhood_id":85865179,
             "region_id":85688603,
             "venue_id":823799647
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554161,
+            "region_id":85688603,
+            "venue_id":823799647
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420559267,
+            "region_id":85688603,
+            "venue_id":823799647
         }
     ],
     "wof:id":823799647,
-    "wof:lastmodified":1466419336,
+    "wof:lastmodified":1492117289,
     "wof:name":"Donnel & Wilkins Inc",
-    "wof:parent_id":85865179,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823648141,
   "type": "Feature",
   "properties": {
+    "addr:full":"23 N Maple St Cortez CO 81321",
+    "addr:housenumber":"23",
+    "addr:postcode":"81321",
+    "addr:street":"N Maple St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590506,37.349397,-108.590506,37.349397",
     "geom:latitude":37.349397,
     "geom:longitude":-108.590506,
@@ -27,19 +32,36 @@
         "automotive"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555131
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5vEie0ojPGqG7Oyvfjb6Da_37.349397_-108.590506@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443042,
-    "wof:geomhash":"27558614f528800951a274cc50b45070",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c59b3d6d9f759634bf3eec5f07dea62b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555131,
+            "region_id":85688603,
+            "venue_id":823648141
+        }
+    ],
     "wof:id":823648141,
-    "wof:lastmodified":1466417998,
+    "wof:lastmodified":1492119759,
     "wof:name":"Audio Box",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555131,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

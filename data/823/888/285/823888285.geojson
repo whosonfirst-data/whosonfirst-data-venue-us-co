@@ -2,9 +2,14 @@
   "id": 823888285,
   "type": "Feature",
   "properties": {
+    "addr:full":"1265 Yellow Pine Ave Boulder CO 80304",
+    "addr:housenumber":"1265",
+    "addr:postcode":"80304",
+    "addr:street":"Yellow Pine Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.285566,40.059751,-105.285566,40.059751",
     "geom:latitude":40.059751,
     "geom:longitude":-105.285566,
@@ -27,19 +32,34 @@
         "planner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2POZuVAnKz7zact52EIUBJ_40.059751_-105.285566@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449151,
-    "wof:geomhash":"65786db9481fc83d40fdecc0d6dae14f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7c0ab6c9acc019212c1bd04e6e5e020c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823888285
+        }
+    ],
     "wof:id":823888285,
-    "wof:lastmodified":1466420452,
+    "wof:lastmodified":1492117089,
     "wof:name":"Winter & Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

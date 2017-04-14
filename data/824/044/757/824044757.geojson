@@ -2,9 +2,14 @@
   "id": 824044757,
   "type": "Feature",
   "properties": {
+    "addr:full":"13550 Granby St Brighton CO 80601",
+    "addr:housenumber":"13550",
+    "addr:postcode":"80601",
+    "addr:street":"Granby St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.80995,39.940572,-104.80995,39.940572",
     "geom:latitude":39.940572,
     "geom:longitude":-104.80995,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553337
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6XfGb161mOdSRz2xRFEds4_39.940572_-104.809950@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453035,
-    "wof:geomhash":"ef3f8672cf0dfd6070ab78dcc777c01a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"65a6e43fe0465b21b6832f179c8a79b9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553337,
+            "region_id":85688603,
+            "venue_id":824044757
+        }
+    ],
     "wof:id":824044757,
-    "wof:lastmodified":1466414278,
+    "wof:lastmodified":1492131235,
     "wof:name":"Redline Engineering Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553337,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

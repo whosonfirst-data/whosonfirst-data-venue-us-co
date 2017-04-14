@@ -2,9 +2,14 @@
   "id": 824173409,
   "type": "Feature",
   "properties": {
+    "addr:full":"5560 Harlan St Arvada CO 80002",
+    "addr:housenumber":"5560",
+    "addr:postcode":"80002",
+    "addr:street":"Harlan St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.062499,39.798205,-105.062499,39.798205",
     "geom:latitude":39.798205,
     "geom:longitude":-105.062499,
@@ -28,19 +33,34 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1gofxN1jIFh7PudAOwrsO4_39.798205_-105.062499@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456814,
-    "wof:geomhash":"1039131c07faf256ac0e1b3cede5ffb7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6f798e2af5a6cd93b289b3c46b58f9c5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824173409
+        }
+    ],
     "wof:id":824173409,
-    "wof:lastmodified":1466417970,
+    "wof:lastmodified":1492131525,
     "wof:name":"De Bell Machine Products Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

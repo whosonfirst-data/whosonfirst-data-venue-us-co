@@ -2,9 +2,14 @@
   "id": 839991621,
   "type": "Feature",
   "properties": {
+    "addr:full":"3333 N Elizabeth St Pueblo CO 81008",
+    "addr:housenumber":"3333",
+    "addr:postcode":"81008",
+    "addr:street":"N Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.615208,38.301722,-104.615208,38.301722",
     "geom:latitude":38.301722,
     "geom:longitude":-104.615208,
@@ -28,17 +33,32 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929187,
+        102085233
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3n31eq43eKnrFF8fk8EkU8_38.301722_-104.615208@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460872,
-    "wof:geomhash":"abb7e2e5016f1423538ff5690e77fb6c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"398a1ddff89e0b028d16a619b5611d57",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085233,
+            "locality_id":85929187,
+            "region_id":85688603,
+            "venue_id":839991621
+        }
+    ],
     "wof:id":839991621,
-    "wof:lastmodified":1466417420,
+    "wof:lastmodified":1492110993,
     "wof:name":"Taco Bell",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

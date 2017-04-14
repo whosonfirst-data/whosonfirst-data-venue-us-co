@@ -2,9 +2,14 @@
   "id": 823545141,
   "type": "Feature",
   "properties": {
+    "addr:full":"3701 W 50th Ave Denver CO 80221",
+    "addr:housenumber":"3701",
+    "addr:postcode":"80221",
+    "addr:street":"W 50Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03694,39.787435,-105.03694,39.787435",
     "geom:latitude":39.787435,
     "geom:longitude":-105.03694,
@@ -27,19 +32,38 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871251,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2T16r7U2YVpvyEnMcA3ykB_39.787435_-105.036940@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440585,
-    "wof:geomhash":"3f8b753beb2db4eda5bfc6ae09333b29",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09b08e0d7594c32917e1bf48bf24590d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871251,
+            "region_id":85688603,
+            "venue_id":823545141
+        }
+    ],
     "wof:id":823545141,
-    "wof:lastmodified":1466415552,
+    "wof:lastmodified":1492122958,
     "wof:name":"Berkeley Community Chr United",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

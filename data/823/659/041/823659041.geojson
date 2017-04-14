@@ -2,9 +2,14 @@
   "id": 823659041,
   "type": "Feature",
   "properties": {
+    "addr:full":"11301 Colorado Blvd Northglenn CO 80233",
+    "addr:housenumber":"11301",
+    "addr:postcode":"80233",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940301,39.904092,-104.940301,39.904092",
     "geom:latitude":39.904092,
     "geom:longitude":-104.940301,
@@ -34,6 +39,7 @@
         85633793,
         85929143,
         102084053,
+        420553907,
         85888353
     ],
     "wof:breaches":[],
@@ -42,8 +48,17 @@
     },
     "wof:country":"US",
     "wof:created":1463443302,
-    "wof:geomhash":"6459d38d63df53d087e320ebb26fcf83",
+    "wof:geomhash":"ad07ee1d92972b114e5b5b9a1008a108",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":823659041
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -55,9 +70,9 @@
         }
     ],
     "wof:id":823659041,
-    "wof:lastmodified":1466418155,
+    "wof:lastmodified":1492118387,
     "wof:name":"G & H Interiors",
-    "wof:parent_id":85888353,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

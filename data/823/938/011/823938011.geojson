@@ -2,9 +2,14 @@
   "id": 823938011,
   "type": "Feature",
   "properties": {
+    "addr:full":"224 S College Ave Fort Collins CO 80524",
+    "addr:housenumber":"224",
+    "addr:postcode":"80524",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076968,40.584552,-105.076968,40.584552",
     "geom:latitude":40.584552,
     "geom:longitude":-105.076968,
@@ -32,19 +37,36 @@
         "lounge"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554751
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_79GCCuI6m0ljHvf9W5Z5CU_40.584552_-105.076968@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450476,
-    "wof:geomhash":"5cc4a13c12eb61a9355b20121cce300e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a0cac7aa1b8034a4a86b2dfa53b1530f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554751,
+            "region_id":85688603,
+            "venue_id":823938011
+        }
+    ],
     "wof:id":823938011,
-    "wof:lastmodified":1466420515,
+    "wof:lastmodified":1492116498,
     "wof:name":"Tony's Restaurant & Lounge",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554751,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

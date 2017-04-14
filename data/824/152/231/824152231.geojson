@@ -2,9 +2,14 @@
   "id": 824152231,
   "type": "Feature",
   "properties": {
+    "addr:full":"5515 W Warren Ave Denver CO 80219",
+    "addr:housenumber":"5515",
+    "addr:postcode":"80219",
+    "addr:street":"W Warren Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.055825,39.675644,-105.055825,39.675644",
     "geom:latitude":39.675644,
     "geom:longitude":-105.055825,
@@ -27,7 +32,15 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5jiBqaptTjbgfX4b9H8LP3_39.675644_-105.055825@1294083659"
@@ -35,11 +48,22 @@
     "wof:country":"US",
     "wof:created":1463455992,
     "wof:geomhash":"101854944c748852c861af66d11ffa18",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":824152231
+        }
+    ],
     "wof:id":824152231,
-    "wof:lastmodified":1466416849,
+    "wof:lastmodified":1486593730,
     "wof:name":"Fontanos Chicago Subs",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

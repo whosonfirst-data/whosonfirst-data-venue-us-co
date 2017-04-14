@@ -2,9 +2,14 @@
   "id": 823808011,
   "type": "Feature",
   "properties": {
+    "addr:full":"11622 Grant St Northglenn CO 80233",
+    "addr:housenumber":"11622",
+    "addr:postcode":"80233",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.981046,39.908272,-104.981046,39.908272",
     "geom:latitude":39.908272,
     "geom:longitude":-104.981046,
@@ -28,19 +33,36 @@
         "diet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553929
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5adEKm0wvhHmZXbYKgxIUQ_39.908272_-104.981046@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446944,
-    "wof:geomhash":"97bf40678c568d95d8447371ac778289",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8346a44d923158f096652865995d1bc0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553929,
+            "region_id":85688603,
+            "venue_id":823808011
+        }
+    ],
     "wof:id":823808011,
-    "wof:lastmodified":1466419399,
+    "wof:lastmodified":1492116870,
     "wof:name":"D & L Enterprises",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553929,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

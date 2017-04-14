@@ -2,9 +2,14 @@
   "id": 823984275,
   "type": "Feature",
   "properties": {
+    "addr:full":"383 Co Rd 13 Gunnison CO 81230",
+    "addr:housenumber":"383;13",
+    "addr:postcode":"81230",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.931371,38.559159,-106.931371,38.559159",
     "geom:latitude":38.559159,
     "geom:longitude":-106.931371,
@@ -28,19 +33,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554413,
+        420554387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ZXOWhFcVccHxbAR7lZAMv_38.559159_-106.931371@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451592,
-    "wof:geomhash":"f0f847e74b9a4b8730fa06169818640d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a917db530fc70141020771e2fa78569",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554413,
+            "venue_id":823984275
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554387,
+            "venue_id":823984275
+        }
+    ],
     "wof:id":823984275,
-    "wof:lastmodified":1466420919,
+    "wof:lastmodified":1492118171,
     "wof:name":"Archuleta Construction Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

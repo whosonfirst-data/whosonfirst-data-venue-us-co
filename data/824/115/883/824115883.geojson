@@ -2,9 +2,14 @@
   "id": 824115883,
   "type": "Feature",
   "properties": {
+    "addr:full":"3399 Co Rd 234 Durango CO 81301",
+    "addr:housenumber":"3399;234",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.79235,37.277942,-107.79235,37.277942",
     "geom:latitude":37.277942,
     "geom:longitude":-107.79235,
@@ -27,19 +32,28 @@
         "excavation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0scIOy8ysz4DGZgSfhxCcb_37.277942_-107.792350@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454674,
-    "wof:geomhash":"de08384235ab926cd32b2d683decf4d6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"74664e6ae1690d13551f19c5e3b08ae9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554717,
+            "venue_id":824115883
+        }
+    ],
     "wof:id":824115883,
-    "wof:lastmodified":1466415554,
+    "wof:lastmodified":1492129106,
     "wof:name":"Shelby & Son Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

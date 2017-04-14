@@ -2,9 +2,14 @@
   "id": 823491833,
   "type": "Feature",
   "properties": {
+    "addr:full":"880 Clarkson Ct Denver CO 80229",
+    "addr:housenumber":"880",
+    "addr:postcode":"80229",
+    "addr:street":"Clarkson Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.975558,39.843636,-104.975558,39.843636",
     "geom:latitude":39.843636,
     "geom:longitude":-104.975558,
@@ -27,19 +32,36 @@
         "photographer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553819
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3hyx5HHLMDL7peICKwrJ3J_39.843636_-104.975558@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439352,
-    "wof:geomhash":"88683e52de37546aaddcbecd8f5b520d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"856929395ff991a4c291e2ed5bd9a30e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553819,
+            "region_id":85688603,
+            "venue_id":823491833
+        }
+    ],
     "wof:id":823491833,
-    "wof:lastmodified":1466414033,
+    "wof:lastmodified":1492127258,
     "wof:name":"Ron Wells Photographer",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553819,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

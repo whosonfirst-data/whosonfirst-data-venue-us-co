@@ -2,9 +2,14 @@
   "id": 824125265,
   "type": "Feature",
   "properties": {
+    "addr:full":"789 W 3rd Ave Springfield CO 81073",
+    "addr:housenumber":"789",
+    "addr:postcode":"81073",
+    "addr:street":"W 3Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.625176,37.411316,-102.625176,37.411316",
     "geom:latitude":37.411316,
     "geom:longitude":-102.625176,
@@ -29,17 +34,32 @@
         "custom"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929173,
+        102085237
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3FKqg83Mm07y7NyT2wfADX_37.411316_-102.625176@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454944,
-    "wof:geomhash":"3300a1b3f75ebc42ba7b876b0e86a140",
-    "wof:hierarchy":[],
+    "wof:geomhash":"117c51a552443639042fb70270cea6fe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085237,
+            "locality_id":85929173,
+            "region_id":85688603,
+            "venue_id":824125265
+        }
+    ],
     "wof:id":824125265,
-    "wof:lastmodified":1466415876,
+    "wof:lastmodified":1492132709,
     "wof:name":"Providence Enterprises Inc",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

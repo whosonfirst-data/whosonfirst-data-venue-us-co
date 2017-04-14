@@ -2,9 +2,14 @@
   "id": 823902433,
   "type": "Feature",
   "properties": {
+    "addr:full":"9434 Newton St Westminster CO 80031",
+    "addr:housenumber":"9434",
+    "addr:postcode":"80031",
+    "addr:street":"Newton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.036528,39.868283,-105.036528,39.868283",
     "geom:latitude":39.868283,
     "geom:longitude":-105.036528,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3oIy4kjXtBpfJkEb769hHE_39.868283_-105.036528@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449527,
-    "wof:geomhash":"5fb05dca2f969f0865dc8ae75f3283b7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f6c9c88648cfb5ef3592e3d71660f896",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553595,
+            "region_id":85688603,
+            "venue_id":823902433
+        }
+    ],
     "wof:id":823902433,
-    "wof:lastmodified":1466420254,
+    "wof:lastmodified":1492126772,
     "wof:name":"Harrington Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

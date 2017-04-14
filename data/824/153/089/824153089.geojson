@@ -2,9 +2,14 @@
   "id": 824153089,
   "type": "Feature",
   "properties": {
+    "addr:full":"7656 Turner Dr Denver CO 80221",
+    "addr:housenumber":"7656",
+    "addr:postcode":"80221",
+    "addr:street":"Turner Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.007887,39.837345,-105.007887,39.837345",
     "geom:latitude":39.837345,
     "geom:longitude":-105.007887,
@@ -29,19 +34,36 @@
         "grounds"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553669
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0N4fhu3ikzjGr4ljkIYpsv_39.837345_-105.007887@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456027,
-    "wof:geomhash":"5712dd9790ff5ad617e82f2c586794c2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"88fc94e007f4cca5fac406a0084a2363",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553669,
+            "region_id":85688603,
+            "venue_id":824153089
+        }
+    ],
     "wof:id":824153089,
-    "wof:lastmodified":1466416996,
+    "wof:lastmodified":1492128515,
     "wof:name":"H2O Solutions",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553669,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

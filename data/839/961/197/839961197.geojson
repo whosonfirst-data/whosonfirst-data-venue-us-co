@@ -2,9 +2,14 @@
   "id": 839961197,
   "type": "Feature",
   "properties": {
+    "addr:full":"9071 Washington St Denver CO 80229",
+    "addr:housenumber":"9071",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977998,39.863077,-104.977998,39.863077",
     "geom:latitude":39.863077,
     "geom:longitude":-104.977998,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2pAkh3cclWbc7EfcXkmljW_39.863077_-104.977998@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459656,
-    "wof:geomhash":"76bd3a7e9619f4b4e78b780072a9c340",
-    "wof:hierarchy":[],
+    "wof:geomhash":"95694854b09710ad668a072696835395",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":839961197
+        }
+    ],
     "wof:id":839961197,
-    "wof:lastmodified":1466415663,
+    "wof:lastmodified":1492111562,
     "wof:name":"Colorado Commerical Builders",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

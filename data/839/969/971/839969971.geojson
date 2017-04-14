@@ -2,9 +2,14 @@
   "id": 839969971,
   "type": "Feature",
   "properties": {
+    "addr:full":"14492 Co Rd 26 Dolores CO 81323",
+    "addr:housenumber":"14492;26",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.573192,37.419943,-108.573192,37.419943",
     "geom:latitude":37.419943,
     "geom:longitude":-108.573192,
@@ -27,19 +32,28 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555049
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2h9DD2GzDLhF84eZOurb7F_37.419943_-108.573192@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460014,
-    "wof:geomhash":"192f1e01a05aa640e962d70b88fa6f3f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"003dc14d90b473e37734b92d7c417df9",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555049,
+            "venue_id":839969971
+        }
+    ],
     "wof:id":839969971,
-    "wof:lastmodified":1466416395,
+    "wof:lastmodified":1492111403,
     "wof:name":"Hungry Artists Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555049,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

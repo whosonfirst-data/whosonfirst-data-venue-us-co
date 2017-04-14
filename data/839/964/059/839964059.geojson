@@ -2,9 +2,14 @@
   "id": 839964059,
   "type": "Feature",
   "properties": {
+    "addr:full":"2751 S Julian St Denver CO 80236",
+    "addr:housenumber":"2751",
+    "addr:postcode":"80236",
+    "addr:street":"S Julian St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.031,39.665105,-105.031,39.665105",
     "geom:latitude":39.665105,
     "geom:longitude":-105.031,
@@ -24,7 +29,15 @@
     "sg:postcode":"80236",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871253,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ALjRsWSasbEJOwmgRJKWe_39.665105_-105.031000@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463459776,
     "wof:geomhash":"393d597610841416639d27f7958f94d1",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871253,
+            "region_id":85688603,
+            "venue_id":839964059
+        }
+    ],
     "wof:id":839964059,
-    "wof:lastmodified":1466415920,
+    "wof:lastmodified":1491876286,
     "wof:name":"Kens Storm Door Service",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871253,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

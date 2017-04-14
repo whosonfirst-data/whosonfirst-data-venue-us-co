@@ -2,9 +2,14 @@
   "id": 823497135,
   "type": "Feature",
   "properties": {
+    "addr:full":"3197 Mesa Ave Grand Junction CO 81504",
+    "addr:housenumber":"3197",
+    "addr:postcode":"81504",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.463146,39.082499,-108.463146,39.082499",
     "geom:latitude":39.082499,
     "geom:longitude":-108.463146,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7aJRsNgPsQT848wdGjZntS_39.082499_-108.463146@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439492,
-    "wof:geomhash":"7795150c840c7bf13ba8d4ca17b7ac19",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a630a27ed0956c1758f30aac001c4c57",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823497135
+        }
+    ],
     "wof:id":823497135,
-    "wof:lastmodified":1466414031,
+    "wof:lastmodified":1492116260,
     "wof:name":"Performance Transmission",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

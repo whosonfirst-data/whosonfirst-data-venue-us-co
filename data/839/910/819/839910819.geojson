@@ -2,9 +2,14 @@
   "id": 839910819,
   "type": "Feature",
   "properties": {
+    "addr:full":"570 Co Rd 250 Durango CO 81301",
+    "addr:housenumber":"570;250",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.83709,37.307502,-107.83709,37.307502",
     "geom:latitude":37.307502,
     "geom:longitude":-107.83709,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_40rGEtR3zwFGPx4YZJIxMv_37.307502_-107.837090@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457141,
-    "wof:geomhash":"769a930e1d1f24b6f37bda969b4ceed7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"87c3171e0ee5e27cfa2395e74cb12f1e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":839910819
+        }
+    ],
     "wof:id":839910819,
-    "wof:lastmodified":1466412107,
+    "wof:lastmodified":1492110719,
     "wof:name":"Timberland Plumbing & Heating",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

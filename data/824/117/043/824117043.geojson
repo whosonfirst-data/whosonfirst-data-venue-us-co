@@ -2,9 +2,14 @@
   "id": 824117043,
   "type": "Feature",
   "properties": {
+    "addr:full":"7100 Broadway St Denver CO 80221",
+    "addr:housenumber":"7100",
+    "addr:postcode":"80221",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.98731,39.824845,-104.98731,39.824845",
     "geom:latitude":39.824845,
     "geom:longitude":-104.98731,
@@ -27,19 +32,36 @@
         "repair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5BsCUQJ49P0Jp4scX6YvHm_39.824845_-104.987310@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454704,
-    "wof:geomhash":"92b2f15607e4c408236e668a4ce2e731",
-    "wof:hierarchy":[],
+    "wof:geomhash":"65ee1037b4860e9599f9f4aa1dd0ac56",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553625,
+            "region_id":85688603,
+            "venue_id":824117043
+        }
+    ],
     "wof:id":824117043,
-    "wof:lastmodified":1466415574,
+    "wof:lastmodified":1492131348,
     "wof:name":"World Wide Technical Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

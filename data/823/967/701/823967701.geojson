@@ -2,9 +2,14 @@
   "id": 823967701,
   "type": "Feature",
   "properties": {
+    "addr:full":"310 E Main St Cortez CO 81321",
+    "addr:housenumber":"310",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.58111,37.348753,-108.58111,37.348753",
     "geom:latitude":37.348753,
     "geom:longitude":-108.58111,
@@ -29,19 +34,28 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2blDRuTNNfXVLAswVfbODI_37.348753_-108.581110@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451208,
-    "wof:geomhash":"187bc175c2de46561e425f3df35dd6e7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d2c8ec8120d7554f2291404043dd674",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823967701
+        }
+    ],
     "wof:id":823967701,
-    "wof:lastmodified":1466420779,
+    "wof:lastmodified":1492121451,
     "wof:name":"Four States Food Service Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

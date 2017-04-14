@@ -2,9 +2,14 @@
   "id": 823938589,
   "type": "Feature",
   "properties": {
+    "addr:full":"3093 Forrest Way Grand Junction CO 81504",
+    "addr:housenumber":"3093",
+    "addr:postcode":"81504",
+    "addr:street":"Forrest Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.468053,39.085756,-108.468053,39.085756",
     "geom:latitude":39.085756,
     "geom:longitude":-108.468053,
@@ -28,19 +33,36 @@
         "immigration"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930467,
+        102085221,
+        420555013
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0iCAwRSmu4312FwMBfCbxz_39.085756_-108.468053@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450487,
-    "wof:geomhash":"de2f91a460027b4d7c2191dfebf8e4f3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1d328fc52533c9a132e73f7a7521f557",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930467,
+            "neighbourhood_id":420555013,
+            "region_id":85688603,
+            "venue_id":823938589
+        }
+    ],
     "wof:id":823938589,
-    "wof:lastmodified":1466420557,
+    "wof:lastmodified":1492116502,
     "wof:name":"Grand Junction Migrant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555013,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

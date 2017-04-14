@@ -2,9 +2,14 @@
   "id": 824128351,
   "type": "Feature",
   "properties": {
+    "addr:full":"7 W 1st St Cortez CO 81321",
+    "addr:housenumber":"7",
+    "addr:postcode":"81321",
+    "addr:street":"W 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.585765,37.347477,-108.585765,37.347477",
     "geom:latitude":37.347477,
     "geom:longitude":-108.585765,
@@ -30,19 +35,28 @@
         "direct"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5voDnA6cpsZcmN8cBRfb0k_37.347477_-108.585765@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455081,
-    "wof:geomhash":"b66c50f046c875b60594bd82a279e67b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91c0427cdc06797bd4c1e847fcd7523e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":824128351
+        }
+    ],
     "wof:id":824128351,
-    "wof:lastmodified":1466415824,
+    "wof:lastmodified":1492131272,
     "wof:name":"Cortez Package Shipping Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823916415,
   "type": "Feature",
   "properties": {
+    "addr:full":"1701 W 72nd Ave Denver CO 80221",
+    "addr:housenumber":"1701",
+    "addr:postcode":"80221",
+    "addr:street":"W 72Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006212,39.82729,-105.006212,39.82729",
     "geom:latitude":39.82729,
     "geom:longitude":-105.006212,
@@ -24,19 +29,57 @@
     "sg:postcode":"80221",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553817,
+        85930251,
+        85888393,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0JQxXKLGeM0LT6zs3TNejv_39.827290_-105.006212@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449912,
-    "wof:geomhash":"299bbdb0cdc4070be43cf15b0c685a1d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3ac5f48afd26fbaca9294d5f8c13f798",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553817,
+            "region_id":85688603,
+            "venue_id":823916415
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":85888393,
+            "region_id":85688603,
+            "venue_id":823916415
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":823916415
+        }
+    ],
     "wof:id":823916415,
-    "wof:lastmodified":1466420347,
+    "wof:lastmodified":1492120873,
     "wof:name":"Manor Barber Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

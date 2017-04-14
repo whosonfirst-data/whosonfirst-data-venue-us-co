@@ -2,9 +2,14 @@
   "id": 824156879,
   "type": "Feature",
   "properties": {
+    "addr:full":"1789 W 92nd Ave Denver CO 80260",
+    "addr:housenumber":"1789",
+    "addr:postcode":"80260",
+    "addr:street":"W 92Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006096,39.863488,-105.006096,39.863488",
     "geom:latitude":39.863488,
     "geom:longitude":-105.006096,
@@ -28,19 +33,46 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553753,
+        420553861
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1pyRIT4V1XfiFbfBQ8lfqU_39.863488_-105.006096@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456184,
-    "wof:geomhash":"fd997c6e3d6609671de36d92a2260782",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2c55a6638f22699d5f8fe5e6cae61e51",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553753,
+            "region_id":85688603,
+            "venue_id":824156879
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553861,
+            "region_id":85688603,
+            "venue_id":824156879
+        }
+    ],
     "wof:id":824156879,
-    "wof:lastmodified":1466417210,
+    "wof:lastmodified":1492130576,
     "wof:name":"Mirthas Plazola",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

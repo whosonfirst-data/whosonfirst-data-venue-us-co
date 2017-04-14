@@ -2,9 +2,14 @@
   "id": 839944661,
   "type": "Feature",
   "properties": {
+    "addr:full":"3125 W Alabama Pl Denver CO 80219",
+    "addr:housenumber":"3125",
+    "addr:postcode":"80219",
+    "addr:street":"W Alabama Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.028001,39.694039,-105.028001,39.694039",
     "geom:latitude":39.694039,
     "geom:longitude":-105.028001,
@@ -28,19 +33,38 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2WCEsebv739UvOaSAeniqL_39.694039_-105.028001@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458838,
-    "wof:geomhash":"230b063a39643cd11aa6a9c1f5e78d1b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a78906614725d5143933f3cc6db5c33a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":839944661
+        }
+    ],
     "wof:id":839944661,
-    "wof:lastmodified":1466415075,
+    "wof:lastmodified":1492113947,
     "wof:name":"Williams & Sons Electric Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

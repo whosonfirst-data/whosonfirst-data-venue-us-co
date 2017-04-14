@@ -2,9 +2,14 @@
   "id": 824127783,
   "type": "Feature",
   "properties": {
+    "addr:full":"12001 Tejon St Northglenn CO 80234",
+    "addr:housenumber":"12001",
+    "addr:postcode":"80234",
+    "addr:street":"Tejon St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.010787,39.915392,-105.010787,39.915392",
     "geom:latitude":39.915392,
     "geom:longitude":-105.010787,
@@ -27,19 +32,46 @@
         "financing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553775,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5wWUoWU6ar2KQnsLfFDCrN_39.915392_-105.010787@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455052,
-    "wof:geomhash":"56830d528cec140b11766b6e3207745d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2a41c77d6c5edd034dd09ba155f57782",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553775,
+            "region_id":85688603,
+            "venue_id":824127783
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":824127783
+        }
+    ],
     "wof:id":824127783,
-    "wof:lastmodified":1466415952,
+    "wof:lastmodified":1492131950,
     "wof:name":"Beneficial Colorado Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

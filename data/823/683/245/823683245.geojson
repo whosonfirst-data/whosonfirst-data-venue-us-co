@@ -2,9 +2,14 @@
   "id": 823683245,
   "type": "Feature",
   "properties": {
+    "addr:full":"6100 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"6100",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053249,39.809194,-105.053249,39.809194",
     "geom:latitude":39.809194,
     "geom:longitude":-105.053249,
@@ -27,19 +32,46 @@
         "liquidator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554591,
+        85888257
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2lztpDfCNpYSYco1Z6Bh8M_39.809194_-105.053249@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443857,
-    "wof:geomhash":"12e2c52c130fdc6815e7bd366175b6a4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4cbbee528461cbbe18bc5f44c661bb64",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554591,
+            "region_id":85688603,
+            "venue_id":823683245
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":85888257,
+            "region_id":85688603,
+            "venue_id":823683245
+        }
+    ],
     "wof:id":823683245,
-    "wof:lastmodified":1466418352,
+    "wof:lastmodified":1492117420,
     "wof:name":"Rocky Mountain Liquidators",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

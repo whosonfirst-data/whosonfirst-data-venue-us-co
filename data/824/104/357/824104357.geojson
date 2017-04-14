@@ -2,9 +2,14 @@
   "id": 824104357,
   "type": "Feature",
   "properties": {
+    "addr:full":"9150 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"9150",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.024932,39.863178,-105.024932,39.863178",
     "geom:latitude":39.863178,
     "geom:longitude":-105.024932,
@@ -28,19 +33,36 @@
         "improvement"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553761
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3DLSvbOBJkuupC7h2qmkoy_39.863178_-105.024932@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454429,
-    "wof:geomhash":"a6512a81effe1b1ecc2b3f636e057a25",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c44cbb3a75cc02c8eee671ef2f0c3387",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553761,
+            "region_id":85688603,
+            "venue_id":824104357
+        }
+    ],
     "wof:id":824104357,
-    "wof:lastmodified":1466415206,
+    "wof:lastmodified":1492128562,
     "wof:name":"Colorado's Home Improvement Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553761,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

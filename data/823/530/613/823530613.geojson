@@ -2,9 +2,14 @@
   "id": 823530613,
   "type": "Feature",
   "properties": {
+    "addr:full":"104 E Larimer St Fleming CO 80728",
+    "addr:housenumber":"104",
+    "addr:postcode":"80728",
+    "addr:street":"E Larimer St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.839505,40.681581,-102.839505,40.681581",
     "geom:latitude":40.681581,
     "geom:longitude":-102.839505,
@@ -27,17 +32,32 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929379,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0geh7eQnsdNqXVic3cDKjS_40.681581_-102.839505@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440265,
-    "wof:geomhash":"f61f8edbe137f04d1aa333ea549004dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2e8a450a45cbf3cb7319e88ae6428676",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929379,
+            "region_id":85688603,
+            "venue_id":823530613
+        }
+    ],
     "wof:id":823530613,
-    "wof:lastmodified":1466415243,
+    "wof:lastmodified":1492125408,
     "wof:name":"Fleming Family Health Ctr",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

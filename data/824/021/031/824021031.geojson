@@ -2,9 +2,14 @@
   "id": 824021031,
   "type": "Feature",
   "properties": {
+    "addr:full":"7821 Brighton Rd Commerce City CO 80022",
+    "addr:housenumber":"7821",
+    "addr:postcode":"80022",
+    "addr:street":"Brighton Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.922823,39.839428,-104.922823,39.839428",
     "geom:latitude":39.839428,
     "geom:longitude":-104.922823,
@@ -28,19 +33,36 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930259,
+        102084053,
+        420553481
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_53JGMJDT4nlatLvR3h0Kv5_39.839428_-104.922823@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452447,
-    "wof:geomhash":"0930d90e74f50497dbf1acc4e622b9ef",
-    "wof:hierarchy":[],
+    "wof:geomhash":"44701c0a8ad77ec68e055ded3ed49df8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930259,
+            "neighbourhood_id":420553481,
+            "region_id":85688603,
+            "venue_id":824021031
+        }
+    ],
     "wof:id":824021031,
-    "wof:lastmodified":1466413583,
+    "wof:lastmodified":1492131298,
     "wof:name":"Texas Pipe & Supply Company",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553481,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

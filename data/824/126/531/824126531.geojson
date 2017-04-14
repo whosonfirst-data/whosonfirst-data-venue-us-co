@@ -2,9 +2,14 @@
   "id": 824126531,
   "type": "Feature",
   "properties": {
+    "addr:full":"120 N Pine St Gunnison CO 81230",
+    "addr:housenumber":"120",
+    "addr:postcode":"81230",
+    "addr:street":"N Pine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.929434,38.545294,-106.929434,38.545294",
     "geom:latitude":38.545294,
     "geom:longitude":-106.929434,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_567B30a583TF4c1V6KSROJ_38.545294_-106.929434@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454994,
-    "wof:geomhash":"d8f471f8c09ab7b9821a041fa0508f79",
-    "wof:hierarchy":[],
+    "wof:geomhash":"030bcf8395446d0c7c7576e65d9d3d2d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554453,
+            "region_id":85688603,
+            "venue_id":824126531
+        }
+    ],
     "wof:id":824126531,
-    "wof:lastmodified":1466415824,
+    "wof:lastmodified":1492131840,
     "wof:name":"First Baptist Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

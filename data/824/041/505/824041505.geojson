@@ -2,9 +2,14 @@
   "id": 824041505,
   "type": "Feature",
   "properties": {
+    "addr:full":"1523 Co Rd 243 Durango CO 81301",
+    "addr:housenumber":"1523;243",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.671091,37.361245,-107.671091,37.361245",
     "geom:latitude":37.361245,
     "geom:longitude":-107.671091,
@@ -28,19 +33,28 @@
         "conservation"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554607
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ucBcieln3wgRLc7exBEbt_37.361245_-107.671091@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452962,
-    "wof:geomhash":"d22cb8f64b5e634595af02bc55fb388e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e37b8059738bb6782940df2325b5ddc5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554607,
+            "venue_id":824041505
+        }
+    ],
     "wof:id":824041505,
-    "wof:lastmodified":1466414069,
+    "wof:lastmodified":1492133102,
     "wof:name":"Florida Water Conservancy Dist",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554607,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

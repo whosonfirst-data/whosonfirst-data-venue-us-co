@@ -2,9 +2,14 @@
   "id": 823510429,
   "type": "Feature",
   "properties": {
+    "addr:full":"9660 Federal Blvd Denver CO 80260",
+    "addr:housenumber":"9660",
+    "addr:postcode":"80260",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025038,39.872658,-105.025038,39.872658",
     "geom:latitude":39.872658,
     "geom:longitude":-105.025038,
@@ -27,19 +32,36 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_31WMcuzorT5NS1glHwVNhT_39.872658_-105.025038@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439801,
-    "wof:geomhash":"4ae1fa554d8eec9400080a0165fd471e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cb9c508a3a7c1f9b1487839f7de251ea",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823510429
+        }
+    ],
     "wof:id":823510429,
-    "wof:lastmodified":1466414621,
+    "wof:lastmodified":1492124849,
     "wof:name":"Mitchell's Garden Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

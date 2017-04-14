@@ -2,9 +2,14 @@
   "id": 823649491,
   "type": "Feature",
   "properties": {
+    "addr:full":"1350 Pine St Boulder CO 80302",
+    "addr:housenumber":"1350",
+    "addr:postcode":"80302",
+    "addr:street":"Pine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.278552,40.02024,-105.278552,40.02024",
     "geom:latitude":40.02024,
     "geom:longitude":-105.278552,
@@ -24,7 +29,14 @@
     "sg:postcode":"80302",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7GlQuEhOHrUJbygM4uxJju_40.020240_-105.278552@1294083659"
@@ -32,11 +44,21 @@
     "wof:country":"US",
     "wof:created":1463443071,
     "wof:geomhash":"b4cdfc4d21f6bc4e87b18e8cd85b486d",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823649491
+        }
+    ],
     "wof:id":823649491,
-    "wof:lastmodified":1466418016,
+    "wof:lastmodified":1491888493,
     "wof:name":"Barris Laser & Skin Care",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

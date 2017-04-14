@@ -2,9 +2,14 @@
   "id": 823620875,
   "type": "Feature",
   "properties": {
+    "addr:full":"901 Carson Ave La Junta CO 81050",
+    "addr:housenumber":"901",
+    "addr:postcode":"81050",
+    "addr:street":"Carson Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.54831,37.979887,-103.54831,37.979887",
     "geom:latitude":37.979887,
     "geom:longitude":-103.54831,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929689,
+        102084015
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0fdOAuOrE6fHDWt9uPYbsz_37.979887_-103.548310@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442417,
-    "wof:geomhash":"9217f905d3c87b5e4d87fe7fa98e2957",
-    "wof:hierarchy":[],
+    "wof:geomhash":"259ccc2ae219af8dfe3522531d890d4a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084015,
+            "locality_id":85929689,
+            "region_id":85688603,
+            "venue_id":823620875
+        }
+    ],
     "wof:id":823620875,
-    "wof:lastmodified":1466417504,
+    "wof:lastmodified":1492124006,
     "wof:name":"First Church Of God",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

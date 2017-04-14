@@ -2,9 +2,14 @@
   "id": 823976701,
   "type": "Feature",
   "properties": {
+    "addr:full":"1000 Corey St Longmont CO 80501",
+    "addr:housenumber":"1000",
+    "addr:postcode":"80501",
+    "addr:street":"Corey St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.098946,40.177608,-105.098946,40.177608",
     "geom:latitude":40.177608,
     "geom:longitude":-105.098946,
@@ -28,19 +33,32 @@
         "network"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85896071,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Crf5jGUF02cEqjKe6hwOG_40.177608_-105.098946@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451390,
-    "wof:geomhash":"5209a165bdc8855afbbf6f6650d9e9de",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d2eff33ad21f0afea6ad1625c724d2a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85896071,
+            "region_id":85688603,
+            "venue_id":823976701
+        }
+    ],
     "wof:id":823976701,
-    "wof:lastmodified":1466420900,
+    "wof:lastmodified":1492121875,
     "wof:name":"Roadrunner Communications",
-    "wof:parent_id":-1,
+    "wof:parent_id":85896071,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

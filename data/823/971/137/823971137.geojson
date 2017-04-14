@@ -2,9 +2,14 @@
   "id": 823971137,
   "type": "Feature",
   "properties": {
+    "addr:full":"8880 Washington St Thornton CO 80229",
+    "addr:housenumber":"8880",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977729,39.858789,-104.977729,39.858789",
     "geom:latitude":39.858789,
     "geom:longitude":-104.977729,
@@ -29,19 +34,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_71wyfxeqTaytJLJuzroSn7_39.858789_-104.977729@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451278,
-    "wof:geomhash":"cdc48b527df0822fe805d0bdfc942445",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e104b47f8bab3449180ddd210ae231f2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823971137
+        }
+    ],
     "wof:id":823971137,
-    "wof:lastmodified":1466420797,
+    "wof:lastmodified":1492116288,
     "wof:name":"4th Dimension Gift Shop",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

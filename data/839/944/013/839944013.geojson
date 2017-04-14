@@ -2,9 +2,14 @@
   "id": 839944013,
   "type": "Feature",
   "properties": {
+    "addr:full":"1333 Yarmouth Ave Boulder CO 80304",
+    "addr:housenumber":"1333",
+    "addr:postcode":"80304",
+    "addr:street":"Yarmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.279788,40.05824,-105.279788,40.05824",
     "geom:latitude":40.05824,
     "geom:longitude":-105.279788,
@@ -30,10 +35,11 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
-        85929877,
+        85876361,
         102085251,
+        102191575,
+        85929877,
         85876431
     ],
     "wof:breaches":[],
@@ -42,8 +48,15 @@
     },
     "wof:country":"US",
     "wof:created":1463458808,
-    "wof:geomhash":"97a8e21cec32d5cc237dfe8dea7a74a3",
+    "wof:geomhash":"f5e0651334166cf3f0002e702e5a86ce",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876361,
+            "region_id":85688603,
+            "venue_id":839944013
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -55,9 +68,9 @@
         }
     ],
     "wof:id":839944013,
-    "wof:lastmodified":1466414942,
+    "wof:lastmodified":1492113966,
     "wof:name":"Labor Ready Inc",
-    "wof:parent_id":85876431,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

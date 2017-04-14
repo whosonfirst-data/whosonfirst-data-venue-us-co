@@ -2,9 +2,14 @@
   "id": 839962321,
   "type": "Feature",
   "properties": {
+    "addr:full":"1436 W 81st Pl Denver CO 80221",
+    "addr:housenumber":"1436",
+    "addr:postcode":"80221",
+    "addr:street":"W 81St Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.00564,39.844842,-105.00564,39.844842",
     "geom:latitude":39.844842,
     "geom:longitude":-105.00564,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930251,
+        102084053,
+        420553669
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6at46DFn2ouUgcsP9vx4c8_39.844842_-105.005640@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459697,
-    "wof:geomhash":"c432b879e50006161f5dc4c94fe8ace8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3d2ee04e52fe2890252c950abd85e6e8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930251,
+            "neighbourhood_id":420553669,
+            "region_id":85688603,
+            "venue_id":839962321
+        }
+    ],
     "wof:id":839962321,
-    "wof:lastmodified":1466415787,
+    "wof:lastmodified":1492112170,
     "wof:name":"Thornton-Westminster First Chr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553669,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

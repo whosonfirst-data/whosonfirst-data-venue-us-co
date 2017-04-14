@@ -2,9 +2,14 @@
   "id": 823589797,
   "type": "Feature",
   "properties": {
+    "addr:full":"1305 Oak Ct Boulder CO 80304",
+    "addr:housenumber":"1305",
+    "addr:postcode":"80304",
+    "addr:street":"Oak Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.280278,40.045232,-105.280278,40.045232",
     "geom:latitude":40.045232,
     "geom:longitude":-105.280278,
@@ -27,19 +32,36 @@
         "janitor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554143
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6v2ksNeNAUWiQPeEWpcQDv_40.045232_-105.280278@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441642,
-    "wof:geomhash":"0079bb84cfb9e203879581893e9f8bf9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"76e1b6af23330be727149fdad6d6d0bf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554143,
+            "region_id":85688603,
+            "venue_id":823589797
+        }
+    ],
     "wof:id":823589797,
-    "wof:lastmodified":1466416852,
+    "wof:lastmodified":1492124258,
     "wof:name":"Prosite Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554143,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

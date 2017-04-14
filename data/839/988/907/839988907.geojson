@@ -2,9 +2,14 @@
   "id": 839988907,
   "type": "Feature",
   "properties": {
+    "addr:full":"12900 Zuni St Denver CO 80234",
+    "addr:housenumber":"12900",
+    "addr:postcode":"80234",
+    "addr:street":"Zuni St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.01393,39.930055,-105.01393,39.930055",
     "geom:latitude":39.930055,
     "geom:longitude":-105.01393,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4iB7ZA8jElGJmFfM0hGtZu_39.930055_-105.013930@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460771,
-    "wof:geomhash":"63fe56622eede2ce7365dd1a678ccefd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c9d48d01a28772ad967ed692dc568eb7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553901,
+            "region_id":85688603,
+            "venue_id":839988907
+        }
+    ],
     "wof:id":839988907,
-    "wof:lastmodified":1466417468,
+    "wof:lastmodified":1492112819,
     "wof:name":"Starbucks Coffee",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

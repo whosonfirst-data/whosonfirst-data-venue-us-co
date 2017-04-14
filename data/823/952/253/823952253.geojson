@@ -2,9 +2,14 @@
   "id": 823952253,
   "type": "Feature",
   "properties": {
+    "addr:full":"6900 Elm St Commerce City CO 80022",
+    "addr:housenumber":"6900",
+    "addr:postcode":"80022",
+    "addr:street":"Elm St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.927751,39.82378,-104.927751,39.82378",
     "geom:latitude":39.82378,
     "geom:longitude":-104.927751,
@@ -30,19 +35,36 @@
         "structural"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553537
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3kGQa3fMhZbarQzjJaxGKh_39.823780_-104.927751@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450827,
-    "wof:geomhash":"58b3641bb03500ec587cd4efe36bdad5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c77babad96b29531090e4b9a9e89b19c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553537,
+            "region_id":85688603,
+            "venue_id":823952253
+        }
+    ],
     "wof:id":823952253,
-    "wof:lastmodified":1466420711,
+    "wof:lastmodified":1492120709,
     "wof:name":"JQMC CONTRACTORS",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553537,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

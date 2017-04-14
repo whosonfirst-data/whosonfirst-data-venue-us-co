@@ -2,9 +2,14 @@
   "id": 823756417,
   "type": "Feature",
   "properties": {
+    "addr:full":"109 Co Rd 27 Brighton CO 80603",
+    "addr:housenumber":"109;27",
+    "addr:postcode":"80603",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.8169,40.000559,-104.8169,40.000559",
     "geom:latitude":40.000559,
     "geom:longitude":-104.8169,
@@ -28,19 +33,28 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555409
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3N8tFcEkU7QTBCpuLu53le_40.000559_-104.816900@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445547,
-    "wof:geomhash":"95c25bdec3693807baddccda1477f8bc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a2ea99b414aadb56167a57e7e845a0b0",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555409,
+            "venue_id":823756417
+        }
+    ],
     "wof:id":823756417,
-    "wof:lastmodified":1466419025,
+    "wof:lastmodified":1492124296,
     "wof:name":"Baseline Mini Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555409,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823899193,
   "type": "Feature",
   "properties": {
+    "addr:full":"4939 Broadway St Boulder CO 80304",
+    "addr:housenumber":"4939",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.281977,40.064781,-105.281977,40.064781",
     "geom:latitude":40.064781,
     "geom:longitude":-105.281977,
@@ -30,19 +35,34 @@
         "glass"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_12IgTp1v4aRvMUGDzMOEbW_40.064781_-105.281977@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449437,
-    "wof:geomhash":"c75369955f7922e38762c25765a8e76c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"29a6e5a048caa7e4aef11685cac26924",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823899193
+        }
+    ],
     "wof:id":823899193,
-    "wof:lastmodified":1466420178,
+    "wof:lastmodified":1492116053,
     "wof:name":"D & L Stained Glass Supply",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

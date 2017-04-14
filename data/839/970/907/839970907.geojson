@@ -2,9 +2,14 @@
   "id": 839970907,
   "type": "Feature",
   "properties": {
+    "addr:full":"5000 W 92nd Ave Westminster CO 80031",
+    "addr:housenumber":"5000",
+    "addr:postcode":"80031",
+    "addr:street":"W 92Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053191,39.86362,-105.053191,39.86362",
     "geom:latitude":39.86362,
     "geom:longitude":-105.053191,
@@ -27,19 +32,46 @@
         "manicuring"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554569,
+        85888487
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Iow282UMLCWpuIIt0GmPP_39.863620_-105.053191@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460048,
-    "wof:geomhash":"541090512503c5cf27a3fd755ebfe2ce",
-    "wof:hierarchy":[],
+    "wof:geomhash":"672a3bbafbe9f1cf4ab21ca7fcc319e3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554569,
+            "region_id":85688603,
+            "venue_id":839970907
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":85888487,
+            "region_id":85688603,
+            "venue_id":839970907
+        }
+    ],
     "wof:id":839970907,
-    "wof:lastmodified":1466416322,
+    "wof:lastmodified":1492110714,
     "wof:name":"Legacy Nail Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

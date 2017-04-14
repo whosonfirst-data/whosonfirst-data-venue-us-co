@@ -2,9 +2,14 @@
   "id": 824123309,
   "type": "Feature",
   "properties": {
+    "addr:full":"1850 Table Mesa Dr Boulder CO 80305",
+    "addr:housenumber":"1850",
+    "addr:postcode":"80305",
+    "addr:street":"Table Mesa Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.269425,39.984874,-105.269425,39.984874",
     "geom:latitude":39.984874,
     "geom:longitude":-105.269425,
@@ -30,19 +35,36 @@
     ],
     "sg:website":"www.ucar.edu",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876377
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3s18Bsiv3yPaEk3WHCjLKB_39.984874_-105.269425@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454854,
-    "wof:geomhash":"cc43af94fd3cc789b60cb0b7e8c25cd6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8c8bf2f412562cf9c32410b78182b3ca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876377,
+            "region_id":85688603,
+            "venue_id":824123309
+        }
+    ],
     "wof:id":824123309,
-    "wof:lastmodified":1466415700,
+    "wof:lastmodified":1492128851,
     "wof:name":"NCAR",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876377,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

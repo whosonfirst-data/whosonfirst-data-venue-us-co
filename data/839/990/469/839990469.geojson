@@ -2,9 +2,14 @@
   "id": 839990469,
   "type": "Feature",
   "properties": {
+    "addr:full":"2220 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"2220",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.79423,39.986398,-104.79423,39.986398",
     "geom:latitude":39.986398,
     "geom:longitude":-104.79423,
@@ -29,19 +34,36 @@
         "chicken"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553347
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2BVcWv6ubPoY3ISf62AJBk_39.986398_-104.794230@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460827,
-    "wof:geomhash":"3689bf5087e2888ec1ca778610675f82",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2f67179d82a09f7593368dc079cdf807",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553347,
+            "region_id":85688603,
+            "venue_id":839990469
+        }
+    ],
     "wof:id":839990469,
-    "wof:lastmodified":1466417567,
+    "wof:lastmodified":1492110566,
     "wof:name":"KFC - Kentucky Fried Chicken",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553347,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

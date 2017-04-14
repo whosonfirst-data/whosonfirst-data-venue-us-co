@@ -2,9 +2,14 @@
   "id": 839989315,
   "type": "Feature",
   "properties": {
+    "addr:full":"1315 College Ave Boulder CO 80302",
+    "addr:housenumber":"1315",
+    "addr:postcode":"80302",
+    "addr:street":"College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.276017,40.007302,-105.276017,40.007302",
     "geom:latitude":40.007302,
     "geom:longitude":-105.276017,
@@ -28,19 +33,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1NGLZT3NR0vqIwFiT0hD3D_40.007302_-105.276017@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460783,
-    "wof:geomhash":"5b5d1413d119e871148001bb324c25d3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c9ec52de649db33c820da62e4222715d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554129,
+            "region_id":85688603,
+            "venue_id":839989315
+        }
+    ],
     "wof:id":839989315,
-    "wof:lastmodified":1466417376,
+    "wof:lastmodified":1492111066,
     "wof:name":"Cheba Hut",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

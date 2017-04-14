@@ -2,9 +2,14 @@
   "id": 824014397,
   "type": "Feature",
   "properties": {
+    "addr:full":"4860 4th St Boulder CO 80304",
+    "addr:housenumber":"4860",
+    "addr:postcode":"80304",
+    "addr:street":"4Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.290469,40.063676,-105.290469,40.063676",
     "geom:latitude":40.063676,
     "geom:longitude":-105.290469,
@@ -27,19 +32,34 @@
         "stone"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_501tnd971zs4Ye6qCzcXzX_40.063676_-105.290469@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452306,
-    "wof:geomhash":"b1f53dc8d18828c917dabbd853e1ea24",
-    "wof:hierarchy":[],
+    "wof:geomhash":"304c853c7693fa099db1fe6fb4af8bd2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":824014397
+        }
+    ],
     "wof:id":824014397,
-    "wof:lastmodified":1466413330,
+    "wof:lastmodified":1492129227,
     "wof:name":"Karin Waters Jewelry",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

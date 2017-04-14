@@ -2,9 +2,14 @@
   "id": 823955171,
   "type": "Feature",
   "properties": {
+    "addr:full":"624 13th St Greeley CO 80631",
+    "addr:housenumber":"624",
+    "addr:postcode":"80631",
+    "addr:street":"13Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.688758,40.418318,-104.688758,40.418318",
     "geom:latitude":40.418318,
     "geom:longitude":-104.688758,
@@ -32,12 +37,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -45,8 +50,16 @@
     },
     "wof:country":"US",
     "wof:created":1463450885,
-    "wof:geomhash":"5f8c2ac3cd0202503a5037b8e2d8167e",
+    "wof:geomhash":"dd39d87b0339d78fbb2b493523115f68",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823955171
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -55,20 +68,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823955171
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823955171
         }
     ],
     "wof:id":823955171,
-    "wof:lastmodified":1466420535,
+    "wof:lastmodified":1492120756,
     "wof:name":"A & M Glass Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

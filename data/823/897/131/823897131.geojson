@@ -2,9 +2,14 @@
   "id": 823897131,
   "type": "Feature",
   "properties": {
+    "addr:full":"1155 Ash Ct Denver CO 80229",
+    "addr:housenumber":"1155",
+    "addr:postcode":"80229",
+    "addr:street":"Ash Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.973937,39.858685,-104.973937,39.858685",
     "geom:latitude":39.858685,
     "geom:longitude":-104.973937,
@@ -27,19 +32,36 @@
         "condominium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420559961
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6L6G9lDDLh0jkpNtZJt6bp_39.858685_-104.973937@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449374,
-    "wof:geomhash":"4800b0991e8660a866b49a4d20f92e97",
-    "wof:hierarchy":[],
+    "wof:geomhash":"15ee1d0b300484b0245d787b79d2594b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420559961,
+            "region_id":85688603,
+            "venue_id":823897131
+        }
+    ],
     "wof:id":823897131,
-    "wof:lastmodified":1466420172,
+    "wof:lastmodified":1492120546,
     "wof:name":"Parkway Towers",
-    "wof:parent_id":-1,
+    "wof:parent_id":420559961,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

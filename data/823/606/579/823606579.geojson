@@ -2,9 +2,14 @@
   "id": 823606579,
   "type": "Feature",
   "properties": {
+    "addr:full":"1401 Lydia Dr Lafayette CO 80026",
+    "addr:housenumber":"1401",
+    "addr:postcode":"80026",
+    "addr:street":"Lydia Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.116403,39.98475,-105.116403,39.98475",
     "geom:latitude":39.98475,
     "geom:longitude":-105.116403,
@@ -28,8 +33,10 @@
         85688603,
         102191575,
         85633793,
-        85929889,
+        85929859,
         102085251,
+        85896023,
+        85929889,
         85896029
     ],
     "wof:breaches":[],
@@ -38,8 +45,17 @@
     },
     "wof:country":"US",
     "wof:created":1463442056,
-    "wof:geomhash":"276763382396baf2b8c2942c5993c4f8",
+    "wof:geomhash":"b7418b7cecc2209178ea52e715c530b4",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929859,
+            "neighbourhood_id":85896023,
+            "region_id":85688603,
+            "venue_id":823606579
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -51,9 +67,9 @@
         }
     ],
     "wof:id":823606579,
-    "wof:lastmodified":1466417238,
+    "wof:lastmodified":1492121325,
     "wof:name":"Heath & Assoc Inc",
-    "wof:parent_id":85896029,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

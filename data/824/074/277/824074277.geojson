@@ -2,9 +2,14 @@
   "id": 824074277,
   "type": "Feature",
   "properties": {
+    "addr:full":"2493 Co Rd 37E Lyons CO 80540",
+    "addr:housenumber":"2493;37e",
+    "addr:postcode":"80540",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.267901,40.2859,-105.267901,40.2859",
     "geom:latitude":40.2859,
     "geom:longitude":-105.267901,
@@ -29,19 +34,36 @@
         "quarry"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        85877441
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6AKHWE4hsUGcafzMSKmek8_40.285900_-105.267901@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453723,
-    "wof:geomhash":"28e0fe9c9eaf047bbfc3878e959c53ee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"afc76ac82d4475eae77bd20f66bf1f88",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":85877441,
+            "region_id":85688603,
+            "venue_id":824074277
+        }
+    ],
     "wof:id":824074277,
-    "wof:lastmodified":1466414531,
+    "wof:lastmodified":1492132317,
     "wof:name":"Bb Stoneworks Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85877441,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

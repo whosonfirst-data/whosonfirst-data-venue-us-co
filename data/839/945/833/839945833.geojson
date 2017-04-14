@@ -2,9 +2,14 @@
   "id": 839945833,
   "type": "Feature",
   "properties": {
+    "addr:full":"509 Big Thompson Ave Estes Park CO 80517",
+    "addr:housenumber":"509",
+    "addr:postcode":"80517",
+    "addr:street":"Big Thompson Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.51622,40.378475,-105.51622,40.378475",
     "geom:latitude":40.378475,
     "geom:longitude":-105.51622,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929681,
+        102083353,
+        420554725
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3XspXVFiBDLIabgbLEsubA_40.378475_-105.516220@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458909,
-    "wof:geomhash":"62abfe2a4046a3352e1a66b9eed0bcf1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f7a49e99fc2ea42ebad3401c806a9a82",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929681,
+            "neighbourhood_id":420554725,
+            "region_id":85688603,
+            "venue_id":839945833
+        }
+    ],
     "wof:id":839945833,
-    "wof:lastmodified":1466415260,
+    "wof:lastmodified":1492114009,
     "wof:name":"Taco Bajas Mexican Grill",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554725,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

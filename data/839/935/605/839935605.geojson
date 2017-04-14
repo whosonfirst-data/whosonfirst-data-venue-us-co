@@ -2,9 +2,14 @@
   "id": 839935605,
   "type": "Feature",
   "properties": {
+    "addr:full":"2037 16th St Boulder CO 80302",
+    "addr:housenumber":"2037",
+    "addr:postcode":"80302",
+    "addr:street":"16Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.275062,40.019596,-105.275062,40.019596",
     "geom:latitude":40.019596,
     "geom:longitude":-105.275062,
@@ -25,7 +30,14 @@
     "sg:province":"CO",
     "sg:website":"www.bdmj.net",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Z23wugPftJNGVuccGIq0I_40.019596_-105.275062@1294083659"
@@ -33,11 +45,21 @@
     "wof:country":"US",
     "wof:created":1463458260,
     "wof:geomhash":"a5d01fe28ca0d079a8e756cfcd3e341b",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":839935605
+        }
+    ],
     "wof:id":839935605,
-    "wof:lastmodified":1466414316,
+    "wof:lastmodified":1491888524,
     "wof:name":"BDMJ Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

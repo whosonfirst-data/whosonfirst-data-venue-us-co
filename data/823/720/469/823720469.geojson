@@ -2,9 +2,14 @@
   "id": 823720469,
   "type": "Feature",
   "properties": {
+    "addr:full":"400 2nd St Fort Lupton CO 80621",
+    "addr:housenumber":"400",
+    "addr:postcode":"80621",
+    "addr:street":"2Nd St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.813955,40.081354,-104.813955,40.081354",
     "geom:latitude":40.081354,
     "geom:longitude":-104.813955,
@@ -35,19 +40,28 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4eYF6fwTnwDbE93XJ68J8L_40.081354_-104.813955@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444660,
-    "wof:geomhash":"72084d6746fd0f69206e97e4f16c3a3c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a7df4bdca3659f80d6ffff0f5396e4d5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823720469
+        }
+    ],
     "wof:id":823720469,
-    "wof:lastmodified":1466418799,
+    "wof:lastmodified":1492121961,
     "wof:name":"Housing Authority Fort Lupton",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

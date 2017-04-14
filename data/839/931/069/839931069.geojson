@@ -2,9 +2,14 @@
   "id": 839931069,
   "type": "Feature",
   "properties": {
+    "addr:full":"1201 N Main St Creede CO 81130",
+    "addr:housenumber":"1201",
+    "addr:postcode":"81130",
+    "addr:street":"N Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.927038,37.852823,-106.927038,37.852823",
     "geom:latitude":37.852823,
     "geom:longitude":-106.927038,
@@ -27,17 +32,32 @@
         "county"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929465,
+        102084103
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2xzILdjF2UYv9WiRq2PHFW_37.852823_-106.927038@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458037,
-    "wof:geomhash":"53728ba7da942dd0009c45ac1040c549",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9c8b6c4158b9b7487e4c88abfa6fd9af",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084103,
+            "locality_id":85929465,
+            "region_id":85688603,
+            "venue_id":839931069
+        }
+    ],
     "wof:id":839931069,
-    "wof:lastmodified":1466414153,
+    "wof:lastmodified":1492111524,
     "wof:name":"Mineral County Clerk",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

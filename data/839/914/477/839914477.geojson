@@ -2,9 +2,14 @@
   "id": 839914477,
   "type": "Feature",
   "properties": {
+    "addr:full":"22003 Co Rd 17 Yellow Jacket CO 81335",
+    "addr:housenumber":"22003;17",
+    "addr:postcode":"81335",
+    "addr:street":"Co Rd;Yellow Jacket",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.737777,37.540684,-108.737777,37.540684",
     "geom:latitude":37.540684,
     "geom:longitude":-108.737777,
@@ -27,19 +32,28 @@
         "cutting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555035
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7BfbNcZ9CauSdUDoezGGM3_37.540684_-108.737777@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457276,
-    "wof:geomhash":"dd1ed747928918935520b60c28434634",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b80b26a43b99c134d7cd983c2a03d653",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555035,
+            "venue_id":839914477
+        }
+    ],
     "wof:id":839914477,
-    "wof:lastmodified":1466412845,
+    "wof:lastmodified":1492112900,
     "wof:name":"Diamond D Processing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555035,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

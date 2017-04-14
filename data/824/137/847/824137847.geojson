@@ -2,9 +2,14 @@
   "id": 824137847,
   "type": "Feature",
   "properties": {
+    "addr:full":"355 Pitkin Ave Grand Junction CO 81501",
+    "addr:housenumber":"355",
+    "addr:postcode":"81501",
+    "addr:street":"Pitkin Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.566967,39.064314,-108.566967,39.064314",
     "geom:latitude":39.064314,
     "geom:longitude":-108.566967,
@@ -29,19 +34,36 @@
         "dealer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554839
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1PfYnR52hJSjHwf8rNGIDl_39.064314_-108.566967@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455432,
-    "wof:geomhash":"f068f47067a57ad0ce1fcb37c861715b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"933eba46c3f89820356e4adc0ca33012",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554839,
+            "region_id":85688603,
+            "venue_id":824137847
+        }
+    ],
     "wof:id":824137847,
-    "wof:lastmodified":1466416249,
+    "wof:lastmodified":1492129788,
     "wof:name":"Nadeau's Auto",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554839,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

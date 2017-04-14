@@ -2,9 +2,14 @@
   "id": 823496501,
   "type": "Feature",
   "properties": {
+    "addr:full":"2140 Yarmouth Ave Boulder CO 80301",
+    "addr:housenumber":"2140",
+    "addr:postcode":"80301",
+    "addr:street":"Yarmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.264087,40.058224,-105.264087,40.058224",
     "geom:latitude":40.058224,
     "geom:longitude":-105.264087,
@@ -28,19 +33,28 @@
         "district"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_15V452pMVlRXnP5zNPAkFD_40.058224_-105.264087@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439475,
-    "wof:geomhash":"685450a688d0efa19761ecf9f85ba6b1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"be81a2c9bc8c7fc33334610fc1fe328d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554121,
+            "venue_id":823496501
+        }
+    ],
     "wof:id":823496501,
-    "wof:lastmodified":1466414188,
+    "wof:lastmodified":1492119427,
     "wof:name":"Boulder Ranger District",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554121,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

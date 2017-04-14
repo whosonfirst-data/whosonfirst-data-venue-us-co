@@ -2,9 +2,14 @@
   "id": 823674929,
   "type": "Feature",
   "properties": {
+    "addr:full":"103 S Main St Granada CO 81041",
+    "addr:housenumber":"103",
+    "addr:postcode":"81041",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.310243,38.06271,-102.310243,38.06271",
     "geom:latitude":38.06271,
     "geom:longitude":-102.310243,
@@ -27,17 +32,32 @@
         "department"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928839,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5iAOfHuiT2G3JVgPrBWu8I_38.062710_-102.310243@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443682,
-    "wof:geomhash":"88b856b3c7c7fb238a620a9b98d459ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7ec089e515ecb6d7104ed23b50aace93",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928839,
+            "region_id":85688603,
+            "venue_id":823674929
+        }
+    ],
     "wof:id":823674929,
-    "wof:lastmodified":1466418324,
+    "wof:lastmodified":1492118423,
     "wof:name":"Granada Police Dept",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

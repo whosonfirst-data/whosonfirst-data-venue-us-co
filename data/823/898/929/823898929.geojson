@@ -2,9 +2,14 @@
   "id": 823898929,
   "type": "Feature",
   "properties": {
+    "addr:full":"10511 W 102nd Ave Broomfield CO 80021",
+    "addr:housenumber":"10511",
+    "addr:postcode":"80021",
+    "addr:street":"W 102Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.114765,39.882131,-105.114765,39.882131",
     "geom:latitude":39.882131,
     "geom:longitude":-105.114765,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554577
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1rptUyE1BBbk4HGQxc2xNO_39.882131_-105.114765@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449427,
-    "wof:geomhash":"789f464f18e1d7dd6c23674c161dfc02",
-    "wof:hierarchy":[],
+    "wof:geomhash":"703d4a0f5c3f31d3b8ce03c2cc041832",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554577,
+            "region_id":85688603,
+            "venue_id":823898929
+        }
+    ],
     "wof:id":823898929,
-    "wof:lastmodified":1466420239,
+    "wof:lastmodified":1492123545,
     "wof:name":"R&L Package Service Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554577,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

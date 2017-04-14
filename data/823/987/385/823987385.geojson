@@ -2,9 +2,14 @@
   "id": 823987385,
   "type": "Feature",
   "properties": {
+    "addr:full":"8947 Washington St Denver CO 80229",
+    "addr:housenumber":"8947",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978045,39.857573,-104.978045,39.857573",
     "geom:latitude":39.857573,
     "geom:longitude":-104.978045,
@@ -32,19 +37,36 @@
         "vacuum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Y47qhSKqx5AVyM7gbiKUT_39.857573_-104.978045@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451658,
-    "wof:geomhash":"c8a20744d8e0a3c3d72367f1011b99ba",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b6b8df7418069853f8f13cf63b4cb6b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823987385
+        }
+    ],
     "wof:id":823987385,
-    "wof:lastmodified":1466420979,
+    "wof:lastmodified":1492125392,
     "wof:name":"Thornton Sewing & Vacuum Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823796971,
   "type": "Feature",
   "properties": {
+    "addr:full":"2919 Alamo Ave Fort Collins CO 80525",
+    "addr:housenumber":"2919",
+    "addr:postcode":"80525",
+    "addr:street":"Alamo Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.070135,40.54603,-105.070135,40.54603",
     "geom:latitude":40.54603,
     "geom:longitude":-105.070135,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554749
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5n5UBZn8Y3IsH4Gswy94rt_40.546030_-105.070135@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446631,
-    "wof:geomhash":"580635122fecd26141fc73c232800be3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a880f7699f6341b1c33e4fbfcc667255",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554749,
+            "region_id":85688603,
+            "venue_id":823796971
+        }
+    ],
     "wof:id":823796971,
-    "wof:lastmodified":1466419210,
+    "wof:lastmodified":1492127162,
     "wof:name":"Game Force",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554749,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

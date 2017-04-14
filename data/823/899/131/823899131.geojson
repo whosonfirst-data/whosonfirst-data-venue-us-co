@@ -2,9 +2,14 @@
   "id": 823899131,
   "type": "Feature",
   "properties": {
+    "addr:full":"4500 19th St Boulder CO 80304",
+    "addr:housenumber":"4500",
+    "addr:postcode":"80304",
+    "addr:street":"19Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.272721,40.058205,-105.272721,40.058205",
     "geom:latitude":40.058205,
     "geom:longitude":-105.272721,
@@ -27,7 +32,12 @@
         "window"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876361,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4X1SdyWRqN5AZIQZe1Es2G_40.058205_-105.272721@1294083659"
@@ -35,11 +45,19 @@
     "wof:country":"US",
     "wof:created":1463449435,
     "wof:geomhash":"30b9590649c4a193771374912ff0a6ef",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876361,
+            "region_id":85688603,
+            "venue_id":823899131
+        }
+    ],
     "wof:id":823899131,
-    "wof:lastmodified":1466420172,
+    "wof:lastmodified":1491924273,
     "wof:name":"American Window Cleaning",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

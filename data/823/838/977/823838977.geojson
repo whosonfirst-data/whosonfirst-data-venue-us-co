@@ -2,9 +2,14 @@
   "id": 823838977,
   "type": "Feature",
   "properties": {
+    "addr:full":"11215 Ash Cir Denver CO 80233",
+    "addr:housenumber":"11215",
+    "addr:postcode":"80233",
+    "addr:street":"Ash Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.938418,39.900028,-104.938418,39.900028",
     "geom:latitude":39.900028,
     "geom:longitude":-104.938418,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553907
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Vk30cs6A7xdgefQ3PGNMA_39.900028_-104.938418@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447911,
-    "wof:geomhash":"bbc001fe5560179d53a74363a2d7e625",
-    "wof:hierarchy":[],
+    "wof:geomhash":"45e61840ee2efc71806d918b1fe0b7fb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":823838977
+        }
+    ],
     "wof:id":823838977,
-    "wof:lastmodified":1466419758,
+    "wof:lastmodified":1492125334,
     "wof:name":"Alpine Window",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553907,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823512569,
   "type": "Feature",
   "properties": {
+    "addr:full":"1346 E 111th Pl Denver CO 80233",
+    "addr:housenumber":"1346",
+    "addr:postcode":"80233",
+    "addr:street":"E 111Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.969531,39.898961,-104.969531,39.898961",
     "geom:latitude":39.898961,
     "geom:longitude":-104.969531,
@@ -29,19 +34,36 @@
         "used"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0f0JiF9Rui6sEwH4OltYbK_39.898961_-104.969531@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439848,
-    "wof:geomhash":"d0665ef3018b4e238a7121443053a7a0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"583be044c439f0409846be2e652ab08f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":823512569
+        }
+    ],
     "wof:id":823512569,
-    "wof:lastmodified":1466414503,
+    "wof:lastmodified":1492117819,
     "wof:name":"Colorado New & U Med Eqp LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

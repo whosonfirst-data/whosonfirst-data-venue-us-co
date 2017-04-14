@@ -2,9 +2,14 @@
   "id": 824152641,
   "type": "Feature",
   "properties": {
+    "addr:full":"445 N 11th Ave Brighton CO 80601",
+    "addr:housenumber":"445",
+    "addr:postcode":"80601",
+    "addr:street":"N 11Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.808772,39.99403,-104.808772,39.99403",
     "geom:latitude":39.99403,
     "geom:longitude":-104.808772,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_12gtrDPRQCdAhVsptMvp6r_39.994030_-104.808772@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456007,
-    "wof:geomhash":"287afb50fe203d60ce2a2514068d3c27",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8aaaac4f86eacc5963294a8c8dd21212",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824152641
+        }
+    ],
     "wof:id":824152641,
-    "wof:lastmodified":1466416965,
+    "wof:lastmodified":1492132943,
     "wof:name":"EC Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

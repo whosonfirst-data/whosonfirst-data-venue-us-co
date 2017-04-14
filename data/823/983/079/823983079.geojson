@@ -2,9 +2,14 @@
   "id": 823983079,
   "type": "Feature",
   "properties": {
+    "addr:full":"1800 38th St Boulder CO 80301",
+    "addr:housenumber":"1800",
+    "addr:postcode":"80301",
+    "addr:street":"38Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.244503,40.015853,-105.244503,40.015853",
     "geom:latitude":40.015853,
     "geom:longitude":-105.244503,
@@ -28,19 +33,36 @@
     ],
     "sg:website":"www.drexelbarrell.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1j3flC2RfMCCO6NedcNkLn_40.015853_-105.244503@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451566,
-    "wof:geomhash":"c8605050213955637cf94c8818b8f801",
-    "wof:hierarchy":[],
+    "wof:geomhash":"38f96a4950fddb25c5cf147a67b89feb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":823983079
+        }
+    ],
     "wof:id":823983079,
-    "wof:lastmodified":1466420896,
+    "wof:lastmodified":1492116659,
     "wof:name":"Drexel Barrell & Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

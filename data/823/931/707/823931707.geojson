@@ -2,9 +2,14 @@
   "id": 823931707,
   "type": "Feature",
   "properties": {
+    "addr:full":"4262 E 115th Ave Denver CO 80233",
+    "addr:housenumber":"4262",
+    "addr:postcode":"80233",
+    "addr:street":"E 115Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.937987,39.904022,-104.937987,39.904022",
     "geom:latitude":39.904022,
     "geom:longitude":-104.937987,
@@ -33,19 +38,36 @@
         "rock"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553907
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Dd2PwmGvP8aXtlj2x5xlk_39.904022_-104.937987@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450298,
-    "wof:geomhash":"b6e84a79e958df4d887a953c9c9a8efe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b9a34ecd6edce0dfead6a5f749de3add",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":823931707
+        }
+    ],
     "wof:id":823931707,
-    "wof:lastmodified":1466420302,
+    "wof:lastmodified":1492119441,
     "wof:name":"Wiegert Trucking Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553907,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

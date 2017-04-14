@@ -2,9 +2,14 @@
   "id": 839968723,
   "type": "Feature",
   "properties": {
+    "addr:full":"4055 S Lowell Blvd Denver CO 80236",
+    "addr:housenumber":"4055",
+    "addr:postcode":"80236",
+    "addr:street":"S Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034741,39.642593,-105.034741,39.642593",
     "geom:latitude":39.642593,
     "geom:longitude":-105.034741,
@@ -30,19 +35,38 @@
     ],
     "sg:website":"www.cdhs.state.co.us/ohr/adad",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85868407,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3nfe9GfdBpXcg5kAZvf8oA_39.642593_-105.034741@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459966,
-    "wof:geomhash":"f2d0f7100639c24cdc4a9aac4e29fceb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"045787d373646e01ff516019605fc861",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85868407,
+            "region_id":85688603,
+            "venue_id":839968723
+        }
+    ],
     "wof:id":839968723,
-    "wof:lastmodified":1466416109,
+    "wof:lastmodified":1492114488,
     "wof:name":"Alcohol & Drug Abuse Div",
-    "wof:parent_id":-1,
+    "wof:parent_id":85868407,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

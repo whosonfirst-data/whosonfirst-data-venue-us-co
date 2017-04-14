@@ -2,9 +2,14 @@
   "id": 823848231,
   "type": "Feature",
   "properties": {
+    "addr:full":"4000 Shaw Blvd Westminster CO 80031",
+    "addr:housenumber":"4000",
+    "addr:postcode":"80031",
+    "addr:street":"Shaw Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039852,39.851531,-105.039852,39.851531",
     "geom:latitude":39.851531,
     "geom:longitude":-105.039852,
@@ -24,19 +29,46 @@
     "sg:postcode":"80031",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        85888481,
+        420553605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Bf3VuIy3gGm0IBMiEGOdy_39.851531_-105.039852@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448175,
-    "wof:geomhash":"e201d194349c9d0c7b4144c45783fb8d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b6c61db4916579ed4d0b8b8672b5e96a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":85888481,
+            "region_id":85688603,
+            "venue_id":823848231
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553605,
+            "region_id":85688603,
+            "venue_id":823848231
+        }
+    ],
     "wof:id":823848231,
-    "wof:lastmodified":1466419864,
+    "wof:lastmodified":1492127122,
     "wof:name":"Thomas Learning Ctr",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

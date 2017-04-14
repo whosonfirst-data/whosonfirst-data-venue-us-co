@@ -2,9 +2,14 @@
   "id": 823600721,
   "type": "Feature",
   "properties": {
+    "addr:full":"488 Summit View Dr Grand Junction CO 81504",
+    "addr:housenumber":"488",
+    "addr:postcode":"81504",
+    "addr:street":"Summit View Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.475457,39.074781,-108.475457,39.074781",
     "geom:latitude":39.074781,
     "geom:longitude":-108.475457,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4390LWoC3p1ckFsG5YHgmg_39.074781_-108.475457@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441918,
-    "wof:geomhash":"3b8da007d1689c86683072577fd7d8e0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"605dd0ba4fb9b8d74084b9e03e2eba31",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823600721
+        }
+    ],
     "wof:id":823600721,
-    "wof:lastmodified":1466417143,
+    "wof:lastmodified":1492121660,
     "wof:name":"Four TS Trucking LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

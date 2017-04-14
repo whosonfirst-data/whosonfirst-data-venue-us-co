@@ -2,9 +2,14 @@
   "id": 823644677,
   "type": "Feature",
   "properties": {
+    "addr:full":"415 Main St Fort Lupton CO 80621",
+    "addr:housenumber":"415",
+    "addr:postcode":"80621",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.809785,40.084007,-104.809785,40.084007",
     "geom:latitude":40.084007,
     "geom:longitude":-104.809785,
@@ -27,19 +32,28 @@
         "bakery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6CroNEoWf4Y6UBcJsZCIXY_40.084007_-104.809785@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442960,
-    "wof:geomhash":"8db0f841f0ab0b1035e38dbcc316ab64",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c20b4005c6d3c0c6169e7cf96ccfc543",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823644677
+        }
+    ],
     "wof:id":823644677,
-    "wof:lastmodified":1466417975,
+    "wof:lastmodified":1492118296,
     "wof:name":"Chavez Bakery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

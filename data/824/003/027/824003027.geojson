@@ -2,9 +2,14 @@
   "id": 824003027,
   "type": "Feature",
   "properties": {
+    "addr:full":"3307 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"3307;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.857633,37.349342,-107.857633,37.349342",
     "geom:latitude":37.349342,
     "geom:longitude":-107.857633,
@@ -30,19 +35,28 @@
         "fitness"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1gMSy2NhaEDreYE1Zt26TN_37.349342_-107.857633@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452053,
-    "wof:geomhash":"31b1c387e7564ee5506c435acc35c95a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ea094e089ce0a3e3acbbe72bd2c0d1a3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":824003027
+        }
+    ],
     "wof:id":824003027,
-    "wof:lastmodified":1466412244,
+    "wof:lastmodified":1492132629,
     "wof:name":"Jazzercise",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

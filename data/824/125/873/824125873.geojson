@@ -2,9 +2,14 @@
   "id": 824125873,
   "type": "Feature",
   "properties": {
+    "addr:full":"33552 US Hwy 40 Idaho Springs CO 80487",
+    "addr:housenumber":"33552",
+    "addr:postcode":"80487",
+    "addr:street":"Us Hwy 40",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.80742,40.380683,-106.80742,40.380683",
     "geom:latitude":40.380683,
     "geom:longitude":-106.80742,
@@ -29,19 +34,28 @@
         "timber"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555261
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4OX6KkpVFVQ1cDaGO15kND_40.380683_-106.807420@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454968,
-    "wof:geomhash":"48094a0d3592a9a7c1e4e79d3cd49f7d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53d2dfb825938e65130cd80857f7411e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555261,
+            "venue_id":824125873
+        }
+    ],
     "wof:id":824125873,
-    "wof:lastmodified":1466415942,
+    "wof:lastmodified":1492132696,
     "wof:name":"Silver Plume Log/Timber Works",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555261,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

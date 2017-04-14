@@ -2,9 +2,14 @@
   "id": 823751989,
   "type": "Feature",
   "properties": {
+    "addr:full":"5280 Steele St Denver CO 80216",
+    "addr:housenumber":"5280",
+    "addr:postcode":"80216",
+    "addr:street":"Steele St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.949778,39.791314,-104.949778,39.791314",
     "geom:latitude":39.791314,
     "geom:longitude":-104.949778,
@@ -29,19 +34,38 @@
         "shop"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871305,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2fR59c3QL9vSEbcuLT051u_39.791314_-104.949778@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445428,
-    "wof:geomhash":"c99abdbb9fe2cbf85f43ab56340f7634",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0cfd933598dee2151deae1e5d1f53973",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871305,
+            "region_id":85688603,
+            "venue_id":823751989
+        }
+    ],
     "wof:id":823751989,
-    "wof:lastmodified":1466418957,
+    "wof:lastmodified":1492116471,
     "wof:name":"Aces Of Denver",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

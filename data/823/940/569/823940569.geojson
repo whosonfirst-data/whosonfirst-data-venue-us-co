@@ -2,9 +2,14 @@
   "id": 823940569,
   "type": "Feature",
   "properties": {
+    "addr:full":"313 W Drake Rd Fort Collins CO 80526",
+    "addr:housenumber":"313",
+    "addr:postcode":"80526",
+    "addr:street":"W Drake Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.080306,40.552525,-105.080306,40.552525",
     "geom:latitude":40.552525,
     "geom:longitude":-105.080306,
@@ -32,19 +37,36 @@
         "tavern"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554741
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4hyakzPtusbWUBh8ezPzt0_40.552525_-105.080306@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450537,
-    "wof:geomhash":"7d3bc233c3c3daa27e24bb206ad5b526",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7947f9482f1b718d23e1539db253d80f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554741,
+            "region_id":85688603,
+            "venue_id":823940569
+        }
+    ],
     "wof:id":823940569,
-    "wof:lastmodified":1466420555,
+    "wof:lastmodified":1492126230,
     "wof:name":"County Cork Pub & Grill",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554741,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

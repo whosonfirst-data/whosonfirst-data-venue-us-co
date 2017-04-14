@@ -2,9 +2,14 @@
   "id": 839924345,
   "type": "Feature",
   "properties": {
+    "addr:full":"20 S Boulder Cir Boulder CO 80303",
+    "addr:housenumber":"20",
+    "addr:postcode":"80303",
+    "addr:street":"S Boulder Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.229191,39.986849,-105.229191,39.986849",
     "geom:latitude":39.986849,
     "geom:longitude":-105.229191,
@@ -27,19 +32,36 @@
         "appraiser"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554135
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2lsPpeXRgnR6YtY5c3rdoY_39.986849_-105.229191@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457692,
-    "wof:geomhash":"4bba05f03b15b20273f17df16af604eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e1c9504f2ea474d97d979178d803c190",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554135,
+            "region_id":85688603,
+            "venue_id":839924345
+        }
+    ],
     "wof:id":839924345,
-    "wof:lastmodified":1466413853,
+    "wof:lastmodified":1492111041,
     "wof:name":"Nissen Appraisal Assoc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554135,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

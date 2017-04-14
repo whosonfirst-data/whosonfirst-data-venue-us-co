@@ -2,9 +2,14 @@
   "id": 823663707,
   "type": "Feature",
   "properties": {
+    "addr:full":"559 Marine St Boulder CO 80302",
+    "addr:housenumber":"559",
+    "addr:postcode":"80302",
+    "addr:street":"Marine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.288153,40.011762,-105.288153,40.011762",
     "geom:latitude":40.011762,
     "geom:longitude":-105.288153,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876395
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2xDqCLIOFLVwfbKy7EmVTb_40.011762_-105.288153@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443423,
-    "wof:geomhash":"7e8e8129e6a757520913c59cd1761505",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ec91cb05c380dd5caba918eb70db2521",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876395,
+            "region_id":85688603,
+            "venue_id":823663707
+        }
+    ],
     "wof:id":823663707,
-    "wof:lastmodified":1466418220,
+    "wof:lastmodified":1492121791,
     "wof:name":"Freymuth Florian",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876395,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

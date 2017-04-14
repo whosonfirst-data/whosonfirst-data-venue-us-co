@@ -2,9 +2,14 @@
   "id": 824001067,
   "type": "Feature",
   "properties": {
+    "addr:full":"510 Belleview Ave Crested Butte CO 81224",
+    "addr:housenumber":"510",
+    "addr:postcode":"81224",
+    "addr:street":"Belleview Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.981944,38.866966,-106.981944,38.866966",
     "geom:latitude":38.866966,
     "geom:longitude":-106.981944,
@@ -24,19 +29,36 @@
     "sg:postcode":"81224",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929655,
+        102083377,
+        420554503
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1qGIc5xxigfBayshy1fjPH_38.866966_-106.981944@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452012,
-    "wof:geomhash":"6b018f62f7a74ca5ed16f266fa09d649",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bb7f9c53615b7fe8cba01159d1ef0fd1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929655,
+            "neighbourhood_id":420554503,
+            "region_id":85688603,
+            "venue_id":824001067
+        }
+    ],
     "wof:id":824001067,
-    "wof:lastmodified":1466412041,
+    "wof:lastmodified":1492130097,
     "wof:name":"Acme Liquor Store",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554503,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

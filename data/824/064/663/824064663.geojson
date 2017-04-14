@@ -2,9 +2,14 @@
   "id": 824064663,
   "type": "Feature",
   "properties": {
+    "addr:full":"2430 E Main St Cortez CO 81321",
+    "addr:housenumber":"2430",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.55764,37.349356,-108.55764,37.349356",
     "geom:latitude":37.349356,
     "geom:longitude":-108.55764,
@@ -29,19 +34,28 @@
         "vehicle"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3HrTsBF5suupJUElsPVLtG_37.349356_-108.557640@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453489,
-    "wof:geomhash":"96d8fd3d0a007ab3d5f1091f3190d18e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"55df30c60efdb9bc55eb3443d3796eb4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":824064663
+        }
+    ],
     "wof:id":824064663,
-    "wof:lastmodified":1466414521,
+    "wof:lastmodified":1492128184,
     "wof:name":"LA Mesa RV Park",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

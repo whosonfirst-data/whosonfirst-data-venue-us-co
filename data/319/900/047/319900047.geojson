@@ -2,9 +2,14 @@
   "id": 319900047,
   "type": "Feature",
   "properties": {
+    "addr:full":"15109 E Colfax Ave Aurora CO 80011",
+    "addr:housenumber":"15109",
+    "addr:postcode":"80011",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.81271,39.740164,-104.81271,39.740164",
     "geom:latitude":39.740164,
     "geom:longitude":-104.81271,
@@ -40,32 +45,43 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
         85929235,
         102086877,
-        85802959
+        85802959,
+        420559493
     ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4VgnnnO6VO7XdswxHdrzeM_39.740164_-104.812710@1303263079"
     },
     "wof:country":"US",
-    "wof:geomhash":"20db1848294f6a02f5e4a2fd9a62d69f",
+    "wof:geomhash":"d2630b0676a37e90ace6f8d84e18a663",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086877,
             "locality_id":85929235,
             "neighbourhood_id":85802959,
             "region_id":85688603,
             "venue_id":319900047
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420559493,
+            "region_id":85688603,
+            "venue_id":319900047
         }
     ],
     "wof:id":319900047,
-    "wof:lastmodified":1466412125,
+    "wof:lastmodified":1492109955,
     "wof:name":"King Soopers",
-    "wof:parent_id":85802959,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

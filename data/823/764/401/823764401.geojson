@@ -2,9 +2,14 @@
   "id": 823764401,
   "type": "Feature",
   "properties": {
+    "addr:full":"969 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"969",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810671,39.986857,-104.810671,39.986857",
     "geom:latitude":39.986857,
     "geom:longitude":-104.810671,
@@ -27,19 +32,36 @@
         "repair"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4kuFHlI6SvqOTDIZH3TmJf_39.986857_-104.810671@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445707,
-    "wof:geomhash":"ccaa113de396f465157a426d8ecef3c8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"217745066b8233f70c31f53c6c1407a4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":823764401
+        }
+    ],
     "wof:id":823764401,
-    "wof:lastmodified":1466419077,
+    "wof:lastmodified":1492116841,
     "wof:name":"S C's P C's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

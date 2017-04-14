@@ -2,9 +2,14 @@
   "id": 823636009,
   "type": "Feature",
   "properties": {
+    "addr:full":"1251 S Gaylord St Denver CO 80210",
+    "addr:housenumber":"1251",
+    "addr:postcode":"80210",
+    "addr:street":"S Gaylord St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.961812,39.693885,-104.961812,39.693885",
     "geom:latitude":39.693885,
     "geom:longitude":-104.961812,
@@ -29,7 +34,15 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554305,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Uu2m9twyjpf4LlGBvoOgX_39.693885_-104.961812@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463442762,
     "wof:geomhash":"c3a10c266e36ad7117aa17924becab16",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":420554305,
+            "region_id":85688603,
+            "venue_id":823636009
+        }
+    ],
     "wof:id":823636009,
-    "wof:lastmodified":1466417675,
+    "wof:lastmodified":1491865664,
     "wof:name":"Coherent Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554305,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

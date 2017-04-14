@@ -2,9 +2,14 @@
   "id": 823662529,
   "type": "Feature",
   "properties": {
+    "addr:full":"2600 Eagle Ridge Dr Steamboat Spgs CO 80487",
+    "addr:housenumber":"2600",
+    "addr:postcode":"80487",
+    "addr:street":"Eagle Ridge Dr;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.807267,40.454045,-106.807267,40.454045",
     "geom:latitude":40.454045,
     "geom:longitude":-106.807267,
@@ -27,19 +32,46 @@
         "condominium"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555295,
+        420555255
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5GouAju5C9ZtjvnVoa7Iv3_40.454045_-106.807267@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443400,
-    "wof:geomhash":"ce0bddff0a0ba264761e69c1ed2583cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b255b7fbeb4dc7bb4d73e02450cbc04b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555295,
+            "region_id":85688603,
+            "venue_id":823662529
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555255,
+            "region_id":85688603,
+            "venue_id":823662529
+        }
+    ],
     "wof:id":823662529,
-    "wof:lastmodified":1466418284,
+    "wof:lastmodified":1492123232,
     "wof:name":"Atrium",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

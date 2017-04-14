@@ -2,9 +2,14 @@
   "id": 823871805,
   "type": "Feature",
   "properties": {
+    "addr:full":"4500 E 60th Ave Commerce City CO 80022",
+    "addr:housenumber":"4500",
+    "addr:postcode":"80022",
+    "addr:street":"E 60Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.933451,39.805512,-104.933451,39.805512",
     "geom:latitude":39.805512,
     "geom:longitude":-104.933451,
@@ -36,19 +41,36 @@
     ],
     "sg:website":"www.willscot.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0JiEeif4mXkQECqY5e2mFk_39.805512_-104.933451@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448775,
-    "wof:geomhash":"c82021e36b17279f3abff9bf67edd4dc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58bcc5192c0be1fdc4884682fa7aca2b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":823871805
+        }
+    ],
     "wof:id":823871805,
-    "wof:lastmodified":1466420098,
+    "wof:lastmodified":1492120610,
     "wof:name":"Williams Scotsman Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

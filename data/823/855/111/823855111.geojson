@@ -2,9 +2,14 @@
   "id": 823855111,
   "type": "Feature",
   "properties": {
+    "addr:full":"12852 Co Rd 370 Sterling CO 80751",
+    "addr:housenumber":"12852;370",
+    "addr:postcode":"80751",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.182171,40.617414,-103.182171,40.617414",
     "geom:latitude":40.617414,
     "geom:longitude":-103.182171,
@@ -28,17 +33,32 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929371,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2N7ub9UfcA386DMoo0de2I_40.617414_-103.182171@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448361,
-    "wof:geomhash":"9102ea5fc66dd7d8ad3eae570a134413",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d97020418ce39fc375acfbf240b221b7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929371,
+            "region_id":85688603,
+            "venue_id":823855111
+        }
+    ],
     "wof:id":823855111,
-    "wof:lastmodified":1466419873,
+    "wof:lastmodified":1492123025,
     "wof:name":"Highway Dept",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

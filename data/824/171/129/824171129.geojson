@@ -2,9 +2,14 @@
   "id": 824171129,
   "type": "Feature",
   "properties": {
+    "addr:full":"5600 Airport Blvd Boulder CO 80301",
+    "addr:housenumber":"5600",
+    "addr:postcode":"80301",
+    "addr:street":"Airport Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.228947,40.034754,-105.228947,40.034754",
     "geom:latitude":40.034754,
     "geom:longitude":-105.228947,
@@ -24,19 +29,36 @@
     "sg:postcode":"80301",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876385
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3KV9UwLLvf7U2mtdWMiYLC_40.034754_-105.228947@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456727,
-    "wof:geomhash":"95fc08a63076e459b00ce7ff2d39464b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"41740c295fc3ad17e879d18bd9c63683",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876385,
+            "region_id":85688603,
+            "venue_id":824171129
+        }
+    ],
     "wof:id":824171129,
-    "wof:lastmodified":1466417785,
+    "wof:lastmodified":1492130319,
     "wof:name":"Stack 9 Systems",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876385,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

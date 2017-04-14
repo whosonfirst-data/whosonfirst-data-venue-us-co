@@ -2,9 +2,14 @@
   "id": 839975137,
   "type": "Feature",
   "properties": {
+    "addr:full":"221 N Kuner Rd Brighton CO 80601",
+    "addr:housenumber":"221",
+    "addr:postcode":"80601",
+    "addr:street":"N Kuner Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.823261,39.989928,-104.823261,39.989928",
     "geom:latitude":39.989928,
     "geom:longitude":-104.823261,
@@ -27,19 +32,36 @@
         "establishment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4I48Ze46jlxWHSU3ASDdRp_39.989928_-104.823261@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460221,
-    "wof:geomhash":"808b3e33bed9c2f1e288901d3de47d59",
-    "wof:hierarchy":[],
+    "wof:geomhash":"21673f1e0339918a93ea6e5df9a56cd5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":839975137
+        }
+    ],
     "wof:id":839975137,
-    "wof:lastmodified":1466416663,
+    "wof:lastmodified":1492113727,
     "wof:name":"S-Square Tube Products",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

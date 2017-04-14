@@ -2,9 +2,14 @@
   "id": 839957793,
   "type": "Feature",
   "properties": {
+    "addr:full":"2612 Ann Ave Brush CO 80723",
+    "addr:housenumber":"2612",
+    "addr:postcode":"80723",
+    "addr:street":"Ann Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.652041,40.262964,-103.652041,40.262964",
     "geom:latitude":40.262964,
     "geom:longitude":-103.652041,
@@ -28,19 +33,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929511,
+        102084089,
+        85836469
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5XOzlKht0M34igIwqkC8WO_40.262964_-103.652041@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459528,
-    "wof:geomhash":"997a066f65a196b747238eb1d1cdf4b1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7bffdf1d647d25828e6a2d387338964f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929511,
+            "neighbourhood_id":85836469,
+            "region_id":85688603,
+            "venue_id":839957793
+        }
+    ],
     "wof:id":839957793,
-    "wof:lastmodified":1466415524,
+    "wof:lastmodified":1492112474,
     "wof:name":"Los Libros",
-    "wof:parent_id":-1,
+    "wof:parent_id":85836469,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

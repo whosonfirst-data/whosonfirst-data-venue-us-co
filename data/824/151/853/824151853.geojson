@@ -2,9 +2,14 @@
   "id": 824151853,
   "type": "Feature",
   "properties": {
+    "addr:full":"335 N 11th Ave Brighton CO 80601",
+    "addr:housenumber":"335",
+    "addr:postcode":"80601",
+    "addr:street":"N 11Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.808782,39.993377,-104.808782,39.993377",
     "geom:latitude":39.993377,
     "geom:longitude":-104.808782,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_53mznsWXSpuS7FF36U09vk_39.993377_-104.808782@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455978,
-    "wof:geomhash":"16120f9e893353186646e628372c610a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9cf3f84f9e6c0750104adbbd3a963a07",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824151853
+        }
+    ],
     "wof:id":824151853,
-    "wof:lastmodified":1466416799,
+    "wof:lastmodified":1492129150,
     "wof:name":"Jeffrey Homes LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

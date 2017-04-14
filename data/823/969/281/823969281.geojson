@@ -2,9 +2,14 @@
   "id": 823969281,
   "type": "Feature",
   "properties": {
+    "addr:full":"1908 Hunters Dr Steamboat Springs CO 80487",
+    "addr:housenumber":"1908",
+    "addr:postcode":"80487",
+    "addr:street":"Hunters Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.802401,40.444301,-106.802401,40.444301",
     "geom:latitude":40.444301,
     "geom:longitude":-106.802401,
@@ -28,19 +33,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555239
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3XWVksIsIQpIx7GoPPARgn_40.444301_-106.802401@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451242,
-    "wof:geomhash":"f44cc98f7424cb7dfd74a6ef45084b84",
-    "wof:hierarchy":[],
+    "wof:geomhash":"deedc2a87005e92388093da5917563f6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555239,
+            "region_id":85688603,
+            "venue_id":823969281
+        }
+    ],
     "wof:id":823969281,
-    "wof:lastmodified":1466420821,
+    "wof:lastmodified":1492119094,
     "wof:name":"SBS HI LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555239,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

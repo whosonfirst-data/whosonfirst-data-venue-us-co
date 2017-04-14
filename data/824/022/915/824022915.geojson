@@ -2,9 +2,14 @@
   "id": 824022915,
   "type": "Feature",
   "properties": {
+    "addr:full":"2903 E 116th Pl Denver CO 80233",
+    "addr:housenumber":"2903",
+    "addr:postcode":"80233",
+    "addr:street":"E 116Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.951976,39.905363,-104.951976,39.905363",
     "geom:latitude":39.905363,
     "geom:longitude":-104.951976,
@@ -28,19 +33,36 @@
         "collection"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553673
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4vRA7yxRlaQlxVg6kxhp9i_39.905363_-104.951976@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452494,
-    "wof:geomhash":"74e02c74b8c37a1a81e15570b6d77437",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a8f7c23e597e006634bfd389a816b188",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553673,
+            "region_id":85688603,
+            "venue_id":824022915
+        }
+    ],
     "wof:id":824022915,
-    "wof:lastmodified":1466413702,
+    "wof:lastmodified":1492131774,
     "wof:name":"Absolute Debris Removal",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553673,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

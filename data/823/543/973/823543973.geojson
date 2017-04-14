@@ -2,9 +2,14 @@
   "id": 823543973,
   "type": "Feature",
   "properties": {
+    "addr:full":"7933 Lefthand Canyon Dr Jamestown CO 80455",
+    "addr:housenumber":"7933",
+    "addr:postcode":"80455",
+    "addr:street":"Lefthand Canyon Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.386247,40.078289,-105.386247,40.078289",
     "geom:latitude":40.078289,
     "geom:longitude":-105.386247,
@@ -30,9 +35,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
+        102191575,
         85633793,
-        85822109,
-        102085251
+        85930711,
+        102085251,
+        85895941,
+        85822109
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -40,8 +48,17 @@
     },
     "wof:country":"US",
     "wof:created":1463440559,
-    "wof:geomhash":"d966b612e41f502db3ca19e9012cfd56",
+    "wof:geomhash":"b282e4419ed213776aecac23822f792d",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930711,
+            "neighbourhood_id":85895941,
+            "region_id":85688603,
+            "venue_id":823543973
+        },
         {
             "country_id":85633793,
             "county_id":102085251,
@@ -51,9 +68,9 @@
         }
     ],
     "wof:id":823543973,
-    "wof:lastmodified":1466415546,
+    "wof:lastmodified":1492118904,
     "wof:name":"Gordon Christian Gauthier Inc",
-    "wof:parent_id":85822109,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824124183,
   "type": "Feature",
   "properties": {
+    "addr:full":"5695 W 115th Loop Westminster CO 80020",
+    "addr:housenumber":"5695",
+    "addr:postcode":"80020",
+    "addr:street":"W 115Th Loop",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05899,39.906039,-105.05899,39.906039",
     "geom:latitude":39.906039,
     "geom:longitude":-105.05899,
@@ -27,19 +32,36 @@
         "herb"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420554595
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6AiUSi2Vzxu62m6DJi4rJN_39.906039_-105.058990@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454890,
-    "wof:geomhash":"803db7afe6819606339857eca6335421",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a676549c222f58295108b958507458b0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420554595,
+            "region_id":85688603,
+            "venue_id":824124183
+        }
+    ],
     "wof:id":824124183,
-    "wof:lastmodified":1466415583,
+    "wof:lastmodified":1492130841,
     "wof:name":"Sunlight Herbs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554595,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

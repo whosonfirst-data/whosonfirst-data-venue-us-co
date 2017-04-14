@@ -2,9 +2,14 @@
   "id": 823655857,
   "type": "Feature",
   "properties": {
+    "addr:full":"376 S 7th Ave Brighton CO 80601",
+    "addr:housenumber":"376",
+    "addr:postcode":"80601",
+    "addr:street":"S 7Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.813873,39.98173,-104.813873,39.98173",
     "geom:latitude":39.98173,
     "geom:longitude":-104.813873,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5omMjXSq8ZWsFiAzl1T1fp_39.981730_-104.813873@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443215,
-    "wof:geomhash":"56706098ccabb8d65a0e0fdfa9f46581",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a0a634f4991653494d51b1a22090f558",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":823655857
+        }
+    ],
     "wof:id":823655857,
-    "wof:lastmodified":1466418181,
+    "wof:lastmodified":1492127907,
     "wof:name":"Tripstar Construction & Landsc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823672965,
   "type": "Feature",
   "properties": {
+    "addr:full":"10470 Canosa Way Denver CO 80234",
+    "addr:housenumber":"",
+    "addr:postcode":"10470;80234",
+    "addr:street":"Canosa Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018668,39.886767,-105.018668,39.886767",
     "geom:latitude":39.886767,
     "geom:longitude":-105.018668,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553931
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_42om7okHtZCm35UqwiMVcv_39.886767_-105.018668@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443636,
-    "wof:geomhash":"7f6db5510968e6d853ad5f23cd54bb93",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7616b0d2b950ffeca53af4fb340ee233",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553931,
+            "region_id":85688603,
+            "venue_id":823672965
+        }
+    ],
     "wof:id":823672965,
-    "wof:lastmodified":1466418410,
+    "wof:lastmodified":1492124718,
     "wof:name":"Tommys Custom Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553931,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

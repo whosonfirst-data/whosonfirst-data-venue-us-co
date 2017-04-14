@@ -2,9 +2,14 @@
   "id": 823957815,
   "type": "Feature",
   "properties": {
+    "addr:full":"16401 E 33rd Dr Aurora CO 80011",
+    "addr:housenumber":"16401",
+    "addr:postcode":"80011",
+    "addr:street":"E 33Rd Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.795512,39.764731,-104.795512,39.764731",
     "geom:latitude":39.764731,
     "geom:longitude":-104.795512,
@@ -29,19 +34,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553317
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_78UuajjN1EceDvBOoVEKLk_39.764731_-104.795512@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450962,
-    "wof:geomhash":"2daf9ba3fda00d412b10c06727507c00",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6caac4b31d886751913af68d7d535d2a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553317,
+            "region_id":85688603,
+            "venue_id":823957815
+        }
+    ],
     "wof:id":823957815,
-    "wof:lastmodified":1466420746,
+    "wof:lastmodified":1492121550,
     "wof:name":"Wesco Distributing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

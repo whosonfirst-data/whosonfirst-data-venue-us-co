@@ -2,9 +2,14 @@
   "id": 823888621,
   "type": "Feature",
   "properties": {
+    "addr:full":"4700 N 95th St Lafayette CO 80026",
+    "addr:housenumber":"4700",
+    "addr:postcode":"80026",
+    "addr:street":"N 95Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.131211,40.060015,-105.131211,40.060015",
     "geom:latitude":40.060015,
     "geom:longitude":-105.131211,
@@ -29,19 +34,28 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553961
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4fIQNBkoyTvDP0e9m1b9MT_40.060015_-105.131211@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449159,
-    "wof:geomhash":"783203d1ad263eafa402386d15cd5570",
-    "wof:hierarchy":[],
+    "wof:geomhash":"14e10e54914515c91075ab2fc8ffaeeb",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553961,
+            "venue_id":823888621
+        }
+    ],
     "wof:id":823888621,
-    "wof:lastmodified":1466420161,
+    "wof:lastmodified":1492117107,
     "wof:name":"Parson Studio",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553961,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

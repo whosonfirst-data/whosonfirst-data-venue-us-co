@@ -2,9 +2,14 @@
   "id": 823556977,
   "type": "Feature",
   "properties": {
+    "addr:full":"3215 Marine St Boulder CO 80303",
+    "addr:housenumber":"3215",
+    "addr:postcode":"80303",
+    "addr:street":"Marine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.253727,40.013601,-105.253727,40.013601",
     "geom:latitude":40.013601,
     "geom:longitude":-105.253727,
@@ -27,19 +32,46 @@
         "software"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876453,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1oLcNjh8oOf3uj7Gk6QZjG_40.013601_-105.253727@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440868,
-    "wof:geomhash":"d7d7e3e87358ba9d25a822670abb2204",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9af303e83a9ad8234443ede2af095eb0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876453,
+            "region_id":85688603,
+            "venue_id":823556977
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":823556977
+        }
+    ],
     "wof:id":823556977,
-    "wof:lastmodified":1466415946,
+    "wof:lastmodified":1492127576,
     "wof:name":"Mentor Machines",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

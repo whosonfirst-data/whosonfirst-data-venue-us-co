@@ -2,9 +2,14 @@
   "id": 824081945,
   "type": "Feature",
   "properties": {
+    "addr:full":"342 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"342",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.566796,39.077491,-108.566796,39.077491",
     "geom:latitude":39.077491,
     "geom:longitude":-108.566796,
@@ -28,19 +33,36 @@
         "rental"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_69EF6OZQMsVK7mLEcNG1nC_39.077491_-108.566796@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453894,
-    "wof:geomhash":"9811fcd22323683ec00de71f1dbdedc4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e1d5944b22b5a0fec90e9eff54b363ea",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":824081945
+        }
+    ],
     "wof:id":824081945,
-    "wof:lastmodified":1466414616,
+    "wof:lastmodified":1492129208,
     "wof:name":"American Rental Specialties",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

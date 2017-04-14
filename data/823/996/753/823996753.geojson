@@ -2,9 +2,14 @@
   "id": 823996753,
   "type": "Feature",
   "properties": {
+    "addr:full":"6000 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"6000;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.849427,37.388368,-107.849427,37.388368",
     "geom:latitude":37.388368,
     "geom:longitude":-107.849427,
@@ -27,19 +32,28 @@
         "janitor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554613
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Gchyvj27twEtn8c4OZ6cT_37.388368_-107.849427@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451910,
-    "wof:geomhash":"14af18478b74fb92c854905e535e8de8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6ef2973be2f71b8f8b6494c38adc837a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554613,
+            "venue_id":823996753
+        }
+    ],
     "wof:id":823996753,
-    "wof:lastmodified":1466421040,
+    "wof:lastmodified":1492117461,
     "wof:name":"JML Complete Cleaning Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554613,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

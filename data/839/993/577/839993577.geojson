@@ -2,9 +2,14 @@
   "id": 839993577,
   "type": "Feature",
   "properties": {
+    "addr:full":"1059 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"1059",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.554931,39.077334,-108.554931,39.077334",
     "geom:latitude":39.077334,
     "geom:longitude":-108.554931,
@@ -29,19 +34,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554945
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3QYGSdeCeujxig871T4MlD_39.077324_-108.555692@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460953,
-    "wof:geomhash":"83ef1dd7bb9cb9217707a20a52270201",
-    "wof:hierarchy":[],
+    "wof:geomhash":"71f30d40b7af18d926d5cc91a74184ec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554945,
+            "region_id":85688603,
+            "venue_id":839993577
+        }
+    ],
     "wof:id":839993577,
-    "wof:lastmodified":1466417661,
+    "wof:lastmodified":1492110930,
     "wof:name":"Blackjack Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554945,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823493703,
   "type": "Feature",
   "properties": {
+    "addr:full":"6883 E 47th Avenue Dr Denver CO 80216",
+    "addr:housenumber":"6883",
+    "addr:postcode":"80216",
+    "addr:street":"E 47Th Avenue Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.911013,39.783122,-104.911013,39.783122",
     "geom:latitude":39.783122,
     "geom:longitude":-104.911013,
@@ -29,7 +34,16 @@
     ],
     "sg:website":"www.wescodist.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750051,
+        85840547,
+        102191575,
+        1108750055,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4TpFJDlVNRIiu1SiXpuFxM_39.783122_-104.911013@1294083659"
@@ -37,11 +51,23 @@
     "wof:country":"US",
     "wof:created":1463439392,
     "wof:geomhash":"7f4cbac367cd17b2cb0477345715ba37",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750051,
+            "neighbourhood_id":85840547,
+            "region_id":85688603,
+            "venue_id":823493703
+        }
+    ],
     "wof:id":823493703,
-    "wof:lastmodified":1466413967,
+    "wof:lastmodified":1486604425,
     "wof:name":"Wesco Distributing Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750051,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

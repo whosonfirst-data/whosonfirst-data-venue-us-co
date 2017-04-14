@@ -2,9 +2,14 @@
   "id": 823623719,
   "type": "Feature",
   "properties": {
+    "addr:full":"4457 Clay St Denver CO 80211",
+    "addr:housenumber":"4457",
+    "addr:postcode":"80211",
+    "addr:street":"Clay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.020578,39.776729,-105.020578,39.776729",
     "geom:latitude":39.776729,
     "geom:longitude":-105.020578,
@@ -27,19 +32,38 @@
         "window"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871279,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Oxw5nXFeUZOniIdlKskg8_39.776729_-105.020578@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442486,
-    "wof:geomhash":"56906e1e70e7edc911990eefff7b668f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8d86074b6b60994102781834c487cc0e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871279,
+            "region_id":85688603,
+            "venue_id":823623719
+        }
+    ],
     "wof:id":823623719,
-    "wof:lastmodified":1466417581,
+    "wof:lastmodified":1492117858,
     "wof:name":"Window Pro",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871279,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

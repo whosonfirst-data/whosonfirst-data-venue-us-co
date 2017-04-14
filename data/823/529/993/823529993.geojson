@@ -2,9 +2,14 @@
   "id": 823529993,
   "type": "Feature",
   "properties": {
+    "addr:full":"12356 E Bates Cir Aurora CO 80014",
+    "addr:housenumber":"12356",
+    "addr:postcode":"80014",
+    "addr:street":"E Bates Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.844567,39.664729,-104.844567,39.664729",
     "geom:latitude":39.664729,
     "geom:longitude":-104.844567,
@@ -27,17 +32,32 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2cJS3WdCspON9OFbDmzDE8_39.664729_-104.844567@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440252,
-    "wof:geomhash":"bc4d77f9eff83027a603256d892cf476",
-    "wof:hierarchy":[],
+    "wof:geomhash":"983e32e659f06b2ca007947da86cc31b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":823529993
+        }
+    ],
     "wof:id":823529993,
-    "wof:lastmodified":1466415280,
+    "wof:lastmodified":1492117328,
     "wof:name":"Redstone Design",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

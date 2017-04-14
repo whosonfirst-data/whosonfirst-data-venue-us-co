@@ -2,9 +2,14 @@
   "id": 320142783,
   "type": "Feature",
   "properties": {
+    "addr:full":"3115 Lawrence Street Denver CO 80205",
+    "addr:housenumber":"3115",
+    "addr:postcode":"80205",
+    "addr:street":"Lawrence Street",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.97826,39.762825,-104.97826,39.762825",
     "geom:latitude":39.762825,
     "geom:longitude":-104.97826,
@@ -28,11 +33,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750115,
+        85871289,
+        102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85888337
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +50,21 @@
     "wof:geomhash":"82dbf294077c4254e2e5cefbb0e6738f",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85888337,
+            "macrohood_id":1108750025,
+            "microhood_id":1108750115,
+            "neighbourhood_id":85871289,
             "region_id":85688603,
             "venue_id":320142783
         }
     ],
     "wof:id":320142783,
-    "wof:lastmodified":1466412671,
+    "wof:lastmodified":1486604504,
     "wof:name":"E N D Construction",
-    "wof:parent_id":85888337,
+    "wof:parent_id":1108750115,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

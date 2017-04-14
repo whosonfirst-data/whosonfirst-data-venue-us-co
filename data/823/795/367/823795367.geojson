@@ -2,9 +2,14 @@
   "id": 823795367,
   "type": "Feature",
   "properties": {
+    "addr:full":"3109 Delta Dr Colorado Springs CO 80910",
+    "addr:housenumber":"3109",
+    "addr:postcode":"80910",
+    "addr:street":"Delta Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.777568,38.796091,-104.777568,38.796091",
     "geom:latitude":38.796091,
     "geom:longitude":-104.777568,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0CsvwtDtO8I5D9N7tX55HL_38.796091_-104.777568@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446586,
-    "wof:geomhash":"7b557f272a39a5db3fbbe8823f2f6643",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4ac923cf73bd15481179f98b78cacf63",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823795367
+        }
+    ],
     "wof:id":823795367,
-    "wof:lastmodified":1466419285,
+    "wof:lastmodified":1492120444,
     "wof:name":"Japanese Automotive",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

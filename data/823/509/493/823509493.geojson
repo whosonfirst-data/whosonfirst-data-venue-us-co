@@ -2,9 +2,14 @@
   "id": 823509493,
   "type": "Feature",
   "properties": {
+    "addr:full":"875 W 64th Ave Denver CO 80221",
+    "addr:housenumber":"875",
+    "addr:postcode":"80221",
+    "addr:street":"W 64Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.992638,39.812955,-104.992638,39.812955",
     "geom:latitude":39.812955,
     "geom:longitude":-104.992638,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553727
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0uC1fzzpvI3Q4VmClm2XfH_39.812955_-104.992638@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439785,
-    "wof:geomhash":"01d56a935a52bc79ae1b718452a98298",
-    "wof:hierarchy":[],
+    "wof:geomhash":"59ece49518eff8b4ab2688a81e93d1ee",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553727,
+            "region_id":85688603,
+            "venue_id":823509493
+        }
+    ],
     "wof:id":823509493,
-    "wof:lastmodified":1466414488,
+    "wof:lastmodified":1492126939,
     "wof:name":"Calabrese Trucking Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553727,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

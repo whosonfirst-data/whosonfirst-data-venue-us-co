@@ -2,9 +2,14 @@
   "id": 839957911,
   "type": "Feature",
   "properties": {
+    "addr:full":"5443 W 76th Ave Arvada CO 80003",
+    "addr:housenumber":"5443",
+    "addr:postcode":"80003",
+    "addr:street":"W 76Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.055317,39.834663,-105.055317,39.834663",
     "geom:latitude":39.834663,
     "geom:longitude":-105.055317,
@@ -27,19 +32,36 @@
         "surveyor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554571
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4rFTbF9P7huIS66wPFA9tf_39.834663_-105.055317@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459532,
-    "wof:geomhash":"0eb829dd28f92333463e058466334577",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f4a101385d6a56b3b53cb5e300fbf57",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554571,
+            "region_id":85688603,
+            "venue_id":839957911
+        }
+    ],
     "wof:id":839957911,
-    "wof:lastmodified":1466415607,
+    "wof:lastmodified":1492112480,
     "wof:name":"Ascent Land Surveying",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554571,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

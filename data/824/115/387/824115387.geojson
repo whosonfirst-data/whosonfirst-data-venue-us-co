@@ -2,9 +2,14 @@
   "id": 824115387,
   "type": "Feature",
   "properties": {
+    "addr:full":"1551 W Evans Ave Denver CO 80223",
+    "addr:housenumber":"1551",
+    "addr:postcode":"80223",
+    "addr:street":"W Evans Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.0059,39.678649,-105.0059,39.678649",
     "geom:latitude":39.678649,
     "geom:longitude":-105.0059,
@@ -28,7 +33,15 @@
         "industrial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85811833,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7IhBRuYRXjvYyObYPp6KW2_39.678649_-105.005900@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463454664,
     "wof:geomhash":"0448cb856e0e11d6aa44f1247c2fba71",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85811833,
+            "region_id":85688603,
+            "venue_id":824115387
+        }
+    ],
     "wof:id":824115387,
-    "wof:lastmodified":1466415540,
+    "wof:lastmodified":1491876214,
     "wof:name":"M S C Sid Tool",
-    "wof:parent_id":-1,
+    "wof:parent_id":85811833,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

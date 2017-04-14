@@ -2,9 +2,14 @@
   "id": 823612433,
   "type": "Feature",
   "properties": {
+    "addr:full":"5060 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"5060",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025129,39.788151,-105.025129,39.788151",
     "geom:latitude":39.788151,
     "geom:longitude":-105.025129,
@@ -24,7 +29,15 @@
     "sg:postcode":"80221",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420781639,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Cl0B6wHHJ6TKS3DuhBpW1_39.788151_-105.025129@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463442209,
     "wof:geomhash":"0f7ed59eadc1fb223e4e06b2cc39f2e5",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":420781639,
+            "region_id":85688603,
+            "venue_id":823612433
+        }
+    ],
     "wof:id":823612433,
-    "wof:lastmodified":1466417347,
+    "wof:lastmodified":1486593527,
     "wof:name":"Fat Cat Inn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420781639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

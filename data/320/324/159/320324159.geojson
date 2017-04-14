@@ -2,9 +2,14 @@
   "id": 320324159,
   "type": "Feature",
   "properties": {
+    "addr:full":"5305 E Colfax Avenue Suite A Denver CO 80220",
+    "addr:housenumber":"5305",
+    "addr:postcode":"80220",
+    "addr:street":"E Colfax Avenue Suite A",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.925896,39.740216,-104.925896,39.740216",
     "geom:latitude":39.740216,
     "geom:longitude":-104.925896,
@@ -26,12 +31,14 @@
     "sg:website":"www.radioshack.com",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750053,
+        85840547,
+        102191575,
+        1108750055,
         85633793,
         85928879,
         102086135,
-        85866859,
-        85871337
+        85688603
     ],
     "wof:brand_id":420573773,
     "wof:breaches":[],
@@ -42,28 +49,21 @@
     "wof:geomhash":"2deda5a335ade5ff00122c3aeb65897a",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85866859,
-            "region_id":85688603,
-            "venue_id":320324159
-        },
-        {
-            "continent_id":-1,
-            "country_id":85633793,
-            "county_id":102086135,
-            "locality_id":85928879,
-            "neighbourhood_id":85871337,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750053,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":320324159
         }
     ],
     "wof:id":320324159,
-    "wof:lastmodified":1466413067,
+    "wof:lastmodified":1486604473,
     "wof:name":"Radio Shack",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750053,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

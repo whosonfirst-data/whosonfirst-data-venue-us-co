@@ -2,9 +2,14 @@
   "id": 839965099,
   "type": "Feature",
   "properties": {
+    "addr:full":"10023 Franklin St Denver CO 80229",
+    "addr:housenumber":"10023",
+    "addr:postcode":"80229",
+    "addr:street":"Franklin St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.966394,39.879242,-104.966394,39.879242",
     "geom:latitude":39.879242,
     "geom:longitude":-104.966394,
@@ -27,19 +32,36 @@
         "janitorial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Y8Hz9hO5dQi5fLkLTDnh4_39.879242_-104.966394@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459817,
-    "wof:geomhash":"4cd05a9923fec6ed08744fb1b2489899",
-    "wof:hierarchy":[],
+    "wof:geomhash":"be3d76b5898f1755e15de2f6e0dd52ed",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":839965099
+        }
+    ],
     "wof:id":839965099,
-    "wof:lastmodified":1466415925,
+    "wof:lastmodified":1492114231,
     "wof:name":"All Tech Janitorial Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

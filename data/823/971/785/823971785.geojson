@@ -2,9 +2,14 @@
   "id": 823971785,
   "type": "Feature",
   "properties": {
+    "addr:full":"245 S Benton St Denver CO 80226",
+    "addr:housenumber":"245",
+    "addr:postcode":"80226",
+    "addr:street":"S Benton St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.055713,39.712431,-105.055713,39.712431",
     "geom:latitude":39.712431,
     "geom:longitude":-105.055713,
@@ -27,19 +32,36 @@
         "hospice"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929751,
+        102084113,
+        420554581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7mdzVQqCOfXjBX7SYuWKMh_39.712431_-105.055713@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451290,
-    "wof:geomhash":"25947fbabf1ca88b9505f052ddfca378",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9693e1f6994c3828f657fe2e25bef2b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":823971785
+        }
+    ],
     "wof:id":823971785,
-    "wof:lastmodified":1466420857,
+    "wof:lastmodified":1492116300,
     "wof:name":"Life Source Hospice",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

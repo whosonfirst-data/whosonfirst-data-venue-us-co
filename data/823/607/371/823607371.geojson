@@ -2,9 +2,14 @@
   "id": 823607371,
   "type": "Feature",
   "properties": {
+    "addr:full":"319 S Hancock Ave Colorado Springs CO 80903",
+    "addr:housenumber":"319",
+    "addr:postcode":"80903",
+    "addr:street":"S Hancock Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.803971,38.827869,-104.803971,38.827869",
     "geom:latitude":38.827869,
     "geom:longitude":-104.803971,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554343
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0N9unywJyHoBgVC6N0xnn8_38.827869_-104.803971@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442074,
-    "wof:geomhash":"6b9a323dcb86515122b54dfa90034ecc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0eb861e8028c6ee0ce9bfa1e677111e8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554343,
+            "region_id":85688603,
+            "venue_id":823607371
+        }
+    ],
     "wof:id":823607371,
-    "wof:lastmodified":1466417267,
+    "wof:lastmodified":1492127519,
     "wof:name":"J W's Liquors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554343,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

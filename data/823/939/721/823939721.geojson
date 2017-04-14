@@ -2,9 +2,14 @@
   "id": 823939721,
   "type": "Feature",
   "properties": {
+    "addr:full":"9400 W 44th Ave Wheat Ridge CO 80033",
+    "addr:housenumber":"9400",
+    "addr:postcode":"80033",
+    "addr:street":"W 44Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.103153,39.778106,-105.103153,39.778106",
     "geom:latitude":39.778106,
     "geom:longitude":-105.103153,
@@ -27,19 +32,34 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85930615,
+        102084113,
+        85865183
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6naVDzSxpKzSoqeDjhiQj9_39.778106_-105.103153@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450513,
-    "wof:geomhash":"0637f978170dd745a8670254e5f06919",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ff4817d37a1b90baa43248ca6ef5538e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85930615,
+            "neighbourhood_id":85865183,
+            "region_id":85688603,
+            "venue_id":823939721
+        }
+    ],
     "wof:id":823939721,
-    "wof:lastmodified":1466420558,
+    "wof:lastmodified":1492116033,
     "wof:name":"Young's Market",
-    "wof:parent_id":-1,
+    "wof:parent_id":85865183,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

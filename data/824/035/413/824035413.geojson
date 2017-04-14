@@ -2,9 +2,14 @@
   "id": 824035413,
   "type": "Feature",
   "properties": {
+    "addr:full":"4881 Broadway St Boulder CO 80304",
+    "addr:housenumber":"4881",
+    "addr:postcode":"80304",
+    "addr:street":"Broadway St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.282203,40.063475,-105.282203,40.063475",
     "geom:latitude":40.063475,
     "geom:longitude":-105.282203,
@@ -29,19 +34,34 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4XgfU3NJoxD1uPh9yP1IC9_40.063475_-105.282203@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452796,
-    "wof:geomhash":"d5257c784bcfb0ba651803b79d588e07",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c42e9b500cc096c2d11abd380cb44d44",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":824035413
+        }
+    ],
     "wof:id":824035413,
-    "wof:lastmodified":1466413975,
+    "wof:lastmodified":1492130539,
     "wof:name":"Elan Motor Sport",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

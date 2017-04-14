@@ -2,9 +2,14 @@
   "id": 823812987,
   "type": "Feature",
   "properties": {
+    "addr:full":"20790 Smith Rd Aurora CO 80011",
+    "addr:housenumber":"20790",
+    "addr:postcode":"80011",
+    "addr:street":"Smith Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.741046,39.751011,-104.741046,39.751011",
     "geom:latitude":39.751011,
     "geom:longitude":-104.741046,
@@ -27,19 +32,36 @@
         "company"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553951
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4Lu9Tjnn6sd4uR07sfnMgp_39.751011_-104.741046@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447094,
-    "wof:geomhash":"ef3e1e63f198499cab068d651e44078c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"70e93caa3e54c2c4cd8ba76ee23a984f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553951,
+            "region_id":85688603,
+            "venue_id":823812987
+        }
+    ],
     "wof:id":823812987,
-    "wof:lastmodified":1466419565,
+    "wof:lastmodified":1492119073,
     "wof:name":"Ames Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553951,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

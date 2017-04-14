@@ -2,9 +2,14 @@
   "id": 839947739,
   "type": "Feature",
   "properties": {
+    "addr:full":"565 US Hwy 287 Broomfield CO 80020",
+    "addr:housenumber":"565",
+    "addr:postcode":"80020",
+    "addr:street":"Us Hwy 287",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.090959,39.924262,-105.090959,39.924262",
     "geom:latitude":39.924262,
     "geom:longitude":-105.090959,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0vSm4slTVx7PsyH00JprLg_39.924262_-105.090959@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459030,
-    "wof:geomhash":"97fe919b4651a0072fd9c0985997c2a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2b807390cedd5158f118ef0cb3dc6b91",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554251,
+            "region_id":85688603,
+            "venue_id":839947739
+        }
+    ],
     "wof:id":839947739,
-    "wof:lastmodified":1466415233,
+    "wof:lastmodified":1492113021,
     "wof:name":"Brothers Bar Bq",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554251,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

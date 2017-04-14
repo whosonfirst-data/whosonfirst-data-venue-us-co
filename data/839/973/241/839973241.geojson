@@ -2,9 +2,14 @@
   "id": 839973241,
   "type": "Feature",
   "properties": {
+    "addr:full":"26675 US Hwy 40 Steamboat Spgs CO 80487",
+    "addr:housenumber":"",
+    "addr:postcode":"26675;80487",
+    "addr:street":"Us Hwy 40 Steamboat Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.919986,40.501152,-106.919986,40.501152",
     "geom:latitude":40.501152,
     "geom:longitude":-106.919986,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555157
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1VpmCYnGSOiGkcdhtZ502n_40.501152_-106.919986@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460150,
-    "wof:geomhash":"6ed51f8c843a99c990e7c4e10ffc424c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"757f610ae793f1c37c09fe5139f60d1f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555157,
+            "venue_id":839973241
+        }
+    ],
     "wof:id":839973241,
-    "wof:lastmodified":1466416371,
+    "wof:lastmodified":1492112831,
     "wof:name":"Delta Electric",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555157,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

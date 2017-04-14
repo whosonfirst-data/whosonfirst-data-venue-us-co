@@ -2,9 +2,14 @@
   "id": 839931397,
   "type": "Feature",
   "properties": {
+    "addr:full":"6001 W Alameda Ave Lakewood CO 80226",
+    "addr:housenumber":"6001",
+    "addr:postcode":"80226",
+    "addr:street":"W Alameda Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.065046,39.711146,-105.065046,39.711146",
     "geom:latitude":39.711146,
     "geom:longitude":-105.065046,
@@ -33,6 +38,7 @@
         85633793,
         85929751,
         102084113,
+        420554581,
         85878623
     ],
     "wof:breaches":[],
@@ -41,8 +47,17 @@
     },
     "wof:country":"US",
     "wof:created":1463458052,
-    "wof:geomhash":"4f889d1d5a29e415fdbd13d359a3d303",
+    "wof:geomhash":"ed3d38063f12e3075fa16eeb1c1f8eef",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929751,
+            "neighbourhood_id":420554581,
+            "region_id":85688603,
+            "venue_id":839931397
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,9 +69,9 @@
         }
     ],
     "wof:id":839931397,
-    "wof:lastmodified":1466414192,
+    "wof:lastmodified":1492111532,
     "wof:name":"Independent Transmission",
-    "wof:parent_id":85878623,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839919117,
   "type": "Feature",
   "properties": {
+    "addr:full":"7420 Washington St Denver CO 80229",
+    "addr:housenumber":"7420",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977844,39.832345,-104.977844,39.832345",
     "geom:latitude":39.832345,
     "geom:longitude":-104.977844,
@@ -29,19 +34,36 @@
         "tinting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553743
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0Z45fz5eGaDiTUECM2ypcU_39.832345_-104.977844@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457457,
-    "wof:geomhash":"11110a8087c8ad526b3359c84bd1c00e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2bf6a87a311ba47ac7a3e23b596ef2bf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553743,
+            "region_id":85688603,
+            "venue_id":839919117
+        }
+    ],
     "wof:id":839919117,
-    "wof:lastmodified":1466413719,
+    "wof:lastmodified":1492111225,
     "wof:name":"Bra Man Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553743,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

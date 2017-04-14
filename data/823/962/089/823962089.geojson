@@ -2,9 +2,14 @@
   "id": 823962089,
   "type": "Feature",
   "properties": {
+    "addr:full":"1408 Co Rd 8 Gunnison CO 81230",
+    "addr:housenumber":"1408",
+    "addr:postcode":"81230",
+    "addr:street":"Co Rd 8",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.909209,38.61701,-106.909209,38.61701",
     "geom:latitude":38.61701,
     "geom:longitude":-106.909209,
@@ -28,19 +33,28 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554443
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_40kcdRcgxJOueJLUPhtMrp_38.617010_-106.909209@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451072,
-    "wof:geomhash":"45922339915673943b1333eca536eacb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fe40dcb027f8a03c74ec372abae31f54",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554443,
+            "venue_id":823962089
+        }
+    ],
     "wof:id":823962089,
-    "wof:lastmodified":1466420684,
+    "wof:lastmodified":1492120912,
     "wof:name":"Bank of Gunnison County Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554443,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

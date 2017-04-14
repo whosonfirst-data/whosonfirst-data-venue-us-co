@@ -2,9 +2,14 @@
   "id": 824133795,
   "type": "Feature",
   "properties": {
+    "addr:full":"5312 Sheridan Blvd Arvada CO 80002",
+    "addr:housenumber":"5312",
+    "addr:postcode":"80002",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.05325,39.793599,-105.05325,39.793599",
     "geom:latitude":39.793599,
     "geom:longitude":-105.05325,
@@ -27,19 +32,34 @@
         "fraternal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0ybztS596qh8eBG8APLGZC_39.793599_-105.053250@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455280,
-    "wof:geomhash":"bdac18bba7ee7152d05cdbc6da4f4062",
-    "wof:hierarchy":[],
+    "wof:geomhash":"107b3d34645cfe1331328b4b7b09ae10",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824133795
+        }
+    ],
     "wof:id":824133795,
-    "wof:lastmodified":1466416143,
+    "wof:lastmodified":1492129281,
     "wof:name":"Fraternal Order Of Eagles",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

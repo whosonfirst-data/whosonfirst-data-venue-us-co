@@ -2,9 +2,14 @@
   "id": 824030833,
   "type": "Feature",
   "properties": {
+    "addr:full":"635 S Quitman St Denver CO 80219",
+    "addr:housenumber":"635",
+    "addr:postcode":"80219",
+    "addr:street":"S Quitman St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.040863,39.706861,-105.040863,39.706861",
     "geom:latitude":39.706861,
     "geom:longitude":-105.040863,
@@ -29,7 +34,15 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4HOnZ9owUZmZicYOkqsXQO_39.706861_-105.040863@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463452685,
     "wof:geomhash":"2868089cdce5ecedb5bc4781a0dfb864",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":824030833
+        }
+    ],
     "wof:id":824030833,
-    "wof:lastmodified":1466413861,
+    "wof:lastmodified":1486589756,
     "wof:name":"T & T Autobody",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

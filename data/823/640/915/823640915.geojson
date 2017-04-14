@@ -2,9 +2,14 @@
   "id": 823640915,
   "type": "Feature",
   "properties": {
+    "addr:full":"2168 Canyon View Dr Grand Junction CO 81503",
+    "addr:housenumber":"2168",
+    "addr:postcode":"81503",
+    "addr:street":"Canyon View Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.645861,39.060833,-108.645861,39.060833",
     "geom:latitude":39.060833,
     "geom:longitude":-108.645861,
@@ -28,19 +33,36 @@
         "general"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554779
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6eW23PJU4zI87hH5NRuoWL_39.060833_-108.645861@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442876,
-    "wof:geomhash":"dede1434847a587592e9b35d81fe0f20",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e2f1f23ddbc34bb68b5d953245ae82ab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554779,
+            "region_id":85688603,
+            "venue_id":823640915
+        }
+    ],
     "wof:id":823640915,
-    "wof:lastmodified":1466417934,
+    "wof:lastmodified":1492119383,
     "wof:name":"Leland Harms",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554779,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

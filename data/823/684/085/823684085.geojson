@@ -2,9 +2,14 @@
   "id": 823684085,
   "type": "Feature",
   "properties": {
+    "addr:full":"2482 E 123rd Way Denver CO 80241",
+    "addr:housenumber":"2482",
+    "addr:postcode":"80241",
+    "addr:street":"E 123Rd Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.957473,39.920856,-104.957473,39.920856",
     "geom:latitude":39.920856,
     "geom:longitude":-104.957473,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553633
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7XNIJGyT0SqklSsV5gfWcY_39.920856_-104.957473@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443875,
-    "wof:geomhash":"558b4c9af814763b94d71ef5ff129184",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d78fa6dd0adece84a1650e5b9aef4a3a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553633,
+            "region_id":85688603,
+            "venue_id":823684085
+        }
+    ],
     "wof:id":823684085,
-    "wof:lastmodified":1466418387,
+    "wof:lastmodified":1492121338,
     "wof:name":"Salmon Commercial Plumbing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553633,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

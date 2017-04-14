@@ -2,9 +2,14 @@
   "id": 824170489,
   "type": "Feature",
   "properties": {
+    "addr:full":"9628 Race Way Denver CO 80229",
+    "addr:housenumber":"9628",
+    "addr:postcode":"80229",
+    "addr:street":"Race Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.962778,39.870745,-104.962778,39.870745",
     "geom:latitude":39.870745,
     "geom:longitude":-104.962778,
@@ -29,19 +34,36 @@
         "design"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3PseCgTPwy7VZtgVq812Kh_39.870745_-104.962778@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456698,
-    "wof:geomhash":"61cefeb47bca1b61bfce15b79dff10b8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"743ff90599d5744f29965fc09b7287dc",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":824170489
+        }
+    ],
     "wof:id":824170489,
-    "wof:lastmodified":1466417956,
+    "wof:lastmodified":1492128813,
     "wof:name":"Pro Image",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

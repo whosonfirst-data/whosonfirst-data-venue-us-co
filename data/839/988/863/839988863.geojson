@@ -2,9 +2,14 @@
   "id": 839988863,
   "type": "Feature",
   "properties": {
+    "addr:full":"10 E 120th Ave Denver CO 80233",
+    "addr:housenumber":"10",
+    "addr:postcode":"80233",
+    "addr:street":"E 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.988203,39.912677,-104.988203,39.912677",
     "geom:latitude":39.912677,
     "geom:longitude":-104.988203,
@@ -31,19 +36,36 @@
         "burger"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553905
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3vSflNOH0eNvV2CO5IqNfE_39.912677_-104.988203@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460770,
-    "wof:geomhash":"3290a9bfa962949a625cc0885b97f279",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f028f05f88dc5fd0f4beacbcb065c6d3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553905,
+            "region_id":85688603,
+            "venue_id":839988863
+        }
+    ],
     "wof:id":839988863,
-    "wof:lastmodified":1466417459,
+    "wof:lastmodified":1492112815,
     "wof:name":"Damon's Grill",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553905,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

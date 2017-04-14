@@ -2,9 +2,14 @@
   "id": 823925989,
   "type": "Feature",
   "properties": {
+    "addr:full":"1410 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"1410",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.552148,39.077466,-108.552148,39.077466",
     "geom:latitude":39.077466,
     "geom:longitude":-108.552148,
@@ -28,19 +33,36 @@
         "furniture"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2HpmmOd7zRdinb79P0wVt5_39.077466_-108.552148@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450145,
-    "wof:geomhash":"9c33568993078ba0ce26f8212506fefb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c8c202106105b7e5d54bc2a52dafbbf1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554893,
+            "region_id":85688603,
+            "venue_id":823925989
+        }
+    ],
     "wof:id":823925989,
-    "wof:lastmodified":1466420462,
+    "wof:lastmodified":1492126360,
     "wof:name":"Rental-Mart",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823873859,
   "type": "Feature",
   "properties": {
+    "addr:full":"10361 Cook Way Denver CO 80229",
+    "addr:housenumber":"10361",
+    "addr:postcode":"80229",
+    "addr:street":"Cook Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.948249,39.882656,-104.948249,39.882656",
     "geom:latitude":39.882656,
     "geom:longitude":-104.948249,
@@ -27,19 +32,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_05KoAN0ewtFSeFUStyAtjH_39.882656_-104.948249@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448823,
-    "wof:geomhash":"70ab42e64d9214367d4e3e2bf88f52e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9704cd2e8433b7d4065acdd3cc412e5b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553783,
+            "region_id":85688603,
+            "venue_id":823873859
+        }
+    ],
     "wof:id":823873859,
-    "wof:lastmodified":1466420001,
+    "wof:lastmodified":1492120480,
     "wof:name":"Usurf Communications",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

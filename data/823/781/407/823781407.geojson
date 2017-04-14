@@ -2,9 +2,14 @@
   "id": 823781407,
   "type": "Feature",
   "properties": {
+    "addr:full":"1201 S Yates St Denver CO 80219",
+    "addr:housenumber":"1201",
+    "addr:postcode":"80219",
+    "addr:street":"S Yates St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.050722,39.693161,-105.050722,39.693161",
     "geom:latitude":39.693161,
     "geom:longitude":-105.050722,
@@ -28,19 +33,38 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0ecf3agPRDK2HWBrezppvU_39.693161_-105.050722@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446126,
-    "wof:geomhash":"1b96a096fb45c7db03ad5f451cc2a4ac",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e384e74a9c9c9a14a1199b2495cd70c7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":823781407
+        }
+    ],
     "wof:id":823781407,
-    "wof:lastmodified":1466419336,
+    "wof:lastmodified":1492118091,
     "wof:name":"Mofo Graphics",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

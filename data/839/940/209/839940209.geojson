@@ -2,9 +2,14 @@
   "id": 839940209,
   "type": "Feature",
   "properties": {
+    "addr:full":"10768 Alcott Way Denver CO 80234",
+    "addr:housenumber":"10768",
+    "addr:postcode":"80234",
+    "addr:street":"Alcott Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018074,39.891479,-105.018074,39.891479",
     "geom:latitude":39.891479,
     "geom:longitude":-105.018074,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553639
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0thEOwkLOVR0FZ46y7ArH0_39.891479_-105.018074@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458505,
-    "wof:geomhash":"815f640d5ea059deffa98f46716e39c2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"722d36e8916a34f3a06b05e8033e4bb4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553639,
+            "region_id":85688603,
+            "venue_id":839940209
+        }
+    ],
     "wof:id":839940209,
-    "wof:lastmodified":1466414868,
+    "wof:lastmodified":1492114252,
     "wof:name":"Tenacity Wine Shop LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553639,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

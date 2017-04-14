@@ -2,9 +2,14 @@
   "id": 823518293,
   "type": "Feature",
   "properties": {
+    "addr:full":"692 N 15th Ave Brighton CO 80601",
+    "addr:housenumber":"692",
+    "addr:postcode":"80601",
+    "addr:street":"N 15Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.804473,39.999267,-104.804473,39.999267",
     "geom:latitude":39.999267,
     "geom:longitude":-104.804473,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553453
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0qyj8S014HXivHQnNdPWdL_39.999267_-104.804473@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439987,
-    "wof:geomhash":"d4d9559c8a82d30ada83bd607ce0631d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b8a64356a084105322387fd2b814c4d9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553453,
+            "region_id":85688603,
+            "venue_id":823518293
+        }
+    ],
     "wof:id":823518293,
-    "wof:lastmodified":1466414718,
+    "wof:lastmodified":1492123291,
     "wof:name":"Dick Jones Plumbing LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553453,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

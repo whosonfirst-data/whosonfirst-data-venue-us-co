@@ -2,9 +2,14 @@
   "id": 823620263,
   "type": "Feature",
   "properties": {
+    "addr:full":"2943 Shelley Dr Grand Junction CO 81503",
+    "addr:housenumber":"2943",
+    "addr:postcode":"81503",
+    "addr:street":"Shelley Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.509741,39.032965,-108.509741,39.032965",
     "geom:latitude":39.032965,
     "geom:longitude":-108.509741,
@@ -29,19 +34,36 @@
         "maintenance"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930463,
+        102085221,
+        420555007
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0mGd5949wvIyhbMre0jEuT_39.032965_-108.509741@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442406,
-    "wof:geomhash":"70171df1332f64345e265bd358f056ff",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e2522f42e9564a3010fcdc477627acbf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930463,
+            "neighbourhood_id":420555007,
+            "region_id":85688603,
+            "venue_id":823620263
+        }
+    ],
     "wof:id":823620263,
-    "wof:lastmodified":1466417446,
+    "wof:lastmodified":1492124009,
     "wof:name":"D & R Lawn & Homecare Maint",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555007,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

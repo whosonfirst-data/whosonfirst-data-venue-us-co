@@ -2,9 +2,14 @@
   "id": 823481187,
   "type": "Feature",
   "properties": {
+    "addr:full":"805 W 1st Ave Broomfield CO 80020",
+    "addr:housenumber":"805",
+    "addr:postcode":"80020",
+    "addr:street":"W 1St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.080555,39.915112,-105.080555,39.915112",
     "geom:latitude":39.915112,
     "geom:longitude":-105.080555,
@@ -31,19 +36,36 @@
         "swimming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554243
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2X3Cl33Ncz09aIVV4kE8rK_39.915112_-105.080555@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439102,
-    "wof:geomhash":"d67188a7fd35c511945e9c39b4780afe",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cec2cb6e03fb9520500b883e7d74c02f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554243,
+            "region_id":85688603,
+            "venue_id":823481187
+        }
+    ],
     "wof:id":823481187,
-    "wof:lastmodified":1466413533,
+    "wof:lastmodified":1492120369,
     "wof:name":"Paradise Pools & Spas",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554243,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

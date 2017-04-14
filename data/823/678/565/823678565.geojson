@@ -2,9 +2,14 @@
   "id": 823678565,
   "type": "Feature",
   "properties": {
+    "addr:full":"5690 Gray St Arvada CO 80002",
+    "addr:housenumber":"5690",
+    "addr:postcode":"80002",
+    "addr:street":"Gray St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.061354,39.800252,-105.061354,39.800252",
     "geom:latitude":39.800252,
     "geom:longitude":-105.061354,
@@ -33,19 +38,34 @@
         "welding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4oxPWG9OUpnleWdq4831rW_39.800252_-105.061354@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443756,
-    "wof:geomhash":"ff4feb8834e4e9839b3b201e2d6b4928",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7251ef8d58134e2a6642eb59e9de2145",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":823678565
+        }
+    ],
     "wof:id":823678565,
-    "wof:lastmodified":1466418359,
+    "wof:lastmodified":1492121417,
     "wof:name":"Hartung's Welding & Iron Works",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

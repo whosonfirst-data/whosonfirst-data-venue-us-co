@@ -2,9 +2,14 @@
   "id": 839935301,
   "type": "Feature",
   "properties": {
+    "addr:full":"6585 W 62nd Pl Arvada CO 80003",
+    "addr:housenumber":"6585",
+    "addr:postcode":"80003",
+    "addr:street":"W 62Nd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067879,39.810158,-105.067879,39.810158",
     "geom:latitude":39.810158,
     "geom:longitude":-105.067879,
@@ -27,19 +32,36 @@
         "animated"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554591
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2UYn6qILtgmcMOtthPPYq4_39.810158_-105.067879@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458248,
-    "wof:geomhash":"eb19f37d842b93050e0fd80299bd4a96",
-    "wof:hierarchy":[],
+    "wof:geomhash":"80e1f3260b4e2c0c0828d4a4247c359a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554591,
+            "region_id":85688603,
+            "venue_id":839935301
+        }
+    ],
     "wof:id":839935301,
-    "wof:lastmodified":1466414361,
+    "wof:lastmodified":1492113221,
     "wof:name":"Gardner Animation Specialists",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554591,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

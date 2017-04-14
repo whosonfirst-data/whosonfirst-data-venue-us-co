@@ -2,9 +2,14 @@
   "id": 824031651,
   "type": "Feature",
   "properties": {
+    "addr:full":"2000 Colorado Blvd Denver CO 80207",
+    "addr:housenumber":"2000",
+    "addr:postcode":"80207",
+    "addr:street":"Colorado Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.940628,39.749242,-104.940628,39.749242",
     "geom:latitude":39.749242,
     "geom:longitude":-104.940628,
@@ -30,12 +35,14 @@
     "sg:website":"www.cmc-group.com",
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108750053,
+        85840547,
         102191575,
+        1108750055,
         85633793,
         85928879,
         102086135,
-        85871323
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -50,15 +57,17 @@
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85871323,
+            "macrohood_id":1108750055,
+            "microhood_id":1108750053,
+            "neighbourhood_id":85840547,
             "region_id":85688603,
             "venue_id":824031651
         }
     ],
     "wof:id":824031651,
-    "wof:lastmodified":1466413904,
+    "wof:lastmodified":1486604475,
     "wof:name":"CMC Group Inc",
-    "wof:parent_id":85871323,
+    "wof:parent_id":1108750053,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

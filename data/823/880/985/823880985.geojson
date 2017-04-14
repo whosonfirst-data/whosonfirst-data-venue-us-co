@@ -2,9 +2,14 @@
   "id": 823880985,
   "type": "Feature",
   "properties": {
+    "addr:full":"5 Benthaven Pl Boulder CO 80305",
+    "addr:housenumber":"5",
+    "addr:postcode":"80305",
+    "addr:street":"Benthaven Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.260508,39.974076,-105.260508,39.974076",
     "geom:latitude":39.974076,
     "geom:longitude":-105.260508,
@@ -27,19 +32,36 @@
         "publishing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554113
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_47ENPq3Je6QJRHxjNyBlbW_39.974076_-105.260508@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448995,
-    "wof:geomhash":"5182fb9cd8a3460b02336daabcac4dba",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1132de57024d29577fe64cc1ed471d83",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554113,
+            "region_id":85688603,
+            "venue_id":823880985
+        }
+    ],
     "wof:id":823880985,
-    "wof:lastmodified":1466420113,
+    "wof:lastmodified":1492116337,
     "wof:name":"Mace Associates",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554113,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

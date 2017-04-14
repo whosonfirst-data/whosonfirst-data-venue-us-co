@@ -2,9 +2,14 @@
   "id": 839954311,
   "type": "Feature",
   "properties": {
+    "addr:full":"141 S 20th Ave Brighton CO 80601",
+    "addr:housenumber":"141",
+    "addr:postcode":"80601",
+    "addr:street":"S 20Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.797841,39.986709,-104.797841,39.986709",
     "geom:latitude":39.986709,
     "geom:longitude":-104.797841,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7T4XTJ0m6uQsvDxK6rPCPT_39.986709_-104.797841@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459367,
-    "wof:geomhash":"72ee96112ac136a601b0fe127f94548d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6740b0e3ed3ca22ddd2bda6acf52d353",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":839954311
+        }
+    ],
     "wof:id":839954311,
-    "wof:lastmodified":1466415413,
+    "wof:lastmodified":1492113885,
     "wof:name":"Spring Hollow Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

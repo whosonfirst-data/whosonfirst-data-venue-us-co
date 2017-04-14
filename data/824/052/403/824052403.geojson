@@ -2,9 +2,14 @@
   "id": 824052403,
   "type": "Feature",
   "properties": {
+    "addr:full":"828 Eldorado Ave Nederland CO 80466",
+    "addr:housenumber":"828",
+    "addr:postcode":"80466",
+    "addr:street":"Eldorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.574617,39.949477,-105.574617,39.949477",
     "geom:latitude":39.949477,
     "geom:longitude":-105.574617,
@@ -27,19 +32,34 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85930685,
+        102085251,
+        85817739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ffPpm7no9nptIfTC7iio0_39.949477_-105.574617@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453219,
-    "wof:geomhash":"70cf5181efd5b2d4757036ce8d75a7eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"811cc19a3a82aa2d425034beb195a1d4",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930685,
+            "neighbourhood_id":85817739,
+            "region_id":85688603,
+            "venue_id":824052403
+        }
+    ],
     "wof:id":824052403,
-    "wof:lastmodified":1466414255,
+    "wof:lastmodified":1492130507,
     "wof:name":"Cjt Construction Services LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85817739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

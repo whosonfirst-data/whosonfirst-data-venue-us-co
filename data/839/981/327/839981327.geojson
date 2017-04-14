@@ -2,9 +2,14 @@
   "id": 839981327,
   "type": "Feature",
   "properties": {
+    "addr:full":"5110 Morrison Rd Denver CO 80219",
+    "addr:housenumber":"5110",
+    "addr:postcode":"80219",
+    "addr:street":"Morrison Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.052079,39.697629,-105.052079,39.697629",
     "geom:latitude":39.697629,
     "geom:longitude":-105.052079,
@@ -29,7 +34,15 @@
     ],
     "sg:website":"http://www.legion.org",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554315,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_29q8MmFgkmYK2d3CGgko3a_39.697467_-105.052290@1293134755"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463460471,
     "wof:geomhash":"0f078cae527c14fa041fc178a5f0f963",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554315,
+            "region_id":85688603,
+            "venue_id":839981327
+        }
+    ],
     "wof:id":839981327,
-    "wof:lastmodified":1466417016,
+    "wof:lastmodified":1491876273,
     "wof:name":"American Legion",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

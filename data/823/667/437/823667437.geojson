@@ -2,9 +2,14 @@
   "id": 823667437,
   "type": "Feature",
   "properties": {
+    "addr:full":"1542 Cherry St Brighton CO 80601",
+    "addr:housenumber":"1542",
+    "addr:postcode":"80601",
+    "addr:street":"Cherry St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.802108,39.972713,-104.802108,39.972713",
     "geom:latitude":39.972713,
     "geom:longitude":-104.802108,
@@ -28,19 +33,28 @@
         "filing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Y6Fr3cI2nu40jeB7iQKtd_39.972713_-104.802108@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443510,
-    "wof:geomhash":"1bdf451a92ca6b8fd5aa1439eba16754",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a5165b44c91beecd2540b68599953cfc",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553423,
+            "venue_id":823667437
+        }
+    ],
     "wof:id":823667437,
-    "wof:lastmodified":1466418246,
+    "wof:lastmodified":1492127138,
     "wof:name":"Brighton Tax Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

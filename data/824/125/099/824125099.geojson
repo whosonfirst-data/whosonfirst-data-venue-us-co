@@ -2,9 +2,14 @@
   "id": 824125099,
   "type": "Feature",
   "properties": {
+    "addr:full":"350 W 114th Ave Northglenn CO 80234",
+    "addr:housenumber":"350",
+    "addr:postcode":"80234",
+    "addr:street":"W 114Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.992955,39.903221,-104.992955,39.903221",
     "geom:latitude":39.903221,
     "geom:longitude":-104.992955,
@@ -27,19 +32,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553697
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4XS30TiGVAeFlM1yTkrFF3_39.903221_-104.992955@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454938,
-    "wof:geomhash":"3967951e6f3b923701d4ae6cebd2e0cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0ec862f8eda961b92a8e7d259073cdf2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553697,
+            "region_id":85688603,
+            "venue_id":824125099
+        }
+    ],
     "wof:id":824125099,
-    "wof:lastmodified":1466415858,
+    "wof:lastmodified":1492132724,
     "wof:name":"Greens Of Northglenn",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553697,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

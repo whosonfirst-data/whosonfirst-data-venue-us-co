@@ -2,9 +2,14 @@
   "id": 824123053,
   "type": "Feature",
   "properties": {
+    "addr:full":"2211 Eppinger Blvd Denver CO 80229",
+    "addr:housenumber":"",
+    "addr:postcode":"2211;80229",
+    "addr:street":"Eppinger Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959136,39.866615,-104.959136,39.866615",
     "geom:latitude":39.866615,
     "geom:longitude":-104.959136,
@@ -27,19 +32,36 @@
         "center"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_75HmXEQni83xoO6bBz6S9E_39.866615_-104.959136@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454839,
-    "wof:geomhash":"f10640eddde29b5cefcaf746cd090ea9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d12b371a7678b2b25b20fdf0bf957e1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":824123053
+        }
+    ],
     "wof:id":824123053,
-    "wof:lastmodified":1466415778,
+    "wof:lastmodified":1492128875,
     "wof:name":"Thornton City Government",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

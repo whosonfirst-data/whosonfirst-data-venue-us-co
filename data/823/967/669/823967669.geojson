@@ -2,9 +2,14 @@
   "id": 823967669,
   "type": "Feature",
   "properties": {
+    "addr:full":"33 E 5th St Cortez CO 81321",
+    "addr:housenumber":"33",
+    "addr:postcode":"81321",
+    "addr:street":"E 5Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.584816,37.343316,-108.584816,37.343316",
     "geom:latitude":37.343316,
     "geom:longitude":-108.584816,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_274OcdhYcSylKj1hd6eVy5_37.343316_-108.584816@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451207,
-    "wof:geomhash":"8cddbfe057516ba0c3e6e3529cbaaacf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6c587c9c2eb3bf17667d8babf7780069",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823967669
+        }
+    ],
     "wof:id":823967669,
-    "wof:lastmodified":1466420779,
+    "wof:lastmodified":1492121440,
     "wof:name":"Schmalz Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

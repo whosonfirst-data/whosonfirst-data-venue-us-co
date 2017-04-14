@@ -2,9 +2,14 @@
   "id": 823796319,
   "type": "Feature",
   "properties": {
+    "addr:full":"2960 D Rd Grand Junction CO 81504",
+    "addr:housenumber":"2960",
+    "addr:postcode":"81504",
+    "addr:street":"D Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.504147,39.062833,-108.504147,39.062833",
     "geom:latitude":39.062833,
     "geom:longitude":-108.504147,
@@ -27,19 +32,47 @@
         "special"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901,
+        85929587,
+        420554883
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3LNGFncmLSIlit0sbPiks6_39.062833_-108.504147@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446614,
-    "wof:geomhash":"a11cd4e76c3e0060e8d4c9b17b2b237e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4339824cf56ae14d83df50d74fd6a97",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823796319
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554883,
+            "region_id":85688603,
+            "venue_id":823796319
+        }
+    ],
     "wof:id":823796319,
-    "wof:lastmodified":1466419191,
+    "wof:lastmodified":1492127164,
     "wof:name":"J & E Rv Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

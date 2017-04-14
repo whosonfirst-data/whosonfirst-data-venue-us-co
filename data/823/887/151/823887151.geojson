@@ -2,9 +2,14 @@
   "id": 823887151,
   "type": "Feature",
   "properties": {
+    "addr:full":"918 N 1st St Grand Junction CO 81501",
+    "addr:housenumber":"918",
+    "addr:postcode":"81501",
+    "addr:street":"N 1St St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.570788,39.07622,-108.570788,39.07622",
     "geom:latitude":39.07622,
     "geom:longitude":-108.570788,
@@ -27,19 +32,36 @@
         "dentist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3mqJUeGxnAEoEkVIH1nJqA_39.076220_-108.570788@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449128,
-    "wof:geomhash":"1bd30ea4ad156b6005641aca89ae1cd2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f99f53f7e1f16b98b7fb441fee2966ec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823887151
+        }
+    ],
     "wof:id":823887151,
-    "wof:lastmodified":1466420009,
+    "wof:lastmodified":1492122490,
     "wof:name":"Bruce Marc Ricks DDS",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

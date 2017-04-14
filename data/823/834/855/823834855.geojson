@@ -2,9 +2,14 @@
   "id": 823834855,
   "type": "Feature",
   "properties": {
+    "addr:full":"29251 Hwy 160 Durango CO 81301",
+    "addr:housenumber":"29251",
+    "addr:postcode":"co 81301",
+    "addr:street":"Hwy 160",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.817515,37.227042,-107.817515,37.227042",
     "geom:latitude":37.227042,
     "geom:longitude":-107.817515,
@@ -28,19 +33,34 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554643,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5gwGIfMItHgVRs7gt5J5f4_37.227042_-107.817515@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447756,
-    "wof:geomhash":"965dc3a34d9ba33bdaf4de00c1f46c9c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4b206a4d02593fd97c9f5217be43fb26",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554643,
+            "venue_id":823834855
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823834855
+        }
+    ],
     "wof:id":823834855,
-    "wof:lastmodified":1466419678,
+    "wof:lastmodified":1492123312,
     "wof:name":"A-1 Plumbing & Heating Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

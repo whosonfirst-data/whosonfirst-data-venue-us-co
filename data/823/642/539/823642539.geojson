@@ -2,9 +2,14 @@
   "id": 823642539,
   "type": "Feature",
   "properties": {
+    "addr:full":"120 S Linden St Cortez CO 81321",
+    "addr:housenumber":"120",
+    "addr:postcode":"81321",
+    "addr:street":"S Linden St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.589026,37.347294,-108.589026,37.347294",
     "geom:latitude":37.347294,
     "geom:longitude":-108.589026,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_17jIUtwQys2WHym67UjfUi_37.347294_-108.589026@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442912,
-    "wof:geomhash":"c01c99eddb9e148fc42ff7ada65d9d99",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e2322d40a308abe369d8718626923146",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823642539
+        }
+    ],
     "wof:id":823642539,
-    "wof:lastmodified":1466417840,
+    "wof:lastmodified":1492126393,
     "wof:name":"First Assembly Of God Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

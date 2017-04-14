@@ -2,9 +2,14 @@
   "id": 320008159,
   "type": "Feature",
   "properties": {
+    "addr:full":"PO Box 1385 Denver CO 80201",
+    "addr:housenumber":"po",
+    "addr:postcode":"80201",
+    "addr:street":"Box 1385",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.989777,39.750619,-104.989777,39.750619",
     "geom:latitude":39.750619,
     "geom:longitude":-104.989777,
@@ -28,11 +33,14 @@
     ],
     "src:geom":"simplegeo",
     "wof:belongsto":[
-        85688603,
+        1108748895,
+        85871289,
+        102191575,
+        1108750025,
         85633793,
         85928879,
         102086135,
-        85868409
+        85688603
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -42,19 +50,21 @@
     "wof:geomhash":"cbf513cd8dfc4fd117d6c2e014933ba3",
     "wof:hierarchy":[
         {
-            "continent_id":-1,
+            "continent_id":102191575,
             "country_id":85633793,
             "county_id":102086135,
             "locality_id":85928879,
-            "neighbourhood_id":85868409,
+            "macrohood_id":1108750025,
+            "microhood_id":1108748895,
+            "neighbourhood_id":85871289,
             "region_id":85688603,
             "venue_id":320008159
         }
     ],
     "wof:id":320008159,
-    "wof:lastmodified":1466412307,
+    "wof:lastmodified":1486593909,
     "wof:name":"Abacus",
-    "wof:parent_id":85868409,
+    "wof:parent_id":1108748895,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

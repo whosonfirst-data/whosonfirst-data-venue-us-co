@@ -2,9 +2,14 @@
   "id": 823836659,
   "type": "Feature",
   "properties": {
+    "addr:full":"9224 Clay St Denver CO 80260",
+    "addr:housenumber":"9224",
+    "addr:postcode":"80260",
+    "addr:street":"Clay St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.021258,39.864862,-105.021258,39.864862",
     "geom:latitude":39.864862,
     "geom:longitude":-105.021258,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553711
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_18vLrRxZM3WvHaV7YKdKR1_39.864862_-105.021258@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447818,
-    "wof:geomhash":"1adfc9dd4f14a44e0546e1d4aa3bf0b5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"68e48c405810c0c32fbfdbfffeea2140",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553711,
+            "region_id":85688603,
+            "venue_id":823836659
+        }
+    ],
     "wof:id":823836659,
-    "wof:lastmodified":1466419704,
+    "wof:lastmodified":1492126250,
     "wof:name":"New Look Painting",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553711,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

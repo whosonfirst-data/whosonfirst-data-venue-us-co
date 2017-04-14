@@ -2,9 +2,14 @@
   "id": 823513033,
   "type": "Feature",
   "properties": {
+    "addr:full":"7561 Meade Way Westminster CO 80030",
+    "addr:housenumber":"7561",
+    "addr:postcode":"80030",
+    "addr:street":"Meade Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.036255,39.833473,-105.036255,39.833473",
     "geom:latitude":39.833473,
     "geom:longitude":-105.036255,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553531
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0WlE0t6M7Tm0Ozg0aHeGDB_39.833473_-105.036255@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439864,
-    "wof:geomhash":"f39ba06c3747c0179e4696ae4a38904b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"50b2cb5048d64fbe9cd6c394d21c95c5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553531,
+            "region_id":85688603,
+            "venue_id":823513033
+        }
+    ],
     "wof:id":823513033,
-    "wof:lastmodified":1466414739,
+    "wof:lastmodified":1492124356,
     "wof:name":"Control Temp of Colorado",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553531,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

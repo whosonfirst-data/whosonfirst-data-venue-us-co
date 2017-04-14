@@ -2,9 +2,14 @@
   "id": 839929249,
   "type": "Feature",
   "properties": {
+    "addr:full":"88 Pine Ln Bayfield CO 81122",
+    "addr:housenumber":"88",
+    "addr:postcode":"81122",
+    "addr:street":"Pine Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.549063,37.452172,-107.549063,37.452172",
     "geom:latitude":37.452172,
     "geom:longitude":-107.549063,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554683
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Hqm9I7qV78weiLrZj7VX2_37.452172_-107.549063@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457926,
-    "wof:geomhash":"e7fa4bc275ff05a6a68133c3b3b1a041",
-    "wof:hierarchy":[],
+    "wof:geomhash":"63a63b9dafbc593ca0a0318740a6d844",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554683,
+            "venue_id":839929249
+        }
+    ],
     "wof:id":839929249,
-    "wof:lastmodified":1466413880,
+    "wof:lastmodified":1492112914,
     "wof:name":"West Side Plumbing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554683,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

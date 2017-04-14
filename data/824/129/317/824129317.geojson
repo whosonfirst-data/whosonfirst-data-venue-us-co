@@ -2,9 +2,14 @@
   "id": 824129317,
   "type": "Feature",
   "properties": {
+    "addr:full":"10178 Grove Loop Westminster CO 80031",
+    "addr:housenumber":"10178",
+    "addr:postcode":"80031",
+    "addr:street":"Grove Loop",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.026983,39.881179,-105.026983,39.881179",
     "geom:latitude":39.881179,
     "geom:longitude":-105.026983,
@@ -27,19 +32,36 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553551
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1LVPOs0puYDdrUhibVByH6_39.881179_-105.026983@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455114,
-    "wof:geomhash":"d4117729d40f69bca979684192c3003b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9aa052ae665c44f91c1d1940dc52bab1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553551,
+            "region_id":85688603,
+            "venue_id":824129317
+        }
+    ],
     "wof:id":824129317,
-    "wof:lastmodified":1466416016,
+    "wof:lastmodified":1492131744,
     "wof:name":"Gardens From Heart",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553551,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

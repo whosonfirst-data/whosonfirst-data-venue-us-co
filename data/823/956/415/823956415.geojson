@@ -2,9 +2,14 @@
   "id": 823956415,
   "type": "Feature",
   "properties": {
+    "addr:full":"2877 Mesa Ave Grand Junction CO 81501",
+    "addr:housenumber":"2877",
+    "addr:postcode":"81501",
+    "addr:street":"Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.517671,39.082682,-108.517671,39.082682",
     "geom:latitude":39.082682,
     "geom:longitude":-108.517671,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0QY6GCrB3Z4twqveBMVFo4_39.082682_-108.517671@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450912,
-    "wof:geomhash":"8084cdf6955cc2ca64ddfe3d42b84ae1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4d0c4ab76759115c30cc98cf5b35641f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554879,
+            "region_id":85688603,
+            "venue_id":823956415
+        }
+    ],
     "wof:id":823956415,
-    "wof:lastmodified":1466420741,
+    "wof:lastmodified":1492119998,
     "wof:name":"K&R Drywall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839987381,
   "type": "Feature",
   "properties": {
+    "addr:full":"5900 S University Blvd Littleton CO 80121",
+    "addr:housenumber":"5900",
+    "addr:postcode":"80121",
+    "addr:street":"S University Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959272,39.609245,-104.959272,39.609245",
     "geom:latitude":39.609245,
     "geom:longitude":-104.959272,
@@ -30,17 +35,32 @@
         "diner"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929817,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0dquv38VrHiThC2I4jylaj_39.609245_-104.959272@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460721,
-    "wof:geomhash":"a7c78d8af8cb1511844fadb19b886283",
-    "wof:hierarchy":[],
+    "wof:geomhash":"540c0df255580754be273aafa7581850",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929817,
+            "region_id":85688603,
+            "venue_id":839987381
+        }
+    ],
     "wof:id":839987381,
-    "wof:lastmodified":1466417381,
+    "wof:lastmodified":1492113704,
     "wof:name":"The Original Pancake House",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

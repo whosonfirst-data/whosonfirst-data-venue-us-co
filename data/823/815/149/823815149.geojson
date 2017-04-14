@@ -2,9 +2,14 @@
   "id": 823815149,
   "type": "Feature",
   "properties": {
+    "addr:full":"13915 Dogleg Ln Broomfield CO 80023",
+    "addr:housenumber":"13915",
+    "addr:postcode":"80023",
+    "addr:street":"Dogleg Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.036907,39.948922,-105.036907,39.948922",
     "geom:latitude":39.948922,
     "geom:longitude":-105.036907,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554195
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5mcdApazn75PVcCPwYzZvL_39.948922_-105.036907@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447147,
-    "wof:geomhash":"1f9fe3cfc65b83aa10cc1d8c23e231e6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"84187d1bf994576eb84acc0812423cd2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554195,
+            "region_id":85688603,
+            "venue_id":823815149
+        }
+    ],
     "wof:id":823815149,
-    "wof:lastmodified":1466419476,
+    "wof:lastmodified":1492122350,
     "wof:name":"Lights On Colorado",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554195,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

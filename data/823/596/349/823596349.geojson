@@ -2,9 +2,14 @@
   "id": 823596349,
   "type": "Feature",
   "properties": {
+    "addr:full":"565 Mohawk Dr Boulder CO 80303",
+    "addr:housenumber":"565",
+    "addr:postcode":"80303",
+    "addr:street":"Mohawk Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.236493,39.996314,-105.236493,39.996314",
     "geom:latitude":39.996314,
     "geom:longitude":-105.236493,
@@ -28,19 +33,46 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420554127,
+        85876447
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5SKm9AseiV0NRu9RamrCJC_39.996314_-105.236493@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441800,
-    "wof:geomhash":"bc423398ee0f13adc924f42aee306ab8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4ca4145823ab06554985408d8309636c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420554127,
+            "region_id":85688603,
+            "venue_id":823596349
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876447,
+            "region_id":85688603,
+            "venue_id":823596349
+        }
+    ],
     "wof:id":823596349,
-    "wof:lastmodified":1466417045,
+    "wof:lastmodified":1492123410,
     "wof:name":"Chateau Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

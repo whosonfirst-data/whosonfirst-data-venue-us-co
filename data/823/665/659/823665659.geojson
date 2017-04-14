@@ -2,9 +2,14 @@
   "id": 823665659,
   "type": "Feature",
   "properties": {
+    "addr:full":"444 Grand Mesa Ave Grand Junction CO 81503",
+    "addr:housenumber":"444",
+    "addr:postcode":"81503",
+    "addr:street":"Grand Mesa Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.565325,39.052064,-108.565325,39.052064",
     "geom:latitude":39.052064,
     "geom:longitude":-108.565325,
@@ -27,19 +32,36 @@
         "custom"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554783
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_75u4cN8W6rE6l7E4XY244F_39.052064_-108.565325@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443467,
-    "wof:geomhash":"beea820a2e33d8b2b6f81558fa7708c0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2a3d1f6d40fe6f448f62a1ce60477b45",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554783,
+            "region_id":85688603,
+            "venue_id":823665659
+        }
+    ],
     "wof:id":823665659,
-    "wof:lastmodified":1466418259,
+    "wof:lastmodified":1492123484,
     "wof:name":"T & B Custom Cabinets",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554783,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

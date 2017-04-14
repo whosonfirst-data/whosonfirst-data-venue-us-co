@@ -2,9 +2,14 @@
   "id": 823517567,
   "type": "Feature",
   "properties": {
+    "addr:full":"3049 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"3049;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.857092,37.3463,-107.857092,37.3463",
     "geom:latitude":37.3463,
     "geom:longitude":-107.857092,
@@ -28,19 +33,28 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6ep0jGKzW44uWpC6JR3l1Y_37.346300_-107.857092@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439969,
-    "wof:geomhash":"4b69b85238e721c9f134c6113c0a963c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d48baf01a3f588d54eeed41d120c3852",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823517567
+        }
+    ],
     "wof:id":823517567,
-    "wof:lastmodified":1466414659,
+    "wof:lastmodified":1492124521,
     "wof:name":"Hackler Automotive",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

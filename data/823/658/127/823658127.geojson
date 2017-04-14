@@ -2,9 +2,14 @@
   "id": 823658127,
   "type": "Feature",
   "properties": {
+    "addr:full":"401 Main St Frisco CO 80443",
+    "addr:housenumber":"401",
+    "addr:postcode":"80443",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.109993,39.575187,-106.109993,39.575187",
     "geom:latitude":39.575187,
     "geom:longitude":-106.109993,
@@ -28,17 +33,32 @@
         "barber"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929285,
+        102084025
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6sGCzDwUbSxjtCAA16vpTw_39.575187_-106.109993@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443274,
-    "wof:geomhash":"d423df96250a161ce3c09b786f4ed421",
-    "wof:hierarchy":[],
+    "wof:geomhash":"59a358d475d1100174e1190029adaab1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084025,
+            "locality_id":85929285,
+            "region_id":85688603,
+            "venue_id":823658127
+        }
+    ],
     "wof:id":823658127,
-    "wof:lastmodified":1466418107,
+    "wof:lastmodified":1492120251,
     "wof:name":"Western Sage",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

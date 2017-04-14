@@ -2,9 +2,14 @@
   "id": 824001279,
   "type": "Feature",
   "properties": {
+    "addr:full":"1600 Chester St Aurora CO 80010",
+    "addr:housenumber":"1600",
+    "addr:postcode":"80010",
+    "addr:street":"Chester St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.878741,39.743781,-104.878741,39.743781",
     "geom:latitude":39.743781,
     "geom:longitude":-104.878741,
@@ -27,19 +32,46 @@
         "retail"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553609,
+        420553933
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_48JBCooDLp9Kji5kkDj5cF_39.743781_-104.878741@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452016,
-    "wof:geomhash":"c1193d492ce36b2bd2d965dcbc9e5a74",
-    "wof:hierarchy":[],
+    "wof:geomhash":"746d1aa7ce1137eb427baa02865b0b9b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553609,
+            "region_id":85688603,
+            "venue_id":824001279
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553933,
+            "region_id":85688603,
+            "venue_id":824001279
+        }
+    ],
     "wof:id":824001279,
-    "wof:lastmodified":1466412067,
+    "wof:lastmodified":1492130100,
     "wof:name":"Rocky Mountain Hot Dogs LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

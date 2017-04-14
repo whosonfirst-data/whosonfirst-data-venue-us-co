@@ -2,9 +2,14 @@
   "id": 823631209,
   "type": "Feature",
   "properties": {
+    "addr:full":"1800 W Belleview Ave Littleton CO 80120",
+    "addr:housenumber":"1800",
+    "addr:postcode":"80120",
+    "addr:street":"W Belleview Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.009248,39.624047,-105.009248,39.624047",
     "geom:latitude":39.624047,
     "geom:longitude":-105.009248,
@@ -28,17 +33,32 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929241,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1WAAIfiiuk733qCDK801UU_39.624047_-105.009248@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463442653,
-    "wof:geomhash":"cd8ebce3236d32772de280cd46cc6211",
-    "wof:hierarchy":[],
+    "wof:geomhash":"65543b1b18848762456855da1464beed",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929241,
+            "region_id":85688603,
+            "venue_id":823631209
+        }
+    ],
     "wof:id":823631209,
-    "wof:lastmodified":1466417542,
+    "wof:lastmodified":1492117174,
     "wof:name":"Littleton Sanitary Storm Sewer",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

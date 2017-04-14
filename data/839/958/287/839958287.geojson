@@ -2,9 +2,14 @@
   "id": 839958287,
   "type": "Feature",
   "properties": {
+    "addr:full":"2800 W 103rd Ave Denver CO 80260",
+    "addr:housenumber":"2800",
+    "addr:postcode":"80260",
+    "addr:street":"W 103Rd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018952,39.882792,-105.018952,39.882792",
     "geom:latitude":39.882792,
     "geom:longitude":-105.018952,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553767
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6AJ9Pao33taAEjmwbddZTt_39.882792_-105.018952@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459545,
-    "wof:geomhash":"035c61adff71e806c6efbd9910eb9e71",
-    "wof:hierarchy":[],
+    "wof:geomhash":"854e57832fe9945e1e1842ae9737ceff",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553767,
+            "region_id":85688603,
+            "venue_id":839958287
+        }
+    ],
     "wof:id":839958287,
-    "wof:lastmodified":1466415651,
+    "wof:lastmodified":1492113266,
     "wof:name":"U S Exterior",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553767,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

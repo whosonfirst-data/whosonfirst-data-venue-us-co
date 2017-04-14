@@ -2,9 +2,14 @@
   "id": 839913567,
   "type": "Feature",
   "properties": {
+    "addr:full":"7150 Pecos St Denver CO 80221",
+    "addr:housenumber":"7150",
+    "addr:postcode":"80221",
+    "addr:street":"Pecos St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.006025,39.826936,-105.006025,39.826936",
     "geom:latitude":39.826936,
     "geom:longitude":-105.006025,
@@ -28,19 +33,36 @@
         "thrift"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6hIqNbejG0YxR8Sys6rHCH_39.826936_-105.006025@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457243,
-    "wof:geomhash":"4a9bce5add0988026f6eda5ac7ead21f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dde2183af5329851aa3d99944c90047f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":839913567
+        }
+    ],
     "wof:id":839913567,
-    "wof:lastmodified":1466412663,
+    "wof:lastmodified":1492113502,
     "wof:name":"Disabled American Veterans",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

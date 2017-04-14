@@ -2,9 +2,14 @@
   "id": 839977527,
   "type": "Feature",
   "properties": {
+    "addr:full":"13510 Co Rd 76 Parlin CO 81239",
+    "addr:housenumber":"13510;76",
+    "addr:postcode":"81239",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.532276,38.59814,-106.532276,38.59814",
     "geom:latitude":38.59814,
     "geom:longitude":-106.532276,
@@ -27,19 +32,28 @@
         "resort"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554463
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3fN8jZLSZ26TC18kCREtQG_38.598140_-106.532276@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460329,
-    "wof:geomhash":"a8cf30e7a543e8a2c095f00242e62da2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ae7e80f19dc4380cf389cb6a6edf1c4c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554463,
+            "venue_id":839977527
+        }
+    ],
     "wof:id":839977527,
-    "wof:lastmodified":1466416787,
+    "wof:lastmodified":1492113781,
     "wof:name":"Quartz Creek Cabins",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554463,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823548293,
   "type": "Feature",
   "properties": {
+    "addr:full":"24 Pine Brook Rd Boulder CO 80304",
+    "addr:housenumber":"24",
+    "addr:postcode":"80304",
+    "addr:street":"Pine Brook Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.31237,40.051198,-105.31237,40.051198",
     "geom:latitude":40.051198,
     "geom:longitude":-105.31237,
@@ -30,7 +35,10 @@
         85841683,
         102085251,
         102191575,
+        85929877,
+        85895979,
         85930777,
+        85895977,
         85847813
     ],
     "wof:breaches":[],
@@ -39,12 +47,30 @@
     },
     "wof:country":"US",
     "wof:created":1463440659,
-    "wof:geomhash":"76d0775ee263cb25a110f4ba122d2134",
+    "wof:geomhash":"a166da2f7801aaf926f5f961bc55871e",
     "wof:hierarchy":[
         {
             "country_id":85633793,
             "county_id":102085251,
             "neighbourhood_id":85841683,
+            "region_id":85688603,
+            "venue_id":823548293
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85895979,
+            "region_id":85688603,
+            "venue_id":823548293
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930777,
+            "neighbourhood_id":85895977,
             "region_id":85688603,
             "venue_id":823548293
         },
@@ -59,9 +85,9 @@
         }
     ],
     "wof:id":823548293,
-    "wof:lastmodified":1466415683,
+    "wof:lastmodified":1492126413,
     "wof:name":"Old Wadsworth LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

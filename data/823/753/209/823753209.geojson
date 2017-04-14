@@ -2,9 +2,14 @@
   "id": 823753209,
   "type": "Feature",
   "properties": {
+    "addr:full":"6899 Grove St Denver CO 80221",
+    "addr:housenumber":"6899",
+    "addr:postcode":"80221",
+    "addr:street":"Grove St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.027699,39.820015,-105.027699,39.820015",
     "geom:latitude":39.820015,
     "geom:longitude":-105.027699,
@@ -32,19 +37,36 @@
         "utility"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_34KJ7jyfSqij1ucJQF7dCc_39.820015_-105.027699@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445454,
-    "wof:geomhash":"ed009d8f0feebe7448701e12e853e151",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d45a714407c9e21debbdce3691c3dae0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553739,
+            "region_id":85688603,
+            "venue_id":823753209
+        }
+    ],
     "wof:id":823753209,
-    "wof:lastmodified":1466418990,
+    "wof:lastmodified":1492120225,
     "wof:name":"Daniels Design Corporation",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

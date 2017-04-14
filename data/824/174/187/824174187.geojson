@@ -2,9 +2,14 @@
   "id": 824174187,
   "type": "Feature",
   "properties": {
+    "addr:full":"129 N 5th Ave Brighton CO 80601",
+    "addr:housenumber":"129",
+    "addr:postcode":"80601",
+    "addr:street":"N 5Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.816849,39.989918,-104.816849,39.989918",
     "geom:latitude":39.989918,
     "geom:longitude":-104.816849,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7HUrG0s9t6UhDRrJjyzaSR_39.989918_-104.816849@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456847,
-    "wof:geomhash":"e01e8740e6282b36092bd53b2d22a022",
-    "wof:hierarchy":[],
+    "wof:geomhash":"97e71968a2d3003eb460df183b1f6632",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":824174187
+        }
+    ],
     "wof:id":824174187,
-    "wof:lastmodified":1466418055,
+    "wof:lastmodified":1492133227,
     "wof:name":"Luna Trucking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

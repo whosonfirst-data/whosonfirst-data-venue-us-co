@@ -2,9 +2,14 @@
   "id": 839989283,
   "type": "Feature",
   "properties": {
+    "addr:full":"1155 Canyon Blvd Boulder CO 80302",
+    "addr:housenumber":"1155",
+    "addr:postcode":"80302",
+    "addr:street":"Canyon Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.2799,40.015797,-105.2799,40.015797",
     "geom:latitude":40.015797,
     "geom:longitude":-105.2799,
@@ -28,7 +33,14 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Yl8g2FvL6JQQANwYhBL0k_40.015797_-105.279900@1299784598"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463460782,
     "wof:geomhash":"5d676926cf370c3962f9814598ce9809",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":839989283
+        }
+    ],
     "wof:id":839989283,
-    "wof:lastmodified":1466417373,
+    "wof:lastmodified":1491897915,
     "wof:name":"Trios Grille and Wine Bar",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

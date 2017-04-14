@@ -2,9 +2,14 @@
   "id": 823472745,
   "type": "Feature",
   "properties": {
+    "addr:full":"4165 Cooper Ct Boulder CO 80303",
+    "addr:housenumber":"4165",
+    "addr:postcode":"80303",
+    "addr:street":"Cooper Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.242417,40.002333,-105.242417,40.002333",
     "geom:latitude":40.002333,
     "geom:longitude":-105.242417,
@@ -27,19 +32,36 @@
         "bakery"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5BHmICXrShen3DwPVOvFFo_40.002333_-105.242417@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438891,
-    "wof:geomhash":"4307b974e4ebd38c8f692e811e70492d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5490ca0406bbb378120244edf1429fbf",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":823472745
+        }
+    ],
     "wof:id":823472745,
-    "wof:lastmodified":1466412615,
+    "wof:lastmodified":1492120302,
     "wof:name":"Boulder Pita Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

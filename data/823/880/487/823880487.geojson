@@ -2,9 +2,14 @@
   "id": 823880487,
   "type": "Feature",
   "properties": {
+    "addr:full":"1209 11th Ave Greeley CO 80631",
+    "addr:housenumber":"1209",
+    "addr:postcode":"80631",
+    "addr:street":"11Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.696362,40.419249,-104.696362,40.419249",
     "geom:latitude":40.419249,
     "geom:longitude":-104.696362,
@@ -31,12 +36,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
         85929071,
         102086117,
-        85827241,
-        85835965
+        85835965,
+        102191575,
+        85827241
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -44,8 +49,16 @@
     },
     "wof:country":"US",
     "wof:created":1463448979,
-    "wof:geomhash":"a160839d0c3d35149ab987e9636aa6b9",
+    "wof:geomhash":"d65469d9379f6d8a838c38816f634abe",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85929071,
+            "neighbourhood_id":85835965,
+            "region_id":85688603,
+            "venue_id":823880487
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -54,20 +67,12 @@
             "neighbourhood_id":85827241,
             "region_id":85688603,
             "venue_id":823880487
-        },
-        {
-            "country_id":85633793,
-            "county_id":102086117,
-            "locality_id":85929071,
-            "neighbourhood_id":85835965,
-            "region_id":85688603,
-            "venue_id":823880487
         }
     ],
     "wof:id":823880487,
-    "wof:lastmodified":1466420032,
+    "wof:lastmodified":1492116339,
     "wof:name":"Gold Mechanics The",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

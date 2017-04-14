@@ -2,9 +2,14 @@
   "id": 823968577,
   "type": "Feature",
   "properties": {
+    "addr:full":"11570 Ash Cir Denver CO 80233",
+    "addr:housenumber":"11570",
+    "addr:postcode":"80233",
+    "addr:street":"Ash Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.934899,39.90626,-104.934899,39.90626",
     "geom:latitude":39.90626,
     "geom:longitude":-104.934899,
@@ -27,19 +32,36 @@
         "passenger"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553907
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3WMI22Jnm9WWGt7PzGGMWy_39.906260_-104.934899@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451225,
-    "wof:geomhash":"c8aa8e473ae4bea03a7fa1f641028591",
-    "wof:hierarchy":[],
+    "wof:geomhash":"18e3be639f38e1c53241b5c25f3af9cb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":823968577
+        }
+    ],
     "wof:id":823968577,
-    "wof:lastmodified":1466421051,
+    "wof:lastmodified":1492127755,
     "wof:name":"Key Limousine",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553907,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

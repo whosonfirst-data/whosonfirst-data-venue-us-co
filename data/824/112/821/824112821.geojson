@@ -2,9 +2,14 @@
   "id": 824112821,
   "type": "Feature",
   "properties": {
+    "addr:full":"1161 S Fillmore St Denver CO 80210",
+    "addr:housenumber":"1161",
+    "addr:postcode":"80210",
+    "addr:street":"S Fillmore St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.953591,39.695876,-104.953591,39.695876",
     "geom:latitude":39.695876,
     "geom:longitude":-104.953591,
@@ -29,7 +34,15 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871329,
+        102191575,
+        1108750035,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7IXTGsTs5vTb9jZA1J6igR_39.695876_-104.953591@1294083659"
@@ -37,11 +50,22 @@
     "wof:country":"US",
     "wof:created":1463454610,
     "wof:geomhash":"d82382d38e32950ae68f48e3d78ae475",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750035,
+            "neighbourhood_id":85871329,
+            "region_id":85688603,
+            "venue_id":824112821
+        }
+    ],
     "wof:id":824112821,
-    "wof:lastmodified":1466415589,
+    "wof:lastmodified":1491865542,
     "wof:name":"Skytel Mobile Telecom",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871329,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

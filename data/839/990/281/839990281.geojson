@@ -2,9 +2,14 @@
   "id": 839990281,
   "type": "Feature",
   "properties": {
+    "addr:full":"3400 Lambkin Way Fort Collins CO 80525",
+    "addr:housenumber":"",
+    "addr:postcode":"3400;80525",
+    "addr:street":"Lambkin Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039114,40.541118,-105.039114,40.541118",
     "geom:latitude":40.541118,
     "geom:longitude":-105.039114,
@@ -29,19 +34,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5dYmmjT7a8JAX2PWv4klMt_40.541118_-105.039114@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460821,
-    "wof:geomhash":"ff0bbff9268c3f9126b6d7609339e223",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c20a14b0e0bf10f8eb6cf0e836146193",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":839990281
+        }
+    ],
     "wof:id":839990281,
-    "wof:lastmodified":1466417623,
+    "wof:lastmodified":1492110553,
     "wof:name":"Taco John's",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

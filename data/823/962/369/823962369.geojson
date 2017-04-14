@@ -2,9 +2,14 @@
   "id": 823962369,
   "type": "Feature",
   "properties": {
+    "addr:full":"3086 W 34th Ave Denver CO 80211",
+    "addr:housenumber":"3086",
+    "addr:postcode":"80211",
+    "addr:street":"W 34Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025604,39.764587,-105.025604,39.764587",
     "geom:latitude":39.764587,
     "geom:longitude":-105.025604,
@@ -29,19 +34,38 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871257,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7eRcCrrp6Mja7OzXeZFUVE_39.764587_-105.025604@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451077,
-    "wof:geomhash":"48d47b6fc4de519010f4c95a17c4715a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"45cea280d156abef98b081c78894f76e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871257,
+            "region_id":85688603,
+            "venue_id":823962369
+        }
+    ],
     "wof:id":823962369,
-    "wof:lastmodified":1466420743,
+    "wof:lastmodified":1492120924,
     "wof:name":"Adco Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871257,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

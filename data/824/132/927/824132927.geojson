@@ -2,9 +2,14 @@
   "id": 824132927,
   "type": "Feature",
   "properties": {
+    "addr:full":"12501 Riverdale Rd Brighton CO 80602",
+    "addr:housenumber":"12501",
+    "addr:postcode":"80602",
+    "addr:street":"Riverdale Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.887883,39.921027,-104.887883,39.921027",
     "geom:latitude":39.921027,
     "geom:longitude":-104.887883,
@@ -30,19 +35,28 @@
         "decorator"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553419
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_105brNqlPAKj6IPifglXWo_39.921027_-104.887883@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455251,
-    "wof:geomhash":"b2581081ce05feddb38769c4919b6caa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e8b07223dfa91a2fdaba8a1b8753412a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553419,
+            "venue_id":824132927
+        }
+    ],
     "wof:id":824132927,
-    "wof:lastmodified":1466416252,
+    "wof:lastmodified":1492132560,
     "wof:name":"Interior Design By Marcie",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553419,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

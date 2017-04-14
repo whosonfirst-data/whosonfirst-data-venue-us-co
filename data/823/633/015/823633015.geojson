@@ -2,9 +2,14 @@
   "id": 823633015,
   "type": "Feature",
   "properties": {
+    "addr:full":"392 Cobblestone Dr Colorado Springs CO 80906",
+    "addr:housenumber":"392",
+    "addr:postcode":"80906",
+    "addr:street":"Cobblestone Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.821759,38.77569,-104.821759,38.77569",
     "geom:latitude":38.77569,
     "geom:longitude":-104.821759,
@@ -32,8 +37,10 @@
         85688603,
         102191575,
         85633793,
-        85929457,
+        85930315,
         102086875,
+        85872769,
+        85929457,
         85872781
     ],
     "wof:breaches":[],
@@ -42,8 +49,17 @@
     },
     "wof:country":"US",
     "wof:created":1463442696,
-    "wof:geomhash":"c3bc4c3ec8ad6a21917097cf48ec47ba",
+    "wof:geomhash":"1ac86f8e3dfaff6a7d6510a62c1fdb60",
     "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85930315,
+            "neighbourhood_id":85872769,
+            "region_id":85688603,
+            "venue_id":823633015
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -55,9 +71,9 @@
         }
     ],
     "wof:id":823633015,
-    "wof:lastmodified":1466417697,
+    "wof:lastmodified":1492121604,
     "wof:name":"Unique Solutions",
-    "wof:parent_id":85872781,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

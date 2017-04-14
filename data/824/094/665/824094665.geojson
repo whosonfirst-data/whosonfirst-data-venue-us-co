@@ -2,9 +2,14 @@
   "id": 824094665,
   "type": "Feature",
   "properties": {
+    "addr:full":"1235 Denver Ave Fort Lupton CO 80621",
+    "addr:housenumber":"1235",
+    "addr:postcode":"80621",
+    "addr:street":"Denver Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810613,40.091688,-104.810613,40.091688",
     "geom:latitude":40.091688,
     "geom:longitude":-104.810613,
@@ -28,19 +33,28 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Xaxd1zSOQocPeM9e2QRpa_40.091688_-104.810613@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454211,
-    "wof:geomhash":"c54faf0698389de4aef0c9019ce05d51",
-    "wof:hierarchy":[],
+    "wof:geomhash":"60f52a2b88af1435541718f7ba06d3b6",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":824094665
+        }
+    ],
     "wof:id":824094665,
-    "wof:lastmodified":1466414985,
+    "wof:lastmodified":1492128469,
     "wof:name":"Barron's Oil Field Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

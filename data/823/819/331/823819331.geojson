@@ -2,9 +2,14 @@
   "id": 823819331,
   "type": "Feature",
   "properties": {
+    "addr:full":"140 Park Ave Steamboat Spgs CO 80487",
+    "addr:housenumber":"140",
+    "addr:postcode":"80487",
+    "addr:street":"Park Ave;Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.82744,40.491501,-106.82744,40.491501",
     "geom:latitude":40.491501,
     "geom:longitude":-106.82744,
@@ -28,19 +33,36 @@
         "business"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555165
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2EGSrjCoSZI4K5wpS9rlLN_40.491501_-106.827440@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447265,
-    "wof:geomhash":"ee62cfbda734ca5cf0494a4e3d8b0eca",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a9d624f6a4d8fe80763ebac83b2b01a5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555165,
+            "region_id":85688603,
+            "venue_id":823819331
+        }
+    ],
     "wof:id":823819331,
-    "wof:lastmodified":1466419537,
+    "wof:lastmodified":1492116320,
     "wof:name":"Abbott Consulting & Training",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555165,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823539103,
   "type": "Feature",
   "properties": {
+    "addr:full":"3903 Yosemite Ct Fort Collins CO 80525",
+    "addr:housenumber":"3903",
+    "addr:postcode":"80525",
+    "addr:street":"Yosemite Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.018529,40.532527,-105.018529,40.532527",
     "geom:latitude":40.532527,
     "geom:longitude":-105.018529,
@@ -27,19 +32,36 @@
         "cabinet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554739
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ldiPtzeX8rRaAq3mSSR6S_40.532527_-105.018529@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440451,
-    "wof:geomhash":"1c0a8d681345e371a8db530597db5991",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e6d438ba3d18e58abbc686b378fab63b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554739,
+            "region_id":85688603,
+            "venue_id":823539103
+        }
+    ],
     "wof:id":823539103,
-    "wof:lastmodified":1466415653,
+    "wof:lastmodified":1492123360,
     "wof:name":"Don's Custom Woodworking",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554739,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

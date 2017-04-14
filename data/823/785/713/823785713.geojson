@@ -2,9 +2,14 @@
   "id": 823785713,
   "type": "Feature",
   "properties": {
+    "addr:full":"1400 Edison St Brush CO 80723",
+    "addr:housenumber":"1400",
+    "addr:postcode":"80723",
+    "addr:street":"Edison St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.636411,40.254919,-103.636411,40.254919",
     "geom:latitude":40.254919,
     "geom:longitude":-103.636411,
@@ -27,19 +32,36 @@
         "firework"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929511,
+        102084089,
+        85836469
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6Vh5lN4do88vlc5deC76NE_40.254919_-103.636411@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446272,
-    "wof:geomhash":"16347855c24b75d07f26f3308b174023",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c6a506ac4ffa7efa0a581085a1caa887",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929511,
+            "neighbourhood_id":85836469,
+            "region_id":85688603,
+            "venue_id":823785713
+        }
+    ],
     "wof:id":823785713,
-    "wof:lastmodified":1466419298,
+    "wof:lastmodified":1492125209,
     "wof:name":"Fireworks Universe",
-    "wof:parent_id":-1,
+    "wof:parent_id":85836469,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

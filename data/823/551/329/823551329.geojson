@@ -2,9 +2,14 @@
   "id": 823551329,
   "type": "Feature",
   "properties": {
+    "addr:full":"1015 N 7th St Grand Junction CO 81501",
+    "addr:housenumber":"1015",
+    "addr:postcode":"81501",
+    "addr:street":"N 7Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.561124,39.077256,-108.561124,39.077256",
     "geom:latitude":39.077256,
     "geom:longitude":-108.561124,
@@ -27,19 +32,36 @@
         "appraiser"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554995
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4c4hRC3JWPRxOinXRiNCgL_39.077256_-108.561124@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440731,
-    "wof:geomhash":"fa1d1239333c956be673b5ee5db5bd18",
-    "wof:hierarchy":[],
+    "wof:geomhash":"61895088d2b88d10ec2f08293770f732",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554995,
+            "region_id":85688603,
+            "venue_id":823551329
+        }
+    ],
     "wof:id":823551329,
-    "wof:lastmodified":1466415965,
+    "wof:lastmodified":1492127306,
     "wof:name":"Appraisal-Tech",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554995,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

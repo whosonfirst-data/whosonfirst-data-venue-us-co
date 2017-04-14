@@ -2,9 +2,14 @@
   "id": 823530527,
   "type": "Feature",
   "properties": {
+    "addr:full":"5901 W Lehigh Ave Denver CO 80235",
+    "addr:housenumber":"5901",
+    "addr:postcode":"80235",
+    "addr:street":"W Lehigh Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.059839,39.647887,-105.059839,39.647887",
     "geom:latitude":39.647887,
     "geom:longitude":-105.059839,
@@ -27,19 +32,38 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85868407,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4qnHMC6Cj5tkAJtJ5PLk7S_39.647887_-105.059839@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440263,
-    "wof:geomhash":"6faebce6e21e9d66f13f4c310be79477",
-    "wof:hierarchy":[],
+    "wof:geomhash":"485e31a50bdd793c0012c64cdfc8d30c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85868407,
+            "region_id":85688603,
+            "venue_id":823530527
+        }
+    ],
     "wof:id":823530527,
-    "wof:lastmodified":1466415235,
+    "wof:lastmodified":1492125411,
     "wof:name":"Wyvern Custom Homes",
-    "wof:parent_id":-1,
+    "wof:parent_id":85868407,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

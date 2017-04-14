@@ -2,9 +2,14 @@
   "id": 823721509,
   "type": "Feature",
   "properties": {
+    "addr:full":"5218 E 130th Way Denver CO 80241",
+    "addr:housenumber":"5218",
+    "addr:postcode":"80241",
+    "addr:street":"E 130Th Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.930438,39.934768,-104.930438,39.934768",
     "geom:latitude":39.934768,
     "geom:longitude":-104.930438,
@@ -27,19 +32,36 @@
         "mortgage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553903
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1YB7xqeWxLKkPB9obVTV6c_39.934768_-104.930438@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444679,
-    "wof:geomhash":"595763e374938ff016dc22b530c5c668",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2f0258836184db4dd3eff806478c68fb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553903,
+            "region_id":85688603,
+            "venue_id":823721509
+        }
+    ],
     "wof:id":823721509,
-    "wof:lastmodified":1466418718,
+    "wof:lastmodified":1492121579,
     "wof:name":"Mortgage Masters",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553903,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

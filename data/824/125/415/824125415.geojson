@@ -2,9 +2,14 @@
   "id": 824125415,
   "type": "Feature",
   "properties": {
+    "addr:full":"6001 Dexter St Commerce City CO 80022",
+    "addr:housenumber":"6001",
+    "addr:postcode":"80022",
+    "addr:street":"Dexter St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.93221,39.81041,-104.93221,39.81041",
     "geom:latitude":39.81041,
     "geom:longitude":-104.93221,
@@ -29,19 +34,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553581
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1BOc1rnCma5NFCOUyE37BT_39.810410_-104.932210@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454950,
-    "wof:geomhash":"d09a49e3cdf21bd31f9ad53e07b7694b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d765f835cc23343da6333591db2e5d9d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553581,
+            "region_id":85688603,
+            "venue_id":824125415
+        }
+    ],
     "wof:id":824125415,
-    "wof:lastmodified":1466415897,
+    "wof:lastmodified":1492132708,
     "wof:name":"Kelly Cable",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553581,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

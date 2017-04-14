@@ -2,9 +2,14 @@
   "id": 823525259,
   "type": "Feature",
   "properties": {
+    "addr:full":"1316 Mapleton Ave Boulder CO 80304",
+    "addr:housenumber":"1316",
+    "addr:postcode":"80304",
+    "addr:street":"Mapleton Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.278561,40.021339,-105.278561,40.021339",
     "geom:latitude":40.021339,
     "geom:longitude":-105.278561,
@@ -28,7 +33,14 @@
     ],
     "sg:website":"www.shjboulder.org",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876379
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3OElJbygvyYnPLMeomOJxo_40.021339_-105.278561@1294083659"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463440144,
     "wof:geomhash":"6ea30e1b5e92523ab09ac6c2ae4203b1",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876379,
+            "region_id":85688603,
+            "venue_id":823525259
+        }
+    ],
     "wof:id":823525259,
-    "wof:lastmodified":1466414988,
+    "wof:lastmodified":1491888522,
     "wof:name":"Sacred Heart Of Jesus Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876379,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

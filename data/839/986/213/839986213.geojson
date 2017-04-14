@@ -2,9 +2,14 @@
   "id": 839986213,
   "type": "Feature",
   "properties": {
+    "addr:full":"7530 Sheridan Blvd Arvada CO 80003",
+    "addr:housenumber":"7530",
+    "addr:postcode":"80003",
+    "addr:street":"Sheridan Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053181,39.833448,-105.053181,39.833448",
     "geom:latitude":39.833448,
     "geom:longitude":-105.053181,
@@ -29,19 +34,36 @@
         "pizza"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420554605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2NMwTOt92gt70T00WcTR7y_39.833448_-105.053181@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460661,
-    "wof:geomhash":"b9d838460700c8bcaa4c46e3d14f27b0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bf51a29825de9d98799c6d80a337204e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420554605,
+            "region_id":85688603,
+            "venue_id":839986213
+        }
+    ],
     "wof:id":839986213,
-    "wof:lastmodified":1466417150,
+    "wof:lastmodified":1492111357,
     "wof:name":"Blackjack Pizza",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

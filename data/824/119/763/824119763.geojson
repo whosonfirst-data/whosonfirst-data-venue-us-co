@@ -2,9 +2,14 @@
   "id": 824119763,
   "type": "Feature",
   "properties": {
+    "addr:full":"1536 Co Rd 141 Durango CO 81303",
+    "addr:housenumber":"1536;141",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.933631,37.248953,-107.933631,37.248953",
     "geom:latitude":37.248953,
     "geom:longitude":-107.933631,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554719
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4C2C2aKhAU4cXM287ftqhV_37.248953_-107.933631@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454761,
-    "wof:geomhash":"6763b1cb5da81f6941acb63755a8a088",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2852d038db872a41558d3e5db8fb946a",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554719,
+            "venue_id":824119763
+        }
+    ],
     "wof:id":824119763,
-    "wof:lastmodified":1466415654,
+    "wof:lastmodified":1492130997,
     "wof:name":"Durango Concrete Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554719,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

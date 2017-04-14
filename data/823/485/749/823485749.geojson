@@ -2,9 +2,14 @@
   "id": 823485749,
   "type": "Feature",
   "properties": {
+    "addr:full":"19500 E 34th Dr Aurora CO 80011",
+    "addr:housenumber":"19500",
+    "addr:postcode":"80011",
+    "addr:street":"E 34Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.762828,39.760663,-104.762828,39.760663",
     "geom:latitude":39.760663,
     "geom:longitude":-104.762828,
@@ -28,19 +33,46 @@
         "product"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553315,
+        420553297
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Y9a5hxZkoFinxccMxDT9O_39.760663_-104.762828@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439199,
-    "wof:geomhash":"4f395bf0868075aad91fad1882b659e7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c15881fb2ca4f3dd03a55a198297574f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553315,
+            "region_id":85688603,
+            "venue_id":823485749
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553297,
+            "region_id":85688603,
+            "venue_id":823485749
+        }
+    ],
     "wof:id":823485749,
-    "wof:lastmodified":1466413664,
+    "wof:lastmodified":1492117208,
     "wof:name":"Mc Lane Foodservice",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823800095,
   "type": "Feature",
   "properties": {
+    "addr:full":"3661 W 81st Ave Westminster CO 80031",
+    "addr:housenumber":"3661",
+    "addr:postcode":"80031",
+    "addr:street":"W 81St Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034766,39.843699,-105.034766,39.843699",
     "geom:latitude":39.843699,
     "geom:longitude":-105.034766,
@@ -28,19 +33,36 @@
         "builder"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553541
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_11v73mO6rDfxfZNpSwoTV3_39.843699_-105.034766@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446714,
-    "wof:geomhash":"d410859ef2c50dc5f22f217a6da66cbd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e443885e4f977ee491df5e4b2c50017a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553541,
+            "region_id":85688603,
+            "venue_id":823800095
+        }
+    ],
     "wof:id":823800095,
-    "wof:lastmodified":1466419705,
+    "wof:lastmodified":1492119309,
     "wof:name":"JKL Associates Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553541,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

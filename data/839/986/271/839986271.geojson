@@ -2,9 +2,14 @@
   "id": 839986271,
   "type": "Feature",
   "properties": {
+    "addr:full":"10909 E Colfax Ave Aurora CO 80010",
+    "addr:housenumber":"10909",
+    "addr:postcode":"80010",
+    "addr:street":"E Colfax Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.860783,39.740579,-104.860783,39.740579",
     "geom:latitude":39.740579,
     "geom:longitude":-104.860783,
@@ -29,19 +34,36 @@
         "chicken"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553943
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5XvjGGBWHt3qWRDl2WUOX9_39.740579_-104.860783@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460668,
-    "wof:geomhash":"8e2a2cb805a8a9665bf54e3a546cd65b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"40546441fbfe9d1004c7dbd27383dae1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553943,
+            "region_id":85688603,
+            "venue_id":839986271
+        }
+    ],
     "wof:id":839986271,
-    "wof:lastmodified":1466417160,
+    "wof:lastmodified":1492111366,
     "wof:name":"KFC - Kentucky Fried Chicken",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553943,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

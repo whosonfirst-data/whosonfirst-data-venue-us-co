@@ -2,9 +2,14 @@
   "id": 824158159,
   "type": "Feature",
   "properties": {
+    "addr:full":"2327 Broadway Grand Junction CO 81503",
+    "addr:housenumber":"2327",
+    "addr:postcode":"81503",
+    "addr:street":"Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.625,39.074335,-108.625,39.074335",
     "geom:latitude":39.074335,
     "geom:longitude":-108.625,
@@ -27,19 +32,36 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930421,
+        102085221,
+        420554787
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_61HjAmbwsW5fIOvGtZF4RM_39.074335_-108.625000@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456231,
-    "wof:geomhash":"b536608b4354de88e00c635d1b5d4ed8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d9761455642a6182969b87980183bf92",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930421,
+            "neighbourhood_id":420554787,
+            "region_id":85688603,
+            "venue_id":824158159
+        }
+    ],
     "wof:id":824158159,
-    "wof:lastmodified":1466417125,
+    "wof:lastmodified":1492131354,
     "wof:name":"Redlands Community Church Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554787,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

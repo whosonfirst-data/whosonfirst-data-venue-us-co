@@ -2,9 +2,14 @@
   "id": 823924243,
   "type": "Feature",
   "properties": {
+    "addr:full":"3450 Co Rd 27 Fort Lupton CO 80621",
+    "addr:housenumber":"3450;27",
+    "addr:postcode":"80621",
+    "addr:street":"Co Rd;Fort Lupton",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.810403,40.05053,-104.810403,40.05053",
     "geom:latitude":40.05053,
     "geom:longitude":-104.810403,
@@ -28,19 +33,28 @@
         "waste"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555431
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_16BinivdgclL4LDardCFgB_40.050530_-104.810403@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450111,
-    "wof:geomhash":"e3539f9a72509f87a9a3733cfd6ba081",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2618d7f182a14ec29a2bb0731aeb078e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555431,
+            "venue_id":823924243
+        }
+    ],
     "wof:id":823924243,
-    "wof:lastmodified":1466420395,
+    "wof:lastmodified":1492117511,
     "wof:name":"Liquid Waste Management Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555431,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

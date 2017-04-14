@@ -2,9 +2,14 @@
   "id": 823904593,
   "type": "Feature",
   "properties": {
+    "addr:full":"1521 W 70th Ave Denver CO 80221",
+    "addr:housenumber":"1521",
+    "addr:postcode":"80221",
+    "addr:street":"W 70Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.005897,39.823719,-105.005897,39.823719",
     "geom:latitude":39.823719,
     "geom:longitude":-105.005897,
@@ -29,19 +34,36 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930235,
+        102084053,
+        420553795
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4F0I0s8mB3haD3npiHSlxO_39.823719_-105.005897@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449589,
-    "wof:geomhash":"06508e92a709fd8c4499fa10524607f4",
-    "wof:hierarchy":[],
+    "wof:geomhash":"251c0074264099434d4693a22978d2df",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930235,
+            "neighbourhood_id":420553795,
+            "region_id":85688603,
+            "venue_id":823904593
+        }
+    ],
     "wof:id":823904593,
-    "wof:lastmodified":1466420268,
+    "wof:lastmodified":1492116191,
     "wof:name":"Miles Auto Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553795,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

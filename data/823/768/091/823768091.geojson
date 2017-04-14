@@ -2,9 +2,14 @@
   "id": 823768091,
   "type": "Feature",
   "properties": {
+    "addr:full":"12116 Locust St Brighton CO 80602",
+    "addr:housenumber":"12116",
+    "addr:postcode":"80602",
+    "addr:street":"Locust St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.912861,39.917894,-104.912861,39.917894",
     "geom:latitude":39.917894,
     "geom:longitude":-104.912861,
@@ -29,19 +34,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553421
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2S8qJwB3m5JHN0LmsMgYld_39.917894_-104.912861@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445783,
-    "wof:geomhash":"76125a65fcb4533351036fba69b72546",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58dda2ce1f186eb521fb2b652c4352d8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553421,
+            "region_id":85688603,
+            "venue_id":823768091
+        }
+    ],
     "wof:id":823768091,
-    "wof:lastmodified":1466419194,
+    "wof:lastmodified":1492124679,
     "wof:name":"Chercasovs Delivery",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553421,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823535867,
   "type": "Feature",
   "properties": {
+    "addr:full":"401 Main St Fort Morgan CO 80701",
+    "addr:housenumber":"401",
+    "addr:postcode":"80701",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.801494,40.252632,-103.801494,40.252632",
     "geom:latitude":40.252632,
     "geom:longitude":-103.801494,
@@ -28,17 +33,32 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0EuS85LjTzPDm89GHf8KFV_40.252632_-103.801494@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440375,
-    "wof:geomhash":"9953bfa2a2fc06f453a191d4c294f777",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d5003da134a802730e3087f39add488c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":823535867
+        }
+    ],
     "wof:id":823535867,
-    "wof:lastmodified":1466415209,
+    "wof:lastmodified":1492127701,
     "wof:name":"Bank Of Colorado",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

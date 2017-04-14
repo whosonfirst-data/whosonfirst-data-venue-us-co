@@ -2,9 +2,14 @@
   "id": 823921331,
   "type": "Feature",
   "properties": {
+    "addr:full":"8849 Pearl St Denver CO 80229",
+    "addr:housenumber":"8849",
+    "addr:postcode":"80229",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.979381,39.856802,-104.979381,39.856802",
     "geom:latitude":39.856802,
     "geom:longitude":-104.979381,
@@ -28,19 +33,36 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553823
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2Gl09ZpndgsgaLOOYGjKij_39.856802_-104.979381@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450043,
-    "wof:geomhash":"6ed0138173f757a54c1649dc6f5a906b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d6f5de66b20dd607dead65e642f7c592",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553823,
+            "region_id":85688603,
+            "venue_id":823921331
+        }
+    ],
     "wof:id":823921331,
-    "wof:lastmodified":1466420400,
+    "wof:lastmodified":1492123640,
     "wof:name":"Brittany Downs Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553823,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

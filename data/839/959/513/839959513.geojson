@@ -2,9 +2,14 @@
   "id": 839959513,
   "type": "Feature",
   "properties": {
+    "addr:full":"6988 Lodgepole Ct Boulder CO 80301",
+    "addr:housenumber":"6988",
+    "addr:postcode":"80301",
+    "addr:street":"Lodgepole Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.191316,40.059488,-105.191316,40.059488",
     "geom:latitude":40.059488,
     "geom:longitude":-105.191316,
@@ -27,19 +32,36 @@
         "investor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930699,
+        102085251,
+        420554161
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2rSVNQESb6yE2wiVS2cd92_40.059488_-105.191316@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459596,
-    "wof:geomhash":"8f566bad5e6096b586ee5492d68ff27e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a75d26fcb0e83dd465c167ffd919b136",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85930699,
+            "neighbourhood_id":420554161,
+            "region_id":85688603,
+            "venue_id":839959513
+        }
+    ],
     "wof:id":839959513,
-    "wof:lastmodified":1466415684,
+    "wof:lastmodified":1492113166,
     "wof:name":"Cousino Investments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554161,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

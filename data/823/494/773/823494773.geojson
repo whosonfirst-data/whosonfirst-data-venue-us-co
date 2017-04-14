@@ -2,9 +2,14 @@
   "id": 823494773,
   "type": "Feature",
   "properties": {
+    "addr:full":"2049 Yarmouth Ave Boulder CO 80301",
+    "addr:housenumber":"2049",
+    "addr:postcode":"80301",
+    "addr:street":"Yarmouth Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.270136,40.058288,-105.270136,40.058288",
     "geom:latitude":40.058288,
     "geom:longitude":-105.270136,
@@ -28,7 +33,12 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876361,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2vHT6RSBLgOJxtwUwfuZRT_40.058288_-105.270136@1294083659"
@@ -36,11 +46,19 @@
     "wof:country":"US",
     "wof:created":1463439430,
     "wof:geomhash":"cba86c3099e7884b114f97f8c099b8f5",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876361,
+            "region_id":85688603,
+            "venue_id":823494773
+        }
+    ],
     "wof:id":823494773,
-    "wof:lastmodified":1466414153,
+    "wof:lastmodified":1491924270,
     "wof:name":"Any Color You Like",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

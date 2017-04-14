@@ -2,9 +2,14 @@
   "id": 823970051,
   "type": "Feature",
   "properties": {
+    "addr:full":"2656 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2656",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.534764,39.077454,-108.534764,39.077454",
     "geom:latitude":39.077454,
     "geom:longitude":-108.534764,
@@ -28,19 +33,36 @@
         "real estate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554959
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_519wcIFpyD8xkJbcEkXfGX_39.077454_-108.534764@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451259,
-    "wof:geomhash":"37d190359ca012727bc1fcb7bb5ae206",
-    "wof:hierarchy":[],
+    "wof:geomhash":"673991d9a425ec1f0bdceb46021e5439",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554959,
+            "region_id":85688603,
+            "venue_id":823970051
+        }
+    ],
     "wof:id":823970051,
-    "wof:lastmodified":1466420787,
+    "wof:lastmodified":1492116701,
     "wof:name":"First Direct Mortgage Group",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554959,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

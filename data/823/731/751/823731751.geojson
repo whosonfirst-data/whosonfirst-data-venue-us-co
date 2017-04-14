@@ -2,9 +2,14 @@
   "id": 823731751,
   "type": "Feature",
   "properties": {
+    "addr:full":"5050 Pearl St Boulder CO 80301",
+    "addr:housenumber":"5050",
+    "addr:postcode":"80301",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.236401,40.025763,-105.236401,40.025763",
     "geom:latitude":40.025763,
     "geom:longitude":-105.236401,
@@ -27,19 +32,36 @@
         "village"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876381
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5PqCjxtFSgQXRmWKWZSVwp_40.025763_-105.236401@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444953,
-    "wof:geomhash":"cd11c15f28db2e1d1530f5df5a98254b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7d7f53096976d58c183f6b8bc973bc2b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876381,
+            "region_id":85688603,
+            "venue_id":823731751
+        }
+    ],
     "wof:id":823731751,
-    "wof:lastmodified":1466418650,
+    "wof:lastmodified":1492117530,
     "wof:name":"Boulder Street Maintenance",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876381,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

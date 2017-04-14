@@ -2,9 +2,14 @@
   "id": 823499345,
   "type": "Feature",
   "properties": {
+    "addr:full":"38469 Co Rd 53 Hayden CO 81639",
+    "addr:housenumber":"38469;53",
+    "addr:postcode":"81639",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.254391,40.479087,-107.254391,40.479087",
     "geom:latitude":40.479087,
     "geom:longitude":-107.254391,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555315
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3KMO1F0tfvsWpPNSEazAw1_40.479087_-107.254391@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439560,
-    "wof:geomhash":"019b34ff5a0f758774739e883dce2708",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a7d46af18d4702d481088df835872aab",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555315,
+            "venue_id":823499345
+        }
+    ],
     "wof:id":823499345,
-    "wof:lastmodified":1466414210,
+    "wof:lastmodified":1492123664,
     "wof:name":"Big Horn Exteriors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

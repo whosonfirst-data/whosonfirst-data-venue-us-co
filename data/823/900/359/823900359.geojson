@@ -2,9 +2,14 @@
   "id": 823900359,
   "type": "Feature",
   "properties": {
+    "addr:full":"432 Florence Rd Grand Junction CO 81504",
+    "addr:housenumber":"432",
+    "addr:postcode":"81504",
+    "addr:street":"Florence Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.498713,39.069044,-108.498713,39.069044",
     "geom:latitude":39.069044,
     "geom:longitude":-108.498713,
@@ -27,19 +32,36 @@
         "taxidermist"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Yd69vAsxPQmfjvHTdCM8Y_39.069044_-108.498713@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449462,
-    "wof:geomhash":"e51cb08fd60156b162e936e18487bb79",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fab8f6a216468fbde3f94052d3456e60",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":823900359
+        }
+    ],
     "wof:id":823900359,
-    "wof:lastmodified":1466420213,
+    "wof:lastmodified":1492121767,
     "wof:name":"Buck River Taxidermy",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

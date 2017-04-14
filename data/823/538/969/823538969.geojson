@@ -2,9 +2,14 @@
   "id": 823538969,
   "type": "Feature",
   "properties": {
+    "addr:full":"1383 Mallard Ln Brighton CO 80601",
+    "addr:housenumber":"1383",
+    "addr:postcode":"80601",
+    "addr:street":"Mallard Ln",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.838154,39.97037,-104.838154,39.97037",
     "geom:latitude":39.97037,
     "geom:longitude":-104.838154,
@@ -28,19 +33,36 @@
         "operative"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6kDJqzwROEr18fZxqkrrWA_39.970370_-104.838154@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440447,
-    "wof:geomhash":"033892d596ece7746690527725803fc8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"addbc88cf4e7d498642624a37ea867ad",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553375,
+            "region_id":85688603,
+            "venue_id":823538969
+        }
+    ],
     "wof:id":823538969,
-    "wof:lastmodified":1466415616,
+    "wof:lastmodified":1492116449,
     "wof:name":"Reeves Home Repair",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

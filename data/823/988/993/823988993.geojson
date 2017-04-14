@@ -2,9 +2,14 @@
   "id": 823988993,
   "type": "Feature",
   "properties": {
+    "addr:full":"1300 Co Rd 309 Durango CO 81303",
+    "addr:housenumber":"1300;309",
+    "addr:postcode":"co 81303",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.752303,37.157965,-107.752303,37.157965",
     "geom:latitude":37.157965,
     "geom:longitude":-107.752303,
@@ -30,19 +35,28 @@
         "air"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2hKw1DwHg1ipTO6r6GPCRq_37.157965_-107.752303@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451693,
-    "wof:geomhash":"fc3d1ab2ad4ddc4282d7564a4160a82c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6ddd77d4ebf6df050244c29c5b445e24",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823988993
+        }
+    ],
     "wof:id":823988993,
-    "wof:lastmodified":1466421031,
+    "wof:lastmodified":1492123094,
     "wof:name":"AMR Eagle",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

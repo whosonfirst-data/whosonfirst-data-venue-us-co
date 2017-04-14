@@ -2,9 +2,14 @@
   "id": 839953799,
   "type": "Feature",
   "properties": {
+    "addr:full":"3579 S Newland St Denver CO 80235",
+    "addr:housenumber":"3579",
+    "addr:postcode":"80235",
+    "addr:street":"S Newland St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.067617,39.652186,-105.067617,39.652186",
     "geom:latitude":39.652186,
     "geom:longitude":-105.067617,
@@ -28,19 +33,38 @@
         "holding"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871249,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4xllRTONA7vHT2turnGjHV_39.652186_-105.067617@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459343,
-    "wof:geomhash":"8048b00b93b912de75c550b9b88291da",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f1f5e60e3cc9e69774dfde81fdcdb68a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871249,
+            "region_id":85688603,
+            "venue_id":839953799
+        }
+    ],
     "wof:id":839953799,
-    "wof:lastmodified":1466415579,
+    "wof:lastmodified":1492111600,
     "wof:name":"Jmz Holdings LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

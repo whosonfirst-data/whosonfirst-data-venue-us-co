@@ -2,9 +2,14 @@
   "id": 839976015,
   "type": "Feature",
   "properties": {
+    "addr:full":"5051 W 80th Ave Westminster CO 80030",
+    "addr:housenumber":"5051",
+    "addr:postcode":"80030",
+    "addr:street":"W 80Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.053196,39.84188,-105.053196,39.84188",
     "geom:latitude":39.84188,
     "geom:longitude":-105.053196,
@@ -28,19 +33,36 @@
         "washing"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929333,
+        102084113,
+        420554563
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_76VvBuehHnANsqbjaC8NP6_39.841880_-105.053196@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460262,
-    "wof:geomhash":"388634382770f1cd8094f686dd27bd0a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0f5690d536030992d3b6a45c56d21f8e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929333,
+            "neighbourhood_id":420554563,
+            "region_id":85688603,
+            "venue_id":839976015
+        }
+    ],
     "wof:id":839976015,
-    "wof:lastmodified":1466416569,
+    "wof:lastmodified":1492112495,
     "wof:name":"Wash Me Full Svc Car Wash",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554563,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

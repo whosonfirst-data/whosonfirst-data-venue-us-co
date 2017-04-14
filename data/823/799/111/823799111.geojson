@@ -2,9 +2,14 @@
   "id": 823799111,
   "type": "Feature",
   "properties": {
+    "addr:full":"2002 W 120th Ave Denver CO 80234",
+    "addr:housenumber":"2002",
+    "addr:postcode":"80234",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.014437,39.913846,-105.014437,39.913846",
     "geom:latitude":39.913846,
     "geom:longitude":-105.014437,
@@ -29,19 +34,36 @@
         "family"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1ZScmoGC1i5QpvSJeyrWZ9_39.913846_-105.014437@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446689,
-    "wof:geomhash":"f2d122f76611eeb8824400b1fa19cdee",
-    "wof:hierarchy":[],
+    "wof:geomhash":"356eedf37a848f29795db74d150ffd62",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823799111
+        }
+    ],
     "wof:id":823799111,
-    "wof:lastmodified":1466419329,
+    "wof:lastmodified":1492117301,
     "wof:name":"Lori Perkins LPC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

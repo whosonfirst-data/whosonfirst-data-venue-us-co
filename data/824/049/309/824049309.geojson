@@ -2,9 +2,14 @@
   "id": 824049309,
   "type": "Feature",
   "properties": {
+    "addr:full":"210 Main St Sterling CO 80751",
+    "addr:housenumber":"210",
+    "addr:postcode":"80751",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.208298,40.623873,-103.208298,40.623873",
     "geom:latitude":40.623873,
     "geom:longitude":-103.208298,
@@ -29,17 +34,32 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929371,
+        102085241
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1h31XeczJ5gmJtftISOPwp_40.623873_-103.208298@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453151,
-    "wof:geomhash":"3f11e1ff0dd8cb4fd02ada14b07430a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0fd77fd45738f2e39c1f12007457129d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085241,
+            "locality_id":85929371,
+            "region_id":85688603,
+            "venue_id":824049309
+        }
+    ],
     "wof:id":824049309,
-    "wof:lastmodified":1466414198,
+    "wof:lastmodified":1492130716,
     "wof:name":"Radio Shack",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

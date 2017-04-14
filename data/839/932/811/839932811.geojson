@@ -2,9 +2,14 @@
   "id": 839932811,
   "type": "Feature",
   "properties": {
+    "addr:full":"10101 Montview Blvd Aurora CO 80010",
+    "addr:housenumber":"10101",
+    "addr:postcode":"80010",
+    "addr:street":"Montview Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.869351,39.747419,-104.869351,39.747419",
     "geom:latitude":39.747419,
     "geom:longitude":-104.869351,
@@ -28,17 +33,32 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7Vg3tyWXZiliJFOjAqHy29_39.747419_-104.869351@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458124,
-    "wof:geomhash":"592c8d8cc003785f671c94d52bbda0a1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5d0d7f79b0f584da3fca9d73b9a886f1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":839932811
+        }
+    ],
     "wof:id":839932811,
-    "wof:lastmodified":1466414254,
+    "wof:lastmodified":1492112649,
     "wof:name":"Ace Auto Repair",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 824053305,
   "type": "Feature",
   "properties": {
+    "addr:full":"495 7th St Bennett CO 80102",
+    "addr:housenumber":"495",
+    "addr:postcode":"80102",
+    "addr:street":"7Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.425538,39.759288,-104.425538,39.759288",
     "geom:latitude":39.759288,
     "geom:longitude":-104.425538,
@@ -27,19 +32,36 @@
         "executive"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929337,
+        102086877,
+        420553325
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1zqDNq4kYJWhf4wOqWhYZ4_39.759288_-104.425538@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453234,
-    "wof:geomhash":"09f64050a622561ceb3316b3d421963f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8306b4a3cbc8ebfd5bc6bb56ea852a81",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929337,
+            "neighbourhood_id":420553325,
+            "region_id":85688603,
+            "venue_id":824053305
+        }
+    ],
     "wof:id":824053305,
-    "wof:lastmodified":1466414288,
+    "wof:lastmodified":1492132852,
     "wof:name":"Bennett Branch Library",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553325,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823770857,
   "type": "Feature",
   "properties": {
+    "addr:full":"12716 Lowell Blvd Broomfield CO 80020",
+    "addr:housenumber":"12716",
+    "addr:postcode":"80020",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03431,39.92711,-105.03431,39.92711",
     "geom:latitude":39.92711,
     "geom:longitude":-105.03431,
@@ -27,19 +32,36 @@
         "alcoholic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554245
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5qK2fSIKqMSmeqtdCo6JO2_39.927110_-105.034310@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445841,
-    "wof:geomhash":"5348a67df17cf6d39a456cb98df06c47",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a1d992b58da2917994fa8ae02a49b381",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554245,
+            "region_id":85688603,
+            "venue_id":823770857
+        }
+    ],
     "wof:id":823770857,
-    "wof:lastmodified":1466419143,
+    "wof:lastmodified":1492118573,
     "wof:name":"K & R Liquors LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554245,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

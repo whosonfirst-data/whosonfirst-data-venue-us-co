@@ -2,9 +2,14 @@
   "id": 823482777,
   "type": "Feature",
   "properties": {
+    "addr:full":"617 Co Rd 207 Durango CO 81301",
+    "addr:housenumber":"617;207",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.93488,37.286492,-107.93488,37.286492",
     "geom:latitude":37.286492,
     "geom:longitude":-107.93488,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554653
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0QK2vn3mOjGk7RLnp8I8sz_37.286492_-107.934880@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439142,
-    "wof:geomhash":"9ab9cfae9d1e64ef927f50abec8f25cd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"34188007097f72ebed546d0d0bab3c7f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554653,
+            "venue_id":823482777
+        }
+    ],
     "wof:id":823482777,
-    "wof:lastmodified":1466413613,
+    "wof:lastmodified":1492125971,
     "wof:name":"Titus Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554653,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

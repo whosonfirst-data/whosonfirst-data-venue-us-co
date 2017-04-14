@@ -2,9 +2,14 @@
   "id": 824073071,
   "type": "Feature",
   "properties": {
+    "addr:full":"2613 W 99th Pl Denver CO 80260",
+    "addr:housenumber":"2613",
+    "addr:postcode":"80260",
+    "addr:street":"W 99Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.019309,39.87814,-105.019309,39.87814",
     "geom:latitude":39.87814,
     "geom:longitude":-105.019309,
@@ -27,19 +32,36 @@
         "field"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929347,
+        102084053,
+        420553931
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0e1REC8k6JSxZbp8oaJCc3_39.878140_-105.019309@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453696,
-    "wof:geomhash":"8b191013a09eecdce1110219afa64fa0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a8f3b749970e6c1b9dfaae1e393a3f6c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929347,
+            "neighbourhood_id":420553931,
+            "region_id":85688603,
+            "venue_id":824073071
+        }
+    ],
     "wof:id":824073071,
-    "wof:lastmodified":1466414601,
+    "wof:lastmodified":1492132502,
     "wof:name":"Arvizo Repairs",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553931,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

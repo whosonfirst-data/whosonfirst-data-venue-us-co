@@ -2,9 +2,14 @@
   "id": 823698467,
   "type": "Feature",
   "properties": {
+    "addr:full":"1025 Lincoln St Fort Morgan CO 80701",
+    "addr:housenumber":"1025",
+    "addr:postcode":"morgan;80701",
+    "addr:street":"Lincoln St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-103.79625,40.260009,-103.79625,40.260009",
     "geom:latitude":40.260009,
     "geom:longitude":-103.79625,
@@ -27,17 +32,32 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929505,
+        102084089
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4a8MkyGYOGFeYAHIu2f5Nc_40.260009_-103.796250@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444208,
-    "wof:geomhash":"f1e251a56ee760ab3dd782f8e8a21769",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a43b18118aa22d12cd67d3813eb656d1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084089,
+            "locality_id":85929505,
+            "region_id":85688603,
+            "venue_id":823698467
+        }
+    ],
     "wof:id":823698467,
-    "wof:lastmodified":1466418508,
+    "wof:lastmodified":1492116160,
     "wof:name":"Colorado Urology Ctr",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

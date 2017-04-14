@@ -2,9 +2,14 @@
   "id": 824149919,
   "type": "Feature",
   "properties": {
+    "addr:full":"1201 W 112th Ave Denver CO 80234",
+    "addr:housenumber":"1201",
+    "addr:postcode":"80234",
+    "addr:street":"W 112Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.001409,39.89979,-105.001409,39.89979",
     "geom:latitude":39.89979,
     "geom:longitude":-105.001409,
@@ -27,19 +32,36 @@
         "communication"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553705
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5ncTxLLPbHq0ksk4Uou02k_39.899790_-105.001409@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455899,
-    "wof:geomhash":"aa9495014bb76bd459745a98912a25ea",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4dd827a853689dcaedd3e5a933b704fe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553705,
+            "region_id":85688603,
+            "venue_id":824149919
+        }
+    ],
     "wof:id":824149919,
-    "wof:lastmodified":1466416959,
+    "wof:lastmodified":1492132797,
     "wof:name":"West Star Data Communications",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553705,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

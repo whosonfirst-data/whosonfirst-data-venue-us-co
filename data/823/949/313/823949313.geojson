@@ -2,9 +2,14 @@
   "id": 823949313,
   "type": "Feature",
   "properties": {
+    "addr:full":"6591 Brighton Blvd Commerce City CO 80022",
+    "addr:housenumber":"6591",
+    "addr:postcode":"80022",
+    "addr:street":"Brighton Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.934521,39.816902,-104.934521,39.816902",
     "geom:latitude":39.816902,
     "geom:longitude":-104.934521,
@@ -27,19 +32,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553475
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5vsrvbBuRlqg6nXr4B0lG5_39.816902_-104.934521@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450763,
-    "wof:geomhash":"2fed2fd644832dd63a0300c31a773fa5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"590d7aaea9943c6f41d95f3d38c63528",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553475,
+            "region_id":85688603,
+            "venue_id":823949313
+        }
+    ],
     "wof:id":823949313,
-    "wof:lastmodified":1466420690,
+    "wof:lastmodified":1492119739,
     "wof:name":"First Choice Transport",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553475,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

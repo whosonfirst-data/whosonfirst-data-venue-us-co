@@ -2,9 +2,14 @@
   "id": 823819317,
   "type": "Feature",
   "properties": {
+    "addr:full":"2451 W 55th Ave Denver CO 80221",
+    "addr:housenumber":"2451",
+    "addr:postcode":"80221",
+    "addr:street":"W 55Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.016556,39.796593,-105.016556,39.796593",
     "geom:latitude":39.796593,
     "geom:longitude":-105.016556,
@@ -28,19 +33,36 @@
         "custom"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6TG58vhRT6rmPZBw4QYNnL_39.796593_-105.016556@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447265,
-    "wof:geomhash":"d3f8ce7cd822262e1cbc16dac6cf9f28",
-    "wof:hierarchy":[],
+    "wof:geomhash":"bb9464e5ada4e315333443c3fc121dc2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553615,
+            "region_id":85688603,
+            "venue_id":823819317
+        }
+    ],
     "wof:id":823819317,
-    "wof:lastmodified":1466419535,
+    "wof:lastmodified":1492116320,
     "wof:name":"Brushaber Wood Design",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

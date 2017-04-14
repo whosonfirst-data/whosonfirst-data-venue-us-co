@@ -2,9 +2,14 @@
   "id": 824118481,
   "type": "Feature",
   "properties": {
+    "addr:full":"811 S 7th St Grand Junction CO 81501",
+    "addr:housenumber":"811",
+    "addr:postcode":"81501",
+    "addr:street":"S 7Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.561105,39.059374,-108.561105,39.059374",
     "geom:latitude":39.059374,
     "geom:longitude":-108.561105,
@@ -27,19 +32,36 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554987
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1M2h0I6EqyrO5bhvIqiBOH_39.059374_-108.561105@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454735,
-    "wof:geomhash":"4472860991876a581b38aeac3e8a127f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d9cdb62dcc706afd20f8c250db9db434",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554987,
+            "region_id":85688603,
+            "venue_id":824118481
+        }
+    ],
     "wof:id":824118481,
-    "wof:lastmodified":1466415520,
+    "wof:lastmodified":1492130693,
     "wof:name":"Los Reyes Restaurant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554987,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

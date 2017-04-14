@@ -2,9 +2,14 @@
   "id": 824143073,
   "type": "Feature",
   "properties": {
+    "addr:full":"6030 W 55th Pl Arvada CO 80002",
+    "addr:housenumber":"6030",
+    "addr:postcode":"80002",
+    "addr:street":"W 55Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.063824,39.797321,-105.063824,39.797321",
     "geom:latitude":39.797321,
     "geom:longitude":-105.063824,
@@ -29,19 +34,34 @@
         "painting"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4KxeMet6iBoQCYpoEmKrqt_39.797321_-105.063824@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455619,
-    "wof:geomhash":"3ad90f095bf4277360d1ca730eb7575a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c5c4f71c478362d752440f30ebfb9e24",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824143073
+        }
+    ],
     "wof:id":824143073,
-    "wof:lastmodified":1466416512,
+    "wof:lastmodified":1492130682,
     "wof:name":"Red Line Auto Body",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

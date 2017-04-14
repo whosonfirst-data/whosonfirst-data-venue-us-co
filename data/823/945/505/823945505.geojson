@@ -2,9 +2,14 @@
   "id": 823945505,
   "type": "Feature",
   "properties": {
+    "addr:full":"4650 White Rock Cir Boulder CO 80301",
+    "addr:housenumber":"4650",
+    "addr:postcode":"80301",
+    "addr:street":"White Rock Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.214051,40.059116,-105.214051,40.059116",
     "geom:latitude":40.059116,
     "geom:longitude":-105.214051,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        420553963
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0T4y67J3V2eO1Zu6T0tDmZ_40.059116_-105.214051@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450666,
-    "wof:geomhash":"ed93f44e8b903bd4cc490f48154aeca1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"3ea82df50c4748d414d75883bec5f886",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":420553963,
+            "region_id":85688603,
+            "venue_id":823945505
+        }
+    ],
     "wof:id":823945505,
-    "wof:lastmodified":1466420578,
+    "wof:lastmodified":1492125885,
     "wof:name":"Surroundings",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553963,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

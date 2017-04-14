@@ -2,9 +2,14 @@
   "id": 823994643,
   "type": "Feature",
   "properties": {
+    "addr:full":"1004 US Hwy 287 Broomfield CO 80020",
+    "addr:housenumber":"1004",
+    "addr:postcode":"80020",
+    "addr:street":"Us Hwy 287",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.090957,39.930413,-105.090957,39.930413",
     "geom:latitude":39.930413,
     "geom:longitude":-105.090957,
@@ -29,19 +34,36 @@
         "store"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554249
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4l4oWMEXeUwkVcn38OoAnL_39.930413_-105.090957@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451852,
-    "wof:geomhash":"f2b1a95e12d7929ed94cf39399a495c9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"797a0816bb4ccb9515289bdddb88b4a9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554249,
+            "region_id":85688603,
+            "venue_id":823994643
+        }
+    ],
     "wof:id":823994643,
-    "wof:lastmodified":1466421015,
+    "wof:lastmodified":1492120820,
     "wof:name":"Diamond Shamrock",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554249,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

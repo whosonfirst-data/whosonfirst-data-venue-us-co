@@ -2,9 +2,14 @@
   "id": 823974911,
   "type": "Feature",
   "properties": {
+    "addr:full":"203 E 7th St Cortez CO 81321",
+    "addr:housenumber":"203",
+    "addr:postcode":"81321",
+    "addr:street":"E 7Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.582323,37.341547,-108.582323,37.341547",
     "geom:latitude":37.341547,
     "geom:longitude":-108.582323,
@@ -29,19 +34,36 @@
         "site"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0n2y2r2R4KuGM3cqLxWwDj_37.341547_-108.582323@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451356,
-    "wof:geomhash":"a46089525cdae41de5a7de474c71eb54",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91428a3b9022441b89af951fd438de83",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":823974911
+        }
+    ],
     "wof:id":823974911,
-    "wof:lastmodified":1466420830,
+    "wof:lastmodified":1492117249,
     "wof:name":"Happy Valley Trailer Park",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

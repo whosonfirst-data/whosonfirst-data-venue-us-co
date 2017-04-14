@@ -2,9 +2,14 @@
   "id": 823858509,
   "type": "Feature",
   "properties": {
+    "addr:full":"5408 E 111th Dr Denver CO 80233",
+    "addr:housenumber":"5408",
+    "addr:postcode":"80233",
+    "addr:street":"E 111Th Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.924752,39.898815,-104.924752,39.898815",
     "geom:latitude":39.898815,
     "geom:longitude":-104.924752,
@@ -29,19 +34,36 @@
         "raising"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553709
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2YfwCjV1hY7mml6O3vdJtK_39.898815_-104.924752@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448465,
-    "wof:geomhash":"689f138c6892a7b414586755fcc56cb5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8714135ac14823100fd0c701612f9fc8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553709,
+            "region_id":85688603,
+            "venue_id":823858509
+        }
+    ],
     "wof:id":823858509,
-    "wof:lastmodified":1466419911,
+    "wof:lastmodified":1492122285,
     "wof:name":"K & V Productions Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553709,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

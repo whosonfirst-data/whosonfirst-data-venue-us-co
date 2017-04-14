@@ -2,9 +2,14 @@
   "id": 823566819,
   "type": "Feature",
   "properties": {
+    "addr:full":"708 S 12th St Gunnison CO 81230",
+    "addr:housenumber":"708",
+    "addr:postcode":"81230",
+    "addr:street":"S 12Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.934758,38.537858,-106.934758,38.537858",
     "geom:latitude":38.537858,
     "geom:longitude":-106.934758,
@@ -28,19 +33,36 @@
         "automobile"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929659,
+        102083377,
+        420554419
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_23SFXvgcUkH6OKiO2mCiek_38.537858_-106.934758@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441109,
-    "wof:geomhash":"743d42ca918b33f536148761f02c37d7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"72df1c9e66c10f5df4ee08d607b9a0ba",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083377,
+            "locality_id":85929659,
+            "neighbourhood_id":420554419,
+            "region_id":85688603,
+            "venue_id":823566819
+        }
+    ],
     "wof:id":823566819,
-    "wof:lastmodified":1466416220,
+    "wof:lastmodified":1492124063,
     "wof:name":"Gunnison Motors",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554419,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

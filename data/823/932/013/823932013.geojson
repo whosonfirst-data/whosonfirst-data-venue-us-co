@@ -2,9 +2,14 @@
   "id": 823932013,
   "type": "Feature",
   "properties": {
+    "addr:full":"202 E Jefferson Ave Hayden CO 81639",
+    "addr:housenumber":"202",
+    "addr:postcode":"81639",
+    "addr:street":"E Jefferson Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.255647,40.495903,-107.255647,40.495903",
     "geom:latitude":40.495903,
     "geom:longitude":-107.255647,
@@ -27,19 +32,28 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555315
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0IyOSN8sTsz7aiT7C2soOg_40.495903_-107.255647@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450308,
-    "wof:geomhash":"da7818185cef67a88217d7d1d6131143",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a4f972dcbee2fb0eb1557bc9af05f050",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555315,
+            "venue_id":823932013
+        }
+    ],
     "wof:id":823932013,
-    "wof:lastmodified":1466420617,
+    "wof:lastmodified":1492122297,
     "wof:name":"Hayden Congregational Church",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555315,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

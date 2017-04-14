@@ -2,9 +2,14 @@
   "id": 823489349,
   "type": "Feature",
   "properties": {
+    "addr:full":"321 Wildcat Rd Durango CO 81303",
+    "addr:housenumber":"321",
+    "addr:postcode":"co 81303",
+    "addr:street":"Wildcat Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.960331,37.245284,-107.960331,37.245284",
     "geom:latitude":37.245284,
     "geom:longitude":-107.960331,
@@ -27,19 +32,28 @@
         "system"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554719
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7HSePFq7AlAE2mavdLKAgr_37.245284_-107.960331@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439296,
-    "wof:geomhash":"7a52e7aaae50bc5ca39a395d616a52b3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9f7a7c754c68d57040206b1e4d681718",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554719,
+            "venue_id":823489349
+        }
+    ],
     "wof:id":823489349,
-    "wof:lastmodified":1466414082,
+    "wof:lastmodified":1492121997,
     "wof:name":"Wildcat Technologies",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554719,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

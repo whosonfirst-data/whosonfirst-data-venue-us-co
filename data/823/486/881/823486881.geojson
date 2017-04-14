@@ -2,9 +2,14 @@
   "id": 823486881,
   "type": "Feature",
   "properties": {
+    "addr:full":"1577 Havana St Aurora CO 80010",
+    "addr:housenumber":"1577",
+    "addr:postcode":"80010",
+    "addr:street":"Havana St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.865876,39.740597,-104.865876,39.740597",
     "geom:latitude":39.740597,
     "geom:longitude":-104.865876,
@@ -28,19 +33,36 @@
         "surgeon"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553937
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5Jb6Kkjq06qKDn5IUMzva0_39.740597_-104.865876@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439231,
-    "wof:geomhash":"aec460a0799c95e0831bb9848fe7b0aa",
-    "wof:hierarchy":[],
+    "wof:geomhash":"ff3a45fdb95ddb35db5286cd42340a4a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553937,
+            "region_id":85688603,
+            "venue_id":823486881
+        }
+    ],
     "wof:id":823486881,
-    "wof:lastmodified":1466413832,
+    "wof:lastmodified":1492120495,
     "wof:name":"Woo Medical Clinic",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553937,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824099655,
   "type": "Feature",
   "properties": {
+    "addr:full":"1449 Jamaica St Aurora CO 80010",
+    "addr:housenumber":"1449",
+    "addr:postcode":"80010",
+    "addr:street":"Jamaica St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.862369,39.739269,-104.862369,39.739269",
     "geom:latitude":39.739269,
     "geom:longitude":-104.862369,
@@ -27,19 +32,36 @@
         "internet"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553943
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7EmJqsofnwuQy5lts0HUic_39.739269_-104.862369@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454334,
-    "wof:geomhash":"dc06e8fbaa0b570d743356a106b82f9e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a46c75262224242ddd5586e7deb57c5e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553943,
+            "region_id":85688603,
+            "venue_id":824099655
+        }
+    ],
     "wof:id":824099655,
-    "wof:lastmodified":1466415132,
+    "wof:lastmodified":1492133270,
     "wof:name":"Flavor Cafe",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553943,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

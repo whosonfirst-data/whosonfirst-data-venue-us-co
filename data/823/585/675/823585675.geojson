@@ -2,9 +2,14 @@
   "id": 823585675,
   "type": "Feature",
   "properties": {
+    "addr:full":"4745 Arapahoe Ave Boulder CO 80303",
+    "addr:housenumber":"4745",
+    "addr:postcode":"80303",
+    "addr:street":"Arapahoe Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.23719,40.014877,-105.23719,40.014877",
     "geom:latitude":40.014877,
     "geom:longitude":-105.23719,
@@ -27,19 +32,36 @@
         "medical"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876387
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4OTMuxnHhMKySs3FjCwuJ5_40.014877_-105.237190@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441548,
-    "wof:geomhash":"756d0c142e000f07da5cace6b42fca39",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c4966e05e5f498c3aebd674bd0b6c9a7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876387,
+            "region_id":85688603,
+            "venue_id":823585675
+        }
+    ],
     "wof:id":823585675,
-    "wof:lastmodified":1466416773,
+    "wof:lastmodified":1492127380,
     "wof:name":"Boulder Medical Ctr Foothills",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876387,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839918251,
   "type": "Feature",
   "properties": {
+    "addr:full":"521 5th St Walden CO 80480",
+    "addr:housenumber":"521",
+    "addr:postcode":"80480",
+    "addr:street":"5Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.281877,40.729565,-106.281877,40.729565",
     "geom:latitude":40.729565,
     "geom:longitude":-106.281877,
@@ -27,17 +32,32 @@
         "clinic"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928785,
+        102085259
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_65FBH21p1rFLmcSo3O2Beu_40.729565_-106.281877@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457417,
-    "wof:geomhash":"09f57d0feca73a41855839e64d18b2ad",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8a66194df49497ec77e69d7807f85154",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085259,
+            "locality_id":85928785,
+            "region_id":85688603,
+            "venue_id":839918251
+        }
+    ],
     "wof:id":839918251,
-    "wof:lastmodified":1466413582,
+    "wof:lastmodified":1492112361,
     "wof:name":"North Park Medical Clinic",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

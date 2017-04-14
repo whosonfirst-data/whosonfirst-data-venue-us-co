@@ -2,9 +2,14 @@
   "id": 823724699,
   "type": "Feature",
   "properties": {
+    "addr:full":"9000 York St Denver CO 80229",
+    "addr:housenumber":"9000",
+    "addr:postcode":"80229",
+    "addr:street":"York St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.959015,39.859802,-104.959015,39.859802",
     "geom:latitude":39.859802,
     "geom:longitude":-104.959015,
@@ -28,19 +33,36 @@
         "swimming"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553789
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5HdgKlV9ljReeuxu2LulvX_39.859802_-104.959015@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444772,
-    "wof:geomhash":"f71f0ad1f09c4dabeefd4409c3647096",
-    "wof:hierarchy":[],
+    "wof:geomhash":"603b4e283492c7784ed0c9db567e0303",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553789,
+            "region_id":85688603,
+            "venue_id":823724699
+        }
+    ],
     "wof:id":823724699,
-    "wof:lastmodified":1466418814,
+    "wof:lastmodified":1492117443,
     "wof:name":"Sandra Miller Swimming Pool",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553789,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

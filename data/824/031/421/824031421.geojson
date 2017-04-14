@@ -2,9 +2,14 @@
   "id": 824031421,
   "type": "Feature",
   "properties": {
+    "addr:full":"120 S Madison St Cortez CO 81321",
+    "addr:housenumber":"120",
+    "addr:postcode":"81321",
+    "addr:street":"S Madison St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.579807,37.347412,-108.579807,37.347412",
     "geom:latitude":37.347412,
     "geom:longitude":-108.579807,
@@ -28,19 +33,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555057
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5rcNZY0UHTOU0UMeIAkAKC_37.347412_-108.579807@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452704,
-    "wof:geomhash":"ab337f0b39c6df92befb2c128a919a2f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"014c9e9dd4eafd04f2c15f687e5c922e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555057,
+            "region_id":85688603,
+            "venue_id":824031421
+        }
+    ],
     "wof:id":824031421,
-    "wof:lastmodified":1466413881,
+    "wof:lastmodified":1492131038,
     "wof:name":"Madison House-Assisted Living",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555057,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

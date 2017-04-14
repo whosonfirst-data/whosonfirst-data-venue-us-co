@@ -2,9 +2,14 @@
   "id": 823469707,
   "type": "Feature",
   "properties": {
+    "addr:full":"220 Pine St Julesburg CO 80737",
+    "addr:housenumber":"220",
+    "addr:postcode":"80737",
+    "addr:street":"Pine St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.264449,40.987066,-102.264449,40.987066",
     "geom:latitude":40.987066,
     "geom:longitude":-102.264449,
@@ -27,17 +32,32 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928865,
+        102084121
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1NEG8EpQIa4V5HtEJ8fRLA_40.987066_-102.264449@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438832,
-    "wof:geomhash":"6cb23d47e26904b345f7ad87dc40a990",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4581fc28c77bb70da6d276f1a1884ee3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084121,
+            "locality_id":85928865,
+            "region_id":85688603,
+            "venue_id":823469707
+        }
+    ],
     "wof:id":823469707,
-    "wof:lastmodified":1466412308,
+    "wof:lastmodified":1492127812,
     "wof:name":"Grand Motel",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

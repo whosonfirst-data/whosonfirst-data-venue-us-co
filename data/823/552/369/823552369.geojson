@@ -2,9 +2,14 @@
   "id": 823552369,
   "type": "Feature",
   "properties": {
+    "addr:full":"109 W Main St Cortez CO 81321",
+    "addr:housenumber":"109",
+    "addr:postcode":"81321",
+    "addr:street":"W Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.587743,37.348506,-108.587743,37.348506",
     "geom:latitude":37.348506,
     "geom:longitude":-108.587743,
@@ -28,19 +33,28 @@
         "resource"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555055
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_48XanczctIrEb5fNqJyXbJ_37.348506_-108.587743@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440763,
-    "wof:geomhash":"2f17d58a68f14370e89868edb088194c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"02ea6b291fbd15501d65fa6383fc3e1f",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555055,
+            "venue_id":823552369
+        }
+    ],
     "wof:id":823552369,
-    "wof:lastmodified":1466415891,
+    "wof:lastmodified":1492123043,
     "wof:name":"Montezuma County Social Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555055,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

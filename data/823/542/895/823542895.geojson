@@ -2,9 +2,14 @@
   "id": 823542895,
   "type": "Feature",
   "properties": {
+    "addr:full":"2205 Executive Cir Colorado Springs CO 80906",
+    "addr:housenumber":"2205",
+    "addr:postcode":"80906",
+    "addr:street":"Executive Cir",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.790243,38.789696,-104.790243,38.789696",
     "geom:latitude":38.789696,
     "geom:longitude":-104.790243,
@@ -28,19 +33,36 @@
         "datum"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929457,
+        102086875,
+        420554345
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4ZBeOEGU8DFL2pd0CKv5cH_38.789696_-104.790243@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440533,
-    "wof:geomhash":"3e540b2a971c0da916ed38a7a3dca8e9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c6ce68bf818f54f35e60beaa0ad507ec",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086875,
+            "locality_id":85929457,
+            "neighbourhood_id":420554345,
+            "region_id":85688603,
+            "venue_id":823542895
+        }
+    ],
     "wof:id":823542895,
-    "wof:lastmodified":1466415504,
+    "wof:lastmodified":1492124562,
     "wof:name":"EDAQ Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554345,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

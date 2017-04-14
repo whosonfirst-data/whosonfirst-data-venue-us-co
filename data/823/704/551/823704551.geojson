@@ -2,9 +2,14 @@
   "id": 823704551,
   "type": "Feature",
   "properties": {
+    "addr:full":"609 Arapaho Way Grand Junction CO 81506",
+    "addr:housenumber":"609",
+    "addr:postcode":"81506",
+    "addr:street":"Arapaho Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.518092,39.094599,-108.518092,39.094599",
     "geom:latitude":39.094599,
     "geom:longitude":-108.518092,
@@ -29,19 +34,36 @@
         "for"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554993
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7ZKfNVd5gtggCpfbkVQV9j_39.094599_-108.518092@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444328,
-    "wof:geomhash":"a59aef7a9c0ebda3d55aa53228313ee8",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1740dcef6d8430c648d6e8ace7d41749",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554993,
+            "region_id":85688603,
+            "venue_id":823704551
+        }
+    ],
     "wof:id":823704551,
-    "wof:lastmodified":1466418603,
+    "wof:lastmodified":1492124174,
     "wof:name":"Grand Junction Welcoming Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554993,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823548847,
   "type": "Feature",
   "properties": {
+    "addr:full":"4640 15th St Boulder CO 80304",
+    "addr:housenumber":"4640",
+    "addr:postcode":"80304",
+    "addr:street":"15Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.278378,40.058365,-105.278378,40.058365",
     "geom:latitude":40.058365,
     "geom:longitude":-105.278378,
@@ -24,7 +29,12 @@
     "sg:postcode":"80304",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85876361,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5pTbwnLLX8Jy6Txg2EyMQA_40.058365_-105.278378@1294083659"
@@ -32,11 +42,19 @@
     "wof:country":"US",
     "wof:created":1463440671,
     "wof:geomhash":"29f26f2405465e447e3dfa8c2b7fcacf",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "neighbourhood_id":85876361,
+            "region_id":85688603,
+            "venue_id":823548847
+        }
+    ],
     "wof:id":823548847,
-    "wof:lastmodified":1466415809,
+    "wof:lastmodified":1491924272,
     "wof:name":"J&K Paintworks LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876361,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

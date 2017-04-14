@@ -2,9 +2,14 @@
   "id": 823569433,
   "type": "Feature",
   "properties": {
+    "addr:full":"2906 Victoria Dr Grand Junction CO 81503",
+    "addr:housenumber":"2906",
+    "addr:postcode":"81503",
+    "addr:street":"Victoria Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.515234,39.04302,-108.515234,39.04302",
     "geom:latitude":39.04302,
     "geom:longitude":-108.515234,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930463,
+        102085221,
+        420555007
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_19CVppNugXBeS3RgUAe3gx_39.043020_-108.515234@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463441175,
-    "wof:geomhash":"5f71075cc88dd47055fdc21d8cb3cd46",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e3ea7ed8b9c6907564fd61cb4da1e13d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930463,
+            "neighbourhood_id":420555007,
+            "region_id":85688603,
+            "venue_id":823569433
+        }
+    ],
     "wof:id":823569433,
-    "wof:lastmodified":1466416258,
+    "wof:lastmodified":1492117394,
     "wof:name":"Grand Valley Golf Greens",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555007,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

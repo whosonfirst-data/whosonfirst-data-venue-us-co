@@ -2,9 +2,14 @@
   "id": 823840259,
   "type": "Feature",
   "properties": {
+    "addr:full":"2801 North Ave Grand Junction CO 81501",
+    "addr:housenumber":"2801",
+    "addr:postcode":"81501",
+    "addr:street":"North Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.532038,39.077372,-108.532038,39.077372",
     "geom:latitude":39.077372,
     "geom:longitude":-108.532038,
@@ -27,19 +32,36 @@
         "paint"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554879
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_43RE4uZmxGYLBiOKRpkhSz_39.077372_-108.532038@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463447942,
-    "wof:geomhash":"972d47f0b28a8a351974e8bde984f190",
-    "wof:hierarchy":[],
+    "wof:geomhash":"14d198ff00b269b72a74eab3877cd556",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554879,
+            "region_id":85688603,
+            "venue_id":823840259
+        }
+    ],
     "wof:id":823840259,
-    "wof:lastmodified":1466419669,
+    "wof:lastmodified":1492123845,
     "wof:name":"KWAL Paints",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554879,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

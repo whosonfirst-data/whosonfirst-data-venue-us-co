@@ -2,9 +2,14 @@
   "id": 823999267,
   "type": "Feature",
   "properties": {
+    "addr:full":"944 Pearl St Boulder CO 80302",
+    "addr:housenumber":"944",
+    "addr:postcode":"80302",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.284172,40.016932,-105.284172,40.016932",
     "geom:latitude":40.016932,
     "geom:longitude":-105.284172,
@@ -27,7 +32,14 @@
         "designer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4F2Em3PKokCFjxZkBScbKl_40.016932_-105.284172@1294083659"
@@ -35,11 +47,21 @@
     "wof:country":"US",
     "wof:created":1463451970,
     "wof:geomhash":"36c41f9b68104bd9fcae884b385d5891",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":823999267
+        }
+    ],
     "wof:id":823999267,
-    "wof:lastmodified":1466421082,
+    "wof:lastmodified":1491897941,
     "wof:name":"Dinohide Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

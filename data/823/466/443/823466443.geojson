@@ -2,9 +2,14 @@
   "id": 823466443,
   "type": "Feature",
   "properties": {
+    "addr:full":"3701 E 117th Ave Denver CO 80233",
+    "addr:housenumber":"3701",
+    "addr:postcode":"80233",
+    "addr:street":"E 117Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.942225,39.908248,-104.942225,39.908248",
     "geom:latitude":39.908248,
     "geom:longitude":-104.942225,
@@ -27,19 +32,46 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671,
+        420553907
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06JqTPudezAZoG1A9EteA4_39.908248_-104.942225@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463438757,
-    "wof:geomhash":"c0dfdc726e5cb1eea8e2759f414a493e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1f2ec2665bc62fc388b8e2e06d1b1374",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823466443
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553907,
+            "region_id":85688603,
+            "venue_id":823466443
+        }
+    ],
     "wof:id":823466443,
-    "wof:lastmodified":1466411971,
+    "wof:lastmodified":1492122649,
     "wof:name":"Lone Wolf Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

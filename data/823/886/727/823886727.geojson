@@ -2,9 +2,14 @@
   "id": 823886727,
   "type": "Feature",
   "properties": {
+    "addr:full":"4647 N Hwy 83 Parker CO 80134",
+    "addr:housenumber":"4647",
+    "addr:postcode":"80134",
+    "addr:street":"N Hwy 83",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.760452,39.428346,-104.760452,39.428346",
     "geom:latitude":39.428346,
     "geom:longitude":-104.760452,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929261,
+        102085225,
+        85872973
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1dtCD4UGKmJhSAwfuFNzUp_39.428346_-104.760452@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449120,
-    "wof:geomhash":"06f2eca282f9d0761e2817f6583e556a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cb20329e037216659106f1ce940b4fba",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085225,
+            "locality_id":85929261,
+            "neighbourhood_id":85872973,
+            "region_id":85688603,
+            "venue_id":823886727
+        }
+    ],
     "wof:id":823886727,
-    "wof:lastmodified":1466419981,
+    "wof:lastmodified":1492125671,
     "wof:name":"A Leading Edge Landscaping",
-    "wof:parent_id":-1,
+    "wof:parent_id":85872973,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

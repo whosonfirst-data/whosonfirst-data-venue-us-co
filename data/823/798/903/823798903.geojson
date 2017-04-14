@@ -2,9 +2,14 @@
   "id": 823798903,
   "type": "Feature",
   "properties": {
+    "addr:full":"4344 E 118th Ave Denver CO 80233",
+    "addr:housenumber":"4344",
+    "addr:postcode":"80233",
+    "addr:street":"E 118Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.934543,39.910108,-104.934543,39.910108",
     "geom:latitude":39.910108,
     "geom:longitude":-104.934543,
@@ -28,19 +33,36 @@
         "financial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4cwtcZrpnb8c1EjeRuKmPU_39.910108_-104.934543@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446682,
-    "wof:geomhash":"534f036d3b4b22e1ba0b088296bab2f2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b5d052c9c0c8e313c259ace4294dffe5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":823798903
+        }
+    ],
     "wof:id":823798903,
-    "wof:lastmodified":1466419303,
+    "wof:lastmodified":1492118640,
     "wof:name":"Newstart Financial Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

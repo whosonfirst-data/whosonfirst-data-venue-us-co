@@ -2,9 +2,14 @@
   "id": 823917775,
   "type": "Feature",
   "properties": {
+    "addr:full":"1016 E Main St Cortez CO 81321",
+    "addr:housenumber":"1016",
+    "addr:postcode":"81321",
+    "addr:street":"E Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.572577,37.348901,-108.572577,37.348901",
     "geom:latitude":37.348901,
     "geom:longitude":-108.572577,
@@ -28,19 +33,36 @@
         "home"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928909,
+        102084099,
+        420555047
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4WWZYe9i5hzba5YdtA4pIa_37.348901_-108.572577@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449947,
-    "wof:geomhash":"e5473fe56cb2737d682378d10a362638",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2b20c16d2207d6a2d5a1780d950e4f5b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084099,
+            "locality_id":85928909,
+            "neighbourhood_id":420555047,
+            "region_id":85688603,
+            "venue_id":823917775
+        }
+    ],
     "wof:id":823917775,
-    "wof:lastmodified":1466420491,
+    "wof:lastmodified":1492117779,
     "wof:name":"Long Trailer Court",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555047,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

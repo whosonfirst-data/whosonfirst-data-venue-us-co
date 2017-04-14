@@ -2,9 +2,14 @@
   "id": 824147305,
   "type": "Feature",
   "properties": {
+    "addr:full":"1330 Bellaire St Broomfield CO 80020",
+    "addr:housenumber":"1330",
+    "addr:postcode":"80020",
+    "addr:street":"Bellaire St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.060409,39.937523,-105.060409,39.937523",
     "geom:latitude":39.937523,
     "geom:longitude":-105.060409,
@@ -27,19 +32,36 @@
         "engineer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554177
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4QVom5TU7d7Zob4UD0wdMB_39.937523_-105.060409@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455797,
-    "wof:geomhash":"538cc25569250e71e1a49932bba18a0f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e2ac3d3ff0ce41da719529138af7143",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554177,
+            "region_id":85688603,
+            "venue_id":824147305
+        }
+    ],
     "wof:id":824147305,
-    "wof:lastmodified":1466416564,
+    "wof:lastmodified":1492131658,
     "wof:name":"Arnesen & Assoc Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554177,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

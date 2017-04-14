@@ -2,9 +2,14 @@
   "id": 823516671,
   "type": "Feature",
   "properties": {
+    "addr:full":"6471 Federal Blvd Denver CO 80221",
+    "addr:housenumber":"6471",
+    "addr:postcode":"80221",
+    "addr:street":"Federal Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025335,39.814634,-105.025335,39.814634",
     "geom:latitude":39.814634,
     "geom:longitude":-105.025335,
@@ -30,19 +35,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930265,
+        102084053,
+        420553657
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3syNECwYmGSn3QSYyuRJtZ_39.814634_-105.025335@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439940,
-    "wof:geomhash":"6f89eee8c9ba99944e522f60c5af4b2c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2b41784329059840c41799817f3e91db",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930265,
+            "neighbourhood_id":420553657,
+            "region_id":85688603,
+            "venue_id":823516671
+        }
+    ],
     "wof:id":823516671,
-    "wof:lastmodified":1466414745,
+    "wof:lastmodified":1492123883,
     "wof:name":"Area Auto Parts",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553657,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823861585,
   "type": "Feature",
   "properties": {
+    "addr:full":"372 Mountain View Dr Berthoud CO 80513",
+    "addr:housenumber":"372",
+    "addr:postcode":"80513",
+    "addr:street":"Mountain View Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.986645,40.337777,-104.986645,40.337777",
     "geom:latitude":40.337777,
     "geom:longitude":-104.986645,
@@ -28,19 +33,36 @@
         "storage"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928999,
+        102086117,
+        420555423
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3aYjnv3yED9ZLusRuDMLRn_40.337777_-104.986645@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448530,
-    "wof:geomhash":"2ea13e57a48473fe23bd688baaa92e9f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6919bb35fc62040275f42e67c57f40ab",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086117,
+            "locality_id":85928999,
+            "neighbourhood_id":420555423,
+            "region_id":85688603,
+            "venue_id":823861585
+        }
+    ],
     "wof:id":823861585,
-    "wof:lastmodified":1466419868,
+    "wof:lastmodified":1492122870,
     "wof:name":"Foothills Self Storage",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555423,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

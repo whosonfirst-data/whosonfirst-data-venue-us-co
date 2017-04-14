@@ -2,9 +2,14 @@
   "id": 839980563,
   "type": "Feature",
   "properties": {
+    "addr:full":"12145 Bellaire St Denver CO 80241",
+    "addr:housenumber":"12145",
+    "addr:postcode":"80241",
+    "addr:street":"Bellaire St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.936947,39.917487,-104.936947,39.917487",
     "geom:latitude":39.917487,
     "geom:longitude":-104.936947,
@@ -30,19 +35,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553671
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1EEo12YGRctwjTmAMD9VI7_39.917631_-104.937035@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460442,
-    "wof:geomhash":"2db3b4d76bc2edb3606628388a465137",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6aaa2073b6102dcf10dd04cc93f38452",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553671,
+            "region_id":85688603,
+            "venue_id":839980563
+        }
+    ],
     "wof:id":839980563,
-    "wof:lastmodified":1466416809,
+    "wof:lastmodified":1492113402,
     "wof:name":"Gould Sprinklers Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553671,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

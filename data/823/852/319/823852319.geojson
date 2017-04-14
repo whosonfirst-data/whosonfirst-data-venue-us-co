@@ -2,9 +2,14 @@
   "id": 823852319,
   "type": "Feature",
   "properties": {
+    "addr:full":"615 Main St Longmont CO 80501",
+    "addr:housenumber":"615",
+    "addr:postcode":"80501",
+    "addr:street":"Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.102578,40.170433,-105.102578,40.170433",
     "geom:latitude":40.170433,
     "geom:longitude":-105.102578,
@@ -34,17 +39,32 @@
         "rental"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929115,
+        102085251
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4JjRWnVba3DsUOHonctEcA_40.170433_-105.102578@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448287,
-    "wof:geomhash":"93979559ce0555ed13d04c1f389bd089",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e0527d74047789362fea893d8bd82cf6",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929115,
+            "region_id":85688603,
+            "venue_id":823852319
+        }
+    ],
     "wof:id":823852319,
-    "wof:lastmodified":1466419806,
+    "wof:lastmodified":1492126666,
     "wof:name":"Mail Room",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

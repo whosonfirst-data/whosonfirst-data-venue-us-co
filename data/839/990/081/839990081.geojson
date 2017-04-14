@@ -2,9 +2,14 @@
   "id": 839990081,
   "type": "Feature",
   "properties": {
+    "addr:full":"1104 W Elizabeth St Fort Collins CO 80521",
+    "addr:housenumber":"1104",
+    "addr:postcode":"80521",
+    "addr:street":"W Elizabeth St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.096056,40.574534,-105.096056,40.574534",
     "geom:latitude":40.574534,
     "geom:longitude":-105.096056,
@@ -28,19 +33,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554729
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6yhZNMJnns2gl1WQqYSfAQ_40.574534_-105.096056@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460815,
-    "wof:geomhash":"1a8f06ea328e90491f102a319e9ca6a7",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9a59416f835e80a736006e49ac1f720a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554729,
+            "region_id":85688603,
+            "venue_id":839990081
+        }
+    ],
     "wof:id":839990081,
-    "wof:lastmodified":1466417526,
+    "wof:lastmodified":1492110540,
     "wof:name":"Qdoba",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554729,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

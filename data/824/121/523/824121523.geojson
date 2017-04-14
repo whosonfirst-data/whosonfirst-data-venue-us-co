@@ -2,9 +2,14 @@
   "id": 824121523,
   "type": "Feature",
   "properties": {
+    "addr:full":"3092 Silver Ct Grand Junction CO 81504",
+    "addr:housenumber":"3092",
+    "addr:postcode":"81504",
+    "addr:street":"Silver Ct",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.479392,39.063371,-108.479392,39.063371",
     "geom:latitude":39.063371,
     "geom:longitude":-108.479392,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930473,
+        102085221,
+        420554901
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6J9lqziCbqnTOOWyjyffOy_39.063371_-108.479392@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454793,
-    "wof:geomhash":"93cea57ab321b1198456ff3c17d52986",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7669cfe5b204c2c3dda1ac6b142139a9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85930473,
+            "neighbourhood_id":420554901,
+            "region_id":85688603,
+            "venue_id":824121523
+        }
+    ],
     "wof:id":824121523,
-    "wof:lastmodified":1466415688,
+    "wof:lastmodified":1492131104,
     "wof:name":"Steves Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554901,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

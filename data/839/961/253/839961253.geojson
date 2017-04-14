@@ -2,9 +2,14 @@
   "id": 839961253,
   "type": "Feature",
   "properties": {
+    "addr:full":"925 34th St Boulder CO 80303",
+    "addr:housenumber":"925",
+    "addr:postcode":"80303",
+    "addr:street":"34Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.249469,40.004597,-105.249469,40.004597",
     "geom:latitude":40.004597,
     "geom:longitude":-105.249469,
@@ -27,19 +32,36 @@
         "landscape"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876359
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1Y81D6eOmUURE1ygCP2ybn_40.004597_-105.249469@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459657,
-    "wof:geomhash":"02eb0849c69472756542948d8d12054d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"90443551468056206967d9baea14a4f1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876359,
+            "region_id":85688603,
+            "venue_id":839961253
+        }
+    ],
     "wof:id":839961253,
-    "wof:lastmodified":1466415671,
+    "wof:lastmodified":1492111566,
     "wof:name":"Astfo Designs LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876359,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

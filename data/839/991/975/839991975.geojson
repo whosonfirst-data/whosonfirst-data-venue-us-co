@@ -2,9 +2,14 @@
   "id": 839991975,
   "type": "Feature",
   "properties": {
+    "addr:full":"575 24 1/2 Rd Grand Junction CO 81505",
+    "addr:housenumber":"1 / 2",
+    "addr:postcode":"81505",
+    "addr:street":"575 24;Rd Grand Junction",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.598852,39.088963,-108.598852,39.088963",
     "geom:latitude":39.088963,
     "geom:longitude":-108.598852,
@@ -29,19 +34,36 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929587,
+        102085221,
+        420554869
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5mFvPzsuT1JSooH5iHdEAe_39.088963_-108.598852@1299784598"
     },
     "wof:country":"US",
     "wof:created":1463460882,
-    "wof:geomhash":"c5f2e0a42695588ee8e40b3cd1062849",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f48232c66dc265a89c4ffe4d50839487",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085221,
+            "locality_id":85929587,
+            "neighbourhood_id":420554869,
+            "region_id":85688603,
+            "venue_id":839991975
+        }
+    ],
     "wof:id":839991975,
-    "wof:lastmodified":1466417491,
+    "wof:lastmodified":1492110995,
     "wof:name":"Red Lobster",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554869,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

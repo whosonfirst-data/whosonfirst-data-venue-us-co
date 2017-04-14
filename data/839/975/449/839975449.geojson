@@ -2,9 +2,14 @@
   "id": 839975449,
   "type": "Feature",
   "properties": {
+    "addr:full":"12887 Co Rd 29 Dolores CO 81323",
+    "addr:housenumber":"12887;29",
+    "addr:postcode":"81323",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.517533,37.396647,-108.517533,37.396647",
     "geom:latitude":37.396647,
     "geom:longitude":-108.517533,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555037
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3scwuxNLk9qIQ9eLkirj3I_37.396647_-108.517533@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463460235,
-    "wof:geomhash":"0c9cbaf87d6cef918b611e35454a96ba",
-    "wof:hierarchy":[],
+    "wof:geomhash":"53044f0f34d8baa1187d5aebe71eea0c",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555037,
+            "venue_id":839975449
+        }
+    ],
     "wof:id":839975449,
-    "wof:lastmodified":1466416460,
+    "wof:lastmodified":1492113758,
     "wof:name":"G & H Remodels",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555037,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

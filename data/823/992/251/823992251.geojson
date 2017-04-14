@@ -2,9 +2,14 @@
   "id": 823992251,
   "type": "Feature",
   "properties": {
+    "addr:full":"3540 W 92nd Ave Westminster CO 80031",
+    "addr:housenumber":"3540",
+    "addr:postcode":"80031",
+    "addr:street":"W 92Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.03432,39.863411,-105.03432,39.863411",
     "geom:latitude":39.863411,
     "geom:longitude":-105.03432,
@@ -27,19 +32,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553513
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ji3UTgkYLcNgkHNqlC38S_39.863411_-105.034320@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451771,
-    "wof:geomhash":"4cc4151f16e60dbb8ed2d8a8a498ac8f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"e43b091266cd370f444734917825b59b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553513,
+            "region_id":85688603,
+            "venue_id":823992251
+        }
+    ],
     "wof:id":823992251,
-    "wof:lastmodified":1466420964,
+    "wof:lastmodified":1492127233,
     "wof:name":"Diamond Shamrock Refining Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553513,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

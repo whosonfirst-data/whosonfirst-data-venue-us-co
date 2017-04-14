@@ -2,9 +2,14 @@
   "id": 823996867,
   "type": "Feature",
   "properties": {
+    "addr:full":"236 S College Ave Fort Collins CO 80524",
+    "addr:housenumber":"236",
+    "addr:postcode":"80524",
+    "addr:street":"S College Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.076967,40.584719,-105.076967,40.584719",
     "geom:latitude":40.584719,
     "geom:longitude":-105.076967,
@@ -27,19 +32,36 @@
         "merchandise"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929679,
+        102083353,
+        420554751
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_10TPapniDymPCHr9IdB1dq_40.584719_-105.076967@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451912,
-    "wof:geomhash":"37a3f070931852c3e218e84278fe0656",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d4282298a26318779bd3f3a773048726",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102083353,
+            "locality_id":85929679,
+            "neighbourhood_id":420554751,
+            "region_id":85688603,
+            "venue_id":823996867
+        }
+    ],
     "wof:id":823996867,
-    "wof:lastmodified":1466421080,
+    "wof:lastmodified":1492117469,
     "wof:name":"Ovation Audio",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554751,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823676845,
   "type": "Feature",
   "properties": {
+    "addr:full":"3431 E 99th Way Denver CO 80229",
+    "addr:housenumber":"3431",
+    "addr:postcode":"80229",
+    "addr:street":"E 99Th Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.946548,39.876709,-104.946548,39.876709",
     "geom:latitude":39.876709,
     "geom:longitude":-104.946548,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553689
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_534fybKxG6yK3rHgx3xp4s_39.876709_-104.946548@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443718,
-    "wof:geomhash":"3c63e7f5ad20d71791b7f1c41c509626",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8293fca813be17116ec1db69ed76f03c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553689,
+            "region_id":85688603,
+            "venue_id":823676845
+        }
+    ],
     "wof:id":823676845,
-    "wof:lastmodified":1466418375,
+    "wof:lastmodified":1492125901,
     "wof:name":"Exact Drywall Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553689,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

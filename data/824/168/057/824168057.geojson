@@ -2,9 +2,14 @@
   "id": 824168057,
   "type": "Feature",
   "properties": {
+    "addr:full":"1790 38th St Boulder CO 80301",
+    "addr:housenumber":"1790",
+    "addr:postcode":"80301",
+    "addr:street":"38Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.244319,40.015931,-105.244319,40.015931",
     "geom:latitude":40.015931,
     "geom:longitude":-105.244319,
@@ -27,19 +32,36 @@
         "carrier"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876383
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4o2nZy4F1Ie128D6rQiDUy_40.015931_-105.244319@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456606,
-    "wof:geomhash":"55866eceac8c41dfe1cac1bddb471540",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a1fe0fd233c1f0f84adae0042b2f724",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876383,
+            "region_id":85688603,
+            "venue_id":824168057
+        }
+    ],
     "wof:id":824168057,
-    "wof:lastmodified":1466417694,
+    "wof:lastmodified":1492132237,
     "wof:name":"Lawyers Title Insurance Corp",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876383,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

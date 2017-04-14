@@ -2,9 +2,14 @@
   "id": 823991089,
   "type": "Feature",
   "properties": {
+    "addr:full":"5566 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"5566;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.854045,37.373288,-107.854045,37.373288",
     "geom:latitude":37.373288,
     "geom:longitude":-107.854045,
@@ -28,19 +33,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554625
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7CRFm9kx3M2Kd613eL2XsW_37.373288_-107.854045@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463451746,
-    "wof:geomhash":"06e1c408f93fc4b1bf49343e83fecda6",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6d30972607579fd2e158aaf51ffd10c5",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554625,
+            "venue_id":823991089
+        }
+    ],
     "wof:id":823991089,
-    "wof:lastmodified":1466420950,
+    "wof:lastmodified":1492117381,
     "wof:name":"Conquest Earthworks LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554625,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

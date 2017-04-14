@@ -2,9 +2,14 @@
   "id": 823808161,
   "type": "Feature",
   "properties": {
+    "addr:full":"4745 W 127th Pl Broomfield CO 80020",
+    "addr:housenumber":"4745",
+    "addr:postcode":"80020",
+    "addr:street":"W 127Th Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.046829,39.927072,-105.046829,39.927072",
     "geom:latitude":39.927072,
     "geom:longitude":-105.046829,
@@ -28,19 +33,36 @@
         "retailer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929855,
+        102086123,
+        420554217
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7DnFcBLU5FWJBo2j84FRjw_39.927072_-105.046829@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446950,
-    "wof:geomhash":"dca793f9d9f89fa4448ff3b71823377e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"693c269e3e640777dd82d6a735b9c5e3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086123,
+            "locality_id":85929855,
+            "neighbourhood_id":420554217,
+            "region_id":85688603,
+            "venue_id":823808161
+        }
+    ],
     "wof:id":823808161,
-    "wof:lastmodified":1466419415,
+    "wof:lastmodified":1492116868,
     "wof:name":"Technospeed",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554217,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

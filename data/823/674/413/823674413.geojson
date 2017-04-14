@@ -2,9 +2,14 @@
   "id": 823674413,
   "type": "Feature",
   "properties": {
+    "addr:full":"906 Co Rd 311 Ignacio CO 81137",
+    "addr:housenumber":"906;311",
+    "addr:postcode":"81137",
+    "addr:street":"Co Rd;Ignacio",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.731828,37.107698,-107.731828,37.107698",
     "geom:latitude":37.107698,
     "geom:longitude":-107.731828,
@@ -28,19 +33,28 @@
         "utility"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7QCkW6MgigALIvhuYr4J7W_37.107698_-107.731828@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443672,
-    "wof:geomhash":"eea322b9075e1ad4d4d83e062be1dbfc",
-    "wof:hierarchy":[],
+    "wof:geomhash":"6ee02a5b0defd724fcb2013f148c3bc8",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554659,
+            "venue_id":823674413
+        }
+    ],
     "wof:id":823674413,
-    "wof:lastmodified":1466418311,
+    "wof:lastmodified":1492118426,
     "wof:name":"Straight Steel Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

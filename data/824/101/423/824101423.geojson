@@ -2,9 +2,14 @@
   "id": 824101423,
   "type": "Feature",
   "properties": {
+    "addr:full":"13001 E 30th Ave Aurora CO 80011",
+    "addr:housenumber":"13001",
+    "addr:postcode":"80011",
+    "addr:street":"E 30Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.834061,39.757354,-104.834061,39.757354",
     "geom:latitude":39.757354,
     "geom:longitude":-104.834061,
@@ -24,19 +29,36 @@
     "sg:postcode":"80011",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_06oAGLdR7Pb8bKF1n997jX_39.757354_-104.834061@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454371,
-    "wof:geomhash":"309d87df6370d3b7b77626eca782c625",
-    "wof:hierarchy":[],
+    "wof:geomhash":"97a7a4a0e7b813a220adb34437957042",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553301,
+            "region_id":85688603,
+            "venue_id":824101423
+        }
+    ],
     "wof:id":824101423,
-    "wof:lastmodified":1466415107,
+    "wof:lastmodified":1492128480,
     "wof:name":"Park Lane Elementary School",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

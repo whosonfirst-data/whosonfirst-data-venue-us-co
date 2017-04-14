@@ -2,9 +2,14 @@
   "id": 823647353,
   "type": "Feature",
   "properties": {
+    "addr:full":"1695 Co Rd 500 Bayfield CO 81122",
+    "addr:housenumber":"1695;500",
+    "addr:postcode":"bayfield;81122",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.557562,37.460772,-107.557562,37.460772",
     "geom:latitude":37.460772,
     "geom:longitude":-107.557562,
@@ -27,19 +32,34 @@
         "equine"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554669,
+        420554683
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7OPVovMzkVjaMrBk3o3VYV_37.460772_-107.557562@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443025,
-    "wof:geomhash":"9770a1b35fa27e72d45f69cd818e2eb9",
-    "wof:hierarchy":[],
+    "wof:geomhash":"82014a991342e6f5868c56742501b71d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554669,
+            "venue_id":823647353
+        },
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554683,
+            "venue_id":823647353
+        }
+    ],
     "wof:id":823647353,
-    "wof:lastmodified":1466418008,
+    "wof:lastmodified":1492121111,
     "wof:name":"Colt Ross Outftrs",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

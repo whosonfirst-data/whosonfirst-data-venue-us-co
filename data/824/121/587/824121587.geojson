@@ -2,9 +2,14 @@
   "id": 824121587,
   "type": "Feature",
   "properties": {
+    "addr:full":"11405 E 30th Ave Aurora CO 80010",
+    "addr:housenumber":"11405",
+    "addr:postcode":"80010",
+    "addr:street":"E 30Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.853625,39.760251,-104.853625,39.760251",
     "geom:latitude":39.760251,
     "geom:longitude":-104.853625,
@@ -28,17 +33,32 @@
         "city"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4q9PONMTHFnKv0yhVTGWRW_39.760251_-104.853625@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463454794,
-    "wof:geomhash":"47ead02f90603e126324ce80d639d860",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f93b3e5074217edbe50c8c17d319e080",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "region_id":85688603,
+            "venue_id":824121587
+        }
+    ],
     "wof:id":824121587,
-    "wof:lastmodified":1466415693,
+    "wof:lastmodified":1492131106,
     "wof:name":"Aurora Wastewater Treatment",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

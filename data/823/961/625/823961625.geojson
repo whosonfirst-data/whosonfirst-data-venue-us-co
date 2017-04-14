@@ -2,9 +2,14 @@
   "id": 823961625,
   "type": "Feature",
   "properties": {
+    "addr:full":"858 S Shoshone St Denver CO 80223",
+    "addr:housenumber":"858",
+    "addr:postcode":"80223",
+    "addr:street":"S Shoshone St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.009813,39.7011,-105.009813,39.7011",
     "geom:latitude":39.7011,
     "geom:longitude":-105.009813,
@@ -28,7 +33,15 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        420554317,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_23wVYRRld7mc5Q6qmbY0nP_39.701100_-105.009813@1294083659"
@@ -36,11 +49,22 @@
     "wof:country":"US",
     "wof:created":1463451063,
     "wof:geomhash":"99e49e5d3b3220c5014e676b1d53ccd8",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":420554317,
+            "region_id":85688603,
+            "venue_id":823961625
+        }
+    ],
     "wof:id":823961625,
-    "wof:lastmodified":1466420725,
+    "wof:lastmodified":1491876250,
     "wof:name":"Canales Concrete Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

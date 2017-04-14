@@ -2,9 +2,14 @@
   "id": 823727347,
   "type": "Feature",
   "properties": {
+    "addr:full":"4205 Co Rd 10 Gunnison CO 81230",
+    "addr:housenumber":"4205;10",
+    "addr:postcode":"81230",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.885747,38.607721,-106.885747,38.607721",
     "geom:latitude":38.607721,
     "geom:longitude":-106.885747,
@@ -27,19 +32,28 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554443
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1CpWV0k5Tb6r5lo87bJ2uc_38.607721_-106.885747@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444832,
-    "wof:geomhash":"bc771d9445eb5928dd0441c399bdb781",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0c65215c2f4210d8265daf3f1929a20d",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554443,
+            "venue_id":823727347
+        }
+    ],
     "wof:id":823727347,
-    "wof:lastmodified":1466418742,
+    "wof:lastmodified":1492124762,
     "wof:name":"Maciejko Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554443,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

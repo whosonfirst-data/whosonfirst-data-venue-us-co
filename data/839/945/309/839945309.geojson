@@ -2,9 +2,14 @@
   "id": 839945309,
   "type": "Feature",
   "properties": {
+    "addr:full":"12450 Washington St Denver CO 80241",
+    "addr:housenumber":"12450",
+    "addr:postcode":"80241",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977783,39.924071,-104.977783,39.924071",
     "geom:latitude":39.924071,
     "geom:longitude":-104.977783,
@@ -27,19 +32,36 @@
         "executive"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553885
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3yRJ62OsyPZtbvlHgIbmBJ_39.924071_-104.977783@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458866,
-    "wof:geomhash":"1bba5738efddf35b78c469626b12d102",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1a30405371e743f28410e979d2bd86a3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553885,
+            "region_id":85688603,
+            "venue_id":839945309
+        }
+    ],
     "wof:id":839945309,
-    "wof:lastmodified":1466415157,
+    "wof:lastmodified":1492114023,
     "wof:name":"Parks Department",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553885,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

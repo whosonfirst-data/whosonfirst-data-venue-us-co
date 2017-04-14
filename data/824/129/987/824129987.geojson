@@ -2,9 +2,14 @@
   "id": 824129987,
   "type": "Feature",
   "properties": {
+    "addr:full":"710 W 120th Ave Denver CO 80234",
+    "addr:housenumber":"710",
+    "addr:postcode":"80234",
+    "addr:street":"W 120Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.994688,39.913819,-104.994688,39.913819",
     "geom:latitude":39.913819,
     "geom:longitude":-104.994688,
@@ -27,19 +32,46 @@
         "eating"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553723,
+        420553631
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7atLDseXyLyy0cH8kddf9I_39.913819_-104.994688@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455137,
-    "wof:geomhash":"caec1e036e9f3aa4fdc29a5a8bca3045",
-    "wof:hierarchy":[],
+    "wof:geomhash":"7cf1a3f58477870e2503b6c8fbd6f5c8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553723,
+            "region_id":85688603,
+            "venue_id":824129987
+        },
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553631,
+            "region_id":85688603,
+            "venue_id":824129987
+        }
+    ],
     "wof:id":824129987,
-    "wof:lastmodified":1466416138,
+    "wof:lastmodified":1492131748,
     "wof:name":"Lagunas 2 Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

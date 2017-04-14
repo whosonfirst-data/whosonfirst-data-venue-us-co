@@ -2,9 +2,14 @@
   "id": 823682647,
   "type": "Feature",
   "properties": {
+    "addr:full":"1583 E Bridge St Brighton CO 80601",
+    "addr:housenumber":"1583",
+    "addr:postcode":"80601",
+    "addr:street":"E Bridge St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.801621,39.986868,-104.801621,39.986868",
     "geom:latitude":39.986868,
     "geom:longitude":-104.801621,
@@ -37,19 +42,36 @@
         "cassette"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553425
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5z2CM17GK7xfBESxyUsQCi_39.986868_-104.801621@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443845,
-    "wof:geomhash":"b97516ed79c2b8c3383a6e74179852a0",
-    "wof:hierarchy":[],
+    "wof:geomhash":"eb8be2b499512abe65838d37cd2e9493",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553425,
+            "region_id":85688603,
+            "venue_id":823682647
+        }
+    ],
     "wof:id":823682647,
-    "wof:lastmodified":1466418392,
+    "wof:lastmodified":1492116756,
     "wof:name":"Video Exchange 53",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553425,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

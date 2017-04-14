@@ -2,9 +2,14 @@
   "id": 823794609,
   "type": "Feature",
   "properties": {
+    "addr:full":"9166 Huron St Denver CO 80260",
+    "addr:housenumber":"9166",
+    "addr:postcode":"80260",
+    "addr:street":"Huron St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996476,39.862901,-104.996476,39.862901",
     "geom:latitude":39.862901,
     "geom:longitude":-104.996476,
@@ -29,19 +34,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553659
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_26P423ijSTR8GJjbZzJphT_39.862901_-104.996476@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446561,
-    "wof:geomhash":"10756581bf60d7e6ba333411bcf81861",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8917d101ee792eb11bf48aa572dd138b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553659,
+            "region_id":85688603,
+            "venue_id":823794609
+        }
+    ],
     "wof:id":823794609,
-    "wof:lastmodified":1466419291,
+    "wof:lastmodified":1492126851,
     "wof:name":"Molly Maids",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553659,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

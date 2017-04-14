@@ -2,9 +2,14 @@
   "id": 823765327,
   "type": "Feature",
   "properties": {
+    "addr:full":"325 N Kuner Rd Brighton CO 80601",
+    "addr:housenumber":"325",
+    "addr:postcode":"80601",
+    "addr:street":"N Kuner Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.823127,39.992046,-104.823127,39.992046",
     "geom:latitude":39.992046,
     "geom:longitude":-104.823127,
@@ -30,19 +35,36 @@
         "municipal"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930239,
+        102084053,
+        420553405
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3BvwSS2lsglBoSbBevKcp0_39.992046_-104.823127@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445723,
-    "wof:geomhash":"cdcd707f9aeb200bd4898173acf4eddd",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cd2dc04f95a952b76b6d231f25eb4387",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930239,
+            "neighbourhood_id":420553405,
+            "region_id":85688603,
+            "venue_id":823765327
+        }
+    ],
     "wof:id":823765327,
-    "wof:lastmodified":1466419191,
+    "wof:lastmodified":1492119401,
     "wof:name":"Brighton Waste Water Plant",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553405,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

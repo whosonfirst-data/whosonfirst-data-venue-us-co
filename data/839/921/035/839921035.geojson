@@ -2,9 +2,14 @@
   "id": 839921035,
   "type": "Feature",
   "properties": {
+    "addr:full":"2280 W 131st Way Denver CO 80234",
+    "addr:housenumber":"2280",
+    "addr:postcode":"80234",
+    "addr:street":"W 131St Way",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.014595,39.936189,-105.014595,39.936189",
     "geom:latitude":39.936189,
     "geom:longitude":-105.014595,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553617
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6AkGJnmllOZbdcIB0QVoSm_39.936189_-105.014595@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457535,
-    "wof:geomhash":"2b77d30fafe2e24f790687e3011163cf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"58f650ccda05aa9e1eb4543caf0ffe97",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553617,
+            "region_id":85688603,
+            "venue_id":839921035
+        }
+    ],
     "wof:id":839921035,
-    "wof:lastmodified":1466413976,
+    "wof:lastmodified":1492112983,
     "wof:name":"Dmr Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553617,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 839953103,
   "type": "Feature",
   "properties": {
+    "addr:full":"1823 Carson St Aurora CO 80011",
+    "addr:housenumber":"1823",
+    "addr:postcode":"80011",
+    "addr:street":"Carson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.822744,39.747085,-104.822744,39.747085",
     "geom:latitude":39.747085,
     "geom:longitude":-104.822744,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553941
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7fsmLhwIUX5sqreycmlty9_39.747085_-104.822744@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459286,
-    "wof:geomhash":"f3d437e054a18024f65323c34656cdd3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"1e625ae370d5c3aeba193030e9e453a8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553941,
+            "region_id":85688603,
+            "venue_id":839953103
+        }
+    ],
     "wof:id":839953103,
-    "wof:lastmodified":1466415370,
+    "wof:lastmodified":1492111623,
     "wof:name":"D & G Construction",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553941,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

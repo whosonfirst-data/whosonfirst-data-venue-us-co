@@ -2,9 +2,14 @@
   "id": 823494877,
   "type": "Feature",
   "properties": {
+    "addr:full":"13000 W 10th Ave Golden CO 80401",
+    "addr:housenumber":"13000",
+    "addr:postcode":"80401",
+    "addr:street":"W 10Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.145348,39.732802,-105.145348,39.732802",
     "geom:latitude":39.732802,
     "geom:longitude":-105.145348,
@@ -26,10 +31,12 @@
     "src:geom":"simplegeo",
     "wof:belongsto":[
         85688603,
-        102191575,
         85633793,
-        85929751,
+        85930615,
         102084113,
+        85865183,
+        102191575,
+        85929751,
         85817381
     ],
     "wof:breaches":[],
@@ -38,8 +45,16 @@
     },
     "wof:country":"US",
     "wof:created":1463439433,
-    "wof:geomhash":"636bb3d468a40f2f49dea3a41a10b946",
+    "wof:geomhash":"0d2e69b53ae72b9dec7ffd79520ad54a",
     "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85930615,
+            "neighbourhood_id":85865183,
+            "region_id":85688603,
+            "venue_id":823494877
+        },
         {
             "continent_id":102191575,
             "country_id":85633793,
@@ -51,9 +66,9 @@
         }
     ],
     "wof:id":823494877,
-    "wof:lastmodified":1466414164,
+    "wof:lastmodified":1492119968,
     "wof:name":"Welchester Elementary School",
-    "wof:parent_id":85817381,
+    "wof:parent_id":-3,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

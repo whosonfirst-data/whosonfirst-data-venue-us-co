@@ -2,9 +2,14 @@
   "id": 839952107,
   "type": "Feature",
   "properties": {
+    "addr:full":"1880 Nueva Vista Dr Denver CO 80229",
+    "addr:housenumber":"1880",
+    "addr:postcode":"80229",
+    "addr:street":"Nueva Vista Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.965759,39.844306,-104.965759,39.844306",
     "geom:latitude":39.844306,
     "geom:longitude":-104.965759,
@@ -27,19 +32,36 @@
         "residential"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930231,
+        102084053,
+        420553893
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_46Sosui2RHEAQbkre9qO8c_39.844306_-104.965759@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459210,
-    "wof:geomhash":"7a0d4fa4a8809e8fcf63f51a1bc2986f",
-    "wof:hierarchy":[],
+    "wof:geomhash":"2ea4b7b84f8f8cc1b0d069767243081f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930231,
+            "neighbourhood_id":420553893,
+            "region_id":85688603,
+            "venue_id":839952107
+        }
+    ],
     "wof:id":839952107,
-    "wof:lastmodified":1466415366,
+    "wof:lastmodified":1492111964,
     "wof:name":"Roth & Son",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553893,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

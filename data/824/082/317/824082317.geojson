@@ -2,9 +2,14 @@
   "id": 824082317,
   "type": "Feature",
   "properties": {
+    "addr:full":"105 N 5th St Holly CO 81047",
+    "addr:housenumber":"105",
+    "addr:postcode":"81047",
+    "addr:street":"N 5Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-102.123952,38.053484,-102.123952,38.053484",
     "geom:latitude":38.053484,
     "geom:longitude":-102.123952,
@@ -27,17 +32,32 @@
         "church"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85928849,
+        102084095
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2ENOsdYqPi7vcNCwBn3XdA_38.053484_-102.123952@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453902,
-    "wof:geomhash":"5f24777d58e26fad782c2dc1ea134405",
-    "wof:hierarchy":[],
+    "wof:geomhash":"a0e11a170cc6b8227ac109cc5443efc1",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084095,
+            "locality_id":85928849,
+            "region_id":85688603,
+            "venue_id":824082317
+        }
+    ],
     "wof:id":824082317,
-    "wof:lastmodified":1466414639,
+    "wof:lastmodified":1492128323,
     "wof:name":"Christian Church",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

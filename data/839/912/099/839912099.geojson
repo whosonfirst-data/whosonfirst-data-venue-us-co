@@ -2,9 +2,14 @@
   "id": 839912099,
   "type": "Feature",
   "properties": {
+    "addr:full":"10200 E 102nd Ave Henderson CO 80640",
+    "addr:housenumber":"10200",
+    "addr:postcode":"80640",
+    "addr:street":"E 102Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.873409,39.880173,-104.873409,39.880173",
     "geom:latitude":39.880173,
     "geom:longitude":-104.873409,
@@ -29,19 +34,28 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420553497
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7NwF6F98qlMgI91jTn62dU_39.880173_-104.873409@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457185,
-    "wof:geomhash":"b204a9245c458f139b79942fc296ec94",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c7b7645e2c5158d07df2051241edc0b3",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420553497,
+            "venue_id":839912099
+        }
+    ],
     "wof:id":839912099,
-    "wof:lastmodified":1466412368,
+    "wof:lastmodified":1492110867,
     "wof:name":"Infrasource Underground Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553497,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823871819,
   "type": "Feature",
   "properties": {
+    "addr:full":"2312 Co Rd 234 Durango CO 81301",
+    "addr:housenumber":"2312;234",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.795701,37.262199,-107.795701,37.262199",
     "geom:latitude":37.262199,
     "geom:longitude":-107.795701,
@@ -27,19 +32,28 @@
         "nut"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554667
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5J4VwP37yXJw9klJnGnGMz_37.262199_-107.795701@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463448775,
-    "wof:geomhash":"f3f5b4ffdc6303e5b3843c26569e5a9d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"18e65c4c1bd78db1a94f7796b8a95fa2",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554667,
+            "venue_id":823871819
+        }
+    ],
     "wof:id":823871819,
-    "wof:lastmodified":1466419990,
+    "wof:lastmodified":1492120606,
     "wof:name":"Mountain Man Nut & Fruit Co",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 824152595,
   "type": "Feature",
   "properties": {
+    "addr:full":"12560 Fairfax St Denver CO 80241",
+    "addr:housenumber":"12560",
+    "addr:postcode":"80241",
+    "addr:street":"Fairfax St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.929643,39.923565,-104.929643,39.923565",
     "geom:latitude":39.923565,
     "geom:longitude":-104.929643,
@@ -27,19 +32,36 @@
         "advisory"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553661
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3m1KtjQlevifw2vgEdM4pe_39.923565_-104.929643@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463456005,
-    "wof:geomhash":"6e20fce3df40a32da6c9dac56479b930",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d7436cc4a7456947334402c3497ae53f",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553661,
+            "region_id":85688603,
+            "venue_id":824152595
+        }
+    ],
     "wof:id":824152595,
-    "wof:lastmodified":1466416896,
+    "wof:lastmodified":1492132949,
     "wof:name":"Wittwer Financial Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553661,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

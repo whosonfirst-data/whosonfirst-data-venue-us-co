@@ -2,9 +2,14 @@
   "id": 824141823,
   "type": "Feature",
   "properties": {
+    "addr:full":"1463 13th St Steamboat Spgs CO 80487",
+    "addr:housenumber":"1463",
+    "addr:postcode":"80487",
+    "addr:street":"13Th St Steamboat Spgs",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-106.849546,40.490997,-106.849546,40.490997",
     "geom:latitude":40.490997,
     "geom:longitude":-106.849546,
@@ -28,19 +33,36 @@
         "program"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929277,
+        102086129,
+        420555147
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6W4Gn30XTXhH6DlCaAhsUr_40.490997_-106.849546@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455575,
-    "wof:geomhash":"4835e121df41cc00d18ec249c0067c9e",
-    "wof:hierarchy":[],
+    "wof:geomhash":"91af54c4fae419750cb0ec15bc9a3d95",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086129,
+            "locality_id":85929277,
+            "neighbourhood_id":420555147,
+            "region_id":85688603,
+            "venue_id":824141823
+        }
+    ],
     "wof:id":824141823,
-    "wof:lastmodified":1466416612,
+    "wof:lastmodified":1492131691,
     "wof:name":"Steamboat Springs Transit",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555147,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

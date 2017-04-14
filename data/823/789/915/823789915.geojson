@@ -2,9 +2,14 @@
   "id": 823789915,
   "type": "Feature",
   "properties": {
+    "addr:full":"3218 Troy St Aurora CO 80011",
+    "addr:housenumber":"3218",
+    "addr:postcode":"80011",
+    "addr:street":"Troy St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.83729,39.763005,-104.83729,39.763005",
     "geom:latitude":39.763005,
     "geom:longitude":-104.83729,
@@ -27,19 +32,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553301
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_74HplPu71tIG4ImUqWX9nQ_39.763005_-104.837290@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446422,
-    "wof:geomhash":"9eb7fc9942ba5d7aafb9973facff5752",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5a6afe6a96cefec6c29bf22d3576374d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553301,
+            "region_id":85688603,
+            "venue_id":823789915
+        }
+    ],
     "wof:id":823789915,
-    "wof:lastmodified":1466419241,
+    "wof:lastmodified":1492118117,
     "wof:name":"Crown Drywall",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553301,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

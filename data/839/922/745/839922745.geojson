@@ -2,9 +2,14 @@
   "id": 839922745,
   "type": "Feature",
   "properties": {
+    "addr:full":"3151 Airport Blvd Aurora CO 80011",
+    "addr:housenumber":"3151",
+    "addr:postcode":"80011",
+    "addr:street":"Airport Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.791026,39.75679,-104.791026,39.75679",
     "geom:latitude":39.75679,
     "geom:longitude":-104.791026,
@@ -27,19 +32,36 @@
         "oil"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929235,
+        102086877,
+        420553317
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3ssg7MlUJG2TazgikcxtbB_39.756790_-104.791026@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457605,
-    "wof:geomhash":"90ab6ccce870cae53c6f322d79a4d681",
-    "wof:hierarchy":[],
+    "wof:geomhash":"64eb9f45989efbe5d353a0c84b3a3dfa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85929235,
+            "neighbourhood_id":420553317,
+            "region_id":85688603,
+            "venue_id":839922745
+        }
+    ],
     "wof:id":839922745,
-    "wof:lastmodified":1466413682,
+    "wof:lastmodified":1492113351,
     "wof:name":"Texaco Star Mart",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553317,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

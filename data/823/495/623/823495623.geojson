@@ -2,9 +2,14 @@
   "id": 823495623,
   "type": "Feature",
   "properties": {
+    "addr:full":"2403 Co Rd 203 Durango CO 81301",
+    "addr:housenumber":"2403;203",
+    "addr:postcode":"co 81301",
+    "addr:street":"Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.855205,37.335929,-107.855205,37.335929",
     "geom:latitude":37.335929,
     "geom:longitude":-107.855205,
@@ -27,19 +32,28 @@
         "passenger"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554615
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3RHq8W55eZFbWnWEPsMA4D_37.335929_-107.855205@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439448,
-    "wof:geomhash":"211e510f251d9b4345541cffd2d23825",
-    "wof:hierarchy":[],
+    "wof:geomhash":"d98f63342e35ead617a415a969f8cbac",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554615,
+            "venue_id":823495623
+        }
+    ],
     "wof:id":823495623,
-    "wof:lastmodified":1466414001,
+    "wof:lastmodified":1492120562,
     "wof:name":"Buck Horn Limousine",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554615,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

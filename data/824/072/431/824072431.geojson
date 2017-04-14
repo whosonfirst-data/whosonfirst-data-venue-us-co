@@ -2,9 +2,14 @@
   "id": 824072431,
   "type": "Feature",
   "properties": {
+    "addr:full":"8620 Norwich St Westminster CO 80031",
+    "addr:housenumber":"8620",
+    "addr:postcode":"80031",
+    "addr:street":"Norwich St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039536,39.855758,-105.039536,39.855758",
     "geom:latitude":39.855758,
     "geom:longitude":-105.039536,
@@ -27,19 +32,36 @@
         "blacksmith"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930221,
+        102084053,
+        420553829
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4PKkP2M2l0nD3mWpNhPbCh_39.855758_-105.039536@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453679,
-    "wof:geomhash":"86aab801935d907a3d269e46bd7031e3",
-    "wof:hierarchy":[],
+    "wof:geomhash":"fe0794705de00352747b653eb8cbf512",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930221,
+            "neighbourhood_id":420553829,
+            "region_id":85688603,
+            "venue_id":824072431
+        }
+    ],
     "wof:id":824072431,
-    "wof:lastmodified":1466414751,
+    "wof:lastmodified":1492129851,
     "wof:name":"Adam's Farrier Svc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553829,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

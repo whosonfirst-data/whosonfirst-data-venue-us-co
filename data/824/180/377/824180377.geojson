@@ -2,9 +2,14 @@
   "id": 824180377,
   "type": "Feature",
   "properties": {
+    "addr:full":"6855 W 56th Ave Arvada CO 80002",
+    "addr:housenumber":"6855",
+    "addr:postcode":"80002",
+    "addr:street":"W 56Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.071632,39.798294,-105.071632,39.798294",
     "geom:latitude":39.798294,
     "geom:longitude":-105.071632,
@@ -38,19 +43,34 @@
         "fastening"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        102084113,
+        420554579
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0jiQuZMwyIcbuSLvOWg91p_39.798294_-105.071632@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463457080,
-    "wof:geomhash":"a227407bdbb37ee6b54c20005a07e1cf",
-    "wof:hierarchy":[],
+    "wof:geomhash":"5f75e72b4098bac50f5cc686e5ed212c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "neighbourhood_id":420554579,
+            "region_id":85688603,
+            "venue_id":824180377
+        }
+    ],
     "wof:id":824180377,
-    "wof:lastmodified":1466418199,
+    "wof:lastmodified":1492128589,
     "wof:name":"Lectra Products Co Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554579,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

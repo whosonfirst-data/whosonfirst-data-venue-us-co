@@ -2,9 +2,14 @@
   "id": 824061379,
   "type": "Feature",
   "properties": {
+    "addr:full":"621 W 84th Ave Denver CO 80260",
+    "addr:housenumber":"621",
+    "addr:postcode":"80260",
+    "addr:street":"W 84Th Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.996187,39.849146,-104.996187,39.849146",
     "geom:latitude":39.849146,
     "geom:longitude":-104.996187,
@@ -27,19 +32,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553865
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1HsGEue9508Etn9Y9MP6Ko_39.849146_-104.996187@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453419,
-    "wof:geomhash":"e9eb0616a6b13e2ab5999c66b2552871",
-    "wof:hierarchy":[],
+    "wof:geomhash":"0cf77bdd786f754a6a2e6ad9e6477942",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553865,
+            "region_id":85688603,
+            "venue_id":824061379
+        }
+    ],
     "wof:id":824061379,
-    "wof:lastmodified":1466414431,
+    "wof:lastmodified":1492127935,
     "wof:name":"No Guilt Mexi",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553865,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

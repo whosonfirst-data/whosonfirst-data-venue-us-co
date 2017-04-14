@@ -2,9 +2,14 @@
   "id": 823775449,
   "type": "Feature",
   "properties": {
+    "addr:full":"3271 W Colorado Ave Denver CO 80219",
+    "addr:housenumber":"3271",
+    "addr:postcode":"80219",
+    "addr:street":"W Colorado Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.025606,39.685043,-105.025606,39.685043",
     "geom:latitude":39.685043,
     "geom:longitude":-105.025606,
@@ -27,19 +32,38 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871263,
+        102191575,
+        1108750033,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4R08Bp7x3AVk1lfldTC3GB_39.685043_-105.025606@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445971,
-    "wof:geomhash":"fba14b7f037a88bc03b2620872b2863c",
-    "wof:hierarchy":[],
+    "wof:geomhash":"593641096be0cf5aa57c63170590aa25",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750033,
+            "neighbourhood_id":85871263,
+            "region_id":85688603,
+            "venue_id":823775449
+        }
+    ],
     "wof:id":823775449,
-    "wof:lastmodified":1466419144,
+    "wof:lastmodified":1492120165,
     "wof:name":"Sisters Remodeling",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871263,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

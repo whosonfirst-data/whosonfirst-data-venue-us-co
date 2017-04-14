@@ -2,9 +2,14 @@
   "id": 823698543,
   "type": "Feature",
   "properties": {
+    "addr:full":"8541 Circle Dr Westminster CO 80031",
+    "addr:housenumber":"8541",
+    "addr:postcode":"80031",
+    "addr:street":"Circle Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.039235,39.850103,-105.039235,39.850103",
     "geom:latitude":39.850103,
     "geom:longitude":-105.039235,
@@ -27,19 +32,36 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084053,
+        420553605
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3vIrlhL6XeE97Er1fviMtF_39.850103_-105.039235@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444209,
-    "wof:geomhash":"91940c8cfdaace5654dd11651697b780",
-    "wof:hierarchy":[],
+    "wof:geomhash":"cdd871bc38723a49be1493c0e61fbc7e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929351,
+            "neighbourhood_id":420553605,
+            "region_id":85688603,
+            "venue_id":823698543
+        }
+    ],
     "wof:id":823698543,
-    "wof:lastmodified":1466418516,
+    "wof:lastmodified":1492116164,
     "wof:name":"Dream To Reality Remodeling",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553605,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

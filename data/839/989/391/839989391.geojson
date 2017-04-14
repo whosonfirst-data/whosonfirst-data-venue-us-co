@@ -2,9 +2,14 @@
   "id": 839989391,
   "type": "Feature",
   "properties": {
+    "addr:full":"908 Pearl St Boulder CO 80302",
+    "addr:housenumber":"908",
+    "addr:postcode":"80302",
+    "addr:street":"Pearl St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.283636,40.017122,-105.283636,40.017122",
     "geom:latitude":40.017122,
     "geom:longitude":-105.283636,
@@ -28,7 +33,14 @@
         "american"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929877,
+        102085251,
+        85876363
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3h3fortN4Zm6Q5Doqxljsk_40.017122_-105.283636@1299784598"
@@ -36,11 +48,21 @@
     "wof:country":"US",
     "wof:created":1463460786,
     "wof:geomhash":"516a2165aeb264842c6a7710088c91fe",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876363,
+            "region_id":85688603,
+            "venue_id":839989391
+        }
+    ],
     "wof:id":839989391,
-    "wof:lastmodified":1466417386,
+    "wof:lastmodified":1491897917,
     "wof:name":"Heidi's Brooklyn Deli",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876363,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823908153,
   "type": "Feature",
   "properties": {
+    "addr:full":"1759 Florida Rd Durango CO 81301",
+    "addr:housenumber":"1759",
+    "addr:postcode":"co 81301",
+    "addr:street":"Florida Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-107.841813,37.300476,-107.841813,37.300476",
     "geom:latitude":37.300476,
     "geom:longitude":-107.841813,
@@ -27,19 +32,28 @@
         "apartment"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420554611
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_5SFqpfpJXeymbmuJWbhyt1_37.300476_-107.841813@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463449677,
-    "wof:geomhash":"c33eb4b490434515d97a8dc964942410",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4ccd30b96417454f214f063e57d27823",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420554611,
+            "venue_id":823908153
+        }
+    ],
     "wof:id":823908153,
-    "wof:lastmodified":1466420234,
+    "wof:lastmodified":1492117260,
     "wof:name":"Mountain Oaks Apartments",
-    "wof:parent_id":-1,
+    "wof:parent_id":420554611,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

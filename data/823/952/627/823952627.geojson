@@ -2,9 +2,14 @@
   "id": 823952627,
   "type": "Feature",
   "properties": {
+    "addr:full":"1120 W 122nd Ave Denver CO 80234",
+    "addr:housenumber":"1120",
+    "addr:postcode":"80234",
+    "addr:street":"W 122Nd Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.999197,39.917917,-104.999197,39.917917",
     "geom:latitude":39.917917,
     "geom:longitude":-104.999197,
@@ -27,19 +32,36 @@
         "provider"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929351,
+        102084113,
+        420553781
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2gQKUGkGNvvKRkF3pKVs97_39.917917_-104.999197@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463450834,
-    "wof:geomhash":"2357fbb481654ab328ccd5a202e4475d",
-    "wof:hierarchy":[],
+    "wof:geomhash":"dfbd7d8df1cf9b7d6cb479910ae32e86",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084113,
+            "locality_id":85929351,
+            "neighbourhood_id":420553781,
+            "region_id":85688603,
+            "venue_id":823952627
+        }
+    ],
     "wof:id":823952627,
-    "wof:lastmodified":1466420723,
+    "wof:lastmodified":1492120704,
     "wof:name":"Pure Matrix Inc",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553781,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

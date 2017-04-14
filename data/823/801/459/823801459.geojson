@@ -2,9 +2,14 @@
   "id": 823801459,
   "type": "Feature",
   "properties": {
+    "addr:full":"12076 Grant St Denver CO 80241",
+    "addr:housenumber":"12076",
+    "addr:postcode":"80241",
+    "addr:street":"Grant St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.985076,39.915939,-104.985076,39.915939",
     "geom:latitude":39.915939,
     "geom:longitude":-104.985076,
@@ -27,19 +32,36 @@
         "imaging"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553883
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_4L9c3mdRXhLuE1DQM7HdCL_39.915939_-104.985076@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463446744,
-    "wof:geomhash":"d8638cebfa12713df216467a9889f3d2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"30da6373423e3b7f79d4ea8defd33b45",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553883,
+            "region_id":85688603,
+            "venue_id":823801459
+        }
+    ],
     "wof:id":823801459,
-    "wof:lastmodified":1466419410,
+    "wof:lastmodified":1492123226,
     "wof:name":"New Si LLC",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553883,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

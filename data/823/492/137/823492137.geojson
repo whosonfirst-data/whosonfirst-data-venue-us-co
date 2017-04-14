@@ -2,9 +2,14 @@
   "id": 823492137,
   "type": "Feature",
   "properties": {
+    "addr:full":"1601 Lowell Blvd Denver CO 80204",
+    "addr:housenumber":"1601",
+    "addr:postcode":"80204",
+    "addr:street":"Lowell Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.034604,39.74395,-105.034604,39.74395",
     "geom:latitude":39.74395,
     "geom:longitude":-105.034604,
@@ -25,19 +30,38 @@
     "sg:province":"CO",
     "sg:website":"www.lifecarehospitals.com",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85871267,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0KikForoOEYGkPsOBHj9P9_39.743950_-105.034604@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463439358,
-    "wof:geomhash":"50d08435d07904ed307884458ac16655",
-    "wof:hierarchy":[],
+    "wof:geomhash":"4e4a8269009656bd7099595e743c65b7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":85871267,
+            "region_id":85688603,
+            "venue_id":823492137
+        }
+    ],
     "wof:id":823492137,
-    "wof:lastmodified":1466413810,
+    "wof:lastmodified":1492127010,
     "wof:name":"Colorado Acute Spec Care Hsptl",
-    "wof:parent_id":-1,
+    "wof:parent_id":85871267,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

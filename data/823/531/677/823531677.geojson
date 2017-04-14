@@ -2,9 +2,14 @@
   "id": 823531677,
   "type": "Feature",
   "properties": {
+    "addr:full":"10886 E Berry Ave Englewood CO 80111",
+    "addr:housenumber":"10886",
+    "addr:postcode":"80111",
+    "addr:street":"E Berry Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.863847,39.616364,-104.863847,39.616364",
     "geom:latitude":39.616364,
     "geom:longitude":-104.863847,
@@ -28,17 +33,32 @@
         "manufacturer"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930649,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_0x69tCRFHyHMrjjDiq0UkJ_39.616364_-104.863847@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440285,
-    "wof:geomhash":"c9fbf915a27d7c7a842bec57c2da18fb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"c544fb91882cf925eb318c30a012b262",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930649,
+            "region_id":85688603,
+            "venue_id":823531677
+        }
+    ],
     "wof:id":823531677,
-    "wof:lastmodified":1466415252,
+    "wof:lastmodified":1492120602,
     "wof:name":"ICF",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

@@ -2,9 +2,14 @@
   "id": 824140241,
   "type": "Feature",
   "properties": {
+    "addr:full":"200 N Broadway Cortez CO 81321",
+    "addr:housenumber":"200",
+    "addr:postcode":"81321",
+    "addr:street":"N Broadway",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-108.590312,37.352942,-108.590312,37.352942",
     "geom:latitude":37.352942,
     "geom:longitude":-108.590312,
@@ -29,19 +34,28 @@
         "plate"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85633793,
+        420555129
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_33pCIFcnZpuNpZKKemZmXP_37.352942_-108.590312@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463455519,
-    "wof:geomhash":"070b49cde4b2f00547e138e7dd551d90",
-    "wof:hierarchy":[],
+    "wof:geomhash":"f5043c8971737ce8ce23ef4810c93208",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "neighbourhood_id":420555129,
+            "venue_id":824140241
+        }
+    ],
     "wof:id":824140241,
-    "wof:lastmodified":1466416514,
+    "wof:lastmodified":1492131787,
     "wof:name":"Quality Glass In Cortez",
-    "wof:parent_id":-1,
+    "wof:parent_id":420555129,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

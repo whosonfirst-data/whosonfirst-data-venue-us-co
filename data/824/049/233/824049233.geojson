@@ -2,9 +2,14 @@
   "id": 824049233,
   "type": "Feature",
   "properties": {
+    "addr:full":"585 W 53rd Pl Denver CO 80216",
+    "addr:housenumber":"585",
+    "addr:postcode":"80216",
+    "addr:street":"W 53Rd Pl",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.990958,39.794952,-104.990958,39.794952",
     "geom:latitude":39.794952,
     "geom:longitude":-104.990958,
@@ -28,19 +33,36 @@
         "contractor"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553677
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_1gtcpJ0j5hraz1Sq6wYMF4_39.794952_-104.990958@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463453150,
-    "wof:geomhash":"66977f1fadbf5d5c902720c1608de54b",
-    "wof:hierarchy":[],
+    "wof:geomhash":"445bbba067d05e90a868dbb9ce3a1162",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553677,
+            "region_id":85688603,
+            "venue_id":824049233
+        }
+    ],
     "wof:id":824049233,
-    "wof:lastmodified":1466414285,
+    "wof:lastmodified":1492130710,
     "wof:name":"Pacific Rail Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553677,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

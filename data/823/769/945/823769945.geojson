@@ -2,9 +2,14 @@
   "id": 823769945,
   "type": "Feature",
   "properties": {
+    "addr:full":"685 S Main St Brighton CO 80601",
+    "addr:housenumber":"685",
+    "addr:postcode":"80601",
+    "addr:street":"S Main St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.826523,39.973856,-104.826523,39.973856",
     "geom:latitude":39.973856,
     "geom:longitude":-104.826523,
@@ -27,19 +32,36 @@
         "mexican"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929019,
+        102084053,
+        420553351
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6yfRsoMMZNWqPkbutj9LsC_39.973856_-104.826523@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445821,
-    "wof:geomhash":"b6dbc786f35172d0ed15bcc726c638d1",
-    "wof:hierarchy":[],
+    "wof:geomhash":"66252861cf6f96c693e620732a92df6b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929019,
+            "neighbourhood_id":420553351,
+            "region_id":85688603,
+            "venue_id":823769945
+        }
+    ],
     "wof:id":823769945,
-    "wof:lastmodified":1466419220,
+    "wof:lastmodified":1492118787,
     "wof:name":"Centro Musical",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553351,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

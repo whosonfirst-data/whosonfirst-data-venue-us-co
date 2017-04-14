@@ -2,9 +2,14 @@
   "id": 839947847,
   "type": "Feature",
   "properties": {
+    "addr:full":"10380 Washington St Denver CO 80229",
+    "addr:housenumber":"10380",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977627,39.885048,-104.977627,39.885048",
     "geom:latitude":39.885048,
     "geom:longitude":-104.977627,
@@ -30,19 +35,36 @@
         "fitness"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553643
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6HcEojbs76pcvDEY681cu2_39.885048_-104.977627@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459034,
-    "wof:geomhash":"3d5d3e6dc50ecbf156407001930926eb",
-    "wof:hierarchy":[],
+    "wof:geomhash":"9c351b52700d501bf9fc322406737398",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553643,
+            "region_id":85688603,
+            "venue_id":839947847
+        }
+    ],
     "wof:id":839947847,
-    "wof:lastmodified":1466415255,
+    "wof:lastmodified":1492113035,
     "wof:name":"Curves For Women",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553643,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

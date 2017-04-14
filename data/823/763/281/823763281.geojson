@@ -2,9 +2,14 @@
   "id": 823763281,
   "type": "Feature",
   "properties": {
+    "addr:full":"4859 Dakota Blvd Boulder CO 80304",
+    "addr:housenumber":"4859",
+    "addr:postcode":"80304",
+    "addr:street":"Dakota Blvd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.285946,40.061898,-105.285946,40.061898",
     "geom:latitude":40.061898,
     "geom:longitude":-105.285946,
@@ -27,19 +32,34 @@
         "training"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        85633793,
+        85929877,
+        102085251,
+        85876375
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_67VP0yig9krKIcWJGjOhba_40.061898_-105.285946@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463445682,
-    "wof:geomhash":"f73e3e0dba85135cc66d0ed3a7eb09be",
-    "wof:hierarchy":[],
+    "wof:geomhash":"b6c62d3616b3e62926eda9983ce7fa2e",
+    "wof:hierarchy":[
+        {
+            "country_id":85633793,
+            "county_id":102085251,
+            "locality_id":85929877,
+            "neighbourhood_id":85876375,
+            "region_id":85688603,
+            "venue_id":823763281
+        }
+    ],
     "wof:id":823763281,
-    "wof:lastmodified":1466419044,
+    "wof:lastmodified":1492123168,
     "wof:name":"Mountaintop",
-    "wof:parent_id":-1,
+    "wof:parent_id":85876375,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

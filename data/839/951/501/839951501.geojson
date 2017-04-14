@@ -2,9 +2,14 @@
   "id": 839951501,
   "type": "Feature",
   "properties": {
+    "addr:full":"6425 Washington St Denver CO 80229",
+    "addr:housenumber":"6425",
+    "addr:postcode":"80229",
+    "addr:street":"Washington St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.978126,39.815957,-104.978126,39.815957",
     "geom:latitude":39.815957,
     "geom:longitude":-104.978126,
@@ -27,19 +32,36 @@
         "supply"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930255,
+        102084053,
+        420553745
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_6pt9bflGKs40Y65gwAzO2b_39.815957_-104.978126@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463459175,
-    "wof:geomhash":"5b22c3d871819615052b1c67db40107a",
-    "wof:hierarchy":[],
+    "wof:geomhash":"483c4c4281c2e8223324e8624d5e21d4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85930255,
+            "neighbourhood_id":420553745,
+            "region_id":85688603,
+            "venue_id":839951501
+        }
+    ],
     "wof:id":839951501,
-    "wof:lastmodified":1466415208,
+    "wof:lastmodified":1492113082,
     "wof:name":"Colorado Electric Supply Ltd",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553745,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

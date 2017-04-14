@@ -2,9 +2,14 @@
   "id": 824023831,
   "type": "Feature",
   "properties": {
+    "addr:full":"10791 Larry Dr Denver CO 80233",
+    "addr:housenumber":"10791",
+    "addr:postcode":"80233",
+    "addr:street":"Larry Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.973322,39.892602,-104.973322,39.892602",
     "geom:latitude":39.892602,
     "geom:longitude":-104.973322,
@@ -30,19 +35,36 @@
         "mfg"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929127,
+        102084053,
+        420553685
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_470V81G5keUs6hgNfWY4kd_39.892602_-104.973322@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463452514,
-    "wof:geomhash":"265f18e4f099104ae223abae1d12f995",
-    "wof:hierarchy":[],
+    "wof:geomhash":"8c326a6726a41235cec054c2a319cba9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929127,
+            "neighbourhood_id":420553685,
+            "region_id":85688603,
+            "venue_id":824023831
+        }
+    ],
     "wof:id":824023831,
-    "wof:lastmodified":1466413773,
+    "wof:lastmodified":1492130220,
     "wof:name":"Unlimited Manufacturing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553685,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

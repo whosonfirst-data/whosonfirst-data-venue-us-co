@@ -2,9 +2,14 @@
   "id": 823719273,
   "type": "Feature",
   "properties": {
+    "addr:full":"13302 Clarkson St Denver CO 80241",
+    "addr:housenumber":"13302",
+    "addr:postcode":"80241",
+    "addr:street":"Clarkson St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.977128,39.93816,-104.977128,39.93816",
     "geom:latitude":39.93816,
     "geom:longitude":-104.977128,
@@ -28,19 +33,36 @@
         "commercial"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929143,
+        102084053,
+        420553717
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_7IDw7ryYed3IkKDMBF1CsF_39.938160_-104.977128@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444629,
-    "wof:geomhash":"dcdc2086393ab16e45f9e3cb0bd265a5",
-    "wof:hierarchy":[],
+    "wof:geomhash":"09b3ca4ba1c61fc7ef3ccbd575123108",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929143,
+            "neighbourhood_id":420553717,
+            "region_id":85688603,
+            "venue_id":823719273
+        }
+    ],
     "wof:id":823719273,
-    "wof:lastmodified":1466418700,
+    "wof:lastmodified":1492126050,
     "wof:name":"Kidstar Printing",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553717,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823524481,
   "type": "Feature",
   "properties": {
+    "addr:full":"9740 Dallas St Henderson CO 80640",
+    "addr:housenumber":"9740",
+    "addr:postcode":"80640",
+    "addr:street":"Dallas St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.876055,39.876357,-104.876055,39.876357",
     "geom:latitude":39.876357,
     "geom:longitude":-104.876055,
@@ -30,19 +35,36 @@
         "trucking"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85929341,
+        102084053,
+        420553915
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3MeMgH1QQoNhpPWXkV3yGA_39.876357_-104.876055@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463440125,
-    "wof:geomhash":"093c68b019f0495f97c472c9ea092ea2",
-    "wof:hierarchy":[],
+    "wof:geomhash":"71e268b70b6d915abb02d4dc97ecb0f5",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102084053,
+            "locality_id":85929341,
+            "neighbourhood_id":420553915,
+            "region_id":85688603,
+            "venue_id":823524481
+        }
+    ],
     "wof:id":823524481,
-    "wof:lastmodified":1466414993,
+    "wof:lastmodified":1492121589,
     "wof:name":"Map Transportation Services",
-    "wof:parent_id":-1,
+    "wof:parent_id":420553915,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

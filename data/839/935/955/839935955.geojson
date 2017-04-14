@@ -2,9 +2,14 @@
   "id": 839935955,
   "type": "Feature",
   "properties": {
+    "addr:full":"2522 S Stuart St Denver CO 80219",
+    "addr:housenumber":"2522",
+    "addr:postcode":"80219",
+    "addr:street":"S Stuart St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-105.042713,39.672016,-105.042713,39.672016",
     "geom:latitude":39.672016,
     "geom:longitude":-105.042713,
@@ -24,7 +29,15 @@
     "sg:postcode":"80219",
     "sg:province":"CO",
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        1108750083,
+        102191575,
+        1108750025,
+        85633793,
+        85928879,
+        102086135,
+        85688603
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_3rgotDECoSGQxM2dkt5QLs_39.672016_-105.042713@1294083659"
@@ -32,11 +45,22 @@
     "wof:country":"US",
     "wof:created":1463458274,
     "wof:geomhash":"58bf7e6cbb7eeca699a2f09bec39220d",
-    "wof:hierarchy":[],
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086135,
+            "locality_id":85928879,
+            "macrohood_id":1108750025,
+            "neighbourhood_id":1108750083,
+            "region_id":85688603,
+            "venue_id":839935955
+        }
+    ],
     "wof:id":839935955,
-    "wof:lastmodified":1466414338,
+    "wof:lastmodified":1486593721,
     "wof:name":"Smart Spaces",
-    "wof:parent_id":-1,
+    "wof:parent_id":1108750083,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
     "wof:superseded_by":[],

@@ -2,9 +2,14 @@
   "id": 823721549,
   "type": "Feature",
   "properties": {
+    "addr:full":"6751 S Co Rd 129 Bennett CO 80102",
+    "addr:housenumber":"6751;129",
+    "addr:postcode":"bennett;80102",
+    "addr:street":"S Co Rd",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
+    "geom:area_square_m":0.0,
     "geom:bbox":"-104.455044,39.592341,-104.455044,39.592341",
     "geom:latitude":39.592341,
     "geom:longitude":-104.455044,
@@ -27,17 +32,32 @@
         "house"
     ],
     "src:geom":"simplegeo",
-    "wof:belongsto":[],
+    "wof:belongsto":[
+        85688603,
+        102191575,
+        85633793,
+        85930663,
+        102086877
+    ],
     "wof:breaches":[],
     "wof:concordances":{
         "sg:id":"SG_2u3ynR8149Uz9695Tx4bAs_39.592341_-104.455044@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444680,
-    "wof:geomhash":"cc5e96941b2af055232b9c3c2353fd66",
-    "wof:hierarchy":[],
+    "wof:geomhash":"96d118440d5920bed0e1cb15e59d388e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191575,
+            "country_id":85633793,
+            "county_id":102086877,
+            "locality_id":85930663,
+            "region_id":85688603,
+            "venue_id":823721549
+        }
+    ],
     "wof:id":823721549,
-    "wof:lastmodified":1466418722,
+    "wof:lastmodified":1492121564,
     "wof:name":"Wilson Construction",
     "wof:parent_id":-1,
     "wof:placetype":"venue",

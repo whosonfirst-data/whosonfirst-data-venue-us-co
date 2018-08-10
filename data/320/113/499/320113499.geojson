@@ -2,17 +2,22 @@
   "id": 320113499,
   "type": "Feature",
   "properties": {
-    "addr:full":"1310 Bannock St Denver CO 80204",
+    "addr:city":"Denver",
+    "addr:full":"1310 Bannock St Denver, Co 80204",
+    "addr:house_number":"1310",
     "addr:housenumber":"1310",
+    "addr:phone":"+1 303-620-4933",
     "addr:postcode":"80204",
+    "addr:road":"Bannock St",
+    "addr:state":"CO",
     "addr:street":"Bannock St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
     "geom:area_square_m":0.0,
-    "geom:bbox":"-104.989839,39.737093,-104.989839,39.737093",
-    "geom:latitude":39.737093,
-    "geom:longitude":-104.989839,
+    "geom:bbox":"-104.98983,39.73709,-104.98983,39.73709",
+    "geom:latitude":39.73709,
+    "geom:longitude":-104.98983,
     "iso:country":"US",
     "mz:hierarchy_label":1,
     "mz:is_current":1,
@@ -39,7 +44,12 @@
         "historical"
     ],
     "sg:website":"www.coloradohistory.org/be",
-    "src:geom":"simplegeo",
+    "src:geom":"mudf",
+    "wof:airports":[
+        102531233,
+        102534251,
+        102532767
+    ],
     "wof:belongsto":[
         85871371,
         102191575,
@@ -51,11 +61,12 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "mudf:mid":8400800131,
         "osm:way":315707594,
         "sg:id":"SG_5urtJFP1oL4MuHXXNm4w0l_39.737093_-104.989839@1303263084"
     },
     "wof:country":"US",
-    "wof:geomhash":"21162777f9f3097e114416c7de6132cc",
+    "wof:geomhash":"86304338858ca3b1922b701cb8a4e8f0",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -69,8 +80,8 @@
         }
     ],
     "wof:id":320113499,
-    "wof:lastmodified":1510941256,
-    "wof:name":"Byers-Evans House Museum",
+    "wof:lastmodified":1533932425,
+    "wof:name":"Byers-Evans House",
     "wof:parent_id":85871371,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
@@ -82,10 +93,10 @@
     ]
 },
   "bbox": [
-    -104.989839,
-    39.737093,
-    -104.989839,
-    39.737093
+    -104.98983,
+    39.73709,
+    -104.98983,
+    39.73709
 ],
-  "geometry": {"coordinates":[-104.989839,39.737093],"type":"Point"}
+  "geometry": {"coordinates":[-104.98983,39.73709],"type":"Point"}
 }

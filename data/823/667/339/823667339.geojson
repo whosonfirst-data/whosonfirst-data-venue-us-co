@@ -2,19 +2,24 @@
   "id": 823667339,
   "type": "Feature",
   "properties": {
-    "addr:full":"3455 Nuckolls Ave Pueblo CO 81005",
+    "addr:city":"Pueblo",
+    "addr:full":"3455 Nuckolls Ave Pueblo, Co 81005-1234",
+    "addr:house_number":"3455",
     "addr:housenumber":"3455",
-    "addr:postcode":"81005",
+    "addr:postcode":"81005-1234",
+    "addr:road":"Nuckolls Ave",
+    "addr:state":"CO",
     "addr:street":"Nuckolls Ave",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
     "geom:area_square_m":0.0,
-    "geom:bbox":"-104.65952,38.260289,-104.65952,38.260289",
-    "geom:latitude":38.260289,
-    "geom:longitude":-104.65952,
+    "geom:bbox":"-104.65369,38.26035,-104.65369,38.26035",
+    "geom:latitude":38.26035,
+    "geom:longitude":-104.65369,
     "iso:country":"US",
     "mz:hierarchy_label":1,
+    "mz:is_current":1,
     "sg:address":"3455 Nuckolls Ave",
     "sg:city":"Pueblo",
     "sg:classifiers":[
@@ -36,7 +41,10 @@
         "pueblo"
     ],
     "sg:website":"www.pueblozoo.org",
-    "src:geom":"simplegeo",
+    "src:geom":"mudf",
+    "wof:airports":[
+        102532457
+    ],
     "wof:belongsto":[
         85688603,
         102191575,
@@ -46,11 +54,12 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "mudf:mid":8400800433,
         "sg:id":"SG_74z7ikeFuAHBg7ashNCA22_38.260289_-104.659520@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463443509,
-    "wof:geomhash":"b038bc9ff11fb8433589bbfaccbfe4f1",
+    "wof:geomhash":"01cdc21b00bed7c58153712f3037439d",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -62,7 +71,7 @@
         }
     ],
     "wof:id":823667339,
-    "wof:lastmodified":1492127133,
+    "wof:lastmodified":1533932425,
     "wof:name":"Pueblo Zoo",
     "wof:parent_id":-1,
     "wof:placetype":"venue",
@@ -78,10 +87,10 @@
     ]
 },
   "bbox": [
-    -104.65952,
-    38.260289,
-    -104.65952,
-    38.260289
+    -104.65369,
+    38.26035,
+    -104.65369,
+    38.26035
 ],
-  "geometry": {"coordinates":[-104.65952,38.260289],"type":"Point"}
+  "geometry": {"coordinates":[-104.65369,38.26035],"type":"Point"}
 }

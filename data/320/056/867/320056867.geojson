@@ -2,17 +2,22 @@
   "id": 320056867,
   "type": "Feature",
   "properties": {
-    "addr:full":"1485 Delgany St Denver CO 80202",
+    "addr:city":"Denver",
+    "addr:full":"1485 Delgany St Denver, Co 80202-1100",
+    "addr:house_number":"1485",
     "addr:housenumber":"1485",
-    "addr:postcode":"80202",
+    "addr:phone":"+1 303-298-7554",
+    "addr:postcode":"80202-1100",
+    "addr:road":"Delgany St",
+    "addr:state":"CO",
     "addr:street":"Delgany St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
     "geom:area_square_m":0.0,
-    "geom:bbox":"-105.004056,39.752154,-105.004056,39.752154",
-    "geom:latitude":39.752154,
-    "geom:longitude":-105.004056,
+    "geom:bbox":"-105.00459,39.75226,-105.00459,39.75226",
+    "geom:latitude":39.75226,
+    "geom:longitude":-105.00459,
     "iso:country":"US",
     "mz:hierarchy_label":1,
     "mz:is_current":1,
@@ -30,7 +35,11 @@
     "sg:postcode":"80202",
     "sg:province":"CO",
     "sg:website":"www.mcadenver.org",
-    "src:geom":"simplegeo",
+    "src:geom":"mudf",
+    "wof:airports":[
+        102531233,
+        102534251
+    ],
     "wof:belongsto":[
         1108748667,
         85871287,
@@ -43,11 +52,12 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "mudf:mid":8400800578,
         "osm:way":296415802,
         "sg:id":"SG_4RHAik5QwL32WPU9HMhDuA_39.752154_-105.004056@1303263083"
     },
     "wof:country":"US",
-    "wof:geomhash":"e0684b4827534bb48f9c339703dc1092",
+    "wof:geomhash":"05b3b00c82a1afae9c11b4812ead3e5e",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -62,8 +72,8 @@
         }
     ],
     "wof:id":320056867,
-    "wof:lastmodified":1510944084,
-    "wof:name":"Museum of Contemporary Art Denver",
+    "wof:lastmodified":1533932426,
+    "wof:name":"Mca Denver",
     "wof:parent_id":1108748667,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
@@ -72,10 +82,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -105.004056,
-    39.752154,
-    -105.004056,
-    39.752154
+    -105.00459,
+    39.75226,
+    -105.00459,
+    39.75226
 ],
-  "geometry": {"coordinates":[-105.00405600000001,39.752154],"type":"Point"}
+  "geometry": {"coordinates":[-105.00458999999999,39.75226],"type":"Point"}
 }

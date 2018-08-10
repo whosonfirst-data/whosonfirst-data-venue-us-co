@@ -2,19 +2,25 @@
   "id": 320137077,
   "type": "Feature",
   "properties": {
-    "addr:full":"2300 Steele St Denver CO 80205",
+    "addr:city":"Denver",
+    "addr:full":"2300 Steele Street Denver, Co 80205-4899",
+    "addr:house_number":"2300",
     "addr:housenumber":"2300",
-    "addr:postcode":"80205",
+    "addr:phone":"+1 720-337-1481",
+    "addr:postcode":"80205-4899",
+    "addr:road":"Steele Street",
+    "addr:state":"CO",
     "addr:street":"Steele St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
     "geom:area_square_m":0.0,
-    "geom:bbox":"-104.949913,39.75444,-104.949913,39.75444",
-    "geom:latitude":39.75444,
-    "geom:longitude":-104.949913,
+    "geom:bbox":"-104.95001,39.75134,-104.95001,39.75134",
+    "geom:latitude":39.75134,
+    "geom:longitude":-104.95001,
     "iso:country":"US",
     "mz:hierarchy_label":1,
+    "mz:is_current":1,
     "sg:address":"2300 Steele St",
     "sg:city":"Denver",
     "sg:classifiers":[
@@ -37,7 +43,12 @@
         "attraction"
     ],
     "sg:website":"http://www.denverzoo.org/visitors/events.asp",
-    "src:geom":"simplegeo",
+    "src:geom":"mudf",
+    "wof:airports":[
+        102531233,
+        102534251,
+        102532767
+    ],
     "wof:belongsto":[
         85871323,
         102191575,
@@ -49,10 +60,11 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "mudf:mid":8409500057,
         "sg:id":"SG_3a6ixHasoee52wIK9nhMsM_39.754440_-104.949913@1303263085"
     },
     "wof:country":"US",
-    "wof:geomhash":"33ffbf543edd22f460028cc3029a4a9f",
+    "wof:geomhash":"1ff9d16c8ea886534831649091012858",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -66,7 +78,7 @@
         }
     ],
     "wof:id":320137077,
-    "wof:lastmodified":1486588777,
+    "wof:lastmodified":1533932426,
     "wof:name":"Denver Zoo",
     "wof:parent_id":85871323,
     "wof:placetype":"venue",
@@ -78,10 +90,10 @@
     ]
 },
   "bbox": [
-    -104.949913,
-    39.75444,
-    -104.949913,
-    39.75444
+    -104.95001,
+    39.75134,
+    -104.95001,
+    39.75134
 ],
-  "geometry": {"coordinates":[-104.949913,39.75444],"type":"Point"}
+  "geometry": {"coordinates":[-104.95001000000001,39.75134],"type":"Point"}
 }

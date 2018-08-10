@@ -2,17 +2,22 @@
   "id": 839986109,
   "type": "Feature",
   "properties": {
-    "addr:full":"861 Santa Fe Dr Denver CO 80204",
+    "addr:city":"Denver",
+    "addr:full":"861 Santa Fe Dr Denver, Co 80204-4344",
+    "addr:house_number":"861",
     "addr:housenumber":"861",
-    "addr:postcode":"80204",
+    "addr:phone":"+1 303-571-4401",
+    "addr:postcode":"80204-4344",
+    "addr:road":"Santa Fe Dr",
+    "addr:state":"CO",
     "addr:street":"Santa Fe Dr",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
     "geom:area_square_m":0.0,
-    "geom:bbox":"-104.999063,39.730048,-104.999063,39.730048",
-    "geom:latitude":39.730048,
-    "geom:longitude":-104.999063,
+    "geom:bbox":"-104.99906,39.72994,-104.99906,39.72994",
+    "geom:latitude":39.72994,
+    "geom:longitude":-104.99906,
     "iso:country":"US",
     "mz:hierarchy_label":1,
     "mz:is_current":1,
@@ -30,7 +35,12 @@
     "sg:postcode":"80204",
     "sg:province":"CO",
     "sg:website":"museo.org",
-    "src:geom":"simplegeo",
+    "src:geom":"mudf",
+    "wof:airports":[
+        102531233,
+        102534251,
+        102532767
+    ],
     "wof:belongsto":[
         420554319,
         102191575,
@@ -42,12 +52,13 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "mudf:mid":8400800533,
         "osm:node":366394539,
         "sg:id":"SG_7Xkj5rh1jqB4ifVZbb5PCE_39.729524_-104.998696@1293134755"
     },
     "wof:country":"US",
     "wof:created":1463460658,
-    "wof:geomhash":"b5bc7ea600741f9c7062dfa2a01da7a6",
+    "wof:geomhash":"3e0d1b1a9cc9b1954f720e01cd1a4b72",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -61,7 +72,7 @@
         }
     ],
     "wof:id":839986109,
-    "wof:lastmodified":1510942619,
+    "wof:lastmodified":1533932425,
     "wof:name":"Museo De Las Americas",
     "wof:parent_id":420554319,
     "wof:placetype":"venue",
@@ -71,10 +82,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -104.999063,
-    39.730048,
-    -104.999063,
-    39.730048
+    -104.99906,
+    39.72994,
+    -104.99906,
+    39.72994
 ],
-  "geometry": {"coordinates":[-104.99906300000001,39.730048],"type":"Point"}
+  "geometry": {"coordinates":[-104.99906,39.72994],"type":"Point"}
 }

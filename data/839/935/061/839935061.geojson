@@ -2,19 +2,25 @@
   "id": 839935061,
   "type": "Feature",
   "properties": {
-    "addr:full":"1616 17th St Denver CO 80202",
+    "addr:city":"Denver",
+    "addr:full":"1616 Seventeenth Street Denver, Co 80202-1271",
+    "addr:house_number":"1616",
     "addr:housenumber":"1616",
-    "addr:postcode":"80202",
+    "addr:phone":"+1 303-628-5428",
+    "addr:postcode":"80202-1271",
+    "addr:road":"Seventeenth Street",
+    "addr:state":"CO",
     "addr:street":"17Th St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
     "geom:area_square_m":0.0,
-    "geom:bbox":"-104.999669,39.752688,-104.999669,39.752688",
-    "geom:latitude":39.752688,
-    "geom:longitude":-104.999669,
+    "geom:bbox":"-104.99901,39.75221,-104.99901,39.75221",
+    "geom:latitude":39.75221,
+    "geom:longitude":-104.99901,
     "iso:country":"US",
     "mz:hierarchy_label":1,
+    "mz:is_current":1,
     "sg:address":"1616 17th St",
     "sg:city":"Denver",
     "sg:classifiers":[
@@ -37,7 +43,11 @@
         "consultant",
         "social"
     ],
-    "src:geom":"simplegeo",
+    "src:geom":"mudf",
+    "wof:airports":[
+        102531233,
+        102534251
+    ],
     "wof:belongsto":[
         1108749017,
         85871287,
@@ -50,11 +60,12 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "mudf:mid":8400800492,
         "sg:id":"SG_7WkQASzeOILgC4BIgrIOtn_39.752688_-104.999669@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463458229,
-    "wof:geomhash":"d9e01f3f27cdb7ca6338c9136077cbeb",
+    "wof:geomhash":"e5b8078afb66c07934ed525af1458357",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -69,8 +80,8 @@
         }
     ],
     "wof:id":839935061,
-    "wof:lastmodified":1486593953,
-    "wof:name":"Lodo District Inc",
+    "wof:lastmodified":1533932380,
+    "wof:name":"Lodo District",
     "wof:parent_id":1108749017,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
@@ -82,10 +93,10 @@
     ]
 },
   "bbox": [
-    -104.999669,
-    39.752688,
-    -104.999669,
-    39.752688
+    -104.99901,
+    39.75221,
+    -104.99901,
+    39.75221
 ],
-  "geometry": {"coordinates":[-104.999669,39.752688],"type":"Point"}
+  "geometry": {"coordinates":[-104.99901,39.75221],"type":"Point"}
 }

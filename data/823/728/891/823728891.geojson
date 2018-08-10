@@ -2,19 +2,25 @@
   "id": 823728891,
   "type": "Feature",
   "properties": {
-    "addr:full":"1615 California St Denver CO 80202",
+    "addr:city":"Denver",
+    "addr:full":"1615 California St Denver, Co 80202",
+    "addr:house_number":"1615",
     "addr:housenumber":"1615",
+    "addr:phone":"+1 303-623-3001",
     "addr:postcode":"80202",
+    "addr:road":"California St",
+    "addr:state":"CO",
     "addr:street":"California St",
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.0,
     "geom:area_square_m":0.0,
-    "geom:bbox":"-104.991155,39.746039,-104.991155,39.746039",
-    "geom:latitude":39.746039,
-    "geom:longitude":-104.991155,
+    "geom:bbox":"-104.99208,39.7454,-104.99208,39.7454",
+    "geom:latitude":39.7454,
+    "geom:longitude":-104.99208,
     "iso:country":"US",
     "mz:hierarchy_label":1,
+    "mz:is_current":1,
     "sg:address":"1615 California St",
     "sg:city":"Denver",
     "sg:classifiers":[
@@ -28,7 +34,12 @@
     "sg:phone":"+1 303 534 7900",
     "sg:postcode":"80202",
     "sg:province":"CO",
-    "src:geom":"simplegeo",
+    "src:geom":"mudf",
+    "wof:airports":[
+        102531233,
+        102534251,
+        102532767
+    ],
     "wof:belongsto":[
         85871293,
         102191575,
@@ -40,11 +51,12 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "mudf:mid":8400800093,
         "sg:id":"SG_29A9Q2q5HmFGlbJC4xOZju_39.746039_-104.991155@1294083659"
     },
     "wof:country":"US",
     "wof:created":1463444867,
-    "wof:geomhash":"19379eaf41219b2fe6f65a2dbc525ae9",
+    "wof:geomhash":"3764c04e95c93df3c83ec046b376e3aa",
     "wof:hierarchy":[
         {
             "continent_id":102191575,
@@ -58,8 +70,8 @@
         }
     ],
     "wof:id":823728891,
-    "wof:lastmodified":1491887920,
-    "wof:name":"Dikeou Realty",
+    "wof:lastmodified":1533932425,
+    "wof:name":"Dikeou Investments",
     "wof:parent_id":85871293,
     "wof:placetype":"venue",
     "wof:repo":"whosonfirst-data-venue-us-co",
@@ -68,10 +80,10 @@
     "wof:tags":[]
 },
   "bbox": [
-    -104.991155,
-    39.746039,
-    -104.991155,
-    39.746039
+    -104.99208,
+    39.7454,
+    -104.99208,
+    39.7454
 ],
-  "geometry": {"coordinates":[-104.99115500000001,39.746039],"type":"Point"}
+  "geometry": {"coordinates":[-104.99208,39.7454],"type":"Point"}
 }
